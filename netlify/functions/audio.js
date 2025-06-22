@@ -11,23 +11,20 @@ const s3 = new S3({
 const bucketName = process.env.OSS_BUCKET;
 
 exports.handler = async (event) => {
-  const folder = event.queryStringParameters?.folder;
   const file = event.queryStringParameters?.file;
 
-  if (!file || !folder) {
+  if (!file) {
     return {
       statusCode: 400,
-      body: 'Missing "folder" or "file" parameter',
+      body: 'Missing "file" parameter in query string',
     };
   }
-
-  const key = `${decodeURIComponent(folder)}/${decodeURIComponent(file)}`;
 
   try {
     const signedUrl = s3.getSignedUrl("getObject", {
       Bucket: bucketName,
-      Key: key,
-      Expires: 60, // valid for 60 seconds
+      Key: `audio/${file}`, // Adjust if your bucket structure is different
+      Expires: 60, // Link expires in 60 seconds
     });
 
     return {
@@ -38,7 +35,7 @@ exports.handler = async (event) => {
       },
     };
   } catch (err) {
-    console.error("Error generating signed URL", err);
+    console.error("Error generating signed URL:", err);
     return {
       statusCode: 500,
       body: "Error generating signed URL: " + err.message,

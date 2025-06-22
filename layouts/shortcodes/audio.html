@@ -1,11 +1,13 @@
-{{ $src := .Get "src" }} {{/* Get full relative path to the content file */}} {{
-$path := .Page.File.Path }} {{/* Extract the book name: assumes structure like
-'content/book1/...' */}} {{ $segments := split $path "/" }} {{ $book := index
-$segments 0 }} {{/* Compose the full URL using the dynamic book name */}} {{
-$url := printf "https://xiangcaoshan.netlify.app/.netlify/functions/%s?file=%s"
-$book ($src | urlquery) }}
+{{/* Get the src parameter (e.g. "1.mp3") */}} {{ $src := .Get "src" }} {{ $path
+:= .Page.File.Path }} {{ $segments := split $path "/" }} {{ $folder := index
+$segments 0 }} {{/* Build the relative file path for the function call */}} {{
+$filePath := printf "%s/%s" $folder $src }} {{/* URL-encode the file path to be
+safe in query string */}} {{ $encodedFilePath := urlquery $filePath }} {{/*
+Compose the full URL to your Netlify function */}} {{ $url := printf
+"https://xiangcaoshan.netlify.app/.netlify/functions/audio?file=%s"
+$encodedFilePath }}
 
-<audio controls>
+<audio controls preload="metadata">
   <source src="{{ $url }}" type="audio/mpeg" />
   Your browser does not support the audio element.
 </audio>
