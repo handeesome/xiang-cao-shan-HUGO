@@ -1,0 +1,136 @@
+// Make section index page bold in menu
+.book-menu a {
+  &.book-section-index {
+    font-weight: bold;
+  }
+}
+.search-scope {
+  margin-top: 0.25rem;
+
+  .book-search-scope {
+    color: var(--gray-500);
+    font-size: 0.75rem;
+    opacity: 1;
+  }
+}
+
+// Optional: Different styling based on section
+.book-search[data-section="基督是我们的满足"] .book-search-scope {
+  color: #3b82f6; // Blue for book1
+}
+
+.book-search[data-section="book2"] .book-search-scope {
+  color: #10b981; // Green for book2
+}
+
+.book-search[data-section="book3"] .book-search-scope {
+  color: #f59e0b; // Orange for book3
+}
+
+/* Center all headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  margin: 2rem 0 1.5rem 0;
+}
+
+/* Style horizontal rules (---) */
+hr {
+  border: none;
+  border-top: 2px solid #e0e0e0;
+  margin: 3rem auto;
+  width: 50%;
+}
+
+/* Center blockquotes */
+blockquote {
+  text-align: center;
+  font-style: italic;
+  border-left: 4px solid #007acc;
+  padding-left: 1rem;
+  margin: 2rem auto;
+}
+
+.book-brand {
+  text-align: center !important;
+}
+.book-brand .flex {
+  justify-content: center !important;
+}
+
+@import "plugins/scrollbars";
+
+html,
+body {
+  height: 100%;
+}
+
+.book-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0;
+}
+.book-page main {
+  flex: 1; // This pushes the footer down
+}
+.book-footer {
+  margin-top: auto;
+  padding: 2rem 0 1rem;
+  border-top: 1px solid var(--gray-200);
+
+  .book-footer-content {
+    max-width: 100%;
+  }
+
+  .book-pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    gap: 1rem;
+
+    a {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      text-decoration: none;
+      padding: 0.75rem 1rem;
+      border: 1px solid var(--gray-200);
+      border-radius: 0.375rem;
+      transition: all 0.2s;
+      min-width: 0;
+      flex: 1;
+
+      &:hover {
+        background-color: var(--gray-100);
+        border-color: var(--color-link);
+      }
+
+      &.book-prev {
+        justify-content: flex-start;
+      }
+
+      &.book-next {
+        justify-content: flex-end;
+      }
+    }
+  }
+
+  .book-footer-info {
+    text-align: center;
+    font-size: 0.875rem;
+    color: var(--gray-500);
+
+    p {
+      margin: 0.25rem 0;
+    }
+  }
+}
+
+.book-comments {
+  margin-top: 0;
+}

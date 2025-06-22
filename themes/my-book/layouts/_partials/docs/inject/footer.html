@@ -1,0 +1,21 @@
+<div class="book-custom-footer">
+  <!-- Navigation buttons -->
+  <div class="book-pagination">
+    {{ with .NextInSection }}
+    <a href="{{ .RelPermalink }}" class="book-prev">
+      <span>←</span>
+      <span>{{ .Title }}</span>
+    </a>
+    {{ end }}{{ with .PrevInSection }}
+    <a href="{{ .RelPermalink }}" class="book-next">
+      <span>{{ .Title }}</span>
+      <span>→</span>
+    </a>
+    {{ end }}
+  </div>
+
+  <!-- Additional footer info -->
+  <div class="book-footer-info">
+    <p>&copy; {{ now.Format "2006" }} 香草山. All rights reserved.</p>
+  </div>
+</div>

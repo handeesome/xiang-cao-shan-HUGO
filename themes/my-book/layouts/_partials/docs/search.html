@@ -1,0 +1,24 @@
+{{ if default true .Site.Params.BookSearch }}
+<div class="book-search hidden">
+  <input
+    type="text"
+    id="book-search-input"
+    placeholder="{{ if .Section }}在 {{ .Section }} 中查找{{ else }}在整个书架中查找{{ end }}"
+    aria-label="{{ if .Section }}在 {{ .Section }} 中查找{{ else }}在整个书架中查找{{ end }}"
+    maxlength="64"
+    data-hotkeys="s/"
+    data-section="{{ .Section }}" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+  <div class="search-scope">
+    {{ if .Section }}
+    <small class="book-search-scope">📖 在 {{ .Section }} 中查找</small>
+    {{ else }}
+    <small class="book-search-scope">🔍 在整个书架中查找</small>
+    {{ end }}
+  </div>
+</div>
+<script>
+  document.querySelector(".book-search").classList.remove("hidden");
+</script>
+{{ end }}
