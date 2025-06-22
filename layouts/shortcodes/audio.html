@@ -2,7 +2,7 @@
 $path := .Page.File.Path }} {{/* Extract the book name: assumes structure like
 'content/book1/...' */}} {{ $segments := split $path "/" }} {{ $book := index
 $segments 0 }} {{/* Compose the full URL using the dynamic book name */}} {{
-$url := printf "https://nituosheng.netlify.app/.netlify/functions/%s?file=%s"
+$url := printf "https://xiangcaoshan.netlify.app/.netlify/functions/%s?file=%s"
 $book ($src | urlquery) }}
 
 <audio controls>
