@@ -191,3 +191,21 @@ a img:hover {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: 0.3s ease;
 }
+
+/* Make sure the image is not hidden */
+body > img.banner-header {
+  display: block;
+  width: 100%;
+  max-height: 450px;
+  object-fit: cover;
+  object-position: top;
+  border-bottom: 1px solid #ddd;
+  z-index: 1;
+  position: relative;
+}
+
+/* Prevent main from overlapping */
+main.container {
+  margin-top: 0; /* Just in case */
+  position: relative;
+}
