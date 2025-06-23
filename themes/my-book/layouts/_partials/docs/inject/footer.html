@@ -1,12 +1,18 @@
+{{ $currentPage := . }} {{ $allPagesByWeight := .CurrentSection.Pages.ByWeight
+}} {{/* Get all pages in the section, sorted by weight ascending */}} {{
+$prev10WeightPage := "" }} {{ $next10WeightPage := "" }} {{ range
+$allPagesByWeight }} {{ if eq .Weight (sub $currentPage.Weight 10) }} {{
+$prev10WeightPage = . }} {{ end }} {{ if eq .Weight (add $currentPage.Weight 10)
+}} {{ $next10WeightPage = . }} {{ end }} {{ end }}
+
 <div class="book-custom-footer">
-  <!-- Navigation buttons -->
   <div class="book-pagination">
-    {{ with .NextInSection }}
+    {{ with $prev10WeightPage }}
     <a href="{{ .RelPermalink }}" class="book-prev">
       <span>←</span>
       <span>{{ .Title }}</span>
     </a>
-    {{ end }}{{ with .PrevInSection }}
+    {{ end }} {{ with $next10WeightPage }}
     <a href="{{ .RelPermalink }}" class="book-next">
       <span>{{ .Title }}</span>
       <span>→</span>
@@ -14,7 +20,6 @@
     {{ end }}
   </div>
 
-  <!-- Additional footer info -->
   <div class="book-footer-info">
     <p>&copy; {{ now.Format "2006" }} 香草山. All rights reserved.</p>
   </div>

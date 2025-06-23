@@ -8,8 +8,9 @@
 
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
+  {{ if .IsHome}}
   <img src="/images/banner.png" alt="香草山横幅图" class="banner-header">
-
+  {{ end }}
   <main class="container flex">
     <aside class="book-menu">
       <div class="book-menu-content">

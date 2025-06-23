@@ -14,19 +14,6 @@
   }
 }
 
-// Optional: Different styling based on section
-.book-search[data-section="基督是我们的满足"] .book-search-scope {
-  color: #3b82f6; // Blue for book1
-}
-
-.book-search[data-section="book2"] .book-search-scope {
-  color: #10b981; // Green for book2
-}
-
-.book-search[data-section="book3"] .book-search-scope {
-  color: #f59e0b; // Orange for book3
-}
-
 /* Center all headings */
 h1,
 h2,
@@ -175,7 +162,8 @@ audio {
 
     img {
       width: 150px;
-      height: auto;
+      height: 250px;
+      object-fit: cover;
     }
   }
 }
@@ -208,4 +196,19 @@ body > img.banner-header {
 main.container {
   margin-top: 0; /* Just in case */
   position: relative;
+}
+
+a.anchor {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .book-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: var(--book-background-color, white);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
 }
