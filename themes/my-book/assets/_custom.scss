@@ -138,3 +138,56 @@ body {
 audio {
   width: 100%;
 }
+
+.book-shelf {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 20px;
+  justify-items: center; // align items to the left
+  justify-content: start; // align grid to the left
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .book-shelf {
+    grid-template-columns: repeat(5, 1fr); // 5 columns on desktop
+  }
+}
+
+/* Mobile fallback (already handled by auto-fill, but you can specify) */
+@media (max-width: 767px) {
+  .book-shelf {
+    grid-template-columns: repeat(2, 1fr); // 2 columns on small screens
+  }
+}
+.book-cover {
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+
+  a {
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    &:hover {
+      text-decoration: none;
+    }
+
+    img {
+      width: 150px;
+      height: auto;
+    }
+  }
+}
+.book-name {
+  margin-top: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+a img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease;
+}

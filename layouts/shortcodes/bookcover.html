@@ -1,0 +1,11 @@
+<div class="book-cover">
+  <a href="{{ .Get "url" }}">
+    <img 
+      src="{{ .Get "image" }}" 
+      alt="{{ .Get "title" }}" 
+    />
+    <div class="book-name" >
+      {{ .Get "title" }}
+    </div>
+  </a>
+</div>
