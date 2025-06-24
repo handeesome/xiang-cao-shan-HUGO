@@ -1,11 +1,13 @@
-{{ $currentPage := . }} {{ $allPagesByWeight := .CurrentSection.Pages.ByWeight
-}} {{/* Get all pages in the section, sorted by weight ascending */}} {{
-$prev10WeightPage := "" }} {{ $next10WeightPage := "" }} {{ range
-$allPagesByWeight }} {{ if eq .Weight (sub $currentPage.Weight 10) }} {{
-$prev10WeightPage = . }} {{ end }} {{ if eq .Weight (add $currentPage.Weight 10)
-}} {{ $next10WeightPage = . }} {{ end }} {{ end }}
+{{ $currentPage := . }} {{ $section := .Section }}
 
 <div class="book-custom-footer">
+  {{ if eq $section "效法基督" }} {{ $allPagesByWeight :=
+  .CurrentSection.Pages.ByWeight }} {{ $prev10WeightPage := "" }} {{
+  $next10WeightPage := "" }} {{ range $allPagesByWeight }} {{ if eq .Weight (sub
+  $currentPage.Weight 10) }} {{ $prev10WeightPage = . }} {{ end }} {{ if eq
+  .Weight (add $currentPage.Weight 10) }} {{ $next10WeightPage = . }} {{ end }}
+  {{ end }}
+
   <div class="book-pagination">
     {{ with $prev10WeightPage }}
     <a href="{{ .RelPermalink }}" class="book-prev">
@@ -19,6 +21,22 @@ $prev10WeightPage = . }} {{ end }} {{ if eq .Weight (add $currentPage.Weight 10)
     </a>
     {{ end }}
   </div>
+
+  {{ else }} {{ $pages := .CurrentSection.Pages.ByWeight.Reverse }}
+  <div class="book-pagination">
+    {{ with $pages.Prev . }}
+    <a href="{{ .RelPermalink }}" class="book-prev">
+      <span>←</span>
+      <span>{{ .Title }}</span>
+    </a>
+    {{ end }} {{ with $pages.Next . }}
+    <a href="{{ .RelPermalink }}" class="book-next">
+      <span>{{ .Title }}</span>
+      <span>→</span>
+    </a>
+    {{ end }}
+  </div>
+  {{ end }}
 
   <div class="book-footer-info">
     <p>&copy; {{ now.Format "2006" }} 香草山. All rights reserved.</p>
