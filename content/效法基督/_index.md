@@ -1,7 +1,7 @@
 ---
 title: 效法基督
 weight: 1
-footer_button:
+footer_button_next:
   href: "scroll1/01_02_效法基督_论自卑/"
   text: "第一章 效法基督与轻看世界的虚荣"
 ---

@@ -9,19 +9,24 @@
   {{ end }}
 
   <div class="book-pagination">
-    {{ with $prev10WeightPage }}
+    {{ if $prev10WeightPage }}
     <a href="{{ .RelPermalink }}" class="book-prev">
       <span>←</span>
       <span>{{ .Title }}</span>
+    </a>
+    {{ else if .Params.footer_button_prev }}
+    <a href="{{ .Params.footer_button_prev.href }}" class="book-prev">
+      <span>←</span>
+      <span>{{ .Params.footer_button_prev.text }}</span>
     </a>
     {{ end }} {{ if $next10WeightPage }}
     <a href="{{ $next10WeightPage.RelPermalink }}" class="book-next">
       <span>{{ $next10WeightPage.Title }}</span>
       <span>→</span>
     </a>
-    {{ else if .Params.footer_button }}
-    <a href="{{ .Params.footer_button.href }}" class="book-next">
-      <span>{{ .Params.footer_button.text }}</span>
+    {{ else if .Params.footer_button_next }}
+    <a href="{{ .Params.footer_button_next.href }}" class="book-next">
+      <span>{{ .Params.footer_button_next.text }}</span>
       <span>→</span>
     </a>
     {{ end }}
@@ -29,14 +34,24 @@
 
   {{ else }} {{ $pages := .CurrentSection.Pages.ByWeight.Reverse }}
   <div class="book-pagination">
-    {{ with $pages.Prev . }}
-    <a href="{{ .RelPermalink }}" class="book-prev">
-      <span>←</span>
-      <span>{{ .Title }}</span>
+    {{ $prevPage := $pages.Prev . }} {{/* Store the previous page object */}} {{
+    if $prevPage }}
+    <a href="{{ $prevPage.RelPermalink }}" class="book-prev">
+      <span>←</span> <span>{{ $prevPage.Title }}</span>
     </a>
-    {{ end }} {{ with $pages.Next . }}
-    <a href="{{ .RelPermalink }}" class="book-next">
-      <span>{{ .Title }}</span>
+    {{ else if .Params.footer_button_prev }}
+    <a href="{{ .Params.footer_button_prev.href }}" class="book-prev">
+      <span>←</span>
+      <span>{{ .Params.footer_button_prev.text }}</span>
+    </a>
+    {{ end }} {{ $nextPage := $pages.Next . }} {{/* Store the next page object
+    */}} {{ if $nextPage }}
+    <a href="{{ $nextPage.RelPermalink }}" class="book-next">
+      <span>{{ $nextPage.Title }}</span> <span>→</span>
+    </a>
+    {{ else if .Params.footer_button_next }}
+    <a href="{{ .Params.footer_button_next.href }}" class="book-next">
+      <span>{{ .Params.footer_button_next.text }}</span>
       <span>→</span>
     </a>
     {{ end }}
@@ -44,6 +59,7 @@
   {{ end }}
 
   <div class="book-footer-info">
+    <p>{{ $section }}</p>
     <p>&copy; {{ now.Format "2006" }} 香草山. All rights reserved.</p>
   </div>
 </div>
