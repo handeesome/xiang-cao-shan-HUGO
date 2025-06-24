@@ -14,9 +14,14 @@
       <span>←</span>
       <span>{{ .Title }}</span>
     </a>
-    {{ end }} {{ with $next10WeightPage }}
-    <a href="{{ .RelPermalink }}" class="book-next">
-      <span>{{ .Title }}</span>
+    {{ end }} {{ if $next10WeightPage }}
+    <a href="{{ $next10WeightPage.RelPermalink }}" class="book-next">
+      <span>{{ $next10WeightPage.Title }}</span>
+      <span>→</span>
+    </a>
+    {{ else if .Params.footer_button }}
+    <a href="{{ .Params.footer_button.href }}" class="book-next">
+      <span>{{ .Params.footer_button.text }}</span>
       <span>→</span>
     </a>
     {{ end }}
