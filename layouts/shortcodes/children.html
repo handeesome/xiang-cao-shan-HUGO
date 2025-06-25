@@ -1,0 +1,44 @@
+<style>
+  .children-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+    padding: 0 !important;
+    margin: 0;
+  }
+
+  .children-list li {
+    flex: 1 1 45%;
+  }
+
+  .children-list li a {
+    display: flex;
+    align-items: center; /* Vertical center */
+    justify-content: center; /* Horizontal center */
+    height: 100%; /* Ensures it fills the li */
+    text-decoration: none;
+    color: inherit;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    text-align: center; /* Optional: centers multiline text */
+  }
+  .children-list li a:hover,
+  .children-list li a:active,
+  .children-list li a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .children-list li a:hover {
+    background-color: #f0f0f0;
+    color: #007acc;
+  }
+</style>
+<ul class="children-list">
+  {{ range .Page.Pages }}
+  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>
