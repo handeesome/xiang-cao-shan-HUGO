@@ -1,11 +1,11 @@
 ---
-title: "基督是我们的满足 序"
+title: '基督是我们的满足 序'
 weight: 1
 cascade:
   bookToC: false
 footer_button_next:
-  href: "01-罪/"
-  text: "第一周 罪"
+  href: '01-罪/'
+  text: '第一周 罪'
 ---
 
 # 基督是我们的满足

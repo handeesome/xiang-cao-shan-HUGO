@@ -1,0 +1,26 @@
+{{- $ctx := .ctx -}}
+{{- $page := .page -}}
+{{- $first := $ctx.Scratch.Get "firstPage" -}}
+
+{{- if not $first -}}
+
+  {{- if and $page.IsPage (gt (len $page.Content) 0) -}}
+    {{- $ctx.Scratch.Set "firstPage" $page -}}
+
+  {{- else -}}
+
+    {{- range $page.Pages.ByWeight }}
+      {{- if not ($ctx.Scratch.Get "firstPage") -}}
+        {{- partial "find-first-content.html" (dict "ctx" $ctx "page" .) }}
+      {{- end }}
+    {{- end }}
+
+    {{- range $page.Sections }}
+      {{- if not ($ctx.Scratch.Get "firstPage") -}}
+        {{- partial "find-first-content.html" (dict "ctx" $ctx "page" .) }}
+      {{- end }}
+    {{- end }}
+
+  {{- end }}
+
+{{- end }}

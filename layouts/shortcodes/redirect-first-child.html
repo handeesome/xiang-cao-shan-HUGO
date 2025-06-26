@@ -1,0 +1,12 @@
+{{- $.Scratch.Delete "firstPage" -}}
+
+{{- partial "find-first-content.html" (dict "ctx" . "page" .Page) -}}
+
+{{- $first := $.Scratch.Get "firstPage" -}}
+{{- if $first }}
+  <script>
+    window.location.href = '{{ $first.RelPermalink }}';
+  </script>
+{{- else }}
+  <p>❌ No content page found for redirection.</p>
+{{- end }}

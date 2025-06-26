@@ -1,5 +1,5 @@
 ---
-title: "香草山书架"
+title: '香草山书架'
 type: docs
 bookToC: false
 ---

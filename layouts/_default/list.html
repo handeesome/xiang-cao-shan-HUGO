@@ -1,3 +1,5 @@
+
+{{ define "main" }}
 <style>
   .children-list {
     display: flex;
@@ -37,8 +39,25 @@
     color: #007acc;
   }
 </style>
-<ul class="children-list">
-  {{ range .Page.Pages }}
-  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+
+{{/* Redirect if:
+        - this is a section
+        - showChildrenList is NOT true
+  */}}
+  {{ if and .IsSection (not .Params.showChildrenList) }}
+    {{ partial "auto-redirect-child.html" . }}
   {{ end }}
-</ul>
+
+  {{ if .Params.showChildrenList }}
+    <h1>{{ .Title }}</h1>
+
+    <ul class="children-list">
+      {{ range .Pages.ByWeight }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+  {{ else }}
+    {{ .Content }}
+  {{ end }}
+
+{{ end }}

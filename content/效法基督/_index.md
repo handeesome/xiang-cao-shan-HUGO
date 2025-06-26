@@ -3,8 +3,8 @@ title: 效法基督简介
 weight: 1
 bookToC: false
 footer_button_next:
-  href: "scroll1/01_02_效法基督_论自卑/"
-  text: "第一章 效法基督与轻看世界的虚荣"
+  href: 'scroll1/01_02_效法基督_论自卑/'
+  text: '第一章 效法基督与轻看世界的虚荣'
 ---
 
 # 《效法基督》简介
