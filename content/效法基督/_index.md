@@ -1,5 +1,5 @@
 ---
-title: 效法基督简介
+title: 简介
 weight: 1
 bookToC: false
 footer_button_next:
