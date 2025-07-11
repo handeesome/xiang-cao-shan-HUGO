@@ -47,6 +47,37 @@
   </main>
 
   {{ partial "docs/inject/body" . }}
+
+    {{/* Add autoplay script for audio elements */}}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const audios = document.querySelectorAll('audio');
+  if (audios.length === 0) return;
+
+  // Create Play All button
+  const playAllButton = document.createElement('button');
+  playAllButton.textContent = '播放全部';
+  playAllButton.className = 'play-all-button';
+
+  // Insert button before first audio
+  audios[0].parentNode.insertBefore(playAllButton, audios[0]);
+
+  // When user clicks, start first audio
+  playAllButton.addEventListener('click', function() {
+    audios[0].play();
+  });
+
+  // Add ended listener to autoplay next
+  audios.forEach((audio, index) => {
+    audio.addEventListener('ended', function() {
+      if (index + 1 < audios.length) {
+        audios[index + 1].play();
+      }
+    });
+  });
+});
+</script>
+
 </body>
 </html>
 
