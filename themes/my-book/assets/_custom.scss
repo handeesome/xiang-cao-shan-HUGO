@@ -213,9 +213,11 @@ a.anchor {
   }
 }
 
-
 .play-all-button {
-  background-color: #4CAF50;   /* Green */
+  display: block;
+  width: 100%;
+  box-sizing: border-box; /* so padding doesn't add extra width */
+  background-color: #4CAF50;
   color: white;
   padding: 8px 16px;
   margin-bottom: 10px;
@@ -223,6 +225,7 @@ a.anchor {
   border-radius: 4px;
   cursor: pointer;
   font-size: 16px;
+  text-align: center;
 }
 
 .play-all-button:hover {
