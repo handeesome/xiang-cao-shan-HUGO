@@ -43,8 +43,9 @@
 {{/* Redirect if:
         - this is a section
         - showChildrenList is NOT true
+        - there is no content in the section
   */}}
-  {{ if and .IsSection (not .Params.showChildrenList) }}
+  {{ if and .IsSection (not .Params.showChildrenList) (eq (len .Content) 0) }}
     {{ partial "auto-redirect-child.html" . }}
   {{ end }}
 
