@@ -3,7 +3,7 @@ title: 序  言
 weight: 1
 bookToC: false
 footer_button_next:
-  href: "第一部曲 （一至二章）/一  歌中之歌/"
+  href: "第一部曲_（一至二章）/一_歌中之歌/"
   text: "一  歌中之歌"
 ---
 
