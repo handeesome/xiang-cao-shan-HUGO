@@ -15,4 +15,5 @@ bookToC: false
 {{< bookcover title="人的破碎与灵的出来" author="倪柝声" url="人的破碎与灵的出来/" image="/images/人的破碎与灵的出来.png" >}}
 {{< bookcover title="隐藏的泉源─雅歌书注" author="宾路易师母" url="隐藏的泉源雅歌书注/" image="/images/隐藏的泉源──雅歌书注.png" >}}
 {{< bookcover title="属天的日子" author="宣信博士" url="属天的日子/" image="/images/属天的日子.png" >}}
+{{< bookcover title="神的心意" author="慕安得烈" url="神的心意/" image="/images/神的心意.png" >}}
 </div>
