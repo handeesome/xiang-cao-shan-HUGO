@@ -1,14 +1,32 @@
+{{ $imagePath := .Get "image" }}
+{{ $title := .Get "title" }}
+{{ $author := .Get "author" }}
+{{ $url := .Get "url" }}
+
+{{ $img := resources.Get $imagePath }}
+
+{{ if not $img }}
+  {{ errorf "bookcover shortcode: image not found: %s" $imagePath }}
+{{ end }}
+
+{{ $cover := $img.Resize (printf "%dx webp" $img.Width) }}
 <div class="book-cover">
-  <a href="{{ .Get "url" }}">
-    <img 
-      src="{{ .Get "image" }}" 
-      alt="{{ .Get "title" }}" 
+  <a href="{{ $url }}">
+    <img
+      src="{{ $cover.RelPermalink }}"
+      width="{{ $cover.Width }}"
+      height="{{ $cover.Height }}"
+      loading="lazy"
+      decoding="async"
+      alt="{{ $title }} book cover"
     />
-    <div class="book-name" >
-      {{ .Get "title" }}
+
+    <div class="book-name">
+      {{ $title }}
     </div>
-    <div class="book-author" >
-      {{ .Get "author" }}
+
+    <div class="book-author">
+      {{ $author }}
     </div>
   </a>
 </div>

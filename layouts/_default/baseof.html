@@ -8,9 +8,29 @@
 
   <input type="checkbox" class="hidden toggle" id="menu-control" />
   <input type="checkbox" class="hidden toggle" id="toc-control" />
-  {{ if .IsHome}}
-  <img src="/images/banner.png" alt="香草山横幅图" class="banner-header">
-  {{ end }}
+{{ if .IsHome }}
+  {{ $banner := resources.Get "images/banner.png" }}
+
+  {{ $small := $banner.Resize "800x webp" }}
+  {{ $medium := $banner.Resize "1200x webp" }}
+  {{ $large := $banner.Resize "1600x webp" }}
+
+  <img
+    src="{{ $medium.RelPermalink }}"
+    srcset="
+      {{ $small.RelPermalink }} 800w,
+      {{ $medium.RelPermalink }} 1200w,
+      {{ $large.RelPermalink }} 1600w
+    "
+    sizes="100vw"
+    width="{{ $medium.Width }}"
+    height="{{ $medium.Height }}"
+    alt="香草山横幅图"
+    class="banner-header"
+    decoding="async"
+    fetchpriority="high"
+  />
+{{ end }}
   <main class="container flex">
     <aside class="book-menu">
       <div class="book-menu-content">
