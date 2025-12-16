@@ -1,61 +1,135 @@
-{{ $currentPage := . }} {{ $section := .Section }}
+{{ $currentPage := . }}
+{{ $section := .Section }}
 
 <div class="book-custom-footer">
-  {{ if eq $section "效法基督" }} {{ $allPagesByWeight :=
-  .CurrentSection.Pages.ByWeight }} {{ $prev10WeightPage := "" }} {{
-  $next10WeightPage := "" }} {{ range $allPagesByWeight }} {{ if eq .Weight (sub
-  $currentPage.Weight 10) }} {{ $prev10WeightPage = . }} {{ end }} {{ if eq
-  .Weight (add $currentPage.Weight 10) }} {{ $next10WeightPage = . }} {{ end }}
-  {{ end }}
-
-  <div class="book-pagination">
-    {{ if $prev10WeightPage }}
-    <a href="{{ .RelPermalink }}" class="book-prev">
-      <span>←</span>
-      <span>{{ .Title }}</span>
-    </a>
-    {{ else if .Params.footer_button_prev }}
-    <a href="{{ .Params.footer_button_prev.href }}" class="book-prev">
-      <span>←</span>
-      <span>{{ .Params.footer_button_prev.text }}</span>
-    </a>
-    {{ end }} {{ if $next10WeightPage }}
-    <a href="{{ $next10WeightPage.RelPermalink }}" class="book-next">
-      <span>{{ $next10WeightPage.Title }}</span>
-      <span>→</span>
-    </a>
-    {{ else if .Params.footer_button_next }}
-    <a href="{{ .Params.footer_button_next.href }}" class="book-next">
-      <span>{{ .Params.footer_button_next.text }}</span>
-      <span>→</span>
-    </a>
+  {{ if eq $section "效法基督" }}
+    {{ $allPagesByWeight := .CurrentSection.Pages.ByWeight }}
+    {{ $prev10WeightPage := "" }}
+    {{ $next10WeightPage := "" }}
+    {{ range $allPagesByWeight }}
+      {{ if eq .Weight (sub $currentPage.Weight 10) }}
+        {{ $prev10WeightPage = . }}
+      {{ end }}
+      {{ if eq .Weight (add $currentPage.Weight 10) }}
+        {{ $next10WeightPage = . }}
+      {{ end }}
     {{ end }}
-  </div>
 
-  {{ else }} {{ $pages := .CurrentSection.Pages.ByWeight.Reverse }}
-  <div class="book-pagination">
-    {{ $prevPage := $pages.Prev . }} {{/* Store the previous page object */}} {{
-    if $prevPage }}
-    <a href="{{ $prevPage.RelPermalink }}" class="book-prev">
-      <span>←</span> <span>{{ $prevPage.Title }}</span>
-    </a>
-    {{ else if .Params.footer_button_prev }}
-    <a href="{{ .Params.footer_button_prev.href }}" class="book-prev">
-      <span>←</span>
-      <span>{{ .Params.footer_button_prev.text }}</span>
-    </a>
-    {{ end }} {{ $nextPage := $pages.Next . }} {{/* Store the next page object
-    */}} {{ if $nextPage }}
-    <a href="{{ $nextPage.RelPermalink }}" class="book-next">
-      <span>{{ $nextPage.Title }}</span> <span>→</span>
-    </a>
-    {{ else if .Params.footer_button_next }}
-    <a href="{{ .Params.footer_button_next.href }}" class="book-next">
-      <span>{{ .Params.footer_button_next.text }}</span>
-      <span>→</span>
-    </a>
-    {{ end }}
-  </div>
+    <div class="book-pagination">
+      {{ if .Params.footer_button_prev }}
+        <a href="{{ .Params.footer_button_prev.href }}" class="book-prev">
+          <span>←</span>
+          <span>{{ .Params.footer_button_prev.text }}</span>
+        </a>
+      {{ else if $prev10WeightPage }}
+        <a href="{{ $prev10WeightPage.RelPermalink }}" class="book-prev">
+          <span>←</span>
+          <span>{{ $prev10WeightPage.Title }}</span>
+        </a>
+      {{ end }}
+
+      {{ if .Params.footer_button_next }}
+        <a href="{{ .Params.footer_button_next.href }}" class="book-next">
+          <span>{{ .Params.footer_button_next.text }}</span>
+          <span>→</span>
+        </a>
+      {{ else if $next10WeightPage }}
+        <a href="{{ $next10WeightPage.RelPermalink }}" class="book-next">
+          <span>{{ $next10WeightPage.Title }}</span>
+          <span>→</span>
+        </a>
+      {{ end }}
+    </div>
+
+  {{ else }}
+    {{ $pages := .CurrentSection.Pages.ByWeight.Reverse }}
+    <div class="book-pagination">
+      {{ $prevPage := $pages.Prev . }}
+      
+      {{ if .Params.footer_button_prev }}
+        <a href="{{ .Params.footer_button_prev.href }}" class="book-prev">
+          <span>←</span>
+          <span>{{ .Params.footer_button_prev.text }}</span>
+        </a>
+      {{ else if $prevPage }}
+        <a href="{{ $prevPage.RelPermalink }}" class="book-prev">
+          <span>←</span>
+          <span>{{ $prevPage.Title }}</span>
+        </a>
+      {{ else }}
+        {{/* No prev page in current section, look for previous sibling section */}}
+        {{ $currentSectionPage := .CurrentSection }}
+        {{ $parentSection := $currentSectionPage.Parent }}
+        {{ $prevSection := "" }}
+        
+        {{ if $parentSection }}
+          {{/* Get all sibling sections (sections with the same parent) */}}
+          {{ $siblingSections := $parentSection.Sections.ByWeight }}
+          
+          {{/* Find the previous section by weight */}}
+          {{ range $siblingSections }}
+            {{ if lt .Weight $currentSectionPage.Weight }}
+              {{ $prevSection = . }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        
+        {{/* Get the last page in the previous section */}}
+        {{ if $prevSection }}
+          {{ $prevSectionPages := $prevSection.Pages.ByWeight }}
+          {{ if $prevSectionPages }}
+            {{ $lastPageInPrevSection := index $prevSectionPages (sub (len $prevSectionPages) 1) }}
+            <a href="{{ $lastPageInPrevSection.RelPermalink }}" class="book-prev">
+              <span>←</span>
+              <span>{{ $lastPageInPrevSection.Title }}</span>
+            </a>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+
+      {{ $nextPage := $pages.Next . }}
+      
+      {{ if .Params.footer_button_next }}
+        <a href="{{ .Params.footer_button_next.href }}" class="book-next">
+          <span>{{ .Params.footer_button_next.text }}</span>
+          <span>→</span>
+        </a>
+      {{ else if $nextPage }}
+        <a href="{{ $nextPage.RelPermalink }}" class="book-next">
+          <span>{{ $nextPage.Title }}</span>
+          <span>→</span>
+        </a>
+      {{ else }}
+        {{/* No next page in current section, look for next sibling section */}}
+        {{ $currentSectionPage := .CurrentSection }}
+        {{ $parentSection := $currentSectionPage.Parent }}
+        {{ $nextSection := "" }}
+        
+        {{ if $parentSection }}
+          {{/* Get all sibling sections (sections with the same parent) */}}
+          {{ $siblingSections := $parentSection.Sections.ByWeight }}
+          
+          {{/* Find the next section by weight */}}
+          {{ range $siblingSections }}
+            {{ if and (gt .Weight $currentSectionPage.Weight) (not $nextSection) }}
+              {{ $nextSection = . }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        
+        {{/* Get the first page in the next section */}}
+        {{ if $nextSection }}
+          {{ $nextSectionPages := $nextSection.Pages.ByWeight }}
+          {{ if $nextSectionPages }}
+            {{ $firstPageInNextSection := index $nextSectionPages 0 }}
+            <a href="{{ $firstPageInNextSection.RelPermalink }}" class="book-next">
+              <span>{{ $firstPageInNextSection.Title }}</span>
+              <span>→</span>
+            </a>
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </div>
   {{ end }}
 
   <div class="book-footer-info">
@@ -63,6 +137,4 @@
     <p>&copy; {{ now.Format "2006" }} 香草山. All rights reserved.</p>
   </div>
   <script src="/js/close-toc-on-anchor.js"></script>
-
 </div>
-
