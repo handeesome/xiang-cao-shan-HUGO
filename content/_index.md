@@ -19,4 +19,5 @@ bookToC: false
 {{< bookcover title="圣灵全备的祝福" author="慕安得烈" url="圣灵全备的祝福/" image="images/books/圣灵全备的祝福.jpg" >}}
 {{< bookcover title="耶稣宝血的能力" author="慕安得烈" url="耶稣宝血的能力/" image="images/books/耶稣宝血的能力.jpg" >}}
 {{< bookcover title="至圣所" author="慕安得烈" url="至圣所/" image="images/books/至圣所.jpg" >}}
+{{< bookcover title="大小先知书" author="" url="大小先知书/" image="images/books/大小先知书.jpg" >}}
 </div>
