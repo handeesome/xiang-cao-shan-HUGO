@@ -4,6 +4,8 @@ weight: 1
 footer_button_next:
   href: "第一大段真理方面/"
   text: "第一大段：真理方面"
+cascade:
+  bookToc: false
 ---
 
 # 小引
