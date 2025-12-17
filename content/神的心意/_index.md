@@ -1,6 +1,5 @@
 ---
 title: 序言
-weight: 1
 bookToC: false
 footer_button_next:
   href: "一月/"

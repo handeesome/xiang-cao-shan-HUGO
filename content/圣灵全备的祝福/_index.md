@@ -1,6 +1,5 @@
 ---
 title: 引言
-weight: 1
 bookToC: false
 footer_button_next:
   href: "第一章-全备祝福教训的根据/"

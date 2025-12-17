@@ -1,6 +1,5 @@
 ---
 title: 简介
-weight: 0
 footer_button_next:
   href: "第一篇-破碎的紧要/"
   text: "第一篇　破碎的紧要"

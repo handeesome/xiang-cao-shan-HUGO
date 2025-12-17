@@ -3,7 +3,7 @@
 
 <div class="book-custom-footer">
   {{ if eq $section "效法基督" }}
-    {{ $allPagesByWeight := .CurrentSection.Pages.ByWeight }}
+    {{ $allPagesByWeight := .CurrentSection.RegularPages.ByWeight }}
     {{ $prev10WeightPage := "" }}
     {{ $next10WeightPage := "" }}
     {{ range $allPagesByWeight }}
@@ -42,7 +42,7 @@
     </div>
 
   {{ else }}
-    {{ $pages := .CurrentSection.Pages.ByWeight.Reverse }}
+    {{ $pages := .CurrentSection.RegularPages.ByWeight.Reverse }}
     <div class="book-pagination">
       {{ $prevPage := $pages.Prev . }}
       
@@ -76,7 +76,7 @@
         
         {{/* Get the last page in the previous section */}}
         {{ if $prevSection }}
-          {{ $prevSectionPages := $prevSection.Pages.ByWeight }}
+          {{ $prevSectionPages := $prevSection.RegularPages.ByWeight }}
           {{ if $prevSectionPages }}
             {{ $lastPageInPrevSection := index $prevSectionPages (sub (len $prevSectionPages) 1) }}
             <a href="{{ $lastPageInPrevSection.RelPermalink }}" class="book-prev">
@@ -119,7 +119,7 @@
         
         {{/* Get the first page in the next section */}}
         {{ if $nextSection }}
-          {{ $nextSectionPages := $nextSection.Pages.ByWeight }}
+          {{ $nextSectionPages := $nextSection.RegularPages.ByWeight }}
           {{ if $nextSectionPages }}
             {{ $firstPageInNextSection := index $nextSectionPages 0 }}
             <a href="{{ $firstPageInNextSection.RelPermalink }}" class="book-next">

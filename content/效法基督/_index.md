@@ -1,6 +1,5 @@
 ---
 title: 简介
-weight: 1
 bookToC: false
 footer_button_next:
   href: 'scroll1/01_02_效法基督_论自卑/'
