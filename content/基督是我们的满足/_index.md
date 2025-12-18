@@ -1,6 +1,5 @@
 ---
 title: '序'
-weight: 1
 cascade:
   bookToC: false
 footer_button_next:
