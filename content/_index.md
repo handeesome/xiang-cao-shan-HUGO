@@ -21,4 +21,5 @@ bookToC: false
 {{< bookcover title="至圣所" author="慕安得烈" url="至圣所/" image="images/books/至圣所.jpg" >}}
 {{< bookcover title="大小先知书" author="小鹿" url="大小先知书/" image="images/books/大小先知书.jpg" >}}
 {{< bookcover title="十字架与生命之路" author="史百克" url="十字架与生命之路/" image="images/books/十字架与生命之路.jpg" >}}
+{{< bookcover title="末世神的工作" author="史百克" url="末世神的工作/" image="images/books/末世神的工作.jpg" >}}
 </div>
