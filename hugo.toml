@@ -1,10 +1,28 @@
 baseURL = '/'
 languageCode = 'zh-cn'
-title = '香草山书架'
+hasCJKLanguage = true
+defaultContentLanguage = 'zh'
+title = '香草山'
 theme = 'my-book'
+
+[[menu.before]]
+  name = "书架"
+  url = "/"
+  weight = 1
+
+[[menu.before]]
+  name = "音乐"
+  url = "/music/"
+  weight = 2
+
+[[menu.before]]
+  name = "儿童"
+  url = "/children/"
+  weight = 3
 
 [params]
   BookTheme = 'light'
+  BookSearch = false
 
 [markup]
   [markup.goldmark]

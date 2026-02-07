@@ -4,9 +4,8 @@ type: docs
 bookToC: false
 ---
 
-# 欢迎来到香草山
+# 香草山书架
 
-## 请选择一本书开始阅读
 
 <div class="book-shelf">
 {{< bookcover title="基督是我们的满足" author="约翰达秘" url="基督是我们的满足/" image="images/books/基督是我们的满足.webp" >}}
