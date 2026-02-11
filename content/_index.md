@@ -23,4 +23,6 @@ bookToC: false
 {{< bookcover title="十字架的中心性与宇宙性" author="史百克" url="十字架的中心性与宇宙性/" image="images/books/十字架的中心性与宇宙性.jpg" >}}
 {{< bookcover title="末世神的工作" author="史百克" url="末世神的工作/" image="images/books/末世神的工作.jpg" >}}
 {{< bookcover title="人算什么？" author="史百克" url="人算什么/" image="images/books/人算什么.jpg" >}}
+{{< bookcover title="得胜的生命" author="倪柝声" url="得胜的生命/" image="images/books/得胜的生命.jpg" >}}
+
 </div>
