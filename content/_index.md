@@ -25,4 +25,6 @@ bookToC: false
 {{< bookcover title="人算什么？" author="史百克" url="人算什么/" image="images/books/人算什么.jpg" >}}
 {{< bookcover title="得胜的生命" author="倪柝声" url="得胜的生命/" image="images/books/得胜的生命.jpg" >}}
 {{< bookcover title="魂与灵" author="宾路易师母" url="魂与灵/" image="images/books/魂与灵.jpg" >}}
+{{< bookcover title="十字架的诀要" author="慕安得烈" url="十字架的诀要/" image="images/books/十字架的诀要.jpg" >}}
+
 </div>
