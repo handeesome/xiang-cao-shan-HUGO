@@ -1,12 +1,24 @@
-{{ if or (eq .Section "books") (eq .Section "children") }}
+{{ $root := "" }}
 
-  {{ with .CurrentSection }}
+{{/* HUB pages: books root shows nothing */}}
+{{ if or (eq .RelPermalink "/books/") (eq .RelPermalink "/children/") }}
+
+  {{/* intentionally empty sidebar */}}
+
+{{ else if or (eq .Section "books") (eq .Section "children") }}
+
+  {{/* Find book root (first level under books) */}}
+  {{ range .Ancestors }}
+    {{ if and (eq .Section "books") (ne .RelPermalink "/books/") }}
+      {{ $root = . }}
+    {{ end }}
+  {{ end }}
+
+  {{ with $root }}
     {{ template "book-section-children" (dict "Section" . "CurrentPage" $ "ShowIndexLink" true) }}
   {{ end }}
 
 {{ end }}
-
-
 
 
 {{ define "book-section-children" }}{{/* (dict "Section" .Section "CurrentPage" .CurrentPage "ShowIndexLink" bool) */}}
@@ -19,11 +31,12 @@
   {{ end }}
 
   {{/* Then add regular pages */}}
-  {{ range (where .Section.RegularPagesRecursive "Params.bookHidden" "ne" true) }}
+  {{ range (where .Section.Pages "Params.bookHidden" "ne" true) }}
     {{ if .IsSection }}
     <li {{- if .Params.BookFlatSection }} class="book-section-flat" {{ end -}}>
       {{/* Render the current section's link/interactive element */}}
       {{ template "book-page-link" (dict "Page" . "CurrentPage" $.CurrentPage) }}
+      {{ template "book-section-children" (dict "Section" . "CurrentPage" $.CurrentPage "ShowIndexLink" false) }}
 
       {{/*
           Determine if the 'outer' link we just rendered for this section
