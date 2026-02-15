@@ -28,7 +28,7 @@ exports.handler = async (event) => {
     };
   }
 
-  const PREFIX = `xiangcaoshan/video/${folder}/`;
+  const PREFIX = `video/${folder}/`;
 
   try {
     const list = await s3
