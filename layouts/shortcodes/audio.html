@@ -1,13 +1,22 @@
-{{/* Get the src parameter (e.g. "1.mp3") */}} {{ $src := .Get "src" }} {{ $path
-:= .Page.File.Path }} {{ $segments := split $path "/" }} {{ $folder := index
-$segments 0 }} {{/* Build the relative file path for the function call */}} {{
-$filePath := printf "%s/%s" $folder $src }} {{/* URL-encode the file path to be
-safe in query string */}} {{ $encodedFilePath := urlquery $filePath }} {{/*
-Compose the full URL to your Netlify function */}} {{ $url := printf
-"https://xiangcaoshan.netlify.app/.netlify/functions/audio?file=%s"
-$encodedFilePath }}
+{{ $src := .Get "src" }}
+
+{{ $bookRoot := .Page.CurrentSection }}
+
+{{ if eq .Page.Section "books" }}
+  {{ range .Page.Ancestors }}
+    {{ if and (eq .Section "books") (ne .RelPermalink "/books/") }}
+      {{ $bookRoot = . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $cleanRoot := strings.TrimSuffix "/" $bookRoot.RelPermalink }}
+{{ $filePath := printf "%s/%s" $cleanRoot $src }}
+
+{{ $encoded := urlquery $filePath }}
+
+{{ $url := printf "https://xiangcaoshan.netlify.app/.netlify/functions/audio?file=%s" $encoded }}
 
 <audio controls preload="metadata">
-  <source src="{{ $url }}" type="audio/mpeg" />
-  Your browser does not support the audio element.
+  <source src="{{ $url }}" type="audio/mpeg">
 </audio>
