@@ -10,35 +10,52 @@ const s3 = new S3({
 
 const bucketName = process.env.OSS_BUCKET;
 
-exports.handler = async () => {
+exports.handler = async (event) => {
+  console.log("Full path:", event.path);
+  console.log("Raw path:", event.rawUrl);
+  console.log("Path params:", event.pathParameters);
+  console.log("Query params:", event.queryStringParameters);
+
+  const folder = event.path.split("/").pop();
+  console.log("Extracted folder:", folder);
+
+  // "music" from /video/music
+
+  if (!folder) {
+    return {
+      statusCode: 400,
+      body: "Missing folder name",
+    };
+  }
+
+  const PREFIX = `xiangcaoshan/video/${folder}/`;
+
   try {
-    // 1. List objects under videos/
     const list = await s3
       .listObjectsV2({
         Bucket: bucketName,
-        Prefix: "video/",
+        Prefix: PREFIX,
       })
       .promise();
 
-    if (!list.Contents) {
+    if (!list.Contents || list.Contents.length === 0) {
       return {
         statusCode: 200,
         body: JSON.stringify([]),
       };
     }
 
-    // 2. Filter mp4 + generate signed URLs
     const videos = list.Contents.filter((obj) => obj.Key.endsWith(".mp4")).map(
       (obj) => {
-        const url = s3.getSignedUrl("getObject", {
+        const signedUrl = s3.getSignedUrl("getObject", {
           Bucket: bucketName,
           Key: obj.Key,
           Expires: 300,
         });
 
         return {
-          name: obj.Key.replace("video/", ""),
-          url,
+          name: obj.Key.replace(PREFIX, ""),
+          url: signedUrl,
           lastModified: obj.LastModified,
         };
       },
