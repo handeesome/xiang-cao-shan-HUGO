@@ -10,18 +10,13 @@
   {{ end }}
 {{ end }}
 
-{{/* RelPermalink like /books/得胜的生命/ */}}
 {{ $clean := strings.TrimSuffix "/" (strings.TrimPrefix "/" $bookRoot.RelPermalink) }}
 
-{{/* split: books/得胜的生命 */}}
 {{ $parts := split $clean "/" }}
 
-{{/* take only last segment: 得胜的生命 */}}
 {{ $bookName := index $parts (sub (len $parts) 1) }}
 
 {{ $filePath := printf "%s/%s" $bookName $src }}
-
-{{ $encoded := urlquery $filePath }}
 
 {{ $url := printf "https://xiangcaoshan.netlify.app/.netlify/functions/audio?file=%s" $encoded }}
 
