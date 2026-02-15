@@ -1,9 +1,21 @@
 {{ $currentPage := . }}
-{{ $section := .Section }}
+{{ $bookRoot := "" }}
+
+{{ if eq .Section "books" }}
+  {{ range .Ancestors }}
+    {{ if and (eq .Section "books") (ne .RelPermalink "/books/") }}
+      {{ $bookRoot = . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if not $bookRoot }}
+  {{ $bookRoot = .CurrentSection }}
+{{ end }}
 
 <div class="book-custom-footer">
-  {{ if eq $section "效法基督" }}
-    {{ $allPagesByWeight := .CurrentSection.RegularPages.ByWeight }}
+  {{ if eq $bookRoot.Title "效法基督" }}
+    {{ $allPagesByWeight := $bookRoot.RegularPagesRecursive.ByWeight }}
     {{ $prev10WeightPage := "" }}
     {{ $next10WeightPage := "" }}
     {{ range $allPagesByWeight }}
@@ -42,7 +54,7 @@
     </div>
 
   {{ else }}
-    {{ $pages := .CurrentSection.RegularPages.ByWeight.Reverse }}
+    {{ $pages := $bookRoot.RegularPagesRecursive.ByWeight.Reverse }}
     <div class="book-pagination">
       {{ $prevPage := $pages.Prev . }}
       
@@ -58,7 +70,7 @@
         </a>
       {{ else }}
         {{/* No prev page in current section, look for previous sibling section */}}
-        {{ $currentSectionPage := .CurrentSection }}
+        {{ $currentSectionPage := $bookRoot }}
         {{ $parentSection := $currentSectionPage.Parent }}
         {{ $prevSection := "" }}
         
@@ -76,7 +88,7 @@
         
         {{/* Get the last page in the previous section */}}
         {{ if $prevSection }}
-          {{ $prevSectionPages := $prevSection.RegularPages.ByWeight }}
+          {{ $prevSectionPages := $prevSection.RegularPagesRecursive.ByWeight }}
           {{ if $prevSectionPages }}
             {{ $lastPageInPrevSection := index $prevSectionPages (sub (len $prevSectionPages) 1) }}
             <a href="{{ $lastPageInPrevSection.RelPermalink }}" class="book-prev">
@@ -101,7 +113,7 @@
         </a>
       {{ else }}
         {{/* No next page in current section, look for next sibling section */}}
-        {{ $currentSectionPage := .CurrentSection }}
+        {{ $currentSectionPage := $bookRoot }}
         {{ $parentSection := $currentSectionPage.Parent }}
         {{ $nextSection := "" }}
         
@@ -119,7 +131,7 @@
         
         {{/* Get the first page in the next section */}}
         {{ if $nextSection }}
-          {{ $nextSectionPages := $nextSection.RegularPages.ByWeight }}
+          {{ $nextSectionPages := $nextSection.RegularPagesRecursive.ByWeight }}
           {{ if $nextSectionPages }}
             {{ $firstPageInNextSection := index $nextSectionPages 0 }}
             <a href="{{ $firstPageInNextSection.RelPermalink }}" class="book-next">
@@ -133,7 +145,7 @@
   {{ end }}
 
   <div class="book-footer-info">
-    <p>{{ $section }}</p>
+    <p>{{ $bookRoot.Title }}</p>
     <p>&copy; {{ now.Format "2006" }} 香草山. All rights reserved.</p>
   </div>
   <script src="/js/close-toc-on-anchor.js"></script>
