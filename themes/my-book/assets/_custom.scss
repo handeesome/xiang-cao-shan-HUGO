@@ -276,3 +276,29 @@ a.anchor {
   margin-bottom: 0.3rem;
   color: #943634;
 }
+
+.home-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.home-card {
+  display: block;
+  padding: 1.5rem;
+  border-radius: 10px;
+  border: 1px solid #e5e5e5;
+  text-decoration: none;
+  transition: all 0.15s ease;
+  background: white;
+}
+
+.home-card h2 {
+  margin-top: 0;
+}
+
+.home-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,.08);
+}

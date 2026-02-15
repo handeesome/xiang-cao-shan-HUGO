@@ -7,12 +7,16 @@
 
 {{ else if or (eq .Section "books") (eq .Section "children") }}
 
-  {{/* Find book root (first level under books) */}}
-  {{ range .Ancestors }}
-    {{ if and (eq .Section "books") (ne .RelPermalink "/books/") }}
-      {{ $root = . }}
+  {{ if and .IsSection (eq .Section "books") (ne .RelPermalink "/books/") }}
+    {{ $root = . }}
+  {{ else }}
+    {{ range .Ancestors }}
+      {{ if and (eq .Section "books") (ne .RelPermalink "/books/") }}
+        {{ $root = . }}
+      {{ end }}
     {{ end }}
   {{ end }}
+
 
   {{ with $root }}
     {{ template "book-section-children" (dict "Section" . "CurrentPage" $ "ShowIndexLink" true) }}
