@@ -1,7 +1,9 @@
 ---
-title: 诗歌
+title: 🎼 诗歌
+booktoc: false
 ---
 
+# 诗歌
 <div id="video-list"></div>
 
 <script>
