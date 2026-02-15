@@ -1,28 +1,28 @@
 {{ $root := "" }}
+{{ $top := .Section }}
 
-{{/* HUB pages: books root shows nothing */}}
-{{ if or (eq .RelPermalink "/books/") (eq .RelPermalink "/children/") }}
+{{/* hub pages stay empty */}}
+{{ if eq .RelPermalink (printf "/%s/" $top) }}
 
-  {{/* intentionally empty sidebar */}}
+{{ else }}
 
-{{ else if or (eq .Section "books") (eq .Section "children") }}
-
-  {{ if and .IsSection (eq .Section "books") (ne .RelPermalink "/books/") }}
-    {{ $root = . }}
-  {{ else }}
-    {{ range .Ancestors }}
-      {{ if and (eq .Section "books") (ne .RelPermalink "/books/") }}
-        {{ $root = . }}
-      {{ end }}
+  {{ range .Ancestors }}
+    {{ if and .Parent (eq .Parent.RelPermalink (printf "/%s/" $top)) }}
+      {{ $root = . }}
     {{ end }}
   {{ end }}
 
+  {{/* fallback: direct section page */}}
+  {{ if and (not $root) .IsSection }}
+    {{ $root = . }}
+  {{ end }}
 
   {{ with $root }}
     {{ template "book-section-children" (dict "Section" . "CurrentPage" $ "ShowIndexLink" true) }}
   {{ end }}
 
 {{ end }}
+
 
 
 {{ define "book-section-children" }}{{/* (dict "Section" .Section "CurrentPage" .CurrentPage "ShowIndexLink" bool) */}}
