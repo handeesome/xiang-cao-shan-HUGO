@@ -10,15 +10,11 @@
   {{ end }}
 {{ end }}
 
-{{ $clean := strings.TrimSuffix "/" (strings.TrimPrefix "/" $bookRoot.RelPermalink) }}
-
-{{ $parts := split $clean "/" }}
-
-{{ $bookName := index $parts (sub (len $parts) 1) }}
+{{ $bookName := path.Base $bookRoot.RelPermalink }}
 
 {{ $filePath := printf "%s/%s" $bookName $src }}
 
-{{ $url := printf "https://xiangcaoshan.netlify.app/.netlify/functions/audio?file=%s" $encoded }}
+{{ $url := printf "https://xiangcaoshan.netlify.app/.netlify/functions/audio?file=%s" $filePath }}
 
 <audio controls preload="metadata">
   <source src="{{ $url }}" type="audio/mpeg">
