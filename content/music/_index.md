@@ -4,10 +4,11 @@ booktoc: false
 ---
 
 # 诗歌
+
 <div id="video-list"></div>
 
 <script>
-fetch("/.netlify/functions/videos")
+fetch("/.netlify/functions/video/music")
   .then(r => r.json())
   .then(videos => {
     const container = document.getElementById("video-list");

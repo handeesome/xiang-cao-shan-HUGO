@@ -13,10 +13,12 @@ const bucketName = process.env.OSS_BUCKET;
 exports.handler = async () => {
   try {
     // 1. List objects under videos/
-    const list = await s3.listObjectsV2({
-      Bucket: bucketName,
-      Prefix: "videos/",
-    }).promise();
+    const list = await s3
+      .listObjectsV2({
+        Bucket: bucketName,
+        Prefix: "video/",
+      })
+      .promise();
 
     if (!list.Contents) {
       return {
@@ -26,9 +28,8 @@ exports.handler = async () => {
     }
 
     // 2. Filter mp4 + generate signed URLs
-    const videos = list.Contents
-      .filter(obj => obj.Key.endsWith(".mp4"))
-      .map(obj => {
+    const videos = list.Contents.filter((obj) => obj.Key.endsWith(".mp4")).map(
+      (obj) => {
         const url = s3.getSignedUrl("getObject", {
           Bucket: bucketName,
           Key: obj.Key,
@@ -36,11 +37,12 @@ exports.handler = async () => {
         });
 
         return {
-          name: obj.Key.replace("videos/", ""),
+          name: obj.Key.replace("video/", ""),
           url,
           lastModified: obj.LastModified,
         };
-      });
+      },
+    );
 
     return {
       statusCode: 200,
@@ -49,7 +51,6 @@ exports.handler = async () => {
       },
       body: JSON.stringify(videos),
     };
-
   } catch (err) {
     console.error(err);
     return {
