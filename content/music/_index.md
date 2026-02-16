@@ -129,7 +129,7 @@ fetch("/.netlify/functions/video/music")
 
         // thumbnail fallback
         img.onerror = () => {
-          img.src = "/img/video-placeholder.png";
+          img.src = "/img/video-placeholder.jpg";
         };
 
         observer.unobserve(img);
