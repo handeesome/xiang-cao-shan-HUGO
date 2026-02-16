@@ -53,9 +53,12 @@ exports.handler = async (event) => {
           Expires: 300,
         });
 
+        const filename = obj.Key.replace(PREFIX, "");
+
         return {
-          name: obj.Key.replace(PREFIX, ""),
+          name: filename,
           url: signedUrl,
+          thumb: `https://${bucketName}.${process.env.OSS_ENDPOINT.replace("https://","")}/video/${folder}/thumb/${filename.replace(".mp4",".jpg")}`,
           lastModified: obj.LastModified,
         };
       },

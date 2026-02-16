@@ -1,5 +1,5 @@
 ---
-title: 🧒 儿童
+title: 儿童
 bookTOC: false
 ---
 
