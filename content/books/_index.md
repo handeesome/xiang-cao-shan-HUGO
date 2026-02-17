@@ -28,5 +28,6 @@ bookToC: false
 {{< bookcover title="十字架的诀要" author="慕安得烈" url="十字架的诀要/" image="images/books/十字架的诀要.jpg" >}}
 {{< bookcover title="永远的十字架" author="倪柝声" url="永远的十字架/" image="images/books/永远的十字架.jpg" >}}
 {{< bookcover title="众圣徒的争战" author="宾路易师母" url="众圣徒的争战/" image="images/books/众圣徒的争战.jpg" >}}
+{{< bookcover title="各各他的十字架" author="宾路易师母" url="各各他的十字架/" image="images/books/各各他的十字架.jpg" >}}
 
 </div>
