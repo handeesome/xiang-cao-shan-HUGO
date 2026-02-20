@@ -26,6 +26,7 @@ exports.handler = async (event) => {
       Key: `audio/${file}`, // Adjust if your bucket structure is different
       Expires: 60, // Link expires in 60 seconds
     });
+    console.log(signedUrl);
 
     return {
       statusCode: 302,
