@@ -2,6 +2,9 @@
 title: 慕安德烈丛书精华录
 cascade: 
     booktoc: false
+footer_button_next:
+  href: '01_一月/'
+  text: '一月'
 ---
 
 # 作者小传
