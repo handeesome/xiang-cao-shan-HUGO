@@ -11,13 +11,7 @@ const s3 = new S3({
 const bucketName = process.env.OSS_BUCKET;
 
 exports.handler = async (event) => {
-  console.log("Full path:", event.path);
-  console.log("Raw path:", event.rawUrl);
-  console.log("Path params:", event.pathParameters);
-  console.log("Query params:", event.queryStringParameters);
-
   const folder = event.path.split("/").pop();
-  console.log("Extracted folder:", folder);
 
   // "music" from /video/music
 
@@ -58,7 +52,7 @@ exports.handler = async (event) => {
         return {
           name: filename,
           url: signedUrl,
-          thumb: `https://${bucketName}.${process.env.OSS_ENDPOINT.replace("https://","")}/video/${folder}/thumb/${filename.replace(".mp4",".jpg")}`,
+          thumb: `https://${bucketName}.${process.env.OSS_ENDPOINT.replace("https://", "")}/video/${folder}/thumb/${filename.replace(".mp4", ".jpg")}`,
           lastModified: obj.LastModified,
         };
       },
