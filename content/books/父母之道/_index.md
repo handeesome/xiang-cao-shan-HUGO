@@ -1,7 +1,7 @@
 ---
 title: 父母之道
 footer_button_next:
-  href: '01_第一章 呼召/'
+  href: '01_第一章-呼召/'
   text: '第一章 呼召'
 ---
 
