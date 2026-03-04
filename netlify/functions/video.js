@@ -13,8 +13,6 @@ const bucketName = process.env.OSS_BUCKET;
 exports.handler = async (event) => {
   const folder = event.path.split("/").pop();
 
-  // "music" from /video/music
-
   if (!folder) {
     return {
       statusCode: 400,
@@ -39,23 +37,39 @@ exports.handler = async (event) => {
       };
     }
 
-    const videos = list.Contents.filter((obj) => obj.Key.endsWith(".mp4")).map(
-      (obj) => {
+    const mp4Objects = list.Contents.filter(obj =>
+      obj.Key.endsWith(".mp4")
+    );
+
+    const videos = await Promise.all(
+      mp4Objects.map(async (obj) => {
+
+        const filename = obj.Key.replace(PREFIX, "");
+
+        // 🔵 Read metadata
+        const head = await s3.headObject({
+          Bucket: bucketName,
+          Key: obj.Key,
+        }).promise();
+
+        const duration = head.Metadata?.duration
+          ? parseInt(head.Metadata.duration)
+          : null;
+
         const signedUrl = s3.getSignedUrl("getObject", {
           Bucket: bucketName,
           Key: obj.Key,
           Expires: 300,
         });
 
-        const filename = obj.Key.replace(PREFIX, "");
-
         return {
           name: filename,
           url: signedUrl,
+          duration: duration, // seconds
           thumb: `https://${bucketName}.${process.env.OSS_ENDPOINT.replace("https://", "")}/video/${folder}/thumb/${filename.replace(".mp4", ".jpg")}`,
           lastModified: obj.LastModified,
         };
-      },
+      })
     );
 
     return {
@@ -65,6 +79,7 @@ exports.handler = async (event) => {
       },
       body: JSON.stringify(videos),
     };
+
   } catch (err) {
     console.error(err);
     return {

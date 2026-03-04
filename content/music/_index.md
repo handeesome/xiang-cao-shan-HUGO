@@ -49,9 +49,19 @@ booktoc: false
 }
 </style>
 
+
 <script>
 const params = new URLSearchParams(location.search);
 const currentVideo = params.get("v");
+const currentFolder = params.get("folder") || "";
+
+// ✅ define first
+const formatDuration = (seconds) => {
+  if (!seconds) return "--:--";
+  const m = Math.floor(seconds / 60);
+  const s = Math.floor(seconds % 60).toString().padStart(2, "0");
+  return `${m}:${s}`;
+};
 
 fetch("/.netlify/functions/video/music")
 .then(r => r.json())
@@ -73,15 +83,17 @@ fetch("/.netlify/functions/video/music")
       return;
     }
 
+    const title = video.name.split("/").pop().replace(".mp4","");
+
     app.innerHTML = `
-      <h2>${video.name.replace(".mp4","")}</h2>
+      <h2>${title}</h2>
 
       <video controls preload="metadata" style="width:100%">
         <source src="${video.url}">
       </video>
 
       <p style="margin-top:2rem">
-        <a href="/music/">← 返回列表</a>
+        <a href="/music/?folder=${encodeURIComponent(currentFolder)}">← 返回列表</a>
       </p>
     `;
 
@@ -89,27 +101,96 @@ fetch("/.netlify/functions/video/music")
   }
 
   // =========================
-  // LIST VIEW
+  // FOLDER PROCESSING
   // =========================
-  const grid = document.createElement("div");
-  grid.className = "music-grid";
+
+  const folders = {};
+  const files = [];
 
   videos.forEach(v => {
 
-    const safeName = encodeURIComponent(v.name);
-    const title = v.name.replace(".mp4","");
+    if (!v.name.startsWith(currentFolder)) return;
+
+    const remaining = v.name.substring(currentFolder.length);
+    const parts = remaining.split("/").filter(Boolean);
+
+    if (parts.length === 1) {
+      files.push(v);
+    } else if (parts.length > 1) {
+      const folderName = parts[0];
+      folders[folderName] = true;
+    }
+  });
+
+  // =========================
+  // BREADCRUMB
+  // =========================
+
+  if (currentFolder) {
+
+    const segments = currentFolder.split("/").filter(Boolean);
+    const parentSegments = segments.slice(0, -1);
+    const parentFolder = parentSegments.length
+      ? parentSegments.join("/") + "/"
+      : "";
+
+    const crumb = document.createElement("p");
+    crumb.innerHTML = `
+      <a href="/music/">根目录</a>
+      ${segments.length ? ` / <a href="/music/?folder=${encodeURIComponent(parentFolder)}">返回上级</a>` : ""}
+    `;
+    app.appendChild(crumb);
+  }
+
+  const grid = document.createElement("div");
+  grid.className = "music-grid";
+
+  // =========================
+  // RENDER FOLDERS
+  // =========================
+
+  Object.keys(folders).forEach(folderName => {
 
     const card = document.createElement("div");
     card.className = "music-card";
 
     card.innerHTML = `
-      <a href="/music/?v=${safeName}">
+      <a href="/music/?folder=${encodeURIComponent(currentFolder + folderName + "/")}">
+        <div class="music-thumb">
+          <img src="/img/folder-placeholder.jpg">
+        </div>
+        <div class="music-title">📁 ${folderName}</div>
+      </a>
+    `;
+
+    grid.appendChild(card);
+  });
+
+  // =========================
+  // RENDER FILES
+  // =========================
+
+  files.forEach(v => {
+
+    const safeName = encodeURIComponent(v.name);
+    const title = v.name.split("/").pop().replace(".mp4","");
+
+    const card = document.createElement("div");
+    card.className = "music-card";
+
+    card.innerHTML = `
+      <a href="/music/?v=${safeName}&folder=${encodeURIComponent(currentFolder)}">
         <div class="music-thumb">
           <img
             data-src="${v.thumb || '/img/video-placeholder.jpg'}"
             alt="${title}">
         </div>
-        <div class="music-title">${title}</div>
+        <div class="music-title">
+          ${title}
+          <div class="duration">
+            ${formatDuration(v.duration)}
+          </div>
+        </div>
       </a>
     `;
 
@@ -119,15 +200,15 @@ fetch("/.netlify/functions/video/music")
   app.appendChild(grid);
 
   // =========================
-  // LAZY LOAD + FALLBACK
+  // LAZY LOAD THUMBNAILS
   // =========================
+
   const observer = new IntersectionObserver(entries => {
     entries.forEach(e => {
       if (e.isIntersecting) {
         const img = e.target;
         img.src = img.dataset.src;
 
-        // thumbnail fallback
         img.onerror = () => {
           img.src = "/img/video-placeholder.jpg";
         };
