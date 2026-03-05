@@ -44,29 +44,37 @@ exports.handler = async (event) => {
     const videos = await Promise.all(
       mp4Objects.map(async (obj) => {
 
-        const filename = obj.Key.replace(PREFIX, "");
-
+        const filename = obj.Key.split("/").pop();
+        let duration = null;
         // 🔵 Read metadata
-        const head = await s3.headObject({
-          Bucket: bucketName,
-          Key: obj.Key,
-        }).promise();
+        try {
+          const head = await s3.headObject({
+            Bucket: bucketName,
+            Key: obj.Key,
+          }).promise();
 
-        const duration = head.Metadata?.duration
-          ? parseInt(head.Metadata.duration)
-          : null;
+          duration = head.Metadata?.duration
+            ? parseInt(head.Metadata.duration)
+            : null;
+
+        } catch {}
 
         const signedUrl = s3.getSignedUrl("getObject", {
           Bucket: bucketName,
           Key: obj.Key,
           Expires: 300,
         });
+        const thumbKey = obj.Key
+          .replace(".mp4", ".jpg")
+          .replace(/([^/]+)\.jpg$/, "thumb/$1.jpg");
+
+        const thumbUrl = `https://${bucketName}.${process.env.OSS_ENDPOINT.replace("https://","")}/${thumbKey}`;
 
         return {
           name: filename,
           url: signedUrl,
           duration: duration, // seconds
-          thumb: `https://${bucketName}.${process.env.OSS_ENDPOINT.replace("https://", "")}/video/${folder}/thumb/${filename.replace(".mp4", ".jpg")}`,
+          thumb: thumbUrl,
           lastModified: obj.LastModified,
         };
       })
