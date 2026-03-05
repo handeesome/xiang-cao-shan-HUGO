@@ -51,17 +51,12 @@ exports.handler = async (event) => {
               Key: obj.Key,
             })
             .promise();
-          console.log("Metadata:", head.Metadata);
           duration = head.Metadata?.duration
             ? parseInt(head.Metadata.duration)
             : null;
         } catch {}
 
-        const signedUrl = s3.getSignedUrl("getObject", {
-          Bucket: bucketName,
-          Key: obj.Key,
-          Expires: 300,
-        });
+        const url = `https://${bucketName}.${process.env.OSS_ENDPOINT.replace("https://", "")}/${obj.Key}`;
         const thumbKey = obj.Key.replace(".mp4", ".jpg").replace(
           /([^/]+)\.jpg$/,
           "thumb/$1.jpg",
@@ -71,7 +66,7 @@ exports.handler = async (event) => {
 
         return {
           name: filename,
-          url: signedUrl,
+          url: url,
           duration: duration, // seconds
           thumb: thumbUrl,
           lastModified: obj.LastModified,

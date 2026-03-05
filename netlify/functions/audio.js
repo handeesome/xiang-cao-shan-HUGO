@@ -21,18 +21,12 @@ exports.handler = async (event) => {
   }
 
   try {
-    const signedUrl = s3.getSignedUrl("getObject", {
-      Bucket: bucketName,
-      Key: `audio/${file}`, // Adjust if your bucket structure is different
-      Expires: 60, // Link expires in 60 seconds
-    });
-    console.log(signedUrl);
+    const url = `https://${bucketName}.${process.env.OSS_ENDPOINT.replace("https://", "")}/audio/${file}`;
 
     return {
       statusCode: 302,
       headers: {
-        Location: signedUrl,
-        "Cache-Control": "no-cache",
+        Location: url,
       },
     };
   } catch (err) {
