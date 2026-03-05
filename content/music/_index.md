@@ -53,137 +53,182 @@ booktoc: false
 </style>
 
 <script>
-  const params = new URLSearchParams(location.search);
-  const currentVideo = params.get("v");
-  const currentFolder = params.get("folder") || "";
 
-  // Format duration
-  const formatDuration = (seconds) => {
-    if (!seconds) return "--:--";
-    const m = Math.floor(seconds / 60);
-    const s = Math.floor(seconds % 60).toString().padStart(2, "0");
-    return `${m}:${s}`;
-  };
+  const OSS_JSON = "https://xiangcaoshan.oss-cn-beijing.aliyuncs.com/video/music/videos.json"
 
-  (async () => {
-    const app = document.getElementById("music-app");
+  const params = new URLSearchParams(location.search)
+  const currentVideo = params.get("v")
+  const currentFolder = params.get("folder") || ""
 
-    const OSS_BASE = "https://xiangcaoshan.oss-cn-beijing.aliyuncs.com/video/";
-    const res = await fetch(`${OSS_BASE}music/videos.json`);
-    const videos = await res.json();
+  const formatDuration = s => {
+    if (!s) return "--:--"
+    const m = Math.floor(s/60)
+    const sec = Math.floor(s%60).toString().padStart(2,"0")
+    return `${m}:${sec}`
+  }
 
-    // Sort by lastModified descending
-    videos.sort((a, b) => new Date(b.lastModified) - new Date(a.lastModified));
+  async function main(){
 
-    // ------------------------
-    // SINGLE VIDEO VIEW
-    // ------------------------
-    if (currentVideo) {
-      const video = videos.find(v => v.name === currentVideo);
-      if (!video) {
-        app.innerHTML = "<p>Video not found.</p>";
-        return;
+    const app = document.getElementById("music-app")
+
+    const res = await fetch(OSS_JSON)
+    const videos = await res.json()
+
+    videos.sort((a,b)=> new Date(b.lastModified) - new Date(a.lastModified))
+
+    // -------------------------
+    // VIDEO PAGE
+    // -------------------------
+
+    if(currentVideo){
+
+      const video = videos.find(v => v.name === currentVideo)
+
+      if(!video){
+        app.innerHTML="Video not found"
+        return
       }
-      const title = video.name.split("/").pop().replace(".mp4", "");
+
+      const title = video.name.split("/").pop().replace(".mp4","")
 
       app.innerHTML = `
         <h2>${title}</h2>
-        <video controls preload="metadata" style="width:100%">
+
+        <video controls style="width:100%" preload="metadata">
           <source src="${video.url}">
         </video>
+
         <p style="margin-top:2rem">
-          <a href="/music/">← 返回列表</a>
+          <a href="/music/?folder=${encodeURIComponent(currentFolder)}">← 返回列表</a>
         </p>
-      `;
-      return;
+      `
+
+      return
     }
 
-    // ------------------------
-    // PROCESS FOLDERS & FILES
-    // ------------------------
+    // -------------------------
+    // FOLDER VIEW
+    // -------------------------
 
-    const videosInFolder = videos.filter(v => v.name.startsWith(currentFolder));
-    const folders = {};
-    const files = [];
+    const folders = new Set()
+    const files = []
 
-    videosInFolder.forEach(v => {
-      const remaining = v.name.slice(currentFolder.length).replace(/^\/+/, "");
-      const parts = remaining.split("/").filter(Boolean);
-      if (parts.length === 1) {
-        files.push(v);
-      } else if (parts.length > 1) {
-        folders[parts[0]] = true;
-      }
-    });
+    videos
+      .filter(v => v.name.startsWith(currentFolder))
+      .forEach(v => {
 
-    // ------------------------
-    // RENDER BREADCRUMB
-    // ------------------------
-    if (currentFolder) {
-      const segments = currentFolder.split("/").filter(Boolean);
-      const parentSegments = segments.slice(0, -1);
-      const parentFolder = parentSegments.length ? parentSegments.join("/") + "/" : "";
+        const rest = v.name.slice(currentFolder.length)
+        const parts = rest.split("/").filter(Boolean)
 
-      const crumb = document.createElement("p");
+        if(parts.length === 1){
+          files.push(v)
+        } else {
+          folders.add(parts[0])
+        }
+
+      })
+
+    // -------------------------
+    // BREADCRUMB
+    // -------------------------
+
+    if(currentFolder){
+
+      const seg = currentFolder.split("/").filter(Boolean)
+      const parent = seg.slice(0,-1).join("/")
+      const parentFolder = parent ? parent+"/" : ""
+
+      const crumb = document.createElement("p")
+
       crumb.innerHTML = `
         <a href="/music/">总目录</a>
-        ${segments.length ? ` / <a href="/music/?folder=${encodeURIComponent(parentFolder)}">返回上级</a>` : ""}
-      `;
-      app.appendChild(crumb);
+        / <a href="/music/?folder=${encodeURIComponent(parentFolder)}">返回上级</a>
+      `
+
+      app.appendChild(crumb)
+
     }
 
-    const grid = document.createElement("div");
-    grid.className = "music-grid";
+    const grid = document.createElement("div")
+    grid.className = "music-grid"
 
-    // Render folders
-    Object.keys(folders).forEach(folderName => {
-      const card = document.createElement("div");
-      card.className = "music-card";
+    // -------------------------
+    // RENDER FOLDERS
+    // -------------------------
+
+    folders.forEach(folder => {
+
+      const card = document.createElement("div")
+      card.className = "music-card"
+
       card.innerHTML = `
-        <a href="/music/?folder=${encodeURIComponent(currentFolder + folderName + "/")}">
+        <a href="/music/?folder=${encodeURIComponent(currentFolder+folder+"/")}">
           <img src="/img/folder-placeholder.jpg">
-          <div class="music-title">${folderName}</div>
+          <div class="music-title">📁 ${folder}</div>
         </a>
-      `;
-      grid.appendChild(card);
-    });
+      `
 
-    // Render files
+      grid.appendChild(card)
+
+    })
+
+    // -------------------------
+    // RENDER FILES
+    // -------------------------
+
     files.forEach(v => {
-      const title = v.name.split("/").pop().replace(".mp4", "");
-      const card = document.createElement("div");
-      card.className = "music-card";
+
+      const title = v.name.split("/").pop().replace(".mp4","")
+
+      const card = document.createElement("div")
+      card.className="music-card"
+
       card.innerHTML = `
-        <a href="/music/?folder=${encodeURIComponent(currentFolder + folderName + "/")}">
+        <a href="/music/?v=${encodeURIComponent(v.name)}&folder=${encodeURIComponent(currentFolder)}">
+
           <div class="music-thumb">
-            <img data-src="${v.thumb || '/img/video-placeholder.jpg'}" alt="${title}">
+            <img data-src="${v.thumb || '/img/video-placeholder.jpg'}">
           </div>
+
           <div class="music-title">
             ${title}
             <div class="duration">${formatDuration(v.duration)}</div>
           </div>
+
         </a>
-      `;
-      grid.appendChild(card);
-    });
+      `
 
-    app.appendChild(grid);
+      grid.appendChild(card)
 
-    // ------------------------
+    })
+
+    app.appendChild(grid)
+
+    // -------------------------
     // LAZY LOAD THUMBNAILS
-    // ------------------------
+    // -------------------------
+
     const observer = new IntersectionObserver(entries => {
+
       entries.forEach(e => {
-        if (e.isIntersecting) {
-          const img = e.target;
-          img.src = img.dataset.src;
-          img.onerror = () => img.src = "/img/video-placeholder.jpg";
-          observer.unobserve(img);
-        }
-      });
-    }, { rootMargin: "200px" });
 
-    document.querySelectorAll("img[data-src]").forEach(img => observer.observe(img));
+        if(!e.isIntersecting) return
 
-  })();
+        const img = e.target
+        img.src = img.dataset.src
+
+        img.onerror = () => img.src="/img/video-placeholder.jpg"
+
+        observer.unobserve(img)
+
+      })
+
+    },{rootMargin:"200px"})
+
+    document.querySelectorAll("img[data-src]").forEach(img => observer.observe(img))
+
+  }
+
+  main()
+
 </script>
