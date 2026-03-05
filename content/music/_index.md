@@ -187,7 +187,7 @@ booktoc: false
         <a href="/music/?v=${encodeURIComponent(v.name)}&folder=${encodeURIComponent(currentFolder)}">
 
           <div class="music-thumb">
-            <img data-src="${thumb || '/img/video-placeholder.jpg'} alt="${title}">
+            <img data-src="${thumb || '/img/video-placeholder.jpg'}" alt="${title}">
           </div>
 
           <div class="music-title">
