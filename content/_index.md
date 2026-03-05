@@ -16,7 +16,7 @@ title: 香草山
 
 <a class="home-card" href="/children/">
   <h2>🧒 儿童</h2>
-  <p>儿童属灵内容与学习材料</p>
+  <p>儿童内容与学习材料</p>
 </a>
 
 </div>
