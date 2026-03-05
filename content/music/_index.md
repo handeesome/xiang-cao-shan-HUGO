@@ -69,8 +69,7 @@ booktoc: false
     const app = document.getElementById("music-app");
 
     const OSS_BASE = "https://xiangcaoshan.oss-cn-beijing.aliyuncs.com/video/";
-    const folderPath = currentFolder ? currentFolder : "music";
-    const res = await fetch(`${OSS_BASE}${folderPath}/videos.json`);
+    const res = await fetch(`${OSS_BASE}music/videos.json`);
     const videos = await res.json();
 
     // Sort by lastModified descending
@@ -105,8 +104,13 @@ booktoc: false
     const folders = {};
     const files = [];
 
-    videos.forEach(v => {
-      const parts = v.name.split("/").filter(Boolean);
+    const videosInFolder = videos.filter(v => v.name.startsWith(currentFolder));
+    const folders = {};
+    const files = [];
+
+    videosInFolder.forEach(v => {
+      const remaining = v.name.slice(currentFolder.length).replace(/^\/+/, "");
+      const parts = remaining.split("/").filter(Boolean);
       if (parts.length === 1) {
         files.push(v);
       } else if (parts.length > 1) {
