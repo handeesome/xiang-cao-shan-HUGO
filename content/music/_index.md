@@ -136,7 +136,7 @@ fetch("/.netlify/functions/video/music")
 
     const crumb = document.createElement("p");
     crumb.innerHTML = `
-      <a href="/music/">根目录</a>
+      <a href="/music/">总目录</a>
       ${segments.length ? ` / <a href="/music/?folder=${encodeURIComponent(parentFolder)}">返回上级</a>` : ""}
     `;
     app.appendChild(crumb);
@@ -156,12 +156,10 @@ fetch("/.netlify/functions/video/music")
 
     card.innerHTML = `
       <a href="/music/?folder=${encodeURIComponent(currentFolder + folderName + "/")}">
-        <div class="music-thumb">
-          <img src="/img/folder-placeholder.jpg">
-        </div>
-        <div class="music-title">📁 ${folderName}</div>
+        <img src="/img/folder-placeholder.png">
+        <div class="music-title">${folderName}</div>
       </a>
-    `;
+    `;  
 
     grid.appendChild(card);
   });
