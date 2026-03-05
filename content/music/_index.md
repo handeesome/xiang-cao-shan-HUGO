@@ -152,6 +152,27 @@ booktoc: false
     const grid = document.createElement("div")
     grid.className = "music-grid"
 
+    // sort numerically by leading number
+    files.sort((a,b)=>{
+
+      const getNum = n=>{
+        const m = n.match(/^\d+/)
+        return m ? parseInt(m[0]) : null
+      }
+
+      const aName = a.name.split("/").pop()
+      const bName = b.name.split("/").pop()
+
+      const aNum = getNum(aName)
+      const bNum = getNum(bName)
+
+      if(aNum !== null && bNum !== null) return aNum - bNum
+      if(aNum !== null) return -1
+      if(bNum !== null) return 1
+
+      return aName.localeCompare(bName,'zh')
+
+    })
     // -------------------------
     // RENDER FOLDERS
     // -------------------------
