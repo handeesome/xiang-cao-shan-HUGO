@@ -182,7 +182,7 @@ booktoc: false
 
       const card = document.createElement("div")
       card.className="music-card"
-      const thumb = v.url + "?x-oss-process=video/snapshot,t_1000,f_webp,w_320&response-cache-control=max-age=31536000";
+      const thumb = v.url + "?x-oss-process=video/snapshot,t_0,f_jpg,w_320";
       card.innerHTML = `
         <a href="/music/?v=${encodeURIComponent(v.name)}&folder=${encodeURIComponent(currentFolder)}">
 
