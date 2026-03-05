@@ -44,7 +44,7 @@ exports.handler = async (event) => {
     const videos = await Promise.all(
       mp4Objects.map(async (obj) => {
 
-        const filename = obj.Key.split("/").pop();
+        const filename = obj.Key.replace(PREFIX, "");
         let duration = null;
         // 🔵 Read metadata
         try {
