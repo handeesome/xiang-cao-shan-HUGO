@@ -101,8 +101,6 @@ booktoc: false
     // ------------------------
     // PROCESS FOLDERS & FILES
     // ------------------------
-    const folders = {};
-    const files = [];
 
     const videosInFolder = videos.filter(v => v.name.startsWith(currentFolder));
     const folders = {};
@@ -142,7 +140,7 @@ booktoc: false
       const card = document.createElement("div");
       card.className = "music-card";
       card.innerHTML = `
-        <a href="/music/?folder=${encodeURIComponent(folderName + "/")}">
+        <a href="/music/?folder=${encodeURIComponent(currentFolder + folderName + "/")}">
           <img src="/img/folder-placeholder.jpg">
           <div class="music-title">${folderName}</div>
         </a>
@@ -156,7 +154,7 @@ booktoc: false
       const card = document.createElement("div");
       card.className = "music-card";
       card.innerHTML = `
-        <a href="/music/?v=${encodeURIComponent(v.name)}">
+        <a href="/music/?folder=${encodeURIComponent(currentFolder + folderName + "/")}">
           <div class="music-thumb">
             <img data-src="${v.thumb || '/img/video-placeholder.jpg'}" alt="${title}">
           </div>
