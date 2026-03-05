@@ -182,12 +182,12 @@ booktoc: false
 
       const card = document.createElement("div")
       card.className="music-card"
-
+      const thumb = v.url + "?x-oss-process=video/snapshot,t_500,f_jpg,w_320";
       card.innerHTML = `
         <a href="/music/?v=${encodeURIComponent(v.name)}&folder=${encodeURIComponent(currentFolder)}">
 
           <div class="music-thumb">
-            <img data-src="${v.thumb || '/img/video-placeholder.jpg'}">
+            <img data-src="${thumb || '/img/video-placeholder.jpg'} alt="${title}">
           </div>
 
           <div class="music-title">
