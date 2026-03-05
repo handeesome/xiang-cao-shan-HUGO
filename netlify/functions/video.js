@@ -37,26 +37,24 @@ exports.handler = async (event) => {
       };
     }
 
-    const mp4Objects = list.Contents.filter(obj =>
-      obj.Key.endsWith(".mp4")
-    );
+    const mp4Objects = list.Contents.filter((obj) => obj.Key.endsWith(".mp4"));
 
     const videos = await Promise.all(
       mp4Objects.map(async (obj) => {
-
         const filename = obj.Key.replace(PREFIX, "");
         let duration = null;
         // 🔵 Read metadata
         try {
-          const head = await s3.headObject({
-            Bucket: bucketName,
-            Key: obj.Key,
-          }).promise();
-
+          const head = await s3
+            .headObject({
+              Bucket: bucketName,
+              Key: obj.Key,
+            })
+            .promise();
+          console.log("Metadata:", head.Metadata);
           duration = head.Metadata?.duration
             ? parseInt(head.Metadata.duration)
             : null;
-
         } catch {}
 
         const signedUrl = s3.getSignedUrl("getObject", {
@@ -64,11 +62,12 @@ exports.handler = async (event) => {
           Key: obj.Key,
           Expires: 300,
         });
-        const thumbKey = obj.Key
-          .replace(".mp4", ".jpg")
-          .replace(/([^/]+)\.jpg$/, "thumb/$1.jpg");
+        const thumbKey = obj.Key.replace(".mp4", ".jpg").replace(
+          /([^/]+)\.jpg$/,
+          "thumb/$1.jpg",
+        );
 
-        const thumbUrl = `https://${bucketName}.${process.env.OSS_ENDPOINT.replace("https://","")}/${thumbKey}`;
+        const thumbUrl = `https://${bucketName}.${process.env.OSS_ENDPOINT.replace("https://", "")}/${thumbKey}`;
 
         return {
           name: filename,
@@ -77,7 +76,7 @@ exports.handler = async (event) => {
           thumb: thumbUrl,
           lastModified: obj.LastModified,
         };
-      })
+      }),
     );
 
     return {
@@ -87,7 +86,6 @@ exports.handler = async (event) => {
       },
       body: JSON.stringify(videos),
     };
-
   } catch (err) {
     console.error(err);
     return {
