@@ -16,6 +16,9 @@ booktoc: false
 
 .music-card {
   cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .music-card img {
@@ -156,7 +159,7 @@ fetch("/.netlify/functions/video/music")
 
     card.innerHTML = `
       <a href="/music/?folder=${encodeURIComponent(currentFolder + folderName + "/")}">
-        <img src="/img/folder-placeholder.png">
+        <img src="/img/folder-placeholder.jpg">
         <div class="music-title">${folderName}</div>
       </a>
     `;  
