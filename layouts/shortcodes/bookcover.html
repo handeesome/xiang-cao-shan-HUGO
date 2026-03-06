@@ -10,7 +10,7 @@
 {{ end }}
 
 {{ $cover := $img.Resize (printf "%dx webp" $img.Width) }}
-<div class="book-cover">
+<div class="book-cover" data-author="{{ $author }}">
   <a href="{{ $url }}">
     <img
       src="{{ $cover.RelPermalink }}"

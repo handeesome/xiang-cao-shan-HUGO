@@ -164,6 +164,87 @@ audio {
   justify-items: center; // align items to the left
   justify-content: start; // align grid to the left
 }
+.book-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
+/* label text */
+.book-filters label {
+  font-size: .9rem;
+  opacity: .8;
+}
+
+/* modern select */
+.book-filters select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  padding: .45rem .9rem;
+  padding-right: 2rem;
+
+  font-size: .9rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+
+  background: var(--body-background, #fff);
+  color: inherit;
+
+  cursor: pointer;
+  transition: border .15s, box-shadow .15s;
+}
+
+/* dropdown arrow */
+.book-filters .select-wrap {
+  position: relative;
+}
+
+.book-filters .select-wrap::after {
+  content: "▾";
+  position: absolute;
+  right: .6rem;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-size: .8rem;
+  opacity: .6;
+}
+
+/* hover / focus */
+.book-filters select:hover {
+  border-color: #888;
+}
+
+.book-filters select:focus {
+  outline: none;
+  border-color: #4a8cff;
+  box-shadow: 0 0 0 2px rgba(74,140,255,.2);
+}
+
+/* dark mode support */
+@media (prefers-color-scheme: dark) {
+
+  .book-filters select {
+    background: #1f1f1f;
+    border-color: #444;
+    color: #eee;
+  }
+  .book-filters .select-wrap::after {
+    color: #eee;
+  }
+
+}
+.book-author-group {
+  grid-column: 1 / -1;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  margin-bottom: .5rem;
+  font-weight: bold;
+}
 
 /* Media query for larger screens */
 @media (min-width: 768px) {

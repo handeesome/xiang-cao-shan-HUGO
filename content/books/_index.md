@@ -6,6 +6,27 @@ bookToC: false
 
 # 香草山书架
 
+<div class="book-filters">
+  <label>
+    书籍排序:
+    <div class="select-wrap">
+        <select id="viewMode">
+        <option value="default">默认排序</option>
+        <option value="author">按作者</option>
+        </select>
+    </div>
+  </label>
+
+  <label>
+    作者:
+    <div class="select-wrap">
+        <select id="authorFilter">
+        <option value="all">全部</option>
+        </select>
+    </div>
+  </label>
+</div>
+
 
 <div class="book-shelf">
 {{< bookcover title="基督是我们的满足" author="约翰达秘" url="基督是我们的满足/" image="images/books/基督是我们的满足.webp" >}}
@@ -35,3 +56,80 @@ bookToC: false
 {{< bookcover title="神前有能" author="倪柝声" url="神前有能/" image="images/books/神前有能.jpg" >}}
 
 </div>
+
+
+<script>
+
+    const shelf = document.querySelector(".book-shelf")
+    const books = [...document.querySelectorAll(".book-cover")]
+
+    const viewMode = document.getElementById("viewMode")
+    const authorFilter = document.getElementById("authorFilter")
+
+    // collect unique authors
+    const authors = [...new Set(books.map(b => b.dataset.author))].sort((a,b)=>
+    a.localeCompare(b,"zh")
+    )
+
+    authors.forEach(a=>{
+    const opt = document.createElement("option")
+    opt.value = a
+    opt.textContent = a
+    authorFilter.appendChild(opt)
+    })
+
+    function render(){
+
+    const mode = viewMode.value
+    const selectedAuthor = authorFilter.value
+
+    shelf.innerHTML = ""
+
+    let list = [...books]
+
+    if(selectedAuthor !== "all"){
+        list = list.filter(b => b.dataset.author === selectedAuthor)
+    }
+
+    // -------------------------
+    // DEFAULT ORDER
+    // -------------------------
+
+    if(mode === "default"){
+
+        list.forEach(b => shelf.appendChild(b))
+        return
+    }
+
+    // -------------------------
+    // AUTHOR GROUP VIEW
+    // -------------------------
+
+    const groups = {}
+
+    list.forEach(b=>{
+        const author = b.dataset.author
+        if(!groups[author]) groups[author] = []
+        groups[author].push(b)
+    })
+
+    Object.keys(groups)
+        .sort((a,b)=>a.localeCompare(b,"zh"))
+        .forEach(author=>{
+
+        const header = document.createElement("div")
+        header.className = "book-author-group"
+        header.textContent = author
+
+        shelf.appendChild(header)
+
+        groups[author].forEach(b => shelf.appendChild(b))
+
+        })
+
+    }
+
+    viewMode.addEventListener("change",render)
+    authorFilter.addEventListener("change",render)
+
+</script>
