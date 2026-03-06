@@ -32,5 +32,6 @@ bookToC: false
 {{< bookcover title="圣城新耶路撒冷" author="史百克" url="圣城新耶路撒冷/" image="images/books/圣城新耶路撒冷.jpg" >}}
 {{< bookcover title="慕安德烈丛书精华录" author="慕安得烈" url="慕安德烈丛书精华录/" image="images/books/慕安德烈丛书精华录.png" >}}
 {{< bookcover title="父母之道" author="保罗·区普" url="父母之道/" image="images/books/父母之道.png" >}}
+{{< bookcover title="神前有能" author="倪柝声" url="神前有能/" image="images/books/神前有能.jpg" >}}
 
 </div>
