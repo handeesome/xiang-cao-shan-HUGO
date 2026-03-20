@@ -56,6 +56,7 @@ bookToC: false
 {{< bookcover title="神前有能" author="倪柝声" url="神前有能/" image="images/books/神前有能.jpg" >}}
 {{< bookcover title="祈祷出来的能力" author="邦兹" url="祈祷出来的能力/" image="images/books/祈祷出来的能力.jpg" >}}
 {{< bookcover title="作完全人" author="慕安得烈" url="作完全人/" image="images/books/作完全人.jpg" >}}
+{{< bookcover title="内在生活" author="慕安得烈" url="内在生活/" image="images/books/内在生活.jpg" >}}
 
 </div>
 
