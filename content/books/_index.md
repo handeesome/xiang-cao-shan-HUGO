@@ -54,6 +54,7 @@ bookToC: false
 {{< bookcover title="慕安德烈丛书精华录" author="慕安得烈" url="慕安德烈丛书精华录/" image="images/books/慕安德烈丛书精华录.png" >}}
 {{< bookcover title="父母之道" author="保罗·区普" url="父母之道/" image="images/books/父母之道.png" >}}
 {{< bookcover title="神前有能" author="倪柝声" url="神前有能/" image="images/books/神前有能.jpg" >}}
+{{< bookcover title="祈祷出来的能力" author="邦兹" url="祈祷出来的能力/" image="images/books/祈祷出来的能力.jpg" >}}
 
 </div>
 
