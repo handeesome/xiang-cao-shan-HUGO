@@ -1,0 +1,9 @@
+{{/* section-auto-redirect.html */}}
+{{- if not .IsSection -}}{{- return -}}{{- end -}}
+{{- if .Params.showChildrenList -}}{{- return -}}{{- end -}}
+{{- if not (default true .Site.Params.features.autoRedirectSections) -}}{{- return -}}{{- end -}}
+
+{{- $isEmpty := eq (strings.TrimSpace .Plain) "" -}}
+{{- if $isEmpty -}}
+  {{- partial "auto-redirect-child.html" . -}}
+{{- end -}}

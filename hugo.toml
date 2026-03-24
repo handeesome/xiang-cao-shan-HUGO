@@ -23,6 +23,16 @@ theme = 'my-book'
 [params]
   BookTheme = 'light'
   BookSearch = false
+  
+  [params.features]
+    autoRedirectSections = true
+    audioPlayAll = true
+    strictShortcodes = false
+
+  [params.integration.audio]
+    functionBase = "/.netlify/functions/audio"
+    queryBookKey = "book"
+    querySrcKey = "src"
 
 [markup]
   [markup.goldmark]

@@ -1,0 +1,110 @@
+{{ $root := "" }}
+{{ $top := .Section }}
+
+{{/* hub pages stay empty */}}
+{{ if eq .RelPermalink (printf "/%s/" $top) }}
+
+{{ else }}
+
+  {{ range .Ancestors }}
+    {{ if and .Parent (eq .Parent.RelPermalink (printf "/%s/" $top)) }}
+      {{ $root = . }}
+    {{ end }}
+  {{ end }}
+
+  {{/* fallback: direct section page */}}
+  {{ if and (not $root) .IsSection }}
+    {{ $root = . }}
+  {{ end }}
+
+  {{ with $root }}
+    {{ template "book-section-children" (dict "Section" . "CurrentPage" $ "ShowIndexLink" true) }}
+  {{ end }}
+
+{{ end }}
+
+
+
+{{ define "book-section-children" }}{{/* (dict "Section" .Section "CurrentPage" .CurrentPage "ShowIndexLink" bool) */}}
+<ul>
+  {{/* Conditionally add the section index page first */}}
+  {{ if and .Section.Content .ShowIndexLink }}
+  <li>
+    {{ template "book-page-link" (dict "Page" .Section "CurrentPage" $.CurrentPage "IsIndex" true) }}
+  </li>
+  {{ end }}
+
+  {{/* Then add regular pages */}}
+  {{ range (where .Section.Pages "Params.bookHidden" "ne" true) }}
+    {{ if .IsSection }}
+    <li {{- if .Params.BookFlatSection }} class="book-section-flat" {{ end -}}>
+      {{/* Render the current section's link/interactive element */}}
+      {{ template "book-page-link" (dict "Page" . "CurrentPage" $.CurrentPage) }}
+      {{ template "book-section-children" (dict "Section" . "CurrentPage" $.CurrentPage "ShowIndexLink" false) }}
+
+      {{/*
+          Determine if the 'outer' link we just rendered for this section
+          was clickable/interactive enough that we don't need to show
+          its index page link again in its children's list.
+          A link is considered "clickable/interactive" if book-page-link renders:
+          - an <a> with href (due to .Content or .BookHref)
+          - an <input>/<label>/<a> with role="button" (due to .BookCollapseSection)
+      */}}
+      {{ $isOuterLinkSufficient := false }}
+      {{ if or .Params.BookHref .Params.BookCollapseSection .Content }}
+        {{ $isOuterLinkSufficient = true }}
+      {{ end }}
+
+      {{/* Pass ShowIndexLink: false to recursive call if outer link is sufficient */}}
+      
+    </li>
+    {{ else if and .IsPage .Content }}
+    <li>
+      {{ template "book-page-link" (dict "Page" . "CurrentPage" $.CurrentPage) }}
+    </li>
+    {{ end }}
+  {{ end }}
+</ul>
+{{ end }}
+
+{{ define "book-page-link" }}
+  {{ $current := eq .CurrentPage .Page }}
+  {{ $ancestor := .Page.IsAncestor .CurrentPage }}
+  {{ $isIndex := .IsIndex }}
+  {{ $extraClass := "" }}
+  {{ if $isIndex }}{{ $extraClass = "book-section-index" }}{{ end }}
+
+  {{ if .Page.Params.BookCollapseSection }}
+  <input
+    type="checkbox"
+    id="section-{{ md5 .Page }}"
+    class="toggle"
+    {{ if or $current $ancestor }}checked{{ end }} />
+  <label for="section-{{ md5 .Page }}" class="flex">
+    <a
+      {{ if .Page.Content }}href="{{ .Page.RelPermalink }}"{{ else }}role="button"{{ end }}
+      class="flex-auto {{ if $current }}active{{ end }} {{ $extraClass }}">
+      {{- partial "docs/title" .Page -}}
+    </a>
+  </label>
+
+  {{ else if .Page.Params.BookHref }}
+  <a
+    href="{{ .Page.Params.BookHref }}"
+    class="{{ if $current }}active{{ end }} {{ $extraClass }}"
+    target="_blank"
+    rel="noopener">
+    {{- partial "docs/title" .Page -}}
+  </a>
+
+  {{ else if .Page.Content }}
+  <a
+    href="{{ .Page.RelPermalink }}"
+    class="{{ if $current }}active{{ end }} {{ $extraClass }}">
+    {{- partial "docs/title" .Page -}}
+  </a>
+
+  {{ else }}
+  <span class="{{ $extraClass }}">{{- partial "docs/title" .Page -}}</span>
+  {{ end }}
+{{ end }}

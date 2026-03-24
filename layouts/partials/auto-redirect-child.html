@@ -3,8 +3,7 @@
   {{- partial "find-first-content.html" (dict "ctx" . "page" .) -}}
   {{- $first := $.Scratch.Get "firstPage" -}}
   {{- if and $first (ne $first.RelPermalink .RelPermalink) -}}
-    <script>
-      window.location.href = '{{ $first.RelPermalink }}';
-    </script>
+    <meta http-equiv="refresh" content="0; url={{ $first.RelPermalink }}">
+    <link rel="canonical" href="{{ $first.Permalink }}">
   {{- end -}}
 {{- end -}}
