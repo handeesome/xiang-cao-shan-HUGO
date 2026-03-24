@@ -18,5 +18,8 @@ title: 香草山
   <h2>🧒 儿童</h2>
   <p>儿童内容与学习材料</p>
 </a>
-
+<a class="home-card" href="/children/">
+  <h2>🧒 儿童</h2>
+  <p>儿童内容与学习材料</p>
+</a>
 </div>
