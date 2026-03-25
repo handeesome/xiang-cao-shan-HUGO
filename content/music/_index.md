@@ -124,8 +124,8 @@ booktoc: false
   align-items: center;
   justify-content: center;
   font-size: 3rem;
-  color: #adb5bd;
-  text-shadow: 0 12px 40px #1f4e78;
+  color: white;
+  text-shadow: 0 0px 10px black;
   pointer-events: none;
 }
 
@@ -213,9 +213,8 @@ booktoc: false
 
 <script>
 
-  const INDEX_BASE = "/data/music"
-  const OSS_PROXY = "/.netlify/functions/music-videos" // fallback
-  const MUSIC_PAGE_SIZE = 40 // must match scripts/generate-music-index.mjs
+  const MUSIC_API = "/.netlify/functions/music-library"
+  const MUSIC_PAGE_SIZE = 40 // must match netlify/functions/music-library.js
 
   const VIDEO_BASE =
     "https://xiangcaoshan.oss-cn-beijing.aliyuncs.com/video/music/"
@@ -308,19 +307,11 @@ booktoc: false
     }
 
     // -------------------------
-    // FOLDER VIEW (instant; uses pre-generated indices + pagination)
+    // FOLDER VIEW (instant; uses serverless library API + pagination)
     // -------------------------
 
     let page = requestedPage
     let sortMode = musicSort?.value || sortModeFromUrl || "numeric"
-
-    function folderKeyFromPrefix(prefix) {
-      // Must match scripts/generate-music-index.mjs
-      if (!prefix) return "root"
-      const cleaned = String(prefix).replace(/^\/+/, "").replace(/\/+$/, "")
-      if (!cleaned) return "root"
-      return cleaned.replace(/\//g, "__")
-    }
 
     async function fetchJsonCached(url) {
       try {
@@ -394,19 +385,16 @@ booktoc: false
 
       const fragment = document.createDocumentFragment()
 
-      const folderKey = folderKeyFromPrefix(currentFolder)
-      const folderKeyEnc = encodeURIComponent(folderKey)
-
-      const foldersUrl = `${INDEX_BASE}/${folderKeyEnc}/folders.json`
-      const pageUrl = `${INDEX_BASE}/${folderKeyEnc}/files-${sortMode}/page-${page}.json`
-
       try {
-        const [foldersData, filePageData] = await Promise.all([
-          fetchJsonCached(foldersUrl),
-          fetchJsonCached(pageUrl),
-        ])
+        const url = `${MUSIC_API}?folder=${encodeURIComponent(
+          currentFolder
+        )}&sort=${encodeURIComponent(sortMode)}&page=${page}&pageSize=${encodeURIComponent(
+          MUSIC_PAGE_SIZE
+        )}`
 
-        ;(foldersData.folders || []).forEach(folder => {
+        const data = await fetchJsonCached(url)
+
+        ;(data.folders || []).forEach(folder => {
           const card = document.createElement("div")
           card.className = "music-card"
 
@@ -431,7 +419,7 @@ booktoc: false
           fragment.appendChild(card)
         })
 
-        const items = filePageData.items || []
+        const items = data.items || []
         items.forEach(v => {
           const title = getTitleFromVideoName(v.name)
 
@@ -478,8 +466,8 @@ booktoc: false
 
         app.appendChild(
           renderPagination({
-            hasMore: Boolean(filePageData.hasMore),
-            page,
+            hasMore: Boolean(data.pageInfo?.hasMore),
+            page: data.pageInfo?.page || page,
           })
         )
 
@@ -512,124 +500,9 @@ booktoc: false
 
         grid.querySelectorAll("img[data-src]").forEach(img => observer.observe(img))
       } catch (e) {
-        // Fallback: old behavior (may be slower, but keeps functionality).
-        console.warn("[music-index] Index fetch failed, fallback to OSS:", e)
-        const res = await fetch(OSS_PROXY)
-        const videos = await res.json()
-        videos.sort((a,b)=> new Date(b.lastModified) - new Date(a.lastModified))
-
-        const folders = new Set()
-        const files = []
-        videos
-          .filter(v => v.name.startsWith(currentFolder))
-          .forEach(v => {
-            const rest = v.name.slice(currentFolder.length)
-            const parts = rest.split("/").filter(Boolean)
-            if(parts.length === 1) files.push(v)
-            else folders.add(parts[0])
-          })
-
-        const getNum = n=>{
-          const m = n.match(/^\d+/)
-          return m ? parseInt(m[0], 10) : null
-        }
-
-        const sortFiles = list => {
-          if(sortMode === "title"){
-            return [...list].sort((a,b)=> getTitleFromVideoName(a.name).localeCompare(getTitleFromVideoName(b.name),'zh'))
-          }
-          return [...list].sort((a,b)=>{
-            const aName = a.name.split("/").pop()
-            const bName = b.name.split("/").pop()
-            const aNum = getNum(aName)
-            const bNum = getNum(bName)
-            if(aNum !== null && bNum !== null) return aNum - bNum
-            if(aNum !== null) return -1
-            if(bNum !== null) return 1
-            return aName.localeCompare(bName,'zh')
-          })
-        }
-
-        const sortedFiles = sortFiles(files)
-        const start = (page - 1) * MUSIC_PAGE_SIZE
-        const items = sortedFiles.slice(start, start + MUSIC_PAGE_SIZE)
-        const hasMore = start + MUSIC_PAGE_SIZE < sortedFiles.length
-
-        ;[...folders].forEach(folder => {
-          const card = document.createElement("div")
-          card.className = "music-card"
-          card.innerHTML = `
-            <a href="/music/?folder=${encodeURIComponent(currentFolder + folder + "/")}">
-              <img
-                src="/img/folder-placeholder.jpg"
-                width="320"
-                height="180"
-                alt="${folder}"
-                loading="lazy"
-                decoding="async"
-              >
-              <div class="music-title">📁 ${folder}</div>
-            </a>
-          `
-          fragment.appendChild(card)
-        })
-
-        items.forEach(v => {
-          const title = getTitleFromVideoName(v.name)
-          const thumb = `${v.url}?x-oss-process=video/snapshot,t_0,f_jpg,w_320`
-          const card = document.createElement("div")
-          card.className = "music-card"
-          card.innerHTML = `
-            <a href="/music/?v=${encodeURIComponent(v.name)}&folder=${encodeURIComponent(currentFolder)}&sort=${encodeURIComponent(
-              sortMode
-            )}&page=${page}">
-              <div class="music-thumb">
-                <img
-                  src="${placeholderImg}"
-                  data-src="${thumb || placeholderImg}"
-                  class="music-thumb-img is-loading"
-                  alt="${title}"
-                  width="320"
-                  height="180"
-                  loading="lazy"
-                  decoding="async"
-                >
-              </div>
-              <div class="music-title">
-                ${title}
-                <div class="duration">${formatDuration(v.duration)}</div>
-              </div>
-            </a>
-          `
-          fragment.appendChild(card)
-        })
-
-        grid.appendChild(fragment)
-        app.appendChild(grid)
-        app.appendChild(renderPagination({ hasMore, page }))
-
-        const observer = new IntersectionObserver(
-          entries => {
-            entries.forEach(e => {
-              if(!e.isIntersecting) return
-              const img = e.target
-              const realSrc = img.dataset.src
-              if(!realSrc) return
-              img.onload = () => {
-                img.classList.remove("is-loading")
-                observer.unobserve(img)
-              }
-              img.onerror = () => {
-                img.src = placeholderImg
-                img.classList.remove("is-loading")
-                observer.unobserve(img)
-              }
-              img.src = realSrc
-            })
-          },
-          { rootMargin: "200px" }
-        )
-        grid.querySelectorAll("img[data-src]").forEach(img => observer.observe(img))
+        console.warn("[music-index] Failed to load music library:", e)
+        app.innerHTML =
+          '<p>加载失败，请稍后重试。</p>'
       }
     }
 
