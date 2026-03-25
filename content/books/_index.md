@@ -12,7 +12,9 @@ bookToC: false
     <div class="select-wrap">
         <select id="viewMode">
         <option value="default">默认排序</option>
-        <option value="author">按作者</option>
+        <option value="title">按标题</option>
+        <option value="authorTitle">按作者 + 标题</option>
+        <option value="groupByAuthor">按作者（分组）</option>
         </select>
     </div>
   </label>
@@ -94,12 +96,34 @@ bookToC: false
         list = list.filter(b => b.dataset.author === selectedAuthor)
     }
 
+    const zhCompare = (a, b) => (a || "").localeCompare(b || "", "zh")
+
     // -------------------------
     // DEFAULT ORDER
     // -------------------------
-
     if(mode === "default"){
+        list.forEach(b => shelf.appendChild(b))
+        return
+    }
 
+    // -------------------------
+    // TITLE ORDER
+    // -------------------------
+    if(mode === "title"){
+        list.sort((a,b)=> zhCompare(a.dataset.title, b.dataset.title))
+        list.forEach(b => shelf.appendChild(b))
+        return
+    }
+
+    // -------------------------
+    // AUTHOR + TITLE ORDER (NO GROUP HEADERS)
+    // -------------------------
+    if(mode === "authorTitle"){
+        list.sort((a,b)=>{
+            const authorCmp = zhCompare(a.dataset.author, b.dataset.author)
+            if(authorCmp !== 0) return authorCmp
+            return zhCompare(a.dataset.title, b.dataset.title)
+        })
         list.forEach(b => shelf.appendChild(b))
         return
     }
@@ -107,7 +131,6 @@ bookToC: false
     // -------------------------
     // AUTHOR GROUP VIEW
     // -------------------------
-
     const groups = {}
 
     list.forEach(b=>{
@@ -116,19 +139,20 @@ bookToC: false
         groups[author].push(b)
     })
 
-    Object.keys(groups)
-        .sort((a,b)=>a.localeCompare(b,"zh"))
-        .forEach(author=>{
+    const authors = Object.keys(groups).sort((a,b)=> zhCompare(a,b))
+    const showHeaders = authors.length > 1 // avoids redundant headers when filtering
 
-        const header = document.createElement("div")
-        header.className = "book-author-group"
-        header.textContent = author
+    authors.forEach(author=>{
+        if(showHeaders){
+            const header = document.createElement("div")
+            header.className = "book-author-group"
+            header.textContent = author
+            shelf.appendChild(header)
+        }
 
-        shelf.appendChild(header)
-
+        groups[author].sort((a,b)=> zhCompare(a.dataset.title, b.dataset.title))
         groups[author].forEach(b => shelf.appendChild(b))
-
-        })
+    })
 
     }
 

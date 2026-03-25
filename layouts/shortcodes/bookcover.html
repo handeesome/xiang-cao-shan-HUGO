@@ -24,7 +24,7 @@
   {{ $coverSm := $img.Resize "320x webp q80" }}
   {{ $coverMd := $img.Resize "480x webp q80" }}
 
-  <div class="book-cover" data-author="{{ $author }}">
+  <div class="book-cover" data-author="{{ $author }}" data-title="{{ $title | plainify }}">
     <a href="{{ $url }}">
       <img
         src="{{ $coverSm.RelPermalink }}"
