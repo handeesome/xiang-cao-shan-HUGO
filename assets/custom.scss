@@ -8,7 +8,17 @@
 }
 
 .children-list li {
-  flex: 1 1 45%;
+  box-sizing: border-box;
+  /* Prevent flex-grow so a single book doesn't stretch to full width */
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+
+@media (max-width: 768px) {
+  .children-list li {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
 }
 
 .children-list li a {

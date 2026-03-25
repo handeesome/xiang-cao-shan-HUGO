@@ -5,7 +5,6 @@ booktoc: false
 
 # 诗歌
 
-<div id="music-app"></div>
 
 <div class="music-filters">
   <label>
@@ -18,6 +17,7 @@ booktoc: false
     </div>
   </label>
 </div>
+<div id="music-app"></div>
 
 <style>
 .music-filters {
@@ -124,7 +124,7 @@ booktoc: false
   align-items: center;
   justify-content: center;
   font-size: 3rem;
-  color: var(--body-font-color);
+  color: #fff;
   text-shadow: 0 12px 40px rgb(255, 255, 255);
   pointer-events: none;
 }
