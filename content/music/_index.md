@@ -124,8 +124,8 @@ booktoc: false
   align-items: center;
   justify-content: center;
   font-size: 3rem;
-  color: #fff;
-  text-shadow: 0 12px 40px rgb(255, 255, 255);
+  color: #adb5bd;
+  text-shadow: 0 12px 40px #1f4e78;
   pointer-events: none;
 }
 

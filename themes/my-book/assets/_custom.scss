@@ -159,7 +159,8 @@ audio {
 
 .book-shelf {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  /* Use a fixed column count so a single book doesn't stretch full-width. */
+  grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 1.25rem;
   justify-items: stretch;
   align-items: start;
@@ -325,7 +326,7 @@ a.anchor {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .book-header {
     position: sticky;
     top: 0;
@@ -333,6 +334,10 @@ a.anchor {
     background-color: var(--body-background);
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
+  }
+
+  .book-shelf {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
 
