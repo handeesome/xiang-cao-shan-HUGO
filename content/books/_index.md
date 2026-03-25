@@ -63,5 +63,4 @@ bookToC: false
 </div>
 
 
-{{ $booksShelfJS := resources.Get "books-shelf.js" | resources.Minify | resources.Fingerprint }}
-<script defer src="{{ $booksShelfJS.RelPermalink }}"></script>
+<script defer src="/js/book-shelf.js"></script>
