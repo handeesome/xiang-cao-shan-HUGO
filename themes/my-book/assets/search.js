@@ -26,6 +26,7 @@
 
   const input = document.querySelector('#book-search-input');
   const results = document.querySelector('#book-search-results');
+  const spinner = document.querySelector('.book-search-spinner');
 
   if (!input) {
     return
@@ -33,6 +34,10 @@
 
   // Get current section from data attribute
   const currentSection = input.getAttribute('data-section') || '';
+
+  let indexPromise = null;
+  let bookSearchIndex = null;
+  let searchErrorMessage = null;
 
   input.addEventListener('focus', init);
   input.addEventListener('keyup', search);
@@ -70,11 +75,19 @@
   }
 
   function init() {
+    if (indexPromise || bookSearchIndex) return;
+
     input.removeEventListener('focus', init); // init once
     input.required = true;
+    searchErrorMessage = null;
 
-    fetch(searchDataURL)
-      .then(pages => pages.json())
+    if (spinner) spinner.classList.remove('hidden');
+
+    indexPromise = fetch(searchDataURL)
+      .then(res => {
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        return res.json();
+      })
       .then(pages => {
         // Filter pages based on current section
         let filteredPages = pages;
@@ -83,23 +96,48 @@
           filteredPages = pages.filter(page => page.section === currentSection);
         }
         // If no currentSection (root page), use all pages
-        
-        window.bookSearchIndex = new Fuse(filteredPages, indexConfig);
+
+        bookSearchIndex = new Fuse(filteredPages, indexConfig);
+        window.bookSearchIndex = bookSearchIndex; // backwards-compatibility
       })
-      .then(() => input.required = false)
-      .then(search);
+      .catch(err => {
+        console.warn('[book-search] Failed to load index:', err);
+        searchErrorMessage = '搜索暂不可用，请稍后再试。';
+        bookSearchIndex = { search: () => [] };
+      })
+      .finally(() => {
+        input.required = false;
+        if (spinner) spinner.classList.add('hidden');
+      })
+      .then(() => search());
   }
 
   function search() {
+    const query = (input.value || '').trim();
+
     while (results.firstChild) {
       results.removeChild(results.firstChild);
     }
 
-    if (!input.value) {
+    if (!query) {
       return;
     }
 
-    const searchHits = window.bookSearchIndex.search(input.value).slice(0,10);
+    if (!bookSearchIndex) {
+      // Index is still loading; start it if needed, and re-run after ready.
+      if (!indexPromise) init();
+      indexPromise?.then(() => search()).catch(() => {});
+      return;
+    }
+
+    if (searchErrorMessage) {
+      const li = element('<li class="no-results"></li>');
+      li.textContent = searchErrorMessage;
+      results.appendChild(li);
+      return;
+    }
+
+    const searchHits = bookSearchIndex.search(query).slice(0,10);
     
     if (searchHits.length === 0) {
       const li = element('<li class="no-results"></li>');
