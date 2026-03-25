@@ -191,7 +191,8 @@ booktoc: false
 
 <script>
 
-  const OSS_JSON = "https://xiangcaoshan.oss-cn-beijing.aliyuncs.com/video/music/videos.json"
+  // Proxy endpoint to avoid browser-side CORS restrictions.
+  const OSS_JSON = "/.netlify/functions/music-videos"
 
   const params = new URLSearchParams(location.search)
   const currentVideo = params.get("v")
