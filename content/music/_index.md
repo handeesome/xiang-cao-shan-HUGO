@@ -212,5 +212,4 @@ booktoc: false
 </style>
 
 
-{{ $musicIndexJS := resources.Get "music-index.js" | resources.Minify | resources.Fingerprint }}
-<script defer src="{{ $musicIndexJS.RelPermalink }}"></script>
+<script defer src="/js/music-index.js"></script>
