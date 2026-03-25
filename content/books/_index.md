@@ -63,4 +63,4 @@ bookToC: false
 </div>
 
 
-<script defer src="/js/book-shelf.js"></script>
+<script defer src="/js/books-shelf.js"></script>
