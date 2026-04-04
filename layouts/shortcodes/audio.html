@@ -1,21 +1,25 @@
 {{ $src := .Get "src" }}
+{{ if not $src }}{{ errorf "audio shortcode: missing src on %s" .Page.File.Path }}{{ end }}
 
-{{ $bookRoot := .Page.CurrentSection }}
-
-{{ if eq .Page.Section "books" }}
-  {{ range .Page.Ancestors }}
-    {{ if and (eq .Section "books") (ne .RelPermalink "/books/") }}
-      {{ $bookRoot = . }}
+{{/* Prefer explicit bookSlug, then gracefully fall back to current hierarchy */}}
+{{ $bookSlug := .Page.Params.bookSlug | default .Page.CurrentSection.Params.bookSlug }}
+{{ if not $bookSlug }}
+  {{ $bookRoot := .Page.CurrentSection }}
+  {{ if eq .Page.Section "books" }}
+    {{ range .Page.Ancestors }}
+      {{ if and (eq .Section "books") (ne .RelPermalink "/books/") }}
+        {{ $bookRoot = . }}
+      {{ end }}
     {{ end }}
   {{ end }}
+  {{ $bookSlug = path.Base $bookRoot.RelPermalink }}
 {{ end }}
+{{ if not $bookSlug }}{{ errorf "audio shortcode: cannot resolve bookSlug on %s" .Page.File.Path }}{{ end }}
 
-{{ $bookName := path.Base $bookRoot.RelPermalink }}
-
-{{ $filePath := printf "%s/%s" $bookName $src }}
-
-{{ $url := printf "https://xiangcaoshan.netlify.app/.netlify/functions/audio?file=%s" $filePath }}
-
+{{ $base := .Site.Params.integration.audio.functionBase | default "/.netlify/functions/audio" }}
+{{ $bookKey := .Site.Params.integration.audio.queryBookKey | default "book" }}
+{{ $srcKey := .Site.Params.integration.audio.querySrcKey | default "src" }}
+{{ $url := printf "%s?%s=%s&%s=%s" $base $bookKey ($bookSlug | urlquery) $srcKey ($src | urlquery) }}
 <audio controls preload="metadata">
   <source src="{{ $url }}" type="audio/mpeg">
 </audio>

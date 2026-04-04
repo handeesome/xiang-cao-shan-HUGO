@@ -1,36 +1,18 @@
-document.addEventListener('DOMContentLoaded', function () {
+document.addEventListener("DOMContentLoaded", () => {
   const tocLinks = document.querySelectorAll('#TableOfContents a[href^="#"]');
-  const tocToggle = document.getElementById('toc-control');
-  const header = document.querySelector('.book-header');
-  const toc = document.querySelector('#TableOfContents');
+  const tocToggle = document.getElementById("toc-control");
 
-  tocLinks.forEach(function (link) {
-    link.addEventListener('click', function (e) {
-      const targetId = this.getAttribute('href').substring(1);
-      const targetEl = document.getElementById(targetId);
+  tocLinks.forEach((link) => {
+    link.addEventListener("click", (e) => {
+      const id = link.getAttribute("href")?.slice(1);
+      const target = id ? document.getElementById(id) : null;
+      if (!target) return;
 
-      if (targetEl) {
-        e.preventDefault();
+      e.preventDefault();
+      target.scrollIntoView({ behavior: "smooth", block: "start" });
 
-        // Calculate dynamic offset
-        const headerHeight = header ? header.offsetHeight : 0;
-        const tocHeight = toc ? toc.offsetHeight : 0;
-        const offset = headerHeight + tocHeight + 8; // +8 for some spacing buffer
-
-        // Scroll to the anchor target with offset
-        const elementPosition = targetEl.getBoundingClientRect().top;
-        const offsetPosition = elementPosition + window.pageYOffset - offset;
-
-        window.scrollTo({
-          top: offsetPosition,
-          behavior: 'smooth'
-        });
-
-        // Close the TOC
-        if (tocToggle) {
-          tocToggle.checked = false;
-        }
-      }
+      if (tocToggle) tocToggle.checked = false;
+      history.replaceState(null, "", `#${id}`);
     });
   });
 });

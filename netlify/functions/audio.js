@@ -1,39 +1,34 @@
-const { S3 } = require("aws-sdk");
+const bucket = process.env.OSS_BUCKET;
+const endpointHost = String(process.env.OSS_ENDPOINT || "").replace(/^https?:\/\//, "");
 
-const s3 = new S3({
-  accessKeyId: process.env.OSS_KEY,
-  secretAccessKey: process.env.OSS_SECRET,
-  endpoint: process.env.OSS_ENDPOINT,
-  region: process.env.OSS_REGION,
-  signatureVersion: "v4",
-});
-
-const bucketName = process.env.OSS_BUCKET;
+function badRequest() { return { statusCode: 400, body: "Missing book/src" }; }
+function forbidden()  { return { statusCode: 403, body: "Invalid path" }; }
+function serverError(message) { return { statusCode: 500, body: message }; }
 
 exports.handler = async (event) => {
-  const file = event.queryStringParameters?.file;
-
-  if (!file) {
-    return {
-      statusCode: 400,
-      body: 'Missing "file" parameter in query string',
-    };
+  if (!bucket || !endpointHost) {
+    return serverError("Missing OSS_BUCKET or OSS_ENDPOINT");
   }
 
-  try {
-    const url = `https://${bucketName}.${process.env.OSS_ENDPOINT.replace("https://", "")}/audio/${file}`;
+  const qs = event.queryStringParameters || {};
+  const book = safeDecode(qs.book);
+  const src  = safeDecode(qs.src);
 
-    return {
-      statusCode: 302,
-      headers: {
-        Location: url,
-      },
-    };
-  } catch (err) {
-    console.error("Error generating signed URL:", err);
-    return {
-      statusCode: 500,
-      body: "Error generating signed URL: " + err.message,
-    };
-  }
+  if (!book || !src) return badRequest();
+
+  // deny traversal + normalize slashes
+  if (src.includes("..") || book.includes("..") || src.includes("\\") || book.includes("\\")) return forbidden();
+
+  // enforce prefix and join safely (no accidental double slashes)
+  const normalizedSrc = src.replace(/^\/+/, "");
+  const normalizedBook = book.replace(/^\/+/, "");
+  const objectKey = `audio/${normalizedBook}/${normalizedSrc}`.replace(/\/{2,}/g, "/");
+
+  const url = `https://${bucket}.${endpointHost}/${encodeURI(objectKey)}`;
+  return { statusCode: 302, headers: { Location: url } };
 };
+
+function safeDecode(v) {
+  try { return decodeURIComponent(String(v || "")); }
+  catch { return ""; }
+}

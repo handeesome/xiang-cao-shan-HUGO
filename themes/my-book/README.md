@@ -184,8 +184,11 @@ disableKinds = ['taxonomy', 'taxonomyTerm']
   BookPortableLinks = true
 
   # /!\ This is an experimental feature, might be removed or changed at any time
-  # (Optional, experimental, default false) Enables service worker that caches visited pages and resources for offline use.
-  BookServiceWorker = true
+  # (Optional) Enables service worker that caches visited pages and resources for offline use.
+  # Supported modes:
+  # - "runtime": runtime caching only
+  # - "precache": also precache pages at install time
+  BookServiceWorker = "runtime"
 ```
 
 ### Multi-Language Support

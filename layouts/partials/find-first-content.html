@@ -1,26 +1,31 @@
 {{- $ctx := .ctx -}}
 {{- $page := .page -}}
 {{- $first := $ctx.Scratch.Get "firstPage" -}}
-
 {{- if not $first -}}
 
-  {{- if and $page.IsPage (gt (len $page.Content) 0) -}}
+{{/* Candidate predicate: navigable content page */}}
+{{- if and $page.IsPage (ne $page.RelPermalink $ctx.RelPermalink) -}}
+  {{- $isEmpty := eq (strings.TrimSpace $page.Plain) "" -}}
+  {{- if not $isEmpty -}}
     {{- $ctx.Scratch.Set "firstPage" $page -}}
+  {{- end -}}
+{{- end -}}
 
-  {{- else -}}
+{{/* Deterministic traversal: sections first, then pages, both weighted */}}
+{{- if not ($ctx.Scratch.Get "firstPage") -}}
+  {{- range $page.Sections.ByWeight -}}
+    {{- if not ($ctx.Scratch.Get "firstPage") -}}
+      {{- partial "find-first-content.html" (dict "ctx" $ctx "page" .) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
 
-    {{- range $page.Pages.ByWeight }}
-      {{- if not ($ctx.Scratch.Get "firstPage") -}}
-        {{- partial "find-first-content.html" (dict "ctx" $ctx "page" .) }}
-      {{- end }}
-    {{- end }}
+{{- if not ($ctx.Scratch.Get "firstPage") -}}
+  {{- range $page.Pages.ByWeight -}}
+    {{- if not ($ctx.Scratch.Get "firstPage") -}}
+      {{- partial "find-first-content.html" (dict "ctx" $ctx "page" .) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
 
-    {{- range $page.Sections }}
-      {{- if not ($ctx.Scratch.Get "firstPage") -}}
-        {{- partial "find-first-content.html" (dict "ctx" $ctx "page" .) }}
-      {{- end }}
-    {{- end }}
-
-  {{- end }}
-
-{{- end }}
+{{- end -}}

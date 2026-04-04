@@ -23,6 +23,20 @@ theme = 'my-book'
 [params]
   BookTheme = 'light'
   BookSearch = false
+  # Service worker modes:
+  # - "runtime": enable SW but only runtime-cache fetched same-origin pages
+  # - "precache": additionally precache all pages at install time
+  BookServiceWorker = "runtime"
+  
+  [params.features]
+    autoRedirectSections = true
+    audioPlayAll = true
+    strictShortcodes = false
+
+  [params.integration.audio]
+    functionBase = "/.netlify/functions/audio"
+    queryBookKey = "book"
+    querySrcKey = "src"
 
 [markup]
   [markup.goldmark]

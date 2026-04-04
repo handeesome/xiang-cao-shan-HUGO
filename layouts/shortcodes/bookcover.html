@@ -1,32 +1,40 @@
 {{ $imagePath := .Get "image" }}
-{{ $title := .Get "title" }}
-{{ $author := .Get "author" }}
-{{ $url := .Get "url" }}
+{{ $title := .Get "title" | default .Page.Title | default "Untitled" }}
+{{ $author := .Get "author" | default "Unknown Author" }}
+{{ $url := .Get "url" | default .Page.RelPermalink }}
 
+{{ $strict := .Site.Params.features.strictShortcodes | default (.Site.Params.strictShortcodes | default false) }}
 {{ $img := resources.Get $imagePath }}
 
 {{ if not $img }}
-  {{ errorf "bookcover shortcode: image not found: %s" $imagePath }}
+  {{ if $strict }}
+    {{ errorf "bookcover: image not found (%s) on %s" $imagePath .Page.File.Path }}
+  {{ else }}
+    {{ warnf "bookcover: image not found (%s) on %s" $imagePath .Page.File.Path }}
+    <div class="book-cover is-missing" data-author="{{ $author }}">
+      <a href="{{ $url }}">
+        <div class="book-cover-placeholder" aria-hidden="true"></div>
+        <div class="book-name">{{ $title }}</div>
+        <div class="book-author">{{ $author }}</div>
+      </a>
+    </div>
+  {{ end }}
+{{ else }}
+  {{/* cap size for card contexts */}}
+  {{ $coverSm := $img.Resize "320x webp q80" }}
+  {{ $coverMd := $img.Resize "480x webp q80" }}
+
+  <div class="book-cover" data-author="{{ $author }}" data-title="{{ $title | plainify }}">
+    <a href="{{ $url }}">
+      <img
+        src="{{ $coverSm.RelPermalink }}"
+        srcset="{{ $coverSm.RelPermalink }} 320w, {{ $coverMd.RelPermalink }} 480w"
+        sizes="(max-width: 768px) 45vw, 240px"
+        loading="lazy"
+        decoding="async"
+        alt="{{ $title }} cover" />
+      <div class="book-name">{{ $title }}</div>
+      <div class="book-author">{{ $author }}</div>
+    </a>
+  </div>
 {{ end }}
-
-{{ $cover := $img.Resize (printf "%dx webp" $img.Width) }}
-<div class="book-cover" data-author="{{ $author }}">
-  <a href="{{ $url }}">
-    <img
-      src="{{ $cover.RelPermalink }}"
-      width="{{ $cover.Width }}"
-      height="{{ $cover.Height }}"
-      loading="lazy"
-      decoding="async"
-      alt="{{ $title }} book cover"
-    />
-
-    <div class="book-name">
-      {{ $title }}
-    </div>
-
-    <div class="book-author">
-      {{ $author }}
-    </div>
-  </a>
-</div>

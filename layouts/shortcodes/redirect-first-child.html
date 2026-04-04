@@ -4,9 +4,11 @@
 
 {{- $first := $.Scratch.Get "firstPage" -}}
 {{- if $first }}
-  <script>
-    window.location.href = '{{ $first.RelPermalink }}';
-  </script>
+  <meta http-equiv="refresh" content="0; url={{ $first.RelPermalink }}">
+  <link rel="canonical" href="{{ $first.Permalink }}">
+  <noscript>
+    <a href="{{ $first.RelPermalink }}">Continue</a>
+  </noscript>
 {{- else }}
   <p>❌ No content page found for redirection.</p>
 {{- end }}
