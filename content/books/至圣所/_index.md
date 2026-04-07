@@ -1,5 +1,6 @@
 ---
 title: 小引
+showChildrenList: true
 footer_button_next:
   href: "第一大段真理方面/"
   text: "第一大段：真理方面"

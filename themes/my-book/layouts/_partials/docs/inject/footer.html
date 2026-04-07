@@ -54,7 +54,7 @@
     </div>
 
   {{ else }}
-    {{ $pages := $bookRoot.RegularPagesRecursive.ByWeight.Reverse }}
+    {{ $pages := $currentPage.CurrentSection.RegularPages.ByWeight.Reverse }}
     <div class="book-pagination">
       {{ $prevPage := $pages.Prev . }}
       
@@ -70,7 +70,7 @@
         </a>
       {{ else }}
         {{/* No prev page in current section, look for previous sibling section */}}
-        {{ $currentSectionPage := $bookRoot }}
+        {{ $currentSectionPage := $currentPage.CurrentSection }}
         {{ $parentSection := $currentSectionPage.Parent }}
         {{ $prevSection := "" }}
         
@@ -113,7 +113,7 @@
         </a>
       {{ else }}
         {{/* No next page in current section, look for next sibling section */}}
-        {{ $currentSectionPage := $bookRoot }}
+        {{ $currentSectionPage := $currentPage.CurrentSection }}
         {{ $parentSection := $currentSectionPage.Parent }}
         {{ $nextSection := "" }}
         
