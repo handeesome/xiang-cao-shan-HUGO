@@ -59,8 +59,9 @@ bookToC: false
 {{< bookcover title="祈祷出来的能力" author="邦兹" url="祈祷出来的能力/" image="images/books/祈祷出来的能力.jpg" >}}
 {{< bookcover title="作完全人" author="慕安得烈" url="作完全人/" image="images/books/作完全人.jpg" >}}
 {{< bookcover title="内在生活" author="慕安得烈" url="内在生活/" image="images/books/内在生活.jpg" >}}
-{{< bookcover title="立约的神" author="慕安得烈" url="立约的神/" image="images/books/立约的神.jpg" >}}
 {{< bookcover title="渴慕神" author="陶恕" url="渴慕神/" image="images/books/渴慕神.jpg" >}}
+{{< bookcover title="更新心意学教理" author="Starr Meade" url="更新心意学教理/" image="images/books/更新心意学教理.jpg" >}}
+{{< bookcover title="立约的神" author="慕安得烈" url="立约的神/" image="images/books/立约的神.jpg" >}}
 
 </div>
 
