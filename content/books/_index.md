@@ -63,6 +63,7 @@ bookToC: false
 {{< bookcover title="更新心意学教理" author="Starr Meade" url="更新心意学教理/" image="images/books/更新心意学教理.jpg" >}}
 {{< bookcover title="立约的神" author="慕安得烈" url="立约的神/" image="images/books/立约的神.jpg" >}}
 {{< bookcover title="十字架：信心的试金石" author="宾路易师母" url="十字架信心的试金石/" image="images/books/十字架信心的试金石.jpg" >}}
+{{< bookcover title="靠圣灵行事" author="劳威廉" url="靠圣灵行事/" image="images/books/靠圣灵行事.jpg" >}}
 
 </div>
 

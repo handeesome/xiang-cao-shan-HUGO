@@ -1,5 +1,5 @@
 ---
-title: 更新心意学教理
+title: 简介
 bookToC: false
 footer_button_next:
   href: "001_第一问-人的主要目的是什么/"
