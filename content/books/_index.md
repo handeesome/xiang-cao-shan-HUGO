@@ -69,6 +69,7 @@ bookToC: false
 {{< bookcover title="敬虔的默想" author="托马斯·曼顿" url="敬虔的默想/" image="images/books/敬虔的默想.jpg" >}}
 {{< bookcover title="公共敬拜重中之重" author="大卫·克拉克森" url="公共敬拜重中之重/" image="images/books/公共敬拜重中之重.jpg" >}}
 {{< bookcover title="进国度之路" author="罗伯特·郭维德" url="进国度之路/" image="images/books/进国度之路.jpg" >}}
+{{< bookcover title="理所当然的侍奉" author="布雷克" url="理所当然的侍奉/" image="images/books/理所当然的侍奉.webp" >}}
 
 </div>
 
