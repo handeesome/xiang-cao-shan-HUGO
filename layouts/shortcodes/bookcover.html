@@ -2,6 +2,7 @@
 {{ $title := .Get "title" | default .Page.Title | default "Untitled" }}
 {{ $author := .Get "author" | default "Unknown Author" }}
 {{ $url := .Get "url" | default .Page.RelPermalink }}
+{{ $priority := eq (.Get "priority" | default "") "high" }}
 
 {{ $strict := .Site.Params.features.strictShortcodes | default (.Site.Params.strictShortcodes | default false) }}
 {{ $img := resources.Get $imagePath }}
@@ -30,7 +31,8 @@
         src="{{ $coverSm.RelPermalink }}"
         srcset="{{ $coverSm.RelPermalink }} 320w, {{ $coverMd.RelPermalink }} 480w"
         sizes="(max-width: 768px) 45vw, 240px"
-        loading="lazy"
+        loading="{{ if $priority }}eager{{ else }}lazy{{ end }}"
+        {{ if $priority }}fetchpriority="high"{{ end }}
         decoding="async"
         alt="{{ $title }} cover" />
       <div class="book-name">{{ $title }}</div>
