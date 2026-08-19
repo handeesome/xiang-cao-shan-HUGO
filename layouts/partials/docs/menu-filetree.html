@@ -28,7 +28,7 @@
 {{ define "book-section-children" }}{{/* (dict "Section" .Section "CurrentPage" .CurrentPage "ShowIndexLink" bool) */}}
 <ul>
   {{/* Conditionally add the section index page first */}}
-  {{ if and .Section.Content .ShowIndexLink }}
+  {{ if and .Section.RawContent .ShowIndexLink }}
   <li>
     {{ template "book-page-link" (dict "Page" .Section "CurrentPage" $.CurrentPage "IsIndex" true) }}
   </li>
@@ -47,18 +47,18 @@
           was clickable/interactive enough that we don't need to show
           its index page link again in its children's list.
           A link is considered "clickable/interactive" if book-page-link renders:
-          - an <a> with href (due to .Content or .BookHref)
+          - an <a> with href (due to .RawContent or .BookHref)
           - an <input>/<label>/<a> with role="button" (due to .BookCollapseSection)
       */}}
       {{ $isOuterLinkSufficient := false }}
-      {{ if or .Params.BookHref .Params.BookCollapseSection .Content }}
+      {{ if or .Params.BookHref .Params.BookCollapseSection .RawContent }}
         {{ $isOuterLinkSufficient = true }}
       {{ end }}
 
       {{/* Pass ShowIndexLink: false to recursive call if outer link is sufficient */}}
       
     </li>
-    {{ else if and .IsPage .Content }}
+    {{ else if and .IsPage .RawContent }}
     <li>
       {{ template "book-page-link" (dict "Page" . "CurrentPage" $.CurrentPage) }}
     </li>
@@ -82,7 +82,7 @@
     {{ if or $current $ancestor }}checked{{ end }} />
   <label for="section-{{ md5 .Page }}" class="flex">
     <a
-      {{ if .Page.Content }}href="{{ .Page.RelPermalink }}"{{ else }}role="button"{{ end }}
+      {{ if .Page.RawContent }}href="{{ .Page.RelPermalink }}"{{ else }}role="button"{{ end }}
       class="flex-auto {{ if $current }}active{{ end }} {{ $extraClass }}">
       {{- partial "docs/title" .Page -}}
     </a>
@@ -97,7 +97,7 @@
     {{- partial "docs/title" .Page -}}
   </a>
 
-  {{ else if .Page.Content }}
+  {{ else if .Page.RawContent }}
   <a
     href="{{ .Page.RelPermalink }}"
     class="{{ if $current }}active{{ end }} {{ $extraClass }}">

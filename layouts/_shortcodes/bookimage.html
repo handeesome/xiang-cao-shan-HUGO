@@ -1,0 +1,11 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" | default "" -}}
+{{- $width := .Get "width" | default "520" -}}
+
+<figure class="book-illustration">
+  <img
+    src="{{ $src | safeURL }}"
+    alt="{{ $alt }}"
+    width="{{ $width }}"
+    decoding="async" />
+</figure>

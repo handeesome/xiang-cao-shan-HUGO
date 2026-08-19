@@ -96,7 +96,10 @@
   viewMode.addEventListener('change', render);
   authorFilter.addEventListener('change', render);
 
-  // Apply the initial filters (default author=all, default mode=default).
-  render();
+  // The server-rendered shelf is already in the default/all state. Avoid
+  // detaching and re-inserting every cover on initial page load.
+  if (viewMode.value !== 'default' || authorFilter.value !== 'all') {
+    render();
+  }
 })();
 

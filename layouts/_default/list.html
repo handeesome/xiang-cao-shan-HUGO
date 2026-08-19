@@ -1,15 +1,17 @@
 {{ define "main" }}
   {{ partial "section-auto-redirect.html" . }}
 
-  {{ if .Params.showChildrenList }}
-    <h1>{{ .Title }}</h1>
-    {{ .Content }}
-    <ul class="children-list">
-      {{ range .Pages.ByWeight }}
-        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-      {{ end }}
-    </ul>
-  {{ else }}
-    {{ .Content }}
-  {{ end }}
+  <article class="markdown book-article">
+    {{ if .Params.showChildrenList }}
+      <h1>{{ .Title }}</h1>
+      {{ .Content }}
+      <ul class="children-list">
+        {{ range .Pages.ByWeight }}
+          <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+    {{ else }}
+      {{ .Content }}
+    {{ end }}
+  </article>
 {{ end }}

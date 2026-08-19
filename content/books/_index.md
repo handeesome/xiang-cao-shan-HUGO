@@ -31,10 +31,10 @@ bookToC: false
 
 
 <div class="book-shelf">
-{{< bookcover title="基督是我们的满足" author="约翰达秘" url="基督是我们的满足/" image="images/books/基督是我们的满足.webp" >}}
-{{< bookcover title="效法基督" author="托马斯·厄·肯培" url="效法基督/" image="images/books/效法基督.jpg" >}}
-{{< bookcover title="倪柝声全集" author="倪柝声" url="倪柝声全集/" image="images/books/倪柝声全集.jpg" >}}
-{{< bookcover title="人的破碎与灵的出来" author="倪柝声" url="人的破碎与灵的出来/" image="images/books/人的破碎与灵的出来.png" >}}
+{{< bookcover title="基督是我们的满足" author="约翰达秘" url="基督是我们的满足/" image="images/books/基督是我们的满足.webp" priority="high" >}}
+{{< bookcover title="效法基督" author="托马斯·厄·肯培" url="效法基督/" image="images/books/效法基督.jpg" priority="high" >}}
+{{< bookcover title="倪柝声全集" author="倪柝声" url="倪柝声全集/" image="images/books/倪柝声全集.jpg" priority="high" >}}
+{{< bookcover title="人的破碎与灵的出来" author="倪柝声" url="人的破碎与灵的出来/" image="images/books/人的破碎与灵的出来.png" priority="high" >}}
 {{< bookcover title="隐藏的泉源─雅歌书注" author="宾路易师母" url="隐藏的泉源雅歌书注/" image="images/books/隐藏的泉源──雅歌书注.png" >}}
 {{< bookcover title="属天的日子" author="宣信博士" url="属天的日子/" image="images/books/属天的日子.png" >}}
 {{< bookcover title="神的心意" author="慕安得烈" url="神的心意/" image="images/books/神的心意.png" >}}
@@ -65,6 +65,11 @@ bookToC: false
 {{< bookcover title="立约的神" author="慕安得烈" url="立约的神/" image="images/books/立约的神.jpg" >}}
 {{< bookcover title="十字架：信心的试金石" author="宾路易师母" url="十字架信心的试金石/" image="images/books/十字架信心的试金石.jpg" >}}
 {{< bookcover title="靠圣灵行事" author="劳威廉" url="靠圣灵行事/" image="images/books/靠圣灵行事.jpg" >}}
+{{< bookcover title="心意更新的牧师" author="理查德·巴克斯特" url="心意更新的牧师/" image="images/books/心意更新的牧师.webp" >}}
+{{< bookcover title="敬虔的默想" author="托马斯·曼顿" url="敬虔的默想/" image="images/books/敬虔的默想.jpg" >}}
+{{< bookcover title="公共敬拜重中之重" author="大卫·克拉克森" url="公共敬拜重中之重/" image="images/books/公共敬拜重中之重.jpg" >}}
+{{< bookcover title="进国度之路" author="罗伯特·郭维德" url="进国度之路/" image="images/books/进国度之路.jpg" >}}
+{{< bookcover title="理所当然的侍奉" author="布雷克" url="理所当然的侍奉/" image="images/books/理所当然的侍奉.webp" >}}
 
 </div>
 
