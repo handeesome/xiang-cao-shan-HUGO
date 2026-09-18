@@ -29,6 +29,32 @@ netlify/functions/       Serverless functions for audio and music data
 hugo.toml                Main Hugo configuration
 ```
 
+## Content and Audio Preparation
+
+The Markdown chapters and audio files published by the site are the results of a preparation workflow that takes place before the Hugo site is built.
+
+### Text preparation
+
+Source material may come from PDF or Word documents. The text is extracted and then cleaned before it is added to `content/`:
+
+1. Extract the text from the source PDF or Word document. Scanned PDFs may require OCR first.
+2. Remove page-level artifacts such as repeated headers, footers, page numbers, and other extraction noise.
+3. Repair unwanted line breaks, normalize whitespace and punctuation, and restore readable paragraph boundaries.
+4. Preserve meaningful structure such as book titles, chapter headings, section headings, quotations, and notes.
+5. Split the cleaned text into chapter-based Markdown files and add the front matter required by Hugo.
+6. Proofread the result against the source document before publishing it.
+
+### Audio preparation
+
+Audio also goes through preprocessing before it is uploaded and linked from a chapter. FFmpeg is used as needed to:
+
+- Resize or re-encode audio files by adjusting the codec, bitrate, sample rate, channel layout, or output format.
+- Combine multiple recordings into one chapter audio file in the correct order.
+- Keep filenames and chapter boundaries aligned with the corresponding Markdown content.
+- Check the final file's duration, playback, and output size before uploading it to object storage.
+
+These preparation steps are separate from the Hugo build and the Netlify functions used by the published site. The repository currently documents the workflow but does not include the source-extraction, text-cleaning, or FFmpeg preprocessing scripts.
+
 ## Local Development
 
 Install dependencies:
