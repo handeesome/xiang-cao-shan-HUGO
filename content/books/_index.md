@@ -7,8 +7,8 @@ bookToC: false
 # 香草山书架
 
 <div class="book-filters">
-  <label>
-    书籍排序:
+  <div class="book-filter">
+    <label for="viewMode">书籍排序:</label>
     <div class="select-wrap">
         <select id="viewMode">
         <option value="default">默认排序</option>
@@ -17,16 +17,16 @@ bookToC: false
         <option value="groupByAuthor">按作者（分组）</option>
         </select>
     </div>
-  </label>
+  </div>
 
-  <label>
-    作者:
+  <div class="book-filter">
+    <label for="authorFilter">作者:</label>
     <div class="select-wrap">
         <select id="authorFilter">
         <option value="all">全部</option>
         </select>
     </div>
-  </label>
+  </div>
 </div>
 
 
