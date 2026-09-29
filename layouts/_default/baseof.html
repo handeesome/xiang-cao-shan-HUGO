@@ -87,7 +87,8 @@
   {{ partial "docs/header" . }}
 
   {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
-  <aside class="hidden clearfix" id="book-mobile-toc">
+  <aside class="hidden clearfix" id="book-mobile-toc" aria-labelledby="book-mobile-toc-title">
+    <div class="book-mobile-toc-heading" id="book-mobile-toc-title">本页目录</div>
     {{ template "toc" . }}
   </aside>
   {{ end }}

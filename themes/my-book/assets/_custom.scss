@@ -343,6 +343,56 @@ a.anchor {
     padding-bottom: 0.5rem;
   }
 
+  .book-header-control[aria-expanded="true"] {
+    background-color: var(--gray-100);
+  }
+
+  #book-mobile-toc {
+    position: absolute;
+    top: 100%;
+    inset-inline: 0;
+    max-height: 65vh;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    padding: 0.75rem 1rem 1rem;
+    border: 1px solid var(--gray-200);
+    border-top: 0;
+    border-radius: 0 0 0.5rem 0.5rem;
+    background-color: var(--body-background);
+    box-shadow: 0 0.75rem 1.75rem rgba(0, 0, 0, 0.12);
+    scrollbar-gutter: stable;
+
+    .book-mobile-toc-heading {
+      margin-bottom: 0.25rem;
+      color: var(--gray-500);
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+    }
+
+    nav ul {
+      a {
+        display: flex;
+        align-items: center;
+        min-height: 2.75rem;
+        padding: 0.625rem 0.5rem;
+        border-radius: 0.375rem;
+        line-height: 1.4;
+
+        &[aria-current="location"] {
+          background-color: color-mix(in srgb, var(--color-link) 12%, transparent);
+          font-weight: 700;
+        }
+      }
+
+      ul {
+        margin-inline-start: 0.5rem;
+        padding-inline-start: 0.75rem;
+        border-inline-start: 1px solid var(--gray-200);
+      }
+    }
+  }
+
   .book-shelf {
     grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 1rem;

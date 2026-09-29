@@ -9,13 +9,21 @@ document.addEventListener("DOMContentLoaded", () => {
       if (!target) return;
 
       e.preventDefault();
-      target.scrollIntoView({ behavior: "smooth", block: "start" });
+      const reduceMotion = window.matchMedia(
+        "(prefers-reduced-motion: reduce)"
+      ).matches;
+      target.scrollIntoView({
+        behavior: reduceMotion ? "auto" : "smooth",
+        block: "start",
+      });
 
       if (tocToggle) {
         tocToggle.checked = false;
         tocToggle.dispatchEvent(new Event("change", { bubbles: true }));
       }
       history.replaceState(null, "", `#${id}`);
+      target.setAttribute("tabindex", "-1");
+      target.focus({ preventScroll: true });
     });
   });
 });

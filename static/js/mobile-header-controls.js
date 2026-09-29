@@ -17,6 +17,58 @@
       );
     };
 
+    const tocControl = controls.find(
+      (control) => control.dataset.toggleControl === "toc-control"
+    );
+    const tocToggle = document.getElementById("toc-control");
+    const tocPanel = document.getElementById("book-mobile-toc");
+    const tocLinks = tocPanel
+      ? Array.from(tocPanel.querySelectorAll('a[href^="#"]'))
+      : [];
+    const tocTargets = tocLinks
+      .map((link) => {
+        const id = link.getAttribute("href")?.slice(1);
+        return id ? document.getElementById(id) : null;
+      })
+      .filter(Boolean);
+
+    const updateActiveTocLink = () => {
+      if (!tocLinks.length) return;
+
+      const headerOffset =
+        document.querySelector(".book-header")?.getBoundingClientRect().height ||
+        0;
+      let activeTarget = tocTargets[0];
+
+      tocTargets.forEach((target) => {
+        if (target.getBoundingClientRect().top <= headerOffset + 24) {
+          activeTarget = target;
+        }
+      });
+
+      const reachedPageEnd =
+        Math.ceil(window.scrollY + window.innerHeight) >=
+        document.documentElement.scrollHeight - 2;
+      if (reachedPageEnd) {
+        activeTarget = tocTargets[tocTargets.length - 1];
+      }
+
+      tocLinks.forEach((link) => {
+        const isActive = link.getAttribute("href") === `#${activeTarget?.id}`;
+        if (isActive) {
+          link.setAttribute("aria-current", "location");
+        } else {
+          link.removeAttribute("aria-current");
+        }
+      });
+    };
+
+    const focusActiveTocLink = () => {
+      const activeLink =
+        tocPanel?.querySelector('a[aria-current="location"]') || tocLinks[0];
+      activeLink?.focus({ preventScroll: true });
+    };
+
     controls.forEach((control) => {
       const toggle = document.getElementById(control.dataset.toggleControl);
       if (!toggle) return;
@@ -25,6 +77,11 @@
 
       toggle.addEventListener("change", () => {
         syncControl(control, toggle);
+
+        if (toggle === tocToggle && toggle.checked) {
+          updateActiveTocLink();
+          requestAnimationFrame(focusActiveTocLink);
+        }
       });
 
       control.addEventListener("keydown", (event) => {
@@ -33,6 +90,36 @@
         event.preventDefault();
         control.click();
       });
+    });
+
+    let scrollFrame;
+    window.addEventListener(
+      "scroll",
+      () => {
+        if (scrollFrame) return;
+        scrollFrame = requestAnimationFrame(() => {
+          updateActiveTocLink();
+          scrollFrame = null;
+        });
+      },
+      { passive: true }
+    );
+
+    tocLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        tocLinks.forEach((item) => item.removeAttribute("aria-current"));
+        link.setAttribute("aria-current", "location");
+      });
+    });
+
+    document.addEventListener("pointerdown", (event) => {
+      if (!tocToggle?.checked) return;
+      if (tocControl?.contains(event.target) || tocPanel?.contains(event.target)) {
+        return;
+      }
+
+      tocToggle.checked = false;
+      tocToggle.dispatchEvent(new Event("change", { bubbles: true }));
     });
 
     document.addEventListener("keydown", (event) => {
@@ -51,5 +138,7 @@
       toggle.dispatchEvent(new Event("change", { bubbles: true }));
       expandedControl.focus();
     });
+
+    updateActiveTocLink();
   });
 })();
