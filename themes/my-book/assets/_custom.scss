@@ -328,6 +328,13 @@ body > img.banner-header {
   position: relative;
 }
 
+@media screen and (max-width: 900px) {
+  body > img.banner-header {
+    height: clamp(9rem, 32vw, 15rem);
+    object-position: 50% 35%;
+  }
+}
+
 /* Prevent main from overlapping */
 main.container {
   margin-top: 0; /* Just in case */
