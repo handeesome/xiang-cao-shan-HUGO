@@ -204,6 +204,108 @@ booktoc: false
   border-radius: 999px;
 }
 
+@media screen and (max-width: 560px) {
+  .music-filters {
+    margin: 0.75rem 0 1rem;
+  }
+
+  .music-filters label {
+    display: grid;
+    width: 100%;
+    gap: 0.375rem;
+  }
+
+  .music-filters .select-wrap,
+  .music-filters select {
+    width: 100%;
+  }
+
+  .music-filters select {
+    min-height: 2.75rem;
+    padding-block: 0.625rem;
+  }
+
+  .music-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.75rem;
+  }
+
+  .music-card {
+    contain-intrinsic-size: auto 5.5rem;
+  }
+
+  .music-card a {
+    min-height: 5.5rem;
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .music-card > a > img,
+  .music-thumb {
+    flex: 0 0 7rem;
+    width: 7rem;
+  }
+
+  .music-card > a > img {
+    height: 5.5rem;
+    aspect-ratio: auto;
+  }
+
+  .music-thumb {
+    align-self: stretch;
+    overflow: hidden;
+  }
+
+  .music-thumb img {
+    height: 100%;
+    aspect-ratio: auto;
+  }
+
+  .music-thumb::after {
+    font-size: 1.75rem;
+  }
+
+  .music-title {
+    display: flex;
+    min-width: 0;
+    flex: 1 1 auto;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.625rem 0.75rem;
+    text-align: left;
+    overflow-wrap: anywhere;
+  }
+
+  .music-pagination {
+    gap: 0.75rem;
+  }
+
+  .music-pagination .page-link {
+    display: inline-flex;
+    min-height: 2.75rem;
+    flex: 1 1 0;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
+  .music-skeleton-card {
+    display: flex;
+    min-height: 5.5rem;
+  }
+
+  .music-skeleton-thumb {
+    width: 7rem;
+    flex: 0 0 7rem;
+    aspect-ratio: auto;
+  }
+
+  .music-skeleton-card > div:last-child {
+    min-width: 0;
+    flex: 1 1 auto;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .music-skeleton {
     animation: none;
