@@ -194,14 +194,43 @@ body[dir="rtl"] .book-menu {
   display: none;
   margin-bottom: $padding-16;
 
-  label {
+  .book-header-control {
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 44px;
+    width: 44px;
+    height: 44px;
+    border-radius: $border-radius;
+    cursor: pointer;
     line-height: 0;
+
+    &:active {
+      background: var(--gray-100);
+    }
+
+    &:focus-visible {
+      @include outline;
+      outline-offset: 2px;
+    }
+  }
+
+  label.book-header-control {
+    display: inline-flex;
+  }
+
+  .book-header-control-spacer {
+    display: block;
+    pointer-events: none;
   }
 
   h3 {
+    flex: 1 1 auto;
+    min-width: 0;
     overflow: hidden;
     text-overflow: ellipsis;
-    margin: 0 $padding-16;
+    white-space: nowrap;
+    text-align: center;
+    margin: 0 $padding-8;
   }
 
   img.book-icon {
@@ -324,10 +353,6 @@ body[dir="rtl"] .book-menu {
     display: block;
   }
 
-  #menu-control:focus ~ main label[for="menu-control"] {
-    @include outline;
-  }
-
   #menu-control:checked ~ main {
     .book-menu {
       visibility: initial;
@@ -350,10 +375,6 @@ body[dir="rtl"] .book-menu {
       left: 0;
       right: 0;
     }
-  }
-
-  #toc-control:focus ~ main label[for="toc-control"] {
-    @include outline;
   }
 
   #toc-control:checked ~ main {

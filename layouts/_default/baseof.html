@@ -6,8 +6,8 @@
 </head>
 <body dir="{{ default "ltr" .Site.Language.LanguageDirection }}">
 
-  <input type="checkbox" class="hidden toggle" id="menu-control" />
-  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <input type="checkbox" class="hidden toggle" id="menu-control" tabindex="-1" aria-hidden="true" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" tabindex="-1" aria-hidden="true" />
 {{ if .IsHome }}
   {{ $banner := resources.Get "images/banner.png" }}
 
@@ -32,7 +32,7 @@
   />
 {{ end }}
   <main class="container flex">
-    <aside class="book-menu">
+    <aside class="book-menu" id="book-menu-panel">
       <div class="book-menu-content">
         {{ template "menu" . }} <!-- Left menu Content -->
       </div>
@@ -75,6 +75,7 @@
   {{ if default true .Site.Params.features.audioPlayAll }}
   <script defer src="{{ "js/audio-play-all.js" | relURL }}"></script>
   {{ end }}
+  <script defer src="{{ "js/mobile-header-controls.js" | relURL }}"></script>
 </body>
 </html>
 
@@ -86,7 +87,7 @@
   {{ partial "docs/header" . }}
 
   {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
-  <aside class="hidden clearfix">
+  <aside class="hidden clearfix" id="book-mobile-toc">
     {{ template "toc" . }}
   </aside>
   {{ end }}

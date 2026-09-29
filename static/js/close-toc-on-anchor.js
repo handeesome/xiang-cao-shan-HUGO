@@ -11,7 +11,10 @@ document.addEventListener("DOMContentLoaded", () => {
       e.preventDefault();
       target.scrollIntoView({ behavior: "smooth", block: "start" });
 
-      if (tocToggle) tocToggle.checked = false;
+      if (tocToggle) {
+        tocToggle.checked = false;
+        tocToggle.dispatchEvent(new Event("change", { bubbles: true }));
+      }
       history.replaceState(null, "", `#${id}`);
     });
   });
