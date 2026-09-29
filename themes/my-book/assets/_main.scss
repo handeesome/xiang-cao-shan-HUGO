@@ -6,7 +6,7 @@ html {
 }
 
 body {
-  min-width: $body-min-width;
+  min-width: 0;
   color: var(--body-font-color);
   background: var(--body-background);
 
@@ -171,8 +171,8 @@ body[dir="rtl"] .book-menu {
 }
 
 .book-page {
-  min-width: $body-min-width;
-  flex-grow: 1;
+  min-width: 0;
+  flex: 1 1 auto;
   padding: $padding-16;
 }
 
