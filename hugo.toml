@@ -35,6 +35,7 @@ theme = 'my-book'
 
   [params.integration.audio]
     functionBase = "/.netlify/functions/audio"
+    previewFunctionBase = "https://xiangcaoshan.netlify.app/.netlify/functions/audio"
     queryBookKey = "book"
     querySrcKey = "src"
 
@@ -44,4 +45,3 @@ theme = 'my-book'
       unsafe = true
   [markup.tableOfContents]
     startLevel = 1
-  

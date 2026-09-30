@@ -176,6 +176,19 @@ audio {
   border-radius: 999px;
 }
 
+.book-article .audio-sync-active {
+  background-color: rgba(255, 193, 7, 0.18);
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0 0.35rem rgba(255, 193, 7, 0.18);
+  transition: background-color 0.18s ease, box-shadow 0.18s ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .book-article .audio-sync-active {
+    transition: none;
+  }
+}
+
 .book-shelf {
   display: grid;
   /* Use a fixed column count so a single book doesn't stretch full-width. */

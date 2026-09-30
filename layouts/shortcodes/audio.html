@@ -1,5 +1,6 @@
 {{ $src := .Get "src" }}
 {{ if not $src }}{{ errorf "audio shortcode: missing src on %s" .Page.File.Path }}{{ end }}
+{{ $sync := .Get "sync" }}
 
 {{/* Prefer explicit bookSlug, then gracefully fall back to current hierarchy */}}
 {{ $bookSlug := .Page.Params.bookSlug | default .Page.CurrentSection.Params.bookSlug }}
@@ -17,9 +18,12 @@
 {{ if not $bookSlug }}{{ errorf "audio shortcode: cannot resolve bookSlug on %s" .Page.File.Path }}{{ end }}
 
 {{ $base := .Site.Params.integration.audio.functionBase | default "/.netlify/functions/audio" }}
+{{ if hugo.IsServer }}
+  {{ $base = .Site.Params.integration.audio.previewFunctionBase | default $base }}
+{{ end }}
 {{ $bookKey := .Site.Params.integration.audio.queryBookKey | default "book" }}
 {{ $srcKey := .Site.Params.integration.audio.querySrcKey | default "src" }}
 {{ $url := printf "%s?%s=%s&%s=%s" $base $bookKey ($bookSlug | urlquery) $srcKey ($src | urlquery) }}
-<audio class="chapter-audio" controls preload="none" aria-label="章节音频">
+<audio class="chapter-audio" controls preload="none" aria-label="章节音频"{{ with $sync }} data-sync-src="{{ . | relURL }}"{{ end }}>
   <source src="{{ $url }}" type="audio/mpeg">
 </audio>
