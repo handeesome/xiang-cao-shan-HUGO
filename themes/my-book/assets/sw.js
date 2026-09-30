@@ -1,10 +1,13 @@
 const CACHE_VERSION = '{{ now.Unix }}';
 const cacheName = `book-sw-cache-${CACHE_VERSION}`;
+const fallbackPage = "{{ "/" | relURL }}";
 const pages = [
 {{ if eq .Site.Params.BookServiceWorker "precache" }}
   {{ range .Site.AllPages -}}
   "{{ .RelPermalink }}",
   {{ end -}}
+{{ else }}
+  fallbackPage,
 {{ end }}
 ];
 
@@ -56,24 +59,22 @@ self.addEventListener('fetch', (event) => {
    * Always return a Response (never `undefined`).
    * @returns {Promise<Response>}
    */
-  function serveFromCache() {
-    return caches.open(cacheName).then((cache) => {
-      return cache.match(request).then((cached) => {
-        if (cached) return cached;
+  async function serveFromCache() {
+    const cache = await caches.open(cacheName);
+    const cached = await cache.match(request);
+    if (cached) return cached;
 
-        if (request.mode === 'navigate') {
-          return (
-            cache.match('/') ||
-            new Response('Offline', {
-              status: 503,
-              headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-            })
-          );
-        }
+    if (request.mode === 'navigate') {
+      const home = await cache.match(fallbackPage);
+      if (home) return home;
 
-        return new Response('', { status: 504 });
+      return new Response('当前处于离线状态，这个页面尚未缓存。联网后请重试。', {
+        status: 503,
+        headers: { 'Content-Type': 'text/plain;charset=utf-8' },
       });
-    });
+    }
+
+    return new Response('', { status: 504 });
   }
 
   /**

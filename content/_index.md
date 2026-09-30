@@ -2,6 +2,8 @@
 title: 香草山
 ---
 
+<h1 class="visually-hidden">香草山</h1>
+
 <div class="home-cards">
 
 <a class="home-card" href="/books/">

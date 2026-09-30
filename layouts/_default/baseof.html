@@ -32,7 +32,7 @@
   />
 {{ end }}
   <main class="container flex">
-    <aside class="book-menu" id="book-menu-panel">
+    <aside class="book-menu" id="book-menu-panel" aria-label="站点导航">
       <div class="book-menu-content">
         {{ template "menu" . }} <!-- Left menu Content -->
       </div>
@@ -58,8 +58,9 @@
 
       {{ template "comments" . }} <!-- Comments block -->
 
-      <label for="menu-control" class="hidden book-menu-overlay"></label>
     </div>
+
+    <label for="menu-control" class="hidden book-menu-overlay" aria-hidden="true"></label>
 
     {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
     <aside class="book-toc">

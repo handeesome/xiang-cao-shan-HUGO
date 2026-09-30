@@ -5,6 +5,76 @@
     const controls = Array.from(
       document.querySelectorAll("[data-toggle-control]")
     );
+    const mobileView = window.matchMedia("(max-width: 900px)");
+    const menuControl = controls.find(
+      (control) => control.dataset.toggleControl === "menu-control"
+    );
+    const menuToggle = document.getElementById("menu-control");
+    const menuPanel = document.getElementById("book-menu-panel");
+    const menuContent = menuPanel?.querySelector(".book-menu-content");
+    const menuBackground = Array.from(
+      document.querySelectorAll(".book-page, .book-toc, body > .banner-header")
+    );
+    let menuScrollPosition = 0;
+    let menuWasOpen = false;
+
+    const getMenuFocusableElements = () =>
+      menuContent
+        ? Array.from(
+            menuContent.querySelectorAll(
+              'a[href], button:not([disabled]), input:not([disabled]):not([type="hidden"]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
+            )
+          ).filter((element) => element.getClientRects().length > 0)
+        : [];
+
+    const setMenuBackgroundInactive = (inactive) => {
+      menuBackground.forEach((element) => {
+        element.inert = inactive;
+        if (inactive) {
+          element.setAttribute("aria-hidden", "true");
+        } else {
+          element.removeAttribute("aria-hidden");
+        }
+      });
+    };
+
+    const syncMenuState = () => {
+      const open = Boolean(menuToggle?.checked && mobileView.matches);
+
+      if (open) {
+        menuScrollPosition = window.scrollY;
+        document.body.style.setProperty(
+          "--book-menu-scroll-offset",
+          `-${menuScrollPosition}px`
+        );
+        document.body.classList.add("book-menu-open");
+        setMenuBackgroundInactive(true);
+        menuContent?.setAttribute("role", "dialog");
+        menuContent?.setAttribute("aria-modal", "true");
+        menuContent?.setAttribute("aria-label", "站点导航");
+        requestAnimationFrame(() => {
+          getMenuFocusableElements()[0]?.focus({
+            preventScroll: true,
+          });
+        });
+      } else {
+        document.body.classList.remove("book-menu-open");
+        document.body.style.removeProperty("--book-menu-scroll-offset");
+        setMenuBackgroundInactive(false);
+        menuContent?.removeAttribute("role");
+        menuContent?.removeAttribute("aria-modal");
+        menuContent?.removeAttribute("aria-label");
+
+        if (menuWasOpen) {
+          window.scrollTo(0, menuScrollPosition);
+          if (mobileView.matches) {
+            requestAnimationFrame(() => menuControl?.focus());
+          }
+        }
+      }
+
+      menuWasOpen = open;
+    };
 
     const syncControl = (control, toggle) => {
       const expanded = toggle.checked;
@@ -92,6 +162,16 @@
       });
     });
 
+    menuToggle?.addEventListener("change", syncMenuState);
+    mobileView.addEventListener("change", () => {
+      if (!mobileView.matches && menuToggle?.checked) {
+        menuToggle.checked = false;
+        menuToggle.dispatchEvent(new Event("change", { bubbles: true }));
+        return;
+      }
+      syncMenuState();
+    });
+
     ["menu-control", "toc-control"].forEach((toggleId) => {
       const toggle = document.getElementById(toggleId);
       const labels = Array.from(
@@ -109,7 +189,9 @@
           const scrollTop = window.scrollY;
           toggle.checked = !toggle.checked;
           toggle.dispatchEvent(new Event("change", { bubbles: true }));
-          window.scrollTo(scrollLeft, scrollTop);
+          if (toggleId !== "menu-control") {
+            window.scrollTo(scrollLeft, scrollTop);
+          }
         });
       });
     });
@@ -145,6 +227,24 @@
     });
 
     document.addEventListener("keydown", (event) => {
+      if (event.key === "Tab" && menuToggle?.checked && mobileView.matches) {
+        const focusable = getMenuFocusableElements();
+        if (!focusable.length) {
+          event.preventDefault();
+          return;
+        }
+
+        const first = focusable[0];
+        const last = focusable[focusable.length - 1];
+        if (event.shiftKey && document.activeElement === first) {
+          event.preventDefault();
+          last.focus();
+        } else if (!event.shiftKey && document.activeElement === last) {
+          event.preventDefault();
+          first.focus();
+        }
+      }
+
       if (event.key !== "Escape") return;
 
       const expandedControl = controls.find((control) => {
@@ -162,5 +262,6 @@
     });
 
     updateActiveTocLink();
+    syncMenuState();
   });
 })();

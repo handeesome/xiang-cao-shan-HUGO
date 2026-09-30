@@ -15,6 +15,41 @@
       );
     });
 
+    const requestMetadata = (audio) => {
+      if (!audio || audio.dataset.metadataRequested === "true") return;
+
+      audio.dataset.metadataRequested = "true";
+      audio.preload = "metadata";
+      if (audio.readyState === HTMLMediaElement.HAVE_NOTHING) {
+        audio.load();
+      }
+    };
+
+    requestMetadata(audios[0]);
+
+    if ("IntersectionObserver" in window) {
+      const metadataObserver = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            requestMetadata(entry.target);
+            metadataObserver.unobserve(entry.target);
+          });
+        },
+        { rootMargin: "600px 0px" }
+      );
+
+      audios.slice(1).forEach((audio) => metadataObserver.observe(audio));
+    } else {
+      audios.slice(1).forEach((audio) => {
+        ["pointerdown", "focus"].forEach((eventName) => {
+          audio.addEventListener(eventName, () => requestMetadata(audio), {
+            once: true,
+          });
+        });
+      });
+    }
+
     if (audios.length === 1) return;
 
     const controls = document.createElement("div");

@@ -14,7 +14,7 @@
     <img src="{{ "svg/menu.svg" | relURL }}" class="book-icon" alt="" aria-hidden="true" />
   </label>
 
-  <h3>{{ partial "docs/title" . }}</h3>
+  <div class="book-header-title">{{ partial "docs/title" . }}</div>
 
   {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
   <label
