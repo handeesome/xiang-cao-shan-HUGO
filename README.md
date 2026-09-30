@@ -1,109 +1,198 @@
-# Xiangcaoshan
+# Xiangcaoshan（香草山）
 
-Xiangcaoshan is a quiet reading and listening site for Christian literature and music. It collects works from many Christian authors, including Watchman Nee, Andrew Murray, T. Austin-Sparks, Jessie Penn-Lewis, John Nelson Darby, and others.
+[xiangcaoshan.netlify.app](https://xiangcaoshan.netlify.app/) is a quiet reading and listening site for Christian literature, music, and children’s resources. It is built as a Hugo static site, with book and music media stored outside the repository and served through small Netlify functions.
 
-The heart of the project is a bookshelf of spiritual writings. Book chapters are presented as readable web pages, and many texts are paired with playable audio so readers can follow along in a calm, understandable way. The site also includes a Christian music section with browsable audio and video resources.
+The project emphasizes long-form reading: books are organized by author and title, chapters are written in Markdown, and many passages can be followed with recorded audio.
 
-## Features
+## Current Features
 
-- Christian book collection organized by title and author
-- Chapter-based reading pages built from Markdown content
-- Playable audio support for book texts
-- Christian music library with sorting, folders, pagination, and media thumbnails
-- Children section for family-friendly Christian learning materials
-- Lightweight static site generated with Hugo
-- Netlify serverless functions for audio redirects and music library data
-- Mobile-friendly layout based on the local `my-book` Hugo theme
+- Bookshelf with title, author, grouped-author, and author-filter views
+- Chapter-based reading pages with explicit previous/next navigation
+- Responsive layouts tested at narrow mobile, tablet, and desktop widths
+- Mobile navigation and table of contents that preserve the reader’s scroll position
+- Accessible navigation dialogs, focus handling, keyboard controls, and larger touch targets
+- Mobile reading controls that hide while scrolling and return after a tap or keyboard action
+- Chapter audio with lazy metadata loading and sequential playback on multi-audio pages
+- Optional paragraph-level highlighting synchronized to an audio recording
+- Music folders, numeric/title sorting, pagination, cached API responses, and lazy thumbnails
+- Children’s section for family-friendly Christian learning material
+- Installable PWA metadata and a runtime-cache service worker
+- Netlify functions for book-audio redirects and music-library data
+
+## Technology and Architecture
+
+- **Hugo Extended** builds the site from Markdown and the local `my-book` theme.
+- **Vanilla JavaScript and SCSS** provide the bookshelf, music library, reading controls, audio playback, and text synchronization.
+- **Netlify Functions** expose lightweight endpoints for audio redirects and paginated music metadata.
+- **Alibaba Cloud OSS** stores the published audio and video assets; large media files are not committed to this repository.
+- **faster-whisper** can generate paragraph-level audio timing data locally. It does not require a hosted AI API.
 
 ## Project Structure
 
 ```text
-content/                 Site pages and book chapters
-content/books/           Christian books and chapter Markdown files
-content/music/           Music section page
-content/children/        Children section content
-layouts/                 Hugo layout overrides and shortcodes
-themes/my-book/          Local Hugo theme
-static/                  Static files, JavaScript, icons, and images
-netlify/functions/       Serverless functions for audio and music data
-hugo.toml                Main Hugo configuration
+content/                     Site pages and Markdown content
+content/books/               Book directories, indexes, and chapters
+content/music/               Music section entry page
+content/children/            Children’s section
+layouts/                     Hugo overrides and shortcodes
+themes/my-book/              Local Hugo theme, SCSS, PWA manifest, and service worker
+static/js/                   Browser-side reading, audio, bookshelf, and music code
+static/audio-sync/           Published paragraph-level audio timing JSON
+netlify/functions/           Audio redirect and music-library functions
+scripts/                     Local content-preparation tools
+├─ generate_audio_sync.py    Local Whisper alignment tool
+└─ README-audio-sync.md      Detailed audio-sync workflow
+hugo.toml                    Site configuration and feature flags
+package.json                 Node dependencies used by the deployment tooling
 ```
-
-## Content and Audio Preparation
-
-The Markdown chapters and audio files published by the site are the results of a preparation workflow that takes place before the Hugo site is built.
-
-### Text preparation
-
-Source material may come from PDF or Word documents. The text is extracted and then cleaned before it is added to `content/`:
-
-1. Extract the text from the source PDF or Word document. Scanned PDFs may require OCR first.
-2. Remove page-level artifacts such as repeated headers, footers, page numbers, and other extraction noise.
-3. Repair unwanted line breaks, normalize whitespace and punctuation, and restore readable paragraph boundaries.
-4. Preserve meaningful structure such as book titles, chapter headings, section headings, quotations, and notes.
-5. Split the cleaned text into chapter-based Markdown files and add the front matter required by Hugo.
-6. Proofread the result against the source document before publishing it.
-
-### Audio preparation
-
-Audio also goes through preprocessing before it is uploaded and linked from a chapter. FFmpeg is used as needed to:
-
-- Resize or re-encode audio files by adjusting the codec, bitrate, sample rate, channel layout, or output format.
-- Combine multiple recordings into one chapter audio file in the correct order.
-- Keep filenames and chapter boundaries aligned with the corresponding Markdown content.
-- Check the final file's duration, playback, and output size before uploading it to object storage.
-
-These preparation steps are separate from the Hugo build and the Netlify functions used by the published site. The repository currently documents the workflow but does not include the source-extraction, text-cleaning, or FFmpeg preprocessing scripts.
 
 ## Local Development
 
-Install dependencies:
+### Prerequisites
+
+- A recent **Hugo Extended** release
+- **Node.js/npm** when working on Netlify functions or deployment dependencies
+- **Python 3.11** only when generating audio synchronization data
+
+Install the Node dependencies when needed:
 
 ```bash
 npm install
 ```
 
-Run the Hugo development server:
+Start Hugo without writing a local `public/` directory:
 
 ```bash
-hugo server
+hugo server --renderToMemory --noHTTPCache --port 1313
 ```
 
-Then open the local URL printed by Hugo, usually:
+Then open [http://localhost:1313](http://localhost:1313).
+
+During `hugo server`, chapter audio is loaded through the deployed Netlify audio endpoint configured by `params.integration.audio.previewFunctionBase`. Production builds continue to use the same-origin `/.netlify/functions/audio` endpoint. Local audio playback therefore requires an internet connection, but does not require Netlify Functions to run locally.
+
+Create a production build with:
+
+```bash
+hugo --minify
+```
+
+## Books and Chapter Audio
+
+Each book lives under `content/books/<book name>/`. A typical book contains an `_index.md` introduction and one or more chapter Markdown files. Some books also use front matter such as `footer_button_prev`, `footer_button_next`, or `bookPaginationStep` to define non-standard reading order.
+
+Add a recording to a chapter with the audio shortcode:
+
+```go-html-template
+{{< audio src="01/1.mp3" >}}
+```
+
+The audio function resolves this to the object-storage path:
 
 ```text
-http://localhost:1313/
+audio/<book slug>/01/1.mp3
 ```
 
-## Audio and Music
+The function validates the requested book and source path, then redirects to OSS. It requires these Netlify environment variables:
 
-Book audio is routed through the Netlify function at:
+- `OSS_BUCKET`
+- `OSS_ENDPOINT`
+
+The source MP3 files are intentionally kept outside Git. Keep their local preparation structure aligned with the shortcode path:
 
 ```text
-/.netlify/functions/audio
+audio/
+└─ 效法基督/
+   └─ 01/
+      └─ 1.mp3
 ```
 
-The function expects `OSS_BUCKET` and `OSS_ENDPOINT` environment variables and redirects valid book audio requests to the configured object storage location.
+## Paragraph-Level Audio Highlighting
 
-The music library is served through:
+An audio shortcode can reference generated synchronization data:
+
+```go-html-template
+{{< audio src="01/1.mp3" sync="/audio-sync/效法基督/chapter/audio-01.json" >}}
+```
+
+While the recording plays, the matching heading or paragraph receives a visual highlight. The timing is intentionally paragraph-level: it is easier to review and maintain than word-perfect subtitles.
+
+The included Python tool uses local `faster-whisper` transcription and sequential fuzzy matching against the original Markdown. It handles ordinary single-audio chapters, pages containing many recordings, and common spoken introductions that repeat the chapter title.
+
+Create an isolated environment and install the dependency:
+
+```powershell
+py -3.11 -m venv .venv-audio-sync
+.\.venv-audio-sync\Scripts\python.exe -m pip install `
+  -r scripts\requirements-audio-sync.txt
+```
+
+Check one book’s file mapping without transcribing:
+
+```powershell
+.\.venv-audio-sync\Scripts\python.exe scripts\generate_audio_sync.py `
+  --audio-root "D:\audio" `
+  --book "效法基督" `
+  --scan
+```
+
+Generate one page without changing its Markdown:
+
+```powershell
+.\.venv-audio-sync\Scripts\python.exe scripts\generate_audio_sync.py `
+  --audio-root "D:\audio" `
+  --book "效法基督" `
+  --page "scroll1/01_02" `
+  --model base
+```
+
+After reviewing `.audio-sync-cache/last-report.json`, add `--write` to update the audio shortcode. Generated JSON under `static/audio-sync/` belongs in Git; MP3 files, Whisper models, transcripts, `.audio-sync-cache/`, virtual environments, and `.tmp/` files do not.
+
+See [scripts/README-audio-sync.md](scripts/README-audio-sync.md) for complete setup, model selection, batch-processing, cache, and offline-machine instructions.
+
+## Music Library
+
+The `/music/` frontend calls:
 
 ```text
 /.netlify/functions/music-library
 ```
 
-It reads a remote `videos.json` manifest, groups folders and files, sorts music entries, and returns paginated JSON for the frontend.
+The function reads the published `videos.json` manifest, normalizes folders, sorts files, and returns paginated results. It keeps the manifest in memory briefly and adds HTTP cache headers. The frontend preserves folder, page, and sort state when navigating between the list and a video.
 
-## Content Guidelines
+Set `MUSIC_LIBRARY_LOGGING=1` in the Netlify environment only when short per-request diagnostic logs are needed.
 
-Books are stored under `content/books/`, with each book having its own folder. A typical book contains an `_index.md` file plus one Markdown file per chapter.
+## PWA and Offline Behavior
 
-When adding new content:
+`BookServiceWorker` in `hugo.toml` controls the service worker:
 
-- Keep book titles, author names, and chapter names consistent.
-- Add cover images under the existing static image structure when available.
-- Use readable chapter formatting so text and audio can support each other naturally.
-- Confirm that any audio paths match the object storage structure expected by the audio function.
+- `runtime` caches successfully visited same-origin pages and assets.
+- `precache` additionally lists every Hugo page during service-worker generation.
+
+The current configuration uses `runtime` to avoid an unnecessarily large install-time cache. Audio and video hosted on external storage still require network access.
+
+## Content Preparation Guidelines
+
+Source material may come from PDF, Word, OCR, or manually prepared text. Before publishing:
+
+1. Remove repeated headers, footers, page numbers, and extraction artifacts.
+2. Repair paragraph boundaries, whitespace, punctuation, quotations, and headings.
+3. Split the text into stable chapter Markdown files with correct Hugo front matter.
+4. Keep visible book titles, author names, folder names, and audio paths consistent.
+5. Check custom previous/next links for the first and final chapter of unusual book structures.
+6. Proofread against the source and test the rendered page on mobile and desktop.
+
+For audio, verify the final filename, duration, chapter boundary, playback, and storage path before adding or updating the shortcode.
+
+## Validation Before Committing
+
+At minimum, run:
+
+```bash
+hugo --minify
+```
+
+For interface changes, also check representative pages at approximately 320 px, 390 px, 768 px, and desktop widths. Confirm that there is no horizontal scrolling, navigation controls remain visible, chapter pagination is correct, and audio behavior works on both single- and multi-audio pages.
 
 ## Purpose
 
-Xiangcaoshan exists to make Christian writings and music easier to access, read, and listen to. The site is meant to support slow, attentive reading, peaceful listening, and simple discovery of spiritual resources across authors, books, chapters, and songs.
+Xiangcaoshan exists to make Christian writings and music easier to access, read, and listen to. The site is designed for slow, attentive reading, peaceful listening, and simple discovery across authors, books, chapters, and songs.
