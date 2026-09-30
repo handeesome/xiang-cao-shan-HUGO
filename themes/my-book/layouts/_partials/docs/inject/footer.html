@@ -14,16 +14,50 @@
 {{ end }}
 
 <div class="book-custom-footer">
-  {{ if eq $bookRoot.Title "效法基督" }}
-    {{ $allPagesByWeight := $bookRoot.RegularPagesRecursive.ByWeight }}
-    {{ $prev10WeightPage := "" }}
-    {{ $next10WeightPage := "" }}
-    {{ range $allPagesByWeight }}
-      {{ if eq .Weight (sub $currentPage.Weight 10) }}
-        {{ $prev10WeightPage = . }}
+  {{ $paginationStep := $bookRoot.Params.bookPaginationStep }}
+  {{ if $paginationStep }}
+    {{ $prevStepPage := "" }}
+    {{ $nextStepPage := "" }}
+
+    {{/* Redirect-only chapter entries use weights between each pagination step. */}}
+    {{ range $currentPage.CurrentSection.RegularPages.ByWeight }}
+      {{ if eq (mod .Weight $paginationStep) 0 }}
+        {{ if lt .Weight $currentPage.Weight }}
+          {{ $prevStepPage = . }}
+        {{ else if and (gt .Weight $currentPage.Weight) (not $nextStepPage) }}
+          {{ $nextStepPage = . }}
+        {{ end }}
       {{ end }}
-      {{ if eq .Weight (add $currentPage.Weight 10) }}
-        {{ $next10WeightPage = . }}
+    {{ end }}
+
+    {{/* Continue into the preceding or following volume at section boundaries. */}}
+    {{ $currentSectionPage := $currentPage.CurrentSection }}
+    {{ $parentSection := $currentSectionPage.Parent }}
+    {{ if $parentSection }}
+      {{ $prevSection := "" }}
+      {{ $nextSection := "" }}
+      {{ range $parentSection.Sections.ByWeight }}
+        {{ if lt .Weight $currentSectionPage.Weight }}
+          {{ $prevSection = . }}
+        {{ else if and (gt .Weight $currentSectionPage.Weight) (not $nextSection) }}
+          {{ $nextSection = . }}
+        {{ end }}
+      {{ end }}
+
+      {{ if and (not $prevStepPage) $prevSection }}
+        {{ range $prevSection.RegularPages.ByWeight }}
+          {{ if eq (mod .Weight $paginationStep) 0 }}
+            {{ $prevStepPage = . }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+
+      {{ if and (not $nextStepPage) $nextSection }}
+        {{ range $nextSection.RegularPages.ByWeight }}
+          {{ if and (eq (mod .Weight $paginationStep) 0) (not $nextStepPage) }}
+            {{ $nextStepPage = . }}
+          {{ end }}
+        {{ end }}
       {{ end }}
     {{ end }}
 
@@ -33,10 +67,10 @@
           <span>←</span>
           <span>{{ .Params.footer_button_prev.text }}</span>
         </a>
-      {{ else if $prev10WeightPage }}
-        <a href="{{ $prev10WeightPage.RelPermalink }}" class="book-prev">
+      {{ else if $prevStepPage }}
+        <a href="{{ $prevStepPage.RelPermalink }}" class="book-prev">
           <span>←</span>
-          <span>{{ $prev10WeightPage.Title }}</span>
+          <span>{{ $prevStepPage.Title }}</span>
         </a>
       {{ end }}
 
@@ -45,9 +79,9 @@
           <span>{{ .Params.footer_button_next.text }}</span>
           <span>→</span>
         </a>
-      {{ else if $next10WeightPage }}
-        <a href="{{ $next10WeightPage.RelPermalink }}" class="book-next">
-          <span>{{ $next10WeightPage.Title }}</span>
+      {{ else if $nextStepPage }}
+        <a href="{{ $nextStepPage.RelPermalink }}" class="book-next">
+          <span>{{ $nextStepPage.Title }}</span>
           <span>→</span>
         </a>
       {{ end }}
