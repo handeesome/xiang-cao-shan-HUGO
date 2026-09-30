@@ -98,7 +98,7 @@ body {
 }
 .book-footer {
   margin-top: auto;
-  padding: 2rem 0 1rem;
+  padding: 2rem 0 calc(1rem + env(safe-area-inset-bottom));
   border-top: 1px solid var(--gray-200);
 
   .book-footer-content {
@@ -346,13 +346,24 @@ a.anchor {
 }
 
 @media screen and (max-width: 900px) {
+  .book-page {
+    padding-left: calc(1rem + env(safe-area-inset-left));
+    padding-right: calc(1rem + env(safe-area-inset-right));
+  }
+
   .book-header {
     position: sticky;
     top: 0;
     z-index: 1000;
     background-color: var(--body-background);
-    padding-top: 0.5rem;
+    padding-top: calc(0.5rem + env(safe-area-inset-top));
     padding-bottom: 0.5rem;
+  }
+
+  .book-menu .book-menu-content {
+    padding-top: calc(1rem + env(safe-area-inset-top));
+    padding-left: calc(1rem + env(safe-area-inset-left));
+    padding-bottom: calc(1rem + env(safe-area-inset-bottom));
   }
 
   .book-header-control[aria-expanded="true"] {
@@ -363,10 +374,10 @@ a.anchor {
     position: absolute;
     top: 100%;
     inset-inline: 0;
-    max-height: 65vh;
+    max-height: calc(65vh - env(safe-area-inset-bottom));
     overflow-y: auto;
     overscroll-behavior: contain;
-    padding: 0.75rem 1rem 1rem;
+    padding: 0.75rem 1rem calc(1rem + env(safe-area-inset-bottom));
     border: 1px solid var(--gray-200);
     border-top: 0;
     border-radius: 0 0 0.5rem 0.5rem;
