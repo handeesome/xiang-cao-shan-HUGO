@@ -92,6 +92,28 @@
       });
     });
 
+    ["menu-control", "toc-control"].forEach((toggleId) => {
+      const toggle = document.getElementById(toggleId);
+      const labels = Array.from(
+        document.querySelectorAll(`label[for="${toggleId}"]`)
+      );
+
+      labels.forEach((label) => {
+        label.addEventListener("click", (event) => {
+          if (!toggle) return;
+
+          // A label normally focuses its hidden checkbox at the top of the
+          // page, which makes mobile browsers jump away from the reading spot.
+          event.preventDefault();
+          const scrollLeft = window.scrollX;
+          const scrollTop = window.scrollY;
+          toggle.checked = !toggle.checked;
+          toggle.dispatchEvent(new Event("change", { bubbles: true }));
+          window.scrollTo(scrollLeft, scrollTop);
+        });
+      });
+    });
+
     let scrollFrame;
     window.addEventListener(
       "scroll",
