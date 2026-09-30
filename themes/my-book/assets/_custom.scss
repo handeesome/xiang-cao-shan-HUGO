@@ -346,6 +346,26 @@ a.anchor {
 }
 
 @media screen and (max-width: 900px) {
+  .book-header,
+  audio.audio-reading-control-active {
+    transition: transform 0.2s ease, opacity 0.15s ease;
+  }
+
+  audio.audio-reading-control-active {
+    position: sticky;
+    top: var(--audio-reading-control-top, 4.25rem);
+    z-index: 900;
+    background-color: var(--body-background);
+    box-shadow: 0 0.5rem 1.25rem rgba(0, 0, 0, 0.16);
+  }
+
+  body.reading-controls-hidden .book-header,
+  body.reading-controls-hidden audio.audio-reading-control-active {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(calc(-100% - 1rem));
+  }
+
   .book-page {
     padding-left: calc(1rem + env(safe-area-inset-left));
     padding-right: calc(1rem + env(safe-area-inset-right));
@@ -423,6 +443,13 @@ a.anchor {
 
   .book-filters {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .book-header,
+  audio.audio-reading-control-active {
+    transition: none;
   }
 }
 
