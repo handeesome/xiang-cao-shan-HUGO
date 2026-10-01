@@ -99,27 +99,41 @@
     app.appendChild(backWrap);
   }
 
-  async function fetchJsonCached(url) {
+  const MUSIC_CACHE_NAME = 'music-index-v1';
+
+  async function getCachedJson(url) {
+    if (!('caches' in window)) return null;
+
     try {
-      if (!('caches' in window)) throw new Error('Cache API unavailable');
-
-      const cache = await caches.open('music-index-v1');
+      const cache = await caches.open(MUSIC_CACHE_NAME);
       const cached = await cache.match(url);
-      if (cached) return await cached.json();
-
-      const res = await fetch(url, { headers: { Accept: 'application/json' } });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-
-      cache.put(url, res.clone()).catch(() => {});
-      return await res.json();
+      return cached ? await cached.json() : null;
     } catch (e) {
-      const res = await fetch(url, { headers: { Accept: 'application/json' } });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      return await res.json();
+      console.warn('[music-index] Failed to read cached music library:', e);
+      return null;
     }
   }
 
+  async function fetchJsonAndUpdateCache(url) {
+    const res = await fetch(url, {
+      cache: 'no-cache',
+      headers: { Accept: 'application/json' },
+    });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+
+    if ('caches' in window) {
+      const cacheResponse = res.clone();
+      caches
+        .open(MUSIC_CACHE_NAME)
+        .then(cache => cache.put(url, cacheResponse))
+        .catch(() => {});
+    }
+
+    return await res.json();
+  }
+
   let thumbnailObserver = null;
+  let renderSequence = 0;
 
   function createBreadcrumb() {
     if (!currentFolder) return null;
@@ -174,145 +188,211 @@
     return nav;
   }
 
-  async function renderFolderPage() {
+  function createMusicStatus(message, state = '') {
+    const status = document.createElement('p');
+    status.className = 'music-load-status';
+    status.setAttribute('role', 'status');
+    if (state) status.dataset.state = state;
+    status.textContent = message;
+    return status;
+  }
+
+  function renderLoadingState() {
+    app.innerHTML = renderSkeleton();
+    app.prepend(createMusicStatus('正在加载音乐…', 'loading'));
+  }
+
+  function setMusicStatus(message, state = '') {
+    let status = app.querySelector('.music-load-status');
+    if (!status) {
+      status = createMusicStatus(message, state);
+      app.prepend(status);
+      return;
+    }
+
+    status.textContent = message;
+    if (state) status.dataset.state = state;
+    else delete status.dataset.state;
+  }
+
+  function clearMusicStatus() {
+    app.querySelector('.music-load-status')?.remove();
+  }
+
+  function renderMusicData(data, statusMessage = '') {
     app.innerHTML = '';
 
     // Breadcrumb
     const crumb = createBreadcrumb();
     if (crumb) app.appendChild(crumb);
 
+    if (statusMessage) {
+      app.appendChild(createMusicStatus(statusMessage, 'cached'));
+    }
+
     const grid = document.createElement('div');
     grid.className = 'music-grid';
 
     const fragment = document.createDocumentFragment();
 
-    try {
-      const url = `${MUSIC_API}?folder=${encodeURIComponent(
+    (data.folders || []).forEach(folder => {
+      const card = document.createElement('div');
+      card.className = 'music-card';
+
+      const a = document.createElement('a');
+      a.href = `/music/?folder=${encodeURIComponent(currentFolder + folder + '/')}`;
+
+      const img = document.createElement('img');
+      img.src = '/img/folder-placeholder.jpg';
+      img.width = 320;
+      img.height = 180;
+      img.alt = folder;
+      img.loading = 'lazy';
+      img.decoding = 'async';
+
+      const titleEl = document.createElement('div');
+      titleEl.className = 'music-title';
+      titleEl.textContent = `📁 ${folder}`;
+
+      a.appendChild(img);
+      a.appendChild(titleEl);
+      card.appendChild(a);
+      fragment.appendChild(card);
+    });
+
+    const items = data.items || [];
+    items.forEach(v => {
+      const title = getTitleFromVideoName(v.name);
+
+      const card = document.createElement('div');
+      card.className = 'music-card';
+
+      const a = document.createElement('a');
+      a.href = `/music/?v=${encodeURIComponent(v.name)}&folder=${encodeURIComponent(
         currentFolder
-      )}&sort=${encodeURIComponent(sortMode)}&page=${page}&pageSize=${encodeURIComponent(
-        MUSIC_PAGE_SIZE
-      )}`;
+      )}&sort=${encodeURIComponent(sortMode)}&page=${page}`;
 
-      const data = await fetchJsonCached(url);
+      const thumb = `${v.url}?x-oss-process=video/snapshot,t_0,f_jpg,w_320`;
 
-      (data.folders || []).forEach(folder => {
-        const card = document.createElement('div');
-        card.className = 'music-card';
+      const thumbWrap = document.createElement('div');
+      thumbWrap.className = 'music-thumb';
 
-        const a = document.createElement('a');
-        a.href = `/music/?folder=${encodeURIComponent(
-          currentFolder + folder + '/'
-        )}`;
+      const img = document.createElement('img');
+      img.src = placeholderImg;
+      img.dataset.src = thumb || placeholderImg;
+      img.className = 'music-thumb-img is-loading';
+      img.alt = title;
+      img.width = 320;
+      img.height = 180;
+      img.loading = 'lazy';
+      img.decoding = 'async';
 
-        const img = document.createElement('img');
-        img.src = '/img/folder-placeholder.jpg';
-        img.width = 320;
-        img.height = 180;
-        img.alt = folder;
-        img.loading = 'lazy';
-        img.decoding = 'async';
+      thumbWrap.appendChild(img);
 
-        const titleEl = document.createElement('div');
-        titleEl.className = 'music-title';
-        titleEl.textContent = `📁 ${folder}`;
+      const titleWrap = document.createElement('div');
+      titleWrap.className = 'music-title';
 
-        a.appendChild(img);
-        a.appendChild(titleEl);
-        card.appendChild(a);
-        fragment.appendChild(card);
-      });
+      // XSS-safe: OSS-derived titles/folder names become text nodes.
+      titleWrap.appendChild(document.createTextNode(title));
 
-      const items = data.items || [];
-      items.forEach(v => {
-        const title = getTitleFromVideoName(v.name);
+      const durationEl = document.createElement('div');
+      durationEl.className = 'duration';
+      durationEl.textContent = formatDuration(v.duration);
+      titleWrap.appendChild(durationEl);
 
-        const card = document.createElement('div');
-        card.className = 'music-card';
+      a.appendChild(thumbWrap);
+      a.appendChild(titleWrap);
+      card.appendChild(a);
+      fragment.appendChild(card);
+    });
 
-        const a = document.createElement('a');
-        a.href = `/music/?v=${encodeURIComponent(v.name)}&folder=${encodeURIComponent(
-          currentFolder
-        )}&sort=${encodeURIComponent(sortMode)}&page=${page}`;
+    grid.appendChild(fragment);
+    app.appendChild(grid);
 
-        const thumb = `${v.url}?x-oss-process=video/snapshot,t_0,f_jpg,w_320`;
+    app.appendChild(
+      renderPagination({
+        hasMore: Boolean(data.pageInfo?.hasMore),
+        page: data.pageInfo?.page || page,
+      })
+    );
 
-        const thumbWrap = document.createElement('div');
-        thumbWrap.className = 'music-thumb';
+    // Lazy load thumbnails (blur until loaded).
+    if (thumbnailObserver) thumbnailObserver.disconnect();
 
-        const img = document.createElement('img');
-        img.src = placeholderImg;
-        img.dataset.src = thumb || placeholderImg;
-        img.className = 'music-thumb-img is-loading';
-        img.alt = title;
-        img.width = 320;
-        img.height = 180;
-        img.loading = 'lazy';
-        img.decoding = 'async';
+    thumbnailObserver = new IntersectionObserver(
+      entries => {
+        entries.forEach(e => {
+          if (!e.isIntersecting) return;
 
-        thumbWrap.appendChild(img);
+          const img = e.target;
+          const realSrc = img.dataset.src;
+          if (!realSrc) return;
 
-        const titleWrap = document.createElement('div');
-        titleWrap.className = 'music-title';
+          img.onload = () => {
+            img.classList.remove('is-loading');
+            thumbnailObserver?.unobserve(img);
+          };
 
-        // XSS-safe: OSS-derived titles/folder names become text nodes.
-        titleWrap.appendChild(document.createTextNode(title));
+          img.onerror = () => {
+            img.src = placeholderImg;
+            img.classList.remove('is-loading');
+            thumbnailObserver?.unobserve(img);
+          };
 
-        const durationEl = document.createElement('div');
-        durationEl.className = 'duration';
-        durationEl.textContent = formatDuration(v.duration);
-        titleWrap.appendChild(durationEl);
+          img.src = realSrc;
+        });
+      },
+      { rootMargin: '200px' }
+    );
 
-        a.appendChild(thumbWrap);
-        a.appendChild(titleWrap);
-        card.appendChild(a);
-        fragment.appendChild(card);
-      });
+    grid.querySelectorAll('img[data-src]').forEach(img => {
+      thumbnailObserver.observe(img);
+    });
+  }
 
-      grid.appendChild(fragment);
-      app.appendChild(grid);
+  async function renderFolderPage() {
+    const sequence = ++renderSequence;
+    renderLoadingState();
 
-      app.appendChild(
-        renderPagination({
-          hasMore: Boolean(data.pageInfo?.hasMore),
-          page: data.pageInfo?.page || page,
-        })
-      );
+    const url = `${MUSIC_API}?folder=${encodeURIComponent(
+      currentFolder
+    )}&sort=${encodeURIComponent(sortMode)}&page=${page}&pageSize=${encodeURIComponent(
+      MUSIC_PAGE_SIZE
+    )}`;
 
-      // Lazy load thumbnails (blur until loaded).
-      if (thumbnailObserver) thumbnailObserver.disconnect();
+    const refreshPromise = fetchJsonAndUpdateCache(url).then(
+      data => ({ data, error: null }),
+      error => ({ data: null, error })
+    );
+    const cachedData = await getCachedJson(url);
+    if (sequence !== renderSequence) return;
 
-      thumbnailObserver = new IntersectionObserver(
-        entries => {
-          entries.forEach(e => {
-            if (!e.isIntersecting) return;
+    const cachedSnapshot = cachedData ? JSON.stringify(cachedData) : null;
+    if (cachedData) {
+      renderMusicData(cachedData, '已显示上次加载的内容，正在检查更新…');
+    }
 
-            const img = e.target;
-            const realSrc = img.dataset.src;
-            if (!realSrc) return;
+    try {
+      const refreshResult = await refreshPromise;
+      if (refreshResult.error) throw refreshResult.error;
 
-            img.onload = () => {
-              img.classList.remove('is-loading');
-              thumbnailObserver?.unobserve(img);
-            };
+      const freshData = refreshResult.data;
+      if (sequence !== renderSequence) return;
 
-            img.onerror = () => {
-              img.src = placeholderImg;
-              img.classList.remove('is-loading');
-              thumbnailObserver?.unobserve(img);
-            };
-
-            img.src = realSrc;
-          });
-        },
-        { rootMargin: '200px' }
-      );
-
-      grid.querySelectorAll('img[data-src]').forEach(img => {
-        thumbnailObserver.observe(img);
-      });
+      if (!cachedData || JSON.stringify(freshData) !== cachedSnapshot) {
+        renderMusicData(freshData);
+      } else {
+        clearMusicStatus();
+      }
     } catch (e) {
-      console.warn('[music-index] Failed to load music library:', e);
-      app.innerHTML = '<p>加载失败，请稍后重试。</p>';
+      if (sequence !== renderSequence) return;
+
+      console.warn('[music-index] Failed to refresh music library:', e);
+      if (cachedData) {
+        setMusicStatus('暂时无法更新，当前显示上次加载的内容。', 'warning');
+      } else {
+        app.innerHTML = '<p class="music-load-status" role="alert">加载失败，请稍后重试。</p>';
+      }
     }
   }
 

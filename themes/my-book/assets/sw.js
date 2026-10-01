@@ -26,7 +26,9 @@ self.addEventListener('activate', function (event) {
       .then((keys) =>
         Promise.all(
           keys.map((key) => {
-            if (key !== cacheName) return caches.delete(key);
+            if (key.startsWith('book-sw-cache-') && key !== cacheName) {
+              return caches.delete(key);
+            }
           })
         )
       )

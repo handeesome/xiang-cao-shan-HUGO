@@ -167,6 +167,17 @@ booktoc: false
   border-color: var(--color-link);
 }
 
+.music-load-status {
+  min-height: 1.5em;
+  margin: 0 0 0.75rem;
+  color: var(--gray-500);
+  font-size: 0.9rem;
+}
+
+.music-load-status[data-state="warning"] {
+  color: var(--body-font-color);
+}
+
 @keyframes musicShimmer {
   0% {
     background-position: -200% 0;
