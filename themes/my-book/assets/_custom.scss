@@ -617,8 +617,7 @@ a.anchor {
 }
 
 .play-all-button:focus-visible {
-  outline: 2px solid var(--color-link);
-  outline-offset: 2px;
+  outline: none;
 }
 
 .audio-playlist-status {
@@ -641,6 +640,36 @@ a.anchor {
     text-align: center;
     white-space: normal;
   }
+}
+
+/* Clickable controls and links should not keep a focus ring after they are pressed. */
+a:focus,
+button:focus,
+input[type="button"]:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+[role="button"]:focus,
+label[for]:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+/* Book covers are links styled as buttons, so reset their focus treatment too. */
+.book-cover a:focus {
+  outline: none;
+  border-color: var(--gray-200);
+  box-shadow: none;
+}
+
+/* Prevent the blue tap flash shown by mobile WebKit on clickable elements. */
+a,
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+[role="button"],
+label[for] {
+  -webkit-tap-highlight-color: transparent;
 }
 
 .book-menu nav > ul:first-of-type a {
