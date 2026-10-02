@@ -459,36 +459,47 @@ def best_token_span(
 ) -> tuple[float, int, int] | None:
     if not source_text or cursor >= len(tokens):
         return None
-    max_skip = 80 if first_unit else 14
-    max_start = min(len(tokens), cursor + max_skip + 1)
-    best: tuple[float, float, int, int] | None = None
     maximum_chars = len(source_text) * 1.85 + 24
     minimum_chars = max(1, int(len(source_text) * 0.28))
 
-    for start_index in range(cursor, max_start):
-        combined = ""
-        for end_index in range(start_index, len(tokens)):
-            combined += tokens[end_index].text
-            if len(combined) > maximum_chars:
-                break
-            if len(combined) < minimum_chars:
-                continue
-            ratio = SequenceMatcher(
-                None, source_text, combined, autojunk=False
-            ).ratio()
-            length_penalty = 0.12 * abs(
-                math.log(max(len(combined), 1) / len(source_text))
-            )
-            skip_rate = 0.003 if first_unit else 0.015
-            score = ratio - length_penalty - skip_rate * (start_index - cursor)
-            candidate = (score, ratio, start_index, end_index)
-            if best is None or candidate > best:
-                best = candidate
+    def search(max_skip: int, skip_rate: float) -> tuple[float, int, int] | None:
+        max_start = min(len(tokens), cursor + max_skip + 1)
+        best: tuple[float, float, int, int] | None = None
+        for start_index in range(cursor, max_start):
+            combined = ""
+            for end_index in range(start_index, len(tokens)):
+                combined += tokens[end_index].text
+                if len(combined) > maximum_chars:
+                    break
+                if len(combined) < minimum_chars:
+                    continue
+                ratio = SequenceMatcher(
+                    None, source_text, combined, autojunk=False
+                ).ratio()
+                length_penalty = 0.12 * abs(
+                    math.log(max(len(combined), 1) / len(source_text))
+                )
+                score = ratio - length_penalty - skip_rate * (start_index - cursor)
+                candidate = (score, ratio, start_index, end_index)
+                if best is None or candidate > best:
+                    best = candidate
+        if best is None:
+            return None
+        _, ratio, start_index, end_index = best
+        return ratio, start_index, end_index
 
-    if best is None:
-        return None
-    _, ratio, start_index, end_index = best
-    return ratio, start_index, end_index
+    nearby = search(80 if first_unit else 14, 0.003 if first_unit else 0.015)
+    if first_unit or (nearby and nearby[0] >= 0.55):
+        return nearby
+
+    # Some recordings contain paragraphs that are absent from the published
+    # Markdown. Only widen the search after the normal local match fails, so
+    # ordinary chapters retain the more conservative sequential behaviour.
+    extended = search(160, 0.0015)
+    if extended and extended[0] >= 0.45:
+        if nearby is None or extended[0] >= nearby[0] + 0.08:
+            return extended
+    return nearby
 
 
 def align_units(
