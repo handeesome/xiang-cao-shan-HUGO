@@ -8,7 +8,7 @@ bookTOC: false
 
 # 人的破碎与灵的出来
 
-{{< audio src="000.mp3" >}}
+{{< audio src="000.mp3" sync="/audio-sync/人的破碎与灵的出来/_index/audio-01.json" >}}
 
 ## 【内容提要】
 
