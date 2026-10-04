@@ -139,6 +139,9 @@ def parse_text_units(markdown: str) -> list[TextUnit]:
         if not stripped:
             flush_paragraph(line_start)
             continue
+        if re.match(r"^\s*>\s*$", line):
+            flush_paragraph(line_start)
+            continue
         if AUDIO_SHORTCODE_RE.search(line):
             flush_paragraph(line_start)
             continue
