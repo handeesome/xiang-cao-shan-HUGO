@@ -8,7 +8,7 @@ footer_button_next:
 
 # 引言
 
-{{< audio src="0.mp3" >}}
+{{< audio src="0.mp3" sync="/audio-sync/圣灵全备的祝福/_index/audio-01.json" >}}
 
 本书内记载的信息，虽然简单，却是非常的重要。它乃是论及教会最重要的一件事，也就是无论任何人都当在各地同心合意，竭力追求的，这一件事，简而言之就是需要充满神的圣灵。
 
