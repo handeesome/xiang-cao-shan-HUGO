@@ -9,7 +9,7 @@
 音频根目录采用以下结构：
 
 ```text
-C:\Users\Administrator.it-202407191741\Desktop\香草山\audio\
+D:\audio\
 
 └─ 父母之道/
 
@@ -83,16 +83,16 @@ py -3.11 -m venv .venv-audio-sync
 扫描会检查每个 shortcode 是否能在：
 
 ```text
-C:\Users\Administrator.it-202407191741\Desktop\香草山\audio\<书名>\<src>
+D:\audio\<书名>\<src>
 ```
 
 找到对应的音频文件。
 
-目前以 `父母之道` 为默认示例：
+以下以 `父母之道` 为示例：
 
 ```powershell
 .\.venv-audio-sync\Scripts\python.exe scripts\generate_audio_sync.py `
-  --audio-root "C:\Users\Administrator.it-202407191741\Desktop\香草山\audio" `
+  --audio-root "D:\audio" `
   --book "父母之道" `
   --scan
 ```
@@ -101,7 +101,7 @@ C:\Users\Administrator.it-202407191741\Desktop\香草山\audio\<书名>\<src>
 
 ## 先处理一页
 
-目前测试页面：
+例如先测试一个页面：
 
 ```text
 父母之道/01_第一章 呼召.md
@@ -111,7 +111,7 @@ C:\Users\Administrator.it-202407191741\Desktop\香草山\audio\<书名>\<src>
 
 ```powershell
 .\.venv-audio-sync\Scripts\python.exe scripts\generate_audio_sync.py `
-  --audio-root "C:\Users\Administrator.it-202407191741\Desktop\香草山\audio" `
+  --audio-root "D:\audio" `
   --book "父母之道" `
   --page "01_第一章 呼召" `
   --model ".audio-sync-cache\models\small"
@@ -135,7 +135,7 @@ sync="..."
 
 ```powershell
 .\.venv-audio-sync\Scripts\python.exe scripts\generate_audio_sync.py `
-  --audio-root "C:\Users\Administrator.it-202407191741\Desktop\香草山\audio" `
+  --audio-root "D:\audio" `
   --book "父母之道" `
   --page "01_第一章 呼召" `
   --model ".audio-sync-cache\models\small" `
@@ -172,7 +172,7 @@ sync="..."
 
 ```powershell
 .\.venv-audio-sync\Scripts\python.exe scripts\generate_audio_sync.py `
-  --audio-root "C:\Users\Administrator.it-202407191741\Desktop\香草山\audio" `
+  --audio-root "D:\audio" `
   --book "父母之道" `
   --model ".audio-sync-cache\models\small" `
   --write
@@ -194,6 +194,20 @@ sync="..."
 
 ---
 
+## 生成后的验收
+
+生成结果需要人工检查，不能只根据命令成功退出就直接提交。
+
+1. 查看 `.audio-sync-cache/last-report.json`，确认没有失败的任务或找不到的音频。
+2. 逐条检查 `warnings` 中的 `low confidence` 和 `unmatched`。低置信度不一定代表时间错误；未匹配文字也可能是录音没有朗读的译者注、脚注、结束语或封底文。
+3. 至少试听每个文件的开头、章节或小标题切换处，以及最后一段，确认高亮不会在半句话或半个字中切换。
+4. 用 Hugo 构建网站，确认 Markdown 中的每个 `sync` 路径都有对应的 JSON。
+5. 只提交 Markdown 中新增的 `sync` 属性和 `static/audio-sync/` 下的 JSON。不要提交 MP3、模型、识别稿、`.audio-sync-cache/` 或虚拟环境。
+
+如果某段录音比网页正文多或少，不要为了让警告消失而强行匹配；先确认录音实际朗读了什么，再决定修正文稿、调整 cue，或保留为未匹配内容。
+
+---
+
 ## 处理全站
 
 处理全站必须显式传入：
@@ -206,7 +220,7 @@ sync="..."
 
 ```powershell
 .\.venv-audio-sync\Scripts\python.exe scripts\generate_audio_sync.py `
-  --audio-root "C:\Users\Administrator.it-202407191741\Desktop\香草山\audio" `
+  --audio-root "D:\audio" `
   --all `
   --model ".audio-sync-cache\models\small" `
   --write

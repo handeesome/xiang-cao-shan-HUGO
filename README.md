@@ -41,7 +41,8 @@ static/audio-sync/           Published paragraph-level audio timing JSON
 netlify/functions/           Audio redirect and music-library functions
 scripts/                     Local content-preparation tools
 ├─ generate_audio_sync.py    Local Whisper alignment tool
-└─ README-audio-sync.md      Detailed audio-sync workflow
+├─ requirements-audio-sync.txt
+└─ README-audio-sync.md      Detailed audio-sync and review workflow
 hugo.toml                    Site configuration and feature flags
 package.json                 Node dependencies used by the deployment tooling
 ```
@@ -118,6 +119,8 @@ While the recording plays, the matching heading or paragraph receives a visual h
 
 The included Python tool uses local `faster-whisper` transcription and sequential fuzzy matching against the original Markdown. It handles ordinary single-audio chapters, pages containing many recordings, and common spoken introductions that repeat the chapter title.
 
+Generated synchronization data is treated as reviewable content rather than a finished subtitle track. A low-confidence warning can be caused by a proper name or recognition error even when its timing is correct, while an unmatched Markdown unit may be a real alignment problem or text that the recording never reads, such as a translator’s note or back-cover copy. Review warnings, chapter openings, section transitions, and endings before committing a book.
+
 Create an isolated environment and install the dependency:
 
 ```powershell
@@ -145,7 +148,7 @@ Generate one page without changing its Markdown:
   --model base
 ```
 
-After reviewing `.audio-sync-cache/last-report.json`, add `--write` to update the audio shortcode. Generated JSON under `static/audio-sync/` belongs in Git; MP3 files, Whisper models, transcripts, `.audio-sync-cache/`, virtual environments, and `.tmp/` files do not.
+After reviewing `.audio-sync-cache/last-report.json` and sampling the generated cue boundaries, add `--write` to update the audio shortcode. Generated JSON under `static/audio-sync/` belongs in Git; MP3 files, Whisper models, transcripts, `.audio-sync-cache/`, virtual environments, and `.tmp/` files do not.
 
 See [scripts/README-audio-sync.md](scripts/README-audio-sync.md) for complete setup, model selection, batch-processing, cache, and offline-machine instructions.
 
