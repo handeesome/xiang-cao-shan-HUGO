@@ -107,6 +107,8 @@ audio/
       └─ 1.mp3
 ```
 
+Audio URLs automatically include the global `params.integration.audio.cacheVersion` value from `hugo.toml`, and the Netlify function forwards it to OSS. After replacing an existing MP3 without changing its filename, increment this value and redeploy the site so browsers request the new recording. Individual audio shortcodes do not need a version parameter.
+
 ## Paragraph-Level Audio Highlighting
 
 An audio shortcode can reference generated synchronization data:

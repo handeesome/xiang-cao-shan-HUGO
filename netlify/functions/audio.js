@@ -13,18 +13,21 @@ exports.handler = async (event) => {
   const qs = event.queryStringParameters || {};
   const book = safeDecode(qs.book);
   const src  = safeDecode(qs.src);
+  const version = String(qs.v || "");
 
   if (!book || !src) return badRequest();
 
   // deny traversal + normalize slashes
   if (src.includes("..") || book.includes("..") || src.includes("\\") || book.includes("\\")) return forbidden();
+  if (version && !/^[A-Za-z0-9._-]{1,64}$/.test(version)) return forbidden();
 
   // enforce prefix and join safely (no accidental double slashes)
   const normalizedSrc = src.replace(/^\/+/, "");
   const normalizedBook = book.replace(/^\/+/, "");
   const objectKey = `audio/${normalizedBook}/${normalizedSrc}`.replace(/\/{2,}/g, "/");
 
-  const url = `https://${bucket}.${endpointHost}/${encodeURI(objectKey)}`;
+  const cacheBuster = version ? `?v=${encodeURIComponent(version)}` : "";
+  const url = `https://${bucket}.${endpointHost}/${encodeURI(objectKey)}${cacheBuster}`;
   return { statusCode: 302, headers: { Location: url } };
 };
 
