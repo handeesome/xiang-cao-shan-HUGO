@@ -9,7 +9,7 @@ footer_button_next:
 
 # 十字架的中心性与宇宙性
 
-{{< audio src="0.mp3" >}}
+{{< audio src="0.mp3" sync="/audio-sync/十字架的中心性与宇宙性/_index/audio-01.json" >}}
 
 ## 作者原版前言
 
