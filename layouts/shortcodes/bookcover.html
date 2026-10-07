@@ -21,16 +21,27 @@
     </div>
   {{ end }}
 {{ else }}
-  {{/* cap size for card contexts */}}
+  {{/* Match the two-, three-, and five-column bookshelf layouts. */}}
+  {{ $coverXs := $img.Resize "160x webp q80" }}
+  {{ $coverSmall := $img.Resize "240x webp q80" }}
   {{ $coverSm := $img.Resize "320x webp q80" }}
   {{ $coverMd := $img.Resize "480x webp q80" }}
+  {{/* Wide originals need extra pixels when object-fit: cover fills a 3:5 box. */}}
+  {{ $coverScale := math.Max 1 (div (float $img.Width) (mul (float $img.Height) 0.6)) }}
+  {{/* Desktop space includes navigation, page gutters, and four grid gaps. */}}
+  {{ $desktopSpace := "25rem" }}
+  {{ $desktopCover := "150px" }}
+  {{ if default true (default .Site.Params.BookToC .Page.Params.BookToC) }}
+    {{ $desktopSpace = "41rem" }}
+    {{ $desktopCover = "99px" }}
+  {{ end }}
 
   <div class="book-cover" data-author="{{ $author }}" data-title="{{ $title | plainify }}">
     <a href="{{ $url }}">
       <img
         src="{{ $coverSm.RelPermalink }}"
-        srcset="{{ $coverSm.RelPermalink }} 320w, {{ $coverMd.RelPermalink }} 480w"
-        sizes="(max-width: 768px) 45vw, 240px"
+        srcset="{{ $coverXs.RelPermalink }} 160w, {{ $coverSmall.RelPermalink }} 240w, {{ $coverSm.RelPermalink }} 320w, {{ $coverMd.RelPermalink }} 480w"
+        sizes="(max-width: 560px) calc((50vw - 2.5rem) * {{ $coverScale }}), (max-width: 704px) calc(((100vw - 4rem) / 3 - 1.625rem) * {{ $coverScale }}), (max-width: 768px) calc(188px * {{ $coverScale }}), (max-width: 900px) calc(((100vw - 6rem) / 3 - 1.625rem) * {{ $coverScale }}), (max-width: 1280px) calc(((100vw - {{ $desktopSpace }}) / 5 - 1.625rem) * {{ $coverScale }}), calc({{ $desktopCover }} * {{ $coverScale }})"
         loading="{{ if $priority }}eager{{ else }}lazy{{ end }}"
         {{ if $priority }}fetchpriority="high"{{ end }}
         decoding="async"
