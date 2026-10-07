@@ -169,6 +169,18 @@
     const focusActiveTocLink = () => {
       const activeLink =
         tocPanel?.querySelector('a[aria-current="location"]') || tocLinks[0];
+      if (activeLink) {
+        const panelBounds = tocPanel.getBoundingClientRect();
+        const linkBounds = activeLink.getBoundingClientRect();
+        if (
+          linkBounds.top < panelBounds.top + 8 ||
+          linkBounds.bottom > panelBounds.bottom - 8
+        ) {
+          tocPanel.scrollTop +=
+            linkBounds.top - panelBounds.top -
+            (tocPanel.clientHeight - linkBounds.height) / 2;
+        }
+      }
       activeLink?.focus({ preventScroll: true });
     };
 

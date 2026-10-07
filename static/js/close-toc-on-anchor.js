@@ -1,5 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const tocLinks = document.querySelectorAll('#TableOfContents a[href^="#"]');
+  const tocLinks = document.querySelectorAll(
+    '#book-mobile-toc nav a[href^="#"], .book-toc nav a[href^="#"]'
+  );
   const tocToggle = document.getElementById("toc-control");
 
   tocLinks.forEach((link) => {

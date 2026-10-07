@@ -1,0 +1,3 @@
+{{ partial "docs/inject/toc-before" . }}
+{{ replace .TableOfContents "id=\"TableOfContents\"" "id=\"book-mobile-toc-nav\"" | safeHTML }}
+{{ partial "docs/inject/toc-after" . }}
