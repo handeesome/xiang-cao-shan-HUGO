@@ -44,6 +44,7 @@
       </header>
 
       {{ partial "docs/inject/content-before" . }}
+      {{ partial "book-breadcrumbs.html" . }}
       {{ block "main" . }}
         <article class="markdown book-article">
           {{- .Content -}}

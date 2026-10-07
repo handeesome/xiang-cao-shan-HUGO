@@ -1,0 +1,47 @@
+<div class="flex align-center justify-between">
+  <label
+    for="menu-control"
+    class="book-header-control"
+    role="button"
+    tabindex="0"
+    aria-controls="book-menu-panel"
+    aria-expanded="false"
+    aria-label="打开导航菜单"
+    data-toggle-control="menu-control"
+    data-label-collapsed="打开导航菜单"
+    data-label-expanded="关闭导航菜单"
+  >
+    <img src="{{ "svg/menu.svg" | relURL }}" class="book-icon" alt="" aria-hidden="true" />
+  </label>
+
+  {{ $currentTitle := partial "docs/title" . }}
+  <div class="book-header-title">
+    {{ with partial "book-context.html" . }}
+      {{ if ne $currentTitle .BookTitle }}
+      <div class="book-header-context" title="{{ .BookTitle }}{{ with .Parent }} · {{ partial "docs/title" . }}{{ end }}">{{ .BookTitle }}{{ with .Parent }} · {{ partial "docs/title" . }}{{ end }}</div>
+      {{ end }}
+      <div class="book-header-current" title="{{ $currentTitle }}">{{ $currentTitle }}</div>
+    {{ else }}
+      {{ $currentTitle }}
+    {{ end }}
+  </div>
+
+  {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
+  <label
+    for="toc-control"
+    class="book-header-control"
+    role="button"
+    tabindex="0"
+    aria-controls="book-mobile-toc"
+    aria-expanded="false"
+    aria-label="打开本页目录"
+    data-toggle-control="toc-control"
+    data-label-collapsed="打开本页目录"
+    data-label-expanded="关闭本页目录"
+  >
+    <img src="{{ "svg/toc.svg" | relURL }}" class="book-icon" alt="" aria-hidden="true" />
+  </label>
+  {{ else }}
+  <span class="book-header-control book-header-control-spacer" aria-hidden="true"></span>
+  {{ end }}
+</div>

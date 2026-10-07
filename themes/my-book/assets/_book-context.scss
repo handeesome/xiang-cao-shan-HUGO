@@ -1,0 +1,62 @@
+.book-header-context,
+.book-header-current {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.book-header-context {
+  color: var(--readable-muted-color);
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
+
+.book-header-current {
+  line-height: 1.4;
+}
+
+.book-breadcrumbs {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: var(--readable-muted-color);
+  font-size: 0.8125rem;
+  line-height: 1.5;
+
+  ol {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 0.5rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    min-width: 0;
+  }
+
+  a,
+  span[aria-current] {
+    padding: 0.375rem 0;
+    overflow-wrap: anywhere;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.2em;
+  }
+}
+
+.book-breadcrumb-separator {
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .book-breadcrumbs {
+    max-width: 42rem;
+    margin-inline: auto;
+  }
+}

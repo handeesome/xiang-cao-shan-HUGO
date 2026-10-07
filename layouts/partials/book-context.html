@@ -1,0 +1,35 @@
+{{/* Find the book below its shelf, independently of generic titles like 序. */}}
+{{ $context := false }}
+{{ if in (slice "books" "children") .Section }}
+  {{ $hub := .Site.GetPage (printf "/%s" .Section) }}
+  {{ $book := false }}
+  {{ if and .IsSection .Parent }}
+    {{ if eq .Parent.RelPermalink $hub.RelPermalink }}
+      {{ $book = . }}
+    {{ end }}
+  {{ end }}
+  {{ range .Ancestors }}
+    {{ if .Parent }}
+      {{ if eq .Parent.RelPermalink $hub.RelPermalink }}
+        {{ $book = . }}
+      {{ end }}
+    {{ end }}
+  {{ end }}
+  {{ with $book }}
+    {{ $name := .Title }}
+    {{ with .File }}
+      {{ $name = path.Base (strings.TrimSuffix "/" .Dir) }}
+    {{ end }}
+    {{ $name = default $name .Params.bookTitle }}
+    {{ $parent := false }}
+    {{ with $.Parent }}
+      {{ if and (ne .RelPermalink $book.RelPermalink) ($book.IsAncestor .) }}
+        {{ $parent = . }}
+      {{ end }}
+    {{ end }}
+    {{ $hubTitle := "书架" }}
+    {{ if eq $.Section "children" }}{{ $hubTitle = "儿童书架" }}{{ end }}
+    {{ $context = dict "Book" $book "BookTitle" $name "Parent" $parent "Hub" $hub "HubTitle" $hubTitle }}
+  {{ end }}
+{{ end }}
+{{ return $context }}

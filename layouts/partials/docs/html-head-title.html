@@ -1,0 +1,7 @@
+{{- $title := partial "docs/title" . -}}
+{{- with partial "book-context.html" . -}}
+  {{- if ne $title .BookTitle -}}
+    {{- $title = printf "%s · %s" $title .BookTitle -}}
+  {{- end -}}
+{{- end -}}
+{{- $title }} | {{ .Site.Title -}}
