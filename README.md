@@ -10,6 +10,7 @@ The project emphasizes long-form reading: books are organized by author and titl
 - Chapter-based reading pages with explicit previous/next navigation
 - Responsive layouts tested at narrow mobile, tablet, and desktop widths
 - Mobile navigation and table of contents that preserve the reader’s scroll position
+- Local reading history that restores the last chapter, paragraph position, and paused audio progress
 - Accessible navigation dialogs, focus handling, keyboard controls, and larger touch targets
 - Mobile reading controls that hide while scrolling and return after a tap or keyboard action
 - Chapter audio with lazy metadata loading and sequential playback on multi-audio pages
@@ -76,6 +77,10 @@ Create a production build with:
 ```bash
 hugo --minify
 ```
+
+Reading progress is saved in the current browser for the 30 most recently visited reading pages. Opening the homepage returns to the latest chapter; following a homepage link explicitly stays home (`?home=1`). Chapter fragment links and browser back navigation keep their normal destinations. Audio resumes at the saved time only after the reader presses play. No reading history is sent to a server.
+
+Run the reading-progress checks with `node --test scripts/reading-progress.test.cjs`.
 
 ## Books and Chapter Audio
 

@@ -1,0 +1,4 @@
+{{ $script := resources.Get "reading-progress.js" | resources.Minify }}
+<script data-home-path="{{ .Site.Home.RelPermalink }}" data-is-home="{{ .IsHome }}">
+  {{ $script.Content | safeJS }}
+</script>
