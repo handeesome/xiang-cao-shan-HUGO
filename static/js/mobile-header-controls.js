@@ -17,14 +17,26 @@
     );
     let menuScrollPosition = 0;
     let menuWasOpen = false;
+    let menuHasOpened = false;
+
+    const isVisibleMenuElement = (element) => {
+      if (!element.getClientRects().length) return false;
+      for (let parent = element.parentElement; parent; parent = parent.parentElement) {
+        if (
+          parent.tagName === "DETAILS" && !parent.open &&
+          !parent.querySelector("summary")?.contains(element)
+        ) return false;
+      }
+      return true;
+    };
 
     const getMenuFocusableElements = () =>
       menuContent
         ? Array.from(
             menuContent.querySelectorAll(
-              'a[href], button:not([disabled]), input:not([disabled]):not([type="hidden"]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
+              'summary, a[href], button:not([disabled]), input:not([disabled]):not([type="hidden"]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
             )
-          ).filter((element) => element.getClientRects().length > 0)
+          ).filter(isVisibleMenuElement)
         : [];
 
     const setMenuBackgroundInactive = (inactive) => {
@@ -53,9 +65,30 @@
         menuContent?.setAttribute("aria-modal", "true");
         menuContent?.setAttribute("aria-label", "站点导航");
         requestAnimationFrame(() => {
-          getMenuFocusableElements()[0]?.focus({
-            preventScroll: true,
-          });
+          if (!menuToggle?.checked || !mobileView.matches) return;
+
+          let focusTarget = getMenuFocusableElements()[0];
+          if (!menuHasOpened) {
+            const currentChapter = menuContent?.querySelector(
+              '.book-chapter-tree a[aria-current="page"]'
+            );
+            if (currentChapter && isVisibleMenuElement(currentChapter)) {
+              const menuBounds = menuContent.getBoundingClientRect();
+              const chapterBounds = currentChapter.getBoundingClientRect();
+              if (
+                chapterBounds.top < menuBounds.top + 16 ||
+                chapterBounds.bottom > menuBounds.bottom - 16
+              ) {
+                // Scroll only the drawer; the reading page stays in place.
+                menuContent.scrollTop +=
+                  chapterBounds.top - menuBounds.top -
+                  (menuContent.clientHeight - chapterBounds.height) / 2;
+              }
+              focusTarget = currentChapter;
+            }
+            menuHasOpened = true;
+          }
+          focusTarget?.focus({ preventScroll: true });
         });
       } else {
         document.body.classList.remove("book-menu-open");

@@ -1,0 +1,60 @@
+.book-menu .book-section-details {
+  > summary {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+    outline: none !important;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    > a,
+    > span:not(.book-section-chevron) {
+      flex: 1;
+      min-width: 0;
+    }
+
+    > .book-section-chevron {
+      flex: 0 0 1.5rem;
+      padding: 0;
+      text-align: center;
+      font-size: 0.75rem;
+    }
+  }
+
+  &[open] > summary > .book-section-chevron {
+    transform: rotate(90deg);
+  }
+}
+
+@media (max-width: 900px) {
+  .book-menu .book-chapter-tree {
+    a {
+      display: flex;
+      align-items: center;
+      min-height: 2.75rem;
+      padding: 0.625rem 0.5rem;
+      border-radius: 0.5rem;
+      line-height: 1.5;
+    }
+
+    a[aria-current="page"] {
+      background-color: color-mix(in srgb, var(--color-link) 10%, var(--body-background));
+      font-weight: 600;
+    }
+
+    summary > span:not(.book-section-chevron) {
+      display: flex;
+      align-items: center;
+      min-height: 2.75rem;
+      padding: 0.625rem 0.5rem;
+      line-height: 1.5;
+    }
+
+    summary > .book-section-chevron {
+      flex-basis: 2.75rem;
+    }
+  }
+}
