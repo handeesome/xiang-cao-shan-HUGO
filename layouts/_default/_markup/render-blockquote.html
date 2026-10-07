@@ -1,0 +1,12 @@
+{{- $long := false -}}
+{{- if in (slice "books" "children") .Page.Section -}}
+  {{- /* A long prose paragraph needs a stable line start. Keep verse lines and short quotations centered. */ -}}
+  {{- range findRE "(?s)<p(?:\\s[^>]*)?>.*?</p>" .Text -}}
+    {{- if not (findRE "(?i)<br\\b" .) -}}
+      {{- $long = or $long (ge (len (findRE "\\S" (. | plainify) 120)) 120) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+<blockquote{{ if $long }} class="reading-long-quote"{{ end }}>
+  {{ .Text }}
+</blockquote>
