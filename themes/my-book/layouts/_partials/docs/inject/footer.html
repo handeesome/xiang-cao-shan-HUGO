@@ -181,6 +181,12 @@
   <div class="book-footer-info">
     <p>{{ $bookRoot.Title }}</p>
     <p>&copy; {{ now.Format "2006" }} 香草山. All rights reserved.</p>
+    {{ if not .IsHome }}
+      {{ with .Site.Params.BookMaintenanceDate }}
+        {{ $maintenanceDate := time.AsTime . }}
+        <p>最近维护：<time datetime="{{ $maintenanceDate.Format "2006-01-02" }}">{{ $maintenanceDate.Format "2006年1月2日" }}</time></p>
+      {{ end }}
+    {{ end }}
   </div>
   <script src="/js/close-toc-on-anchor.js"></script>
 </div>
