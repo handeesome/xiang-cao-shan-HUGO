@@ -4,7 +4,7 @@
   {{ partial "docs/html-head" . }}
   {{ partial "docs/inject/head" . }}
 </head>
-<body dir="{{ default "ltr" .Site.Language.LanguageDirection }}">
+<body dir="{{ default "ltr" .Site.Language.LanguageDirection }}"{{ if not .IsHome }} class="book-content-layout"{{ end }}>
 
   <input type="checkbox" class="hidden toggle" id="menu-control" tabindex="-1" aria-hidden="true" />
   <input type="checkbox" class="hidden toggle" id="toc-control" tabindex="-1" aria-hidden="true" />
