@@ -64,6 +64,13 @@
   }
 }
 
+@media (min-width: 769px) and (max-width: $mobile-breakpoint) {
+  .book-content-layout .book-article {
+    max-width: 42rem;
+    margin-inline: auto;
+  }
+}
+
 @media (max-width: 560px) {
   .book-content-layout .book-cover a {
     padding-bottom: 0.75rem;

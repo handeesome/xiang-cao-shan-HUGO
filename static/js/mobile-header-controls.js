@@ -5,7 +5,7 @@
     const controls = Array.from(
       document.querySelectorAll("[data-toggle-control]")
     );
-    const mobileView = window.matchMedia("(max-width: 900px)");
+    const mobileView = window.matchMedia("(max-width: 1024px)");
     const menuControl = controls.find(
       (control) => control.dataset.toggleControl === "menu-control"
     );

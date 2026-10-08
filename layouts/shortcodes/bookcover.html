@@ -41,7 +41,7 @@
       <img
         src="{{ $coverSm.RelPermalink }}"
         srcset="{{ $coverXs.RelPermalink }} 160w, {{ $coverSmall.RelPermalink }} 240w, {{ $coverSm.RelPermalink }} 320w, {{ $coverMd.RelPermalink }} 480w"
-        sizes="(max-width: 560px) calc((50vw - 2.5rem) * {{ $coverScale }}), (max-width: 704px) calc(((100vw - 4rem) / 3 - 1.625rem) * {{ $coverScale }}), (max-width: 768px) calc(188px * {{ $coverScale }}), (max-width: 900px) calc(((100vw - 6rem) / 3 - 1.625rem) * {{ $coverScale }}), (max-width: 1280px) calc(((100vw - {{ $desktopSpace }}) / 5 - 1.625rem) * {{ $coverScale }}), calc({{ $desktopCover }} * {{ $coverScale }})"
+        sizes="(max-width: 560px) calc((50vw - 2.5rem) * {{ $coverScale }}), (max-width: 704px) calc(((100vw - 4rem) / 3 - 1.625rem) * {{ $coverScale }}), (max-width: 1024px) calc(188px * {{ $coverScale }}), (max-width: 1280px) calc(((100vw - {{ $desktopSpace }}) / 5 - 1.625rem) * {{ $coverScale }}), calc({{ $desktopCover }} * {{ $coverScale }})"
         loading="{{ if $priority }}eager{{ else }}lazy{{ end }}"
         {{ if $priority }}fetchpriority="high"{{ end }}
         decoding="async"

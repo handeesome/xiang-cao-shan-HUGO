@@ -1,6 +1,7 @@
 /* You can override SASS variables here. */
 
-// Keep the theme layout in step with the mobile controls' 900px media query.
-$mobile-breakpoint: 900px;
+// Keep phone landscape and small tablets out of the cramped three-column layout.
+// The reading and navigation scripts use the same 1024px breakpoint.
+$mobile-breakpoint: 1024px;
 
 // @import "plugins/dark";

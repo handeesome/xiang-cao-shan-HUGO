@@ -2,7 +2,7 @@
   "use strict";
 
   document.addEventListener("DOMContentLoaded", () => {
-    const mobileView = window.matchMedia("(max-width: 900px)");
+    const mobileView = window.matchMedia("(max-width: 1024px)");
     const header = document.querySelector(".book-header");
     const article = document.querySelector(".book-article");
     const audios = article
