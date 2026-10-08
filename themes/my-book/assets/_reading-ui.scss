@@ -71,6 +71,20 @@
   }
 }
 
+// Wider reading views keep their font size, with more room between text lines.
+@media (min-width: 769px) {
+  body[data-reading-path] .book-article {
+    p,
+    li {
+      line-height: 1.8;
+    }
+
+    > p {
+      margin-block: 1.1em;
+    }
+  }
+}
+
 @media (max-width: 560px) {
   .book-content-layout .book-cover a {
     padding-bottom: 0.75rem;
