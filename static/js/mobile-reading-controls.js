@@ -22,6 +22,10 @@
     let scrollDirection = 0;
     let directionDistance = 0;
     let scrollIntentUntil = 0;
+    let revealProgress = 1;
+    let touching = false;
+    let settleTimer;
+    const REVEAL_DISTANCE = 72;
 
     const navigationIsOpen = () =>
       ["menu-control", "toc-control"].some(
@@ -96,14 +100,30 @@
       });
     };
 
+    const setProgress = (progress) => {
+      revealProgress = Math.min(1, Math.max(0, progress));
+      document.body.style.setProperty("--reading-controls-opacity", String(revealProgress));
+      // Start exposing an edge even during a short, slow upward gesture.
+      document.body.style.setProperty("--reading-controls-offset", String(1 - Math.sqrt(revealProgress)));
+    };
+
+    const stopTracking = () => {
+      clearTimeout(settleTimer);
+      document.body.classList.remove("reading-controls-tracking");
+    };
+
     const showControls = () => {
       if (!mobileView.matches) return;
+      stopTracking();
+      setProgress(1);
       document.body.classList.remove("reading-controls-hidden");
       updateActiveAudio();
     };
 
     const hideControls = () => {
       if (!mobileView.matches || navigationIsOpen()) return;
+      stopTracking();
+      setProgress(0);
       if (document.body.classList.contains("reading-controls-hidden")) return;
       document.body.classList.add("reading-controls-hidden");
       document.dispatchEvent(new Event("reading-controls-hidden"));
@@ -135,15 +155,44 @@
       if (direction !== scrollDirection) directionDistance = 0;
       scrollDirection = direction;
       directionDistance += Math.abs(delta);
+      if (direction > 0 && revealProgress > 0 && revealProgress < 1) {
+        setProgress(revealProgress - Math.abs(delta) / REVEAL_DISTANCE);
+        if (revealProgress === 0) hideControls();
+      }
       if (direction > 0 && directionDistance >= 12) hideControls();
-      if (direction < 0 && directionDistance >= 8) showControls();
+      if (direction < 0 && revealProgress < 1) {
+        if (!document.body.classList.contains("reading-controls-tracking")) {
+          // A quick reversal continues from an in-flight fade, avoiding a flash.
+          const opacity = parseFloat(getComputedStyle(header).opacity);
+          if (Number.isFinite(opacity)) revealProgress = Math.max(revealProgress, opacity);
+        }
+        document.body.classList.add("reading-controls-tracking");
+        setProgress(revealProgress + Math.abs(delta) / REVEAL_DISTANCE);
+        if (revealProgress === 1) showControls();
+      }
     };
 
+    const settleReveal = () => {
+      // Include the last scroll event if the finger lifts before its frame.
+      updateVisibility();
+      stopTracking();
+      if (scrollDirection < 0 && revealProgress > 0) showControls();
+      else if (revealProgress < 1) hideControls();
+    };
+    const scheduleSettle = () => {
+      clearTimeout(settleTimer);
+      if (!touching) settleTimer = setTimeout(settleReveal, 160);
+    };
     const markScrollIntent = () => { scrollIntentUntil = Date.now() + 1800; };
-    ["wheel", "touchmove"].forEach((event) => {
-      document.addEventListener(event, markScrollIntent, { passive: true });
-    });
+    document.addEventListener("wheel", () => { markScrollIntent(); scheduleSettle(); }, { passive: true });
+    document.addEventListener("touchstart", () => { touching = true; clearTimeout(settleTimer); }, { passive: true });
+    document.addEventListener("touchmove", markScrollIntent, { passive: true });
+    ["touchend", "touchcancel"].forEach((type) => document.addEventListener(type, () => {
+      touching = false;
+      settleReveal();
+    }, { passive: true }));
     document.addEventListener("pointerdown", () => {
+      if (revealProgress > 0 && revealProgress < 1) settleReveal();
       scrollIntentUntil = 0;
       resetDirection();
     }, { passive: true });
@@ -155,6 +204,7 @@
         scrollFrame = requestAnimationFrame(() => {
           updateActiveAudio();
           updateVisibility();
+          scheduleSettle();
           scrollFrame = null;
         });
       },
@@ -169,6 +219,9 @@
         showControls();
         resetDirection();
       }
+    });
+    document.addEventListener("keyup", (event) => {
+      if (["ArrowUp", "ArrowDown", "PageUp", "PageDown", "Home", "End", " "].includes(event.key)) settleReveal();
     });
     document.addEventListener("focusin", (event) => {
       if (event.target.closest?.(".book-header, audio, .reading-preferences")) {
@@ -185,12 +238,17 @@
     });
 
     mobileView.addEventListener("change", () => {
+      stopTracking();
+      setProgress(1);
       document.body.classList.remove("reading-controls-hidden");
       scrollIntentUntil = 0;
       resetDirection();
       scheduleMeasure();
     });
     window.addEventListener("resize", () => {
+      stopTracking();
+      setProgress(revealProgress > 0 ? 1 : 0);
+      if (revealProgress === 1) document.body.classList.remove("reading-controls-hidden");
       scrollIntentUntil = 0;
       resetDirection();
       scheduleMeasure();

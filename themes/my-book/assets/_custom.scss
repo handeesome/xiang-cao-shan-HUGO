@@ -378,6 +378,7 @@ a.anchor {
   .book-header,
   audio.audio-reading-control-active {
     transition: transform 360ms cubic-bezier(0.22, 1, 0.36, 1), opacity 280ms ease;
+    opacity: var(--reading-controls-opacity, 1);
   }
 
   audio.audio-reading-control-active {
@@ -390,16 +391,20 @@ a.anchor {
 
   body.reading-controls-hidden .book-header,
   body.reading-controls-hidden audio.audio-reading-control-active {
-    opacity: 0;
     pointer-events: none;
   }
 
-  body.reading-controls-hidden .book-header {
-    transform: translateY(calc(-100% - 1rem));
+  .book-header {
+    transform: translateY(calc((-100% - 1rem) * var(--reading-controls-offset, 0)));
   }
 
-  body.reading-controls-hidden audio.audio-reading-control-active {
-    transform: translateY(calc(-100% - var(--audio-reading-control-top, 4.25rem) - 1rem));
+  audio.audio-reading-control-active {
+    transform: translateY(calc((-100% - var(--audio-reading-control-top, 4.25rem) - 1rem) * var(--reading-controls-offset, 0)));
+  }
+
+  body.reading-controls-tracking .book-header,
+  body.reading-controls-tracking audio.audio-reading-control-active {
+    transition: none;
   }
 
   .book-page {
