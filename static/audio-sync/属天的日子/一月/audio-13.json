@@ -1,6 +1,12 @@
 {
   "version": 1,
   "model": ".audio-sync-cache\\models\\models--Systran--faster-whisper-base\\snapshots\\ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66",
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (3 trailing chars, coverage 0.500): target 91: 他要以你当作神------出 4:16",
+    "repair unverified end (previous-sync): target 91"
+  ],
   "source": {
     "page": "属天的日子/一月.md",
     "audio": "0113.mp3"
@@ -8,52 +14,249 @@
   "audioDuration": 196.653,
   "cues": [
     {
-      "start": 0.56,
-      "end": 1.34,
-      "kind": "heading",
-      "targetIndex": 67,
-      "targetText": "一月十三日",
-      "confidence": 0.571
-    },
-    {
       "start": 1.34,
-      "end": 5.76,
+      "end": 7.76,
       "kind": "paragraph",
-      "targetIndex": 68,
+      "targetIndex": 91,
       "targetText": "他要以你当作上帝出416",
-      "confidence": 0.762
+      "confidence": 0.621,
+      "quality": {
+        "coverage": 0.75,
+        "coherentCoverage": 0.75,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.5,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1.34,
+        "previousEnd": 7.76
+      }
     },
     {
-      "start": 5.76,
-      "end": 27.32,
+      "start": 8.36,
+      "end": 26.12,
       "kind": "paragraph",
-      "targetIndex": 69,
+      "targetIndex": 92,
       "targetText": "这是上帝对摩西的应许上帝也要摩西在他哥哥亚伦面前有这么高贵的性格这不是提议我们必须籍着崇高荣耀的",
-      "confidence": 0.609
+      "confidence": 0.877,
+      "quality": {
+        "coverage": 0.877,
+        "coherentCoverage": 0.8,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 8.36,
+        "previousEnd": 26.12
+      }
     },
     {
       "start": 27.32,
-      "end": 66.62,
+      "end": 65.22,
       "kind": "paragraph",
-      "targetIndex": 70,
+      "targetIndex": 93,
       "targetText": "在我们的生命中代表上帝是何等上帝圣光荣的事但是我们能一致地接受这个呼召吗若能我们在待人的行为上必",
-      "confidence": 0.825
+      "confidence": 0.904,
+      "quality": {
+        "coverage": 0.904,
+        "coherentCoverage": 0.877,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 27.32,
+        "previousEnd": 65.22
+      }
     },
     {
       "start": 66.62,
-      "end": 102.3,
+      "end": 100.72,
       "kind": "paragraph",
-      "targetIndex": 71,
+      "targetIndex": 94,
       "targetText": "由于上帝没有任何需要他总是不断地付出并且厚待一切求告他的人罗1012他性格的伟大在于爱一一大公无",
-      "confidence": 0.761
+      "confidence": 0.841,
+      "quality": {
+        "coverage": 0.86,
+        "coherentCoverage": 0.826,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 66.62,
+        "previousEnd": 100.72
+      }
     },
     {
       "start": 102.3,
-      "end": 111.74,
+      "end": 112.1,
       "kind": "paragraph",
-      "targetIndex": 72,
+      "targetIndex": 95,
       "targetText": "当主在上帝的宝座为我们代求时让我们好好地活在地上作主的好门徒",
-      "confidence": 0.881
+      "confidence": 0.867,
+      "quality": {
+        "coverage": 0.867,
+        "coherentCoverage": 0.767,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.733,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 102.3,
+        "previousEnd": 112.1
+      }
     }
-  ]
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "repairFingerprint": "893f78d3806b16659443c710e26ffe73e1d8ab001116be004e96b1b7531b0396",
+  "repairCueDigest": "a3a68f4322556ee89abe0f208c35a98a6dea8d00bd3b8559b0a722bd4edb7c14"
 }

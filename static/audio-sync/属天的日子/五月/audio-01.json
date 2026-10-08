@@ -8,20 +8,45 @@
   "audioDuration": 163.7721875,
   "cues": [
     {
-      "start": 0.0,
-      "end": 2.42,
-      "kind": "heading",
-      "targetIndex": 1,
-      "targetText": "五月一日",
-      "confidence": 0.571
-    },
-    {
       "start": 2.42,
       "end": 8.0,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "圣灵所结的果子就是温柔加522",
-      "confidence": 0.625
+      "confidence": 0.688,
+      "quality": {
+        "coverage": 0.8,
+        "coherentCoverage": 0.533,
+        "extraSpeechContext": true,
+        "prefixCoverage": 0.714,
+        "suffixCoverage": 0.857,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 2.42,
+        "previousEnd": 8.0
+      }
     },
     {
       "start": 8.0,
@@ -29,15 +54,77 @@
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "当冰冷的大地逐渐融化时她立刻散放出美丽的笑靥遍地一切都轻轻地述说上帝的温柔温柔这个美丽的果子与这",
-      "confidence": 0.519
+      "confidence": 0.782,
+      "quality": {
+        "coverage": 0.779,
+        "coherentCoverage": 0.703,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.55,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 8.0,
+        "previousEnd": 68.64
+      }
     },
     {
-      "start": 68.64,
+      "start": 71.28,
       "end": 115.23,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "一个真正充满耶稣的人必是一位温柔的绅士一个受过圣灵洗的女性虽然出生卑微未曾受过世上礼俗的教导但却",
-      "confidence": 0.718
+      "confidence": 0.758,
+      "quality": {
+        "coverage": 0.708,
+        "coherentCoverage": 0.66,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 68.64,
+        "previousEnd": 115.23
+      }
     },
     {
       "start": 115.23,
@@ -45,7 +132,62 @@
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "主啊帮助我们今天就顺服温柔如同鸽子的圣灵使我们的生命变成像祢的生命",
-      "confidence": 0.75
+      "confidence": 0.812,
+      "quality": {
+        "coverage": 0.788,
+        "coherentCoverage": 0.636,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.812,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 115.23,
+        "previousEnd": 139.75
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 2: 圣灵所结的果子，就是…温柔------加 5:22",
+    "unverified start anchor: target 3: 当冰冷的大地逐渐融化时，她立刻散放出美丽的笑靥，遍地一切都轻轻地述说神的温柔。温柔这个美丽的果子",
+    "unverified end anchor: target 3: 当冰冷的大地逐渐融化时，她立刻散放出美丽的笑靥，遍地一切都轻轻地述说神的温柔。温柔这个美丽的果子",
+    "unverified end anchor: target 4: 一个真正充满耶稣的人，必是一位温柔的绅士; 一个受过圣灵洗的女性，虽然出生卑微、未曾受过世上礼俗",
+    "unverified start anchor: target 5: 主啊! 帮助我们今天就顺服温柔如同鸽子的圣灵，使我们的生命变成像祢的生命。",
+    "unverified end anchor: target 5: 主啊! 帮助我们今天就顺服温柔如同鸽子的圣灵，使我们的生命变成像祢的生命。",
+    "repair unverified start (previous-sync): target 2",
+    "repair unverified start (previous-sync): target 3",
+    "repair unverified end (previous-sync): target 3",
+    "repair unverified end (previous-sync): target 4",
+    "repair unverified start (previous-sync): target 5",
+    "repair unverified end (previous-sync): target 5"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 3,
+    "unverifiedEnds": 3,
+    "missingTargets": []
+  },
+  "repairFingerprint": "9cb2b54532f14d1a05f96e5c099b302eabc00492568288f32e9f3019c1c422a2",
+  "repairCueDigest": "da0cf5572933863452c25a5807c43b6e2b2fa1a80c4b67cf084f3a9a9f937b6e"
 }

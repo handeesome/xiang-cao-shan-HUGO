@@ -8,44 +8,238 @@
   "audioDuration": 179.4456875,
   "cues": [
     {
-      "start": 0.0,
-      "end": 5.99,
-      "kind": "heading",
-      "targetIndex": 114,
-      "targetText": "九月二十三日",
-      "confidence": 1.0
-    },
-    {
       "start": 5.99,
       "end": 10.65,
       "kind": "paragraph",
-      "targetIndex": 115,
-      "targetText": "因为我耶和华是医治你的出1526",
-      "confidence": 0.296
-    },
-    {
-      "start": 10.65,
-      "end": 44.12,
-      "kind": "paragraph",
-      "targetIndex": 116,
-      "targetText": "上帝要我们将身体和灵魂都交托他是很合理的因为如果我们的信心不够实际到能带给我们暂时的解脱我们怎能",
-      "confidence": 0.557
-    },
-    {
-      "start": 44.12,
-      "end": 87.54,
-      "kind": "paragraph",
       "targetIndex": 117,
+      "targetText": "因为我耶和华是医治你的出1526",
+      "confidence": 0.37,
+      "quality": {
+        "startVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endVerified": false,
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "reviewRequired": true
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 5.99,
+        "previousEnd": 10.65
+      },
+      "targetMigration": {
+        "previousTargetIndex": 115,
+        "targetIndex": 117,
+        "targetText": "因为我耶和华是医治你的出1526"
+      }
+    },
+    {
+      "start": 23.74,
+      "end": 44.32,
+      "kind": "paragraph",
+      "targetIndex": 118,
+      "targetText": "上帝要我们将身体和灵魂都交托他是很合理的因为如果我们的信心不够实际到能带给我们暂时的解脱我们怎能",
+      "confidence": 0.923,
+      "quality": {
+        "coverage": 0.923,
+        "coherentCoverage": 0.923,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 10.65,
+        "previousEnd": 44.12
+      },
+      "targetMigration": {
+        "previousTargetIndex": 116,
+        "targetIndex": 118,
+        "targetText": "上帝要我们将身体和灵魂都交托他是很合理的因为如果我们的信心不够实际到能带给我们暂时的解脱我们怎能"
+      }
+    },
+    {
+      "start": 45.5,
+      "end": 86.48,
+      "kind": "paragraph",
+      "targetIndex": 119,
       "targetText": "在信心中谈论着死后未来遥远的救恩的确是件好事大多数信主的人都相信有一天会得救但是这样的信心是很难",
-      "confidence": 0.86
+      "confidence": 0.863,
+      "quality": {
+        "coverage": 0.867,
+        "coherentCoverage": 0.85,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 44.12,
+        "previousEnd": 87.54
+      },
+      "targetMigration": {
+        "previousTargetIndex": 117,
+        "targetIndex": 119,
+        "targetText": "在信心中谈论着死后未来遥远的救恩的确是件好事大多数信主的人都相信有一天会得救但是这样的信心是很难"
+      }
     },
     {
       "start": 87.54,
       "end": 136.01,
       "kind": "paragraph",
-      "targetIndex": 118,
+      "targetIndex": 120,
       "targetText": "为了使我们在灵里学些功课在有限的身体上得着丰富的供应上帝总是训练他的子民在一切的需要上认定他不仅",
-      "confidence": 0.646
+      "confidence": 0.777,
+      "quality": {
+        "coverage": 0.771,
+        "coherentCoverage": 0.656,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 87.54,
+        "previousEnd": 136.01
+      },
+      "targetMigration": {
+        "previousTargetIndex": 118,
+        "targetIndex": 120,
+        "targetText": "为了使我们在灵里学些功课在有限的身体上得着丰富的供应上帝总是训练他的子民在一切的需要上认定他不仅"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (0 leading chars, coverage 0.500): target 117: …因为我------耶和华是医治你的------出 15:26",
+    "incomplete end (5 trailing chars, coverage 0.125): target 117: …因为我------耶和华是医治你的------出 15:26",
+    "low confidence (0.370, coverage 0.312): target 117: …因为我------耶和华是医治你的------出 15:26",
+    "unverified start anchor: target 117: …因为我------耶和华是医治你的------出 15:26",
+    "unverified end anchor: target 117: …因为我------耶和华是医治你的------出 15:26",
+    "unmatched (fragment only): target 117: …因为我------耶和华是医治你的------出 15:26",
+    "unverified end anchor: target 120: 为了使我们在灵里学些功课，在有限的身体上得着丰富的供应，神总是训练他的子民，在一切的需要上认定他",
+    "repair unverified start (previous-sync): target 117",
+    "repair unverified end (previous-sync): target 117",
+    "repair unverified end (previous-sync): target 120"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 115,
+      "targetIndex": 117,
+      "targetText": "因为我耶和华是医治你的出1526"
+    },
+    {
+      "previousTargetIndex": 116,
+      "targetIndex": 118,
+      "targetText": "上帝要我们将身体和灵魂都交托他是很合理的因为如果我们的信心不够实际到能带给我们暂时的解脱我们怎能"
+    },
+    {
+      "previousTargetIndex": 117,
+      "targetIndex": 119,
+      "targetText": "在信心中谈论着死后未来遥远的救恩的确是件好事大多数信主的人都相信有一天会得救但是这样的信心是很难"
+    },
+    {
+      "previousTargetIndex": 118,
+      "targetIndex": 120,
+      "targetText": "为了使我们在灵里学些功课在有限的身体上得着丰富的供应上帝总是训练他的子民在一切的需要上认定他不仅"
+    }
+  ],
+  "repairFingerprint": "4c3d5589a2f186294be75dfec8cd3fe6b00c8568b3d7771688c480691b9cf38e",
+  "repairCueDigest": "71ed90b2b1ec54d5e4cb18ec46d45db1c7c0cea56b3d586768d3d8997d35b8aa"
 }

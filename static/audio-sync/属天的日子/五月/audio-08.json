@@ -8,36 +8,155 @@
   "audioDuration": 160.533,
   "cues": [
     {
-      "start": 0.2,
-      "end": 1.34,
-      "kind": "heading",
-      "targetIndex": 38,
-      "targetText": "五月八日",
-      "confidence": 0.571
-    },
-    {
       "start": 1.34,
       "end": 16.38,
       "kind": "paragraph",
       "targetIndex": 39,
       "targetText": "一粒麦子若是死了就结出许多子粒来约1224",
-      "confidence": 0.522
+      "confidence": 0.696,
+      "quality": {
+        "coverage": 0.762,
+        "coherentCoverage": 0.381,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 1.34,
+        "previousEnd": 16.38
+      }
     },
     {
       "start": 16.38,
-      "end": 78.12,
+      "end": 76.74,
       "kind": "paragraph",
       "targetIndex": 40,
       "targetText": "死与复活不仅是大自然的规律更是基督教的中心思想从茧的变形埋在土里的种籽在春天发芽开花以及原本笼罩",
-      "confidence": 0.759
+      "confidence": 0.843,
+      "quality": {
+        "coverage": 0.843,
+        "coherentCoverage": 0.777,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 16.38,
+        "previousEnd": 78.12
+      }
     },
     {
       "start": 78.12,
-      "end": 137.47,
+      "end": 137.97,
       "kind": "paragraph",
       "targetIndex": 41,
       "targetText": "事实上在每一个有灵命的基督徒身上我们都能看到死与复活的状况每一个生命皆由死而得生而且死得越透彻活",
-      "confidence": 0.787
+      "confidence": 0.868,
+      "quality": {
+        "coverage": 0.868,
+        "coherentCoverage": 0.828,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 78.12,
+        "previousEnd": 137.47
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 39: …一粒麦子…若是死了，就结出许多子粒来------约 12:24",
+    "unverified end anchor: target 39: …一粒麦子…若是死了，就结出许多子粒来------约 12:24",
+    "repair unverified start (previous-sync): target 39",
+    "repair unverified end (previous-sync): target 39"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "repairFingerprint": "4bd830ed42e9911df75ef3fec3cac4f75814e8251539b2ef68429c038ba004db",
+  "repairCueDigest": "ff4180b8031fb64ff9b8c4c12a3b191eb2af632bdc0547fbc84c4cd25a677102"
 }

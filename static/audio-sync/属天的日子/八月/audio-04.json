@@ -8,28 +8,159 @@
   "audioDuration": 129.891375,
   "cues": [
     {
-      "start": 11.8,
-      "end": 12.76,
-      "kind": "heading",
-      "targetIndex": 16,
-      "targetText": "八月四日",
-      "confidence": 0.25
-    },
-    {
-      "start": 12.76,
-      "end": 42.72,
+      "start": 0.0,
+      "end": 13.5,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "如果和上帝的灵住在你们心里你们就不属肉体乃属圣灵了人若没有基督的灵就不是属基督的罗89",
-      "confidence": 0.301
+      "confidence": 0.831,
+      "quality": {
+        "coverage": 0.86,
+        "coherentCoverage": 0.744,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 12.76,
+        "previousEnd": 42.72
+      }
+    },
+    {
+      "start": 21.58,
+      "end": 38.86,
+      "kind": "paragraph",
+      "targetIndex": 18,
+      "targetText": "一个属灵的人未必是一个为圣灵所充满有深度灵命的人依据保罗的看法应是如果上帝的灵住在你们心里你们就",
+      "confidence": 0.947,
+      "quality": {
+        "coverage": 0.947,
+        "coherentCoverage": 0.895,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": null,
+        "previousEnd": null
+      }
     },
     {
       "start": 42.72,
-      "end": 98.58,
+      "end": 98.54,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "一个新造的人的荣耀不仅仅在于这个人灵里的重生更由于这个人适合上帝的内住他会像一个孩子倚赖他的母亲",
-      "confidence": 0.546
+      "confidence": 0.905,
+      "quality": {
+        "coverage": 0.924,
+        "coherentCoverage": 0.911,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 42.72,
+        "previousEnd": 98.58
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 19: 一个新造的人的荣耀，不仅仅在于这个人灵里的重生，更由于这个人适合神的内住。他会像一个孩子倚赖他的",
+    "repair unverified start (previous-sync): target 19"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 2,
+    "addedCues": 1,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "repairFingerprint": "6cb65d24054155e5d887dee087756323a1a80d6f57840a675ae3362c0b184423",
+  "repairCueDigest": "6ace9deb577bb335fc6306513d15da11f0a66dd6d8f712570dd94956c56fcb30"
 }

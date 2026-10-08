@@ -8,20 +8,78 @@
   "audioDuration": 244.3599375,
   "cues": [
     {
-      "start": 0.22,
-      "end": 2.8,
-      "kind": "heading",
-      "targetIndex": 161,
-      "targetText": "十二月三十一日",
-      "confidence": 0.364
-    },
-    {
       "start": 2.8,
       "end": 8.74,
       "kind": "paragraph",
-      "targetIndex": 162,
+      "targetIndex": 220,
       "targetText": "我不求你叫他们离开世界只求你保守他们脱离那恶者约1715",
-      "confidence": 0.816
+      "confidence": 0.816,
+      "quality": {
+        "coverage": 0.714,
+        "coherentCoverage": 0.643,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.429,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 7,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "discarded detached end matches"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 2.8,
+        "previousEnd": 8.74
+      },
+      "targetMigration": {
+        "previousTargetIndex": 162,
+        "targetIndex": 220,
+        "targetText": "我不求你叫他们离开世界只求你保守他们脱离那恶者约1715"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (7 trailing chars, coverage 0.429): target 220: 我不求你叫他们离开世界，只求你保守他们脱离那恶者------约 17:15",
+    "unverified end anchor: target 220: 我不求你叫他们离开世界，只求你保守他们脱离那恶者------约 17:15",
+    "repair unverified end (previous-sync): target 220"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 162,
+      "targetIndex": 220,
+      "targetText": "我不求你叫他们离开世界只求你保守他们脱离那恶者约1715"
+    }
+  ],
+  "repairFingerprint": "eff1063e5cf0dcd7d1a92808055bbfefc9f6d5d8e87f0791d646c05b8661773c",
+  "repairCueDigest": "e014a8825af8e3c193bde04b1a33b8390ad60e6b0ee8aa39b90aa2cb18737c11"
 }

@@ -8,36 +8,185 @@
   "audioDuration": 173.9860625,
   "cues": [
     {
-      "start": 0.18,
-      "end": 6.18,
-      "kind": "heading",
-      "targetIndex": 129,
-      "targetText": "九月二十六日",
-      "confidence": 0.4
-    },
-    {
       "start": 6.18,
       "end": 13.0,
       "kind": "paragraph",
-      "targetIndex": 130,
+      "targetIndex": 132,
       "targetText": "他在急难中我要与他同在诗9115",
-      "confidence": 0.571
+      "confidence": 0.629,
+      "quality": {
+        "coverage": 0.688,
+        "coherentCoverage": 0.438,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.625,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 6.18,
+        "previousEnd": 13.0
+      },
+      "targetMigration": {
+        "previousTargetIndex": 130,
+        "targetIndex": 132,
+        "targetText": "他在急难中我要与他同在诗9115"
+      }
     },
     {
-      "start": 13.0,
-      "end": 72.04,
+      "start": 19.52,
+      "end": 73.6,
       "kind": "paragraph",
-      "targetIndex": 131,
+      "targetIndex": 133,
       "targetText": "在困难中我们经常会问为什么上帝不早点帮助我然而这不是上帝的顺序他要我们先学习适应困境并且从其中学",
-      "confidence": 0.608
+      "confidence": 0.938,
+      "quality": {
+        "coverage": 0.938,
+        "coherentCoverage": 0.917,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 13.0,
+        "previousEnd": 72.04
+      },
+      "targetMigration": {
+        "previousTargetIndex": 131,
+        "targetIndex": 133,
+        "targetText": "在困难中我们经常会问为什么上帝不早点帮助我然而这不是上帝的顺序他要我们先学习适应困境并且从其中学"
+      }
     },
     {
-      "start": 72.04,
+      "start": 76.12,
       "end": 128.44,
       "kind": "paragraph",
-      "targetIndex": 132,
+      "targetIndex": 134,
       "targetText": "上帝能藉着困难教导他的儿女一些珍贵的功课这些功课的目的在于教育我们当困境过后我们可以从这些功课中",
-      "confidence": 0.804
+      "confidence": 0.931,
+      "quality": {
+        "coverage": 0.922,
+        "coherentCoverage": 0.896,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 72.04,
+        "previousEnd": 128.44
+      },
+      "targetMigration": {
+        "previousTargetIndex": 132,
+        "targetIndex": 134,
+        "targetText": "上帝能藉着困难教导他的儿女一些珍贵的功课这些功课的目的在于教育我们当困境过后我们可以从这些功课中"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 132: 他在急难中，我要与他同在------诗 91:15",
+    "unverified end anchor: target 132: 他在急难中，我要与他同在------诗 91:15",
+    "unverified end anchor: target 134: 神能藉着困难教导他的儿女一些珍贵的功课，这些功课的目的在于教育我们; 当困境过后，我们可以从这些",
+    "repair unverified start (previous-sync): target 132",
+    "repair unverified end (previous-sync): target 132",
+    "repair unverified end (previous-sync): target 134"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 130,
+      "targetIndex": 132,
+      "targetText": "他在急难中我要与他同在诗9115"
+    },
+    {
+      "previousTargetIndex": 131,
+      "targetIndex": 133,
+      "targetText": "在困难中我们经常会问为什么上帝不早点帮助我然而这不是上帝的顺序他要我们先学习适应困境并且从其中学"
+    },
+    {
+      "previousTargetIndex": 132,
+      "targetIndex": 134,
+      "targetText": "上帝能藉着困难教导他的儿女一些珍贵的功课这些功课的目的在于教育我们当困境过后我们可以从这些功课中"
+    }
+  ],
+  "repairFingerprint": "548b8687e996c1cfaea449d58ec917bbfb752d67637b4cd8c27e9e18540d91b0",
+  "repairCueDigest": "eea1b9dfd022413ee2fbbc9707854c98bd5646a9acf01b01e657d5071b2a5a12"
 }

@@ -8,28 +8,82 @@
   "audioDuration": 186.08075,
   "cues": [
     {
-      "start": 0.0,
-      "end": 5.72,
-      "kind": "heading",
-      "targetIndex": 32,
-      "targetText": "九月七日",
-      "confidence": 1.0
-    },
-    {
       "start": 5.72,
       "end": 13.4,
       "kind": "paragraph",
       "targetIndex": 33,
       "targetText": "然而我要因耶和华欢欣因救我的上帝喜乐哈318",
-      "confidence": 0.634
+      "confidence": 0.732,
+      "quality": {
+        "coverage": 0.682,
+        "coherentCoverage": 0.636,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.636,
+        "suffixCoverage": 0.727,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 5.72,
+        "previousEnd": 13.4
+      }
     },
     {
-      "start": 13.4,
+      "start": 19.37,
       "end": 78.26,
       "kind": "paragraph",
       "targetIndex": 34,
       "targetText": "喜乐的秘诀不是空空地等待你觉得快乐的一刻而是藉着信心使你从消沉的沮丧中站起来并且选择开始赞美上帝",
-      "confidence": 0.757
+      "confidence": 0.843,
+      "quality": {
+        "coverage": 0.84,
+        "coherentCoverage": 0.779,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 13.4,
+        "previousEnd": 78.26
+      }
     },
     {
       "start": 78.26,
@@ -37,7 +91,65 @@
       "kind": "paragraph",
       "targetIndex": 35,
       "targetText": "赞美的意思至少部分的意思是献祭而献祭必须付上代价当一个人心中怀恨或是充满了恶并且让恨潜伏在心里决",
-      "confidence": 0.667
+      "confidence": 0.774,
+      "quality": {
+        "coverage": 0.784,
+        "coherentCoverage": 0.683,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.55,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution",
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 78.26,
+        "previousEnd": 139.67
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 34: 喜乐的秘诀不是空空地等待你觉得快乐的一刻，而是藉着信心使你从消沉的沮丧中站起来，并且选择开始赞美",
+    "unverified end anchor: target 35: 赞美的意思，至少部分的意思是献祭，而献祭必须付上代价。当一个人心中怀恨，或是充满了恶，并且让恨潜",
+    "repair unverified start (previous-sync): target 33",
+    "repair unverified end (previous-sync): target 33",
+    "repair unverified end (previous-sync): target 34",
+    "repair unverified end (previous-sync): target 35"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 3,
+    "missingTargets": []
+  },
+  "repairFingerprint": "950f2358ee1b22fc681de3be5797ef306af326b3bd3a92f1fd94e0707d0036aa",
+  "repairCueDigest": "a2e238088718623bb9dec3b0e9ba2e0aa02eba1106c101fd73ec37e72395346c"
 }

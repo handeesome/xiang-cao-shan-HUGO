@@ -8,36 +8,180 @@
   "audioDuration": 157.5028125,
   "cues": [
     {
-      "start": 0.12,
-      "end": 2.08,
-      "kind": "heading",
-      "targetIndex": 58,
-      "targetText": "五月十二日",
-      "confidence": 0.444
-    },
-    {
       "start": 2.08,
       "end": 4.3,
       "kind": "paragraph",
-      "targetIndex": 59,
+      "targetIndex": 61,
       "targetText": "求你告诉我你在何处牧羊歌17",
-      "confidence": 0.727
+      "confidence": 0.727,
+      "quality": {
+        "coverage": 0.571,
+        "coherentCoverage": 0.571,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.143,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 6,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 2.08,
+        "previousEnd": 4.3
+      },
+      "targetMigration": {
+        "previousTargetIndex": 59,
+        "targetIndex": 61,
+        "targetText": "求你告诉我你在何处牧羊歌17"
+      }
     },
     {
-      "start": 4.3,
+      "start": 18.0,
       "end": 76.16,
       "kind": "paragraph",
-      "targetIndex": 60,
+      "targetIndex": 62,
       "targetText": "亲爱的你难道不渴慕上帝安静内在的住处并保有他的掩护和与他同在的秘诀吗你可能一直活在死拼活做奋力挣",
-      "confidence": 0.713
+      "confidence": 0.778,
+      "quality": {
+        "coverage": 0.766,
+        "coherentCoverage": 0.684,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.55,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 4.3,
+        "previousEnd": 76.16
+      },
+      "targetMigration": {
+        "previousTargetIndex": 60,
+        "targetIndex": 62,
+        "targetText": "亲爱的你难道不渴慕上帝安静内在的住处并保有他的掩护和与他同在的秘诀吗你可能一直活在死拼活做奋力挣"
+      }
     },
     {
       "start": 76.16,
-      "end": 138.59,
+      "end": 139.11,
       "kind": "paragraph",
-      "targetIndex": 61,
+      "targetIndex": 63,
       "targetText": "赞美他的圣名因为他对我们的爱是专一的这种爱使每个人感觉上帝只爱他使每个人能单独地躺在主的怀里占有",
-      "confidence": 0.745
+      "confidence": 0.853,
+      "quality": {
+        "coverage": 0.865,
+        "coherentCoverage": 0.811,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 76.16,
+        "previousEnd": 138.59
+      },
+      "targetMigration": {
+        "previousTargetIndex": 61,
+        "targetIndex": 63,
+        "targetText": "赞美他的圣名因为他对我们的爱是专一的这种爱使每个人感觉上帝只爱他使每个人能单独地躺在主的怀里占有"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (6 trailing chars, coverage 0.143): target 61: …求你告诉我你在何处牧羊…------歌 1:7",
+    "unverified end anchor: target 61: …求你告诉我你在何处牧羊…------歌 1:7",
+    "incomplete end (4 trailing chars, coverage 0.550): target 62: 亲爱的，你难道不渴慕神安静、内在的住处，并保有他的掩护，和与他同在的秘诀吗?你可能一直活在死拼活",
+    "unverified end anchor: target 62: 亲爱的，你难道不渴慕神安静、内在的住处，并保有他的掩护，和与他同在的秘诀吗?你可能一直活在死拼活",
+    "unverified start anchor: target 63: 赞美他的圣名，因为他对我们的爱是专一的。这种爱使每个人感觉神只爱他，使每个人能单独地躺在主的怀里",
+    "repair unverified start (previous-sync): target 61",
+    "repair unverified end (previous-sync): target 61",
+    "repair unverified end (previous-sync): target 62",
+    "repair unverified start (previous-sync): target 63"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 59,
+      "targetIndex": 61,
+      "targetText": "求你告诉我你在何处牧羊歌17"
+    },
+    {
+      "previousTargetIndex": 60,
+      "targetIndex": 62,
+      "targetText": "亲爱的你难道不渴慕上帝安静内在的住处并保有他的掩护和与他同在的秘诀吗你可能一直活在死拼活做奋力挣"
+    },
+    {
+      "previousTargetIndex": 61,
+      "targetIndex": 63,
+      "targetText": "赞美他的圣名因为他对我们的爱是专一的这种爱使每个人感觉上帝只爱他使每个人能单独地躺在主的怀里占有"
+    }
+  ],
+  "repairFingerprint": "1f6b43a521290431a159652c3072871649b9e09ff70b3016a67fe9005571989c",
+  "repairCueDigest": "d88015579274cc97736ffa17910f1ddc9441f95c887adf5335090741167f6c23"
 }

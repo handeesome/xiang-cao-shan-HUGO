@@ -8,36 +8,151 @@
   "audioDuration": 175.0309375,
   "cues": [
     {
-      "start": 0.0,
-      "end": 0.56,
-      "kind": "heading",
-      "targetIndex": 40,
-      "targetText": "十月八日",
-      "confidence": 0.857
-    },
-    {
       "start": 0.56,
       "end": 12.15,
       "kind": "paragraph",
       "targetIndex": 41,
       "targetText": "耶和华愿许赐福给以色列家的话一句也没有落空都应验了书2145",
-      "confidence": 0.571
+      "confidence": 0.571,
+      "quality": {
+        "coverage": 0.533,
+        "coherentCoverage": 0.5,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.533,
+        "suffixCoverage": 0.533,
+        "unmatchedLeadingChars": 7,
+        "unmatchedTrailingChars": 5,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 0.56,
+        "previousEnd": 12.15
+      }
     },
     {
-      "start": 12.15,
-      "end": 63.92,
+      "start": 20.2,
+      "end": 64.48,
       "kind": "paragraph",
       "targetIndex": 42,
       "targetText": "终有一天即使是向来胆怯口此不清的人都可能站在约书亚所经历过的属灵高处上当我们回头看自己的经历那些",
-      "confidence": 0.585
+      "confidence": 0.799,
+      "quality": {
+        "coverage": 0.784,
+        "coherentCoverage": 0.741,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 12.15,
+        "previousEnd": 63.92
+      }
     },
     {
-      "start": 63.92,
+      "start": 64.48,
       "end": 132.2,
       "kind": "paragraph",
       "targetIndex": 43,
       "targetText": "当我们与主同坐在那荣耀的家中时我们会有无限的时间来了解发生在我们生命中的故事然后上帝会与我们一起",
-      "confidence": 0.644
+      "confidence": 0.844,
+      "quality": {
+        "coverage": 0.834,
+        "coherentCoverage": 0.768,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "previous-sync",
+        "previousStart": 63.92,
+        "previousEnd": 132.2
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (7 leading chars, coverage 0.533): target 41: 耶和华愿许赐福给以色列家的话，一句也没有落空，都应验了------书21:45",
+    "incomplete end (5 trailing chars, coverage 0.533): target 41: 耶和华愿许赐福给以色列家的话，一句也没有落空，都应验了------书21:45",
+    "low confidence (0.667, coverage 0.533): target 41: 耶和华愿许赐福给以色列家的话，一句也没有落空，都应验了------书21:45",
+    "unverified start anchor: target 41: 耶和华愿许赐福给以色列家的话，一句也没有落空，都应验了------书21:45",
+    "unverified end anchor: target 41: 耶和华愿许赐福给以色列家的话，一句也没有落空，都应验了------书21:45",
+    "unverified start anchor: target 43: 当我们与主同坐在那荣耀的家中时，我们会有无限的时间来了解发生在我们生命中的故事。然后，神会与我们",
+    "repair unverified start (previous-sync): target 41",
+    "repair unverified end (previous-sync): target 41",
+    "repair unverified start (previous-verified-end): target 43",
+    "repair unverified end (previous-sync): target 43"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "repairFingerprint": "911e556b5655c496aae4fb667649f33f53653a3b4ba261d6787f697e463968ec",
+  "repairCueDigest": "0c5be6c6e75cc7f08ffbf36afc8b30e4f2f464a27d956ddb5add0e784dda78ef"
 }

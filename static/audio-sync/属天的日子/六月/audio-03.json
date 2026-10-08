@@ -8,36 +8,191 @@
   "audioDuration": 145.408125,
   "cues": [
     {
-      "start": 0.16,
-      "end": 5.8,
-      "kind": "heading",
-      "targetIndex": 11,
-      "targetText": "六月三日",
-      "confidence": 0.571
-    },
-    {
       "start": 5.8,
       "end": 11.72,
       "kind": "paragraph",
-      "targetIndex": 12,
+      "targetIndex": 15,
       "targetText": "但圣灵降临在你们身上你们就必得着能力徒18",
-      "confidence": 0.615
+      "confidence": 0.821,
+      "quality": {
+        "coverage": 0.762,
+        "coherentCoverage": 0.571,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 5.8,
+        "previousEnd": 11.72
+      },
+      "targetMigration": {
+        "previousTargetIndex": 12,
+        "targetIndex": 15,
+        "targetText": "但圣灵降临在你们身上你们就必得着能力徒18"
+      }
     },
     {
-      "start": 11.72,
-      "end": 63.28,
+      "start": 14.68,
+      "end": 59.12,
       "kind": "paragraph",
-      "targetIndex": 13,
+      "targetIndex": 16,
       "targetText": "如果我们有圣灵就会有能力上帝要我们做见证使世人感受到他的能力使他们永远无法忘怀所听到的上帝要每个",
-      "confidence": 0.784
+      "confidence": 0.891,
+      "quality": {
+        "coverage": 0.887,
+        "coherentCoverage": 0.887,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 11.72,
+        "previousEnd": 63.28
+      },
+      "targetMigration": {
+        "previousTargetIndex": 13,
+        "targetIndex": 16,
+        "targetText": "如果我们有圣灵就会有能力上帝要我们做见证使世人感受到他的能力使他们永远无法忘怀所听到的上帝要每个"
+      }
     },
     {
       "start": 63.28,
       "end": 128.84,
       "kind": "paragraph",
-      "targetIndex": 14,
+      "targetIndex": 17,
       "targetText": "上帝绝不会不给我们能力却期待我们有结果他也不会不给我们顺服的心却要他的儿女接受他的命令当基督耶稣",
-      "confidence": 0.852
+      "confidence": 0.929,
+      "quality": {
+        "coverage": 0.929,
+        "coherentCoverage": 0.901,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 63.28,
+        "previousEnd": 128.84
+      },
+      "targetMigration": {
+        "previousTargetIndex": 14,
+        "targetIndex": 17,
+        "targetText": "上帝绝不会不给我们能力却期待我们有结果他也不会不给我们顺服的心却要他的儿女接受他的命令当基督耶稣"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 15: 但圣灵降临在你们身上，你们就必得着能力…------徒 1.8",
+    "repair unverified end (previous-sync): target 15"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 12,
+      "targetIndex": 15,
+      "targetText": "但圣灵降临在你们身上你们就必得着能力徒18"
+    },
+    {
+      "previousTargetIndex": 13,
+      "targetIndex": 16,
+      "targetText": "如果我们有圣灵就会有能力上帝要我们做见证使世人感受到他的能力使他们永远无法忘怀所听到的上帝要每个"
+    },
+    {
+      "previousTargetIndex": 14,
+      "targetIndex": 17,
+      "targetText": "上帝绝不会不给我们能力却期待我们有结果他也不会不给我们顺服的心却要他的儿女接受他的命令当基督耶稣"
+    }
+  ],
+  "repairFingerprint": "034806bfe57a56b705ba3c6676c4980cb3837b7496a4abe7f0404296b77a8dc7",
+  "repairCueDigest": "2c575805fac44edd8a60fbfeae499483abc0fbfdddd433d316c327920b50d41c"
 }

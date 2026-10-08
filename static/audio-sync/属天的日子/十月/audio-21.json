@@ -8,36 +8,185 @@
   "audioDuration": 139.5566875,
   "cues": [
     {
-      "start": 0.0,
-      "end": 4.54,
-      "kind": "heading",
-      "targetIndex": 110,
-      "targetText": "十月二十一日",
-      "confidence": 1.0
-    },
-    {
       "start": 4.54,
       "end": 6.9,
       "kind": "paragraph",
-      "targetIndex": 111,
+      "targetIndex": 120,
       "targetText": "谁能使我们与基督的爱隔绝呢罗835",
-      "confidence": 0.444
+      "confidence": 0.593,
+      "quality": {
+        "coverage": 0.647,
+        "coherentCoverage": 0.529,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.875,
+        "suffixCoverage": 0.375,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 4.54,
+        "previousEnd": 6.9
+      },
+      "targetMigration": {
+        "previousTargetIndex": 111,
+        "targetIndex": 120,
+        "targetText": "谁能使我们与基督的爱隔绝呢罗835"
+      }
     },
     {
-      "start": 6.9,
-      "end": 80.19,
+      "start": 17.27,
+      "end": 80.49,
       "kind": "paragraph",
-      "targetIndex": 112,
+      "targetIndex": 121,
       "targetText": "谁能使我们与基督的爱隔绝呢在保罗提出那些可能的障碍和仇敌的挠扰之后他的回答是然而靠着爱我们的主在",
-      "confidence": 0.55
+      "confidence": 0.867,
+      "quality": {
+        "coverage": 0.858,
+        "coherentCoverage": 0.789,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 6.9,
+        "previousEnd": 80.19
+      },
+      "targetMigration": {
+        "previousTargetIndex": 112,
+        "targetIndex": 121,
+        "targetText": "谁能使我们与基督的爱隔绝呢在保罗提出那些可能的障碍和仇敌的挠扰之后他的回答是然而靠着爱我们的主在"
+      }
     },
     {
-      "start": 80.19,
+      "start": 82.97,
       "end": 119.71,
       "kind": "paragraph",
-      "targetIndex": 113,
+      "targetIndex": 122,
       "targetText": "我们的安全决定于上帝在基督耶稣里对我们的爱而不是靠我们不变的爱正如小婴儿不致跌倒不是因为他抓紧不",
-      "confidence": 0.853
+      "confidence": 0.931,
+      "quality": {
+        "coverage": 0.927,
+        "coherentCoverage": 0.908,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 80.19,
+        "previousEnd": 119.71
+      },
+      "targetMigration": {
+        "previousTargetIndex": 113,
+        "targetIndex": 122,
+        "targetText": "我们的安全决定于上帝在基督耶稣里对我们的爱而不是靠我们不变的爱正如小婴儿不致跌倒不是因为他抓紧不"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (3 trailing chars, coverage 0.375): target 120: 谁能使我们与基督的爱隔绝呢…------罗 8:35",
+    "unverified end anchor: target 120: 谁能使我们与基督的爱隔绝呢…------罗 8:35",
+    "repair unverified start (previous-sync): target 120",
+    "repair unverified end (previous-sync): target 120"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 111,
+      "targetIndex": 120,
+      "targetText": "谁能使我们与基督的爱隔绝呢罗835"
+    },
+    {
+      "previousTargetIndex": 112,
+      "targetIndex": 121,
+      "targetText": "谁能使我们与基督的爱隔绝呢在保罗提出那些可能的障碍和仇敌的挠扰之后他的回答是然而靠着爱我们的主在"
+    },
+    {
+      "previousTargetIndex": 113,
+      "targetIndex": 122,
+      "targetText": "我们的安全决定于上帝在基督耶稣里对我们的爱而不是靠我们不变的爱正如小婴儿不致跌倒不是因为他抓紧不"
+    }
+  ],
+  "repairFingerprint": "b571bfd003b9e24d4e0d608fcc09cb43ab2bd6863913ce06cf6fc8aec3356649",
+  "repairCueDigest": "7ebcb0ac303ed0c2e864608c69c2f92c671aa7ec3ad38ae3597b0853085e3183"
 }

@@ -8,20 +8,45 @@
   "audioDuration": 180.75175,
   "cues": [
     {
-      "start": 0.14,
-      "end": 5.02,
-      "kind": "heading",
-      "targetIndex": 27,
-      "targetText": "九月六日",
-      "confidence": 0.571
-    },
-    {
       "start": 5.02,
       "end": 10.56,
       "kind": "paragraph",
       "targetIndex": 28,
       "targetText": "弟兄们我还有话说你们要靠主喜乐腓31",
-      "confidence": 0.5
+      "confidence": 0.812,
+      "quality": {
+        "coverage": 0.778,
+        "coherentCoverage": 0.667,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.556,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 5.02,
+        "previousEnd": 10.56
+      }
     },
     {
       "start": 10.56,
@@ -29,7 +54,34 @@
       "kind": "paragraph",
       "targetIndex": 29,
       "targetText": "沮丧丝毫没有属灵的价值我们只要带着感恩盼望的心看一眼十字架就能胜过一千次病态自责的反省因为你看污",
-      "confidence": 0.716
+      "confidence": 0.786,
+      "quality": {
+        "coverage": 0.821,
+        "coherentCoverage": 0.715,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 10.56,
+        "previousEnd": 64.76
+      }
     },
     {
       "start": 64.76,
@@ -37,15 +89,113 @@
       "kind": "paragraph",
       "targetIndex": 30,
       "targetText": "当我们与基督耶稣联合成一体就可以接纳我们在他里面的身分而我们更可以像耶稣一样无瑕疵地仰望天父的颜",
-      "confidence": 0.898
+      "confidence": 0.898,
+      "quality": {
+        "coverage": 0.898,
+        "coherentCoverage": 0.847,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 64.76,
+        "previousEnd": 98.12
+      }
     },
     {
-      "start": 98.12,
+      "start": 107.36,
       "end": 146.94,
       "kind": "paragraph",
       "targetIndex": 31,
       "targetText": "赞美是一种献祭因为上帝能接受赞美能直到天堂而且其声音比天使的歌声还甜对我们的主而言赞美是馨香的供",
-      "confidence": 0.657
+      "confidence": 0.79,
+      "quality": {
+        "coverage": 0.802,
+        "coherentCoverage": 0.752,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 98.12,
+        "previousEnd": 146.94
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 28: 弟兄们，我还有话说，你们要靠主喜乐------腓 3:1",
+    "unverified start anchor: target 29: 沮丧丝毫没有属灵的价值，我们只要带着感恩盼望的心看一眼十字架，就能胜过一千次病态、自责的反省。因",
+    "unverified end anchor: target 29: 沮丧丝毫没有属灵的价值，我们只要带着感恩盼望的心看一眼十字架，就能胜过一千次病态、自责的反省。因",
+    "unverified end anchor: target 31: 赞美是一种献祭，因为神能接受。赞美能直到天堂，而且其声音比天使的歌声还甜，对我们的主而言赞美是馨",
+    "repair unverified end (previous-sync): target 28",
+    "repair unverified start (previous-sync): target 29",
+    "repair unverified end (previous-sync): target 29",
+    "repair unverified end (previous-sync): target 31"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 3,
+    "missingTargets": []
+  },
+  "repairFingerprint": "ddcf58da05d358b61ee1f7c2a2b0bb575a76f41fafe7aa27f25cf30adc216839",
+  "repairCueDigest": "07ee6e63dad55d61f84ed5f042e9cfb858903533f0e339be9e5ce62c938b33f1"
 }

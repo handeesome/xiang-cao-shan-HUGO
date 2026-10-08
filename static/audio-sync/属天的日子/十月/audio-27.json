@@ -8,36 +8,183 @@
   "audioDuration": 144.128125,
   "cues": [
     {
-      "start": 0.0,
-      "end": 4.1,
-      "kind": "heading",
-      "targetIndex": 141,
-      "targetText": "十月二十七日",
-      "confidence": 1.0
-    },
-    {
       "start": 4.1,
       "end": 10.98,
       "kind": "paragraph",
-      "targetIndex": 142,
+      "targetIndex": 162,
       "targetText": "我是耶和华是凡有血气者的上帝岂有我难成的事吗耶3227",
-      "confidence": 0.511
+      "confidence": 0.553,
+      "quality": {
+        "coverage": 0.481,
+        "coherentCoverage": 0.333,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.769,
+        "suffixCoverage": 0.154,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 7,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 4.1,
+        "previousEnd": 10.98
+      },
+      "targetMigration": {
+        "previousTargetIndex": 142,
+        "targetIndex": 162,
+        "targetText": "我是耶和华是凡有血气者的上帝岂有我难成的事吗耶3227"
+      }
     },
     {
-      "start": 10.98,
-      "end": 71.5,
+      "start": 25.52,
+      "end": 70.44,
       "kind": "paragraph",
-      "targetIndex": 143,
+      "targetIndex": 163,
       "targetText": "古列王曾经觉得为了要使耶利米的异象实现他必须降旨允准建造耶路撒冷并且准许被俘的以色列人回到祖国也",
-      "confidence": 0.588
+      "confidence": 0.836,
+      "quality": {
+        "coverage": 0.839,
+        "coherentCoverage": 0.737,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 10.98,
+        "previousEnd": 71.5
+      },
+      "targetMigration": {
+        "previousTargetIndex": 143,
+        "targetIndex": 163,
+        "targetText": "古列王曾经觉得为了要使耶利米的异象实现他必须降旨允准建造耶路撒冷并且准许被俘的以色列人回到祖国也"
+      }
     },
     {
       "start": 71.5,
       "end": 109.64,
       "kind": "paragraph",
-      "targetIndex": 144,
+      "targetIndex": 164,
       "targetText": "亚拿突一字有其美妙的意义回音信心即是上帝的回音他总是以美好的成就来回应人对他的信心让我们也以信心",
-      "confidence": 0.832
+      "confidence": 0.832,
+      "quality": {
+        "coverage": 0.839,
+        "coherentCoverage": 0.759,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 71.5,
+        "previousEnd": 109.64
+      },
+      "targetMigration": {
+        "previousTargetIndex": 144,
+        "targetIndex": 164,
+        "targetText": "亚拿突一字有其美妙的意义回音信心即是上帝的回音他总是以美好的成就来回应人对他的信心让我们也以信心"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (7 trailing chars, coverage 0.154): target 162: 我是耶和华，是凡有血气者的神，岂有我难成的事吗? ------耶 32:27",
+    "low confidence (0.553, coverage 0.481): target 162: 我是耶和华，是凡有血气者的神，岂有我难成的事吗? ------耶 32:27",
+    "unverified start anchor: target 162: 我是耶和华，是凡有血气者的神，岂有我难成的事吗? ------耶 32:27",
+    "unverified end anchor: target 162: 我是耶和华，是凡有血气者的神，岂有我难成的事吗? ------耶 32:27",
+    "unverified start anchor: target 164: 亚拿突一字有其美妙的意义: 回音。信心即是神的回音，他总是以美好的成就来回应人对他的信心。让我们",
+    "repair unverified start (previous-sync): target 162",
+    "repair unverified end (previous-sync): target 162",
+    "repair unverified start (previous-sync): target 164"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 142,
+      "targetIndex": 162,
+      "targetText": "我是耶和华是凡有血气者的上帝岂有我难成的事吗耶3227"
+    },
+    {
+      "previousTargetIndex": 143,
+      "targetIndex": 163,
+      "targetText": "古列王曾经觉得为了要使耶利米的异象实现他必须降旨允准建造耶路撒冷并且准许被俘的以色列人回到祖国也"
+    },
+    {
+      "previousTargetIndex": 144,
+      "targetIndex": 164,
+      "targetText": "亚拿突一字有其美妙的意义回音信心即是上帝的回音他总是以美好的成就来回应人对他的信心让我们也以信心"
+    }
+  ],
+  "repairFingerprint": "300080d843f229351ada59106d0b36cd0f9823ae953e3fe697bf948da02a7611",
+  "repairCueDigest": "fedb98ad2370f2757edb8f5d991278dc4dd2a8acc3ff1a8023d3bb46f1a452d6"
 }

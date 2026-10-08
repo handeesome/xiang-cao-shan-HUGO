@@ -8,36 +8,185 @@
   "audioDuration": 165.3656875,
   "cues": [
     {
-      "start": 0.18,
-      "end": 4.56,
-      "kind": "heading",
-      "targetIndex": 109,
-      "targetText": "七月二十三日",
-      "confidence": 0.4
-    },
-    {
       "start": 4.56,
       "end": 10.24,
       "kind": "paragraph",
-      "targetIndex": 110,
+      "targetIndex": 135,
       "targetText": "耶稣说拿过来给我太1418",
-      "confidence": 0.467
+      "confidence": 0.8,
+      "quality": {
+        "coverage": 0.923,
+        "coherentCoverage": 0.308,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.833,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 4.56,
+        "previousEnd": 10.24
+      },
+      "targetMigration": {
+        "previousTargetIndex": 110,
+        "targetIndex": 135,
+        "targetText": "耶稣说拿过来给我太1418"
+      }
     },
     {
-      "start": 10.24,
-      "end": 80.05,
+      "start": 15.82,
+      "end": 63.7,
       "kind": "paragraph",
-      "targetIndex": 111,
+      "targetIndex": 136,
       "targetText": "你为什么还没得着圣灵一切的祝福呢你难道不想得到那剩下的油吗利141718看看你的四周你岂能忽略许",
-      "confidence": 0.766
+      "confidence": 0.813,
+      "quality": {
+        "coverage": 0.822,
+        "coherentCoverage": 0.77,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 10.24,
+        "previousEnd": 80.05
+      },
+      "targetMigration": {
+        "previousTargetIndex": 111,
+        "targetIndex": 136,
+        "targetText": "你为什么还没得着圣灵一切的祝福呢你难道不想得到那剩下的油吗利141718看看你的四周你岂能忽略许"
+      }
     },
     {
       "start": 80.05,
       "end": 137.61,
       "kind": "paragraph",
-      "targetIndex": 112,
+      "targetIndex": 137,
       "targetText": "带领这些灵魂到上帝面前吧稳稳地用信心和祷告在上帝的面前托住他们吧保持安静停止自己不安的努力让上帝",
-      "confidence": 0.704
+      "confidence": 0.914,
+      "quality": {
+        "coverage": 0.914,
+        "coherentCoverage": 0.907,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 80.05,
+        "previousEnd": 137.61
+      },
+      "targetMigration": {
+        "previousTargetIndex": 112,
+        "targetIndex": 137,
+        "targetText": "带领这些灵魂到上帝面前吧稳稳地用信心和祷告在上帝的面前托住他们吧保持安静停止自己不安的努力让上帝"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 135: 耶稣说，拿过来给我------太 14:18",
+    "unverified end anchor: target 135: 耶稣说，拿过来给我------太 14:18",
+    "repair unverified start (previous-sync): target 135",
+    "repair unverified end (previous-sync): target 135"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 110,
+      "targetIndex": 135,
+      "targetText": "耶稣说拿过来给我太1418"
+    },
+    {
+      "previousTargetIndex": 111,
+      "targetIndex": 136,
+      "targetText": "你为什么还没得着圣灵一切的祝福呢你难道不想得到那剩下的油吗利141718看看你的四周你岂能忽略许"
+    },
+    {
+      "previousTargetIndex": 112,
+      "targetIndex": 137,
+      "targetText": "带领这些灵魂到上帝面前吧稳稳地用信心和祷告在上帝的面前托住他们吧保持安静停止自己不安的努力让上帝"
+    }
+  ],
+  "repairFingerprint": "0a6ce17482829b7a85af5325cc68957af7bc9ecc24dc39ed1a043928f5c8a26d",
+  "repairCueDigest": "f7ee3f0a53c10c925190fb47022a1124087441de935c14e94f4f237cb0d1f557"
 }

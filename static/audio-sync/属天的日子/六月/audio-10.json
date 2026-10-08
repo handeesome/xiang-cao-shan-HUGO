@@ -8,36 +8,185 @@
   "audioDuration": 159.9321875,
   "cues": [
     {
-      "start": 0.1,
-      "end": 3.7,
-      "kind": "heading",
-      "targetIndex": 44,
-      "targetText": "六月十日",
-      "confidence": 0.5
-    },
-    {
       "start": 3.7,
       "end": 10.36,
       "kind": "paragraph",
-      "targetIndex": 45,
+      "targetIndex": 51,
       "targetText": "你们需用的这一切东西你们的天父是知道的太632",
-      "confidence": 0.818
+      "confidence": 0.818,
+      "quality": {
+        "coverage": 0.87,
+        "coherentCoverage": 0.652,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.909,
+        "suffixCoverage": 0.818,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 3.7,
+        "previousEnd": 10.36
+      },
+      "targetMigration": {
+        "previousTargetIndex": 45,
+        "targetIndex": 51,
+        "targetText": "你们需用的这一切东西你们的天父是知道的太632"
+      }
     },
     {
-      "start": 10.36,
-      "end": 92.72,
+      "start": 16.47,
+      "end": 85.49,
       "kind": "paragraph",
-      "targetIndex": 46,
+      "targetIndex": 52,
       "targetText": "基督要我们在物质的需要上相信他和在属灵的需要上相信他一样事实上他特别强调在物质上相信他他为什么这",
-      "confidence": 0.896
+      "confidence": 0.917,
+      "quality": {
+        "coverage": 0.917,
+        "coherentCoverage": 0.902,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 10.36,
+        "previousEnd": 92.72
+      },
+      "targetMigration": {
+        "previousTargetIndex": 46,
+        "targetIndex": 52,
+        "targetText": "基督要我们在物质的需要上相信他和在属灵的需要上相信他一样事实上他特别强调在物质上相信他他为什么这"
+      }
     },
     {
       "start": 92.72,
       "end": 144.08,
       "kind": "paragraph",
-      "targetIndex": 47,
+      "targetIndex": 53,
       "targetText": "当阳光照耀时为我们的需要有信心地倚靠上帝并不难但是当某些令人憎恶而恼人的事发生时我们就能很快地发",
-      "confidence": 0.789
+      "confidence": 0.901,
+      "quality": {
+        "coverage": 0.901,
+        "coherentCoverage": 0.859,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 92.72,
+        "previousEnd": 144.08
+      },
+      "targetMigration": {
+        "previousTargetIndex": 47,
+        "targetIndex": 53,
+        "targetText": "当阳光照耀时为我们的需要有信心地倚靠上帝并不难但是当某些令人憎恶而恼人的事发生时我们就能很快地发"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 51: …你们需用的这一切东西，你们的天父是知道的------太 6:32",
+    "unverified end anchor: target 53: 当阳光照耀时，为我们的需要有信心地倚靠神并不难; 但是当某些令人憎恶而恼人的事发生时，我们就能很",
+    "repair unverified end (previous-sync): target 51",
+    "repair unverified end (previous-sync): target 53"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 45,
+      "targetIndex": 51,
+      "targetText": "你们需用的这一切东西你们的天父是知道的太632"
+    },
+    {
+      "previousTargetIndex": 46,
+      "targetIndex": 52,
+      "targetText": "基督要我们在物质的需要上相信他和在属灵的需要上相信他一样事实上他特别强调在物质上相信他他为什么这"
+    },
+    {
+      "previousTargetIndex": 47,
+      "targetIndex": 53,
+      "targetText": "当阳光照耀时为我们的需要有信心地倚靠上帝并不难但是当某些令人憎恶而恼人的事发生时我们就能很快地发"
+    }
+  ],
+  "repairFingerprint": "eddc68e164277de7ade4730e3ebe44cabf8564925d2bb41a81863a24f469b7d8",
+  "repairCueDigest": "2f1cbc511d79ad43168315903000f4ec804c6c27a6a3644a86220988c86d3aaf"
 }

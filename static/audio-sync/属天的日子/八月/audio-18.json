@@ -8,44 +8,234 @@
   "audioDuration": 160.37625,
   "cues": [
     {
-      "start": 0.0,
-      "end": 6.96,
-      "kind": "heading",
-      "targetIndex": 92,
-      "targetText": "八月十八日",
-      "confidence": 0.889
-    },
-    {
       "start": 6.96,
       "end": 10.08,
       "kind": "paragraph",
-      "targetIndex": 93,
+      "targetIndex": 97,
       "targetText": "三百人就吹角士722",
-      "confidence": 0.75
+      "confidence": 0.75,
+      "quality": {
+        "coverage": 0.6,
+        "coherentCoverage": 0.6,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.2,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 6.96,
+        "previousEnd": 10.08
+      },
+      "targetMigration": {
+        "previousTargetIndex": 93,
+        "targetIndex": 97,
+        "targetText": "三百人就吹角士722"
+      }
     },
     {
-      "start": 10.08,
-      "end": 42.08,
+      "start": 17.38,
+      "end": 42.5,
       "kind": "paragraph",
-      "targetIndex": 94,
+      "targetIndex": 98,
       "targetText": "我们作梦也难以料到有些小事会使我们失去上帝为我们预备的大好机会比方说一句草率的话几个无心的字一个",
-      "confidence": 0.845
+      "confidence": 0.948,
+      "quality": {
+        "coverage": 0.948,
+        "coherentCoverage": 0.922,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 10.08,
+        "previousEnd": 42.08
+      },
+      "targetMigration": {
+        "previousTargetIndex": 94,
+        "targetIndex": 98,
+        "targetText": "我们作梦也难以料到有些小事会使我们失去上帝为我们预备的大好机会比方说一句草率的话几个无心的字一个"
+      }
     },
     {
-      "start": 42.08,
+      "start": 42.5,
       "end": 76.3,
       "kind": "paragraph",
-      "targetIndex": 95,
+      "targetIndex": 99,
       "targetText": "尽管圣灵使用软弱的人在他拣选呼召我们之后他不喜欢我们显得软弱虽然他使用愚耕的人叫有智慧的人羞愧但",
-      "confidence": 0.689
+      "confidence": 0.882,
+      "quality": {
+        "coverage": 0.874,
+        "coherentCoverage": 0.816,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "previous-sync",
+        "previousStart": 42.08,
+        "previousEnd": 76.3
+      },
+      "targetMigration": {
+        "previousTargetIndex": 95,
+        "targetIndex": 99,
+        "targetText": "尽管圣灵使用软弱的人在他拣选呼召我们之后他不喜欢我们显得软弱虽然他使用愚耕的人叫有智慧的人羞愧但"
+      }
     },
     {
       "start": 76.3,
-      "end": 118.52,
+      "end": 119.04,
       "kind": "paragraph",
-      "targetIndex": 96,
+      "targetIndex": 100,
       "targetText": "就像供给干万人电力的电流必须用一个适合的导体以及小阻力的电线才能通行无阻一样上帝也在找寻适合发挥",
-      "confidence": 0.63
+      "confidence": 0.812,
+      "quality": {
+        "coverage": 0.82,
+        "coherentCoverage": 0.69,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 76.3,
+        "previousEnd": 118.52
+      },
+      "targetMigration": {
+        "previousTargetIndex": 96,
+        "targetIndex": 100,
+        "targetText": "就像供给干万人电力的电流必须用一个适合的导体以及小阻力的电线才能通行无阻一样上帝也在找寻适合发挥"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (4 trailing chars, coverage 0.200): target 97: 三百人就吹角…------士7:22",
+    "unverified end anchor: target 97: 三百人就吹角…------士7:22",
+    "unverified start anchor: target 99: 尽管圣灵使用软弱的人，在他拣选呼召我们之后，他不喜欢我们显得软弱。虽然他使用愚耕的人，叫有智慧的",
+    "unverified end anchor: target 99: 尽管圣灵使用软弱的人，在他拣选呼召我们之后，他不喜欢我们显得软弱。虽然他使用愚耕的人，叫有智慧的",
+    "unverified start anchor: target 100: 就像供给干万人电力的电流必须用一个适合的导体，以及小阻力的电线，才能通行无阻一样，神也在找寻适合",
+    "repair unverified start (previous-sync): target 97",
+    "repair unverified end (previous-sync): target 97",
+    "repair unverified start (previous-verified-end): target 99",
+    "repair unverified end (previous-sync): target 99",
+    "repair unverified start (previous-sync): target 100"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 3,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 93,
+      "targetIndex": 97,
+      "targetText": "三百人就吹角士722"
+    },
+    {
+      "previousTargetIndex": 94,
+      "targetIndex": 98,
+      "targetText": "我们作梦也难以料到有些小事会使我们失去上帝为我们预备的大好机会比方说一句草率的话几个无心的字一个"
+    },
+    {
+      "previousTargetIndex": 95,
+      "targetIndex": 99,
+      "targetText": "尽管圣灵使用软弱的人在他拣选呼召我们之后他不喜欢我们显得软弱虽然他使用愚耕的人叫有智慧的人羞愧但"
+    },
+    {
+      "previousTargetIndex": 96,
+      "targetIndex": 100,
+      "targetText": "就像供给干万人电力的电流必须用一个适合的导体以及小阻力的电线才能通行无阻一样上帝也在找寻适合发挥"
+    }
+  ],
+  "repairFingerprint": "573378fee8096c3c761c1425f443b4bd4572fb2d3c350d0f9b806ee9b18d0984",
+  "repairCueDigest": "dabf3f424671765befaa74ddd020db508d2a1f4a3b5de886efe3be42f0e9d721"
 }

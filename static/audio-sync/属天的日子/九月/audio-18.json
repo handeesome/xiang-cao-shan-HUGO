@@ -8,44 +8,242 @@
   "audioDuration": 205.07175,
   "cues": [
     {
-      "start": 0.0,
-      "end": 5.39,
-      "kind": "heading",
-      "targetIndex": 87,
-      "targetText": "九月十八日",
-      "confidence": 1.0
-    },
-    {
       "start": 5.39,
       "end": 13.13,
       "kind": "paragraph",
-      "targetIndex": 88,
-      "targetText": "因我们行事为人是凭着信心不是凭着眼见林后57",
-      "confidence": 0.714
-    },
-    {
-      "start": 13.13,
-      "end": 62.92,
-      "kind": "paragraph",
-      "targetIndex": 89,
-      "targetText": "虽然有些事极为困难但是属天的赞美却有能力击倒坚硬的墙壁解决最不可能的事例如保罗与西拉的歌声使得腓",
-      "confidence": 0.508
-    },
-    {
-      "start": 62.92,
-      "end": 125.12,
-      "kind": "paragraph",
       "targetIndex": 90,
-      "targetText": "你此刻是否正面临生命中最黑暗的阶段你的日子是否像冬天那样死寂阴霾请记得这正是上帝选择教导你信心功",
-      "confidence": 0.671
+      "targetText": "因我们行事为人是凭着信心不是凭着眼见林后57",
+      "confidence": 0.714,
+      "quality": {
+        "coverage": 0.682,
+        "coherentCoverage": 0.227,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.727,
+        "suffixCoverage": 0.636,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 5.39,
+        "previousEnd": 13.13
+      },
+      "targetMigration": {
+        "previousTargetIndex": 88,
+        "targetIndex": 90,
+        "targetText": "因我们行事为人是凭着信心不是凭着眼见林后57"
+      }
     },
     {
-      "start": 125.12,
-      "end": 152.79,
+      "start": 23.62,
+      "end": 63.68,
       "kind": "paragraph",
       "targetIndex": 91,
+      "targetText": "虽然有些事极为困难但是属天的赞美却有能力击倒坚硬的墙壁解决最不可能的事例如保罗与西拉的歌声使得腓",
+      "confidence": 0.65,
+      "quality": {
+        "coverage": 0.667,
+        "coherentCoverage": 0.479,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 13.13,
+        "previousEnd": 62.92
+      },
+      "targetMigration": {
+        "previousTargetIndex": 89,
+        "targetIndex": 91,
+        "targetText": "虽然有些事极为困难但是属天的赞美却有能力击倒坚硬的墙壁解决最不可能的事例如保罗与西拉的歌声使得腓"
+      }
+    },
+    {
+      "start": 64.66,
+      "end": 125.12,
+      "kind": "paragraph",
+      "targetIndex": 92,
+      "targetText": "你此刻是否正面临生命中最黑暗的阶段你的日子是否像冬天那样死寂阴霾请记得这正是上帝选择教导你信心功",
+      "confidence": 0.892,
+      "quality": {
+        "coverage": 0.89,
+        "coherentCoverage": 0.822,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 62.92,
+        "previousEnd": 125.12
+      },
+      "targetMigration": {
+        "previousTargetIndex": 90,
+        "targetIndex": 92,
+        "targetText": "你此刻是否正面临生命中最黑暗的阶段你的日子是否像冬天那样死寂阴霾请记得这正是上帝选择教导你信心功"
+      }
+    },
+    {
+      "start": 142.29,
+      "end": 152.79,
+      "kind": "paragraph",
+      "targetIndex": 93,
       "targetText": "主啊当我们的眼光无法看远时愿祢藉着我们所经历过的考验学习更加地倚靠祢",
-      "confidence": 0.394
+      "confidence": 0.831,
+      "quality": {
+        "coverage": 0.794,
+        "coherentCoverage": 0.735,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.765,
+        "suffixCoverage": 0.824,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 125.12,
+        "previousEnd": 152.79
+      },
+      "targetMigration": {
+        "previousTargetIndex": 91,
+        "targetIndex": 93,
+        "targetText": "主啊当我们的眼光无法看远时愿祢藉着我们所经历过的考验学习更加地倚靠祢"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 90: 因我们行事为人，是凭着信心，不是凭着眼见------林后 5:7",
+    "unverified end anchor: target 90: 因我们行事为人，是凭着信心，不是凭着眼见------林后 5:7",
+    "unverified end anchor: target 93: 主啊! 当我们的眼光无法看远时，愿祢藉着我们所经历过的考验，学习更加地倚靠祢。",
+    "repair unverified start (previous-sync): target 90",
+    "repair unverified end (previous-sync): target 90",
+    "repair unverified end (previous-sync): target 93"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 3,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 88,
+      "targetIndex": 90,
+      "targetText": "因我们行事为人是凭着信心不是凭着眼见林后57"
+    },
+    {
+      "previousTargetIndex": 89,
+      "targetIndex": 91,
+      "targetText": "虽然有些事极为困难但是属天的赞美却有能力击倒坚硬的墙壁解决最不可能的事例如保罗与西拉的歌声使得腓"
+    },
+    {
+      "previousTargetIndex": 90,
+      "targetIndex": 92,
+      "targetText": "你此刻是否正面临生命中最黑暗的阶段你的日子是否像冬天那样死寂阴霾请记得这正是上帝选择教导你信心功"
+    },
+    {
+      "previousTargetIndex": 91,
+      "targetIndex": 93,
+      "targetText": "主啊当我们的眼光无法看远时愿祢藉着我们所经历过的考验学习更加地倚靠祢"
+    }
+  ],
+  "repairFingerprint": "737fddd2e5634ecc1452844d9b4c380f43635b0ec64350679c0d38750a3af18c",
+  "repairCueDigest": "b46f91390fbf7318c89234e4ee03e6bb85c16b95308c23b6c66d6ab126bb36b5"
 }

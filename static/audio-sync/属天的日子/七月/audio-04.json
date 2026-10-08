@@ -8,36 +8,188 @@
   "audioDuration": 169.362375,
   "cues": [
     {
-      "start": 0.0,
-      "end": 5.1,
-      "kind": "heading",
-      "targetIndex": 16,
-      "targetText": "七月四日",
-      "confidence": 1.0
-    },
-    {
       "start": 5.1,
       "end": 8.4,
       "kind": "paragraph",
-      "targetIndex": 17,
+      "targetIndex": 20,
       "targetText": "凡住在他里面的就不犯罪约一36",
-      "confidence": 0.72
+      "confidence": 0.8,
+      "quality": {
+        "coverage": 0.733,
+        "coherentCoverage": 0.733,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.857,
+        "suffixCoverage": 0.571,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 5.1,
+        "previousEnd": 8.4
+      },
+      "targetMigration": {
+        "previousTargetIndex": 17,
+        "targetIndex": 20,
+        "targetText": "凡住在他里面的就不犯罪约一36"
+      }
     },
     {
-      "start": 8.4,
-      "end": 90.09,
+      "start": 15.51,
+      "end": 91.01,
       "kind": "paragraph",
-      "targetIndex": 18,
+      "targetIndex": 21,
       "targetText": "当我们被主洗净之后我们的老我会变成什么样子呢不少人过分担心这个问题他们甚至想知道是否能立刻治死老",
-      "confidence": 0.777
+      "confidence": 0.877,
+      "quality": {
+        "coverage": 0.877,
+        "coherentCoverage": 0.825,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 8.4,
+        "previousEnd": 90.09
+      },
+      "targetMigration": {
+        "previousTargetIndex": 18,
+        "targetIndex": 21,
+        "targetText": "当我们被主洗净之后我们的老我会变成什么样子呢不少人过分担心这个问题他们甚至想知道是否能立刻治死老"
+      }
     },
     {
-      "start": 90.09,
+      "start": 91.01,
       "end": 145.4,
       "kind": "paragraph",
-      "targetIndex": 19,
+      "targetIndex": 22,
       "targetText": "总言之让我们住在上帝里面不要急着逃避他永恒的关注倒要求他不断的住在我们里面其实我们的道路早已铺好",
-      "confidence": 0.918
+      "confidence": 0.928,
+      "quality": {
+        "coverage": 0.928,
+        "coherentCoverage": 0.878,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 90.09,
+        "previousEnd": 145.4
+      },
+      "targetMigration": {
+        "previousTargetIndex": 19,
+        "targetIndex": 22,
+        "targetText": "总言之让我们住在上帝里面不要急着逃避他永恒的关注倒要求他不断的住在我们里面其实我们的道路早已铺好"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 22: 总言之，让我们住在神里面，不要急着逃避他永恒的关注，倒要求他不断的住在我们里面。其实我们的道路早",
+    "repair unverified end (previous-sync): target 20",
+    "repair unverified end (previous-sync): target 22"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 17,
+      "targetIndex": 20,
+      "targetText": "凡住在他里面的就不犯罪约一36"
+    },
+    {
+      "previousTargetIndex": 18,
+      "targetIndex": 21,
+      "targetText": "当我们被主洗净之后我们的老我会变成什么样子呢不少人过分担心这个问题他们甚至想知道是否能立刻治死老"
+    },
+    {
+      "previousTargetIndex": 19,
+      "targetIndex": 22,
+      "targetText": "总言之让我们住在上帝里面不要急着逃避他永恒的关注倒要求他不断的住在我们里面其实我们的道路早已铺好"
+    }
+  ],
+  "repairFingerprint": "1497a36a040ce4aa7f35b46e549ac3f7abe3b36b262907c9066bc969803db055",
+  "repairCueDigest": "3e72819b6c54f1e4db899b36841b7dee2c091acb97596b1b71d775355b78f205"
 }

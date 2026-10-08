@@ -8,36 +8,185 @@
   "audioDuration": 101.70525,
   "cues": [
     {
-      "start": 0.48,
-      "end": 4.18,
-      "kind": "heading",
-      "targetIndex": 7,
-      "targetText": "七月二日",
-      "confidence": 0.667
-    },
-    {
       "start": 4.18,
       "end": 7.54,
       "kind": "paragraph",
-      "targetIndex": 8,
+      "targetIndex": 11,
       "targetText": "他又叫我们与基督耶稣一同复活弗26",
-      "confidence": 0.552
+      "confidence": 0.759,
+      "quality": {
+        "coverage": 0.647,
+        "coherentCoverage": 0.529,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.875,
+        "suffixCoverage": 0.5,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 4.18,
+        "previousEnd": 7.54
+      },
+      "targetMigration": {
+        "previousTargetIndex": 8,
+        "targetIndex": 11,
+        "targetText": "他又叫我们与基督耶稣一同复活弗26"
+      }
     },
     {
-      "start": 7.54,
-      "end": 57.64,
+      "start": 17.32,
+      "end": 56.22,
       "kind": "paragraph",
-      "targetIndex": 9,
+      "targetIndex": 12,
       "targetText": "升天要比复活更有意义新约中在这方面有很多记载基督是超乎万事的上帝当他升天时世人看到他升天的情况但",
-      "confidence": 0.636
+      "confidence": 0.899,
+      "quality": {
+        "coverage": 0.895,
+        "coherentCoverage": 0.886,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 7.54,
+        "previousEnd": 57.64
+      },
+      "targetMigration": {
+        "previousTargetIndex": 9,
+        "targetIndex": 12,
+        "targetText": "升天要比复活更有意义新约中在这方面有很多记载基督是超乎万事的上帝当他升天时世人看到他升天的情况但"
+      }
     },
     {
       "start": 57.64,
       "end": 87.06,
       "kind": "paragraph",
-      "targetIndex": 10,
+      "targetIndex": 13,
       "targetText": "同理我们必须升天你们若真与基督一同活就当求在上面的事西31所以我们应该学习过属天的日子而且用属天",
-      "confidence": 0.655
+      "confidence": 0.857,
+      "quality": {
+        "coverage": 0.895,
+        "coherentCoverage": 0.877,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 57.64,
+        "previousEnd": 87.06
+      },
+      "targetMigration": {
+        "previousTargetIndex": 10,
+        "targetIndex": 13,
+        "targetText": "同理我们必须升天你们若真与基督一同活就当求在上面的事西31所以我们应该学习过属天的日子而且用属天"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (3 trailing chars, coverage 0.500): target 11: 他又叫我们与基督耶稣一同复活…------弗 2:6",
+    "unverified end anchor: target 11: 他又叫我们与基督耶稣一同复活…------弗 2:6",
+    "repair unverified start (previous-sync): target 11",
+    "repair unverified end (previous-sync): target 11"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 8,
+      "targetIndex": 11,
+      "targetText": "他又叫我们与基督耶稣一同复活弗26"
+    },
+    {
+      "previousTargetIndex": 9,
+      "targetIndex": 12,
+      "targetText": "升天要比复活更有意义新约中在这方面有很多记载基督是超乎万事的上帝当他升天时世人看到他升天的情况但"
+    },
+    {
+      "previousTargetIndex": 10,
+      "targetIndex": 13,
+      "targetText": "同理我们必须升天你们若真与基督一同活就当求在上面的事西31所以我们应该学习过属天的日子而且用属天"
+    }
+  ],
+  "repairFingerprint": "e51eae4d41ff553e866cc9119d48ef3a2a0529e1911c01802cf56e3d6db5fa5a",
+  "repairCueDigest": "a3c0a25d96fea38ac9361c03291d97f2fae69a36851a2fb4ee679fdd4bdadeb5"
 }

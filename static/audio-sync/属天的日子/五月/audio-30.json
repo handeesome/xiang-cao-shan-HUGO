@@ -8,36 +8,190 @@
   "audioDuration": 151.0766875,
   "cues": [
     {
-      "start": 0.0,
-      "end": 2.28,
-      "kind": "heading",
-      "targetIndex": 145,
-      "targetText": "五月三十日",
-      "confidence": 1.0
-    },
-    {
       "start": 2.28,
       "end": 7.76,
       "kind": "paragraph",
-      "targetIndex": 146,
+      "targetIndex": 148,
       "targetText": "我必将我的灵放在你们里面结3627",
-      "confidence": 0.75
+      "confidence": 0.75,
+      "quality": {
+        "coverage": 0.706,
+        "coherentCoverage": 0.647,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.875,
+        "suffixCoverage": 0.5,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 2.28,
+        "previousEnd": 7.76
+      },
+      "targetMigration": {
+        "previousTargetIndex": 146,
+        "targetIndex": 148,
+        "targetText": "我必将我的灵放在你们里面结3627"
+      }
     },
     {
-      "start": 7.76,
-      "end": 69.3,
+      "start": 14.6,
+      "end": 70.64,
       "kind": "paragraph",
-      "targetIndex": 147,
+      "targetIndex": 149,
       "targetText": "上帝将他的灵放在我们里面乃是为要与我们立永远的约随着我们施恩不离开我们且使我们有敬畏他的心不离开",
-      "confidence": 0.842
+      "confidence": 0.899,
+      "quality": {
+        "coverage": 0.917,
+        "coherentCoverage": 0.828,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 7.76,
+        "previousEnd": 69.3
+      },
+      "targetMigration": {
+        "previousTargetIndex": 147,
+        "targetIndex": 149,
+        "targetText": "上帝将他的灵放在我们里面乃是为要与我们立永远的约随着我们施恩不离开我们且使我们有敬畏他的心不离开"
+      }
     },
     {
-      "start": 69.3,
+      "start": 70.74,
       "end": 133.24,
       "kind": "paragraph",
-      "targetIndex": 148,
+      "targetIndex": 150,
       "targetText": "如果你对挫败渴望缺乏毫无成就这些感觉已经厌烦了不要失望因为耶稣来了就是要帮助我们使徒行传一章八节",
-      "confidence": 0.761
+      "confidence": 0.862,
+      "quality": {
+        "coverage": 0.859,
+        "coherentCoverage": 0.804,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 69.3,
+        "previousEnd": 133.24
+      },
+      "targetMigration": {
+        "previousTargetIndex": 148,
+        "targetIndex": 150,
+        "targetText": "如果你对挫败渴望缺乏毫无成就这些感觉已经厌烦了不要失望因为耶稣来了就是要帮助我们使徒行传一章八节"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (4 trailing chars, coverage 0.500): target 148: 我必将我的灵，放在你们里面…------结 36:27",
+    "unverified end anchor: target 148: 我必将我的灵，放在你们里面…------结 36:27",
+    "repair unverified end (previous-sync): target 148"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 146,
+      "targetIndex": 148,
+      "targetText": "我必将我的灵放在你们里面结3627"
+    },
+    {
+      "previousTargetIndex": 147,
+      "targetIndex": 149,
+      "targetText": "上帝将他的灵放在我们里面乃是为要与我们立永远的约随着我们施恩不离开我们且使我们有敬畏他的心不离开"
+    },
+    {
+      "previousTargetIndex": 148,
+      "targetIndex": 150,
+      "targetText": "如果你对挫败渴望缺乏毫无成就这些感觉已经厌烦了不要失望因为耶稣来了就是要帮助我们使徒行传一章八节"
+    }
+  ],
+  "repairFingerprint": "cfb01e8c5acdfcdb441e1173341bc1d14fcf98742d192b7182d843e8ab50a71c",
+  "repairCueDigest": "b44bf5cd20157a714316e0ad97c16c86cbe151b403cb8d0b274d985bae765c58"
 }

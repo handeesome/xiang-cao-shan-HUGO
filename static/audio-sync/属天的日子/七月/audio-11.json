@@ -8,36 +8,186 @@
   "audioDuration": 149.6660625,
   "cues": [
     {
-      "start": 0.22,
-      "end": 4.11,
-      "kind": "heading",
-      "targetIndex": 48,
-      "targetText": "七月十一日",
-      "confidence": 0.889
-    },
-    {
       "start": 4.11,
       "end": 8.93,
       "kind": "paragraph",
-      "targetIndex": 49,
+      "targetIndex": 63,
       "targetText": "你们立志行事都是上帝在你们心里运行腓213",
-      "confidence": 0.474
+      "confidence": 0.684,
+      "quality": {
+        "coverage": 0.619,
+        "coherentCoverage": 0.524,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 4.11,
+        "previousEnd": 8.93
+      },
+      "targetMigration": {
+        "previousTargetIndex": 49,
+        "targetIndex": 63,
+        "targetText": "你们立志行事都是上帝在你们心里运行腓213"
+      }
     },
     {
-      "start": 8.93,
-      "end": 68.74,
+      "start": 16.81,
+      "end": 72.7,
       "kind": "paragraph",
-      "targetIndex": 50,
+      "targetIndex": 64,
       "targetText": "又是与耶稣同行的一天让我们从他那里追求这一天的计划和方向让我们在这一天中行他所赐给我们的最高旨意",
-      "confidence": 0.662
+      "confidence": 0.831,
+      "quality": {
+        "coverage": 0.844,
+        "coherentCoverage": 0.794,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 8.93,
+        "previousEnd": 68.74
+      },
+      "targetMigration": {
+        "previousTargetIndex": 50,
+        "targetIndex": 64,
+        "targetText": "又是与耶稣同行的一天让我们从他那里追求这一天的计划和方向让我们在这一天中行他所赐给我们的最高旨意"
+      }
     },
     {
-      "start": 68.74,
-      "end": 133.52,
+      "start": 73.98,
+      "end": 133.7,
       "kind": "paragraph",
-      "targetIndex": 51,
+      "targetIndex": 65,
       "targetText": "让他成为我们今天的自信和力量让我们永不忘记我靠着那加给我力量的凡事都能做腓413这个秘诀让住在我",
-      "confidence": 0.574
+      "confidence": 0.708,
+      "quality": {
+        "coverage": 0.752,
+        "coherentCoverage": 0.634,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 68.74,
+        "previousEnd": 133.52
+      },
+      "targetMigration": {
+        "previousTargetIndex": 51,
+        "targetIndex": 65,
+        "targetText": "让他成为我们今天的自信和力量让我们永不忘记我靠着那加给我力量的凡事都能做腓413这个秘诀让住在我"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (4 trailing chars, coverage 0.600): target 63: …你们立志行事，都是神在你们心里运行…------腓 2:13",
+    "unverified start anchor: target 63: …你们立志行事，都是神在你们心里运行…------腓 2:13",
+    "unverified end anchor: target 63: …你们立志行事，都是神在你们心里运行…------腓 2:13",
+    "repair unverified start (previous-sync): target 63",
+    "repair unverified end (previous-sync): target 63"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 49,
+      "targetIndex": 63,
+      "targetText": "你们立志行事都是上帝在你们心里运行腓213"
+    },
+    {
+      "previousTargetIndex": 50,
+      "targetIndex": 64,
+      "targetText": "又是与耶稣同行的一天让我们从他那里追求这一天的计划和方向让我们在这一天中行他所赐给我们的最高旨意"
+    },
+    {
+      "previousTargetIndex": 51,
+      "targetIndex": 65,
+      "targetText": "让他成为我们今天的自信和力量让我们永不忘记我靠着那加给我力量的凡事都能做腓413这个秘诀让住在我"
+    }
+  ],
+  "repairFingerprint": "7a02b3dd979d3640249929692d32eaa4425703591554b68af75442bcffb5b4e7",
+  "repairCueDigest": "8be3fd65f8f046a9282f33b94bbcd3dad72a2a190560587facf94d9c41bcd614"
 }

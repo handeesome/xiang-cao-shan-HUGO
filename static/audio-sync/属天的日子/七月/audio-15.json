@@ -8,36 +8,179 @@
   "audioDuration": 147.3673125,
   "cues": [
     {
-      "start": 0.0,
-      "end": 3.97,
-      "kind": "heading",
-      "targetIndex": 68,
-      "targetText": "七月十五日",
-      "confidence": 1.0
-    },
-    {
       "start": 3.97,
       "end": 9.73,
       "kind": "paragraph",
-      "targetIndex": 69,
+      "targetIndex": 86,
       "targetText": "我属我的良人我的良人也属我歌63",
-      "confidence": 0.759
+      "confidence": 0.759,
+      "quality": {
+        "coverage": 0.688,
+        "coherentCoverage": 0.562,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.875,
+        "suffixCoverage": 0.5,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 3.97,
+        "previousEnd": 9.73
+      },
+      "targetMigration": {
+        "previousTargetIndex": 69,
+        "targetIndex": 86,
+        "targetText": "我属我的良人我的良人也属我歌63"
+      }
     },
     {
-      "start": 9.73,
+      "start": 17.31,
       "end": 70.15,
       "kind": "paragraph",
-      "targetIndex": 70,
+      "targetIndex": 87,
       "targetText": "如果我们是属上帝的那么上帝就会是属我们的如果基督拥有我们那么我们就拥有他既然我们得着了他就应靠信",
-      "confidence": 0.898
+      "confidence": 0.916,
+      "quality": {
+        "coverage": 0.919,
+        "coherentCoverage": 0.832,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 9.73,
+        "previousEnd": 70.15
+      },
+      "targetMigration": {
+        "previousTargetIndex": 70,
+        "targetIndex": 87,
+        "targetText": "如果我们是属上帝的那么上帝就会是属我们的如果基督拥有我们那么我们就拥有他既然我们得着了他就应靠信"
+      }
     },
     {
       "start": 70.15,
       "end": 135.15,
       "kind": "paragraph",
-      "targetIndex": 71,
+      "targetIndex": 88,
       "targetText": "成为圣洁乃是舍弃自我悲哀的生命彻底地得着耶稣然而成圣是上帝和我们双方面的努力主曾说我为他们的缘故",
-      "confidence": 0.646
+      "confidence": 0.812,
+      "quality": {
+        "coverage": 0.821,
+        "coherentCoverage": 0.76,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 70.15,
+        "previousEnd": 135.15
+      },
+      "targetMigration": {
+        "previousTargetIndex": 71,
+        "targetIndex": 88,
+        "targetText": "成为圣洁乃是舍弃自我悲哀的生命彻底地得着耶稣然而成圣是上帝和我们双方面的努力主曾说我为他们的缘故"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (3 trailing chars, coverage 0.500): target 86: 我属我的良人，我的良人也属我…------歌 6:3",
+    "unverified end anchor: target 86: 我属我的良人，我的良人也属我…------歌 6:3",
+    "unverified end anchor: target 87: 如果我们是属神的，那么神就会是属我们的; 如果基督拥有我们,那么我们就拥有他。既然我们得着了他，",
+    "unverified start anchor: target 88: 成为圣洁，乃是舍弃自我悲哀的生命，彻底地得着耶稣。然而，成圣是神和我们双方面的努力。主曾说: 「",
+    "repair unverified end (previous-sync): target 86",
+    "repair unverified end (previous-sync): target 87",
+    "repair unverified start (previous-sync): target 88",
+    "repair unverified end (previous-sync): target 88"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 3,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 69,
+      "targetIndex": 86,
+      "targetText": "我属我的良人我的良人也属我歌63"
+    },
+    {
+      "previousTargetIndex": 70,
+      "targetIndex": 87,
+      "targetText": "如果我们是属上帝的那么上帝就会是属我们的如果基督拥有我们那么我们就拥有他既然我们得着了他就应靠信"
+    },
+    {
+      "previousTargetIndex": 71,
+      "targetIndex": 88,
+      "targetText": "成为圣洁乃是舍弃自我悲哀的生命彻底地得着耶稣然而成圣是上帝和我们双方面的努力主曾说我为他们的缘故"
+    }
+  ],
+  "repairFingerprint": "c4596f32e6c5a82c300451ae063d86e352b1886b6cd6f171f5bcdb9b617a390d",
+  "repairCueDigest": "0f40885c2f7461e8e9153a7e0a04f0204b2657158952d71b548207fd698d1f5c"
 }

@@ -8,36 +8,188 @@
   "audioDuration": 146.3485,
   "cues": [
     {
-      "start": 0.1,
-      "end": 1.86,
-      "kind": "heading",
-      "targetIndex": 141,
-      "targetText": "五月二十九日",
-      "confidence": 0.4
-    },
-    {
       "start": 1.86,
       "end": 8.52,
       "kind": "paragraph",
-      "targetIndex": 142,
+      "targetIndex": 144,
       "targetText": "身子乃是为主主也是为身子林前613",
-      "confidence": 0.545
+      "confidence": 0.545,
+      "quality": {
+        "coverage": 0.529,
+        "coherentCoverage": 0.235,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.25,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 1.86,
+        "previousEnd": 8.52
+      },
+      "targetMigration": {
+        "previousTargetIndex": 142,
+        "targetIndex": 144,
+        "targetText": "身子乃是为主主也是为身子林前613"
+      }
     },
     {
-      "start": 8.52,
-      "end": 65.99,
+      "start": 14.59,
+      "end": 66.53,
       "kind": "paragraph",
-      "targetIndex": 143,
+      "targetIndex": 145,
       "targetText": "正如基督使我们称义成为圣洁我们若要得着健康的身体罪得拯救惟有靠他并亲自与他合而为一得着基督不是仅",
-      "confidence": 0.853
+      "confidence": 0.883,
+      "quality": {
+        "coverage": 0.883,
+        "coherentCoverage": 0.851,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 8.52,
+        "previousEnd": 65.99
+      },
+      "targetMigration": {
+        "previousTargetIndex": 143,
+        "targetIndex": 145,
+        "targetText": "正如基督使我们称义成为圣洁我们若要得着健康的身体罪得拯救惟有靠他并亲自与他合而为一得着基督不是仅"
+      }
     },
     {
-      "start": 65.99,
+      "start": 73.51,
       "end": 124.17,
       "kind": "paragraph",
-      "targetIndex": 144,
+      "targetIndex": 146,
       "targetText": "他虽然是永活的上帝却降格地住在我们这泥土做成的肉身中因此只要接受他的人就能比那些拒绝他的人更认识",
-      "confidence": 0.768
+      "confidence": 0.823,
+      "quality": {
+        "coverage": 0.806,
+        "coherentCoverage": 0.736,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 65.99,
+        "previousEnd": 124.17
+      },
+      "targetMigration": {
+        "previousTargetIndex": 144,
+        "targetIndex": 146,
+        "targetText": "他虽然是永活的上帝却降格地住在我们这泥土做成的肉身中因此只要接受他的人就能比那些拒绝他的人更认识"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (3 trailing chars, coverage 0.250): target 144: …身子…乃是为主，主也是为身子------林前 6:13",
+    "low confidence (0.474, coverage 0.529): target 144: …身子…乃是为主，主也是为身子------林前 6:13",
+    "unverified start anchor: target 144: …身子…乃是为主，主也是为身子------林前 6:13",
+    "unverified end anchor: target 144: …身子…乃是为主，主也是为身子------林前 6:13",
+    "incomplete end (4 trailing chars, coverage 0.600): target 146: 他虽然是永活的神，却降格地住在我们这泥土做成的肉身中。因此，只要接受他的人，就能比那些拒绝他的人",
+    "unverified end anchor: target 146: 他虽然是永活的神，却降格地住在我们这泥土做成的肉身中。因此，只要接受他的人，就能比那些拒绝他的人",
+    "repair unverified start (previous-sync): target 144",
+    "repair unverified end (previous-sync): target 144",
+    "repair unverified end (previous-sync): target 146"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 142,
+      "targetIndex": 144,
+      "targetText": "身子乃是为主主也是为身子林前613"
+    },
+    {
+      "previousTargetIndex": 143,
+      "targetIndex": 145,
+      "targetText": "正如基督使我们称义成为圣洁我们若要得着健康的身体罪得拯救惟有靠他并亲自与他合而为一得着基督不是仅"
+    },
+    {
+      "previousTargetIndex": 144,
+      "targetIndex": 146,
+      "targetText": "他虽然是永活的上帝却降格地住在我们这泥土做成的肉身中因此只要接受他的人就能比那些拒绝他的人更认识"
+    }
+  ],
+  "repairFingerprint": "e8c93e85b71df25b2f38e0fecd38db72634a67e025f251340b2fd42ad8835ea9",
+  "repairCueDigest": "178ef61a4587116ff8429054cdaed2b0ca0d36732c4c94bb4d2c3676e47f7387"
 }

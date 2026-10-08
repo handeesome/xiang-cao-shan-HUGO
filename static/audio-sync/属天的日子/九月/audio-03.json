@@ -8,36 +8,154 @@
   "audioDuration": 174.0383125,
   "cues": [
     {
-      "start": 0.0,
-      "end": 5.62,
-      "kind": "heading",
-      "targetIndex": 11,
-      "targetText": "九月三日",
-      "confidence": 1.0
-    },
-    {
       "start": 5.62,
       "end": 11.6,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "以色列的上帝从以色列会中将你们分别出来民169",
-      "confidence": 0.619
+      "confidence": 0.905,
+      "quality": {
+        "coverage": 0.826,
+        "coherentCoverage": 0.826,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.636,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 5.62,
+        "previousEnd": 11.6
+      }
     },
     {
       "start": 11.6,
-      "end": 67.43,
+      "end": 67.65,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "一株小小的植物可能从一堆杂草中长出来被肮脏的泥土包围着被微风中的灰尘遮盖着但是它白色的根却与污泥",
-      "confidence": 0.563
+      "confidence": 0.827,
+      "quality": {
+        "coverage": 0.852,
+        "coherentCoverage": 0.778,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 11.6,
+        "previousEnd": 67.43
+      }
     },
     {
-      "start": 67.43,
+      "start": 67.65,
       "end": 135.81,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "这样的分别乃是基督所要求并给予的如果我们心里老想着去电影院那么即使脚步未进也是徒然如果我时常想看",
-      "confidence": 0.819
+      "confidence": 0.873,
+      "quality": {
+        "coverage": 0.875,
+        "coherentCoverage": 0.818,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "verified-transcript",
+        "previousStart": 67.43,
+        "previousEnd": 135.81
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (4 trailing chars, coverage 0.636): target 12: 以色列的神从以色列会中将你们分别出来…------民 16:9",
+    "unverified end anchor: target 12: 以色列的神从以色列会中将你们分别出来…------民 16:9",
+    "unverified start anchor: target 13: 一株小小的植物可能从一堆杂草中长出来，被肮脏的泥土包围着，被微风中的灰尘遮盖着; 但是它白色的根",
+    "unverified start anchor: target 14: 这样的分别，乃是基督所要求并给予的。如果我们心里老想着去电影院，那么即使脚步未进也是徒然;如果我",
+    "repair unverified end (previous-sync): target 12",
+    "repair unverified start (previous-sync): target 13",
+    "repair unverified start (previous-verified-end): target 14"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "repairFingerprint": "de2679c461e18d73b3b83b8a16484ab11de0444778e333ec15544db663461a6c",
+  "repairCueDigest": "760bd77f812d468da3fe80a4e61ffb02ca57d48ceb0e49f8c8567c293ced2612"
 }

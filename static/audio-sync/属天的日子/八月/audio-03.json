@@ -13,23 +13,124 @@
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "所以你们要自卑服在上帝大能的手下彼前56",
-      "confidence": 0.718
+      "confidence": 0.769,
+      "quality": {
+        "coverage": 0.75,
+        "coherentCoverage": 0.7,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 0.0,
+        "previousEnd": 5.58
+      }
     },
     {
-      "start": 5.58,
+      "start": 11.63,
       "end": 47.74,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "生命中一些压力极大的事情常会使生命显得更有价值每一回我经过一次类似的考验就仿佛有一个新的开始我们",
-      "confidence": 0.739
+      "confidence": 0.94,
+      "quality": {
+        "coverage": 0.944,
+        "coherentCoverage": 0.898,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 5.58,
+        "previousEnd": 47.74
+      }
     },
     {
       "start": 47.74,
-      "end": 71.84,
+      "end": 70.36,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "有一个肤浅没深度的理论也就是有些人认为在压力下退缩的人往往有不信的态度然而多数经过试炼的人并非如",
-      "confidence": 0.903
+      "confidence": 0.903,
+      "quality": {
+        "coverage": 0.903,
+        "coherentCoverage": 0.833,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 47.74,
+        "previousEnd": 71.84
+      }
     },
     {
       "start": 71.84,
@@ -37,7 +138,70 @@
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "保罗曾说死是在我们身上发动生却在你们身上发动林后412我们需要试炼和压力来使我们奋勇前进这情况甚",
-      "confidence": 0.591
+      "confidence": 0.72,
+      "quality": {
+        "coverage": 0.736,
+        "coherentCoverage": 0.637,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 71.84,
+        "previousEnd": 113.57
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 12: 所以你们要自卑，服在神大能的手下…------彼前 5:6",
+    "unverified end anchor: target 13: 生命中一些压力极大的事情常会使生命显得更有价值。每一回我经过一次类似的考验，就仿佛有一个新的开始",
+    "unverified start anchor: target 14: 有一个肤浅、没深度的理论，也就是有些人认为在压力下退缩的人,往往有不信的态度。然而多数经过试炼的",
+    "repair unverified end (previous-sync): target 12",
+    "repair unverified end (previous-sync): target 13",
+    "repair unverified start (previous-sync): target 14"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "repairFingerprint": "775fdd6a6cb7fb7399920e64bc2bd9d81d51a96745a26484a99024cb74642dea",
+  "repairCueDigest": "168c28cdbed3cea0060ccfd2bb51970fba1b3b0fc46d534939355257b423d252"
 }

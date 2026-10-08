@@ -8,28 +8,113 @@
   "audioDuration": 150.03175,
   "cues": [
     {
-      "start": 4.76,
-      "end": 6.54,
-      "kind": "heading",
-      "targetIndex": 25,
-      "targetText": "八月六日",
-      "confidence": 0.25
-    },
-    {
       "start": 6.54,
-      "end": 60.78,
+      "end": 62.38,
       "kind": "paragraph",
       "targetIndex": 27,
       "targetText": "充满祝福的圣灵不仅是我们的向导也是我们的领袖及赐我们安息的保惠师有时他催促我们祷告激励我们事奉使",
-      "confidence": 0.843
+      "confidence": 0.865,
+      "quality": {
+        "coverage": 0.87,
+        "coherentCoverage": 0.779,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "discarded detached start matches"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 6.54,
+        "previousEnd": 60.78
+      }
     },
     {
-      "start": 60.78,
+      "start": 71.14,
       "end": 110.06,
       "kind": "paragraph",
       "targetIndex": 28,
       "targetText": "圣灵不仅是圣徒的向导也是教会真正的领袖他是我们的策士以及永不犯错的朋友任何只接受圣经为我们的惟一",
-      "confidence": 0.656
+      "confidence": 0.874,
+      "quality": {
+        "coverage": 0.846,
+        "coherentCoverage": 0.805,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 5,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 60.78,
+        "previousEnd": 110.06
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 26: 因为凡被神的灵引导的，都是神的儿子------罗 8:14",
+    "unverified start anchor: target 27: 充满祝福的圣灵不仅是我们的向导，也是我们的领袖及赐我们安息的保惠师。有时他催促我们祷告，激励我们",
+    "incomplete end (5 trailing chars, coverage 0.700): target 28: 圣灵不仅是圣徒的向导，也是教会真正的领袖。他是我们的策士，以及永不犯错的朋友。任何只接受圣经为我",
+    "unverified end anchor: target 28: 圣灵不仅是圣徒的向导，也是教会真正的领袖。他是我们的策士，以及永不犯错的朋友。任何只接受圣经为我",
+    "repair missing cue (unverified): target 26",
+    "repair unverified start (previous-sync): target 27",
+    "repair unverified end (previous-sync): target 28"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": [
+      26
+    ]
+  },
+  "repairFingerprint": "3f2fd3d85410016dfe0eaf32b63d1646e83bedd3a68b6eb8d665a226bf94c76a",
+  "repairCueDigest": "2ca2c658349f8a4a1e75109f455d05bb3bc8dc498091159823362f4553d250b5"
 }

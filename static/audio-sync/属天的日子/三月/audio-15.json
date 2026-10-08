@@ -8,36 +8,189 @@
   "audioDuration": 200.324,
   "cues": [
     {
-      "start": 0.0,
-      "end": 2.0,
-      "kind": "heading",
-      "targetIndex": 76,
-      "targetText": "三月十五日",
-      "confidence": 1.0
-    },
-    {
       "start": 2.0,
       "end": 5.28,
       "kind": "paragraph",
-      "targetIndex": 77,
+      "targetIndex": 126,
       "targetText": "你们要常在我的爱里约159",
-      "confidence": 0.727
+      "confidence": 0.727,
+      "quality": {
+        "coverage": 0.615,
+        "coherentCoverage": 0.385,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.833,
+        "suffixCoverage": 0.333,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 2.0,
+        "previousEnd": 5.28
+      },
+      "targetMigration": {
+        "previousTargetIndex": 77,
+        "targetIndex": 126,
+        "targetText": "你们要常在我的爱里约159"
+      }
     },
     {
-      "start": 5.28,
-      "end": 75.04,
+      "start": 7.84,
+      "end": 75.58,
       "kind": "paragraph",
-      "targetIndex": 78,
+      "targetIndex": 127,
       "targetText": "我们能生活在很多不同的气氛之下有些人终日若有所思他们的脸像个哲学家他们也很有智慧这些人生活在自己",
-      "confidence": 0.803
+      "confidence": 0.904,
+      "quality": {
+        "coverage": 0.897,
+        "coherentCoverage": 0.863,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 5.28,
+        "previousEnd": 75.04
+      },
+      "targetMigration": {
+        "previousTargetIndex": 78,
+        "targetIndex": 127,
+        "targetText": "我们能生活在很多不同的气氛之下有些人终日若有所思他们的脸像个哲学家他们也很有智慧这些人生活在自己"
+      }
     },
     {
-      "start": 75.04,
+      "start": 76.44,
       "end": 116.4,
       "kind": "paragraph",
-      "targetIndex": 79,
+      "targetIndex": 128,
       "targetText": "然而主基督要我们生活在爱的气氛中他曾说我爱你们正如父爱我一样你们也要常在我的爱里在原文的版本中他",
-      "confidence": 0.847
+      "confidence": 0.952,
+      "quality": {
+        "coverage": 0.956,
+        "coherentCoverage": 0.929,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 75.04,
+        "previousEnd": 116.4
+      },
+      "targetMigration": {
+        "previousTargetIndex": 79,
+        "targetIndex": 128,
+        "targetText": "然而主基督要我们生活在爱的气氛中他曾说我爱你们正如父爱我一样你们也要常在我的爱里在原文的版本中他"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (4 trailing chars, coverage 0.333): target 126: …你们要常在我的爱里------约 15:9",
+    "low confidence (0.533, coverage 0.615): target 126: …你们要常在我的爱里------约 15:9",
+    "unverified start anchor: target 126: …你们要常在我的爱里------约 15:9",
+    "unverified end anchor: target 126: …你们要常在我的爱里------约 15:9",
+    "repair unverified start (previous-sync): target 126",
+    "repair unverified end (previous-sync): target 126"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 77,
+      "targetIndex": 126,
+      "targetText": "你们要常在我的爱里约159"
+    },
+    {
+      "previousTargetIndex": 78,
+      "targetIndex": 127,
+      "targetText": "我们能生活在很多不同的气氛之下有些人终日若有所思他们的脸像个哲学家他们也很有智慧这些人生活在自己"
+    },
+    {
+      "previousTargetIndex": 79,
+      "targetIndex": 128,
+      "targetText": "然而主基督要我们生活在爱的气氛中他曾说我爱你们正如父爱我一样你们也要常在我的爱里在原文的版本中他"
+    }
+  ],
+  "repairFingerprint": "54d320c210da5deef349ffe4b6ad838bc8d631754f4e366f73931ec4db9af00f",
+  "repairCueDigest": "097e38a9dccae8ff9823380933c0ad0a9d8f4bcbf78f78a4eb126fd0077656dc"
 }

@@ -8,36 +8,189 @@
   "audioDuration": 198.5885,
   "cues": [
     {
-      "start": 0.22,
-      "end": 1.72,
-      "kind": "heading",
-      "targetIndex": 85,
-      "targetText": "三月十七日",
-      "confidence": 0.444
-    },
-    {
       "start": 1.72,
       "end": 7.88,
       "kind": "paragraph",
-      "targetIndex": 86,
+      "targetIndex": 142,
       "targetText": "他记念他的约直到永远诗1058",
-      "confidence": 0.688
+      "confidence": 0.812,
+      "quality": {
+        "coverage": 0.867,
+        "coherentCoverage": 0.533,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.857,
+        "suffixCoverage": 0.857,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1.72,
+        "previousEnd": 7.88
+      },
+      "targetMigration": {
+        "previousTargetIndex": 86,
+        "targetIndex": 142,
+        "targetText": "他记念他的约直到永远诗1058"
+      }
     },
     {
-      "start": 7.88,
-      "end": 53.6,
+      "start": 9.12,
+      "end": 52.0,
       "kind": "paragraph",
-      "targetIndex": 87,
+      "targetIndex": 143,
       "targetText": "我们若是在律法中靠自己的能力挣扎我们会一直在罪的控制下但当我们走出西乃山的阴影欣然地接受基督的恩",
-      "confidence": 0.677
+      "confidence": 0.838,
+      "quality": {
+        "coverage": 0.835,
+        "coherentCoverage": 0.759,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 7.88,
+        "previousEnd": 53.6
+      },
+      "targetMigration": {
+        "previousTargetIndex": 87,
+        "targetIndex": 143,
+        "targetText": "我们若是在律法中靠自己的能力挣扎我们会一直在罪的控制下但当我们走出西乃山的阴影欣然地接受基督的恩"
+      }
     },
     {
       "start": 53.6,
       "end": 114.44,
       "kind": "paragraph",
-      "targetIndex": 88,
+      "targetIndex": 144,
       "targetText": "我们真的知道且相信这的确是福音的应许以及新约的本质吗我们是否相信和基督已保证将他的律放在我们心中",
-      "confidence": 0.744
+      "confidence": 0.778,
+      "quality": {
+        "coverage": 0.792,
+        "coherentCoverage": 0.665,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 53.6,
+        "previousEnd": 114.44
+      },
+      "targetMigration": {
+        "previousTargetIndex": 88,
+        "targetIndex": 144,
+        "targetText": "我们真的知道且相信这的确是福音的应许以及新约的本质吗我们是否相信和基督已保证将他的律放在我们心中"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 142: 他记念他的约，直到永远…------诗 105:8",
+    "repair unverified end (previous-sync): target 142"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 86,
+      "targetIndex": 142,
+      "targetText": "他记念他的约直到永远诗1058"
+    },
+    {
+      "previousTargetIndex": 87,
+      "targetIndex": 143,
+      "targetText": "我们若是在律法中靠自己的能力挣扎我们会一直在罪的控制下但当我们走出西乃山的阴影欣然地接受基督的恩"
+    },
+    {
+      "previousTargetIndex": 88,
+      "targetIndex": 144,
+      "targetText": "我们真的知道且相信这的确是福音的应许以及新约的本质吗我们是否相信和基督已保证将他的律放在我们心中"
+    }
+  ],
+  "repairFingerprint": "50c1d5d59413379660b8f7409d8894cd2b27b46f76e178c197437cc50a23fc62",
+  "repairCueDigest": "37319afa2223a4912261e4c62a7f2110e43417f604faf4c6da634b4dae025c83"
 }

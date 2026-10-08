@@ -8,36 +8,190 @@
   "audioDuration": 187.7085,
   "cues": [
     {
-      "start": 0.0,
-      "end": 1.72,
-      "kind": "heading",
-      "targetIndex": 69,
-      "targetText": "四月十四日",
-      "confidence": 1.0
-    },
-    {
       "start": 1.72,
       "end": 8.08,
       "kind": "paragraph",
-      "targetIndex": 70,
+      "targetIndex": 118,
       "targetText": "我若从地上被举起来就要吸引万人来归我约1232",
-      "confidence": 0.878
+      "confidence": 0.878,
+      "quality": {
+        "coverage": 0.783,
+        "coherentCoverage": 0.783,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.545,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 5,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1.72,
+        "previousEnd": 8.08
+      },
+      "targetMigration": {
+        "previousTargetIndex": 70,
+        "targetIndex": 118,
+        "targetText": "我若从地上被举起来就要吸引万人来归我约1232"
+      }
     },
     {
-      "start": 8.08,
-      "end": 47.92,
+      "start": 11.32,
+      "end": 48.32,
       "kind": "paragraph",
-      "targetIndex": 71,
+      "targetIndex": 119,
       "targetText": "一个真正单纯的基督徒能像主一样地吸引世人无论是男人或女人一般人无法从马马虎虎的基督徒身上找到任何",
-      "confidence": 0.773
+      "confidence": 0.94,
+      "quality": {
+        "coverage": 0.94,
+        "coherentCoverage": 0.903,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 8.08,
+        "previousEnd": 47.92
+      },
+      "targetMigration": {
+        "previousTargetIndex": 71,
+        "targetIndex": 119,
+        "targetText": "一个真正单纯的基督徒能像主一样地吸引世人无论是男人或女人一般人无法从马马虎虎的基督徒身上找到任何"
+      }
     },
     {
-      "start": 47.92,
+      "start": 49.72,
       "end": 105.06,
       "kind": "paragraph",
-      "targetIndex": 72,
+      "targetIndex": 120,
       "targetText": "有一个很著名的人他的前大半生过的是没有基督的日子虽然他是政治上的要人在性格行为上毫无过失有很高的",
-      "confidence": 0.729
+      "confidence": 0.922,
+      "quality": {
+        "coverage": 0.922,
+        "coherentCoverage": 0.894,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 47.92,
+        "previousEnd": 105.06
+      },
+      "targetMigration": {
+        "previousTargetIndex": 72,
+        "targetIndex": 120,
+        "targetText": "有一个很著名的人他的前大半生过的是没有基督的日子虽然他是政治上的要人在性格行为上毫无过失有很高的"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (5 trailing chars, coverage 0.545): target 118: 我若从地上被举起来，就要吸引万人来归我------约 12:32",
+    "unverified end anchor: target 118: 我若从地上被举起来，就要吸引万人来归我------约 12:32",
+    "repair unverified end (previous-sync): target 118"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 70,
+      "targetIndex": 118,
+      "targetText": "我若从地上被举起来就要吸引万人来归我约1232"
+    },
+    {
+      "previousTargetIndex": 71,
+      "targetIndex": 119,
+      "targetText": "一个真正单纯的基督徒能像主一样地吸引世人无论是男人或女人一般人无法从马马虎虎的基督徒身上找到任何"
+    },
+    {
+      "previousTargetIndex": 72,
+      "targetIndex": 120,
+      "targetText": "有一个很著名的人他的前大半生过的是没有基督的日子虽然他是政治上的要人在性格行为上毫无过失有很高的"
+    }
+  ],
+  "repairFingerprint": "8630f03c30a74614783b2d904cdc20caac912dc80b5ca649462e65c48f521661",
+  "repairCueDigest": "ea8ef4eedf693ac06d73332275da6af990b5d321e1ff6e5979e25edf8bcd9fbe"
 }
