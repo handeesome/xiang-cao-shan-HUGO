@@ -8,28 +8,82 @@
   "audioDuration": 206.3945625,
   "cues": [
     {
-      "start": 2.7,
-      "end": 9.61,
-      "kind": "heading",
-      "targetIndex": 148,
-      "targetText": "五月二十五日使他们合而为一",
-      "confidence": 0.846
-    },
-    {
       "start": 9.61,
       "end": 59.31,
       "kind": "paragraph",
       "targetIndex": 149,
       "targetText": "圣父阿求祢因祢所赐给我的名保守他们叫他们合而为一像我们一样我不但为这些人祈求也为那些因他们的话信",
-      "confidence": 0.828
+      "confidence": 0.828,
+      "quality": {
+        "coverage": 0.805,
+        "coherentCoverage": 0.677,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.45,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 9,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "discarded detached end matches"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 9.61,
+        "previousEnd": 59.31
+      }
     },
     {
       "start": 59.31,
-      "end": 128.89,
+      "end": 127.67,
       "kind": "paragraph",
       "targetIndex": 150,
       "targetText": "注意主是怎样5次提到合而为一这几个字祂好像觉得有必要再强调这点才能使我们真正明白祂这祷告的主要心",
-      "confidence": 0.792
+      "confidence": 0.882,
+      "quality": {
+        "coverage": 0.957,
+        "coherentCoverage": 0.913,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 59.31,
+        "previousEnd": 128.89
+      }
     },
     {
       "start": 128.89,
@@ -37,7 +91,65 @@
       "kind": "paragraph",
       "targetIndex": 151,
       "targetText": "教会对这合一的真理实在领会得太少了教会与教会之间并没有爱的联系让我们把合一的祷告当作天天与上帝相",
-      "confidence": 0.916
+      "confidence": 0.928,
+      "quality": {
+        "coverage": 0.928,
+        "coherentCoverage": 0.899,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 128.89,
+        "previousEnd": 205.89
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (9 trailing chars, coverage 0.450): target 149: 「圣父阿！求祢因祢所赐给我的名保守他们，叫他们合而为一，像我们一样……我不但为这些人祈求，也为那",
+    "unverified start anchor: target 149: 「圣父阿！求祢因祢所赐给我的名保守他们，叫他们合而为一，像我们一样……我不但为这些人祈求，也为那",
+    "unverified end anchor: target 149: 「圣父阿！求祢因祢所赐给我的名保守他们，叫他们合而为一，像我们一样……我不但为这些人祈求，也为那",
+    "unverified start anchor: target 150: 注意：主是怎样 5 次提到「合而为一」这几个字。祂好像觉得有必要再强调这点，才能使我们真正明白祂",
+    "unverified end anchor: target 151: 教会对这合一的真理实在领会得太少了，教会与教会之间并没有爱的联系。让我们把合一的祷告，当作天天与",
+    "repair unverified start (previous-sync): target 149",
+    "repair unverified end (previous-sync): target 149",
+    "repair unverified start (previous-sync): target 150",
+    "repair unverified end (previous-sync): target 151"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "repairFingerprint": "8212a94c380c23d0ee59518a96d9f0bdf03411af6d7097b7f2ee202fd9996d3e",
+  "repairCueDigest": "2ff11bc060a713b734741f8584086b4d184559af49d699eff3a2cd9bfd4306b0"
 }

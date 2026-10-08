@@ -8,28 +8,78 @@
   "audioDuration": 173.872125,
   "cues": [
     {
-      "start": 3.19,
-      "end": 6.63,
-      "kind": "heading",
-      "targetIndex": 136,
-      "targetText": "六月二十五日诸事都有节制",
-      "confidence": 0.4
-    },
-    {
       "start": 6.63,
       "end": 18.87,
       "kind": "paragraph",
       "targetIndex": 137,
       "targetText": "凡较力争胜的诸事都有节制我是攻克己身叫身服我林前九2527",
-      "confidence": 0.5
+      "confidence": 0.5,
+      "quality": {
+        "startVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endVerified": false,
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "reviewRequired": true
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 6.63,
+        "previousEnd": 18.87
+      }
     },
     {
-      "start": 18.87,
-      "end": 120.33,
+      "start": 22.41,
+      "end": 118.15,
       "kind": "paragraph",
       "targetIndex": 138,
       "targetText": "保罗在这里提醒我们一个原则就是在任何公开的竞赛中参加者都必须晓得自制一切会拦阻比赛的东西不论多么",
-      "confidence": 0.883
+      "confidence": 0.946,
+      "quality": {
+        "coverage": 0.946,
+        "coherentCoverage": 0.916,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 18.87,
+        "previousEnd": 120.33
+      }
     },
     {
       "start": 120.33,
@@ -37,7 +87,68 @@
       "kind": "paragraph",
       "targetIndex": 139,
       "targetText": "让我们祈求上帝使每一个基督徒都靠著圣灵的能力坚持这种态度当基督的死在我们身上显出作用基督的生命也",
-      "confidence": 0.83
+      "confidence": 0.898,
+      "quality": {
+        "coverage": 0.913,
+        "coherentCoverage": 0.86,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 120.33,
+        "previousEnd": 167.57
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (8 leading chars, coverage 0.286): target 137: 「凡较力争胜的，诸事都有节制。我是攻克己身，叫身服我。」（林前九 25、27）",
+    "incomplete end (4 trailing chars, coverage 0.571): target 137: 「凡较力争胜的，诸事都有节制。我是攻克己身，叫身服我。」（林前九 25、27）",
+    "low confidence (0.348, coverage 0.414): target 137: 「凡较力争胜的，诸事都有节制。我是攻克己身，叫身服我。」（林前九 25、27）",
+    "unverified start anchor (detached boundary context): target 137: 「凡较力争胜的，诸事都有节制。我是攻克己身，叫身服我。」（林前九 25、27）",
+    "unverified end anchor: target 137: 「凡较力争胜的，诸事都有节制。我是攻克己身，叫身服我。」（林前九 25、27）",
+    "unmatched (fragment only): target 137: 「凡较力争胜的，诸事都有节制。我是攻克己身，叫身服我。」（林前九 25、27）",
+    "unverified end anchor: target 139: 让我们祈求神，使每一个基督徒都靠著圣灵的能力，坚持这种态度。当基督的死在我们身上显出作用，基督的",
+    "repair unverified start (previous-sync): target 137",
+    "repair unverified end (previous-sync): target 137",
+    "repair unverified end (previous-sync): target 139"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "repairFingerprint": "6aa61c841f579f5c8c89a048740d26a3cbf12f0cae75f5ece0653e4180eae091",
+  "repairCueDigest": "d38cef317430b2f180710e399fae48072b88fd6a3ac4d5d4b9e302a4ddd29814"
 }

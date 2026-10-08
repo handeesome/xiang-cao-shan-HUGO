@@ -8,28 +8,82 @@
   "audioDuration": 169.43125,
   "cues": [
     {
-      "start": 2.83,
-      "end": 5.53,
-      "kind": "heading",
-      "targetIndex": 40,
-      "targetText": "四月六日欢呼之声",
-      "confidence": 0.8
-    },
-    {
       "start": 5.53,
       "end": 20.05,
       "kind": "paragraph",
       "targetIndex": 41,
       "targetText": "知道向祢欢呼的那民是有福的耶和华阿他们在祢脸上的光里行走他们因祢的名终日欢乐诗八十九1516",
-      "confidence": 0.539
+      "confidence": 0.719,
+      "quality": {
+        "coverage": 0.696,
+        "coherentCoverage": 0.457,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 5.53,
+        "previousEnd": 20.05
+      }
     },
     {
-      "start": 20.05,
+      "start": 22.93,
       "end": 57.73,
       "kind": "paragraph",
       "targetIndex": 42,
       "targetText": "天使称福音为大喜的信息也就是我们在这里交通到欢乐的声音上帝的百姓行在上帝的荣耀之中整天因祂的名欢",
-      "confidence": 0.587
+      "confidence": 0.912,
+      "quality": {
+        "coverage": 0.912,
+        "coherentCoverage": 0.886,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 20.05,
+        "previousEnd": 57.73
+      }
     },
     {
       "start": 57.73,
@@ -37,15 +91,89 @@
       "kind": "paragraph",
       "targetIndex": 43,
       "targetText": "在一个凡事井井有条的家庭中父亲为他的子女高兴子女也因父亲而欢乐大家在上帝的光里行走整天因祂的名欢",
-      "confidence": 0.707
+      "confidence": 0.885,
+      "quality": {
+        "coverage": 0.91,
+        "coherentCoverage": 0.899,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 57.73,
+        "previousEnd": 120.27
+      }
     },
     {
-      "start": 120.27,
-      "end": 139.57,
+      "start": 123.67,
+      "end": 137.65,
       "kind": "paragraph",
       "targetIndex": 44,
       "targetText": "天父渴望得著祂儿女完全的信任和爱盼望他们每时每刻都是在自己的面前把这当作他们的喜乐和力量",
-      "confidence": 0.828
+      "confidence": 0.977,
+      "quality": {
+        "coverage": 0.977,
+        "coherentCoverage": 0.977,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 120.27,
+        "previousEnd": 139.57
+      }
     },
     {
       "start": 139.57,
@@ -53,7 +181,71 @@
       "kind": "paragraph",
       "targetIndex": 45,
       "targetText": "当我们进一步寻求上帝在我们身上的旨意时我们的信心就会更坚固知道没有比行在上帝的荣光之中终日因祂的",
-      "confidence": 0.906
+      "confidence": 0.906,
+      "quality": {
+        "coverage": 0.906,
+        "coherentCoverage": 0.896,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 139.57,
+        "previousEnd": 168.93
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (4 trailing chars, coverage 0.700): target 41: 「知道向祢欢呼的，那民是有福的。耶和华阿！他们在祢脸上的光里行走，他们因祢的名终日欢乐。」（诗八",
+    "unverified start anchor: target 41: 「知道向祢欢呼的，那民是有福的。耶和华阿！他们在祢脸上的光里行走，他们因祢的名终日欢乐。」（诗八",
+    "unverified end anchor: target 41: 「知道向祢欢呼的，那民是有福的。耶和华阿！他们在祢脸上的光里行走，他们因祢的名终日欢乐。」（诗八",
+    "unverified end anchor: target 42: 天使称福音为大喜的信息，也就是我们在这里交通到欢乐的声音。神的百姓行在神的荣耀之中，整天因祂的名",
+    "unverified end anchor: target 43: 在一个凡事井井有条的家庭中，父亲为他的子女高兴，子女也因父亲而欢乐。大家在神的光里行走，整天因祂",
+    "repair unverified start (previous-sync): target 41",
+    "repair unverified end (previous-sync): target 41",
+    "repair unverified end (previous-sync): target 42",
+    "repair unverified end (previous-sync): target 43"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 3,
+    "missingTargets": []
+  },
+  "repairFingerprint": "9bacf471f7ce08c8cdf145c4c4c604be20b30b519ea517391f719a706b48a350",
+  "repairCueDigest": "3cb08d31a5d6fd02833263819a67cb6f99aaac548a4c654f7fe4ce359a968f11"
 }

@@ -8,28 +8,92 @@
   "audioDuration": 135.315375,
   "cues": [
     {
-      "start": 3.34,
-      "end": 8.84,
-      "kind": "heading",
-      "targetIndex": 99,
-      "targetText": "九月十八日两个领袖",
-      "confidence": 0.706
-    },
-    {
       "start": 8.84,
       "end": 25.64,
       "kind": "paragraph",
       "targetIndex": 100,
       "targetText": "我劝你第一要为万人恳求祷告代求祝谢为君王和一切在位的也该如此使我们可以敬虔端正平安无事的度日提前",
-      "confidence": 0.772
+      "confidence": 0.772,
+      "quality": {
+        "coverage": 0.804,
+        "coherentCoverage": 0.745,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 8.84,
+        "previousEnd": 25.64
+      }
     },
     {
-      "start": 25.64,
-      "end": 64.82,
+      "start": 28.46,
+      "end": 63.78,
       "kind": "paragraph",
       "targetIndex": 101,
       "targetText": "我曾在荷兰的教会讲到荷兰妇女在南非波尔战争期间的可嘉表现我提到她们对苦难的坚忍的灵迫切的祷告和征",
-      "confidence": 0.874
+      "confidence": 0.9,
+      "quality": {
+        "coverage": 0.9,
+        "coherentCoverage": 0.883,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 25.64,
+        "previousEnd": 64.82
+      }
     },
     {
       "start": 64.82,
@@ -37,7 +101,60 @@
       "kind": "paragraph",
       "targetIndex": 102,
       "targetText": "如果我问人你曾为那些领袖祷告吗有人会回答说我只为执政的掌权者祷告因为上帝让他们成为国家的领袖又有",
-      "confidence": 0.878
+      "confidence": 0.965,
+      "quality": {
+        "coverage": 0.965,
+        "coherentCoverage": 0.939,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 64.82,
+        "previousEnd": 134.8
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 100: 「我劝你第一要为万人恳求、祷告、代求、祝谢。为君王和一切在位的也该如此，使我们可以敬虔端正，平安",
+    "unverified end anchor: target 102: 如果我问人，你曾为那些领袖祷告吗？有人会回答说：「我只为执政的掌权者祷告，因为神让他们成为国家的",
+    "repair unverified end (previous-sync): target 100",
+    "repair unverified end (previous-sync): target 102"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "repairFingerprint": "9a28a9798412ed3786791d7d8a4c1e5ae6432105a0acd346bc4056c4aa6a28e1",
+  "repairCueDigest": "7265f452a3a4fb6a80e225c5649cbbacd7ca78906149e225de3f3839a441938d"
 }

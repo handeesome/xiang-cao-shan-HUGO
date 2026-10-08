@@ -8,20 +8,45 @@
   "audioDuration": 155.4035,
   "cues": [
     {
-      "start": 2.88,
-      "end": 28.24,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "九月一日祷告的实际",
-      "confidence": 0.533
-    },
-    {
       "start": 28.24,
       "end": 65.58,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "真正顺著圣灵而作的祷告必会使我们看见自己的本相使我们厌恶自己的光景并且除去我们一切属世的愿望使我",
-      "confidence": 0.708
+      "confidence": 0.875,
+      "quality": {
+        "coverage": 0.882,
+        "coherentCoverage": 0.773,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 28.24,
+        "previousEnd": 65.58
+      }
     },
     {
       "start": 65.58,
@@ -29,15 +54,110 @@
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "要胜过一切的困难试炼枯干的生活仇敌的试探或攻击唯一的办法是在一切事上单单仰望倚靠上帝这样即使遇见",
-      "confidence": 0.92
+      "confidence": 0.92,
+      "quality": {
+        "coverage": 0.893,
+        "coherentCoverage": 0.893,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 6,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 65.58,
+        "previousEnd": 94.68
+      }
     },
     {
-      "start": 94.68,
+      "start": 98.4,
       "end": 154.95,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "我们实在祷告得太少了这种与上帝交通的权利对许多人却成了一种重担和苦恼的事对更多的人是一种没有效果",
-      "confidence": 0.851
+      "confidence": 0.949,
+      "quality": {
+        "coverage": 0.949,
+        "coherentCoverage": 0.949,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 94.68,
+        "previousEnd": 154.95
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 1: 真正顺著圣灵而作的祷告，必会使我们看见自己的本相，使我们厌恶自己的光景，并且除去我们一切属世的愿",
+    "incomplete end (6 trailing chars, coverage 0.700): target 2: 要胜过一切的困难、试炼、枯干的生活、仇敌的试探或攻击，唯一的办法是：在一切事上单单仰望倚靠神。这",
+    "unverified end anchor: target 2: 要胜过一切的困难、试炼、枯干的生活、仇敌的试探或攻击，唯一的办法是：在一切事上单单仰望倚靠神。这",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 2"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "repairFingerprint": "d35ae8b3d46287e89a7a0ede0a9b9dafec855d17c5c78e2ab586ea7b0b98c822",
+  "repairCueDigest": "eb238dd808e172e756dc73389f6a43f8881a9d7460540cde65189eda5a89de1e"
 }

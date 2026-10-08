@@ -8,52 +8,211 @@
   "audioDuration": 185.41825,
   "cues": [
     {
-      "start": 3.22,
-      "end": 7.38,
-      "kind": "heading",
-      "targetIndex": 161,
-      "targetText": "六月三十日在城门外",
-      "confidence": 0.706
-    },
-    {
       "start": 7.38,
       "end": 32.76,
       "kind": "paragraph",
       "targetIndex": 162,
       "targetText": "原来牲畜的血被大祭司带入圣所作赎罪祭牲畜的身子被烧在营外所以耶稣要用自己的血叫百姓成圣也就在城门",
-      "confidence": 0.775
+      "confidence": 0.775,
+      "quality": {
+        "coverage": 0.775,
+        "coherentCoverage": 0.55,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 7.38,
+        "previousEnd": 32.76
+      }
     },
     {
       "start": 32.76,
-      "end": 54.12,
+      "end": 52.7,
       "kind": "paragraph",
       "targetIndex": 163,
       "targetText": "赎罪祭的祭牲的血被带入圣所身子却被烧到营外同样基督也把祂的血给了父上帝祂的身体却被当作可咒诅之物",
-      "confidence": 0.737
+      "confidence": 0.737,
+      "quality": {
+        "coverage": 0.778,
+        "coherentCoverage": 0.778,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 6,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 32.76,
+        "previousEnd": 54.12
+      }
     },
     {
       "start": 54.12,
-      "end": 91.9,
+      "end": 90.2,
       "kind": "paragraph",
       "targetIndex": 164,
       "targetText": "我们既因耶稣的血得以坦然进入至圣所来十19我们也当出到营外就了祂去忍受祂所受的凌辱来十三13我越",
-      "confidence": 0.811
+      "confidence": 0.811,
+      "quality": {
+        "coverage": 0.852,
+        "coherentCoverage": 0.648,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 54.12,
+        "previousEnd": 91.9
+      }
     },
     {
       "start": 91.9,
-      "end": 129.98,
+      "end": 134.02,
       "kind": "paragraph",
       "targetIndex": 165,
       "targetText": "许多基督徒爱听我们可以靠著主而坦然进到上帝的面前但却不愿意分担主的凌辱也不愿与世界分离但圣经说岂",
-      "confidence": 0.805
+      "confidence": 0.855,
+      "quality": {
+        "coverage": 0.909,
+        "coherentCoverage": 0.855,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 91.9,
+        "previousEnd": 129.98
+      }
     },
     {
-      "start": 129.98,
+      "start": 135.18,
       "end": 157.5,
       "kind": "paragraph",
       "targetIndex": 166,
       "targetText": "要跟随基督就得在世上全心全意地为上帝作见证赢得失丧的灵魂要跟随基督就得像祂一样背起十字架有舍己的",
-      "confidence": 0.607
+      "confidence": 0.836,
+      "quality": {
+        "coverage": 0.836,
+        "coherentCoverage": 0.803,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 129.98,
+        "previousEnd": 157.5
+      }
     },
     {
       "start": 157.5,
@@ -61,7 +220,69 @@
       "kind": "paragraph",
       "targetIndex": 167,
       "targetText": "主啊求祢教导我们响应祢的呼召跟随祢到营外忍受祢所受的凌辱为祢的救赎的大爱作见证好带领更多人来到父",
-      "confidence": 0.551
+      "confidence": 0.778,
+      "quality": {
+        "coverage": 0.774,
+        "coherentCoverage": 0.571,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 157.5,
+        "previousEnd": 184.96
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (4 trailing chars, coverage 0.600): target 162: 「原来牲畜的血，被大祭司带入圣所作赎罪祭，牲畜的身子被烧在营外。所以耶稣要用自己的血叫百姓成圣，",
+    "unverified start anchor: target 162: 「原来牲畜的血，被大祭司带入圣所作赎罪祭，牲畜的身子被烧在营外。所以耶稣要用自己的血叫百姓成圣，",
+    "unverified end anchor: target 162: 「原来牲畜的血，被大祭司带入圣所作赎罪祭，牲畜的身子被烧在营外。所以耶稣要用自己的血叫百姓成圣，",
+    "incomplete start (6 leading chars, coverage 0.700): target 163: 赎罪祭的祭牲的血，被带入圣所，身子却被烧到营外。同样，基督也把祂的血给了父神，祂的身体却被当作可",
+    "unverified start anchor: target 163: 赎罪祭的祭牲的血，被带入圣所，身子却被烧到营外。同样，基督也把祂的血给了父神，祂的身体却被当作可",
+    "unverified start anchor: target 164: 「我们既因耶稣的血，得以坦然进入至圣所。」（来十 19）「我们也当出到营外就了祂去，忍受祂所受的",
+    "unverified start anchor: target 167: 主啊！求祢教导我们响应祢的呼召，跟随祢到营外，忍受祢所受的凌辱，为祢的救赎的大爱作见证，好带领更",
+    "repair unverified start (previous-sync): target 162",
+    "repair unverified end (previous-sync): target 162",
+    "repair unverified start (previous-sync): target 163",
+    "repair unverified start (previous-sync): target 164",
+    "repair unverified end (previous-sync): target 166",
+    "repair unverified start (previous-sync): target 167"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 3,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 4,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "repairFingerprint": "84bcb9ec2fc800b2573e999d6577e115fa33db721039b3478fdfac4d9dc1f103",
+  "repairCueDigest": "df3e466bacd3d9fcbf65c6601fcdad6977cf625d4312e8ba42e4e3270118d5da"
 }

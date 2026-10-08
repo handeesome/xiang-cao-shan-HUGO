@@ -8,28 +8,88 @@
   "audioDuration": 214.414125,
   "cues": [
     {
-      "start": 3.12,
-      "end": 7.64,
-      "kind": "heading",
-      "targetIndex": 160,
-      "targetText": "三月十八日上帝的伟大",
-      "confidence": 0.632
-    },
-    {
       "start": 7.64,
       "end": 14.54,
       "kind": "paragraph",
       "targetIndex": 161,
       "targetText": "因祢为大且行奇妙的事惟独祢是上帝诗八十六10",
-      "confidence": 0.564
+      "confidence": 0.564,
+      "quality": {
+        "coverage": 0.545,
+        "coherentCoverage": 0.5,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.636,
+        "suffixCoverage": 0.455,
+        "unmatchedLeadingChars": 3,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 7.64,
+        "previousEnd": 14.54
+      }
     },
     {
-      "start": 14.54,
-      "end": 42.26,
+      "start": 18.26,
+      "end": 41.36,
       "kind": "paragraph",
       "targetIndex": 162,
       "targetText": "一个人开始动手作一件重要的工作时通常都会集中精力考虑那件工作的重要性科学家在研究大自然的过程中需",
-      "confidence": 0.822
+      "confidence": 0.949,
+      "quality": {
+        "coverage": 0.949,
+        "coherentCoverage": 0.949,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 14.54,
+        "previousEnd": 42.26
+      }
     },
     {
       "start": 42.26,
@@ -37,23 +97,133 @@
       "kind": "paragraph",
       "targetIndex": 163,
       "targetText": "我们荣耀的上帝难道不值得我们花时间去认识祂敬慕祂的伟大么",
-      "confidence": 0.509
+      "confidence": 0.836,
+      "quality": {
+        "coverage": 0.821,
+        "coherentCoverage": 0.714,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.643,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 42.26,
+        "previousEnd": 48.9
+      }
     },
     {
-      "start": 48.9,
-      "end": 77.36,
+      "start": 51.4,
+      "end": 75.36,
       "kind": "paragraph",
       "targetIndex": 164,
       "targetText": "可是我们对这位伟大的上帝之认识却是那么的浮浅我们很少花时间在祂面前屈身谦卑去领受祂那深不可测的荣",
-      "confidence": 0.631
+      "confidence": 0.892,
+      "quality": {
+        "coverage": 0.892,
+        "coherentCoverage": 0.838,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 48.9,
+        "previousEnd": 77.36
+      }
     },
     {
-      "start": 77.36,
+      "start": 76.76,
       "end": 89.18,
       "kind": "paragraph",
       "targetIndex": 165,
       "targetText": "耶和华本为大该受大赞美其大无法测度诗一四五3",
-      "confidence": 0.565
+      "confidence": 0.76,
+      "quality": {
+        "coverage": 0.864,
+        "coherentCoverage": 0.727,
+        "extraSpeechContext": true,
+        "prefixCoverage": 0.909,
+        "suffixCoverage": 0.818,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution",
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 77.36,
+        "previousEnd": 89.18
+      }
     },
     {
       "start": 89.18,
@@ -61,7 +231,42 @@
       "kind": "paragraph",
       "targetIndex": 166,
       "targetText": "我也要传扬祢的大德诗一四五6",
-      "confidence": 0.71
+      "confidence": 0.71,
+      "quality": {
+        "coverage": 0.786,
+        "coherentCoverage": 0.357,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.857,
+        "suffixCoverage": 0.714,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 89.18,
+        "previousEnd": 94.48
+      }
     },
     {
       "start": 94.48,
@@ -69,15 +274,83 @@
       "kind": "paragraph",
       "targetIndex": 167,
       "targetText": "他们记念祢的大恩就要传出来并要歌唱祢的公义诗一四五7",
-      "confidence": 0.667
+      "confidence": 0.667,
+      "quality": {
+        "coverage": 0.731,
+        "coherentCoverage": 0.462,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.846,
+        "suffixCoverage": 0.615,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 94.48,
+        "previousEnd": 102.44
+      }
     },
     {
-      "start": 102.44,
-      "end": 123.56,
+      "start": 107.6,
+      "end": 121.32,
       "kind": "paragraph",
       "targetIndex": 168,
       "targetText": "不要以为很容易抓住这些话里的意思要经过一段时间让他们在你心中扎根使你在上帝面前屈身默默地敬畏上帝",
-      "confidence": 0.807
+      "confidence": 0.917,
+      "quality": {
+        "coverage": 0.917,
+        "coherentCoverage": 0.875,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 102.44,
+        "previousEnd": 123.56
+      }
     },
     {
       "start": 123.56,
@@ -85,7 +358,36 @@
       "kind": "paragraph",
       "targetIndex": 169,
       "targetText": "主耶和华阿在祢没有难成的事祢是至大全能的上帝万军之耶和华是祢的名谋事有大略行事有大能耶三十二17",
-      "confidence": 0.876
+      "confidence": 0.876,
+      "quality": {
+        "coverage": 0.874,
+        "coherentCoverage": 0.816,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 123.56,
+        "previousEnd": 187.3
+      }
     },
     {
       "start": 187.3,
@@ -93,7 +395,76 @@
       "kind": "paragraph",
       "targetIndex": 170,
       "targetText": "上帝以祂丰盛的恩典会藉著圣灵教导我们说耶和华为大上帝为大王超乎万上帝之上来阿我们要屈身敬拜在造我",
-      "confidence": 0.857
+      "confidence": 0.857,
+      "quality": {
+        "coverage": 0.857,
+        "coherentCoverage": 0.762,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 187.3,
+        "previousEnd": 210.64
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (3 trailing chars, coverage 0.455): target 161: 「因祢为大，且行奇妙的事，惟独祢是神。」（诗八十六 10）",
+    "low confidence (0.558, coverage 0.545): target 161: 「因祢为大，且行奇妙的事，惟独祢是神。」（诗八十六 10）",
+    "unverified start anchor: target 161: 「因祢为大，且行奇妙的事，惟独祢是神。」（诗八十六 10）",
+    "unverified end anchor: target 161: 「因祢为大，且行奇妙的事，惟独祢是神。」（诗八十六 10）",
+    "unverified end anchor: target 163: 我们荣耀的神，难道不值得我们花时间去认识祂、敬慕祂的伟大么？",
+    "unverified end anchor: target 165: 「耶和华本为大，该受大赞美，其大无法测度。」（诗一四五 3）",
+    "unverified end anchor: target 166: 「我也要传扬祢的大德。」（诗一四五 6）",
+    "unverified start anchor: target 167: 「他们记念祢的大恩，就要传出来，并要歌唱祢的公义。」（诗一四五 7）",
+    "unverified end anchor: target 167: 「他们记念祢的大恩，就要传出来，并要歌唱祢的公义。」（诗一四五 7）",
+    "unverified start anchor: target 169: 「主耶和华阿！……在祢没有难成的事。祢是至大全能的神，万军之耶和华是祢的名，谋事有大略，行事有大",
+    "unverified end anchor: target 169: 「主耶和华阿！……在祢没有难成的事。祢是至大全能的神，万军之耶和华是祢的名，谋事有大略，行事有大",
+    "unverified start anchor: target 170: 神以祂丰盛的恩典，会藉著圣灵教导我们说：「耶和华为大神、为大王，超乎万神之上。来阿！我们要屈身敬",
+    "unverified end anchor: target 170: 神以祂丰盛的恩典，会藉著圣灵教导我们说：「耶和华为大神、为大王，超乎万神之上。来阿！我们要屈身敬",
+    "repair unverified start (previous-sync): target 161",
+    "repair unverified end (previous-sync): target 161",
+    "repair unverified end (previous-sync): target 163",
+    "repair unverified end (previous-sync): target 165",
+    "repair unverified end (previous-sync): target 166",
+    "repair unverified start (previous-sync): target 167",
+    "repair unverified end (previous-sync): target 167",
+    "repair unverified start (previous-sync): target 169",
+    "repair unverified end (previous-sync): target 169",
+    "repair unverified start (previous-sync): target 170",
+    "repair unverified end (previous-sync): target 170"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 4,
+    "updatedEnds": 3,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 4,
+    "unverifiedEnds": 7,
+    "missingTargets": []
+  },
+  "repairFingerprint": "203990c13ac79da3571de5b3ed1eb26e4716851832bd1a8ad6bcba58f96b4dd3",
+  "repairCueDigest": "d2e3fd942b87bee2b74297da8a39179bfae2577bbae6413e7d53a6de4860bfef"
 }

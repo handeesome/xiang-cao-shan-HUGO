@@ -8,28 +8,86 @@
   "audioDuration": 185.4704375,
   "cues": [
     {
-      "start": 3.07,
-      "end": 8.75,
-      "kind": "heading",
-      "targetIndex": 27,
-      "targetText": "二月五日上帝寻找代求者",
-      "confidence": 0.857
-    },
-    {
       "start": 8.75,
       "end": 15.87,
       "kind": "paragraph",
       "targetIndex": 28,
       "targetText": "祂见无人拯救无人代求甚为诧异赛五十九16",
-      "confidence": 0.8
+      "confidence": 0.8,
+      "quality": {
+        "coverage": 0.8,
+        "coherentCoverage": 0.55,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 8.75,
+        "previousEnd": 15.87
+      }
     },
     {
       "start": 15.87,
-      "end": 51.73,
+      "end": 50.59,
       "kind": "paragraph",
       "targetIndex": 29,
       "targetText": "古时候上帝在祂子民中设立了代祷者使祂能听见他们的求告并施行拯救从前面那段经文里我们看见以色列在那",
-      "confidence": 0.86
+      "confidence": 0.86,
+      "quality": {
+        "coverage": 0.867,
+        "coherentCoverage": 0.805,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 15.87,
+        "previousEnd": 51.73
+      }
     },
     {
       "start": 51.73,
@@ -37,23 +95,130 @@
       "kind": "paragraph",
       "targetIndex": 30,
       "targetText": "我在他们中间寻找一人重修墙垣在我面前为这国站在破口防堵使我不灭绝这国却找不著一个所以我将恼恨倒在",
-      "confidence": 0.933
+      "confidence": 0.933,
+      "quality": {
+        "coverage": 0.933,
+        "coherentCoverage": 0.888,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 51.73,
+        "previousEnd": 78.41
+      }
     },
     {
-      "start": 78.41,
-      "end": 135.61,
+      "start": 81.45,
+      "end": 134.13,
       "kind": "paragraph",
       "targetIndex": 31,
       "targetText": "在上帝的国度里代求者的地位是无比重要的上帝赐给人如此奇妙的能力然而却很少有人晓得怎样掌握和运用这",
-      "confidence": 0.884
+      "confidence": 0.904,
+      "quality": {
+        "coverage": 0.899,
+        "coherentCoverage": 0.865,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 78.41,
+        "previousEnd": 135.61
+      }
     },
     {
       "start": 135.61,
-      "end": 163.38,
+      "end": 161.31,
       "kind": "paragraph",
       "targetIndex": 32,
       "targetText": "上帝是藉著祂子民的祷告来统治世界和祂的教会上帝的国度能扩展到甚么程度决定于祂的子民忠心祷告的态度",
-      "confidence": 0.787
+      "confidence": 0.787,
+      "quality": {
+        "coverage": 0.787,
+        "coherentCoverage": 0.663,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 135.61,
+        "previousEnd": 163.38
+      }
     },
     {
       "start": 163.38,
@@ -61,7 +226,66 @@
       "kind": "paragraph",
       "targetIndex": 33,
       "targetText": "天父阿求祢开启我们的眼睛让我们看见祢要祢的儿女参与扩展祢的国度祢要求我们忠心祷告和代求让我们看见",
-      "confidence": 0.863
+      "confidence": 0.863,
+      "quality": {
+        "coverage": 0.84,
+        "coherentCoverage": 0.76,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 163.38,
+        "previousEnd": 184.58
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 28: 「祂见无人拯救，无人代求，甚为诧异。」（赛五十九 16）",
+    "unverified start anchor: target 29: 古时候，神在祂子民中设立了代祷者，使祂能听见他们的求告，并施行拯救。从前面那段经文里，我们看见以",
+    "incomplete end (4 trailing chars, coverage 0.800): target 30: 「我在他们中间寻找一人重修墙垣，在我面前为这国站在破口防堵，使我不灭绝这国；却找不著一个。所以我",
+    "unverified end anchor: target 30: 「我在他们中间寻找一人重修墙垣，在我面前为这国站在破口防堵，使我不灭绝这国；却找不著一个。所以我",
+    "unverified start anchor: target 32: 神是藉著祂子民的祷告来统治世界和祂的教会。神的国度能扩展到甚么程度，决定于祂的子民忠心祷告的态度",
+    "incomplete end (4 trailing chars, coverage 0.800): target 33: 天父阿！求祢开启我们的眼睛，让我们看见祢要祢的儿女参与扩展祢的国度。祢要求我们忠心祷告和代求，让",
+    "unverified start anchor: target 33: 天父阿！求祢开启我们的眼睛，让我们看见祢要祢的儿女参与扩展祢的国度。祢要求我们忠心祷告和代求，让",
+    "unverified end anchor: target 33: 天父阿！求祢开启我们的眼睛，让我们看见祢要祢的儿女参与扩展祢的国度。祢要求我们忠心祷告和代求，让",
+    "repair unverified end (previous-sync): target 28",
+    "repair unverified start (previous-sync): target 29",
+    "repair unverified end (previous-sync): target 30",
+    "repair unverified start (previous-sync): target 32",
+    "repair unverified start (previous-sync): target 33",
+    "repair unverified end (previous-sync): target 33"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 3,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 3,
+    "unverifiedEnds": 3,
+    "missingTargets": []
+  },
+  "repairFingerprint": "1048cddb3476f9bd3f8e3ddd792afadb76a445b6ed1e44210abc932005b7ed8b",
+  "repairCueDigest": "cf67fbfcca6ef8b3b72f1fee8ab6f4f82ce8e1896be40771ef01dbcac99922f3"
 }

@@ -8,28 +8,86 @@
   "audioDuration": 187.962625,
   "cues": [
     {
-      "start": 3.86,
-      "end": 11.68,
-      "kind": "heading",
-      "targetIndex": 49,
-      "targetText": "一月八日上帝的话和祷告",
-      "confidence": 0.762
-    },
-    {
       "start": 11.68,
       "end": 22.76,
       "kind": "paragraph",
       "targetIndex": 50,
       "targetText": "耶和华阿求祢照祢的话将我救活诗一一九107",
-      "confidence": 0.512
+      "confidence": 0.512,
+      "quality": {
+        "coverage": 0.524,
+        "coherentCoverage": 0.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.4,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 11.68,
+        "previousEnd": 22.76
+      }
     },
     {
-      "start": 22.76,
-      "end": 66.58,
+      "start": 24.48,
+      "end": 65.24,
       "kind": "paragraph",
       "targetIndex": 51,
       "targetText": "祷告和上帝的话是不可分割的我们在内室一段安静的时间里读经和祷告必须同时进行上帝藉著祂的话语来显明",
-      "confidence": 0.81
+      "confidence": 0.813,
+      "quality": {
+        "coverage": 0.893,
+        "coherentCoverage": 0.875,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 22.76,
+        "previousEnd": 66.58
+      }
     },
     {
       "start": 66.58,
@@ -37,23 +95,138 @@
       "kind": "paragraph",
       "targetIndex": 52,
       "targetText": "在祷告以先我们一定要对上帝有正确的认识而圣灵就藉著上帝的话语使我们正确地认识上帝上帝的话也使我们",
-      "confidence": 0.887
+      "confidence": 0.887,
+      "quality": {
+        "coverage": 0.88,
+        "coherentCoverage": 0.859,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 66.58,
+        "previousEnd": 126.32
+      }
     },
     {
-      "start": 126.32,
-      "end": 138.54,
+      "start": 127.76,
+      "end": 139.06,
       "kind": "paragraph",
       "targetIndex": 53,
       "targetText": "弟兄姊妹们但愿我们学会这个功课从上帝的话语中天天重新得力并且按著祂的旨意来祷告",
-      "confidence": 0.789
+      "confidence": 0.789,
+      "quality": {
+        "coverage": 0.769,
+        "coherentCoverage": 0.718,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.789,
+        "suffixCoverage": 0.789,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 126.32,
+        "previousEnd": 138.54
+      }
     },
     {
-      "start": 138.54,
-      "end": 160.48,
+      "start": 140.24,
+      "end": 158.68,
       "kind": "paragraph",
       "targetIndex": 54,
       "targetText": "现在让我们交通祷告的问题在读经的时候我们要求上帝教导我们明白祂的话使我们从祂的话中明白基督是无价",
-      "confidence": 0.931
+      "confidence": 0.947,
+      "quality": {
+        "coverage": 0.947,
+        "coherentCoverage": 0.947,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 138.54,
+        "previousEnd": 160.48
+      }
     },
     {
       "start": 160.48,
@@ -61,7 +234,70 @@
       "kind": "paragraph",
       "targetIndex": 55,
       "targetText": "何等宝贵的内室在那里我藉著读经和祷告得以在主里与上帝亲近在内室我也可以把自己奉献给上帝为祂作工并",
-      "confidence": 0.763
+      "confidence": 0.763,
+      "quality": {
+        "coverage": 0.753,
+        "coherentCoverage": 0.636,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 160.48,
+        "previousEnd": 187.56
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (1 leading chars, coverage 0.400): target 50: 「耶和华阿！求祢照祢的话将我救活。」（诗一一九 107）",
+    "low confidence (0.468, coverage 0.524): target 50: 「耶和华阿！求祢照祢的话将我救活。」（诗一一九 107）",
+    "unverified start anchor: target 50: 「耶和华阿！求祢照祢的话将我救活。」（诗一一九 107）",
+    "unverified end anchor: target 50: 「耶和华阿！求祢照祢的话将我救活。」（诗一一九 107）",
+    "unverified end anchor: target 52: 在祷告以先，我们一定要对神有正确的认识，而圣灵就藉著神的话语，使我们正确地认识神。神的话也使我们",
+    "repair unverified start (previous-sync): target 50",
+    "repair unverified end (previous-sync): target 50",
+    "repair unverified end (previous-sync): target 52"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 3,
+    "updatedEnds": 3,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "repairFingerprint": "a669cf9aacd487725dcd144a607d9d96d09a9cc20e7b2f11c05e61b89a58d46c",
+  "repairCueDigest": "052a2ffaff1816ac0cd2bdf09bab566950ca2d4503b6fe3cdff3f33681d4deb8"
 }

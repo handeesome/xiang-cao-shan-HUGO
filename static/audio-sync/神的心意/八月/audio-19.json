@@ -8,20 +8,51 @@
   "audioDuration": 156.1088125,
   "cues": [
     {
-      "start": 2.3,
-      "end": 6.38,
-      "kind": "heading",
-      "targetIndex": 99,
-      "targetText": "八月十九日两种知识",
-      "confidence": 0.706
-    },
-    {
-      "start": 6.38,
-      "end": 129.0,
+      "start": 14.6,
+      "end": 127.98,
       "kind": "paragraph",
       "targetIndex": 100,
       "targetText": "我们可以从两种途径得著美德和善良一种是被动的藉著遵行外在的人为教导或律法而来一种是自发的从里面更",
-      "confidence": 0.866
+      "confidence": 0.898,
+      "quality": {
+        "coverage": 0.9,
+        "coherentCoverage": 0.858,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 6.38,
+        "previousEnd": 129.0
+      }
     },
     {
       "start": 129.0,
@@ -29,7 +60,58 @@
       "kind": "paragraph",
       "targetIndex": 101,
       "targetText": "教会往往只能给信徒外面的教导忽略了引导信徒从最基本的生命改变开始有一个更新的灵以致有发自里面的美",
-      "confidence": 0.942
+      "confidence": 0.942,
+      "quality": {
+        "coverage": 0.942,
+        "coherentCoverage": 0.907,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 129.0,
+        "previousEnd": 155.68
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 101: 教会往往只能给信徒外面的教导，忽略了引导信徒从最基本的生命改变开始，有一个更新的灵，以致有发自里",
+    "repair unverified end (previous-sync): target 101"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "repairFingerprint": "18834fe28f55053d21997332407da8a9e37e620bb175e03409dc2fdd586550ea",
+  "repairCueDigest": "3820b83b0ce3c434e89b8fabe120eac0e5fc423485ba10e2ba497475a6f62a4d"
 }

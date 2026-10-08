@@ -8,28 +8,92 @@
   "audioDuration": 133.774125,
   "cues": [
     {
-      "start": 2.35,
-      "end": 5.21,
-      "kind": "heading",
-      "targetIndex": 161,
-      "targetText": "十月二十五日智慧的灵",
-      "confidence": 0.947
-    },
-    {
-      "start": 5.21,
+      "start": 6.39,
       "end": 20.01,
       "kind": "paragraph",
       "targetIndex": 162,
       "targetText": "求我们主耶稣基督的上帝荣耀的父将那赐人智慧和启示的灵赏给你们使你们真知道祂并且照明你们心中的眼睛",
-      "confidence": 0.827
+      "confidence": 0.854,
+      "quality": {
+        "coverage": 0.815,
+        "coherentCoverage": 0.741,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 5.21,
+        "previousEnd": 20.01
+      }
     },
     {
-      "start": 20.01,
-      "end": 67.33,
+      "start": 23.49,
+      "end": 66.07,
       "kind": "paragraph",
       "targetIndex": 163,
       "targetText": "今天的经文让我们看见人和上帝奇妙的联合经文向我们显示了祂的奥秘但这是属肉体的人无法明白和领会的因",
-      "confidence": 0.747
+      "confidence": 0.949,
+      "quality": {
+        "coverage": 0.949,
+        "coherentCoverage": 0.936,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 20.01,
+        "previousEnd": 67.33
+      }
     },
     {
       "start": 67.33,
@@ -37,7 +101,61 @@
       "kind": "paragraph",
       "targetIndex": 164,
       "targetText": "人们往往按著自己的智慧来接受上帝话语的真理并且企图靠自己的力量来遵行但是只有圣灵才能把真理显示在",
-      "confidence": 0.907
+      "confidence": 0.907,
+      "quality": {
+        "coverage": 0.913,
+        "coherentCoverage": 0.843,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 67.33,
+        "previousEnd": 133.29
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (4 trailing chars, coverage 0.600): target 162: 「求我们主耶稣基督的神、荣耀的父，将那赐人智慧和启示的灵赏给你们，使你们真知道祂，并且照明你们心",
+    "unverified end anchor: target 162: 「求我们主耶稣基督的神、荣耀的父，将那赐人智慧和启示的灵赏给你们，使你们真知道祂，并且照明你们心",
+    "unverified end anchor: target 164: 人们往往按著自己的智慧来接受神话语的真理，并且企图靠自己的力量来遵行。但是只有圣灵才能把真理显示",
+    "repair unverified end (previous-sync): target 162",
+    "repair unverified end (previous-sync): target 164"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "repairFingerprint": "48e5a25f101646c282ce55cfc760e6fda5ec5523ba5cc90183c08fa2fb326068",
+  "repairCueDigest": "b6cab1c582443ef630e6406fa7ab04f749612d409ed426c50e3de97f39275037"
 }

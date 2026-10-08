@@ -8,36 +8,155 @@
   "audioDuration": 183.2500625,
   "cues": [
     {
-      "start": 2.19,
-      "end": 9.33,
-      "kind": "heading",
-      "targetIndex": 144,
-      "targetText": "八月二十八日祷告能反照里面的光景",
-      "confidence": 0.875
-    },
-    {
       "start": 9.33,
-      "end": 72.39,
+      "end": 70.95,
       "kind": "paragraph",
       "targetIndex": 145,
       "targetText": "我们的救主虽极有智慧但祂留给我们道德的教训却很少因为祂知道我们的心思意念和一切欲望都是属世的只有",
-      "confidence": 0.817
+      "confidence": 0.856,
+      "quality": {
+        "coverage": 0.924,
+        "coherentCoverage": 0.906,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 9.33,
+        "previousEnd": 72.39
+      }
     },
     {
       "start": 72.39,
-      "end": 142.3,
+      "end": 141.56,
       "kind": "paragraph",
       "targetIndex": 146,
       "targetText": "追求属世的生命使亚当和我们失去了上帝的生命我们对基督的渴慕却帮助我们脱离一切老我的束缚把我们从痛",
-      "confidence": 0.824
+      "confidence": 0.954,
+      "quality": {
+        "coverage": 0.952,
+        "coherentCoverage": 0.952,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 72.39,
+        "previousEnd": 142.3
+      }
     },
     {
       "start": 142.3,
-      "end": 182.82,
+      "end": 183.22,
       "kind": "paragraph",
       "targetIndex": 147,
       "targetText": "让我们思想不断两个字在我们生命中应当占甚么地位上帝不尽的爱不断地涌流给我们而我们要每时每刻不断地",
-      "confidence": 0.909
+      "confidence": 0.906,
+      "quality": {
+        "coverage": 0.902,
+        "coherentCoverage": 0.872,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 142.3,
+        "previousEnd": 182.82
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 145: 我们的救主虽极有智慧，但祂留给我们道德的教训却很少，因为祂知道我们的心思意念和一切欲望都是属世的",
+    "unverified start anchor: target 147: 让我们思想「不断」两个字，在我们生命中应当占甚么地位。神不尽的爱不断地涌流给我们，而我们要每时每",
+    "repair unverified start (previous-sync): target 145",
+    "repair unverified start (previous-sync): target 147"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 3,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "repairFingerprint": "7151b5d21e081aeca60d98ad3ec1ed59b7339498d3a246f5ff6cea93fdd6c699",
+  "repairCueDigest": "a9ab5a4338ee31ecfb2e6621838f797593fa9ddc4529ec4ecb157679dcb7b9bd"
 }

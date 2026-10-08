@@ -8,28 +8,94 @@
   "audioDuration": 180.5333125,
   "cues": [
     {
-      "start": 3.64,
-      "end": 10.06,
-      "kind": "heading",
-      "targetIndex": 90,
-      "targetText": "四月十四日基督的生命在我们里面",
-      "confidence": 0.69
-    },
-    {
       "start": 10.06,
       "end": 15.42,
       "kind": "paragraph",
       "targetIndex": 91,
       "targetText": "因为我活著你们也要活著约十四19",
-      "confidence": 0.667
+      "confidence": 0.848,
+      "quality": {
+        "coverage": 0.875,
+        "coherentCoverage": 0.75,
+        "extraSpeechContext": true,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 10.06,
+        "previousEnd": 15.42
+      }
     },
     {
-      "start": 15.42,
-      "end": 122.66,
+      "start": 17.04,
+      "end": 121.22,
       "kind": "paragraph",
       "targetIndex": 92,
       "targetText": "约翰福音和其他三卷的福音书在风格上大不相同约翰是耶稣的密友他对主的认识比其他人都深他记载了耶稣的",
-      "confidence": 0.797
+      "confidence": 0.879,
+      "quality": {
+        "coverage": 0.879,
+        "coherentCoverage": 0.817,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 15.42,
+        "previousEnd": 122.66
+      }
     },
     {
       "start": 122.66,
@@ -37,7 +103,64 @@
       "kind": "paragraph",
       "targetIndex": 93,
       "targetText": "可是有许多人只满足于基督徒基本的生命而不去追求更丰盛更实际的生命他们不相信也不打算牺牲一切让自己",
-      "confidence": 0.936
+      "confidence": 0.936,
+      "quality": {
+        "coverage": 0.936,
+        "coherentCoverage": 0.924,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 122.66,
+        "previousEnd": 180.04
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 91: 「因为我活著，你们也要活著。」（约十四 19）",
+    "repair unverified end (previous-sync): target 91"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "repairFingerprint": "64533371ce0b08ab648d19bfbd0c19180626d71c93323dac7f383b29392b6777",
+  "repairCueDigest": "566a026e9582a7812a96311efd0fc49e62c46e194df3bea2cfbb4cb0b8962200"
 }

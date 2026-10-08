@@ -8,20 +8,51 @@
   "audioDuration": 115.5406875,
   "cues": [
     {
-      "start": 2.86,
-      "end": 7.46,
-      "kind": "heading",
-      "targetIndex": 148,
-      "targetText": "八月二十九日属世界的灵",
-      "confidence": 0.7
-    },
-    {
-      "start": 7.46,
-      "end": 46.78,
+      "start": 19.82,
+      "end": 44.7,
       "kind": "paragraph",
       "targetIndex": 149,
       "targetText": "如果我们选择属天生命以外的任何生命就是选择了死因为死就是失去了上帝的生命人的灵是上帝以祂自己的生",
-      "confidence": 0.788
+      "confidence": 0.974,
+      "quality": {
+        "coverage": 0.974,
+        "coherentCoverage": 0.974,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 7.46,
+        "previousEnd": 46.78
+      }
     },
     {
       "start": 46.78,
@@ -29,7 +60,46 @@
       "kind": "paragraph",
       "targetIndex": 150,
       "targetText": "上帝拯救人的一个目的就是要把我们因堕落而得来的属世生命除去使我们再次有属天的生命凡世界上的事就像",
-      "confidence": 0.892
+      "confidence": 0.892,
+      "quality": {
+        "coverage": 0.896,
+        "coherentCoverage": 0.868,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 46.78,
+        "previousEnd": 78.4
+      }
     },
     {
       "start": 78.4,
@@ -37,7 +107,58 @@
       "kind": "paragraph",
       "targetIndex": 151,
       "targetText": "当主提到这世界世界的王和世界的灵时强调了它们对祂和教会的恨恶因此使徒也警告我们切不可与世界妥协不",
-      "confidence": 0.835
+      "confidence": 0.864,
+      "quality": {
+        "coverage": 0.89,
+        "coherentCoverage": 0.83,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 78.4,
+        "previousEnd": 115.1
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 151: 当主提到这世界，世界的王和世界的灵时，强调了它们对祂和教会的恨恶。因此，使徒也警告我们切不可与世",
+    "repair unverified end (previous-sync): target 151"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "repairFingerprint": "c05dce18785a6e35f1bdb4db6e099bea723d507e89a449da93d0f1ecd0b8dc76",
+  "repairCueDigest": "3a1085c06ddc1c38ab1328c9b844cd0e5a83bb72574dbca7bdbaf3cc66e5ff05"
 }

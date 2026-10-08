@@ -8,44 +8,200 @@
   "audioDuration": 157.9635,
   "cues": [
     {
-      "start": 2.91,
-      "end": 8.37,
-      "kind": "heading",
-      "targetIndex": 15,
-      "targetText": "二月三日人在上帝计划中的地位",
-      "confidence": 0.889
-    },
-    {
       "start": 8.37,
       "end": 14.89,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "天是耶和华的天地祂却给了世人诗一一五16",
-      "confidence": 0.649
+      "confidence": 0.649,
+      "quality": {
+        "coverage": 0.65,
+        "coherentCoverage": 0.3,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 8.37,
+        "previousEnd": 14.89
+      }
     },
     {
-      "start": 14.89,
-      "end": 97.17,
+      "start": 17.75,
+      "end": 95.67,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "上帝创造天地作为祂的居所那是一个完美荣耀和至圣的地方却把地赐给世人作为他们的居所在上帝给人的地方",
-      "confidence": 0.788
+      "confidence": 0.907,
+      "quality": {
+        "coverage": 0.898,
+        "coherentCoverage": 0.865,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 14.89,
+        "previousEnd": 97.17
+      }
     },
     {
       "start": 97.17,
-      "end": 123.78,
+      "end": 120.69,
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "世人花尽心血探索和寻求上帝隐藏在地下的宝藏上帝的儿女不也应当同样努力寻求天上的财宝好造福世界么只",
-      "confidence": 0.881
+      "confidence": 0.881,
+      "quality": {
+        "coverage": 0.881,
+        "coherentCoverage": 0.821,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 97.17,
+        "previousEnd": 123.78
+      }
     },
     {
       "start": 123.78,
-      "end": 157.24,
+      "end": 157.54,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "我们亲爱的主祢赐给人的地位是何等奇妙祢使他们能继续作祢开始了的工作主啊求祢开我们的心眼让我们明白",
-      "confidence": 0.818
+      "confidence": 0.814,
+      "quality": {
+        "coverage": 0.822,
+        "coherentCoverage": 0.772,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 123.78,
+        "previousEnd": 157.24
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 16: 「天是耶和华的天，地祂却给了世人。」（诗一一五 16）",
+    "unverified end anchor: target 16: 「天是耶和华的天，地祂却给了世人。」（诗一一五 16）",
+    "unverified start anchor: target 18: 世人花尽心血，探索和寻求神隐藏在地下的宝藏。神的儿女不也应当同样努力寻求天上的财宝，好造福世界么",
+    "repair unverified start (previous-sync): target 16",
+    "repair unverified end (previous-sync): target 16",
+    "repair unverified start (previous-sync): target 18"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 3,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "repairFingerprint": "847cd36f09165107f876a731393157f93b63b556752684ccf69a9e78b77fe2a3",
+  "repairCueDigest": "6221e088669ed214511c7919e8db6a2fbb3eaadc6d5fb0139c9d3a8d55da8ae1"
 }
