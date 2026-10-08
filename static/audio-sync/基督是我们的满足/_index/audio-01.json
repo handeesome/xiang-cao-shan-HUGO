@@ -8,20 +8,125 @@
   "audioDuration": 90.0034375,
   "cues": [
     {
-      "start": 10.99,
-      "end": 13.41,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "原序",
-      "confidence": 0.5
-    },
-    {
       "start": 13.41,
-      "end": 87.79,
+      "end": 69.07,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "这一本书是从罕有的话语职事里精选编印而成它的主题是基督就是在各方面满足我们全人一切需要的基督这样",
-      "confidence": 0.831
+      "confidence": 0.828,
+      "quality": {
+        "coverage": 0.833,
+        "coherentCoverage": 0.75,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 13.41,
+        "previousEnd": 87.79
+      }
+    },
+    {
+      "start": 70.03,
+      "end": 85.89,
+      "kind": "paragraph",
+      "targetIndex": 4,
+      "targetText": "谨以上面一点的解说作为本书的小影并深切仰望上帝的祝福但愿每一位真诚的读者都能发出基督的香气像本书",
+      "confidence": 0.949,
+      "quality": {
+        "coverage": 0.94,
+        "coherentCoverage": 0.94,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": null,
+        "previousEnd": null
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (10 leading chars, coverage 0.000): target 5: —(JohnN.Darby)约翰达秘",
+    "incomplete end (2 trailing chars, coverage 0.286): target 5: —(JohnN.Darby)约翰达秘",
+    "low confidence (0.211, coverage 0.143): target 5: —(JohnN.Darby)约翰达秘",
+    "unverified start anchor: target 5: —(JohnN.Darby)约翰达秘",
+    "unverified end anchor: target 5: —(JohnN.Darby)约翰达秘",
+    "unmatched (fragment only): target 5: —(JohnN.Darby)约翰达秘",
+    "repair missing cue (unverified): target 5"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 1,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": [
+      5
+    ]
+  },
+  "repairFingerprint": "0abf0a826811248f607bdb431b41e669f1fbb7e24316709496ded80edc8e9f8d",
+  "repairCueDigest": "13504db9f50b931ce572ce0f12ea49c13c145103b2c1b61ef0a6565a0a4c218e"
 }

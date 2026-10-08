@@ -8,20 +8,53 @@
   "audioDuration": 450.5705625,
   "cues": [
     {
-      "start": 19.37,
-      "end": 29.79,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第二十六周黑夜歌声",
-      "confidence": 0.706
-    },
-    {
       "start": 29.79,
-      "end": 37.22,
+      "end": 35.29,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "黑夜我要歌颂诗428",
-      "confidence": 0.857
+      "confidence": 0.75,
+      "quality": {
+        "coverage": 0.9,
+        "coherentCoverage": 0.7,
+        "extraSpeechContext": true,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.9,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.9,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 29.79,
+        "previousEnd": 37.22
+      }
     },
     {
       "start": 37.22,
@@ -29,31 +62,169 @@
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "诗魂间满你灵力爱天然除净的光景",
-      "confidence": 0.733
+      "confidence": 0.733,
+      "quality": {
+        "coverage": 0.733,
+        "coherentCoverage": 0.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.857,
+        "suffixCoverage": 0.714,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 37.22,
+        "previousEnd": 46.12
+      }
     },
     {
       "start": 46.12,
-      "end": 53.52,
+      "end": 52.62,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "平安深广逾洋海从此全人享稳静",
-      "confidence": 0.714
+      "confidence": 0.714,
+      "quality": {
+        "coverage": 0.714,
+        "coherentCoverage": 0.357,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.571,
+        "suffixCoverage": 0.857,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 46.12,
+        "previousEnd": 53.52
+      }
     },
     {
       "start": 53.52,
-      "end": 60.4,
+      "end": 59.22,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "我上帝原来就是爱凭灵能以知究竟",
-      "confidence": 0.867
+      "confidence": 0.867,
+      "quality": {
+        "coverage": 0.867,
+        "coherentCoverage": 0.867,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.714,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 53.52,
+        "previousEnd": 60.4
+      }
     },
     {
       "start": 60.4,
-      "end": 66.94,
+      "end": 65.5,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "每步不在他之外主卫我魂常坚定",
-      "confidence": 0.929
+      "confidence": 0.929,
+      "quality": {
+        "coverage": 0.929,
+        "coherentCoverage": 0.929,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.857,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 60.4,
+        "previousEnd": 66.94
+      }
     },
     {
       "start": 66.94,
@@ -61,23 +232,136 @@
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "黑夜这歌上帝赐下荣耀颂赞永归祂",
-      "confidence": 0.828
+      "confidence": 0.828,
+      "quality": {
+        "coverage": 0.8,
+        "coherentCoverage": 0.667,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.571,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 66.94,
+        "previousEnd": 72.62
+      }
     },
     {
-      "start": 72.62,
-      "end": 92.68,
+      "start": 75.05,
+      "end": 90.95,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "最重要的得胜常是在我们最怕失败的时候来临照样最喜乐而有光彩的诗歌也是在那凶险急难的日子迫使我们倚",
-      "confidence": 0.87
+      "confidence": 0.877,
+      "quality": {
+        "coverage": 0.877,
+        "coherentCoverage": 0.877,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 72.62,
+        "previousEnd": 92.68
+      }
     },
     {
       "start": 92.68,
-      "end": 128.03,
+      "end": 126.07,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "生离死别于我深感可怕但在灵里却一无其事主耶稣作我们彼此的联系不管距离多远这条爱的联系总不会中断但",
-      "confidence": 0.9
+      "confidence": 0.9,
+      "quality": {
+        "coverage": 0.9,
+        "coherentCoverage": 0.875,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 92.68,
+        "previousEnd": 128.03
+      }
     },
     {
       "start": 128.03,
@@ -85,47 +369,256 @@
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "祂使我们与世界各方面断绝把我们连结于祂那作成的新造上帝的手始终是好过人的手其中的严厉也是好过世界",
-      "confidence": 0.933
+      "confidence": 0.933,
+      "quality": {
+        "coverage": 0.922,
+        "coherentCoverage": 0.878,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 128.03,
+        "previousEnd": 156.33
+      }
     },
     {
-      "start": 156.33,
+      "start": 158.13,
       "end": 184.52,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "上帝使属祂的人都感到有祂的扶持所以今世所有的烦拢都值得忍受我们的魂天天都需要宝血的安慰要显明基督",
-      "confidence": 0.82
+      "confidence": 0.826,
+      "quality": {
+        "coverage": 0.826,
+        "coherentCoverage": 0.725,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 156.33,
+        "previousEnd": 184.52
+      }
     },
     {
       "start": 184.52,
-      "end": 219.72,
+      "end": 220.0,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "主良善的手常在我身上即使特别是在痛苦的事上也是这样约伯如何亨通的历史是毋庸多说的但圣灵却详细的把",
-      "confidence": 0.902
+      "confidence": 0.898,
+      "quality": {
+        "coverage": 0.894,
+        "coherentCoverage": 0.867,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution",
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 184.52,
+        "previousEnd": 219.72
+      }
     },
     {
-      "start": 219.72,
+      "start": 220.0,
       "end": 273.28,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "基督教生命的种子是从上帝儿子的眼泪中撒出去的到那日祂必看见他劳苦的功效因此在所有的事奉中我们必须",
-      "confidence": 0.853
+      "confidence": 0.857,
+      "quality": {
+        "coverage": 0.85,
+        "coherentCoverage": 0.823,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "previous-sync",
+        "previousStart": 219.72,
+        "previousEnd": 273.28
+      }
     },
     {
-      "start": 273.28,
-      "end": 325.0,
+      "start": 275.2,
+      "end": 323.74,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "天然方面是想避免痛苦然而当痛苦临到时若是我们与上帝同在力量与喜乐也必一无所缺在我们个人所经历的小",
-      "confidence": 0.859
+      "confidence": 0.865,
+      "quality": {
+        "coverage": 0.868,
+        "coherentCoverage": 0.812,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 273.28,
+        "previousEnd": 325.0
+      }
     },
     {
       "start": 325.0,
-      "end": 348.6,
+      "end": 347.68,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "那必须作的工作若不需经过忧患即可作成的话主必不会使爱患临到主的大爱远超我们的意念信靠祂祂若打击一",
-      "confidence": 0.779
+      "confidence": 0.779,
+      "quality": {
+        "coverage": 0.785,
+        "coherentCoverage": 0.677,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 325.0,
+        "previousEnd": 348.6
+      }
     },
     {
       "start": 348.6,
@@ -133,7 +626,80 @@
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "失掉母亲总是极大无比的损失也只有母亲才能是母亲但上帝却能作我们的一切祂能在我们一切忧患中保护我们",
-      "confidence": 0.917
+      "confidence": 0.917,
+      "quality": {
+        "coverage": 0.917,
+        "coherentCoverage": 0.917,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 348.6,
+        "previousEnd": 365.64
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 2: 诗：魂间满你灵、力、爱 ── 天然除净的光景。",
+    "unverified end anchor: target 2: 诗：魂间满你灵、力、爱 ── 天然除净的光景。",
+    "unverified start anchor: target 3: 平安深广逾洋海，从此全人享稳静；",
+    "unverified end anchor: target 6: 黑夜这歌神赐下，荣耀颂赞永归祂。",
+    "unverified end anchor: target 10: 神使属祂的人，都感到有祂的扶持，所以今世所有的烦拢，都值得忍受。我们的魂，天天都需要宝血的安慰。",
+    "unverified start anchor: target 11: 主良善的手常在我身上，即使（特别是）在痛苦的事上，也是这样，约伯如何亨通的历史是毋庸多说的，但圣",
+    "unverified start anchor: target 12: 基督教生命的种子，是从神儿子的眼泪中撒出去的。到那日，祂必看见他劳苦的功效。因此在所有的事奉中（",
+    "unverified end anchor: target 12: 基督教生命的种子，是从神儿子的眼泪中撒出去的。到那日，祂必看见他劳苦的功效。因此在所有的事奉中（",
+    "unverified start anchor: target 14: 那必须作的工作，若不需经过忧患即可作成的话，主必不会使爱患临到……主的大爱，远超我们的意念。信靠",
+    "repair unverified start (previous-sync): target 2",
+    "repair unverified end (previous-sync): target 2",
+    "repair unverified start (previous-sync): target 3",
+    "repair unverified end (previous-sync): target 6",
+    "repair unverified end (previous-sync): target 10",
+    "repair unverified start (previous-sync): target 11",
+    "repair unverified start (previous-verified-end): target 12",
+    "repair unverified end (previous-sync): target 12",
+    "repair unverified start (previous-sync): target 14"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 4,
+    "updatedEnds": 9,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 5,
+    "unverifiedEnds": 4,
+    "missingTargets": []
+  },
+  "repairFingerprint": "8a7a57dd3a7a33b67ece71067aeb9c193d4e4863dbb3595b18ffbf6c5c3b1b25",
+  "repairCueDigest": "199c70474d66d613629aff781364894204af3e1cfb1631405572b33b13e07944"
 }

@@ -8,68 +8,303 @@
   "audioDuration": 408.0431875,
   "cues": [
     {
-      "start": 10.58,
-      "end": 23.56,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第十八周背十架",
-      "confidence": 0.769
-    },
-    {
       "start": 23.56,
       "end": 32.58,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "天天背起他的十字架路923",
-      "confidence": 0.308
+      "confidence": 0.25,
+      "quality": {
+        "startVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endVerified": false,
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "reviewRequired": true
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 23.56,
+        "previousEnd": 32.58
+      }
     },
     {
-      "start": 32.58,
+      "start": 36.07,
       "end": 49.45,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "诗在软弱中来仰望你思念那牛糟和十架",
-      "confidence": 0.541
+      "confidence": 0.743,
+      "quality": {
+        "coverage": 0.765,
+        "coherentCoverage": 0.647,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.5,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 32.58,
+        "previousEnd": 49.45
+      }
     },
     {
       "start": 49.45,
-      "end": 60.75,
+      "end": 55.43,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "亲见柔细美丽的你在苦痛损失经历下",
-      "confidence": 0.903
+      "confidence": 0.903,
+      "quality": {
+        "coverage": 0.875,
+        "coherentCoverage": 0.75,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 49.45,
+        "previousEnd": 60.75
+      }
     },
     {
       "start": 60.75,
-      "end": 70.37,
+      "end": 70.89,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "我们没有背起自己的十字架以先已经有一个十字架给了我们祂为我们曾受苦舍身作赎价",
-      "confidence": 0.892
+      "confidence": 0.868,
+      "quality": {
+        "coverage": 0.868,
+        "coherentCoverage": 0.868,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.895,
+        "suffixCoverage": 0.842,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 60.75,
+        "previousEnd": 70.37
+      }
     },
     {
-      "start": 70.37,
-      "end": 121.12,
+      "start": 72.65,
+      "end": 118.69,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "在世界的一切都要放下与世界的联系都要打断那最摸着我心的是最危险的应该最受厌恶亲情与爱情不是坏东西",
-      "confidence": 0.956
+      "confidence": 0.963,
+      "quality": {
+        "coverage": 0.963,
+        "coherentCoverage": 0.948,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 70.37,
+        "previousEnd": 121.12
+      }
     },
     {
       "start": 121.12,
-      "end": 150.86,
+      "end": 149.1,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "我们必定会有十字架但这算得什么呢十字架于我们是好东西它吸引我们脱离世界它破碎我们的意志并可能划断",
-      "confidence": 0.968
+      "confidence": 0.968,
+      "quality": {
+        "coverage": 0.968,
+        "coherentCoverage": 0.936,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 121.12,
+        "previousEnd": 150.86
+      }
     },
     {
       "start": 150.86,
-      "end": 183.18,
+      "end": 180.94,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "主耶稣是好牧人祂带自己的羊出去祂走在羊的前头羊也跟着祂门徒跟祂走的时候惧怕起来主耶稣带着他们到十",
-      "confidence": 0.911
+      "confidence": 0.911,
+      "quality": {
+        "coverage": 0.911,
+        "coherentCoverage": 0.878,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 150.86,
+        "previousEnd": 183.18
+      }
     },
     {
       "start": 183.18,
@@ -77,23 +312,134 @@
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "我们越有忠心无疑就越有更多的苦难但是也必定有无穷的安慰我们只管背起十字架若这十字架是真的话我们必",
-      "confidence": 0.68
+      "confidence": 0.907,
+      "quality": {
+        "coverage": 0.907,
+        "coherentCoverage": 0.827,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 183.18,
+        "previousEnd": 209.46
+      }
     },
     {
       "start": 209.46,
-      "end": 256.45,
+      "end": 253.58,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "主说必须背起十字架来跟从祂如果你们跟从祂祂能赐你们十字架这就是祂现在所要给你们的你们必要像祂也必",
-      "confidence": 0.891
+      "confidence": 0.891,
+      "quality": {
+        "coverage": 0.891,
+        "coherentCoverage": 0.844,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 209.46,
+        "previousEnd": 256.45
+      }
     },
     {
       "start": 256.45,
-      "end": 286.84,
+      "end": 284.83,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "所有带领我们与世界调和与世俗妥协的东西都会挪去十字架叫人讨厌的地方并且使我们离开基督当我们的心完",
-      "confidence": 0.977
+      "confidence": 0.977,
+      "quality": {
+        "coverage": 0.977,
+        "coherentCoverage": 0.977,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 256.45,
+        "previousEnd": 286.84
+      }
     },
     {
       "start": 286.84,
@@ -101,7 +447,42 @@
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "我们为主作工除了必须经历其中的喜乐外还需要经历其中的忧伤如果我们的忧伤是祂的忧伤我们的喜乐是祂的",
-      "confidence": 0.936
+      "confidence": 0.933,
+      "quality": {
+        "coverage": 0.933,
+        "coherentCoverage": 0.903,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 286.84,
+        "previousEnd": 332.68
+      }
     },
     {
       "start": 332.68,
@@ -109,7 +490,78 @@
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "我们如何切望在天上与主同尊贵同样也必须有分于祂在地上的经历就是被人憎恨",
-      "confidence": 0.914
+      "confidence": 0.914,
+      "quality": {
+        "coverage": 0.914,
+        "coherentCoverage": 0.886,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.941,
+        "suffixCoverage": 0.882,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 332.68,
+        "previousEnd": 344.42
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (6 trailing chars, coverage 0.000): target 1: “天天背起他的十字架。”（路 9:23）",
+    "low confidence (0.270, coverage 0.385): target 1: “天天背起他的十字架。”（路 9:23）",
+    "unverified start anchor: target 1: “天天背起他的十字架。”（路 9:23）",
+    "unverified end anchor (detached boundary context): target 1: “天天背起他的十字架。”（路 9:23）",
+    "unmatched (fragment only): target 1: “天天背起他的十字架。”（路 9:23）",
+    "incomplete end (1 trailing chars, coverage 0.500): target 2: 诗：在软弱中来仰望你，思念那牛糟和十架；",
+    "unverified end anchor: target 2: 诗：在软弱中来仰望你，思念那牛糟和十架；",
+    "unverified start anchor: target 3: 亲见柔细美丽的你，在苦痛损失经历下。",
+    "unverified end anchor: target 8: 我们越有忠心，无疑就越有更多的苦难，但是也必定有无穷的安慰，我们只管背起十字架。若这十字架是真的",
+    "unverified end anchor: target 11: 我们为主作工，除了必须经历其中的喜乐外，还需要经历其中的忧伤。如果我们的忧伤是祂的忧伤，我们的喜",
+    "repair unverified start (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 2",
+    "repair unverified start (previous-sync): target 3",
+    "repair unverified end (previous-sync): target 8",
+    "repair unverified end (previous-sync): target 11"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 7,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 4,
+    "missingTargets": []
+  },
+  "repairFingerprint": "810995bd6c17dcc4ae1c82d2c3d7f7df6befd7522b78237bc89ca96790abe679",
+  "repairCueDigest": "04d02d6fc6047fc991f7694abe217115ceb60f9ab2b5bbbea25e0fc3bb5619f2"
 }

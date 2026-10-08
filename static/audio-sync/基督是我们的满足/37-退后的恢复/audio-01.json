@@ -8,20 +8,39 @@
   "audioDuration": 397.38525,
   "cues": [
     {
-      "start": 15.43,
-      "end": 25.0,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第三十七周退后与恢复",
-      "confidence": 1.0
-    },
-    {
       "start": 25.0,
       "end": 31.12,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "祂恢复我的魂诗233直译",
-      "confidence": 0.556
+      "confidence": 0.345,
+      "quality": {
+        "coverage": 0.417,
+        "coherentCoverage": 0.417,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.833,
+        "suffixCoverage": 0.0,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 6,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 25.0,
+        "previousEnd": 31.12
+      }
     },
     {
       "start": 31.12,
@@ -29,15 +48,78 @@
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "诗云翳遮蔽又散开甘甜晤你蒙恩眷",
-      "confidence": 0.6
+      "confidence": 0.545,
+      "quality": {
+        "coverage": 0.6,
+        "coherentCoverage": 0.4,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.714,
+        "suffixCoverage": 0.429,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 31.12,
+        "previousEnd": 40.86
+      }
     },
     {
       "start": 40.86,
-      "end": 46.36,
+      "end": 45.36,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "荣脸慈祥从未改向我爱情永不倦",
-      "confidence": 0.833
+      "confidence": 0.8,
+      "quality": {
+        "coverage": 0.714,
+        "coherentCoverage": 0.714,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.571,
+        "suffixCoverage": 0.857,
+        "unmatchedLeadingChars": 3,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution",
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 40.86,
+        "previousEnd": 46.36
+      }
     },
     {
       "start": 46.36,
@@ -45,47 +127,273 @@
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "哦主耶稣护我魂永在你里而仰赖",
-      "confidence": 0.769
+      "confidence": 0.815,
+      "quality": {
+        "coverage": 0.786,
+        "coherentCoverage": 0.714,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.571,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 46.36,
+        "previousEnd": 52.06
+      }
     },
     {
-      "start": 52.06,
-      "end": 58.38,
+      "start": 53.6,
+      "end": 58.78,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "我一流荡若罔闻请教我快回你怀",
-      "confidence": 0.643
+      "confidence": 0.857,
+      "quality": {
+        "coverage": 0.857,
+        "coherentCoverage": 0.857,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.714,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 52.06,
+        "previousEnd": 58.38
+      }
     },
     {
-      "start": 58.38,
-      "end": 66.95,
+      "start": 61.13,
+      "end": 67.17,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "习惯而忠心的在小事上来对付肉体就是不跌倒的秘诀",
-      "confidence": 0.739
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 58.38,
+        "previousEnd": 66.95
+      }
     },
     {
-      "start": 66.95,
+      "start": 68.09,
       "end": 104.93,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "要认识自己这一番工夫是顶不舒服的但是很有用彼得被筛过他要学的一个功课就是知道自负自信是叫他跌倒的",
-      "confidence": 0.911
+      "confidence": 0.915,
+      "quality": {
+        "coverage": 0.922,
+        "coherentCoverage": 0.862,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 66.95,
+        "previousEnd": 104.93
+      }
     },
     {
-      "start": 104.93,
-      "end": 142.93,
+      "start": 106.51,
+      "end": 143.21,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "在人面前的谦卑往往是在上帝面前得到了恢复的最好凭据假定我的心灵与主失去了交通天然的心必定说我要先",
-      "confidence": 0.853
+      "confidence": 0.892,
+      "quality": {
+        "coverage": 0.889,
+        "coherentCoverage": 0.889,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 104.93,
+        "previousEnd": 142.93
+      }
     },
     {
-      "start": 142.93,
-      "end": 174.31,
+      "start": 144.63,
+      "end": 172.59,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "基督徒要真实的得到恢复必须认清他与上帝断绝交通是在哪一点又是怎样的任意偏行上帝的同在使人有灵里的",
-      "confidence": 0.788
+      "confidence": 0.944,
+      "quality": {
+        "coverage": 0.949,
+        "coherentCoverage": 0.918,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 142.93,
+        "previousEnd": 174.31
+      }
     },
     {
       "start": 174.31,
@@ -93,23 +401,128 @@
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "努力作事是对的但千万不要让你的事情成为你心灵与上帝中间的阻隔若是你们不及主那样明亮并且越过越差就",
-      "confidence": 0.879
+      "confidence": 0.879,
+      "quality": {
+        "coverage": 0.879,
+        "coherentCoverage": 0.803,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 174.31,
+        "previousEnd": 195.35
+      }
     },
     {
       "start": 195.35,
-      "end": 234.93,
+      "end": 233.59,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "倘若忧患横亘在我们与上帝之间并且产生不信这就是罪了无论是因愁苦或因犯罪主都能恢复我们许诗篇的作者",
-      "confidence": 0.726
+      "confidence": 0.861,
+      "quality": {
+        "coverage": 0.887,
+        "coherentCoverage": 0.809,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 195.35,
+        "previousEnd": 234.93
+      }
     },
     {
       "start": 234.93,
-      "end": 271.97,
+      "end": 270.97,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "人在罪的滑径上脚步是越走越快的因为那开头所犯的罪在人的心灵中削弱了那能挡阻我们犯更大罪的东西上帝",
-      "confidence": 0.921
+      "confidence": 0.921,
+      "quality": {
+        "coverage": 0.924,
+        "coherentCoverage": 0.924,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 234.93,
+        "previousEnd": 271.97
+      }
     },
     {
       "start": 271.97,
@@ -117,7 +530,82 @@
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "当一个人没有约束的随己意而作失去了上帝的保护而又在仇敌权势之下还说他有信心那倒是惊人的我谈常识讲",
-      "confidence": 0.943
+      "confidence": 0.943,
+      "quality": {
+        "coverage": 0.943,
+        "coherentCoverage": 0.931,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 271.97,
+        "previousEnd": 300.11
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (6 trailing chars, coverage 0.000): target 1: “祂恢复我的魂。”（诗 23:3 直译）",
+    "low confidence (0.588, coverage 0.417): target 1: “祂恢复我的魂。”（诗 23:3 直译）",
+    "unverified start anchor: target 1: “祂恢复我的魂。”（诗 23:3 直译）",
+    "unverified end anchor: target 1: “祂恢复我的魂。”（诗 23:3 直译）",
+    "incomplete end (0 trailing chars, coverage 0.429): target 2: 诗：云翳遮蔽又散开，甘甜晤你蒙恩眷；",
+    "unverified start anchor: target 2: 诗：云翳遮蔽又散开，甘甜晤你蒙恩眷；",
+    "unverified end anchor: target 2: 诗：云翳遮蔽又散开，甘甜晤你蒙恩眷；",
+    "unverified end anchor: target 4: 哦，主耶稣护我魂，永在你里而仰赖；",
+    "unverified end anchor: target 7: 要认识自己，这一番工夫是顶不舒服的，但是很有用。彼得被筛过，他要学的一个功课，就是知道自负自信，",
+    "unverified end anchor: target 10: 努力作事是对的，但千万不要让你的事情成为你心灵与神中间的阻隔。若是你们不及主那样明亮，并且越过越",
+    "unverified start anchor: target 11: 倘若忧患横亘在我们与神之间，并且产生不信，这就是罪了。无论是因愁苦，或因犯罪，主都能恢复我们，许",
+    "repair unverified start (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified start (previous-sync): target 2",
+    "repair unverified end (previous-sync): target 2",
+    "repair unverified start (previous-sync): target 3",
+    "repair unverified end (previous-sync): target 4",
+    "repair unverified end (previous-sync): target 7",
+    "repair unverified end (previous-sync): target 10",
+    "repair unverified start (previous-sync): target 11"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 5,
+    "updatedEnds": 7,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 4,
+    "unverifiedEnds": 5,
+    "missingTargets": []
+  },
+  "repairFingerprint": "f5fe5d94530e73c40662226182ccb6f81865dc915cd731b6c148fd482daa1c16",
+  "repairCueDigest": "76f0f456b46a7107a24f467529df7c4e6f834deff7a7f228751bd98720dc2c9b"
 }

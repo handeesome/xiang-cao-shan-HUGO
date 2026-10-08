@@ -8,28 +8,80 @@
   "audioDuration": 471.2334375,
   "cues": [
     {
-      "start": 14.95,
-      "end": 25.05,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第五十周安心信靠",
-      "confidence": 1.0
-    },
-    {
       "start": 25.05,
       "end": 37.49,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "耶和华是你所依靠的箴326",
-      "confidence": 0.667
+      "confidence": 0.5,
+      "quality": {
+        "coverage": 0.615,
+        "coherentCoverage": 0.615,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.833,
+        "suffixCoverage": 0.333,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 25.05,
+        "previousEnd": 37.49
+      }
     },
     {
       "start": 37.49,
-      "end": 43.99,
+      "end": 43.09,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "诗父阿我们因你恩典受教前来靠你名",
-      "confidence": 0.774
+      "confidence": 0.903,
+      "quality": {
+        "coverage": 0.938,
+        "coherentCoverage": 0.812,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.875,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 37.49,
+        "previousEnd": 43.99
+      }
     },
     {
       "start": 43.99,
@@ -37,55 +89,318 @@
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "举起赤心寻求你面你里喜乐何等深",
-      "confidence": 0.828
+      "confidence": 0.8,
+      "quality": {
+        "coverage": 0.8,
+        "coherentCoverage": 0.6,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.571,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 43.99,
+        "previousEnd": 53.59
+      }
     },
     {
       "start": 53.59,
-      "end": 60.13,
+      "end": 59.09,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "你赐的心使我喜欢远超我们的感赞",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 53.59,
+        "previousEnd": 60.13
+      }
     },
     {
       "start": 60.13,
-      "end": 69.27,
+      "end": 66.55,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "全心向你居所而住同享天城的辉煌",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 60.13,
+        "previousEnd": 69.27
+      }
     },
     {
       "start": 69.27,
-      "end": 76.29,
+      "end": 74.73,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "与上帝相交必定产生那信靠祂能力的人",
-      "confidence": 0.941
+      "confidence": 0.941,
+      "quality": {
+        "coverage": 0.941,
+        "coherentCoverage": 0.941,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.875,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 69.27,
+        "previousEnd": 76.29
+      }
     },
     {
       "start": 76.29,
-      "end": 104.49,
+      "end": 102.73,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "我们是否认识上帝的同在实际上就是我们心灵安居之所呢哦你看这里有何等的喜乐请确信靠着主耶稣的名来到",
-      "confidence": 0.96
+      "confidence": 0.96,
+      "quality": {
+        "coverage": 0.96,
+        "coherentCoverage": 0.96,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 76.29,
+        "previousEnd": 104.49
+      }
     },
     {
       "start": 104.49,
-      "end": 146.94,
+      "end": 143.16,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "我们行善不要丧志若不灰心时候一到我们就必有收成马太二十章的原则是所当给的我必给你们于是这个人就进",
-      "confidence": 0.936
+      "confidence": 0.955,
+      "quality": {
+        "coverage": 0.963,
+        "coherentCoverage": 0.945,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 104.49,
+        "previousEnd": 146.94
+      }
     },
     {
       "start": 146.94,
-      "end": 189.54,
+      "end": 188.22,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "魔鬼所作的就是要破坏我们信靠上帝的心主耶稣所作的就是指给我们看上帝是绝对可信靠的一个称为信徒的人",
-      "confidence": 0.882
+      "confidence": 0.939,
+      "quality": {
+        "coverage": 0.943,
+        "coherentCoverage": 0.893,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 146.94,
+        "previousEnd": 189.54
+      }
     },
     {
       "start": 189.54,
@@ -93,31 +408,215 @@
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "麻雀为自己找着房屋燕子为自己找着孵雏之窝这是何等美丽的图画它表明上帝对一切众生的慈爱与看顾他没有",
-      "confidence": 0.897
+      "confidence": 0.897,
+      "quality": {
+        "coverage": 0.884,
+        "coherentCoverage": 0.884,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 189.54,
+        "previousEnd": 243.96
+      }
     },
     {
       "start": 243.96,
-      "end": 292.98,
+      "end": 293.58,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "大卫所表现的是一个认识耶和华的心他这种表现始终不衰他信靠上帝过于一切甚至付上任何的代价他说我情愿",
-      "confidence": 0.901
+      "confidence": 0.894,
+      "quality": {
+        "coverage": 0.894,
+        "coherentCoverage": 0.88,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 243.96,
+        "previousEnd": 292.98
+      }
     },
     {
-      "start": 292.98,
-      "end": 332.07,
+      "start": 295.67,
+      "end": 332.55,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "圣徒简单的避难所就是在上帝里面上帝是我的保障抵挡仇敌的权势不在乎用什么反击战略也不是用人的方法这",
-      "confidence": 0.752
+      "confidence": 0.917,
+      "quality": {
+        "coverage": 0.917,
+        "coherentCoverage": 0.901,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 292.98,
+        "previousEnd": 332.07
+      }
     },
     {
-      "start": 332.07,
+      "start": 344.1,
       "end": 377.88,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "多少时候上帝使我们感到不能依靠人只能单单依靠他我们时常从人那里得到安慰那安慰丧气之人的上帝藉着提",
-      "confidence": 0.85
+      "confidence": 0.97,
+      "quality": {
+        "coverage": 0.97,
+        "coherentCoverage": 0.97,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 332.07,
+        "previousEnd": 377.88
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (4 trailing chars, coverage 0.333): target 1: “耶和华是你所依靠的。”（箴 3:26）",
+    "unverified end anchor: target 1: “耶和华是你所依靠的。”（箴 3:26）",
+    "unverified start anchor: target 2: 诗：父阿我们因你恩典，受教前来靠你名，",
+    "unverified end anchor: target 3: 举起赤心寻求你面，你里喜乐何等深！",
+    "unverified start anchor: target 9: 魔鬼所作的，就是要破坏我们信靠神的心；主耶稣所作的，就是指给我们看，神是绝对可信靠的，一个称为信",
+    "repair unverified start (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified start (previous-sync): target 2",
+    "repair unverified end (previous-sync): target 3",
+    "repair unverified start (previous-sync): target 9"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 9,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 3,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "repairFingerprint": "471093e0779cb482f8203aeb5a3cfabc586d273044d4737923645eb921fba21a",
+  "repairCueDigest": "1a2a335bd9b4de5b688fc4294244843007a566a31ebf91be89488fff3e60b843"
 }

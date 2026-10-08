@@ -8,28 +8,86 @@
   "audioDuration": 373.4309375,
   "cues": [
     {
-      "start": 20.5,
-      "end": 34.84,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第五十一周天上之光",
-      "confidence": 0.889
-    },
-    {
       "start": 34.84,
       "end": 42.56,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "上帝就是光约壹15",
-      "confidence": 0.714
+      "confidence": 0.435,
+      "quality": {
+        "coverage": 0.556,
+        "coherentCoverage": 0.556,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 34.84,
+        "previousEnd": 42.56
+      }
     },
     {
       "start": 42.56,
-      "end": 48.36,
+      "end": 47.26,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "诗你光纯无瑕从天降地下",
-      "confidence": 0.667
+      "confidence": 0.952,
+      "quality": {
+        "coverage": 0.909,
+        "coherentCoverage": 0.909,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.909,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.909,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 42.56,
+        "previousEnd": 48.36
+      }
     },
     {
       "start": 48.36,
@@ -37,55 +95,318 @@
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "带来真福气并有你自己",
-      "confidence": 0.5
+      "confidence": 0.9,
+      "quality": {
+        "coverage": 0.9,
+        "coherentCoverage": 0.6,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.9,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 48.36,
+        "previousEnd": 53.24
+      }
     },
     {
       "start": 53.24,
-      "end": 57.14,
+      "end": 56.08,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "可靠的启示天上的圣事",
-      "confidence": 0.778
+      "confidence": 0.8,
+      "quality": {
+        "coverage": 0.8,
+        "coherentCoverage": 0.8,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.8,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "next-verified-start"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "next-verified-start",
+        "previousStart": 53.24,
+        "previousEnd": 57.14
+      }
     },
     {
-      "start": 57.14,
+      "start": 56.08,
       "end": 61.1,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "愿光充满我以你为居所",
-      "confidence": 0.737
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 57.14,
+        "previousEnd": 61.1
+      }
     },
     {
       "start": 61.1,
-      "end": 82.83,
+      "end": 81.85,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "只有上帝的同在作光是照才会使我们定罪自己并给我们能力洁净自己脱离那些虽然隐藏在我们的最深处却是自",
-      "confidence": 0.673
+      "confidence": 0.904,
+      "quality": {
+        "coverage": 0.904,
+        "coherentCoverage": 0.846,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 61.1,
+        "previousEnd": 82.83
+      }
     },
     {
       "start": 82.83,
-      "end": 121.88,
+      "end": 120.15,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "这样的一个时候是完全属天的因为地远离上帝其中的黑暗天天向人紧逼但我们却属于光明并且在祂光中得以见",
-      "confidence": 0.62
+      "confidence": 0.882,
+      "quality": {
+        "coverage": 0.878,
+        "coherentCoverage": 0.878,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 82.83,
+        "previousEnd": 121.88
+      }
     },
     {
       "start": 121.88,
-      "end": 156.9,
+      "end": 155.54,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "多少时候我们太过追求如何弥补因失败而蒙羞的情形却忽略了对付那叫我们失败蒙羞的心灵我们若不等候上帝",
-      "confidence": 0.875
+      "confidence": 0.875,
+      "quality": {
+        "coverage": 0.875,
+        "coherentCoverage": 0.875,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 121.88,
+        "previousEnd": 156.9
+      }
     },
     {
       "start": 156.9,
-      "end": 189.83,
+      "end": 188.06,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "一个人活在自己的经历里和以自己为中心的景况中他自己知道在里面我是有地位的至于与此相反的情形我就从",
-      "confidence": 0.971
+      "confidence": 0.971,
+      "quality": {
+        "coverage": 0.971,
+        "coherentCoverage": 0.971,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 156.9,
+        "previousEnd": 189.83
+      }
     },
     {
       "start": 189.83,
@@ -93,23 +414,128 @@
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "我自己每天的道路是不是从光中而来是否被光所引导一切与上帝同在的都是光明的其中会有试炼但有上帝同在",
-      "confidence": 0.992
+      "confidence": 0.992,
+      "quality": {
+        "coverage": 0.984,
+        "coherentCoverage": 0.984,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 189.83,
+        "previousEnd": 208.04
+      }
     },
     {
-      "start": 208.04,
+      "start": 209.82,
       "end": 234.06,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "人若仅有道德的完全而没有上帝就难得看见罪孽一个诚恳的天然人可能是用他的良心但还是不能看见天然的眼",
-      "confidence": 0.77
+      "confidence": 0.956,
+      "quality": {
+        "coverage": 0.95,
+        "coherentCoverage": 0.912,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 208.04,
+        "previousEnd": 234.06
+      }
     },
     {
       "start": 234.06,
-      "end": 279.96,
+      "end": 278.86,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "有了我命令又遵守的这人就是爱我的爱我的必蒙我父爱他我也要爱他并且要向他显现主耶稣的享受父爱是一条",
-      "confidence": 0.929
+      "confidence": 0.929,
+      "quality": {
+        "coverage": 0.933,
+        "coherentCoverage": 0.886,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 234.06,
+        "previousEnd": 279.96
+      }
     },
     {
       "start": 279.96,
@@ -117,7 +543,70 @@
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "主愿你与我同住不让我心入迷惘阻我得见生命光主以能力来卫护不让地乐再吸引赶逐你恩囚我心",
-      "confidence": 0.762
+      "confidence": 0.833,
+      "quality": {
+        "coverage": 0.833,
+        "coherentCoverage": 0.738,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 279.96,
+        "previousEnd": 299.8
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (4 trailing chars, coverage 0.000): target 1: “神就是光。”（约壹 1:5）",
+    "unverified start anchor: target 1: “神就是光。”（约壹 1:5）",
+    "unverified end anchor: target 1: “神就是光。”（约壹 1:5）",
+    "unverified end anchor: target 3: 带来真福气，并有你自己 ──",
+    "unverified end anchor: target 11: 人若仅有道德的完全，而没有神，就难得看见罪孽。一个诚恳的天然人，可能是用他的良心，但还是不能看见",
+    "unverified start anchor: target 12: “有了我命令又遵守的，这人就是爱我的，爱我的必蒙我父爱他，我也要爱他，并且要向他显现。”主耶稣的",
+    "unverified end anchor: target 13: 主，愿你与我同住 ── 不让我心入迷惘，阻我得见生命光！主，以能力来卫护 ── 不让地乐再吸引，",
+    "repair unverified start (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 3",
+    "repair unverified end (next-verified-start): target 4",
+    "repair unverified end (previous-sync): target 11",
+    "repair unverified start (previous-sync): target 12",
+    "repair unverified end (previous-sync): target 13"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 7,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 5,
+    "missingTargets": []
+  },
+  "repairFingerprint": "eb25950975d06b5a545650a32b87b27bc338305016907082bed950ca852d20b1",
+  "repairCueDigest": "cecc78fbd2edd3b85fd8f9d8cfd8f357c8cf95b897911c58da7a2d789798a055"
 }

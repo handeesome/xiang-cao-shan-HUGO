@@ -8,44 +8,178 @@
   "audioDuration": 385.3950625,
   "cues": [
     {
-      "start": 19.81,
-      "end": 30.09,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第二十三周上帝的爱上",
-      "confidence": 0.632
-    },
-    {
       "start": 30.09,
       "end": 34.39,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "上帝就是爱约壹48",
-      "confidence": 0.615
+      "confidence": 0.571,
+      "quality": {
+        "coverage": 0.667,
+        "coherentCoverage": 0.667,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.25,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 30.09,
+        "previousEnd": 34.39
+      }
     },
     {
       "start": 34.39,
-      "end": 48.26,
+      "end": 46.41,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "诗哦圣哉上帝意已经规定荣耀都要归给上帝",
-      "confidence": 0.474
+      "confidence": 0.789,
+      "quality": {
+        "coverage": 0.789,
+        "coherentCoverage": 0.421,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.667,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 34.39,
+        "previousEnd": 48.26
+      }
     },
     {
       "start": 48.26,
-      "end": 54.3,
+      "end": 54.56,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "哦圣哉上帝爱已经发令藉血我们也有分",
-      "confidence": 0.5
+      "confidence": 0.788,
+      "quality": {
+        "coverage": 0.765,
+        "coherentCoverage": 0.706,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 48.26,
+        "previousEnd": 54.3
+      }
     },
     {
-      "start": 54.3,
-      "end": 88.43,
+      "start": 54.56,
+      "end": 87.49,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "最深奥而又最简单的那就是上帝完全的爱什么时候我们真的认识上帝我们就认识祂是爱既知所有临到我们身上",
-      "confidence": 0.931
+      "confidence": 0.975,
+      "quality": {
+        "coverage": 0.98,
+        "coherentCoverage": 0.95,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 54.3,
+        "previousEnd": 88.43
+      }
     },
     {
       "start": 88.43,
@@ -53,7 +187,40 @@
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "上帝在祂自己的爱中需要有其他生灵为对象而使他们得着喜乐祂是愿意他们喜乐也只有这样祂自己在爱中才有",
-      "confidence": 0.886
+      "confidence": 0.886,
+      "quality": {
+        "coverage": 0.908,
+        "coherentCoverage": 0.842,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 88.43,
+        "previousEnd": 152.19
+      }
     },
     {
       "start": 152.19,
@@ -61,55 +228,350 @@
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "人自私自利的心太厉害因此上帝的爱对他就成了一个谜这爱比罚他的圣洁更难得到人的了解当时没有一个人了",
-      "confidence": 0.983
+      "confidence": 0.983,
+      "quality": {
+        "coverage": 0.983,
+        "coherentCoverage": 0.933,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 152.19,
+        "previousEnd": 172.57
+      }
     },
     {
       "start": 172.57,
-      "end": 186.15,
+      "end": 183.61,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "圣灵使我们感到父的大爱祂显示给我们的不是我们的微小而是上帝的伟大藉此使我们进入自由",
-      "confidence": 0.864
+      "confidence": 0.864,
+      "quality": {
+        "coverage": 0.854,
+        "coherentCoverage": 0.78,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 172.57,
+        "previousEnd": 186.15
+      }
     },
     {
       "start": 186.15,
-      "end": 215.85,
+      "end": 216.31,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "信心是眼光是在十字架里才能最厉害看出人类罪恶的深重和上帝对罪的憎恶信心的眼光又在那里看出上帝胜过",
-      "confidence": 0.809
+      "confidence": 0.8,
+      "quality": {
+        "coverage": 0.796,
+        "coherentCoverage": 0.667,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 186.15,
+        "previousEnd": 215.85
+      }
     },
     {
-      "start": 215.85,
-      "end": 272.04,
+      "start": 216.31,
+      "end": 271.0,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "在人间有一件真正痛苦的试炼就是看见自己的骨肉在想不到的日子忽然去世然而若能抬起头来仰望主的爱心境",
-      "confidence": 0.972
+      "confidence": 0.98,
+      "quality": {
+        "coverage": 0.976,
+        "coherentCoverage": 0.976,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "verified-transcript",
+        "previousStart": 215.85,
+        "previousEnd": 272.04
+      }
     },
     {
       "start": 272.04,
-      "end": 291.16,
+      "end": 290.18,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "基督必须作我们的一切不然我们就会很快灰心丧气基督若不是我的一切而父的爱如何也不我们生命所呼吸的空",
-      "confidence": 0.928
+      "confidence": 0.928,
+      "quality": {
+        "coverage": 0.935,
+        "coherentCoverage": 0.935,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 272.04,
+        "previousEnd": 291.16
+      }
     },
     {
       "start": 291.16,
-      "end": 306.36,
+      "end": 304.3,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "天父的家万福之源甘甜远超恩物临到我身永不收回如主存到永远",
-      "confidence": 0.821
+      "confidence": 0.821,
+      "quality": {
+        "coverage": 0.821,
+        "coherentCoverage": 0.679,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.786,
+        "suffixCoverage": 0.857,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 291.16,
+        "previousEnd": 306.36
+      }
     },
     {
       "start": 306.36,
-      "end": 341.74,
+      "end": 342.22,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "耶和华管教祂所爱的人这里可得到两个结论一这管教必不是无缘无故二这管教绝对不会不带着上帝的爱所以我",
-      "confidence": 0.899
+      "confidence": 0.891,
+      "quality": {
+        "coverage": 0.891,
+        "coherentCoverage": 0.864,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 306.36,
+        "previousEnd": 341.74
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (3 trailing chars, coverage 0.250): target 1: “神就是爱。”（约壹 4:8）",
+    "low confidence (0.545, coverage 0.667): target 1: “神就是爱。”（约壹 4:8）",
+    "unverified start anchor: target 1: “神就是爱。”（约壹 4:8）",
+    "unverified end anchor: target 1: “神就是爱。”（约壹 4:8）",
+    "unverified start anchor: target 2: 诗：哦！圣哉神意！已经规定，荣耀都要归给神；",
+    "unverified end anchor: target 5: 神在祂自己的爱中，需要有其他生灵为对象，而使他们得着喜乐，祂是愿意他们喜乐，也只有这样，祂自己在",
+    "unverified end anchor: target 6: 人自私自利的心太厉害，因此，神的爱对他就成了一个谜，这爱比罚他的圣洁更难得到人的了解。当时没有一",
+    "unverified start anchor: target 9: 在人间有一件真正痛苦的试炼。就是看见自己的骨肉，在想不到的日子忽然去世，然而若能抬起头来仰望主的",
+    "repair unverified start (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified start (previous-sync): target 2",
+    "repair unverified end (previous-sync): target 5",
+    "repair unverified end (previous-sync): target 6",
+    "repair unverified start (previous-verified-end): target 9"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 9,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 3,
+    "unverifiedEnds": 3,
+    "missingTargets": []
+  },
+  "repairFingerprint": "889dc88aa2f1ec8ea3747f34296b1af9d0b534f4d8d4637c3797107eac1a04dc",
+  "repairCueDigest": "c53ccf9bbb34a435eac439a89319672414fa885b84ed5dd698215f6acecb81c6"
 }
