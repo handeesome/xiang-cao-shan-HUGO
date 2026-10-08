@@ -1,11 +1,39 @@
 {{- $src := .Get "src" -}}
 {{- $alt := .Get "alt" | default "" -}}
 {{- $width := .Get "width" | default "520" -}}
+{{- $image := false -}}
+{{- $localPath := strings.TrimPrefix "/" $src -}}
+{{/* Keep remote images unchanged; make local static images available to Hugo Pipes. */}}
+{{- if and (not (strings.Contains $src ":")) (not (strings.HasPrefix $src "//")) -}}
+  {{- $image = resources.Get $localPath -}}
+  {{- if and (not $image) (fileExists (path.Join "static" $localPath)) -}}
+    {{- $image = resources.FromString $localPath (os.ReadFile (path.Join "static" $localPath)) -}}
+  {{- end -}}
+{{- end -}}
 
 <figure class="book-illustration">
+  {{- if and $image (in (slice "image/jpeg" "image/png" "image/webp") $image.MediaType.Type) -}}
+  {{- $sources := slice -}}
+  {{- range slice 360 520 780 1040 $image.Width -}}
+    {{- $size := math.Min . $image.Width | int -}}
+    {{- $variant := $image.Resize (printf "%dx webp q90 lanczos" $size) -}}
+    {{- $sources = $sources | append (printf "%s %dw" $variant.RelPermalink $size) -}}
+  {{- end -}}
+  {{- $fallback := $image.Resize (printf "%dx webp q90 lanczos" (math.Min (int $width) $image.Width | int)) -}}
+  {{- $height := math.Round (div (mul (float $width) (float $image.Height)) (float $image.Width)) | int -}}
+  <img
+    src="{{ $fallback.RelPermalink }}"
+    srcset="{{ delimit ($sources | uniq) ", " }}"
+    sizes="(max-width: 560px) min(calc(100vw - 2.5rem), {{ $width }}px), {{ $width }}px"
+    alt="{{ $alt }}"
+    width="{{ $width }}"
+    height="{{ $height }}"
+    decoding="async" />
+  {{- else -}}
   <img
     src="{{ $src | safeURL }}"
     alt="{{ $alt }}"
     width="{{ $width }}"
     decoding="async" />
+  {{- end -}}
 </figure>
