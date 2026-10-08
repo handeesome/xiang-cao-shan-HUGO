@@ -13,7 +13,46 @@
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "亲爱的弟兄姊妹",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1.52,
+        "previousEnd": 2.94
+      }
     },
     {
       "start": 3.22,
@@ -21,7 +60,34 @@
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "主内平安",
-      "confidence": 0.857
+      "confidence": 0.857,
+      "quality": {
+        "coverage": 0.75,
+        "coherentCoverage": 0.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.5,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 3.22,
+        "previousEnd": 3.86
+      }
     },
     {
       "start": 4.82,
@@ -29,7 +95,40 @@
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "感谢主的恩典使我们今天还有机会一同来分享以赛亚书第2224章",
-      "confidence": 0.867
+      "confidence": 0.867,
+      "quality": {
+        "coverage": 0.867,
+        "coherentCoverage": 0.7,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.933,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 4.82,
+        "previousEnd": 13.1
+      }
     },
     {
       "start": 14.02,
@@ -37,15 +136,89 @@
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "第22章是论耶路撒冷的信息也就是犹大将遭受灾难",
-      "confidence": 0.884
+      "confidence": 0.884,
+      "quality": {
+        "coverage": 0.87,
+        "coherentCoverage": 0.696,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.727,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 14.02,
+        "previousEnd": 22.02
+      }
     },
     {
       "start": 24.28,
-      "end": 36.72,
+      "end": 37.22,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "我们看见22章1节到8节是说到以色列人的被掳",
-      "confidence": 0.93
+      "confidence": 0.889,
+      "quality": {
+        "coverage": 0.909,
+        "coherentCoverage": 0.909,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.818,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 24.28,
+        "previousEnd": 36.72
+      }
     },
     {
       "start": 38.66,
@@ -53,7 +226,46 @@
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "在第3节说到你所有的官长一同逃跑都为弓箭手所捆绑你中间一切被找到的都一同被捆绑他们本是逃往远方的",
-      "confidence": 0.946
+      "confidence": 0.946,
+      "quality": {
+        "coverage": 0.946,
+        "coherentCoverage": 0.911,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 38.66,
+        "previousEnd": 54.96
+      }
     },
     {
       "start": 54.96,
@@ -61,15 +273,89 @@
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "然而第4节说到所以我说你们转眼不看我我要痛哭在这里我们看见作为先知的一颗心有上帝的心他看见犹大将",
-      "confidence": 0.955
+      "confidence": 0.955,
+      "quality": {
+        "coverage": 0.952,
+        "coherentCoverage": 0.933,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 54.96,
+        "previousEnd": 133.38
+      }
     },
     {
-      "start": 140.28,
-      "end": 185.85,
+      "start": 135.08,
+      "end": 186.47,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "在22章第8节说他去掉犹大的遮盖也就是说当民众不悔改的时候我们的上帝就去掉了他对犹大的遮盖把他抛",
-      "confidence": 0.857
+      "confidence": 0.897,
+      "quality": {
+        "coverage": 0.899,
+        "coherentCoverage": 0.893,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 140.28,
+        "previousEnd": 185.85
+      }
     },
     {
       "start": 189.77,
@@ -77,7 +363,40 @@
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "在22章第8节的下半节我们看见他们不知道悔改仰望我们的上帝反而仰望库内的军器",
-      "confidence": 0.904
+      "confidence": 0.904,
+      "quality": {
+        "coverage": 0.895,
+        "coherentCoverage": 0.816,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.842,
+        "suffixCoverage": 0.947,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 189.77,
+        "previousEnd": 199.01
+      }
     },
     {
       "start": 199.01,
@@ -85,15 +404,93 @@
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "第22章的8节下半节说那日你就仰望林库内的军器",
-      "confidence": 0.913
+      "confidence": 0.913,
+      "quality": {
+        "coverage": 0.913,
+        "coherentCoverage": 0.913,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.909,
+        "suffixCoverage": 0.909,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 199.01,
+        "previousEnd": 205.59
+      }
     },
     {
       "start": 209.21,
-      "end": 217.93,
+      "end": 219.17,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "11节下半节说却不仰望做这事的主人的心就是这么样的刚硬悖逆",
-      "confidence": 0.885
+      "confidence": 0.929,
+      "quality": {
+        "coverage": 0.897,
+        "coherentCoverage": 0.862,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.857,
+        "suffixCoverage": 0.929,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 209.21,
+        "previousEnd": 217.93
+      }
     },
     {
       "start": 221.55,
@@ -101,15 +498,95 @@
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "第13节说我们吃喝吧因为明天要死了",
-      "confidence": 0.882
+      "confidence": 0.882,
+      "quality": {
+        "coverage": 0.882,
+        "coherentCoverage": 0.824,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 221.55,
+        "previousEnd": 226.07
+      }
     },
     {
-      "start": 227.23,
+      "start": 226.07,
       "end": 235.77,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "14节万军之耶和华亲自默示我说这罪孽直到你们死断不得赦免这是主万军之耶和华说的",
-      "confidence": 0.853
+      "confidence": 0.815,
+      "quality": {
+        "coverage": 0.846,
+        "coherentCoverage": 0.846,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.737,
+        "suffixCoverage": 0.947,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 227.23,
+        "previousEnd": 235.77
+      }
     },
     {
       "start": 236.25,
@@ -117,7 +594,46 @@
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "也就是说人只知道吃吃喝喝他说我们吃喝因为明天要死了却不知道悔改也就是死不悔改所以主就说这罪孽直到",
-      "confidence": 0.973
+      "confidence": 0.973,
+      "quality": {
+        "coverage": 0.982,
+        "coherentCoverage": 0.982,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 236.25,
+        "previousEnd": 251.31
+      }
     },
     {
       "start": 254.65,
@@ -125,15 +641,89 @@
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "如果不是上帝的怜悯我们的心也许也像这些人一样心门是闭塞的求上帝不断的怜悯我们也怜悯我们的家人们使",
-      "confidence": 0.789
+      "confidence": 0.789,
+      "quality": {
+        "coverage": 0.8,
+        "coherentCoverage": 0.617,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 254.65,
+        "previousEnd": 268.67
+      }
     },
     {
-      "start": 278.47,
+      "start": 273.33,
       "end": 315.85,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "15节开始到19节是对舍伯那的警告对舍伯那的警告里面我们可以参看以赛亚书30章15节和31章13",
-      "confidence": 0.654
+      "confidence": 0.634,
+      "quality": {
+        "coverage": 0.689,
+        "coherentCoverage": 0.35,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 278.47,
+        "previousEnd": 315.85
+      }
     },
     {
       "start": 315.85,
@@ -141,15 +731,95 @@
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "所以上帝就在1519节警告舍伯那他是主人家的羞辱必在那里坐你荣耀的车也必在那里死亡我必赶逐你离开",
-      "confidence": 0.672
+      "confidence": 0.84,
+      "quality": {
+        "coverage": 0.847,
+        "coherentCoverage": 0.763,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 315.85,
+        "previousEnd": 336.42
+      }
     },
     {
-      "start": 341.06,
+      "start": 336.42,
       "end": 354.15,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "20节开始到最后25节这里上帝就兴起了敬畏上帝的以利亚敬以利亚敬的意思本来就是上帝设立的意思",
-      "confidence": 0.773
+      "confidence": 0.812,
+      "quality": {
+        "coverage": 0.848,
+        "coherentCoverage": 0.739,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 341.06,
+        "previousEnd": 354.15
+      }
     },
     {
       "start": 354.15,
@@ -157,7 +827,40 @@
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "这里22节我们都是耳熟能详的我必将大卫家的钥匙放在他肩头上他开无人能关他关无人能开我们知道这里经",
-      "confidence": 0.928
+      "confidence": 0.928,
+      "quality": {
+        "coverage": 0.935,
+        "coherentCoverage": 0.903,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 354.15,
+        "previousEnd": 376.59
+      }
     },
     {
       "start": 376.59,
@@ -165,15 +868,87 @@
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "我们知道尽管世人败坏人心刚硬但是上帝却要设立他的爱子耶稣基督来到这个世界上作为我们世人的拯救",
-      "confidence": 0.978
+      "confidence": 0.978,
+      "quality": {
+        "coverage": 0.978,
+        "coherentCoverage": 0.978,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 376.59,
+        "previousEnd": 391.51
+      }
     },
     {
       "start": 394.7,
-      "end": 435.4,
+      "end": 440.9,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "当时挪亚方舟挪亚传义道的时候没有人愿意听除了他一家八口得救之外当洪水真的泛滥在世的时候何等可怕小",
-      "confidence": 0.837
+      "confidence": 0.856,
+      "quality": {
+        "coverage": 0.869,
+        "coherentCoverage": 0.759,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 394.7,
+        "previousEnd": 435.4
+      }
     },
     {
       "start": 441.76,
@@ -181,23 +956,93 @@
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "现在上帝借着各种环境不断地来提醒我们来转向他天下人间没有赐下别的名我们可以靠着得救",
-      "confidence": 0.976
+      "confidence": 0.976,
+      "quality": {
+        "coverage": 0.976,
+        "coherentCoverage": 0.976,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 441.76,
+        "previousEnd": 451.74
+      }
     },
     {
       "start": 453.54,
-      "end": 548.95,
+      "end": 554.31,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "我们在上帝面前都是一个罪人都亏缺了上帝的荣耀但是上帝愿意来爱我们来拯救我们借着他儿子的代死救赎使",
-      "confidence": 0.876
-    },
-    {
-      "start": 555.57,
-      "end": 556.85,
-      "kind": "heading",
-      "targetIndex": 25,
-      "targetText": "第二十三章",
-      "confidence": 0.8
+      "confidence": 0.898,
+      "quality": {
+        "coverage": 0.901,
+        "coherentCoverage": 0.851,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 453.54,
+        "previousEnd": 548.95
+      }
     },
     {
       "start": 556.85,
@@ -205,31 +1050,167 @@
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "第23章是论到推罗将成为荒场",
-      "confidence": 0.667
+      "confidence": 0.667,
+      "quality": {
+        "coverage": 0.643,
+        "coherentCoverage": 0.286,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.571,
+        "suffixCoverage": 0.714,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 556.85,
+        "previousEnd": 561.79
+      }
     },
     {
       "start": 563.07,
-      "end": 575.31,
+      "end": 575.99,
       "kind": "paragraph",
       "targetIndex": 27,
       "targetText": "这风声传到列国都为他极其哀痛这个遭遇是谁定的呢在",
-      "confidence": 0.766
+      "confidence": 0.792,
+      "quality": {
+        "coverage": 0.792,
+        "coherentCoverage": 0.708,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.583,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 563.07,
+        "previousEnd": 575.31
+      }
     },
     {
       "start": 577.41,
-      "end": 600.49,
+      "end": 605.64,
       "kind": "paragraph",
       "targetIndex": 28,
       "targetText": "23章第9节说是万军之耶和华所定的为要侮辱一切高傲的荣耀使地上一切的尊贵人被藐视所以我们看见推罗",
-      "confidence": 0.871
+      "confidence": 0.932,
+      "quality": {
+        "coverage": 0.92,
+        "coherentCoverage": 0.893,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 577.41,
+        "previousEnd": 600.49
+      }
     },
     {
       "start": 606.28,
-      "end": 620.96,
+      "end": 621.34,
       "kind": "paragraph",
       "targetIndex": 29,
       "targetText": "但15节开始到最后我们又看见70年后推罗被上帝所眷顾17节这样说70年后耶和华必眷顾推罗",
-      "confidence": 0.635
+      "confidence": 0.837,
+      "quality": {
+        "coverage": 0.818,
+        "coherentCoverage": 0.75,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 606.28,
+        "previousEnd": 620.96
+      }
     },
     {
       "start": 624.08,
@@ -237,7 +1218,46 @@
       "kind": "paragraph",
       "targetIndex": 31,
       "targetText": "第24章我们看见上帝责罚世界",
-      "confidence": 0.714
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 624.08,
+        "previousEnd": 627.9
+      }
     },
     {
       "start": 630.25,
@@ -245,7 +1265,34 @@
       "kind": "paragraph",
       "targetIndex": 32,
       "targetText": "24章1节3节说看哪耶和华使地空虚变为荒凉又翻转大地将居民分散那时百姓怎样祭司也怎样仆人怎样主人",
-      "confidence": 0.679
+      "confidence": 0.812,
+      "quality": {
+        "coverage": 0.805,
+        "coherentCoverage": 0.726,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 630.25,
+        "previousEnd": 660.79
+      }
     },
     {
       "start": 661.35,
@@ -253,7 +1300,40 @@
       "kind": "paragraph",
       "targetIndex": 33,
       "targetText": "这就是末世的景况当灾难临到的时候上帝翻转大地使地空虚的时候穷的富的本来放债的跟借债的取利的出利的",
-      "confidence": 0.83
+      "confidence": 0.83,
+      "quality": {
+        "coverage": 0.83,
+        "coherentCoverage": 0.66,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 661.35,
+        "previousEnd": 684.21
+      }
     },
     {
       "start": 686.73,
@@ -261,7 +1341,34 @@
       "kind": "paragraph",
       "targetIndex": 34,
       "targetText": "在第6节说到地被咒诅吞灭",
-      "confidence": 0.75
+      "confidence": 0.75,
+      "quality": {
+        "coverage": 0.75,
+        "coherentCoverage": 0.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.667,
+        "suffixCoverage": 0.833,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 686.73,
+        "previousEnd": 690.63
+      }
     },
     {
       "start": 691.91,
@@ -269,7 +1376,40 @@
       "kind": "paragraph",
       "targetIndex": 35,
       "targetText": "第8节到11节说到没有喜乐击鼓之乐止息宴乐人的声音完毕弹琴之乐也止息了",
-      "confidence": 0.771
+      "confidence": 0.771,
+      "quality": {
+        "coverage": 0.771,
+        "coherentCoverage": 0.571,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.647,
+        "suffixCoverage": 0.882,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 691.91,
+        "previousEnd": 705.78
+      }
     },
     {
       "start": 707.1,
@@ -277,15 +1417,83 @@
       "kind": "paragraph",
       "targetIndex": 36,
       "targetText": "11节说到悲叹的声音一切喜乐变为昏暗地上的欢乐归于无有",
-      "confidence": 0.902
+      "confidence": 0.902,
+      "quality": {
+        "coverage": 0.852,
+        "coherentCoverage": 0.778,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.769,
+        "suffixCoverage": 0.923,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 707.1,
+        "previousEnd": 714.44
+      }
     },
     {
       "start": 716.56,
-      "end": 734.88,
+      "end": 735.24,
       "kind": "paragraph",
       "targetIndex": 37,
       "targetText": "12节到13节说到那种荒凉城中只有荒凉在地上的万民中必像打过的橄橄榄树又像已摘的葡萄所剩无几就是",
-      "confidence": 0.619
+      "confidence": 0.825,
+      "quality": {
+        "coverage": 0.814,
+        "coherentCoverage": 0.729,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 716.56,
+        "previousEnd": 734.88
+      }
     },
     {
       "start": 740.57,
@@ -293,23 +1501,138 @@
       "kind": "paragraph",
       "targetIndex": 38,
       "targetText": "然后14节到16节的上面半节是余民的欢呼",
-      "confidence": 0.514
+      "confidence": 0.686,
+      "quality": {
+        "coverage": 0.65,
+        "coherentCoverage": 0.55,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.4,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 4,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 740.57,
+        "previousEnd": 745.83
+      }
     },
     {
-      "start": 747.67,
+      "start": 746.87,
       "end": 768.55,
       "kind": "paragraph",
       "targetIndex": 39,
       "targetText": "16节的下半节是先知看见这样的异象的伤痛他说我消灭了我有祸了他看到恐惧陷坑网罗临到地上的居民天上",
-      "confidence": 0.656
+      "confidence": 0.891,
+      "quality": {
+        "coverage": 0.919,
+        "coherentCoverage": 0.871,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 747.67,
+        "previousEnd": 768.55
+      }
     },
     {
       "start": 770.43,
-      "end": 818.38,
+      "end": 826.6,
       "kind": "paragraph",
       "targetIndex": 40,
       "targetText": "在新冠肺炎这样如此伤害民众的特殊时期当中我看到一则新闻是湖北电影厂的常凯他们一家4口12天之内死",
-      "confidence": 0.882
+      "confidence": 0.937,
+      "quality": {
+        "coverage": 0.94,
+        "coherentCoverage": 0.94,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 770.43,
+        "previousEnd": 818.38
+      }
     },
     {
       "start": 827.3,
@@ -317,7 +1640,40 @@
       "kind": "paragraph",
       "targetIndex": 41,
       "targetText": "在21节说到耶和华要在高处必惩罚高处的众军在地上必惩罚地上的列王",
-      "confidence": 0.75
+      "confidence": 0.75,
+      "quality": {
+        "coverage": 0.75,
+        "coherentCoverage": 0.531,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.688,
+        "suffixCoverage": 0.812,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 827.3,
+        "previousEnd": 837.04
+      }
     },
     {
       "start": 838.64,
@@ -325,7 +1681,42 @@
       "kind": "paragraph",
       "targetIndex": 42,
       "targetText": "23节说到月亮要蒙羞日头要惭愧日月无光",
-      "confidence": 0.778
+      "confidence": 0.778,
+      "quality": {
+        "coverage": 0.737,
+        "coherentCoverage": 0.474,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.667,
+        "suffixCoverage": 0.889,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 838.64,
+        "previousEnd": 843.68
+      }
     },
     {
       "start": 844.92,
@@ -333,7 +1724,46 @@
       "kind": "paragraph",
       "targetIndex": 43,
       "targetText": "在启示录20章11节说我又看见一个白色的大宝座与坐在上面的从他面前天地都逃避再无可见之处了",
-      "confidence": 0.889
+      "confidence": 0.889,
+      "quality": {
+        "coverage": 0.889,
+        "coherentCoverage": 0.867,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 844.92,
+        "previousEnd": 856.82
+      }
     },
     {
       "start": 858.46,
@@ -341,7 +1771,42 @@
       "kind": "paragraph",
       "targetIndex": 44,
       "targetText": "在圣洁公义威严的上帝面前天地都逃避再无可见之处了上帝若究察罪孽谁能站得住上帝若究察罪孽谁能站得稳",
-      "confidence": 0.784
+      "confidence": 0.784,
+      "quality": {
+        "coverage": 0.741,
+        "coherentCoverage": 0.707,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.55,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 858.46,
+        "previousEnd": 872.4
+      }
     },
     {
       "start": 879.09,
@@ -349,7 +1814,108 @@
       "kind": "paragraph",
       "targetIndex": 45,
       "targetText": "在彼得后书3章814节但愿上帝使我们不忘记他的话语我来读长辈弟兄姊妹请听亲爱的弟兄有一件事你们不",
-      "confidence": 0.823
+      "confidence": 0.864,
+      "quality": {
+        "coverage": 0.869,
+        "coherentCoverage": 0.799,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 879.09,
+        "previousEnd": 968.23
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (1 leading chars, coverage 0.500): target 2: 主内平安！",
+    "unverified start anchor: target 2: 主内平安！",
+    "unverified end anchor: target 2: 主内平安！",
+    "unverified start anchor: target 3: 感谢主的恩典，使我们今天还有机会一同来分享《以赛亚书》第22\\24章。",
+    "unverified end anchor: target 5: 第22章是论耶路撒冷的信息，也就是犹大将遭受灾难。",
+    "unverified start anchor: target 8: 然而第4节说到，所以我说:\"你们转眼不看我，我要痛哭。\"在这里我们看见作为先知的一颗心-----",
+    "unverified start anchor: target 10: 在22章第8节的下半节，我们看见他们不知道悔改仰望我们的神，反而仰望库内的军器。",
+    "unverified end anchor: target 16: 如果不是神的怜悯，我们的心也许也像这些人一样，心门是闭塞的，求神不断的怜悯我们，也怜悯我们的家人",
+    "unverified start anchor: target 20: 这里22节我们都是耳熟能详的，我必将大卫家的钥匙放在他肩头上，他开无人能关，他关无人能开。我们知",
+    "unverified start anchor: target 22: 当时挪亚方舟，挪亚传义道的时候没有人愿意听，除了他一家八口得救之外。当洪水真的泛滥在世的时候（何",
+    "unverified start anchor: target 26: 第23章是论到推罗将成为荒场。",
+    "unverified start anchor: target 27: 这风声传到列国，都为他极其哀痛。这个遭遇是谁定的呢？在",
+    "unverified start anchor: target 28: 23章第9节说是万军之耶和华所定的，为要侮辱一切高傲的荣耀，使地上一切的尊贵人被藐视。所以我们看",
+    "unverified start anchor: target 32: 24章1节-3节说，看哪，耶和华使地空虚，变为荒凉，又翻转大地，将居民分散，那时百姓怎样，祭司也",
+    "unverified end anchor: target 32: 24章1节-3节说，看哪，耶和华使地空虚，变为荒凉，又翻转大地，将居民分散，那时百姓怎样，祭司也",
+    "unverified start anchor: target 33: 这就是末世的景况。当灾难临到的时候，神翻转大地，使地空虚的时候，穷的富的，本来放债的跟借债的，取",
+    "unverified start anchor: target 34: 在第6节说到，地被咒诅吞灭。",
+    "unverified end anchor: target 34: 在第6节说到，地被咒诅吞灭。",
+    "unverified start anchor: target 35: 第8节到11节说到，没有喜乐，击鼓之乐止息，宴乐人的声音完毕，弹琴之乐也止息了。",
+    "unverified start anchor: target 36: 11节说到悲叹的声音，一切喜乐变为昏暗，地上的欢乐归于无有。",
+    "unverified start anchor: target 37: 12节到13节说到那种荒凉，城中只有荒凉，在地上的万民中，必像打过的橄橄榄树，又像已摘的葡萄所剩",
+    "incomplete start (4 leading chars, coverage 0.400): target 38: 然后14节到16节的上面半节是余民的欢呼。",
+    "unverified start anchor: target 38: 然后14节到16节的上面半节是余民的欢呼。",
+    "unverified start anchor: target 41: 在21节说到，耶和华要在高处必惩罚高处的众军，在地上必惩罚地上的列王。",
+    "unverified start anchor: target 42: 23节说到月亮要蒙羞，日头要惭愧，日月无光。",
+    "unverified end anchor: target 45: 在彼得后书3章8\\14节，但愿神使我们不忘记他的话语，我来读，长辈弟兄姊妹请听。亲爱的弟兄，有一",
+    "repair unverified start (previous-sync): target 2",
+    "repair unverified end (previous-sync): target 2",
+    "repair unverified start (previous-sync): target 3",
+    "repair unverified end (previous-sync): target 5",
+    "repair unverified start (previous-sync): target 8",
+    "repair unverified start (previous-sync): target 10",
+    "repair unverified end (previous-sync): target 16",
+    "repair unverified start (previous-sync): target 20",
+    "repair unverified start (previous-sync): target 22",
+    "repair unverified start (previous-sync): target 26",
+    "repair unverified end (previous-sync): target 26",
+    "repair unverified start (previous-sync): target 27",
+    "repair unverified start (previous-sync): target 28",
+    "repair unverified start (previous-sync): target 32",
+    "repair unverified end (previous-sync): target 32",
+    "repair unverified start (previous-sync): target 33",
+    "repair unverified start (previous-sync): target 34",
+    "repair unverified end (previous-sync): target 34",
+    "repair unverified start (previous-sync): target 35",
+    "repair unverified start (previous-sync): target 36",
+    "repair unverified start (previous-sync): target 37",
+    "repair unverified start (previous-sync): target 38",
+    "repair unverified start (previous-sync): target 41",
+    "repair unverified start (previous-sync): target 42",
+    "repair unverified end (previous-sync): target 44",
+    "repair unverified end (previous-sync): target 45"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 5,
+    "updatedEnds": 10,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 18,
+    "unverifiedEnds": 8,
+    "missingTargets": []
+  },
+  "repairFingerprint": "6b0803939336c41e6af617f520f628b17302c4ca3e4a972a2ecb3eeae51632c0",
+  "repairCueDigest": "6517df34c3b37ae7055527d1e5647dcb534b21fd8bb0749c7030f07df48bae26"
 }
