@@ -1,6 +1,42 @@
 {
   "version": 1,
   "model": ".audio-sync-cache\\models\\small",
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 7: 列王纪上第八章1-11节是约柜运入殿中，所罗门召集了全国的长老、首领、族长都召聚到耶路撒冷。",
+    "unverified end anchor: target 7: 列王纪上第八章1-11节是约柜运入殿中，所罗门召集了全国的长老、首领、族长都召聚到耶路撒冷。",
+    "unverified start anchor: target 8: 第2节说到「以他念月，就是七月，在节前，以色列人都聚集到所罗门王那里。」这个节前，人特别多，约柜",
+    "unverified start anchor: target 10: 10节到11节是说到耶和华的荣光。「祭司从圣所出来的时候，有云充满耶和华的殿。甚至祭司不能站立供",
+    "unverified end anchor: target 10: 10节到11节是说到耶和华的荣光。「祭司从圣所出来的时候，有云充满耶和华的殿。甚至祭司不能站立供",
+    "unverified start anchor: target 11: 第14节到21节是所罗门向百姓宣告。他对神充满着感恩，感谢神拣选大卫作王（16节），也感谢神应许",
+    "unverified end anchor: target 11: 第14节到21节是所罗门向百姓宣告。他对神充满着感恩，感谢神拣选大卫作王（16节），也感谢神应许",
+    "unverified start anchor: target 12: 22节到53节是所罗门的祷告。所罗门知道我们的神是天上地下没有神可跟我们的神相比，祂向尽心行在祂",
+    "unverified end anchor: target 12: 22节到53节是所罗门的祷告。所罗门知道我们的神是天上地下没有神可跟我们的神相比，祂向尽心行在祂",
+    "incomplete start (4 leading chars, coverage 0.800): target 15: 35-36节，他也知道，当人悔改认罪，离开他们的罪的时候，我们的神是降下雨露的神。37-40节，",
+    "unverified start anchor: target 15: 35-36节，他也知道，当人悔改认罪，离开他们的罪的时候，我们的神是降下雨露的神。37-40节，",
+    "incomplete end (8 trailing chars, coverage 0.500): target 16: 在希伯来书说到，「生身的父都是暂随己意管教我们，惟有万灵的父管教我们，是要我们得益处，使我们在他",
+    "unverified start anchor: target 16: 在希伯来书说到，「生身的父都是暂随己意管教我们，惟有万灵的父管教我们，是要我们得益处，使我们在他",
+    "unverified end anchor: target 16: 在希伯来书说到，「生身的父都是暂随己意管教我们，惟有万灵的父管教我们，是要我们得益处，使我们在他",
+    "unverified end anchor: target 20: 54节到61节，是所罗门为民祝福。他也勉励百姓们的心都归向我们的神，遵行祂的道，谨守我们的神吩咐",
+    "unverified start anchor: target 23: 九章，是耶和华再向所罗门显现。第二节说到「耶和华就二次向所罗门显现，如先前在基遍向他显现一样，对",
+    "unverified start anchor: target 24: 10节到14节是所罗门与希兰订约。在所罗门建造耶和华的殿和王宫，用了二十年才完毕。其中推罗王希兰",
+    "repair unverified start (previous-sync): target 7",
+    "repair unverified end (previous-sync): target 7",
+    "repair unverified start (previous-sync): target 8",
+    "repair unverified start (previous-sync): target 10",
+    "repair unverified end (previous-sync): target 10",
+    "repair unverified start (previous-sync): target 11",
+    "repair unverified end (previous-sync): target 11",
+    "repair unverified start (previous-sync): target 12",
+    "repair unverified end (previous-sync): target 12",
+    "repair unverified start (previous-sync): target 15",
+    "repair unverified start (previous-sync): target 16",
+    "repair unverified end (previous-sync): target 16",
+    "repair unverified end (previous-sync): target 20",
+    "repair unverified start (previous-sync): target 23",
+    "repair unverified start (previous-sync): target 24"
+  ],
   "source": {
     "page": "历史书/列王纪上/王上7-9章.md",
     "audio": "1Ki7-9.mp3"
@@ -13,63 +49,265 @@
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "亲爱的长辈弟兄姊妹主内平安今天我们一起来分享列王纪上七到九章",
-      "confidence": 0.95
+      "confidence": 0.933,
+      "quality": {
+        "coverage": 0.933,
+        "coherentCoverage": 0.9,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.867,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 0.85,
+        "previousEnd": 7.77
+      }
     },
     {
-      "start": 8.57,
-      "end": 10.43,
-      "kind": "heading",
-      "targetIndex": 3,
-      "targetText": "第七章",
-      "confidence": 0.95
-    },
-    {
-      "start": 10.43,
-      "end": 146.89,
+      "start": 9.05,
+      "end": 145.91,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "列王纪上第七章讲到所罗门为自己建造华丽的王宫和圣殿器具在六章最后一节说到他建殿的工夫共有七年而为",
-      "confidence": 0.95
+      "confidence": 0.899,
+      "quality": {
+        "coverage": 0.896,
+        "coherentCoverage": 0.875,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 9.05,
+        "previousEnd": 145.91
+      }
     },
     {
       "start": 146.89,
-      "end": 268.89,
+      "end": 264.53,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "在13节开始介绍了一个满有智慧聪明技能善于各样铜作的户兰他到所罗门王那里作王一切所要作的我们看见",
-      "confidence": 0.847
+      "confidence": 0.839,
+      "quality": {
+        "coverage": 0.84,
+        "coherentCoverage": 0.75,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 146.89,
+        "previousEnd": 264.53
+      }
     },
     {
-      "start": 268.89,
-      "end": 277.81,
-      "kind": "heading",
-      "targetIndex": 6,
-      "targetText": "第八章约柜迎入圣殿",
-      "confidence": 0.95
-    },
-    {
-      "start": 277.81,
-      "end": 287.83,
+      "start": 267.31,
+      "end": 285.59,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "列王纪上第八章111节是约柜运入殿中所罗门召集了全国的长老首领族长都召聚到耶路撒冷",
-      "confidence": 0.585
+      "confidence": 0.723,
+      "quality": {
+        "coverage": 0.732,
+        "coherentCoverage": 0.488,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 267.31,
+        "previousEnd": 285.59
+      }
     },
     {
       "start": 287.83,
-      "end": 350.1,
+      "end": 348.27,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "第2节说到以他念月就是七月在节前以色列人都聚集到所罗门王那里这个节前人特别多约柜抬到圣殿的至圣所",
-      "confidence": 0.737
+      "confidence": 0.912,
+      "quality": {
+        "coverage": 0.92,
+        "coherentCoverage": 0.846,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 287.83,
+        "previousEnd": 348.27
+      }
     },
     {
       "start": 350.1,
-      "end": 401.68,
+      "end": 399.72,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "约柜被放在圣殿的至圣所这使我想到其实我们的身体是圣灵的殿基督藉着永远的灵住在我们的心灵之中是全人",
-      "confidence": 0.812
+      "confidence": 0.867,
+      "quality": {
+        "coverage": 0.867,
+        "coherentCoverage": 0.788,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 350.1,
+        "previousEnd": 399.72
+      }
     },
     {
       "start": 401.68,
@@ -77,23 +315,106 @@
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "10节到11节是说到耶和华的荣光祭司从圣所出来的时候有云充满耶和华的殿甚至祭司不能站立供职因为耶",
-      "confidence": 0.867
+      "confidence": 0.867,
+      "quality": {
+        "coverage": 0.861,
+        "coherentCoverage": 0.825,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 401.68,
+        "previousEnd": 450.83
+      }
     },
     {
-      "start": 450.83,
-      "end": 480.93,
+      "start": 454.63,
+      "end": 479.11,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "第14节到21节是所罗门向百姓宣告他对上帝充满着感恩感谢上帝拣选大卫作王16节也感谢上帝应许大卫",
-      "confidence": 0.725
+      "confidence": 0.775,
+      "quality": {
+        "coverage": 0.733,
+        "coherentCoverage": 0.6,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 3,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 454.63,
+        "previousEnd": 479.11
+      }
     },
     {
-      "start": 480.93,
-      "end": 513.5,
+      "start": 481.83,
+      "end": 511.82,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "22节到53节是所罗门的祷告所罗门知道我们的上帝是天上地下没有上帝可跟我们的上帝相比祂向尽心行在",
-      "confidence": 0.659
+      "confidence": 0.814,
+      "quality": {
+        "coverage": 0.81,
+        "coherentCoverage": 0.583,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 481.83,
+        "previousEnd": 511.82
+      }
     },
     {
       "start": 513.5,
@@ -101,23 +422,136 @@
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "27节他认识到上帝果真住在地上吗看哪天和天上的天尚且不足你居住的何况我所建的这殿呢他知道我们的上",
-      "confidence": 0.935
+      "confidence": 0.935,
+      "quality": {
+        "coverage": 0.938,
+        "coherentCoverage": 0.923,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 513.5,
+        "previousEnd": 549.3
+      }
     },
     {
       "start": 549.3,
-      "end": 589.4,
+      "end": 588.64,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "他祷告上帝知道上帝是赏善罚恶的上帝他祷告到以色列民若得罪我们的上帝败在仇敌面前又归向你承认你的名",
-      "confidence": 0.752
+      "confidence": 0.881,
+      "quality": {
+        "coverage": 0.881,
+        "coherentCoverage": 0.835,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 549.3,
+        "previousEnd": 588.64
+      }
     },
     {
       "start": 589.4,
-      "end": 774.2,
+      "end": 773.34,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "3536节他也知道当人悔改认罪离开他们的罪的时候我们的上帝是降下雨露的上帝3740节他也知道我们",
-      "confidence": 0.812
+      "confidence": 0.85,
+      "quality": {
+        "coverage": 0.844,
+        "coherentCoverage": 0.777,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 4,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 589.4,
+        "previousEnd": 773.34
+      }
     },
     {
       "start": 774.2,
@@ -125,79 +559,394 @@
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "在希伯来书说到生身的父都是暂随己意管教我们惟有万灵的父管教我们是要我们得益处使我们在他的圣洁上有",
-      "confidence": 0.822
+      "confidence": 0.829,
+      "quality": {
+        "coverage": 0.805,
+        "coherentCoverage": 0.707,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.5,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 8,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 774.2,
+        "previousEnd": 804.74
+      }
     },
     {
-      "start": 804.74,
-      "end": 903.22,
+      "start": 807.64,
+      "end": 902.04,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "46节开始我们看见所罗门的祷告也知道我们的上帝是公义的他说你的民若得罪你世上没有不犯罪的人你向他",
-      "confidence": 0.771
+      "confidence": 0.845,
+      "quality": {
+        "coverage": 0.831,
+        "coherentCoverage": 0.806,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 807.64,
+        "previousEnd": 902.04
+      }
     },
     {
       "start": 903.22,
-      "end": 934.36,
+      "end": 933.48,
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "每当我们想起了你心中何等甘甜忆想罪恶笼罩大地劳苦愁烦度人生死亡审判终成结局主啊你真光普照十架宝血",
-      "confidence": 0.682
+      "confidence": 0.788,
+      "quality": {
+        "coverage": 0.779,
+        "coherentCoverage": 0.721,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 903.22,
+        "previousEnd": 933.48
+      }
     },
     {
       "start": 934.36,
-      "end": 1004.04,
+      "end": 1003.4,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "是的我们本来都是死在罪恶过犯当中的也像没有指望的人一样劳苦愁烦度人生并且死亡审判终成定局幸亏我们",
-      "confidence": 0.834
+      "confidence": 0.85,
+      "quality": {
+        "coverage": 0.85,
+        "coherentCoverage": 0.791,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 934.36,
+        "previousEnd": 1003.4
+      }
     },
     {
       "start": 1004.04,
-      "end": 1025.47,
+      "end": 1023.3,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "54节到61节是所罗门为民祝福他也勉励百姓们的心都归向我们的上帝遵行祂的道谨守我们的上帝吩咐列祖",
-      "confidence": 0.891
+      "confidence": 0.891,
+      "quality": {
+        "coverage": 0.891,
+        "coherentCoverage": 0.818,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1004.04,
+        "previousEnd": 1023.3
+      }
     },
     {
       "start": 1025.47,
-      "end": 1036.61,
+      "end": 1036.01,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "62节到66节是行奉献圣殿之礼然后大家都心中喜乐各归各家去了",
-      "confidence": 0.897
+      "confidence": 0.897,
+      "quality": {
+        "coverage": 0.867,
+        "coherentCoverage": 0.833,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.733,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1025.47,
+        "previousEnd": 1036.01
+      }
     },
     {
       "start": 1036.61,
-      "end": 1041.01,
-      "kind": "heading",
-      "targetIndex": 22,
-      "targetText": "第九章耶和华再次显现",
-      "confidence": 0.609
-    },
-    {
-      "start": 1041.01,
-      "end": 1187.81,
+      "end": 1188.29,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "九章是耶和华再向所罗门显现第二节说到耶和华就二次向所罗门显现如先前在基遍向他显现一样对他说你向我",
-      "confidence": 0.767
+      "confidence": 0.847,
+      "quality": {
+        "coverage": 0.845,
+        "coherentCoverage": 0.75,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1036.61,
+        "previousEnd": 1188.29
+      }
     },
     {
-      "start": 1187.81,
-      "end": 1265.79,
+      "start": 1190.05,
+      "end": 1266.63,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "10节到14节是所罗门与希兰订约在所罗门建造耶和华的殿和王宫用了二十年才完毕其中推罗王希兰照所罗",
-      "confidence": 0.747
+      "confidence": 0.808,
+      "quality": {
+        "coverage": 0.815,
+        "coherentCoverage": 0.7,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1190.05,
+        "previousEnd": 1266.63
+      }
     },
     {
-      "start": 1265.79,
-      "end": 1403.52,
+      "start": 1268.42,
+      "end": 1402.88,
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "今天分享的三章让我们来思想到永恒跟今生让我们真的能够调整我们人生的价值观使我们知道我们原来不是顾",
-      "confidence": 0.733
+      "confidence": 0.852,
+      "quality": {
+        "coverage": 0.867,
+        "coherentCoverage": 0.8,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1268.42,
+        "previousEnd": 1402.88
+      }
     },
     {
       "start": 1403.52,
@@ -205,7 +954,58 @@
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "今天的信息就分享到这里感谢主",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1403.52,
+        "previousEnd": 1406.22
+      }
     }
-  ]
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 9,
+    "unverifiedEnds": 6,
+    "missingTargets": []
+  },
+  "repairFingerprint": "9c98886b7e6b2c045059deabdf575c185cfb0a8be3dbaf365b2eb0b03024fd68",
+  "repairCueDigest": "4ba13e77f8ef5b8a0905d744cb1154a8ab3500bd43962c50b4b395a4ed948a15"
 }

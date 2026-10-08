@@ -1,6 +1,23 @@
 {
   "version": 1,
   "model": ".audio-sync-cache\\models\\small",
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 9: 在13节到16节，我们看见第三次所派遣的五十夫长带领五十个人。这五十夫长上去，双膝跪在以利亚面前",
+    "unverified end anchor: target 11: 第二章是以利亚和以利沙。以利亚要被神接到天上去，而以利沙是紧紧地跟随。后面记载了以利沙最初所行的",
+    "unverified start anchor (detached boundary context): target 13: 伯特利，我们知道就是神殿的意思。在创世纪廿八章10到19节，就是说到雅各梦见天梯，然后就说到「『",
+    "unverified start anchor: target 14: 然后到耶利哥。以色列人在约书亚的带领下，第一站是攻陷耶利哥城。他们大大得胜，照着神的意思，前面六",
+    "unverified end anchor: target 20: 然后后面接下来也记载了以利沙所行的，就是神迹，把新瓶装盐，治好了那本来水恶劣、土产不熟而落的这个",
+    "unverified start anchor: target 22: 当时以利沙他用新瓶装盐，把这个水恶劣，土产不熟而落的水源治好。那么那个地方土产就能够熟了，就有生",
+    "repair unverified start (previous-sync): target 9",
+    "repair unverified end (previous-sync): target 11",
+    "repair unverified start (previous-sync): target 13",
+    "repair unverified start (previous-sync): target 14",
+    "repair unverified end (previous-sync): target 20",
+    "repair unverified start (previous-sync): target 22",
+    "repair unverified start (previous-sync): target 23"
+  ],
   "source": {
     "page": "历史书/列王纪下/王下1-2章.md",
     "audio": "2Ki1-2.mp3"
@@ -8,44 +25,145 @@
   "audioDuration": 1263.60925,
   "cues": [
     {
-      "start": 6.58,
-      "end": 9.66,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "王下12章",
-      "confidence": 0.95
-    },
-    {
-      "start": 9.66,
-      "end": 34.14,
+      "start": 1.04,
+      "end": 31.7,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "亲爱的长辈弟兄姊妹主内平安今天我们一起来学习列王纪下一到二章我们知道列王纪下是继续论南北两国的历",
-      "confidence": 0.95
+      "confidence": 0.905,
+      "quality": {
+        "coverage": 0.905,
+        "coherentCoverage": 0.905,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1.04,
+        "previousEnd": 31.7
+      }
     },
     {
-      "start": 34.14,
-      "end": 40.12,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "第一章亚哈谢求问巴力与以利亚的警告",
-      "confidence": 0.95
-    },
-    {
-      "start": 40.12,
+      "start": 33.16,
       "end": 79.4,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "下面我们来看列王纪下第一章这一章是讲到亚哈死后摩押背叛以色列然后讲到亚哈的儿子亚哈谢他在撒玛利亚",
-      "confidence": 0.781
+      "confidence": 0.86,
+      "quality": {
+        "coverage": 0.86,
+        "coherentCoverage": 0.833,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 33.16,
+        "previousEnd": 79.4
+      }
     },
     {
       "start": 79.4,
-      "end": 162.01,
+      "end": 159.3,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "在这里我们看见上帝兴起了祂忠心的仆人以利亚来传讲上帝的话指责亚哈谢没有倚靠我们的上帝却想寻求以革",
-      "confidence": 0.864
+      "confidence": 0.878,
+      "quality": {
+        "coverage": 0.87,
+        "coherentCoverage": 0.857,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 79.4,
+        "previousEnd": 159.3
+      }
     },
     {
       "start": 162.01,
@@ -53,7 +171,46 @@
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "对当时的王亚哈谢以利亚是这样说的你必不下你所上的床必定要死就这样对去求问的使者传说历来忠言逆耳人",
-      "confidence": 0.973
+      "confidence": 0.973,
+      "quality": {
+        "coverage": 0.973,
+        "coherentCoverage": 0.945,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 162.01,
+        "previousEnd": 193.2
+      }
     },
     {
       "start": 193.2,
@@ -61,143 +218,758 @@
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "我们看见当上帝藉着以利亚对亚哈谢所差出的使者宣判他没有寻求真上帝所以他必不能下所上的床必定要死的",
-      "confidence": 0.74
+      "confidence": 0.867,
+      "quality": {
+        "coverage": 0.876,
+        "coherentCoverage": 0.835,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 193.2,
+        "previousEnd": 265.58
+      }
     },
     {
       "start": 265.58,
-      "end": 321.38,
+      "end": 320.28,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "第二次王又派遣一个五十夫长带领五十人去见以利亚五十夫长对以利亚说上帝人哪王吩咐你快快下来说明王的",
-      "confidence": 0.874
+      "confidence": 0.885,
+      "quality": {
+        "coverage": 0.894,
+        "coherentCoverage": 0.831,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 265.58,
+        "previousEnd": 320.28
+      }
     },
     {
       "start": 321.38,
-      "end": 370.84,
+      "end": 369.26,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "我们看见以利亚真的是烈火的先知求天降火焚烧祭肉他也是为上帝作见证心里火热如焚现在当他警告亚哈谢王",
-      "confidence": 0.794
+      "confidence": 0.924,
+      "quality": {
+        "coverage": 0.924,
+        "coherentCoverage": 0.878,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 321.38,
+        "previousEnd": 369.26
+      }
     },
     {
       "start": 370.84,
-      "end": 460.78,
+      "end": 458.9,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "在13节到16节我们看见第三次所派遣的五十夫长带领五十个人这五十夫长上去双膝跪在以利亚面前哀求他",
-      "confidence": 0.832
+      "confidence": 0.832,
+      "quality": {
+        "coverage": 0.829,
+        "coherentCoverage": 0.745,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 370.84,
+        "previousEnd": 458.9
+      }
     },
     {
       "start": 460.78,
-      "end": 464.2,
-      "kind": "heading",
-      "targetIndex": 10,
-      "targetText": "第二章以利亚升天与以利沙承接衣钵",
-      "confidence": 0.95
-    },
-    {
-      "start": 464.2,
-      "end": 549.18,
+      "end": 548.3,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "第二章是以利亚和以利沙以利亚要被上帝接到天上去而以利沙是紧紧地跟随后面记载了以利沙最初所行的几件",
-      "confidence": 0.802
+      "confidence": 0.82,
+      "quality": {
+        "coverage": 0.822,
+        "coherentCoverage": 0.72,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 460.78,
+        "previousEnd": 548.3
+      }
     },
     {
       "start": 549.18,
-      "end": 581.28,
+      "end": 580.3,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "吉甲在约书亚记第五章里面是说到国民受割礼然后耶和华对约书亚说我今日将埃及的羞辱从你们身上滚去了因",
-      "confidence": 0.729
+      "confidence": 0.976,
+      "quality": {
+        "coverage": 0.976,
+        "coherentCoverage": 0.976,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 549.18,
+        "previousEnd": 580.3
+      }
     },
     {
       "start": 581.28,
-      "end": 630.54,
+      "end": 629.84,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "伯特利我们知道就是上帝殿的意思在创世纪廿八章10到19节就是说到雅各梦见天梯然后就说到这地方何等",
-      "confidence": 0.838
+      "confidence": 0.838,
+      "quality": {
+        "coverage": 0.905,
+        "coherentCoverage": 0.876,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 581.28,
+        "previousEnd": 629.84
+      }
     },
     {
       "start": 630.54,
-      "end": 675.19,
+      "end": 673.93,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "然后到耶利哥以色列人在约书亚的带领下第一站是攻陷耶利哥城他们大大得胜照着上帝的意思前面六日一日绕",
-      "confidence": 0.851
+      "confidence": 0.851,
+      "quality": {
+        "coverage": 0.862,
+        "coherentCoverage": 0.772,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 630.54,
+        "previousEnd": 673.93
+      }
     },
     {
       "start": 675.19,
-      "end": 732.32,
+      "end": 730.78,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "然后约旦河我们知道是代表向世界死向老我死因为过约旦河要埋葬自己与主同死才能与主一同复活我们知道我",
-      "confidence": 0.782
+      "confidence": 0.891,
+      "quality": {
+        "coverage": 0.897,
+        "coherentCoverage": 0.836,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 675.19,
+        "previousEnd": 730.78
+      }
     },
     {
       "start": 732.32,
-      "end": 783.18,
+      "end": 782.64,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "所以以利亚他带着以利沙以利沙的灵程也不断地进步然后他求以利亚他说愿感动你的灵加倍地感动我以利亚说",
-      "confidence": 0.835
+      "confidence": 0.835,
+      "quality": {
+        "coverage": 0.854,
+        "coherentCoverage": 0.725,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 732.32,
+        "previousEnd": 782.64
+      }
     },
     {
       "start": 783.18,
-      "end": 861.48,
+      "end": 859.54,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "然后以利亚说虽然如此我被接去离开你的时候你若看见我就必得着不然必得不着了也就是说他的眼睛一直要紧",
-      "confidence": 0.868
+      "confidence": 0.868,
+      "quality": {
+        "coverage": 0.868,
+        "coherentCoverage": 0.815,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 783.18,
+        "previousEnd": 859.54
+      }
     },
     {
       "start": 861.48,
-      "end": 944.62,
+      "end": 945.22,
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "他们正走着说话忽有火车火马将二人隔开以利亚就乘旋风升天去了以利沙看见就呼叫说我父啊我父啊以色列的",
-      "confidence": 0.845
+      "confidence": 0.846,
+      "quality": {
+        "coverage": 0.851,
+        "coherentCoverage": 0.778,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 861.48,
+        "previousEnd": 945.22
+      }
     },
     {
-      "start": 944.62,
-      "end": 1025.28,
+      "start": 946.4,
+      "end": 1023.56,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "接下来就是写到以利沙他拾起以利亚的外衣然后他也能够过约旦河的时候用以利亚身上掉下来的外衣打水打水",
-      "confidence": 0.833
+      "confidence": 0.836,
+      "quality": {
+        "coverage": 0.845,
+        "coherentCoverage": 0.784,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 946.4,
+        "previousEnd": 1023.56
+      }
     },
     {
       "start": 1025.28,
-      "end": 1092.52,
+      "end": 1094.16,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "然后后面接下来也记载了以利沙所行的就是上帝迹把新瓶装盐治好了那本来水恶劣土产不熟而落的这个地方当",
-      "confidence": 0.852
+      "confidence": 0.86,
+      "quality": {
+        "coverage": 0.881,
+        "coherentCoverage": 0.774,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1025.28,
+        "previousEnd": 1094.16
+      }
     },
     {
-      "start": 1092.52,
-      "end": 1144.54,
+      "start": 1094.16,
+      "end": 1143.92,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "其实我们的人生若没有恩主耶稣基督来到这个世界上人生是充满着痛苦是劳苦愁烦度人生摩西也说我们一生的",
-      "confidence": 0.943
+      "confidence": 0.96,
+      "quality": {
+        "coverage": 0.96,
+        "coherentCoverage": 0.96,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1094.16,
+        "previousEnd": 1143.92
+      }
     },
     {
       "start": 1144.54,
-      "end": 1194.28,
+      "end": 1194.86,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "当时以利沙他用新瓶装盐把这个水恶劣土产不熟而落的水源治好那么那个地方土产就能够熟了就有生产了人们",
-      "confidence": 0.855
+      "confidence": 0.884,
+      "quality": {
+        "coverage": 0.884,
+        "coherentCoverage": 0.85,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1144.54,
+        "previousEnd": 1194.86
+      }
     },
     {
-      "start": 1194.28,
-      "end": 1260.28,
+      "start": 1196.62,
+      "end": 1259.42,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "23节到25节是记载以利沙他使那些戏笑他的秃头的上去吧秃头的上去吧这四十二个童子被两个母熊撕裂在",
-      "confidence": 0.765
+      "confidence": 0.813,
+      "quality": {
+        "coverage": 0.796,
+        "coherentCoverage": 0.738,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1196.62,
+        "previousEnd": 1259.42
+      }
     },
     {
       "start": 1260.28,
@@ -205,7 +977,58 @@
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "今天的信息就分享到这里感谢主",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1260.28,
+        "previousEnd": 1262.82
+      }
     }
-  ]
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 5,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "repairFingerprint": "fd64c6bc618edf6b02c3dda74d1a333777c00daae18fe43ed929f5779637c149",
+  "repairCueDigest": "244fcd0dfe2c7a1f2c43a7ba76d3d0357bfcf2e0c5683da05e61a3739cda4b53"
 }

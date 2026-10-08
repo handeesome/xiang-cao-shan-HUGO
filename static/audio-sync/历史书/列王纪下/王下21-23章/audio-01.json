@@ -1,6 +1,36 @@
 {
   "version": 1,
   "model": ".audio-sync-cache\\models\\small",
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 3: 16节又说到「玛拿西行耶和华眼中看为恶的事，使犹大人陷在罪里，又流许多无辜人的血，充满了耶路撒冷",
+    "unverified end anchor: target 3: 16节又说到「玛拿西行耶和华眼中看为恶的事，使犹大人陷在罪里，又流许多无辜人的血，充满了耶路撒冷",
+    "incomplete start (6 leading chars, coverage 0.650): target 5: 长辈弟兄姊妹，神量给我们每个家庭不同的环境。如果不是因犯罪而受苦，神有祂极美的旨意在我们的身上。",
+    "unverified start anchor: target 5: 长辈弟兄姊妹，神量给我们每个家庭不同的环境。如果不是因犯罪而受苦，神有祂极美的旨意在我们的身上。",
+    "unverified end anchor: target 6: 后面写道，玛拿西的儿子亚们接续玛拿西作王。「亚们行耶和华眼中看为恶的事，与他父亲玛拿西所行的一样",
+    "unverified start anchor: target 8: 廿二章和廿三章，都是讲有关约西亚的事。我们知道犹大国王约西亚，是「行耶和华眼中看为正的事，行他祖",
+    "unverified start anchor: target 9: 在廿二章3到最后20节，讲到约西亚王十八年的时候，约西亚王把从民中收聚的银子，数算以后，修理殿的",
+    "unverified end anchor: target 10: 我们看见，约西亚王听到神的话的时候，他的一种反应。他听见律法书上的话「便撕裂衣服。」当他们去问女",
+    "unverified end anchor: target 11: 第廿三章我们看见，约西亚废除异教崇拜。他首先带动人读神的话，廿三章1节，「王差遣人招聚犹大和耶路",
+    "unverified end anchor: target 12: 所以约西亚王他跟神之间恢复正常的关系，他从心里愿意尽心尽性地顺从耶和华，遵守神的诫命、法度、律例",
+    "unverified start anchor: target 14: 我们在廿三章的25节神对约西亚的评论，「在约西亚以前，没有王像他尽心、尽性、尽力地归向耶和华，遵",
+    "unverified end anchor: target 14: 我们在廿三章的25节神对约西亚的评论，「在约西亚以前，没有王像他尽心、尽性、尽力地归向耶和华，遵",
+    "unverified end anchor: target 16: 在约翰福音里说，「有了我的命令又遵守的，这人就是爱我的；爱我的必蒙我父爱他，我也要爱他，并且要向",
+    "repair unverified start (previous-sync): target 3",
+    "repair unverified end (previous-sync): target 3",
+    "repair unverified start (previous-sync): target 5",
+    "repair unverified start (previous-sync): target 6",
+    "repair unverified end (previous-sync): target 6",
+    "repair unverified start (previous-sync): target 8",
+    "repair unverified start (previous-sync): target 9",
+    "repair unverified end (previous-sync): target 10",
+    "repair unverified end (previous-sync): target 11",
+    "repair unverified end (previous-sync): target 12",
+    "repair unverified start (previous-sync): target 14",
+    "repair unverified end (previous-sync): target 14",
+    "repair unverified end (previous-sync): target 16"
+  ],
   "source": {
     "page": "历史书/列王纪下/王下21-23章.md",
     "audio": "2Ki21-23.mp3"
@@ -8,28 +38,86 @@
   "audioDuration": 1374.2639375,
   "cues": [
     {
-      "start": 6.08,
-      "end": 9.44,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "王下2123章",
-      "confidence": 0.933
-    },
-    {
-      "start": 9.44,
+      "start": 1.3,
       "end": 141.93,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "亲爱的长辈弟兄姊妹主内平安今天我们一起读了列王纪下廿一到廿三章我们知道廿一章是希西家之后的几代犹",
-      "confidence": 0.754
+      "confidence": 0.78,
+      "quality": {
+        "coverage": 0.756,
+        "coherentCoverage": 0.669,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1.3,
+        "previousEnd": 141.93
+      }
     },
     {
-      "start": 141.93,
-      "end": 179.66,
+      "start": 144.49,
+      "end": 177.75,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "16节又说到玛拿西行耶和华眼中看为恶的事使犹大人陷在罪里又流许多无辜人的血充满了耶路撒冷从这边直",
-      "confidence": 0.761
+      "confidence": 0.771,
+      "quality": {
+        "coverage": 0.761,
+        "coherentCoverage": 0.619,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 144.49,
+        "previousEnd": 177.75
+      }
     },
     {
       "start": 179.66,
@@ -37,7 +125,46 @@
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "但是我们在18节看见玛拿西与他列祖同睡葬在自己宫院乌撒的园内我们知道在历代志下卅三章10到16节",
-      "confidence": 0.77
+      "confidence": 0.8,
+      "quality": {
+        "coverage": 0.806,
+        "coherentCoverage": 0.716,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 179.66,
+        "previousEnd": 408.51
+      }
     },
     {
       "start": 408.51,
@@ -45,71 +172,331 @@
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "长辈弟兄姊妹上帝量给我们每个家庭不同的环境如果不是因犯罪而受苦上帝有祂极美的旨意在我们的身上如果",
-      "confidence": 0.841
+      "confidence": 0.841,
+      "quality": {
+        "coverage": 0.841,
+        "coherentCoverage": 0.755,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 6,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 408.51,
+        "previousEnd": 451.79
+      }
     },
     {
       "start": 451.79,
-      "end": 484.88,
+      "end": 483.5,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "后面写道玛拿西的儿子亚们接续玛拿西作王亚们行耶和华眼中看为恶的事与他父亲玛拿西所行的一样后来他的",
-      "confidence": 0.75
+      "confidence": 0.75,
+      "quality": {
+        "coverage": 0.76,
+        "coherentCoverage": 0.64,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 451.79,
+        "previousEnd": 483.5
+      }
     },
     {
       "start": 484.88,
-      "end": 490.16,
-      "kind": "heading",
-      "targetIndex": 7,
-      "targetText": "第二十二至二十三章约西亚王的宗教改革",
-      "confidence": 0.647
-    },
-    {
-      "start": 490.16,
-      "end": 537.44,
+      "end": 536.72,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "廿二章和廿三章都是讲有关约西亚的事我们知道犹大国王约西亚是行耶和华眼中看为正的事行他祖大卫一切所",
-      "confidence": 0.769
+      "confidence": 0.812,
+      "quality": {
+        "coverage": 0.812,
+        "coherentCoverage": 0.732,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 484.88,
+        "previousEnd": 536.72
+      }
     },
     {
-      "start": 537.44,
-      "end": 572.34,
+      "start": 537.86,
+      "end": 571.8,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "在廿二章3到最后20节讲到约西亚王十八年的时候约西亚王把从民中收聚的银子数算以后修理殿的破坏之处",
-      "confidence": 0.783
+      "confidence": 0.792,
+      "quality": {
+        "coverage": 0.808,
+        "coherentCoverage": 0.603,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 537.86,
+        "previousEnd": 571.8
+      }
     },
     {
       "start": 572.34,
-      "end": 689.16,
+      "end": 690.22,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "我们看见约西亚王听到上帝的话的时候他的一种反应他听见律法书上的话便撕裂衣服当他们去问女先知户勒大",
-      "confidence": 0.874
+      "confidence": 0.878,
+      "quality": {
+        "coverage": 0.89,
+        "coherentCoverage": 0.857,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 572.34,
+        "previousEnd": 690.22
+      }
     },
     {
-      "start": 689.16,
-      "end": 903.11,
+      "start": 692.99,
+      "end": 902.13,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "第廿三章我们看见约西亚废除异教崇拜他首先带动人读上帝的话廿三章1节王差遣人招聚犹大和耶路撒冷的众",
-      "confidence": 0.851
+      "confidence": 0.856,
+      "quality": {
+        "coverage": 0.854,
+        "coherentCoverage": 0.797,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 692.99,
+        "previousEnd": 902.13
+      }
     },
     {
       "start": 903.11,
-      "end": 981.01,
+      "end": 980.13,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "所以约西亚王他跟上帝之间恢复正常的关系他从心里愿意尽心尽性地顺从耶和华遵守上帝的诫命法度律例然后",
-      "confidence": 0.88
+      "confidence": 0.88,
+      "quality": {
+        "coverage": 0.885,
+        "coherentCoverage": 0.828,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 903.11,
+        "previousEnd": 980.13
+      }
     },
     {
       "start": 981.01,
-      "end": 1099.26,
+      "end": 1098.38,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "后面我们看见约西亚王他作了许多的事就是废除一切的偶像邱坛于是他废掉一切的偶像邱坛他是因为从上帝的",
-      "confidence": 0.881
+      "confidence": 0.884,
+      "quality": {
+        "coverage": 0.883,
+        "coherentCoverage": 0.871,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 981.01,
+        "previousEnd": 1098.38
+      }
     },
     {
       "start": 1099.26,
@@ -117,39 +504,230 @@
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "我们在廿三章的25节上帝对约西亚的评论在约西亚以前没有王像他尽心尽性尽力地归向耶和华遵行摩西的一",
-      "confidence": 0.809
+      "confidence": 0.826,
+      "quality": {
+        "coverage": 0.842,
+        "coherentCoverage": 0.716,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 1099.26,
+        "previousEnd": 1208.27
+      }
     },
     {
       "start": 1208.27,
-      "end": 1256.56,
+      "end": 1255.88,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "如果当我们每个人见恩主面的时候我们的上帝对我们的评论是我们的心也像约西亚一样愿意效法基督我们愿意",
-      "confidence": 0.822
+      "confidence": 0.922,
+      "quality": {
+        "coverage": 0.93,
+        "coherentCoverage": 0.898,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1208.27,
+        "previousEnd": 1255.88
+      }
     },
     {
       "start": 1256.56,
-      "end": 1310.88,
+      "end": 1309.16,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "在约翰福音里说有了我的命令又遵守的这人就是爱我的爱我的必蒙我父爱他我也要爱他并且要向他显现然后约",
-      "confidence": 0.888
+      "confidence": 0.888,
+      "quality": {
+        "coverage": 0.903,
+        "coherentCoverage": 0.857,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1256.56,
+        "previousEnd": 1309.16
+      }
     },
     {
-      "start": 1310.88,
-      "end": 1369.76,
+      "start": 1311.44,
+      "end": 1369.2,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "后面约西亚去世以后犹大王约哈斯和约雅敬都是行耶和华眼中看为恶的事约哈斯王和约雅敬王虽然他们在人前",
-      "confidence": 0.837
+      "confidence": 0.842,
+      "quality": {
+        "coverage": 0.85,
+        "coherentCoverage": 0.75,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1311.44,
+        "previousEnd": 1369.2
+      }
     },
     {
       "start": 1369.76,
-      "end": 1373.36,
+      "end": 1373.62,
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "今天的分享就到这里感谢主",
-      "confidence": 0.957
+      "confidence": 0.917,
+      "quality": {
+        "coverage": 0.917,
+        "coherentCoverage": 0.917,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.833,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1369.76,
+        "previousEnd": 1373.62
+      }
     }
-  ]
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 6,
+    "unverifiedEnds": 7,
+    "missingTargets": []
+  },
+  "repairFingerprint": "fca6e1af2a094636d604536b1e5c0456255818549ad55f218255662b4895c27a",
+  "repairCueDigest": "1da232d3d44d85605de53d52894fd023e82449142b2069555a9fcb1fef8f0044"
 }

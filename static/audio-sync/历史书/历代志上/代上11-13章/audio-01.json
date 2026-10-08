@@ -1,6 +1,36 @@
 {
   "version": 1,
   "model": ".audio-sync-cache\\models\\small",
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 1: 亲爱的长辈弟兄姊妹，主内平安，今天我们一起来分享历代志上十一章到十三章。历代志从第十章到廿二章，",
+    "unverified end anchor: target 1: 亲爱的长辈弟兄姊妹，主内平安，今天我们一起来分享历代志上十一章到十三章。历代志从第十章到廿二章，",
+    "unverified end anchor: target 3: 下面我们来看历代志上第十一章。十一章是写大卫作以色列和犹大的王。「以色列众人聚集到希伯仑见大卫，",
+    "unverified end anchor: target 4: 我们看见当扫罗死了以后，以色列众人就聚集到希伯仑来见大卫，愿意立大卫为王。在这个时候，离撒母耳膏",
+    "unverified end anchor: target 5: 大卫真的作了以色列和犹大的王，所以我们看见神的道路高过人的道路，神的意念高过人的意念。当大卫被扫",
+    "unverified start anchor: target 6: 然后4节到9节，是大卫攻下了耶路撒冷，作为他的京都。那个时候，是约押他先上去攻打，结果就作了大卫",
+    "unverified end anchor: target 6: 然后4节到9节，是大卫攻下了耶路撒冷，作为他的京都。那个时候，是约押他先上去攻打，结果就作了大卫",
+    "unverified start anchor: target 8: 10节开始到这章的最后一节47节，是写到大卫的名将。我们看见神是得胜的源头。在14节末了，「耶和",
+    "unverified start anchor: target 9: 15节到19节，记载了非常感人的三个勇士的事迹。大卫他当时住在亚杜兰洞，而非利士人防营设在伯利恒",
+    "unverified end anchor: target 14: 23节到这章的最后一节，我们看见大卫的兵力。「预备打仗的兵来到希伯仑见大卫，要照着耶和华的话，将",
+    "unverified start anchor: target 17: 十三章是大卫想把约柜迁出基列耶琳。我们知道当非利士人送回约柜以后，约柜一直在基列耶琳。大卫他的目",
+    "incomplete start (0 leading chars, coverage 0.500): target 18: 「大卫因耶和华击杀（原文作「闯杀」）乌撒，心里愁烦」，所以他就惧怕，他说：「『神的约柜怎可运到我",
+    "unverified start anchor: target 18: 「大卫因耶和华击杀（原文作「闯杀」）乌撒，心里愁烦」，所以他就惧怕，他说：「『神的约柜怎可运到我",
+    "repair unverified start (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 3",
+    "repair unverified end (previous-sync): target 4",
+    "repair unverified end (previous-sync): target 5",
+    "repair unverified start (previous-sync): target 6",
+    "repair unverified end (previous-sync): target 6",
+    "repair unverified start (previous-sync): target 8",
+    "repair unverified start (previous-sync): target 9",
+    "repair unverified end (previous-sync): target 14",
+    "repair unverified start (previous-sync): target 17",
+    "repair unverified end (previous-sync): target 17",
+    "repair unverified start (previous-sync): target 18"
+  ],
   "source": {
     "page": "历史书/历代志上/代上11-13章.md",
     "audio": "1Ch11-13.mp3"
@@ -8,44 +38,123 @@
   "audioDuration": 1329.1243125,
   "cues": [
     {
-      "start": 6.89,
-      "end": 10.79,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "代上1113章",
-      "confidence": 0.95
-    },
-    {
-      "start": 10.79,
-      "end": 31.81,
+      "start": 1.71,
+      "end": 28.03,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "亲爱的长辈弟兄姊妹主内平安今天我们一起来分享历代志上十一章到十三章历代志从第十章到廿二章都是写到",
-      "confidence": 0.95
+      "confidence": 0.794,
+      "quality": {
+        "coverage": 0.8,
+        "coherentCoverage": 0.686,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 1.71,
+        "previousEnd": 28.03
+      }
     },
     {
-      "start": 31.81,
-      "end": 36.33,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "第十一章大卫登基为王",
-      "confidence": 0.95
-    },
-    {
-      "start": 36.33,
-      "end": 83.38,
+      "start": 28.69,
+      "end": 82.44,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "下面我们来看历代志上第十一章十一章是写大卫作以色列和犹大的王以色列众人聚集到希伯仑见大卫说我们原",
-      "confidence": 0.583
+      "confidence": 0.845,
+      "quality": {
+        "coverage": 0.845,
+        "coherentCoverage": 0.789,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 28.69,
+        "previousEnd": 82.44
+      }
     },
     {
       "start": 83.38,
-      "end": 179.02,
+      "end": 178.14,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "我们看见当扫罗死了以后以色列众人就聚集到希伯仑来见大卫愿意立大卫为王在这个时候离撒母耳膏大卫预言",
-      "confidence": 0.86
+      "confidence": 0.88,
+      "quality": {
+        "coverage": 0.878,
+        "coherentCoverage": 0.821,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 83.38,
+        "previousEnd": 178.14
+      }
     },
     {
       "start": 179.02,
@@ -53,31 +162,165 @@
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "大卫真的作了以色列和犹大的王所以我们看见上帝的道路高过人的道路上帝的意念高过人的意念当大卫被扫罗",
-      "confidence": 0.886
+      "confidence": 0.93,
+      "quality": {
+        "coverage": 0.935,
+        "coherentCoverage": 0.897,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 179.02,
+        "previousEnd": 250.42
+      }
     },
     {
       "start": 250.42,
-      "end": 277.08,
+      "end": 275.88,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "然后4节到9节是大卫攻下了耶路撒冷作为他的京都那个时候是约押他先上去攻打结果就作了大卫的元帅大卫",
-      "confidence": 0.661
+      "confidence": 0.772,
+      "quality": {
+        "coverage": 0.778,
+        "coherentCoverage": 0.603,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 250.42,
+        "previousEnd": 275.88
+      }
     },
     {
       "start": 277.08,
-      "end": 350.61,
+      "end": 347.97,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "第9节说到大卫日见强盛因为万军之耶和华与他同在所以我们看见上帝是强盛的源头祂给大卫预备了大能的勇",
-      "confidence": 0.856
+      "confidence": 0.866,
+      "quality": {
+        "coverage": 0.872,
+        "coherentCoverage": 0.787,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 277.08,
+        "previousEnd": 347.97
+      }
     },
     {
       "start": 350.61,
-      "end": 465.93,
+      "end": 464.09,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "10节开始到这章的最后一节47节是写到大卫的名将我们看见上帝是得胜的源头在14节末了耶和华使以色",
-      "confidence": 0.838
+      "confidence": 0.838,
+      "quality": {
+        "coverage": 0.832,
+        "coherentCoverage": 0.777,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 3,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 350.61,
+        "previousEnd": 464.09
+      }
     },
     {
       "start": 465.93,
@@ -85,79 +328,349 @@
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "15节到19节记载了非常感人的三个勇士的事迹大卫他当时住在亚杜兰洞而非利士人防营设在伯利恒相距很",
-      "confidence": 0.794
+      "confidence": 0.803,
+      "quality": {
+        "coverage": 0.805,
+        "coherentCoverage": 0.676,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 465.93,
+        "previousEnd": 627.9
+      }
     },
     {
       "start": 627.9,
-      "end": 665.3,
+      "end": 663.09,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "在这章里面记载了大卫的许多名将愿上帝也能够兴起更多属灵的勇士大卫的国度因为这些名将的忠心勇敢以至",
-      "confidence": 0.667
+      "confidence": 0.869,
+      "quality": {
+        "coverage": 0.859,
+        "coherentCoverage": 0.835,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 627.9,
+        "previousEnd": 663.09
+      }
     },
     {
       "start": 665.3,
-      "end": 672.02,
-      "kind": "heading",
-      "targetIndex": 11,
-      "targetText": "第十二章早期跟随大卫的勇士",
-      "confidence": 0.667
-    },
-    {
-      "start": 672.02,
-      "end": 725.12,
+      "end": 725.42,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "十二章是记载了早期跟随大卫的一些人便雅悯人迦得人我们知道早期跟随大卫是需要作出明智的抉择的因为大",
-      "confidence": 0.765
+      "confidence": 0.815,
+      "quality": {
+        "coverage": 0.812,
+        "coherentCoverage": 0.743,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 665.3,
+        "previousEnd": 725.42
+      }
     },
     {
-      "start": 725.12,
-      "end": 799.58,
+      "start": 726.68,
+      "end": 798.26,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "在十二章亚玛撒的话那是上帝的灵感动那三十个勇士的首领亚玛撒他就说大卫啊我们是归于你的耶西的儿子啊",
-      "confidence": 0.708
+      "confidence": 0.909,
+      "quality": {
+        "coverage": 0.903,
+        "coherentCoverage": 0.872,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 726.68,
+        "previousEnd": 798.26
+      }
     },
     {
       "start": 799.58,
-      "end": 862.27,
+      "end": 861.35,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "23节到这章的最后一节我们看见大卫的兵力预备打仗的兵来到希伯仑见大卫要照着耶和华的话将扫罗的国位",
-      "confidence": 0.846
+      "confidence": 0.846,
+      "quality": {
+        "coverage": 0.846,
+        "coherentCoverage": 0.705,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 799.58,
+        "previousEnd": 861.35
+      }
     },
     {
       "start": 862.27,
-      "end": 978.14,
+      "end": 977.0,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "在这里我想分享几个点第一个就是那些预备打仗的兵要照耶和华的话将扫罗的国位归与大卫大卫是合上帝心意",
-      "confidence": 0.815
+      "confidence": 0.871,
+      "quality": {
+        "coverage": 0.862,
+        "coherentCoverage": 0.812,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 862.27,
+        "previousEnd": 977.0
+      }
     },
     {
       "start": 978.14,
-      "end": 982.42,
-      "kind": "heading",
-      "targetIndex": 16,
-      "targetText": "第十三章运送约柜",
-      "confidence": 0.95
-    },
-    {
-      "start": 982.42,
-      "end": 1206.2,
+      "end": 1204.7,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "十三章是大卫想把约柜迁出基列耶琳我们知道当非利士人送回约柜以后约柜一直在基列耶琳大卫他的目的很好",
-      "confidence": 0.76
+      "confidence": 0.834,
+      "quality": {
+        "coverage": 0.826,
+        "coherentCoverage": 0.744,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 978.14,
+        "previousEnd": 1204.7
+      }
     },
     {
       "start": 1206.2,
-      "end": 1269.16,
+      "end": 1267.16,
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "大卫因耶和华击杀原文作闯杀乌撒心里愁烦所以他就惧怕他说上帝的约柜怎可运到我这里来于是大卫不将约柜",
-      "confidence": 0.808
+      "confidence": 0.808,
+      "quality": {
+        "coverage": 0.796,
+        "coherentCoverage": 0.659,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.5,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1206.2,
+        "previousEnd": 1267.16
+      }
     },
     {
       "start": 1269.16,
@@ -165,7 +678,46 @@
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "所以我们从乌撒的伸手扶住约柜的被击杀以及约柜到了俄别以东家中俄别以东家的蒙福我们可以看见乌撒扶住",
-      "confidence": 0.789
+      "confidence": 0.789,
+      "quality": {
+        "coverage": 0.779,
+        "coherentCoverage": 0.607,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1269.16,
+        "previousEnd": 1324.58
+      }
     },
     {
       "start": 1324.58,
@@ -173,7 +725,58 @@
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "今天的信息就分享到这里感谢主",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1324.58,
+        "previousEnd": 1328.36
+      }
     }
-  ]
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 6,
+    "unverifiedEnds": 7,
+    "missingTargets": []
+  },
+  "repairFingerprint": "1746071611785d8aacda6232b86b808f32b98c66a1d2758a7cbd3df02db4361a",
+  "repairCueDigest": "345267f64895e5e764b1a1257928e9375fd6943d511698ad0ef4eb9606bbbe60"
 }

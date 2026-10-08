@@ -1,6 +1,38 @@
 {
   "version": 1,
   "model": ".audio-sync-cache\\models\\small",
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 2: 亲爱的长辈弟兄姊妹，主内平安。今天我们一起来分享列王纪上一至三章。",
+    "unverified end anchor: target 2: 亲爱的长辈弟兄姊妹，主内平安。今天我们一起来分享列王纪上一至三章。",
+    "unverified start anchor: target 5: 列王纪上一章1－37 节是大卫王的晚年。我们知道大卫作王 40 年，神使他得胜，他也是一个深受百",
+    "unverified start anchor: target 6: 在撒母耳记上十五章里面，扫罗自己也怜惜亚甲，也爱惜上好的牛、羊、牛犊的，但是当神藉着撒母耳来责备",
+    "unverified start anchor: target 8: 在列王纪上第一章里面，我们看见大卫在年纪老迈的时候，臣仆为他寻得一个非常美貌的童女，就是亚比煞。",
+    "unverified start anchor: target 9: 5节到10节是亚多尼雅争夺王位，而11节开始到这一章的最后，是说到所罗门名正言顺地被大卫王立为以",
+    "unverified start anchor: target 15: 所以约押他虽然建立许多战功，但是在太平之时流了两个可以作元帅的押尼珥和亚玛撒的血，另外他也投靠亚",
+    "unverified end anchor: target 17: 然后再说到一个曾经咒骂他的示每。在那日，他用狠毒的言语咒骂大卫，后来却下约旦河迎接大卫，所以大卫",
+    "unverified end anchor: target 19: 在这章里我们看见大卫教导所罗门对神要敬虔，对人要公义，而所罗门王他也是防患于未然。这使我想到我们",
+    "unverified start anchor: target 21: 列王纪上第三章是所罗门祈祷求智慧。他娶法老的女儿为妻，与埃及王法老结亲，后来就导致他被那些外邦女",
+    "unverified end anchor: target 21: 列王纪上第三章是所罗门祈祷求智慧。他娶法老的女儿为妻，与埃及王法老结亲，后来就导致他被那些外邦女",
+    "unverified start anchor: target 24: 在雅各书一章里面说到，「你们中间若有缺少智慧的，应当求那厚赐与众人、也不斥责人的神，主就必赐给他",
+    "unverified end anchor: target 24: 在雅各书一章里面说到，「你们中间若有缺少智慧的，应当求那厚赐与众人、也不斥责人的神，主就必赐给他",
+    "repair unverified start (previous-sync): target 2",
+    "repair unverified end (previous-sync): target 2",
+    "repair unverified start (previous-sync): target 3",
+    "repair unverified start (previous-sync): target 5",
+    "repair unverified start (previous-sync): target 6",
+    "repair unverified start (previous-sync): target 8",
+    "repair unverified start (previous-sync): target 9",
+    "repair unverified end (previous-sync): target 9",
+    "repair unverified start (previous-sync): target 15",
+    "repair unverified end (previous-sync): target 17",
+    "repair unverified end (previous-sync): target 19",
+    "repair unverified start (previous-sync): target 21",
+    "repair unverified end (previous-sync): target 21",
+    "repair unverified start (previous-sync): target 24",
+    "repair unverified end (previous-sync): target 24"
+  ],
   "source": {
     "page": "历史书/列王纪上/王上1-3章.md",
     "audio": "1Ki1-3.mp3"
@@ -13,175 +45,861 @@
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "亲爱的长辈弟兄姊妹主内平安今天我们一起来分享列王纪上一至三章",
-      "confidence": 0.95
+      "confidence": 0.8,
+      "quality": {
+        "coverage": 0.8,
+        "coherentCoverage": 0.533,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 0.91,
+        "previousEnd": 7.69
+      }
     },
     {
       "start": 8.73,
-      "end": 80.95,
+      "end": 74.25,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "英国作家培根曾经说过读史使人明智读诗使人聪慧从今天开始我们要来读以色列列王的事迹到后来所罗门的儿",
-      "confidence": 0.817
+      "confidence": 0.823,
+      "quality": {
+        "coverage": 0.83,
+        "coherentCoverage": 0.764,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 8.73,
+        "previousEnd": 74.25
+      }
     },
     {
-      "start": 80.95,
-      "end": 82.37,
-      "kind": "heading",
-      "targetIndex": 4,
-      "targetText": "第一章大卫王的晚年",
-      "confidence": 0.8
-    },
-    {
-      "start": 82.37,
+      "start": 75.57,
       "end": 138.11,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "列王纪上一章137节是大卫王的晚年我们知道大卫作王40年上帝使他得胜他也是一个深受百姓爱戴的一个",
-      "confidence": 0.697
+      "confidence": 0.81,
+      "quality": {
+        "coverage": 0.827,
+        "coherentCoverage": 0.754,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 75.57,
+        "previousEnd": 138.11
+      }
     },
     {
       "start": 138.11,
-      "end": 185.65,
+      "end": 186.49,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "在撒母耳记上十五章里面扫罗自己也怜惜亚甲也爱惜上好的牛羊牛犊的但是当上帝藉着撒母耳来责备他的时候",
-      "confidence": 0.84
+      "confidence": 0.839,
+      "quality": {
+        "coverage": 0.844,
+        "coherentCoverage": 0.773,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 138.11,
+        "previousEnd": 186.49
+      }
     },
     {
-      "start": 185.65,
+      "start": 186.49,
       "end": 276.05,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "然后我们看见在第一章里面14节曾经在拔示巴这件事上大卫犯罪他所行的我们的上帝甚不喜悦他所行的这件",
-      "confidence": 0.736
+      "confidence": 0.808,
+      "quality": {
+        "coverage": 0.823,
+        "coherentCoverage": 0.738,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 186.49,
+        "previousEnd": 276.05
+      }
     },
     {
-      "start": 276.05,
-      "end": 354.34,
+      "start": 276.81,
+      "end": 352.18,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "在列王纪上第一章里面我们看见大卫在年纪老迈的时候臣仆为他寻得一个非常美貌的童女就是亚比煞这童女极",
-      "confidence": 0.675
+      "confidence": 0.863,
+      "quality": {
+        "coverage": 0.875,
+        "coherentCoverage": 0.799,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 276.81,
+        "previousEnd": 352.18
+      }
     },
     {
       "start": 354.34,
-      "end": 461.72,
+      "end": 461.0,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "5节到10节是亚多尼雅争夺王位而11节开始到这一章的最后是说到所罗门名正言顺地被大卫王立为以色列",
-      "confidence": 0.739
+      "confidence": 0.797,
+      "quality": {
+        "coverage": 0.75,
+        "coherentCoverage": 0.695,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 354.34,
+        "previousEnd": 461.0
+      }
     },
     {
       "start": 461.72,
-      "end": 532.66,
+      "end": 531.46,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "11节到这一章的最后一节是讲到所罗门怎样的被大卫所膏立藉着祭司撒督所罗门正式被尊为王而亚多尼雅窃",
-      "confidence": 0.95
+      "confidence": 0.749,
+      "quality": {
+        "coverage": 0.753,
+        "coherentCoverage": 0.577,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 461.72,
+        "previousEnd": 531.46
+      }
     },
     {
       "start": 532.66,
-      "end": 602.23,
+      "end": 600.28,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "所罗门是大卫所立的王所以他是名正言顺的而亚多尼雅他却不能站立了所以这也让我想到我们的生命当中有旧",
-      "confidence": 0.818
+      "confidence": 0.879,
+      "quality": {
+        "coverage": 0.879,
+        "coherentCoverage": 0.834,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution",
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 532.66,
+        "previousEnd": 600.28
+      }
     },
     {
       "start": 602.23,
-      "end": 605.91,
-      "kind": "heading",
-      "targetIndex": 12,
-      "targetText": "第二章大卫的遗训",
-      "confidence": 0.6
-    },
-    {
-      "start": 605.91,
       "end": 739.33,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "第二章是大卫给所罗门的遗训在这里我们看见大卫对所罗门说我现在要走世人必走的路所以你当刚强作大丈夫",
-      "confidence": 0.95
+      "confidence": 0.862,
+      "quality": {
+        "coverage": 0.862,
+        "coherentCoverage": 0.807,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 602.23,
+        "previousEnd": 739.33
+      }
     },
     {
       "start": 739.33,
-      "end": 829.55,
+      "end": 828.27,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "他先谈到约押这个曾经跟大卫一起战斗也建了许多的战功但是他妒忌专权杀了两个可以作元帅的押尼珥和亚玛",
-      "confidence": 0.708
+      "confidence": 0.79,
+      "quality": {
+        "coverage": 0.79,
+        "coherentCoverage": 0.672,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 739.33,
+        "previousEnd": 828.27
+      }
     },
     {
       "start": 829.55,
-      "end": 865.46,
+      "end": 862.73,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "所以约押他虽然建立许多战功但是在太平之时流了两个可以作元帅的押尼珥和亚玛撒的血另外他也投靠亚多尼",
-      "confidence": 0.8
+      "confidence": 0.846,
+      "quality": {
+        "coverage": 0.871,
+        "coherentCoverage": 0.776,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 829.55,
+        "previousEnd": 862.73
+      }
     },
     {
       "start": 865.46,
-      "end": 885.1,
+      "end": 881.64,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "然后说到急难当中帮助他的巴西莱众子他说你当恩待基列人巴西莱的众子使他们常与你同席吃饭因为我躲避你",
-      "confidence": 0.862
+      "confidence": 0.862,
+      "quality": {
+        "coverage": 0.862,
+        "coherentCoverage": 0.862,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 865.46,
+        "previousEnd": 881.64
+      }
     },
     {
       "start": 885.1,
-      "end": 973.32,
+      "end": 974.64,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "然后再说到一个曾经咒骂他的示每在那日他用狠毒的言语咒骂大卫后来却下约旦河迎接大卫所以大卫当时指着",
-      "confidence": 0.827
+      "confidence": 0.827,
+      "quality": {
+        "coverage": 0.833,
+        "coherentCoverage": 0.712,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 885.1,
+        "previousEnd": 974.64
+      }
     },
     {
-      "start": 973.32,
-      "end": 1038.12,
+      "start": 977.9,
+      "end": 1038.46,
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "所以大卫就指示所罗门对于这些反叛的势力该如何的处置后来我们知道所罗门他用智慧将亚多尼雅处死他敏锐",
-      "confidence": 0.565
+      "confidence": 0.822,
+      "quality": {
+        "coverage": 0.822,
+        "coherentCoverage": 0.752,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 977.9,
+        "previousEnd": 1038.46
+      }
     },
     {
-      "start": 1038.12,
-      "end": 1150.02,
+      "start": 1039.46,
+      "end": 1148.88,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "在这章里我们看见大卫教导所罗门对上帝要敬虔对人要公义而所罗门王他也是防患于未然这使我想到我们应该",
-      "confidence": 0.712
+      "confidence": 0.849,
+      "quality": {
+        "coverage": 0.854,
+        "coherentCoverage": 0.783,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1039.46,
+        "previousEnd": 1148.88
+      }
     },
     {
       "start": 1150.02,
-      "end": 1193.74,
+      "end": 1194.92,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "列王纪上第三章是所罗门祈祷求智慧他娶法老的女儿为妻与埃及王法老结亲后来就导致他被那些外邦女子诱惑",
-      "confidence": 0.673
+      "confidence": 0.763,
+      "quality": {
+        "coverage": 0.813,
+        "coherentCoverage": 0.636,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution",
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 1150.02,
+        "previousEnd": 1194.92
+      }
     },
     {
-      "start": 1193.74,
+      "start": 1195.86,
       "end": 1300.78,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "后面记载了所罗门求智慧然后上帝很悦纳他这样的心祂说你既然求这事不为自己求寿求富也不求灭绝你仇敌的",
-      "confidence": 0.853
+      "confidence": 0.859,
+      "quality": {
+        "coverage": 0.86,
+        "coherentCoverage": 0.806,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1195.86,
+        "previousEnd": 1300.78
+      }
     },
     {
       "start": 1300.78,
-      "end": 1455.57,
+      "end": 1454.53,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "有两个妓女同住一房各生一个男孩但其中一个妇人压死了她的孩子然后把这个死孩子抱到另一个妇人的身边把",
-      "confidence": 0.793
+      "confidence": 0.896,
+      "quality": {
+        "coverage": 0.899,
+        "coherentCoverage": 0.821,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1300.78,
+        "previousEnd": 1454.53
+      }
     },
     {
       "start": 1455.57,
-      "end": 1480.27,
+      "end": 1479.25,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "在雅各书一章里面说到你们中间若有缺少智慧的应当求那厚赐与众人也不斥责人的上帝主就必赐给他使我们也",
-      "confidence": 0.7
+      "confidence": 0.9,
+      "quality": {
+        "coverage": 0.9,
+        "coherentCoverage": 0.825,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 1455.57,
+        "previousEnd": 1479.25
+      }
     },
     {
       "start": 1480.27,
@@ -189,7 +907,58 @@
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "今天的信息就分享到这里感谢主",
-      "confidence": 0.786
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1480.27,
+        "previousEnd": 1483.45
+      }
     }
-  ]
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 9,
+    "unverifiedEnds": 6,
+    "missingTargets": []
+  },
+  "repairFingerprint": "f684ff57f624ee7aae72e03c7c5d8597aa4e3933ce1d1eed8a2c76ed8f29123a",
+  "repairCueDigest": "9d118e77bc22795d209dce90c8c05634bd1c7020548969df33f17e7382a70caf"
 }

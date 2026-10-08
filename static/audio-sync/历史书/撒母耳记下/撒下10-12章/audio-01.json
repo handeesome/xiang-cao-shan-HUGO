@@ -1,6 +1,30 @@
 {
   "version": 1,
   "model": ".audio-sync-cache\\models\\small",
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 13: 既然乌利亚如此忠心，乌利亚没有回家与他妻子同寢，大卫就没办法藉着乌利亚来遮盖他的罪孽，他与拔示巴",
+    "unverified end anchor: target 14: 当大卫滥用职权的时候，真的是何等的可怕！那么忠心耿耿的乌利亚，竟然因着他滥用权力而失去了性命。当",
+    "incomplete start (2 leading chars, coverage 0.500): target 19: 亲爱的长辈弟兄姊妹，下面我们一起来学习撒母耳记下第十二章。这章是写到拿单的谴责和大卫的悔改。我们",
+    "unverified start anchor: target 19: 亲爱的长辈弟兄姊妹，下面我们一起来学习撒母耳记下第十二章。这章是写到拿单的谴责和大卫的悔改。我们",
+    "unverified end anchor: target 19: 亲爱的长辈弟兄姊妹，下面我们一起来学习撒母耳记下第十二章。这章是写到拿单的谴责和大卫的悔改。我们",
+    "unverified start anchor: target 21: 神藉着先知拿单说「刀剑必永不离开你的家。耶和华如此说：『我必从你家中兴起祸患攻击你，我必在你眼前",
+    "unverified end anchor: target 21: 神藉着先知拿单说「刀剑必永不离开你的家。耶和华如此说：『我必从你家中兴起祸患攻击你，我必在你眼前",
+    "unverified end anchor: target 29: 求你随你的美意善待锡安， 建造耶路撒冷的城墙。 那时，你必喜爱公义的祭和燔祭， 并全牲的燔祭； ",
+    "unverified start anchor: target 33: 后面廿六节到这一章的最后一节，三十一节，就是当大卫灵性得胜的时候，神赐给他再次攻取了拉巴，就是亚",
+    "repair unverified end (previous-sync): target 9",
+    "repair unverified end (previous-sync): target 13",
+    "repair unverified end (previous-sync): target 14",
+    "repair unverified start (previous-sync): target 19",
+    "repair unverified end (previous-sync): target 19",
+    "repair unverified start (previous-sync): target 21",
+    "repair unverified end (previous-sync): target 21",
+    "repair unverified end (previous-sync): target 29",
+    "repair unverified end (previous-sync): target 32",
+    "repair unverified start (previous-sync): target 33",
+    "repair unverified end (previous-sync): target 33"
+  ],
   "source": {
     "page": "历史书/撒母耳记下/撒下10-12章.md",
     "audio": "2Sa10-12.mp3"
@@ -8,28 +32,51 @@
   "audioDuration": 2055.641875,
   "cues": [
     {
-      "start": 5.84,
-      "end": 8.42,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "撒下1012章",
-      "confidence": 0.95
-    },
-    {
-      "start": 8.42,
-      "end": 14.02,
-      "kind": "heading",
-      "targetIndex": 1,
-      "targetText": "第十章大卫与亚扪人的冲突",
-      "confidence": 0.95
-    },
-    {
-      "start": 14.02,
-      "end": 76.16,
+      "start": 1.42,
+      "end": 75.08,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "亲爱的长辈弟兄姊妹今天我们一起来学习撒母耳记下第十章这一章主要讲了大卫与亚扪人之间的冲突亚扪人的",
-      "confidence": 0.75
+      "confidence": 0.898,
+      "quality": {
+        "coverage": 0.898,
+        "coherentCoverage": 0.876,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1.42,
+        "previousEnd": 75.08
+      }
     },
     {
       "start": 76.16,
@@ -37,247 +84,1320 @@
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "所以在这里我们可以看出哈嫩和他首领们真的是把别人的善意误解了曲解了这也使我想到其实跟人相处的时候",
-      "confidence": 0.958
+      "confidence": 0.958,
+      "quality": {
+        "coverage": 0.965,
+        "coherentCoverage": 0.94,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 76.16,
+        "previousEnd": 148.46
+      }
     },
     {
       "start": 148.46,
-      "end": 178.46,
+      "end": 177.46,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "所以在这个时候一方面我们应该审查当别人可能不是这个意思的时候引起误会然后会产生不必要的矛盾这个时",
-      "confidence": 0.893
+      "confidence": 0.893,
+      "quality": {
+        "coverage": 0.915,
+        "coherentCoverage": 0.878,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 148.46,
+        "previousEnd": 177.46
+      }
     },
     {
       "start": 178.46,
-      "end": 414.42,
+      "end": 368.31,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "后来我们发现因着哈嫩的误解并且羞辱大卫的使者以至于以色列人和亚扪人开始争战然后我们发现在这场争战",
-      "confidence": 0.868
+      "confidence": 0.87,
+      "quality": {
+        "coverage": 0.895,
+        "coherentCoverage": 0.825,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 178.46,
+        "previousEnd": 368.31
+      }
     },
     {
-      "start": 414.42,
-      "end": 417.92,
-      "kind": "heading",
-      "targetIndex": 6,
-      "targetText": "第十一章大卫的犯罪",
-      "confidence": 0.714
-    },
-    {
-      "start": 417.92,
-      "end": 466.46,
+      "start": 374.6,
+      "end": 462.52,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "亲爱的长辈弟兄姊妹下面我们一起来学习撒母耳记下第十一章这章是真实的记载了大卫犯罪大卫和拔示巴犯奸",
-      "confidence": 0.62
+      "confidence": 0.86,
+      "quality": {
+        "coverage": 0.856,
+        "coherentCoverage": 0.8,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 374.6,
+        "previousEnd": 462.52
+      }
     },
     {
       "start": 466.46,
-      "end": 582.29,
+      "end": 579.97,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "下面我们来看首先我们看到大卫在安逸当中的失败陷入了试探当中过了一年到列王出战的时候大卫又差派约押",
-      "confidence": 0.867
+      "confidence": 0.882,
+      "quality": {
+        "coverage": 0.892,
+        "coherentCoverage": 0.827,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 466.46,
+        "previousEnd": 579.97
+      }
     },
     {
       "start": 582.29,
-      "end": 652.8,
+      "end": 650.69,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "然后在平顶游行的时候他看见妇人沐浴容貌甚美所以他眼目的情欲看见了以后他没有扼杀这个苗头于萌芽状态",
-      "confidence": 0.829
+      "confidence": 0.829,
+      "quality": {
+        "coverage": 0.87,
+        "coherentCoverage": 0.833,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 582.29,
+        "previousEnd": 650.69
+      }
     },
     {
       "start": 652.8,
-      "end": 744.66,
+      "end": 743.6,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "我们看见当时大卫没有及时的扼杀这个私欲所引起的犯罪他把拔示巴接过来以后与他同房拔示巴就怀了孕既然",
-      "confidence": 0.879
+      "confidence": 0.879,
+      "quality": {
+        "coverage": 0.895,
+        "coherentCoverage": 0.851,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 652.8,
+        "previousEnd": 743.6
+      }
     },
     {
       "start": 744.66,
-      "end": 773.84,
+      "end": 770.98,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "其实我们所言所行在洞察我们人心肺腑心肠的上帝面前无不赤露敞开的所以求上帝真的在我们犯罪的时候圣灵",
-      "confidence": 0.624
+      "confidence": 0.89,
+      "quality": {
+        "coverage": 0.885,
+        "coherentCoverage": 0.851,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 744.66,
+        "previousEnd": 770.98
+      }
     },
     {
       "start": 773.84,
-      "end": 831.99,
+      "end": 830.16,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "后来我们看见大卫就吩咐把拔示巴的丈夫乌利亚召回来王送他一份食物让他回家去但是忠心的乌利亚觉得在战",
-      "confidence": 0.902
+      "confidence": 0.902,
+      "quality": {
+        "coverage": 0.908,
+        "coherentCoverage": 0.855,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 773.84,
+        "previousEnd": 830.16
+      }
     },
     {
       "start": 831.99,
-      "end": 949.64,
+      "end": 946.86,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "既然乌利亚如此忠心乌利亚没有回家与他妻子同寢大卫就没办法藉着乌利亚来遮盖他的罪孽他与拔示巴所生的",
-      "confidence": 0.924
+      "confidence": 0.927,
+      "quality": {
+        "coverage": 0.927,
+        "coherentCoverage": 0.916,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 831.99,
+        "previousEnd": 946.86
+      }
     },
     {
       "start": 949.64,
-      "end": 990.55,
+      "end": 989.61,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "当大卫滥用职权的时候真的是何等的可怕那么忠心耿耿的乌利亚竟然因着他滥用权力而失去了性命当乌利亚死",
-      "confidence": 0.935
+      "confidence": 0.935,
+      "quality": {
+        "coverage": 0.935,
+        "coherentCoverage": 0.85,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 949.64,
+        "previousEnd": 989.61
+      }
     },
     {
       "start": 990.55,
-      "end": 1040.89,
+      "end": 1040.31,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "我们看见我们的上帝祂是公义的上帝祂是恨恶罪的大卫与拔示巴犯奸淫并且遮盖自己的罪甚至借刀杀人我们的",
-      "confidence": 0.747
+      "confidence": 0.887,
+      "quality": {
+        "coverage": 0.887,
+        "coherentCoverage": 0.84,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 990.55,
+        "previousEnd": 1040.31
+      }
     },
     {
       "start": 1040.89,
-      "end": 1096.0,
+      "end": 1094.9,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "后面第十二章就是上帝藉着先知拿单来责备大卫让大卫的心灵苏醒能够及时的悔改回转回到上帝的面前所以在",
-      "confidence": 0.874
+      "confidence": 0.889,
+      "quality": {
+        "coverage": 0.885,
+        "coherentCoverage": 0.847,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1040.89,
+        "previousEnd": 1094.9
+      }
     },
     {
       "start": 1096.0,
-      "end": 1145.97,
+      "end": 1139.47,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "也许我们知道我们的上帝洞察一切祂是恨恶罪恶的上帝是圣洁公义的我们所做的我们的上帝无不鉴察当我们所",
-      "confidence": 0.85
+      "confidence": 0.858,
+      "quality": {
+        "coverage": 0.855,
+        "coherentCoverage": 0.774,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1096.0,
+        "previousEnd": 1139.47
+      }
     },
     {
-      "start": 1145.97,
-      "end": 1155.21,
-      "kind": "heading",
-      "targetIndex": 18,
-      "targetText": "第十二章拿单责备与大卫悔改",
-      "confidence": 0.95
-    },
-    {
-      "start": 1155.21,
-      "end": 1236.53,
+      "start": 1142.13,
+      "end": 1234.47,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "亲爱的长辈弟兄姊妹下面我们一起来学习撒母耳记下第十二章这章是写到拿单的谴责和大卫的悔改我们看见上",
-      "confidence": 0.814
+      "confidence": 0.856,
+      "quality": {
+        "coverage": 0.856,
+        "coherentCoverage": 0.782,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.5,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 1142.13,
+        "previousEnd": 1234.47
+      }
     },
     {
       "start": 1236.53,
-      "end": 1334.0,
+      "end": 1334.18,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "当大卫对先知拿单所说的比喻作出判断的时候先知拿单话锋一转马上就责备大卫说你就是那人耶和华以色列的",
-      "confidence": 0.763
+      "confidence": 0.846,
+      "quality": {
+        "coverage": 0.846,
+        "coherentCoverage": 0.804,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1236.53,
+        "previousEnd": 1334.18
+      }
     },
     {
-      "start": 1334.0,
+      "start": 1335.38,
       "end": 1364.38,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "上帝藉着先知拿单说刀剑必永不离开你的家耶和华如此说我必从你家中兴起祸患攻击你我必在你眼前把你的妃",
-      "confidence": 0.847
+      "confidence": 0.86,
+      "quality": {
+        "coverage": 0.86,
+        "coherentCoverage": 0.776,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 1335.38,
+        "previousEnd": 1364.38
+      }
     },
     {
       "start": 1364.38,
-      "end": 1496.83,
+      "end": 1495.81,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "在这里上帝藉着先知拿单对犯罪的大卫作了清清楚楚的宣告他的家中将会遭遇灾难他的家庭将会有各种纷争起",
-      "confidence": 0.773
+      "confidence": 0.87,
+      "quality": {
+        "coverage": 0.892,
+        "coherentCoverage": 0.839,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1364.38,
+        "previousEnd": 1495.81
+      }
     },
     {
       "start": 1496.83,
-      "end": 1550.47,
+      "end": 1548.53,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "我们看见我们犯罪的时候上帝的名受羞辱先知拿单在这里说你行这事叫耶和华的仇敌大得亵渎的机会然后也说",
-      "confidence": 0.828
+      "confidence": 0.828,
+      "quality": {
+        "coverage": 0.831,
+        "coherentCoverage": 0.768,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1496.83,
+        "previousEnd": 1548.53
+      }
     },
     {
       "start": 1550.47,
-      "end": 1616.0,
+      "end": 1609.55,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "诗篇五十一篇是大卫与拔示巴同室以后先知拿单来见他他作这诗就交与伶长了上帝啊求你按你的慈爱怜恤我按",
-      "confidence": 0.837
+      "confidence": 0.837,
+      "quality": {
+        "coverage": 0.834,
+        "coherentCoverage": 0.745,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1550.47,
+        "previousEnd": 1609.55
+      }
     },
     {
       "start": 1616.0,
-      "end": 1655.39,
+      "end": 1651.55,
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "你所喜爱的是内里诚实你在我隐密处必使我得智慧求你用牛膝草洁净我我就干净求你洗涤我我就比雪更白求你",
-      "confidence": 0.875
+      "confidence": 0.875,
+      "quality": {
+        "coverage": 0.875,
+        "coherentCoverage": 0.875,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1616.0,
+        "previousEnd": 1651.55
+      }
     },
     {
       "start": 1655.39,
-      "end": 1684.35,
+      "end": 1680.67,
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "上帝啊求你为我造清洁的心使我里面重新有正直的灵正直或作坚定不要丢弃我使我离开你的面不要从我收回你",
-      "confidence": 0.866
+      "confidence": 0.866,
+      "quality": {
+        "coverage": 0.829,
+        "coherentCoverage": 0.786,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1655.39,
+        "previousEnd": 1680.67
+      }
     },
     {
       "start": 1684.35,
-      "end": 1703.79,
+      "end": 1704.41,
       "kind": "paragraph",
       "targetIndex": 27,
       "targetText": "我就把你的道指教有过犯的人罪人必归顺你上帝啊你是拯救我的上帝求你救我脱离流人血的罪我的舌头就高声",
-      "confidence": 0.925
+      "confidence": 0.907,
+      "quality": {
+        "coverage": 0.907,
+        "coherentCoverage": 0.907,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1684.35,
+        "previousEnd": 1704.41
+      }
     },
     {
-      "start": 1703.79,
-      "end": 1742.97,
+      "start": 1706.1,
+      "end": 1739.71,
       "kind": "paragraph",
       "targetIndex": 28,
       "targetText": "主啊求你使我嘴唇张开我的口便传扬赞美你的话你本不喜爱祭物若喜爱我就献上燔祭你也不喜悦上帝所要的祭",
-      "confidence": 0.788
+      "confidence": 0.859,
+      "quality": {
+        "coverage": 0.853,
+        "coherentCoverage": 0.838,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1706.1,
+        "previousEnd": 1739.71
+      }
     },
     {
       "start": 1742.97,
-      "end": 1762.9,
+      "end": 1763.5,
       "kind": "paragraph",
       "targetIndex": 29,
       "targetText": "求你随你的美意善待锡安建造耶路撒冷的城墙那时你必喜爱公义的祭和燔祭并全牲的燔祭那时人必将公牛献在",
-      "confidence": 0.634
+      "confidence": 0.777,
+      "quality": {
+        "coverage": 0.784,
+        "coherentCoverage": 0.549,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1742.97,
+        "previousEnd": 1763.5
+      }
     },
     {
-      "start": 1762.9,
-      "end": 1835.81,
+      "start": 1767.56,
+      "end": 1833.83,
       "kind": "paragraph",
       "targetIndex": 30,
       "targetText": "我们读大卫的悔罪诗的时候我们看见大卫确实犯了奸淫的大罪后来的世人也常以大卫的犯罪而作自己犯罪的借",
-      "confidence": 0.735
+      "confidence": 0.848,
+      "quality": {
+        "coverage": 0.843,
+        "coherentCoverage": 0.777,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1767.56,
+        "previousEnd": 1833.83
+      }
     },
     {
       "start": 1835.81,
-      "end": 1951.19,
+      "end": 1953.15,
       "kind": "paragraph",
       "targetIndex": 31,
       "targetText": "后来尽管大卫为乌利亚妻给大卫所生的孩子恳求禁食但是这个孩子仍然照着上帝藉着先知拿单所说的这个孩子",
-      "confidence": 0.719
+      "confidence": 0.817,
+      "quality": {
+        "coverage": 0.82,
+        "coherentCoverage": 0.754,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1835.81,
+        "previousEnd": 1953.15
+      }
     },
     {
-      "start": 1951.19,
-      "end": 1992.47,
+      "start": 1953.15,
+      "end": 1993.21,
       "kind": "paragraph",
       "targetIndex": 32,
       "targetText": "后来我们看见上帝就赐给大卫和拔示巴又一个孩子这个孩子就是所罗门耶和华也喜爱他就藉先知拿单赐他一个",
-      "confidence": 0.831
+      "confidence": 0.821,
+      "quality": {
+        "coverage": 0.837,
+        "coherentCoverage": 0.797,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1953.15,
+        "previousEnd": 1993.21
+      }
     },
     {
-      "start": 1992.47,
+      "start": 1994.01,
       "end": 2052.44,
       "kind": "paragraph",
       "targetIndex": 33,
       "targetText": "后面廿六节到这一章的最后一节三十一节就是当大卫灵性得胜的时候上帝赐给他再次攻取了拉巴就是亚扪人的",
-      "confidence": 0.808
+      "confidence": 0.826,
+      "quality": {
+        "coverage": 0.818,
+        "coherentCoverage": 0.745,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 1994.01,
+        "previousEnd": 2052.44
+      }
     }
-  ]
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 3,
+    "unverifiedEnds": 8,
+    "missingTargets": []
+  },
+  "repairFingerprint": "9ec00228005544f946670591281f571f08c68b50500558bf5853f4bed57112ac",
+  "repairCueDigest": "d092b109efdf74784d02636427393a0d79335c8594ebd5a010a5ca112bf2885e"
 }

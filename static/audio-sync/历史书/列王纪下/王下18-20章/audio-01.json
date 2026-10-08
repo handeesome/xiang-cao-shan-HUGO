@@ -1,6 +1,30 @@
 {
   "version": 1,
   "model": ".audio-sync-cache\\models\\small",
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 2: 亲爱的长辈弟兄姊妹，主内平安。今天我们一起来分享列王纪下十八到二十章。十八章到二十章都是讲到希西",
+    "unverified end anchor: target 2: 亲爱的长辈弟兄姊妹，主内平安。今天我们一起来分享列王纪下十八到二十章。十八章到二十章都是讲到希西",
+    "unverified end anchor: target 3: 然后我们看见第5节跟第6节。神对希西家的评价，「希西家倚靠耶和华以色列的神，在他前后的犹大列王中",
+    "unverified start anchor: target 4: 13节到37节，这一章里面就是讲到亚述大军步步紧逼。13节说到「希西家王十四年，亚述王西拿基立上",
+    "unverified start anchor: target 5: 从拉伯沙基的话里，我们看出希西家曾经倚靠埃及。我们来看21节，「看哪，你所倚靠的埃及，是那压伤的",
+    "unverified end anchor: target 7: 我们看见希西家，「听见，就撕裂衣服，披上麻布，进了耶和华的殿。使家宰以利亚敬和书记舍伯那，并祭司",
+    "unverified start anchor: target 11: 「当夜耶和华的使者出去，在亚述营中杀了十八万五千人。清早有人起来一看，都是死尸了。亚述王西拿基立",
+    "unverified end anchor: target 12: 「投靠耶和华，强似依赖人；投靠耶和华，强势依赖王子。」但我们人的天性何等像亚哈斯一样，要寻求从人",
+    "unverified start anchor: target 15: 12节到19节，是讲到希西家病愈，从巴比伦而来的使者来探望希西家。然后「希西家听从使者的话，把他",
+    "unverified start anchor: target 16: 在历代志下卅二章里面，就是他心里骄傲，神的忿怒要临到他和犹大并耶路撒冷。然后在卅二章的26节说到",
+    "repair unverified start (previous-sync): target 2",
+    "repair unverified end (previous-sync): target 2",
+    "repair unverified end (previous-sync): target 3",
+    "repair unverified start (previous-sync): target 4",
+    "repair unverified start (previous-sync): target 5",
+    "repair unverified end (previous-sync): target 7",
+    "repair unverified start (previous-sync): target 11",
+    "repair unverified end (previous-sync): target 12",
+    "repair unverified start (previous-sync): target 15",
+    "repair unverified start (previous-sync): target 16"
+  ],
   "source": {
     "page": "历史书/列王纪下/王下18-20章.md",
     "audio": "2Ki18-20.mp3"
@@ -8,132 +32,565 @@
   "audioDuration": 1108.1545625,
   "cues": [
     {
-      "start": 5.78,
-      "end": 8.82,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "王下1820章",
-      "confidence": 0.95
-    },
-    {
-      "start": 8.82,
-      "end": 17.28,
-      "kind": "heading",
-      "targetIndex": 1,
-      "targetText": "第十八章希西家王的改革与亚述的威胁",
-      "confidence": 0.95
-    },
-    {
-      "start": 17.28,
-      "end": 45.58,
+      "start": 1.26,
+      "end": 44.38,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "亲爱的长辈弟兄姊妹主内平安今天我们一起来分享列王纪下十八到二十章十八章到二十章都是讲到希西家王希",
-      "confidence": 0.638
+      "confidence": 0.828,
+      "quality": {
+        "coverage": 0.831,
+        "coherentCoverage": 0.738,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 1.26,
+        "previousEnd": 44.38
+      }
     },
     {
       "start": 45.58,
-      "end": 109.78,
+      "end": 111.24,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "然后我们看见第5节跟第6节上帝对希西家的评价希西家倚靠耶和华以色列的上帝在他前后的犹大列王中没有",
-      "confidence": 0.767
+      "confidence": 0.802,
+      "quality": {
+        "coverage": 0.777,
+        "coherentCoverage": 0.66,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 45.58,
+        "previousEnd": 111.24
+      }
     },
     {
-      "start": 109.78,
-      "end": 211.24,
+      "start": 112.1,
+      "end": 209.03,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "13节到37节这一章里面就是讲到亚述大军步步紧逼13节说到希西家王十四年亚述王西拿基立上来攻击犹",
-      "confidence": 0.706
+      "confidence": 0.796,
+      "quality": {
+        "coverage": 0.806,
+        "coherentCoverage": 0.683,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 112.1,
+        "previousEnd": 209.03
+      }
     },
     {
       "start": 211.24,
-      "end": 304.38,
+      "end": 303.28,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "从拉伯沙基的话里我们看出希西家曾经倚靠埃及我们来看21节看哪你所倚靠的埃及是那压伤的苇杖人若靠这",
-      "confidence": 0.847
+      "confidence": 0.863,
+      "quality": {
+        "coverage": 0.87,
+        "coherentCoverage": 0.769,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 211.24,
+        "previousEnd": 303.28
+      }
     },
     {
-      "start": 304.38,
-      "end": 343.07,
+      "start": 304.86,
+      "end": 343.47,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "我们看见希西家听见就撕裂衣服披上麻布进了耶和华的殿使家宰以利亚敬和书记舍伯那并祭司中的长老都披上",
-      "confidence": 0.803
+      "confidence": 0.807,
+      "quality": {
+        "coverage": 0.81,
+        "coherentCoverage": 0.69,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 304.86,
+        "previousEnd": 343.47
+      }
     },
     {
-      "start": 343.07,
-      "end": 387.08,
+      "start": 343.47,
+      "end": 386.08,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "我们看见在这样急难当中希西家跟他的爸爸亚哈斯截然不同亚哈斯在急难当中凭自己的人意求助于亚述王并且",
-      "confidence": 0.838
+      "confidence": 0.841,
+      "quality": {
+        "coverage": 0.841,
+        "coherentCoverage": 0.765,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 343.47,
+        "previousEnd": 386.08
+      }
     },
     {
       "start": 387.08,
-      "end": 528.66,
+      "end": 529.0,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "我们看见我们的上帝藉着以赛亚带下安慰以赛亚对他们说要这样对你们的主人说耶和华如此说你听见亚述王的",
-      "confidence": 0.746
+      "confidence": 0.85,
+      "quality": {
+        "coverage": 0.84,
+        "coherentCoverage": 0.784,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 387.08,
+        "previousEnd": 529.0
+      }
     },
     {
-      "start": 528.66,
-      "end": 585.7,
+      "start": 530.68,
+      "end": 585.96,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "后面我们看见上帝藉着先知又安慰了王传信息给王以色列人哪我赐你们一个证据你们今年要吃自生的明年也要",
-      "confidence": 0.878
+      "confidence": 0.885,
+      "quality": {
+        "coverage": 0.883,
+        "coherentCoverage": 0.851,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 530.68,
+        "previousEnd": 585.96
+      }
     },
     {
-      "start": 585.7,
-      "end": 659.61,
+      "start": 588.6,
+      "end": 658.15,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "当夜耶和华的使者出去在亚述营中杀了十八万五千人清早有人起来一看都是死尸了亚述王西拿基立就拔营回去",
-      "confidence": 0.882
+      "confidence": 0.898,
+      "quality": {
+        "coverage": 0.894,
+        "coherentCoverage": 0.829,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 588.6,
+        "previousEnd": 658.15
+      }
     },
     {
       "start": 659.61,
-      "end": 735.93,
+      "end": 736.49,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "投靠耶和华强似依赖人投靠耶和华强势依赖王子但我们人的天性何等像亚哈斯一样要寻求从人从世界来的帮助",
-      "confidence": 0.768
+      "confidence": 0.852,
+      "quality": {
+        "coverage": 0.851,
+        "coherentCoverage": 0.807,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 659.61,
+        "previousEnd": 736.49
+      }
     },
     {
-      "start": 735.93,
-      "end": 742.42,
-      "kind": "heading",
-      "targetIndex": 13,
-      "targetText": "第二十章希西家患病得医治与巴比伦使者来访",
-      "confidence": 0.95
-    },
-    {
-      "start": 742.42,
-      "end": 830.7,
+      "start": 739.34,
+      "end": 828.7,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "二十章是记载希西家病得要死他向上帝祷告说耶和华啊求你记念我在你面前怎样存完全的心按诚实行事又作你",
-      "confidence": 0.728
+      "confidence": 0.816,
+      "quality": {
+        "coverage": 0.848,
+        "coherentCoverage": 0.787,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 739.34,
+        "previousEnd": 828.7
+      }
     },
     {
       "start": 830.7,
-      "end": 924.65,
+      "end": 922.91,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "12节到19节是讲到希西家病愈从巴比伦而来的使者来探望希西家然后希西家听从使者的话把他宝库的金子",
-      "confidence": 0.794
+      "confidence": 0.865,
+      "quality": {
+        "coverage": 0.886,
+        "coherentCoverage": 0.833,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 830.7,
+        "previousEnd": 922.91
+      }
     },
     {
       "start": 924.65,
-      "end": 1103.22,
+      "end": 1102.1,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "在历代志下卅二章里面就是他心里骄傲上帝的忿怒要临到他和犹大并耶路撒冷然后在卅二章的26节说到希西",
-      "confidence": 0.754
+      "confidence": 0.879,
+      "quality": {
+        "coverage": 0.879,
+        "coherentCoverage": 0.816,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 924.65,
+        "previousEnd": 1102.1
+      }
     },
     {
       "start": 1103.22,
@@ -141,7 +598,58 @@
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "今天的信息就分享到这里感谢主",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1103.22,
+        "previousEnd": 1106.42
+      }
     }
-  ]
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 6,
+    "unverifiedEnds": 4,
+    "missingTargets": []
+  },
+  "repairFingerprint": "df49546ac65b3eaec5701a3570a08472e62b060f63298c16aec5636de7ae8bcb",
+  "repairCueDigest": "c6fd6f43b09dca4a50ebcd17107841bf90742b87e86e35b12ccfa3e429cd3475"
 }

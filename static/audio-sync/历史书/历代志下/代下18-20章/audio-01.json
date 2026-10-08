@@ -1,6 +1,36 @@
 {
   "version": 1,
   "model": ".audio-sync-cache\\models\\small",
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 1: 亲爱的长辈弟兄姊妹，主内平安。今天我们一起读了历代志下十八到二十章。这三章都是讲到有关犹大国王约",
+    "unverified end anchor: target 4: 所以我们看见约沙法，他跟亚哈结亲，他在以色列王亚哈提议让他同去攻取基列的拉末的时候，他觉得你我不",
+    "unverified start anchor: target 5: 箴言十八章24节是这样说的，「滥交朋友的，自取败坏，但有一朋友，比弟兄更亲密。」其实我们活在这个",
+    "unverified end anchor: target 6: 所以我们看见，这么有智慧的，这么本来敬畏神的约沙法王，圣经真实的记载了他的失败。他与亚哈结亲，他",
+    "unverified end anchor: target 8: 尽管当时米该雅对王说实话――明明知道、警告王这次争战当中（有危险），拦阻他、让他不去争战，如果争",
+    "incomplete start (6 leading chars, coverage 0.600): target 11: 历代志下十九章是讲到犹大王约沙法平平安安地回耶路撒冷，到宫里去了以后，先见耶户责备他，他说：「你",
+    "unverified start anchor: target 11: 历代志下十九章是讲到犹大王约沙法平平安安地回耶路撒冷，到宫里去了以后，先见耶户责备他，他说：「你",
+    "unverified end anchor: target 12: 十八章记载了约沙法的失败；十九章我们看见，约沙法在先知责备他以后，心灵苏醒过来，他开始改革。他引",
+    "unverified start anchor: target 13: 所以当他接受先知的责备以后，他重新恢复，灵里得到苏醒。所以好多的时候，当神不断地使我们在经历当中",
+    "unverified start anchor: target 17: 所以在难处面前，我们看见约沙法以及「犹大众人和他们的婴孩、妻子、儿女，都站在耶和华面前。」所以真",
+    "unverified end anchor: target 19: 我们看见约沙法和犹大众人，他们俯伏叩拜。那些「哥辖族和可拉族的利未人都起来，用极大的声音赞美耶和",
+    "unverified start anchor: target 23: 后面约沙法去世，也记载到约沙法神对他的评论是：「约沙法效法他父亚撒所行的，不偏左右，行耶和华眼中",
+    "incomplete start (4 leading chars, coverage 0.615): target 25: 但愿神祝福祂自己的话语，今天的信息就分享到这里，感谢主。",
+    "unverified start anchor: target 25: 但愿神祝福祂自己的话语，今天的信息就分享到这里，感谢主。",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 4",
+    "repair unverified start (previous-sync): target 5",
+    "repair unverified end (previous-sync): target 6",
+    "repair unverified end (previous-sync): target 8",
+    "repair unverified start (previous-sync): target 11",
+    "repair unverified end (previous-sync): target 12",
+    "repair unverified start (previous-sync): target 13",
+    "repair unverified start (previous-sync): target 17",
+    "repair unverified end (previous-sync): target 19",
+    "repair unverified start (previous-sync): target 23",
+    "repair unverified start (previous-sync): target 25"
+  ],
   "source": {
     "page": "历史书/历代志下/代下18-20章.md",
     "audio": "2Ch18-20.mp3"
@@ -8,36 +38,92 @@
   "audioDuration": 1448.5823125,
   "cues": [
     {
-      "start": 5.17,
-      "end": 8.09,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "代下1820章",
-      "confidence": 0.933
-    },
-    {
-      "start": 8.09,
-      "end": 49.63,
+      "start": 1.17,
+      "end": 48.57,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "亲爱的长辈弟兄姊妹主内平安今天我们一起读了历代志下十八到二十章这三章都是讲到有关犹大国王约沙法的",
-      "confidence": 0.696
+      "confidence": 0.774,
+      "quality": {
+        "coverage": 0.761,
+        "coherentCoverage": 0.677,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1.17,
+        "previousEnd": 48.57
+      }
     },
     {
       "start": 49.63,
-      "end": 50.35,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "第十八章",
-      "confidence": 0.857
-    },
-    {
-      "start": 50.35,
       "end": 148.67,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "十八章里面是写到约沙法的失败失败在他与亚哈结亲他的儿子约兰娶了亚哈的女儿亚他利雅为妻然后以色列王",
-      "confidence": 0.814
+      "confidence": 0.821,
+      "quality": {
+        "coverage": 0.842,
+        "coherentCoverage": 0.73,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 49.63,
+        "previousEnd": 148.67
+      }
     },
     {
       "start": 148.67,
@@ -45,15 +131,83 @@
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "所以我们看见约沙法他跟亚哈结亲他在以色列王亚哈提议让他同去攻取基列的拉末的时候他觉得你我不分彼此",
-      "confidence": 0.877
+      "confidence": 0.883,
+      "quality": {
+        "coverage": 0.896,
+        "coherentCoverage": 0.89,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 148.67,
+        "previousEnd": 218.38
+      }
     },
     {
-      "start": 218.38,
-      "end": 331.51,
+      "start": 220.02,
+      "end": 330.69,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "箴言十八章24节是这样说的滥交朋友的自取败坏但有一朋友比弟兄更亲密其实我们活在这个世界上我们真的",
-      "confidence": 0.874
+      "confidence": 0.882,
+      "quality": {
+        "coverage": 0.885,
+        "coherentCoverage": 0.832,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "discarded detached start matches"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 220.02,
+        "previousEnd": 330.69
+      }
     },
     {
       "start": 331.51,
@@ -61,111 +215,527 @@
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "所以我们看见这么有智慧的这么本来敬畏上帝的约沙法王圣经真实的记载了他的失败他与亚哈结亲他自己差点",
-      "confidence": 0.901
+      "confidence": 0.903,
+      "quality": {
+        "coverage": 0.901,
+        "coherentCoverage": 0.862,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 331.51,
+        "previousEnd": 450.89
+      }
     },
     {
-      "start": 450.89,
-      "end": 481.6,
+      "start": 451.77,
+      "end": 480.66,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "我们看见这个米该雅他真的是上帝忠心的仆人历来忠言逆耳他为了忠于上帝所托付他的话语他是肯付代价的他",
-      "confidence": 0.814
+      "confidence": 0.822,
+      "quality": {
+        "coverage": 0.827,
+        "coherentCoverage": 0.724,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 451.77,
+        "previousEnd": 480.66
+      }
     },
     {
       "start": 481.6,
-      "end": 552.91,
+      "end": 553.15,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "尽管当时米该雅对王说实话明明知道警告王这次争战当中有危险拦阻他让他不去争战如果争战的话有生命危险",
-      "confidence": 0.872
+      "confidence": 0.87,
+      "quality": {
+        "coverage": 0.867,
+        "coherentCoverage": 0.773,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 481.6,
+        "previousEnd": 553.15
+      }
     },
     {
-      "start": 552.91,
-      "end": 585.32,
+      "start": 554.59,
+      "end": 583.78,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "所以这位先知他从上帝领受信息然后忠心的传讲大胆的传讲这是先知当今的职任现在上帝也兴起许多忠心的仆",
-      "confidence": 0.88
+      "confidence": 0.885,
+      "quality": {
+        "coverage": 0.875,
+        "coherentCoverage": 0.795,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 554.59,
+        "previousEnd": 583.78
+      }
     },
     {
-      "start": 585.32,
-      "end": 587.44,
-      "kind": "heading",
-      "targetIndex": 10,
-      "targetText": "第十九章",
-      "confidence": 0.95
-    },
-    {
-      "start": 587.44,
-      "end": 670.84,
+      "start": 584.66,
+      "end": 669.4,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "历代志下十九章是讲到犹大王约沙法平平安安地回耶路撒冷到宫里去了以后先见耶户责备他他说你岂当帮助恶",
-      "confidence": 0.663
+      "confidence": 0.731,
+      "quality": {
+        "coverage": 0.733,
+        "coherentCoverage": 0.615,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 6,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 584.66,
+        "previousEnd": 669.4
+      }
     },
     {
       "start": 670.84,
-      "end": 725.43,
+      "end": 724.99,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "十八章记载了约沙法的失败十九章我们看见约沙法在先知责备他以后心灵苏醒过来他开始改革他引导民归向我",
-      "confidence": 0.835
+      "confidence": 0.835,
+      "quality": {
+        "coverage": 0.844,
+        "coherentCoverage": 0.741,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 670.84,
+        "previousEnd": 724.99
+      }
     },
     {
       "start": 725.43,
-      "end": 800.8,
+      "end": 798.6,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "所以当他接受先知的责备以后他重新恢复灵里得到苏醒所以好多的时候当上帝不断地使我们在经历当中藉着上",
-      "confidence": 0.8
+      "confidence": 0.902,
+      "quality": {
+        "coverage": 0.902,
+        "coherentCoverage": 0.822,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 725.43,
+        "previousEnd": 798.6
+      }
     },
     {
       "start": 800.8,
-      "end": 827.3,
+      "end": 826.52,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "但愿上帝也恢复我们每一个人好使我们每一个人活着的恩典的余日当中能够被上帝所得着以至于我们活在上帝",
-      "confidence": 0.912
+      "confidence": 0.912,
+      "quality": {
+        "coverage": 0.907,
+        "coherentCoverage": 0.86,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 800.8,
+        "previousEnd": 826.52
+      }
     },
     {
       "start": 827.3,
-      "end": 828.56,
-      "kind": "heading",
-      "targetIndex": 15,
-      "targetText": "第二十章",
-      "confidence": 1.0
-    },
-    {
-      "start": 828.56,
-      "end": 908.01,
+      "end": 906.41,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "第二十章是讲到约沙法王所遇的一次特殊的经历就是他灵性跟国政上恢复以后摩押人和亚扪人又有米乌尼人一",
-      "confidence": 0.863
+      "confidence": 0.872,
+      "quality": {
+        "coverage": 0.874,
+        "coherentCoverage": 0.826,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 827.3,
+        "previousEnd": 906.41
+      }
     },
     {
       "start": 908.01,
-      "end": 931.07,
+      "end": 931.57,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "所以在难处面前我们看见约沙法以及犹大众人和他们的婴孩妻子儿女都站在耶和华面前所以真的是患难是恩典",
-      "confidence": 0.843
+      "confidence": 0.833,
+      "quality": {
+        "coverage": 0.833,
+        "coherentCoverage": 0.762,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 908.01,
+        "previousEnd": 931.57
+      }
     },
     {
-      "start": 931.07,
+      "start": 933.17,
       "end": 1016.17,
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "因着他们迫切的寻求后来我们看见上帝的灵临到了雅哈悉撒迦利雅的儿子雅哈悉就对他说不要因这大军恐惧惊",
-      "confidence": 0.86
+      "confidence": 0.863,
+      "quality": {
+        "coverage": 0.864,
+        "coherentCoverage": 0.773,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 933.17,
+        "previousEnd": 1016.17
+      }
     },
     {
       "start": 1016.17,
-      "end": 1053.52,
+      "end": 1052.2,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "我们看见约沙法和犹大众人他们俯伏叩拜那些哥辖族和可拉族的利未人都起来用极大的声音赞美耶和华以色列",
-      "confidence": 0.9
+      "confidence": 0.9,
+      "quality": {
+        "coverage": 0.9,
+        "coherentCoverage": 0.855,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1016.17,
+        "previousEnd": 1052.2
+      }
     },
     {
       "start": 1053.52,
@@ -173,23 +743,144 @@
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "20节里面我们看见约沙法对众人的勉励他说信耶和华你们的上帝就必立稳信他的先知就必亨通我们看见约沙",
-      "confidence": 0.75
+      "confidence": 0.832,
+      "quality": {
+        "coverage": 0.827,
+        "coherentCoverage": 0.776,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1053.52,
+        "previousEnd": 1146.14
+      }
     },
     {
       "start": 1146.14,
-      "end": 1265.37,
+      "end": 1263.67,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "犹大人来到旷野的望楼向那大军观看见尸横遍地没有一个逃脱的我们看见他们在尸首中收取许多的财物珍宝直",
-      "confidence": 0.799
+      "confidence": 0.868,
+      "quality": {
+        "coverage": 0.872,
+        "coherentCoverage": 0.816,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1146.14,
+        "previousEnd": 1263.67
+      }
     },
     {
       "start": 1265.37,
-      "end": 1312.8,
+      "end": 1310.83,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "后面列邦诸国听见耶和华战败以色列的仇敌就甚惧怕这样约沙法的国得享太平因为上帝赐他四境平安其实四境",
-      "confidence": 0.839
+      "confidence": 0.839,
+      "quality": {
+        "coverage": 0.825,
+        "coherentCoverage": 0.713,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1265.37,
+        "previousEnd": 1310.83
+      }
     },
     {
       "start": 1312.8,
@@ -197,7 +888,40 @@
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "后面约沙法去世也记载到约沙法上帝对他的评论是约沙法效法他父亚撒所行的不偏左右行耶和华眼中看为正的",
-      "confidence": 0.888
+      "confidence": 0.888,
+      "quality": {
+        "coverage": 0.883,
+        "coherentCoverage": 0.843,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1312.8,
+        "previousEnd": 1368.74
+      }
     },
     {
       "start": 1368.74,
@@ -205,7 +929,46 @@
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "然后后面又记载了约沙法的一件不好的事情就是他与以色列王亚哈谢交好然后他们合伙造船要往他施去但是我",
-      "confidence": 0.833
+      "confidence": 0.911,
+      "quality": {
+        "coverage": 0.909,
+        "coherentCoverage": 0.9,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1368.74,
+        "previousEnd": 1443.16
+      }
     },
     {
       "start": 1443.16,
@@ -213,7 +976,54 @@
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "但愿上帝祝福祂自己的话语今天的信息就分享到这里感谢主",
-      "confidence": 0.588
+      "confidence": 0.784,
+      "quality": {
+        "coverage": 0.769,
+        "coherentCoverage": 0.692,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.615,
+        "suffixCoverage": 0.923,
+        "unmatchedLeadingChars": 4,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1443.16,
+        "previousEnd": 1447.72
+      }
     }
-  ]
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 6,
+    "unverifiedEnds": 6,
+    "missingTargets": []
+  },
+  "repairFingerprint": "daf4a5092a6fb4a11c0bfdde7df45036267fcfb921b17a658fede03311d3ce2c",
+  "repairCueDigest": "90b5229c13e01c761ba07dee5e3246d43481ddc299d20f85bd6ebef5d04b972c"
 }
