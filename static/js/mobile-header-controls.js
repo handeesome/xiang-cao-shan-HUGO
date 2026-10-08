@@ -13,7 +13,7 @@
     const menuPanel = document.getElementById("book-menu-panel");
     const menuContent = menuPanel?.querySelector(".book-menu-content");
     const menuBackground = Array.from(
-      document.querySelectorAll(".book-page, .book-toc, body > .banner-header")
+      document.querySelectorAll(".book-page, .book-toc, body > .banner-header, .reading-preferences")
     );
     let menuScrollPosition = 0;
     let menuWasOpen = false;

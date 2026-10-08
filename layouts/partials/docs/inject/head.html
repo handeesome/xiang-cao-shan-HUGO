@@ -2,3 +2,5 @@
 <script data-home-path="{{ .Site.Home.RelPermalink }}" data-is-home="{{ .IsHome }}">
   {{ $script.Content | safeJS }}
 </script>
+{{ $preferences := resources.Get "reading-preferences.js" | resources.Minify }}
+<script>{{ $preferences.Content | safeJS }}</script>

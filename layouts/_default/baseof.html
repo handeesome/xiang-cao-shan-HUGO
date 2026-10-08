@@ -73,6 +73,9 @@
   </main>
 
   {{ partial "docs/inject/body" . }}
+  {{ if and (partial "book-context.html" .) (strings.TrimSpace .RawContent) (not .Params.BookHref) }}
+  {{ partial "reading-preferences.html" . }}
+  {{ end }}
 
   {{ if default true .Site.Params.features.audioPlayAll }}
   <script defer src="{{ "js/audio-play-all.js" | relURL }}"></script>
