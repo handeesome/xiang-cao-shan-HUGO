@@ -35,6 +35,7 @@
       }));
 
       const cues = data.cues
+        .filter((cue) => cue.kind !== "heading")
         .map((cue) => {
           const target = normalizeText(cue.targetText || "");
           const indexedMatch = Number.isInteger(cue.targetIndex)
@@ -43,7 +44,9 @@
           const match = indexedMatch?.text.startsWith(target)
             ? indexedMatch
             : candidates.find(({ text }) => text.startsWith(target));
-          return match ? { ...cue, element: match.element } : null;
+          return match && !/^H[1-6]$/.test(match.element.tagName)
+            ? { ...cue, element: match.element }
+            : null;
         })
         .filter(Boolean)
         .sort((left, right) => left.start - right.start);
