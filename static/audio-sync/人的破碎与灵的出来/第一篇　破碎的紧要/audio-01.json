@@ -8,44 +8,159 @@
   "audioDuration": 427.743125,
   "cues": [
     {
-      "start": 2.7,
-      "end": 7.76,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第一篇破碎的紧要",
-      "confidence": 0.875
-    },
-    {
       "start": 7.76,
-      "end": 119.02,
+      "end": 115.76,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "每一个事奉上帝的人迟早都会发现拦阻他工作的并不是别人正是他自己每一个事奉上帝的人迟早也都要找出他",
-      "confidence": 0.874
-    },
-    {
-      "start": 119.02,
-      "end": 123.04,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "里面的人与外面的人",
-      "confidence": 1.0
+      "confidence": 0.934,
+      "quality": {
+        "coverage": 0.934,
+        "coherentCoverage": 0.915,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 7.76,
+        "previousEnd": 119.02
+      }
     },
     {
       "start": 123.04,
-      "end": 222.54,
+      "end": 222.08,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "罗马书里面有一句话按着我里面的人我是喜欢上帝的律七22我们里面的人是喜欢上帝的律的以弗所书也给我",
-      "confidence": 0.887
+      "confidence": 0.89,
+      "quality": {
+        "coverage": 0.92,
+        "coherentCoverage": 0.88,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 123.04,
+        "previousEnd": 222.54
+      }
     },
     {
       "start": 222.54,
-      "end": 302.06,
+      "end": 302.64,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "我们要知道一个人能为上帝作工就是他里面的人能出来里面的人不能冲过外面的人而出来这是事奉上帝的人基",
-      "confidence": 0.869
+      "confidence": 0.963,
+      "quality": {
+        "coverage": 0.963,
+        "coherentCoverage": 0.957,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 222.54,
+        "previousEnd": 302.06
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 1: 每一个事奉神的人，迟早都会发现，拦阻他工作的并不是别人，正是他自己。每一个事奉神的人，迟早也都要",
+    "repair unverified start (previous-sync): target 1"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 3,
+    "addedCues": 0,
+    "headingsRemoved": 2,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "repairFingerprint": "bef46b1307e9501819926de128e9ddf4cb474271e93293cfd3613216ea84074f",
+  "repairCueDigest": "0353575870f58a76e0153b0ba3174955518a522f75b508f51ee8ee2bd579a6d6"
 }

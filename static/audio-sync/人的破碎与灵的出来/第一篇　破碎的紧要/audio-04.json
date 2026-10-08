@@ -8,36 +8,157 @@
   "audioDuration": 338.7414375,
   "cues": [
     {
-      "start": 0.37,
-      "end": 4.95,
-      "kind": "heading",
-      "targetIndex": 14,
-      "targetText": "破碎与时间",
-      "confidence": 0.8
-    },
-    {
       "start": 4.95,
       "end": 58.65,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "主是用两种不同的举动来破碎我们外面的人一种是积蓄的一种是忽然的有的人主给他一个忽然间的拆毁后来逐",
-      "confidence": 0.901
+      "confidence": 0.901,
+      "quality": {
+        "coverage": 0.901,
+        "coherentCoverage": 0.837,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 4.95,
+        "previousEnd": 58.65
+      }
     },
     {
       "start": 58.65,
-      "end": 106.83,
+      "end": 105.93,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "这个时间我们不能叫它缩短却能叫它拖长在有的人身上经过几年的工夫主能够作成这个工作但是在有的人身上",
-      "confidence": 0.925
+      "confidence": 0.931,
+      "quality": {
+        "coverage": 0.929,
+        "coherentCoverage": 0.929,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 58.65,
+        "previousEnd": 106.83
+      }
     },
     {
       "start": 106.83,
-      "end": 141.57,
+      "end": 141.83,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "所以如果我们从前没有一次彻底的奉献我们盼望现在能彻底的将自己奉献给主说主为着教会的前途为着福音的",
-      "confidence": 0.716
+      "confidence": 0.917,
+      "quality": {
+        "coverage": 0.917,
+        "coherentCoverage": 0.889,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 106.83,
+        "previousEnd": 141.57
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 15: 主是用两种不同的举动来破碎我们外面的人，一种是积蓄的，一种是忽然的。有的人，主给他一个忽然间的拆",
+    "repair unverified end (previous-sync): target 15"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "repairFingerprint": "7d53b060a95de99fd69497629b0bdbc5661887e3dbf3b5fccb147f7937ca7807",
+  "repairCueDigest": "7e96181023a832cf53116cadeed9834f19c49fa014c0eac2992f8ae1449db711"
 }

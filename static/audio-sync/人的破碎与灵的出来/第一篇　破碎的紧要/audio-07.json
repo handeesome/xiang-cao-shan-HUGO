@@ -1,6 +1,9 @@
 {
   "version": 1,
   "model": ".audio-sync-cache\\models\\small",
+  "alignmentMethod": "body-global-v3-boundary-anchors",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
   "source": {
     "page": "人的破碎与灵的出来/第一篇　破碎的紧要.md",
     "audio": "107.mp3"
@@ -8,20 +11,41 @@
   "audioDuration": 341.432,
   "cues": [
     {
-      "start": 0.18,
-      "end": 3.02,
-      "kind": "heading",
-      "targetIndex": 26,
-      "targetText": "盼望看见创口",
-      "confidence": 0.833
-    },
-    {
       "start": 3.02,
-      "end": 164.1,
+      "end": 163.26,
       "kind": "paragraph",
       "targetIndex": 27,
       "targetText": "没有人能像一个被打碎的人那样美丽一个刚硬的人自爱的人被上帝打碎了之后就显得美丽我们看旧约里的雅各",
-      "confidence": 0.892
+      "confidence": 0.945,
+      "quality": {
+        "coverage": 0.945,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true
+        }
+      }
     },
     {
       "start": 164.1,
@@ -29,7 +53,36 @@
       "kind": "paragraph",
       "targetIndex": 28,
       "targetText": "我们外面的人被击打受对付经过各种的遭遇留下创口在我们身上留下伤痕在我们身上就能让里面的灵从我们身",
-      "confidence": 0.938
+      "confidence": 0.938,
+      "quality": {
+        "coverage": 0.936,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true
+        }
+      }
     }
   ]
 }
