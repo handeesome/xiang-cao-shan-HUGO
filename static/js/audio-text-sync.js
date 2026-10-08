@@ -8,6 +8,10 @@
     if (!syncedAudios.length) return;
 
     let activeController = null;
+    let activeAudio = null;
+    const articleCandidates = new WeakMap();
+    const controllers = new WeakMap();
+    const pendingControllers = new WeakMap();
 
     const normalizeText = (value) =>
       value
@@ -27,12 +31,16 @@
       }
 
       const data = await response.json();
-      const candidates = Array.from(
-        article.querySelectorAll("h1, h2, h3, p, li")
-      ).map((element) => ({
-        element,
-        text: normalizeText(element.textContent || ""),
-      }));
+      let candidates = articleCandidates.get(article);
+      if (!candidates) {
+        candidates = Array.from(
+          article.querySelectorAll("h1, h2, h3, p, li")
+        ).map((element) => ({
+          element,
+          text: normalizeText(element.textContent || ""),
+        }));
+        articleCandidates.set(article, candidates);
+      }
 
       const cues = data.cues
         .filter((cue) => cue.kind !== "heading")
@@ -75,29 +83,73 @@
         activeCue?.element.classList.add("audio-sync-active");
       };
 
-      const controller = { audio, clear, update };
-
-      audio.addEventListener("play", () => {
-        if (activeController && activeController !== controller) {
-          activeController.clear();
-        }
-        activeController = controller;
-        update();
-      });
-      ["timeupdate", "seeking", "seeked"].forEach((eventName) => {
-        audio.addEventListener(eventName, update);
-      });
-      audio.addEventListener("ended", clear);
-      audio.addEventListener("emptied", clear);
-
-      update();
-      return controller;
+      return { audio, clear, update };
     };
 
-    syncedAudios.forEach((audio) => {
-      createController(audio).catch((error) => {
-        console.warn("Audio text sync unavailable", error);
+    const prepare = (audio) => {
+      if (!pendingControllers.has(audio)) {
+        const pending = createController(audio).then((controller) => {
+          controllers.set(audio, controller);
+          return controller;
+        }).catch((error) => {
+          // A failed request can be retried on the next interaction.
+          pendingControllers.delete(audio);
+          console.warn("Audio text sync unavailable", error);
+          return null;
+        });
+        pendingControllers.set(audio, pending);
+      }
+      return pendingControllers.get(audio);
+    };
+
+    const activate = (audio) => {
+      const controller = controllers.get(audio);
+      if (activeAudio === audio && pendingControllers.has(audio) && !controller) {
+        return;
+      }
+      activeAudio = audio;
+      if (activeController && activeController !== controller) {
+        activeController.clear();
+      }
+      activeController = controller || null;
+      if (controller) {
+        controller.update();
+        return;
+      }
+      prepare(audio).then((ready) => {
+        // Loading an earlier segment must not highlight it after a switch.
+        if (activeAudio !== audio) return;
+        activeController = ready;
+        ready?.update();
+      });
+    };
+
+    syncedAudios.forEach((audio, index) => {
+      ["pointerdown", "focus"].forEach((eventName) => {
+        audio.addEventListener(eventName, () => prepare(audio));
+      });
+      audio.addEventListener("play", () => {
+        activate(audio);
+        const nextAudio = syncedAudios[index + 1];
+        if (nextAudio) prepare(nextAudio);
+      });
+      ["seeking", "seeked"].forEach((eventName) => {
+        audio.addEventListener(eventName, () => activate(audio));
+      });
+      audio.addEventListener("timeupdate", () => {
+        if (activeAudio === audio) activeController?.update();
+      });
+      ["ended", "emptied"].forEach((eventName) => {
+        audio.addEventListener(eventName, () => {
+          controllers.get(audio)?.clear();
+          if (activeAudio !== audio) return;
+          activeAudio = null;
+          activeController = null;
+        });
       });
     });
+
+    // Prepare one segment for prompt initial playback, rather than the whole page.
+    activate(syncedAudios[0]);
   });
 })();
