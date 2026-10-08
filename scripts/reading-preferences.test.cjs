@@ -22,13 +22,16 @@ function harness(options = {}) {
   const control = new Element(), toggle = new Element(), panel = new Element(), output = new Element();
   toggle.setAttribute('aria-expanded', 'false');
   panel.inert = true;
-  const fonts = ['sans', 'serif', 'mixed'].map(readingFont => new Element({ readingFont }));
+  const fonts = ['sans', 'serif'].map(readingFont => new Element({ readingFont }));
   const steps = [-1, 1].map(readingSize => new Element({ readingSize: String(readingSize) }));
   const nodes = { '.reading-preferences-toggle': toggle, '.reading-preferences-panel': panel, '.reading-size-value': output };
   control.querySelector = selector => nodes[selector];
   control.querySelectorAll = selector => selector === '[data-reading-font]' ? fonts : steps;
   control.contains = target => [control, toggle, panel, output, ...fonts, ...steps].includes(target);
   const window = new EventTarget();
+  const desktop = new EventTarget();
+  desktop.matches = options.desktop ?? false;
+  window.matchMedia = () => desktop;
   window.scrollY = options.y ?? 0;
   window.scrollTo = ({ top }) => { window.scrollY = top; };
   const block = { getBoundingClientRect: () => {
@@ -39,9 +42,12 @@ function harness(options = {}) {
   } };
   const article = { querySelectorAll: () => [block] };
   const document = new EventTarget();
+  const toolbar = { append: node => { node.parentElement = toolbar; } };
+  document.body = { append: node => { node.parentElement = document.body; } };
   document.documentElement = root;
   document.querySelector = selector => {
     if (selector === '.reading-preferences') return options.nonReading ? null : control;
+    if (selector === '.book-reading-toolbar') return toolbar;
     if (selector.includes('.book-article')) return article;
     return { getBoundingClientRect: () => ({ bottom: 60 }) };
   };
@@ -52,19 +58,20 @@ function harness(options = {}) {
   vm.runInNewContext(source, { document, window, localStorage: { getItem: read, setItem: write }, getComputedStyle: () => ({ fontSize: `${options.baseSize ?? 17}px` }) });
   document.dispatchEvent(new Event('DOMContentLoaded'));
   const click = element => element.dispatchEvent(new Event('click'));
-  return { root, control, toggle, panel, output, fonts, steps, window, block, click, properties,
+  return { root, control, toggle, panel, output, fonts, steps, window, block, click, properties, toolbar, body: document.body,
+    setDesktop: matches => { desktop.matches = matches; desktop.dispatchEvent(new Event('change')); window.dispatchEvent(new Event('resize')); },
     hideControls: () => document.dispatchEvent(new Event('reading-controls-hidden')),
     outside: () => { const event = new Event('pointerdown'); document.dispatchEvent(event); },
     escape: () => { const event = new Event('keydown'); event.key = 'Escape'; document.dispatchEvent(event); },
     saved: () => JSON.parse(storage.get(KEY)) };
 }
 
-test('defaults to C, and font choices are mutually exclusive', () => {
+test('defaults to sans body, and the two font choices are mutually exclusive', () => {
   const h = harness();
-  assert.equal(h.root.dataset.readingFont, 'mixed');
+  assert.equal(h.root.dataset.readingFont, 'sans');
   assert.equal(h.output.value, '17');
   h.click(h.fonts[1]);
-  assert.deepEqual(h.fonts.map(button => button.getAttribute('aria-pressed')), ['false', 'true', 'false']);
+  assert.deepEqual(h.fonts.map(button => button.getAttribute('aria-pressed')), ['false', 'true']);
   assert.equal(h.saved().font, 'serif');
 });
 
@@ -133,4 +140,40 @@ test('scrolling the controls away collapses the font strip', () => {
 test('non-reading pages do not initialize or display a preference control', () => {
   const h = harness({ nonReading: true });
   assert.equal(h.control.hidden, true);
+});
+
+test('legacy mixed preference maps to sans body and keeps the saved size', () => {
+  const h = harness({ saved: { font: 'mixed', size: 21 } });
+  assert.equal(h.root.dataset.readingFont, 'sans');
+  assert.equal(h.properties.get('--reading-text-size'), '21px');
+  assert.deepEqual(h.fonts.map(button => button.getAttribute('aria-pressed')), ['true', 'false']);
+});
+
+test('desktop controls stay available in the toolbar without focusing the hidden toggle', () => {
+  const h = harness({ desktop: true });
+  assert.equal(h.control.parentElement, h.toolbar);
+  assert.equal(h.panel.inert, false);
+  h.outside(); h.escape(); h.hideControls();
+  assert.equal(h.panel.inert, false);
+  assert.equal(h.panel.getAttribute('aria-hidden'), 'false');
+  assert.equal(h.toggle.focused, undefined);
+  h.click(h.fonts[1]);
+  assert.equal(h.saved().font, 'serif');
+});
+
+test('crossing the desktop breakpoint moves the same control and collapses mobile settings', () => {
+  const h = harness();
+  assert.equal(h.control.parentElement, h.body);
+  h.click(h.toggle); h.click(h.fonts[1]); h.click(h.steps[1]);
+  h.setDesktop(true);
+  assert.equal(h.control.parentElement, h.toolbar);
+  assert.equal(h.panel.inert, false);
+  h.setDesktop(false);
+  assert.equal(h.control.parentElement, h.body);
+  assert.equal(h.panel.inert, true);
+  assert.equal(h.toggle.getAttribute('aria-expanded'), 'false');
+  assert.equal(h.saved().font, 'serif');
+  assert.equal(h.output.value, '18');
+  h.click(h.toggle);
+  assert.equal(h.panel.inert, false);
 });

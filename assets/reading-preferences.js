@@ -4,8 +4,9 @@
   const MIN_SIZE = 14;
   const MAX_SIZE = 26;
   const root = document.documentElement;
-  const validFont = (font) => ["sans", "serif", "mixed"].includes(font);
-  let font = "mixed";
+  const validFont = (font) => ["sans", "serif"].includes(font);
+  // Older "mixed" preferences keep the same sans body and serif headings.
+  let font = "sans";
   let size = null;
   try {
     const saved = JSON.parse(localStorage.getItem(KEY));
@@ -30,6 +31,8 @@
     const fonts = Array.from(control.querySelectorAll("[data-reading-font]"));
     const steps = Array.from(control.querySelectorAll("[data-reading-size]"));
     const output = control.querySelector(".reading-size-value");
+    const desktop = window.matchMedia("(min-width: 1025px)");
+    const toolbar = document.querySelector(".book-reading-toolbar");
     const bodySize = () => size ?? Math.round(parseFloat(getComputedStyle(article).fontSize));
     const sync = () => {
       fonts.forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.readingFont === font)));
@@ -39,6 +42,7 @@
       });
     };
     const setOpen = (open) => {
+      open = desktop.matches || open;
       control.classList.toggle("is-open", open);
       toggle.setAttribute("aria-expanded", String(open));
       panel.setAttribute("aria-hidden", String(!open));
@@ -46,7 +50,7 @@
     };
     const update = (change) => {
       const blocks = Array.from(article.querySelectorAll("h1, h2, h3, h4, h5, h6, p, li, blockquote, figure"));
-      // The mobile header slides in on tap and away on scroll. Its animated
+      // The mobile header slides in on upward scroll and away on downward scroll. Its animated
       // edge cannot be a stable reference for a typography change.
       const edge = 0;
       const anchor = blocks.find((block) => {
@@ -81,7 +85,7 @@
       if (!control.contains(event.target)) setOpen(false);
     });
     document.addEventListener("keydown", (event) => {
-      if (event.key === "Escape" && toggle.getAttribute("aria-expanded") === "true") {
+      if (event.key === "Escape" && !desktop.matches && toggle.getAttribute("aria-expanded") === "true") {
         setOpen(false);
         toggle.focus({ preventScroll: true });
       }
@@ -90,7 +94,15 @@
       document.getElementById(id)?.addEventListener("change", () => setOpen(false));
     });
     document.addEventListener("reading-controls-hidden", () => setOpen(false));
+    const placeControl = () => {
+      // Keep mobile controls outside the page's animated containing block.
+      const host = desktop.matches && toolbar ? toolbar : document.body;
+      if (control.parentElement !== host) host.append(control);
+      setOpen(false);
+    };
+    desktop.addEventListener("change", placeControl);
     window.addEventListener("resize", sync, { passive: true });
+    placeControl();
     sync();
     control.hidden = false;
   });

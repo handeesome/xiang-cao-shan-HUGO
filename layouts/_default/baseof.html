@@ -44,7 +44,14 @@
       </header>
 
       {{ partial "docs/inject/content-before" . }}
+      {{ if and (partial "book-context.html" .) (strings.TrimSpace .RawContent) (not .Params.BookHref) }}
+      <div class="book-reading-toolbar">
+        {{ partial "book-breadcrumbs.html" . }}
+        {{ partial "reading-preferences.html" . }}
+      </div>
+      {{ else }}
       {{ partial "book-breadcrumbs.html" . }}
+      {{ end }}
       {{ block "main" . }}
         <article class="markdown book-article">
           {{- .Content -}}
@@ -73,9 +80,6 @@
   </main>
 
   {{ partial "docs/inject/body" . }}
-  {{ if and (partial "book-context.html" .) (strings.TrimSpace .RawContent) (not .Params.BookHref) }}
-  {{ partial "reading-preferences.html" . }}
-  {{ end }}
 
   {{ if default true .Site.Params.features.audioPlayAll }}
   <script defer src="{{ "js/audio-play-all.js" | relURL }}"></script>
