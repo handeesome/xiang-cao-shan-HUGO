@@ -54,9 +54,8 @@
   flex-shrink: 0;
 }
 
-@media (max-width: 768px) {
+@media (max-width: $mobile-breakpoint) {
   .book-breadcrumbs {
-    max-width: 42rem;
-    margin-inline: auto;
+    display: none;
   }
 }
