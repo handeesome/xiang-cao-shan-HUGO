@@ -1,6 +1,13 @@
 {
   "version": 1,
   "model": ".audio-sync-cache\\models\\small",
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (3 trailing chars, coverage 0.250): target 2: 但愿我们领会这真理",
+    "repair unverified start (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 2"
+  ],
   "source": {
     "page": "至圣所/第一大段：真理方面/09_第五段照着麦基洗德的等次为大祭司（七 1-28）/52_麦基洗德比亚伦和律法更美（七 11-14）.md",
     "audio": "52.mp3"
@@ -8,60 +15,278 @@
   "audioDuration": 510.4939375,
   "cues": [
     {
-      "start": 0.88,
-      "end": 7.04,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "五十二麦基洗德比亚伦和律法更美七1114",
-      "confidence": 0.95
-    },
-    {
-      "start": 11.1,
-      "end": 132.34,
+      "start": 59.48,
+      "end": 131.14,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "当上帝在诗篇一百一十篇论到祂所起的誓叫基督照着麦基洗德的等次永远为祭司这预言有很深奥的属灵意义何",
-      "confidence": 0.678
+      "confidence": 0.898,
+      "quality": {
+        "coverage": 0.896,
+        "coherentCoverage": 0.82,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 59.48,
+        "previousEnd": 131.14
+      }
     },
     {
       "start": 132.34,
-      "end": 135.88,
+      "end": 135.14,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "但愿我们领会这真理",
-      "confidence": 0.95
+      "confidence": 0.667,
+      "quality": {
+        "coverage": 0.667,
+        "coherentCoverage": 0.667,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.25,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 132.34,
+        "previousEnd": 135.14
+      }
     },
     {
       "start": 135.88,
-      "end": 220.36,
+      "end": 220.64,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "亚伦的工作预表基督在世的工作就是赎罪流血叫人得以与上帝和好亚伦带血进入幔子表明上帝悦纳赎罪祭和祂",
-      "confidence": 0.756
+      "confidence": 0.869,
+      "quality": {
+        "coverage": 0.866,
+        "coherentCoverage": 0.81,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 135.88,
+        "previousEnd": 220.64
+      }
     },
     {
-      "start": 220.36,
-      "end": 260.7,
+      "start": 221.92,
+      "end": 259.1,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "为了这缘故麦基洗德与上帝的儿子相似他是至高上帝的祭司且是君王有尊贵与权柄所以他的祝福是有能力的圣",
-      "confidence": 0.844
+      "confidence": 0.848,
+      "quality": {
+        "coverage": 0.844,
+        "coherentCoverage": 0.78,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 221.92,
+        "previousEnd": 259.1
+      }
     },
     {
       "start": 260.7,
-      "end": 302.78,
+      "end": 301.64,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "本书信的主要信息乃是显明我们的主耶稣照着麦基洗德的等次为大祭司的奥秘与荣耀但愿每一位读者充分的明",
-      "confidence": 0.931
+      "confidence": 0.94,
+      "quality": {
+        "coverage": 0.94,
+        "coherentCoverage": 0.94,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 260.7,
+        "previousEnd": 301.64
+      }
     },
     {
       "start": 302.78,
-      "end": 401.8,
+      "end": 400.16,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "本书信的开首将基督的工作分为两大部份祂洗净了人的罪照着亚伦的等次就坐在高天至大者的右边照着麦基洗",
-      "confidence": 0.868
+      "confidence": 0.912,
+      "quality": {
+        "coverage": 0.922,
+        "coherentCoverage": 0.901,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 302.78,
+        "previousEnd": 400.16
+      }
     },
     {
       "start": 401.8,
@@ -69,7 +294,60 @@
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "救恩的成就是因地上的软弱林后十三4却因复活与升天的大能而由天上传达下来十字架宣布罪得赦免天上的宝",
-      "confidence": 0.833
+      "confidence": 0.882,
+      "quality": {
+        "coverage": 0.888,
+        "coherentCoverage": 0.842,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 401.8,
+        "previousEnd": 509.36
+      }
     }
-  ]
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "repairFingerprint": "ecdc53f2d4fd34d3024197f9da138ff39002eddcf5daed347fbcb1d26753a0bb",
+  "repairCueDigest": "8bb7b062b4b98cade65a788556138ec6368d6a0c99764b1446eaa1743bd354c8"
 }

@@ -1,6 +1,9 @@
 {
   "version": 1,
   "model": ".audio-sync-cache\\models\\small",
+  "alignmentMethod": "body-global-v3-boundary-anchors",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
   "source": {
     "page": "至圣所/_index.md",
     "audio": "00/1.mp3"
@@ -8,28 +11,80 @@
   "audioDuration": 181.152,
   "cues": [
     {
-      "start": 3.02,
-      "end": 6.28,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "一希伯来书的著者",
-      "confidence": 0.769
-    },
-    {
       "start": 6.28,
-      "end": 52.2,
+      "end": 52.66,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "教会领袖中各有不同的见解有人以为本书非保罗所写的也有人认为是保罗所写的不过书信中没有明文证明而已",
-      "confidence": 0.957
+      "confidence": 0.95,
+      "quality": {
+        "coverage": 0.95,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true
+        }
+      }
     },
     {
-      "start": 52.2,
-      "end": 103.56,
+      "start": 54.22,
+      "end": 102.28,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "另一方面本书信多论到基督如何应验律法所预表的一切和律法的已被废掉又基督已进入荣耀坐在天上上帝的右",
-      "confidence": 0.774
+      "confidence": 0.941,
+      "quality": {
+        "coverage": 0.941,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true
+        }
+      }
     },
     {
       "start": 103.56,
@@ -37,7 +92,36 @@
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "自来有人推测本书是保罗用希伯来文写给希伯来信徒的而我们所得的是希伯来文译成希腊文的又有人推想是保",
-      "confidence": 0.872
+      "confidence": 0.872,
+      "quality": {
+        "coverage": 0.874,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true
+        }
+      }
     }
   ]
 }

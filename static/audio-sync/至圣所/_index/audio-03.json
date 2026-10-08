@@ -1,6 +1,9 @@
 {
   "version": 1,
   "model": ".audio-sync-cache\\models\\small",
+  "alignmentMethod": "body-global-v3-boundary-anchors",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
   "source": {
     "page": "至圣所/_index.md",
     "audio": "00/2.mp3"
@@ -8,20 +11,41 @@
   "audioDuration": 98.664,
   "cues": [
     {
-      "start": 2.74,
-      "end": 6.44,
-      "kind": "heading",
-      "targetIndex": 6,
-      "targetText": "二本书信是写给谁的",
-      "confidence": 0.941
-    },
-    {
       "start": 6.44,
       "end": 97.0,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "由亚伯拉罕时代起犹太人就称为希伯来人创十四31犹太人以这称呼为尊荣正如保罗说我是希伯来人的希伯来",
-      "confidence": 0.879
+      "confidence": 0.887,
+      "quality": {
+        "coverage": 0.894,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true
+        }
+      }
     }
   ]
 }

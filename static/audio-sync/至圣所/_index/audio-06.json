@@ -8,28 +8,98 @@
   "audioDuration": 269.424,
   "cues": [
     {
-      "start": 2.35,
-      "end": 6.17,
-      "kind": "heading",
-      "targetIndex": 18,
-      "targetText": "五本书信与今日教会",
-      "confidence": 0.941
-    },
-    {
       "start": 6.17,
-      "end": 125.22,
+      "end": 123.98,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "今日教会中有许多信徒的属灵经历正如当时希伯来信徒的灵性光景一样有多少信徒在承认相信基督之后能以往",
-      "confidence": 0.875
+      "confidence": 0.949,
+      "quality": {
+        "coverage": 0.949,
+        "coherentCoverage": 0.942,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 6.17,
+        "previousEnd": 125.22
+      }
     },
     {
       "start": 125.22,
-      "end": 229.64,
+      "end": 228.0,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "这书信也真是一面镜子将主耶稣在天上的荣耀和祂在人身上的能力显明出来当时希伯来信徒所需要的正是今日",
-      "confidence": 0.848
+      "confidence": 0.935,
+      "quality": {
+        "coverage": 0.935,
+        "coherentCoverage": 0.917,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 125.22,
+        "previousEnd": 229.64
+      }
     },
     {
       "start": 229.64,
@@ -37,7 +107,58 @@
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "因此我警告亲爱的读者如果你渴慕进入上帝的安息而活在上帝的爱和至圣所里又渴慕充足的信心盼望和爱心你",
-      "confidence": 0.853
+      "confidence": 0.853,
+      "quality": {
+        "coverage": 0.844,
+        "coherentCoverage": 0.729,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 229.64,
+        "previousEnd": 266.58
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 21: 因此，我警告亲爱的读者，如果你渴慕进入神的安息，而活在神的爱和至圣所里，又渴慕充足的信心、盼望和",
+    "repair unverified start (previous-sync): target 21"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "repairFingerprint": "193b968fbfc126cb3ae5f5794328ea3fa9475b6a993a03cb8d55eac2c2fff209",
+  "repairCueDigest": "b4f444a785582fded8eef90c30df10cadd103265bfc80748dc801b7c23c606a3"
 }
