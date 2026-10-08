@@ -377,7 +377,7 @@ a.anchor {
 
   .book-header,
   audio.audio-reading-control-active {
-    transition: transform 0.2s ease, opacity 0.15s ease;
+    transition: transform 360ms cubic-bezier(0.22, 1, 0.36, 1), opacity 280ms ease;
   }
 
   audio.audio-reading-control-active {
@@ -392,7 +392,14 @@ a.anchor {
   body.reading-controls-hidden audio.audio-reading-control-active {
     opacity: 0;
     pointer-events: none;
+  }
+
+  body.reading-controls-hidden .book-header {
     transform: translateY(calc(-100% - 1rem));
+  }
+
+  body.reading-controls-hidden audio.audio-reading-control-active {
+    transform: translateY(calc(-100% - var(--audio-reading-control-top, 4.25rem) - 1rem));
   }
 
   .book-page {

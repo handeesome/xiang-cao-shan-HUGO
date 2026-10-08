@@ -53,6 +53,7 @@ function harness(options = {}) {
   document.dispatchEvent(new Event('DOMContentLoaded'));
   const click = element => element.dispatchEvent(new Event('click'));
   return { root, control, toggle, panel, output, fonts, steps, window, block, click, properties,
+    hideControls: () => document.dispatchEvent(new Event('reading-controls-hidden')),
     outside: () => { const event = new Event('pointerdown'); document.dispatchEvent(event); },
     escape: () => { const event = new Event('keydown'); event.key = 'Escape'; document.dispatchEvent(event); },
     saved: () => JSON.parse(storage.get(KEY)) };
@@ -121,6 +122,12 @@ test('blocked storage still allows preferences to work during this visit', () =>
   h.click(h.fonts[0]); h.click(h.steps[1]);
   assert.equal(h.root.dataset.readingFont, 'sans');
   assert.equal(h.output.value, '18');
+});
+
+test('scrolling the controls away collapses the font strip', () => {
+  const h = harness(); h.click(h.toggle); h.hideControls();
+  assert.equal(h.toggle.getAttribute('aria-expanded'), 'false');
+  assert.equal(h.panel.inert, true);
 });
 
 test('non-reading pages do not initialize or display a preference control', () => {

@@ -89,6 +89,7 @@
     ["menu-control", "toc-control"].forEach((id) => {
       document.getElementById(id)?.addEventListener("change", () => setOpen(false));
     });
+    document.addEventListener("reading-controls-hidden", () => setOpen(false));
     window.addEventListener("resize", sync, { passive: true });
     sync();
     control.hidden = false;
