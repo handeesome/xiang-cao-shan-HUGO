@@ -8,28 +8,86 @@
   "audioDuration": 180.115375,
   "cues": [
     {
-      "start": 2.42,
-      "end": 6.76,
-      "kind": "heading",
-      "targetIndex": 45,
-      "targetText": "十一月九日丰满的生命",
-      "confidence": 0.8
-    },
-    {
       "start": 6.76,
-      "end": 27.38,
+      "end": 28.86,
       "kind": "paragraph",
       "targetIndex": 46,
       "targetText": "律法是外添的叫过犯显多只是罪在那里显多恩典就更显多了就如罪作王叫人死照样恩典也藉著义作王叫人因我",
-      "confidence": 0.717
+      "confidence": 0.8,
+      "quality": {
+        "coverage": 0.806,
+        "coherentCoverage": 0.581,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 6.76,
+        "previousEnd": 27.38
+      }
     },
     {
-      "start": 27.38,
+      "start": 30.62,
       "end": 89.62,
       "kind": "paragraph",
       "targetIndex": 47,
       "targetText": "很少人明白这个真理我们可以想像罪恶的繁多但却难以想像恩典也随之增多并且足使我们胜罪有余如果我们要",
-      "confidence": 0.818
+      "confidence": 0.849,
+      "quality": {
+        "coverage": 0.855,
+        "coherentCoverage": 0.756,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 27.38,
+        "previousEnd": 89.62
+      }
     },
     {
       "start": 89.62,
@@ -37,7 +95,61 @@
       "kind": "paragraph",
       "targetIndex": 48,
       "targetText": "请看保罗的祷告因此我们自从听见的日子也就为你们不住的祷告祈求愿你们在一切属灵的智慧悟性上满心知道",
-      "confidence": 0.825
+      "confidence": 0.832,
+      "quality": {
+        "coverage": 0.857,
+        "coherentCoverage": 0.774,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 89.62,
+        "previousEnd": 179.72
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 46: 「律法是外添的，叫过犯显多，只是罪在那里显多，恩典就更显多了。就如罪作王叫人死，照样，恩典也藉著",
+    "unverified start anchor: target 48: 请看保罗的祷告：「因此，我们自从听见的日子，也就为你们不住的祷告祈求，愿你们在一切属灵的智慧悟性",
+    "repair unverified start (previous-sync): target 46",
+    "repair unverified end (previous-sync): target 47",
+    "repair unverified start (previous-sync): target 48"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "repairFingerprint": "903c6af532e471356a7aaca888f19e27dfc2031d41cd958ce46efba8e18084a0",
+  "repairCueDigest": "597d14f4a8bc9a90e848bf7335cad63e6577c6e9a632d37f4f005fb5947ad13e"
 }

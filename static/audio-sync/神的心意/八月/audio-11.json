@@ -8,36 +8,156 @@
   "audioDuration": 188.997,
   "cues": [
     {
-      "start": 2.0,
-      "end": 8.8,
-      "kind": "heading",
-      "targetIndex": 58,
-      "targetText": "八月十一日我们的死和在基督里的生命",
-      "confidence": 0.882
-    },
-    {
-      "start": 8.8,
+      "start": 27.54,
       "end": 95.0,
       "kind": "paragraph",
       "targetIndex": 59,
       "targetText": "门徒亲眼看见基督所行的事但为甚么他们要受圣灵的洗礼在圣灵里重生以后才能以悟性来为主作见证呢因为真",
-      "confidence": 0.747
+      "confidence": 0.874,
+      "quality": {
+        "coverage": 0.88,
+        "coherentCoverage": 0.829,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 8.8,
+        "previousEnd": 95.0
+      }
     },
     {
       "start": 95.0,
-      "end": 147.98,
+      "end": 148.24,
       "kind": "paragraph",
       "targetIndex": 60,
       "targetText": "贝门behmen在他大部分书信的前言中都以圣经的话作为警告强调我们蒙拯救是因为在我们里面有基督的",
-      "confidence": 0.856
+      "confidence": 0.854,
+      "quality": {
+        "coverage": 0.839,
+        "coherentCoverage": 0.782,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.45,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 8,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 95.0,
+        "previousEnd": 147.98
+      }
     },
     {
-      "start": 147.98,
+      "start": 149.56,
       "end": 188.56,
       "kind": "paragraph",
       "targetIndex": 61,
       "targetText": "我们要记住圣灵的伟大工作就是把主基督彰显在我们心里不是作为一种知识而是作为一个真生命那样显明出来",
-      "confidence": 0.774
+      "confidence": 0.923,
+      "quality": {
+        "coverage": 0.923,
+        "coherentCoverage": 0.885,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 147.98,
+        "previousEnd": 188.56
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 59: 门徒亲眼看见基督所行的事，但为甚么他们要受圣灵的洗礼，在圣灵里重生以后，才能以悟性来为主作见证呢",
+    "incomplete start (8 leading chars, coverage 0.450): target 60: 贝门（Behmen）在他大部分书信的前言中，都以圣经的话作为警告，强调我们蒙拯救是因为在我们里面",
+    "unverified start anchor: target 60: 贝门（Behmen）在他大部分书信的前言中，都以圣经的话作为警告，强调我们蒙拯救是因为在我们里面",
+    "repair unverified end (previous-sync): target 59",
+    "repair unverified start (previous-sync): target 60"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "repairFingerprint": "603f93c97518ed469ed4de07a2619e285eed600461f0f287f845a99dfe116966",
+  "repairCueDigest": "6786b6e886a2ceca10e957ae6bc205accc33e2495563a055da92a3f02c68a694"
 }

@@ -8,36 +8,161 @@
   "audioDuration": 133.1733125,
   "cues": [
     {
-      "start": 2.26,
-      "end": 7.4,
-      "kind": "heading",
-      "targetIndex": 45,
-      "targetText": "八月八日不断的启示",
-      "confidence": 0.667
-    },
-    {
-      "start": 7.4,
-      "end": 84.3,
+      "start": 19.4,
+      "end": 84.54,
       "kind": "paragraph",
       "targetIndex": 46,
       "targetText": "一切真正的信仰都是为了使人的灵和创造者的灵有实际的联合和交通上帝在他里面他在上帝里面两者成为一个",
-      "confidence": 0.741
+      "confidence": 0.926,
+      "quality": {
+        "coverage": 0.919,
+        "coherentCoverage": 0.899,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 7.4,
+        "previousEnd": 84.3
+      }
     },
     {
-      "start": 84.3,
-      "end": 111.48,
+      "start": 86.24,
+      "end": 110.12,
       "kind": "paragraph",
       "targetIndex": 47,
       "targetText": "上帝的爱是永远和无限的这也是唯一能吸引受造之物归向上帝的爱除了人受这种爱的感动否则靠自己人是没有",
-      "confidence": 0.963
+      "confidence": 0.969,
+      "quality": {
+        "coverage": 0.975,
+        "coherentCoverage": 0.949,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 84.3,
+        "previousEnd": 111.48
+      }
     },
     {
       "start": 111.48,
-      "end": 132.48,
+      "end": 132.74,
       "kind": "paragraph",
       "targetIndex": 48,
       "targetText": "让我们静思祷告直到这个真理开始充满我们的心如果我们要活出上帝的旨意就必须求上帝不断的启示我们圣灵",
-      "confidence": 0.923
+      "confidence": 0.931,
+      "quality": {
+        "coverage": 0.924,
+        "coherentCoverage": 0.818,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 111.48,
+        "previousEnd": 132.48
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 48: 让我们静思、祷告，直到这个真理开始充满我们的心。如果我们要活出神的旨意，就必须求神不断的启示我们",
+    "repair unverified start (previous-sync): target 48"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 3,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "repairFingerprint": "eefbb9a07929a0fbf75fe44885cca7baf4d35faf412b97d2564903d696574d9c",
+  "repairCueDigest": "99c4238b9cc561b9060026d50aea3007a2b12e2a2e8ec3f2a2d39eb205a0fe69"
 }

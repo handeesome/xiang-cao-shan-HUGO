@@ -8,28 +8,106 @@
   "audioDuration": 93.4933125,
   "cues": [
     {
-      "start": 3.15,
-      "end": 7.49,
-      "kind": "heading",
-      "targetIndex": 26,
-      "targetText": "九月六日爱和信心",
-      "confidence": 0.8
-    },
-    {
       "start": 7.49,
       "end": 18.03,
       "kind": "paragraph",
       "targetIndex": 27,
       "targetText": "上帝的命令就是叫我们信祂儿子耶稣基督的名且照祂所赐给我们的命令彼此相爱约壹三23",
-      "confidence": 0.868
+      "confidence": 0.868,
+      "quality": {
+        "coverage": 0.875,
+        "coherentCoverage": 0.825,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 7.49,
+        "previousEnd": 18.03
+      }
     },
     {
       "start": 18.03,
-      "end": 92.79,
+      "end": 93.07,
       "kind": "paragraph",
       "targetIndex": 28,
       "targetText": "教会不但应当传讲上帝的爱和基督救赎大爱还必须进一步教导信徒要有主的爱并且在众人中间把这爱彰显出来",
-      "confidence": 0.912
+      "confidence": 0.932,
+      "quality": {
+        "coverage": 0.954,
+        "coherentCoverage": 0.931,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 18.03,
+        "previousEnd": 92.79
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 27: 「神的命令就是叫我们信祂儿子耶稣基督的名，且照祂所赐给我们的命令彼此相爱。」（约壹三 23）",
+    "unverified start anchor: target 28: 教会不但应当传讲神的爱和基督救赎大爱，还必须进一步教导信徒要有主的爱，并且在众人中间把这爱彰显出",
+    "repair unverified end (previous-sync): target 27",
+    "repair unverified start (previous-sync): target 28"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "repairFingerprint": "37693c2aea064113b969d7bbe454098039bccc9483ac1404650f365bc5f42152",
+  "repairCueDigest": "11c9ada70b604f859f0df820d74e01826bec434ebf5b521bda24dc51459969cc"
 }

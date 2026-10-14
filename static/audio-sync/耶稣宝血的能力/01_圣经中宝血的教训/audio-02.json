@@ -8,20 +8,39 @@
   "audioDuration": 580.8228125,
   "cues": [
     {
-      "start": 2.94,
-      "end": 5.84,
-      "kind": "heading",
-      "targetIndex": 7,
-      "targetText": "一旧约圣经中的教导",
-      "confidence": 0.875
-    },
-    {
       "start": 5.84,
       "end": 11.1,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "从伊甸园门口开始关于宝血的纪载",
-      "confidence": 0.667
+      "confidence": 0.667,
+      "quality": {
+        "coverage": 0.667,
+        "coherentCoverage": 0.4,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.571,
+        "suffixCoverage": 0.714,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 5.84,
+        "previousEnd": 11.1
+      }
     },
     {
       "start": 11.1,
@@ -29,15 +48,87 @@
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "我不谈论伊甸园未显明的奥秘",
-      "confidence": 0.769
+      "confidence": 0.769,
+      "quality": {
+        "coverage": 0.769,
+        "coherentCoverage": 0.769,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.667,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 11.1,
+        "previousEnd": 14.34
+      }
     },
     {
       "start": 14.34,
-      "end": 54.52,
+      "end": 53.7,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "但是关于埃布尔献祭的部份是显明的他带了羊群中头生的到主面前来献祭这是圣经所记载的第一个崇拜是流了",
-      "confidence": 0.827
+      "confidence": 0.827,
+      "quality": {
+        "coverage": 0.824,
+        "coherentCoverage": 0.773,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 14.34,
+        "previousEnd": 54.52
+      }
     },
     {
       "start": 54.52,
@@ -45,7 +136,36 @@
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "由后来的启示显示在人类历史开头埃布尔献祭的见证是有很重要的意义它显示出除非借着宝血没有其它方法可",
-      "confidence": 0.775
+      "confidence": 0.775,
+      "quality": {
+        "coverage": 0.764,
+        "coherentCoverage": 0.681,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 54.52,
+        "previousEnd": 77.9
+      }
     },
     {
       "start": 77.9,
@@ -53,7 +173,40 @@
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "圣经论到从亚当后来的十六个世纪只有简短的记载洪水来了这是上帝借着毁灭人类的世界来对罪的审判",
-      "confidence": 0.978
+      "confidence": 0.978,
+      "quality": {
+        "coverage": 0.978,
+        "coherentCoverage": 0.911,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 77.9,
+        "previousEnd": 92.2
+      }
     },
     {
       "start": 92.2,
@@ -61,15 +214,87 @@
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "但是上帝从可怕水的洗礼中产生一个新的世界然而新的世界也必须接受血的洗礼诺亚离开方舟之后所记载的第",
-      "confidence": 0.866
+      "confidence": 0.94,
+      "quality": {
+        "coverage": 0.936,
+        "coherentCoverage": 0.908,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 92.2,
+        "previousEnd": 130.82
+      }
     },
     {
       "start": 130.82,
-      "end": 153.4,
+      "end": 152.24,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "借着上帝对亚伯拉罕上帝圣的选召和艾萨克奇妙的诞生上帝预备了一个民族来服事祂但是除非借着血的流出否",
-      "confidence": 0.77
+      "confidence": 0.905,
+      "quality": {
+        "coverage": 0.893,
+        "coherentCoverage": 0.853,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 130.82,
+        "previousEnd": 153.4
+      }
     },
     {
       "start": 153.4,
@@ -77,15 +302,87 @@
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "上帝与亚伯拉罕立约亚伯拉罕的信心被严格地试验且通过试验因此被算为义然而他知道学习完全属于上帝的应",
-      "confidence": 0.891
+      "confidence": 0.891,
+      "quality": {
+        "coverage": 0.871,
+        "coherentCoverage": 0.843,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 153.4,
+        "previousEnd": 179.12
+      }
     },
     {
       "start": 179.12,
-      "end": 190.38,
+      "end": 189.36,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "对亚伯拉罕和艾萨克来说艾萨克必须要死只有借着死才可以从己的生命得自由",
-      "confidence": 0.788
+      "confidence": 0.848,
+      "quality": {
+        "coverage": 0.824,
+        "coherentCoverage": 0.706,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.765,
+        "suffixCoverage": 0.882,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 179.12,
+        "previousEnd": 190.38
+      }
     },
     {
       "start": 190.38,
@@ -93,7 +390,46 @@
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "亚伯拉罕必须要把艾萨克献在祭坛上",
-      "confidence": 0.839
+      "confidence": 0.903,
+      "quality": {
+        "coverage": 0.875,
+        "coherentCoverage": 0.812,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 190.38,
+        "previousEnd": 194.46
+      }
     },
     {
       "start": 194.46,
@@ -101,23 +437,134 @@
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "这不是上帝的一个随意吩咐它是上帝圣真理的启示只有借着死生命才可能真正奉献给上帝但是要艾萨克死且从",
-      "confidence": 0.806
+      "confidence": 0.885,
+      "quality": {
+        "coverage": 0.874,
+        "coherentCoverage": 0.82,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 194.46,
+        "previousEnd": 253.32
+      }
     },
     {
       "start": 253.32,
-      "end": 290.25,
+      "end": 288.94,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "经过了四百年艾萨克后裔在埃及已经变成以色列民族上帝从埃及奴役手中拯救以色列民出来以色列被认为是在",
-      "confidence": 0.916
+      "confidence": 0.916,
+      "quality": {
+        "coverage": 0.912,
+        "coherentCoverage": 0.904,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 253.32,
+        "previousEnd": 290.25
+      }
     },
     {
       "start": 290.25,
-      "end": 331.58,
+      "end": 330.7,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "在摩利亚山为艾萨克所成就的血现在全族必须来经历以色列民在门框上洒羊羔的血设立逾越节作永久的定例有",
-      "confidence": 0.87
+      "confidence": 0.87,
+      "quality": {
+        "coverage": 0.865,
+        "coherentCoverage": 0.856,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 290.25,
+        "previousEnd": 331.58
+      }
     },
     {
       "start": 331.58,
@@ -125,47 +572,273 @@
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "五十天之后这教训以醒目的方式实行以色列民到了西乃山上帝设立律法作立约的根基那约要成立如希伯来书所",
-      "confidence": 0.805
+      "confidence": 0.814,
+      "quality": {
+        "coverage": 0.848,
+        "coherentCoverage": 0.723,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 331.58,
+        "previousEnd": 373.4
+      }
     },
     {
-      "start": 373.4,
+      "start": 376.68,
       "end": 408.3,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "约的根基和功效是在血中只有单独的借着血上帝和人才能进入立约的交通在伊甸园门口亚拉腊山摩利亚山和埃",
-      "confidence": 0.826
+      "confidence": 0.869,
+      "quality": {
+        "coverage": 0.864,
+        "coherentCoverage": 0.75,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 373.4,
+        "previousEnd": 408.3
+      }
     },
     {
       "start": 408.3,
-      "end": 437.89,
+      "end": 436.26,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "然而前述用血的方式和后者有显著的不同在摩利亚山流了血人被救赎在埃及血是洒在房子的门框上但是在西乃",
-      "confidence": 0.826
+      "confidence": 0.826,
+      "quality": {
+        "coverage": 0.826,
+        "coherentCoverage": 0.739,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 408.3,
+        "previousEnd": 437.89
+      }
     },
     {
       "start": 437.89,
-      "end": 460.97,
+      "end": 461.53,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "立约之后就吩咐又当为我造圣所使我可以住在他们中间出二十五8他们将享受立约之上帝住在他们中间丰满的",
-      "confidence": 0.898
+      "confidence": 0.886,
+      "quality": {
+        "coverage": 0.917,
+        "coherentCoverage": 0.861,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 437.89,
+        "previousEnd": 460.97
+      }
     },
     {
-      "start": 460.97,
-      "end": 526.21,
+      "start": 462.61,
+      "end": 527.37,
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "上帝详细指示殿中的摆设和服事但是注意宝血是这一切的中心和理由当人就近天上的王在地上的院宇时第一件",
-      "confidence": 0.825
+      "confidence": 0.896,
+      "quality": {
+        "coverage": 0.896,
+        "coherentCoverage": 0.88,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 460.97,
+        "previousEnd": 526.21
+      }
     },
     {
-      "start": 526.21,
-      "end": 557.87,
+      "start": 529.05,
+      "end": 556.79,
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "如果你更进一步追问你将被告知做每件事血总是不可缺的一项房子或祭司的奉献礼孩子的出生为罪最深的痛悔",
-      "confidence": 0.797
+      "confidence": 0.936,
+      "quality": {
+        "coverage": 0.93,
+        "coherentCoverage": 0.915,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 526.21,
+        "previousEnd": 557.87
+      }
     },
     {
       "start": 557.87,
@@ -173,7 +846,82 @@
       "kind": "paragraph",
       "targetIndex": 27,
       "targetText": "这样经过了一千五百年在西乃山在旷野在示罗在摩利亚山的圣殿中直到我们的主来到结束了影儿一切都变成了",
-      "confidence": 0.918
+      "confidence": 0.918,
+      "quality": {
+        "coverage": 0.918,
+        "coherentCoverage": 0.852,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 557.87,
+        "previousEnd": 579.53
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 8: 从伊甸园门口开始关于「宝血」的纪载。",
+    "unverified end anchor: target 8: 从伊甸园门口开始关于「宝血」的纪载。",
+    "unverified start anchor: target 11: 由后来的启示显示，在人类历史开头，埃布尔献祭的见证是有很重要的意义。它显示出除非借着宝血，没有其",
+    "unverified end anchor: target 11: 由后来的启示显示，在人类历史开头，埃布尔献祭的见证是有很重要的意义。它显示出除非借着宝血，没有其",
+    "unverified start anchor: target 12: 圣经论到从亚当后来的十六个世纪只有简短的记载。洪水来了，这是神借着毁灭人类的世界来对罪的审判。",
+    "unverified end anchor: target 13: 但是神从可怕水的洗礼中产生一个新的世界。然而，新的世界也必须接受血的洗礼。诺亚离开方舟之后所记载",
+    "unverified end anchor: target 18: 这不是神的一个随意吩咐。它是神圣真理的启示，只有借着死，生命才可能真正奉献给神。但是要艾萨克死且",
+    "unverified end anchor: target 21: 五十天之后，这教训以醒目的方式实行。以色列民到了西乃山。神设立律法作立约的根基。那约要成立，如希",
+    "unverified end anchor: target 22: 约的根基和功效是在血中。只有单独的借着血，神和人才能进入立约的交通。在伊甸园门口，亚拉腊山，摩利",
+    "repair unverified start (previous-sync): target 8",
+    "repair unverified end (previous-sync): target 8",
+    "repair unverified start (previous-sync): target 9",
+    "repair unverified start (previous-sync): target 11",
+    "repair unverified end (previous-sync): target 11",
+    "repair unverified start (previous-sync): target 12",
+    "repair unverified end (previous-sync): target 13",
+    "repair unverified end (previous-sync): target 15",
+    "repair unverified end (previous-sync): target 18",
+    "repair unverified end (previous-sync): target 21",
+    "repair unverified end (previous-sync): target 22"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 3,
+    "updatedEnds": 9,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 4,
+    "unverifiedEnds": 7,
+    "missingTargets": []
+  },
+  "repairFingerprint": "3a80a99038cbe490028a4b2434df3bba50c5234c80cbbb557c203f1af47e8621",
+  "repairCueDigest": "a4b7214d518b53c75e8c82070cdd1bd26e07fb2fd5955779d221a72156155539"
 }

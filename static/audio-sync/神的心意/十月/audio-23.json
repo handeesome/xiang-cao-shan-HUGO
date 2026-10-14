@@ -8,28 +8,86 @@
   "audioDuration": 156.3700625,
   "cues": [
     {
-      "start": 3.09,
-      "end": 7.25,
-      "kind": "heading",
-      "targetIndex": 150,
-      "targetText": "十月二十三日应许赐给顺服者的圣灵",
-      "confidence": 0.357
-    },
-    {
-      "start": 7.25,
+      "start": 8.59,
       "end": 20.99,
       "kind": "paragraph",
       "targetIndex": 151,
       "targetText": "你们若爱我就必遵守我的命令我要求父父就另外赐给你们一位保惠师叫祂永远与你们同住约十四1516",
-      "confidence": 0.644
+      "confidence": 0.871,
+      "quality": {
+        "coverage": 0.913,
+        "coherentCoverage": 0.783,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 7.25,
+        "previousEnd": 20.99
+      }
     },
     {
-      "start": 20.99,
+      "start": 25.07,
       "end": 94.81,
       "kind": "paragraph",
       "targetIndex": 152,
       "targetText": "主耶稣祈求天父赐下保惠师就是圣灵主在这里告诉我们祂差遣圣灵来的条件如果我们亲近祂遵守祂的命令祂就",
-      "confidence": 0.825
+      "confidence": 0.907,
+      "quality": {
+        "coverage": 0.907,
+        "coherentCoverage": 0.841,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 20.99,
+        "previousEnd": 94.81
+      }
     },
     {
       "start": 94.81,
@@ -37,7 +95,58 @@
       "kind": "paragraph",
       "targetIndex": 153,
       "targetText": "不要受撒但的诱惑也不要给不信和怠惰留地步只要毫无保留地顺服主主说你们若爱我就必遵守我的命令惟独爱",
-      "confidence": 0.87
+      "confidence": 0.906,
+      "quality": {
+        "coverage": 0.897,
+        "coherentCoverage": 0.83,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 94.81,
+        "previousEnd": 155.91
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 151: 「你们若爱我，就必遵守我的命令。我要求父，父就另外赐给你们一位保惠师，叫祂永远与你们同住。」（约",
+    "unverified end anchor: target 152: 主耶稣祈求天父赐下保惠师，就是圣灵。主在这里告诉我们，祂差遣圣灵来的条件。如果我们亲近祂，遵守祂",
+    "unverified start anchor: target 153: 不要受撒但的诱惑，也不要给不信和怠惰留地步，只要毫无保留地顺服主。主说：「你们若爱我，就必遵守我",
+    "unverified end anchor: target 153: 不要受撒但的诱惑，也不要给不信和怠惰留地步，只要毫无保留地顺服主。主说：「你们若爱我，就必遵守我",
+    "repair unverified end (previous-sync): target 151",
+    "repair unverified end (previous-sync): target 152",
+    "repair unverified start (previous-sync): target 153",
+    "repair unverified end (previous-sync): target 153"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 3,
+    "missingTargets": []
+  },
+  "repairFingerprint": "6cee1c20cc0bf69f85a96c1c5bb20e1c5339f06888930c7de3b5f18a5be0512a",
+  "repairCueDigest": "8a74046fceac35ffeab8496ef4f676bfb811e791a24642ebd1fb366ae72c9669"
 }

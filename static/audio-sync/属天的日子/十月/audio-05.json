@@ -8,28 +8,82 @@
   "audioDuration": 183.573,
   "cues": [
     {
-      "start": 0.2,
-      "end": 3.76,
-      "kind": "heading",
-      "targetIndex": 24,
-      "targetText": "十月五日",
-      "confidence": 0.571
-    },
-    {
       "start": 3.76,
       "end": 10.76,
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "我要向耶和华歌喝因他大大战胜出151",
-      "confidence": 0.474
+      "confidence": 0.579,
+      "quality": {
+        "coverage": 0.611,
+        "coherentCoverage": 0.278,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.444,
+        "suffixCoverage": 0.778,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 3.76,
+        "previousEnd": 10.76
+      }
     },
     {
       "start": 10.76,
-      "end": 37.05,
+      "end": 35.87,
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "上帝呼全我们得胜但是我们是否已把冲突交托给他并且降服在他的面前我们可曾抱怨这件事太过份了或是说我",
-      "confidence": 0.629
+      "confidence": 0.823,
+      "quality": {
+        "coverage": 0.85,
+        "coherentCoverage": 0.683,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 10.76,
+        "previousEnd": 37.05
+      }
     },
     {
       "start": 37.05,
@@ -37,15 +91,112 @@
       "kind": "paragraph",
       "targetIndex": 27,
       "targetText": "如果我们曾说过这些话那么我们就还未进和应许之地上帝盼望我们接纳生活中的每一个困难他既然已经在我们",
-      "confidence": 0.699
+      "confidence": 0.903,
+      "quality": {
+        "coverage": 0.887,
+        "coherentCoverage": 0.84,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 37.05,
+        "previousEnd": 69.29
+      }
     },
     {
-      "start": 69.29,
+      "start": 74.49,
       "end": 152.39,
       "kind": "paragraph",
       "targetIndex": 28,
       "targetText": "我们是否拭目以待地等着上帝使我们在所有的事上得胜上帝总是给我们足够的力量迎战然后他会兴奋地保护我",
-      "confidence": 0.681
+      "confidence": 0.801,
+      "quality": {
+        "coverage": 0.799,
+        "coherentCoverage": 0.749,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 5,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 69.29,
+        "previousEnd": 152.39
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (0 leading chars, coverage 0.444): target 25: …我要向耶和华歌喝，因他大大战胜…------出 15:1",
+    "low confidence (0.537, coverage 0.611): target 25: …我要向耶和华歌喝，因他大大战胜…------出 15:1",
+    "unverified start anchor: target 25: …我要向耶和华歌喝，因他大大战胜…------出 15:1",
+    "unverified end anchor: target 25: …我要向耶和华歌喝，因他大大战胜…------出 15:1",
+    "unverified start anchor: target 26: 神呼全我们得胜，但是我们是否已把冲突交托给他，并且降服在他的面前? 我们可曾抱怨: 「 这件事太",
+    "unverified end anchor: target 27: 如果我们曾说过这些话，那么我们就还未进和应许之地。神盼望我们接纳生活中的每一个困难，他既然已经在",
+    "incomplete end (5 trailing chars, coverage 0.750): target 28: 我们是否拭目以待地，等着神使我们在所有的事上得胜? 神总是给我们足够的力量迎战，然后他会兴奋地保",
+    "unverified end anchor: target 28: 我们是否拭目以待地，等着神使我们在所有的事上得胜? 神总是给我们足够的力量迎战，然后他会兴奋地保",
+    "repair unverified start (previous-sync): target 25",
+    "repair unverified end (previous-sync): target 25",
+    "repair unverified start (previous-sync): target 26",
+    "repair unverified end (previous-sync): target 27",
+    "repair unverified end (previous-sync): target 28"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 3,
+    "missingTargets": []
+  },
+  "repairFingerprint": "f14107ba31d2add6ea57f910477afa19c6a73b9e7be3926ae60d23c4a27876b3",
+  "repairCueDigest": "c7159963bbc534e70c952e8305aea1ce5d4a496b0bf23d91fbb8d08c7c32a216"
 }

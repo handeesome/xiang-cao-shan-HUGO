@@ -8,36 +8,129 @@
   "audioDuration": 190.3909375,
   "cues": [
     {
-      "start": 0.0,
-      "end": 4.23,
-      "kind": "heading",
-      "targetIndex": 35,
-      "targetText": "十月七日",
-      "confidence": 1.0
-    },
-    {
       "start": 4.23,
       "end": 10.85,
       "kind": "paragraph",
       "targetIndex": 36,
       "targetText": "他被欺压在受苦的时候却不开口赛537",
-      "confidence": 0.595
+      "confidence": 0.811,
+      "quality": {
+        "coverage": 0.833,
+        "coherentCoverage": 0.722,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.889,
+        "suffixCoverage": 0.778,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 4.23,
+        "previousEnd": 10.85
+      }
     },
     {
-      "start": 10.85,
+      "start": 17.22,
       "end": 74.8,
       "kind": "paragraph",
       "targetIndex": 37,
       "targetText": "我们需要多少的恩典才能泰然地忍受一个误解或是以圣洁甜美的态度接受一个不仁慈的责难没有任何事比说我",
-      "confidence": 0.588
+      "confidence": 0.774,
+      "quality": {
+        "coverage": 0.765,
+        "coherentCoverage": 0.687,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.5,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 6,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 10.85,
+        "previousEnd": 74.8
+      }
     },
     {
-      "start": 74.8,
+      "start": 77.98,
       "end": 112.18,
       "kind": "paragraph",
       "targetIndex": 38,
       "targetText": "有些人很容易在为自己伸冤或是报仇时失去了他们的高贵及庄严很快地这些人生命中的小纠纷就会成为一个旋",
-      "confidence": 0.535
+      "confidence": 0.767,
+      "quality": {
+        "coverage": 0.763,
+        "coherentCoverage": 0.649,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 74.8,
+        "previousEnd": 112.18
+      }
     },
     {
       "start": 112.18,
@@ -45,7 +138,60 @@
       "kind": "paragraph",
       "targetIndex": 39,
       "targetText": "愿上帝给我们更多耶稣的灵使我们能像耶稣被骂不还口受害不说威吓的话只将自己交托那按公义审判人的主彼",
-      "confidence": 0.478
+      "confidence": 0.678,
+      "quality": {
+        "coverage": 0.701,
+        "coherentCoverage": 0.494,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 3,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 112.18,
+        "previousEnd": 153.71
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 36: 他被欺压，在受苦的时候却不开口…------赛 53:7",
+    "incomplete end (6 trailing chars, coverage 0.500): target 37: 我们需要多少的恩典，才能泰然地忍受一个误解，或是以圣洁甜美的态度接受一个不仁慈的责难。没有任何事",
+    "unverified end anchor: target 37: 我们需要多少的恩典，才能泰然地忍受一个误解，或是以圣洁甜美的态度接受一个不仁慈的责难。没有任何事",
+    "unverified end anchor: target 38: 有些人很容易在为自己伸冤或是报仇时，失去了他们的高贵及庄严。很快地，这些人生命中的小纠纷就会成为",
+    "unverified end anchor: target 39: 愿神给我们更多耶稣的灵，使我们能像「 耶稣被骂不还口，受害不说威吓的话，只将自己交托那按公义审判",
+    "repair unverified end (previous-sync): target 36",
+    "repair unverified end (previous-sync): target 37",
+    "repair unverified end (previous-sync): target 38",
+    "repair unverified start (previous-sync): target 39",
+    "repair unverified end (previous-sync): target 39"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 4,
+    "missingTargets": []
+  },
+  "repairFingerprint": "cb1228da6468a2dccd8bb8c294a2f8b9ee6e9faed6239d74cd9dcb4b6ff8fdbe",
+  "repairCueDigest": "ce084165a9bb9dfaff404f56ebdf6d44c5b2fdef539eef58c241346bb1b871ec"
 }

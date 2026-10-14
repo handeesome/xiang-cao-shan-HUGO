@@ -8,36 +8,183 @@
   "audioDuration": 154.7860625,
   "cues": [
     {
-      "start": 0.18,
-      "end": 4.17,
-      "kind": "heading",
-      "targetIndex": 48,
-      "targetText": "十一月十日",
-      "confidence": 0.444
-    },
-    {
       "start": 4.17,
       "end": 9.87,
       "kind": "paragraph",
-      "targetIndex": 49,
+      "targetIndex": 52,
       "targetText": "教会却为他切切地祷告上帝徒125",
-      "confidence": 0.471
+      "confidence": 0.647,
+      "quality": {
+        "coverage": 0.688,
+        "coherentCoverage": 0.438,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.875,
+        "suffixCoverage": 0.5,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 4.17,
+        "previousEnd": 9.87
+      },
+      "targetMigration": {
+        "previousTargetIndex": 49,
+        "targetIndex": 52,
+        "targetText": "教会却为他切切地祷告上帝徒125"
+      }
     },
     {
-      "start": 9.87,
+      "start": 16.18,
       "end": 76.73,
       "kind": "paragraph",
-      "targetIndex": 50,
+      "targetIndex": 53,
       "targetText": "祷告是帮助我们与上帝沟通的连系是跨于深渊之间的桥梁并且带领我们渡过每一个危险或是不足让我们想像彼",
-      "confidence": 0.53
+      "confidence": 0.792,
+      "quality": {
+        "coverage": 0.788,
+        "coherentCoverage": 0.709,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 9.87,
+        "previousEnd": 76.73
+      },
+      "targetMigration": {
+        "previousTargetIndex": 50,
+        "targetIndex": 53,
+        "targetText": "祷告是帮助我们与上帝沟通的连系是跨于深渊之间的桥梁并且带领我们渡过每一个危险或是不足让我们想像彼"
+      }
     },
     {
-      "start": 76.73,
+      "start": 80.79,
       "end": 110.43,
       "kind": "paragraph",
-      "targetIndex": 51,
+      "targetIndex": 54,
       "targetText": "我们是否知道属灵武器的力量有多大是否敢以信心的权柄命令或是使用这些武器愿上帝赐给我们属灵的胆识以",
-      "confidence": 0.667
+      "confidence": 0.802,
+      "quality": {
+        "coverage": 0.791,
+        "coherentCoverage": 0.709,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 76.73,
+        "previousEnd": 110.43
+      },
+      "targetMigration": {
+        "previousTargetIndex": 51,
+        "targetIndex": 54,
+        "targetText": "我们是否知道属灵武器的力量有多大是否敢以信心的权柄命令或是使用这些武器愿上帝赐给我们属灵的胆识以"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (1 trailing chars, coverage 0.500): target 52: …教会却为他切切地祷告神------徒 12:5",
+    "unverified end anchor: target 52: …教会却为他切切地祷告神------徒 12:5",
+    "unverified end anchor: target 53: 祷告是帮助我们与神沟通的连系，是跨于深渊之间的桥梁，并且带领我们渡过每一个危险，或是不足。让我们",
+    "repair unverified end (previous-sync): target 52",
+    "repair unverified end (previous-sync): target 53",
+    "repair unverified end (previous-sync): target 54"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 3,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 49,
+      "targetIndex": 52,
+      "targetText": "教会却为他切切地祷告上帝徒125"
+    },
+    {
+      "previousTargetIndex": 50,
+      "targetIndex": 53,
+      "targetText": "祷告是帮助我们与上帝沟通的连系是跨于深渊之间的桥梁并且带领我们渡过每一个危险或是不足让我们想像彼"
+    },
+    {
+      "previousTargetIndex": 51,
+      "targetIndex": 54,
+      "targetText": "我们是否知道属灵武器的力量有多大是否敢以信心的权柄命令或是使用这些武器愿上帝赐给我们属灵的胆识以"
+    }
+  ],
+  "repairFingerprint": "1c29a1ee1b18f930006030e48545ff6d6678707ad40586b2374420f2a0d93536",
+  "repairCueDigest": "cf27a9fcd01c40ef75bb83def707ad763987673fd1d544de1bdf708f77172e8e"
 }

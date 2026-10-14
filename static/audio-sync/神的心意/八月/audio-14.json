@@ -8,28 +8,88 @@
   "audioDuration": 188.709625,
   "cues": [
     {
-      "start": 2.63,
-      "end": 6.89,
-      "kind": "heading",
-      "targetIndex": 74,
-      "targetText": "八月十四爱的天性",
-      "confidence": 0.5
-    },
-    {
       "start": 6.89,
-      "end": 68.57,
+      "end": 69.37,
       "kind": "paragraph",
       "targetIndex": 75,
       "targetText": "爱是出于上帝因为爱存在于这位独一的永不改变的上帝里面在上帝创造天地万物以前就有了爱这位永活的真上",
-      "confidence": 0.702
+      "confidence": 0.834,
+      "quality": {
+        "coverage": 0.918,
+        "coherentCoverage": 0.912,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 3,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "discarded detached start matches"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 6.89,
+        "previousEnd": 68.57
+      }
     },
     {
-      "start": 68.57,
-      "end": 176.19,
+      "start": 69.37,
+      "end": 174.71,
       "kind": "paragraph",
       "targetIndex": 76,
       "targetText": "这就是受造之物里面爱的根源无论你在任何环境下只有心里时刻存著要行善的心愿你里面才能有爱的灵你可能",
-      "confidence": 0.884
+      "confidence": 0.928,
+      "quality": {
+        "coverage": 0.93,
+        "coherentCoverage": 0.89,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "verified-transcript",
+        "previousStart": 68.57,
+        "previousEnd": 176.19
+      }
     },
     {
       "start": 176.19,
@@ -37,7 +97,67 @@
       "kind": "paragraph",
       "targetIndex": 77,
       "targetText": "愿上帝教导我们明白祂对我们的爱是何等的荣耀和圣洁祂使我们心中充满的爱也是那样的上帝圣",
-      "confidence": 0.905
+      "confidence": 0.905,
+      "quality": {
+        "coverage": 0.905,
+        "coherentCoverage": 0.905,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 176.19,
+        "previousEnd": 188.23
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 76: 这就是受造之物里面爱的根源。无论你在任何环境下，只有心里时刻存著要行善的心愿，你里面才能有爱的灵",
+    "repair unverified start (previous-sync): target 75",
+    "repair unverified start (previous-verified-end): target 76"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "repairFingerprint": "2f99f1ca5ee00155ccca27766650654dcd75fcb8c97a3b949e3047cf73c46e8e",
+  "repairCueDigest": "bbad74e19df6059e149ab3391c6d7252f8c3b4818073a8b74dcff415790d0c67"
 }

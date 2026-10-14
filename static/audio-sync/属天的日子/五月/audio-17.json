@@ -8,36 +8,182 @@
   "audioDuration": 156.666875,
   "cues": [
     {
-      "start": 0.0,
-      "end": 2.68,
-      "kind": "heading",
-      "targetIndex": 82,
-      "targetText": "五月十七日",
-      "confidence": 0.8
-    },
-    {
       "start": 2.68,
       "end": 8.7,
       "kind": "paragraph",
-      "targetIndex": 83,
+      "targetIndex": 85,
       "targetText": "得胜的我必将隐藏的吗哪赐给他启217",
-      "confidence": 0.625
+      "confidence": 0.625,
+      "quality": {
+        "coverage": 0.556,
+        "coherentCoverage": 0.389,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.889,
+        "suffixCoverage": 0.222,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 2.68,
+        "previousEnd": 8.7
+      },
+      "targetMigration": {
+        "previousTargetIndex": 83,
+        "targetIndex": 85,
+        "targetText": "得胜的我必将隐藏的吗哪赐给他启217"
+      }
     },
     {
-      "start": 8.7,
+      "start": 17.86,
       "end": 88.74,
       "kind": "paragraph",
-      "targetIndex": 84,
+      "targetIndex": 86,
       "targetText": "基督徒生活的一个宝贵秘诀乃是耶稣内住在我们心中使我们能胜过以前无法战胜的事这是我们生活得力的惟一",
-      "confidence": 0.76
+      "confidence": 0.848,
+      "quality": {
+        "coverage": 0.84,
+        "coherentCoverage": 0.757,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 6,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 8.7,
+        "previousEnd": 88.74
+      },
+      "targetMigration": {
+        "previousTargetIndex": 84,
+        "targetIndex": 86,
+        "targetText": "基督徒生活的一个宝贵秘诀乃是耶稣内住在我们心中使我们能胜过以前无法战胜的事这是我们生活得力的惟一"
+      }
     },
     {
-      "start": 88.74,
+      "start": 104.9,
       "end": 137.68,
       "kind": "paragraph",
-      "targetIndex": 85,
+      "targetIndex": 87,
       "targetText": "有了这样的认识我们方能前进面对考验才有能力站立得稳虽然我们永不可能保守自己但因基督已经为我打败了",
-      "confidence": 0.539
+      "confidence": 0.773,
+      "quality": {
+        "coverage": 0.795,
+        "coherentCoverage": 0.716,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 88.74,
+        "previousEnd": 137.68
+      },
+      "targetMigration": {
+        "previousTargetIndex": 85,
+        "targetIndex": 87,
+        "targetText": "有了这样的认识我们方能前进面对考验才有能力站立得稳虽然我们永不可能保守自己但因基督已经为我打败了"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (4 trailing chars, coverage 0.222): target 85: …得胜的，我必将隐藏的吗哪赐给他…------启 2:17",
+    "low confidence (0.500, coverage 0.556): target 85: …得胜的，我必将隐藏的吗哪赐给他…------启 2:17",
+    "unverified start anchor: target 85: …得胜的，我必将隐藏的吗哪赐给他…------启 2:17",
+    "unverified end anchor: target 85: …得胜的，我必将隐藏的吗哪赐给他…------启 2:17",
+    "incomplete end (6 trailing chars, coverage 0.600): target 86: 基督徒生活的一个宝贵秘诀，乃是耶稣内住在我们心中，使我们能胜过以前无法战胜的事。这是我们生活得力",
+    "unverified end anchor: target 86: 基督徒生活的一个宝贵秘诀，乃是耶稣内住在我们心中，使我们能胜过以前无法战胜的事。这是我们生活得力",
+    "unverified end anchor: target 87: 有了这样的认识，我们方能前进、面对考验，才有能力站立得稳。虽然我们永不可能保守自己，但因基督已经",
+    "repair unverified start (previous-sync): target 85",
+    "repair unverified end (previous-sync): target 85",
+    "repair unverified end (previous-sync): target 86",
+    "repair unverified end (previous-sync): target 87"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 3,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 83,
+      "targetIndex": 85,
+      "targetText": "得胜的我必将隐藏的吗哪赐给他启217"
+    },
+    {
+      "previousTargetIndex": 84,
+      "targetIndex": 86,
+      "targetText": "基督徒生活的一个宝贵秘诀乃是耶稣内住在我们心中使我们能胜过以前无法战胜的事这是我们生活得力的惟一"
+    },
+    {
+      "previousTargetIndex": 85,
+      "targetIndex": 87,
+      "targetText": "有了这样的认识我们方能前进面对考验才有能力站立得稳虽然我们永不可能保守自己但因基督已经为我打败了"
+    }
+  ],
+  "repairFingerprint": "013d3abf9785abc7e3999fe733c253f6c9bc2161a235792e5600a923290f2b8e",
+  "repairCueDigest": "a098d695b5a9f2b848510100cc5bae1201cb274a27277b4bbeb5d33fcfa661b4"
 }

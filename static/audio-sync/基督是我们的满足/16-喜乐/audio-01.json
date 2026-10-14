@@ -8,28 +8,86 @@
   "audioDuration": 389.470125,
   "cues": [
     {
-      "start": 10.99,
-      "end": 20.7,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第十六周喜乐",
-      "confidence": 1.0
-    },
-    {
       "start": 20.7,
       "end": 33.32,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "说不出的大喜乐彼前18",
-      "confidence": 0.692
+      "confidence": 0.545,
+      "quality": {
+        "coverage": 0.818,
+        "coherentCoverage": 0.455,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.818,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 20.7,
+        "previousEnd": 33.32
+      }
     },
     {
       "start": 33.32,
-      "end": 38.94,
+      "end": 37.2,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "诗颂赞不止住歌唱何甘甜",
-      "confidence": 0.8
+      "confidence": 0.8,
+      "quality": {
+        "coverage": 0.727,
+        "coherentCoverage": 0.545,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.727,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 33.32,
+        "previousEnd": 38.94
+      }
     },
     {
       "start": 38.94,
@@ -37,7 +95,36 @@
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "我们的救主时刻满恩典",
-      "confidence": 0.737
+      "confidence": 0.7,
+      "quality": {
+        "coverage": 0.7,
+        "coherentCoverage": 0.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 38.94,
+        "previousEnd": 43.54
+      }
     },
     {
       "start": 43.54,
@@ -45,71 +132,420 @@
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "你若真看见祂放光荣脸",
-      "confidence": 0.778
+      "confidence": 0.7,
+      "quality": {
+        "coverage": 0.7,
+        "coherentCoverage": 0.5,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.4,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.7,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 43.54,
+        "previousEnd": 47.7
+      }
     },
     {
       "start": 47.7,
-      "end": 51.5,
+      "end": 51.94,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "万物在你眼明显且变颜",
-      "confidence": 0.947
+      "confidence": 0.9,
+      "quality": {
+        "coverage": 0.9,
+        "coherentCoverage": 0.9,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.9,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.9,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 47.7,
+        "previousEnd": 51.5
+      }
     },
     {
-      "start": 51.5,
-      "end": 88.69,
+      "start": 53.78,
+      "end": 87.51,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "那阻碍我们的喜乐的不是忧愁而是由于三心两意一个基督徒在地上如果受良心的责备当他遇到属灵的基督徒就",
-      "confidence": 0.919
+      "confidence": 0.923,
+      "quality": {
+        "coverage": 0.914,
+        "coherentCoverage": 0.914,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 51.5,
+        "previousEnd": 88.69
+      }
     },
     {
       "start": 88.69,
-      "end": 106.87,
+      "end": 105.39,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "常常喜乐不住的祷告几事谢恩此三者是紧密相联的其程度超过我们所能认识喜乐的大小乃是与祷告和谢恩的多",
-      "confidence": 0.942
+      "confidence": 0.942,
+      "quality": {
+        "coverage": 0.942,
+        "coherentCoverage": 0.942,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 88.69,
+        "previousEnd": 106.87
+      }
     },
     {
       "start": 106.87,
-      "end": 134.55,
+      "end": 132.89,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "上帝的旨意通行到那里那里就有喜乐基督就是我的喜乐但若要享受祂的爱情我们必须遵从祂的旨意这样我在祂",
-      "confidence": 0.919
+      "confidence": 0.919,
+      "quality": {
+        "coverage": 0.919,
+        "coherentCoverage": 0.905,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 106.87,
+        "previousEnd": 134.55
+      }
     },
     {
       "start": 134.55,
-      "end": 163.37,
+      "end": 162.11,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "最近我有说不尽的喜乐然而一想到自己竟然成为上帝大爱的对象时就衷心自觉不配我曾努力追求爱主这当然是",
-      "confidence": 0.681
+      "confidence": 0.945,
+      "quality": {
+        "coverage": 0.945,
+        "coherentCoverage": 0.945,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 134.55,
+        "previousEnd": 163.37
+      }
     },
     {
       "start": 163.37,
-      "end": 218.36,
+      "end": 218.96,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "我以为安息比喜乐更要紧我却愿意你们内心深处常常有一种喜乐较比能形诸于外的那种快乐更深刻不过请记得",
-      "confidence": 0.887
+      "confidence": 0.888,
+      "quality": {
+        "coverage": 0.907,
+        "coherentCoverage": 0.9,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 163.37,
+        "previousEnd": 218.36
+      }
     },
     {
-      "start": 218.36,
-      "end": 263.48,
+      "start": 220.88,
+      "end": 261.92,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "我向上帝所求的不但你一个人就是今天一切听我的都要像我一样只是不要像我有这些锁链这里的话显出何等的",
-      "confidence": 0.956
+      "confidence": 0.963,
+      "quality": {
+        "coverage": 0.963,
+        "coherentCoverage": 0.941,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 218.36,
+        "previousEnd": 263.48
+      }
     },
     {
       "start": 263.48,
-      "end": 342.1,
+      "end": 339.96,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "他虽然为看许多称为基督徒的人流泪但他自己却能在主里常常喜乐腓3844因为在主里面有那永不改变的事",
-      "confidence": 0.861
+      "confidence": 0.861,
+      "quality": {
+        "coverage": 0.881,
+        "coherentCoverage": 0.85,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 263.48,
+        "previousEnd": 342.1
+      }
     },
     {
       "start": 342.1,
@@ -117,15 +553,116 @@
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "主耶稣我们的喜乐在于你我们的灾殃你担负",
-      "confidence": 0.947
+      "confidence": 0.947,
+      "quality": {
+        "coverage": 0.947,
+        "coherentCoverage": 0.789,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.889,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 342.1,
+        "previousEnd": 351.34
+      }
     },
     {
       "start": 351.34,
-      "end": 356.78,
+      "end": 357.52,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "但灾殃和喜乐都在带领我们到天上与你会悟",
-      "confidence": 0.833
+      "confidence": 0.895,
+      "quality": {
+        "coverage": 0.895,
+        "coherentCoverage": 0.789,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.889,
+        "suffixCoverage": 0.889,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 351.34,
+        "previousEnd": 356.78
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 3: 我们的救主，时刻满恩典；",
+    "unverified end anchor: target 3: 我们的救主，时刻满恩典；",
+    "incomplete end (2 trailing chars, coverage 0.400): target 4: 你若真看见，祂放光荣脸，",
+    "unverified end anchor: target 4: 你若真看见，祂放光荣脸，",
+    "unverified end anchor: target 13: 主耶稣，我们的喜乐在于你，我们的灾殃你担负！",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified start (previous-sync): target 2",
+    "repair unverified start (previous-sync): target 3",
+    "repair unverified end (previous-sync): target 3",
+    "repair unverified end (previous-sync): target 4",
+    "repair unverified end (previous-sync): target 13"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 10,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 4,
+    "missingTargets": []
+  },
+  "repairFingerprint": "baa5c3186da7e5db4fe5399d6a2acc8ef875b0cec02f5d692593c55928dbefd1",
+  "repairCueDigest": "7a381985c030d1a16f92b61f896198f1725c567606b033d1cdbd7fc3aa2b423f"
 }

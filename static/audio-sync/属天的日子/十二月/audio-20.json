@@ -8,36 +8,179 @@
   "audioDuration": 162.2570625,
   "cues": [
     {
-      "start": 0.22,
-      "end": 2.14,
-      "kind": "heading",
-      "targetIndex": 100,
-      "targetText": "十二月二十日",
-      "confidence": 0.4
-    },
-    {
       "start": 2.14,
       "end": 9.68,
       "kind": "paragraph",
-      "targetIndex": 101,
+      "targetIndex": 158,
       "targetText": "使我为外邦人作基督耶稣的仆役作上帝福音的祭司罗1516",
-      "confidence": 0.571
+      "confidence": 0.653,
+      "quality": {
+        "coverage": 0.63,
+        "coherentCoverage": 0.556,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.846,
+        "suffixCoverage": 0.462,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 2.14,
+        "previousEnd": 9.68
+      },
+      "targetMigration": {
+        "previousTargetIndex": 101,
+        "targetIndex": 158,
+        "targetText": "使我为外邦人作基督耶稣的仆役作上帝福音的祭司罗1516"
+      }
     },
     {
-      "start": 9.68,
+      "start": 19.34,
       "end": 75.82,
       "kind": "paragraph",
-      "targetIndex": 102,
+      "targetIndex": 159,
       "targetText": "这节经文中有一个很美很实际的宣教观念首先要了解对工作献身以及对上帝献身之间有一个很大的差别我们很",
-      "confidence": 0.799
+      "confidence": 0.894,
+      "quality": {
+        "coverage": 0.892,
+        "coherentCoverage": 0.862,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 9.68,
+        "previousEnd": 75.82
+      },
+      "targetMigration": {
+        "previousTargetIndex": 102,
+        "targetIndex": 159,
+        "targetText": "这节经文中有一个很美很实际的宣教观念首先要了解对工作献身以及对上帝献身之间有一个很大的差别我们很"
+      }
     },
     {
       "start": 75.82,
-      "end": 120.04,
+      "end": 120.24,
       "kind": "paragraph",
-      "targetIndex": 103,
+      "targetIndex": 160,
       "targetText": "保罗视他的呼召为上帝圣的工作为一种单单向基督所作的献祭他站在香炉前为外邦人向上帝举起他祷告的手他",
-      "confidence": 0.632
+      "confidence": 0.79,
+      "quality": {
+        "coverage": 0.81,
+        "coherentCoverage": 0.661,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 75.82,
+        "previousEnd": 120.04
+      },
+      "targetMigration": {
+        "previousTargetIndex": 103,
+        "targetIndex": 160,
+        "targetText": "保罗视他的呼召为上帝圣的工作为一种单单向基督所作的献祭他站在香炉前为外邦人向上帝举起他祷告的手他"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (4 trailing chars, coverage 0.462): target 158: 使我为外邦人作基督耶稣的仆役，作神福音的祭司…------罗 15:16",
+    "unverified end anchor: target 158: 使我为外邦人作基督耶稣的仆役，作神福音的祭司…------罗 15:16",
+    "unverified end anchor: target 159: 这节经文中有一个很美、很实际的宣教观念。首先要了解对工作献身，以及对神献身之间有一个很大的差别。",
+    "unverified start anchor: target 160: 保罗视他的呼召为神圣的工作，为一种单单向基督所作的献祭。他站在香炉前，为外邦人向神举起他祷告的手",
+    "repair unverified start (previous-sync): target 158",
+    "repair unverified end (previous-sync): target 158",
+    "repair unverified end (previous-sync): target 159",
+    "repair unverified start (previous-sync): target 160"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 101,
+      "targetIndex": 158,
+      "targetText": "使我为外邦人作基督耶稣的仆役作上帝福音的祭司罗1516"
+    },
+    {
+      "previousTargetIndex": 102,
+      "targetIndex": 159,
+      "targetText": "这节经文中有一个很美很实际的宣教观念首先要了解对工作献身以及对上帝献身之间有一个很大的差别我们很"
+    },
+    {
+      "previousTargetIndex": 103,
+      "targetIndex": 160,
+      "targetText": "保罗视他的呼召为上帝圣的工作为一种单单向基督所作的献祭他站在香炉前为外邦人向上帝举起他祷告的手他"
+    }
+  ],
+  "repairFingerprint": "aa12ac43a0190b6fe40a5b270065e519edfecfd6b179db4333ce5d2c188d3677",
+  "repairCueDigest": "a97d1cb4d08107df1b44a4dfdb9084dd99aed763dfaa58d0b68062370b4034d1"
 }

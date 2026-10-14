@@ -8,28 +8,92 @@
   "audioDuration": 181.4215,
   "cues": [
     {
-      "start": 2.76,
-      "end": 6.44,
-      "kind": "heading",
-      "targetIndex": 97,
-      "targetText": "十一月十八日改革运动",
-      "confidence": 0.667
-    },
-    {
       "start": 6.44,
       "end": 30.4,
       "kind": "paragraph",
       "targetIndex": 98,
       "targetText": "我照上帝给我的恩好像一个聪明的工头立好了根基有别人在上面建造只是各人要谨慎怎样在上面建造因为那已",
-      "confidence": 0.897
+      "confidence": 0.897,
+      "quality": {
+        "coverage": 0.897,
+        "coherentCoverage": 0.846,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 6.44,
+        "previousEnd": 30.4
+      }
     },
     {
-      "start": 30.4,
-      "end": 145.08,
+      "start": 33.3,
+      "end": 143.98,
       "kind": "paragraph",
       "targetIndex": 99,
       "targetText": "保罗对犹太人说的不再立别的根基这句话使16世纪的信徒作了宗教改革的运动十几世纪以来罗马的天主教已",
-      "confidence": 0.81
+      "confidence": 0.855,
+      "quality": {
+        "coverage": 0.857,
+        "coherentCoverage": 0.777,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 30.4,
+        "previousEnd": 145.08
+      }
     },
     {
       "start": 145.08,
@@ -37,7 +101,65 @@
       "kind": "paragraph",
       "targetIndex": 100,
       "targetText": "这个改革被认为是五旬节的重演但事实并非如此因在改革者中间仍存著许多矛盾缺乏了主里的爱和弃绝世界的",
-      "confidence": 0.802
+      "confidence": 0.901,
+      "quality": {
+        "coverage": 0.901,
+        "coherentCoverage": 0.892,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 145.08,
+        "previousEnd": 180.92
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (4 trailing chars, coverage 0.800): target 98: 「我照神给我的恩，好像一个聪明的工头，立好了根基，有别人在上面建造。只是各人要谨慎怎样在上面建造",
+    "unverified end anchor: target 98: 「我照神给我的恩，好像一个聪明的工头，立好了根基，有别人在上面建造。只是各人要谨慎怎样在上面建造",
+    "repair unverified end (previous-sync): target 98"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "repairFingerprint": "6b07ca01cecd0f8b1b4a682adc33afdee7a7cc2bbd6d503152dcc6055eb232e1",
+  "repairCueDigest": "287f760d4b7385789699e93b71c2b9ff621d9add74aa090bd9e5fcdf2bb6d73f"
 }

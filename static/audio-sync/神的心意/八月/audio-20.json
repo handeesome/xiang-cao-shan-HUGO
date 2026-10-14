@@ -8,20 +8,45 @@
   "audioDuration": 226.090875,
   "cues": [
     {
-      "start": 2.29,
-      "end": 6.97,
-      "kind": "heading",
-      "targetIndex": 102,
-      "targetText": "八月二十日丑恶的老我",
-      "confidence": 1.0
-    },
-    {
-      "start": 6.97,
+      "start": 32.39,
       "end": 67.69,
       "kind": "paragraph",
       "targetIndex": 103,
       "targetText": "只有当我们里面有上帝的灵我们才能体会上帝的爱是怎样的上帝的爱有著完全的平安和喜乐不带半点嘈杂烦乱",
-      "confidence": 0.646
+      "confidence": 0.888,
+      "quality": {
+        "coverage": 0.888,
+        "coherentCoverage": 0.794,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 6.97,
+        "previousEnd": 67.69
+      }
     },
     {
       "start": 67.69,
@@ -29,15 +54,105 @@
       "kind": "paragraph",
       "targetIndex": 104,
       "targetText": "当万物之灵离开了上帝而转向老我时他会发觉在自己的天性里没有别的只有罪和罪的恶果老我的四个要素贪婪",
-      "confidence": 0.892
+      "confidence": 0.892,
+      "quality": {
+        "coverage": 0.888,
+        "coherentCoverage": 0.85,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 67.69,
+        "previousEnd": 141.11
+      }
     },
     {
-      "start": 141.11,
+      "start": 142.43,
       "end": 225.63,
       "kind": "paragraph",
       "targetIndex": 105,
       "targetText": "要向著老我死了要脱离老我的权势是无法靠著我们的天性的反对而达到的办法只有一个简单得人人都可以实行",
-      "confidence": 0.842
+      "confidence": 0.939,
+      "quality": {
+        "coverage": 0.939,
+        "coherentCoverage": 0.897,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 141.11,
+        "previousEnd": 225.63
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 103: 只有当我们里面有神的灵，我们才能体会神的爱是怎样的。神的爱有著完全的平安和喜乐，不带半点嘈杂烦乱",
+    "unverified end anchor: target 104: 当万物之灵离开了神而转向老我时，他会发觉在自己的天性里没有别的，只有罪和罪的恶果。老我的四个要素",
+    "unverified end anchor: target 105: 要向著老我死了，要脱离老我的权势，是无法靠著我们的天性的反对而达到的。办法只有一个，简单得人人都",
+    "repair unverified end (previous-sync): target 103",
+    "repair unverified end (previous-sync): target 104",
+    "repair unverified end (previous-sync): target 105"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 3,
+    "missingTargets": []
+  },
+  "repairFingerprint": "f65b9d782bae0f8308151d4f17286c31b5f714abc4c3cdf9f24e1a2d3a82174b",
+  "repairCueDigest": "e947f0449fe08a339ab7566046a49bcc3d919148c7a14b537d768ba485c53a3a"
 }

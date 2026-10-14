@@ -8,36 +8,178 @@
   "audioDuration": 141.254625,
   "cues": [
     {
-      "start": 0.0,
-      "end": 6.12,
-      "kind": "heading",
-      "targetIndex": 25,
-      "targetText": "六月六日",
-      "confidence": 1.0
-    },
-    {
       "start": 6.12,
       "end": 8.88,
       "kind": "paragraph",
-      "targetIndex": 26,
+      "targetIndex": 29,
       "targetText": "既有人的样子就自己卑微腓28",
-      "confidence": 0.696
+      "confidence": 0.783,
+      "quality": {
+        "coverage": 0.643,
+        "coherentCoverage": 0.643,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.286,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 5,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 6.12,
+        "previousEnd": 8.88
+      },
+      "targetMigration": {
+        "previousTargetIndex": 26,
+        "targetIndex": 29,
+        "targetText": "既有人的样子就自己卑微腓28"
+      }
     },
     {
-      "start": 8.88,
-      "end": 60.98,
+      "start": 18.34,
+      "end": 57.27,
       "kind": "paragraph",
-      "targetIndex": 27,
+      "targetIndex": 30,
       "targetText": "要进人上帝的国的第一步就是要虚心第二步境界更深乃是要哀恸因为我们惟有变得柔顺破碎像火中的铁一样主",
-      "confidence": 0.757
+      "confidence": 0.864,
+      "quality": {
+        "coverage": 0.864,
+        "coherentCoverage": 0.818,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 8.88,
+        "previousEnd": 60.98
+      },
+      "targetMigration": {
+        "previousTargetIndex": 27,
+        "targetIndex": 30,
+        "targetText": "要进人上帝的国的第一步就是要虚心第二步境界更深乃是要哀恸因为我们惟有变得柔顺破碎像火中的铁一样主"
+      }
     },
     {
       "start": 60.98,
       "end": 124.48,
       "kind": "paragraph",
-      "targetIndex": 28,
+      "targetIndex": 31,
       "targetText": "上帝盼望引导我们进入他的义他经常藉着考验和试炼教导我们认识他我不认为一定要经过极大的灾难然后才得",
-      "confidence": 0.839
+      "confidence": 0.856,
+      "quality": {
+        "coverage": 0.851,
+        "coherentCoverage": 0.766,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 3,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 60.98,
+        "previousEnd": 124.48
+      },
+      "targetMigration": {
+        "previousTargetIndex": 28,
+        "targetIndex": 31,
+        "targetText": "上帝盼望引导我们进入他的义他经常藉着考验和试炼教导我们认识他我不认为一定要经过极大的灾难然后才得"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (5 trailing chars, coverage 0.286): target 29: 既有人的样子，就自己卑微…------腓 2:8",
+    "unverified end anchor: target 29: 既有人的样子，就自己卑微…------腓 2:8",
+    "unverified start anchor: target 31: 神盼望引导我们进入他的义，他经常藉着考验和试炼教导我们认识他。我不认为一定要经过极大的灾难，然后",
+    "repair unverified start (previous-sync): target 29",
+    "repair unverified end (previous-sync): target 29",
+    "repair unverified start (previous-sync): target 31",
+    "repair unverified end (previous-sync): target 31"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 26,
+      "targetIndex": 29,
+      "targetText": "既有人的样子就自己卑微腓28"
+    },
+    {
+      "previousTargetIndex": 27,
+      "targetIndex": 30,
+      "targetText": "要进人上帝的国的第一步就是要虚心第二步境界更深乃是要哀恸因为我们惟有变得柔顺破碎像火中的铁一样主"
+    },
+    {
+      "previousTargetIndex": 28,
+      "targetIndex": 31,
+      "targetText": "上帝盼望引导我们进入他的义他经常藉着考验和试炼教导我们认识他我不认为一定要经过极大的灾难然后才得"
+    }
+  ],
+  "repairFingerprint": "446fef967815d9fa1045164fdfaae3c80486d138bfff78bd14cf650170f51a3e",
+  "repairCueDigest": "a85af7e37f082ddc98bdb4689fef067f0a2af9f0d2c15491bc8202ebf45b0e01"
 }

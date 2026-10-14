@@ -13,7 +13,59 @@
       "kind": "paragraph",
       "targetIndex": 51,
       "targetText": "附二十世纪在中国东北带进复兴的挪威孟逊教士在复兴的祷告中她在异象中看见基督宝血的大能她为中国复兴",
-      "confidence": 0.824
+      "confidence": 0.882,
+      "quality": {
+        "coverage": 0.869,
+        "coherentCoverage": 0.816,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.4,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 12,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 3.55,
+        "previousEnd": 154.04
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (12 trailing chars, coverage 0.400): target 51: 【附】：二十世纪在中国东北带进复兴的挪威孟逊教士，在复兴的祷告中，她在异象中看见基督宝血的大能。",
+    "unverified end anchor: target 51: 【附】：二十世纪在中国东北带进复兴的挪威孟逊教士，在复兴的祷告中，她在异象中看见基督宝血的大能。",
+    "repair unverified end (previous-sync): target 51"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "repairFingerprint": "9e01be9e8fb2480aff7935363c25782a1279a96952bae6a0d87642af9687d9df",
+  "repairCueDigest": "010324f7945cda2f1d5f1069ddd31192a3f403e06a527faee2b1359c9dbeaba4"
 }

@@ -8,36 +8,159 @@
   "audioDuration": 127.635375,
   "cues": [
     {
-      "start": 2.64,
-      "end": 8.48,
-      "kind": "heading",
-      "targetIndex": 126,
-      "targetText": "五月二十一日我们的天父",
-      "confidence": 1.0
-    },
-    {
       "start": 8.48,
       "end": 11.9,
       "kind": "paragraph",
       "targetIndex": 127,
       "targetText": "我们在天上的父路十一2",
-      "confidence": 0.778
+      "confidence": 0.778,
+      "quality": {
+        "coverage": 0.818,
+        "coherentCoverage": 0.636,
+        "extraSpeechContext": true,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.818,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 8.48,
+        "previousEnd": 11.9
+      }
     },
     {
-      "start": 11.9,
-      "end": 110.86,
+      "start": 15.48,
+      "end": 111.5,
       "kind": "paragraph",
       "targetIndex": 128,
       "targetText": "耶稣教导我们的这个祷告是何等的简洁有力阿其含意又是何等的深奥难测充满了爱和称颂试想如果要记念世上",
-      "confidence": 0.79
+      "confidence": 0.889,
+      "quality": {
+        "coverage": 0.888,
+        "coherentCoverage": 0.851,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 11.9,
+        "previousEnd": 110.86
+      }
     },
     {
-      "start": 110.86,
-      "end": 126.57,
+      "start": 113.19,
+      "end": 127.25,
       "kind": "paragraph",
       "targetIndex": 129,
       "targetText": "求上帝让我们培养一个属天的灵天天向世人证实我们有一位父亲在天上我们也天天住在祂里面",
-      "confidence": 0.659
+      "confidence": 0.976,
+      "quality": {
+        "coverage": 0.976,
+        "coherentCoverage": 0.927,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 110.86,
+        "previousEnd": 126.57
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 127: 「我们在天上的父。」（路十一 2）",
+    "repair unverified end (previous-sync): target 127"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "repairFingerprint": "9b91398d50bb63c597be259680c8198b4d163146f07d039f1e2958d933d10626",
+  "repairCueDigest": "87d8123682ffab2685570d0946be405c551a25bd41bc0c3e76934672d088434e"
 }

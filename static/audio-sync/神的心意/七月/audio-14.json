@@ -8,20 +8,41 @@
   "audioDuration": 146.8615,
   "cues": [
     {
-      "start": 2.32,
-      "end": 8.94,
-      "kind": "heading",
-      "targetIndex": 81,
-      "targetText": "七月十四日马利亚守晨更",
-      "confidence": 0.75
-    },
-    {
       "start": 8.94,
       "end": 21.44,
       "kind": "paragraph",
       "targetIndex": 82,
       "targetText": "耶稣说马利亚马利亚就转过来对祂说拉波尼约二十16",
-      "confidence": 0.8
+      "confidence": 0.475,
+      "quality": {
+        "coverage": 0.583,
+        "coherentCoverage": 0.208,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.667,
+        "suffixCoverage": 0.5,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 8.94,
+        "previousEnd": 21.44
+      }
     },
     {
       "start": 21.44,
@@ -29,7 +50,40 @@
       "kind": "paragraph",
       "targetIndex": 83,
       "targetText": "耶稣复活后首先向抹大拉的马利亚显现她是个非常爱主的妇女",
-      "confidence": 0.519
+      "confidence": 0.852,
+      "quality": {
+        "coverage": 0.852,
+        "coherentCoverage": 0.63,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.846,
+        "suffixCoverage": 0.923,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 21.44,
+        "previousEnd": 30.64
+      }
     },
     {
       "start": 30.64,
@@ -37,15 +91,93 @@
       "kind": "paragraph",
       "targetIndex": 84,
       "targetText": "在主复活的那天马利亚一大清早就到了耶稣的坟墓那里可见她对主的爱非常深挚",
-      "confidence": 0.647
+      "confidence": 0.882,
+      "quality": {
+        "coverage": 0.857,
+        "coherentCoverage": 0.857,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.882,
+        "suffixCoverage": 0.824,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 30.64,
+        "previousEnd": 40.44
+      }
     },
     {
-      "start": 40.44,
-      "end": 96.25,
+      "start": 42.46,
+      "end": 94.08,
       "kind": "paragraph",
       "targetIndex": 85,
       "targetText": "她不断地寻求主直到找到为止她为了尽快找到主甚至不惜离开门徒独自去找马利亚的信心使她一点也不放松主",
-      "confidence": 0.681
+      "confidence": 0.851,
+      "quality": {
+        "coverage": 0.848,
+        "coherentCoverage": 0.806,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 40.44,
+        "previousEnd": 96.25
+      }
     },
     {
       "start": 96.25,
@@ -53,7 +185,67 @@
       "kind": "paragraph",
       "targetIndex": 86,
       "targetText": "马利亚一清早就寻找主向我们显明了守晨更的重要和因此而得的应许我们像马利亚一样对主认识很少只能带著",
-      "confidence": 0.74
+      "confidence": 0.883,
+      "quality": {
+        "coverage": 0.883,
+        "coherentCoverage": 0.857,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 3,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 96.25,
+        "previousEnd": 145.71
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (2 trailing chars, coverage 0.500): target 82: 「耶稣说：马利亚！马利亚就转过来，对祂说：拉波尼！」（约二十 16）",
+    "low confidence (0.475, coverage 0.583): target 82: 「耶稣说：马利亚！马利亚就转过来，对祂说：拉波尼！」（约二十 16）",
+    "unverified start anchor: target 82: 「耶稣说：马利亚！马利亚就转过来，对祂说：拉波尼！」（约二十 16）",
+    "unverified end anchor: target 82: 「耶稣说：马利亚！马利亚就转过来，对祂说：拉波尼！」（约二十 16）",
+    "unverified end anchor: target 83: 耶稣复活后，首先向抹大拉的马利亚显现。她是个非常爱主的妇女。",
+    "repair unverified start (previous-sync): target 82",
+    "repair unverified end (previous-sync): target 82",
+    "repair unverified end (previous-sync): target 83",
+    "repair unverified start (previous-sync): target 86"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "repairFingerprint": "ac1dc44386c13b30244866fc09b49609f85119384848062e22d7a863c41fd256",
+  "repairCueDigest": "4f27b09ab9eb17531fb992ce28b03d95fe7928a706163a87f60ead00fa4fbc6c"
 }

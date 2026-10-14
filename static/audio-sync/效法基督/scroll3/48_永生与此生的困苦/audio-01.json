@@ -8,20 +8,45 @@
   "audioDuration": 664.699875,
   "cues": [
     {
-      "start": 0.53,
-      "end": 6.06,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第四十八章永生与此生的困苦",
-      "confidence": 0.667
-    },
-    {
       "start": 6.06,
       "end": 31.93,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "一漪欤休哉天上的圣城光明兮永生之日黑夜不再出现真理永远明照乐哉是日永远稳妥永无改变但愿那日临到这",
-      "confidence": 0.638
+      "confidence": 0.776,
+      "quality": {
+        "coverage": 0.763,
+        "coherentCoverage": 0.678,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 5,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 6.06,
+        "previousEnd": 31.93
+      }
     },
     {
       "start": 31.93,
@@ -29,7 +54,34 @@
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "永生之光已经照亮诸圣徒但是对于那些在世的旅客它只是遥远显现好似水中之月",
-      "confidence": 0.648
+      "confidence": 0.648,
+      "quality": {
+        "coverage": 0.657,
+        "coherentCoverage": 0.429,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.647,
+        "suffixCoverage": 0.706,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 31.93,
+        "previousEnd": 48.58
+      }
     },
     {
       "start": 48.58,
@@ -37,15 +89,87 @@
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "二天国的子民为知道那日是何等的快乐但是夏娃的后裔还在为此生的苦恼而悲哀",
-      "confidence": 0.87
+      "confidence": 0.87,
+      "quality": {
+        "coverage": 0.857,
+        "coherentCoverage": 0.714,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.941,
+        "suffixCoverage": 0.765,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 48.58,
+        "previousEnd": 61.98
+      }
     },
     {
       "start": 61.98,
-      "end": 69.9,
+      "end": 68.66,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "此生之日短而多难充满着忧愁和困苦",
-      "confidence": 0.938
+      "confidence": 0.938,
+      "quality": {
+        "coverage": 0.938,
+        "coherentCoverage": 0.938,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.875,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 61.98,
+        "previousEnd": 69.9
+      }
     },
     {
       "start": 69.9,
@@ -53,55 +177,308 @@
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "此世之人染于罪陷于欲为惧怕所抓住为顾虑所折磨为好奇所扰为虚荣所累受错误的围困为劳苦而憔悴迫于试探",
-      "confidence": 0.66
+      "confidence": 0.66,
+      "quality": {
+        "coverage": 0.571,
+        "coherentCoverage": 0.411,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.2,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 14,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "discarded detached end matches"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 69.9,
+        "previousEnd": 86.88
+      }
     },
     {
-      "start": 86.88,
+      "start": 94.66,
       "end": 135.71,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "三何时这些祸患才得终止呢何时我才能得救脱离罪的痛苦的束缚呢主啊何时我才得只注意你一人呢何时我才得",
-      "confidence": 0.645
+      "confidence": 0.887,
+      "quality": {
+        "coverage": 0.882,
+        "coherentCoverage": 0.843,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 86.88,
+        "previousEnd": 135.71
+      }
     },
     {
       "start": 135.71,
-      "end": 158.65,
+      "end": 159.01,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "慈悲的耶稣啊何时我得以见你何时我得以默想你的国的荣耀何时我能以你为一切的一切何时我将与你同在在你",
-      "confidence": 0.554
+      "confidence": 0.788,
+      "quality": {
+        "coverage": 0.788,
+        "coherentCoverage": 0.712,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 135.71,
+        "previousEnd": 158.65
+      }
     },
     {
-      "start": 158.65,
-      "end": 171.19,
+      "start": 160.79,
+      "end": 171.39,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "我一个可怜的漂泊者今被撇在这仇敌的国度里每天都遭遇着战争和患难",
-      "confidence": 0.571
+      "confidence": 0.839,
+      "quality": {
+        "coverage": 0.839,
+        "coherentCoverage": 0.839,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.933,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 158.65,
+        "previousEnd": 171.19
+      }
     },
     {
-      "start": 171.19,
-      "end": 200.99,
+      "start": 171.39,
+      "end": 199.21,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "四求你安慰我的漂泊境遇减轻我的忧患因为我所仰望的全在于你无论世人给我什么安慰我都觉得难堪我只渴望",
-      "confidence": 0.861
+      "confidence": 0.868,
+      "quality": {
+        "coverage": 0.868,
+        "coherentCoverage": 0.853,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "verified-transcript",
+        "previousStart": 171.19,
+        "previousEnd": 200.99
+      }
     },
     {
       "start": 200.99,
-      "end": 227.45,
+      "end": 225.57,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "我的愿望是完全献身于天上的事但是世俗的事物和禁止不住的情欲却常使我陷于泥潭我的心愿意我超脱万事万",
-      "confidence": 0.75
+      "confidence": 0.891,
+      "quality": {
+        "coverage": 0.891,
+        "coherentCoverage": 0.891,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 200.99,
+        "previousEnd": 227.45
+      }
     },
     {
-      "start": 227.45,
-      "end": 242.97,
+      "start": 226.81,
+      "end": 241.53,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "这样看来我真是何等不幸的人我要与自己争战折磨自己我的灵寻求向上我的肉体却偏要向下",
-      "confidence": 0.759
+      "confidence": 0.938,
+      "quality": {
+        "coverage": 0.95,
+        "coherentCoverage": 0.9,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 227.45,
+        "previousEnd": 242.97
+      }
     },
     {
       "start": 242.97,
@@ -109,31 +486,183 @@
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "五我的心真是苦啊每逢我的心思念天上的事同时就有无数肉体妄念兴起扰乱我的祷告我的上帝啊求你不要远离",
-      "confidence": 0.78
+      "confidence": 0.78,
+      "quality": {
+        "coverage": 0.78,
+        "coherentCoverage": 0.627,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 242.97,
+        "previousEnd": 267.07
+      }
     },
     {
       "start": 267.07,
-      "end": 277.99,
+      "end": 278.35,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "求你用你的光照亮驱逐我心的黑暗求你发射你的箭让仇敌的一切幻想抱愧蒙羞",
-      "confidence": 0.788
+      "confidence": 0.836,
+      "quality": {
+        "coverage": 0.824,
+        "coherentCoverage": 0.765,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.941,
+        "suffixCoverage": 0.706,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 267.07,
+        "previousEnd": 277.99
+      }
     },
     {
-      "start": 277.99,
-      "end": 293.64,
+      "start": 279.91,
+      "end": 291.33,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "求你集中我的感官专向于你使我忘记一切世俗的事物使我能够立刻除去而且藐视邪恶的幻想",
-      "confidence": 0.642
+      "confidence": 0.775,
+      "quality": {
+        "coverage": 0.775,
+        "coherentCoverage": 0.55,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 277.99,
+        "previousEnd": 293.64
+      }
     },
     {
       "start": 293.64,
-      "end": 302.54,
+      "end": 300.88,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "永远的真理之主啊求你拯救我不令虚空的事物动摇我的心",
-      "confidence": 0.8
+      "confidence": 0.96,
+      "quality": {
+        "coverage": 0.96,
+        "coherentCoverage": 0.96,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.917,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 293.64,
+        "previousEnd": 302.54
+      }
     },
     {
       "start": 302.54,
@@ -141,71 +670,389 @@
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "纯爱之主啊求你临格于我叫一切的污秽在你面前飞逝",
-      "confidence": 0.605
+      "confidence": 0.698,
+      "quality": {
+        "coverage": 0.652,
+        "coherentCoverage": 0.435,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.636,
+        "suffixCoverage": 0.636,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution",
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 302.54,
+        "previousEnd": 309.82
+      }
     },
     {
       "start": 309.82,
-      "end": 324.3,
+      "end": 323.26,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "求你饶恕我因为常常在祷告时胡思乱想求你按你的慈悲从轻待我",
-      "confidence": 0.63
+      "confidence": 0.724,
+      "quality": {
+        "coverage": 0.75,
+        "coherentCoverage": 0.607,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.714,
+        "suffixCoverage": 0.786,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 309.82,
+        "previousEnd": 324.3
+      }
     },
     {
       "start": 324.3,
-      "end": 328.32,
+      "end": 328.66,
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "我应当承认我常常分心过甚",
-      "confidence": 0.957
+      "confidence": 0.917,
+      "quality": {
+        "coverage": 0.917,
+        "coherentCoverage": 0.917,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.833,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 324.3,
+        "previousEnd": 328.32
+      }
     },
     {
-      "start": 328.32,
+      "start": 329.9,
       "end": 342.34,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "许多时候我的身体站在或坐在这里而我却不在这里因我已随着思想飘逸他往矣",
-      "confidence": 0.882
+      "confidence": 0.896,
+      "quality": {
+        "coverage": 0.882,
+        "coherentCoverage": 0.853,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.765,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 328.32,
+        "previousEnd": 342.34
+      }
     },
     {
-      "start": 342.34,
+      "start": 343.84,
       "end": 355.12,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "我的思想在哪里我就在那里尤有进者我的嗜好在哪里我的思想便在那里",
-      "confidence": 0.787
+      "confidence": 0.839,
+      "quality": {
+        "coverage": 0.839,
+        "coherentCoverage": 0.645,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.867,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 342.34,
+        "previousEnd": 355.12
+      }
     },
     {
       "start": 355.12,
-      "end": 362.6,
+      "end": 361.5,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "所以凡我本性和习惯所喜爱的事物最容易进入我心",
-      "confidence": 0.773
+      "confidence": 0.955,
+      "quality": {
+        "coverage": 0.955,
+        "coherentCoverage": 0.864,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.909,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 355.12,
+        "previousEnd": 362.6
+      }
     },
     {
       "start": 362.6,
-      "end": 394.28,
+      "end": 393.12,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "六为这个缘故你真理的本身曾经清楚地说过你的财宝在哪里你的心也在那里我若所爱在天我必乐意思念天上的",
-      "confidence": 0.793
+      "confidence": 0.897,
+      "quality": {
+        "coverage": 0.897,
+        "coherentCoverage": 0.839,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 362.6,
+        "previousEnd": 394.28
+      }
     },
     {
       "start": 394.28,
-      "end": 400.2,
+      "end": 399.12,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "我若爱圣灵我也必喜欢思想属灵的事",
-      "confidence": 0.812
+      "confidence": 0.812,
+      "quality": {
+        "coverage": 0.812,
+        "coherentCoverage": 0.5,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.875,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 394.28,
+        "previousEnd": 400.2
+      }
     },
     {
       "start": 400.2,
-      "end": 410.84,
+      "end": 409.7,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "因为凡我所喜爱的我必乐于说也乐于听心中也常常带着那影子",
-      "confidence": 0.926
+      "confidence": 0.926,
+      "quality": {
+        "coverage": 0.926,
+        "coherentCoverage": 0.852,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.923,
+        "suffixCoverage": 0.923,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 400.2,
+        "previousEnd": 410.84
+      }
     },
     {
       "start": 410.84,
@@ -213,7 +1060,90 @@
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "主啊凡人为你的缘故甘心弃绝人间一切事物抑制本性且藉着圣灵的力量钉死肉欲于十字架上这人有福了这样他",
-      "confidence": 0.68
+      "confidence": 0.69,
+      "quality": {
+        "coverage": 0.686,
+        "coherentCoverage": 0.412,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.55,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 410.84,
+        "previousEnd": 449.6
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (5 leading chars, coverage 0.600): target 1: 一、漪欤休哉，天上的圣城！光明兮永生之日，黑夜不再出现，真理永远明照，乐哉是日，永远稳妥，永无改",
+    "unverified start anchor: target 1: 一、漪欤休哉，天上的圣城！光明兮永生之日，黑夜不再出现，真理永远明照，乐哉是日，永远稳妥，永无改",
+    "unverified start anchor: target 2: 永生之光已经照亮诸圣徒，但是对于那些在世的旅客，它只是遥远显现，好似水中之月。",
+    "unverified end anchor: target 2: 永生之光已经照亮诸圣徒，但是对于那些在世的旅客，它只是遥远显现，好似水中之月。",
+    "unverified end anchor: target 3: 二、天国的子民为知道那日是何等的快乐，但是夏娃的后裔还在为此生的苦恼而悲哀。",
+    "incomplete end (14 trailing chars, coverage 0.200): target 5: 此世之人染于罪，陷于欲，为惧怕所抓住，为顾虑所折磨，为好奇所扰，为虚荣所累，受错误的围困，为劳苦",
+    "unverified start anchor: target 5: 此世之人染于罪，陷于欲，为惧怕所抓住，为顾虑所折磨，为好奇所扰，为虚荣所累，受错误的围困，为劳苦",
+    "unverified end anchor: target 5: 此世之人染于罪，陷于欲，为惧怕所抓住，为顾虑所折磨，为好奇所扰，为虚荣所累，受错误的围困，为劳苦",
+    "unverified start anchor: target 7: 慈悲的耶稣啊，何时我得以见你？何时我得以默想你的国的荣耀？何时我能以你为一切的一切？何时我将与你",
+    "unverified end anchor: target 12: 五、我的心真是苦啊，每逢我的心思念天上的事，同时就有无数肉体妄念兴起扰乱我的祷告！我的神啊，求你",
+    "unverified start anchor: target 16: 纯爱之主啊，求你临格于我，叫一切的污秽在你面前飞逝。",
+    "unverified start anchor: target 17: 求你饶恕我，因为常常在祷告时胡思乱想，求你按你的慈悲从轻待我。",
+    "unverified end anchor: target 19: 许多时候，我的身体站在或坐在这里，而我却不在这里，因我已随着思想飘逸他往矣。",
+    "unverified end anchor: target 20: 我的思想在哪里，我就在那里，尤有进者，我的嗜好在哪里，我的思想便在那里。",
+    "unverified start anchor: target 22: 六、为这个缘故，你——真理的本身，——曾经清楚地说过：“你的财宝在哪里，你的心也在那里。”我若所",
+    "unverified start anchor: target 23: 我若爱圣灵，我也必喜欢思想属灵的事。",
+    "unverified end anchor: target 25: 主啊，凡人为你的缘故，甘心弃绝人间一切事物，抑制本性，且藉着圣灵的力量，钉死肉欲于十字架上，这人",
+    "repair unverified start (previous-sync): target 1",
+    "repair unverified start (previous-sync): target 2",
+    "repair unverified end (previous-sync): target 2",
+    "repair unverified end (previous-sync): target 3",
+    "repair unverified start (previous-sync): target 5",
+    "repair unverified end (previous-sync): target 5",
+    "repair unverified start (previous-sync): target 7",
+    "repair unverified start (previous-verified-end): target 9",
+    "repair unverified end (previous-sync): target 12",
+    "repair unverified start (previous-sync): target 16",
+    "repair unverified end (previous-sync): target 16",
+    "repair unverified start (previous-sync): target 17",
+    "repair unverified end (previous-sync): target 19",
+    "repair unverified end (previous-sync): target 20",
+    "repair unverified start (previous-sync): target 22",
+    "repair unverified start (previous-sync): target 23",
+    "repair unverified end (previous-sync): target 25"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 7,
+    "updatedEnds": 15,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 9,
+    "unverifiedEnds": 8,
+    "missingTargets": []
+  },
+  "repairFingerprint": "0d098e1cb51c09031d9846358c971249959df8240c353affd6acbfad6285130c",
+  "repairCueDigest": "f42251bfb0d631f100e0d44ed7cd9f8dc3d2cda9ba4a24d7a7509a02a7555b22"
 }

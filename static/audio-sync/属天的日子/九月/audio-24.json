@@ -8,44 +8,245 @@
   "audioDuration": 186.5770625,
   "cues": [
     {
-      "start": 0.0,
-      "end": 5.02,
-      "kind": "heading",
-      "targetIndex": 119,
-      "targetText": "九月二十四日",
-      "confidence": 1.0
-    },
-    {
       "start": 5.02,
       "end": 13.48,
       "kind": "paragraph",
-      "targetIndex": 120,
-      "targetText": "亚伯拉罕所信的是那叫死人复活使无变为有的上帝罗417",
-      "confidence": 0.583
-    },
-    {
-      "start": 13.48,
-      "end": 79.53,
-      "kind": "paragraph",
-      "targetIndex": 121,
-      "targetText": "上帝的话命立就立主基督曾说现在你们因我所讲给你们的道已经干净了约153所以我们是干净的一个人可能",
-      "confidence": 0.678
-    },
-    {
-      "start": 79.53,
-      "end": 112.68,
-      "kind": "paragraph",
       "targetIndex": 122,
-      "targetText": "一位法国司令官为了感谢救他一命的一位普通兵就称呼他为上尉虽然这称呼是私底下取的但是这普通兵把司令",
-      "confidence": 0.68
+      "targetText": "亚伯拉罕所信的是那叫死人复活使无变为有的上帝罗417",
+      "confidence": 0.75,
+      "quality": {
+        "coverage": 0.731,
+        "coherentCoverage": 0.692,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.769,
+        "suffixCoverage": 0.692,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 5.02,
+        "previousEnd": 13.48
+      },
+      "targetMigration": {
+        "previousTargetIndex": 120,
+        "targetIndex": 122,
+        "targetText": "亚伯拉罕所信的是那叫死人复活使无变为有的上帝罗417"
+      }
     },
     {
-      "start": 112.68,
-      "end": 145.34,
+      "start": 23.35,
+      "end": 79.95,
       "kind": "paragraph",
       "targetIndex": 123,
+      "targetText": "上帝的话命立就立主基督曾说现在你们因我所讲给你们的道已经干净了约153所以我们是干净的一个人可能",
+      "confidence": 0.828,
+      "quality": {
+        "coverage": 0.86,
+        "coherentCoverage": 0.811,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 13.48,
+        "previousEnd": 79.53
+      },
+      "targetMigration": {
+        "previousTargetIndex": 121,
+        "targetIndex": 123,
+        "targetText": "上帝的话命立就立主基督曾说现在你们因我所讲给你们的道已经干净了约153所以我们是干净的一个人可能"
+      }
+    },
+    {
+      "start": 89.44,
+      "end": 112.94,
+      "kind": "paragraph",
+      "targetIndex": 124,
+      "targetText": "一位法国司令官为了感谢救他一命的一位普通兵就称呼他为上尉虽然这称呼是私底下取的但是这普通兵把司令",
+      "confidence": 0.892,
+      "quality": {
+        "coverage": 0.88,
+        "coherentCoverage": 0.867,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 79.53,
+        "previousEnd": 112.68
+      },
+      "targetMigration": {
+        "previousTargetIndex": 122,
+        "targetIndex": 124,
+        "targetText": "一位法国司令官为了感谢救他一命的一位普通兵就称呼他为上尉虽然这称呼是私底下取的但是这普通兵把司令"
+      }
+    },
+    {
+      "start": 114.44,
+      "end": 145.34,
+      "kind": "paragraph",
+      "targetIndex": 125,
       "targetText": "朋友愿你也能把上帝有关称义圣洁能力和释放的话语当作真实的应许那么疲乏的他赐能力软弱的他加力量那等",
-      "confidence": 0.603
+      "confidence": 0.71,
+      "quality": {
+        "coverage": 0.733,
+        "coherentCoverage": 0.453,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 112.68,
+        "previousEnd": 145.34
+      },
+      "targetMigration": {
+        "previousTargetIndex": 123,
+        "targetIndex": 125,
+        "targetText": "朋友愿你也能把上帝有关称义圣洁能力和释放的话语当作真实的应许那么疲乏的他赐能力软弱的他加力量那等"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 122: 亚伯拉罕所信的，是那叫死人复活、使无变为有的神…------罗 4:17",
+    "repair unverified start (previous-sync): target 122",
+    "repair unverified end (previous-sync): target 122"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 3,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 120,
+      "targetIndex": 122,
+      "targetText": "亚伯拉罕所信的是那叫死人复活使无变为有的上帝罗417"
+    },
+    {
+      "previousTargetIndex": 121,
+      "targetIndex": 123,
+      "targetText": "上帝的话命立就立主基督曾说现在你们因我所讲给你们的道已经干净了约153所以我们是干净的一个人可能"
+    },
+    {
+      "previousTargetIndex": 122,
+      "targetIndex": 124,
+      "targetText": "一位法国司令官为了感谢救他一命的一位普通兵就称呼他为上尉虽然这称呼是私底下取的但是这普通兵把司令"
+    },
+    {
+      "previousTargetIndex": 123,
+      "targetIndex": 125,
+      "targetText": "朋友愿你也能把上帝有关称义圣洁能力和释放的话语当作真实的应许那么疲乏的他赐能力软弱的他加力量那等"
+    }
+  ],
+  "repairFingerprint": "df983913ec8f454b1ff072dd23bc02e2bb9b133fb0c1eceaef267ace02d2e94a",
+  "repairCueDigest": "47a546a1b2858c654ab1b48900ce25996e7ff109ecfdca8bd86f8f801df00a93"
 }

@@ -1,0 +1,22 @@
+{{ $page := . }}
+{{ with partial "book-context.html" . }}
+<nav class="book-breadcrumbs" aria-label="阅读位置">
+  <ol>
+    <li><a href="{{ .Hub.RelPermalink }}">{{ .HubTitle }}</a></li>
+    <li>
+      <span class="book-breadcrumb-separator" aria-hidden="true">/</span>
+      {{ if eq $page.RelPermalink .Book.RelPermalink }}
+      <span aria-current="page">{{ .BookTitle }}</span>
+      {{ else }}
+      <a href="{{ .Book.RelPermalink }}">{{ .BookTitle }}</a>
+      {{ end }}
+    </li>
+    {{ with .Parent }}
+    <li>
+      <span class="book-breadcrumb-separator" aria-hidden="true">/</span>
+      <a href="{{ .RelPermalink }}">{{ partial "docs/title" . }}</a>
+    </li>
+    {{ end }}
+  </ol>
+</nav>
+{{ end }}

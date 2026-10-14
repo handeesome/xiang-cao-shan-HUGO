@@ -8,20 +8,45 @@
   "audioDuration": 688.68025,
   "cues": [
     {
-      "start": 3.12,
-      "end": 13.61,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第十二章欲领圣餐时应尽力准备自己",
-      "confidence": 0.625
-    },
-    {
       "start": 13.61,
-      "end": 28.07,
+      "end": 26.77,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "一我是爱清洁的是圣洁的赐与者我欲寻找一个清洁的心在那里便是我安息之处",
-      "confidence": 0.794
+      "confidence": 0.794,
+      "quality": {
+        "coverage": 0.794,
+        "coherentCoverage": 0.647,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.647,
+        "suffixCoverage": 0.941,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 13.61,
+        "previousEnd": 28.07
+      }
     },
     {
       "start": 28.07,
@@ -29,71 +54,394 @@
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "你要预备一所宽大的楼上房子设备齐全我要与我的门徒在你屋里守逾越节",
-      "confidence": 0.787
+      "confidence": 0.885,
+      "quality": {
+        "coverage": 0.844,
+        "coherentCoverage": 0.844,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.938,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 28.07,
+        "previousEnd": 37.11
+      }
     },
     {
-      "start": 37.11,
+      "start": 39.35,
       "end": 78.87,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "你若愿意我来临于你心中与我同居就要把旧酵除净洁净你心中的居处你要杜绝世界和罪恶于心外要象一只麻雀",
-      "confidence": 0.701
+      "confidence": 0.806,
+      "quality": {
+        "coverage": 0.802,
+        "coherentCoverage": 0.717,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 37.11,
+        "previousEnd": 78.87
+      }
     },
     {
-      "start": 78.87,
-      "end": 94.37,
+      "start": 81.59,
+      "end": 97.33,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "二你要知道单靠你的行为的功劳是无法作满意的准备的纵使你花一整年的工夫不作别事专门准备也无法的",
-      "confidence": 0.732
+      "confidence": 0.876,
+      "quality": {
+        "coverage": 0.848,
+        "coherentCoverage": 0.848,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 78.87,
+        "previousEnd": 94.37
+      }
     },
     {
-      "start": 94.37,
+      "start": 98.93,
       "end": 116.39,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "但是由于我的恩典准许你参加圣筵好象一乞丐被请赴一富人的筵席他没有什么足以报主人的恩惠只有谦卑谢恩",
-      "confidence": 0.527
+      "confidence": 0.713,
+      "quality": {
+        "coverage": 0.72,
+        "coherentCoverage": 0.54,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 94.37,
+        "previousEnd": 116.39
+      }
     },
     {
-      "start": 116.39,
+      "start": 116.59,
       "end": 133.62,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "只要尽你的本分且尽力去做不要为着规矩也不要出于勉强却要用敬畏热爱之心领受你所爱的救主的身体和宝血",
-      "confidence": 0.842
+      "confidence": 0.851,
+      "quality": {
+        "coverage": 0.833,
+        "coherentCoverage": 0.792,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 116.39,
+        "previousEnd": 133.62
+      }
     },
     {
       "start": 133.62,
-      "end": 148.32,
+      "end": 149.06,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "三是我拣选你们也是我命令设立圣餐我必帮助你的缺乏你只要来领受就是了",
-      "confidence": 0.708
+      "confidence": 0.794,
+      "quality": {
+        "coverage": 0.818,
+        "coherentCoverage": 0.727,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.875,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 133.62,
+        "previousEnd": 148.32
+      }
     },
     {
-      "start": 148.32,
-      "end": 161.9,
+      "start": 150.84,
+      "end": 162.34,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "当我赐你热心之恩你就要感谢你的上帝因为并非你配受此恩却是由于我的怜悯",
-      "confidence": 0.696
+      "confidence": 0.912,
+      "quality": {
+        "coverage": 0.912,
+        "coherentCoverage": 0.853,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.941,
+        "suffixCoverage": 0.882,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 148.32,
+        "previousEnd": 161.9
+      }
     },
     {
-      "start": 161.9,
+      "start": 162.34,
       "end": 183.82,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "你若还未受此恩觉得心中干燥就要立刻祷告叹息叩门而且不要停止直至你得到救恩的零碎或涓滴而后止",
-      "confidence": 0.674
+      "confidence": 0.778,
+      "quality": {
+        "coverage": 0.778,
+        "coherentCoverage": 0.556,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "previous-sync",
+        "previousStart": 161.9,
+        "previousEnd": 183.82
+      }
     },
     {
       "start": 183.82,
-      "end": 195.38,
+      "end": 194.18,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "是你需要我不是我需要你不是你来使我成为圣洁是我来使你成为圣洁",
-      "confidence": 0.897
+      "confidence": 0.933,
+      "quality": {
+        "coverage": 0.933,
+        "coherentCoverage": 0.933,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.867,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 183.82,
+        "previousEnd": 195.38
+      }
     },
     {
       "start": 195.38,
@@ -101,15 +449,87 @@
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "你来乃要我使你成圣联合于我要接受新恩重新受感动改过迁善",
-      "confidence": 0.815
+      "confidence": 0.815,
+      "quality": {
+        "coverage": 0.815,
+        "coherentCoverage": 0.63,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.923,
+        "suffixCoverage": 0.692,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 195.38,
+        "previousEnd": 207.68
+      }
     },
     {
       "start": 207.68,
-      "end": 218.96,
+      "end": 216.22,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "不要忽略此恩却要尽力准备你心接待你所爱的主进入你的心",
-      "confidence": 0.962
+      "confidence": 0.962,
+      "quality": {
+        "coverage": 0.962,
+        "coherentCoverage": 0.962,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.923,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 207.68,
+        "previousEnd": 218.96
+      }
     },
     {
       "start": 218.96,
@@ -117,23 +537,130 @@
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "四但是你不但在未领受圣餐之前应该准备也要在既领圣餐之后谨慎保持此热心",
-      "confidence": 0.794
+      "confidence": 0.794,
+      "quality": {
+        "coverage": 0.794,
+        "coherentCoverage": 0.5,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.882,
+        "suffixCoverage": 0.706,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 218.96,
+        "previousEnd": 231.54
+      }
     },
     {
       "start": 231.54,
-      "end": 254.26,
+      "end": 252.74,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "事后的谨守实与事前的准备一般重要因为事后的谨守是最好的准备为得事后更大的恩人若在圣餐之后立刻就放",
-      "confidence": 0.833
+      "confidence": 0.833,
+      "quality": {
+        "coverage": 0.833,
+        "coherentCoverage": 0.767,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 231.54,
+        "previousEnd": 254.26
+      }
     },
     {
       "start": 254.26,
-      "end": 268.16,
+      "end": 266.64,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "慎勿多言却要留在一僻静的地方与上帝上帝交因为你所有的上帝是没有人能够夺去的",
-      "confidence": 0.865
+      "confidence": 0.865,
+      "quality": {
+        "coverage": 0.865,
+        "coherentCoverage": 0.865,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.778,
+        "suffixCoverage": 0.944,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 254.26,
+        "previousEnd": 268.16
+      }
     },
     {
       "start": 268.16,
@@ -141,15 +668,34 @@
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "我是上帝是你应当完全向之奉献的对象使你不再以自我为中心度此余生却是活在我的里面脱离一切焦虑忧愁的",
-      "confidence": 0.653
-    },
-    {
-      "start": 295.57,
-      "end": 304.39,
-      "kind": "heading",
-      "targetIndex": 17,
-      "targetText": "第十三章热心信徒应当全心追求在圣餐时与主联合",
-      "confidence": 0.545
+      "confidence": 0.86,
+      "quality": {
+        "coverage": 0.86,
+        "coherentCoverage": 0.78,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 268.16,
+        "previousEnd": 295.57
+      }
     },
     {
       "start": 304.39,
@@ -157,15 +703,83 @@
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "一主啊我愿单单寻求你在你身旁向你开启我的全心让我随心所愿地与你相交从此以后无人看见我无物足以摇动",
-      "confidence": 0.552
+      "confidence": 0.785,
+      "quality": {
+        "coverage": 0.762,
+        "coherentCoverage": 0.65,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.55,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 9,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "discarded detached start matches"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 304.39,
+        "previousEnd": 348.07
+      }
     },
     {
       "start": 348.07,
-      "end": 369.33,
+      "end": 366.71,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "我恳求我渴望得以完全联合于你超脱我心于一切事物之外且从常常领受圣餐之中更加学习喜爱天上永恒的事",
-      "confidence": 0.83
+      "confidence": 0.851,
+      "quality": {
+        "coverage": 0.851,
+        "coherentCoverage": 0.766,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 348.07,
+        "previousEnd": 369.33
+      }
     },
     {
       "start": 369.33,
@@ -173,15 +787,87 @@
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "主上帝啊何时我方得联合于你溶化于你里面完全忘记自己呢",
-      "confidence": 0.863
+      "confidence": 0.863,
+      "quality": {
+        "coverage": 0.846,
+        "coherentCoverage": 0.769,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.846,
+        "suffixCoverage": 0.846,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 369.33,
+        "previousEnd": 378.61
+      }
     },
     {
-      "start": 378.61,
+      "start": 394.99,
       "end": 410.93,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "二你实在是我所爱的是我从千万人中所选择的我的灵魂喜欢终生住你里面",
-      "confidence": 0.645
+      "confidence": 0.938,
+      "quality": {
+        "coverage": 0.938,
+        "coherentCoverage": 0.812,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.938,
+        "suffixCoverage": 0.938,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 378.61,
+        "previousEnd": 410.93
+      }
     },
     {
       "start": 410.93,
@@ -189,7 +875,40 @@
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "你实在是我的平安在你里面是最高的和平最真的交通在你之外便是劳苦愁烦和无限的悲惨你是隐藏着的上帝你",
-      "confidence": 0.809
+      "confidence": 0.84,
+      "quality": {
+        "coverage": 0.833,
+        "coherentCoverage": 0.818,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 410.93,
+        "previousEnd": 438.78
+      }
     },
     {
       "start": 438.78,
@@ -197,15 +916,81 @@
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "主啊你的灵何其美你为要显示对自己的儿女们的爱故赐此甘美之天粮养活他们",
-      "confidence": 0.576
+      "confidence": 0.758,
+      "quality": {
+        "coverage": 0.735,
+        "coherentCoverage": 0.559,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.882,
+        "suffixCoverage": 0.588,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 438.78,
+        "previousEnd": 453.76
+      }
     },
     {
       "start": 453.76,
-      "end": 475.12,
+      "end": 473.62,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "事实上世上还有哪一个国家有上帝与他们如此相近呢我们的上帝与一切信徒同在且将他自己赐给他们作为他们",
-      "confidence": 0.56
+      "confidence": 0.704,
+      "quality": {
+        "coverage": 0.71,
+        "coherentCoverage": 0.452,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.5,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 453.76,
+        "previousEnd": 475.12
+      }
     },
     {
       "start": 475.12,
@@ -213,7 +998,40 @@
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "三世上有何其他国家具有象基督徒的如此荣誉呢",
-      "confidence": 0.619
+      "confidence": 0.762,
+      "quality": {
+        "coverage": 0.762,
+        "coherentCoverage": 0.524,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.5,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 475.12,
+        "previousEnd": 484.7
+      }
     },
     {
       "start": 484.7,
@@ -221,47 +1039,235 @@
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "在天底下有哪一种受造物可以像虔诚的灵魂那样享受如此大爱呢有上帝进入他的里面用自己荣耀的身体养育他",
-      "confidence": 0.286
+      "confidence": 0.308,
+      "quality": {
+        "startVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endVerified": false,
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "reviewRequired": true
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 484.7,
+        "previousEnd": 498.36
+      }
     },
     {
       "start": 498.36,
-      "end": 517.62,
+      "end": 513.04,
       "kind": "paragraph",
       "targetIndex": 27,
       "targetText": "啊这特别赐予人的是何等难以言喻的恩惠奇妙的看顾和无限的慈爱",
-      "confidence": 0.324
+      "confidence": 0.148,
+      "quality": {
+        "startVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endVerified": false,
+        "endEvidence": {
+          "verified": false,
+          "source": "next-verified-start"
+        },
+        "reviewRequired": true
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "next-verified-start",
+        "previousStart": 498.36,
+        "previousEnd": 517.62
+      }
     },
     {
-      "start": 517.62,
+      "start": 513.04,
       "end": 531.86,
       "kind": "paragraph",
       "targetIndex": 28,
       "targetText": "我将如何报答主的恩和无比的爱呢我所能献呈于主的没有比尽献我的心于上帝与他深相联合更蒙他悦纳的",
-      "confidence": 0.487
+      "confidence": 0.804,
+      "quality": {
+        "coverage": 0.804,
+        "coherentCoverage": 0.696,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 517.62,
+        "previousEnd": 531.86
+      }
     },
     {
       "start": 531.86,
-      "end": 540.94,
+      "end": 539.98,
       "kind": "paragraph",
       "targetIndex": 29,
       "targetText": "当我的灵魂完全联合于上帝时我的内心将是何等的欢乐啊",
-      "confidence": 0.64
+      "confidence": 0.96,
+      "quality": {
+        "coverage": 0.96,
+        "coherentCoverage": 0.96,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.917,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 531.86,
+        "previousEnd": 540.94
+      }
     },
     {
       "start": 540.94,
-      "end": 550.52,
+      "end": 549.16,
       "kind": "paragraph",
       "targetIndex": 30,
       "targetText": "那时你将对我说你若愿意与我同在我亦必愿意与你同在",
-      "confidence": 0.625
+      "confidence": 0.958,
+      "quality": {
+        "coverage": 0.958,
+        "coherentCoverage": 0.958,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.917,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 540.94,
+        "previousEnd": 550.52
+      }
     },
     {
       "start": 550.52,
-      "end": 561.16,
+      "end": 559.74,
       "kind": "paragraph",
       "targetIndex": 31,
       "targetText": "而我必回答主啊求你不要离开我因为我甘心与你同在",
-      "confidence": 0.638
+      "confidence": 0.809,
+      "quality": {
+        "coverage": 0.826,
+        "coherentCoverage": 0.826,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.818,
+        "suffixCoverage": 0.818,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 550.52,
+        "previousEnd": 561.16
+      }
     },
     {
       "start": 561.16,
@@ -269,7 +1275,113 @@
       "kind": "paragraph",
       "targetIndex": 32,
       "targetText": "这是我的全部愿望愿我的心联结于你",
-      "confidence": 0.625
+      "confidence": 0.875,
+      "quality": {
+        "coverage": 0.875,
+        "coherentCoverage": 0.75,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 561.16,
+        "previousEnd": 568.26
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 3: 你若愿意我来临于你心中，与我同居，就要把旧酵除净，洁净你心中的居处。你要杜绝世界和罪恶于心外，要",
+    "unverified end anchor: target 5: 但是由于我的恩典，准许你参加圣筵，好象一乞丐被请赴一富人的筵席，他没有什么足以报主人的恩惠，只有",
+    "unverified start anchor: target 7: 三、是我拣选你们，也是我命令设立圣餐，我必帮助你的缺乏，你只要来领受就是了。",
+    "unverified start anchor: target 9: 你若还未受此恩，觉得心中干燥，就要立刻祷告、叹息、叩门、而且不要停止，直至你得到救恩的零碎或涓滴",
+    "unverified end anchor: target 9: 你若还未受此恩，觉得心中干燥，就要立刻祷告、叹息、叩门、而且不要停止，直至你得到救恩的零碎或涓滴",
+    "unverified end anchor: target 13: 四、但是你不但在未领受圣餐之前应该准备，也要在既领圣餐之后，谨慎保持此热心。",
+    "unverified start anchor: target 14: 事后的谨守实与事前的准备一般重要。因为事后的谨守是最好的准备，为得事后更大的恩。人若在圣餐之后立",
+    "unverified start anchor: target 16: 我是神，是你应当完全向之奉献的对象，使你不再以自我为中心度此余生，却是活在我的里面，脱离一切焦虑",
+    "unverified end anchor: target 16: 我是神，是你应当完全向之奉献的对象，使你不再以自我为中心度此余生，却是活在我的里面，脱离一切焦虑",
+    "incomplete start (9 leading chars, coverage 0.550): target 18: 一、主啊，我愿单单寻求你，在你身旁向你开启我的全心，让我随心所愿地与你相交。从此以后无人看见我，",
+    "unverified start anchor: target 18: 一、主啊，我愿单单寻求你，在你身旁向你开启我的全心，让我随心所愿地与你相交。从此以后无人看见我，",
+    "unverified end anchor: target 18: 一、主啊，我愿单单寻求你，在你身旁向你开启我的全心，让我随心所愿地与你相交。从此以后无人看见我，",
+    "unverified end anchor: target 21: 二、你实在是我所爱的，是我从千万人中所选择的，我的灵魂喜欢终生住你里面。",
+    "unverified end anchor: target 22: 你实在是我的平安，在你里面是最高的和平、最真的交通；在你之外便是劳苦、愁烦和无限的悲惨。你是隐藏",
+    "incomplete start (0 leading chars, coverage 0.500): target 24: 事实上，世上还有哪一个国家有神与他们如此相近呢？我们的神与一切信徒同在，且将他自己赐给他们，作为",
+    "unverified start anchor: target 24: 事实上，世上还有哪一个国家有神与他们如此相近呢？我们的神与一切信徒同在，且将他自己赐给他们，作为",
+    "incomplete end (0 trailing chars, coverage 0.500): target 25: 三、世上有何其他国家具有象基督徒的如此荣誉呢？",
+    "unverified end anchor: target 25: 三、世上有何其他国家具有象基督徒的如此荣誉呢？",
+    "incomplete start (1 leading chars, coverage 0.200): target 26: 在天底下，有哪一种受造物可以像虔诚的灵魂那样享受如此大爱呢？有神进入他的里面，用自己荣耀的身体养",
+    "incomplete end (2 trailing chars, coverage 0.400): target 26: 在天底下，有哪一种受造物可以像虔诚的灵魂那样享受如此大爱呢？有神进入他的里面，用自己荣耀的身体养",
+    "low confidence (0.308, coverage 0.292): target 26: 在天底下，有哪一种受造物可以像虔诚的灵魂那样享受如此大爱呢？有神进入他的里面，用自己荣耀的身体养",
+    "unverified start anchor: target 26: 在天底下，有哪一种受造物可以像虔诚的灵魂那样享受如此大爱呢？有神进入他的里面，用自己荣耀的身体养",
+    "unverified end anchor: target 26: 在天底下，有哪一种受造物可以像虔诚的灵魂那样享受如此大爱呢？有神进入他的里面，用自己荣耀的身体养",
+    "unmatched (fragment only): target 26: 在天底下，有哪一种受造物可以像虔诚的灵魂那样享受如此大爱呢？有神进入他的里面，用自己荣耀的身体养",
+    "incomplete start (2 leading chars, coverage 0.286): target 27: 啊，这特别赐予人的，是何等难以言喻的恩惠，奇妙的看顾和无限的慈爱！",
+    "incomplete end (21 trailing chars, coverage 0.000): target 27: 啊，这特别赐予人的，是何等难以言喻的恩惠，奇妙的看顾和无限的慈爱！",
+    "low confidence (0.222, coverage 0.138): target 27: 啊，这特别赐予人的，是何等难以言喻的恩惠，奇妙的看顾和无限的慈爱！",
+    "unverified start anchor: target 27: 啊，这特别赐予人的，是何等难以言喻的恩惠，奇妙的看顾和无限的慈爱！",
+    "unverified end anchor: target 27: 啊，这特别赐予人的，是何等难以言喻的恩惠，奇妙的看顾和无限的慈爱！",
+    "unmatched (fragment only): target 27: 啊，这特别赐予人的，是何等难以言喻的恩惠，奇妙的看顾和无限的慈爱！",
+    "unverified end anchor: target 28: 我将如何报答主的恩和无比的爱呢？我所能献呈于主的，没有比尽献我的心于神，与他深相联合，更蒙他悦纳",
+    "unverified end anchor: target 32: “这是我的全部愿望——愿我的心联结于你。”",
+    "repair unverified start (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 2",
+    "repair unverified end (previous-sync): target 3",
+    "repair unverified end (previous-sync): target 5",
+    "repair unverified start (previous-sync): target 7",
+    "repair unverified start (previous-verified-end): target 9",
+    "repair unverified end (previous-sync): target 9",
+    "repair unverified end (previous-sync): target 11",
+    "repair unverified end (previous-sync): target 13",
+    "repair unverified start (previous-sync): target 14",
+    "repair unverified start (previous-sync): target 16",
+    "repair unverified end (previous-sync): target 16",
+    "repair unverified start (previous-sync): target 18",
+    "repair unverified end (previous-sync): target 18",
+    "repair unverified end (previous-sync): target 21",
+    "repair unverified end (previous-sync): target 22",
+    "repair unverified end (previous-sync): target 23",
+    "repair unverified start (previous-sync): target 24",
+    "repair unverified end (previous-sync): target 25",
+    "repair unverified start (previous-sync): target 26",
+    "repair unverified end (previous-sync): target 26",
+    "repair unverified start (previous-sync): target 27",
+    "repair unverified end (next-verified-start): target 27",
+    "repair unverified end (previous-sync): target 28",
+    "repair unverified end (previous-sync): target 32"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 8,
+    "updatedEnds": 14,
+    "addedCues": 0,
+    "headingsRemoved": 2,
+    "unverifiedStarts": 9,
+    "unverifiedEnds": 16,
+    "missingTargets": []
+  },
+  "repairFingerprint": "0d59634cedf5c342d336d037b7e3638f2ea03a0312ab28ce3ed5633ca3b22f17",
+  "repairCueDigest": "9002ca2edb89125669443570adec2d06e237c376a5324b7b615882329d62700e"
 }

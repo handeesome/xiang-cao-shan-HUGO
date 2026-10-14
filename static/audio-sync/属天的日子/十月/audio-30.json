@@ -8,36 +8,186 @@
   "audioDuration": 160.8465,
   "cues": [
     {
-      "start": 0.12,
-      "end": 4.25,
-      "kind": "heading",
-      "targetIndex": 155,
-      "targetText": "十月三十日",
-      "confidence": 0.444
-    },
-    {
       "start": 4.25,
       "end": 8.79,
       "kind": "paragraph",
-      "targetIndex": 156,
+      "targetIndex": 176,
       "targetText": "要住在深密处耶498",
-      "confidence": 0.545
+      "confidence": 0.545,
+      "quality": {
+        "coverage": 0.6,
+        "coherentCoverage": 0.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 4.25,
+        "previousEnd": 8.79
+      },
+      "targetMigration": {
+        "previousTargetIndex": 156,
+        "targetIndex": 176,
+        "targetText": "要住在深密处耶498"
+      }
     },
     {
       "start": 8.79,
-      "end": 104.62,
+      "end": 105.86,
       "kind": "paragraph",
-      "targetIndex": 157,
+      "targetIndex": 177,
       "targetText": "上帝的同在在我们的每一个思想中意识里而且是甜蜜而平衡地出现在我们的计划社交活动感情生活劳动工作并",
-      "confidence": 0.763
+      "confidence": 0.899,
+      "quality": {
+        "coverage": 0.905,
+        "coherentCoverage": 0.864,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 8.79,
+        "previousEnd": 104.62
+      },
+      "targetMigration": {
+        "previousTargetIndex": 157,
+        "targetIndex": 177,
+        "targetText": "上帝的同在在我们的每一个思想中意识里而且是甜蜜而平衡地出现在我们的计划社交活动感情生活劳动工作并"
+      }
     },
     {
-      "start": 104.62,
+      "start": 113.85,
       "end": 147.47,
       "kind": "paragraph",
-      "targetIndex": 158,
+      "targetIndex": 178,
       "targetText": "愿我们持续地倚靠上帝愿我们的根及生命中的每一个经验都在他里面成长上帝永远不会厌倦我们的友谊更不会",
-      "confidence": 0.697
+      "confidence": 0.933,
+      "quality": {
+        "coverage": 0.928,
+        "coherentCoverage": 0.876,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 104.62,
+        "previousEnd": 147.47
+      },
+      "targetMigration": {
+        "previousTargetIndex": 158,
+        "targetIndex": 178,
+        "targetText": "愿我们持续地倚靠上帝愿我们的根及生命中的每一个经验都在他里面成长上帝永远不会厌倦我们的友谊更不会"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "low confidence (0.480, coverage 0.600): target 176: …要…住在深密处------耶 49:8",
+    "unverified start anchor: target 176: …要…住在深密处------耶 49:8",
+    "unverified end anchor: target 176: …要…住在深密处------耶 49:8",
+    "unverified start anchor: target 177: 神的同在在我们的每一个思想中、意识里，而且是甜蜜而平衡地出现在我们的计划、社交活动、感情生活、劳",
+    "repair unverified start (previous-sync): target 176",
+    "repair unverified end (previous-sync): target 176",
+    "repair unverified start (previous-sync): target 177"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 156,
+      "targetIndex": 176,
+      "targetText": "要住在深密处耶498"
+    },
+    {
+      "previousTargetIndex": 157,
+      "targetIndex": 177,
+      "targetText": "上帝的同在在我们的每一个思想中意识里而且是甜蜜而平衡地出现在我们的计划社交活动感情生活劳动工作并"
+    },
+    {
+      "previousTargetIndex": 158,
+      "targetIndex": 178,
+      "targetText": "愿我们持续地倚靠上帝愿我们的根及生命中的每一个经验都在他里面成长上帝永远不会厌倦我们的友谊更不会"
+    }
+  ],
+  "repairFingerprint": "875bc2d617b6c838e187a86acba6445b376e0e1fc0eb92b8208042cd24f8e6d2",
+  "repairCueDigest": "7041fa9eeb00a2e609df9724e02c47b483f75418c07d26b53e3b6d52e72a604f"
 }

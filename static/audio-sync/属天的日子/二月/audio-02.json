@@ -8,60 +8,356 @@
   "audioDuration": 190.546875,
   "cues": [
     {
-      "start": 0.12,
-      "end": 1.2,
-      "kind": "heading",
-      "targetIndex": 8,
-      "targetText": "二月二日",
-      "confidence": 0.571
-    },
-    {
       "start": 1.2,
       "end": 13.96,
       "kind": "paragraph",
-      "targetIndex": 9,
-      "targetText": "你们中同谁愿为大就必作你们的用人谁愿为首就必作你们的仆人太202627",
-      "confidence": 0.747
-    },
-    {
-      "start": 13.96,
-      "end": 36.56,
-      "kind": "paragraph",
-      "targetIndex": 10,
-      "targetText": "这里所提到的用人是指在任何情况下愿服务他人的人但是仆人这两个字却表示卖了身的奴隶而耶稣在此地清楚",
-      "confidence": 0.84
-    },
-    {
-      "start": 36.56,
-      "end": 59.52,
-      "kind": "paragraph",
       "targetIndex": 11,
+      "targetText": "你们中同谁愿为大就必作你们的用人谁愿为首就必作你们的仆人太202627",
+      "confidence": 0.747,
+      "quality": {
+        "coverage": 0.8,
+        "coherentCoverage": 0.4,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.706,
+        "suffixCoverage": 0.882,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 1.2,
+        "previousEnd": 13.96
+      },
+      "targetMigration": {
+        "previousTargetIndex": 9,
+        "targetIndex": 11,
+        "targetText": "你们中同谁愿为大就必作你们的用人谁愿为首就必作你们的仆人太202627"
+      }
+    },
+    {
+      "start": 14.94,
+      "end": 37.0,
+      "kind": "paragraph",
+      "targetIndex": 12,
+      "targetText": "这里所提到的用人是指在任何情况下愿服务他人的人但是仆人这两个字却表示卖了身的奴隶而耶稣在此地清楚",
+      "confidence": 0.833,
+      "quality": {
+        "coverage": 0.833,
+        "coherentCoverage": 0.758,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 13.96,
+        "previousEnd": 36.56
+      },
+      "targetMigration": {
+        "previousTargetIndex": 10,
+        "targetIndex": 12,
+        "targetText": "这里所提到的用人是指在任何情况下愿服务他人的人但是仆人这两个字却表示卖了身的奴隶而耶稣在此地清楚"
+      }
+    },
+    {
+      "start": 37.66,
+      "end": 58.18,
+      "kind": "paragraph",
+      "targetIndex": 13,
       "targetText": "基督成了所有世人的奴隶任何愿意来到他面前与他亲近同在的人都必须学习这种事奉的精上帝一一完全舍弃自",
-      "confidence": 0.62
+      "confidence": 0.85,
+      "quality": {
+        "coverage": 0.857,
+        "coherentCoverage": 0.825,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 36.56,
+        "previousEnd": 59.52
+      },
+      "targetMigration": {
+        "previousTargetIndex": 11,
+        "targetIndex": 13,
+        "targetText": "基督成了所有世人的奴隶任何愿意来到他面前与他亲近同在的人都必须学习这种事奉的精上帝一一完全舍弃自"
+      }
     },
     {
       "start": 59.52,
-      "end": 75.34,
+      "end": 74.24,
       "kind": "paragraph",
-      "targetIndex": 12,
+      "targetIndex": 14,
       "targetText": "对我们来说完完全全地对主耶稣忠实为主的缘故做奴仆并愿意顺服在主里掌权的人是极为可能的事",
-      "confidence": 0.837
+      "confidence": 0.837,
+      "quality": {
+        "coverage": 0.837,
+        "coherentCoverage": 0.651,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 59.52,
+        "previousEnd": 75.34
+      },
+      "targetMigration": {
+        "previousTargetIndex": 12,
+        "targetIndex": 14,
+        "targetText": "对我们来说完完全全地对主耶稣忠实为主的缘故做奴仆并愿意顺服在主里掌权的人是极为可能的事"
+      }
     },
     {
       "start": 75.34,
-      "end": 98.68,
+      "end": 98.36,
       "kind": "paragraph",
-      "targetIndex": 13,
+      "targetIndex": 15,
       "targetText": "奴仆的精上帝不仅是含弃自我且是乐意降服在有权柄者之下虽然对事情没兴趣但为了主的荣耀为了弟兄的益处",
-      "confidence": 0.836
+      "confidence": 0.836,
+      "quality": {
+        "coverage": 0.836,
+        "coherentCoverage": 0.716,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 75.34,
+        "previousEnd": 98.68
+      },
+      "targetMigration": {
+        "previousTargetIndex": 13,
+        "targetIndex": 15,
+        "targetText": "奴仆的精上帝不仅是含弃自我且是乐意降服在有权柄者之下虽然对事情没兴趣但为了主的荣耀为了弟兄的益处"
+      }
     },
     {
       "start": 98.68,
-      "end": 106.24,
+      "end": 106.56,
       "kind": "paragraph",
-      "targetIndex": 14,
+      "targetIndex": 16,
       "targetText": "主啊愿祢为我们穿上谦卑的衣裳使我们全然属祢",
-      "confidence": 0.78
+      "confidence": 0.762,
+      "quality": {
+        "coverage": 0.762,
+        "coherentCoverage": 0.524,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 98.68,
+        "previousEnd": 106.24
+      },
+      "targetMigration": {
+        "previousTargetIndex": 14,
+        "targetIndex": 16,
+        "targetText": "主啊愿祢为我们穿上谦卑的衣裳使我们全然属祢"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 11: 你们中同谁愿为大，就必作你们的用人; 谁愿为首，就必作你们的仆人------太20:26、27",
+    "unverified end anchor: target 11: 你们中同谁愿为大，就必作你们的用人; 谁愿为首，就必作你们的仆人------太20:26、27",
+    "unverified start anchor: target 16: 主啊! 愿祢为我们穿上谦卑的衣裳，使我们全然属祢。",
+    "repair unverified start (previous-sync): target 11",
+    "repair unverified end (previous-sync): target 11",
+    "repair unverified start (previous-sync): target 16"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 5,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 9,
+      "targetIndex": 11,
+      "targetText": "你们中同谁愿为大就必作你们的用人谁愿为首就必作你们的仆人太202627"
+    },
+    {
+      "previousTargetIndex": 10,
+      "targetIndex": 12,
+      "targetText": "这里所提到的用人是指在任何情况下愿服务他人的人但是仆人这两个字却表示卖了身的奴隶而耶稣在此地清楚"
+    },
+    {
+      "previousTargetIndex": 11,
+      "targetIndex": 13,
+      "targetText": "基督成了所有世人的奴隶任何愿意来到他面前与他亲近同在的人都必须学习这种事奉的精上帝一一完全舍弃自"
+    },
+    {
+      "previousTargetIndex": 12,
+      "targetIndex": 14,
+      "targetText": "对我们来说完完全全地对主耶稣忠实为主的缘故做奴仆并愿意顺服在主里掌权的人是极为可能的事"
+    },
+    {
+      "previousTargetIndex": 13,
+      "targetIndex": 15,
+      "targetText": "奴仆的精上帝不仅是含弃自我且是乐意降服在有权柄者之下虽然对事情没兴趣但为了主的荣耀为了弟兄的益处"
+    },
+    {
+      "previousTargetIndex": 14,
+      "targetIndex": 16,
+      "targetText": "主啊愿祢为我们穿上谦卑的衣裳使我们全然属祢"
+    }
+  ],
+  "repairFingerprint": "c56290aa1771f0dd6d0f53437aaf3edadb37dd9c661e299e3399018ab6585b4c",
+  "repairCueDigest": "48aa46233806f3c7b800df4493ee0e9e18d5eaf26d1431ac9ef1a4da47e95119"
 }

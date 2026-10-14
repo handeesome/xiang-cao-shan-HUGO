@@ -10,6 +10,7 @@ The project emphasizes long-form reading: books are organized by author and titl
 - Chapter-based reading pages with explicit previous/next navigation
 - Responsive layouts tested at narrow mobile, tablet, and desktop widths
 - Mobile navigation and table of contents that preserve the reader’s scroll position
+- Local reading history that restores the last chapter, paragraph position, and paused audio progress
 - Accessible navigation dialogs, focus handling, keyboard controls, and larger touch targets
 - Mobile reading controls that hide while scrolling and return after a tap or keyboard action
 - Chapter audio with lazy metadata loading and sequential playback on multi-audio pages
@@ -77,6 +78,10 @@ Create a production build with:
 hugo --minify
 ```
 
+Reading progress is saved in the current browser for the 30 most recently visited reading pages. Opening the homepage returns to the latest chapter; following a homepage link explicitly stays home (`?home=1`). Chapter fragment links and browser back navigation keep their normal destinations. Audio resumes at the saved time only after the reader presses play. No reading history is sent to a server.
+
+Run the reading-progress checks with `node --test scripts/reading-progress.test.cjs`.
+
 ## Books and Chapter Audio
 
 Each book lives under `content/books/<book name>/`. A typical book contains an `_index.md` introduction and one or more chapter Markdown files. Some books also use front matter such as `footer_button_prev`, `footer_button_next`, or `bookPaginationStep` to define non-standard reading order.
@@ -117,11 +122,15 @@ An audio shortcode can reference generated synchronization data:
 {{< audio src="01/1.mp3" sync="/audio-sync/效法基督/chapter/audio-01.json" >}}
 ```
 
-While the recording plays, the matching heading or paragraph receives a visual highlight. The timing is intentionally paragraph-level: it is easier to review and maintain than word-perfect subtitles.
+While the recording plays, the matching body paragraph receives a visual highlight. Headings are excluded from alignment and highlighting. The timing is intentionally paragraph-level: it is easier to review and maintain than word-perfect subtitles.
 
-The included Python tool uses local `faster-whisper` transcription and sequential fuzzy matching against the original Markdown. It handles ordinary single-audio chapters, pages containing many recordings, and common spoken introductions that repeat the chapter title.
+The included Python tool uses local `faster-whisper` transcription, global body-text alignment, and separate checks for each paragraph's start and end. It handles single-audio chapters and pages containing many recordings, while guarding against scattered matches in spoken introductions or endings.
 
 Generated synchronization data is treated as reviewable content rather than a finished subtitle track. A low-confidence warning can be caused by a proper name or recognition error even when its timing is correct, while an unmatched Markdown unit may be a real alignment problem or text that the recording never reads, such as a translator’s note or back-cover copy. Review warnings, chapter openings, section transitions, and endings before committing a book.
+
+The standard workflow is **generate → review → repair only when needed → validate locally → confirm → commit**, one book at a time. Every new batch needs review; clean files do not need an obligatory second repair pass. By default, unverified candidates remain in the local cache rather than replacing published sync or updating Markdown. `--audit` checks existing JSON without changing it; `--repair` updates supported boundaries in existing JSON and retains uncertain old boundaries with warnings. It is not a way to approve a new candidate that has no previous JSON.
+
+The persistent project instructions in [AGENTS.md](AGENTS.md) point future tasks to the [new-book workflow](scripts/README-audio-sync.md#新书与新增音频的固定工作流). Reports and transcripts under `.audio-sync-cache/` are local-only and must be supplied separately when handing work to another machine. Do not automatically commit, push, or deploy generated results.
 
 Create an isolated environment and install the dependency:
 

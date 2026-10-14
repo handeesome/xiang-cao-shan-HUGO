@@ -8,36 +8,192 @@
   "audioDuration": 195.84075,
   "cues": [
     {
-      "start": 0.1,
-      "end": 1.26,
-      "kind": "heading",
-      "targetIndex": 32,
-      "targetText": "二月六日",
-      "confidence": 0.857
-    },
-    {
-      "start": 1.26,
-      "end": 33.08,
+      "start": 8.32,
+      "end": 31.92,
       "kind": "paragraph",
-      "targetIndex": 34,
+      "targetIndex": 41,
       "targetText": "这个忠告是何等宝贵呀停止花过多的时间专为自己祷告开始无私地代求上帝必然会加添你更多信心而且帮助你",
-      "confidence": 0.577
+      "confidence": 0.903,
+      "quality": {
+        "coverage": 0.903,
+        "coherentCoverage": 0.861,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1.26,
+        "previousEnd": 33.08
+      },
+      "targetMigration": {
+        "previousTargetIndex": 34,
+        "targetIndex": 41,
+        "targetText": "这个忠告是何等宝贵呀停止花过多的时间专为自己祷告开始无私地代求上帝必然会加添你更多信心而且帮助你"
+      }
     },
     {
       "start": 33.08,
       "end": 64.95,
       "kind": "paragraph",
-      "targetIndex": 35,
+      "targetIndex": 42,
       "targetText": "试试为举世为确定的事为困难的事为荣光的事为能高举基督拯救世人的事而祈求当你在这些方面得到一些美好",
-      "confidence": 0.533
+      "confidence": 0.811,
+      "quality": {
+        "coverage": 0.811,
+        "coherentCoverage": 0.667,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 33.08,
+        "previousEnd": 64.95
+      },
+      "targetMigration": {
+        "previousTargetIndex": 35,
+        "targetIndex": 42,
+        "targetText": "试试为举世为确定的事为困难的事为荣光的事为能高举基督拯救世人的事而祈求当你在这些方面得到一些美好"
+      }
     },
     {
       "start": 64.95,
       "end": 113.89,
       "kind": "paragraph",
-      "targetIndex": 36,
+      "targetIndex": 43,
       "targetText": "你可曾学习过让上帝照顾你把自己一切心思力量都放在为圣徒祈求的功课为他人代祷能使我从千千万万的负担",
-      "confidence": 0.596
+      "confidence": 0.872,
+      "quality": {
+        "coverage": 0.885,
+        "coherentCoverage": 0.835,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 64.95,
+        "previousEnd": 113.89
+      },
+      "targetMigration": {
+        "previousTargetIndex": 36,
+        "targetIndex": 43,
+        "targetText": "你可曾学习过让上帝照顾你把自己一切心思力量都放在为圣徒祈求的功课为他人代祷能使我从千千万万的负担"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (8 trailing chars, coverage 0.000): target 40: 随时多方…为众圣徒祈求------弗6:18",
+    "low confidence (0.600, coverage 0.429): target 40: 随时多方…为众圣徒祈求------弗6:18",
+    "unverified start anchor: target 40: 随时多方…为众圣徒祈求------弗6:18",
+    "unverified end anchor: target 40: 随时多方…为众圣徒祈求------弗6:18",
+    "unverified end anchor: target 42: 试试为举世、为确定的事、为困难的事、为荣光的事，为能高举基督拯救世人的事而祈求。当你在这些方面得",
+    "unverified end anchor: target 43: 你可曾学习过让神照顾你，把自己一切心思力量都放在为圣徒祈求的功课? 为他人代祷能使我从千千万万的",
+    "repair missing cue (unverified): target 40",
+    "repair unverified end (previous-sync): target 42",
+    "repair unverified end (previous-sync): target 43"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 2,
+    "missingTargets": [
+      40
+    ]
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 34,
+      "targetIndex": 41,
+      "targetText": "这个忠告是何等宝贵呀停止花过多的时间专为自己祷告开始无私地代求上帝必然会加添你更多信心而且帮助你"
+    },
+    {
+      "previousTargetIndex": 35,
+      "targetIndex": 42,
+      "targetText": "试试为举世为确定的事为困难的事为荣光的事为能高举基督拯救世人的事而祈求当你在这些方面得到一些美好"
+    },
+    {
+      "previousTargetIndex": 36,
+      "targetIndex": 43,
+      "targetText": "你可曾学习过让上帝照顾你把自己一切心思力量都放在为圣徒祈求的功课为他人代祷能使我从千千万万的负担"
+    }
+  ],
+  "repairFingerprint": "be7f5071a8cfc8efee34de6761a79eeab20e0c6746542b2a9f3971921fdefad1",
+  "repairCueDigest": "19f822b11fac5d7a964bf956826866d6a3ce73cae51dc9c1eeefa2219f57a5b4"
 }

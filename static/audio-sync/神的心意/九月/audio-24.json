@@ -8,60 +8,266 @@
   "audioDuration": 187.0639375,
   "cues": [
     {
-      "start": 2.86,
-      "end": 8.54,
-      "kind": "heading",
-      "targetIndex": 133,
-      "targetText": "九月二十四日第一条和最大的诫命",
-      "confidence": 0.615
-    },
-    {
       "start": 8.54,
       "end": 19.02,
       "kind": "paragraph",
       "targetIndex": 134,
       "targetText": "耶和华你上帝必将你心里和你后裔心里的污秽除掉好叫你尽心尽性爱耶和华你的上帝申三十6",
-      "confidence": 0.744
+      "confidence": 0.744,
+      "quality": {
+        "coverage": 0.707,
+        "coherentCoverage": 0.707,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 3,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "discarded detached start matches"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 8.54,
+        "previousEnd": 19.02
+      }
     },
     {
       "start": 19.02,
-      "end": 39.32,
+      "end": 39.6,
       "kind": "paragraph",
       "targetIndex": 135,
       "targetText": "上帝极盼望得著我们的爱渴望被人接纳被人以爱相报是人的天性上帝不断地热切渴望得著我们的爱并且要我们",
-      "confidence": 0.847
+      "confidence": 0.857,
+      "quality": {
+        "coverage": 0.927,
+        "coherentCoverage": 0.836,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 19.02,
+        "previousEnd": 39.32
+      }
     },
     {
-      "start": 39.32,
-      "end": 71.34,
+      "start": 40.72,
+      "end": 69.74,
       "kind": "paragraph",
       "targetIndex": 136,
       "targetText": "我们怎样才能满足上帝这渴慕呢只有凭著信心保罗说我是靠著那位爱我的上帝子而活当我们多花时间在上帝面",
-      "confidence": 0.796
+      "confidence": 0.937,
+      "quality": {
+        "coverage": 0.947,
+        "coherentCoverage": 0.947,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 39.32,
+        "previousEnd": 71.34
+      }
     },
     {
       "start": 71.34,
-      "end": 98.64,
+      "end": 97.32,
       "kind": "paragraph",
       "targetIndex": 137,
       "targetText": "我们的心原是黑暗的且盲目善忘常常忘记了上帝多么渴望得著我们的爱要是我们觉得这些就会在上帝面前安静",
-      "confidence": 0.856
+      "confidence": 0.978,
+      "quality": {
+        "coverage": 0.978,
+        "coherentCoverage": 0.978,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 71.34,
+        "previousEnd": 98.64
+      }
     },
     {
       "start": 98.64,
-      "end": 149.58,
+      "end": 147.72,
       "kind": "paragraph",
       "targetIndex": 138,
       "targetText": "在旧约中上帝应许赐给我们一个新约上帝在以西结书第三十六章二十五至二十六节说我必用清水洒在你们身上",
-      "confidence": 0.658
+      "confidence": 0.832,
+      "quality": {
+        "coverage": 0.822,
+        "coherentCoverage": 0.742,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 98.64,
+        "previousEnd": 149.58
+      }
     },
     {
       "start": 149.58,
-      "end": 173.69,
+      "end": 171.18,
       "kind": "paragraph",
       "targetIndex": 139,
       "targetText": "世上没有任何东西能和这经历相比我们岂不该天天满足上帝这个渴望么上帝要藉著圣灵在我们里面工作使我们",
-      "confidence": 0.887
+      "confidence": 0.887,
+      "quality": {
+        "coverage": 0.887,
+        "coherentCoverage": 0.817,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 149.58,
+        "previousEnd": 173.69
+      }
     },
     {
       "start": 173.69,
@@ -69,7 +275,66 @@
       "kind": "paragraph",
       "targetIndex": 140,
       "targetText": "主啊我愿在祢面前屈膝求祢使我的心被祢的爱充满好满足我迫切的愿望也满足祢的愿望",
-      "confidence": 0.842
+      "confidence": 0.842,
+      "quality": {
+        "coverage": 0.842,
+        "coherentCoverage": 0.684,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.737,
+        "suffixCoverage": 0.947,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 173.69,
+        "previousEnd": 186.63
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (4 trailing chars, coverage 0.650): target 134: 「耶和华你神必将你心里和你后裔心里的污秽除掉，好叫你尽心尽性爱耶和华你的神。」（申三十 6）",
+    "unverified end anchor: target 134: 「耶和华你神必将你心里和你后裔心里的污秽除掉，好叫你尽心尽性爱耶和华你的神。」（申三十 6）",
+    "unverified start anchor: target 135: 神极盼望得著我们的爱。渴望被人接纳、被人以爱相报，是人的天性。神不断地热切渴望得著我们的爱，并且",
+    "unverified start anchor: target 138: 在旧约中，神应许赐给我们一个新约。神在以西结书第三十六章二十五至二十六节说：「我必用清水洒在你们",
+    "unverified end anchor: target 140: 主啊！我愿在祢面前屈膝，求祢使我的心被祢的爱充满，好满足我迫切的愿望，也满足祢的愿望。",
+    "repair unverified start (previous-sync): target 134",
+    "repair unverified end (previous-sync): target 134",
+    "repair unverified start (previous-sync): target 135",
+    "repair unverified start (previous-sync): target 138",
+    "repair unverified end (previous-sync): target 140"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 5,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 3,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "repairFingerprint": "651d31dd65a6437c96c9c10031b55a68a047a935f57f2ec14952fe4f975e54c9",
+  "repairCueDigest": "c0876508a1e1686164193cd632b668449a9b36a0db3e2b996aedd665034d3e20"
 }

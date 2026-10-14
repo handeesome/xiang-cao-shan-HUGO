@@ -8,20 +8,51 @@
   "audioDuration": 1400.478875,
   "cues": [
     {
-      "start": 0.0,
-      "end": 9.66,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第七篇世界的权势或权柄",
-      "confidence": 0.727
-    },
-    {
       "start": 9.66,
-      "end": 59.18,
+      "end": 57.9,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "在我们的一生中我们看见了一个新或说是一个旧的又回来了的现象就是独裁者流星似的兴起我们说得不错这真",
-      "confidence": 0.778
+      "confidence": 0.902,
+      "quality": {
+        "coverage": 0.902,
+        "coherentCoverage": 0.876,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 9.66,
+        "previousEnd": 59.18
+      }
     },
     {
       "start": 59.18,
@@ -29,47 +60,241 @@
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "这要追溯到上帝永远的计划在这些计划里上帝定意要将这世界的权柄都归一于祂的儿子的元首权内亚当是那以",
-      "confidence": 0.9
+      "confidence": 0.9,
+      "quality": {
+        "coverage": 0.9,
+        "coherentCoverage": 0.867,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 59.18,
+        "previousEnd": 78.78
+      }
     },
     {
-      "start": 78.78,
+      "start": 81.7,
       "end": 90.66,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "祂已经定了日子要藉着祂所设立的人按公义审判天下徒十七31",
-      "confidence": 0.75
+      "confidence": 0.863,
+      "quality": {
+        "coverage": 0.75,
+        "coherentCoverage": 0.75,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.857,
+        "suffixCoverage": 0.643,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 5,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "discarded detached end matches"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 78.78,
+        "previousEnd": 90.66
+      }
     },
     {
-      "start": 90.66,
+      "start": 94.8,
       "end": 103.82,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "祂吩咐我们传道给众人证明祂是上帝所立定的要作审判活人死人的主徒十42",
-      "confidence": 0.747
+      "confidence": 0.875,
+      "quality": {
+        "coverage": 0.824,
+        "coherentCoverage": 0.794,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.882,
+        "suffixCoverage": 0.765,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 90.66,
+        "previousEnd": 103.82
+      }
     },
     {
-      "start": 103.82,
-      "end": 115.86,
+      "start": 106.56,
+      "end": 117.96,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "因为只有一位上帝在上帝和人中间只有一位中保乃是降世为人的基督耶稣提前二5",
-      "confidence": 0.769
+      "confidence": 0.831,
+      "quality": {
+        "coverage": 0.889,
+        "coherentCoverage": 0.778,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.778,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 103.82,
+        "previousEnd": 115.86
+      }
     },
     {
-      "start": 115.86,
+      "start": 117.96,
       "end": 125.3,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "也请看弗一910四10西一1619来一8二610",
-      "confidence": 0.255
+      "confidence": 0.298,
+      "quality": {
+        "startVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endVerified": false,
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "reviewRequired": true
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "previous-sync",
+        "previousStart": 115.86,
+        "previousEnd": 125.3
+      }
     },
     {
-      "start": 125.3,
+      "start": 131.84,
       "end": 178.1,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "因此上帝已经让我们知道这世界及其外一切有关的权柄永远都是归于一个人既定的权利这个人就是成为人子的",
-      "confidence": 0.844
+      "confidence": 0.906,
+      "quality": {
+        "coverage": 0.915,
+        "coherentCoverage": 0.852,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 125.3,
+        "previousEnd": 178.1
+      }
     },
     {
       "start": 178.1,
@@ -77,71 +302,392 @@
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "该隐他是属那恶者杀了他的兄弟约壹三12",
-      "confidence": 0.421
+      "confidence": 0.632,
+      "quality": {
+        "coverage": 0.632,
+        "coherentCoverage": 0.579,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.556,
+        "suffixCoverage": 0.667,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 178.1,
+        "previousEnd": 184.02
+      }
     },
     {
-      "start": 184.02,
-      "end": 191.5,
+      "start": 185.74,
+      "end": 193.62,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "你们是出于你们的父魔鬼牠从起初是杀人的约八44",
-      "confidence": 0.565
+      "confidence": 0.769,
+      "quality": {
+        "coverage": 0.87,
+        "coherentCoverage": 0.826,
+        "extraSpeechContext": true,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.818,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 184.02,
+        "previousEnd": 191.5
+      }
     },
     {
-      "start": 191.5,
+      "start": 195.9,
       "end": 209.36,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "哪一个先知不是你们祖宗逼迫的呢他们也把预先传说那义者要来的人杀了如今你们又把那义者卖了杀了徒七5",
-      "confidence": 0.788
+      "confidence": 0.915,
+      "quality": {
+        "coverage": 0.898,
+        "coherentCoverage": 0.878,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 191.5,
+        "previousEnd": 209.36
+      }
     },
     {
-      "start": 209.36,
+      "start": 214.68,
       "end": 278.52,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "有人栽了一个葡萄园周围圈上篱笆挖了一个压酒池盖了一座楼租给园户就往外国去了到了时候打发一个仆人到",
-      "confidence": 0.857
+      "confidence": 0.877,
+      "quality": {
+        "coverage": 0.88,
+        "coherentCoverage": 0.861,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 209.36,
+        "previousEnd": 278.52
+      }
     },
     {
-      "start": 278.52,
+      "start": 284.76,
       "end": 304.1,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "为着指出相关的思想我们要强调的是控制因素在于上帝儿子是既定要承受产业的接下来的就是一个长久的历史",
-      "confidence": 0.8
+      "confidence": 0.865,
+      "quality": {
+        "coverage": 0.863,
+        "coherentCoverage": 0.838,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 278.52,
+        "previousEnd": 304.1
+      }
     },
     {
-      "start": 304.1,
-      "end": 391.11,
+      "start": 307.7,
+      "end": 389.58,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "接下来我们要看撒但权势的方法或工具也是藉着人正如我们已经指出就像上帝的儿子是那照着上帝的心思合上",
-      "confidence": 0.745
+      "confidence": 0.897,
+      "quality": {
+        "coverage": 0.895,
+        "coherentCoverage": 0.87,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 304.1,
+        "previousEnd": 391.11
+      }
     },
     {
       "start": 391.11,
-      "end": 467.17,
+      "end": 467.45,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "为了要有份量有影响力引人注目给人有印象我们发现人们狂热地寻求那些有学位头衔在人群中出众的人当我们",
-      "confidence": 0.933
+      "confidence": 0.969,
+      "quality": {
+        "coverage": 0.969,
+        "coherentCoverage": 0.954,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 391.11,
+        "previousEnd": 467.17
+      }
     },
     {
-      "start": 467.17,
-      "end": 486.06,
+      "start": 469.7,
+      "end": 485.22,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "一直以来在撒但的意念中都是要藉着人来得到这世界的权势这意念最完满的表现就是敌基督现在让我们一起来",
-      "confidence": 0.627
+      "confidence": 0.855,
+      "quality": {
+        "coverage": 0.862,
+        "coherentCoverage": 0.81,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 467.17,
+        "previousEnd": 486.06
+      }
     },
     {
       "start": 486.06,
-      "end": 497.38,
+      "end": 496.02,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "小子们哪如今是末时了你们曾听见说那敌基督的要来现在已经有好些敌基督的出来了",
-      "confidence": 0.919
+      "confidence": 0.919,
+      "quality": {
+        "coverage": 0.919,
+        "coherentCoverage": 0.838,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.889,
+        "suffixCoverage": 0.944,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 486.06,
+        "previousEnd": 497.38
+      }
     },
     {
       "start": 497.38,
@@ -149,23 +695,133 @@
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "谁是说谎话的呢不是那不认耶稣为基督的吗不认父与子的这就是敌基督的约壹二1822",
-      "confidence": 0.806
+      "confidence": 0.741,
+      "quality": {
+        "coverage": 0.769,
+        "coherentCoverage": 0.744,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.895,
+        "suffixCoverage": 0.632,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution",
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 497.38,
+        "previousEnd": 508.78
+      }
     },
     {
-      "start": 508.78,
+      "start": 509.34,
       "end": 516.52,
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "凡灵不认耶稣就不是出于上帝这是那敌基督者的灵约壹四3",
-      "confidence": 0.731
+      "confidence": 0.816,
+      "quality": {
+        "coverage": 0.808,
+        "coherentCoverage": 0.615,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.615,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 508.78,
+        "previousEnd": 516.52
+      }
     },
     {
-      "start": 516.52,
-      "end": 544.14,
+      "start": 518.8,
+      "end": 543.56,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "人不拘用什么法子你们总不要被他诱惑因为那日子以前必有离道反教的事并有那大罪人就是沉沦之子显露出来",
-      "confidence": 0.859
+      "confidence": 0.915,
+      "quality": {
+        "coverage": 0.92,
+        "coherentCoverage": 0.898,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 516.52,
+        "previousEnd": 544.14
+      }
     },
     {
       "start": 544.14,
@@ -173,47 +829,273 @@
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "这不法的人来是照撒但的运动行各样的异能上帝迹和一切虚假的奇事帖后二349",
-      "confidence": 0.562
+      "confidence": 0.683,
+      "quality": {
+        "coverage": 0.778,
+        "coherentCoverage": 0.722,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.889,
+        "suffixCoverage": 0.667,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 544.14,
+        "previousEnd": 557.42
+      }
     },
     {
       "start": 557.42,
-      "end": 561.56,
+      "end": 560.64,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "我们在这些经文中学到四件事",
-      "confidence": 0.615
+      "confidence": 0.846,
+      "quality": {
+        "coverage": 0.846,
+        "coherentCoverage": 0.615,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.667,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 557.42,
+        "previousEnd": 561.56
+      }
     },
     {
-      "start": 561.56,
-      "end": 564.32,
+      "start": 560.64,
+      "end": 563.36,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "敌基督首先是一个灵",
-      "confidence": 0.75
+      "confidence": 0.889,
+      "quality": {
+        "coverage": 0.889,
+        "coherentCoverage": 0.889,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.889,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.889,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 561.56,
+        "previousEnd": 564.32
+      }
     },
     {
-      "start": 564.32,
-      "end": 567.2,
+      "start": 563.84,
+      "end": 566.28,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "敌基督是一个原则的表现",
-      "confidence": 0.7
+      "confidence": 0.909,
+      "quality": {
+        "coverage": 0.909,
+        "coherentCoverage": 0.909,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.909,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.909,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 564.32,
+        "previousEnd": 567.2
+      }
     },
     {
       "start": 567.2,
-      "end": 569.44,
+      "end": 568.54,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "敌基督是一种人",
-      "confidence": 0.923
+      "confidence": 0.923,
+      "quality": {
+        "coverage": 0.857,
+        "coherentCoverage": 0.857,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.667,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.857,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 567.2,
+        "previousEnd": 569.44
+      }
     },
     {
-      "start": 569.44,
-      "end": 574.12,
+      "start": 569.22,
+      "end": 572.82,
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "敌基督要得到一个国度或权势的世界",
-      "confidence": 0.968
+      "confidence": 0.938,
+      "quality": {
+        "coverage": 0.938,
+        "coherentCoverage": 0.938,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.875,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 569.44,
+        "previousEnd": 574.12
+      }
     },
     {
       "start": 574.12,
@@ -221,23 +1103,130 @@
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "第一点将敌基督者直接连于邪恶的权势不是出于上帝",
-      "confidence": 0.732
+      "confidence": 0.698,
+      "quality": {
+        "coverage": 0.652,
+        "coherentCoverage": 0.522,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.727,
+        "suffixCoverage": 0.636,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 574.12,
+        "previousEnd": 580.88
+      }
     },
     {
       "start": 580.88,
-      "end": 586.26,
+      "end": 585.58,
       "kind": "paragraph",
       "targetIndex": 27,
       "targetText": "第二点的意思是人的荣耀一直都是控制的因素",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 580.88,
+        "previousEnd": 586.26
+      }
     },
     {
       "start": 586.26,
-      "end": 599.06,
+      "end": 597.46,
       "kind": "paragraph",
       "targetIndex": 28,
       "targetText": "第三点的意思是以上所说的灵和原则藉着一个强而有支配力的自我和极强烈魂的力量来运作",
-      "confidence": 0.925
+      "confidence": 0.95,
+      "quality": {
+        "coverage": 0.95,
+        "coherentCoverage": 0.925,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 586.26,
+        "previousEnd": 599.06
+      }
     },
     {
       "start": 599.06,
@@ -245,15 +1234,87 @@
       "kind": "paragraph",
       "targetIndex": 29,
       "targetText": "第四点指出敌基督者要得到什么",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 599.06,
+        "previousEnd": 603.54
+      }
     },
     {
       "start": 603.54,
-      "end": 666.91,
+      "end": 666.05,
       "kind": "paragraph",
       "targetIndex": 30,
       "targetText": "现在我们能了解时势和走向了世界持续渐渐地落入一小撮独裁者的权势中可能他们将彼此容忍直到世上其他形",
-      "confidence": 0.758
+      "confidence": 0.903,
+      "quality": {
+        "coverage": 0.903,
+        "coherentCoverage": 0.879,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 603.54,
+        "previousEnd": 666.91
+      }
     },
     {
       "start": 666.91,
@@ -261,23 +1322,128 @@
       "kind": "paragraph",
       "targetIndex": 31,
       "targetText": "第一今天在属上帝的事上没有显著的巨人为属灵的领袖这不是一件意义重大的事吗我们当中有些人开始服侍时",
-      "confidence": 0.73
+      "confidence": 0.876,
+      "quality": {
+        "coverage": 0.883,
+        "coherentCoverage": 0.845,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 666.91,
+        "previousEnd": 759.76
+      }
     },
     {
       "start": 759.76,
-      "end": 857.56,
+      "end": 856.28,
       "kind": "paragraph",
       "targetIndex": 32,
       "targetText": "那么这个现象到底是什么呢我们不能完全从人的立场来考虑这个力量影响及权势除了人的意志之外尚有更大的",
-      "confidence": 0.951
+      "confidence": 0.951,
+      "quality": {
+        "coverage": 0.949,
+        "coherentCoverage": 0.942,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 759.76,
+        "previousEnd": 857.56
+      }
     },
     {
       "start": 857.56,
-      "end": 874.55,
+      "end": 872.14,
       "kind": "paragraph",
       "targetIndex": 33,
       "targetText": "但看这个人世界的权柄怎么得以在祂里面稳固因为它本来就是稳固的答案在经文里",
-      "confidence": 0.889
+      "confidence": 0.889,
+      "quality": {
+        "coverage": 0.889,
+        "coherentCoverage": 0.889,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.833,
+        "suffixCoverage": 0.944,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 857.56,
+        "previousEnd": 874.55
+      }
     },
     {
       "start": 874.55,
@@ -285,15 +1451,83 @@
       "kind": "paragraph",
       "targetIndex": 34,
       "targetText": "基督耶稣的心思祂本有上帝的形像不以自己与上帝同等为强夺的反倒虚己取了奴仆的形像成为人的样式既有人",
-      "confidence": 0.829
+      "confidence": 0.836,
+      "quality": {
+        "coverage": 0.823,
+        "coherentCoverage": 0.723,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 874.55,
+        "previousEnd": 917.71
+      }
     },
     {
       "start": 917.71,
-      "end": 952.45,
+      "end": 949.57,
       "kind": "paragraph",
       "targetIndex": 35,
       "targetText": "所以在上帝面前和祂的工作中算得了数的不是人的得着成就或能力而单单是基督的度量如果上帝的子民在他们",
-      "confidence": 0.838
+      "confidence": 0.838,
+      "quality": {
+        "coverage": 0.879,
+        "coherentCoverage": 0.802,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 917.71,
+        "previousEnd": 952.45
+      }
     },
     {
       "start": 952.45,
@@ -301,23 +1535,134 @@
       "kind": "paragraph",
       "targetIndex": 36,
       "targetText": "我们进入了一个新的阶段到处都热切地寻求复兴一些过去复兴史中的伟大名字被人们在心中想着口中提着而且",
-      "confidence": 0.909
+      "confidence": 0.909,
+      "quality": {
+        "coverage": 0.906,
+        "coherentCoverage": 0.88,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 952.45,
+        "previousEnd": 1054.1
+      }
     },
     {
       "start": 1054.1,
-      "end": 1066.38,
+      "end": 1064.82,
       "kind": "paragraph",
       "targetIndex": 37,
       "targetText": "当属魂的东西太多时上帝不会交付祂自己直到有更多的倒空和绝望时祂才会",
-      "confidence": 0.909
+      "confidence": 0.909,
+      "quality": {
+        "coverage": 0.909,
+        "coherentCoverage": 0.848,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.938,
+        "suffixCoverage": 0.875,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1054.1,
+        "previousEnd": 1066.38
+      }
     },
     {
       "start": 1066.38,
-      "end": 1077.18,
+      "end": 1076.36,
       "kind": "paragraph",
       "targetIndex": 38,
       "targetText": "当我们说到这些时还有另外件与此有关的事这又引进了另串经文如",
-      "confidence": 0.967
+      "confidence": 0.967,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1066.38,
+        "previousEnd": 1077.18
+      }
     },
     {
       "start": 1077.18,
@@ -325,7 +1670,40 @@
       "kind": "paragraph",
       "targetIndex": 39,
       "targetText": "又将万有服在祂的脚下使祂为教会作万有之首教会是祂的身体是那充满万有者的丰满弗一2223直译",
-      "confidence": 0.732
+      "confidence": 0.633,
+      "quality": {
+        "coverage": 0.689,
+        "coherentCoverage": 0.378,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 6,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1077.18,
+        "previousEnd": 1094.02
+      }
     },
     {
       "start": 1094.02,
@@ -333,39 +1711,214 @@
       "kind": "paragraph",
       "targetIndex": 40,
       "targetText": "而且以自己的身体废掉冤仇为要将两下藉着自己造成一个新人使两下归于一体弗二1516",
-      "confidence": 0.63
+      "confidence": 0.822,
+      "quality": {
+        "coverage": 0.8,
+        "coherentCoverage": 0.775,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1094.02,
+        "previousEnd": 1104.34
+      }
     },
     {
-      "start": 1104.34,
+      "start": 1109.9,
       "end": 1117.66,
       "kind": "paragraph",
       "targetIndex": 41,
       "targetText": "愿那荣耀在教会中并在基督耶稣里直到万代永远的永远阿们弗三21原文",
-      "confidence": 0.686
+      "confidence": 0.842,
+      "quality": {
+        "coverage": 0.812,
+        "coherentCoverage": 0.719,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.938,
+        "suffixCoverage": 0.688,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1104.34,
+        "previousEnd": 1117.66
+      }
     },
     {
-      "start": 1117.66,
+      "start": 1122.36,
       "end": 1135.24,
       "kind": "paragraph",
       "targetIndex": 42,
       "targetText": "像这些还有其他类似的经文清楚指明教会就是祂的身体是这一个新人被定规作基督得世界权柄的器皿",
-      "confidence": 0.66
+      "confidence": 0.762,
+      "quality": {
+        "coverage": 0.75,
+        "coherentCoverage": 0.568,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1117.66,
+        "previousEnd": 1135.24
+      }
     },
     {
-      "start": 1135.24,
+      "start": 1137.6,
       "end": 1185.76,
       "kind": "paragraph",
       "targetIndex": 43,
       "targetText": "这个人是祂十字架的果子这个教会乃是由祂的产难而生这是个与基督的被钉被埋葬及复活认同联合的教会除了",
-      "confidence": 0.867
+      "confidence": 0.888,
+      "quality": {
+        "coverage": 0.887,
+        "coherentCoverage": 0.854,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1135.24,
+        "previousEnd": 1185.76
+      }
     },
     {
-      "start": 1185.76,
-      "end": 1223.52,
+      "start": 1191.06,
+      "end": 1222.86,
       "kind": "paragraph",
       "targetIndex": 44,
       "targetText": "在这点上有许多关于教会量度的经文就预表而言我们可从所罗门所建造的圣殿内里有提到以西结书中所提的更",
-      "confidence": 0.688
+      "confidence": 0.875,
+      "quality": {
+        "coverage": 0.875,
+        "coherentCoverage": 0.817,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1185.76,
+        "previousEnd": 1223.52
+      }
     },
     {
       "start": 1223.52,
@@ -373,7 +1926,36 @@
       "kind": "paragraph",
       "targetIndex": 45,
       "targetText": "那长那阔那高和那深弗三18直译",
-      "confidence": 0.621
+      "confidence": 0.514,
+      "quality": {
+        "coverage": 0.6,
+        "coherentCoverage": 0.333,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.857,
+        "suffixCoverage": 0.286,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 1223.52,
+        "previousEnd": 1231.02
+      }
     },
     {
       "start": 1231.02,
@@ -381,7 +1963,36 @@
       "kind": "paragraph",
       "targetIndex": 46,
       "targetText": "满有基督长成的身量弗四13",
-      "confidence": 0.636
+      "confidence": 0.516,
+      "quality": {
+        "coverage": 0.615,
+        "coherentCoverage": 0.385,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.833,
+        "suffixCoverage": 0.333,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 1231.02,
+        "previousEnd": 1236.68
+      }
     },
     {
       "start": 1236.68,
@@ -389,7 +2000,36 @@
       "kind": "paragraph",
       "targetIndex": 47,
       "targetText": "照基督所量的的恩赐弗四7",
-      "confidence": 0.632
+      "confidence": 0.571,
+      "quality": {
+        "coverage": 0.667,
+        "coherentCoverage": 0.333,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.667,
+        "suffixCoverage": 0.667,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 1236.68,
+        "previousEnd": 1242.08
+      }
     },
     {
       "start": 1242.08,
@@ -397,47 +2037,370 @@
       "kind": "paragraph",
       "targetIndex": 48,
       "targetText": "照着各体的功用彼此相助弗四16",
-      "confidence": 0.769
+      "confidence": 0.769,
+      "quality": {
+        "coverage": 0.733,
+        "coherentCoverage": 0.533,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.857,
+        "suffixCoverage": 0.571,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1242.08,
+        "previousEnd": 1245.0
+      }
     },
     {
-      "start": 1245.0,
+      "start": 1248.46,
       "end": 1315.16,
       "kind": "paragraph",
       "targetIndex": 49,
       "targetText": "所以在属灵的教会或身体中基督的度量是管理的因素我们得知在这身体中属地的因素没有任何地位没有希腊人",
-      "confidence": 0.888
+      "confidence": 0.912,
+      "quality": {
+        "coverage": 0.902,
+        "coherentCoverage": 0.874,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1245.0,
+        "previousEnd": 1315.16
+      }
     },
     {
-      "start": 1315.16,
+      "start": 1320.17,
       "end": 1342.77,
       "kind": "paragraph",
       "targetIndex": 50,
       "targetText": "我们一直很小心地用权柄和权势两个字后者说到力量主张自己独裁及这类的特征这些是属于敌基督的前者乃是",
-      "confidence": 0.831
+      "confidence": 0.901,
+      "quality": {
+        "coverage": 0.894,
+        "coherentCoverage": 0.864,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1315.16,
+        "previousEnd": 1342.77
+      }
     },
     {
-      "start": 1342.77,
+      "start": 1345.15,
       "end": 1356.07,
       "kind": "paragraph",
       "targetIndex": 51,
       "targetText": "祂的权柄必从这海管到那海从大河管到地极亚九10",
-      "confidence": 0.81
+      "confidence": 0.745,
+      "quality": {
+        "coverage": 0.826,
+        "coherentCoverage": 0.739,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.909,
+        "suffixCoverage": 0.727,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1342.77,
+        "previousEnd": 1356.07
+      }
     },
     {
       "start": 1356.07,
-      "end": 1362.35,
+      "end": 1363.95,
       "kind": "paragraph",
       "targetIndex": 52,
       "targetText": "但愿荣耀权柄归给祂直到永永远远启一6",
-      "confidence": 0.848
+      "confidence": 0.75,
+      "quality": {
+        "coverage": 0.833,
+        "coherentCoverage": 0.778,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.889,
+        "suffixCoverage": 0.778,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1356.07,
+        "previousEnd": 1362.35
+      }
     },
     {
-      "start": 1362.35,
+      "start": 1363.95,
       "end": 1388.63,
       "kind": "paragraph",
       "targetIndex": 53,
       "targetText": "属灵的权能和魂的势力是非常不同的它们属于不同的国度就是诸天的国度和人的国度根据上帝的思想人的目的",
-      "confidence": 0.797
+      "confidence": 0.912,
+      "quality": {
+        "coverage": 0.899,
+        "coherentCoverage": 0.841,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "verified-transcript",
+        "previousStart": 1362.35,
+        "previousEnd": 1388.63
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 2: 这要追溯到神永远的计划。在这些计划里，神定意要将这世界的权柄都归一于祂的儿子的元首权内（亚当是「",
+    "incomplete end (5 trailing chars, coverage 0.643): target 3: 「......祂已经定了日子，要藉着祂所设立的人按公义审判天下......。」(徒十七31）",
+    "unverified end anchor: target 3: 「......祂已经定了日子，要藉着祂所设立的人按公义审判天下......。」(徒十七31）",
+    "unverified end anchor: target 4: 「祂吩咐我们传道给众人，证明祂是神所立定的，要作审判活人、死人的主。」（徒十42）",
+    "incomplete start (0 leading chars, coverage 0.500): target 6: （也请看弗一9-10，四10，西一16-19，来一8，二6-10）",
+    "incomplete end (3 trailing chars, coverage 0.333): target 6: （也请看弗一9-10，四10，西一16-19，来一8，二6-10）",
+    "low confidence (0.294, coverage 0.417): target 6: （也请看弗一9-10，四10，西一16-19，来一8，二6-10）",
+    "unverified start anchor: target 6: （也请看弗一9-10，四10，西一16-19，来一8，二6-10）",
+    "unverified end anchor: target 6: （也请看弗一9-10，四10，西一16-19，来一8，二6-10）",
+    "unmatched (fragment only): target 6: （也请看弗一9-10，四10，西一16-19，来一8，二6-10）",
+    "unverified end anchor: target 7: 因此，神已经让我们知道，这世界及其外一切有关的权柄永远都是归于一个人既定的权利，这个人就是成为人",
+    "unverified end anchor: target 8: 「......该隐，他是属那恶者，杀了他的兄弟。」（约壹三12）",
+    "unverified end anchor: target 10: 「哪一个先知不是你们祖宗逼迫的呢？他们也把预先传说那义者要来的人杀了；如今你们又把那义者卖了、杀",
+    "unverified end anchor: target 11: 「有人栽了一个葡萄园，周围圈上篱笆，挖了一个压酒池，盖了一座楼，租给园户，就往外国去了。到了时候",
+    "unverified end anchor: target 12: 为着指出相关的思想，我们要强调的是：控制因素在于神儿子是既定要承受产业的。接下来的，就是一个长久",
+    "unverified start anchor: target 16: 「小子们哪，如今是末时了。你们曾听见说，那敌基督的要来。现在已经有好些敌基督的出来了。」",
+    "incomplete end (4 trailing chars, coverage 0.632): target 17: 「谁是说谎话的呢？不是那不认耶稣为基督的吗？不认父与子的，这就是敌基督的。」（约壹二18、22）",
+    "unverified end anchor: target 17: 「谁是说谎话的呢？不是那不认耶稣为基督的吗？不认父与子的，这就是敌基督的。」（约壹二18、22）",
+    "unverified end anchor: target 18: 「凡灵不认耶稣，就不是出于神，这是那敌基督者的灵。」(约壹四3)",
+    "unverified end anchor: target 20: 「这不法的人来，是照撒但的运动，行各样的异能、神迹和一切虚假的奇事。」(帖后二3-4，9)",
+    "unverified start anchor: target 21: 我们在这些经文中学到四件事：",
+    "unverified start anchor: target 26: 第一点将敌基督者直接连于邪恶的权势，「不是出于神」。",
+    "unverified end anchor: target 26: 第一点将敌基督者直接连于邪恶的权势，「不是出于神」。",
+    "unverified start anchor: target 30: 现在我们能了解时势和走向了。世界持续渐渐地落入一小撮独裁者的权势中。可能他们将彼此容忍直到世上其",
+    "unverified start anchor: target 31: 第一，今天在属神的事上，没有显著的巨人为属灵的领袖，这不是一件意义重大的事吗？我们当中有些人开始",
+    "unverified end anchor: target 31: 第一，今天在属神的事上，没有显著的巨人为属灵的领袖，这不是一件意义重大的事吗？我们当中有些人开始",
+    "unverified end anchor: target 34: 「......基督耶稣的心（思）......：祂本有神的形像，不以自己与神同等为强夺的，反倒虚己",
+    "unverified start anchor: target 35: 所以在神面前和祂的工作中算得了数的不是人的得着、成就或能力，而单单是基督的度量。如果神的子民在他",
+    "unverified end anchor: target 36: 我们进入了一个新的阶段。到处都热切地寻求「复兴」，一些过去复兴史中的伟大名字被人们在心中想着，口",
+    "incomplete end (6 trailing chars, coverage 0.600): target 39: 「又将万有服在祂的脚下，使祂为教会作万有之首。教会是祂的身体，是那充满万有者的丰满。」（弗一22",
+    "unverified end anchor: target 39: 「又将万有服在祂的脚下，使祂为教会作万有之首。教会是祂的身体，是那充满万有者的丰满。」（弗一22",
+    "incomplete end (4 trailing chars, coverage 0.750): target 40: 「而且以自己的身体废掉冤仇......为要将两下藉着自己造成一个新人......使两下归于一体.",
+    "unverified end anchor: target 40: 「而且以自己的身体废掉冤仇......为要将两下藉着自己造成一个新人......使两下归于一体.",
+    "unverified end anchor: target 41: 「愿那荣耀在教会中，并在基督耶稣里，直到万代，永远的永远。阿们。」（弗三21原文）",
+    "unverified end anchor: target 42: 像这些，还有其他类似的经文，清楚指明，「教会，就是祂的身体」是这「一个新人」，被定规作基督得世界",
+    "unverified end anchor: target 43: 这个「人」是祂十字架的果子。这个教会乃是由祂的产难而生。这是个与基督的被钉、被埋葬、及复活认同联",
+    "incomplete end (4 trailing chars, coverage 0.286): target 45: 「那长、那阔、那高和那深。」（弗三18直译）",
+    "low confidence (0.514, coverage 0.600): target 45: 「那长、那阔、那高和那深。」（弗三18直译）",
+    "unverified start anchor: target 45: 「那长、那阔、那高和那深。」（弗三18直译）",
+    "unverified end anchor: target 45: 「那长、那阔、那高和那深。」（弗三18直译）",
+    "incomplete end (2 trailing chars, coverage 0.333): target 46: 「满有基督长成的身量。」(弗四13)",
+    "low confidence (0.516, coverage 0.615): target 46: 「满有基督长成的身量。」(弗四13)",
+    "unverified start anchor: target 46: 「满有基督长成的身量。」(弗四13)",
+    "unverified end anchor: target 46: 「满有基督长成的身量。」(弗四13)",
+    "unverified end anchor: target 47: 「照基督所量的......的恩赐。」(弗四7)",
+    "unverified end anchor: target 48: 「照着各体的功用，彼此相助。」(弗四16)",
+    "unverified end anchor: target 49: 所以在属灵的教会或身体中，基督的度量是管理的因素。我们得知在这身体中，属地的因素没有任何地位。「",
+    "unverified end anchor: target 51: 「祂的权柄必从这海管到那海，从大河管到地极。」（亚九10）",
+    "unverified start anchor: target 53: 属灵的权能和魂的势力是非常不同的，它们属于不同的国度，就是诸天的国度和人的国度。根据神的思想，人",
+    "repair unverified end (previous-sync): target 2",
+    "repair unverified end (previous-sync): target 3",
+    "repair unverified end (previous-sync): target 4",
+    "repair unverified start (previous-verified-end): target 6",
+    "repair unverified end (previous-sync): target 6",
+    "repair unverified end (previous-sync): target 7",
+    "repair unverified start (previous-sync): target 8",
+    "repair unverified end (previous-sync): target 8",
+    "repair unverified end (previous-sync): target 10",
+    "repair unverified end (previous-sync): target 11",
+    "repair unverified end (previous-sync): target 12",
+    "repair unverified start (previous-sync): target 16",
+    "repair unverified end (previous-sync): target 17",
+    "repair unverified end (previous-sync): target 18",
+    "repair unverified end (previous-sync): target 20",
+    "repair unverified start (previous-sync): target 21",
+    "repair unverified start (previous-sync): target 24",
+    "repair unverified start (previous-sync): target 26",
+    "repair unverified end (previous-sync): target 26",
+    "repair unverified start (previous-sync): target 30",
+    "repair unverified start (previous-sync): target 31",
+    "repair unverified end (previous-sync): target 31",
+    "repair unverified end (previous-sync): target 34",
+    "repair unverified start (previous-sync): target 35",
+    "repair unverified end (previous-sync): target 36",
+    "repair unverified end (previous-sync): target 39",
+    "repair unverified end (previous-sync): target 40",
+    "repair unverified end (previous-sync): target 41",
+    "repair unverified end (previous-sync): target 42",
+    "repair unverified end (previous-sync): target 43",
+    "repair unverified start (previous-sync): target 45",
+    "repair unverified end (previous-sync): target 45",
+    "repair unverified start (previous-sync): target 46",
+    "repair unverified end (previous-sync): target 46",
+    "repair unverified start (previous-sync): target 47",
+    "repair unverified end (previous-sync): target 47",
+    "repair unverified end (previous-sync): target 48",
+    "repair unverified end (previous-sync): target 49",
+    "repair unverified end (previous-sync): target 51",
+    "repair unverified start (previous-verified-end): target 53"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 24,
+    "updatedEnds": 23,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 13,
+    "unverifiedEnds": 27,
+    "missingTargets": []
+  },
+  "repairFingerprint": "0981564a56aa59bfb5e94091d196fc99824aa6b777cb55e4c5142f8087183e25",
+  "repairCueDigest": "701f71968c1766c57abef49514875ffff0786d6ce17aae714b1647afdb17482b"
 }

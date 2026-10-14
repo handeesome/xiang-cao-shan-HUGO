@@ -8,36 +8,182 @@
   "audioDuration": 175.0570625,
   "cues": [
     {
-      "start": 0.0,
-      "end": 6.35,
-      "kind": "heading",
-      "targetIndex": 78,
-      "targetText": "九月十六日",
-      "confidence": 1.0
-    },
-    {
       "start": 6.35,
       "end": 10.31,
       "kind": "paragraph",
-      "targetIndex": 79,
+      "targetIndex": 81,
       "targetText": "我总不撇下你也不丢弃你伯135",
-      "confidence": 0.538
+      "confidence": 0.769,
+      "quality": {
+        "coverage": 0.667,
+        "coherentCoverage": 0.467,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.857,
+        "suffixCoverage": 0.429,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 6.35,
+        "previousEnd": 10.31
+      },
+      "targetMigration": {
+        "previousTargetIndex": 79,
+        "targetIndex": 81,
+        "targetText": "我总不撇下你也不丢弃你伯135"
+      }
     },
     {
-      "start": 10.31,
+      "start": 22.08,
       "end": 40.5,
       "kind": "paragraph",
-      "targetIndex": 80,
+      "targetIndex": 82,
       "targetText": "尽管我们常犯错误自找一些原可避免的麻烦但要知道上帝不会丢弃他犯错的孩子且总是能随时原谅释放那些谦",
-      "confidence": 0.513
+      "confidence": 0.815,
+      "quality": {
+        "coverage": 0.81,
+        "coherentCoverage": 0.707,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 10.31,
+        "previousEnd": 40.5
+      },
+      "targetMigration": {
+        "previousTargetIndex": 80,
+        "targetIndex": 82,
+        "targetText": "尽管我们常犯错误自找一些原可避免的麻烦但要知道上帝不会丢弃他犯错的孩子且总是能随时原谅释放那些谦"
+      }
     },
     {
-      "start": 40.5,
+      "start": 44.18,
       "end": 148.06,
       "kind": "paragraph",
-      "targetIndex": 81,
+      "targetIndex": 83,
       "targetText": "我们不要因为一时离开他所带领的道路就完全放弃我们的信心当和上帝呼召以色列民族进入应许之地时他们并",
-      "confidence": 0.675
+      "confidence": 0.824,
+      "quality": {
+        "coverage": 0.821,
+        "coherentCoverage": 0.726,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 40.5,
+        "previousEnd": 148.06
+      },
+      "targetMigration": {
+        "previousTargetIndex": 81,
+        "targetIndex": 83,
+        "targetText": "我们不要因为一时离开他所带领的道路就完全放弃我们的信心当和上帝呼召以色列民族进入应许之地时他们并"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (4 trailing chars, coverage 0.429): target 81: …我总不撇下你，也不丢弃你------伯 13:5",
+    "unverified start anchor: target 81: …我总不撇下你，也不丢弃你------伯 13:5",
+    "unverified end anchor: target 81: …我总不撇下你，也不丢弃你------伯 13:5",
+    "unverified end anchor: target 82: 尽管我们常犯错误，自找一些原可避免的麻烦，但要知道神不会丢弃他犯错的孩子，且总是能随时原谅、释放",
+    "repair unverified start (previous-sync): target 81",
+    "repair unverified end (previous-sync): target 81",
+    "repair unverified end (previous-sync): target 82"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 79,
+      "targetIndex": 81,
+      "targetText": "我总不撇下你也不丢弃你伯135"
+    },
+    {
+      "previousTargetIndex": 80,
+      "targetIndex": 82,
+      "targetText": "尽管我们常犯错误自找一些原可避免的麻烦但要知道上帝不会丢弃他犯错的孩子且总是能随时原谅释放那些谦"
+    },
+    {
+      "previousTargetIndex": 81,
+      "targetIndex": 83,
+      "targetText": "我们不要因为一时离开他所带领的道路就完全放弃我们的信心当和上帝呼召以色列民族进入应许之地时他们并"
+    }
+  ],
+  "repairFingerprint": "2b2010902acaee2b880c0052d191c0718d80127fefc39c7899b6d37f0ec612ff",
+  "repairCueDigest": "6633538f8cbdf8f5efb75efd56dd1f6db92a53b281d6d173b9f5e7c3f6d2899c"
 }

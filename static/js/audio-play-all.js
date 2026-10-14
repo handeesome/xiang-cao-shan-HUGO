@@ -52,6 +52,16 @@
 
     if (audios.length === 1) return;
 
+    const audioLabels = audios.map((audio, index) => {
+      const label = document.createElement("div");
+      label.className = "chapter-audio-label";
+      label.textContent = `第 ${index + 1} 段 · 共 ${audios.length} 段`;
+      // The player already exposes the same position through its aria-label.
+      label.setAttribute("aria-hidden", "true");
+      audio.parentNode?.insertBefore(label, audio);
+      return label;
+    });
+
     const controls = document.createElement("div");
     controls.className = "audio-playlist-controls";
     controls.setAttribute("role", "group");
@@ -71,7 +81,7 @@
     button.setAttribute("aria-describedby", status.id);
 
     controls.append(button, status);
-    audios[0].parentNode?.insertBefore(controls, audios[0]);
+    audios[0].parentNode?.insertBefore(controls, audioLabels[0]);
 
     const suppressedPauses = new WeakSet();
     const reduceMotion = window.matchMedia(

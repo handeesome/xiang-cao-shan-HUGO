@@ -8,36 +8,151 @@
   "audioDuration": 163.35425,
   "cues": [
     {
-      "start": 0.2,
-      "end": 6.38,
-      "kind": "heading",
-      "targetIndex": 63,
-      "targetText": "九月十三日",
-      "confidence": 0.444
-    },
-    {
       "start": 6.38,
       "end": 12.3,
       "kind": "paragraph",
       "targetIndex": 64,
       "targetText": "有火炼的试验临到你们不要以为奇怪彼前412",
-      "confidence": 0.65
+      "confidence": 0.65,
+      "quality": {
+        "coverage": 0.619,
+        "coherentCoverage": 0.429,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 6.38,
+        "previousEnd": 12.3
+      }
     },
     {
       "start": 12.3,
-      "end": 89.31,
+      "end": 85.48,
       "kind": "paragraph",
       "targetIndex": 65,
       "targetText": "大多数的人在踏出信心的第一步之后通常会向往蔚蓝的天空及风平浪静的日子所以当他们遇到风暴时不仅充满",
-      "confidence": 0.919
+      "confidence": 0.919,
+      "quality": {
+        "coverage": 0.935,
+        "coherentCoverage": 0.924,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 12.3,
+        "previousEnd": 89.31
+      }
     },
     {
       "start": 89.31,
-      "end": 128.85,
+      "end": 129.43,
       "kind": "paragraph",
       "targetIndex": 66,
       "targetText": "现在让我们来了解到底受试验是什么意思假如你已经踏出信心的脚步认为自己的老我和罪都死了当你发现自己",
-      "confidence": 0.742
+      "confidence": 0.944,
+      "quality": {
+        "coverage": 0.932,
+        "coherentCoverage": 0.889,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 89.31,
+        "previousEnd": 128.85
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 64: …有火炼的试验临到你们，不要以为奇怪------彼前 4:12",
+    "unverified end anchor: target 64: …有火炼的试验临到你们，不要以为奇怪------彼前 4:12",
+    "unverified start anchor: target 65: 大多数的人在踏出信心的第一步之后，通常会向往蔚蓝的天空及风平浪静的日子。所以当他们遇到风暴时，不",
+    "repair unverified start (previous-sync): target 64",
+    "repair unverified end (previous-sync): target 64",
+    "repair unverified start (previous-sync): target 65"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "repairFingerprint": "508bbc880b1276a38709e9bd9e481284efc3b8ec93cea3bc502113f99057b37b",
+  "repairCueDigest": "605f15494843b19987992ff5e73a7501c16e18a8584c81e40c685a537526f7f4"
 }

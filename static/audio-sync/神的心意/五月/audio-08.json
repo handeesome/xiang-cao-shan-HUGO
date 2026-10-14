@@ -8,28 +8,94 @@
   "audioDuration": 154.097375,
   "cues": [
     {
-      "start": 3.24,
-      "end": 7.04,
-      "kind": "heading",
-      "targetIndex": 49,
-      "targetText": "五月八日众使徒",
-      "confidence": 0.615
-    },
-    {
       "start": 7.04,
       "end": 16.68,
       "kind": "paragraph",
       "targetIndex": 50,
       "targetText": "耶稣和他们聚集的时候嘱咐他们说不要离开耶路撒冷要等候父所应许的徒一4",
-      "confidence": 0.862
+      "confidence": 0.892,
+      "quality": {
+        "coverage": 0.853,
+        "coherentCoverage": 0.853,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.882,
+        "suffixCoverage": 0.824,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "discarded detached end matches"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 7.04,
+        "previousEnd": 16.68
+      }
     },
     {
-      "start": 16.68,
-      "end": 102.28,
+      "start": 22.84,
+      "end": 100.8,
       "kind": "paragraph",
       "targetIndex": 51,
       "targetText": "教会的第二个特点可以从门徒身上看见主吩咐门徒准备接受圣灵并且为祂作见证上帝藉著圣灵的浇灌答应了门",
-      "confidence": 0.836
+      "confidence": 0.868,
+      "quality": {
+        "coverage": 0.865,
+        "coherentCoverage": 0.787,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 16.68,
+        "previousEnd": 102.28
+      }
     },
     {
       "start": 102.28,
@@ -37,7 +103,61 @@
       "kind": "paragraph",
       "targetIndex": 52,
       "targetText": "让我们用这些来测验我们自己看看我们是否真的分尝了基督的受苦和受死是否恨恶自己的生命把它钉十字架上",
-      "confidence": 0.904
+      "confidence": 0.904,
+      "quality": {
+        "coverage": 0.898,
+        "coherentCoverage": 0.873,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 102.28,
+        "previousEnd": 153.02
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 52: 让我们用这些来测验我们自己，看看我们是否真的分尝了基督的受苦和受死，是否恨恶自己的生命，把它钉十",
+    "repair unverified end (previous-sync): target 50",
+    "repair unverified end (previous-sync): target 52"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "repairFingerprint": "dd81d39db805e0cd2f136337a41b69d7e8263a6109a1b02c4a58b699d1d732a6",
+  "repairCueDigest": "f3f6a45439582688bd5b8de1e6d468b1aa13ac78e9e0831fd80aeb4258176629"
 }

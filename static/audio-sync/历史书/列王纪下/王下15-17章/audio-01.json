@@ -1,6 +1,29 @@
 {
   "version": 1,
   "model": ".audio-sync-cache\\models\\small",
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (4 leading chars, coverage 0.750): target 3: 乌西雅因心高气傲，骄傲受惩，作我们的警戒。其实在我们的旧生命当中，人是很容易落入这种骄傲的心态当",
+    "unverified start anchor: target 3: 乌西雅因心高气傲，骄傲受惩，作我们的警戒。其实在我们的旧生命当中，人是很容易落入这种骄傲的心态当",
+    "unverified start anchor: target 4: 从8节到31节，分别记载了以色列国王好几个。撒迦利雅作王六个月，沙龙一个月，米拿现十年，比加辖二",
+    "unverified start anchor: target 7: 但是约坦的儿子，在列王纪下十六章记载了。约坦的儿子犹大国王亚哈斯，他却是一位非常不好的王，他没有",
+    "unverified end anchor: target 10: 十七章，是讲到以色列王与亚述，以及亡国的原因。这里我们看见，以色列王何细亚，他行耶和华眼中看为恶",
+    "unverified start anchor: target 11: 7到23节，是说到了以色列人被掳的原因，也就是以色列国亡国的原因。「是因以色列人得罪那领他们出埃",
+    "incomplete start (4 leading chars, coverage 0.550): target 13: 然后24节到41节，就是约翰福音四章9节提到的撒玛利亚人的来源。就是亚述王把以色列人分散在亚述的",
+    "unverified start anchor: target 13: 然后24节到41节，就是约翰福音四章9节提到的撒玛利亚人的来源。就是亚述王把以色列人分散在亚述的",
+    "unverified end anchor: target 13: 然后24节到41节，就是约翰福音四章9节提到的撒玛利亚人的来源。就是亚述王把以色列人分散在亚述的",
+    "unverified end anchor: target 14: 但是这些外族人，这些亚述人，他们虽然住在撒玛利亚城，但是他们制造许多的偶像，「他们又惧怕耶和华，",
+    "repair unverified start (previous-sync): target 3",
+    "repair unverified start (previous-sync): target 4",
+    "repair unverified end (previous-sync): target 4",
+    "repair unverified start (previous-sync): target 7",
+    "repair unverified end (previous-sync): target 10",
+    "repair unverified start (previous-sync): target 11",
+    "repair unverified start (previous-sync): target 13",
+    "repair unverified end (previous-sync): target 13",
+    "repair unverified end (previous-sync): target 14"
+  ],
   "source": {
     "page": "历史书/列王纪下/王下15-17章.md",
     "audio": "2Ki15-17.mp3"
@@ -8,124 +31,477 @@
   "audioDuration": 847.0084375,
   "cues": [
     {
-      "start": 6.2,
-      "end": 10.26,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "王下1517章",
-      "confidence": 0.95
-    },
-    {
-      "start": 10.26,
-      "end": 14.96,
-      "kind": "heading",
-      "targetIndex": 1,
-      "targetText": "第十五章以色列与犹大诸王",
-      "confidence": 0.95
-    },
-    {
-      "start": 14.96,
+      "start": 0.82,
       "end": 87.26,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "亲爱的长辈弟兄姊妹主内平安今天我们一起来分享列王纪下十五到十七章十五章先讲到犹大国王亚撒利雅也就",
-      "confidence": 0.578
+      "confidence": 0.776,
+      "quality": {
+        "coverage": 0.784,
+        "coherentCoverage": 0.633,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 0.82,
+        "previousEnd": 87.26
+      }
     },
     {
       "start": 87.26,
-      "end": 127.32,
+      "end": 126.24,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "乌西雅因心高气傲骄傲受惩作我们的警戒其实在我们的旧生命当中人是很容易落入这种骄傲的心态当中撒但也",
-      "confidence": 0.761
+      "confidence": 0.85,
+      "quality": {
+        "coverage": 0.847,
+        "coherentCoverage": 0.774,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 4,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 87.26,
+        "previousEnd": 126.24
+      }
     },
     {
       "start": 127.32,
-      "end": 171.62,
+      "end": 170.5,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "从8节到31节分别记载了以色列国王好几个撒迦利雅作王六个月沙龙一个月米拿现十年比加辖二年比加二十",
-      "confidence": 0.589
+      "confidence": 0.699,
+      "quality": {
+        "coverage": 0.6,
+        "coherentCoverage": 0.516,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 127.32,
+        "previousEnd": 170.5
+      }
     },
     {
       "start": 171.62,
-      "end": 192.18,
+      "end": 183.24,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "32节是记载到一个行耶和华眼中看为正的效法他父亲乌西雅一切所行的犹大国王约坦",
-      "confidence": 0.789
+      "confidence": 0.789,
+      "quality": {
+        "coverage": 0.789,
+        "coherentCoverage": 0.763,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.789,
+        "suffixCoverage": 0.789,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 171.62,
+        "previousEnd": 183.24
+      }
     },
     {
-      "start": 192.18,
-      "end": 198.7,
-      "kind": "heading",
-      "targetIndex": 6,
-      "targetText": "第十六章犹大王亚斯与亚述的威胁",
-      "confidence": 0.95
-    },
-    {
-      "start": 198.7,
-      "end": 321.66,
+      "start": 186.7,
+      "end": 317.95,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "但是约坦的儿子在列王纪下十六章记载了约坦的儿子犹大国王亚哈斯他却是一位非常不好的王他没有效法他祖",
-      "confidence": 0.744
+      "confidence": 0.779,
+      "quality": {
+        "coverage": 0.774,
+        "coherentCoverage": 0.628,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 186.7,
+        "previousEnd": 317.95
+      }
     },
     {
       "start": 321.66,
-      "end": 407.84,
+      "end": 406.22,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "17节还说到他随意毁坏圣殿之物打掉盆座四面镶着的心子把盆从座上挪下来又将铜海从驮海的铜牛上搬下来",
-      "confidence": 0.895
+      "confidence": 0.895,
+      "quality": {
+        "coverage": 0.892,
+        "coherentCoverage": 0.85,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 321.66,
+        "previousEnd": 406.22
+      }
     },
     {
       "start": 407.84,
-      "end": 411.24,
-      "kind": "heading",
-      "targetIndex": 9,
-      "targetText": "第十七章以色列亡国于亚述",
-      "confidence": 0.583
-    },
-    {
-      "start": 411.24,
       "end": 480.55,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "十七章是讲到以色列王与亚述以及亡国的原因这里我们看见以色列王何细亚他行耶和华眼中看为恶的事然后何",
-      "confidence": 0.749
+      "confidence": 0.785,
+      "quality": {
+        "coverage": 0.81,
+        "coherentCoverage": 0.644,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 407.84,
+        "previousEnd": 480.55
+      }
     },
     {
-      "start": 480.55,
-      "end": 583.85,
+      "start": 484.33,
+      "end": 582.59,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "7到23节是说到了以色列人被掳的原因也就是以色列国亡国的原因是因以色列人得罪那领他们出埃及地脱离",
-      "confidence": 0.697
+      "confidence": 0.856,
+      "quality": {
+        "coverage": 0.861,
+        "coherentCoverage": 0.84,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 484.33,
+        "previousEnd": 582.59
+      }
     },
     {
       "start": 583.85,
-      "end": 676.09,
+      "end": 674.89,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "我们知道我们的父上帝爱我们差遣祂的爱子耶稣基督把我们救赎出来那是付出了极重极大的代价流血的代价祂",
-      "confidence": 0.865
+      "confidence": 0.917,
+      "quality": {
+        "coverage": 0.918,
+        "coherentCoverage": 0.87,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 583.85,
+        "previousEnd": 674.89
+      }
     },
     {
       "start": 676.09,
-      "end": 750.15,
+      "end": 748.69,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "然后24节到41节就是约翰福音四章9节提到的撒玛利亚人的来源就是亚述王把以色列人分散在亚述的一些",
-      "confidence": 0.783
+      "confidence": 0.787,
+      "quality": {
+        "coverage": 0.782,
+        "coherentCoverage": 0.634,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.55,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 4,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 676.09,
+        "previousEnd": 748.69
+      }
     },
     {
       "start": 750.15,
-      "end": 843.17,
+      "end": 842.41,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "但是这些外族人这些亚述人他们虽然住在撒玛利亚城但是他们制造许多的偶像他们又惧怕耶和华又侍奉自己的",
-      "confidence": 0.85
+      "confidence": 0.849,
+      "quality": {
+        "coverage": 0.852,
+        "coherentCoverage": 0.793,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 750.15,
+        "previousEnd": 842.41
+      }
     },
     {
       "start": 843.17,
@@ -133,7 +509,58 @@
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "今天的信息就分享到这里感谢主",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 843.17,
+        "previousEnd": 846.09
+      }
     }
-  ]
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 5,
+    "unverifiedEnds": 4,
+    "missingTargets": []
+  },
+  "repairFingerprint": "aeb9849c7fe5b90c072cfd725be62e68667372aac66c513e40028b5994c98736",
+  "repairCueDigest": "25bf4d9397aa4724fabe32087e720a741d63312110139d0e8fb0d26cd109bc87"
 }

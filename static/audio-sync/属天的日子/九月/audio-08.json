@@ -8,44 +8,197 @@
   "audioDuration": 182.9721875,
   "cues": [
     {
-      "start": 0.0,
-      "end": 6.81,
-      "kind": "heading",
-      "targetIndex": 36,
-      "targetText": "九月八日",
-      "confidence": 1.0
-    },
-    {
       "start": 6.81,
       "end": 9.99,
       "kind": "paragraph",
       "targetIndex": 37,
       "targetText": "吃我肉的人也要因我活着约657",
-      "confidence": 0.667
+      "confidence": 0.667,
+      "quality": {
+        "coverage": 0.533,
+        "coherentCoverage": 0.533,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.857,
+        "suffixCoverage": 0.143,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 6,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 6.81,
+        "previousEnd": 9.99
+      }
     },
     {
-      "start": 9.99,
+      "start": 20.15,
       "end": 52.15,
       "kind": "paragraph",
       "targetIndex": 38,
       "targetText": "上帝儿女所需要的并不只是许多的教导而是主耶稣生命的粮好的麦不见得就是好的食物因为未经磨烧消化吸收",
-      "confidence": 0.802
+      "confidence": 0.874,
+      "quality": {
+        "coverage": 0.864,
+        "coherentCoverage": 0.818,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 9.99,
+        "previousEnd": 52.15
+      }
     },
     {
       "start": 52.15,
-      "end": 74.2,
+      "end": 74.72,
       "kind": "paragraph",
       "targetIndex": 39,
       "targetText": "新约中的信息是主基督由他口中所呼出的生命并且拥有活泼的能力所以只要我们住在他里面吸收他的生命我们",
-      "confidence": 0.803
+      "confidence": 0.823,
+      "quality": {
+        "coverage": 0.823,
+        "coherentCoverage": 0.758,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution",
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 52.15,
+        "previousEnd": 74.2
+      }
     },
     {
-      "start": 74.2,
+      "start": 74.72,
       "end": 116.62,
       "kind": "paragraph",
       "targetIndex": 40,
       "targetText": "上帝医治的秘诀不在单单相信一个教条墨守一个仪式更不是靠着逻辑的信心或狗力绝望地祈祷而是藉着领受上",
-      "confidence": 0.598
+      "confidence": 0.84,
+      "quality": {
+        "coverage": 0.84,
+        "coherentCoverage": 0.774,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "verified-transcript",
+        "previousStart": 74.2,
+        "previousEnd": 116.62
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (6 trailing chars, coverage 0.143): target 37: 吃我肉的人，也要因我活着------约 6:57",
+    "low confidence (0.696, coverage 0.533): target 37: 吃我肉的人，也要因我活着------约 6:57",
+    "unverified start anchor: target 37: 吃我肉的人，也要因我活着------约 6:57",
+    "unverified end anchor: target 37: 吃我肉的人，也要因我活着------约 6:57",
+    "unverified start anchor: target 39: 新约中的信息，是主基督由他口中所呼出的生命，并且拥有活泼的能力。所以，只要我们住在他里面，吸收他",
+    "unverified start anchor: target 40: 神医治的秘诀，不在单单相信一个教条、墨守一个仪式，更不是靠着逻辑的信心或狗力绝望地祈祷，而是藉着",
+    "repair unverified start (previous-sync): target 37",
+    "repair unverified end (previous-sync): target 37",
+    "repair unverified start (previous-sync): target 39",
+    "repair unverified start (previous-verified-end): target 40"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 3,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "repairFingerprint": "1406f2bf5931a0da004f04e026eff9f5bfdede4431de67401d7f8bee03b9a204",
+  "repairCueDigest": "64db73084df7c58a41b5596f83f978d98f38dbcebd494f9197075f093069c800"
 }

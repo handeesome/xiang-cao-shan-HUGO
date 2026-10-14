@@ -1,6 +1,40 @@
 {
   "version": 1,
   "model": ".audio-sync-cache\\models\\small",
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (5 leading chars, coverage 0.750): target 2: 亲爱的长辈弟兄姊妹主内平安。今天我们一起读了列王纪上十九到廿一章。列王纪上共有廿二章，我们把十九",
+    "unverified start anchor: target 2: 亲爱的长辈弟兄姊妹主内平安。今天我们一起读了列王纪上十九到廿一章。列王纪上共有廿二章，我们把十九",
+    "unverified end anchor: target 2: 亲爱的长辈弟兄姊妹主内平安。今天我们一起读了列王纪上十九到廿一章。列王纪上共有廿二章，我们把十九",
+    "unverified start anchor: target 3: 以利亚见这光景，就起来逃命，到了犹大的别是巴，他是北国以色列的先知，逃到了南国犹大的别是巴。所以",
+    "unverified start anchor: target 4: 他说：「耶和华啊，罢了！求你取我的性命，因为我不胜于我的列祖。」他与人比，与列祖比，觉得自己真的",
+    "unverified start anchor: target 5: 19到21节，是写到以利亚遇到以利沙。在耕地的时候，以利沙他赶着第十二对牛，他是一个非常忙碌的人",
+    "unverified end anchor: target 5: 19到21节，是写到以利亚遇到以利沙。在耕地的时候，以利沙他赶着第十二对牛，他是一个非常忙碌的人",
+    "unverified start anchor: target 8: 在列王纪上第二十章，是写到亚兰王与以色列王亚哈的争战。当时亚兰国非常地强盛，他们提出非常无理的要",
+    "unverified start anchor: target 12: 后面30节的下半节，到最后我们发现，亚兰王应该是神命定要灭绝的人（42节），但是亚哈王竟然把亚兰",
+    "unverified start anchor: target 14: 列王纪上第廿一章，是亚哈他无理地夺去拿伯的葡萄园。在这里我们看见，因为拿伯的葡萄园靠近亚哈的王宫",
+    "unverified end anchor: target 15: 下面就是讲到耶洗别，她任意妄为，让亚哈利用王的印，宗教的这样的律法，两个假见证人，就使拿伯被杀了",
+    "unverified start anchor: target 19: 在第廿二章，就是先知米该雅警告亚哈将要阵亡。在这一章里面，我重点想分享的就是这一个忠心的米该雅。",
+    "unverified start anchor: target 20: 下面廿二章的第19节，米该雅说的话里面，我们看见他是一个实实在在看见当时有许多的人是说话引诱亚哈",
+    "unverified end anchor: target 24: 后来我们看见亚哈果然阵亡了。",
+    "unverified end anchor: target 25: 41节这里到50节这里，说到犹大国王约沙法。他是行耶和华眼中看为正的事的，好王。但是44节这一节",
+    "repair unverified start (previous-sync): target 2",
+    "repair unverified end (previous-sync): target 2",
+    "repair unverified start (previous-sync): target 3",
+    "repair unverified start (previous-sync): target 4",
+    "repair unverified start (previous-sync): target 5",
+    "repair unverified end (previous-sync): target 5",
+    "repair unverified start (previous-sync): target 8",
+    "repair unverified start (previous-sync): target 12",
+    "repair unverified start (previous-sync): target 14",
+    "repair unverified end (previous-sync): target 15",
+    "repair unverified start (previous-sync): target 19",
+    "repair unverified start (previous-sync): target 20",
+    "repair unverified end (previous-sync): target 24",
+    "repair unverified start (previous-sync): target 25",
+    "repair unverified end (previous-sync): target 25"
+  ],
   "source": {
     "page": "历史书/列王纪上/王上19-22章.md",
     "audio": "1Ki19-22.mp3"
@@ -8,36 +42,84 @@
   "audioDuration": 1390.6808125,
   "cues": [
     {
-      "start": 6.39,
-      "end": 45.61,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "王上1922章",
-      "confidence": 0.8
-    },
-    {
-      "start": 45.61,
-      "end": 54.97,
-      "kind": "heading",
-      "targetIndex": 1,
-      "targetText": "第十九章以利亚的软弱与复兴",
-      "confidence": 0.95
-    },
-    {
-      "start": 54.97,
-      "end": 103.32,
+      "start": 1.81,
+      "end": 77.51,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "亲爱的长辈弟兄姊妹主内平安今天我们一起读了列王纪上十九到廿一章列王纪上共有廿二章我们把十九到廿二",
-      "confidence": 0.95
+      "confidence": 0.805,
+      "quality": {
+        "coverage": 0.793,
+        "coherentCoverage": 0.707,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 5,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 1.81,
+        "previousEnd": 77.51
+      }
     },
     {
-      "start": 103.32,
-      "end": 134.87,
+      "start": 77.51,
+      "end": 133.4,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "以利亚见这光景就起来逃命到了犹大的别是巴他是北国以色列的先知逃到了南国犹大的别是巴所以我们看见当",
-      "confidence": 0.661
+      "confidence": 0.897,
+      "quality": {
+        "coverage": 0.916,
+        "coherentCoverage": 0.846,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 77.51,
+        "previousEnd": 133.4
+      }
     },
     {
       "start": 134.87,
@@ -45,39 +127,167 @@
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "他说耶和华啊罢了求你取我的性命因为我不胜于我的列祖他与人比与列祖比觉得自己真的是太失败了所以我们",
-      "confidence": 0.851
+      "confidence": 0.863,
+      "quality": {
+        "coverage": 0.881,
+        "coherentCoverage": 0.815,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 134.87,
+        "previousEnd": 195.83
+      }
     },
     {
       "start": 195.83,
-      "end": 294.13,
+      "end": 295.61,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "19到21节是写到以利亚遇到以利沙在耕地的时候以利沙他赶着第十二对牛他是一个非常忙碌的人但是以利",
-      "confidence": 0.806
+      "confidence": 0.807,
+      "quality": {
+        "coverage": 0.814,
+        "coherentCoverage": 0.704,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 195.83,
+        "previousEnd": 295.61
+      }
     },
     {
-      "start": 294.13,
-      "end": 358.37,
+      "start": 297.03,
+      "end": 355.37,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "十九章最后一节写着以利沙起身跟随以利亚服侍他其实我们知道以利亚是以色列人的战车马兵是上帝所重用的",
-      "confidence": 0.842
+      "confidence": 0.858,
+      "quality": {
+        "coverage": 0.866,
+        "coherentCoverage": 0.817,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 297.03,
+        "previousEnd": 355.37
+      }
     },
     {
-      "start": 358.37,
-      "end": 363.15,
-      "kind": "heading",
-      "targetIndex": 7,
-      "targetText": "第二十章亚哈与亚兰王的争战",
-      "confidence": 0.95
-    },
-    {
-      "start": 363.15,
-      "end": 395.28,
+      "start": 357.09,
+      "end": 394.28,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "在列王纪上第二十章是写到亚兰王与以色列王亚哈的争战当时亚兰国非常地强盛他们提出非常无理的要求但是",
-      "confidence": 0.855
+      "confidence": 0.904,
+      "quality": {
+        "coverage": 0.904,
+        "coherentCoverage": 0.819,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 357.09,
+        "previousEnd": 394.28
+      }
     },
     {
       "start": 395.28,
@@ -85,55 +295,263 @@
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "在13节有一个先知来坚固以色列王亚哈的信心先知是这样说的耶和华如此说这一大群人你看见了吗今日我必",
-      "confidence": 0.93
+      "confidence": 0.93,
+      "quality": {
+        "coverage": 0.93,
+        "coherentCoverage": 0.923,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 395.28,
+        "previousEnd": 442.96
+      }
     },
     {
       "start": 442.96,
-      "end": 507.28,
+      "end": 506.04,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "然后亚兰王果然第二次来侵犯他们说以色列人的上帝是山上帝所以他们胜过我们但在平原与他们打仗我们必定",
-      "confidence": 0.916
+      "confidence": 0.921,
+      "quality": {
+        "coverage": 0.923,
+        "coherentCoverage": 0.891,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 442.96,
+        "previousEnd": 506.04
+      }
     },
     {
       "start": 507.28,
-      "end": 577.6,
+      "end": 575.47,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "在战场上我们发现以色列人与亚兰人对营交战的时候以色列人大大地杀败了亚兰人杀了亚兰人步兵十万其余的",
-      "confidence": 0.923
+      "confidence": 0.923,
+      "quality": {
+        "coverage": 0.925,
+        "coherentCoverage": 0.888,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 507.28,
+        "previousEnd": 575.47
+      }
     },
     {
       "start": 577.6,
-      "end": 663.22,
+      "end": 660.88,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "后面30节的下半节到最后我们发现亚兰王应该是上帝命定要灭绝的人42节但是亚哈王竟然把亚兰王便哈达",
-      "confidence": 0.78
+      "confidence": 0.836,
+      "quality": {
+        "coverage": 0.845,
+        "coherentCoverage": 0.733,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 577.6,
+        "previousEnd": 660.88
+      }
     },
     {
-      "start": 663.22,
-      "end": 664.56,
-      "kind": "heading",
-      "targetIndex": 13,
-      "targetText": "第二十一章",
-      "confidence": 0.95
-    },
-    {
-      "start": 664.56,
-      "end": 738.7,
+      "start": 661.88,
+      "end": 736.62,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "列王纪上第廿一章是亚哈他无理地夺去拿伯的葡萄园在这里我们看见因为拿伯的葡萄园靠近亚哈的王宫所以他",
-      "confidence": 0.843
+      "confidence": 0.85,
+      "quality": {
+        "coverage": 0.85,
+        "coherentCoverage": 0.786,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 661.88,
+        "previousEnd": 736.62
+      }
     },
     {
       "start": 738.7,
-      "end": 807.85,
+      "end": 806.43,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "下面就是讲到耶洗别她任意妄为让亚哈利用王的印宗教的这样的律法两个假见证人就使拿伯被杀了拿伯被石头",
-      "confidence": 0.822
+      "confidence": 0.822,
+      "quality": {
+        "coverage": 0.879,
+        "coherentCoverage": 0.752,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 738.7,
+        "previousEnd": 806.43
+      }
     },
     {
       "start": 807.85,
@@ -141,71 +559,357 @@
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "然后上帝的话就临到了以利亚让他去警告亚哈王宣判上帝必定要责罚他上帝藉着以利亚对亚哈说你要对他说耶",
-      "confidence": 0.857
+      "confidence": 0.862,
+      "quality": {
+        "coverage": 0.875,
+        "coherentCoverage": 0.822,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 807.85,
+        "previousEnd": 931.89
+      }
     },
     {
       "start": 931.89,
-      "end": 1028.48,
+      "end": 1026.76,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "在我们的眼中亚哈是何等地坏的一个王但是当他愿意真实自卑在上帝面前的时候我们的上帝真的愿意怜悯他在",
-      "confidence": 0.824
+      "confidence": 0.824,
+      "quality": {
+        "coverage": 0.827,
+        "coherentCoverage": 0.784,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 931.89,
+        "previousEnd": 1026.76
+      }
     },
     {
-      "start": 1028.48,
-      "end": 1030.3,
-      "kind": "heading",
-      "targetIndex": 18,
-      "targetText": "第二十二章",
-      "confidence": 0.95
-    },
-    {
-      "start": 1030.3,
-      "end": 1104.98,
+      "start": 1028.0,
+      "end": 1103.19,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "在第廿二章就是先知米该雅警告亚哈将要阵亡在这一章里面我重点想分享的就是这一个忠心的米该雅当众先知",
-      "confidence": 0.822
+      "confidence": 0.827,
+      "quality": {
+        "coverage": 0.831,
+        "coherentCoverage": 0.729,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1028.0,
+        "previousEnd": 1103.19
+      }
     },
     {
       "start": 1104.98,
-      "end": 1137.81,
+      "end": 1135.69,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "下面廿二章的第19节米该雅说的话里面我们看见他是一个实实在在看见当时有许多的人是说话引诱亚哈上基",
-      "confidence": 0.876
+      "confidence": 0.876,
+      "quality": {
+        "coverage": 0.881,
+        "coherentCoverage": 0.845,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1104.98,
+        "previousEnd": 1135.69
+      }
     },
     {
       "start": 1137.81,
-      "end": 1202.95,
+      "end": 1201.51,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "对一个不愿意领受先知米该雅对他警告的反而会觉得我要去打仗我执意要去上阵打仗你不说吉言你还单说凶言",
-      "confidence": 0.865
+      "confidence": 0.865,
+      "quality": {
+        "coverage": 0.898,
+        "coherentCoverage": 0.837,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1137.81,
+        "previousEnd": 1201.51
+      }
     },
     {
       "start": 1202.95,
-      "end": 1241.32,
+      "end": 1240.72,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "所以我们看见真的作一个上帝的忠心的仆人他明明是出于爱心出于忠心来劝告王前面有危险但是王不但不听反",
-      "confidence": 0.907
+      "confidence": 0.907,
+      "quality": {
+        "coverage": 0.903,
+        "coherentCoverage": 0.855,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1202.95,
+        "previousEnd": 1240.72
+      }
     },
     {
       "start": 1241.32,
-      "end": 1310.1,
+      "end": 1309.42,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "新约当中保罗也是这样在提摩太后书二章9节是这样说的我为这福音受苦难甚至被捆绑像犯人一样然而上帝的",
-      "confidence": 0.907
+      "confidence": 0.907,
+      "quality": {
+        "coverage": 0.916,
+        "coherentCoverage": 0.879,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1241.32,
+        "previousEnd": 1309.42
+      }
     },
     {
       "start": 1310.1,
-      "end": 1316.96,
+      "end": 1315.86,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "后来我们看见亚哈果然阵亡了",
-      "confidence": 0.929
+      "confidence": 0.929,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 0.769,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1310.1,
+        "previousEnd": 1315.86
+      }
     },
     {
       "start": 1316.96,
@@ -213,7 +917,36 @@
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "41节这里到50节这里说到犹大国王约沙法他是行耶和华眼中看为正的事的好王但是44节这一节约沙法与",
-      "confidence": 0.822
+      "confidence": 0.822,
+      "quality": {
+        "coverage": 0.85,
+        "coherentCoverage": 0.727,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 1316.96,
+        "previousEnd": 1387.08
+      }
     },
     {
       "start": 1387.08,
@@ -221,7 +954,58 @@
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "今天的信息就分享到这里感谢主",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1387.08,
+        "previousEnd": 1389.88
+      }
     }
-  ]
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 10,
+    "unverifiedEnds": 5,
+    "missingTargets": []
+  },
+  "repairFingerprint": "5413cd8a17b52d9913302889e019fea2afce07d4178bc361bf32cfa9cd5a7764",
+  "repairCueDigest": "5812a8d34169a4bae4e5902bfcff38e26d131b02a4c115cf9821542f75b7ff74"
 }

@@ -8,28 +8,86 @@
   "audioDuration": 195.6415625,
   "cues": [
     {
-      "start": 0.0,
-      "end": 6.43,
-      "kind": "heading",
-      "targetIndex": 52,
-      "targetText": "九月十一日",
-      "confidence": 1.0
-    },
-    {
       "start": 6.43,
       "end": 12.89,
       "kind": "paragraph",
       "targetIndex": 53,
       "targetText": "我就常与你们同在直到世界的末了太2820",
-      "confidence": 0.757
+      "confidence": 0.757,
+      "quality": {
+        "coverage": 0.7,
+        "coherentCoverage": 0.45,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.5,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 6.43,
+        "previousEnd": 12.89
+      }
     },
     {
-      "start": 12.89,
-      "end": 63.4,
+      "start": 27.32,
+      "end": 62.0,
       "kind": "paragraph",
       "targetIndex": 54,
       "targetText": "从字面上看耶稣的意思似乎是说我每一天都与你们同在他每天带给我们新的祝福每清晨他带着永不困倦的爱及",
-      "confidence": 0.723
+      "confidence": 0.891,
+      "quality": {
+        "coverage": 0.896,
+        "coherentCoverage": 0.833,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 12.89,
+        "previousEnd": 63.4
+      }
     },
     {
       "start": 63.4,
@@ -37,7 +95,40 @@
       "kind": "paragraph",
       "targetIndex": 55,
       "targetText": "然而我们经常不觉得他的同在就如他在往以马忤斯的路上没被那两个门徒认出来一样直到他温暖了我们的心使",
-      "confidence": 0.57
+      "confidence": 0.86,
+      "quality": {
+        "coverage": 0.86,
+        "coherentCoverage": 0.72,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 63.4,
+        "previousEnd": 106.67
+      }
     },
     {
       "start": 106.67,
@@ -45,7 +136,67 @@
       "kind": "paragraph",
       "targetIndex": 56,
       "targetText": "从主升天之后上帝使他的同在变得更加真实无论我们有没有与主同在的意识和证据像新约使徒在主升天之前的",
-      "confidence": 0.638
+      "confidence": 0.915,
+      "quality": {
+        "coverage": 0.915,
+        "coherentCoverage": 0.852,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 106.67,
+        "previousEnd": 152.35
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (4 trailing chars, coverage 0.500): target 53: …我就常与你们同在，直到世界的末了------太 28:20",
+    "unverified start anchor: target 53: …我就常与你们同在，直到世界的末了------太 28:20",
+    "unverified end anchor: target 53: …我就常与你们同在，直到世界的末了------太 28:20",
+    "unverified end anchor: target 55: 然而，我们经常不觉得他的同在，就如他在往以马忤斯的路上，没被那两个门徒认出来一样。直到他温暖了我",
+    "unverified end anchor: target 56: 从主升天之后，神使他的同在变得更加真实。无论我们有没有与主同在的意识和证据------像新约使徒",
+    "repair unverified start (previous-sync): target 53",
+    "repair unverified end (previous-sync): target 53",
+    "repair unverified end (previous-sync): target 55",
+    "repair unverified end (previous-sync): target 56"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 3,
+    "missingTargets": []
+  },
+  "repairFingerprint": "791a681ce0bade3187b3b8e27fe703a5fe27df30b81def3496b1772fc0fc3c33",
+  "repairCueDigest": "25822577305a53b22bd2aab08ced258bd58e4293f70fb153d403f5f2d34121d5"
 }

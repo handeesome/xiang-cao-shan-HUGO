@@ -1,6 +1,9 @@
 {
   "version": 1,
   "model": ".audio-sync-cache\\models\\small",
+  "alignmentMethod": "body-global-v3-boundary-anchors",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
   "source": {
     "page": "人的破碎与灵的出来/第九篇　拆毁后柔软的情形.md",
     "audio": "906.mp3"
@@ -8,20 +11,41 @@
   "audioDuration": 195.1463125,
   "cues": [
     {
-      "start": 1.82,
-      "end": 4.82,
-      "kind": "heading",
-      "targetIndex": 31,
-      "targetText": "应当刚强",
-      "confidence": 1.0
-    },
-    {
       "start": 4.82,
-      "end": 104.95,
+      "end": 104.11,
       "kind": "paragraph",
       "targetIndex": 32,
       "targetText": "外面的人必须被拆毁这一个我们没有法子装作也没有别的东西可以代替我们必须服在上帝大能的手下接受祂在",
-      "confidence": 0.949
+      "confidence": 0.949,
+      "quality": {
+        "coverage": 0.946,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true
+        }
+      }
     },
     {
       "start": 104.95,
@@ -29,7 +53,36 @@
       "kind": "paragraph",
       "targetIndex": 33,
       "targetText": "外面的人必须被拆毁里面的人才能自由这是学习事奉上帝的基本的路",
-      "confidence": 0.833
+      "confidence": 0.933,
+      "quality": {
+        "coverage": 0.933,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.867,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true
+        }
+      }
     }
   ]
 }

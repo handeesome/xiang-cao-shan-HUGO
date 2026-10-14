@@ -8,20 +8,51 @@
   "audioDuration": 356.1389375,
   "cues": [
     {
-      "start": 0.4,
-      "end": 4.14,
-      "kind": "heading",
-      "targetIndex": 23,
-      "targetText": "是人不是道理",
-      "confidence": 1.0
-    },
-    {
       "start": 4.14,
-      "end": 41.6,
+      "end": 39.84,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "我们不是学了道理就能作工基本的问题还是我们这个人如何作工的是我们这个人问题是在我们这个人在上帝面",
-      "confidence": 0.949
+      "confidence": 0.949,
+      "quality": {
+        "coverage": 0.938,
+        "coherentCoverage": 0.938,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 4.14,
+        "previousEnd": 41.6
+      }
     },
     {
       "start": 41.6,
@@ -29,15 +60,107 @@
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "上帝一直在我们身上作事虽然我们自己不清楚但上帝是天天在那里要打破我们多少年的痛苦多少年的难处多少",
-      "confidence": 0.937
+      "confidence": 0.937,
+      "quality": {
+        "coverage": 0.932,
+        "coherentCoverage": 0.908,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 41.6,
+        "previousEnd": 176.83
+      }
     },
     {
       "start": 176.83,
-      "end": 219.49,
+      "end": 219.83,
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "我们一切的遭遇都是有意义的一切的遭遇都是有上帝的安排的没有一个基督徒的事是偶然的是没有上帝的安排",
-      "confidence": 0.84
+      "confidence": 0.977,
+      "quality": {
+        "coverage": 0.981,
+        "coherentCoverage": 0.981,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 176.83,
+        "previousEnd": 219.49
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 25: 神一直在我们身上作事。虽然我们自己不清楚，但神是天天在那里要打破我们。多少年的痛苦，多少年的难处",
+    "repair unverified end (previous-sync): target 25"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "repairFingerprint": "24237467eb195968e271b81a6d74deb1e4502ff14383978085e195582c11e330",
+  "repairCueDigest": "c6a1810014466b72343211305288a3f62964144eab4ab7cb0a898b2c93fc4347"
 }

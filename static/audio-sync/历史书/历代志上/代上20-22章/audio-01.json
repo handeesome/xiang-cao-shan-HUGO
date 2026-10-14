@@ -1,6 +1,24 @@
 {
   "version": 1,
   "model": ".audio-sync-cache\\models\\small",
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 1: 亲爱的长辈弟兄姊妹，主内平安！今天我们一起读了历代志上第二十到廿二章。",
+    "unverified end anchor: target 1: 亲爱的长辈弟兄姊妹，主内平安！今天我们一起读了历代志上第二十到廿二章。",
+    "unverified start anchor: target 3: 历代志上二十章写道，大卫王，在约押率领军兵毁坏亚扪人的地、围攻拉巴的时候，大卫仍住在耶路撒冷。也",
+    "unverified start anchor: target 12: 当人用撒但藉着言语不断地激动你的心中的怒气的时候，如果我们照着天然的本性，那么撒但就会得逞，那么",
+    "unverified end anchor: target 15: 后面廿二章是讲到大卫筹建圣殿。他写了很多很多的预备、预备、预备，然后呢，他也用他的话语来劝勉所罗",
+    "unverified end anchor: target 16: 所以我们看见大卫真的，虽然他因为流了许多人的血、打了多次大仗，神不要他来建造殿宇，让他的儿子，就",
+    "unverified end anchor: target 17: 人生真的是劳苦愁烦，转眼成空，我们便如飞而去。但是我们有神，我们就可以常常靠在主爱的胸膛当中，享",
+    "repair unverified start (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified start (previous-sync): target 3",
+    "repair unverified start (previous-sync): target 12",
+    "repair unverified end (previous-sync): target 15",
+    "repair unverified end (previous-sync): target 16",
+    "repair unverified end (previous-sync): target 17"
+  ],
   "source": {
     "page": "历史书/历代志上/代上20-22章.md",
     "audio": "1Ch20-22.mp3"
@@ -13,47 +31,169 @@
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "亲爱的长辈弟兄姊妹主内平安今天我们一起读了历代志上第二十到廿二章",
-      "confidence": 0.95
+      "confidence": 0.762,
+      "quality": {
+        "coverage": 0.75,
+        "coherentCoverage": 0.562,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.875,
+        "suffixCoverage": 0.625,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 1.26,
+        "previousEnd": 8.46
+      }
     },
     {
-      "start": 9.08,
-      "end": 11.48,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "第二十章",
-      "confidence": 0.95
-    },
-    {
-      "start": 11.48,
-      "end": 90.02,
+      "start": 9.5,
+      "end": 85.86,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "历代志上二十章写道大卫王在约押率领军兵毁坏亚扪人的地围攻拉巴的时候大卫仍住在耶路撒冷也就是在这个",
-      "confidence": 0.95
+      "confidence": 0.835,
+      "quality": {
+        "coverage": 0.826,
+        "coherentCoverage": 0.767,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 9.5,
+        "previousEnd": 85.86
+      }
     },
     {
       "start": 90.02,
-      "end": 95.86,
+      "end": 94.26,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "4节后面也写到大卫他们的得胜",
-      "confidence": 0.88
+      "confidence": 0.88,
+      "quality": {
+        "coverage": 0.786,
+        "coherentCoverage": 0.786,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.857,
+        "suffixCoverage": 0.714,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 85.86,
+        "previousEnd": 94.26
+      }
     },
     {
-      "start": 95.86,
-      "end": 96.96,
-      "kind": "heading",
-      "targetIndex": 5,
-      "targetText": "第二十一章",
-      "confidence": 0.889
-    },
-    {
-      "start": 96.96,
-      "end": 183.41,
+      "start": 96.56,
+      "end": 182.05,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "廿一章这里是写到撒但起来攻击以色列人激动大卫数点他们在这里我们看见撒但牠是会攻击人的会激动人的所",
-      "confidence": 0.888
+      "confidence": 0.893,
+      "quality": {
+        "coverage": 0.891,
+        "coherentCoverage": 0.828,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 96.56,
+        "previousEnd": 182.05
+      }
     },
     {
       "start": 183.41,
@@ -61,95 +201,506 @@
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "当时大卫被撒但激动他就吩咐约押和民中的首领去数点以色列人当时约押也劝告他说愿耶和华使他的百姓比现",
-      "confidence": 0.716
+      "confidence": 0.831,
+      "quality": {
+        "coverage": 0.839,
+        "coherentCoverage": 0.743,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 183.41,
+        "previousEnd": 292.57
+      }
     },
     {
       "start": 292.57,
-      "end": 365.14,
+      "end": 364.26,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "所以我们好多的时候我们真的也是上帝量给我们环境我们真的如果不警醒的话我们这个败坏的天性是很容易被",
-      "confidence": 0.858
+      "confidence": 0.936,
+      "quality": {
+        "coverage": 0.936,
+        "coherentCoverage": 0.923,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 292.57,
+        "previousEnd": 364.26
+      }
     },
     {
       "start": 365.14,
-      "end": 474.71,
+      "end": 475.29,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "但是有时候撒但也会激动我们的心看我们曾经走过的路程当我们落在自怜自傲当中的时候其实也像大卫当时一",
-      "confidence": 0.825
+      "confidence": 0.885,
+      "quality": {
+        "coverage": 0.887,
+        "coherentCoverage": 0.861,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 365.14,
+        "previousEnd": 475.29
+      }
     },
     {
-      "start": 474.71,
-      "end": 629.97,
+      "start": 476.01,
+      "end": 629.31,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "所以当他选择情愿落在上帝的手里的时候上帝降瘟疫与以色列人以色列人就死了七万上帝差遣使者去灭耶路撒",
-      "confidence": 0.867
+      "confidence": 0.91,
+      "quality": {
+        "coverage": 0.909,
+        "coherentCoverage": 0.877,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 476.01,
+        "previousEnd": 629.31
+      }
     },
     {
       "start": 629.97,
-      "end": 726.32,
+      "end": 725.68,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "但是当我们来到上帝面前的时候我们想到我们的主是何等圣洁的上帝祂不求从人来的理解从人来的安慰只愿意",
-      "confidence": 0.813
+      "confidence": 0.869,
+      "quality": {
+        "coverage": 0.883,
+        "coherentCoverage": 0.847,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 629.97,
+        "previousEnd": 725.68
+      }
     },
     {
       "start": 726.32,
-      "end": 855.01,
+      "end": 853.57,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "当人用撒但藉着言语不断地激动你的心中的怒气的时候如果我们照着天然的本性那么撒但就会得逞那么我们心",
-      "confidence": 0.858
+      "confidence": 0.903,
+      "quality": {
+        "coverage": 0.904,
+        "coherentCoverage": 0.878,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 726.32,
+        "previousEnd": 853.57
+      }
     },
     {
       "start": 855.01,
-      "end": 963.57,
+      "end": 962.05,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "后来我们看见上帝降瘟疫后悔以后上帝的使者吩咐迦得去告诉大卫叫他在耶布斯人阿珥楠的禾场上为耶和华筑",
-      "confidence": 0.85
+      "confidence": 0.85,
+      "quality": {
+        "coverage": 0.859,
+        "coherentCoverage": 0.755,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 855.01,
+        "previousEnd": 962.05
+      }
     },
     {
-      "start": 963.57,
-      "end": 964.43,
-      "kind": "heading",
-      "targetIndex": 14,
-      "targetText": "第二十二章",
-      "confidence": 0.889
-    },
-    {
-      "start": 964.43,
-      "end": 1020.55,
+      "start": 962.05,
+      "end": 1020.99,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "后面廿二章是讲到大卫筹建圣殿他写了很多很多的预备预备预备然后呢他也用他的话语来劝勉所罗门让他能够",
-      "confidence": 0.739
+      "confidence": 0.859,
+      "quality": {
+        "coverage": 0.859,
+        "coherentCoverage": 0.799,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 962.05,
+        "previousEnd": 1020.99
+      }
     },
     {
-      "start": 1020.55,
+      "start": 1020.99,
       "end": 1129.38,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "所以我们看见大卫真的虽然他因为流了许多人的血打了多次大仗上帝不要他来建造殿宇让他的儿子就是所罗门",
-      "confidence": 0.763
+      "confidence": 0.839,
+      "quality": {
+        "coverage": 0.868,
+        "coherentCoverage": 0.821,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1020.99,
+        "previousEnd": 1129.38
+      }
     },
     {
       "start": 1129.38,
-      "end": 1240.4,
+      "end": 1239.9,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "人生真的是劳苦愁烦转眼成空我们便如飞而去但是我们有上帝我们就可以常常靠在主爱的胸膛当中享受属天的",
-      "confidence": 0.784
+      "confidence": 0.898,
+      "quality": {
+        "coverage": 0.898,
+        "coherentCoverage": 0.847,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1129.38,
+        "previousEnd": 1239.9
+      }
     },
     {
       "start": 1240.4,
-      "end": 1242.34,
+      "end": 1242.58,
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "感谢主今天的信息就分享到这里",
-      "confidence": 0.593
+      "confidence": 0.759,
+      "quality": {
+        "coverage": 0.786,
+        "coherentCoverage": 0.786,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.714,
+        "suffixCoverage": 0.857,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1240.4,
+        "previousEnd": 1242.58
+      }
     }
-  ]
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 3,
+    "unverifiedEnds": 4,
+    "missingTargets": []
+  },
+  "repairFingerprint": "f7454b08b176917b66be703b6a1369703f6b057a66f73484d628f17197c804e7",
+  "repairCueDigest": "d61a97c99018a8d587d5cd1348b303044cc664d95f815e642533b754d0b1bd75"
 }

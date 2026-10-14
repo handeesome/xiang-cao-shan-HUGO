@@ -8,36 +8,187 @@
   "audioDuration": 136.9183125,
   "cues": [
     {
-      "start": 0.2,
-      "end": 4.77,
-      "kind": "heading",
-      "targetIndex": 128,
-      "targetText": "十一月二十五日",
-      "confidence": 0.364
-    },
-    {
       "start": 4.77,
       "end": 12.85,
       "kind": "paragraph",
-      "targetIndex": 129,
+      "targetIndex": 163,
       "targetText": "所以时候未到甚么都不要论断只等主来林前45",
-      "confidence": 0.476
+      "confidence": 0.714,
+      "quality": {
+        "coverage": 0.714,
+        "coherentCoverage": 0.667,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 4.77,
+        "previousEnd": 12.85
+      },
+      "targetMigration": {
+        "previousTargetIndex": 129,
+        "targetIndex": 163,
+        "targetText": "所以时候未到甚么都不要论断只等主来林前45"
+      }
     },
     {
-      "start": 12.85,
-      "end": 53.59,
+      "start": 19.55,
+      "end": 53.87,
       "kind": "paragraph",
-      "targetIndex": 130,
+      "targetIndex": 164,
       "targetText": "一个论断的灵比起任何的心态更能阻止圣灵的工作在一次聚会结束后一位年轻的传道人走到我面前对我说起那",
-      "confidence": 0.616
+      "confidence": 0.882,
+      "quality": {
+        "coverage": 0.882,
+        "coherentCoverage": 0.827,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 12.85,
+        "previousEnd": 53.59
+      },
+      "targetMigration": {
+        "previousTargetIndex": 130,
+        "targetIndex": 164,
+        "targetText": "一个论断的灵比起任何的心态更能阻止圣灵的工作在一次聚会结束后一位年轻的传道人走到我面前对我说起那"
+      }
     },
     {
-      "start": 53.59,
-      "end": 109.89,
+      "start": 53.87,
+      "end": 110.47,
       "kind": "paragraph",
-      "targetIndex": 131,
+      "targetIndex": 165,
       "targetText": "我追问他一些详情他说我常坐在教堂里批评教会的活动反对这件事反对那件事在赞美和见证中找别人的语病无",
-      "confidence": 0.853
+      "confidence": 0.901,
+      "quality": {
+        "coverage": 0.904,
+        "coherentCoverage": 0.833,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "verified-transcript",
+        "previousStart": 53.59,
+        "previousEnd": 109.89
+      },
+      "targetMigration": {
+        "previousTargetIndex": 131,
+        "targetIndex": 165,
+        "targetText": "我追问他一些详情他说我常坐在教堂里批评教会的活动反对这件事反对那件事在赞美和见证中找别人的语病无"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 163: 所以，时候未到，甚么都不要论断，只等主来…------林前 4:5",
+    "unverified start anchor: target 165: 我追问他一些详情，他说: 「我常坐在教堂里批评教会的活动，反对这件事、反对那件事，在赞美和见证中",
+    "repair unverified end (previous-sync): target 163",
+    "repair unverified start (previous-verified-end): target 165"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 129,
+      "targetIndex": 163,
+      "targetText": "所以时候未到甚么都不要论断只等主来林前45"
+    },
+    {
+      "previousTargetIndex": 130,
+      "targetIndex": 164,
+      "targetText": "一个论断的灵比起任何的心态更能阻止圣灵的工作在一次聚会结束后一位年轻的传道人走到我面前对我说起那"
+    },
+    {
+      "previousTargetIndex": 131,
+      "targetIndex": 165,
+      "targetText": "我追问他一些详情他说我常坐在教堂里批评教会的活动反对这件事反对那件事在赞美和见证中找别人的语病无"
+    }
+  ],
+  "repairFingerprint": "cfcff04533d97cf3dbf23b3fb9301e5e354d6cfb3b0820702a1486fa0ca8f134",
+  "repairCueDigest": "37b25a284033fef5e7352188363a8f73f04558f7099461d0882196b8d134f29c"
 }

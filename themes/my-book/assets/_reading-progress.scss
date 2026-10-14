@@ -1,0 +1,44 @@
+.reading-resume-notice {
+  position: fixed;
+  bottom: calc(1rem + env(safe-area-inset-bottom));
+  inset-inline: 1rem;
+  z-index: 1100;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: fit-content;
+  max-width: calc(100% - 2rem);
+  margin-inline: auto;
+  padding: 0.25rem 0.5rem 0.25rem 0.75rem;
+  border: 1px solid var(--gray-200);
+  border-radius: var(--reading-panel-radius);
+  background: var(--body-background);
+  box-shadow: 0 0.25rem 1rem rgba(38, 51, 63, 0.1);
+  font-size: 0.8125rem;
+  line-height: 1.4;
+
+  button {
+    flex-shrink: 0;
+    min-width: 44px;
+    min-height: 44px;
+    padding: 0 0.25rem;
+    border: 0;
+    border-radius: var(--reading-control-radius);
+    background: transparent;
+    color: var(--color-link);
+    cursor: pointer;
+    font: inherit;
+
+    &:hover {
+      background: var(--gray-100);
+    }
+  }
+}
+
+.reading-resume-close {
+  font-size: 1.25rem !important;
+}
+
+.book-menu-open .reading-resume-notice {
+  visibility: hidden;
+}

@@ -8,28 +8,82 @@
   "audioDuration": 173.254625,
   "cues": [
     {
-      "start": 0.12,
-      "end": 3.48,
-      "kind": "heading",
-      "targetIndex": 32,
-      "targetText": "十一月七日",
-      "confidence": 0.5
-    },
-    {
       "start": 3.48,
       "end": 11.58,
       "kind": "paragraph",
       "targetIndex": 33,
       "targetText": "我必坚固你我必帮助你我必扶持你赛4110",
-      "confidence": 0.683
+      "confidence": 0.683,
+      "quality": {
+        "coverage": 0.7,
+        "coherentCoverage": 0.2,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 3.48,
+        "previousEnd": 11.58
+      }
     },
     {
-      "start": 11.58,
+      "start": 17.82,
       "end": 55.0,
       "kind": "paragraph",
       "targetIndex": 34,
       "targetText": "上帝用三种帮助我们的方法第一他说他必坚固我们换言之他会使我们更强壮第二他必帮助我们也就是说他会加",
-      "confidence": 0.887
+      "confidence": 0.899,
+      "quality": {
+        "coverage": 0.899,
+        "coherentCoverage": 0.807,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 11.58,
+        "previousEnd": 55.0
+      }
     },
     {
       "start": 55.0,
@@ -37,15 +91,106 @@
       "kind": "paragraph",
       "targetIndex": 35,
       "targetText": "当我们精疲力竭时他会以他的力量坚固我们在他里面最软弱的能变得最坚强最无助的能变成最能帮助人的疲乏",
-      "confidence": 0.753
+      "confidence": 0.753,
+      "quality": {
+        "coverage": 0.771,
+        "coherentCoverage": 0.47,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution",
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 55.0,
+        "previousEnd": 89.02
+      }
     },
     {
-      "start": 89.02,
+      "start": 91.68,
       "end": 115.62,
       "kind": "paragraph",
       "targetIndex": 36,
       "targetText": "虽然上帝的回答让我们觉得极为矛盾但却是最实际的真理无怪乎保罗会说我更喜欢夸自己的软弱好叫基督的能",
-      "confidence": 0.68
+      "confidence": 0.792,
+      "quality": {
+        "coverage": 0.84,
+        "coherentCoverage": 0.733,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 89.02,
+        "previousEnd": 115.62
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 33: …我必坚固你，我必帮助你，我必…扶持你------赛 41:10",
+    "unverified end anchor: target 33: …我必坚固你，我必帮助你，我必…扶持你------赛 41:10",
+    "unverified end anchor: target 34: 神用三种帮助我们的方法。第一、他说他必坚固我们。换言之，他会使我们更强壮。第二、他必帮助我们。也",
+    "unverified start anchor: target 35: 当我们精疲力竭时，他会以他的力量坚固我们。在他里面，最软弱的能变得最坚强，最无助的能变成最能帮助",
+    "unverified end anchor: target 35: 当我们精疲力竭时，他会以他的力量坚固我们。在他里面，最软弱的能变得最坚强，最无助的能变成最能帮助",
+    "unverified end anchor: target 36: 虽然神的回答让我们觉得极为矛盾，但却是最实际的真理。无怪乎保罗会说，「 …我更喜欢夸自己的软弱，",
+    "repair unverified start (previous-sync): target 33",
+    "repair unverified end (previous-sync): target 33",
+    "repair unverified end (previous-sync): target 34",
+    "repair unverified start (previous-sync): target 35",
+    "repair unverified end (previous-sync): target 35",
+    "repair unverified end (previous-sync): target 36"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 4,
+    "missingTargets": []
+  },
+  "repairFingerprint": "90a94ab01fe6e2c4640832972574bc453ce0bef17562496e5c97c13308de7338",
+  "repairCueDigest": "5b2e1711f865f1c9ed3d1ee91ca7672d25a47bc77c585584e621a3d842784d72"
 }

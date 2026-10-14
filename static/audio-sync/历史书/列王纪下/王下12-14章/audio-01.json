@@ -1,6 +1,32 @@
 {
   "version": 1,
   "model": ".audio-sync-cache\\models\\small",
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 2: 亲爱的长辈弟兄姊妹，主内平安。今天我们一起来分享列王纪下十二到十四章。十二章是讲犹大国王约阿施的",
+    "unverified start anchor: target 3: 第4节到16节，是在祭司耶何耶大还在的时候，约阿施所行的耶和华眼中看为正的一件事。他看见殿的一切",
+    "unverified end anchor: target 6: 还有在历代志下廿四章17到24节，也记载了约阿施另外的恶行，就是当「耶何耶大死后，犹大的众首领来",
+    "unverified end anchor: target 9: 我们来看列王纪下十三章。在列王纪下第十三章，首先是讲到以色列国王约哈斯。「约哈斯行耶和华眼中看为",
+    "unverified end anchor: target 11: 下面我们来看14节到21节，这里是写到以色列王约阿施去看望生病，并且这病必死的以利沙。以利沙让他",
+    "unverified end anchor: target 12: 但是我们发现，读下去的时候，这个约阿施只打了三次就止住了。所以神人向他发怒说：「应当击打五六次，",
+    "unverified end anchor: target 13: 21节，我们看见，以利沙他被埋葬以后，有人「把死人抛在以利沙的坟墓里，一碰着以利沙的骸骨，死人就",
+    "unverified start anchor: target 14: 下面22节、23节，是说到神的信实与恩慈。在「约哈斯年间，亚兰王哈薛屡次欺压以色列人。耶和华却因",
+    "unverified start anchor: target 15: 后面24节25节，就写到哈薛的儿子便哈达，他跟约阿施打仗的时候，约阿施就照以利沙的预言，三次打败",
+    "unverified end anchor: target 17: 下面我们来分享列王纪下第十四章。这章主要讲到犹大国王亚玛谢，他是「行耶和华眼中看为正的事，但不如",
+    "unverified start anchor: target 22: 今天的信息就分享到这里，感谢主。",
+    "repair unverified start (previous-sync): target 2",
+    "repair unverified start (previous-sync): target 3",
+    "repair unverified end (previous-sync): target 6",
+    "repair unverified end (previous-sync): target 9",
+    "repair unverified end (previous-sync): target 11",
+    "repair unverified end (previous-sync): target 12",
+    "repair unverified end (previous-sync): target 13",
+    "repair unverified start (previous-sync): target 14",
+    "repair unverified start (previous-sync): target 15",
+    "repair unverified end (previous-sync): target 17",
+    "repair unverified start (previous-sync): target 22"
+  ],
   "source": {
     "page": "历史书/列王纪下/王下12-14章.md",
     "audio": "2Ki12-14.mp3"
@@ -8,28 +34,45 @@
   "audioDuration": 1449.9406875,
   "cues": [
     {
-      "start": 6.05,
-      "end": 9.69,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "王下1214章",
-      "confidence": 0.95
-    },
-    {
-      "start": 9.69,
-      "end": 13.17,
-      "kind": "heading",
-      "targetIndex": 1,
-      "targetText": "第十二章约阿施修殿与晚年失败",
-      "confidence": 0.95
-    },
-    {
-      "start": 13.17,
-      "end": 78.37,
+      "start": 1.49,
+      "end": 77.55,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "亲爱的长辈弟兄姊妹主内平安今天我们一起来分享列王纪下十二到十四章十二章是讲犹大国王约阿施的可取之",
-      "confidence": 0.739
+      "confidence": 0.818,
+      "quality": {
+        "coverage": 0.818,
+        "coherentCoverage": 0.719,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1.49,
+        "previousEnd": 77.55
+      }
     },
     {
       "start": 78.37,
@@ -37,151 +80,753 @@
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "第4节到16节是在祭司耶何耶大还在的时候约阿施所行的耶和华眼中看为正的一件事他看见殿的一切破坏之",
-      "confidence": 0.812
+      "confidence": 0.864,
+      "quality": {
+        "coverage": 0.871,
+        "coherentCoverage": 0.83,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 78.37,
+        "previousEnd": 208.85
+      }
     },
     {
       "start": 208.85,
-      "end": 295.44,
+      "end": 292.72,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "其实我们国家那些专职的能够放下自己属世的工作专心来侍奉来作上帝的工作带动上帝的百姓更加地来明白上",
-      "confidence": 0.823
+      "confidence": 0.915,
+      "quality": {
+        "coverage": 0.913,
+        "coherentCoverage": 0.897,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 208.85,
+        "previousEnd": 292.72
+      }
     },
     {
       "start": 295.44,
-      "end": 358.1,
+      "end": 356.74,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "17到18节是约阿施的一次失败就是当亚兰王哈薛上来攻打迦特攻取了就定意上来攻打耶路撒冷的时候犹大",
-      "confidence": 0.898
+      "confidence": 0.898,
+      "quality": {
+        "coverage": 0.898,
+        "coherentCoverage": 0.865,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 295.44,
+        "previousEnd": 356.74
+      }
     },
     {
       "start": 358.1,
-      "end": 432.2,
+      "end": 432.6,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "还有在历代志下廿四章17到24节也记载了约阿施另外的恶行就是当耶何耶大死后犹大的众首领来朝拜王王",
-      "confidence": 0.732
+      "confidence": 0.819,
+      "quality": {
+        "coverage": 0.819,
+        "coherentCoverage": 0.758,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 358.1,
+        "previousEnd": 432.6
+      }
     },
     {
-      "start": 432.2,
-      "end": 522.04,
+      "start": 432.6,
+      "end": 520.76,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "在这段圣经我们可以看见约阿施他在耶何耶大死后他听从那些首领他离弃上帝的殿去侍奉外邦偶像然后上帝的",
-      "confidence": 0.786
+      "confidence": 0.789,
+      "quality": {
+        "coverage": 0.801,
+        "coherentCoverage": 0.736,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 432.6,
+        "previousEnd": 520.76
+      }
     },
     {
-      "start": 523.58,
-      "end": 525.62,
-      "kind": "heading",
-      "targetIndex": 8,
-      "targetText": "第十三章约哈斯与约阿施的治国",
-      "confidence": 0.95
-    },
-    {
-      "start": 526.86,
-      "end": 660.04,
+      "start": 522.04,
+      "end": 658.14,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "我们来看列王纪下十三章在列王纪下第十三章首先是讲到以色列国王约哈斯约哈斯行耶和华眼中看为恶的事效",
-      "confidence": 0.95
+      "confidence": 0.833,
+      "quality": {
+        "coverage": 0.834,
+        "coherentCoverage": 0.711,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 522.04,
+        "previousEnd": 658.14
+      }
     },
     {
       "start": 660.04,
-      "end": 755.35,
+      "end": 756.17,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "这使我想到在士师时代那时以色列人没有王各人任意而行他们所经历的就是一个恶性的循环就是犯罪的然后上",
-      "confidence": 0.808
+      "confidence": 0.869,
+      "quality": {
+        "coverage": 0.877,
+        "coherentCoverage": 0.83,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 660.04,
+        "previousEnd": 756.17
+      }
     },
     {
-      "start": 755.35,
-      "end": 822.23,
+      "start": 756.95,
+      "end": 823.01,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "下面我们来看14节到21节这里是写到以色列王约阿施去看望生病并且这病必死的以利沙以利沙让他射箭以",
-      "confidence": 0.818
+      "confidence": 0.821,
+      "quality": {
+        "coverage": 0.826,
+        "coherentCoverage": 0.756,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 756.95,
+        "previousEnd": 823.01
+      }
     },
     {
-      "start": 822.23,
-      "end": 876.78,
+      "start": 823.01,
+      "end": 878.52,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "但是我们发现读下去的时候这个约阿施只打了三次就止住了所以上帝人向他发怒说应当击打五六次就能攻打亚",
-      "confidence": 0.866
+      "confidence": 0.867,
+      "quality": {
+        "coverage": 0.865,
+        "coherentCoverage": 0.8,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 823.01,
+        "previousEnd": 878.52
+      }
     },
     {
-      "start": 876.78,
-      "end": 988.15,
+      "start": 879.38,
+      "end": 988.41,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "21节我们看见以利沙他被埋葬以后有人把死人抛在以利沙的坟墓里一碰着以利沙的骸骨死人就复活站起来了",
-      "confidence": 0.878
+      "confidence": 0.887,
+      "quality": {
+        "coverage": 0.896,
+        "coherentCoverage": 0.845,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution",
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 879.38,
+        "previousEnd": 988.41
+      }
     },
     {
-      "start": 988.15,
-      "end": 1070.19,
+      "start": 990.03,
+      "end": 1068.93,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "下面22节23节是说到上帝的信实与恩慈在约哈斯年间亚兰王哈薛屡次欺压以色列人耶和华却因与亚伯拉罕",
-      "confidence": 0.668
+      "confidence": 0.834,
+      "quality": {
+        "coverage": 0.838,
+        "coherentCoverage": 0.756,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 990.03,
+        "previousEnd": 1068.93
+      }
     },
     {
       "start": 1070.19,
-      "end": 1140.3,
+      "end": 1137.08,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "后面24节25节就写到哈薛的儿子便哈达他跟约阿施打仗的时候约阿施就照以利沙的预言三次打败哈薛的儿",
-      "confidence": 0.859
+      "confidence": 0.859,
+      "quality": {
+        "coverage": 0.865,
+        "coherentCoverage": 0.767,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1070.19,
+        "previousEnd": 1137.08
+      }
     },
     {
-      "start": 1140.3,
-      "end": 1142.62,
-      "kind": "heading",
-      "targetIndex": 16,
-      "targetText": "第十四章亚玛谢王的治国",
-      "confidence": 0.95
-    },
-    {
-      "start": 1142.62,
-      "end": 1217.26,
+      "start": 1137.08,
+      "end": 1217.4,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "下面我们来分享列王纪下第十四章这章主要讲到犹大国王亚玛谢他是行耶和华眼中看为正的事但不如他祖大卫",
-      "confidence": 0.697
+      "confidence": 0.824,
+      "quality": {
+        "coverage": 0.822,
+        "coherentCoverage": 0.729,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1137.08,
+        "previousEnd": 1217.4
+      }
     },
     {
-      "start": 1217.26,
+      "start": 1218.32,
       "end": 1252.58,
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "我们看见犹大国王亚玛谢他也是按法治国当时杀他父王的那些臣仆他杀了但是没有治死杀王之人的儿子是照摩",
-      "confidence": 0.852
+      "confidence": 0.856,
+      "quality": {
+        "coverage": 0.881,
+        "coherentCoverage": 0.832,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1218.32,
+        "previousEnd": 1252.58
+      }
     },
     {
       "start": 1252.58,
-      "end": 1340.69,
+      "end": 1339.28,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "然后他也胜了以东人在盐谷杀了以东人一万但是我们看见后来他就骄傲了心高气傲他就差遣人去见以色列王约",
-      "confidence": 0.773
+      "confidence": 0.85,
+      "quality": {
+        "coverage": 0.857,
+        "coherentCoverage": 0.829,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1252.58,
+        "previousEnd": 1339.28
+      }
     },
     {
       "start": 1340.69,
-      "end": 1391.79,
+      "end": 1392.29,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "后来这个亚玛谢也有人背叛他他就逃到拉吉叛党把他杀了就在拉吉那个地方把他给杀了所以我们看见犹大王亚",
-      "confidence": 0.865
+      "confidence": 0.872,
+      "quality": {
+        "coverage": 0.881,
+        "coherentCoverage": 0.843,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1340.69,
+        "previousEnd": 1392.29
+      }
     },
     {
-      "start": 1391.79,
+      "start": 1393.43,
       "end": 1446.33,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "接下来第27节耶和华并没有说要将以色列的名从天下涂抹乃藉约阿施的儿子耶罗波安拯救他们这里我们仍然",
-      "confidence": 0.798
+      "confidence": 0.872,
+      "quality": {
+        "coverage": 0.872,
+        "coherentCoverage": 0.786,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1393.43,
+        "previousEnd": 1446.33
+      }
     },
     {
       "start": 1446.33,
@@ -189,7 +834,52 @@
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "今天的信息就分享到这里感谢主",
-      "confidence": 0.714
+      "confidence": 0.929,
+      "quality": {
+        "coverage": 0.929,
+        "coherentCoverage": 0.714,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.857,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1446.33,
+        "previousEnd": 1449.29
+      }
     }
-  ]
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 5,
+    "unverifiedEnds": 6,
+    "missingTargets": []
+  },
+  "repairFingerprint": "f7cdfa6e596b1780a1326810b8b3d4bd323740bef92464b532d3136761606493",
+  "repairCueDigest": "dd69519398df92b4ee13a5f0d9521f288e6d114dacbf450eaf4a28e2205d8999"
 }

@@ -13,7 +13,46 @@
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "亲爱的弟兄姊妹",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 0.82,
+        "previousEnd": 2.14
+      }
     },
     {
       "start": 2.36,
@@ -21,7 +60,36 @@
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "主内平安",
-      "confidence": 0.857
+      "confidence": 0.857,
+      "quality": {
+        "coverage": 0.75,
+        "coherentCoverage": 0.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.5,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 2.36,
+        "previousEnd": 2.88
+      }
     },
     {
       "start": 3.42,
@@ -29,7 +97,40 @@
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "今天我们继续来分享耶利米书第7章到第9章",
-      "confidence": 0.8
+      "confidence": 0.8,
+      "quality": {
+        "coverage": 0.8,
+        "coherentCoverage": 0.45,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 3.42,
+        "previousEnd": 8.86
+      }
     },
     {
       "start": 13.4,
@@ -37,15 +138,91 @@
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "这是耶利米在圣殿的讲道他说到万军之耶和华以色列的上帝如此说你们改正行动作为我就使你们在这地方仍然",
-      "confidence": 0.834
+      "confidence": 0.834,
+      "quality": {
+        "coverage": 0.864,
+        "coherentCoverage": 0.84,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 4,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 13.4,
+        "previousEnd": 31.4
+      }
     },
     {
       "start": 32.48,
-      "end": 63.76,
+      "end": 69.36,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "这里说到上帝很明确的要我们有生命的实际也就是说我们不能单单觉得我已经是一个基督徒了是一个做礼拜的",
-      "confidence": 0.896
+      "confidence": 0.928,
+      "quality": {
+        "coverage": 0.94,
+        "coherentCoverage": 0.922,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 32.48,
+        "previousEnd": 63.76
+      }
     },
     {
       "start": 69.36,
@@ -53,7 +230,40 @@
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "后面是指责13节说到我从早起来警戒你们你们却不听从呼唤你们你们却不答应",
-      "confidence": 0.806
+      "confidence": 0.806,
+      "quality": {
+        "coverage": 0.829,
+        "coherentCoverage": 0.657,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.647,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 69.36,
+        "previousEnd": 78.84
+      }
     },
     {
       "start": 82.39,
@@ -61,15 +271,86 @@
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "21节说到你们听从我的话我就做你们的上帝你们也做我的子民你们行我所吩咐的一切道就可以得福",
-      "confidence": 0.953
+      "confidence": 0.953,
+      "quality": {
+        "coverage": 0.932,
+        "coherentCoverage": 0.886,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 82.39,
+        "previousEnd": 91.93
+      }
     },
     {
       "start": 92.73,
-      "end": 119.89,
+      "end": 120.13,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "24节说到他们却不听从不侧耳而听竟随从自己的计谋和顽梗的恶心向后不向前自从你们列祖出埃及地的那日",
-      "confidence": 0.559
+      "confidence": 0.849,
+      "quality": {
+        "coverage": 0.845,
+        "coherentCoverage": 0.738,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution",
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 92.73,
+        "previousEnd": 119.89
+      }
     },
     {
       "start": 120.93,
@@ -77,7 +358,40 @@
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "第27节又说到他们却不听从却不答应不听从耶和华上帝的话不受教训诚实灭绝",
-      "confidence": 0.783
+      "confidence": 0.783,
+      "quality": {
+        "coverage": 0.771,
+        "coherentCoverage": 0.657,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.706,
+        "suffixCoverage": 0.824,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 120.93,
+        "previousEnd": 131.31
+      }
     },
     {
       "start": 148.47,
@@ -85,7 +399,40 @@
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "求上帝怜悯我们现在我们说每个人圣经一本都不止现在是网络时代你要听道我们土话说各式各样也就是说真的",
-      "confidence": 0.733
+      "confidence": 0.733,
+      "quality": {
+        "coverage": 0.875,
+        "coherentCoverage": 0.73,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 148.47,
+        "previousEnd": 181.96
+      }
     },
     {
       "start": 192.72,
@@ -93,31 +440,130 @@
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "29节到34节是说到那种可怜的光景到那个时候地变为荒场尸首无处可藏尸首成为飞鸟野兽的食物无人哄赶",
-      "confidence": 0.693
+      "confidence": 0.693,
+      "quality": {
+        "coverage": 0.814,
+        "coherentCoverage": 0.729,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 192.72,
+        "previousEnd": 204.86
+      }
     },
     {
       "start": 206.18,
-      "end": 206.96,
-      "kind": "heading",
-      "targetIndex": 13,
-      "targetText": "第八章",
-      "confidence": 1.0
-    },
-    {
-      "start": 207.64,
       "end": 235.9,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "第8章是说到人倒不如飞鸟了空中的鹳鸟知道来去的定期斑鸠燕子与白鹤也守候当来的时令我的百姓却不知道",
-      "confidence": 0.748
+      "confidence": 0.759,
+      "quality": {
+        "coverage": 0.75,
+        "coherentCoverage": 0.714,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 207.64,
+        "previousEnd": 235.9
+      }
     },
     {
       "start": 236.26,
-      "end": 254.16,
+      "end": 255.82,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "其实说一声平安了是很容易但是如果说我们没有重生的生命没有真实的悔改没有生命的流露其实我们并没有真",
-      "confidence": 0.857
+      "confidence": 0.925,
+      "quality": {
+        "coverage": 0.969,
+        "coherentCoverage": 0.906,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 236.26,
+        "previousEnd": 254.16
+      }
     },
     {
       "start": 265.8,
@@ -125,7 +571,42 @@
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "第13节到17节是说到各样灾祸要吞灭居民",
-      "confidence": 0.811
+      "confidence": 0.811,
+      "quality": {
+        "coverage": 0.65,
+        "coherentCoverage": 0.65,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.3,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 7,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "discarded detached start matches"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 265.8,
+        "previousEnd": 271.94
+      }
     },
     {
       "start": 274.04,
@@ -133,7 +614,42 @@
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "18节到22节是耶利米再次为同胞感到哀伤他觉得日复一日月复一月年复一年人竟然还没有抓住机会悔改得",
-      "confidence": 0.861
+      "confidence": 0.861,
+      "quality": {
+        "coverage": 0.808,
+        "coherentCoverage": 0.753,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 274.04,
+        "previousEnd": 304.54
+      }
     },
     {
       "start": 305.36,
@@ -141,15 +657,89 @@
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "其实我们说年日过得真的是飞快一晃眼我也已经年过半百还有多少日子我们还活在这个世界上呢今朝脱了鞋和",
-      "confidence": 0.887
+      "confidence": 0.896,
+      "quality": {
+        "coverage": 0.904,
+        "coherentCoverage": 0.825,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 305.36,
+        "previousEnd": 342.22
+      }
     },
     {
       "start": 343.06,
-      "end": 372.88,
+      "end": 373.1,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "想到我们的家人我们的亲朋好友还有许许多多还被罪恶辖制还是做罪奴还没有完全脱离罪恶的权势还没有真正",
-      "confidence": 0.725
+      "confidence": 0.813,
+      "quality": {
+        "coverage": 0.817,
+        "coherentCoverage": 0.706,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 343.06,
+        "previousEnd": 372.88
+      }
     },
     {
       "start": 373.72,
@@ -157,7 +747,46 @@
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "我们耳熟能详的经文但是我们却还没有真实的悔改当主再来的时候那个时候要懊悔就已经来不及了就好像那个",
-      "confidence": 0.832
+      "confidence": 0.9,
+      "quality": {
+        "coverage": 0.92,
+        "coherentCoverage": 0.896,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 373.72,
+        "previousEnd": 450.37
+      }
     },
     {
       "start": 451.05,
@@ -165,7 +794,46 @@
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "这使我想到我们现在有上帝的话语可听但是如果我们现在不听劝我们觉得我们现在活在这一个繁华的时代当中",
-      "confidence": 0.909
+      "confidence": 0.909,
+      "quality": {
+        "coverage": 0.917,
+        "coherentCoverage": 0.893,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 451.05,
+        "previousEnd": 500.17
+      }
     },
     {
       "start": 500.17,
@@ -173,7 +841,46 @@
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "所以求上帝不断地光照我们怜悯我们唤醒我们但愿读上帝话语的和听上帝话语的以及我们一起来学习分享上帝",
-      "confidence": 0.885
+      "confidence": 0.897,
+      "quality": {
+        "coverage": 0.902,
+        "coherentCoverage": 0.829,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 500.17,
+        "previousEnd": 523.6
+      }
     },
     {
       "start": 525.01,
@@ -181,7 +888,46 @@
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "当先知看到许许多多百姓并没有真实地悔改在上帝面前的时候他就非常的忧伤说但愿我的头为水我的眼为泪的",
-      "confidence": 0.915
+      "confidence": 0.915,
+      "quality": {
+        "coverage": 0.908,
+        "coherentCoverage": 0.815,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 525.01,
+        "previousEnd": 543.05
+      }
     },
     {
       "start": 544.41,
@@ -189,7 +935,46 @@
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "上帝曾经借着摩西说我今日呼天唤地向你作见证我将生死祸福陈明在你面前所以你要拣选生命使你和你的后裔",
-      "confidence": 0.874
+      "confidence": 0.874,
+      "quality": {
+        "coverage": 0.874,
+        "coherentCoverage": 0.839,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 544.41,
+        "previousEnd": 571.29
+      }
     },
     {
       "start": 572.97,
@@ -197,7 +982,40 @@
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "摩西是呼天唤地的做见证将生死祸福陈明在当时的以色列民面前其实现在也是陈明在我们的面前让我们拣选生",
-      "confidence": 0.889
+      "confidence": 0.889,
+      "quality": {
+        "coverage": 0.889,
+        "coherentCoverage": 0.833,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 572.97,
+        "previousEnd": 598.35
+      }
     },
     {
       "start": 602.11,
@@ -205,15 +1023,87 @@
       "kind": "paragraph",
       "targetIndex": 27,
       "targetText": "耶利米书第9章13节却说到这百姓离弃我在他们面前所设立的律法没有遵行也没有听从我的话只随从自己顽",
-      "confidence": 0.5
+      "confidence": 0.788,
+      "quality": {
+        "coverage": 0.788,
+        "coherentCoverage": 0.652,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 602.11,
+        "previousEnd": 619.25
+      }
     },
     {
       "start": 620.05,
-      "end": 634.71,
+      "end": 636.05,
       "kind": "paragraph",
       "targetIndex": 28,
       "targetText": "上帝就说将茵陈将苦胆水给他们吃给他们喝刀剑要追杀他们直到将他们灭尽所以先知心里非常的伤痛非常的难",
-      "confidence": 0.463
+      "confidence": 0.796,
+      "quality": {
+        "coverage": 0.796,
+        "coherentCoverage": 0.633,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 620.05,
+        "previousEnd": 634.71
+      }
     },
     {
       "start": 640.49,
@@ -221,15 +1111,81 @@
       "kind": "paragraph",
       "targetIndex": 29,
       "targetText": "24节说到夸口的却因他有聪明认识我是耶和华又知道我喜悦在世上施行慈爱公平和公义以此夸口这是耶和华",
-      "confidence": 0.611
+      "confidence": 0.821,
+      "quality": {
+        "coverage": 0.82,
+        "coherentCoverage": 0.66,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 640.49,
+        "previousEnd": 650.45
+      }
     },
     {
-      "start": 651.61,
+      "start": 651.17,
       "end": 675.21,
       "kind": "paragraph",
       "targetIndex": 30,
       "targetText": "这使我们想到一节圣经保罗说但我断不以别的夸口只夸我们主耶稣基督的十字架因这十字架就我而论世界已经",
-      "confidence": 0.708
+      "confidence": 0.956,
+      "quality": {
+        "coverage": 0.956,
+        "coherentCoverage": 0.944,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 651.61,
+        "previousEnd": 675.21
+      }
     },
     {
       "start": 675.69,
@@ -237,7 +1193,40 @@
       "kind": "paragraph",
       "targetIndex": 31,
       "targetText": "这里说到我们的主耶稣基督他为我们钉十字架我们夸的是我们主耶稣基督十字架为我们成就的奇妙的救赎大功",
-      "confidence": 0.923
+      "confidence": 0.923,
+      "quality": {
+        "coverage": 0.935,
+        "coherentCoverage": 0.874,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 675.69,
+        "previousEnd": 747.58
+      }
     },
     {
       "start": 752.44,
@@ -245,15 +1234,87 @@
       "kind": "paragraph",
       "targetIndex": 32,
       "targetText": "耶利米书第9章最后说到因为列国人都没有受割礼以色列人心中也没有受割礼受割礼是说到弃绝罪归向上帝新",
-      "confidence": 0.708
+      "confidence": 0.708,
+      "quality": {
+        "coverage": 0.714,
+        "coherentCoverage": 0.571,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.55,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 752.44,
+        "previousEnd": 765.24
+      }
     },
     {
-      "start": 775.34,
+      "start": 766.18,
       "end": 804.2,
       "kind": "paragraph",
       "targetIndex": 33,
       "targetText": "求上帝不断地怜悯我们使我们真的不是那个心里未受割礼的人乃是能够心中受割礼弃绝罪归向上帝使我们在基",
-      "confidence": 0.798
+      "confidence": 0.853,
+      "quality": {
+        "coverage": 0.88,
+        "coherentCoverage": 0.768,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 775.34,
+        "previousEnd": 804.2
+      }
     },
     {
       "start": 804.68,
@@ -261,7 +1322,100 @@
       "kind": "paragraph",
       "targetIndex": 34,
       "targetText": "今天的信息就停到这里感谢主",
-      "confidence": 0.769
+      "confidence": 0.769,
+      "quality": {
+        "coverage": 0.769,
+        "coherentCoverage": 0.462,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.667,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 804.68,
+        "previousEnd": 807.18
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (1 leading chars, coverage 0.500): target 2: 主内平安！",
+    "unverified start anchor: target 2: 主内平安！",
+    "unverified end anchor: target 2: 主内平安！",
+    "unverified end anchor: target 3: 今天我们继续来分享《耶利米书》第7章到第9章。",
+    "incomplete start (4 leading chars, coverage 0.650): target 5: 这是耶利米在圣殿的讲道。他说到万军之耶和华，以色列的神如此说，你们改正行动作为，我就使你们在这地",
+    "unverified start anchor: target 5: 这是耶利米在圣殿的讲道。他说到万军之耶和华，以色列的神如此说，你们改正行动作为，我就使你们在这地",
+    "unverified start anchor: target 7: 后面是指责。13节说到，我从早起来警戒你们，你们却不听从，呼唤你们，你们却不答应。",
+    "unverified start anchor: target 8: 21节说到，你们听从我的话，我就做你们的神，你们也做我的子民，你们行我所吩咐的一切道，就可以得福",
+    "unverified start anchor: target 9: 24节说到，他们却不听从，不侧耳而听，竟随从自己的计谋和顽梗的恶心，向后不向前。自从你们列祖出埃",
+    "unverified start anchor: target 10: 第27节又说到，他们却不听从，却不答应，不听从耶和华神的话，不受教训，诚实灭绝。",
+    "unverified start anchor: target 11: 求神怜悯我们！现在我们说每个人圣经一本都不止，现在是网络时代，你要听道，我们土话说各式各样，也就",
+    "unverified start anchor: target 12: 29节到34节是说到那种可怜的光景。到那个时候，地变为荒场，尸首无处可藏，尸首成为飞鸟野兽的食物",
+    "incomplete start (7 leading chars, coverage 0.300): target 16: 第13节到17节是说到，各样灾祸要吞灭居民。",
+    "unverified start anchor: target 16: 第13节到17节是说到，各样灾祸要吞灭居民。",
+    "unverified start anchor: target 17: 18节到22节是耶利米再次为同胞感到哀伤，他觉得日复一日，月复一月，年复一年，人竟然还没有抓住机",
+    "unverified end anchor: target 18: 其实我们说，年日过得真的是飞快，一晃眼，我也已经年过半百，还有多少日子我们还活在这个世界上呢？今",
+    "unverified start anchor: target 25: 摩西是呼天唤地的做见证，将生死祸福陈明在当时的以色列民面前，其实现在也是陈明在我们的面前，让我们",
+    "unverified start anchor: target 27: 《耶利米书》第9章13节却说到，这百姓离弃我在他们面前所设立的律法，没有遵行，也没有听从我的话，",
+    "unverified start anchor: target 29: 24节说到，夸口的却因他有聪明，认识我是耶和华，又知道我喜悦在世上施行慈爱、公平和公义，以此夸口",
+    "unverified end anchor: target 29: 24节说到，夸口的却因他有聪明，认识我是耶和华，又知道我喜悦在世上施行慈爱、公平和公义，以此夸口",
+    "unverified start anchor: target 31: 这里说到我们的主耶稣基督，他为我们钉十字架，我们夸的是我们主耶稣基督十字架为我们成就的奇妙的救赎",
+    "unverified end anchor: target 32: 《耶利米书》第9章最后说到，因为列国人都没有受割礼，以色列人心中也没有受割礼。受割礼是说到弃绝罪",
+    "unverified start anchor: target 34: 今天的信息就停到这里，感谢主！",
+    "repair unverified start (previous-sync): target 2",
+    "repair unverified end (previous-sync): target 2",
+    "repair unverified end (previous-sync): target 3",
+    "repair unverified start (previous-sync): target 5",
+    "repair unverified start (previous-sync): target 7",
+    "repair unverified start (previous-sync): target 8",
+    "repair unverified start (previous-sync): target 9",
+    "repair unverified start (previous-sync): target 10",
+    "repair unverified start (previous-sync): target 11",
+    "repair unverified start (previous-sync): target 12",
+    "repair unverified end (previous-sync): target 14",
+    "repair unverified start (previous-sync): target 16",
+    "repair unverified start (previous-sync): target 17",
+    "repair unverified end (previous-sync): target 18",
+    "repair unverified start (previous-sync): target 25",
+    "repair unverified start (previous-sync): target 27",
+    "repair unverified start (previous-sync): target 29",
+    "repair unverified end (previous-sync): target 29",
+    "repair unverified start (previous-sync): target 31",
+    "repair unverified end (previous-sync): target 32",
+    "repair unverified start (previous-sync): target 34"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 3,
+    "updatedEnds": 5,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 15,
+    "unverifiedEnds": 6,
+    "missingTargets": []
+  },
+  "repairFingerprint": "d2c46496e914f3e85bdb42f0602dd582602cf40408b7f0ea520811dc7b3a12f2",
+  "repairCueDigest": "4f8524aa32af06c3f1b800df75086f87f4cb62a82a4e33596ab060f0141375bc"
 }

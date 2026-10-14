@@ -8,36 +8,188 @@
   "audioDuration": 153.6366875,
   "cues": [
     {
-      "start": 0.0,
-      "end": 4.46,
-      "kind": "heading",
-      "targetIndex": 88,
-      "targetText": "六月十八日",
-      "confidence": 1.0
-    },
-    {
       "start": 4.46,
       "end": 8.54,
       "kind": "paragraph",
-      "targetIndex": 89,
+      "targetIndex": 98,
       "targetText": "我现在办理大工不能下去尼63",
-      "confidence": 0.64
+      "confidence": 0.8,
+      "quality": {
+        "coverage": 0.714,
+        "coherentCoverage": 0.714,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.857,
+        "suffixCoverage": 0.571,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 4.46,
+        "previousEnd": 8.54
+      },
+      "targetMigration": {
+        "previousTargetIndex": 89,
+        "targetIndex": 98,
+        "targetText": "我现在办理大工不能下去尼63"
+      }
     },
     {
-      "start": 8.54,
-      "end": 99.73,
+      "start": 17.52,
+      "end": 99.03,
       "kind": "paragraph",
-      "targetIndex": 90,
+      "targetIndex": 99,
       "targetText": "当大事紧迫时我们往往会遇到一些仿佛要使人分心的小事如果我们能安静不动把那些小事交托上帝继续工作我",
-      "confidence": 0.649
+      "confidence": 0.888,
+      "quality": {
+        "coverage": 0.888,
+        "coherentCoverage": 0.857,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 8.54,
+        "previousEnd": 99.73
+      },
+      "targetMigration": {
+        "previousTargetIndex": 90,
+        "targetIndex": 99,
+        "targetText": "当大事紧迫时我们往往会遇到一些仿佛要使人分心的小事如果我们能安静不动把那些小事交托上帝继续工作我"
+      }
     },
     {
       "start": 99.73,
       "end": 132.35,
       "kind": "paragraph",
-      "targetIndex": 91,
+      "targetIndex": 100,
       "targetText": "敌人不断地阻挡尼希米的工作参巴拉甚至四次到尼希米那里去然而尼希米总是给他同样的答复有多少时候我们",
-      "confidence": 0.862
+      "confidence": 0.892,
+      "quality": {
+        "coverage": 0.888,
+        "coherentCoverage": 0.776,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 99.73,
+        "previousEnd": 132.35
+      },
+      "targetMigration": {
+        "previousTargetIndex": 91,
+        "targetIndex": 100,
+        "targetText": "敌人不断地阻挡尼希米的工作参巴拉甚至四次到尼希米那里去然而尼希米总是给他同样的答复有多少时候我们"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 100: 敌人不断地阻挡尼希米的工作，参巴拉甚至四次到尼希米那里去，然而尼希米总是给他同样的答复。有多少时",
+    "repair unverified end (previous-sync): target 98",
+    "repair unverified start (previous-sync): target 100"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 89,
+      "targetIndex": 98,
+      "targetText": "我现在办理大工不能下去尼63"
+    },
+    {
+      "previousTargetIndex": 90,
+      "targetIndex": 99,
+      "targetText": "当大事紧迫时我们往往会遇到一些仿佛要使人分心的小事如果我们能安静不动把那些小事交托上帝继续工作我"
+    },
+    {
+      "previousTargetIndex": 91,
+      "targetIndex": 100,
+      "targetText": "敌人不断地阻挡尼希米的工作参巴拉甚至四次到尼希米那里去然而尼希米总是给他同样的答复有多少时候我们"
+    }
+  ],
+  "repairFingerprint": "c550430a6e55a4ef6836b54b50c7934fc847367e52ad1eda648a88714d33e607",
+  "repairCueDigest": "cf8d481991de61945a56145db940a415b7027ebbda08d1895acce373d52fc574"
 }

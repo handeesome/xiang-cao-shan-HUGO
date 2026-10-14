@@ -3,7 +3,9 @@
 
   <article class="markdown book-article">
     {{ if .Params.showChildrenList }}
+      {{ if not (findRE "(?i)<h1(?:\\s|>)" .Content 1) }}
       <h1>{{ .Title }}</h1>
+      {{ end }}
       {{ .Content }}
       <ul class="children-list">
         {{ range .Pages.ByWeight }}

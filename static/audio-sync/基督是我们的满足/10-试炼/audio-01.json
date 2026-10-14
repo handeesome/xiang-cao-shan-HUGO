@@ -8,28 +8,88 @@
   "audioDuration": 327.6644375,
   "cues": [
     {
-      "start": 10.96,
-      "end": 20.02,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第十周试炼",
-      "confidence": 1.0
-    },
-    {
       "start": 20.02,
       "end": 26.22,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "因为主所爱的他必管教来126",
-      "confidence": 0.667
+      "confidence": 0.529,
+      "quality": {
+        "coverage": 0.643,
+        "coherentCoverage": 0.286,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.857,
+        "suffixCoverage": 0.429,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 20.02,
+        "previousEnd": 26.22
+      }
     },
     {
       "start": 26.22,
-      "end": 33.02,
+      "end": 32.26,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "诗苦难中有安舒试炼表明上帝爱",
-      "confidence": 0.857
+      "confidence": 0.857,
+      "quality": {
+        "coverage": 0.857,
+        "coherentCoverage": 0.857,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.714,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 26.22,
+        "previousEnd": 33.02
+      }
     },
     {
       "start": 33.02,
@@ -37,55 +97,315 @@
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "地上苦难证出慰藉是凭祂爱",
-      "confidence": 0.667
+      "confidence": 0.667,
+      "quality": {
+        "coverage": 0.667,
+        "coherentCoverage": 0.417,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.833,
+        "suffixCoverage": 0.5,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 33.02,
+        "previousEnd": 38.56
+      }
     },
     {
       "start": 38.56,
-      "end": 69.5,
+      "end": 69.74,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "基督从来没有使人无故受损伤除非祂是要藉损伤来把我的心与灵和祂有更紧密的连结若能对祂的自己和祂的大",
-      "confidence": 0.873
+      "confidence": 0.869,
+      "quality": {
+        "coverage": 0.878,
+        "coherentCoverage": 0.806,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution",
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 38.56,
+        "previousEnd": 69.5
+      }
     },
     {
-      "start": 69.5,
-      "end": 103.14,
+      "start": 71.0,
+      "end": 101.76,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "没有一个人能平安顺利的经过一生其不同之点只有程度的问题总之平安顺利都是暂时性且因为需要才有的但请",
-      "confidence": 0.95
+      "confidence": 0.955,
+      "quality": {
+        "coverage": 0.95,
+        "coherentCoverage": 0.95,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 69.5,
+        "previousEnd": 103.14
+      }
     },
     {
       "start": 103.14,
-      "end": 149.32,
+      "end": 149.54,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "我们时常觉得最不容易将愁苦带到上帝面前去有的人可能这样说我的苦痛是自己犯罪的果子怎能把它带到上帝",
-      "confidence": 0.799
+      "confidence": 0.928,
+      "quality": {
+        "coverage": 0.922,
+        "coherentCoverage": 0.902,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 103.14,
+        "previousEnd": 149.32
+      }
     },
     {
-      "start": 149.32,
+      "start": 150.78,
       "end": 162.2,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "圣徒无论落在什么样的光景中都有权利可以来到上帝面前寻求恩典作随时的帮助",
-      "confidence": 0.686
+      "confidence": 0.812,
+      "quality": {
+        "coverage": 0.8,
+        "coherentCoverage": 0.714,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.882,
+        "suffixCoverage": 0.706,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 149.32,
+        "previousEnd": 162.2
+      }
     },
     {
       "start": 162.2,
-      "end": 177.28,
+      "end": 176.32,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "这一次疾病使我觉得非常快乐在病痛中由于看到我将永远与上帝同在我越发感到天和上帝的胸怀乃是我的家",
-      "confidence": 0.968
+      "confidence": 0.968,
+      "quality": {
+        "coverage": 0.957,
+        "coherentCoverage": 0.872,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 162.2,
+        "previousEnd": 177.28
+      }
     },
     {
       "start": 177.28,
-      "end": 202.08,
+      "end": 200.68,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "骄傲与强项不是抵挡苦难的好工具因为不能带领心灵亲近主反而叫人拒绝上帝苦难沉重达于极点一切都没办法",
-      "confidence": 0.905
+      "confidence": 0.905,
+      "quality": {
+        "coverage": 0.905,
+        "coherentCoverage": 0.878,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 177.28,
+        "previousEnd": 202.08
+      }
     },
     {
       "start": 202.08,
@@ -93,23 +413,140 @@
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "我们若把所有的难处完完全全的交给上帝与祂祂共同经历一切的话我们的心就有完全的自由和喜乐而转过来看",
-      "confidence": 0.95
+      "confidence": 0.95,
+      "quality": {
+        "coverage": 0.941,
+        "coherentCoverage": 0.941,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 202.08,
+        "previousEnd": 216.1
+      }
     },
     {
       "start": 216.1,
-      "end": 236.86,
+      "end": 235.98,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "一个真心信托主的人遇见试炼时信心顶自然的超向就是进到信心源头和使我有盼望的上帝那里去并且信靠上帝",
-      "confidence": 0.947
+      "confidence": 0.947,
+      "quality": {
+        "coverage": 0.94,
+        "coherentCoverage": 0.925,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 216.1,
+        "previousEnd": 236.86
+      }
     },
     {
       "start": 236.86,
-      "end": 262.6,
+      "end": 261.32,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "我们若回顾已往的经历就会为过去许多的试炼而感谢主过于为其他的事而谢恩上帝是进入我们一切环境中的上",
-      "confidence": 0.977
+      "confidence": 0.977,
+      "quality": {
+        "coverage": 0.977,
+        "coherentCoverage": 0.977,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 236.86,
+        "previousEnd": 262.6
+      }
     },
     {
       "start": 262.6,
@@ -117,7 +554,71 @@
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "时候将到所有的苦难都要成为过去留下的是我们的好友主自己这一位乃是真实可靠的良友祂既曾经进入我心中",
-      "confidence": 0.94
+      "confidence": 0.94,
+      "quality": {
+        "coverage": 0.94,
+        "coherentCoverage": 0.896,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 262.6,
+        "previousEnd": 285.8
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (3 trailing chars, coverage 0.429): target 1: “因为主所爱的，他必管教。”（来 12:6）",
+    "low confidence (0.529, coverage 0.643): target 1: “因为主所爱的，他必管教。”（来 12:6）",
+    "unverified start anchor: target 1: “因为主所爱的，他必管教。”（来 12:6）",
+    "unverified end anchor: target 1: “因为主所爱的，他必管教。”（来 12:6）",
+    "incomplete end (0 trailing chars, coverage 0.500): target 3: 地上苦难证出，慰藉是凭祂爱。",
+    "unverified end anchor: target 3: 地上苦难证出，慰藉是凭祂爱。",
+    "unverified end anchor: target 7: 圣徒无论落在什么样的光景中，都有权利可以来到神面前，寻求恩典作随时的帮助。",
+    "unverified start anchor: target 8: 这一次疾病使我觉得非常快乐，在病痛中，由于看到我将永远与神同在，我越发感到天和神的胸怀乃是我的家",
+    "unverified end anchor: target 13: 时候将到，所有的苦难都要成为过去，留下的是我们的好友 ── 主自己。这一位乃是真实可靠的良友，祂",
+    "repair unverified start (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 3",
+    "repair unverified end (previous-sync): target 7",
+    "repair unverified start (previous-sync): target 8",
+    "repair unverified end (previous-sync): target 13"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 8,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 4,
+    "missingTargets": []
+  },
+  "repairFingerprint": "8cde97d0c06d5bb759dcdfc1b2c004ba0ab4869b7ba4633a5780b8f6d3060ece",
+  "repairCueDigest": "93acf445ba1b4afb045ac734b4a709b8e5abb50c34b8ed006781fe40f2f24598"
 }

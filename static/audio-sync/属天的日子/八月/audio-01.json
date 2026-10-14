@@ -8,28 +8,114 @@
   "audioDuration": 165.522375,
   "cues": [
     {
-      "start": 28.26,
-      "end": 29.42,
-      "kind": "heading",
-      "targetIndex": 1,
-      "targetText": "八月一日",
-      "confidence": 0.25
-    },
-    {
-      "start": 29.42,
+      "start": 26.24,
       "end": 100.02,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "我们在世的劳苦和试炼总有一天会结束当审判的日子来到时我们会听到自己的名字在众人的面前被点到甚至连",
-      "confidence": 0.584
+      "confidence": 0.892,
+      "quality": {
+        "coverage": 0.89,
+        "coherentCoverage": 0.846,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 29.42,
+        "previousEnd": 100.02
+      }
     },
     {
-      "start": 100.02,
+      "start": 109.52,
       "end": 140.18,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "亲爱的朋友让我们每天都在生活的记录册上加添更多的页数记得我们的每一个行动全决定在我们手中很快地这",
-      "confidence": 0.714
+      "confidence": 0.881,
+      "quality": {
+        "coverage": 0.886,
+        "coherentCoverage": 0.807,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 100.02,
+        "previousEnd": 140.18
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 2: 因为我们众人，必要在基督台前显露出来，叫各人按着本身所行的，或善或恶受报------林后 5:1",
+    "unverified end anchor: target 3: 我们在世的劳苦和试炼总有一天会结束。当审判的日子来到时 ，我们会听到自己的名字在众人的面前被点到",
+    "repair missing cue (unverified): target 2",
+    "repair unverified end (previous-sync): target 3"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": [
+      2
+    ]
+  },
+  "repairFingerprint": "cbfece827226865923494c30e41b935b885ef4bd7dea20278c80a0f022c3ce8d",
+  "repairCueDigest": "6721536fc3b49071b001b5fe75296769efa7b381d940f1989a835af87d61cb1e"
 }

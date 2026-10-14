@@ -8,44 +8,231 @@
   "audioDuration": 162.7795625,
   "cues": [
     {
-      "start": 0.16,
-      "end": 4.86,
-      "kind": "heading",
-      "targetIndex": 141,
-      "targetText": "六月二十八日",
-      "confidence": 0.909
-    },
-    {
       "start": 4.86,
       "end": 7.76,
       "kind": "paragraph",
-      "targetIndex": 142,
+      "targetIndex": 157,
       "targetText": "那靠着良人的歌85",
-      "confidence": 0.533
+      "confidence": 0.533,
+      "quality": {
+        "startVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endVerified": false,
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "reviewRequired": true
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 4.86,
+        "previousEnd": 7.76
+      },
+      "targetMigration": {
+        "previousTargetIndex": 142,
+        "targetIndex": 157,
+        "targetText": "那靠着良人的歌85"
+      }
     },
     {
-      "start": 7.76,
+      "start": 12.9,
       "end": 55.92,
       "kind": "paragraph",
-      "targetIndex": 143,
+      "targetIndex": 158,
       "targetText": "在最后晚餐时约翰将自己全身的重量倚靠在耶稣胸前我们也能像约翰那样地靠近主吗其实这正是上帝要我们向",
-      "confidence": 0.644
+      "confidence": 0.924,
+      "quality": {
+        "coverage": 0.924,
+        "coherentCoverage": 0.924,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 7.76,
+        "previousEnd": 55.92
+      },
+      "targetMigration": {
+        "previousTargetIndex": 143,
+        "targetIndex": 158,
+        "targetText": "在最后晚餐时约翰将自己全身的重量倚靠在耶稣胸前我们也能像约翰那样地靠近主吗其实这正是上帝要我们向"
+      }
     },
     {
       "start": 55.92,
-      "end": 95.14,
+      "end": 94.32,
       "kind": "paragraph",
-      "targetIndex": 144,
+      "targetIndex": 159,
       "targetText": "耶稣曾说你们要将一切的忧虑卸给上帝因为他顾念你们彼前57上帝要我们藉着毫无保留的信任他来证明我们",
-      "confidence": 0.588
+      "confidence": 0.859,
+      "quality": {
+        "coverage": 0.88,
+        "coherentCoverage": 0.819,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 55.92,
+        "previousEnd": 95.14
+      },
+      "targetMigration": {
+        "previousTargetIndex": 144,
+        "targetIndex": 159,
+        "targetText": "耶稣曾说你们要将一切的忧虑卸给上帝因为他顾念你们彼前57上帝要我们藉着毫无保留的信任他来证明我们"
+      }
     },
     {
       "start": 95.14,
       "end": 135.16,
       "kind": "paragraph",
-      "targetIndex": 145,
+      "targetIndex": 160,
       "targetText": "让我们藉着完全全靠他以他为灵粮而继续前进因为约翰不仅紧靠着主且以他为灵粮这也是以他为灵粮的秘诀也",
-      "confidence": 0.771
+      "confidence": 0.78,
+      "quality": {
+        "coverage": 0.757,
+        "coherentCoverage": 0.645,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.5,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 7,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 95.14,
+        "previousEnd": 135.16
+      },
+      "targetMigration": {
+        "previousTargetIndex": 145,
+        "targetIndex": 160,
+        "targetText": "让我们藉着完全全靠他以他为灵粮而继续前进因为约翰不仅紧靠着主且以他为灵粮这也是以他为灵粮的秘诀也"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (0 leading chars, coverage 0.500): target 157: 那靠着良人…的…------歌 8:5",
+    "incomplete end (3 trailing chars, coverage 0.250): target 157: 那靠着良人…的…------歌 8:5",
+    "low confidence (0.381, coverage 0.444): target 157: 那靠着良人…的…------歌 8:5",
+    "unverified start anchor: target 157: 那靠着良人…的…------歌 8:5",
+    "unverified end anchor: target 157: 那靠着良人…的…------歌 8:5",
+    "unmatched (fragment only): target 157: 那靠着良人…的…------歌 8:5",
+    "unverified start anchor: target 159: 耶稣曾说: 「 你们要将一切的忧虑卸给神，因为他顾念你们。 」(彼前 5:7 ) 神要我们藉着毫",
+    "incomplete end (7 trailing chars, coverage 0.500): target 160: 让我们藉着完全全靠他，以他为灵粮而继续前进。因为约翰不仅紧靠着主，且以他为灵粮。这也是以他为灵粮",
+    "unverified end anchor: target 160: 让我们藉着完全全靠他，以他为灵粮而继续前进。因为约翰不仅紧靠着主，且以他为灵粮。这也是以他为灵粮",
+    "repair unverified start (previous-sync): target 157",
+    "repair unverified end (previous-sync): target 157",
+    "repair unverified start (previous-sync): target 159",
+    "repair unverified end (previous-sync): target 160"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 142,
+      "targetIndex": 157,
+      "targetText": "那靠着良人的歌85"
+    },
+    {
+      "previousTargetIndex": 143,
+      "targetIndex": 158,
+      "targetText": "在最后晚餐时约翰将自己全身的重量倚靠在耶稣胸前我们也能像约翰那样地靠近主吗其实这正是上帝要我们向"
+    },
+    {
+      "previousTargetIndex": 144,
+      "targetIndex": 159,
+      "targetText": "耶稣曾说你们要将一切的忧虑卸给上帝因为他顾念你们彼前57上帝要我们藉着毫无保留的信任他来证明我们"
+    },
+    {
+      "previousTargetIndex": 145,
+      "targetIndex": 160,
+      "targetText": "让我们藉着完全全靠他以他为灵粮而继续前进因为约翰不仅紧靠着主且以他为灵粮这也是以他为灵粮的秘诀也"
+    }
+  ],
+  "repairFingerprint": "cd62f92b694e6fe948a1255933ace6756e9b2b4f70839c8fc6f1e7ffd092e4a3",
+  "repairCueDigest": "73a1b7c84f8fd8e4eb859031dae77bd4d11b3ebbf9207efa3ee03325a4d79463"
 }

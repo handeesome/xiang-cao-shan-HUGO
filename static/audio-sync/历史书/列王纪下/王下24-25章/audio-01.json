@@ -1,6 +1,29 @@
 {
   "version": 1,
   "model": ".audio-sync-cache\\models\\small",
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unmatched: target 2: 犹大国因离弃耶和华侍奉别神，经约雅敬、约雅斤等恶王统治，最终被巴比伦灭亡，体现了神的管教与审判。",
+    "unverified start anchor: target 4: 读完列王的历史，我们不禁感慨万分，犹大国最后灭亡，圣殿被毁，财物被抢，城墙被拆毁，官员遭杀害，好",
+    "unverified end anchor: target 8: 其实我们的神要让我们真的来投靠我们的神。犹大国王约雅敬起先将金银给法老尼哥，投靠他；后来他又服侍",
+    "unverified start anchor: target 14: 在列王纪下廿四章8到17节，是第二次被掳。这时是犹大国王约雅斤，他也是行耶和华眼中看为恶的事。第",
+    "incomplete start (4 leading chars, coverage 0.800): target 15: 在这两章，在这一章里和下面的一章，我们都可以看出，我们的神为什么容许灾祸临到祂的子民？我们的神为",
+    "unverified start anchor: target 15: 在这两章，在这一章里和下面的一章，我们都可以看出，我们的神为什么容许灾祸临到祂的子民？我们的神为",
+    "unverified start anchor: target 16: 廿四章第3节说到，玛拿西所犯的一切罪，流无辜人的血；还有其他各王的――行耶和华眼中看为恶的事。在",
+    "unverified start anchor: target 18: 廿五章是讲到耶路撒冷陷落，犹大国彻底的亡于巴比伦。当时犹大国国王是西底家，他在作王第九年背叛巴比",
+    "unverified end anchor: target 18: 廿五章是讲到耶路撒冷陷落，犹大国彻底的亡于巴比伦。当时犹大国国王是西底家，他在作王第九年背叛巴比",
+    "unverified end anchor: target 22: 下面我读一段经文作为这次分享的结束。我们来看彼得后书三章8到15节的上半节，「亲爱的弟兄啊，有一",
+    "repair missing cue (unverified): target 2",
+    "repair unverified start (previous-sync): target 4",
+    "repair unverified end (previous-sync): target 8",
+    "repair unverified start (previous-sync): target 14",
+    "repair unverified start (previous-sync): target 15",
+    "repair unverified start (previous-sync): target 16",
+    "repair unverified start (previous-sync): target 18",
+    "repair unverified end (previous-sync): target 18",
+    "repair unverified end (previous-sync): target 22"
+  ],
   "source": {
     "page": "历史书/列王纪下/王下24-25章.md",
     "audio": "2Ki24-25.mp3"
@@ -8,52 +31,186 @@
   "audioDuration": 1550.7733125,
   "cues": [
     {
-      "start": 5.8,
-      "end": 8.9,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "王下2425章",
-      "confidence": 0.95
-    },
-    {
-      "start": 8.9,
+      "start": 0.3,
       "end": 52.04,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "亲爱的长辈弟兄姊妹主内平安今天我们一起来分享列王纪下最后两章就是廿四和廿五章我们知道廿四章是讲犹",
-      "confidence": 0.593
+      "confidence": 0.772,
+      "quality": {
+        "coverage": 0.785,
+        "coherentCoverage": 0.651,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 0.3,
+        "previousEnd": 52.04
+      }
     },
     {
       "start": 52.04,
-      "end": 138.74,
+      "end": 134.88,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "读完列王的历史我们不禁感慨万分犹大国最后灭亡圣殿被毁财物被抢城墙被拆毁官员遭杀害好多的百姓都被掳",
-      "confidence": 0.688
+      "confidence": 0.901,
+      "quality": {
+        "coverage": 0.903,
+        "coherentCoverage": 0.838,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 52.04,
+        "previousEnd": 134.88
+      }
     },
     {
-      "start": 138.74,
-      "end": 141.04,
-      "kind": "heading",
-      "targetIndex": 5,
-      "targetText": "第廿四章",
-      "confidence": 0.95
-    },
-    {
-      "start": 141.04,
-      "end": 290.34,
+      "start": 136.1,
+      "end": 289.68,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "下面我们来看列王纪下第廿四章在第廿三章里面讲到了约西亚王他的善行约西亚以后无论是约哈斯约雅敬还是",
-      "confidence": 0.748
+      "confidence": 0.76,
+      "quality": {
+        "coverage": 0.777,
+        "coherentCoverage": 0.619,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 136.1,
+        "previousEnd": 289.68
+      }
     },
     {
       "start": 290.34,
-      "end": 374.85,
+      "end": 373.97,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "我们看见埃及经常就是预表世界的势力人的聪明肉体的倚靠世俗的帮助约雅敬起初服侍埃及他是想靠人的力量",
-      "confidence": 0.954
+      "confidence": 0.954,
+      "quality": {
+        "coverage": 0.954,
+        "coherentCoverage": 0.925,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 290.34,
+        "previousEnd": 373.97
+      }
     },
     {
       "start": 374.85,
@@ -61,55 +218,316 @@
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "其实我们的上帝要让我们真的来投靠我们的上帝犹大国王约雅敬起先将金银给法老尼哥投靠他后来他又服侍巴",
-      "confidence": 0.889
+      "confidence": 0.889,
+      "quality": {
+        "coverage": 0.889,
+        "coherentCoverage": 0.815,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 374.85,
+        "previousEnd": 409.98
+      }
     },
     {
       "start": 409.98,
-      "end": 491.18,
+      "end": 489.26,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "上帝对约雅敬的评论是行耶和华眼中看为恶的事所以我们的上帝祂允许各种各样的苦难各种各样的环境临到我",
-      "confidence": 0.683
+      "confidence": 0.892,
+      "quality": {
+        "coverage": 0.892,
+        "coherentCoverage": 0.842,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 409.98,
+        "previousEnd": 489.26
+      }
     },
     {
       "start": 491.18,
-      "end": 567.16,
+      "end": 566.14,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "其实当我们的心没有真正地悔改没有真正地来信靠我们的上帝投靠我们的上帝那么我们就会在一种捆绑当中得",
-      "confidence": 0.748
+      "confidence": 0.894,
+      "quality": {
+        "coverage": 0.894,
+        "coherentCoverage": 0.858,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 491.18,
+        "previousEnd": 566.14
+      }
     },
     {
       "start": 567.16,
-      "end": 667.88,
+      "end": 666.86,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "我们看见这些环境的兴起都是上帝所命定的第3节这祸临到犹大人诚然是耶和华所命的要将他们从自己面前赶",
-      "confidence": 0.897
+      "confidence": 0.9,
+      "quality": {
+        "coverage": 0.908,
+        "coherentCoverage": 0.868,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 567.16,
+        "previousEnd": 666.86
+      }
     },
     {
       "start": 667.88,
-      "end": 704.52,
+      "end": 704.7,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "大卫他虽然犯了极可怕的罪但是他真实的悔改伏在上帝的管教当中当示每咒骂他的时候他就说这是上帝允许示",
-      "confidence": 0.563
+      "confidence": 0.753,
+      "quality": {
+        "coverage": 0.75,
+        "coherentCoverage": 0.6,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 667.88,
+        "previousEnd": 704.7
+      }
     },
     {
-      "start": 704.52,
-      "end": 794.97,
+      "start": 707.78,
+      "end": 793.93,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "还有令我印象特别深的是亚哈这个恶王的悔改上帝藉着以利亚向亚哈宣判审判的时候亚哈听见以后就撕裂衣服",
-      "confidence": 0.882
+      "confidence": 0.89,
+      "quality": {
+        "coverage": 0.89,
+        "coherentCoverage": 0.812,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 707.78,
+        "previousEnd": 793.93
+      }
     },
     {
       "start": 794.97,
-      "end": 912.74,
+      "end": 910.46,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "在列王纪下廿四章8到17节是第二次被掳这时是犹大国王约雅斤他也是行耶和华眼中看为恶的事第10节就",
-      "confidence": 0.756
+      "confidence": 0.759,
+      "quality": {
+        "coverage": 0.757,
+        "coherentCoverage": 0.666,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 794.97,
+        "previousEnd": 910.46
+      }
     },
     {
       "start": 912.74,
@@ -117,63 +535,301 @@
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "在这两章在这一章里和下面的一章我们都可以看出我们的上帝为什么容许灾祸临到祂的子民我们的上帝为什么",
-      "confidence": 0.9
+      "confidence": 0.9,
+      "quality": {
+        "coverage": 0.867,
+        "coherentCoverage": 0.855,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 4,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 912.74,
+        "previousEnd": 937.68
+      }
     },
     {
-      "start": 937.68,
-      "end": 1091.11,
+      "start": 941.2,
+      "end": 1089.81,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "廿四章第3节说到玛拿西所犯的一切罪流无辜人的血还有其他各王的行耶和华眼中看为恶的事在这里我想分享",
-      "confidence": 0.907
+      "confidence": 0.912,
+      "quality": {
+        "coverage": 0.911,
+        "coherentCoverage": 0.853,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 941.2,
+        "previousEnd": 1089.81
+      }
     },
     {
-      "start": 1091.11,
-      "end": 1091.53,
-      "kind": "heading",
-      "targetIndex": 17,
-      "targetText": "第廿五章",
-      "confidence": 0.667
-    },
-    {
-      "start": 1091.53,
-      "end": 1125.87,
+      "start": 1089.81,
+      "end": 1126.55,
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "廿五章是讲到耶路撒冷陷落犹大国彻底的亡于巴比伦当时犹大国国王是西底家他在作王第九年背叛巴比伦王尼",
-      "confidence": 0.762
+      "confidence": 0.759,
+      "quality": {
+        "coverage": 0.763,
+        "coherentCoverage": 0.67,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution",
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 1089.81,
+        "previousEnd": 1126.55
+      }
     },
     {
-      "start": 1125.87,
-      "end": 1208.63,
+      "start": 1128.17,
+      "end": 1207.39,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "我们读耶利米书的时候我们会发现上帝藉着耶利米一直反复地劝告王和百姓但是在耶利米书卅七章2节是这样",
-      "confidence": 0.858
+      "confidence": 0.865,
+      "quality": {
+        "coverage": 0.865,
+        "coherentCoverage": 0.796,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1128.17,
+        "previousEnd": 1207.39
+      }
     },
     {
       "start": 1208.63,
-      "end": 1336.43,
+      "end": 1335.15,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "当时耶利米多次劝百姓投降要安静在上帝面前真实地归向上帝但是君王和百姓都嘲笑先知逼迫先知根本就不愿",
-      "confidence": 0.871
+      "confidence": 0.871,
+      "quality": {
+        "coverage": 0.866,
+        "coherentCoverage": 0.81,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1208.63,
+        "previousEnd": 1335.15
+      }
     },
     {
       "start": 1336.43,
-      "end": 1381.73,
+      "end": 1380.35,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "当时先知预言中的审判与犹大的亡国最后是完全相吻合的虽然从先知的预言到犹大亡国有相当长的时间才应验",
-      "confidence": 0.882
+      "confidence": 0.89,
+      "quality": {
+        "coverage": 0.903,
+        "coherentCoverage": 0.866,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1336.43,
+        "previousEnd": 1380.35
+      }
     },
     {
       "start": 1381.73,
-      "end": 1547.8,
+      "end": 1547.22,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "下面我读一段经文作为这次分享的结束我们来看彼得后书三章8到15节的上半节亲爱的弟兄啊有一件事你们",
-      "confidence": 0.76
+      "confidence": 0.844,
+      "quality": {
+        "coverage": 0.815,
+        "coherentCoverage": 0.764,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1381.73,
+        "previousEnd": 1547.22
+      }
     },
     {
       "start": 1547.8,
@@ -181,7 +837,60 @@
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "今天的信息就分享到这里感谢主",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1547.8,
+        "previousEnd": 1550.3
+      }
     }
-  ]
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 5,
+    "unverifiedEnds": 3,
+    "missingTargets": [
+      2
+    ]
+  },
+  "repairFingerprint": "17527a513ba96e61b7c32607d14718f23fa866522e7f0587ddcc6b2ac7651f5b",
+  "repairCueDigest": "e7b364533371fc84cab60e8c4ea58454cc0fa3d7ffbb43231a1e375c72d1184b"
 }

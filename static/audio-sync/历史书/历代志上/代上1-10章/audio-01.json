@@ -1,6 +1,32 @@
 {
   "version": 1,
   "model": ".audio-sync-cache\\models\\small",
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 1: 亲爱的长辈弟兄姊妹，主内平安。今天我们一起来分享历代志上一到十章。历代志是有选择性的记载犹大国的",
+    "unverified start anchor: target 7: 第四章复记犹大的后裔，就是记载了犹大家谱以及西缅支派的家谱。",
+    "unverified start anchor: target 9: 在五章18节到22节记载了两支派半。曾经他们因为呼求神、倚赖神，神应允他们，他们得神的帮助，杀敌",
+    "unverified end anchor: target 12: 第八章是记载便雅悯支派的家谱。其中扫罗王的家族记载在33节到40节，他们也都是便雅悯人。",
+    "unverified start anchor: target 15: 当我们读历代志上一到九章的时候，我们会发现很多的人名，发现一代过去一代又来，人名是非常的乏味。这",
+    "unverified start anchor: target 16: 在以弗所书一章4到5节这样说，「就如神从创立世界以前，在基督里拣选了我们，使我们在他面前成为圣洁",
+    "unverified start anchor: target 19: 历代志记载犹大国的历史，是从第十章开始，他先记载的是以色列人第一个王与非利士人争战，扫罗是如何的",
+    "unverified end anchor: target 19: 历代志记载犹大国的历史，是从第十章开始，他先记载的是以色列人第一个王与非利士人争战，扫罗是如何的",
+    "unverified start anchor: target 21: 在13节说到「扫罗死了，因为他干犯耶和华，没有遵守耶和华的命，又因他求问交鬼的妇人，没有求问耶和",
+    "unverified end anchor: target 21: 在13节说到「扫罗死了，因为他干犯耶和华，没有遵守耶和华的命，又因他求问交鬼的妇人，没有求问耶和",
+    "unverified start anchor: target 24: 今天的信息就分享到这里，感谢主。",
+    "repair unverified start (previous-sync): target 1",
+    "repair unverified start (previous-sync): target 7",
+    "repair unverified start (previous-sync): target 9",
+    "repair unverified end (previous-sync): target 12",
+    "repair unverified start (previous-sync): target 15",
+    "repair unverified start (previous-sync): target 16",
+    "repair unverified start (previous-sync): target 19",
+    "repair unverified end (previous-sync): target 19",
+    "repair unverified start (previous-sync): target 21",
+    "repair unverified end (previous-sync): target 21",
+    "repair unverified start (previous-sync): target 24"
+  ],
   "source": {
     "page": "历史书/历代志上/代上1-10章.md",
     "audio": "1Ch1-10.mp3"
@@ -8,140 +34,628 @@
   "audioDuration": 1032.7651875,
   "cues": [
     {
-      "start": 5.9,
-      "end": 8.34,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "代上110章",
-      "confidence": 0.95
-    },
-    {
-      "start": 8.34,
-      "end": 33.18,
+      "start": 1.3,
+      "end": 31.8,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "亲爱的长辈弟兄姊妹主内平安今天我们一起来分享历代志上一到十章历代志是有选择性的记载犹大国的历史是",
-      "confidence": 0.778
+      "confidence": 0.904,
+      "quality": {
+        "coverage": 0.904,
+        "coherentCoverage": 0.851,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1.3,
+        "previousEnd": 31.8
+      }
     },
     {
-      "start": 33.18,
-      "end": 36.26,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "第一章至第九章族谱",
-      "confidence": 0.95
-    },
-    {
-      "start": 36.26,
-      "end": 64.7,
+      "start": 32.66,
+      "end": 63.44,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "下面我们来看一到九章一到九章是记载了家谱为了引出大卫大卫一脉是上帝所拣选的子民大卫的后裔那一位后",
-      "confidence": 0.797
+      "confidence": 0.881,
+      "quality": {
+        "coverage": 0.881,
+        "coherentCoverage": 0.786,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 32.66,
+        "previousEnd": 63.44
+      }
     },
     {
       "start": 64.7,
-      "end": 75.16,
+      "end": 75.68,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "第一章从亚当到亚伯拉罕世人都是亚当的后代上帝从一本造出万族",
-      "confidence": 0.643
+      "confidence": 0.931,
+      "quality": {
+        "coverage": 0.931,
+        "coherentCoverage": 0.931,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.929,
+        "suffixCoverage": 0.929,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 64.7,
+        "previousEnd": 75.68
+      }
     },
     {
-      "start": 75.16,
-      "end": 158.59,
+      "start": 76.76,
+      "end": 157.41,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "第二章是记载以色列中犹大支派的家谱在这家谱当中有的人是遗臭万年比如第3节下半节犹大的长子珥在耶和",
-      "confidence": 0.673
+      "confidence": 0.841,
+      "quality": {
+        "coverage": 0.839,
+        "coherentCoverage": 0.78,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 76.76,
+        "previousEnd": 157.41
+      }
     },
     {
       "start": 158.59,
-      "end": 182.31,
+      "end": 181.31,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "第三章是大卫众多的儿女以及历代的列王10到16节就是列代列王17节开始下面记载的是被掳后到归回时",
-      "confidence": 0.667
+      "confidence": 0.747,
+      "quality": {
+        "coverage": 0.725,
+        "coherentCoverage": 0.627,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 158.59,
+        "previousEnd": 181.31
+      }
     },
     {
       "start": 182.31,
-      "end": 195.31,
+      "end": 193.85,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "第四章复记犹大的后裔就是记载了犹大家谱以及西缅支派的家谱",
-      "confidence": 0.786
+      "confidence": 0.786,
+      "quality": {
+        "coverage": 0.786,
+        "coherentCoverage": 0.679,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.786,
+        "suffixCoverage": 0.786,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 182.31,
+        "previousEnd": 193.85
+      }
     },
     {
       "start": 195.31,
-      "end": 287.61,
+      "end": 286.53,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "第五章是记载河东两个半支派的家谱五章的1到2节非常的重要以色列的长子原是流便因他污秽了父亲的床他",
-      "confidence": 0.85
+      "confidence": 0.85,
+      "quality": {
+        "coverage": 0.848,
+        "coherentCoverage": 0.764,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 195.31,
+        "previousEnd": 286.53
+      }
     },
     {
       "start": 287.61,
-      "end": 352.42,
+      "end": 351.2,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "在五章18节到22节记载了两支派半曾经他们因为呼求上帝倚赖上帝上帝应允他们他们得上帝的帮助杀敌很",
-      "confidence": 0.82
+      "confidence": 0.82,
+      "quality": {
+        "coverage": 0.841,
+        "coherentCoverage": 0.725,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 287.61,
+        "previousEnd": 351.2
+      }
     },
     {
       "start": 352.42,
-      "end": 418.73,
+      "end": 417.79,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "第六章是利未支派他们独特的家史这里我们在读的时候也有许多我们所熟悉的比如说27节的撒母耳还有31",
-      "confidence": 0.74
+      "confidence": 0.74,
+      "quality": {
+        "coverage": 0.767,
+        "coherentCoverage": 0.656,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 352.42,
+        "previousEnd": 417.79
+      }
     },
     {
       "start": 418.73,
-      "end": 426.43,
+      "end": 425.21,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "第七章是以色列六个支派的历史他们的后裔",
-      "confidence": 0.789
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 418.73,
+        "previousEnd": 425.21
+      }
     },
     {
       "start": 426.43,
-      "end": 442.6,
+      "end": 441.58,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "第八章是记载便雅悯支派的家谱其中扫罗王的家族记载在33节到40节他们也都是便雅悯人",
-      "confidence": 0.659
+      "confidence": 0.829,
+      "quality": {
+        "coverage": 0.829,
+        "coherentCoverage": 0.707,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 426.43,
+        "previousEnd": 441.58
+      }
     },
     {
       "start": 442.6,
-      "end": 490.92,
+      "end": 459.96,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "第九章是记载被掳归回住耶路撒冷的人无论是祭司利未人住在耶路撒冷的圣殿守卫还有其余的利未人圣经也都",
-      "confidence": 0.95
+      "confidence": 0.788,
+      "quality": {
+        "coverage": 0.788,
+        "coherentCoverage": 0.692,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 442.6,
+        "previousEnd": 459.96
+      }
     },
     {
-      "start": 490.92,
-      "end": 491.94,
-      "kind": "heading",
-      "targetIndex": 14,
-      "targetText": "默想短暂的人生",
-      "confidence": 0.833
-    },
-    {
-      "start": 491.94,
-      "end": 563.44,
+      "start": 461.36,
+      "end": 562.32,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "当我们读历代志上一到九章的时候我们会发现很多的人名发现一代过去一代又来人名是非常的乏味这使我们想",
-      "confidence": 0.718
+      "confidence": 0.904,
+      "quality": {
+        "coverage": 0.905,
+        "coherentCoverage": 0.853,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 461.36,
+        "previousEnd": 562.32
+      }
     },
     {
       "start": 563.44,
-      "end": 629.82,
+      "end": 628.9,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "在以弗所书一章4到5节这样说就如上帝从创立世界以前在基督里拣选了我们使我们在他面前成为圣洁无有瑕",
-      "confidence": 0.95
+      "confidence": 0.879,
+      "quality": {
+        "coverage": 0.877,
+        "coherentCoverage": 0.823,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 563.44,
+        "previousEnd": 628.9
+      }
     },
     {
       "start": 629.82,
@@ -149,7 +663,46 @@
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "我们读历代志上一连串的人名的时候我们会发现人生真的是何等的短暂在传道书说到一代过去一代又来地却永",
-      "confidence": 0.95
+      "confidence": 0.868,
+      "quality": {
+        "coverage": 0.868,
+        "coherentCoverage": 0.814,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 629.82,
+        "previousEnd": 666.28
+      }
     },
     {
       "start": 667.3,
@@ -157,47 +710,265 @@
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "历代志记载犹大国的历史是从第十章开始他先记载的是以色列人第一个王与非利士人争战扫罗是如何的败在非",
-      "confidence": 0.95
+      "confidence": 0.852,
+      "quality": {
+        "coverage": 0.852,
+        "coherentCoverage": 0.689,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 667.3,
+        "previousEnd": 696.08
+      }
     },
     {
-      "start": 696.08,
-      "end": 782.88,
+      "start": 698.04,
+      "end": 782.38,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "这次争战以色列人在非利士人面前逃跑并且非利士人杀了扫罗的儿子约拿单亚比拿达麦基舒亚扫罗自己也被弓",
-      "confidence": 0.801
+      "confidence": 0.804,
+      "quality": {
+        "coverage": 0.806,
+        "coherentCoverage": 0.694,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 698.04,
+        "previousEnd": 782.38
+      }
     },
     {
       "start": 782.88,
-      "end": 912.18,
+      "end": 913.58,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "在13节说到扫罗死了因为他干犯耶和华没有遵守耶和华的命又因他求问交鬼的妇人没有求问耶和华所以耶和",
-      "confidence": 0.808
+      "confidence": 0.812,
+      "quality": {
+        "coverage": 0.819,
+        "coherentCoverage": 0.738,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 782.88,
+        "previousEnd": 913.58
+      }
     },
     {
-      "start": 912.18,
-      "end": 964.25,
+      "start": 914.82,
+      "end": 963.41,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "然后圣经还说到扫罗求问交鬼的妇人没有求问耶和华我们的上帝何等愿意我们来到祂的面前来求问祂来认识到",
-      "confidence": 0.879
+      "confidence": 0.898,
+      "quality": {
+        "coverage": 0.898,
+        "coherentCoverage": 0.825,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 914.82,
+        "previousEnd": 963.41
+      }
     },
     {
       "start": 964.25,
-      "end": 1028.63,
+      "end": 1027.83,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "然后我们也看见废王立王其实都在上帝的掌管之中我们看见耶和华使扫罗被杀把国归于耶西的儿子大卫我们看",
-      "confidence": 0.863
+      "confidence": 0.902,
+      "quality": {
+        "coverage": 0.902,
+        "coherentCoverage": 0.883,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 964.25,
+        "previousEnd": 1027.83
+      }
     },
     {
       "start": 1028.63,
-      "end": 1031.37,
+      "end": 1031.65,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "今天的信息就分享到这里感谢主",
-      "confidence": 0.667
+      "confidence": 0.857,
+      "quality": {
+        "coverage": 0.857,
+        "coherentCoverage": 0.643,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.857,
+        "suffixCoverage": 0.857,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1028.63,
+        "previousEnd": 1031.65
+      }
     }
-  ]
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 8,
+    "unverifiedEnds": 3,
+    "missingTargets": []
+  },
+  "repairFingerprint": "e1a806dde1be42cb673ed9a71ac901e214f02bb65377a6e37acff5795a331f74",
+  "repairCueDigest": "1cb4883afbacf4437fdb2dd9a6f7dd708005b9477d7c941a53a11f7c4db5b7cb"
 }

@@ -1,6 +1,46 @@
 {
   "version": 1,
   "model": ".audio-sync-cache\\models\\small",
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 1: 家人们，主内平安。今天我们一起读了士师记十八到廿一章。",
+    "unverified end anchor: target 1: 家人们，主内平安。今天我们一起读了士师记十八到廿一章。",
+    "unverified start anchor: target 5: 在出埃及记二十章里面，我们的神颁布十诫的时候，说到「除了我以外，你不可有别的神。不可为自己雕刻偶",
+    "unverified start anchor: target 6: 所以在启示录七章里面，以法莲支派与但支派，没有数算在十四万四千以色列人受印的数目当中，给我们何等",
+    "incomplete end (25 trailing chars, coverage 0.000): target 7: 我们人类乃是照着我们的父神，我们的恩主，祂的形像、样式来造我们的，所以我们敬拜创造我们的神、创造",
+    "unverified end anchor: target 7: 我们人类乃是照着我们的父神，我们的恩主，祂的形像、样式来造我们的，所以我们敬拜创造我们的神、创造",
+    "unverified start anchor: target 11: 在第十九章里，我们看见利未人的妾，她真的也是何等的可怜；而便雅悯人，真的是何等的道德败坏！",
+    "unverified start anchor: target 13: 第二十章，以色列人攻打便雅悯人。他们有四十万拿刀的，都是战士，与便雅悯人争战。便雅悯人也点出了拿",
+    "unverified end anchor: target 13: 第二十章，以色列人攻打便雅悯人。他们有四十万拿刀的，都是战士，与便雅悯人争战。便雅悯人也点出了拿",
+    "unverified end anchor: target 15: 以色列人跟便雅悯人争战的时候，前两次都反而是以色列人失败，到第三次的时候，神才将便雅悯人交在以色",
+    "unverified start anchor: target 16: 第二次呢，他们就是问：「我们再去与我们弟兄便雅悯人打仗，可以不可以？」",
+    "unverified end anchor: target 17: 直到第三次呢，他们因为前面两次都败了，所以在神面前哭号，禁食，献燔祭和平安祭，在神面前就谦卑了，",
+    "unverified end anchor: target 19: 这使我想到在教会当中，有些事情也是经过神的许可的。教会是蒙神宝血重价所买赎出来的一群人聚集在一起",
+    "unverified end anchor: target 25: 第廿一章（我也先说好，因为它是紧接着的。）后来，便雅悯人因为只剩下了这几百个勇士，而其他的便雅悯",
+    "unverified start anchor: target 29: 神差遣祂的爱子耶稣基督，祂就是天国的君王，祂愿意在我们这些蒙恩的人身上作王。我们的主曾经说：「有",
+    "unverified end anchor: target 30: 在约翰福音十四章23节，我们的主耶稣还说：「人若爱我，就必遵守我的道，我父也必爱他，并且我们要到",
+    "unverified start anchor: target 31: 求主祝福祂自己的话语，感谢主。",
+    "repair unverified start (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified start (previous-sync): target 4",
+    "repair unverified end (previous-sync): target 4",
+    "repair unverified start (previous-sync): target 5",
+    "repair unverified start (previous-sync): target 6",
+    "repair unverified end (previous-sync): target 7",
+    "repair unverified start (previous-sync): target 11",
+    "repair unverified start (previous-sync): target 13",
+    "repair unverified end (previous-sync): target 13",
+    "repair unverified end (previous-sync): target 15",
+    "repair unverified start (previous-sync): target 16",
+    "repair unverified end (previous-sync): target 17",
+    "repair unverified end (previous-sync): target 19",
+    "repair unverified end (previous-sync): target 25",
+    "repair unverified start (previous-sync): target 28",
+    "repair unverified start (previous-sync): target 29",
+    "repair unverified end (previous-sync): target 30",
+    "repair unverified start (previous-sync): target 31"
+  ],
   "source": {
     "page": "历史书/士师记/士18-21章.md",
     "audio": "Judges18-21.mp3"
@@ -9,35 +49,120 @@
   "cues": [
     {
       "start": 1.62,
-      "end": 11.57,
+      "end": 8.28,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "家人们主内平安今天我们一起读了士师记十八到廿一章",
-      "confidence": 0.708
+      "confidence": 0.708,
+      "quality": {
+        "coverage": 0.708,
+        "coherentCoverage": 0.417,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.833,
+        "suffixCoverage": 0.583,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 1.62,
+        "previousEnd": 8.28
+      }
     },
     {
-      "start": 11.57,
-      "end": 12.79,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "第十八章",
-      "confidence": 0.75
-    },
-    {
-      "start": 12.79,
-      "end": 51.51,
+      "start": 10.23,
+      "end": 50.01,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "前面第十七章主要讲了以法莲人米迦制造了偶像第十八章是讲到但支派的人得地的经过在这章里讲到他们在途",
-      "confidence": 0.781
+      "confidence": 0.818,
+      "quality": {
+        "coverage": 0.827,
+        "coherentCoverage": 0.694,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 10.23,
+        "previousEnd": 50.01
+      }
     },
     {
       "start": 51.51,
-      "end": 139.56,
+      "end": 137.92,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "我们读启示录七章4到8节的时候我们看见十四万四千以色列人受印的时候其中没有但支派以及以法莲支派以",
-      "confidence": 0.619
+      "confidence": 0.619,
+      "quality": {
+        "coverage": 0.632,
+        "coherentCoverage": 0.555,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 51.51,
+        "previousEnd": 137.92
+      }
     },
     {
       "start": 139.56,
@@ -45,207 +170,1004 @@
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "在出埃及记二十章里面我们的上帝颁布十诫的时候说到除了我以外你不可有别的上帝不可为自己雕刻偶像也不",
-      "confidence": 0.896
+      "confidence": 0.91,
+      "quality": {
+        "coverage": 0.91,
+        "coherentCoverage": 0.878,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 139.56,
+        "previousEnd": 210.22
+      }
     },
     {
       "start": 210.22,
-      "end": 231.88,
+      "end": 232.2,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "所以在启示录七章里面以法莲支派与但支派没有数算在十四万四千以色列人受印的数目当中给我们何等大的警",
-      "confidence": 0.624
+      "confidence": 0.778,
+      "quality": {
+        "coverage": 0.778,
+        "coherentCoverage": 0.667,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 210.22,
+        "previousEnd": 232.2
+      }
     },
     {
-      "start": 231.88,
-      "end": 304.84,
+      "start": 233.12,
+      "end": 293.28,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "我们人类乃是照着我们的父上帝我们的恩主祂的形像样式来造我们的所以我们敬拜创造我们的上帝创造天地万",
-      "confidence": 0.774
+      "confidence": 0.793,
+      "quality": {
+        "coverage": 0.745,
+        "coherentCoverage": 0.681,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 25,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 233.12,
+        "previousEnd": 293.28
+      }
     },
     {
       "start": 304.84,
-      "end": 305.88,
-      "kind": "heading",
-      "targetIndex": 8,
-      "targetText": "第十九章",
-      "confidence": 0.857
-    },
-    {
-      "start": 305.88,
-      "end": 318.89,
+      "end": 317.32,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "十九章是讲到以色列人道德上的混乱这章讲到便雅悯族基比亚人的丑恶",
-      "confidence": 0.881
+      "confidence": 0.935,
+      "quality": {
+        "coverage": 0.935,
+        "coherentCoverage": 0.903,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.867,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 304.84,
+        "previousEnd": 317.32
+      }
     },
     {
       "start": 318.89,
-      "end": 455.43,
+      "end": 455.73,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "在这章里记载了以法莲山地的一个利未人他娶了一个犹大伯利恒的女子为妾而这个妾她行淫离开丈夫回犹大伯",
-      "confidence": 0.799
+      "confidence": 0.798,
+      "quality": {
+        "coverage": 0.831,
+        "coherentCoverage": 0.724,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 318.89,
+        "previousEnd": 455.73
+      }
     },
     {
-      "start": 455.43,
-      "end": 474.18,
+      "start": 458.14,
+      "end": 473.42,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "在第十九章里我们看见利未人的妾她真的也是何等的可怜而便雅悯人真的是何等的道德败坏",
-      "confidence": 0.762
+      "confidence": 0.771,
+      "quality": {
+        "coverage": 0.8,
+        "coherentCoverage": 0.625,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 458.14,
+        "previousEnd": 473.42
+      }
     },
     {
       "start": 474.18,
-      "end": 475.66,
-      "kind": "heading",
-      "targetIndex": 12,
-      "targetText": "第二十章",
-      "confidence": 0.95
-    },
-    {
-      "start": 475.66,
-      "end": 509.16,
+      "end": 507.86,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "第二十章以色列人攻打便雅悯人他们有四十万拿刀的都是战士与便雅悯人争战便雅悯人也点出了拿刀的共有二",
-      "confidence": 0.761
+      "confidence": 0.766,
+      "quality": {
+        "coverage": 0.774,
+        "coherentCoverage": 0.677,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 474.18,
+        "previousEnd": 507.86
+      }
     },
     {
       "start": 509.16,
-      "end": 560.56,
+      "end": 559.78,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "在争战之前以色列的众支派先是让便雅悯支派交出那些作恶的匪徒从以色列人中除掉这恶那么就可以免去争战",
-      "confidence": 0.872
+      "confidence": 0.872,
+      "quality": {
+        "coverage": 0.885,
+        "coherentCoverage": 0.82,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 509.16,
+        "previousEnd": 559.78
+      }
     },
     {
-      "start": 560.56,
-      "end": 589.26,
+      "start": 560.74,
+      "end": 589.46,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "以色列人跟便雅悯人争战的时候前两次都反而是以色列人失败到第三次的时候上帝才将便雅悯人交在以色列人",
-      "confidence": 0.777
+      "confidence": 0.781,
+      "quality": {
+        "coverage": 0.735,
+        "coherentCoverage": 0.706,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 560.74,
+        "previousEnd": 589.46
+      }
     },
     {
-      "start": 589.26,
-      "end": 603.21,
+      "start": 589.78,
+      "end": 597.14,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "第二次呢他们就是问我们再去与我们弟兄便雅悯人打仗可以不可以",
-      "confidence": 0.862
+      "confidence": 0.877,
+      "quality": {
+        "coverage": 0.862,
+        "coherentCoverage": 0.759,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.929,
+        "suffixCoverage": 0.786,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 589.78,
+        "previousEnd": 597.14
+      }
     },
     {
       "start": 603.21,
-      "end": 696.17,
+      "end": 696.93,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "直到第三次呢他们因为前面两次都败了所以在上帝面前哭号禁食献燔祭和平安祭在上帝面前就谦卑了他们说我",
-      "confidence": 0.84
+      "confidence": 0.839,
+      "quality": {
+        "coverage": 0.849,
+        "coherentCoverage": 0.788,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 603.21,
+        "previousEnd": 696.93
+      }
     },
     {
-      "start": 696.17,
-      "end": 725.29,
+      "start": 698.39,
+      "end": 723.63,
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "所以我们看见当上帝使以色列人觉得自己照着自己的心意应该是好的一件事情却给他们遇到两次失败其实上帝",
-      "confidence": 0.949
+      "confidence": 0.967,
+      "quality": {
+        "coverage": 0.974,
+        "coherentCoverage": 0.974,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 698.39,
+        "previousEnd": 723.63
+      }
     },
     {
       "start": 725.29,
-      "end": 768.14,
+      "end": 766.48,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "这使我想到在教会当中有些事情也是经过上帝的许可的教会是蒙上帝宝血重价所买赎出来的一群人聚集在一起",
-      "confidence": 0.911
+      "confidence": 0.919,
+      "quality": {
+        "coverage": 0.925,
+        "coherentCoverage": 0.881,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 725.29,
+        "previousEnd": 766.48
+      }
     },
     {
       "start": 768.14,
-      "end": 844.2,
+      "end": 843.32,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "而在家庭当中我们也应该把主权交给上帝曾经于宏洁弟兄在讲道的时候说过他说在他的家庭当中他说妻子永远",
-      "confidence": 0.946
+      "confidence": 0.946,
+      "quality": {
+        "coverage": 0.965,
+        "coherentCoverage": 0.965,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 768.14,
+        "previousEnd": 843.32
+      }
     },
     {
       "start": 844.2,
-      "end": 935.97,
+      "end": 934.79,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "我们看见亚伯拉罕曾经因为保护自己让他的妻子撒拉自称是他的妹子以致被基拉尔王亚比米勒把撒拉取去但是",
-      "confidence": 0.895
+      "confidence": 0.895,
+      "quality": {
+        "coverage": 0.899,
+        "coherentCoverage": 0.852,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 844.2,
+        "previousEnd": 934.79
+      }
     },
     {
       "start": 935.97,
-      "end": 982.32,
+      "end": 981.77,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "所以让我们的眼睛信心的眼睛定睛在上帝身上真的上帝是又真又活祂掌管着我们的一切世界的历史在上帝的掌",
-      "confidence": 0.914
+      "confidence": 0.914,
+      "quality": {
+        "coverage": 0.914,
+        "coherentCoverage": 0.879,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 935.97,
+        "previousEnd": 981.77
+      }
     },
     {
       "start": 982.32,
-      "end": 1004.78,
+      "end": 1003.53,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "后来我们看见以色列人最后就把便雅悯人打败了杀死了便雅悯人二万五千一百后来二十章的第47节我们看见",
-      "confidence": 0.713
+      "confidence": 0.713,
+      "quality": {
+        "coverage": 0.73,
+        "coherentCoverage": 0.683,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 982.32,
+        "previousEnd": 1003.53
+      }
     },
     {
       "start": 1004.78,
-      "end": 1006.28,
-      "kind": "heading",
-      "targetIndex": 24,
-      "targetText": "第二十一章",
-      "confidence": 0.95
-    },
-    {
-      "start": 1006.28,
-      "end": 1037.98,
+      "end": 1039.28,
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "第廿一章我也先说好因为它是紧接着的后来便雅悯人因为只剩下了这几百个勇士而其他的便雅悯地的各城里的",
-      "confidence": 0.766
+      "confidence": 0.795,
+      "quality": {
+        "coverage": 0.809,
+        "coherentCoverage": 0.739,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1004.78,
+        "previousEnd": 1039.28
+      }
     },
     {
-      "start": 1037.98,
-      "end": 1129.66,
+      "start": 1039.28,
+      "end": 1128.9,
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "所以为了这件事情以色列人就在上帝面前放声痛哭他们觉得这次把便雅悯人杀的这样的厉害以至于以色列人中",
-      "confidence": 0.741
+      "confidence": 0.79,
+      "quality": {
+        "coverage": 0.797,
+        "coherentCoverage": 0.662,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1039.28,
+        "previousEnd": 1128.9
+      }
     },
     {
       "start": 1129.66,
-      "end": 1176.18,
+      "end": 1174.88,
       "kind": "paragraph",
       "targetIndex": 27,
       "targetText": "在这里我们看见支派之间的混乱争战内部的混乱以色列人无论是残杀便雅悯支派无论是他们为了让便雅悯存留",
-      "confidence": 0.901
+      "confidence": 0.901,
+      "quality": {
+        "coverage": 0.901,
+        "coherentCoverage": 0.881,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1129.66,
+        "previousEnd": 1174.88
+      }
     },
     {
       "start": 1176.18,
-      "end": 1198.62,
+      "end": 1196.92,
       "kind": "paragraph",
       "targetIndex": 28,
       "targetText": "士师记最后一节是对当时情况的一个总结那时以色列中没有王各人任意而行所以当人没有王就会照着自己的心",
-      "confidence": 0.935
+      "confidence": 0.935,
+      "quality": {
+        "coverage": 0.935,
+        "coherentCoverage": 0.935,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 3,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1176.18,
+        "previousEnd": 1196.92
+      }
     },
     {
       "start": 1198.62,
-      "end": 1259.58,
+      "end": 1256.54,
       "kind": "paragraph",
       "targetIndex": 29,
       "targetText": "上帝差遣祂的爱子耶稣基督祂就是天国的君王祂愿意在我们这些蒙恩的人身上作王我们的主曾经说有了我的命",
-      "confidence": 0.779
+      "confidence": 0.892,
+      "quality": {
+        "coverage": 0.892,
+        "coherentCoverage": 0.851,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1198.62,
+        "previousEnd": 1256.54
+      }
     },
     {
       "start": 1259.58,
-      "end": 1317.44,
+      "end": 1316.64,
       "kind": "paragraph",
       "targetIndex": 30,
       "targetText": "在约翰福音十四章23节我们的主耶稣还说人若爱我就必遵守我的道我父也必爱他并且我们要到他那里去与他",
-      "confidence": 0.788
+      "confidence": 0.884,
+      "quality": {
+        "coverage": 0.886,
+        "coherentCoverage": 0.808,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1259.58,
+        "previousEnd": 1316.64
+      }
     },
     {
       "start": 1317.44,
@@ -253,7 +1175,52 @@
       "kind": "paragraph",
       "targetIndex": 31,
       "targetText": "求主祝福祂自己的话语感谢主",
-      "confidence": 0.846
+      "confidence": 0.846,
+      "quality": {
+        "coverage": 0.846,
+        "coherentCoverage": 0.615,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.667,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1317.44,
+        "previousEnd": 1320.52
+      }
     }
-  ]
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 10,
+    "unverifiedEnds": 9,
+    "missingTargets": []
+  },
+  "repairFingerprint": "407fcc782e81fcf8fe6e055fa8c1b712513712a79b4f47e54cdeb99039019906",
+  "repairCueDigest": "38cfd81a67c82bd1a9041726219ad7d722a434cebbc3d6e1b2fe2a1163cebba7"
 }

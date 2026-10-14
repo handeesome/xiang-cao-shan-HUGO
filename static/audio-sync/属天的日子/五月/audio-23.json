@@ -8,28 +8,141 @@
   "audioDuration": 125.5811875,
   "cues": [
     {
-      "start": 9.2,
-      "end": 9.98,
-      "kind": "heading",
-      "targetIndex": 111,
-      "targetText": "五月二十三日",
-      "confidence": 0.6
-    },
-    {
-      "start": 9.98,
-      "end": 53.17,
+      "start": 17.03,
+      "end": 52.17,
       "kind": "paragraph",
-      "targetIndex": 113,
+      "targetIndex": 115,
       "targetText": "许多基督徒想得到一切的祝福却不以基督为中心他们想得到救恩的祝福但那并非基督本身他们想得到他恩典的",
-      "confidence": 0.858
+      "confidence": 0.914,
+      "quality": {
+        "coverage": 0.914,
+        "coherentCoverage": 0.886,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 9.98,
+        "previousEnd": 53.17
+      },
+      "targetMigration": {
+        "previousTargetIndex": 113,
+        "targetIndex": 115,
+        "targetText": "许多基督徒想得到一切的祝福却不以基督为中心他们想得到救恩的祝福但那并非基督本身他们想得到他恩典的"
+      }
     },
     {
       "start": 53.17,
       "end": 109.24,
       "kind": "paragraph",
-      "targetIndex": 114,
+      "targetIndex": 116,
       "targetText": "还有不少人想得到喜乐的祝福这仍然不是得着基督的祝福也有人与教会牧师或弟兄姐妹非常亲近但内心也未必",
-      "confidence": 0.757
+      "confidence": 0.853,
+      "quality": {
+        "coverage": 0.849,
+        "coherentCoverage": 0.841,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 53.17,
+        "previousEnd": 109.24
+      },
+      "targetMigration": {
+        "previousTargetIndex": 114,
+        "targetIndex": 116,
+        "targetText": "还有不少人想得到喜乐的祝福这仍然不是得着基督的祝福也有人与教会牧师或弟兄姐妹非常亲近但内心也未必"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (4 trailing chars, coverage 0.500): target 114: 我也晓得去的时候，必带着基督丰盛的恩典去------罗 15:29",
+    "unverified end anchor: target 114: 我也晓得去的时候，必带着基督丰盛的恩典去------罗 15:29",
+    "repair missing cue (unverified): target 114"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": [
+      114
+    ]
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 113,
+      "targetIndex": 115,
+      "targetText": "许多基督徒想得到一切的祝福却不以基督为中心他们想得到救恩的祝福但那并非基督本身他们想得到他恩典的"
+    },
+    {
+      "previousTargetIndex": 114,
+      "targetIndex": 116,
+      "targetText": "还有不少人想得到喜乐的祝福这仍然不是得着基督的祝福也有人与教会牧师或弟兄姐妹非常亲近但内心也未必"
+    }
+  ],
+  "repairFingerprint": "57708865f1a6c0e8d1f08d509fe9bfdf076f1bcef0fab8234519e5fc9a640224",
+  "repairCueDigest": "568c5a7ce71cbce3c1017b003eb496e3996a7f4a66796dd3e4c7723d26349520"
 }

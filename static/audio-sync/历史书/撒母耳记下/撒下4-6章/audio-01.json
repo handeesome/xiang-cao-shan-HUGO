@@ -1,6 +1,32 @@
 {
   "version": 1,
   "model": ".audio-sync-cache\\models\\small",
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (6 trailing chars, coverage 0.650): target 4: 在诗篇146篇3到5节是这样劝勉我们的：「你们不要倚靠君王，不要倚靠世人，他一点不能帮助。他的气",
+    "unverified end anchor: target 4: 在诗篇146篇3到5节是这样劝勉我们的：「你们不要倚靠君王，不要倚靠世人，他一点不能帮助。他的气",
+    "unverified start anchor: target 5: 后来伊施波设的两个军长就把以色列的王伊施波设杀死，拿着伊施波设的首级急速的走了一夜，到大卫那里前",
+    "incomplete start (6 leading chars, coverage 0.700): target 7: 亲爱的弟兄姊妹，你是否有像大卫一样对神有真实的经历，知道耶和华祂是何等真实的？大卫说，神是救他性",
+    "unverified start anchor: target 7: 亲爱的弟兄姊妹，你是否有像大卫一样对神有真实的经历，知道耶和华祂是何等真实的？大卫说，神是救他性",
+    "unverified start anchor: target 8: 在诗篇37篇是这样说的，「你当倚靠耶和华而行善，住在地上，以他的信实为粮；又要以耶和华为乐，他就",
+    "unverified end anchor: target 8: 在诗篇37篇是这样说的，「你当倚靠耶和华而行善，住在地上，以他的信实为粮；又要以耶和华为乐，他就",
+    "unverified end anchor: target 12: 无论是约瑟，他被兄弟出卖，他被波提乏妻子冤枉，他受监牢，最终成为在荒凉的时代一个供粮的人。",
+    "unverified start anchor: target 13: 无论是摩西，为人极其谦和的摩西，被神造就。摩西王宫造就四十年，在旷野造就四十年，又有四十年带领以",
+    "unverified start anchor: target 16: 再看17节到25节，我们看见大卫战胜非利士人。大卫无论是在艰难困苦的日子，还是在坐宝座日渐强盛当",
+    "unverified start anchor: target 19: 耶和华的约柜在迦特人俄别以东家中三个月，神的恩典厚厚的赐给俄别以东和他的全家。所以我们看见约柜就",
+    "unverified start anchor: target 22: 在大卫两次运约柜到耶路撒冷，他学到：要在神面前侍奉，需要根据神话语的标准，在圣洁的神面前应该存着",
+    "repair unverified end (previous-sync): target 4",
+    "repair unverified start (previous-sync): target 5",
+    "repair unverified start (previous-sync): target 7",
+    "repair unverified start (previous-sync): target 8",
+    "repair unverified end (previous-sync): target 8",
+    "repair unverified end (previous-sync): target 12",
+    "repair unverified start (previous-sync): target 13",
+    "repair unverified start (previous-sync): target 16",
+    "repair unverified start (previous-sync): target 19",
+    "repair unverified start (previous-sync): target 22"
+  ],
   "source": {
     "page": "历史书/撒母耳记下/撒下4-6章.md",
     "audio": "2Sa4-6.mp3"
@@ -8,180 +34,906 @@
   "audioDuration": 1850.998625,
   "cues": [
     {
-      "start": 7.01,
-      "end": 9.01,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "撒下46章",
-      "confidence": 0.95
-    },
-    {
-      "start": 9.01,
-      "end": 68.73,
+      "start": 2.61,
+      "end": 67.79,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "亲爱的长辈弟兄姊妹我们来看撒母耳记下第四章这章主要写伊施波设被杀大卫把杀伊施波设的两个军长处死却",
-      "confidence": 0.646
+      "confidence": 0.801,
+      "quality": {
+        "coverage": 0.804,
+        "coherentCoverage": 0.732,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 2.61,
+        "previousEnd": 67.79
+      }
     },
     {
       "start": 68.73,
-      "end": 98.95,
+      "end": 97.85,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "在这里我们看见靠上帝与靠人的不同伊施波设他倚靠人血肉的膀臂他倚靠大元帅押尼珥民众以色列众人也是这",
-      "confidence": 0.831
+      "confidence": 0.831,
+      "quality": {
+        "coverage": 0.831,
+        "coherentCoverage": 0.747,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 68.73,
+        "previousEnd": 97.85
+      }
     },
     {
       "start": 98.95,
-      "end": 168.0,
+      "end": 166.74,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "在诗篇146篇3到5节是这样劝勉我们的你们不要倚靠君王不要倚靠世人他一点不能帮助他的气一断就归回",
-      "confidence": 0.842
+      "confidence": 0.842,
+      "quality": {
+        "coverage": 0.832,
+        "coherentCoverage": 0.743,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 6,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "discarded detached end matches"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 98.95,
+        "previousEnd": 166.74
+      }
     },
     {
       "start": 168.0,
-      "end": 422.13,
+      "end": 420.46,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "后来伊施波设的两个军长就把以色列的王伊施波设杀死拿着伊施波设的首级急速的走了一夜到大卫那里前去邀",
-      "confidence": 0.753
+      "confidence": 0.835,
+      "quality": {
+        "coverage": 0.836,
+        "coherentCoverage": 0.774,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 168.0,
+        "previousEnd": 420.46
+      }
     },
     {
       "start": 422.13,
-      "end": 532.35,
+      "end": 530.75,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "大卫知道上帝的宝座是建立在公义之上的大卫登以色列的宝座既然是上帝的命定藉着撒母耳早早的膏立他那么",
-      "confidence": 0.903
+      "confidence": 0.907,
+      "quality": {
+        "coverage": 0.908,
+        "coherentCoverage": 0.891,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 422.13,
+        "previousEnd": 530.75
+      }
     },
     {
       "start": 532.35,
-      "end": 630.57,
+      "end": 628.83,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "亲爱的弟兄姊妹你是否有像大卫一样对上帝有真实的经历知道耶和华祂是何等真实的大卫说上帝是救他性命脱",
-      "confidence": 0.852
+      "confidence": 0.859,
+      "quality": {
+        "coverage": 0.854,
+        "coherentCoverage": 0.84,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 6,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 532.35,
+        "previousEnd": 628.83
+      }
     },
     {
       "start": 630.57,
-      "end": 701.88,
+      "end": 686.21,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "在诗篇37篇是这样说的你当倚靠耶和华而行善住在地上以他的信实为粮又要以耶和华为乐他就将你心里所求",
-      "confidence": 0.839
+      "confidence": 0.839,
+      "quality": {
+        "coverage": 0.839,
+        "coherentCoverage": 0.733,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 630.57,
+        "previousEnd": 686.21
+      }
     },
     {
-      "start": 701.88,
-      "end": 706.44,
-      "kind": "heading",
-      "targetIndex": 9,
-      "targetText": "第五章大卫作全以色列的王",
-      "confidence": 0.571
-    },
-    {
-      "start": 706.44,
-      "end": 862.49,
+      "start": 689.38,
+      "end": 860.54,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "亲爱的长辈弟兄姊妹下面我们来看撒母耳记下第五章这章主要讲到大卫作犹大和以色列全民的王还有他倚靠上",
-      "confidence": 0.714
+      "confidence": 0.843,
+      "quality": {
+        "coverage": 0.846,
+        "coherentCoverage": 0.756,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 689.38,
+        "previousEnd": 860.54
+      }
     },
     {
       "start": 862.49,
-      "end": 888.45,
+      "end": 887.75,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "在这个漫长的岁月当中大卫学习信心的功课等候的功课忍耐的功课我们都知道忍耐的功课是不容易学的上帝量",
-      "confidence": 0.948
+      "confidence": 0.948,
+      "quality": {
+        "coverage": 0.948,
+        "coherentCoverage": 0.927,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 862.49,
+        "previousEnd": 887.75
+      }
     },
     {
       "start": 888.45,
-      "end": 905.84,
+      "end": 904.98,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "无论是约瑟他被兄弟出卖他被波提乏妻子冤枉他受监牢最终成为在荒凉的时代一个供粮的人",
-      "confidence": 0.829
+      "confidence": 0.854,
+      "quality": {
+        "coverage": 0.875,
+        "coherentCoverage": 0.75,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 888.45,
+        "previousEnd": 904.98
+      }
     },
     {
       "start": 905.84,
-      "end": 935.34,
+      "end": 933.74,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "无论是摩西为人极其谦和的摩西被上帝造就摩西王宫造就四十年在旷野造就四十年又有四十年带领以色列人出",
-      "confidence": 0.783
+      "confidence": 0.783,
+      "quality": {
+        "coverage": 0.778,
+        "coherentCoverage": 0.667,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 905.84,
+        "previousEnd": 933.74
+      }
     },
     {
       "start": 935.34,
-      "end": 966.37,
+      "end": 964.38,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "提摩太后书里面说到我们若与基督同死也必与他同活我们若能忍耐也必和他一同作王所以长辈弟兄姊妹让我们",
-      "confidence": 0.828
+      "confidence": 0.828,
+      "quality": {
+        "coverage": 0.819,
+        "coherentCoverage": 0.798,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 935.34,
+        "previousEnd": 964.38
+      }
     },
     {
       "start": 966.37,
-      "end": 1080.09,
+      "end": 1079.17,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "下面就是写到大卫在耶路撒冷攻打耶布斯人攻取了锡安的保障就是大卫城大卫日渐强盛因为耶和华万军之上帝",
-      "confidence": 0.845
+      "confidence": 0.845,
+      "quality": {
+        "coverage": 0.848,
+        "coherentCoverage": 0.753,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 966.37,
+        "previousEnd": 1079.17
+      }
     },
     {
       "start": 1080.09,
-      "end": 1220.09,
+      "end": 1218.75,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "再看17节到25节我们看见大卫战胜非利士人大卫无论是在艰难困苦的日子还是在坐宝座日渐强盛当中他仍",
-      "confidence": 0.805
+      "confidence": 0.842,
+      "quality": {
+        "coverage": 0.843,
+        "coherentCoverage": 0.782,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1080.09,
+        "previousEnd": 1218.75
+      }
     },
     {
       "start": 1220.09,
-      "end": 1282.6,
+      "end": 1283.14,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "所以长辈弟兄姊妹当大卫愿意寻求上帝倚靠上帝他也愿意遵着上帝的吩咐去行的时候他是在支取上帝的得胜是",
-      "confidence": 0.786
+      "confidence": 0.829,
+      "quality": {
+        "coverage": 0.84,
+        "coherentCoverage": 0.761,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1220.09,
+        "previousEnd": 1283.14
+      }
     },
     {
-      "start": 1282.6,
-      "end": 1596.99,
+      "start": 1283.14,
+      "end": 1596.05,
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "感谢主亲爱的长辈弟兄姊妹下面我们一起来看撒母耳记下第六章这一章是讲到大卫运约柜到耶路撒冷第一次大",
-      "confidence": 0.757
+      "confidence": 0.812,
+      "quality": {
+        "coverage": 0.81,
+        "coherentCoverage": 0.709,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1283.14,
+        "previousEnd": 1596.05
+      }
     },
     {
       "start": 1596.99,
-      "end": 1641.11,
+      "end": 1640.03,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "耶和华的约柜在迦特人俄别以东家中三个月上帝的恩典厚厚的赐给俄别以东和他的全家所以我们看见约柜就是",
-      "confidence": 0.854
+      "confidence": 0.869,
+      "quality": {
+        "coverage": 0.875,
+        "coherentCoverage": 0.779,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1596.99,
+        "previousEnd": 1640.03
+      }
     },
     {
       "start": 1641.11,
-      "end": 1714.88,
+      "end": 1711.79,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "然后当有人告诉大卫王耶和华因为约柜赐福给俄别以东的家和一切属他的大卫就再一次去照上帝的吩咐来迎接",
-      "confidence": 0.741
+      "confidence": 0.824,
+      "quality": {
+        "coverage": 0.824,
+        "coherentCoverage": 0.693,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1641.11,
+        "previousEnd": 1711.79
+      }
     },
     {
       "start": 1714.88,
-      "end": 1779.08,
+      "end": 1781.76,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "大卫深深地知道他从一个牧童被上帝抬举成为以色列全民的君王是上帝的恩典是上帝的抬举他深深知道自己的",
-      "confidence": 0.912
+      "confidence": 0.903,
+      "quality": {
+        "coverage": 0.908,
+        "coherentCoverage": 0.883,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1714.88,
+        "previousEnd": 1781.76
+      }
     },
     {
-      "start": 1779.08,
+      "start": 1781.76,
       "end": 1850.04,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "在大卫两次运约柜到耶路撒冷他学到要在上帝面前侍奉需要根据上帝话语的标准在圣洁的上帝面前应该存着一",
-      "confidence": 0.804
+      "confidence": 0.88,
+      "quality": {
+        "coverage": 0.867,
+        "coherentCoverage": 0.821,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1781.76,
+        "previousEnd": 1850.04
+      }
     }
-  ]
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 7,
+    "unverifiedEnds": 3,
+    "missingTargets": []
+  },
+  "repairFingerprint": "a71e0c815d08141f9f0dbb750cae2a2ae46ed13a9c937f6439b88f84de087659",
+  "repairCueDigest": "08a2674cacbac269810c94a929ca5db405d57801e451f8276a02c74e666b7830"
 }

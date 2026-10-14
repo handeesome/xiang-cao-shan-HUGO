@@ -4,7 +4,7 @@
   {{ partial "docs/html-head" . }}
   {{ partial "docs/inject/head" . }}
 </head>
-<body dir="{{ default "ltr" .Site.Language.LanguageDirection }}">
+<body dir="{{ default "ltr" .Site.Language.LanguageDirection }}"{{ if not .IsHome }} class="book-content-layout"{{ end }}{{ if and (partial "book-context.html" .) (strings.TrimSpace .RawContent) (not .Params.BookHref) }} data-reading-path="{{ .RelPermalink }}"{{ end }}>
 
   <input type="checkbox" class="hidden toggle" id="menu-control" tabindex="-1" aria-hidden="true" />
   <input type="checkbox" class="hidden toggle" id="toc-control" tabindex="-1" aria-hidden="true" />
@@ -44,6 +44,14 @@
       </header>
 
       {{ partial "docs/inject/content-before" . }}
+      {{ if and (partial "book-context.html" .) (strings.TrimSpace .RawContent) (not .Params.BookHref) }}
+      <div class="book-reading-toolbar">
+        {{ partial "book-breadcrumbs.html" . }}
+        {{ partial "reading-preferences.html" . }}
+      </div>
+      {{ else }}
+      {{ partial "book-breadcrumbs.html" . }}
+      {{ end }}
       {{ block "main" . }}
         <article class="markdown book-article">
           {{- .Content -}}
@@ -92,7 +100,7 @@
   {{ if default true (default .Site.Params.BookToC .Params.BookToC) }}
   <aside class="hidden clearfix" id="book-mobile-toc" aria-labelledby="book-mobile-toc-title">
     <div class="book-mobile-toc-heading" id="book-mobile-toc-title">本页目录</div>
-    {{ template "toc" . }}
+    {{ partial "docs/mobile-toc" . }}
   </aside>
   {{ end }}
 {{ end }}

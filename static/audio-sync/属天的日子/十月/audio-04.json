@@ -8,20 +8,39 @@
   "audioDuration": 187.491375,
   "cues": [
     {
-      "start": 0.18,
-      "end": 4.78,
-      "kind": "heading",
-      "targetIndex": 18,
-      "targetText": "十月四日",
-      "confidence": 0.571
-    },
-    {
       "start": 4.78,
       "end": 10.08,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "番石榴长出代替蒺藜赛5513",
-      "confidence": 0.516
+      "confidence": 0.516,
+      "quality": {
+        "coverage": 0.571,
+        "coherentCoverage": 0.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.571,
+        "suffixCoverage": 0.571,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 4.78,
+        "previousEnd": 10.08
+      }
     },
     {
       "start": 10.08,
@@ -29,23 +48,124 @@
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "上帝最甜美的纪念物是由荆棘及蒺藜所生长出的平安美善的花朵因为这其间的过程是艰巨且缓慢的",
-      "confidence": 0.575
+      "confidence": 0.736,
+      "quality": {
+        "coverage": 0.744,
+        "coherentCoverage": 0.581,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 10.08,
+        "previousEnd": 33.48
+      }
     },
     {
       "start": 33.48,
-      "end": 77.86,
+      "end": 78.58,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "上帝正藉着此刻最伤害我们的事在我们未来的生命中建造成为共有价值的纪念物让我们把委屈分离的痛苦不愉",
-      "confidence": 0.716
+      "confidence": 0.837,
+      "quality": {
+        "coverage": 0.837,
+        "coherentCoverage": 0.815,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 33.48,
+        "previousEnd": 77.86
+      }
     },
     {
-      "start": 77.86,
+      "start": 78.58,
       "end": 110.68,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "马太福音五章九节说使人和睦的人有福了因为他们必称为上帝的儿子可见上帝圣救赎主的永恒任务乃是使罪人",
-      "confidence": 0.734
+      "confidence": 0.796,
+      "quality": {
+        "coverage": 0.796,
+        "coherentCoverage": 0.688,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "verified-transcript",
+        "previousStart": 77.86,
+        "previousEnd": 110.68
+      }
     },
     {
       "start": 110.68,
@@ -53,7 +173,73 @@
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "让我们今天就开始擦干悲伤的眼泪安慰心灵忧伤的人为受伤的人缠裹使我们能心连心叫人与上帝能合一",
-      "confidence": 0.644
+      "confidence": 0.889,
+      "quality": {
+        "coverage": 0.889,
+        "coherentCoverage": 0.889,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 110.68,
+        "previousEnd": 135.74
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "low confidence (0.516, coverage 0.571): target 19: …番石榴长出代替蒺藜…------赛 55:13",
+    "unverified start anchor: target 19: …番石榴长出代替蒺藜…------赛 55:13",
+    "unverified end anchor: target 19: …番石榴长出代替蒺藜…------赛 55:13",
+    "unverified start anchor: target 20: 神最甜美的纪念物，是由荆棘及蒺藜所生长出的平安、美善的花朵。因为这其间的过程是艰巨且缓慢的。",
+    "unverified end anchor: target 20: 神最甜美的纪念物，是由荆棘及蒺藜所生长出的平安、美善的花朵。因为这其间的过程是艰巨且缓慢的。",
+    "unverified start anchor: target 22: 马太福音五章九节说: 「 使人和睦的人有福了，因为他们必称为神的儿子。 」 可见神圣救赎主的永恒",
+    "repair unverified start (previous-sync): target 19",
+    "repair unverified end (previous-sync): target 19",
+    "repair unverified start (previous-sync): target 20",
+    "repair unverified end (previous-sync): target 20",
+    "repair unverified start (previous-verified-end): target 22"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 3,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "repairFingerprint": "55506b32f5f4ec50c8b8fff75a6e5653db5936a1eaeaed92cd9b2f881e421e8d",
+  "repairCueDigest": "96b083d138e9e30b225e25b94089d92cb793bee7b7362f1c100459f4cc85c40a"
 }

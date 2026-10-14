@@ -1,6 +1,29 @@
 {
   "version": 1,
   "model": ".audio-sync-cache\\models\\small",
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (8 leading chars, coverage 0.350): target 5: 然后13节到17节是第二次，「非利士人又布散在利乏音谷。大卫又求问神，神说：『不要一直地上去，要",
+    "unverified start anchor: target 5: 然后13节到17节是第二次，「非利士人又布散在利乏音谷。大卫又求问神，神说：『不要一直地上去，要",
+    "unverified end anchor: target 9: 下面记载大卫组织乐队、诗班来欢迎约柜。琴瑟、钹，歌唱的歌唱，吹号的吹号。就这样他们欢欢喜喜地将耶",
+    "unverified end anchor: target 13: 他们还献上平安祭，这是人人有份的祭，脂油和腰子、肾脏烧在坛上献给神，余下的归祭司，剩下给献祭的人",
+    "unverified start anchor: target 18: 「要记念他奇妙的作为和他的奇事， 并他口中的判语。 他是耶和华我们的神， 全地都有他的判断。 你",
+    "incomplete end (0 trailing chars, coverage 0.333): target 26: 他继续赞美说：",
+    "unverified start anchor: target 26: 他继续赞美说：",
+    "unverified end anchor: target 26: 他继续赞美说：",
+    "unverified end anchor: target 27: 「『拯救我们的神啊，求你救我们， 聚集我们，使我们脱离外邦， 我们好称赞你的圣名，以赞美你为夸胜",
+    "unverified start anchor: target 29: 大卫迎回约柜，在神面前敬拜赞美。我们的主，祂的名字叫耶稣，因祂要将自己的百姓从罪恶里救出来；祂另",
+    "repair unverified start (previous-sync): target 5",
+    "repair unverified end (previous-sync): target 9",
+    "repair unverified end (previous-sync): target 13",
+    "repair unverified start (previous-sync): target 18",
+    "repair unverified end (previous-sync): target 22",
+    "repair unverified start (previous-sync): target 26",
+    "repair unverified end (previous-sync): target 26",
+    "repair unverified end (previous-sync): target 27",
+    "repair unverified start (previous-sync): target 29"
+  ],
   "source": {
     "page": "历史书/历代志上/代上14-16章.md",
     "audio": "1Ch14-16.mp3"
@@ -13,95 +36,459 @@
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "亲爱的长辈弟兄姊妹主内平安今天我们一起来分享历代志上十四到十六章",
-      "confidence": 0.95
+      "confidence": 0.906,
+      "quality": {
+        "coverage": 0.906,
+        "coherentCoverage": 0.906,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.875,
+        "suffixCoverage": 0.938,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1.01,
+        "previousEnd": 8.33
+      }
     },
     {
       "start": 9.01,
-      "end": 17.43,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "第十四章大卫国度日渐强盛",
-      "confidence": 0.95
-    },
-    {
-      "start": 17.43,
-      "end": 116.98,
+      "end": 115.66,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "十四章我们看见大卫他的王国日见强盛甚至超越列国先看到就是推罗王希兰将香柏木运到大卫那里又差遣使者",
-      "confidence": 0.69
+      "confidence": 0.872,
+      "quality": {
+        "coverage": 0.872,
+        "coherentCoverage": 0.793,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 9.01,
+        "previousEnd": 115.66
+      }
     },
     {
       "start": 116.98,
-      "end": 259.16,
+      "end": 259.62,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "第一次记载在历代志上十四章的8到12节非利士人听见大卫受膏作以色列众人的王非利士众人就上来寻索大",
-      "confidence": 0.8
+      "confidence": 0.851,
+      "quality": {
+        "coverage": 0.85,
+        "coherentCoverage": 0.831,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 116.98,
+        "previousEnd": 259.62
+      }
     },
     {
-      "start": 259.16,
-      "end": 542.28,
+      "start": 259.62,
+      "end": 540.94,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "然后13节到17节是第二次非利士人又布散在利乏音谷大卫又求问上帝上帝说不要一直地上去要转到他们后",
-      "confidence": 0.809
+      "confidence": 0.685,
+      "quality": {
+        "coverage": 0.68,
+        "coherentCoverage": 0.652,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.35,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 8,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "discarded detached start matches"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 259.62,
+        "previousEnd": 540.94
+      }
     },
     {
       "start": 542.28,
-      "end": 611.04,
+      "end": 610.12,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "大卫曾经说上帝藉我的手冲破敌人如同水冲去一般我们活在这个世界上我们要与恶魔争战撒但如同吼叫的狮子",
-      "confidence": 0.734
+      "confidence": 0.901,
+      "quality": {
+        "coverage": 0.901,
+        "coherentCoverage": 0.901,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 542.28,
+        "previousEnd": 610.12
+      }
     },
     {
       "start": 611.04,
-      "end": 613.86,
-      "kind": "heading",
-      "targetIndex": 7,
-      "targetText": "第十五章迎回约柜",
-      "confidence": 0.667
-    },
-    {
-      "start": 613.86,
-      "end": 687.61,
+      "end": 688.11,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "第十五章大卫是合上帝心意的抬上帝的约柜这一次他不像十三章把约柜迁出基列耶琳的时候是赶车这次他完全",
-      "confidence": 0.706
+      "confidence": 0.772,
+      "quality": {
+        "coverage": 0.77,
+        "coherentCoverage": 0.638,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 611.04,
+        "previousEnd": 688.11
+      }
     },
     {
-      "start": 687.61,
-      "end": 749.68,
+      "start": 689.97,
+      "end": 751.24,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "下面记载大卫组织乐队诗班来欢迎约柜琴瑟钹歌唱的歌唱吹号的吹号就这样他们欢欢喜喜地将耶和华的约柜抬",
-      "confidence": 0.827
+      "confidence": 0.862,
+      "quality": {
+        "coverage": 0.87,
+        "coherentCoverage": 0.796,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 689.97,
+        "previousEnd": 751.24
+      }
     },
     {
-      "start": 749.68,
-      "end": 824.25,
+      "start": 754.16,
+      "end": 822.89,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "所以在这一章里我们看见大卫当他的灵复兴的时候他带动更多的人以色列的长老并千夫长等等他们同心要来迎",
-      "confidence": 0.627
+      "confidence": 0.888,
+      "quality": {
+        "coverage": 0.888,
+        "coherentCoverage": 0.859,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 754.16,
+        "previousEnd": 822.89
+      }
     },
     {
       "start": 824.25,
-      "end": 957.77,
+      "end": 958.33,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "十六章是写到大卫安放约柜以后对上帝的敬拜侍奉众人将上帝的约柜请进去安放在大卫所搭的帐幕里就在上帝",
-      "confidence": 0.779
+      "confidence": 0.886,
+      "quality": {
+        "coverage": 0.888,
+        "coherentCoverage": 0.864,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 824.25,
+        "previousEnd": 958.33
+      }
     },
     {
-      "start": 957.77,
+      "start": 958.89,
       "end": 1048.01,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "他们还献上平安祭这是人人有份的祭脂油和腰子肾脏烧在坛上献给上帝余下的归祭司剩下给献祭的人和家人朋",
-      "confidence": 0.779
+      "confidence": 0.871,
+      "quality": {
+        "coverage": 0.886,
+        "coherentCoverage": 0.812,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 958.89,
+        "previousEnd": 1048.01
+      }
     },
     {
       "start": 1048.01,
@@ -109,15 +496,93 @@
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "然后他们就在上帝面前大卫也以诗歌称颂耶和华他说",
-      "confidence": 0.844
+      "confidence": 0.844,
+      "quality": {
+        "coverage": 0.826,
+        "coherentCoverage": 0.826,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.818,
+        "suffixCoverage": 0.818,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1048.01,
+        "previousEnd": 1058.23
+      }
     },
     {
       "start": 1058.23,
-      "end": 1085.22,
+      "end": 1083.65,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "你们要称谢耶和华求告他的名在万民中传扬他的作为要向他唱诗歌颂谈论他一切奇妙的作为要以他的圣名夸耀",
-      "confidence": 0.713
+      "confidence": 0.838,
+      "quality": {
+        "coverage": 0.848,
+        "coherentCoverage": 0.759,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1058.23,
+        "previousEnd": 1083.65
+      }
     },
     {
       "start": 1085.22,
@@ -125,7 +590,46 @@
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "但愿感动大卫的灵也感动我们每个人的心我们也从心里说我们要称谢耶和华求告他的名在万民中传扬他的作为",
-      "confidence": 0.65
+      "confidence": 0.825,
+      "quality": {
+        "coverage": 0.833,
+        "coherentCoverage": 0.745,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1085.22,
+        "previousEnd": 1123.76
+      }
     },
     {
       "start": 1123.76,
@@ -133,23 +637,134 @@
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "我们知道大卫他之所以能够得胜非利士人是因为他真的是常常寻求上帝与祂的能力寻求祂的面但愿我们也作一",
-      "confidence": 0.913
+      "confidence": 0.913,
+      "quality": {
+        "coverage": 0.923,
+        "coherentCoverage": 0.912,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1123.76,
+        "previousEnd": 1155.3
+      }
     },
     {
       "start": 1155.3,
-      "end": 1169.36,
+      "end": 1169.68,
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "要记念他奇妙的作为和他的奇事并他口中的判语他是耶和华我们的上帝全地都有他的判断你们要记念他的约直",
-      "confidence": 0.615
+      "confidence": 0.724,
+      "quality": {
+        "coverage": 0.745,
+        "coherentCoverage": 0.686,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1155.3,
+        "previousEnd": 1169.68
+      }
     },
     {
-      "start": 1169.36,
-      "end": 1195.03,
+      "start": 1170.38,
+      "end": 1193.47,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "我们的上帝乃是守约施慈爱的上帝我们知道新约我们的恩主耶稣基督祂乃是用祂的宝血与我们立约祂既然爱世",
-      "confidence": 0.744
+      "confidence": 0.916,
+      "quality": {
+        "coverage": 0.91,
+        "coherentCoverage": 0.91,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1170.38,
+        "previousEnd": 1193.47
+      }
     },
     {
       "start": 1195.03,
@@ -157,7 +772,46 @@
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "23节到25节是可唱的歌曲",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1195.03,
+        "previousEnd": 1198.51
+      }
     },
     {
       "start": 1198.51,
@@ -165,47 +819,265 @@
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "全地都都要向耶和华歌唱天天传扬他的救恩在列邦中述说他的荣耀在万民中述说他的奇事耶和华为大当受极大",
-      "confidence": 0.846
+      "confidence": 0.846,
+      "quality": {
+        "coverage": 0.839,
+        "coherentCoverage": 0.677,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1198.51,
+        "previousEnd": 1218.55
+      }
     },
     {
       "start": 1218.55,
-      "end": 1238.73,
+      "end": 1238.13,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "28节他说到要将荣耀能力归给我们的上帝29节说到当将供物奉到我们上帝的面前当以圣洁的妆饰敬拜耶和",
-      "confidence": 0.778
+      "confidence": 0.778,
+      "quality": {
+        "coverage": 0.803,
+        "coherentCoverage": 0.738,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1218.55,
+        "previousEnd": 1238.13
+      }
     },
     {
       "start": 1238.73,
-      "end": 1251.81,
+      "end": 1250.79,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "愿天欢喜愿地快乐愿人在列邦中说耶和华作王了愿海和其中所充满的澎湃愿田和其中所有的都欢乐",
-      "confidence": 0.884
+      "confidence": 0.884,
+      "quality": {
+        "coverage": 0.884,
+        "coherentCoverage": 0.814,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1238.73,
+        "previousEnd": 1250.79
+      }
     },
     {
       "start": 1251.81,
-      "end": 1275.43,
+      "end": 1275.21,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "我们的上帝已经在大卫的心中作王也在他的国度中作王所以他是那么的欢喜快乐但愿我们的上帝也在你我的心",
-      "confidence": 0.931
+      "confidence": 0.931,
+      "quality": {
+        "coverage": 0.931,
+        "coherentCoverage": 0.889,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1251.81,
+        "previousEnd": 1275.21
+      }
     },
     {
       "start": 1275.43,
-      "end": 1282.71,
+      "end": 1281.53,
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "应当称谢耶和华因他本为善他的慈爱永远长存",
-      "confidence": 0.8
+      "confidence": 0.8,
+      "quality": {
+        "coverage": 0.8,
+        "coherentCoverage": 0.65,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1275.43,
+        "previousEnd": 1281.53
+      }
     },
     {
       "start": 1282.71,
-      "end": 1284.81,
+      "end": 1284.33,
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "他继续赞美说",
-      "confidence": 0.667
+      "confidence": 0.667,
+      "quality": {
+        "coverage": 0.667,
+        "coherentCoverage": 0.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.333,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 1282.71,
+        "previousEnd": 1284.33
+      }
     },
     {
       "start": 1284.81,
@@ -213,7 +1085,40 @@
       "kind": "paragraph",
       "targetIndex": 27,
       "targetText": "拯救我们的上帝啊求你救我们聚集我们使我们脱离外邦我们好称赞你的圣名以赞美你为夸胜耶和华以色列的上",
-      "confidence": 0.853
+      "confidence": 0.853,
+      "quality": {
+        "coverage": 0.853,
+        "coherentCoverage": 0.733,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1284.81,
+        "previousEnd": 1306.07
+      }
     },
     {
       "start": 1306.07,
@@ -221,7 +1126,46 @@
       "kind": "paragraph",
       "targetIndex": 28,
       "targetText": "然后大卫派亚萨和他的弟兄在约柜前常常侍奉耶和华一日尽一日的职分也就是每日尽职天天侍奉上帝然后后面",
-      "confidence": 0.852
+      "confidence": 0.852,
+      "quality": {
+        "coverage": 0.856,
+        "coherentCoverage": 0.779,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1306.07,
+        "previousEnd": 1344.03
+      }
     },
     {
       "start": 1344.03,
@@ -229,15 +1173,101 @@
       "kind": "paragraph",
       "targetIndex": 29,
       "targetText": "大卫迎回约柜在上帝面前敬拜赞美我们的主祂的名字叫耶稣因祂要将自己的百姓从罪恶里救出来祂另一个名字",
-      "confidence": 0.754
+      "confidence": 0.949,
+      "quality": {
+        "coverage": 0.949,
+        "coherentCoverage": 0.898,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1344.03,
+        "previousEnd": 1383.03
+      }
     },
     {
       "start": 1383.03,
-      "end": 1386.11,
+      "end": 1386.37,
       "kind": "paragraph",
       "targetIndex": 30,
       "targetText": "今天的信息就分享到这里感谢主",
-      "confidence": 0.815
+      "confidence": 0.929,
+      "quality": {
+        "coverage": 0.929,
+        "coherentCoverage": 0.929,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.857,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1383.03,
+        "previousEnd": 1386.37
+      }
     }
-  ]
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 4,
+    "unverifiedEnds": 5,
+    "missingTargets": []
+  },
+  "repairFingerprint": "347bbdbf635655e79679f00a67db08b51bc2d0254c45789c20c6a3b22413108e",
+  "repairCueDigest": "95ef79af1aa761a0846dbb461797aa70694e694f6b2c98d06ad163e521e8e1a1"
 }

@@ -1,0 +1,16 @@
+<div class="reading-preferences" hidden>
+  <button class="reading-preferences-toggle" type="button" aria-label="阅读设置" aria-expanded="false" aria-controls="reading-preferences-panel">字</button>
+  <div class="reading-preferences-panel" id="reading-preferences-panel" aria-hidden="true" inert>
+    <div class="reading-preferences-inner">
+      <div class="reading-font-options" role="group" aria-label="字体">
+        <button type="button" data-reading-font="sans" aria-pressed="true" title="正文使用黑体"><span class="reading-font-sample" aria-hidden="true">Aa</span><span>黑体</span></button>
+        <button type="button" data-reading-font="serif" aria-pressed="false" title="正文使用宋体"><span class="reading-font-sample" aria-hidden="true">Aa</span><span>宋体</span></button>
+      </div>
+      <div class="reading-size-options" role="group" aria-label="字号">
+        <button type="button" data-reading-size="-1" aria-label="缩小字号">−</button>
+        <output class="reading-size-value" aria-label="当前字号" aria-live="polite"></output>
+        <button type="button" data-reading-size="1" aria-label="放大字号">+</button>
+      </div>
+    </div>
+  </div>
+</div>

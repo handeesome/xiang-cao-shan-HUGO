@@ -1,6 +1,37 @@
 {
   "version": 1,
   "model": ".audio-sync-cache\\models\\small",
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 4: 下面我们来看撒母耳记上第一章。在这章里面我们首先看到的就是一个家庭，这个家庭男主人是以利加拿，他",
+    "unverified end anchor: target 6: 我们看见哈拿在这个婚姻当中她深受痛苦，因为毗尼拿做她的对头，大大激动她，要使她生气，就是一直无辜",
+    "incomplete start (0 leading chars, coverage 0.467): target 9: 何等恩友慈仁救主，负我罪孽担我忧。何等权利能将万事，来到耶稣座前求。",
+    "unverified start anchor: target 9: 何等恩友慈仁救主，负我罪孽担我忧。何等权利能将万事，来到耶稣座前求。",
+    "unverified end anchor: target 10: 多少平安我们坐失，多少痛苦冤枉受。都是因为未将万事，来到耶稣座前求。",
+    "unverified end anchor: target 11: 我们这一位恩主耶稣基督，有一朋友比弟兄更亲密，那就是我们的恩主耶稣基督。好多的时候我们没有来到神",
+    "unverified start anchor: target 13: 二章 1 10 节，我们看见哈拿在神面前，从心里来敬拜赞美神，她真的以神为乐，知道神是她力量得胜",
+    "unverified start anchor: target 14: 哈拿继续说：「他从灰尘里抬举贫寒人，从粪堆中提拔穷乏人，使他们与王子同坐，得着荣耀的座位。地的柱",
+    "unverified end anchor: target 17: 第二章接下来就是看到以利的两个儿子，他们不把神的律例放在眼里；多取祭肉，他们只为肚腹享受；犯罪作",
+    "unverified end anchor: target 22: 第四章我们看见约柜的被掳；以利并他两个儿子死了，以及他的儿媳妇难产致死；我们看见神预言的应验。当",
+    "unverified start anchor: target 24: 然后以利的儿妇、非尼哈的妻子（就是以利的儿妇），在这里也讲到难产的时候，她给孩子起名叫以迦博，就",
+    "unverified start anchor: target 25: 愿主祝福祂自己的话，感谢主。",
+    "repair unverified start (previous-sync): target 4",
+    "repair unverified end (previous-sync): target 6",
+    "repair unverified start (previous-sync): target 9",
+    "repair unverified end (previous-sync): target 9",
+    "repair unverified start (previous-sync): target 10",
+    "repair unverified end (previous-sync): target 10",
+    "repair unverified end (previous-sync): target 11",
+    "repair unverified start (previous-sync): target 13",
+    "repair unverified start (previous-sync): target 14",
+    "repair unverified end (previous-sync): target 17",
+    "repair unverified start (previous-sync): target 19",
+    "repair unverified end (previous-sync): target 22",
+    "repair unverified end (previous-sync): target 23",
+    "repair unverified start (previous-sync): target 24",
+    "repair unverified start (previous-sync): target 25"
+  ],
   "source": {
     "page": "历史书/撒母耳记上/撒上1-4章.md",
     "audio": "1Sa1-4.mp3"
@@ -8,60 +39,231 @@
   "audioDuration": 1746.4424375,
   "cues": [
     {
-      "start": 8.74,
-      "end": 11.72,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "撒上14章",
-      "confidence": 0.95
-    },
-    {
-      "start": 11.72,
-      "end": 68.16,
+      "start": 1.9,
+      "end": 67.6,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "弟兄姊妹主内平安今天我们蒙上帝带领读到撒母耳记上第四章我们知道撒母耳记上是讲论以色列转政的时期就",
-      "confidence": 0.756
+      "confidence": 0.831,
+      "quality": {
+        "coverage": 0.826,
+        "coherentCoverage": 0.795,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1.9,
+        "previousEnd": 67.6
+      }
     },
     {
       "start": 68.16,
-      "end": 139.35,
+      "end": 139.81,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "在这卷书里面主要是讲三个人一个是撒母耳一个是扫罗一个是大卫撒母耳主要记载在17章撒母耳是他的母亲",
-      "confidence": 0.648
+      "confidence": 0.705,
+      "quality": {
+        "coverage": 0.733,
+        "coherentCoverage": 0.652,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 68.16,
+        "previousEnd": 139.81
+      }
     },
     {
       "start": 141.25,
-      "end": 145.57,
-      "kind": "heading",
-      "targetIndex": 3,
-      "targetText": "第一章哈拿的祷告与撒母耳的诞生",
-      "confidence": 0.95
-    },
-    {
-      "start": 147.15,
-      "end": 207.9,
+      "end": 209.12,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "下面我们来看撒母耳记上第一章在这章里面我们首先看到的就是一个家庭这个家庭男主人是以利加拿他有两个",
-      "confidence": 0.95
+      "confidence": 0.788,
+      "quality": {
+        "coverage": 0.805,
+        "coherentCoverage": 0.704,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 141.25,
+        "previousEnd": 209.12
+      }
     },
     {
-      "start": 207.9,
-      "end": 295.15,
+      "start": 209.68,
+      "end": 294.01,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "在这个家庭当中我们看见偏离上帝的旨意是家庭不和睦的一个非常关键的因素我们看见上帝的旨意是要让人一",
-      "confidence": 0.8
+      "confidence": 0.868,
+      "quality": {
+        "coverage": 0.894,
+        "coherentCoverage": 0.77,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 209.68,
+        "previousEnd": 294.01
+      }
     },
     {
       "start": 295.15,
-      "end": 453.1,
+      "end": 452.46,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "我们看见哈拿在这个婚姻当中她深受痛苦因为毗尼拿做她的对头大大激动她要使她生气就是一直无辜的刺激她",
-      "confidence": 0.843
+      "confidence": 0.843,
+      "quality": {
+        "coverage": 0.848,
+        "coherentCoverage": 0.79,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 295.15,
+        "previousEnd": 452.46
+      }
     },
     {
       "start": 453.1,
@@ -69,127 +271,552 @@
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "其实我们好多做父母的常常忘了当上帝赐给我们孩子的时候我们常常跟世人的价值观差不多了箴言九章十节是",
-      "confidence": 0.688
+      "confidence": 0.863,
+      "quality": {
+        "coverage": 0.867,
+        "coherentCoverage": 0.841,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 453.1,
+        "previousEnd": 527.62
+      }
     },
     {
       "start": 527.62,
-      "end": 668.7,
+      "end": 669.46,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "我们看见哈拿经历了痛苦的境遇以后如果上帝赐给她一个孩子她愿意将这个孩子使他终身归于耶和华不用剃头",
-      "confidence": 0.828
+      "confidence": 0.872,
+      "quality": {
+        "coverage": 0.856,
+        "coherentCoverage": 0.809,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 527.62,
+        "previousEnd": 668.54
+      }
     },
     {
-      "start": 668.7,
-      "end": 697.39,
+      "start": 669.46,
+      "end": 695.15,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "何等恩友慈仁救主负我罪孽担我忧何等权利能将万事来到耶稣座前求",
-      "confidence": 0.613
+      "confidence": 0.644,
+      "quality": {
+        "coverage": 0.633,
+        "coherentCoverage": 0.333,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.467,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 669.46,
+        "previousEnd": 695.15
+      }
     },
     {
       "start": 697.39,
-      "end": 725.02,
+      "end": 721.03,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "多少平安我们坐失多少痛苦冤枉受都是因为未将万事来到耶稣座前求",
-      "confidence": 0.61
+      "confidence": 0.746,
+      "quality": {
+        "coverage": 0.733,
+        "coherentCoverage": 0.533,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.667,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 697.39,
+        "previousEnd": 721.03
+      }
     },
     {
       "start": 725.02,
-      "end": 807.49,
+      "end": 805.47,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "我们这一位恩主耶稣基督有一朋友比弟兄更亲密那就是我们的恩主耶稣基督好多的时候我们没有来到上帝的宝",
-      "confidence": 0.884
+      "confidence": 0.896,
+      "quality": {
+        "coverage": 0.896,
+        "coherentCoverage": 0.876,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 725.02,
+        "previousEnd": 805.47
+      }
     },
     {
       "start": 807.49,
-      "end": 837.39,
+      "end": 835.95,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "后来我们看见耶和华顾念哈拿就赐给她一个孩子就是撒母耳这是哈拿从耶和华那里求来的她就乳养这个孩子等",
-      "confidence": 0.818
+      "confidence": 0.818,
+      "quality": {
+        "coverage": 0.828,
+        "coherentCoverage": 0.713,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 807.49,
+        "previousEnd": 835.95
+      }
     },
     {
       "start": 837.39,
-      "end": 937.58,
+      "end": 936.04,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "二章110节我们看见哈拿在上帝面前从心里来敬拜赞美上帝她真的以上帝为乐知道上帝是她力量得胜的源头",
-      "confidence": 0.763
+      "confidence": 0.839,
+      "quality": {
+        "coverage": 0.842,
+        "coherentCoverage": 0.769,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 837.39,
+        "previousEnd": 936.04
+      }
     },
     {
       "start": 937.58,
-      "end": 1025.82,
+      "end": 1024.6,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "哈拿继续说他从灰尘里抬举贫寒人从粪堆中提拔穷乏人使他们与王子同坐得着荣耀的座位地的柱子属于耶和华",
-      "confidence": 0.775
+      "confidence": 0.857,
+      "quality": {
+        "coverage": 0.863,
+        "coherentCoverage": 0.773,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 937.58,
+        "previousEnd": 1024.6
+      }
     },
     {
       "start": 1025.82,
-      "end": 1102.73,
+      "end": 1100.48,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "所以当哈拿在上帝面前祷告的时候她真的充满了无限的感恩知道我们的上帝统管一切祂也是乐意施恩眷顾贫寒",
-      "confidence": 0.93
+      "confidence": 0.93,
+      "quality": {
+        "coverage": 0.926,
+        "coherentCoverage": 0.908,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1025.82,
+        "previousEnd": 1100.48
+      }
     },
     {
       "start": 1102.73,
-      "end": 1107.13,
-      "kind": "heading",
-      "targetIndex": 16,
-      "targetText": "第二章上帝的审判与撒母耳的成长",
-      "confidence": 0.95
-    },
-    {
-      "start": 1107.13,
-      "end": 1263.34,
+      "end": 1261.86,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "第二章接下来就是看到以利的两个儿子他们不把上帝的律例放在眼里多取祭肉他们只为肚腹享受犯罪作恶使人",
-      "confidence": 0.837
+      "confidence": 0.878,
+      "quality": {
+        "coverage": 0.893,
+        "coherentCoverage": 0.842,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1102.73,
+        "previousEnd": 1261.86
+      }
     },
     {
       "start": 1263.34,
-      "end": 1264.28,
-      "kind": "heading",
-      "targetIndex": 18,
-      "targetText": "第三章上帝兴起撒母耳",
-      "confidence": 0.95
-    },
-    {
-      "start": 1264.28,
-      "end": 1317.37,
+      "end": 1316.13,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "第三章我们看见童子撒母耳在以利面前侍奉耶和华当上帝向撒母耳显现的时候一次一次呼唤撒母耳的时候撒母",
-      "confidence": 0.705
+      "confidence": 0.736,
+      "quality": {
+        "coverage": 0.736,
+        "coherentCoverage": 0.642,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1263.34,
+        "previousEnd": 1316.13
+      }
     },
     {
       "start": 1317.37,
-      "end": 1439.61,
+      "end": 1437.37,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "在这里我们看见一个是撒母耳的殷勤第二个就是上帝的话不临到以利临到了撒母耳这个童子撒母耳在以利面前",
-      "confidence": 0.858
+      "confidence": 0.858,
+      "quality": {
+        "coverage": 0.859,
+        "coherentCoverage": 0.819,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1317.37,
+        "previousEnd": 1437.37
+      }
     },
     {
       "start": 1439.61,
-      "end": 1440.87,
-      "kind": "heading",
-      "targetIndex": 21,
-      "targetText": "第四章约柜被掳",
-      "confidence": 0.6
-    },
-    {
-      "start": 1440.87,
       "end": 1557.57,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "第四章我们看见约柜的被掳以利并他两个儿子死了以及他的儿媳妇难产致死我们看见上帝预言的应验当以色列",
-      "confidence": 0.806
+      "confidence": 0.815,
+      "quality": {
+        "coverage": 0.811,
+        "coherentCoverage": 0.753,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1439.61,
+        "previousEnd": 1557.57
+      }
     },
     {
       "start": 1557.57,
@@ -197,7 +824,40 @@
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "然后当消息传到以利耳中的时候当人一提到上帝的约柜被掳的时候以利就从他的位上往后跌倒在门旁折断颈项",
-      "confidence": 0.863
+      "confidence": 0.863,
+      "quality": {
+        "coverage": 0.873,
+        "coherentCoverage": 0.802,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1557.57,
+        "previousEnd": 1636.22
+      }
     },
     {
       "start": 1636.22,
@@ -205,15 +865,98 @@
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "然后以利的儿妇非尼哈的妻子就是以利的儿妇在这里也讲到难产的时候她给孩子起名叫以迦博就是荣耀离开以",
-      "confidence": 0.784
+      "confidence": 0.853,
+      "quality": {
+        "coverage": 0.866,
+        "coherentCoverage": 0.794,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.55,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1636.22,
+        "previousEnd": 1742.77
+      }
     },
     {
       "start": 1742.77,
-      "end": 1745.69,
+      "end": 1745.93,
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "愿主祝福祂自己的话感谢主",
-      "confidence": 0.783
+      "confidence": 0.75,
+      "quality": {
+        "coverage": 0.75,
+        "coherentCoverage": 0.5,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.667,
+        "suffixCoverage": 0.833,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1742.77,
+        "previousEnd": 1745.93
+      }
     }
-  ]
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 8,
+    "unverifiedEnds": 7,
+    "missingTargets": []
+  },
+  "repairFingerprint": "6c1cf7ba2c6f6662243d1aed111900b144791efdba545b4acb8bb998b21fcbca",
+  "repairCueDigest": "7d3bf33a0a5320cce33e7ea3c3a2f3ebf7d687eaa027b487aad1aafabd2d691e",
+  "targetMigrations": []
 }

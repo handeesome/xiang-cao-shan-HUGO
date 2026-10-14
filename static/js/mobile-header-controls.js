@@ -5,7 +5,7 @@
     const controls = Array.from(
       document.querySelectorAll("[data-toggle-control]")
     );
-    const mobileView = window.matchMedia("(max-width: 900px)");
+    const mobileView = window.matchMedia("(max-width: 1024px)");
     const menuControl = controls.find(
       (control) => control.dataset.toggleControl === "menu-control"
     );
@@ -13,18 +13,30 @@
     const menuPanel = document.getElementById("book-menu-panel");
     const menuContent = menuPanel?.querySelector(".book-menu-content");
     const menuBackground = Array.from(
-      document.querySelectorAll(".book-page, .book-toc, body > .banner-header")
+      document.querySelectorAll(".book-page, .book-toc, body > .banner-header, .reading-preferences")
     );
     let menuScrollPosition = 0;
     let menuWasOpen = false;
+    let menuHasOpened = false;
+
+    const isVisibleMenuElement = (element) => {
+      if (!element.getClientRects().length) return false;
+      for (let parent = element.parentElement; parent; parent = parent.parentElement) {
+        if (
+          parent.tagName === "DETAILS" && !parent.open &&
+          !parent.querySelector("summary")?.contains(element)
+        ) return false;
+      }
+      return true;
+    };
 
     const getMenuFocusableElements = () =>
       menuContent
         ? Array.from(
             menuContent.querySelectorAll(
-              'a[href], button:not([disabled]), input:not([disabled]):not([type="hidden"]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
+              'summary, a[href], button:not([disabled]), input:not([disabled]):not([type="hidden"]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])'
             )
-          ).filter((element) => element.getClientRects().length > 0)
+          ).filter(isVisibleMenuElement)
         : [];
 
     const setMenuBackgroundInactive = (inactive) => {
@@ -53,9 +65,30 @@
         menuContent?.setAttribute("aria-modal", "true");
         menuContent?.setAttribute("aria-label", "站点导航");
         requestAnimationFrame(() => {
-          getMenuFocusableElements()[0]?.focus({
-            preventScroll: true,
-          });
+          if (!menuToggle?.checked || !mobileView.matches) return;
+
+          let focusTarget = getMenuFocusableElements()[0];
+          if (!menuHasOpened) {
+            const currentChapter = menuContent?.querySelector(
+              '.book-chapter-tree a[aria-current="page"]'
+            );
+            if (currentChapter && isVisibleMenuElement(currentChapter)) {
+              const menuBounds = menuContent.getBoundingClientRect();
+              const chapterBounds = currentChapter.getBoundingClientRect();
+              if (
+                chapterBounds.top < menuBounds.top + 16 ||
+                chapterBounds.bottom > menuBounds.bottom - 16
+              ) {
+                // Scroll only the drawer; the reading page stays in place.
+                menuContent.scrollTop +=
+                  chapterBounds.top - menuBounds.top -
+                  (menuContent.clientHeight - chapterBounds.height) / 2;
+              }
+              focusTarget = currentChapter;
+            }
+            menuHasOpened = true;
+          }
+          focusTarget?.focus({ preventScroll: true });
         });
       } else {
         document.body.classList.remove("book-menu-open");
@@ -136,6 +169,18 @@
     const focusActiveTocLink = () => {
       const activeLink =
         tocPanel?.querySelector('a[aria-current="location"]') || tocLinks[0];
+      if (activeLink) {
+        const panelBounds = tocPanel.getBoundingClientRect();
+        const linkBounds = activeLink.getBoundingClientRect();
+        if (
+          linkBounds.top < panelBounds.top + 8 ||
+          linkBounds.bottom > panelBounds.bottom - 8
+        ) {
+          tocPanel.scrollTop +=
+            linkBounds.top - panelBounds.top -
+            (tocPanel.clientHeight - linkBounds.height) / 2;
+        }
+      }
       activeLink?.focus({ preventScroll: true });
     };
 

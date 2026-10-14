@@ -8,20 +8,39 @@
   "audioDuration": 317.823125,
   "cues": [
     {
-      "start": 5.0,
-      "end": 6.68,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "九藉宝血得胜",
-      "confidence": 0.667
-    },
-    {
       "start": 6.68,
       "end": 22.32,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "弟兄胜过牠是因羔羊的血和自己所见证的道他们虽至于死也不爱惜性命启十二11",
-      "confidence": 0.632
+      "confidence": 0.632,
+      "quality": {
+        "coverage": 0.667,
+        "coherentCoverage": 0.5,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.722,
+        "suffixCoverage": 0.611,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 5,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 6.68,
+        "previousEnd": 22.32
+      }
     },
     {
       "start": 22.32,
@@ -29,39 +48,228 @@
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "引诱人背叛上帝的古蛇和女人的后裔之间的争斗已过了数千年为要得到人",
-      "confidence": 0.938
+      "confidence": 0.938,
+      "quality": {
+        "coverage": 0.938,
+        "coherentCoverage": 0.844,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.875,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 22.32,
+        "previousEnd": 32.92
+      }
     },
     {
       "start": 32.92,
-      "end": 49.49,
+      "end": 47.32,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "有时似乎好像上帝的国已经来到掌权了但有时罪恶的权势得到极大的势力争战看起来一点希望都没有",
-      "confidence": 0.977
+      "confidence": 0.977,
+      "quality": {
+        "coverage": 0.977,
+        "coherentCoverage": 0.977,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 32.92,
+        "previousEnd": 49.49
+      }
     },
     {
       "start": 49.49,
-      "end": 81.49,
+      "end": 79.89,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "在主耶稣的生活里也是如此当祂来的时候祂奇妙的话语和工作激起了最荣耀的盼望盼望很快得到救赎但是耶稣",
-      "confidence": 0.894
+      "confidence": 0.918,
+      "quality": {
+        "coverage": 0.918,
+        "coherentCoverage": 0.882,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 49.49,
+        "previousEnd": 81.49
+      }
     },
     {
       "start": 81.49,
-      "end": 127.41,
+      "end": 125.95,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "但是看啊耶稣已经从死里复活黑暗君王表面上的得胜变成致命的倾倒借着生命的主的死撒但让耶稣进入撒但的",
-      "confidence": 0.887
+      "confidence": 0.887,
+      "quality": {
+        "coverage": 0.891,
+        "coherentCoverage": 0.891,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 81.49,
+        "previousEnd": 127.41
+      }
     },
     {
       "start": 127.41,
-      "end": 148.37,
+      "end": 146.93,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "在我们的经文里把这些事情说的很清楚大多的解经家虽然在解经的细节里有不同看法都认为这节说到基督升天",
-      "confidence": 0.929
+      "confidence": 0.929,
+      "quality": {
+        "coverage": 0.929,
+        "coherentCoverage": 0.929,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 127.41,
+        "previousEnd": 148.37
+      }
     },
     {
       "start": 148.37,
@@ -69,23 +277,126 @@
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "我们读启示录妇人生了一个男孩子是将来要用铁杖辖管万国的她的孩子被提到上帝宝座那里去了妇人就逃到旷",
-      "confidence": 0.78
+      "confidence": 0.861,
+      "quality": {
+        "coverage": 0.853,
+        "coherentCoverage": 0.81,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 148.37,
+        "previousEnd": 208.93
+      }
     },
     {
-      "start": 208.93,
+      "start": 210.69,
       "end": 246.99,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "此后有赞美的歌我上帝的救恩能力国度并祂基督的权柄现在都来到了因为那在我们上帝面前昼夜控告我们弟兄",
-      "confidence": 0.775
+      "confidence": 0.866,
+      "quality": {
+        "coverage": 0.855,
+        "coherentCoverage": 0.8,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 208.93,
+        "previousEnd": 246.99
+      }
     },
     {
-      "start": 246.99,
+      "start": 251.37,
       "end": 275.69,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "值得特别注意的一点是撒但被击败被从天摔下去首先说是耶稣升天和其后在天上的争战的结果但是在天上听到",
-      "confidence": 0.747
+      "confidence": 0.847,
+      "quality": {
+        "coverage": 0.847,
+        "coherentCoverage": 0.764,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 246.99,
+        "previousEnd": 275.69
+      }
     },
     {
       "start": 275.69,
@@ -93,7 +404,40 @@
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "在整本启示录里我们看到羔羊是在宝座上祂是因被杀才得这地位胜过撒但和其权势是因羔羊的血",
-      "confidence": 0.69
+      "confidence": 0.69,
+      "quality": {
+        "coverage": 0.69,
+        "coherentCoverage": 0.381,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.55,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 275.69,
+        "previousEnd": 291.53
+      }
     },
     {
       "start": 291.53,
@@ -101,7 +445,40 @@
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "我们已经谈到宝血多方面的功效我们应当寻求来明白为何得胜是基于羔羊的血",
-      "confidence": 0.588
+      "confidence": 0.882,
+      "quality": {
+        "coverage": 0.882,
+        "coherentCoverage": 0.735,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.941,
+        "suffixCoverage": 0.824,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 291.53,
+        "previousEnd": 302.79
+      }
     },
     {
       "start": 302.79,
@@ -109,7 +486,80 @@
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "我们要思想得胜一是一次永远完成二是永远连续的三是我们有份的",
-      "confidence": 0.759
+      "confidence": 0.966,
+      "quality": {
+        "coverage": 0.966,
+        "coherentCoverage": 0.966,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.929,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 302.79,
+        "previousEnd": 316.91
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (5 trailing chars, coverage 0.611): target 1: 「弟兄胜过牠，是因羔羊的血和自己所见证的道。他们虽至于死，也不爱惜性命。」(启十二 11)",
+    "unverified start anchor: target 1: 「弟兄胜过牠，是因羔羊的血和自己所见证的道。他们虽至于死，也不爱惜性命。」(启十二 11)",
+    "unverified end anchor: target 1: 「弟兄胜过牠，是因羔羊的血和自己所见证的道。他们虽至于死，也不爱惜性命。」(启十二 11)",
+    "unverified end anchor: target 2: 引诱人背叛神的古蛇和女人的后裔之间的争斗已过了数千年，为要得到人。",
+    "unverified end anchor: target 7: 我们读启示录「妇人生了一个男孩子，是将来要用铁杖辖管万国的；她的孩子被提到神宝座那里去了。妇人就",
+    "incomplete end (4 trailing chars, coverage 0.700): target 8: 此后有赞美的歌，「我神的救恩、能力、国度、并祂基督的权柄，现在都来到了！因为那在我们神面前昼夜控",
+    "unverified end anchor: target 8: 此后有赞美的歌，「我神的救恩、能力、国度、并祂基督的权柄，现在都来到了！因为那在我们神面前昼夜控",
+    "unverified end anchor: target 9: 值得特别注意的一点是，撒但被击败，被从天摔下去，首先说是耶稣升天和其后在天上的争战的结果，但是在",
+    "unverified end anchor: target 10: 在整本启示录里，我们看到羔羊是在宝座上，祂是因被杀才得这地位，胜过撒但和其权势是因羔羊的血。",
+    "unverified end anchor: target 11: 我们已经谈到宝血多方面的功效。我们应当寻求来明白为何得胜是基于羔羊的血。",
+    "repair unverified start (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 2",
+    "repair unverified end (previous-sync): target 7",
+    "repair unverified end (previous-sync): target 8",
+    "repair unverified end (previous-sync): target 9",
+    "repair unverified end (previous-sync): target 10",
+    "repair unverified end (previous-sync): target 11"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 4,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 7,
+    "missingTargets": []
+  },
+  "repairFingerprint": "119afc6a0e47469172e384264a047d2765c0b030a520d6c452e736e99b9bab67",
+  "repairCueDigest": "b325362512cf641adbc103b1e18c83d7e705e5b87f6802d1eec6d67321823980"
 }

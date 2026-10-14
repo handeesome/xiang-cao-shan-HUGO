@@ -1,6 +1,53 @@
 {
   "version": 1,
   "model": ".audio-sync-cache\\models\\small",
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (14 leading chars, coverage 0.000): target 1: 长辈弟兄姊妹，主内平安。今天我们一起读了士师记十二到十四章。",
+    "low confidence (0.500, coverage 0.370): target 1: 长辈弟兄姊妹，主内平安。今天我们一起读了士师记十二到十四章。",
+    "unverified start anchor: target 1: 长辈弟兄姊妹，主内平安。今天我们一起读了士师记十二到十四章。",
+    "unverified end anchor: target 1: 长辈弟兄姊妹，主内平安。今天我们一起读了士师记十二到十四章。",
+    "unmatched (fragment only): target 1: 长辈弟兄姊妹，主内平安。今天我们一起读了士师记十二到十四章。",
+    "unverified end anchor: target 3: 感谢主的恩典，我想跟长辈弟兄姊妹一同分享读经后的所得。",
+    "unverified start anchor: target 5: 这一次呢，他们又「聚集，到了北方，对耶弗他说：『你去与亚扪人争战，为什么没有招我们同去呢？我们必",
+    "unverified end anchor: target 5: 这一次呢，他们又「聚集，到了北方，对耶弗他说：『你去与亚扪人争战，为什么没有招我们同去呢？我们必",
+    "unverified start anchor: target 8: 志贝姐曾也让我在这个平台里分享些神的话语，我也是一推再推，确实留下许多的亏欠。圣经要我们「各人要",
+    "incomplete end (0 trailing chars, coverage 0.357): target 11: 在士师记十二章8到13节，神记载了三个士师，以比赞、以伦、押顿。",
+    "low confidence (0.500, coverage 0.500): target 11: 在士师记十二章8到13节，神记载了三个士师，以比赞、以伦、押顿。",
+    "unverified start anchor: target 11: 在士师记十二章8到13节，神记载了三个士师，以比赞、以伦、押顿。",
+    "unverified end anchor: target 11: 在士师记十二章8到13节，神记载了三个士师，以比赞、以伦、押顿。",
+    "unverified start anchor: target 13: 在十三章到十四章，讲了参孙的事。十六章也是。那我们先来看十三章，参生的出生。「以色列人又行耶和华",
+    "unverified end anchor: target 16: 所以，在这里我们看见，祂早就为那些犯罪作恶的以色列人预备了一个器皿，就是参孙，他说到：「这孩子一",
+    "unverified start anchor: target 17: 这对夫妻，神赐给他们一个孩子，就是参孙。那么，神果然到了日子使他们生了参孙，然后，耶和华赐福与他",
+    "unverified start anchor: target 19: 在十四章里，我们看见，这个参孙，他虽然在他父母怀孕的时候，神已经指示他作拿细耳人，但是他实际的生",
+    "unverified start anchor: target 20: 在申命记七章1到4节，出埃及记卅四章16节，都有规定：以色列人不要与外族通婚。现在也是，我们信的",
+    "unverified start anchor: target 21: 但第4节说「他的父母却不知道这事是出于耶和华，因为他找机会攻击非利士人。那时非利士人辖制以色列人",
+    "unverified end anchor: target 23: 我们的神是圣洁的，天堂也是圣洁的好地方，罪孽污秽不能近。神说「你们要圣洁」，在彼得前书一章15到",
+    "unverified start anchor: target 24: 还有他下面设摆筵席的时候，参孙让陪伴的三十个人是有赌博性的那个猜谜语，也是神不喜悦的。他说，猜出",
+    "unverified start anchor: target 26: 在希伯来书里，参孙后来也是成为一个信心的伟人，所以我们看见，一个人信心的增长是逐步的。在当时我们",
+    "unverified end anchor: target 26: 在希伯来书里，参孙后来也是成为一个信心的伟人，所以我们看见，一个人信心的增长是逐步的。在当时我们",
+    "unverified end anchor: target 27: 所以我们好多的时候，其实我们心里，我们听了很多年的道，有的从小就相信，但是我们所听见的，跟我们实",
+    "repair missing cue (unverified): target 1",
+    "repair unverified start (previous-sync): target 3",
+    "repair unverified end (previous-sync): target 3",
+    "repair unverified start (previous-sync): target 5",
+    "repair unverified end (previous-sync): target 5",
+    "repair unverified start (previous-sync): target 8",
+    "repair unverified start (previous-sync): target 11",
+    "repair unverified end (previous-sync): target 11",
+    "repair unverified start (previous-sync): target 13",
+    "repair unverified end (previous-sync): target 16",
+    "repair unverified start (previous-sync): target 17",
+    "repair unverified start (previous-sync): target 19",
+    "repair unverified start (previous-sync): target 20",
+    "repair unverified start (previous-sync): target 21",
+    "repair unverified end (previous-sync): target 23",
+    "repair unverified start (previous-sync): target 24",
+    "repair unverified start (previous-sync): target 26",
+    "repair unverified end (previous-sync): target 26",
+    "repair unverified end (previous-sync): target 27"
+  ],
   "source": {
     "page": "历史书/士师记/士12-14章.md",
     "audio": "Judges12-14.mp3"
@@ -8,20 +55,41 @@
   "audioDuration": 1168.849,
   "cues": [
     {
-      "start": 4.33,
-      "end": 9.29,
-      "kind": "paragraph",
-      "targetIndex": 1,
-      "targetText": "长辈弟兄姊妹主内平安今天我们一起读了士师记十二到十四章",
-      "confidence": 0.95
-    },
-    {
       "start": 9.29,
       "end": 20.31,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "感谢主的恩典我想跟长辈弟兄姊妹一同分享读经后的所得",
-      "confidence": 0.95
+      "confidence": 0.696,
+      "quality": {
+        "coverage": 0.64,
+        "coherentCoverage": 0.56,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.583,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 9.29,
+        "previousEnd": 20.31
+      }
     },
     {
       "start": 22.07,
@@ -29,95 +97,484 @@
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "在第十二章里我们看见以法莲人他们又一次耍赖在士师记第八章里面以法莲人曾经在基甸面前说你去与米甸人",
-      "confidence": 0.95
+      "confidence": 0.756,
+      "quality": {
+        "coverage": 0.762,
+        "coherentCoverage": 0.677,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 22.07,
+        "previousEnd": 59.95
+      }
     },
     {
       "start": 59.95,
-      "end": 95.8,
+      "end": 92.6,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "这一次呢他们又聚集到了北方对耶弗他说你去与亚扪人争战为什么没有招我们同去呢我们必用火烧你和你的房",
-      "confidence": 0.865
+      "confidence": 0.865,
+      "quality": {
+        "coverage": 0.842,
+        "coherentCoverage": 0.726,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 59.95,
+        "previousEnd": 92.6
+      }
     },
     {
       "start": 95.8,
-      "end": 125.6,
+      "end": 125.96,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "其实在上帝的家中发生这么大的事情以法莲人可以主动地甘心乐意地一起去面对亚扪人的但是他们自己没有主",
-      "confidence": 0.855
+      "confidence": 0.846,
+      "quality": {
+        "coverage": 0.851,
+        "coherentCoverage": 0.805,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 95.8,
+        "previousEnd": 125.96
+      }
     },
     {
-      "start": 125.6,
+      "start": 126.98,
       "end": 152.16,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "所以在这里我想到上帝家的事我们每一个蒙恩的人上帝的大家庭我们每一个蒙恩的人都是应该主动地去承担我",
-      "confidence": 0.906
+      "confidence": 0.915,
+      "quality": {
+        "coverage": 0.92,
+        "coherentCoverage": 0.88,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 126.98,
+        "previousEnd": 152.16
+      }
     },
     {
       "start": 152.16,
-      "end": 211.1,
+      "end": 210.22,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "志贝姐曾也让我在这个平台里分享些上帝的话语我也是一推再推确实留下许多的亏欠圣经要我们各人要照所得",
-      "confidence": 0.793
+      "confidence": 0.891,
+      "quality": {
+        "coverage": 0.901,
+        "coherentCoverage": 0.863,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 152.16,
+        "previousEnd": 210.22
+      }
     },
     {
       "start": 211.1,
-      "end": 270.4,
+      "end": 269.84,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "在这件事情上后来就是以法莲人跟耶弗他大大争战的时候以法莲人被杀了四万二千人你看这个内战所造成的损",
-      "confidence": 0.856
+      "confidence": 0.888,
+      "quality": {
+        "coverage": 0.891,
+        "coherentCoverage": 0.814,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 211.1,
+        "previousEnd": 269.84
+      }
     },
     {
       "start": 270.4,
-      "end": 287.5,
+      "end": 286.68,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "所以我们无论是跟夫妻之间相处也好跟邻居或者同事相处也好求上帝保守我们的心怀意念也保守我们的言语思",
-      "confidence": 0.776
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 270.4,
+        "previousEnd": 286.68
+      }
     },
     {
       "start": 287.5,
-      "end": 299.22,
+      "end": 298.08,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "在士师记十二章8到13节上帝记载了三个士师以比赞以伦押顿",
-      "confidence": 0.95
+      "confidence": 0.5,
+      "quality": {
+        "coverage": 0.5,
+        "coherentCoverage": 0.286,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.643,
+        "suffixCoverage": 0.357,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 287.5,
+        "previousEnd": 298.08
+      }
     },
     {
       "start": 299.22,
-      "end": 300.94,
-      "kind": "heading",
-      "targetIndex": 12,
-      "targetText": "第十三章",
-      "confidence": 0.95
-    },
-    {
-      "start": 300.94,
-      "end": 401.94,
+      "end": 400.48,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "在十三章到十四章讲了参孙的事十六章也是那我们先来看十三章参生的出生以色列人又行耶和华眼中看为恶的",
-      "confidence": 0.826
+      "confidence": 0.827,
+      "quality": {
+        "coverage": 0.828,
+        "coherentCoverage": 0.802,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 299.22,
+        "previousEnd": 400.48
+      }
     },
     {
-      "start": 401.94,
+      "start": 402.46,
       "end": 432.18,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "在这章里面也看出了上帝的预备上帝使但族的一个父亲叫玛挪亚的他的妻本来是不怀孕不生育的但是上帝应许",
-      "confidence": 0.798
+      "confidence": 0.806,
+      "quality": {
+        "coverage": 0.832,
+        "coherentCoverage": 0.737,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 402.46,
+        "previousEnd": 432.18
+      }
     },
     {
       "start": 432.18,
-      "end": 469.1,
+      "end": 468.5,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "我们的上帝真的是何等慈爱的上帝我们在难处当中的时候好像有时候找不到出路一样前途茫茫好像就像那坐在",
-      "confidence": 0.94
+      "confidence": 0.94,
+      "quality": {
+        "coverage": 0.92,
+        "coherentCoverage": 0.898,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 432.18,
+        "previousEnd": 468.5
+      }
     },
     {
       "start": 469.1,
@@ -125,103 +582,507 @@
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "所以在这里我们看见祂早就为那些犯罪作恶的以色列人预备了一个器皿就是参孙他说到这孩子一出胎就归上帝",
-      "confidence": 0.798
+      "confidence": 0.798,
+      "quality": {
+        "coverage": 0.779,
+        "coherentCoverage": 0.722,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 469.1,
+        "previousEnd": 593.16
+      }
     },
     {
-      "start": 593.16,
-      "end": 622.54,
+      "start": 595.98,
+      "end": 619.46,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "这对夫妻上帝赐给他们一个孩子就是参孙那么上帝果然到了日子使他们生了参孙然后耶和华赐福与他在一定的",
-      "confidence": 0.782
+      "confidence": 0.792,
+      "quality": {
+        "coverage": 0.824,
+        "coherentCoverage": 0.608,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 595.98,
+        "previousEnd": 619.46
+      }
     },
     {
-      "start": 622.54,
-      "end": 623.12,
-      "kind": "heading",
-      "targetIndex": 18,
-      "targetText": "第十四章",
-      "confidence": 0.667
-    },
-    {
-      "start": 623.12,
-      "end": 715.0,
+      "start": 622.1,
+      "end": 715.32,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "在十四章里我们看见这个参孙他虽然在他父母怀孕的时候上帝已经指示他作拿细耳人但是他实际的生活还是不",
-      "confidence": 0.743
+      "confidence": 0.817,
+      "quality": {
+        "coverage": 0.81,
+        "coherentCoverage": 0.752,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 622.1,
+        "previousEnd": 715.32
+      }
     },
     {
-      "start": 715.0,
-      "end": 766.5,
+      "start": 717.17,
+      "end": 765.4,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "在申命记七章1到4节出埃及记卅四章16节都有规定以色列人不要与外族通婚现在也是我们信的与不信的不",
-      "confidence": 0.846
+      "confidence": 0.85,
+      "quality": {
+        "coverage": 0.876,
+        "coherentCoverage": 0.761,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.55,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 717.17,
+        "previousEnd": 765.4
+      }
     },
     {
       "start": 766.5,
-      "end": 828.62,
+      "end": 829.04,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "但第4节说他的父母却不知道这事是出于耶和华因为他找机会攻击非利士人那时非利士人辖制以色列人志贝姐",
-      "confidence": 0.856
+      "confidence": 0.864,
+      "quality": {
+        "coverage": 0.868,
+        "coherentCoverage": 0.816,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 766.5,
+        "previousEnd": 829.04
+      }
     },
     {
-      "start": 828.62,
-      "end": 883.09,
+      "start": 830.54,
+      "end": 880.85,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "然后我们再看参孙的这里的他第二个不好的地方就是在他打死的一只狮子那里见有一群蜂子和蜜在死狮之内的",
-      "confidence": 0.829
+      "confidence": 0.93,
+      "quality": {
+        "coverage": 0.938,
+        "coherentCoverage": 0.914,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 830.54,
+        "previousEnd": 880.85
+      }
     },
     {
       "start": 883.09,
-      "end": 927.31,
+      "end": 926.45,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "我们的上帝是圣洁的天堂也是圣洁的好地方罪孽污秽不能近上帝说你们要圣洁在彼得前书一章15到16节这",
-      "confidence": 0.749
+      "confidence": 0.749,
+      "quality": {
+        "coverage": 0.741,
+        "coherentCoverage": 0.636,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 883.09,
+        "previousEnd": 926.45
+      }
     },
     {
       "start": 927.31,
-      "end": 975.35,
+      "end": 974.71,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "还有他下面设摆筵席的时候参孙让陪伴的三十个人是有赌博性的那个猜谜语也是上帝不喜悦的他说猜出谜语他",
-      "confidence": 0.748
+      "confidence": 0.756,
+      "quality": {
+        "coverage": 0.805,
+        "coherentCoverage": 0.642,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 927.31,
+        "previousEnd": 974.71
+      }
     },
     {
       "start": 975.35,
-      "end": 1026.71,
+      "end": 1025.11,
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "后来让参生的妻在丈夫面前哭闹逼着他将谜底说出来然后他妻子把谜底告诉她的本国的人本国人猜出以后参孙",
-      "confidence": 0.663
+      "confidence": 0.792,
+      "quality": {
+        "coverage": 0.86,
+        "coherentCoverage": 0.764,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 975.35,
+        "previousEnd": 1025.11
+      }
     },
     {
       "start": 1026.71,
-      "end": 1065.87,
+      "end": 1067.07,
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "在希伯来书里参孙后来也是成为一个信心的伟人所以我们看见一个人信心的增长是逐步的在当时我们读十四章",
-      "confidence": 0.908
+      "confidence": 0.901,
+      "quality": {
+        "coverage": 0.905,
+        "coherentCoverage": 0.873,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 1026.71,
+        "previousEnd": 1067.07
+      }
     },
     {
-      "start": 1065.87,
-      "end": 1125.6,
+      "start": 1069.06,
+      "end": 1126.4,
       "kind": "paragraph",
       "targetIndex": 27,
       "targetText": "所以我们好多的时候其实我们心里我们听了很多年的道有的从小就相信但是我们所听见的跟我们实际生命活出",
-      "confidence": 0.898
+      "confidence": 0.905,
+      "quality": {
+        "coverage": 0.903,
+        "coherentCoverage": 0.872,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1069.06,
+        "previousEnd": 1126.4
+      }
     },
     {
-      "start": 1125.6,
+      "start": 1127.42,
       "end": 1164.68,
       "kind": "paragraph",
       "targetIndex": 28,
       "targetText": "其实召我们的既然是圣洁的我们在一切所行的事上也要圣洁所以求主真的来不断地提醒我们上帝的话语是永不",
-      "confidence": 0.908
+      "confidence": 0.925,
+      "quality": {
+        "coverage": 0.919,
+        "coherentCoverage": 0.904,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1127.42,
+        "previousEnd": 1164.68
+      }
     },
     {
       "start": 1164.68,
@@ -229,7 +1090,60 @@
       "kind": "paragraph",
       "targetIndex": 29,
       "targetText": "求主祝福祂自己的话语感谢主",
-      "confidence": 0.846
+      "confidence": 0.846,
+      "quality": {
+        "coverage": 0.846,
+        "coherentCoverage": 0.769,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.833,
+        "suffixCoverage": 0.833,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1164.68,
+        "previousEnd": 1167.92
+      }
     }
-  ]
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 11,
+    "unverifiedEnds": 7,
+    "missingTargets": [
+      1
+    ]
+  },
+  "repairFingerprint": "1f94ff081da7e980229c90cd743cf41b2c1641b94816709e322dbd0736afa49b",
+  "repairCueDigest": "e876b99b2296c2574d4e0f7d048e2211a5763f00225379ffef7ba8c78bd2160c"
 }

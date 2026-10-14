@@ -8,20 +8,47 @@
   "audioDuration": 150.319125,
   "cues": [
     {
-      "start": 6.44,
-      "end": 52.13,
-      "kind": "heading",
-      "targetIndex": 53,
-      "targetText": "八月十一日",
-      "confidence": 0.444
-    },
-    {
-      "start": 52.13,
+      "start": 0.0,
       "end": 57.61,
       "kind": "paragraph",
       "targetIndex": 54,
       "targetText": "凡你所看见的一切地我都要赐给你创1315",
-      "confidence": 0.765
+      "confidence": 0.173,
+      "quality": {
+        "coverage": 0.75,
+        "coherentCoverage": 0.6,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.5,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 52.13,
+        "previousEnd": 57.61
+      }
     },
     {
       "start": 57.61,
@@ -29,7 +56,40 @@
       "kind": "paragraph",
       "targetIndex": 57,
       "targetText": "那给予亚伯拉和罕应许之地异象的上帝以绝对的诚实和爱心说凡你所看见的一切地我都要赐给你他如果把属天",
-      "confidence": 0.583
+      "confidence": 0.698,
+      "quality": {
+        "coverage": 0.804,
+        "coherentCoverage": 0.715,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 57.61,
+        "previousEnd": 100.82
+      }
     },
     {
       "start": 100.82,
@@ -37,7 +97,70 @@
       "kind": "paragraph",
       "targetIndex": 58,
       "targetText": "主啊求祢先赐给我们异象然后使我们得胜求祢让我们先看到祢的丰富产业并在基督耶稣里赐给我们这一切",
-      "confidence": 0.791
+      "confidence": 0.791,
+      "quality": {
+        "coverage": 0.783,
+        "coherentCoverage": 0.652,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 100.82,
+        "previousEnd": 126.69
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (4 trailing chars, coverage 0.500): target 54: 凡你所看见的一切地，我都要赐给你…------创 13:15",
+    "unverified end anchor: target 54: 凡你所看见的一切地，我都要赐给你…------创 13:15",
+    "unverified end anchor: target 55: 一切神以恩典为我们预备的，都来自他所赐的异象。",
+    "unverified start anchor: target 56: 他赐给候鸟直觉，使它们能横越大陆寻找到南方温暖的阳光，因他的仁燕绝不让这些鸟刀失望。候岛飞抵南方",
+    "unverified start anchor: target 57: 那给予亚伯拉和罕应许之地异象的神，以绝对的诚实和爱心说:「 凡你所看见的一切地，我都要赐给你。」",
+    "unverified start anchor: target 58: 主啊! 求祢先赐给我们异象，然后使我们得胜; 求祢让我们先看到祢的丰富产业，并在基督耶稣里赐给我",
+    "repair missing cue (unverified): target 55",
+    "repair missing cue (unverified): target 56",
+    "repair unverified end (previous-sync): target 54",
+    "repair unverified start (previous-sync): target 57",
+    "repair unverified start (previous-sync): target 58"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 1,
+    "missingTargets": [
+      55,
+      56
+    ]
+  },
+  "repairFingerprint": "2be8c94f33f95449340fbb2881205c92483a88b1adb8ea5bb89bd5dcba5395e5",
+  "repairCueDigest": "d48c47b44ed54dbc407bde410de049b451b57d92c692c1c1a208e4cad5b86e00"
 }

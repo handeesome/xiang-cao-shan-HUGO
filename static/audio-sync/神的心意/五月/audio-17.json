@@ -8,20 +8,45 @@
   "audioDuration": 197.0165625,
   "cues": [
     {
-      "start": 3.02,
-      "end": 7.24,
-      "kind": "heading",
-      "targetIndex": 102,
-      "targetText": "五月十七日第一次祷告会",
-      "confidence": 0.667
-    },
-    {
       "start": 7.24,
       "end": 16.96,
       "kind": "paragraph",
       "targetIndex": 103,
       "targetText": "这些人同著几个妇人和耶稣的母亲马利亚并耶稣的弟兄都同心合意的恒切祷告徒一14",
-      "confidence": 0.806
+      "confidence": 0.833,
+      "quality": {
+        "coverage": 0.816,
+        "coherentCoverage": 0.711,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.842,
+        "suffixCoverage": 0.789,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 7.24,
+        "previousEnd": 16.96
+      }
     },
     {
       "start": 16.96,
@@ -29,31 +54,191 @@
       "kind": "paragraph",
       "targetIndex": 104,
       "targetText": "原初教会的第六个标记是同心合意地祷告等候上帝的应许对这个在上帝国历史上第一次的祷告会的重要性作出",
-      "confidence": 0.439
+      "confidence": 0.451,
+      "quality": {
+        "startVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endVerified": false,
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "reviewRequired": true
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 16.96,
+        "previousEnd": 38.9
+      }
     },
     {
-      "start": 38.9,
-      "end": 118.54,
+      "start": 69.12,
+      "end": 117.72,
       "kind": "paragraph",
       "targetIndex": 105,
       "targetText": "耶稣基督曾祈求父上帝让门徒合而为一就像祂与父上帝那样的完全合一使全世界的人都知道上帝爱他们如同祂",
-      "confidence": 0.501
+      "confidence": 0.716,
+      "quality": {
+        "coverage": 0.696,
+        "coherentCoverage": 0.554,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.45,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "next-verified-start"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "next-verified-start",
+        "previousStart": 38.9,
+        "previousEnd": 118.54
+      }
     },
     {
-      "start": 118.54,
-      "end": 138.34,
+      "start": 117.72,
+      "end": 138.6,
       "kind": "paragraph",
       "targetIndex": 106,
       "targetText": "这个祷告是耶稣与他们三年的同在与训练中所得著的成果上帝先造亚当的身体然后才把上帝的灵吹入亚当里面",
-      "confidence": 0.662
+      "confidence": 0.964,
+      "quality": {
+        "coverage": 0.971,
+        "coherentCoverage": 0.956,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 118.54,
+        "previousEnd": 138.34
+      }
     },
     {
-      "start": 138.34,
+      "start": 139.28,
       "end": 196.12,
       "kind": "paragraph",
       "targetIndex": 107,
       "targetText": "这祷告会给了我们上帝国度里一个永远的法则当基督的门徒在爱中彼此联合把自己完全奉献给主的时候上帝就",
-      "confidence": 0.723
+      "confidence": 0.81,
+      "quality": {
+        "coverage": 0.789,
+        "coherentCoverage": 0.706,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 138.34,
+        "previousEnd": 196.12
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 103: 「这些人同著几个妇人，和耶稣的母亲马利亚，并耶稣的弟兄，都同心合意的恒切祷告。」（徒一 14）",
+    "incomplete end (43 trailing chars, coverage 0.000): target 104: 原初教会的第六个标记，是同心合意地祷告，等候神的应许。对这个在神国历史上，第一次的祷告会的重要性",
+    "low confidence (0.475, coverage 0.359): target 104: 原初教会的第六个标记，是同心合意地祷告，等候神的应许。对这个在神国历史上，第一次的祷告会的重要性",
+    "unverified start anchor: target 104: 原初教会的第六个标记，是同心合意地祷告，等候神的应许。对这个在神国历史上，第一次的祷告会的重要性",
+    "unverified end anchor: target 104: 原初教会的第六个标记，是同心合意地祷告，等候神的应许。对这个在神国历史上，第一次的祷告会的重要性",
+    "unmatched (fragment only): target 104: 原初教会的第六个标记，是同心合意地祷告，等候神的应许。对这个在神国历史上，第一次的祷告会的重要性",
+    "incomplete end (4 trailing chars, coverage 0.450): target 105: 耶稣基督曾祈求父神让门徒合而为一，就像祂与父神那样的完全合一，使全世界的人都知道，神爱他们如同祂",
+    "unverified end anchor: target 105: 耶稣基督曾祈求父神让门徒合而为一，就像祂与父神那样的完全合一，使全世界的人都知道，神爱他们如同祂",
+    "unverified end anchor: target 107: 这祷告会，给了我们神国度里一个永远的法则。当基督的门徒在爱中彼此联合，把自己完全奉献给主的时候，",
+    "repair unverified end (previous-sync): target 103",
+    "repair unverified start (previous-sync): target 104",
+    "repair unverified end (previous-sync): target 104",
+    "repair unverified end (next-verified-start): target 105",
+    "repair unverified end (previous-sync): target 107"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 3,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 4,
+    "missingTargets": []
+  },
+  "repairFingerprint": "4ea9d1aa32a076ba48d3f4e0e29f1ff2a66ddf85eb548752c6bdeb43e398eb7f",
+  "repairCueDigest": "a23a0ae6fd23ec7e6b153ae4a73d9a78ef56913992c312a361ea75cf1a3886d8"
 }

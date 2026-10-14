@@ -8,20 +8,45 @@
   "audioDuration": 140.288125,
   "cues": [
     {
-      "start": 0.0,
-      "end": 1.84,
-      "kind": "heading",
-      "targetIndex": 18,
-      "targetText": "五月四日",
-      "confidence": 1.0
-    },
-    {
       "start": 1.84,
       "end": 8.04,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "因为那在你们里面的比那在世界上的更大约一44",
-      "confidence": 0.75
+      "confidence": 0.9,
+      "quality": {
+        "coverage": 0.818,
+        "coherentCoverage": 0.818,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.636,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1.84,
+        "previousEnd": 8.04
+      }
     },
     {
       "start": 8.04,
@@ -29,15 +54,103 @@
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "撒但喜欢在小事上绊倒我们它之所以这人么做的原因乃是由于如果它能藉着我们刮须子不顺使我们发怒或是一",
-      "confidence": 0.48
+      "confidence": 0.667,
+      "quality": {
+        "coverage": 0.705,
+        "coherentCoverage": 0.554,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 8.04,
+        "previousEnd": 51.75
+      }
     },
     {
-      "start": 51.75,
+      "start": 54.37,
       "end": 116.07,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "大多数的人在较大的争战中反而会比处理小事来得恰当例如亚当仅仅为一个小水果犯罪却使得整个世界被摧毁",
-      "confidence": 0.694
+      "confidence": 0.846,
+      "quality": {
+        "coverage": 0.846,
+        "coherentCoverage": 0.786,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 51.75,
+        "previousEnd": 116.07
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (4 trailing chars, coverage 0.636): target 19: …因为那在你们里面的，比那在世界上的更大------约一 4:4",
+    "unverified end anchor: target 19: …因为那在你们里面的，比那在世界上的更大------约一 4:4",
+    "unverified end anchor: target 20: 撒但喜欢在小事上绊倒我们，它之所以这人么做的原因，乃是由于如果它能藉着我们刮须子不顺使我们发怒，",
+    "repair unverified end (previous-sync): target 19",
+    "repair unverified start (previous-sync): target 20",
+    "repair unverified end (previous-sync): target 20"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "repairFingerprint": "619a9423fccfbcf1a13824772e8e441a661b3dc5e5b362f3bf59822f56313498",
+  "repairCueDigest": "1d9d64334c5431d0f2d65b5c24f532ae55fd4a4ba2064cfc5adab2e5a95d3188"
 }

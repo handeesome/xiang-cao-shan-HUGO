@@ -8,52 +8,290 @@
   "audioDuration": 171.5828125,
   "cues": [
     {
-      "start": 0.22,
-      "end": 5.95,
-      "kind": "heading",
-      "targetIndex": 151,
-      "targetText": "十一月二十九日",
-      "confidence": 0.364
-    },
-    {
       "start": 5.95,
       "end": 11.35,
       "kind": "paragraph",
-      "targetIndex": 152,
+      "targetIndex": 186,
       "targetText": "你们不能同我儆醒片时么太2640",
-      "confidence": 0.545
+      "confidence": 0.545,
+      "quality": {
+        "coverage": 0.562,
+        "coherentCoverage": 0.375,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.375,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 5.95,
+        "previousEnd": 11.35
+      },
+      "targetMigration": {
+        "previousTargetIndex": 152,
+        "targetIndex": 186,
+        "targetText": "你们不能同我儆醒片时么太2640"
+      }
     },
     {
       "start": 11.35,
-      "end": 50.75,
+      "end": 49.69,
       "kind": "paragraph",
-      "targetIndex": 153,
+      "targetIndex": 187,
       "targetText": "一位年轻女士自幼就表失了父母婴儿时期就由她父母的一位朋友抚养长大但在她还不懂事对这位恩人并不很认",
-      "confidence": 0.755
+      "confidence": 0.847,
+      "quality": {
+        "coverage": 0.865,
+        "coherentCoverage": 0.844,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 11.35,
+        "previousEnd": 50.75
+      },
+      "targetMigration": {
+        "previousTargetIndex": 153,
+        "targetIndex": 187,
+        "targetText": "一位年轻女士自幼就表失了父母婴儿时期就由她父母的一位朋友抚养长大但在她还不懂事对这位恩人并不很认"
+      }
     },
     {
       "start": 50.75,
       "end": 82.65,
       "kind": "paragraph",
-      "targetIndex": 154,
+      "targetIndex": 188,
       "targetText": "有一天这个女孩得知她的恩人在某个星期会回来探访她但他并未特定一个日子或时间在这个星期当中这个女孩",
-      "confidence": 0.639
+      "confidence": 0.907,
+      "quality": {
+        "coverage": 0.91,
+        "coherentCoverage": 0.82,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 50.75,
+        "previousEnd": 82.65
+      },
+      "targetMigration": {
+        "previousTargetIndex": 154,
+        "targetIndex": 188,
+        "targetText": "有一天这个女孩得知她的恩人在某个星期会回来探访她但他并未特定一个日子或时间在这个星期当中这个女孩"
+      }
     },
     {
-      "start": 82.65,
+      "start": 85.61,
       "end": 110.45,
       "kind": "paragraph",
-      "targetIndex": 155,
+      "targetIndex": 189,
       "targetText": "当这个女孩回到家中打开他所留的纸条上面写着我一生都在为你奋斗你难道不能等我一个星期吗上那以后她再",
-      "confidence": 0.621
+      "confidence": 0.878,
+      "quality": {
+        "coverage": 0.871,
+        "coherentCoverage": 0.786,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 82.65,
+        "previousEnd": 110.45
+      },
+      "targetMigration": {
+        "previousTargetIndex": 155,
+        "targetIndex": 189,
+        "targetText": "当这个女孩回到家中打开他所留的纸条上面写着我一生都在为你奋斗你难道不能等我一个星期吗上那以后她再"
+      }
     },
     {
       "start": 110.45,
       "end": 136.04,
       "kind": "paragraph",
-      "targetIndex": 156,
+      "targetIndex": 190,
       "targetText": "主耶稣也未定他再来的日子或时间但是他嘱咐我们要儆醒若是他今天回来会不会找到一群萎靡不振放荡浪费的",
-      "confidence": 0.622
+      "confidence": 0.797,
+      "quality": {
+        "coverage": 0.808,
+        "coherentCoverage": 0.74,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 110.45,
+        "previousEnd": 136.04
+      },
+      "targetMigration": {
+        "previousTargetIndex": 156,
+        "targetIndex": 190,
+        "targetText": "主耶稣也未定他再来的日子或时间但是他嘱咐我们要儆醒若是他今天回来会不会找到一群萎靡不振放荡浪费的"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (2 trailing chars, coverage 0.375): target 186: …你们不能同我儆醒片时么? ------太 26:40",
+    "low confidence (0.486, coverage 0.562): target 186: …你们不能同我儆醒片时么? ------太 26:40",
+    "unverified start anchor: target 186: …你们不能同我儆醒片时么? ------太 26:40",
+    "unverified end anchor: target 186: …你们不能同我儆醒片时么? ------太 26:40",
+    "unverified end anchor: target 188: 有一天，这个女孩得知她的恩人在某个星期会回来探访她，但他并未特定一个日子或时间。在这个星期当中，",
+    "unverified end anchor: target 189: 当这个女孩回到家中，打开他所留的纸条，上面写着: 「 我一生都在为你奋斗，你难道不能等我一个星期",
+    "repair unverified start (previous-sync): target 186",
+    "repair unverified end (previous-sync): target 186",
+    "repair unverified start (previous-sync): target 187",
+    "repair unverified end (previous-sync): target 188",
+    "repair unverified end (previous-sync): target 189"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 3,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 152,
+      "targetIndex": 186,
+      "targetText": "你们不能同我儆醒片时么太2640"
+    },
+    {
+      "previousTargetIndex": 153,
+      "targetIndex": 187,
+      "targetText": "一位年轻女士自幼就表失了父母婴儿时期就由她父母的一位朋友抚养长大但在她还不懂事对这位恩人并不很认"
+    },
+    {
+      "previousTargetIndex": 154,
+      "targetIndex": 188,
+      "targetText": "有一天这个女孩得知她的恩人在某个星期会回来探访她但他并未特定一个日子或时间在这个星期当中这个女孩"
+    },
+    {
+      "previousTargetIndex": 155,
+      "targetIndex": 189,
+      "targetText": "当这个女孩回到家中打开他所留的纸条上面写着我一生都在为你奋斗你难道不能等我一个星期吗上那以后她再"
+    },
+    {
+      "previousTargetIndex": 156,
+      "targetIndex": 190,
+      "targetText": "主耶稣也未定他再来的日子或时间但是他嘱咐我们要儆醒若是他今天回来会不会找到一群萎靡不振放荡浪费的"
+    }
+  ],
+  "repairFingerprint": "0099fd2ef65a326a7beffbf8ace089b25ffa9792246b22bb2654aa29259eb685",
+  "repairCueDigest": "5f04bb979bf519afc6de0c73615206b07b6cc299dbb512e759411fde434c5839"
 }

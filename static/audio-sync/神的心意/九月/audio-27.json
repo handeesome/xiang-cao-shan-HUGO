@@ -8,36 +8,155 @@
   "audioDuration": 171.5994375,
   "cues": [
     {
-      "start": 2.81,
-      "end": 8.09,
-      "kind": "heading",
-      "targetIndex": 157,
-      "targetText": "九月二十七日一条还是两条溪流",
-      "confidence": 0.462
-    },
-    {
       "start": 8.09,
       "end": 18.45,
       "kind": "paragraph",
       "targetIndex": 158,
       "targetText": "我要将在以法莲手中的杖与犹大的杖一同接连为一在我手中成为一根结三十七19",
-      "confidence": 0.615
+      "confidence": 0.769,
+      "quality": {
+        "coverage": 0.75,
+        "coherentCoverage": 0.528,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.722,
+        "suffixCoverage": 0.778,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 8.09,
+        "previousEnd": 18.45
+      }
     },
     {
-      "start": 18.45,
-      "end": 124.19,
+      "start": 22.35,
+      "end": 125.03,
       "kind": "paragraph",
       "targetIndex": 159,
       "targetText": "当非洲人民不到一百万人口的小溪流转流入英国这条有三亿人口的大河流中时说明这一切事都是上帝的旨意祂",
-      "confidence": 0.858
+      "confidence": 0.931,
+      "quality": {
+        "coverage": 0.935,
+        "coherentCoverage": 0.891,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 18.45,
+        "previousEnd": 124.19
+      }
     },
     {
-      "start": 124.19,
-      "end": 170.27,
+      "start": 125.03,
+      "end": 171.11,
       "kind": "paragraph",
       "targetIndex": 160,
       "targetText": "当以法莲和犹大在上帝手中接连为一时他们两者之间的分别并未消灭而是各自保留其特点但其合一是在真正的",
-      "confidence": 0.779
+      "confidence": 0.954,
+      "quality": {
+        "coverage": 0.957,
+        "coherentCoverage": 0.936,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "verified-transcript",
+        "previousStart": 124.19,
+        "previousEnd": 170.27
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 158: 「我要将……在以法莲手中的杖与犹大的杖，一同接连为一，在我手中成为一根。」（结三十七 19）",
+    "unverified start anchor: target 160: 当以法莲和犹大在神手中接连为一时，他们两者之间的分别并未消灭，而是各自保留其特点，但其合一是在真",
+    "repair unverified end (previous-sync): target 158",
+    "repair unverified start (previous-verified-end): target 160"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "repairFingerprint": "84d5d591258567301851cdb90ba5d5e38282c6084f9b7c7fef8833955b9a13a0",
+  "repairCueDigest": "1bb42804267eaf843718706a7cb2e7faa832010380faa65fd8b4d5fd52732b15"
 }

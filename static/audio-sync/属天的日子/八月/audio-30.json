@@ -8,36 +8,185 @@
   "audioDuration": 150.423625,
   "cues": [
     {
-      "start": 0.0,
-      "end": 7.43,
-      "kind": "heading",
-      "targetIndex": 159,
-      "targetText": "八月三十日",
-      "confidence": 1.0
-    },
-    {
       "start": 7.43,
       "end": 11.71,
       "kind": "paragraph",
-      "targetIndex": 160,
+      "targetIndex": 168,
       "targetText": "你们既知道这事若是去行就有福了约1317",
-      "confidence": 0.545
+      "confidence": 0.545,
+      "quality": {
+        "coverage": 0.45,
+        "coherentCoverage": 0.2,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.3,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 6,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 7.43,
+        "previousEnd": 11.71
+      },
+      "targetMigration": {
+        "previousTargetIndex": 160,
+        "targetIndex": 168,
+        "targetText": "你们既知道这事若是去行就有福了约1317"
+      }
     },
     {
-      "start": 11.71,
-      "end": 69.96,
+      "start": 19.08,
+      "end": 70.28,
       "kind": "paragraph",
-      "targetIndex": 161,
+      "targetIndex": 169,
       "targetText": "我们很难全然了解顺服的心降服的选择温顺和谦卑的灵所能带给我们的是什么样的祝福也不容易明白为什么有",
-      "confidence": 0.812
+      "confidence": 0.859,
+      "quality": {
+        "coverage": 0.859,
+        "coherentCoverage": 0.81,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 11.71,
+        "previousEnd": 69.96
+      },
+      "targetMigration": {
+        "previousTargetIndex": 161,
+        "targetIndex": 169,
+        "targetText": "我们很难全然了解顺服的心降服的选择温顺和谦卑的灵所能带给我们的是什么样的祝福也不容易明白为什么有"
+      }
     },
     {
-      "start": 69.96,
+      "start": 78.25,
       "end": 123.41,
       "kind": "paragraph",
-      "targetIndex": 162,
+      "targetIndex": 170,
       "targetText": "在这登山宝训中还有一类最最受祝福的人就是那些流泪哀恸的人他们的泪水如同钻石般晶莹剔透他们的血则转",
-      "confidence": 0.602
+      "confidence": 0.819,
+      "quality": {
+        "coverage": 0.812,
+        "coherentCoverage": 0.758,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 69.96,
+        "previousEnd": 123.41
+      },
+      "targetMigration": {
+        "previousTargetIndex": 162,
+        "targetIndex": 170,
+        "targetText": "在这登山宝训中还有一类最最受祝福的人就是那些流泪哀恸的人他们的泪水如同钻石般晶莹剔透他们的血则转"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (6 trailing chars, coverage 0.300): target 168: 你们既知道这事，若是去行就有福了------约 13:17",
+    "low confidence (0.545, coverage 0.450): target 168: 你们既知道这事，若是去行就有福了------约 13:17",
+    "unverified start anchor: target 168: 你们既知道这事，若是去行就有福了------约 13:17",
+    "unverified end anchor: target 168: 你们既知道这事，若是去行就有福了------约 13:17",
+    "unverified end anchor: target 170: 在这登山宝训中，还有一类最最受祝福的人，就是那些流泪哀恸的人。他们的泪水如同钻石般晶莹剔透，他们",
+    "repair unverified start (previous-sync): target 168",
+    "repair unverified end (previous-sync): target 168",
+    "repair unverified end (previous-sync): target 170"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 160,
+      "targetIndex": 168,
+      "targetText": "你们既知道这事若是去行就有福了约1317"
+    },
+    {
+      "previousTargetIndex": 161,
+      "targetIndex": 169,
+      "targetText": "我们很难全然了解顺服的心降服的选择温顺和谦卑的灵所能带给我们的是什么样的祝福也不容易明白为什么有"
+    },
+    {
+      "previousTargetIndex": 162,
+      "targetIndex": 170,
+      "targetText": "在这登山宝训中还有一类最最受祝福的人就是那些流泪哀恸的人他们的泪水如同钻石般晶莹剔透他们的血则转"
+    }
+  ],
+  "repairFingerprint": "bab4b0401a834475bd256ea6cf0a0b20514b2d31be047a7a632a75d7247a4f6b",
+  "repairCueDigest": "2c6e4de7ea0237ffb788b129061bc60131a377b0e3cb11594747604cf8859c6b"
 }

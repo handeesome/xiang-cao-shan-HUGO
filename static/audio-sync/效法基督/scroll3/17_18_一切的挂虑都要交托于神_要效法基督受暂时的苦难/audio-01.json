@@ -8,20 +8,39 @@
   "audioDuration": 523.2468125,
   "cues": [
     {
-      "start": 3.14,
-      "end": 10.27,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第十七章一切的挂虑都要交托于上帝",
-      "confidence": 0.774
-    },
-    {
       "start": 10.27,
       "end": 22.57,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "一我儿哪你要听从我对你的一切安排我知道什么于你是有益的",
-      "confidence": 0.852
+      "confidence": 0.852,
+      "quality": {
+        "coverage": 0.852,
+        "coherentCoverage": 0.63,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.846,
+        "suffixCoverage": 0.846,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 10.27,
+        "previousEnd": 22.57
+      }
     },
     {
       "start": 22.57,
@@ -29,23 +48,130 @@
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "你的思想是人的思想你对于事物的判断也都是人的见识主啊你说的不错你照顾我胜似用以照顾自己的一切方法",
-      "confidence": 0.791
+      "confidence": 0.782,
+      "quality": {
+        "coverage": 0.765,
+        "coherentCoverage": 0.691,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.55,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 22.57,
+        "previousEnd": 50.88
+      }
     },
     {
-      "start": 50.88,
+      "start": 52.7,
       "end": 63.7,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "主啊只要我的意志是向你坚定正直的我愿听从你随意地处置我",
-      "confidence": 0.852
+      "confidence": 0.868,
+      "quality": {
+        "coverage": 0.852,
+        "coherentCoverage": 0.778,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.769,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 50.88,
+        "previousEnd": 63.7
+      }
     },
     {
       "start": 63.7,
-      "end": 71.07,
+      "end": 68.4,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "因为你对于我的任何安排都不能是无益的",
-      "confidence": 0.944
+      "confidence": 0.944,
+      "quality": {
+        "coverage": 0.944,
+        "coherentCoverage": 0.889,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.889,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 63.7,
+        "previousEnd": 71.07
+      }
     },
     {
       "start": 71.07,
@@ -53,7 +179,42 @@
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "二假若是你的旨意要我处身于黑暗中我赞美你但是假若是你的旨意要我居在光明中我也要赞美你你若赐我安慰",
-      "confidence": 0.803
+      "confidence": 0.803,
+      "quality": {
+        "coverage": 0.803,
+        "coherentCoverage": 0.727,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 71.07,
+        "previousEnd": 100.04
+      }
     },
     {
       "start": 100.04,
@@ -61,7 +222,40 @@
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "我儿哪你要与我同行就应该如此你应该甘心受苦就如享乐一样",
-      "confidence": 0.63
+      "confidence": 0.889,
+      "quality": {
+        "coverage": 0.889,
+        "coherentCoverage": 0.741,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.846,
+        "suffixCoverage": 0.923,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 100.04,
+        "previousEnd": 111.92
+      }
     },
     {
       "start": 111.92,
@@ -69,15 +263,87 @@
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "你应该愉快地安贫处穷就如享富贵一样",
-      "confidence": 0.471
+      "confidence": 0.765,
+      "quality": {
+        "coverage": 0.765,
+        "coherentCoverage": 0.529,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 111.92,
+        "previousEnd": 121.25
+      }
     },
     {
       "start": 121.25,
-      "end": 132.33,
+      "end": 131.07,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "三主啊为你的缘故我愿意偷快地接受你允许加于我的一切遭遇",
-      "confidence": 0.741
+      "confidence": 0.926,
+      "quality": {
+        "coverage": 0.926,
+        "coherentCoverage": 0.926,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.846,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 121.25,
+        "previousEnd": 132.33
+      }
     },
     {
       "start": 132.33,
@@ -85,23 +351,87 @@
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "从你的手中我愿意平心地接受福与祸与苦喜乐与忧愁我将为一切所遭遇的感谢你",
-      "confidence": 0.6
+      "confidence": 0.857,
+      "quality": {
+        "coverage": 0.857,
+        "coherentCoverage": 0.771,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.882,
+        "suffixCoverage": 0.824,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 132.33,
+        "previousEnd": 148.37
+      }
     },
     {
       "start": 148.37,
-      "end": 169.83,
+      "end": 169.31,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "求你保守我脱离罪恶我就不怕死亡与地狱只要你不永远丢弃我不从生命册上涂抹掉我的名字那么一切的患难就",
-      "confidence": 0.909
-    },
-    {
-      "start": 169.83,
-      "end": 183.04,
-      "kind": "heading",
-      "targetIndex": 11,
-      "targetText": "第十八章要效法基督受暂时的苦难",
-      "confidence": 0.667
+      "confidence": 0.964,
+      "quality": {
+        "coverage": 0.964,
+        "coherentCoverage": 0.964,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 148.37,
+        "previousEnd": 169.83
+      }
     },
     {
       "start": 183.04,
@@ -109,15 +439,75 @@
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "一我儿哪我从天上降下凡尘为的是要拯救你我担当了你的忧患非出于必须却是为了爱你的缘故因此你要学习忍",
-      "confidence": 0.635
+      "confidence": 0.889,
+      "quality": {
+        "coverage": 0.889,
+        "coherentCoverage": 0.794,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 183.04,
+        "previousEnd": 210.58
+      }
     },
     {
-      "start": 210.58,
+      "start": 221.24,
       "end": 247.22,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "我缺乏在世生活的必需品我常听见毁谤我的声音我忍受侮慢凌辱我施恩于人却得到忘恩负义的报答我行上帝迹",
-      "confidence": 0.597
+      "confidence": 0.75,
+      "quality": {
+        "coverage": 0.738,
+        "coherentCoverage": 0.631,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 210.58,
+        "previousEnd": 247.22
+      }
     },
     {
       "start": 247.22,
@@ -125,31 +515,163 @@
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "二所以我主啊你在世时显出忍耐为要完全遵行你父的命令何况我这最不堪的罪人岂不更应该照着你的旨意忍受",
-      "confidence": 0.576
+      "confidence": 0.682,
+      "quality": {
+        "coverage": 0.686,
+        "coherentCoverage": 0.535,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.5,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 3,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 247.22,
+        "previousEnd": 280.82
+      }
     },
     {
       "start": 280.82,
-      "end": 306.74,
+      "end": 305.3,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "虽然此生本是苦恼可是现在却因着你的恩惠变成有益的再加上你的榜样和古圣先贤的清晰的足迹在前指引即使",
-      "confidence": 0.848
+      "confidence": 0.848,
+      "quality": {
+        "coverage": 0.869,
+        "coherentCoverage": 0.77,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 280.82,
+        "previousEnd": 306.74
+      }
     },
     {
-      "start": 306.74,
+      "start": 307.66,
       "end": 335.82,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "如今比古律法时代有更多的安慰因为那时天门仍旧关闭天路似乎晦暗不明寻求天国的人也寥寥无几那时即使是",
-      "confidence": 0.805
+      "confidence": 0.816,
+      "quality": {
+        "coverage": 0.821,
+        "coherentCoverage": 0.641,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 306.74,
+        "previousEnd": 335.82
+      }
     },
     {
-      "start": 335.82,
-      "end": 355.02,
+      "start": 340.02,
+      "end": 353.86,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "三我应当如何大大地感谢你啊因为你已经指示了我和所有的信徒那进入你永远的国度的康庄大道",
-      "confidence": 0.659
+      "confidence": 0.892,
+      "quality": {
+        "coverage": 0.881,
+        "coherentCoverage": 0.833,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 335.82,
+        "previousEnd": 355.02
+      }
     },
     {
       "start": 355.02,
@@ -157,23 +679,182 @@
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "因为你的生活就是我们的道路我们效法你的忍耐向你而行你就是我们的冠冕",
-      "confidence": 0.667
+      "confidence": 0.743,
+      "quality": {
+        "coverage": 0.788,
+        "coherentCoverage": 0.606,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.938,
+        "suffixCoverage": 0.625,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 355.02,
+        "previousEnd": 367.9
+      }
     },
     {
-      "start": 367.9,
+      "start": 369.32,
       "end": 377.2,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "若你未曾走在我们的前面指教我们谁有勇气追随呢",
-      "confidence": 0.864
+      "confidence": 0.884,
+      "quality": {
+        "coverage": 0.864,
+        "coherentCoverage": 0.864,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.727,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 367.9,
+        "previousEnd": 377.2
+      }
     },
     {
-      "start": 377.2,
+      "start": 387.32,
       "end": 408.34,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "看哪虽然我们常常听见你的许多上帝迹和教训我们还是冷淡若是没有这些光明前行引导我们的现状又当何如则",
-      "confidence": 0.661
+      "confidence": 0.887,
+      "quality": {
+        "coverage": 0.87,
+        "coherentCoverage": 0.741,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 377.2,
+        "previousEnd": 408.34
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 1: 一、我儿哪，你要听从我对你的一切安排，我知道什么于你是有益的。",
+    "unverified end anchor: target 1: 一、我儿哪，你要听从我对你的一切安排，我知道什么于你是有益的。",
+    "unverified end anchor: target 2: 你的思想是人的思想，你对于事物的判断，也都是人的见识。主啊，你说的不错，你照顾我胜似用以照顾自己",
+    "unverified end anchor: target 3: 主啊，只要我的意志是向你坚定正直的，我愿听从你随意地处置我。",
+    "unverified end anchor: target 5: 二、假若是你的旨意要我处身于黑暗中，我赞美你，但是假若是你的旨意，要我居在光明中，我也要赞美你，",
+    "unverified end anchor: target 6: 我儿哪，你要与我同行，就应该如此。你应该甘心受苦就如享乐一样。",
+    "unverified end anchor: target 7: 你应该愉快地安贫处穷，就如享富贵一样。",
+    "unverified end anchor: target 9: 从你的手中，我愿意平心地接受福与祸与苦，喜乐与忧愁，我将为一切所遭遇的感谢你。",
+    "unverified start anchor: target 12: 一、我儿哪，我从天上降下凡尘，为的是要拯救你，我担当了你的忧患，非出于必须。却是为了爱你的缘故，",
+    "unverified end anchor: target 12: 一、我儿哪，我从天上降下凡尘，为的是要拯救你，我担当了你的忧患，非出于必须。却是为了爱你的缘故，",
+    "incomplete start (3 leading chars, coverage 0.500): target 14: 二、所以，我主啊，你在世时显出忍耐，为要完全遵行你父的命令；何况我这最不堪的罪人，岂不更应该照着",
+    "unverified start anchor: target 14: 二、所以，我主啊，你在世时显出忍耐，为要完全遵行你父的命令；何况我这最不堪的罪人，岂不更应该照着",
+    "unverified end anchor: target 14: 二、所以，我主啊，你在世时显出忍耐，为要完全遵行你父的命令；何况我这最不堪的罪人，岂不更应该照着",
+    "unverified start anchor: target 15: 虽然此生本是苦恼，可是现在却因着你的恩惠变成有益的，再加上你的榜样，和古圣先贤的清晰的足迹在前指",
+    "unverified end anchor: target 16: 如今比古律法时代有更多的安慰，因为那时天门仍旧关闭，天路似乎晦暗不明，寻求天国的人也寥寥无几。那",
+    "unverified end anchor: target 18: 因为你的生活就是我们的道路；我们效法你的忍耐，向你而行，你就是我们的冠冕。",
+    "unverified end anchor: target 20: 看哪，虽然我们常常听见你的许多神迹和教训，我们还是冷淡，若是没有这些光明前行引导，我们的现状又当",
+    "repair unverified start (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 2",
+    "repair unverified end (previous-sync): target 3",
+    "repair unverified end (previous-sync): target 5",
+    "repair unverified end (previous-sync): target 6",
+    "repair unverified end (previous-sync): target 7",
+    "repair unverified end (previous-sync): target 9",
+    "repair unverified start (previous-sync): target 12",
+    "repair unverified end (previous-sync): target 12",
+    "repair unverified end (previous-sync): target 13",
+    "repair unverified start (previous-sync): target 14",
+    "repair unverified end (previous-sync): target 14",
+    "repair unverified start (previous-sync): target 15",
+    "repair unverified end (previous-sync): target 16",
+    "repair unverified end (previous-sync): target 18",
+    "repair unverified end (previous-sync): target 20"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 6,
+    "updatedEnds": 5,
+    "addedCues": 0,
+    "headingsRemoved": 2,
+    "unverifiedStarts": 4,
+    "unverifiedEnds": 13,
+    "missingTargets": []
+  },
+  "repairFingerprint": "9d588531efe1843348656b80c0fdee0aeb4a2f30128e41e4591b57d29447f0cb",
+  "repairCueDigest": "e6be24e7eeacbe4a9c8d6568b94285754fcfcd034784018097de496023f36d9a"
 }

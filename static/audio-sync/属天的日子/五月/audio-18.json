@@ -8,36 +8,186 @@
   "audioDuration": 160.559125,
   "cues": [
     {
-      "start": 0.0,
-      "end": 1.92,
-      "kind": "heading",
-      "targetIndex": 86,
-      "targetText": "五月十八日",
-      "confidence": 1.0
-    },
-    {
       "start": 1.92,
       "end": 9.26,
       "kind": "paragraph",
-      "targetIndex": 87,
+      "targetIndex": 89,
       "targetText": "因为你们已经死了与基督一同藏在上帝里面西33",
-      "confidence": 0.829
+      "confidence": 0.829,
+      "quality": {
+        "coverage": 0.773,
+        "coherentCoverage": 0.773,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.818,
+        "suffixCoverage": 0.727,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1.92,
+        "previousEnd": 9.26
+      },
+      "targetMigration": {
+        "previousTargetIndex": 87,
+        "targetIndex": 89,
+        "targetText": "因为你们已经死了与基督一同藏在上帝里面西33"
+      }
     },
     {
-      "start": 9.26,
+      "start": 17.65,
       "end": 47.13,
       "kind": "paragraph",
-      "targetIndex": 88,
+      "targetIndex": 90,
       "targetText": "这个十分肯定且最后绝对会将自己治死的行为是我们自己不可能做到的因为这不是自我禁欲修行所能达到的乃",
-      "confidence": 0.798
+      "confidence": 0.834,
+      "quality": {
+        "coverage": 0.83,
+        "coherentCoverage": 0.739,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 9.26,
+        "previousEnd": 47.13
+      },
+      "targetMigration": {
+        "previousTargetIndex": 88,
+        "targetIndex": 90,
+        "targetText": "这个十分肯定且最后绝对会将自己治死的行为是我们自己不可能做到的因为这不是自我禁欲修行所能达到的乃"
+      }
     },
     {
       "start": 47.13,
       "end": 141.86,
       "kind": "paragraph",
-      "targetIndex": 89,
+      "targetIndex": 91,
       "targetText": "教堂里充塞了一些半死的人他们长年来企图治死自己可是总缺乏勇气给自己致命的一击若是他们肯来到耶稣脚",
-      "confidence": 0.811
+      "confidence": 0.852,
+      "quality": {
+        "coverage": 0.853,
+        "coherentCoverage": 0.797,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 47.13,
+        "previousEnd": 141.86
+      },
+      "targetMigration": {
+        "previousTargetIndex": 89,
+        "targetIndex": 91,
+        "targetText": "教堂里充塞了一些半死的人他们长年来企图治死自己可是总缺乏勇气给自己致命的一击若是他们肯来到耶稣脚"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 90: 这个十分肯定且最后绝对会将自己治死的行为，是我们自己不可能做到的。因为这不是自我禁欲修行所能达到",
+    "repair unverified end (previous-sync): target 89",
+    "repair unverified end (previous-sync): target 90"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 87,
+      "targetIndex": 89,
+      "targetText": "因为你们已经死了与基督一同藏在上帝里面西33"
+    },
+    {
+      "previousTargetIndex": 88,
+      "targetIndex": 90,
+      "targetText": "这个十分肯定且最后绝对会将自己治死的行为是我们自己不可能做到的因为这不是自我禁欲修行所能达到的乃"
+    },
+    {
+      "previousTargetIndex": 89,
+      "targetIndex": 91,
+      "targetText": "教堂里充塞了一些半死的人他们长年来企图治死自己可是总缺乏勇气给自己致命的一击若是他们肯来到耶稣脚"
+    }
+  ],
+  "repairFingerprint": "5bc68267a1674d8f26ccf8cd5ad4174db1642cbd7096c17ef1cf07cd93fb0517",
+  "repairCueDigest": "92624c3b6916f2ffb1c0466cfac4d23bc08087b22eb6f1dd7dcaaa994ab36024"
 }

@@ -1,6 +1,32 @@
 {
   "version": 1,
   "model": ".audio-sync-cache\\models\\small",
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 1: 亲爱的长辈，弟兄姊妹，主内平安。今天我们一起读了以斯帖记4到6章。",
+    "unverified end anchor: target 3: 第四章主要是讲到末底改这个有负担的人，当他知道哈曼阴谋除灭犹大人，他就撕裂衣服，穿麻衣蒙灰尘在城",
+    "unverified start anchor: target 5: 将永远沉沦，永远遭受火不灭虫不死的地狱，永远的痛苦与慈爱的神，永远的隔绝。那么我们一定也会像末底",
+    "incomplete start (5 leading chars, coverage 0.500): target 6: 王后以斯帖，知道了以后她甚忧愁，送衣服给末底改穿，要他脱下麻衣，他却不受，以斯帖就吩咐她贴身的一",
+    "unverified start anchor: target 6: 王后以斯帖，知道了以后她甚忧愁，送衣服给末底改穿，要他脱下麻衣，他却不受，以斯帖就吩咐她贴身的一",
+    "unverified start anchor: target 7: 哈他革回来将末底改的话告诉以斯帖，仍然差遣哈他革去见末底改，说他已经没有蒙召进去见王三十日了，如",
+    "unverified end anchor: target 7: 哈他革回来将末底改的话告诉以斯帖，仍然差遣哈他革去见末底改，说他已经没有蒙召进去见王三十日了，如",
+    "unverified end anchor: target 8: 焉知你得了王后的位分，不是为现今的机会吗？末底改强调你作为王后是神的抬举，神的安排，神让你今日能",
+    "incomplete start (5 leading chars, coverage 0.750): target 10: 被罪恶辖制当中，活在没有一丝亮光，活在痛苦绝甚至是绝望当中，我们也需要一起为那些还没有蒙恩的人代",
+    "unverified start anchor: target 10: 被罪恶辖制当中，活在没有一丝亮光，活在痛苦绝甚至是绝望当中，我们也需要一起为那些还没有蒙恩的人代",
+    "unverified start anchor: target 23: 在筵席上，王再次说，王后以斯帖，你要什么，我必赐给你，你求什么，就是国的一半，也必为你成就。王后",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 3",
+    "repair unverified start (previous-sync): target 5",
+    "repair unverified start (previous-sync): target 6",
+    "repair unverified start (previous-sync): target 7",
+    "repair unverified end (previous-sync): target 7",
+    "repair unverified end (previous-sync): target 8",
+    "repair unverified start (previous-sync): target 10",
+    "repair unverified end (previous-sync): target 13",
+    "repair unverified start (previous-sync): target 23",
+    "repair unverified start (previous-sync): target 25"
+  ],
   "source": {
     "page": "历史书/以斯帖记/斯4-7章.md",
     "audio": "Esther4-7.mp3"
@@ -13,63 +39,290 @@
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "亲爱的长辈弟兄姊妹主内平安今天我们一起读了以斯帖记4到6章",
-      "confidence": 0.95
+      "confidence": 0.807,
+      "quality": {
+        "coverage": 0.793,
+        "coherentCoverage": 0.69,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.857,
+        "suffixCoverage": 0.714,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1.65,
+        "previousEnd": 9.25
+      }
     },
     {
       "start": 12.56,
-      "end": 13.6,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "第四章",
-      "confidence": 1.0
-    },
-    {
-      "start": 13.6,
       "end": 103.63,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "第四章主要是讲到末底改这个有负担的人当他知道哈曼阴谋除灭犹大人他就撕裂衣服穿麻衣蒙灰尘在城中行走",
-      "confidence": 0.798
+      "confidence": 0.881,
+      "quality": {
+        "coverage": 0.883,
+        "coherentCoverage": 0.864,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 12.56,
+        "previousEnd": 103.63
+      }
     },
     {
       "start": 103.63,
-      "end": 138.11,
+      "end": 135.2,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "哈曼阴谋除灭犹大人他心里也是非常的伤痛其实我们每一个人如果我们真知道我们活在这个世界上我们乃是客",
-      "confidence": 0.926
+      "confidence": 0.926,
+      "quality": {
+        "coverage": 0.922,
+        "coherentCoverage": 0.914,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 103.63,
+        "previousEnd": 135.2
+      }
     },
     {
       "start": 138.11,
-      "end": 259.74,
+      "end": 258.84,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "将永远沉沦永远遭受火不灭虫不死的地狱永远的痛苦与慈爱的上帝永远的隔绝那么我们一定也会像末底改一样",
-      "confidence": 0.827
+      "confidence": 0.873,
+      "quality": {
+        "coverage": 0.876,
+        "coherentCoverage": 0.822,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 138.11,
+        "previousEnd": 258.84
+      }
     },
     {
       "start": 259.74,
-      "end": 316.09,
+      "end": 313.58,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "王后以斯帖知道了以后她甚忧愁送衣服给末底改穿要他脱下麻衣他却不受以斯帖就吩咐她贴身的一个太监叫哈",
-      "confidence": 0.744
+      "confidence": 0.744,
+      "quality": {
+        "coverage": 0.734,
+        "coherentCoverage": 0.633,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.5,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 5,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "discarded detached start matches"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 259.74,
+        "previousEnd": 313.58
+      }
     },
     {
-      "start": 316.09,
+      "start": 316.33,
       "end": 387.02,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "哈他革回来将末底改的话告诉以斯帖仍然差遣哈他革去见末底改说他已经没有蒙召进去见王三十日了如果擅自",
-      "confidence": 0.738
+      "confidence": 0.742,
+      "quality": {
+        "coverage": 0.751,
+        "coherentCoverage": 0.617,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 316.33,
+        "previousEnd": 387.02
+      }
     },
     {
       "start": 387.02,
-      "end": 464.68,
+      "end": 462.05,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "焉知你得了王后的位分不是为现今的机会吗末底改强调你作为王后是上帝的抬举上帝的安排上帝让你今日能够",
-      "confidence": 0.877
+      "confidence": 0.877,
+      "quality": {
+        "coverage": 0.881,
+        "coherentCoverage": 0.797,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 387.02,
+        "previousEnd": 462.05
+      }
     },
     {
       "start": 464.68,
@@ -77,47 +330,227 @@
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "这个话曾经激励多少的人甘愿摆上自己我们知道以斯帖后来也愿意摆上她就回报末底改说你当去招聚书珊城所",
-      "confidence": 0.825
+      "confidence": 0.86,
+      "quality": {
+        "coverage": 0.873,
+        "coherentCoverage": 0.815,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 464.68,
+        "previousEnd": 610.45
+      }
     },
     {
       "start": 610.45,
-      "end": 683.73,
+      "end": 682.93,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "被罪恶辖制当中活在没有一丝亮光活在痛苦绝甚至是绝望当中我们也需要一起为那些还没有蒙恩的人代祷也愿",
-      "confidence": 0.753
+      "confidence": 0.83,
+      "quality": {
+        "coverage": 0.821,
+        "coherentCoverage": 0.793,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 5,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution",
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 610.45,
+        "previousEnd": 682.93
+      }
     },
     {
-      "start": 683.73,
-      "end": 684.87,
-      "kind": "heading",
-      "targetIndex": 11,
-      "targetText": "第五章",
-      "confidence": 1.0
-    },
-    {
-      "start": 684.87,
+      "start": 682.93,
       "end": 742.63,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "我们看见第五章以斯帖为王和哈曼设筵第三日以斯帖穿上朝服进王宫内院去见王的时候王就伸向她伸出金杖应",
-      "confidence": 0.835
+      "confidence": 0.865,
+      "quality": {
+        "coverage": 0.855,
+        "coherentCoverage": 0.797,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 682.93,
+        "previousEnd": 742.63
+      }
     },
     {
       "start": 742.63,
-      "end": 804.0,
+      "end": 804.8,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "带着哈曼赴他所预备的筵席哈曼就非常快乐欢喜的来随着国王赴筵席他赴好筵席非常开心见到末底改在朝门不",
-      "confidence": 0.747
+      "confidence": 0.74,
+      "quality": {
+        "coverage": 0.771,
+        "coherentCoverage": 0.646,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 742.63,
+        "previousEnd": 804.8
+      }
     },
     {
-      "start": 804.0,
+      "start": 804.8,
       "end": 882.46,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "哈曼以这话为美就叫人做了木架我们看见恶人哈曼他恼怒末底改整夜都睡不着都忙碌的叫人做五丈高的木架他",
-      "confidence": 0.832
+      "confidence": 0.839,
+      "quality": {
+        "coverage": 0.83,
+        "coherentCoverage": 0.773,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 804.8,
+        "previousEnd": 882.46
+      }
     },
     {
       "start": 882.46,
@@ -125,23 +558,95 @@
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "所作的木架上她不是用柔和的语言劝解哈曼让丈夫的怒气消退而是变本加厉的让丈夫帮助丈夫作恶以至于丈夫",
-      "confidence": 0.872
+      "confidence": 0.872,
+      "quality": {
+        "coverage": 0.895,
+        "coherentCoverage": 0.816,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 882.46,
+        "previousEnd": 918.26
+      }
     },
     {
       "start": 918.26,
-      "end": 919.46,
-      "kind": "heading",
-      "targetIndex": 16,
-      "targetText": "第六章",
-      "confidence": 1.0
-    },
-    {
-      "start": 919.46,
       "end": 1026.61,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "第六章就是上帝不误事我们看见反而在哈曼要求王把末底改挂在木架上的时候上帝让王在晚上就是哈曼做木架",
-      "confidence": 0.804
+      "confidence": 0.81,
+      "quality": {
+        "coverage": 0.833,
+        "coherentCoverage": 0.746,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 918.26,
+        "previousEnd": 1026.61
+      }
     },
     {
       "start": 1026.61,
@@ -149,7 +654,46 @@
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "哈曼王所喜悦尊荣的人当如何待他呢哈曼心里他自己以为王所喜悦尊荣的就是他他说王所喜悦尊荣的不是我是",
-      "confidence": 0.878
+      "confidence": 0.939,
+      "quality": {
+        "coverage": 0.946,
+        "coherentCoverage": 0.938,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1026.61,
+        "previousEnd": 1061.85
+      }
     },
     {
       "start": 1061.85,
@@ -157,15 +701,93 @@
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "王所喜悦尊荣的人就如此待他他能想到的最尊荣的这样的一个画面加在自己的身上穿上王常穿的朝服骑上戴冠",
-      "confidence": 0.807
+      "confidence": 0.829,
+      "quality": {
+        "coverage": 0.832,
+        "coherentCoverage": 0.759,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1061.85,
+        "previousEnd": 1178.04
+      }
     },
     {
       "start": 1178.04,
-      "end": 1222.92,
+      "end": 1220.36,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "他的智慧人和他的妻细利斯现在改口了他说你在末底改面前始而败落他如果是犹大人你必不能胜他终必在他面",
-      "confidence": 0.842
+      "confidence": 0.842,
+      "quality": {
+        "coverage": 0.858,
+        "coherentCoverage": 0.811,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1178.04,
+        "previousEnd": 1220.36
+      }
     },
     {
       "start": 1222.92,
@@ -173,31 +795,187 @@
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "他们还说话的时候王的太监来催哈曼快去赴以斯帖所预备的筵席",
-      "confidence": 0.909
+      "confidence": 0.909,
+      "quality": {
+        "coverage": 0.893,
+        "coherentCoverage": 0.857,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.786,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1222.92,
+        "previousEnd": 1231.66
+      }
     },
     {
-      "start": 1231.66,
-      "end": 1335.46,
+      "start": 1232.26,
+      "end": 1334.78,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "在筵席上王再次说王后以斯帖你要什么我必赐给你你求什么就是国的一半也必为你成就王后以斯帖就说我若在",
-      "confidence": 0.879
+      "confidence": 0.882,
+      "quality": {
+        "coverage": 0.896,
+        "coherentCoverage": 0.848,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1232.26,
+        "previousEnd": 1334.78
+      }
     },
     {
-      "start": 1335.46,
-      "end": 1432.92,
+      "start": 1335.94,
+      "end": 1433.6,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "伺候王的一个太监名叫哈波拿说哈曼为那救王有功的末底改做了五丈高的木架现今立在哈曼家里王一听这个哈",
-      "confidence": 0.84
+      "confidence": 0.843,
+      "quality": {
+        "coverage": 0.855,
+        "coherentCoverage": 0.822,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1335.94,
+        "previousEnd": 1433.6
+      }
     },
     {
-      "start": 1432.92,
+      "start": 1435.48,
       "end": 1517.37,
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "当王带着哈曼再次赴王后以斯帖的筵席的时候以斯帖告诉仇人敌人就是恶人哈曼最终哈曼被挂在他自己做的为",
-      "confidence": 0.804
+      "confidence": 0.813,
+      "quality": {
+        "coverage": 0.787,
+        "coherentCoverage": 0.735,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1435.48,
+        "previousEnd": 1517.37
+      }
     }
-  ]
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 6,
+    "unverifiedEnds": 5,
+    "missingTargets": []
+  },
+  "repairFingerprint": "40fd8763ed19149d1c6f71a5165ffac50e09b512e184ca80dba2ffa1438bf9d6",
+  "repairCueDigest": "4068bd09d08cd4561592771fdd0e93f081329e6f252278bc5f5213f190832cf7"
 }

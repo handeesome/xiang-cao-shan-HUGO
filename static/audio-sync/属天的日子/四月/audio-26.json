@@ -8,36 +8,182 @@
   "audioDuration": 189.72075,
   "cues": [
     {
-      "start": 0.0,
-      "end": 1.72,
-      "kind": "heading",
-      "targetIndex": 128,
-      "targetText": "四月二十六日",
-      "confidence": 1.0
-    },
-    {
       "start": 1.72,
       "end": 10.56,
       "kind": "paragraph",
-      "targetIndex": 129,
+      "targetIndex": 185,
       "targetText": "这些人都是存着信心死的又承认自己在世上是客旅是寄居的伯1113",
-      "confidence": 0.772
+      "confidence": 0.772,
+      "quality": {
+        "coverage": 0.71,
+        "coherentCoverage": 0.645,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.933,
+        "suffixCoverage": 0.467,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 5,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1.72,
+        "previousEnd": 10.56
+      },
+      "targetMigration": {
+        "previousTargetIndex": 129,
+        "targetIndex": 185,
+        "targetText": "这些人都是存着信心死的又承认自己在世上是客旅是寄居的伯1113"
+      }
     },
     {
-      "start": 10.56,
+      "start": 14.4,
       "end": 80.0,
       "kind": "paragraph",
-      "targetIndex": 130,
+      "targetIndex": 186,
       "targetText": "如果你从来没有在乡下用犁挖出一条直直的犁沟我会为你感到深深的可惜更为那些骄傲到不愿知道如何犁田的",
-      "confidence": 0.708
+      "confidence": 0.81,
+      "quality": {
+        "coverage": 0.812,
+        "coherentCoverage": 0.718,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 10.56,
+        "previousEnd": 80.0
+      },
+      "targetMigration": {
+        "previousTargetIndex": 130,
+        "targetIndex": 186,
+        "targetText": "如果你从来没有在乡下用犁挖出一条直直的犁沟我会为你感到深深的可惜更为那些骄傲到不愿知道如何犁田的"
+      }
     },
     {
       "start": 80.0,
       "end": 105.24,
       "kind": "paragraph",
-      "targetIndex": 131,
+      "targetIndex": 187,
       "targetText": "这对我们基督徒的生命而言有一个很好的教训假使我们想走出一条笔直的路我们也得有两根桩一根远的一根近",
-      "confidence": 0.901
+      "confidence": 0.901,
+      "quality": {
+        "coverage": 0.901,
+        "coherentCoverage": 0.802,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 80.0,
+        "previousEnd": 105.24
+      },
+      "targetMigration": {
+        "previousTargetIndex": 131,
+        "targetIndex": 187,
+        "targetText": "这对我们基督徒的生命而言有一个很好的教训假使我们想走出一条笔直的路我们也得有两根桩一根远的一根近"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v4-context-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (5 trailing chars, coverage 0.467): target 185: 这些人都是存着信心死的…又承认自己在世上是客旅、是寄居的------伯11:13",
+    "unverified end anchor: target 185: 这些人都是存着信心死的…又承认自己在世上是客旅、是寄居的------伯11:13",
+    "unverified end anchor: target 186: 如果你从来没有在乡下用犁挖出一条直直的犁沟，我会为你感到深深的可惜，更为那些骄傲到不愿知道如何犁",
+    "unverified end anchor: target 187: 这对我们基督徒的生命而言, 有一个很好的教训。假使我们想 “走出一条笔直的路，我们也得有两根桩-",
+    "repair unverified end (previous-sync): target 185",
+    "repair unverified end (previous-sync): target 186",
+    "repair unverified end (previous-sync): target 187"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 3,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 129,
+      "targetIndex": 185,
+      "targetText": "这些人都是存着信心死的又承认自己在世上是客旅是寄居的伯1113"
+    },
+    {
+      "previousTargetIndex": 130,
+      "targetIndex": 186,
+      "targetText": "如果你从来没有在乡下用犁挖出一条直直的犁沟我会为你感到深深的可惜更为那些骄傲到不愿知道如何犁田的"
+    },
+    {
+      "previousTargetIndex": 131,
+      "targetIndex": 187,
+      "targetText": "这对我们基督徒的生命而言有一个很好的教训假使我们想走出一条笔直的路我们也得有两根桩一根远的一根近"
+    }
+  ],
+  "repairFingerprint": "a13a1f6f809fd16f18256f5a798d3d49d5432e863daf7ee9f42c8fca71aa9474",
+  "repairCueDigest": "0da56657bc365c7461b25c45b2ef4be7efeac0959f417408a7891a65d483cc4f"
 }
