@@ -78,7 +78,7 @@ Create a production build with:
 hugo --minify
 ```
 
-Reading progress is saved in the current browser for the 30 most recently visited reading pages. Opening the homepage returns to the latest chapter; following a homepage link explicitly stays home (`?home=1`). Chapter fragment links and browser back navigation keep their normal destinations. Audio resumes at the saved time only after the reader presses play. No reading history is sent to a server.
+Reading progress is saved in the current browser for the 30 most recently visited reading pages. Directly opening the homepage returns to the latest chapter; internal homepage links (`?home=1`), reloads, and browser back navigation stay at their chosen destinations. Opening another book only restores progress saved for that page. Uncached pages show an offline message when loading fails instead of falling back to the homepage. Chapter fragment links keep their normal destinations. Audio resumes at the saved time only after the reader presses play. No reading history is sent to a server.
 
 Run the reading-progress checks with `node --test scripts/reading-progress.test.cjs`.
 

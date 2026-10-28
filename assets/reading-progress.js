@@ -28,7 +28,14 @@
     try { localStorage.setItem(KEY, JSON.stringify(data)); } catch {}
   };
 
-  if (settings.isHome === "true" && !location.search && !location.hash) {
+  const current = new URL(location.href);
+  const navigation = performance.getEntriesByType("navigation")[0]?.type;
+  let fromSite = false;
+  try { fromSite = new URL(document.referrer).origin === location.origin; } catch {}
+  // Cached fallback HTML must never turn a requested book into a homepage visit.
+  // Internal links, reloads and history navigation retain the chosen destination.
+  if (settings.isHome === "true" && current.pathname === home.pathname &&
+      !location.search && !location.hash && navigation === "navigate" && !fromSite) {
     const data = read();
     const path = validPath(data.lastPath);
     if (path && data.pages[path] && Number.isFinite(data.pages[path].scrollY)) {
@@ -49,7 +56,7 @@
 
     const path = validPath(document.body.dataset.readingPath);
     const article = document.querySelector(".book-article");
-    if (!path || !article) return;
+    if (!path || path !== validPath(current.pathname) || !article) return;
 
     const saved = read().pages[path];
     const audios = Array.from(article.querySelectorAll("audio"));
@@ -69,7 +76,7 @@
     const rememberedAudio = audioProgress && audios.find((audio) => audioKey(audio) === audioProgress.key);
     if (audioProgress && !rememberedAudio) audioProgress = null;
     let pendingAudio = Boolean(rememberedAudio && audioProgress.time > 0 && !audioProgress.finished);
-    const back = performance.getEntriesByType("navigation")[0]?.type === "back_forward";
+    const back = navigation === "back_forward";
     let restoreAllowed = Boolean(saved && Number.isFinite(saved.scrollY) && !location.hash && !back);
     let restoring = restoreAllowed;
     let saveTimer;
