@@ -40,8 +40,9 @@ function harness(options = {}) {
   article.querySelectorAll = selector => selector === 'audio' ? audios : blocks;
   const links = [Object.assign(new Element(), { href: 'https://site.test/' })];
   const document = new EventTarget();
-  document.currentScript = { dataset: { homePath: '/', isHome: String(Boolean(options.home)) } };
-  document.body = new Element(); document.body.dataset.readingPath = options.home ? undefined : PATH;
+  document.currentScript = { dataset: { homePath: options.homePath ?? '/', isHome: String(Boolean(options.home)) } };
+  document.referrer = options.referrer ?? '';
+  document.body = new Element(); document.body.dataset.readingPath = options.home ? undefined : (options.readingPath ?? PATH);
   document.querySelector = () => article;
   document.querySelectorAll = () => links;
   document.createElement = () => new Element();
@@ -89,6 +90,55 @@ test('honors chapter fragments and native back navigation', () => {
 });
 test('returns from a fresh homepage opening to the latest chapter', () => {
   assert.equal(harness({ home: true, saved: record({}) }).replaced, PATH);
+});
+
+test('homepage HTML served at a book or shelf URL never redirects to another book', () => {
+  for (const path of ['/books/', '/books/other-book/', '/children/other-book/']) {
+    const h = harness({ home: true, url: `https://site.test${path}`, saved: record({}) });
+    assert.equal(h.replaced, undefined);
+    assert.equal(h.notice(), undefined);
+    assert.equal(h.state().lastPath, PATH);
+  }
+});
+
+test('returning to or reloading the homepage preserves the homepage', () => {
+  for (const options of [
+    { referrer: `https://site.test${PATH}` },
+    { referrer: 'https://site.test/books/' },
+    { navigation: 'back_forward' },
+    { navigation: 'reload' },
+  ]) {
+    assert.equal(harness({ ...options, home: true, saved: record({}) }).replaced, undefined);
+  }
+});
+
+test('a fresh homepage opening supports a subdirectory deployment', () => {
+  const path = '/library/books/book/chapter/';
+  const saved = { version: 1, lastPath: path, pages: { [path]: { scrollY: 250 } } };
+  assert.equal(harness({ home: true, homePath: '/library/', url: 'https://site.test/library/', saved }).replaced, path);
+});
+
+test('opening another book only restores that page and preserves the previous book', () => {
+  const path = '/books/other-book/chapter/';
+  for (const previousPosition of [undefined, 640]) {
+    const saved = record({});
+    if (previousPosition !== undefined) saved.pages[path] = { scrollY: previousPosition };
+    const h = harness({ url: `https://site.test${path}`, readingPath: path, saved });
+    assert.equal(h.replaced, undefined);
+    assert.equal(h.window.scrollY, previousPosition ?? 0);
+    assert.equal(Boolean(h.notice()), previousPosition !== undefined);
+    assert.equal(h.state().lastPath, path);
+    assert.equal(h.state().pages[PATH].scrollY, 250);
+  }
+});
+
+test('mismatched reading HTML does not restore or overwrite another page', () => {
+  const saved = record({});
+  const h = harness({ url: 'https://site.test/books/other-book/', saved });
+  assert.equal(h.window.scrollY, 0);
+  assert.equal(h.notice(), undefined);
+  h.window.dispatchEvent(new Event('pagehide'));
+  assert.deepEqual(h.state(), saved);
 });
 test('explicit homepage links and queries stay on the homepage', () => {
   const h = harness();

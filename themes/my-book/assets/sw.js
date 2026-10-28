@@ -67,9 +67,7 @@ self.addEventListener('fetch', (event) => {
     if (cached) return cached;
 
     if (request.mode === 'navigate') {
-      const home = await cache.match(fallbackPage);
-      if (home) return home;
-
+      // Keep the requested destination; homepage HTML can resume an unrelated book.
       return new Response('当前处于离线状态，这个页面尚未缓存。联网后请重试。', {
         status: 503,
         headers: { 'Content-Type': 'text/plain;charset=utf-8' },
