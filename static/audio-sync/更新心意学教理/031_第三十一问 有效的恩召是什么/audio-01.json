@@ -8,36 +8,479 @@
   "audioDuration": 104.256,
   "cues": [
     {
-      "start": 1.52,
-      "end": 2.98,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "礼拜一",
-      "confidence": 0.8
-    },
-    {
       "start": 2.98,
-      "end": 6.28,
+      "end": 7.52,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "请读或背诵约翰福音316",
-      "confidence": 0.571
+      "confidence": 0.5,
+      "quality": {
+        "startVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endVerified": true,
+        "endEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "source": "context-reviewed-read-prompt-ending",
+          "contextUsed": true,
+          "identityAmbiguous": false,
+          "continuousAnchor": false,
+          "timingPrecision": "word",
+          "time": 7.52,
+          "expectedPhrase": "请读（或背诵）约翰福音3:16。",
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\31-1.mp3.json",
+          "transcriptSha256": "00ad46298f0cf3f146dc75fae02cb8574d4d55b1c015e750695cb0483fc850d5",
+          "audioSha256": "bf18064d3c098997f903718951bc93c27b4bbb805c0c6165d2243a12a408ce60",
+          "rawSegments": [
+            {
+              "start": 2.98,
+              "end": 7.52,
+              "text": "請讀或背诵于翰福音三章十六节",
+              "words": [
+                {
+                  "start": 2.98,
+                  "end": 3.32,
+                  "text": "請",
+                  "probability": 0.61456698179245
+                },
+                {
+                  "start": 3.32,
+                  "end": 3.82,
+                  "text": "讀",
+                  "probability": 0.8330072164535522
+                },
+                {
+                  "start": 3.82,
+                  "end": 4.52,
+                  "text": "或",
+                  "probability": 0.8878019452095032
+                },
+                {
+                  "start": 4.52,
+                  "end": 4.92,
+                  "text": "背",
+                  "probability": 0.5964639186859131
+                },
+                {
+                  "start": 4.92,
+                  "end": 5.26,
+                  "text": "诵",
+                  "probability": 0.6872105300426483
+                },
+                {
+                  "start": 5.26,
+                  "end": 5.74,
+                  "text": "于",
+                  "probability": 0.1500178426504135
+                },
+                {
+                  "start": 5.74,
+                  "end": 5.88,
+                  "text": "翰",
+                  "probability": 0.7476580590009689
+                },
+                {
+                  "start": 5.88,
+                  "end": 6.06,
+                  "text": "福",
+                  "probability": 0.5335294008255005
+                },
+                {
+                  "start": 6.06,
+                  "end": 6.28,
+                  "text": "音",
+                  "probability": 0.22377130389213562
+                },
+                {
+                  "start": 6.28,
+                  "end": 6.64,
+                  "text": "三",
+                  "probability": 0.7631120681762695
+                },
+                {
+                  "start": 6.64,
+                  "end": 6.82,
+                  "text": "章",
+                  "probability": 0.9195898175239563
+                },
+                {
+                  "start": 6.82,
+                  "end": 7.06,
+                  "text": "十",
+                  "probability": 0.934861958026886
+                },
+                {
+                  "start": 7.06,
+                  "end": 7.22,
+                  "text": "六",
+                  "probability": 0.9973630309104919
+                },
+                {
+                  "start": 7.22,
+                  "end": 7.52,
+                  "text": "节",
+                  "probability": 0.899655282497406
+                }
+              ]
+            }
+          ],
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+          "listenedByAgent": false
+        },
+        "reviewRequired": true
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "next-verified-start",
+        "previousStart": 2.98,
+        "previousEnd": 6.28,
+        "previousConfidence": 0.762
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "031_第三十一问 有效的恩召是什么.md",
+          "audio": "31-1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\031_第三十一问 有效的恩召是什么\\audio-01.json",
+          "caseIndex": 562,
+          "targetIndex": 3,
+          "edge": "end",
+          "previousTime": 5.74,
+          "time": 7.52,
+          "kind": "verified-edge",
+          "previousEvidence": {
+            "verified": false,
+            "source": "next-verified-start"
+          },
+          "previousVerified": false,
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。"
+        }
+      ]
     },
     {
-      "start": 6.28,
-      "end": 20.28,
+      "start": 8.46,
+      "end": 19.36,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "约翰福音316上帝爱世人甚至将祂的独生子赐给他们叫一切信祂的不至灭亡反得永生",
-      "confidence": 0.73
+      "confidence": 0.937,
+      "quality": {
+        "coverage": 0.925,
+        "coherentCoverage": 0.925,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "localSupported": false,
+          "source": "previous-verified-end",
+          "time": 7.52,
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "referenceOwnershipConstraint": {
+          "ownerTargetIndex": 3,
+          "ownerTargetText": "请读或背诵约翰福音316",
+          "notBefore": 7.52,
+          "verifiedSpokenOnset": false
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 6.28,
+        "previousEnd": 19.36,
+        "previousConfidence": 0.784
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "031_第三十一问 有效的恩召是什么.md",
+          "audio": "31-1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\031_第三十一问 有效的恩召是什么\\audio-01.json",
+          "caseIndex": 562,
+          "targetIndex": 4,
+          "edge": "start",
+          "previousTime": 5.74,
+          "time": 7.52,
+          "kind": "unverified-neighbor-constraint",
+          "previousVerified": true,
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 7.52,
+            "time": 8.46,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\31-1.mp3.json",
+              "sha256": "81168685dddf9aac275956d3a8cf6bcaea59e798c74c2c423debd31950d87136",
+              "anchor": {
+                "time": 8.46,
+                "score": 0.9276,
+                "ratio": 0.9286,
+                "expected": "shenaishirenshenzhijiangtadedushengzicigei",
+                "actual": "神爱世人甚至将他的独身子赐给",
+                "span": [
+                  8.46,
+                  13.42
+                ],
+                "tokens": [
+                  {
+                    "text": "神",
+                    "start": 8.46,
+                    "end": 9.14,
+                    "rawStart": 17,
+                    "rawEnd": 18,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "爱",
+                    "start": 9.14,
+                    "end": 9.82,
+                    "rawStart": 19,
+                    "rawEnd": 19,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "世",
+                    "start": 9.82,
+                    "end": 10.2,
+                    "rawStart": 20,
+                    "rawEnd": 20,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 10.2,
+                    "end": 10.54,
+                    "rawStart": 21,
+                    "rawEnd": 21,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "甚",
+                    "start": 10.54,
+                    "end": 11.42,
+                    "rawStart": 22,
+                    "rawEnd": 22,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "至",
+                    "start": 11.42,
+                    "end": 11.62,
+                    "rawStart": 23,
+                    "rawEnd": 23,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "将",
+                    "start": 11.62,
+                    "end": 11.8,
+                    "rawStart": 24,
+                    "rawEnd": 24,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "他",
+                    "start": 11.8,
+                    "end": 12.14,
+                    "rawStart": 25,
+                    "rawEnd": 25,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 11.8,
+                    "end": 12.14,
+                    "rawStart": 26,
+                    "rawEnd": 26,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "独",
+                    "start": 12.14,
+                    "end": 12.36,
+                    "rawStart": 27,
+                    "rawEnd": 27,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "身",
+                    "start": 12.36,
+                    "end": 12.64,
+                    "rawStart": 28,
+                    "rawEnd": 28,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "子",
+                    "start": 12.64,
+                    "end": 12.94,
+                    "rawStart": 29,
+                    "rawEnd": 29,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "赐",
+                    "start": 12.94,
+                    "end": 13.26,
+                    "rawStart": 30,
+                    "rawEnd": 30,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "给",
+                    "start": 13.26,
+                    "end": 13.42,
+                    "rawStart": 31,
+                    "rawEnd": 31,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "神爱世人,甚至将祂的独生子赐给他们,叫一切信祂的,不至灭亡,反得永生。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.925,
+          "coherentCoverage": 0.925,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.95,
+          "suffixCoverage": 0.9,
+          "unmatchedLeadingChars": 1,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "localSupported": false,
+            "source": "previous-verified-end",
+            "time": 7.52,
+            "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "referenceOwnershipConstraint": {
+            "ownerTargetIndex": 3,
+            "ownerTargetText": "请读或背诵约翰福音316",
+            "notBefore": 7.52,
+            "verifiedSpokenOnset": false
+          }
+        }
+      }
     },
     {
       "start": 20.28,
-      "end": 40.22,
+      "end": 38.96,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "这节经文说那些信上帝儿子的人会得什么如果他们没有信靠耶稣的话他们会怎么样根据这节经文上帝为什么赐",
-      "confidence": 0.887
+      "confidence": 0.904,
+      "quality": {
+        "coverage": 0.897,
+        "coherentCoverage": 0.879,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 20.28,
+        "previousEnd": 38.96,
+        "previousConfidence": 0.904
+      }
     },
     {
       "start": 40.22,
@@ -45,7 +488,78 @@
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "上帝的爱如此之大以至于祂赐下祂的独生子要想不至灭亡反得永生人只需要信靠耶稣那么为什么不是每个人都",
-      "confidence": 0.935
+      "confidence": 0.947,
+      "quality": {
+        "coverage": 0.944,
+        "coherentCoverage": 0.944,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 40.22,
+        "previousEnd": 103.02,
+        "previousConfidence": 0.946
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (9 trailing chars, coverage 0.000): target 3: 请读（或背诵）约翰福音3:16。",
+    "low confidence (0.526, coverage 0.357): target 3: 请读（或背诵）约翰福音3:16。",
+    "unverified start anchor: target 3: 请读（或背诵）约翰福音3:16。",
+    "unverified end anchor: target 3: 请读（或背诵）约翰福音3:16。",
+    "unmatched (fragment only): target 3: 请读（或背诵）约翰福音3:16。",
+    "repair unverified end (next-verified-start): target 3",
+    "context reviewed end: target 3; 前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+    "unverified constrained start: target 4; 旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "227c55fe89e42ab8b357afb0c23ab7d3c600f2ea1fd27ee2c7a21baf16379e65",
+  "repairCueDigest": "63bc8579168cc37c7573ba4b6112017a2a4faf1c06843b83962587fc18bd6a99",
+  "previousAlignmentWarnings": []
 }

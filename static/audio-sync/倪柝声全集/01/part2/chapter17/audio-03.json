@@ -8,20 +8,72 @@
   "audioDuration": 35.3839375,
   "cues": [
     {
-      "start": 2.34,
-      "end": 4.48,
-      "kind": "heading",
-      "targetIndex": 20,
-      "targetText": "上帝存在的凭证",
-      "confidence": 0.923
-    },
-    {
-      "start": 4.48,
+      "start": 5.46,
       "end": 34.04,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "有的人立刻就要说我不知道到底有上帝没有上帝朋友你如果不知道的话我要请我认为靠得住的确实有理由的证",
-      "confidence": 0.976
+      "confidence": 0.98,
+      "quality": {
+        "coverage": 0.971,
+        "coherentCoverage": 0.971,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 4.48,
+        "previousEnd": 34.04,
+        "previousConfidence": 0.976
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "fb2030cd6567b5f0ff0b1ed4d32bc8bcfb5f92316517db3c03991fff063cb46b",
+  "repairCueDigest": "43765500b8585aefdf89c35e22003f77fd0fc95762b171ba9d7b2a474726b8dc",
+  "previousAlignmentWarnings": []
 }

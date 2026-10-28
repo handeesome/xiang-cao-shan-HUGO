@@ -8,36 +8,845 @@
   "audioDuration": 176.561625,
   "cues": [
     {
-      "start": 1.36,
-      "end": 61.56,
+      "start": 3.42,
+      "end": 71.66,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "上帝至高无上祂比我们大多了上帝的名字代表祂的本体所以一定要把上帝的名字看作是至高至圣的人们常常在",
-      "confidence": 0.864
+      "confidence": 0.936,
+      "quality": {
+        "coverage": 0.945,
+        "coherentCoverage": 0.894,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 3.42,
+        "previousEnd": 61.56,
+        "previousConfidence": 0.881
+      }
     },
     {
-      "start": 61.56,
-      "end": 121.64,
+      "start": 73.97,
+      "end": 120.54,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "利未记24131623耶和华晓谕摩西说把那咒诅圣名的人带到营外叫听见的人都放手在他头上全会众就要",
-      "confidence": 0.648
+      "confidence": 0.789,
+      "quality": {
+        "coverage": 0.763,
+        "coherentCoverage": 0.675,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.3,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 12,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "previous-verified-sync",
+        "previousStart": 61.56,
+        "previousEnd": 120.54,
+        "previousConfidence": 0.715
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 71.66,
+            "time": 73.97,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\55-2.mp3.json",
+              "sha256": "5c1757db8b3ba67ebd18473be29b6c0f467c8acb6f882b63888de457a87fc6dd",
+              "anchor": {
+                "time": 73.97,
+                "score": 0.925,
+                "ratio": 0.9333,
+                "expected": "yehehuaxiaoyumoxishuo",
+                "actual": "和华小于摩西说",
+                "span": [
+                  73.97,
+                  75.77000000000001
+                ],
+                "tokens": [
+                  {
+                    "text": "和",
+                    "start": 73.97,
+                    "end": 74.15,
+                    "rawStart": 224,
+                    "rawEnd": 224,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "华",
+                    "start": 74.15,
+                    "end": 74.49000000000001,
+                    "rawStart": 225,
+                    "rawEnd": 225,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "小",
+                    "start": 74.49000000000001,
+                    "end": 74.73,
+                    "rawStart": 226,
+                    "rawEnd": 226,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "于",
+                    "start": 74.73,
+                    "end": 74.93,
+                    "rawStart": 227,
+                    "rawEnd": 227,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "摩",
+                    "start": 74.93,
+                    "end": 75.13,
+                    "rawStart": 228,
+                    "rawEnd": 228,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "西",
+                    "start": 75.13,
+                    "end": 75.27000000000001,
+                    "rawStart": 229,
+                    "rawEnd": 229,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "说",
+                    "start": 75.27000000000001,
+                    "end": 75.77000000000001,
+                    "rawStart": 230,
+                    "rawEnd": 230,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 71.2,
+                  "score": 0.8171,
+                  "actual": "人伊和华小于摩西说"
+                },
+                "phraseSize": 8,
+                "matchingText": "耶和华晓谕摩西说:“把那咒诅圣名的人带到营外,叫听见的人都放手在他头上,全会众就要用石头打死他。你要晓谕以色列人说:凡咒诅神的,必担当他的罪。那亵渎耶和华名的,必被治死,全会众总要用石头打死他。不管是寄居的是本地人,他亵渎耶和华名的时候,必被治死。”于是,摩西晓谕以色列人,他们就把那咒诅圣名的人带到营外,用石头打死。以色列人就照耶和华所吩咐摩西的行了。",
+                "normalization": "parenthetical-or-number-label-removed"
+              },
+              "body": ", 23 耶和华晓谕摩西说:“把那咒诅圣名的人带到营外,叫听见的人都放手在他头上,全会众就要用石头打死他。你要晓谕以色列人说:凡咒诅神的,必担当他的罪。那亵渎耶和华名的,必被治死,全会众总要用石头打死他。不管是寄居的是本地人,他亵渎耶和华名的时候,必被治死。”于是,摩西晓谕以色列人,他们就把那咒诅圣名的人带到营外,用石头打死。以色列人就照耶和华所吩咐摩西的行了。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.763,
+          "coherentCoverage": 0.675,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.3,
+          "suffixCoverage": 0.8,
+          "unmatchedLeadingChars": 12,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-verified-end"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.667,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     },
     {
       "start": 121.64,
-      "end": 163.82,
+      "end": 164.02,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "当我们在圣经中读到类似的记载我们应该记住这表明了上帝的属性上帝对于滥用祂名字的人是什么感受上帝会",
-      "confidence": 0.976
+      "confidence": 0.983,
+      "quality": {
+        "coverage": 0.986,
+        "coherentCoverage": 0.952,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "source": "context-reviewed-read-prompt-ending",
+          "contextUsed": true,
+          "identityAmbiguous": false,
+          "continuousAnchor": false,
+          "timingPrecision": "word",
+          "time": 164.02,
+          "expectedPhrase": "的，或者用很轻浮的方式使用上帝的名字的，上帝仍有同样的感受。我们也要以敬畏之心对待上帝所有的称号和属性。请读列王纪下19:22。",
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\55-2.mp3.json",
+          "transcriptSha256": "e4c0d2e5191f2d234cda6d9883c6c1c2ea052ccdb07a748e3a7743e14a7f0be9",
+          "audioSha256": "f8b2e8451cad3f4d9326f2da34e89f0e276bdcb03ca32f6a56622a4ab0f29951",
+          "rawSegments": [
+            {
+              "start": 160.6,
+              "end": 164.02,
+              "text": "请读列王际下 19 章 22 节",
+              "words": [
+                {
+                  "start": 160.6,
+                  "end": 161.58,
+                  "text": "请",
+                  "probability": 0.2640353739261627
+                },
+                {
+                  "start": 161.58,
+                  "end": 161.8,
+                  "text": "读",
+                  "probability": 0.9241714775562286
+                },
+                {
+                  "start": 161.8,
+                  "end": 162.0,
+                  "text": "列",
+                  "probability": 0.5810816884040833
+                },
+                {
+                  "start": 162.0,
+                  "end": 162.18,
+                  "text": "王",
+                  "probability": 0.6206251382827759
+                },
+                {
+                  "start": 162.18,
+                  "end": 162.36,
+                  "text": "际",
+                  "probability": 0.5836617946624756
+                },
+                {
+                  "start": 162.36,
+                  "end": 162.62,
+                  "text": "下",
+                  "probability": 0.9584773182868958
+                },
+                {
+                  "start": 162.62,
+                  "end": 163.02,
+                  "text": " 19",
+                  "probability": 0.32286956906318665
+                },
+                {
+                  "start": 163.1,
+                  "end": 163.24,
+                  "text": " 章",
+                  "probability": 0.9910938441753387
+                },
+                {
+                  "start": 163.24,
+                  "end": 163.7,
+                  "text": " 22",
+                  "probability": 0.8513294458389282
+                },
+                {
+                  "start": 163.82,
+                  "end": 164.02,
+                  "text": " 节",
+                  "probability": 0.9406113624572754
+                }
+              ]
+            }
+          ],
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+          "listenedByAgent": false
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 121.64,
+        "previousEnd": 163.82,
+        "previousConfidence": 0.983
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "055_第五十五问 第三诫命禁止我们什么.md",
+          "audio": "55-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\055_第五十五问 第三诫命禁止我们什么\\audio-03.json",
+          "caseIndex": 744,
+          "targetIndex": 8,
+          "edge": "end",
+          "previousTime": 163.82,
+          "time": 164.02,
+          "kind": "verified-edge",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false,
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。"
+        }
+      ]
     },
     {
-      "start": 163.82,
+      "start": 164.86,
       "end": 175.36,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "列王纪下1922你辱骂谁亵渎谁扬起声来高举眼目攻击谁呢乃是攻击以色列的圣者",
-      "confidence": 0.478
+      "confidence": 0.537,
+      "quality": {
+        "coverage": 0.486,
+        "coherentCoverage": 0.351,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.333,
+        "suffixCoverage": 0.611,
+        "unmatchedLeadingChars": 8,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "localSupported": false,
+          "source": "previous-verified-end",
+          "time": 164.02,
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\55-2.mp3.json",
+          "transcriptSha256": "e4c0d2e5191f2d234cda6d9883c6c1c2ea052ccdb07a748e3a7743e14a7f0be9",
+          "candidate": 175.36,
+          "expectedPhrase": "攻击以色列的圣者",
+          "actualPhrase": "攻击以色列的圣者",
+          "phoneticPhrase": [
+            "gong",
+            "ji",
+            "yi",
+            "se",
+            "lie",
+            "de",
+            "sheng",
+            "zhe"
+          ],
+          "verified": true,
+          "time": 175.36,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "exact-local-syllables-original-word-times",
+          "phoneticExact": true,
+          "literalEqual": true,
+          "wordTokens": [
+            {
+              "text": "攻",
+              "start": 172.7,
+              "end": 173.22,
+              "rawStart": 550,
+              "rawEnd": 550,
+              "precision": "word"
+            },
+            {
+              "text": "击",
+              "start": 173.22,
+              "end": 173.6,
+              "rawStart": 551,
+              "rawEnd": 551,
+              "precision": "word"
+            },
+            {
+              "text": "以",
+              "start": 173.6,
+              "end": 174.08,
+              "rawStart": 552,
+              "rawEnd": 552,
+              "precision": "word"
+            },
+            {
+              "text": "色",
+              "start": 174.08,
+              "end": 174.38,
+              "rawStart": 553,
+              "rawEnd": 553,
+              "precision": "word"
+            },
+            {
+              "text": "列",
+              "start": 174.38,
+              "end": 174.56,
+              "rawStart": 554,
+              "rawEnd": 554,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 174.56,
+              "end": 174.68,
+              "rawStart": 555,
+              "rawEnd": 555,
+              "precision": "word"
+            },
+            {
+              "text": "圣",
+              "start": 174.68,
+              "end": 175.02,
+              "rawStart": 556,
+              "rawEnd": 556,
+              "precision": "word"
+            },
+            {
+              "text": "者",
+              "start": 175.02,
+              "end": 175.36,
+              "rawStart": 557,
+              "rawEnd": 557,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "audioSha256": "f8b2e8451cad3f4d9326f2da34e89f0e276bdcb03ca32f6a56622a4ab0f29951",
+          "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+        },
+        "referenceOwnershipConstraint": {
+          "ownerTargetIndex": 8,
+          "ownerTargetText": "当我们在圣经中读到类似的记载我们应该记住这表明了上帝的属性上帝对于滥用祂名字的人是什么感受上帝会",
+          "notBefore": 164.02,
+          "verifiedSpokenOnset": false
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 163.82,
+        "previousEnd": 175.36,
+        "previousConfidence": 0.537
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "055_第五十五问 第三诫命禁止我们什么.md",
+          "audio": "55-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\055_第五十五问 第三诫命禁止我们什么\\audio-03.json",
+          "caseIndex": 744,
+          "targetIndex": 9,
+          "edge": "start",
+          "previousTime": 163.82,
+          "time": 164.02,
+          "kind": "unverified-neighbor-constraint",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        },
+        {
+          "book": "更新心意学教理",
+          "page": "055_第五十五问 第三诫命禁止我们什么.md",
+          "audio": "55-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\055_第五十五问 第三诫命禁止我们什么\\audio-03.json",
+          "targetIndex": 9,
+          "edge": "end",
+          "previousTime": 175.36,
+          "time": 175.36,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 164.02,
+            "time": 164.86,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\55-2.mp3.json",
+              "sha256": "5c1757db8b3ba67ebd18473be29b6c0f467c8acb6f882b63888de457a87fc6dd",
+              "anchor": {
+                "time": 164.86,
+                "score": 0.9992,
+                "ratio": 1.0,
+                "expected": "nirumashuixiedushuiyangqishenglaigaojuyan",
+                "actual": "你辱骂谁谢督谁养起生来高举掩",
+                "span": [
+                  164.86,
+                  170.42
+                ],
+                "tokens": [
+                  {
+                    "text": "你",
+                    "start": 164.86,
+                    "end": 165.36,
+                    "rawStart": 529,
+                    "rawEnd": 529,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "辱",
+                    "start": 165.36,
+                    "end": 165.56,
+                    "rawStart": 530,
+                    "rawEnd": 530,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "骂",
+                    "start": 165.56,
+                    "end": 165.8,
+                    "rawStart": 531,
+                    "rawEnd": 531,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "谁",
+                    "start": 165.8,
+                    "end": 166.06,
+                    "rawStart": 532,
+                    "rawEnd": 532,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "谢",
+                    "start": 166.54,
+                    "end": 166.7,
+                    "rawStart": 533,
+                    "rawEnd": 533,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "督",
+                    "start": 166.7,
+                    "end": 166.86,
+                    "rawStart": 534,
+                    "rawEnd": 534,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "谁",
+                    "start": 166.86,
+                    "end": 167.14,
+                    "rawStart": 535,
+                    "rawEnd": 535,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "养",
+                    "start": 168.16,
+                    "end": 168.66,
+                    "rawStart": 536,
+                    "rawEnd": 536,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "起",
+                    "start": 168.66,
+                    "end": 168.92,
+                    "rawStart": 537,
+                    "rawEnd": 537,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "生",
+                    "start": 168.92,
+                    "end": 169.16,
+                    "rawStart": 538,
+                    "rawEnd": 538,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "来",
+                    "start": 169.16,
+                    "end": 169.46,
+                    "rawStart": 539,
+                    "rawEnd": 539,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "高",
+                    "start": 169.46,
+                    "end": 169.96,
+                    "rawStart": 540,
+                    "rawEnd": 540,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "举",
+                    "start": 169.96,
+                    "end": 170.2,
+                    "rawStart": 541,
+                    "rawEnd": 541,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "掩",
+                    "start": 170.2,
+                    "end": 170.42,
+                    "rawStart": 542,
+                    "rawEnd": 542,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "你辱骂谁?亵渎谁?扬起声来,高举眼目攻击谁呢?乃是攻击以色列的圣者!"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.486,
+          "coherentCoverage": 0.351,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.333,
+          "suffixCoverage": 0.611,
+          "unmatchedLeadingChars": 8,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "localSupported": false,
+            "source": "previous-verified-end",
+            "time": 164.02,
+            "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+          },
+          "endEvidence": {
+            "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\55-2.mp3.json",
+            "transcriptSha256": "e4c0d2e5191f2d234cda6d9883c6c1c2ea052ccdb07a748e3a7743e14a7f0be9",
+            "candidate": 175.36,
+            "expectedPhrase": "攻击以色列的圣者",
+            "actualPhrase": "攻击以色列的圣者",
+            "phoneticPhrase": [
+              "gong",
+              "ji",
+              "yi",
+              "se",
+              "lie",
+              "de",
+              "sheng",
+              "zhe"
+            ],
+            "verified": true,
+            "time": 175.36,
+            "localSupported": true,
+            "timingPrecision": "word",
+            "source": "exact-local-syllables-original-word-times",
+            "phoneticExact": true,
+            "literalEqual": true,
+            "wordTokens": [
+              {
+                "text": "攻",
+                "start": 172.7,
+                "end": 173.22,
+                "rawStart": 550,
+                "rawEnd": 550,
+                "precision": "word"
+              },
+              {
+                "text": "击",
+                "start": 173.22,
+                "end": 173.6,
+                "rawStart": 551,
+                "rawEnd": 551,
+                "precision": "word"
+              },
+              {
+                "text": "以",
+                "start": 173.6,
+                "end": 174.08,
+                "rawStart": 552,
+                "rawEnd": 552,
+                "precision": "word"
+              },
+              {
+                "text": "色",
+                "start": 174.08,
+                "end": 174.38,
+                "rawStart": 553,
+                "rawEnd": 553,
+                "precision": "word"
+              },
+              {
+                "text": "列",
+                "start": 174.38,
+                "end": 174.56,
+                "rawStart": 554,
+                "rawEnd": 554,
+                "precision": "word"
+              },
+              {
+                "text": "的",
+                "start": 174.56,
+                "end": 174.68,
+                "rawStart": 555,
+                "rawEnd": 555,
+                "precision": "word"
+              },
+              {
+                "text": "圣",
+                "start": 174.68,
+                "end": 175.02,
+                "rawStart": 556,
+                "rawEnd": 556,
+                "precision": "word"
+              },
+              {
+                "text": "者",
+                "start": 175.02,
+                "end": 175.36,
+                "rawStart": 557,
+                "rawEnd": 557,
+                "precision": "word"
+              }
+            ],
+            "listenedByAgent": false,
+            "audioSha256": "f8b2e8451cad3f4d9326f2da34e89f0e276bdcb03ca32f6a56622a4ab0f29951",
+            "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+          },
+          "referenceOwnershipConstraint": {
+            "ownerTargetIndex": 8,
+            "ownerTargetText": "当我们在圣经中读到类似的记载我们应该记住这表明了上帝的属性上帝对于滥用祂名字的人是什么感受上帝会",
+            "notBefore": 164.02,
+            "verifiedSpokenOnset": false
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (12 leading chars, coverage 0.300): target 7: 利未记24:13-16, 23 耶和华晓谕摩西说：“把那咒诅圣名的人带到营外，叫听见的人都放手在",
+    "unverified start anchor: target 7: 利未记24:13-16, 23 耶和华晓谕摩西说：“把那咒诅圣名的人带到营外，叫听见的人都放手在",
+    "unverified end anchor: target 8: 当我们在圣经中读到类似的记载，我们应该记住，这表明了上帝的属性，上帝对于滥用祂名字的人是什么感受",
+    "incomplete start (8 leading chars, coverage 0.333): target 9: 列王纪下19:22 你辱骂谁？亵渎谁？扬起声来，高举眼目攻击谁呢？乃是攻击以色列的圣者！",
+    "low confidence (0.545, coverage 0.486): target 9: 列王纪下19:22 你辱骂谁？亵渎谁？扬起声来，高举眼目攻击谁呢？乃是攻击以色列的圣者！",
+    "unverified start anchor: target 9: 列王纪下19:22 你辱骂谁？亵渎谁？扬起声来，高举眼目攻击谁呢？乃是攻击以色列的圣者！",
+    "unverified end anchor: target 9: 列王纪下19:22 你辱骂谁？亵渎谁？扬起声来，高举眼目攻击谁呢？乃是攻击以色列的圣者！",
+    "repair unverified start (previous-verified-end): target 7",
+    "repair unverified end (previous-sync): target 8",
+    "repair unverified start (previous-sync): target 9",
+    "repair unverified end (previous-sync): target 9",
+    "context reviewed end: target 8; 前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+    "unverified constrained start: target 9; 旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "1ef9631edcd4741a7c88b97f9de2e3f4ce2105ecd439eaea88992401d641b46b",
+  "repairCueDigest": "e7958e9042982c8b7a04cc4ae9a25698ae4ac56ee2bd3c818718ab8f6f955af6",
+  "previousAlignmentWarnings": [],
+  "currentSiteConfirmation": {
+    "model": "medium",
+    "audioSha256": "f8b2e8451cad3f4d9326f2da34e89f0e276bdcb03ca32f6a56622a4ab0f29951",
+    "audioDuration": 176.561633,
+    "windows": [
+      [
+        48.84,
+        85.51
+      ]
+    ]
+  }
 }

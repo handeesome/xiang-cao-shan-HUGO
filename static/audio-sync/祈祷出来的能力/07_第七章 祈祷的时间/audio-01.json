@@ -8,76 +8,1063 @@
   "audioDuration": 532.8649375,
   "cues": [
     {
-      "start": 0.21,
-      "end": 4.87,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第七章祈祷的时间",
-      "confidence": 0.875
-    },
-    {
       "start": 4.87,
-      "end": 37.05,
+      "end": 35.57,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "基督教的伟大领袖们与教师们都在祈祷内发现了他们所得亮光的最高泉源就圣公会来讲安德烈会督每日在膝上",
-      "confidence": 0.784
+      "confidence": 0.794,
+      "quality": {
+        "coverage": 0.745,
+        "coherentCoverage": 0.632,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.4,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 11,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 4.87,
+        "previousEnd": 37.05,
+        "previousConfidence": 0.794
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 37.05,
+            "time": 35.57,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\祈祷出来的能力\\07.mp3.json",
+              "sha256": "8965f57bdcf0fa62c520e7ecb19e6d5a4d2591ad02c0282d89ee20574453711f",
+              "anchor": {
+                "time": 35.57,
+                "score": 0.9985,
+                "ratio": 1.0,
+                "expected": "qidaoshihuodedelideng",
+                "actual": "祈祷时获得的李登",
+                "span": [
+                  32.87,
+                  35.57
+                ],
+                "tokens": [
+                  {
+                    "text": "祈",
+                    "start": 32.87,
+                    "end": 33.25,
+                    "rawStart": 92,
+                    "rawEnd": 92,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "祷",
+                    "start": 33.25,
+                    "end": 33.43,
+                    "rawStart": 93,
+                    "rawEnd": 93,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "时",
+                    "start": 33.43,
+                    "end": 33.67,
+                    "rawStart": 94,
+                    "rawEnd": 94,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "获",
+                    "start": 33.67,
+                    "end": 33.89,
+                    "rawStart": 95,
+                    "rawEnd": 95,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "得",
+                    "start": 33.89,
+                    "end": 34.07,
+                    "rawStart": 96,
+                    "rawEnd": 96,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 34.07,
+                    "end": 34.47,
+                    "rawStart": 97,
+                    "rawEnd": 97,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "李",
+                    "start": 34.47,
+                    "end": 35.27,
+                    "rawStart": 98,
+                    "rawEnd": 98,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "登",
+                    "start": 35.27,
+                    "end": 35.57,
+                    "rawStart": 99,
+                    "rawEnd": 99,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 37.83,
+                  "score": 0.8761,
+                  "actual": "祈祷时获得的李登不错"
+                },
+                "phraseSize": 8,
+                "matchingText": "「基督教的伟大领袖们与教师们,都在祈祷内发现了他们所得亮光的最高泉源。」就圣公会来讲,安德烈会督每日在膝上过五小时。那些在教会历史中使人类生活更加丰富美好的、最伟大而实用的决心与行动,都是在祈祷时获得的。——里登",
+                "normalization": "parenthetical-or-number-label-removed"
+              },
+              "body": "「基督教的伟大领袖们与教师们,都在祈祷内发现了他们所得亮光的最高泉源。」就圣公会来讲,安德烈会督每日在膝上过五小时。那些在教会历史中使人类生活更加丰富美好的、最伟大而实用的决心与行动,都是在祈祷时获得的。——里登(Canon Liddon)"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.745,
+          "coherentCoverage": 0.632,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.85,
+          "suffixCoverage": 0.4,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 11,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
       "start": 37.05,
-      "end": 202.67,
+      "end": 201.01,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "不错按照事理来说许多私人的祈祷必须简短公众面前的祈祷也必须不要过长简短而诚恳的祷告满有它的地位与",
-      "confidence": 0.718
+      "confidence": 0.868,
+      "quality": {
+        "coverage": 0.852,
+        "coherentCoverage": 0.769,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 37.05,
+        "previousEnd": 201.01,
+        "previousConfidence": 0.868
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 37.05,
+            "time": 37.05,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\祈祷出来的能力\\07.mp3.json",
+              "sha256": "8965f57bdcf0fa62c520e7ecb19e6d5a4d2591ad02c0282d89ee20574453711f",
+              "anchor": {
+                "time": 37.05,
+                "score": 0.8342,
+                "ratio": 0.8462,
+                "expected": "bucuoanzhaoshililaishuoxuduosirendeqi",
+                "actual": "不错按理来说许多个人的祈",
+                "span": [
+                  37.05,
+                  41.15
+                ],
+                "tokens": [
+                  {
+                    "text": "不",
+                    "start": 37.05,
+                    "end": 37.57,
+                    "rawStart": 100,
+                    "rawEnd": 100,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "错",
+                    "start": 37.57,
+                    "end": 37.83,
+                    "rawStart": 101,
+                    "rawEnd": 101,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "按",
+                    "start": 37.83,
+                    "end": 38.85,
+                    "rawStart": 102,
+                    "rawEnd": 102,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "理",
+                    "start": 38.85,
+                    "end": 38.99,
+                    "rawStart": 103,
+                    "rawEnd": 103,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "来",
+                    "start": 38.99,
+                    "end": 39.15,
+                    "rawStart": 104,
+                    "rawEnd": 104,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "说",
+                    "start": 39.15,
+                    "end": 39.47,
+                    "rawStart": 105,
+                    "rawEnd": 105,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "许",
+                    "start": 39.91,
+                    "end": 40.03,
+                    "rawStart": 106,
+                    "rawEnd": 106,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "多",
+                    "start": 40.03,
+                    "end": 40.25,
+                    "rawStart": 107,
+                    "rawEnd": 107,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "个",
+                    "start": 40.25,
+                    "end": 40.51,
+                    "rawStart": 108,
+                    "rawEnd": 108,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 40.51,
+                    "end": 40.71,
+                    "rawStart": 109,
+                    "rawEnd": 109,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 40.71,
+                    "end": 40.81,
+                    "rawStart": 110,
+                    "rawEnd": 110,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "祈",
+                    "start": 40.81,
+                    "end": 41.15,
+                    "rawStart": 111,
+                    "rawEnd": 111,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "不错,按照事理来说,许多私人的祈祷必须简短;公众面前的祈祷也必须不要过长;简短而诚恳的祷告满有它的地位与价值;但是在我们私人与神相交中,时间的长短与祈祷的价值很有关系。多用时间与神亲近,是使祈祷成功的秘决。那感觉大有力量与作用的祈祷,是长时间与神相交的直接产物或间接产物。我们的短祷所以有作用与效果,是因为先已有了长时间的祈祷。短而产生能力与效果的祈祷,不可能由一个未曾在长时间继续祷告的强烈挣扎中向神有能力的人所发出。如果雅各没有经过整夜的摔跤,他就不能获得信心的胜利。一个人不能借着偶然的会见神,而成为祂的深交。神不能把祂的大恩赐,加给那些匆忙而来又匆忙而去的人。常常独自与神同在,是认识神,与在祂面前有能力的秘决。神接受那认识祂的人由信心所发坚持的恳求,而予以应允。神把最丰富的恩赐,给予那些以继续不断极诚恳的祈求证明他们对这些恩赐的欣赏,与获得它们之强烈愿望的人。基督在这一件事上作了我们的榜样,祂时常整夜祷告。祂有常到的祈祷地点。许多长时间的祈祷,造成了祂的历史。保罗昼夜祈祷。但以理必须在许多重要的事务上割取时间,才能每日祈祷三次。大卫的早晨、中午与晚间的祈祷中,无疑的有许多次是延续得很长的。我们虽然在圣经中没有看见这些圣徒们祈祷时间长短的记载,但是我们却有各种暗示,知道他们用很多的时间祷告,并且他们惯于在某些时候用特别长的时间祷告。"
+            }
+          }
+        }
+      }
     },
     {
       "start": 202.67,
-      "end": 226.99,
+      "end": 223.87,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "我们决不是说他们祈祷的价值是以钟点来计算的乃是说我们深感多多独自与上帝同在的必要并且知道如果我们",
-      "confidence": 0.855
+      "confidence": 0.855,
+      "quality": {
+        "coverage": 0.849,
+        "coherentCoverage": 0.795,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 202.67,
+        "previousEnd": 223.87,
+        "previousConfidence": 0.855
+      }
     },
     {
       "start": 226.99,
-      "end": 335.67,
+      "end": 331.44,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "那些在品格上将基督表现得最完全的人以及那些带领人归向主最有能力的人都是用很多时间亲近上帝的人他们",
-      "confidence": 0.663
+      "confidence": 0.835,
+      "quality": {
+        "coverage": 0.792,
+        "coherentCoverage": 0.718,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 226.99,
+        "previousEnd": 335.67,
+        "previousConfidence": 0.835
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 335.67,
+            "time": 331.44,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\祈祷出来的能力\\07.mp3.json",
+              "sha256": "8965f57bdcf0fa62c520e7ecb19e6d5a4d2591ad02c0282d89ee20574453711f",
+              "anchor": {
+                "time": 331.44,
+                "score": 0.9068,
+                "ratio": 0.9231,
+                "expected": "geyandaogaodehaoderenxuexiyanjiudehao",
+                "actual": "格言祷告的好的人学习的好",
+                "span": [
+                  327.78,
+                  331.44
+                ],
+                "tokens": [
+                  {
+                    "text": "格",
+                    "start": 327.78,
+                    "end": 328.02,
+                    "rawStart": 992,
+                    "rawEnd": 992,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "言",
+                    "start": 328.02,
+                    "end": 328.32,
+                    "rawStart": 993,
+                    "rawEnd": 993,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "祷",
+                    "start": 328.32,
+                    "end": 329.22,
+                    "rawStart": 994,
+                    "rawEnd": 994,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "告",
+                    "start": 329.22,
+                    "end": 329.52,
+                    "rawStart": 995,
+                    "rawEnd": 995,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 329.52,
+                    "end": 329.66,
+                    "rawStart": 996,
+                    "rawEnd": 996,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "好",
+                    "start": 329.66,
+                    "end": 329.88,
+                    "rawStart": 997,
+                    "rawEnd": 997,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 329.66,
+                    "end": 329.88,
+                    "rawStart": 998,
+                    "rawEnd": 998,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 329.88,
+                    "end": 330.28,
+                    "rawStart": 999,
+                    "rawEnd": 999,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "学",
+                    "start": 330.28,
+                    "end": 330.8,
+                    "rawStart": 1000,
+                    "rawEnd": 1000,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "习",
+                    "start": 330.8,
+                    "end": 331.04,
+                    "rawStart": 1001,
+                    "rawEnd": 1001,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 331.04,
+                    "end": 331.14,
+                    "rawStart": 1002,
+                    "rawEnd": 1002,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "好",
+                    "start": 331.14,
+                    "end": 331.44,
+                    "rawStart": 1003,
+                    "rawEnd": 1003,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "那些在品格上将基督表现得最完全的人,以及那些带领人归向主最有能力的人。都是用很多时间亲近神的人。他们的祈祷成了他们生活中的突出点。西缅查理士(Charles Simeon)将早晨四时至八时的时间献给神。卫斯理约翰每天用两个小时祷告,从早上四时开始。认识他极清楚的一个人说:「他认为祈祷比任何其他的事更是他的工作,我曾经看见他从内室出来,带着宁静满足的面容,几乎发光。」弗莱契•约翰(John Fletcher)祈祷时的呼吸,使他内室的墙变色。他有时整夜祈祷;他的祈祷是时常的,又带着极大的热切。他的一生是祈祷的一生。他说:「如果我没有将心向神举起,就不肯从坐椅上站起。」他与朋友见面时总问这一句话:「你是在祈祷么?」马丁•路德说:「如果我没有在早上用两个钟头祈祷,撒但就在这一天得到胜利。我的工作如此多,以致我若每日没有三个小时的祷告就不能继续工作下去。」他有一句格言:「祷告得好的人,学习(研究)得好。」"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.792,
+          "coherentCoverage": 0.718,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.95,
+          "suffixCoverage": 0.9,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
       "start": 335.67,
-      "end": 410.31,
+      "end": 410.55,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "雷顿大主教archbishopleighton亲近上帝这样多好像时时都在默想他的传记里说祈祷与颂",
-      "confidence": 0.528
+      "confidence": 0.637,
+      "quality": {
+        "coverage": 0.567,
+        "coherentCoverage": 0.483,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.25,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 0.75,
+          "localSimilarity": 0.783,
+          "localText": "感到惭愧我的主人所该得的岂不应比他们的主人更多么",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 335.67,
+        "previousEnd": 410.31,
+        "previousConfidence": 0.639
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 335.67,
+            "time": 335.67,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\祈祷出来的能力\\07.mp3.json",
+              "sha256": "8965f57bdcf0fa62c520e7ecb19e6d5a4d2591ad02c0282d89ee20574453711f",
+              "anchor": {
+                "time": 335.67,
+                "score": 0.9031,
+                "ratio": 0.9091,
+                "expected": "leidundazhujiaoa",
+                "actual": "雷顿大主教",
+                "span": [
+                  335.67,
+                  337.81
+                ],
+                "tokens": [
+                  {
+                    "text": "雷",
+                    "start": 335.67,
+                    "end": 336.69,
+                    "rawStart": 1011,
+                    "rawEnd": 1011,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "顿",
+                    "start": 336.69,
+                    "end": 336.93,
+                    "rawStart": 1012,
+                    "rawEnd": 1012,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "大",
+                    "start": 336.93,
+                    "end": 337.33,
+                    "rawStart": 1013,
+                    "rawEnd": 1013,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "主",
+                    "start": 337.33,
+                    "end": 337.51,
+                    "rawStart": 1014,
+                    "rawEnd": 1014,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "教",
+                    "start": 337.51,
+                    "end": 337.81,
+                    "rawStart": 1015,
+                    "rawEnd": 1015,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 333.0,
+                  "score": 0.8307,
+                  "actual": "好雷顿大主教"
+                },
+                "phraseSize": 6,
+                "matchingText": "雷顿大主教(Archbishop Leighton)亲近神这样多,好像时时都在默想。他的传记里说:「祈祷与颂赞是他的工作与乐趣。」肯恩会督(Bishop Ken)因为亲近神甚多,所以有人称他的心灵,是「恋慕神的心灵」。他每晨在时钟敲三下以前,就起身祷告。阿斯伯利会督(Bishop Asbury)说:「我计划早晨四时起身,尽我的力量这样作,用两小时祈祷默想。」卢斯弗(S.Rutherford)的敬虔所发的馨香之气今日尤浓,他早晨三时起身祷告。阿蓝恩(Joseph Alleine)四时起身祷告至八时。如果他听见有商人在他以前起身作事,他就说:「这使我感到惭愧!我的主人所该得的,岂不应比他们的主人更多么!」",
+                "normalization": "original-body"
+              },
+              "body": "雷顿大主教(Archbishop Leighton)亲近神这样多,好像时时都在默想。他的传记里说:「祈祷与颂赞是他的工作与乐趣。」肯恩会督(Bishop Ken)因为亲近神甚多,所以有人称他的心灵,是「恋慕神的心灵」。他每晨在时钟敲三下以前,就起身祷告。阿斯伯利会督(Bishop Asbury)说:「我计划早晨四时起身,尽我的力量这样作,用两小时祈祷默想。」卢斯弗(S.Rutherford)的敬虔所发的馨香之气今日尤浓,他早晨三时起身祷告。阿蓝恩(Joseph Alleine)四时起身祷告至八时。如果他听见有商人在他以前起身作事,他就说:「这使我感到惭愧!我的主人所该得的,岂不应比他们的主人更多么!」"
+            }
+          }
+        }
+      }
     },
     {
-      "start": 410.31,
-      "end": 419.89,
+      "start": 411.61,
+      "end": 420.17,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "那学会了祈祷之生意的人可以从天上永远丰富的银行里随意支取不被拒绝",
-      "confidence": 0.562
+      "confidence": 0.844,
+      "quality": {
+        "coverage": 0.844,
+        "coherentCoverage": 0.844,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.812,
+        "suffixCoverage": 0.875,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 411.61,
+        "previousEnd": 420.17,
+        "previousConfidence": 0.844
+      }
     },
     {
-      "start": 419.89,
-      "end": 491.59,
+      "start": 420.17,
+      "end": 489.8,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "苏格兰最圣洁最有恩赐的其中一个传道人说我应该用每天最好的时间来亲近上帝这是我最高贵最结果子的工作",
-      "confidence": 0.585
+      "confidence": 0.786,
+      "quality": {
+        "coverage": 0.741,
+        "coherentCoverage": 0.662,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 420.17,
+        "previousEnd": 489.8,
+        "previousConfidence": 0.791
+      }
     },
     {
-      "start": 491.59,
+      "start": 492.03,
       "end": 530.83,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "威尔世约翰johnwelch苏格兰的圣洁而令人希奇的传道人如果没有八小时或十小时祈祷就觉得这一天",
-      "confidence": 0.869
+      "confidence": 0.879,
+      "quality": {
+        "coverage": 0.859,
+        "coherentCoverage": 0.828,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.25,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 14,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "discarded detached start matches"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 491.59,
+        "previousEnd": 530.83,
+        "previousConfidence": 0.876
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 491.59,
+            "time": 492.03,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\祈祷出来的能力\\07.mp3.json",
+              "sha256": "8965f57bdcf0fa62c520e7ecb19e6d5a4d2591ad02c0282d89ee20574453711f",
+              "anchor": {
+                "time": 492.03,
+                "score": 0.8746,
+                "ratio": 0.875,
+                "expected": "weiershiyuehansugelan",
+                "actual": "尔士约翰是苏格兰",
+                "span": [
+                  492.03,
+                  494.61
+                ],
+                "tokens": [
+                  {
+                    "text": "尔",
+                    "start": 492.03,
+                    "end": 492.17,
+                    "rawStart": 1451,
+                    "rawEnd": 1451,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "士",
+                    "start": 492.17,
+                    "end": 492.33,
+                    "rawStart": 1452,
+                    "rawEnd": 1452,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "约",
+                    "start": 492.33,
+                    "end": 492.53,
+                    "rawStart": 1453,
+                    "rawEnd": 1453,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "翰",
+                    "start": 492.53,
+                    "end": 492.83,
+                    "rawStart": 1454,
+                    "rawEnd": 1454,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 492.83,
+                    "end": 493.69,
+                    "rawStart": 1455,
+                    "rawEnd": 1455,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "苏",
+                    "start": 493.69,
+                    "end": 494.31,
+                    "rawStart": 1456,
+                    "rawEnd": 1456,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "格",
+                    "start": 494.31,
+                    "end": 494.49,
+                    "rawStart": 1457,
+                    "rawEnd": 1457,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "兰",
+                    "start": 494.49,
+                    "end": 494.61,
+                    "rawStart": 1458,
+                    "rawEnd": 1458,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "phraseSize": 8,
+                "matchingText": "威尔世•约翰,苏格兰的圣洁而令人希奇的传道人,如果没有八小时或十小时祈祷,就觉得这一天过得不好,他预备好一件格子绒的外衣,在半夜起身祈祷时披在身上。当他的妻子发现他卧在地上流泪的时候,就要抱怨,他说:「妇人啊,有三千灵魂我要负责,其中有许多人,我不晓得情形如何!」",
+                "normalization": "parenthetical-or-number-label-removed"
+              },
+              "body": "威尔世•约翰(John Welch),苏格兰的圣洁而令人希奇的传道人,如果没有八小时或十小时祈祷,就觉得这一天过得不好,他预备好一件格子绒的外衣,在半夜起身祈祷时披在身上。当他的妻子发现他卧在地上流泪的时候,就要抱怨,他说:「妇人啊,有三千灵魂我要负责,其中有许多人,我不晓得情形如何!」"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.859,
+          "coherentCoverage": 0.828,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.25,
+          "suffixCoverage": 1.0,
+          "unmatchedLeadingChars": 14,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [
+            "discarded detached start matches"
+          ],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (11 trailing chars, coverage 0.400): target 1: 「基督教的伟大领袖们与教师们，都在祈祷内发现了他们所得亮光的最高泉源。」就圣公会来讲，安德烈会督",
+    "unverified end anchor: target 1: 「基督教的伟大领袖们与教师们，都在祈祷内发现了他们所得亮光的最高泉源。」就圣公会来讲，安德烈会督",
+    "unverified start anchor: target 2: 不错，按照事理来说，许多私人的祈祷必须简短；公众面前的祈祷也必须不要过长；简短而诚恳的祷告满有它",
+    "unverified end anchor: target 2: 不错，按照事理来说，许多私人的祈祷必须简短；公众面前的祈祷也必须不要过长；简短而诚恳的祷告满有它",
+    "unverified end anchor: target 4: 那些在品格上将基督表现得最完全的人，以及那些带领人归向主最有能力的人。都是用很多时间亲近神的人。",
+    "incomplete start (0 leading chars, coverage 0.250): target 5: 雷顿大主教（Archbishop Leighton）亲近神这样多，好像时时都在默想。他的传记里说",
+    "unverified start anchor: target 5: 雷顿大主教（Archbishop Leighton）亲近神这样多，好像时时都在默想。他的传记里说",
+    "incomplete start (14 leading chars, coverage 0.250): target 8: 威尔世•约翰（John Welch），苏格兰的圣洁而令人希奇的传道人，如果没有八小时或十小时祈祷",
+    "unverified start anchor: target 8: 威尔世•约翰（John Welch），苏格兰的圣洁而令人希奇的传道人，如果没有八小时或十小时祈祷",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified start (previous-sync): target 2",
+    "repair unverified end (previous-sync): target 4",
+    "repair unverified start (previous-sync): target 5",
+    "repair unverified start (previous-sync): target 8"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 3,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "205b1416c9d979c92e6a73dcb628367c10ab80d0b0ac1a091f40e3e2584158bf",
+  "repairCueDigest": "5241945438627775098a15ed4647ff5b27da202b0d071e919067a576a943e4bc",
+  "previousAlignmentWarnings": []
 }

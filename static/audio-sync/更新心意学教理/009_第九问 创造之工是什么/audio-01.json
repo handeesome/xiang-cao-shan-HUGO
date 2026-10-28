@@ -8,20 +8,320 @@
   "audioDuration": 26.664,
   "cues": [
     {
-      "start": 18.17,
-      "end": 18.35,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "礼拜一",
-      "confidence": 0.5
+      "start": 6.03,
+      "end": 16.79,
+      "kind": "paragraph",
+      "targetIndex": 1,
+      "targetText": "答创造之工是上帝藉着祂权能的话在六日之内从无中造出万有并且都甚好",
+      "confidence": 0.867,
+      "quality": {
+        "startVerified": false,
+        "endVerified": false,
+        "reviewRequired": true,
+        "verificationBasis": "paragraph-level-approximate"
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "reason": "答、是上帝借着祂全能的话至并且都甚好。",
+        "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\9-0.mp3.json",
+        "transcriptSha256": "b4aa9891c8bbd9339e724b8a425adc4e82768adc05a5a477219b69979fb12ca8",
+        "actualText": "答:「是上帝借着祂全能的话,在六日之内从无中造出万有,并且都圣好",
+        "interval": [
+          6.03,
+          16.79
+        ],
+        "listenedByAgent": false,
+        "authorization": "用户要求段落级首尾大致对应，允许识别差异与摘读，不要求逐字核验。"
+      }
     },
     {
-      "start": 18.35,
-      "end": 25.79,
+      "start": 17.45,
+      "end": 26.17,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "希伯来书113我们因着信就知道诸世界是藉上帝话造成的这样所看见的并不是从显然之物造出来的",
-      "confidence": 0.418
+      "confidence": 0.667,
+      "quality": {
+        "coverage": 0.543,
+        "coherentCoverage": 0.5,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.1,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 18,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 0.875,
+          "localSimilarity": 0.875,
+          "localText": "希伯来书11章3节我们因着信就知道诸世界是藉上帝",
+          "anchorOccurrences": 1,
+          "paragraphSupported": false,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 18.35,
+        "previousEnd": 25.79,
+        "previousConfidence": 0.58
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 25.79,
+            "time": 26.17,
+            "reason": "录音只读经文前一句，到话造成的26.17结束。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\9-0.mp3.json",
+              "sha256": "8305c5ca520d4325e8588f769471ef5b3a41572552021d7ba3e0ece0a5a43d28",
+              "source": "context-reviewed-paragraph-approximation",
+              "segments": [
+                {
+                  "start": 17.27,
+                  "end": 25.79,
+                  "text": "希伯萊書十一章三節,我們應著信就知道諸世界是藉神的話造成的。",
+                  "words": [
+                    {
+                      "start": 17.27,
+                      "end": 17.55,
+                      "text": "希",
+                      "probability": 0.07855178415775299
+                    },
+                    {
+                      "start": 17.55,
+                      "end": 17.65,
+                      "text": "伯",
+                      "probability": 0.6501059532165527
+                    },
+                    {
+                      "start": 17.65,
+                      "end": 17.81,
+                      "text": "萊",
+                      "probability": 0.796875536441803
+                    },
+                    {
+                      "start": 17.81,
+                      "end": 18.01,
+                      "text": "書",
+                      "probability": 0.5403662323951721
+                    },
+                    {
+                      "start": 18.01,
+                      "end": 18.17,
+                      "text": "十",
+                      "probability": 0.49647456407546997
+                    },
+                    {
+                      "start": 18.17,
+                      "end": 18.35,
+                      "text": "一",
+                      "probability": 0.9920374155044556
+                    },
+                    {
+                      "start": 18.35,
+                      "end": 18.51,
+                      "text": "章",
+                      "probability": 0.9411334693431854
+                    },
+                    {
+                      "start": 18.51,
+                      "end": 18.77,
+                      "text": "三",
+                      "probability": 0.9855557680130005
+                    },
+                    {
+                      "start": 18.77,
+                      "end": 19.03,
+                      "text": "節,",
+                      "probability": 0.5588280558586121
+                    },
+                    {
+                      "start": 19.99,
+                      "end": 20.23,
+                      "text": "我們",
+                      "probability": 0.9524245858192444
+                    },
+                    {
+                      "start": 20.23,
+                      "end": 20.45,
+                      "text": "應",
+                      "probability": 0.6161556243896484
+                    },
+                    {
+                      "start": 20.45,
+                      "end": 20.63,
+                      "text": "著",
+                      "probability": 0.7257863283157349
+                    },
+                    {
+                      "start": 20.63,
+                      "end": 20.91,
+                      "text": "信",
+                      "probability": 0.8634232878684998
+                    },
+                    {
+                      "start": 20.91,
+                      "end": 21.41,
+                      "text": "就",
+                      "probability": 0.6347138285636902
+                    },
+                    {
+                      "start": 21.41,
+                      "end": 21.83,
+                      "text": "知道",
+                      "probability": 0.9965856075286865
+                    },
+                    {
+                      "start": 21.83,
+                      "end": 22.35,
+                      "text": "諸",
+                      "probability": 0.6654803305864334
+                    },
+                    {
+                      "start": 22.35,
+                      "end": 22.91,
+                      "text": "世界",
+                      "probability": 0.601716160774231
+                    },
+                    {
+                      "start": 22.91,
+                      "end": 23.57,
+                      "text": "是",
+                      "probability": 0.940849244594574
+                    },
+                    {
+                      "start": 23.57,
+                      "end": 24.01,
+                      "text": "藉",
+                      "probability": 0.6537057459354401
+                    },
+                    {
+                      "start": 24.01,
+                      "end": 24.43,
+                      "text": "神",
+                      "probability": 0.9924454092979431
+                    },
+                    {
+                      "start": 24.43,
+                      "end": 24.79,
+                      "text": "的話",
+                      "probability": 0.9651846289634705
+                    },
+                    {
+                      "start": 24.79,
+                      "end": 25.25,
+                      "text": "造",
+                      "probability": 0.9765974879264832
+                    },
+                    {
+                      "start": 25.25,
+                      "end": 25.57,
+                      "text": "成",
+                      "probability": 0.9999144077301025
+                    },
+                    {
+                      "start": 25.57,
+                      "end": 25.79,
+                      "text": "的。",
+                      "probability": 0.9905940294265747
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.543,
+          "coherentCoverage": 0.5,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.9,
+          "suffixCoverage": 0.1,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 18,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 0.875,
+            "localSimilarity": 0.875,
+            "localText": "希伯来书11章3节我们因着信就知道诸世界是藉上帝",
+            "anchorOccurrences": 1,
+            "paragraphSupported": false,
+            "contextUsed": false,
+            "identityAmbiguous": false,
+            "source": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 1: 答：创造之工，是上帝藉着祂权能的话，在六日之内，从无中造出万有，并且都甚好。",
+    "incomplete end (18 trailing chars, coverage 0.100): target 5: 希伯来书11:3 我们因着信，就知道诸世界是藉神话造成的。这样，所看见的，并不是从显然之物造出来",
+    "low confidence (0.667, coverage 0.543): target 5: 希伯来书11:3 我们因着信，就知道诸世界是藉神话造成的。这样，所看见的，并不是从显然之物造出来",
+    "unverified end anchor: target 5: 希伯来书11:3 我们因着信，就知道诸世界是藉神话造成的。这样，所看见的，并不是从显然之物造出来",
+    "repair missing cue (unverified): target 1",
+    "repair unverified end (previous-sync): target 5",
+    "paragraph-level cue recovered: target 1; 答、是上帝借着祂全能的话至并且都甚好。 原始严格核验提示保留。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": [
+      1
+    ]
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "d53315f1835a4a226fe43c7793fdf088ae5d2d15b6e8c3817dd44996c9f54e61",
+  "repairCueDigest": "6d59fa5b2cd91b5356b968095153a6f4e0dbd8a1fc04e4fd3cd9c02494629567",
+  "previousAlignmentWarnings": []
 }

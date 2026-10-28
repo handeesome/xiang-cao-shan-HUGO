@@ -8,68 +8,733 @@
   "audioDuration": 445.8499375,
   "cues": [
     {
-      "start": 0.0,
-      "end": 5.89,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第四章存完全的心",
-      "confidence": 0.875
-    },
-    {
-      "start": 5.89,
-      "end": 52.23,
+      "start": 13.51,
+      "end": 53.07,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "希西家就转脸朝墙祷告耶和华说耶和华啊求你纪念我在你面前怎样存完全的心按诚实行事又作你眼中看为善的",
-      "confidence": 0.596
+      "confidence": 0.772,
+      "quality": {
+        "coverage": 0.75,
+        "coherentCoverage": 0.594,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 6,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 5.89,
+        "previousEnd": 52.23,
+        "previousConfidence": 0.596
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 52.23,
+            "time": 53.07,
+            "reason": "正文首尾局部已定位",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\作完全人\\04-v2.mp3.json",
+              "sha256": "cf73271be0699fcfe6010928d9d2c7369fefd8b7e910093e2eb63baff4453f56",
+              "anchor": {
+                "time": 53.07,
+                "score": 0.9992,
+                "ratio": 1.0,
+                "expected": "daogaokanjianlenideyanleiwobiyizhini",
+                "actual": "祷告看见了你的眼泪我必依至你",
+                "span": [
+                  48.85,
+                  53.07
+                ],
+                "tokens": [
+                  {
+                    "text": "祷",
+                    "start": 48.85,
+                    "end": 49.11,
+                    "rawStart": 133,
+                    "rawEnd": 133,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "告",
+                    "start": 49.11,
+                    "end": 49.37,
+                    "rawStart": 134,
+                    "rawEnd": 134,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "看",
+                    "start": 49.87,
+                    "end": 50.03,
+                    "rawStart": 135,
+                    "rawEnd": 135,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "见",
+                    "start": 50.03,
+                    "end": 50.27,
+                    "rawStart": 136,
+                    "rawEnd": 136,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "了",
+                    "start": 50.27,
+                    "end": 50.41,
+                    "rawStart": 137,
+                    "rawEnd": 137,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 50.41,
+                    "end": 50.57,
+                    "rawStart": 138,
+                    "rawEnd": 138,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 50.41,
+                    "end": 50.57,
+                    "rawStart": 139,
+                    "rawEnd": 139,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "眼",
+                    "start": 50.57,
+                    "end": 50.89,
+                    "rawStart": 140,
+                    "rawEnd": 140,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "泪",
+                    "start": 50.89,
+                    "end": 51.07,
+                    "rawStart": 141,
+                    "rawEnd": 141,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 51.63,
+                    "end": 51.89,
+                    "rawStart": 142,
+                    "rawEnd": 142,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "必",
+                    "start": 51.89,
+                    "end": 52.23,
+                    "rawStart": 143,
+                    "rawEnd": 143,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "依",
+                    "start": 52.23,
+                    "end": 52.59,
+                    "rawStart": 144,
+                    "rawEnd": 144,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "至",
+                    "start": 52.59,
+                    "end": 52.83,
+                    "rawStart": 145,
+                    "rawEnd": 145,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 52.83,
+                    "end": 53.07,
+                    "rawStart": 146,
+                    "rawEnd": 146,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "「希西家就转脸朝墙,祷告耶和华说:『耶和华啊,求你纪念我在你面前怎样存完全的心,按诚实行事,又作你眼中看为善的』。希西家就痛哭了。以赛亚出来,还没有到中院,耶和华的话就临到他,说:『你回去,告诉我民的君希西家说,耶和华你祖戴维的神如此说,我听见了你的祷告,看见了你的眼泪,我必医治你』」"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.75,
+          "coherentCoverage": 0.594,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.7,
+          "suffixCoverage": 0.6,
+          "unmatchedLeadingChars": 1,
+          "unmatchedTrailingChars": 6,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 0.667,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 52.23,
-      "end": 115.7,
+      "start": 60.12,
+      "end": 114.72,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "这就是像小孩子一样存着纯全的心与上帝相交当上帝的儿子即将受难的时候他说我在地上已经荣耀你你所托付",
-      "confidence": 0.716
+      "confidence": 0.849,
+      "quality": {
+        "coverage": 0.873,
+        "coherentCoverage": 0.801,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "source": "local-speech-region-clock-review",
+          "timingPrecision": "word",
+          "contextUsed": true,
+          "time": 60.12,
+          "wordSource": {
+            "path": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-followup-20261016\\medium-windows\\作完全人\\04-v2.mp3.50000.json",
+            "sha256": "9fd737eccb574718994678ebe1548909f475ed6be43bb8c950d7c7e1faa189ec",
+            "words": [
+              {
+                "start": 60.12,
+                "end": 60.599999999999994,
+                "text": "这",
+                "probability": 0.9661056995391846
+              }
+            ]
+          },
+          "independentLocalChecks": [
+            {
+              "path": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\clock-checks\\00.json",
+              "sha256": "28e001fd233ff7c45ec4bd1b05a9001d4116b28161ba49c5b7ed99cfd35c688c",
+              "model": "base",
+              "start": 51.63,
+              "end": 66.12
+            },
+            {
+              "path": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\clock-checks\\split\\00-01-base.json",
+              "sha256": "c1a33cf2691373c210d915a8b07fba18a32c332f181b340a0068c4bf5f31d364",
+              "model": "base",
+              "start": 53.434000000000005,
+              "end": 57.378
+            },
+            {
+              "path": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\clock-checks\\split\\00-01-medium.json",
+              "sha256": "b370a44471ef546350f909aaea9a18ab0522f0c5bf6dd5cbd747e502fbf4e83d",
+              "model": "medium",
+              "start": 53.434000000000005,
+              "end": 57.378
+            },
+            {
+              "path": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\clock-checks\\split\\00-02-base.json",
+              "sha256": "a5dbc196e7c65dc94386179180b02a94be5c7a51e21e1b09b922824a32fc3643",
+              "model": "base",
+              "start": 60.09,
+              "end": 65.89
+            },
+            {
+              "path": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\clock-checks\\split\\00-02-medium.json",
+              "sha256": "c0438c88ef0df1b5b57cacba391f618a8eba723a4898aa202b6897f0f7643c40",
+              "model": "medium",
+              "start": 60.09,
+              "end": 65.89
+            }
+          ],
+          "audioSha256": "f5535caa67934a305275117a2c2fdd3b935415590a0ddee1110001a8cfd33616",
+          "reason": "跨停顿分开识别，停顿前两个模型都只读到前段殿，停顿后两个模型均从这就是开始。长窗口把这错误挂到57秒，已有medium60.12与独立语音区间相符。",
+          "listenedByAgent": false
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 52.23,
+        "previousEnd": 115.7,
+        "previousConfidence": 0.716
+      },
+      "boundaryCorrections": [
+        {
+          "book": "作完全人",
+          "page": "04_第四章 存完全的心.md",
+          "audio": "04-v2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\作完全人\\04_第四章 存完全的心\\audio-01.json",
+          "targetIndex": 2,
+          "edge": "start",
+          "previousTime": 57.05,
+          "time": 60.12,
+          "kind": "acoustic-region-clock-confirmation",
+          "previousVerified": true,
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "reason": "跨停顿分开识别，停顿前两个模型都只读到前段殿，停顿后两个模型均从这就是开始。长窗口把这错误挂到57秒，已有medium60.12与独立语音区间相符。"
+        }
+      ]
     },
     {
       "start": 115.7,
-      "end": 189.04,
+      "end": 187.9,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "这些话首先要使我们想到凡是在上帝面前存完全的心的人也能晓得这可能是一件关乎良心的事我们应该考查圣",
-      "confidence": 0.766
+      "confidence": 0.841,
+      "quality": {
+        "coverage": 0.86,
+        "coherentCoverage": 0.733,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 115.7,
+        "previousEnd": 189.04,
+        "previousConfidence": 0.766
+      }
     },
     {
       "start": 189.04,
-      "end": 255.37,
+      "end": 253.04,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "我们要寻求得着这种蒙福的认识保罗在得着的时候就写道我们所夸的是自己的良心见证我们凭着圣洁和诚实在",
-      "confidence": 0.857
+      "confidence": 0.857,
+      "quality": {
+        "coverage": 0.881,
+        "coherentCoverage": 0.836,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 189.04,
+        "previousEnd": 255.37,
+        "previousConfidence": 0.857
+      }
     },
     {
       "start": 255.37,
-      "end": 303.03,
+      "end": 303.29,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "希西家所作的祷告还教给我们第二个功课我们认识到自己存着完全的心就会给祷告带来奇妙的能力你们要反复",
-      "confidence": 0.907
+      "confidence": 0.904,
+      "quality": {
+        "coverage": 0.902,
+        "coherentCoverage": 0.855,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution",
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\作完全人\\04-v2.mp3.json",
+          "transcriptSha256": "cf73271be0699fcfe6010928d9d2c7369fefd8b7e910093e2eb63baff4453f56",
+          "candidate": 255.37,
+          "expectedPhrase": "希西家所作的祷告还教给我",
+          "actualPhrase": "西西家所做的导告还交给我",
+          "phoneticPhrase": [
+            "xi",
+            "xi",
+            "jia",
+            "suo",
+            "zuo",
+            "de",
+            "dao",
+            "gao",
+            "hai",
+            "jiao",
+            "gei",
+            "wo"
+          ],
+          "verified": true,
+          "time": 255.37,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "exact-local-syllables-original-word-times",
+          "phoneticExact": true,
+          "literalEqual": false,
+          "wordTokens": [
+            {
+              "text": "西",
+              "start": 255.37,
+              "end": 255.89,
+              "rawStart": 809,
+              "rawEnd": 809,
+              "precision": "word"
+            },
+            {
+              "text": "西",
+              "start": 255.89,
+              "end": 256.05,
+              "rawStart": 810,
+              "rawEnd": 810,
+              "precision": "word"
+            },
+            {
+              "text": "家",
+              "start": 256.05,
+              "end": 256.25,
+              "rawStart": 811,
+              "rawEnd": 811,
+              "precision": "word"
+            },
+            {
+              "text": "所",
+              "start": 256.25,
+              "end": 256.51,
+              "rawStart": 812,
+              "rawEnd": 812,
+              "precision": "word"
+            },
+            {
+              "text": "做",
+              "start": 256.51,
+              "end": 256.69,
+              "rawStart": 813,
+              "rawEnd": 813,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 256.69,
+              "end": 256.83,
+              "rawStart": 814,
+              "rawEnd": 814,
+              "precision": "word"
+            },
+            {
+              "text": "导",
+              "start": 256.83,
+              "end": 257.01,
+              "rawStart": 815,
+              "rawEnd": 815,
+              "precision": "word"
+            },
+            {
+              "text": "告",
+              "start": 257.01,
+              "end": 257.25,
+              "rawStart": 816,
+              "rawEnd": 816,
+              "precision": "word"
+            },
+            {
+              "text": "还",
+              "start": 257.25,
+              "end": 257.85,
+              "rawStart": 817,
+              "rawEnd": 817,
+              "precision": "word"
+            },
+            {
+              "text": "交",
+              "start": 257.85,
+              "end": 258.35,
+              "rawStart": 818,
+              "rawEnd": 818,
+              "precision": "word"
+            },
+            {
+              "text": "给",
+              "start": 258.35,
+              "end": 258.61,
+              "rawStart": 819,
+              "rawEnd": 819,
+              "precision": "word"
+            },
+            {
+              "text": "我",
+              "start": 258.61,
+              "end": 258.85,
+              "rawStart": 820,
+              "rawEnd": 820,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "audioSha256": "f5535caa67934a305275117a2c2fdd3b935415590a0ddee1110001a8cfd33616",
+          "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 255.37,
+        "previousEnd": 303.03,
+        "previousConfidence": 0.907
+      },
+      "boundaryCorrections": [
+        {
+          "book": "作完全人",
+          "page": "04_第四章 存完全的心.md",
+          "audio": "04-v2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\作完全人\\04_第四章 存完全的心\\audio-01.json",
+          "targetIndex": 5,
+          "edge": "start",
+          "previousTime": 255.37,
+          "time": 255.37,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
-      "start": 303.03,
-      "end": 352.85,
+      "start": 305.67,
+      "end": 351.35,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "也许每一位读到这些内容的读者都能见证说有时候他们并没有向上帝存完全的心这一切竟阻碍了他信服的心和",
-      "confidence": 0.894
+      "confidence": 0.897,
+      "quality": {
+        "coverage": 0.894,
+        "coherentCoverage": 0.814,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 303.03,
+        "previousEnd": 352.85,
+        "previousConfidence": 0.894
+      }
     },
     {
       "start": 352.85,
-      "end": 419.51,
+      "end": 418.71,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "我们要把自己的一切偏见都舍弃了学会把上帝的话当作是我们信心的唯一法则和尺度我们每天所作的祷告都要",
-      "confidence": 0.846
+      "confidence": 0.938,
+      "quality": {
+        "coverage": 0.934,
+        "coherentCoverage": 0.908,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 352.85,
+        "previousEnd": 419.51,
+        "previousConfidence": 0.846
+      }
     },
     {
       "start": 419.51,
@@ -77,7 +742,74 @@
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "即便是我们对自己的一切成就还感到不完全但是因为像小孩子一样内心纯全便感到极大的安慰于是就能说耶和",
-      "confidence": 0.875
+      "confidence": 0.906,
+      "quality": {
+        "coverage": 0.879,
+        "coherentCoverage": 0.879,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 419.51,
+        "previousEnd": 441.63,
+        "previousConfidence": 0.875
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (6 trailing chars, coverage 0.600): target 1: 「希西家就转脸朝墙，祷告耶和华说：『耶和华啊，求你纪念我在你面前怎样存完全的心，按诚实行事，又作",
+    "unverified end anchor: target 1: 「希西家就转脸朝墙，祷告耶和华说：『耶和华啊，求你纪念我在你面前怎样存完全的心，按诚实行事，又作",
+    "unverified start anchor: target 5: 希西家所作的祷告还教给我们第二个功课；我们认识到自己存着完全的心，就会给祷告带来奇妙的能力。你们",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified start (previous-sync): target 5",
+    "clock context confirmed start: target 2; historical disagreement retained"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 3,
+    "updatedEnds": 6,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "e61d73519f64fced3c8130066b72e2e5789ae37526b2463c60dfc75abc5845d7",
+  "repairCueDigest": "94ef6b24e50153137b8fba6001badd8d5c85ef2a8f433510d03ed3191a1659c5",
+  "previousAlignmentWarnings": []
 }

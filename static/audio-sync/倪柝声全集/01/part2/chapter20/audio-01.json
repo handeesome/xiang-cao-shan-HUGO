@@ -8,20 +8,72 @@
   "audioDuration": 76.2253125,
   "cues": [
     {
-      "start": 0.66,
-      "end": 5.4,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第四章上帝成为人下",
-      "confidence": 1.0
-    },
-    {
       "start": 5.4,
-      "end": 75.02,
+      "end": 75.44,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "现在要来看上帝如果成为人祂入世的方法必与普通人入世的方法不一样才对人是怎样入世的呢乃是因着有父有",
-      "confidence": 0.909
+      "confidence": 0.974,
+      "quality": {
+        "coverage": 0.978,
+        "coherentCoverage": 0.974,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 5.4,
+        "previousEnd": 75.02,
+        "previousConfidence": 0.909
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "af13fbe26b63eef831400df50e67d334aed17026c1cc93b1bc5ea8e9c145cf68",
+  "repairCueDigest": "e28e17ddf8ea1b36a8c5046c0461ba815a342364db84239c0bac6d256a2ae7ad",
+  "previousAlignmentWarnings": []
 }

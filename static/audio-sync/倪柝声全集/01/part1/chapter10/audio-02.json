@@ -8,20 +8,72 @@
   "audioDuration": 57.1580625,
   "cues": [
     {
-      "start": 0.62,
-      "end": 4.56,
-      "kind": "heading",
-      "targetIndex": 10,
-      "targetText": "审判有什么结局呢",
-      "confidence": 1.0
-    },
-    {
       "start": 4.56,
-      "end": 55.74,
+      "end": 55.94,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "圣经不只告诉我们有审判圣经也把审判的结局告诉我们了将来上帝要审判全世界人的罪祂要报应那不认识上帝",
-      "confidence": 0.78
+      "confidence": 0.93,
+      "quality": {
+        "coverage": 0.896,
+        "coherentCoverage": 0.896,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 4.56,
+        "previousEnd": 55.74,
+        "previousConfidence": 0.78
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "55685b104378af6c43353ffae712dbc7722e50ca1b7e298ae2238b54caa3dfaa",
+  "repairCueDigest": "e43839a78f9b2dfe1fb7d49b99ce988d0051decfda32962b7b5f1ddc3b0c88c6",
+  "previousAlignmentWarnings": []
 }

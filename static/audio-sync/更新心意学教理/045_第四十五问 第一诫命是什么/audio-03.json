@@ -9,27 +9,567 @@
   "cues": [
     {
       "start": 3.2,
-      "end": 70.8,
+      "end": 67.98,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "上帝曾经应许要在西奈山召见祂的百姓以色列人祂要把祂的律法赐给他们祂告诉百姓要用几天的时间来预备朝",
-      "confidence": 0.848
+      "confidence": 0.876,
+      "quality": {
+        "coverage": 0.912,
+        "coherentCoverage": 0.883,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 3.2,
+        "previousEnd": 70.8,
+        "previousConfidence": 0.848
+      }
     },
     {
       "start": 70.8,
-      "end": 124.84,
+      "end": 125.04,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "出埃及记3214百姓见摩西迟延不下山就大家聚集到亚伦那里对他说起来为我们做上帝像可以在我们前面引",
-      "confidence": 0.854
+      "confidence": 0.854,
+      "quality": {
+        "coverage": 0.857,
+        "coherentCoverage": 0.845,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.5,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 8,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 70.8,
+        "previousEnd": 124.84,
+        "previousConfidence": 0.854
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 124.84,
+            "time": 125.04,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\45-2.mp3.json",
+              "sha256": "2028db0bf3f1398523b29d94f8f6763f790b527265c3175452aee81eb3e0ae68",
+              "anchor": {
+                "time": 125.04,
+                "score": 0.8086,
+                "ratio": 0.8148,
+                "expected": "yiselieazheshilingnichuaijidideshen",
+                "actual": "以色拉这是灵女出埃及地的身",
+                "span": [
+                  121.94,
+                  125.04
+                ],
+                "tokens": [
+                  {
+                    "text": "以",
+                    "start": 121.94,
+                    "end": 122.46,
+                    "rawStart": 345,
+                    "rawEnd": 345,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "色",
+                    "start": 122.46,
+                    "end": 122.66,
+                    "rawStart": 346,
+                    "rawEnd": 346,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "拉",
+                    "start": 122.66,
+                    "end": 122.84,
+                    "rawStart": 347,
+                    "rawEnd": 347,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "这",
+                    "start": 122.84,
+                    "end": 123.4,
+                    "rawStart": 348,
+                    "rawEnd": 348,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 122.84,
+                    "end": 123.4,
+                    "rawStart": 349,
+                    "rawEnd": 349,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "灵",
+                    "start": 123.4,
+                    "end": 123.66,
+                    "rawStart": 350,
+                    "rawEnd": 350,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "女",
+                    "start": 123.66,
+                    "end": 123.92,
+                    "rawStart": 351,
+                    "rawEnd": 351,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "出",
+                    "start": 123.92,
+                    "end": 124.12,
+                    "rawStart": 352,
+                    "rawEnd": 352,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "埃",
+                    "start": 124.12,
+                    "end": 124.34,
+                    "rawStart": 353,
+                    "rawEnd": 353,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "及",
+                    "start": 124.34,
+                    "end": 124.54,
+                    "rawStart": 354,
+                    "rawEnd": 354,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "地",
+                    "start": 124.54,
+                    "end": 124.68,
+                    "rawStart": 355,
+                    "rawEnd": 355,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 124.68,
+                    "end": 124.84,
+                    "rawStart": 356,
+                    "rawEnd": 356,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "身",
+                    "start": 124.84,
+                    "end": 125.04,
+                    "rawStart": 357,
+                    "rawEnd": 357,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "百姓见摩西迟延不下山,就大家聚集到亚伦那里,对他说:“起来!为我们做神像,可以在我们前面引路,因为领我们出埃及地的那个摩西,我们不知道他遭了什么事。”亚伦对他们说:“你们去摘下你们妻子、儿女耳上的金环,拿来给我。”百姓就都摘下他们耳上的金环,拿来给亚伦。亚伦从他们手里接过来,铸了一只牛犊,用雕刻的器具做成。他们就说:“以色列啊,这是领你出埃及地的神。”"
+            }
+          },
+          "start": {
+            "old": 70.8,
+            "time": 70.8,
+            "reason": "同段出处按实际读序计入",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\45-2.mp3.json",
+              "sha256": "2028db0bf3f1398523b29d94f8f6763f790b527265c3175452aee81eb3e0ae68",
+              "anchor": {
+                "time": 75.12,
+                "score": 0.8862,
+                "ratio": 0.8966,
+                "expected": "100xingjianmoxichiyanbuxiashanjiuda",
+                "actual": "100姓见摩西10言不下山就大",
+                "span": [
+                  75.12,
+                  80.32
+                ],
+                "tokens": [
+                  {
+                    "text": "1",
+                    "start": 75.12,
+                    "end": 75.48,
+                    "rawStart": 202,
+                    "rawEnd": 202,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "0",
+                    "start": 75.12,
+                    "end": 75.48,
+                    "rawStart": 203,
+                    "rawEnd": 203,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "0",
+                    "start": 75.12,
+                    "end": 75.48,
+                    "rawStart": 204,
+                    "rawEnd": 204,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "姓",
+                    "start": 75.48,
+                    "end": 75.9,
+                    "rawStart": 205,
+                    "rawEnd": 205,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "见",
+                    "start": 75.9,
+                    "end": 76.38,
+                    "rawStart": 206,
+                    "rawEnd": 206,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "摩",
+                    "start": 76.38,
+                    "end": 76.76,
+                    "rawStart": 207,
+                    "rawEnd": 207,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "西",
+                    "start": 76.76,
+                    "end": 77.1,
+                    "rawStart": 208,
+                    "rawEnd": 208,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 77.1,
+                    "end": 77.62,
+                    "rawStart": 209,
+                    "rawEnd": 209,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "0",
+                    "start": 77.1,
+                    "end": 77.62,
+                    "rawStart": 210,
+                    "rawEnd": 210,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "言",
+                    "start": 77.62,
+                    "end": 77.92,
+                    "rawStart": 211,
+                    "rawEnd": 211,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "不",
+                    "start": 77.92,
+                    "end": 78.16,
+                    "rawStart": 212,
+                    "rawEnd": 212,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "下",
+                    "start": 78.16,
+                    "end": 78.38,
+                    "rawStart": 213,
+                    "rawEnd": 213,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "山",
+                    "start": 78.38,
+                    "end": 78.68,
+                    "rawStart": 214,
+                    "rawEnd": 214,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "就",
+                    "start": 79.26,
+                    "end": 79.48,
+                    "rawStart": 215,
+                    "rawEnd": 215,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "大",
+                    "start": 79.48,
+                    "end": 80.32,
+                    "rawStart": 216,
+                    "rawEnd": 216,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "百姓见摩西迟延不下山,就大家聚集到亚伦那里,对他说:“起来!为我们做神像,可以在我们前面引路,因为领我们出埃及地的那个摩西,我们不知道他遭了什么事。”亚伦对他们说:“你们去摘下你们妻子、儿女耳上的金环,拿来给我。”百姓就都摘下他们耳上的金环,拿来给亚伦。亚伦从他们手里接过来,铸了一只牛犊,用雕刻的器具做成。他们就说:“以色列啊,这是领你出埃及地的神。”",
+              "reference": {
+                "time": 70.8,
+                "score": 0.9421,
+                "ratio": 0.9524,
+                "expected": "chuaijiji32zhangyidaosijie",
+                "actual": "初爱几季32章1到4",
+                "span": [
+                  70.8,
+                  73.9
+                ],
+                "tokens": [
+                  {
+                    "text": "初",
+                    "start": 70.8,
+                    "end": 71.06,
+                    "rawStart": 191,
+                    "rawEnd": 191,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "爱",
+                    "start": 71.06,
+                    "end": 71.22,
+                    "rawStart": 192,
+                    "rawEnd": 192,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "几",
+                    "start": 71.22,
+                    "end": 71.36,
+                    "rawStart": 193,
+                    "rawEnd": 193,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "季",
+                    "start": 71.36,
+                    "end": 71.58,
+                    "rawStart": 194,
+                    "rawEnd": 194,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "3",
+                    "start": 71.58,
+                    "end": 72.34,
+                    "rawStart": 195,
+                    "rawEnd": 195,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "2",
+                    "start": 71.58,
+                    "end": 72.34,
+                    "rawStart": 196,
+                    "rawEnd": 196,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "章",
+                    "start": 72.34,
+                    "end": 72.56,
+                    "rawStart": 197,
+                    "rawEnd": 197,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 72.56,
+                    "end": 73.08,
+                    "rawStart": 198,
+                    "rawEnd": 198,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "到",
+                    "start": 73.08,
+                    "end": 73.54,
+                    "rawStart": 199,
+                    "rawEnd": 199,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "4",
+                    "start": 73.54,
+                    "end": 73.9,
+                    "rawStart": 200,
+                    "rawEnd": 200,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": true,
+                "alternative": {
+                  "time": 67.64,
+                  "score": 0.9016,
+                  "actual": "事初爱几季32章1到4"
+                }
+              }
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.857,
+          "coherentCoverage": 0.845,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.5,
+          "suffixCoverage": 0.7,
+          "unmatchedLeadingChars": 8,
+          "unmatchedTrailingChars": 2,
+          "reviewRequired": true,
+          "boundaryAdjusted": [
+            "end substitution"
+          ],
+          "startVerified": false,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 124.84,
+      "start": 126.2,
       "end": 165.78,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "摩西下山看见他们做的事勃然大怒他将写有上帝所赐十诫的石版摔碎在地上上帝也十分愤怒祂命令摩西叫人在",
-      "confidence": 0.892
+      "confidence": 0.913,
+      "quality": {
+        "coverage": 0.913,
+        "coherentCoverage": 0.896,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 124.84,
+        "previousEnd": 165.78,
+        "previousConfidence": 0.892
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (8 leading chars, coverage 0.500): target 9: 出埃及记32:1-4 百姓见摩西迟延不下山，就大家聚集到亚伦那里，对他说：“起来！为我们做神像，",
+    "unverified start anchor: target 9: 出埃及记32:1-4 百姓见摩西迟延不下山，就大家聚集到亚伦那里，对他说：“起来！为我们做神像，",
+    "unverified end anchor: target 9: 出埃及记32:1-4 百姓见摩西迟延不下山，就大家聚集到亚伦那里，对他说：“起来！为我们做神像，",
+    "repair unverified start (previous-sync): target 9",
+    "repair unverified end (previous-sync): target 9"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "902d7fe37dca0770432c941e007fe14822766434cdf8bdad9076f04928bddc43",
+  "repairCueDigest": "8b7407dc3c4161ec32c544bac4cccbed70cb1960912ed69e89f0dc5ba76ef311",
+  "previousAlignmentWarnings": []
 }

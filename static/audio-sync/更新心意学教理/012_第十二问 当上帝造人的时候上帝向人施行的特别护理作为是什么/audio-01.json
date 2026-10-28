@@ -8,12 +8,92 @@
   "audioDuration": 45.648,
   "cues": [
     {
-      "start": 28.96,
-      "end": 29.46,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "礼拜一",
-      "confidence": 0.5
+      "start": 10.98,
+      "end": 24.5,
+      "kind": "paragraph",
+      "targetIndex": 1,
+      "targetText": "答当上帝造人之后祂与人立了生命之约以完全顺服为条件以死亡的痛苦为刑罚禁止人吃分别善恶树的果子",
+      "confidence": 0.884,
+      "quality": {
+        "startVerified": false,
+        "endVerified": false,
+        "reviewRequired": true,
+        "verificationBasis": "paragraph-level-approximate"
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "reason": "答、上帝与人立生命之约至分别善恶树的果子。",
+        "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\12-0.mp3.json",
+        "transcriptSha256": "c9f09b96ccafe52fa99c9f765f0bc82f5c06e219b33232a0d41e72956be3c6cc",
+        "actualText": "答,上帝与人立了生命之约,以完全顺服为条件,以死亡的痛苦为刑法,禁止人吃分别善恶数的果子。",
+        "interval": [
+          10.98,
+          24.5
+        ],
+        "listenedByAgent": false,
+        "authorization": "用户要求段落级首尾大致对应，允许识别差异与摘读，不要求逐字核验。"
+      }
+    },
+    {
+      "start": 25.62,
+      "end": 44.72,
+      "kind": "paragraph",
+      "targetIndex": 8,
+      "targetText": "创世记2817耶和华上帝在东方的伊甸立了一个园子把所造的人安置在那里耶和华上帝使各样的树从地里长",
+      "confidence": 0.335,
+      "quality": {
+        "startVerified": false,
+        "endVerified": false,
+        "reviewRequired": true,
+        "verificationBasis": "paragraph-level-approximate"
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "reason": "录音实际只引用创世记2:16-17，属于网页2:8-17长段的摘读；从实际出处至必定死。",
+        "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\12-0.mp3.json",
+        "transcriptSha256": "c9f09b96ccafe52fa99c9f765f0bc82f5c06e219b33232a0d41e72956be3c6cc",
+        "actualText": "创始祭 2 章 16 到 17 祭一河华神吩咐祂说圆中各样树上的果子你可以随意吃只是分别善恶树上的果子你不可吃因为你吃的日子必定死",
+        "interval": [
+          25.62,
+          44.72
+        ],
+        "listenedByAgent": false,
+        "authorization": "用户要求段落级首尾大致对应，允许识别差异与摘读，不要求逐字核验。"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v8-rendered-list-and-empty-paragraph-indices",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor (detached boundary context): target 1: 答：当上帝造人之后，祂与人立了生命之约，以完全顺服为条件，以死亡的痛苦为刑罚，禁止人吃分别善恶树",
+    "incomplete start (212 leading chars, coverage 0.000): target 8: 创世记2:8-17 耶和华神在东方的伊甸立了一个园子，把所造的人安置在那里。耶和华神使各样的树从",
+    "low confidence (0.301, coverage 0.178): target 8: 创世记2:8-17 耶和华神在东方的伊甸立了一个园子，把所造的人安置在那里。耶和华神使各样的树从",
+    "unverified start anchor: target 8: 创世记2:8-17 耶和华神在东方的伊甸立了一个园子，把所造的人安置在那里。耶和华神使各样的树从",
+    "unverified end anchor: target 8: 创世记2:8-17 耶和华神在东方的伊甸立了一个园子，把所造的人安置在那里。耶和华神使各样的树从",
+    "unmatched (fragment only): target 8: 创世记2:8-17 耶和华神在东方的伊甸立了一个园子，把所造的人安置在那里。耶和华神使各样的树从",
+    "repair missing cue (unverified): target 1",
+    "repair missing cue (unverified): target 8",
+    "paragraph-level cue recovered: target 1; 答、上帝与人立生命之约至分别善恶树的果子。 原始严格核验提示保留。",
+    "paragraph-level cue recovered: target 8; 录音实际只引用创世记2:16-17，属于网页2:8-17长段的摘读；从实际出处至必定死。 原始严格核验提示保留。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": [
+      1,
+      8
+    ]
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "a843ec6198552756f1d307d669165b1d81e9e0f6f7447e6b63cc471c00a31b77",
+  "repairCueDigest": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "previousAlignmentWarnings": []
 }

@@ -8,20 +8,80 @@
   "audioDuration": 86.6884375,
   "cues": [
     {
-      "start": 3.06,
-      "end": 5.9,
-      "kind": "heading",
-      "targetIndex": 13,
-      "targetText": "二强盗悔改的原因",
-      "confidence": 0.769
-    },
-    {
       "start": 5.9,
       "end": 84.46,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "我们不知道这个强盗和另外的一个强盗在起初的时候同心同声地同笑主耶稣为何到了后来忽然改变竟然信了基",
-      "confidence": 0.837
+      "confidence": 0.91,
+      "quality": {
+        "coverage": 0.906,
+        "coherentCoverage": 0.885,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 5.9,
+        "previousEnd": 84.46,
+        "previousConfidence": 0.837
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unmatched: target 16: 三、信心表示 ——",
+    "unmatched: target 17: 1、责备同伴〗无论如何，这个强盗在十字架上相信了主耶稣，是一件确定的事。他的信心就是从他自己的话",
+    "repair missing cue (unverified): target 16",
+    "repair missing cue (unverified): target 17"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": [
+      16,
+      17
+    ]
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "e212bf33e14b3f5f0bad497eb6bc42981733b2305148dab4c3fc9a4b95726dfc",
+  "repairCueDigest": "41316c8e5b63f2dc40bc0c0c1a9ba0106c7e025cc3e75eb8c5e2fb67a6880b82",
+  "previousAlignmentWarnings": []
 }

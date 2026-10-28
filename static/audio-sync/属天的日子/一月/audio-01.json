@@ -8,44 +8,1665 @@
   "audioDuration": 231.92,
   "cues": [
     {
-      "start": 18.28,
-      "end": 19.68,
-      "kind": "heading",
-      "targetIndex": 1,
-      "targetText": "一月一日",
-      "confidence": 0.571
-    },
-    {
       "start": 19.68,
-      "end": 21.72,
+      "end": 23.64,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "爱惜光阴弗516",
-      "confidence": 0.667
+      "confidence": 0.667,
+      "quality": {
+        "coverage": 0.875,
+        "coherentCoverage": 0.5,
+        "extraSpeechContext": true,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.875,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\属天的日子\\0101.mp3.json",
+          "transcriptSha256": "77b2e00ae4d2ee806f00e751f1fa9ba7b39f31ca7521ba16629f2f7066aaac1e",
+          "source": "context-reviewed-existing-raw-words",
+          "contextUsed": true,
+          "rawSegments": [
+            {
+              "start": 18.0,
+              "end": 23.64,
+              "text": "1月1日,爱惜光阴,以复所书五章十六集。",
+              "words": [
+                {
+                  "start": 18.0,
+                  "end": 18.28,
+                  "text": "1",
+                  "probability": 0.45992958545684814
+                },
+                {
+                  "start": 18.28,
+                  "end": 18.48,
+                  "text": "月",
+                  "probability": 0.9545901417732239
+                },
+                {
+                  "start": 18.48,
+                  "end": 18.7,
+                  "text": "1",
+                  "probability": 0.9761150479316711
+                },
+                {
+                  "start": 18.7,
+                  "end": 19.06,
+                  "text": "日,",
+                  "probability": 0.998343825340271
+                },
+                {
+                  "start": 19.68,
+                  "end": 19.9,
+                  "text": "爱",
+                  "probability": 0.8930307030677795
+                },
+                {
+                  "start": 19.9,
+                  "end": 20.24,
+                  "text": "惜",
+                  "probability": 0.3223944306373596
+                },
+                {
+                  "start": 20.24,
+                  "end": 20.52,
+                  "text": "光",
+                  "probability": 0.96394944190979
+                },
+                {
+                  "start": 20.52,
+                  "end": 20.84,
+                  "text": "阴,",
+                  "probability": 0.7419477254152298
+                },
+                {
+                  "start": 21.72,
+                  "end": 21.96,
+                  "text": "以",
+                  "probability": 0.42416930198669434
+                },
+                {
+                  "start": 21.96,
+                  "end": 22.08,
+                  "text": "复",
+                  "probability": 0.7790099382400513
+                },
+                {
+                  "start": 22.08,
+                  "end": 22.32,
+                  "text": "所",
+                  "probability": 0.9757511615753174
+                },
+                {
+                  "start": 22.32,
+                  "end": 22.56,
+                  "text": "书",
+                  "probability": 0.9054671823978424
+                },
+                {
+                  "start": 22.56,
+                  "end": 22.88,
+                  "text": "五",
+                  "probability": 0.575909435749054
+                },
+                {
+                  "start": 22.88,
+                  "end": 23.06,
+                  "text": "章",
+                  "probability": 0.9818970263004303
+                },
+                {
+                  "start": 23.06,
+                  "end": 23.26,
+                  "text": "十",
+                  "probability": 0.7429554462432861
+                },
+                {
+                  "start": 23.26,
+                  "end": 23.44,
+                  "text": "六",
+                  "probability": 0.996852695941925
+                },
+                {
+                  "start": 23.44,
+                  "end": 23.64,
+                  "text": "集。",
+                  "probability": 0.5637156963348389
+                }
+              ]
+            }
+          ],
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "reason": "爱惜光阴和弗5:16同属本段；以弗所书五章十六节词稿以复所书五章十六集，集23.64结束。日期为标题，不参与该段。",
+          "audioSha256": "8daaa79dc759b17b73f0dfd6edc1ab56cce120fbd720c15bff7abc5600db1f51",
+          "listenedByAgent": false
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 19.68,
+        "previousEnd": 21.72,
+        "previousConfidence": 0.667
+      },
+      "boundaryCorrections": [
+        {
+          "book": "属天的日子",
+          "page": "一月.md",
+          "audio": "0101.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\属天的日子\\一月\\audio-01.json",
+          "targetIndex": 2,
+          "edge": "end",
+          "previousTime": 21.72,
+          "time": 23.64,
+          "kind": "spoken-order-context-review",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "爱惜光阴和弗5:16同属本段；以弗所书五章十六节词稿以复所书五章十六集，集23.64结束。日期为标题，不参与该段。"
+        }
+      ]
     },
     {
-      "start": 21.72,
-      "end": 37.18,
+      "start": 24.66,
+      "end": 44.28,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "在希腊文圣经里光阴这两个字帮是由tonkairon这两个短短的字所组成在新版圣经therevis",
-      "confidence": 0.496
+      "confidence": 0.496,
+      "quality": {
+        "startVerified": true,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\属天的日子\\0101.mp3.json",
+          "transcriptSha256": "77b2e00ae4d2ee806f00e751f1fa9ba7b39f31ca7521ba16629f2f7066aaac1e",
+          "source": "context-reviewed-existing-raw-words",
+          "contextUsed": true,
+          "rawSegments": [
+            {
+              "start": 24.66,
+              "end": 32.48,
+              "text": "在希腊文圣经里,光阴这两个字乃是有两个短短的字所组成。",
+              "words": [
+                {
+                  "start": 24.66,
+                  "end": 24.9,
+                  "text": "在",
+                  "probability": 0.9888778328895569
+                },
+                {
+                  "start": 24.9,
+                  "end": 25.24,
+                  "text": "希",
+                  "probability": 0.8568980097770691
+                },
+                {
+                  "start": 25.24,
+                  "end": 25.4,
+                  "text": "腊",
+                  "probability": 0.9004934430122375
+                },
+                {
+                  "start": 25.4,
+                  "end": 25.58,
+                  "text": "文",
+                  "probability": 0.9867842793464661
+                },
+                {
+                  "start": 25.58,
+                  "end": 25.78,
+                  "text": "圣",
+                  "probability": 0.7337297350168228
+                },
+                {
+                  "start": 25.78,
+                  "end": 25.98,
+                  "text": "经",
+                  "probability": 0.9974045157432556
+                },
+                {
+                  "start": 25.98,
+                  "end": 26.22,
+                  "text": "里,",
+                  "probability": 0.35573258996009827
+                },
+                {
+                  "start": 26.74,
+                  "end": 26.92,
+                  "text": "光",
+                  "probability": 0.5031077265739441
+                },
+                {
+                  "start": 26.92,
+                  "end": 27.32,
+                  "text": "阴",
+                  "probability": 0.9981624186038971
+                },
+                {
+                  "start": 27.32,
+                  "end": 27.76,
+                  "text": "这",
+                  "probability": 0.7720063328742981
+                },
+                {
+                  "start": 27.76,
+                  "end": 27.94,
+                  "text": "两",
+                  "probability": 0.9893709421157837
+                },
+                {
+                  "start": 27.94,
+                  "end": 28.1,
+                  "text": "个",
+                  "probability": 0.9709648489952087
+                },
+                {
+                  "start": 28.1,
+                  "end": 28.36,
+                  "text": "字",
+                  "probability": 0.9977836012840271
+                },
+                {
+                  "start": 28.36,
+                  "end": 28.96,
+                  "text": "乃",
+                  "probability": 0.8484404981136322
+                },
+                {
+                  "start": 28.96,
+                  "end": 29.3,
+                  "text": "是",
+                  "probability": 0.9940735697746277
+                },
+                {
+                  "start": 29.3,
+                  "end": 29.72,
+                  "text": "有",
+                  "probability": 0.7807408571243286
+                },
+                {
+                  "start": 29.72,
+                  "end": 29.94,
+                  "text": "两",
+                  "probability": 0.9935019612312317
+                },
+                {
+                  "start": 29.94,
+                  "end": 30.16,
+                  "text": "个",
+                  "probability": 0.9817991852760315
+                },
+                {
+                  "start": 30.16,
+                  "end": 30.42,
+                  "text": "短",
+                  "probability": 0.981519341468811
+                },
+                {
+                  "start": 30.42,
+                  "end": 30.74,
+                  "text": "短",
+                  "probability": 0.9985946118831635
+                },
+                {
+                  "start": 30.74,
+                  "end": 30.94,
+                  "text": "的",
+                  "probability": 0.9897140264511108
+                },
+                {
+                  "start": 30.94,
+                  "end": 31.2,
+                  "text": "字",
+                  "probability": 0.9917210340499878
+                },
+                {
+                  "start": 31.2,
+                  "end": 31.7,
+                  "text": "所",
+                  "probability": 0.9635152220726013
+                },
+                {
+                  "start": 31.7,
+                  "end": 32.14,
+                  "text": "组",
+                  "probability": 0.8883912563323975
+                },
+                {
+                  "start": 32.14,
+                  "end": 32.48,
+                  "text": "成。",
+                  "probability": 0.9632693529129028
+                }
+              ]
+            }
+          ],
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "reason": "在希腊文圣经里的在24.66起，之前以弗所书出处属于上一条爱惜光阴，不属于本段。",
+          "audioSha256": "8daaa79dc759b17b73f0dfd6edc1ab56cce120fbd720c15bff7abc5600db1f51",
+          "listenedByAgent": false
+        },
+        "endVerified": false,
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\属天的日子\\0101.mp3.json",
+          "transcriptSha256": "77b2e00ae4d2ee806f00e751f1fa9ba7b39f31ca7521ba16629f2f7066aaac1e",
+          "candidate": 36.28,
+          "expectedPhrase": "表面的意思是机会",
+          "actualPhrase": "表面的意思是机会",
+          "phoneticPhrase": [
+            "biao",
+            "mian",
+            "de",
+            "yi",
+            "si",
+            "shi",
+            "ji",
+            "hui"
+          ],
+          "verified": true,
+          "time": 36.28,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "exact-local-syllables-original-word-times",
+          "phoneticExact": true,
+          "literalEqual": true,
+          "wordTokens": [
+            {
+              "text": "表",
+              "start": 34.24,
+              "end": 34.56,
+              "rawStart": 78,
+              "rawEnd": 78,
+              "precision": "word"
+            },
+            {
+              "text": "面",
+              "start": 34.56,
+              "end": 34.82,
+              "rawStart": 79,
+              "rawEnd": 79,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 34.82,
+              "end": 34.92,
+              "rawStart": 80,
+              "rawEnd": 80,
+              "precision": "word"
+            },
+            {
+              "text": "意",
+              "start": 34.92,
+              "end": 35.2,
+              "rawStart": 81,
+              "rawEnd": 81,
+              "precision": "word"
+            },
+            {
+              "text": "思",
+              "start": 34.92,
+              "end": 35.2,
+              "rawStart": 82,
+              "rawEnd": 82,
+              "precision": "word"
+            },
+            {
+              "text": "是",
+              "start": 35.2,
+              "end": 35.52,
+              "rawStart": 83,
+              "rawEnd": 83,
+              "precision": "word"
+            },
+            {
+              "text": "机",
+              "start": 35.52,
+              "end": 35.94,
+              "rawStart": 84,
+              "rawEnd": 84,
+              "precision": "word"
+            },
+            {
+              "text": "会",
+              "start": 35.94,
+              "end": 36.28,
+              "rawStart": 85,
+              "rawEnd": 85,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "audioSha256": "8daaa79dc759b17b73f0dfd6edc1ab56cce120fbd720c15bff7abc5600db1f51",
+          "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+        },
+        "reviewRequired": true
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 21.72,
+        "previousEnd": 37.18,
+        "previousConfidence": 0.496
+      },
+      "boundaryCorrections": [
+        {
+          "book": "属天的日子",
+          "page": "一月.md",
+          "audio": "0101.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\属天的日子\\一月\\audio-01.json",
+          "targetIndex": 3,
+          "edge": "start",
+          "previousTime": 21.72,
+          "time": 24.66,
+          "kind": "spoken-order-context-review",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "在希腊文圣经里的在24.66起，之前以弗所书出处属于上一条爱惜光阴，不属于本段。"
+        },
+        {
+          "book": "属天的日子",
+          "page": "一月.md",
+          "audio": "0101.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\属天的日子\\一月\\audio-01.json",
+          "targetIndex": 3,
+          "edge": "end",
+          "previousTime": 37.18,
+          "time": 36.28,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 36.28,
+            "time": 44.28,
+            "reason": "新版圣经译文仍属于上一段，实际末句44.28结束。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\属天的日子\\0101.mp3.json",
+              "sha256": "77b2e00ae4d2ee806f00e751f1fa9ba7b39f31ca7521ba16629f2f7066aaac1e",
+              "segments": [
+                {
+                  "start": 33.12,
+                  "end": 36.28,
+                  "text": "这两个字表面的意思是机会。",
+                  "words": [
+                    {
+                      "start": 33.12,
+                      "end": 33.68,
+                      "text": "这",
+                      "probability": 0.3748012185096741
+                    },
+                    {
+                      "start": 33.68,
+                      "end": 33.84,
+                      "text": "两",
+                      "probability": 0.977638304233551
+                    },
+                    {
+                      "start": 33.84,
+                      "end": 34.0,
+                      "text": "个",
+                      "probability": 0.9030531644821167
+                    },
+                    {
+                      "start": 34.0,
+                      "end": 34.24,
+                      "text": "字",
+                      "probability": 0.996728777885437
+                    },
+                    {
+                      "start": 34.24,
+                      "end": 34.56,
+                      "text": "表",
+                      "probability": 0.9802984595298767
+                    },
+                    {
+                      "start": 34.56,
+                      "end": 34.82,
+                      "text": "面",
+                      "probability": 0.9992251396179199
+                    },
+                    {
+                      "start": 34.82,
+                      "end": 34.92,
+                      "text": "的",
+                      "probability": 0.9574866890907288
+                    },
+                    {
+                      "start": 34.92,
+                      "end": 35.2,
+                      "text": "意思",
+                      "probability": 0.999257504940033
+                    },
+                    {
+                      "start": 35.2,
+                      "end": 35.52,
+                      "text": "是",
+                      "probability": 0.9940763711929321
+                    },
+                    {
+                      "start": 35.52,
+                      "end": 35.94,
+                      "text": "机",
+                      "probability": 0.48769354820251465
+                    },
+                    {
+                      "start": 35.94,
+                      "end": 36.28,
+                      "text": "会。",
+                      "probability": 0.998207688331604
+                    }
+                  ]
+                },
+                {
+                  "start": 37.18,
+                  "end": 44.2,
+                  "text": "在新版圣经中,这句经文被议为为自己把机会买下来。",
+                  "words": [
+                    {
+                      "start": 37.18,
+                      "end": 37.58,
+                      "text": "在",
+                      "probability": 0.9683862328529358
+                    },
+                    {
+                      "start": 37.58,
+                      "end": 37.96,
+                      "text": "新",
+                      "probability": 0.6830723285675049
+                    },
+                    {
+                      "start": 37.96,
+                      "end": 38.18,
+                      "text": "版",
+                      "probability": 0.9401277899742126
+                    },
+                    {
+                      "start": 38.18,
+                      "end": 38.42,
+                      "text": "圣",
+                      "probability": 0.9171218872070312
+                    },
+                    {
+                      "start": 38.42,
+                      "end": 38.56,
+                      "text": "经",
+                      "probability": 0.9974708557128906
+                    },
+                    {
+                      "start": 38.56,
+                      "end": 38.88,
+                      "text": "中,",
+                      "probability": 0.9893919229507446
+                    },
+                    {
+                      "start": 39.42,
+                      "end": 39.52,
+                      "text": "这",
+                      "probability": 0.9780623316764832
+                    },
+                    {
+                      "start": 39.52,
+                      "end": 39.66,
+                      "text": "句",
+                      "probability": 0.9294953346252441
+                    },
+                    {
+                      "start": 39.66,
+                      "end": 39.84,
+                      "text": "经",
+                      "probability": 0.7718998789787292
+                    },
+                    {
+                      "start": 39.84,
+                      "end": 40.08,
+                      "text": "文",
+                      "probability": 0.9953380823135376
+                    },
+                    {
+                      "start": 40.08,
+                      "end": 40.34,
+                      "text": "被",
+                      "probability": 0.9870284795761108
+                    },
+                    {
+                      "start": 40.34,
+                      "end": 40.56,
+                      "text": "议",
+                      "probability": 0.6919169723987579
+                    },
+                    {
+                      "start": 40.56,
+                      "end": 40.78,
+                      "text": "为",
+                      "probability": 0.9856581091880798
+                    },
+                    {
+                      "start": 40.78,
+                      "end": 41.3,
+                      "text": "为",
+                      "probability": 0.5334786176681519
+                    },
+                    {
+                      "start": 41.3,
+                      "end": 41.72,
+                      "text": "自己",
+                      "probability": 0.98039311170578
+                    },
+                    {
+                      "start": 41.72,
+                      "end": 42.32,
+                      "text": "把",
+                      "probability": 0.9499396085739136
+                    },
+                    {
+                      "start": 42.32,
+                      "end": 42.68,
+                      "text": "机",
+                      "probability": 0.9979918003082275
+                    },
+                    {
+                      "start": 42.68,
+                      "end": 43.02,
+                      "text": "会",
+                      "probability": 0.9997888207435608
+                    },
+                    {
+                      "start": 43.02,
+                      "end": 43.46,
+                      "text": "买",
+                      "probability": 0.9958956837654114
+                    },
+                    {
+                      "start": 43.46,
+                      "end": 43.84,
+                      "text": "下",
+                      "probability": 0.9949362277984619
+                    },
+                    {
+                      "start": 43.84,
+                      "end": 44.2,
+                      "text": "来。",
+                      "probability": 0.9954919219017029
+                    }
+                  ]
+                },
+                {
+                  "start": 45.16,
+                  "end": 49.26,
+                  "text": "光音在此并不是指着一般的时间而言,",
+                  "words": [
+                    {
+                      "start": 45.16,
+                      "end": 45.38,
+                      "text": "光",
+                      "probability": 0.8410708904266357
+                    },
+                    {
+                      "start": 45.38,
+                      "end": 45.66,
+                      "text": "音",
+                      "probability": 0.3785306513309479
+                    },
+                    {
+                      "start": 45.66,
+                      "end": 46.26,
+                      "text": "在",
+                      "probability": 0.8642972111701965
+                    },
+                    {
+                      "start": 46.26,
+                      "end": 46.62,
+                      "text": "此",
+                      "probability": 0.9690520763397217
+                    },
+                    {
+                      "start": 46.62,
+                      "end": 47.16,
+                      "text": "并",
+                      "probability": 0.9446711838245392
+                    },
+                    {
+                      "start": 47.16,
+                      "end": 47.44,
+                      "text": "不是",
+                      "probability": 0.9880055785179138
+                    },
+                    {
+                      "start": 47.44,
+                      "end": 47.62,
+                      "text": "指",
+                      "probability": 0.8718313574790955
+                    },
+                    {
+                      "start": 47.62,
+                      "end": 47.8,
+                      "text": "着",
+                      "probability": 0.9445862770080566
+                    },
+                    {
+                      "start": 47.8,
+                      "end": 48.0,
+                      "text": "一",
+                      "probability": 0.9951441287994385
+                    },
+                    {
+                      "start": 48.0,
+                      "end": 48.24,
+                      "text": "般",
+                      "probability": 0.9929239749908447
+                    },
+                    {
+                      "start": 48.24,
+                      "end": 48.4,
+                      "text": "的",
+                      "probability": 0.9768054485321045
+                    },
+                    {
+                      "start": 48.4,
+                      "end": 48.7,
+                      "text": "时间",
+                      "probability": 0.9895445704460144
+                    },
+                    {
+                      "start": 48.7,
+                      "end": 48.98,
+                      "text": "而",
+                      "probability": 0.9977933168411255
+                    },
+                    {
+                      "start": 48.98,
+                      "end": 49.26,
+                      "text": "言,",
+                      "probability": 0.5397564172744751
+                    }
+                  ]
+                },
+                {
+                  "start": 49.7,
+                  "end": 54.86,
+                  "text": "而是时间中很重要的关键时机或是一个危机。",
+                  "words": [
+                    {
+                      "start": 49.7,
+                      "end": 49.88,
+                      "text": "而",
+                      "probability": 0.9951790571212769
+                    },
+                    {
+                      "start": 49.88,
+                      "end": 50.14,
+                      "text": "是",
+                      "probability": 0.9988915324211121
+                    },
+                    {
+                      "start": 50.14,
+                      "end": 50.5,
+                      "text": "时间",
+                      "probability": 0.8586792945861816
+                    },
+                    {
+                      "start": 50.5,
+                      "end": 50.84,
+                      "text": "中",
+                      "probability": 0.994746208190918
+                    },
+                    {
+                      "start": 50.84,
+                      "end": 51.34,
+                      "text": "很",
+                      "probability": 0.9574486613273621
+                    },
+                    {
+                      "start": 51.34,
+                      "end": 51.86,
+                      "text": "重要",
+                      "probability": 0.9986734390258789
+                    },
+                    {
+                      "start": 51.86,
+                      "end": 52.02,
+                      "text": "的",
+                      "probability": 0.9966986775398254
+                    },
+                    {
+                      "start": 52.02,
+                      "end": 52.28,
+                      "text": "关",
+                      "probability": 0.9817094206809998
+                    },
+                    {
+                      "start": 52.28,
+                      "end": 52.72,
+                      "text": "键",
+                      "probability": 0.9985262751579285
+                    },
+                    {
+                      "start": 52.72,
+                      "end": 53.2,
+                      "text": "时",
+                      "probability": 0.502370297908783
+                    },
+                    {
+                      "start": 53.2,
+                      "end": 53.68,
+                      "text": "机",
+                      "probability": 0.9861832857131958
+                    },
+                    {
+                      "start": 53.68,
+                      "end": 54.0,
+                      "text": "或",
+                      "probability": 0.8221459984779358
+                    },
+                    {
+                      "start": 54.0,
+                      "end": 54.16,
+                      "text": "是",
+                      "probability": 0.8111514449119568
+                    },
+                    {
+                      "start": 54.16,
+                      "end": 54.32,
+                      "text": "一个",
+                      "probability": 0.8967365622520447
+                    },
+                    {
+                      "start": 54.32,
+                      "end": 54.56,
+                      "text": "危",
+                      "probability": 0.9819983243942261
+                    },
+                    {
+                      "start": 54.56,
+                      "end": 54.86,
+                      "text": "机。",
+                      "probability": 0.9971023201942444
+                    }
+                  ]
+                }
+              ],
+              "source": "context-reviewed-paragraph-approximation"
+            }
+          }
+        },
+        "previousQuality": {
+          "startVerified": true,
+          "startEvidence": {
+            "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\属天的日子\\0101.mp3.json",
+            "transcriptSha256": "77b2e00ae4d2ee806f00e751f1fa9ba7b39f31ca7521ba16629f2f7066aaac1e",
+            "source": "context-reviewed-existing-raw-words",
+            "contextUsed": true,
+            "rawSegments": [
+              {
+                "start": 24.66,
+                "end": 32.48,
+                "text": "在希腊文圣经里,光阴这两个字乃是有两个短短的字所组成。",
+                "words": [
+                  {
+                    "start": 24.66,
+                    "end": 24.9,
+                    "text": "在",
+                    "probability": 0.9888778328895569
+                  },
+                  {
+                    "start": 24.9,
+                    "end": 25.24,
+                    "text": "希",
+                    "probability": 0.8568980097770691
+                  },
+                  {
+                    "start": 25.24,
+                    "end": 25.4,
+                    "text": "腊",
+                    "probability": 0.9004934430122375
+                  },
+                  {
+                    "start": 25.4,
+                    "end": 25.58,
+                    "text": "文",
+                    "probability": 0.9867842793464661
+                  },
+                  {
+                    "start": 25.58,
+                    "end": 25.78,
+                    "text": "圣",
+                    "probability": 0.7337297350168228
+                  },
+                  {
+                    "start": 25.78,
+                    "end": 25.98,
+                    "text": "经",
+                    "probability": 0.9974045157432556
+                  },
+                  {
+                    "start": 25.98,
+                    "end": 26.22,
+                    "text": "里,",
+                    "probability": 0.35573258996009827
+                  },
+                  {
+                    "start": 26.74,
+                    "end": 26.92,
+                    "text": "光",
+                    "probability": 0.5031077265739441
+                  },
+                  {
+                    "start": 26.92,
+                    "end": 27.32,
+                    "text": "阴",
+                    "probability": 0.9981624186038971
+                  },
+                  {
+                    "start": 27.32,
+                    "end": 27.76,
+                    "text": "这",
+                    "probability": 0.7720063328742981
+                  },
+                  {
+                    "start": 27.76,
+                    "end": 27.94,
+                    "text": "两",
+                    "probability": 0.9893709421157837
+                  },
+                  {
+                    "start": 27.94,
+                    "end": 28.1,
+                    "text": "个",
+                    "probability": 0.9709648489952087
+                  },
+                  {
+                    "start": 28.1,
+                    "end": 28.36,
+                    "text": "字",
+                    "probability": 0.9977836012840271
+                  },
+                  {
+                    "start": 28.36,
+                    "end": 28.96,
+                    "text": "乃",
+                    "probability": 0.8484404981136322
+                  },
+                  {
+                    "start": 28.96,
+                    "end": 29.3,
+                    "text": "是",
+                    "probability": 0.9940735697746277
+                  },
+                  {
+                    "start": 29.3,
+                    "end": 29.72,
+                    "text": "有",
+                    "probability": 0.7807408571243286
+                  },
+                  {
+                    "start": 29.72,
+                    "end": 29.94,
+                    "text": "两",
+                    "probability": 0.9935019612312317
+                  },
+                  {
+                    "start": 29.94,
+                    "end": 30.16,
+                    "text": "个",
+                    "probability": 0.9817991852760315
+                  },
+                  {
+                    "start": 30.16,
+                    "end": 30.42,
+                    "text": "短",
+                    "probability": 0.981519341468811
+                  },
+                  {
+                    "start": 30.42,
+                    "end": 30.74,
+                    "text": "短",
+                    "probability": 0.9985946118831635
+                  },
+                  {
+                    "start": 30.74,
+                    "end": 30.94,
+                    "text": "的",
+                    "probability": 0.9897140264511108
+                  },
+                  {
+                    "start": 30.94,
+                    "end": 31.2,
+                    "text": "字",
+                    "probability": 0.9917210340499878
+                  },
+                  {
+                    "start": 31.2,
+                    "end": 31.7,
+                    "text": "所",
+                    "probability": 0.9635152220726013
+                  },
+                  {
+                    "start": 31.7,
+                    "end": 32.14,
+                    "text": "组",
+                    "probability": 0.8883912563323975
+                  },
+                  {
+                    "start": 32.14,
+                    "end": 32.48,
+                    "text": "成。",
+                    "probability": 0.9632693529129028
+                  }
+                ]
+              }
+            ],
+            "verified": true,
+            "localSupported": true,
+            "timingPrecision": "word",
+            "reason": "在希腊文圣经里的在24.66起，之前以弗所书出处属于上一条爱惜光阴，不属于本段。",
+            "audioSha256": "8daaa79dc759b17b73f0dfd6edc1ab56cce120fbd720c15bff7abc5600db1f51",
+            "listenedByAgent": false
+          },
+          "endVerified": true,
+          "endEvidence": {
+            "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\属天的日子\\0101.mp3.json",
+            "transcriptSha256": "77b2e00ae4d2ee806f00e751f1fa9ba7b39f31ca7521ba16629f2f7066aaac1e",
+            "candidate": 36.28,
+            "expectedPhrase": "表面的意思是机会",
+            "actualPhrase": "表面的意思是机会",
+            "phoneticPhrase": [
+              "biao",
+              "mian",
+              "de",
+              "yi",
+              "si",
+              "shi",
+              "ji",
+              "hui"
+            ],
+            "verified": true,
+            "time": 36.28,
+            "localSupported": true,
+            "timingPrecision": "word",
+            "source": "exact-local-syllables-original-word-times",
+            "phoneticExact": true,
+            "literalEqual": true,
+            "wordTokens": [
+              {
+                "text": "表",
+                "start": 34.24,
+                "end": 34.56,
+                "rawStart": 78,
+                "rawEnd": 78,
+                "precision": "word"
+              },
+              {
+                "text": "面",
+                "start": 34.56,
+                "end": 34.82,
+                "rawStart": 79,
+                "rawEnd": 79,
+                "precision": "word"
+              },
+              {
+                "text": "的",
+                "start": 34.82,
+                "end": 34.92,
+                "rawStart": 80,
+                "rawEnd": 80,
+                "precision": "word"
+              },
+              {
+                "text": "意",
+                "start": 34.92,
+                "end": 35.2,
+                "rawStart": 81,
+                "rawEnd": 81,
+                "precision": "word"
+              },
+              {
+                "text": "思",
+                "start": 34.92,
+                "end": 35.2,
+                "rawStart": 82,
+                "rawEnd": 82,
+                "precision": "word"
+              },
+              {
+                "text": "是",
+                "start": 35.2,
+                "end": 35.52,
+                "rawStart": 83,
+                "rawEnd": 83,
+                "precision": "word"
+              },
+              {
+                "text": "机",
+                "start": 35.52,
+                "end": 35.94,
+                "rawStart": 84,
+                "rawEnd": 84,
+                "precision": "word"
+              },
+              {
+                "text": "会",
+                "start": 35.94,
+                "end": 36.28,
+                "rawStart": 85,
+                "rawEnd": 85,
+                "precision": "word"
+              }
+            ],
+            "listenedByAgent": false,
+            "audioSha256": "8daaa79dc759b17b73f0dfd6edc1ab56cce120fbd720c15bff7abc5600db1f51",
+            "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+          },
+          "reviewRequired": false
+        }
+      }
     },
     {
-      "start": 37.18,
-      "end": 68.48,
+      "start": 45.32,
+      "end": 67.46,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "tonkairon光阴在此并不是指着一般的时间而言而是时间中很重要的关键时机或是一个危机光阴乃是",
-      "confidence": 0.798
+      "confidence": 0.798,
+      "quality": {
+        "coverage": 0.855,
+        "coherentCoverage": 0.843,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.5,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 9,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 37.18,
+        "previousEnd": 67.46,
+        "previousConfidence": 0.798
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 37.18,
+            "time": 45.32,
+            "reason": "ton kairon未读，实际本段光阴在此并不是指一般时间45.32起；前面新版译文属于上一段。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\属天的日子\\0101.mp3.json",
+              "sha256": "77b2e00ae4d2ee806f00e751f1fa9ba7b39f31ca7521ba16629f2f7066aaac1e",
+              "source": "context-reviewed-paragraph-approximation",
+              "segments": [
+                {
+                  "start": 37.18,
+                  "end": 44.2,
+                  "text": "在新版圣经中,这句经文被议为为自己把机会买下来。",
+                  "words": [
+                    {
+                      "start": 37.18,
+                      "end": 37.58,
+                      "text": "在",
+                      "probability": 0.9683862328529358
+                    },
+                    {
+                      "start": 37.58,
+                      "end": 37.96,
+                      "text": "新",
+                      "probability": 0.6830723285675049
+                    },
+                    {
+                      "start": 37.96,
+                      "end": 38.18,
+                      "text": "版",
+                      "probability": 0.9401277899742126
+                    },
+                    {
+                      "start": 38.18,
+                      "end": 38.42,
+                      "text": "圣",
+                      "probability": 0.9171218872070312
+                    },
+                    {
+                      "start": 38.42,
+                      "end": 38.56,
+                      "text": "经",
+                      "probability": 0.9974708557128906
+                    },
+                    {
+                      "start": 38.56,
+                      "end": 38.88,
+                      "text": "中,",
+                      "probability": 0.9893919229507446
+                    },
+                    {
+                      "start": 39.42,
+                      "end": 39.52,
+                      "text": "这",
+                      "probability": 0.9780623316764832
+                    },
+                    {
+                      "start": 39.52,
+                      "end": 39.66,
+                      "text": "句",
+                      "probability": 0.9294953346252441
+                    },
+                    {
+                      "start": 39.66,
+                      "end": 39.84,
+                      "text": "经",
+                      "probability": 0.7718998789787292
+                    },
+                    {
+                      "start": 39.84,
+                      "end": 40.08,
+                      "text": "文",
+                      "probability": 0.9953380823135376
+                    },
+                    {
+                      "start": 40.08,
+                      "end": 40.34,
+                      "text": "被",
+                      "probability": 0.9870284795761108
+                    },
+                    {
+                      "start": 40.34,
+                      "end": 40.56,
+                      "text": "议",
+                      "probability": 0.6919169723987579
+                    },
+                    {
+                      "start": 40.56,
+                      "end": 40.78,
+                      "text": "为",
+                      "probability": 0.9856581091880798
+                    },
+                    {
+                      "start": 40.78,
+                      "end": 41.3,
+                      "text": "为",
+                      "probability": 0.5334786176681519
+                    },
+                    {
+                      "start": 41.3,
+                      "end": 41.72,
+                      "text": "自己",
+                      "probability": 0.98039311170578
+                    },
+                    {
+                      "start": 41.72,
+                      "end": 42.32,
+                      "text": "把",
+                      "probability": 0.9499396085739136
+                    },
+                    {
+                      "start": 42.32,
+                      "end": 42.68,
+                      "text": "机",
+                      "probability": 0.9979918003082275
+                    },
+                    {
+                      "start": 42.68,
+                      "end": 43.02,
+                      "text": "会",
+                      "probability": 0.9997888207435608
+                    },
+                    {
+                      "start": 43.02,
+                      "end": 43.46,
+                      "text": "买",
+                      "probability": 0.9958956837654114
+                    },
+                    {
+                      "start": 43.46,
+                      "end": 43.84,
+                      "text": "下",
+                      "probability": 0.9949362277984619
+                    },
+                    {
+                      "start": 43.84,
+                      "end": 44.2,
+                      "text": "来。",
+                      "probability": 0.9954919219017029
+                    }
+                  ]
+                },
+                {
+                  "start": 45.16,
+                  "end": 49.26,
+                  "text": "光音在此并不是指着一般的时间而言,",
+                  "words": [
+                    {
+                      "start": 45.16,
+                      "end": 45.38,
+                      "text": "光",
+                      "probability": 0.8410708904266357
+                    },
+                    {
+                      "start": 45.38,
+                      "end": 45.66,
+                      "text": "音",
+                      "probability": 0.3785306513309479
+                    },
+                    {
+                      "start": 45.66,
+                      "end": 46.26,
+                      "text": "在",
+                      "probability": 0.8642972111701965
+                    },
+                    {
+                      "start": 46.26,
+                      "end": 46.62,
+                      "text": "此",
+                      "probability": 0.9690520763397217
+                    },
+                    {
+                      "start": 46.62,
+                      "end": 47.16,
+                      "text": "并",
+                      "probability": 0.9446711838245392
+                    },
+                    {
+                      "start": 47.16,
+                      "end": 47.44,
+                      "text": "不是",
+                      "probability": 0.9880055785179138
+                    },
+                    {
+                      "start": 47.44,
+                      "end": 47.62,
+                      "text": "指",
+                      "probability": 0.8718313574790955
+                    },
+                    {
+                      "start": 47.62,
+                      "end": 47.8,
+                      "text": "着",
+                      "probability": 0.9445862770080566
+                    },
+                    {
+                      "start": 47.8,
+                      "end": 48.0,
+                      "text": "一",
+                      "probability": 0.9951441287994385
+                    },
+                    {
+                      "start": 48.0,
+                      "end": 48.24,
+                      "text": "般",
+                      "probability": 0.9929239749908447
+                    },
+                    {
+                      "start": 48.24,
+                      "end": 48.4,
+                      "text": "的",
+                      "probability": 0.9768054485321045
+                    },
+                    {
+                      "start": 48.4,
+                      "end": 48.7,
+                      "text": "时间",
+                      "probability": 0.9895445704460144
+                    },
+                    {
+                      "start": 48.7,
+                      "end": 48.98,
+                      "text": "而",
+                      "probability": 0.9977933168411255
+                    },
+                    {
+                      "start": 48.98,
+                      "end": 49.26,
+                      "text": "言,",
+                      "probability": 0.5397564172744751
+                    }
+                  ]
+                },
+                {
+                  "start": 49.7,
+                  "end": 54.86,
+                  "text": "而是时间中很重要的关键时机或是一个危机。",
+                  "words": [
+                    {
+                      "start": 49.7,
+                      "end": 49.88,
+                      "text": "而",
+                      "probability": 0.9951790571212769
+                    },
+                    {
+                      "start": 49.88,
+                      "end": 50.14,
+                      "text": "是",
+                      "probability": 0.9988915324211121
+                    },
+                    {
+                      "start": 50.14,
+                      "end": 50.5,
+                      "text": "时间",
+                      "probability": 0.8586792945861816
+                    },
+                    {
+                      "start": 50.5,
+                      "end": 50.84,
+                      "text": "中",
+                      "probability": 0.994746208190918
+                    },
+                    {
+                      "start": 50.84,
+                      "end": 51.34,
+                      "text": "很",
+                      "probability": 0.9574486613273621
+                    },
+                    {
+                      "start": 51.34,
+                      "end": 51.86,
+                      "text": "重要",
+                      "probability": 0.9986734390258789
+                    },
+                    {
+                      "start": 51.86,
+                      "end": 52.02,
+                      "text": "的",
+                      "probability": 0.9966986775398254
+                    },
+                    {
+                      "start": 52.02,
+                      "end": 52.28,
+                      "text": "关",
+                      "probability": 0.9817094206809998
+                    },
+                    {
+                      "start": 52.28,
+                      "end": 52.72,
+                      "text": "键",
+                      "probability": 0.9985262751579285
+                    },
+                    {
+                      "start": 52.72,
+                      "end": 53.2,
+                      "text": "时",
+                      "probability": 0.502370297908783
+                    },
+                    {
+                      "start": 53.2,
+                      "end": 53.68,
+                      "text": "机",
+                      "probability": 0.9861832857131958
+                    },
+                    {
+                      "start": 53.68,
+                      "end": 54.0,
+                      "text": "或",
+                      "probability": 0.8221459984779358
+                    },
+                    {
+                      "start": 54.0,
+                      "end": 54.16,
+                      "text": "是",
+                      "probability": 0.8111514449119568
+                    },
+                    {
+                      "start": 54.16,
+                      "end": 54.32,
+                      "text": "一个",
+                      "probability": 0.8967365622520447
+                    },
+                    {
+                      "start": 54.32,
+                      "end": 54.56,
+                      "text": "危",
+                      "probability": 0.9819983243942261
+                    },
+                    {
+                      "start": 54.56,
+                      "end": 54.86,
+                      "text": "机。",
+                      "probability": 0.9971023201942444
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.855,
+          "coherentCoverage": 0.843,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.5,
+          "suffixCoverage": 1.0,
+          "unmatchedLeadingChars": 9,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     },
     {
       "start": 68.48,
-      "end": 122.86,
+      "end": 121.86,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "由于现今的世代邪恶所以这里隐约地告诉我们充满机会的时间不多了这些时机宛如在贫瘠沙漠中稀稀疏疏的花",
-      "confidence": 0.815
+      "confidence": 0.854,
+      "quality": {
+        "coverage": 0.882,
+        "coherentCoverage": 0.776,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 68.48,
+        "previousEnd": 121.86,
+        "previousConfidence": 0.815
+      }
     },
     {
       "start": 122.86,
@@ -53,7 +1674,83 @@
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "有时这时机是在一刹那间要争取下来的有时是一个领人归主的机会有时是一个表达爱意的场合有时却是一个要",
-      "confidence": 0.903
+      "confidence": 0.903,
+      "quality": {
+        "coverage": 0.903,
+        "coherentCoverage": 0.903,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 122.86,
+        "previousEnd": 147.06,
+        "previousConfidence": 0.903
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 2: 爱惜光阴------弗 5:16",
+    "low confidence (0.530, coverage 0.368): target 3: 在希腊文圣经里，「 光阴 」 这两个字，帮是由 ton kairon 这两个短短的字所组成。在新",
+    "unverified start anchor: target 3: 在希腊文圣经里，「 光阴 」 这两个字，帮是由 ton kairon 这两个短短的字所组成。在新",
+    "unverified end anchor: target 3: 在希腊文圣经里，「 光阴 」 这两个字，帮是由 ton kairon 这两个短短的字所组成。在新",
+    "unmatched (fragment only): target 3: 在希腊文圣经里，「 光阴 」 这两个字，帮是由 ton kairon 这两个短短的字所组成。在新",
+    "incomplete start (9 leading chars, coverage 0.500): target 4: 「ton kairon（光阴 ） 」 在此并不是指着一般的时间而言，而是时间中很重要的关键、时机",
+    "unverified start anchor: target 4: 「ton kairon（光阴 ） 」 在此并不是指着一般的时间而言，而是时间中很重要的关键、时机",
+    "repair unverified end (previous-sync): target 2",
+    "repair unverified start (previous-sync): target 3",
+    "repair unverified end (previous-sync): target 3",
+    "repair unverified start (previous-sync): target 4",
+    "local context confirmed end: target 2; 爱惜光阴和弗5:16同属本段；以弗所书五章十六节词稿以复所书五章十六集，集23.64结束。日期为标题，不参与该段。",
+    "local context confirmed start: target 3; 在希腊文圣经里的在24.66起，之前以弗所书出处属于上一条爱惜光阴，不属于本段。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "2f7e907eef538126ee057a84eee918e7708cc309f6c39c3d4be7e92b23c77511",
+  "repairCueDigest": "395ed15fa00fc1180bf139b9b084bc1892c95428bd6e13c9d0022c2e82e91941",
+  "previousAlignmentWarnings": []
 }

@@ -8,36 +8,351 @@
   "audioDuration": 91.464,
   "cues": [
     {
-      "start": 1.98,
-      "end": 3.84,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "礼拜一",
-      "confidence": 0.8
-    },
-    {
       "start": 3.84,
       "end": 33.8,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "说某事被禁止就是不被允许之意十诫的每一诫命都要求一些事就是说必须做某些事并且禁止另外一些事就是说",
-      "confidence": 0.803
+      "confidence": 0.899,
+      "quality": {
+        "coverage": 0.887,
+        "coherentCoverage": 0.812,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 3.84,
+        "previousEnd": 33.8,
+        "previousConfidence": 0.904
+      }
     },
     {
       "start": 33.8,
-      "end": 74.8,
+      "end": 77.2,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "第一上帝禁止人否认祂否认上帝就是说上帝不存在说没有上帝的人被称为无上帝论者无上帝论者常常声称因为",
-      "confidence": 0.949
+      "confidence": 0.964,
+      "quality": {
+        "coverage": 0.964,
+        "coherentCoverage": 0.955,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 33.8,
+        "previousEnd": 74.8,
+        "previousConfidence": 0.968
+      }
     },
     {
-      "start": 74.8,
+      "start": 79.18,
       "end": 90.44,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "诗篇141愚顽人心里说没有上帝他们都是邪恶行了可憎恶的事没有一个人行善",
-      "confidence": 0.761
+      "confidence": 0.765,
+      "quality": {
+        "coverage": 0.703,
+        "coherentCoverage": 0.703,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.5,
+        "suffixCoverage": 0.889,
+        "unmatchedLeadingChars": 9,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "previous-verified-sync",
+        "previousStart": 74.8,
+        "previousEnd": 90.44,
+        "previousConfidence": 0.761
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 77.2,
+            "time": 79.18,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\47-1.mp3.json",
+              "sha256": "c3f77e3ec441b81e95eafed33cbd05f2ffd5cddb72c9b62034de2d66c42c750b",
+              "anchor": {
+                "time": 79.18,
+                "score": 0.998,
+                "ratio": 1.0,
+                "expected": "yuwanrenxinlishuomeiyoushentamendoushixie",
+                "actual": "鱼丸人心里说没有神他们都是邪",
+                "span": [
+                  79.18,
+                  84.66
+                ],
+                "tokens": [
+                  {
+                    "text": "鱼",
+                    "start": 79.18,
+                    "end": 79.78,
+                    "rawStart": 194,
+                    "rawEnd": 194,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "丸",
+                    "start": 79.78,
+                    "end": 80.1,
+                    "rawStart": 195,
+                    "rawEnd": 195,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 80.1,
+                    "end": 80.36,
+                    "rawStart": 196,
+                    "rawEnd": 196,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "心",
+                    "start": 80.36,
+                    "end": 80.7,
+                    "rawStart": 197,
+                    "rawEnd": 197,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "里",
+                    "start": 80.7,
+                    "end": 80.94,
+                    "rawStart": 198,
+                    "rawEnd": 198,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "说",
+                    "start": 80.94,
+                    "end": 81.24,
+                    "rawStart": 199,
+                    "rawEnd": 199,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "没",
+                    "start": 81.68,
+                    "end": 81.92,
+                    "rawStart": 200,
+                    "rawEnd": 200,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "有",
+                    "start": 81.68,
+                    "end": 81.92,
+                    "rawStart": 201,
+                    "rawEnd": 201,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 81.92,
+                    "end": 82.32,
+                    "rawStart": 202,
+                    "rawEnd": 203,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "他",
+                    "start": 82.32,
+                    "end": 83.6,
+                    "rawStart": 204,
+                    "rawEnd": 204,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 82.32,
+                    "end": 83.6,
+                    "rawStart": 205,
+                    "rawEnd": 205,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "都",
+                    "start": 83.6,
+                    "end": 84.1,
+                    "rawStart": 206,
+                    "rawEnd": 206,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 83.6,
+                    "end": 84.1,
+                    "rawStart": 207,
+                    "rawEnd": 207,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "邪",
+                    "start": 84.1,
+                    "end": 84.66,
+                    "rawStart": 208,
+                    "rawEnd": 208,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 76.98,
+                  "score": 0.9211,
+                  "actual": "1集鱼丸人心里说没有神他们都是邪"
+                }
+              },
+              "body": "愚顽人心里说:“没有神。”他们都是邪恶,行了可憎恶的事;没有一个人行善。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.703,
+          "coherentCoverage": 0.703,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.5,
+          "suffixCoverage": 0.889,
+          "unmatchedLeadingChars": 9,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-verified-end"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (9 leading chars, coverage 0.500): target 5: 诗篇14:1 愚顽人心里说：“没有神。”他们都是邪恶，行了可憎恶的事；没有一个人行善。",
+    "unverified start anchor: target 5: 诗篇14:1 愚顽人心里说：“没有神。”他们都是邪恶，行了可憎恶的事；没有一个人行善。",
+    "repair unverified start (previous-verified-end): target 5"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "74088b63114566cfceb0927c88f390f8b9ab4bd8bca1e6dbb22595033e0fade7",
+  "repairCueDigest": "ce1434e467df29d45a4cbfd3cfcbf7186dd2292fa67e85c2b64d8636306a6212",
+  "previousAlignmentWarnings": []
 }

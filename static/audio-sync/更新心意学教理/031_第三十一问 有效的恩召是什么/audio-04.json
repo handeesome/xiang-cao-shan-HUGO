@@ -8,76 +8,1778 @@
   "audioDuration": 151.344,
   "cues": [
     {
-      "start": 2.02,
-      "end": 3.28,
-      "kind": "heading",
-      "targetIndex": 16,
-      "targetText": "礼拜四",
-      "confidence": 0.8
-    },
-    {
       "start": 3.28,
-      "end": 39.04,
+      "end": 41.72,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "即使人们明白自己有罪需要被救这也是不够的他们必须明白如何能够得救在全世界的人类历史中间人们发明了",
-      "confidence": 0.783
+      "confidence": 0.94,
+      "quality": {
+        "coverage": 0.909,
+        "coherentCoverage": 0.901,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.5,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 6,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 3.28,
+        "previousEnd": 39.04,
+        "previousConfidence": 0.948
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 39.04,
+            "time": 41.72,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\31-4.mp3.json",
+              "sha256": "2bde9d02db2a42840dba3b035b7fcccebf85aaaedef96f02be83f1c882594944",
+              "anchor": {
+                "time": 41.72,
+                "score": 0.783,
+                "ratio": 0.7857,
+                "expected": "zhenliqingdugelinduoqianshuerzhang14jie",
+                "actual": "真理请读各领导前说2章14节",
+                "span": [
+                  37.06,
+                  41.72
+                ],
+                "tokens": [
+                  {
+                    "text": "真",
+                    "start": 37.06,
+                    "end": 37.22,
+                    "rawStart": 110,
+                    "rawEnd": 110,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "理",
+                    "start": 37.22,
+                    "end": 37.52,
+                    "rawStart": 111,
+                    "rawEnd": 111,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "请",
+                    "start": 38.2,
+                    "end": 38.8,
+                    "rawStart": 112,
+                    "rawEnd": 112,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "读",
+                    "start": 38.8,
+                    "end": 39.04,
+                    "rawStart": 113,
+                    "rawEnd": 113,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "各",
+                    "start": 39.04,
+                    "end": 39.3,
+                    "rawStart": 114,
+                    "rawEnd": 114,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "领",
+                    "start": 39.3,
+                    "end": 39.44,
+                    "rawStart": 115,
+                    "rawEnd": 115,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "导",
+                    "start": 39.44,
+                    "end": 39.58,
+                    "rawStart": 116,
+                    "rawEnd": 116,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "前",
+                    "start": 39.58,
+                    "end": 39.82,
+                    "rawStart": 117,
+                    "rawEnd": 117,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "说",
+                    "start": 39.82,
+                    "end": 40.08,
+                    "rawStart": 118,
+                    "rawEnd": 118,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "2",
+                    "start": 40.08,
+                    "end": 40.4,
+                    "rawStart": 119,
+                    "rawEnd": 119,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "章",
+                    "start": 40.4,
+                    "end": 40.64,
+                    "rawStart": 120,
+                    "rawEnd": 120,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 40.64,
+                    "end": 41.42,
+                    "rawStart": 121,
+                    "rawEnd": 121,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "4",
+                    "start": 40.64,
+                    "end": 41.42,
+                    "rawStart": 122,
+                    "rawEnd": 122,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "节",
+                    "start": 41.42,
+                    "end": 41.72,
+                    "rawStart": 123,
+                    "rawEnd": 123,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "即使人们明白自己有罪,需要被救,这也是不够的。他们必须明白如何能够得救。在全世界的人类历史中间,人们发明了许多与上帝和好的方式。但是因为人的思想有罪,无论怎样挖空心思也没办法弄明白如何得救。那是因为,他的理性都是有罪的,不能理解属灵的真理。请读哥林多前书2:14。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.909,
+          "coherentCoverage": 0.901,
+          "extraSpeechContext": false,
+          "prefixCoverage": 1.0,
+          "suffixCoverage": 0.5,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 6,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 39.04,
-      "end": 57.2,
+      "start": 42.74,
+      "end": 55.96,
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "哥林多前书214然而属血气的人不领会上帝圣灵的事反倒以为愚拙并且不能知道因为这些事惟有属灵的人才",
-      "confidence": 0.769
+      "confidence": 0.849,
+      "quality": {
+        "coverage": 0.83,
+        "coherentCoverage": 0.792,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 5,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 39.04,
+        "previousEnd": 55.96,
+        "previousConfidence": 0.769
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 39.04,
+            "time": 42.74,
+            "reason": "前段提示末尾仍需修正，本段用经文实际起句定位",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\31-4.mp3.json",
+              "sha256": "2bde9d02db2a42840dba3b035b7fcccebf85aaaedef96f02be83f1c882594944",
+              "anchor": {
+                "time": 42.74,
+                "score": 0.9249,
+                "ratio": 0.9286,
+                "expected": "ranershuxueqiderenbulinghuishenshenglingde",
+                "actual": "然而属血气的人不领会神圣女的",
+                "span": [
+                  42.74,
+                  47.24
+                ],
+                "tokens": [
+                  {
+                    "text": "然",
+                    "start": 42.74,
+                    "end": 43.34,
+                    "rawStart": 124,
+                    "rawEnd": 124,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "而",
+                    "start": 43.34,
+                    "end": 43.68,
+                    "rawStart": 125,
+                    "rawEnd": 125,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "属",
+                    "start": 43.68,
+                    "end": 44.36,
+                    "rawStart": 126,
+                    "rawEnd": 126,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "血",
+                    "start": 44.36,
+                    "end": 44.76,
+                    "rawStart": 127,
+                    "rawEnd": 127,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "气",
+                    "start": 44.76,
+                    "end": 44.9,
+                    "rawStart": 128,
+                    "rawEnd": 128,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 44.9,
+                    "end": 45.26,
+                    "rawStart": 129,
+                    "rawEnd": 129,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 44.9,
+                    "end": 45.26,
+                    "rawStart": 130,
+                    "rawEnd": 130,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "不",
+                    "start": 45.26,
+                    "end": 45.82,
+                    "rawStart": 131,
+                    "rawEnd": 131,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "领",
+                    "start": 45.82,
+                    "end": 45.98,
+                    "rawStart": 132,
+                    "rawEnd": 132,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "会",
+                    "start": 45.98,
+                    "end": 46.22,
+                    "rawStart": 133,
+                    "rawEnd": 133,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 46.22,
+                    "end": 46.64,
+                    "rawStart": 134,
+                    "rawEnd": 135,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "圣",
+                    "start": 46.64,
+                    "end": 46.96,
+                    "rawStart": 136,
+                    "rawEnd": 136,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "女",
+                    "start": 46.96,
+                    "end": 47.1,
+                    "rawStart": 137,
+                    "rawEnd": 137,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 47.1,
+                    "end": 47.24,
+                    "rawStart": 138,
+                    "rawEnd": 138,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 40.64,
+                  "score": 0.82,
+                  "actual": "14节然而属血气的人不领会神圣"
+                }
+              },
+              "body": "然而,属血气的人不领会神圣灵的事,反倒以为愚拙,并且不能知道,因为这些事惟有属灵的人才能看透。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.83,
+          "coherentCoverage": 0.792,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.75,
+          "suffixCoverage": 0.9,
+          "unmatchedLeadingChars": 5,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     },
     {
       "start": 57.2,
-      "end": 64.08,
+      "end": 65.34,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "属血气的人以为上帝圣灵的事情是愚拙的请读哥林多前书212",
-      "confidence": 0.83
+      "confidence": 0.68,
+      "quality": {
+        "coverage": 0.567,
+        "coherentCoverage": 0.467,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.933,
+        "suffixCoverage": 0.2,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 10,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "source": "context-reviewed-read-prompt-ending",
+          "contextUsed": true,
+          "identityAmbiguous": false,
+          "continuousAnchor": false,
+          "timingPrecision": "word",
+          "time": 65.34,
+          "expectedPhrase": "属血气的人以为上帝圣灵的事情是愚拙的。请读哥林多前书2:12。",
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\31-4.mp3.json",
+          "transcriptSha256": "1e0b8dd00cf79ec813301f7502be9833129cfaa347d4bb1434f9ebf61e59e9ce",
+          "audioSha256": "3c404aa239b0e4daaf8a4eefe0e21f2d3dedfeb9ec4007f66b5430490c4daeee",
+          "rawSegments": [
+            {
+              "start": 61.48,
+              "end": 65.34,
+              "text": "请读哥林多前书二章十二节",
+              "words": [
+                {
+                  "start": 61.48,
+                  "end": 62.5,
+                  "text": "请",
+                  "probability": 0.30648159980773926
+                },
+                {
+                  "start": 62.5,
+                  "end": 62.84,
+                  "text": "读",
+                  "probability": 0.9570745229721069
+                },
+                {
+                  "start": 62.84,
+                  "end": 63.32,
+                  "text": "哥",
+                  "probability": 0.4347069561481476
+                },
+                {
+                  "start": 63.32,
+                  "end": 63.42,
+                  "text": "林",
+                  "probability": 0.6787496209144592
+                },
+                {
+                  "start": 63.42,
+                  "end": 63.56,
+                  "text": "多",
+                  "probability": 0.9532474279403687
+                },
+                {
+                  "start": 63.56,
+                  "end": 63.8,
+                  "text": "前",
+                  "probability": 0.591050386428833
+                },
+                {
+                  "start": 63.8,
+                  "end": 64.08,
+                  "text": "书",
+                  "probability": 0.9468706846237183
+                },
+                {
+                  "start": 64.08,
+                  "end": 64.44,
+                  "text": "二",
+                  "probability": 0.32786810398101807
+                },
+                {
+                  "start": 64.44,
+                  "end": 64.66,
+                  "text": "章",
+                  "probability": 0.9826574921607971
+                },
+                {
+                  "start": 64.66,
+                  "end": 64.94,
+                  "text": "十",
+                  "probability": 0.9481423497200012
+                },
+                {
+                  "start": 64.94,
+                  "end": 65.12,
+                  "text": "二",
+                  "probability": 0.9988861680030823
+                },
+                {
+                  "start": 65.12,
+                  "end": 65.34,
+                  "text": "节",
+                  "probability": 0.5284196734428406
+                }
+              ]
+            }
+          ],
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+          "listenedByAgent": false
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "next-verified-start",
+        "previousStart": 57.2,
+        "previousEnd": 64.08,
+        "previousConfidence": 0.83
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "031_第三十一问 有效的恩召是什么.md",
+          "audio": "31-4.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\031_第三十一问 有效的恩召是什么\\audio-04.json",
+          "caseIndex": 570,
+          "targetIndex": 19,
+          "edge": "end",
+          "previousTime": 62.84,
+          "time": 65.34,
+          "kind": "verified-edge",
+          "previousEvidence": {
+            "verified": false,
+            "source": "next-verified-start"
+          },
+          "previousVerified": false,
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。"
+        }
+      ]
     },
     {
-      "start": 64.08,
-      "end": 78.82,
+      "start": 66.54,
+      "end": 77.26,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "哥林多前书212我们所领受的并不是世上的灵乃是从上帝来的灵叫我们能知道上帝开恩赐给我们的事",
-      "confidence": 0.851
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "localSupported": false,
+          "source": "previous-verified-end",
+          "time": 65.34,
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "referenceOwnershipConstraint": {
+          "ownerTargetIndex": 19,
+          "ownerTargetText": "属血气的人以为上帝圣灵的事情是愚拙的请读哥林多前书212",
+          "notBefore": 65.34,
+          "verifiedSpokenOnset": false
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 64.08,
+        "previousEnd": 77.26,
+        "previousConfidence": 0.851
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "031_第三十一问 有效的恩召是什么.md",
+          "audio": "31-4.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\031_第三十一问 有效的恩召是什么\\audio-04.json",
+          "caseIndex": 570,
+          "targetIndex": 20,
+          "edge": "start",
+          "previousTime": 62.84,
+          "time": 65.34,
+          "kind": "unverified-neighbor-constraint",
+          "previousVerified": true,
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 65.34,
+            "time": 66.54,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\31-4.mp3.json",
+              "sha256": "2bde9d02db2a42840dba3b035b7fcccebf85aaaedef96f02be83f1c882594944",
+              "anchor": {
+                "time": 66.54,
+                "score": 0.9988,
+                "ratio": 1.0,
+                "expected": "womensuolingshoudebingbushishishangdelingnai",
+                "actual": "我们所领受的并不是世上的灵乃",
+                "span": [
+                  66.54,
+                  70.86
+                ],
+                "tokens": [
+                  {
+                    "text": "我",
+                    "start": 66.54,
+                    "end": 67.1,
+                    "rawStart": 197,
+                    "rawEnd": 197,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 66.54,
+                    "end": 67.1,
+                    "rawStart": 198,
+                    "rawEnd": 198,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "所",
+                    "start": 67.1,
+                    "end": 67.46,
+                    "rawStart": 199,
+                    "rawEnd": 199,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "领",
+                    "start": 67.46,
+                    "end": 67.64,
+                    "rawStart": 200,
+                    "rawEnd": 200,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "受",
+                    "start": 67.64,
+                    "end": 68.0,
+                    "rawStart": 201,
+                    "rawEnd": 201,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 68.0,
+                    "end": 68.26,
+                    "rawStart": 202,
+                    "rawEnd": 202,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "并",
+                    "start": 68.26,
+                    "end": 68.96,
+                    "rawStart": 203,
+                    "rawEnd": 203,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "不",
+                    "start": 68.96,
+                    "end": 69.26,
+                    "rawStart": 204,
+                    "rawEnd": 204,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 68.96,
+                    "end": 69.26,
+                    "rawStart": 205,
+                    "rawEnd": 205,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "世",
+                    "start": 69.26,
+                    "end": 69.54,
+                    "rawStart": 206,
+                    "rawEnd": 206,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "上",
+                    "start": 69.54,
+                    "end": 69.78,
+                    "rawStart": 207,
+                    "rawEnd": 207,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 69.78,
+                    "end": 69.92,
+                    "rawStart": 208,
+                    "rawEnd": 208,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "灵",
+                    "start": 69.92,
+                    "end": 70.14,
+                    "rawStart": 209,
+                    "rawEnd": 209,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "乃",
+                    "start": 70.14,
+                    "end": 70.86,
+                    "rawStart": 210,
+                    "rawEnd": 210,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 64.44,
+                  "score": 0.8198,
+                  "actual": "章12节我们所领受的并不是世上的灵"
+                }
+              },
+              "body": "我们所领受的,并不是世上的灵,乃是从神来的灵,叫我们能知道神开恩赐给我们的事。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 1.0,
+          "coherentCoverage": 1.0,
+          "extraSpeechContext": false,
+          "prefixCoverage": 1.0,
+          "suffixCoverage": 1.0,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "localSupported": false,
+            "source": "previous-verified-end",
+            "time": 65.34,
+            "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "referenceOwnershipConstraint": {
+            "ownerTargetIndex": 19,
+            "ownerTargetText": "属血气的人以为上帝圣灵的事情是愚拙的请读哥林多前书212",
+            "notBefore": 65.34,
+            "verifiedSpokenOnset": false
+          }
+        }
+      }
     },
     {
       "start": 78.82,
-      "end": 94.8,
+      "end": 98.92,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "如果人们不相信耶稣能救他们他们就不会信靠耶稣来救他们脱离罪恶这世界的假上帝想方设法阻止人们明白耶",
-      "confidence": 0.661
+      "confidence": 0.86,
+      "quality": {
+        "coverage": 0.887,
+        "coherentCoverage": 0.871,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 78.82,
+        "previousEnd": 94.8,
+        "previousConfidence": 0.875
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 94.8,
+            "time": 98.92,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\31-4.mp3.json",
+              "sha256": "2bde9d02db2a42840dba3b035b7fcccebf85aaaedef96f02be83f1c882594944",
+              "anchor": {
+                "time": 98.92,
+                "score": 0.853,
+                "ratio": 0.8571,
+                "expected": "sushishuiqingdugelinduohoushusizhangsijie",
+                "actual": "稣是谁庆督各领多后书4装4结",
+                "span": [
+                  94.38,
+                  98.92
+                ],
+                "tokens": [
+                  {
+                    "text": "稣",
+                    "start": 94.38,
+                    "end": 94.58,
+                    "rawStart": 284,
+                    "rawEnd": 284,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 94.58,
+                    "end": 94.8,
+                    "rawStart": 285,
+                    "rawEnd": 285,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "谁",
+                    "start": 94.8,
+                    "end": 95.16,
+                    "rawStart": 286,
+                    "rawEnd": 286,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "庆",
+                    "start": 95.92,
+                    "end": 96.48,
+                    "rawStart": 287,
+                    "rawEnd": 287,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "督",
+                    "start": 96.48,
+                    "end": 96.7,
+                    "rawStart": 288,
+                    "rawEnd": 288,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "各",
+                    "start": 96.7,
+                    "end": 97.0,
+                    "rawStart": 289,
+                    "rawEnd": 289,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "领",
+                    "start": 97.0,
+                    "end": 97.1,
+                    "rawStart": 290,
+                    "rawEnd": 290,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "多",
+                    "start": 97.1,
+                    "end": 97.26,
+                    "rawStart": 291,
+                    "rawEnd": 291,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "后",
+                    "start": 97.26,
+                    "end": 97.46,
+                    "rawStart": 292,
+                    "rawEnd": 292,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "书",
+                    "start": 97.46,
+                    "end": 97.72,
+                    "rawStart": 293,
+                    "rawEnd": 293,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "4",
+                    "start": 97.72,
+                    "end": 98.08,
+                    "rawStart": 294,
+                    "rawEnd": 294,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "装",
+                    "start": 98.08,
+                    "end": 98.36,
+                    "rawStart": 295,
+                    "rawEnd": 295,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "4",
+                    "start": 98.36,
+                    "end": 98.64,
+                    "rawStart": 296,
+                    "rawEnd": 296,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "结",
+                    "start": 98.64,
+                    "end": 98.92,
+                    "rawStart": 297,
+                    "rawEnd": 297,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "如果人们不相信耶稣能救他们,他们就不会信靠耶稣来救他们脱离罪恶。这世界的假神想方设法阻止人们明白耶稣是谁。请读哥林多后书4:4。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.887,
+          "coherentCoverage": 0.871,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.95,
+          "suffixCoverage": 0.7,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 1,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 94.8,
-      "end": 111.96,
+      "start": 100.78,
+      "end": 112.12,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "哥林多后书44此等不信之人被这世界的上帝弄瞎了心眼不叫基督荣耀福音的光照着他们基督本是上帝的像",
-      "confidence": 0.633
+      "confidence": 0.76,
+      "quality": {
+        "coverage": 0.673,
+        "coherentCoverage": 0.51,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.45,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 10,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\31-4.mp3.json",
+          "transcriptSha256": "1e0b8dd00cf79ec813301f7502be9833129cfaa347d4bb1434f9ebf61e59e9ce",
+          "candidate": 112.12,
+          "expectedPhrase": "们基督本是神的像",
+          "actualPhrase": "们基督本事神的相",
+          "phoneticPhrase": [
+            "men",
+            "ji",
+            "du",
+            "ben",
+            "shi",
+            "shen",
+            "de",
+            "xiang"
+          ],
+          "verified": true,
+          "time": 112.12,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "exact-local-syllables-original-word-times",
+          "phoneticExact": true,
+          "literalEqual": false,
+          "wordTokens": [
+            {
+              "text": "们",
+              "start": 109.12,
+              "end": 109.42,
+              "rawStart": 329,
+              "rawEnd": 329,
+              "precision": "word"
+            },
+            {
+              "text": "基",
+              "start": 110.02,
+              "end": 110.58,
+              "rawStart": 330,
+              "rawEnd": 330,
+              "precision": "word"
+            },
+            {
+              "text": "督",
+              "start": 110.58,
+              "end": 110.84,
+              "rawStart": 331,
+              "rawEnd": 331,
+              "precision": "word"
+            },
+            {
+              "text": "本",
+              "start": 110.84,
+              "end": 111.26,
+              "rawStart": 332,
+              "rawEnd": 332,
+              "precision": "word"
+            },
+            {
+              "text": "事",
+              "start": 111.26,
+              "end": 111.54,
+              "rawStart": 333,
+              "rawEnd": 333,
+              "precision": "word"
+            },
+            {
+              "text": "神",
+              "start": 111.54,
+              "end": 111.84,
+              "rawStart": 334,
+              "rawEnd": 335,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 111.84,
+              "end": 111.96,
+              "rawStart": 336,
+              "rawEnd": 336,
+              "precision": "word"
+            },
+            {
+              "text": "相",
+              "start": 111.96,
+              "end": 112.12,
+              "rawStart": 337,
+              "rawEnd": 337,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "audioSha256": "3c404aa239b0e4daaf8a4eefe0e21f2d3dedfeb9ec4007f66b5430490c4daeee",
+          "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 94.8,
+        "previousEnd": 111.96,
+        "previousConfidence": 0.735
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "031_第三十一问 有效的恩召是什么.md",
+          "audio": "31-4.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\031_第三十一问 有效的恩召是什么\\audio-04.json",
+          "targetIndex": 22,
+          "edge": "end",
+          "previousTime": 111.96,
+          "time": 112.12,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 94.8,
+            "time": 100.78,
+            "reason": "前段提示末尾仍需修正，本段用经文实际起句定位",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\31-4.mp3.json",
+              "sha256": "2bde9d02db2a42840dba3b035b7fcccebf85aaaedef96f02be83f1c882594944",
+              "anchor": {
+                "time": 100.78,
+                "score": 0.8282,
+                "ratio": 0.8462,
+                "expected": "cidengbuxinzhirenbeizheshijiedeshennongxia",
+                "actual": "等不幸之人被这世界的神弄",
+                "span": [
+                  100.78,
+                  104.86
+                ],
+                "tokens": [
+                  {
+                    "text": "等",
+                    "start": 100.78,
+                    "end": 101.12,
+                    "rawStart": 299,
+                    "rawEnd": 299,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "不",
+                    "start": 101.68,
+                    "end": 101.74,
+                    "rawStart": 300,
+                    "rawEnd": 300,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "幸",
+                    "start": 101.74,
+                    "end": 101.98,
+                    "rawStart": 301,
+                    "rawEnd": 301,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "之",
+                    "start": 101.98,
+                    "end": 102.22,
+                    "rawStart": 302,
+                    "rawEnd": 302,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 102.22,
+                    "end": 102.46,
+                    "rawStart": 303,
+                    "rawEnd": 303,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "被",
+                    "start": 102.46,
+                    "end": 103.12,
+                    "rawStart": 304,
+                    "rawEnd": 304,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "这",
+                    "start": 103.12,
+                    "end": 103.62,
+                    "rawStart": 305,
+                    "rawEnd": 305,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "世",
+                    "start": 103.62,
+                    "end": 104.12,
+                    "rawStart": 306,
+                    "rawEnd": 306,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "界",
+                    "start": 103.62,
+                    "end": 104.12,
+                    "rawStart": 307,
+                    "rawEnd": 307,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 104.12,
+                    "end": 104.34,
+                    "rawStart": 308,
+                    "rawEnd": 308,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 104.34,
+                    "end": 104.56,
+                    "rawStart": 309,
+                    "rawEnd": 310,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "弄",
+                    "start": 104.56,
+                    "end": 104.86,
+                    "rawStart": 311,
+                    "rawEnd": 311,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "此等不信之人,被这世界的神弄瞎了心眼,不叫基督荣耀福音的光照着他们。基督本是神的像。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.673,
+          "coherentCoverage": 0.51,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.45,
+          "suffixCoverage": 0.8,
+          "unmatchedLeadingChars": 10,
+          "unmatchedTrailingChars": 1,
+          "reviewRequired": true,
+          "boundaryAdjusted": [
+            "end substitution"
+          ],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\31-4.mp3.json",
+            "transcriptSha256": "1e0b8dd00cf79ec813301f7502be9833129cfaa347d4bb1434f9ebf61e59e9ce",
+            "candidate": 112.12,
+            "expectedPhrase": "们基督本是神的像",
+            "actualPhrase": "们基督本事神的相",
+            "phoneticPhrase": [
+              "men",
+              "ji",
+              "du",
+              "ben",
+              "shi",
+              "shen",
+              "de",
+              "xiang"
+            ],
+            "verified": true,
+            "time": 112.12,
+            "localSupported": true,
+            "timingPrecision": "word",
+            "source": "exact-local-syllables-original-word-times",
+            "phoneticExact": true,
+            "literalEqual": false,
+            "wordTokens": [
+              {
+                "text": "们",
+                "start": 109.12,
+                "end": 109.42,
+                "rawStart": 329,
+                "rawEnd": 329,
+                "precision": "word"
+              },
+              {
+                "text": "基",
+                "start": 110.02,
+                "end": 110.58,
+                "rawStart": 330,
+                "rawEnd": 330,
+                "precision": "word"
+              },
+              {
+                "text": "督",
+                "start": 110.58,
+                "end": 110.84,
+                "rawStart": 331,
+                "rawEnd": 331,
+                "precision": "word"
+              },
+              {
+                "text": "本",
+                "start": 110.84,
+                "end": 111.26,
+                "rawStart": 332,
+                "rawEnd": 332,
+                "precision": "word"
+              },
+              {
+                "text": "事",
+                "start": 111.26,
+                "end": 111.54,
+                "rawStart": 333,
+                "rawEnd": 333,
+                "precision": "word"
+              },
+              {
+                "text": "神",
+                "start": 111.54,
+                "end": 111.84,
+                "rawStart": 334,
+                "rawEnd": 335,
+                "precision": "word"
+              },
+              {
+                "text": "的",
+                "start": 111.84,
+                "end": 111.96,
+                "rawStart": 336,
+                "rawEnd": 336,
+                "precision": "word"
+              },
+              {
+                "text": "相",
+                "start": 111.96,
+                "end": 112.12,
+                "rawStart": 337,
+                "rawEnd": 337,
+                "precision": "word"
+              }
+            ],
+            "listenedByAgent": false,
+            "audioSha256": "3c404aa239b0e4daaf8a4eefe0e21f2d3dedfeb9ec4007f66b5430490c4daeee",
+            "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+          }
+        }
+      }
     },
     {
-      "start": 111.96,
+      "start": 113.48,
       "end": 134.54,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "在有效的呼召中圣灵向我们显明我们需要一位救主祂也光照我们的思想祂让我们明白上帝已经赐下一位救我们",
-      "confidence": 0.876
+      "confidence": 0.87,
+      "quality": {
+        "coverage": 0.901,
+        "coherentCoverage": 0.873,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 113.48,
+        "previousEnd": 134.54,
+        "previousConfidence": 0.882
+      }
     },
     {
-      "start": 134.54,
+      "start": 136.72,
       "end": 150.1,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "哥林多后书46那吩咐光从黑暗里照出来的上帝已经照在我们心里叫我们得知上帝荣耀的光显在耶稣基督的面",
-      "confidence": 0.632
+      "confidence": 0.907,
+      "quality": {
+        "coverage": 0.784,
+        "coherentCoverage": 0.784,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.5,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 9,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 134.54,
+        "previousEnd": 150.1,
+        "previousConfidence": 0.842
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 134.54,
+            "time": 136.72,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\31-4.mp3.json",
+              "sha256": "2bde9d02db2a42840dba3b035b7fcccebf85aaaedef96f02be83f1c882594944",
+              "anchor": {
+                "time": 136.72,
+                "score": 0.9264,
+                "ratio": 0.9286,
+                "expected": "nafenfuguangcongheianlizhaochulaideshenyi",
+                "actual": "那吩咐光从黑暗里长出来的神已",
+                "span": [
+                  136.72,
+                  142.1
+                ],
+                "tokens": [
+                  {
+                    "text": "那",
+                    "start": 136.72,
+                    "end": 137.36,
+                    "rawStart": 409,
+                    "rawEnd": 409,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "吩",
+                    "start": 137.36,
+                    "end": 137.92,
+                    "rawStart": 410,
+                    "rawEnd": 410,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "咐",
+                    "start": 137.92,
+                    "end": 138.26,
+                    "rawStart": 411,
+                    "rawEnd": 411,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "光",
+                    "start": 138.26,
+                    "end": 138.78,
+                    "rawStart": 412,
+                    "rawEnd": 412,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "从",
+                    "start": 138.78,
+                    "end": 139.46,
+                    "rawStart": 413,
+                    "rawEnd": 413,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "黑",
+                    "start": 139.46,
+                    "end": 139.9,
+                    "rawStart": 414,
+                    "rawEnd": 414,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "暗",
+                    "start": 139.9,
+                    "end": 140.1,
+                    "rawStart": 415,
+                    "rawEnd": 415,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "里",
+                    "start": 140.1,
+                    "end": 140.26,
+                    "rawStart": 416,
+                    "rawEnd": 416,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "长",
+                    "start": 140.26,
+                    "end": 140.52,
+                    "rawStart": 417,
+                    "rawEnd": 417,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "出",
+                    "start": 140.52,
+                    "end": 140.86,
+                    "rawStart": 418,
+                    "rawEnd": 418,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "来",
+                    "start": 140.52,
+                    "end": 140.86,
+                    "rawStart": 419,
+                    "rawEnd": 419,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 140.86,
+                    "end": 141.0,
+                    "rawStart": 420,
+                    "rawEnd": 420,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 141.0,
+                    "end": 141.24,
+                    "rawStart": 421,
+                    "rawEnd": 422,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "已",
+                    "start": 141.24,
+                    "end": 142.1,
+                    "rawStart": 423,
+                    "rawEnd": 423,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "那吩咐光从黑暗里照出来的神,已经照在我们心里,叫我们得知神荣耀的光显在耶稣基督的面上。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.784,
+          "coherentCoverage": 0.784,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.5,
+          "suffixCoverage": 1.0,
+          "unmatchedLeadingChars": 9,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (6 trailing chars, coverage 0.500): target 17: 即使人们明白自己有罪，需要被救，这也是不够的。他们必须明白如何能够得救。在全世界的人类历史中间，",
+    "unverified end anchor: target 17: 即使人们明白自己有罪，需要被救，这也是不够的。他们必须明白如何能够得救。在全世界的人类历史中间，",
+    "incomplete start (5 leading chars, coverage 0.750): target 18: 哥林多前书2:14 然而，属血气的人不领会神圣灵的事，反倒以为愚拙，并且不能知道，因为这些事惟有",
+    "unverified start anchor: target 18: 哥林多前书2:14 然而，属血气的人不领会神圣灵的事，反倒以为愚拙，并且不能知道，因为这些事惟有",
+    "incomplete end (10 trailing chars, coverage 0.200): target 19: 属血气的人以为上帝圣灵的事情是愚拙的。请读哥林多前书2:12。",
+    "unverified end anchor: target 19: 属血气的人以为上帝圣灵的事情是愚拙的。请读哥林多前书2:12。",
+    "unverified end anchor: target 21: 如果人们不相信耶稣能救他们，他们就不会信靠耶稣来救他们脱离罪恶。这世界的假神想方设法阻止人们明白",
+    "incomplete start (10 leading chars, coverage 0.450): target 22: 哥林多后书4:4 此等不信之人，被这世界的神弄瞎了心眼，不叫基督荣耀福音的光照着他们。基督本是神",
+    "unverified start anchor: target 22: 哥林多后书4:4 此等不信之人，被这世界的神弄瞎了心眼，不叫基督荣耀福音的光照着他们。基督本是神",
+    "unverified end anchor: target 22: 哥林多后书4:4 此等不信之人，被这世界的神弄瞎了心眼，不叫基督荣耀福音的光照着他们。基督本是神",
+    "incomplete start (9 leading chars, coverage 0.500): target 24: 哥林多后书4:6 那吩咐光从黑暗里照出来的神，已经照在我们心里，叫我们得知神荣耀的光显在耶稣基督",
+    "unverified start anchor: target 24: 哥林多后书4:6 那吩咐光从黑暗里照出来的神，已经照在我们心里，叫我们得知神荣耀的光显在耶稣基督",
+    "repair unverified end (previous-sync): target 17",
+    "repair unverified start (previous-sync): target 18",
+    "repair unverified end (next-verified-start): target 19",
+    "repair unverified end (previous-sync): target 21",
+    "repair unverified start (previous-sync): target 22",
+    "repair unverified end (previous-sync): target 22",
+    "repair unverified start (previous-sync): target 24",
+    "context reviewed end: target 19; 前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+    "unverified constrained start: target 20; 旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 3,
+    "unverifiedEnds": 4,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "093065e204c8e9878df26c3e7524bff7110555988824880a5870e72c62306bbc",
+  "repairCueDigest": "abeea27229fee099e4804ed00fba9e4403dffccc3189035502c38558e76b214b",
+  "previousAlignmentWarnings": []
 }

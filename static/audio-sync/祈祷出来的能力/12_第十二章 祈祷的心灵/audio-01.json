@@ -8,108 +8,2368 @@
   "audioDuration": 592.887,
   "cues": [
     {
-      "start": 0.27,
-      "end": 5.23,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第十二章祈祷的心灵",
-      "confidence": 0.889
-    },
-    {
       "start": 5.23,
-      "end": 18.55,
+      "end": 18.85,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "不是从心中发出来就不能达到别人的心中不是从活的良心中发出的就不能刺入他人的良心威廉潘恩willi",
-      "confidence": 0.771
+      "confidence": 0.771,
+      "quality": {
+        "coverage": 0.685,
+        "coherentCoverage": 0.556,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.3,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 14,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 5.23,
+        "previousEnd": 18.55,
+        "previousConfidence": 0.771
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 18.55,
+            "time": 18.85,
+            "reason": "核对原识别稿的相邻句及同一段实际读法；按真实句首或句尾定位，识别错字、译法差异和短省略不作逐字否决。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\祈祷出来的能力\\12.mp3.json",
+              "sha256": "4e51fafe45a2c85e963746ef5160c358b5acd471e5546fc609c615e9a64d706f",
+              "source": "context-reviewed-paragraph-approximation",
+              "segments": [
+                {
+                  "start": 11.55,
+                  "end": 13.97,
+                  "text": "不是从活的良心中发出来",
+                  "words": [
+                    {
+                      "start": 11.55,
+                      "end": 12.07,
+                      "text": "不是",
+                      "probability": 0.904881477355957
+                    },
+                    {
+                      "start": 12.07,
+                      "end": 12.43,
+                      "text": "从",
+                      "probability": 0.984764814376831
+                    },
+                    {
+                      "start": 12.43,
+                      "end": 12.77,
+                      "text": "活",
+                      "probability": 0.9132253527641296
+                    },
+                    {
+                      "start": 12.77,
+                      "end": 12.91,
+                      "text": "的",
+                      "probability": 0.7674280405044556
+                    },
+                    {
+                      "start": 12.91,
+                      "end": 13.11,
+                      "text": "良",
+                      "probability": 0.9254747033119202
+                    },
+                    {
+                      "start": 13.11,
+                      "end": 13.31,
+                      "text": "心",
+                      "probability": 0.9967443943023682
+                    },
+                    {
+                      "start": 13.31,
+                      "end": 13.49,
+                      "text": "中",
+                      "probability": 0.9925393462181091
+                    },
+                    {
+                      "start": 13.49,
+                      "end": 13.73,
+                      "text": "发",
+                      "probability": 0.9932025074958801
+                    },
+                    {
+                      "start": 13.73,
+                      "end": 13.97,
+                      "text": "出来",
+                      "probability": 0.7015527486801147
+                    }
+                  ]
+                },
+                {
+                  "start": 13.97,
+                  "end": 17.27,
+                  "text": "就不能次入他人的良心",
+                  "words": [
+                    {
+                      "start": 13.97,
+                      "end": 14.97,
+                      "text": "就",
+                      "probability": 0.38221195340156555
+                    },
+                    {
+                      "start": 14.97,
+                      "end": 15.71,
+                      "text": "不能",
+                      "probability": 0.9979962110519409
+                    },
+                    {
+                      "start": 15.71,
+                      "end": 16.13,
+                      "text": "次",
+                      "probability": 0.18611125648021698
+                    },
+                    {
+                      "start": 16.13,
+                      "end": 16.27,
+                      "text": "入",
+                      "probability": 0.803256094455719
+                    },
+                    {
+                      "start": 16.27,
+                      "end": 16.51,
+                      "text": "他",
+                      "probability": 0.520689845085144
+                    },
+                    {
+                      "start": 16.51,
+                      "end": 16.67,
+                      "text": "人",
+                      "probability": 0.7849856019020081
+                    },
+                    {
+                      "start": 16.67,
+                      "end": 16.77,
+                      "text": "的",
+                      "probability": 0.9965369701385498
+                    },
+                    {
+                      "start": 16.77,
+                      "end": 16.97,
+                      "text": "良",
+                      "probability": 0.9950012564659119
+                    },
+                    {
+                      "start": 16.97,
+                      "end": 17.27,
+                      "text": "心",
+                      "probability": 0.9990450739860535
+                    }
+                  ]
+                },
+                {
+                  "start": 17.83,
+                  "end": 18.85,
+                  "text": "蓬威脸",
+                  "words": [
+                    {
+                      "start": 17.83,
+                      "end": 18.35,
+                      "text": "蓬",
+                      "probability": 0.6048823371529579
+                    },
+                    {
+                      "start": 18.35,
+                      "end": 18.55,
+                      "text": "威",
+                      "probability": 0.8940710127353668
+                    },
+                    {
+                      "start": 18.55,
+                      "end": 18.85,
+                      "text": "脸",
+                      "probability": 0.5872744843363762
+                    }
+                  ]
+                },
+                {
+                  "start": 20.03,
+                  "end": 23.13,
+                  "text": "在早上多用时间预备头脑",
+                  "words": [
+                    {
+                      "start": 20.03,
+                      "end": 20.55,
+                      "text": "在",
+                      "probability": 0.5141342878341675
+                    },
+                    {
+                      "start": 20.55,
+                      "end": 21.03,
+                      "text": "早",
+                      "probability": 0.9932517409324646
+                    },
+                    {
+                      "start": 21.03,
+                      "end": 21.43,
+                      "text": "上",
+                      "probability": 0.9981213212013245
+                    },
+                    {
+                      "start": 21.43,
+                      "end": 21.69,
+                      "text": "多",
+                      "probability": 0.9502149820327759
+                    },
+                    {
+                      "start": 21.69,
+                      "end": 21.89,
+                      "text": "用",
+                      "probability": 0.992694616317749
+                    },
+                    {
+                      "start": 21.89,
+                      "end": 22.15,
+                      "text": "时间",
+                      "probability": 0.4661233723163605
+                    },
+                    {
+                      "start": 22.15,
+                      "end": 22.43,
+                      "text": "预",
+                      "probability": 0.9835706353187561
+                    },
+                    {
+                      "start": 22.43,
+                      "end": 22.57,
+                      "text": "备",
+                      "probability": 0.9934821724891663
+                    },
+                    {
+                      "start": 22.57,
+                      "end": 22.81,
+                      "text": "头",
+                      "probability": 0.9629461169242859
+                    },
+                    {
+                      "start": 22.81,
+                      "end": 23.13,
+                      "text": "脑",
+                      "probability": 0.9954675734043121
+                    }
+                  ]
+                },
+                {
+                  "start": 23.13,
+                  "end": 24.97,
+                  "text": "过于预备心灵",
+                  "words": [
+                    {
+                      "start": 23.13,
+                      "end": 23.93,
+                      "text": "过",
+                      "probability": 0.7862036824226379
+                    },
+                    {
+                      "start": 23.93,
+                      "end": 24.13,
+                      "text": "于",
+                      "probability": 0.9382944107055664
+                    },
+                    {
+                      "start": 24.13,
+                      "end": 24.35,
+                      "text": "预",
+                      "probability": 0.9983260929584503
+                    },
+                    {
+                      "start": 24.35,
+                      "end": 24.45,
+                      "text": "备",
+                      "probability": 0.9998089373111725
+                    },
+                    {
+                      "start": 24.45,
+                      "end": 24.71,
+                      "text": "心",
+                      "probability": 0.9966492056846619
+                    },
+                    {
+                      "start": 24.71,
+                      "end": 24.97,
+                      "text": "灵",
+                      "probability": 0.9994003772735596
+                    }
+                  ]
+                },
+                {
+                  "start": 24.97,
+                  "end": 27.83,
+                  "text": "这是我常犯的错误",
+                  "words": [
+                    {
+                      "start": 24.97,
+                      "end": 25.89,
+                      "text": "这是",
+                      "probability": 0.85282963514328
+                    },
+                    {
+                      "start": 25.89,
+                      "end": 26.11,
+                      "text": "我",
+                      "probability": 0.993218719959259
+                    },
+                    {
+                      "start": 26.11,
+                      "end": 26.35,
+                      "text": "常",
+                      "probability": 0.6821086406707764
+                    },
+                    {
+                      "start": 26.35,
+                      "end": 26.65,
+                      "text": "犯",
+                      "probability": 0.9981842339038849
+                    },
+                    {
+                      "start": 26.65,
+                      "end": 26.95,
+                      "text": "的",
+                      "probability": 0.30928653478622437
+                    },
+                    {
+                      "start": 26.95,
+                      "end": 27.05,
+                      "text": "错",
+                      "probability": 0.9964708089828491
+                    },
+                    {
+                      "start": 27.05,
+                      "end": 27.83,
+                      "text": "误",
+                      "probability": 0.9882672727108002
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.685,
+          "coherentCoverage": 0.556,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.95,
+          "suffixCoverage": 0.3,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 14,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 18.55,
-      "end": 42.03,
+      "start": 20.03,
+      "end": 42.37,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "在早上多用时间预备头脑过于预备心灵这常是我的错误并且我常常感到它的恶果尤其在祈祷上主啊求祢改正我",
-      "confidence": 0.729
+      "confidence": 0.763,
+      "quality": {
+        "coverage": 0.688,
+        "coherentCoverage": 0.636,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.1,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 11,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 20.03,
+        "previousEnd": 42.03,
+        "previousConfidence": 0.763
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 42.03,
+            "time": 42.37,
+            "reason": "核对原识别稿的相邻句及同一段实际读法；按真实句首或句尾定位，识别错字、译法差异和短省略不作逐字否决。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\祈祷出来的能力\\12.mp3.json",
+              "sha256": "4e51fafe45a2c85e963746ef5160c358b5acd471e5546fc609c615e9a64d706f",
+              "source": "context-reviewed-paragraph-approximation",
+              "segments": [
+                {
+                  "start": 34.53,
+                  "end": 35.41,
+                  "text": "祝啊!",
+                  "words": [
+                    {
+                      "start": 34.53,
+                      "end": 35.03,
+                      "text": "祝",
+                      "probability": 0.649930790066719
+                    },
+                    {
+                      "start": 35.03,
+                      "end": 35.41,
+                      "text": "啊!",
+                      "probability": 0.397024005651474
+                    }
+                  ]
+                },
+                {
+                  "start": 36.43,
+                  "end": 37.55,
+                  "text": "祝你改正我,",
+                  "words": [
+                    {
+                      "start": 36.43,
+                      "end": 36.63,
+                      "text": "祝",
+                      "probability": 0.7423194646835327
+                    },
+                    {
+                      "start": 36.63,
+                      "end": 36.79,
+                      "text": "你",
+                      "probability": 0.7363255023956299
+                    },
+                    {
+                      "start": 36.79,
+                      "end": 36.97,
+                      "text": "改",
+                      "probability": 0.9933885335922241
+                    },
+                    {
+                      "start": 36.97,
+                      "end": 37.23,
+                      "text": "正",
+                      "probability": 0.9701604843139648
+                    },
+                    {
+                      "start": 37.23,
+                      "end": 37.55,
+                      "text": "我,",
+                      "probability": 0.9935583472251892
+                    }
+                  ]
+                },
+                {
+                  "start": 38.23,
+                  "end": 40.87,
+                  "text": "获得我的心灵,我就能讲到。",
+                  "words": [
+                    {
+                      "start": 38.23,
+                      "end": 38.39,
+                      "text": "获",
+                      "probability": 0.6562509536743164
+                    },
+                    {
+                      "start": 38.39,
+                      "end": 38.55,
+                      "text": "得",
+                      "probability": 0.3214277923107147
+                    },
+                    {
+                      "start": 38.55,
+                      "end": 38.83,
+                      "text": "我的",
+                      "probability": 0.9895713329315186
+                    },
+                    {
+                      "start": 38.83,
+                      "end": 39.07,
+                      "text": "心",
+                      "probability": 0.9926255345344543
+                    },
+                    {
+                      "start": 39.07,
+                      "end": 39.29,
+                      "text": "灵,",
+                      "probability": 0.9664531648159027
+                    },
+                    {
+                      "start": 39.79,
+                      "end": 40.05,
+                      "text": "我就",
+                      "probability": 0.9428704380989075
+                    },
+                    {
+                      "start": 40.05,
+                      "end": 40.27,
+                      "text": "能",
+                      "probability": 0.9984307885169983
+                    },
+                    {
+                      "start": 40.27,
+                      "end": 40.51,
+                      "text": "讲",
+                      "probability": 0.9731796383857727
+                    },
+                    {
+                      "start": 40.51,
+                      "end": 40.87,
+                      "text": "到。",
+                      "probability": 0.8938565850257874
+                    }
+                  ]
+                },
+                {
+                  "start": 41.59,
+                  "end": 42.37,
+                  "text": "耐克士,",
+                  "words": [
+                    {
+                      "start": 41.59,
+                      "end": 41.79,
+                      "text": "耐",
+                      "probability": 0.5788048580288887
+                    },
+                    {
+                      "start": 41.79,
+                      "end": 42.03,
+                      "text": "克",
+                      "probability": 0.9782920479774475
+                    },
+                    {
+                      "start": 42.03,
+                      "end": 42.37,
+                      "text": "士,",
+                      "probability": 0.16053922474384308
+                    }
+                  ]
+                },
+                {
+                  "start": 43.37,
+                  "end": 45.01,
+                  "text": "一篇讲章里面,",
+                  "words": [
+                    {
+                      "start": 43.37,
+                      "end": 43.53,
+                      "text": "一",
+                      "probability": 0.9835943579673767
+                    },
+                    {
+                      "start": 43.53,
+                      "end": 43.73,
+                      "text": "篇",
+                      "probability": 0.9741710722446442
+                    },
+                    {
+                      "start": 43.73,
+                      "end": 43.99,
+                      "text": "讲",
+                      "probability": 0.5424560308456421
+                    },
+                    {
+                      "start": 43.99,
+                      "end": 44.19,
+                      "text": "章",
+                      "probability": 0.977853000164032
+                    },
+                    {
+                      "start": 44.19,
+                      "end": 44.45,
+                      "text": "里",
+                      "probability": 0.9620667099952698
+                    },
+                    {
+                      "start": 44.45,
+                      "end": 45.01,
+                      "text": "面,",
+                      "probability": 0.9815388321876526
+                    }
+                  ]
+                },
+                {
+                  "start": 45.35,
+                  "end": 48.43,
+                  "text": "如果多有头脑而少有心灵,",
+                  "words": [
+                    {
+                      "start": 45.35,
+                      "end": 45.63,
+                      "text": "如果",
+                      "probability": 0.9636639356613159
+                    },
+                    {
+                      "start": 45.63,
+                      "end": 46.23,
+                      "text": "多",
+                      "probability": 0.9943379759788513
+                    },
+                    {
+                      "start": 46.23,
+                      "end": 46.47,
+                      "text": "有",
+                      "probability": 0.9884411096572876
+                    },
+                    {
+                      "start": 46.47,
+                      "end": 46.75,
+                      "text": "头",
+                      "probability": 0.983123242855072
+                    },
+                    {
+                      "start": 46.75,
+                      "end": 47.01,
+                      "text": "脑",
+                      "probability": 0.9957564175128937
+                    },
+                    {
+                      "start": 47.01,
+                      "end": 47.47,
+                      "text": "而",
+                      "probability": 0.7655989527702332
+                    },
+                    {
+                      "start": 47.47,
+                      "end": 47.83,
+                      "text": "少",
+                      "probability": 0.8867976069450378
+                    },
+                    {
+                      "start": 47.83,
+                      "end": 47.99,
+                      "text": "有",
+                      "probability": 0.9579097032546997
+                    },
+                    {
+                      "start": 47.99,
+                      "end": 48.23,
+                      "text": "心",
+                      "probability": 0.9991747736930847
+                    },
+                    {
+                      "start": 48.23,
+                      "end": 48.43,
+                      "text": "灵,",
+                      "probability": 0.9994186460971832
+                    }
+                  ]
+                },
+                {
+                  "start": 49.09,
+                  "end": 52.57,
+                  "text": "就不能将果孝带进听众的心中。",
+                  "words": [
+                    {
+                      "start": 49.09,
+                      "end": 49.33,
+                      "text": "就",
+                      "probability": 0.994394063949585
+                    },
+                    {
+                      "start": 49.33,
+                      "end": 49.55,
+                      "text": "不能",
+                      "probability": 0.9982883334159851
+                    },
+                    {
+                      "start": 49.55,
+                      "end": 49.83,
+                      "text": "将",
+                      "probability": 0.9920698404312134
+                    },
+                    {
+                      "start": 49.83,
+                      "end": 50.11,
+                      "text": "果",
+                      "probability": 0.9076740145683289
+                    },
+                    {
+                      "start": 50.11,
+                      "end": 50.47,
+                      "text": "孝",
+                      "probability": 0.6246529519557953
+                    },
+                    {
+                      "start": 50.47,
+                      "end": 50.95,
+                      "text": "带",
+                      "probability": 0.781632125377655
+                    },
+                    {
+                      "start": 50.95,
+                      "end": 51.31,
+                      "text": "进",
+                      "probability": 0.9651422500610352
+                    },
+                    {
+                      "start": 51.31,
+                      "end": 51.75,
+                      "text": "听",
+                      "probability": 0.928019642829895
+                    },
+                    {
+                      "start": 51.75,
+                      "end": 51.95,
+                      "text": "众",
+                      "probability": 0.9846385419368744
+                    },
+                    {
+                      "start": 51.95,
+                      "end": 52.11,
+                      "text": "的",
+                      "probability": 0.9734547138214111
+                    },
+                    {
+                      "start": 52.11,
+                      "end": 52.29,
+                      "text": "心",
+                      "probability": 0.9972139000892639
+                    },
+                    {
+                      "start": 52.29,
+                      "end": 52.57,
+                      "text": "中。",
+                      "probability": 0.9968733191490173
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.688,
+          "coherentCoverage": 0.636,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.95,
+          "suffixCoverage": 0.1,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 11,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 42.03,
-      "end": 53.89,
+      "start": 43.37,
+      "end": 54.39,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "一篇讲章里面如果多有头脑而少有心就不能带着果效进入听众的心中理查德塞西尔richardcecil",
-      "confidence": 0.675
+      "confidence": 0.684,
+      "quality": {
+        "coverage": 0.562,
+        "coherentCoverage": 0.438,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.15,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 13,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 0.875,
+          "localSimilarity": 0.857,
+          "localText": "1篇讲章里面如果多有头脑而少有心就不能带着果效进",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 42.03,
+        "previousEnd": 53.89,
+        "previousConfidence": 0.675
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 53.89,
+            "time": 54.39,
+            "reason": "核对原识别稿的相邻句及同一段实际读法；按真实句首或句尾定位，识别错字、译法差异和短省略不作逐字否决。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\祈祷出来的能力\\12.mp3.json",
+              "sha256": "4e51fafe45a2c85e963746ef5160c358b5acd471e5546fc609c615e9a64d706f",
+              "source": "context-reviewed-paragraph-approximation",
+              "segments": [
+                {
+                  "start": 45.35,
+                  "end": 48.43,
+                  "text": "如果多有头脑而少有心灵,",
+                  "words": [
+                    {
+                      "start": 45.35,
+                      "end": 45.63,
+                      "text": "如果",
+                      "probability": 0.9636639356613159
+                    },
+                    {
+                      "start": 45.63,
+                      "end": 46.23,
+                      "text": "多",
+                      "probability": 0.9943379759788513
+                    },
+                    {
+                      "start": 46.23,
+                      "end": 46.47,
+                      "text": "有",
+                      "probability": 0.9884411096572876
+                    },
+                    {
+                      "start": 46.47,
+                      "end": 46.75,
+                      "text": "头",
+                      "probability": 0.983123242855072
+                    },
+                    {
+                      "start": 46.75,
+                      "end": 47.01,
+                      "text": "脑",
+                      "probability": 0.9957564175128937
+                    },
+                    {
+                      "start": 47.01,
+                      "end": 47.47,
+                      "text": "而",
+                      "probability": 0.7655989527702332
+                    },
+                    {
+                      "start": 47.47,
+                      "end": 47.83,
+                      "text": "少",
+                      "probability": 0.8867976069450378
+                    },
+                    {
+                      "start": 47.83,
+                      "end": 47.99,
+                      "text": "有",
+                      "probability": 0.9579097032546997
+                    },
+                    {
+                      "start": 47.99,
+                      "end": 48.23,
+                      "text": "心",
+                      "probability": 0.9991747736930847
+                    },
+                    {
+                      "start": 48.23,
+                      "end": 48.43,
+                      "text": "灵,",
+                      "probability": 0.9994186460971832
+                    }
+                  ]
+                },
+                {
+                  "start": 49.09,
+                  "end": 52.57,
+                  "text": "就不能将果孝带进听众的心中。",
+                  "words": [
+                    {
+                      "start": 49.09,
+                      "end": 49.33,
+                      "text": "就",
+                      "probability": 0.994394063949585
+                    },
+                    {
+                      "start": 49.33,
+                      "end": 49.55,
+                      "text": "不能",
+                      "probability": 0.9982883334159851
+                    },
+                    {
+                      "start": 49.55,
+                      "end": 49.83,
+                      "text": "将",
+                      "probability": 0.9920698404312134
+                    },
+                    {
+                      "start": 49.83,
+                      "end": 50.11,
+                      "text": "果",
+                      "probability": 0.9076740145683289
+                    },
+                    {
+                      "start": 50.11,
+                      "end": 50.47,
+                      "text": "孝",
+                      "probability": 0.6246529519557953
+                    },
+                    {
+                      "start": 50.47,
+                      "end": 50.95,
+                      "text": "带",
+                      "probability": 0.781632125377655
+                    },
+                    {
+                      "start": 50.95,
+                      "end": 51.31,
+                      "text": "进",
+                      "probability": 0.9651422500610352
+                    },
+                    {
+                      "start": 51.31,
+                      "end": 51.75,
+                      "text": "听",
+                      "probability": 0.928019642829895
+                    },
+                    {
+                      "start": 51.75,
+                      "end": 51.95,
+                      "text": "众",
+                      "probability": 0.9846385419368744
+                    },
+                    {
+                      "start": 51.95,
+                      "end": 52.11,
+                      "text": "的",
+                      "probability": 0.9734547138214111
+                    },
+                    {
+                      "start": 52.11,
+                      "end": 52.29,
+                      "text": "心",
+                      "probability": 0.9972139000892639
+                    },
+                    {
+                      "start": 52.29,
+                      "end": 52.57,
+                      "text": "中。",
+                      "probability": 0.9968733191490173
+                    }
+                  ]
+                },
+                {
+                  "start": 53.61,
+                  "end": 54.39,
+                  "text": "西西儿,",
+                  "words": [
+                    {
+                      "start": 53.61,
+                      "end": 53.89,
+                      "text": "西",
+                      "probability": 0.2453569769859314
+                    },
+                    {
+                      "start": 53.89,
+                      "end": 54.15,
+                      "text": "西",
+                      "probability": 0.8559806942939758
+                    },
+                    {
+                      "start": 54.15,
+                      "end": 54.39,
+                      "text": "儿,",
+                      "probability": 0.8402702808380127
+                    }
+                  ]
+                },
+                {
+                  "start": 55.49,
+                  "end": 58.41,
+                  "text": "祈禱能以他多方面的力量",
+                  "words": [
+                    {
+                      "start": 55.49,
+                      "end": 56.01,
+                      "text": "祈",
+                      "probability": 0.8013079166412354
+                    },
+                    {
+                      "start": 56.01,
+                      "end": 56.27,
+                      "text": "禱",
+                      "probability": 0.9729853868484497
+                    },
+                    {
+                      "start": 56.27,
+                      "end": 56.65,
+                      "text": "能",
+                      "probability": 0.9240411520004272
+                    },
+                    {
+                      "start": 56.65,
+                      "end": 56.87,
+                      "text": "以",
+                      "probability": 0.9937542080879211
+                    },
+                    {
+                      "start": 56.87,
+                      "end": 57.05,
+                      "text": "他",
+                      "probability": 0.26238375902175903
+                    },
+                    {
+                      "start": 57.05,
+                      "end": 57.29,
+                      "text": "多",
+                      "probability": 0.9955776929855347
+                    },
+                    {
+                      "start": 57.29,
+                      "end": 57.69,
+                      "text": "方面",
+                      "probability": 0.9892513155937195
+                    },
+                    {
+                      "start": 57.69,
+                      "end": 57.95,
+                      "text": "的",
+                      "probability": 0.9778048396110535
+                    },
+                    {
+                      "start": 57.95,
+                      "end": 58.11,
+                      "text": "力",
+                      "probability": 0.9969738721847534
+                    },
+                    {
+                      "start": 58.11,
+                      "end": 58.41,
+                      "text": "量",
+                      "probability": 0.9994033575057983
+                    }
+                  ]
+                },
+                {
+                  "start": 58.41,
+                  "end": 61.41,
+                  "text": "帮助传道人的口自由发出",
+                  "words": [
+                    {
+                      "start": 58.41,
+                      "end": 58.93,
+                      "text": "帮",
+                      "probability": 0.5636029690504074
+                    },
+                    {
+                      "start": 58.93,
+                      "end": 59.17,
+                      "text": "助",
+                      "probability": 0.9994476437568665
+                    },
+                    {
+                      "start": 59.17,
+                      "end": 59.47,
+                      "text": "传",
+                      "probability": 0.837024062871933
+                    },
+                    {
+                      "start": 59.47,
+                      "end": 59.67,
+                      "text": "道",
+                      "probability": 0.9319943189620972
+                    },
+                    {
+                      "start": 59.67,
+                      "end": 59.85,
+                      "text": "人",
+                      "probability": 0.9895656108856201
+                    },
+                    {
+                      "start": 59.85,
+                      "end": 59.95,
+                      "text": "的",
+                      "probability": 0.9929889440536499
+                    },
+                    {
+                      "start": 59.95,
+                      "end": 60.21,
+                      "text": "口",
+                      "probability": 0.9972903728485107
+                    },
+                    {
+                      "start": 60.21,
+                      "end": 60.73,
+                      "text": "自由",
+                      "probability": 0.7194850444793701
+                    },
+                    {
+                      "start": 60.73,
+                      "end": 61.13,
+                      "text": "发",
+                      "probability": 0.9876290559768677
+                    },
+                    {
+                      "start": 61.13,
+                      "end": 61.41,
+                      "text": "出",
+                      "probability": 0.9986411929130554
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.562,
+          "coherentCoverage": 0.438,
+          "extraSpeechContext": false,
+          "prefixCoverage": 1.0,
+          "suffixCoverage": 0.15,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 13,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 0.875,
+            "localSimilarity": 0.857,
+            "localText": "1篇讲章里面如果多有头脑而少有心就不能带着果效进",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false,
+            "source": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 53.89,
-      "end": 102.11,
+      "start": 55.49,
+      "end": 101.07,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "祈祷能以它多方面的力量帮助传道人的口丰满的自由地发出真理的言语讲道人必须得到祈祷的支持他是祈祷的",
-      "confidence": 0.866
+      "confidence": 0.934,
+      "quality": {
+        "coverage": 0.931,
+        "coherentCoverage": 0.883,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 55.49,
+        "previousEnd": 101.07,
+        "previousConfidence": 0.934
+      }
     },
     {
       "start": 102.11,
-      "end": 119.65,
+      "end": 118.81,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "祈祷在如此多的事上在如此多的方面在一切上对于传道人的作用是何等丰富无限宝贵有益它的诸作用中之一就",
-      "confidence": 0.842
+      "confidence": 0.86,
+      "quality": {
+        "coverage": 0.845,
+        "coherentCoverage": 0.793,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 102.11,
+        "previousEnd": 118.81,
+        "previousConfidence": 0.86
+      }
     },
     {
       "start": 119.65,
-      "end": 134.83,
+      "end": 134.27,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "祈祷使传道人用心灵讲道祈祷把传道人的心放到他们的讲章里面去祈祷把传道人的讲章放到他的心里去",
-      "confidence": 0.923
+      "confidence": 0.923,
+      "quality": {
+        "coverage": 0.933,
+        "coherentCoverage": 0.889,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 119.65,
+        "previousEnd": 134.27,
+        "previousConfidence": 0.923
+      }
     },
     {
       "start": 134.83,
-      "end": 168.31,
+      "end": 168.63,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "真正的传道人是由心造成的有伟大的心的人是伟大的传道人心不好的人可能在某种程度上作令人得益的事但是",
-      "confidence": 0.854
+      "confidence": 0.925,
+      "quality": {
+        "coverage": 0.929,
+        "coherentCoverage": 0.869,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\祈祷出来的能力\\12.mp3.json",
+          "transcriptSha256": "4e51fafe45a2c85e963746ef5160c358b5acd471e5546fc609c615e9a64d706f",
+          "candidate": 168.63,
+          "expectedPhrase": "的责任使羊群蒙益",
+          "actualPhrase": "的责任是羊群蒙议",
+          "phoneticPhrase": [
+            "de",
+            "ze",
+            "ren",
+            "shi",
+            "yang",
+            "qun",
+            "meng",
+            "yi"
+          ],
+          "verified": true,
+          "time": 168.63,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "exact-local-syllables-original-word-times",
+          "phoneticExact": true,
+          "literalEqual": false,
+          "wordTokens": [
+            {
+              "text": "的",
+              "start": 165.87,
+              "end": 165.99,
+              "rawStart": 486,
+              "rawEnd": 486,
+              "precision": "word"
+            },
+            {
+              "text": "责",
+              "start": 165.99,
+              "end": 166.21,
+              "rawStart": 487,
+              "rawEnd": 487,
+              "precision": "word"
+            },
+            {
+              "text": "任",
+              "start": 166.21,
+              "end": 166.49,
+              "rawStart": 488,
+              "rawEnd": 488,
+              "precision": "word"
+            },
+            {
+              "text": "是",
+              "start": 166.49,
+              "end": 167.11,
+              "rawStart": 489,
+              "rawEnd": 489,
+              "precision": "word"
+            },
+            {
+              "text": "羊",
+              "start": 167.11,
+              "end": 167.57,
+              "rawStart": 490,
+              "rawEnd": 490,
+              "precision": "word"
+            },
+            {
+              "text": "群",
+              "start": 167.57,
+              "end": 167.97,
+              "rawStart": 491,
+              "rawEnd": 491,
+              "precision": "word"
+            },
+            {
+              "text": "蒙",
+              "start": 167.97,
+              "end": 168.31,
+              "rawStart": 492,
+              "rawEnd": 492,
+              "precision": "word"
+            },
+            {
+              "text": "议",
+              "start": 168.31,
+              "end": 168.63,
+              "rawStart": 493,
+              "rawEnd": 493,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "audioSha256": "82832c96780d572773b1faa7da319569579cd139029b9bfa158de7e87c9e8143",
+          "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 134.83,
+        "previousEnd": 168.31,
+        "previousConfidence": 0.925
+      },
+      "boundaryCorrections": [
+        {
+          "book": "祈祷出来的能力",
+          "page": "12_第十二章 祈祷的心灵.md",
+          "audio": "12.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\祈祷出来的能力\\12_第十二章 祈祷的心灵\\audio-01.json",
+          "targetIndex": 7,
+          "edge": "end",
+          "previousTime": 168.31,
+          "time": 168.63,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
-      "start": 168.31,
-      "end": 190.35,
+      "start": 170.31,
+      "end": 189.43,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "我们注重预备讲章以致忽略了最重要的一部分预备心一个预备好了的心比一篇预备好了的讲章好得多一个预备",
-      "confidence": 0.878
+      "confidence": 0.885,
+      "quality": {
+        "coverage": 0.885,
+        "coherentCoverage": 0.836,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 170.31,
+        "previousEnd": 189.43,
+        "previousConfidence": 0.885
+      }
     },
     {
       "start": 190.35,
-      "end": 260.75,
+      "end": 259.05,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "我们有许多关于写讲章的技巧的书籍以致我们心中满以为这种框架的工作就是建筑工程的一切年轻的传道人学",
-      "confidence": 0.786
+      "confidence": 0.871,
+      "quality": {
+        "coverage": 0.873,
+        "coherentCoverage": 0.824,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 190.35,
+        "previousEnd": 259.05,
+        "previousConfidence": 0.871
+      }
     },
     {
       "start": 260.75,
-      "end": 330.07,
+      "end": 328.25,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "我们不能说传道人读书或研究太多有些不好的传道人完全不读书或读得很少也有许多传道人没有用正确的态度",
-      "confidence": 0.885
+      "confidence": 0.889,
+      "quality": {
+        "coverage": 0.896,
+        "coherentCoverage": 0.82,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 260.75,
+        "previousEnd": 328.25,
+        "previousConfidence": 0.889
+      }
     },
     {
       "start": 330.07,
-      "end": 431.63,
+      "end": 435.65,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "一个心中贪求人的称赞与高举的人怎能宣讲那谦卑不要名利甘取奴仆的形像的耶稣基督的福音呢一个骄傲贪爱",
-      "confidence": 0.752
+      "confidence": 0.834,
+      "quality": {
+        "coverage": 0.844,
+        "coherentCoverage": 0.752,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 330.07,
+        "previousEnd": 431.63,
+        "previousConfidence": 0.842
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 431.63,
+            "time": 435.65,
+            "reason": "核对原识别稿的相邻句及同一段实际读法；按真实句首或句尾定位，识别错字、译法差异和短省略不作逐字否决。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\祈祷出来的能力\\12.mp3.json",
+              "sha256": "4e51fafe45a2c85e963746ef5160c358b5acd471e5546fc609c615e9a64d706f",
+              "source": "context-reviewed-paragraph-approximation",
+              "segments": [
+                {
+                  "start": 426.19,
+                  "end": 431.63,
+                  "text": "但是它的確需要一個孩子的心所具有的信心",
+                  "words": [
+                    {
+                      "start": 426.19,
+                      "end": 426.75,
+                      "text": "但是",
+                      "probability": 0.439010888338089
+                    },
+                    {
+                      "start": 426.75,
+                      "end": 427.31,
+                      "text": "它",
+                      "probability": 0.4229130744934082
+                    },
+                    {
+                      "start": 427.31,
+                      "end": 427.57,
+                      "text": "的",
+                      "probability": 0.97444087266922
+                    },
+                    {
+                      "start": 427.57,
+                      "end": 427.99,
+                      "text": "確",
+                      "probability": 0.9958904385566711
+                    },
+                    {
+                      "start": 427.99,
+                      "end": 428.41,
+                      "text": "需要",
+                      "probability": 0.9956478476524353
+                    },
+                    {
+                      "start": 428.41,
+                      "end": 428.69,
+                      "text": "一個",
+                      "probability": 0.98799729347229
+                    },
+                    {
+                      "start": 428.69,
+                      "end": 429.19,
+                      "text": "孩子",
+                      "probability": 0.9912000298500061
+                    },
+                    {
+                      "start": 429.19,
+                      "end": 429.43,
+                      "text": "的",
+                      "probability": 0.99055415391922
+                    },
+                    {
+                      "start": 429.43,
+                      "end": 429.67,
+                      "text": "心",
+                      "probability": 0.9672867059707642
+                    },
+                    {
+                      "start": 429.67,
+                      "end": 430.27,
+                      "text": "所",
+                      "probability": 0.9834889769554138
+                    },
+                    {
+                      "start": 430.27,
+                      "end": 430.63,
+                      "text": "具",
+                      "probability": 0.9834136366844177
+                    },
+                    {
+                      "start": 430.63,
+                      "end": 430.81,
+                      "text": "有",
+                      "probability": 0.9994120597839355
+                    },
+                    {
+                      "start": 430.81,
+                      "end": 430.93,
+                      "text": "的",
+                      "probability": 0.9849495887756348
+                    },
+                    {
+                      "start": 430.93,
+                      "end": 431.23,
+                      "text": "信",
+                      "probability": 0.9416828751564026
+                    },
+                    {
+                      "start": 431.23,
+                      "end": 431.63,
+                      "text": "心",
+                      "probability": 0.9996514320373535
+                    }
+                  ]
+                },
+                {
+                  "start": 431.63,
+                  "end": 435.65,
+                  "text": "還有那樣的單純訊良與千杯",
+                  "words": [
+                    {
+                      "start": 431.63,
+                      "end": 432.13,
+                      "text": "還有",
+                      "probability": 0.9527415037155151
+                    },
+                    {
+                      "start": 432.13,
+                      "end": 432.51,
+                      "text": "那",
+                      "probability": 0.9963048696517944
+                    },
+                    {
+                      "start": 432.51,
+                      "end": 432.71,
+                      "text": "樣",
+                      "probability": 0.9963778853416443
+                    },
+                    {
+                      "start": 432.71,
+                      "end": 432.87,
+                      "text": "的",
+                      "probability": 0.9480864405632019
+                    },
+                    {
+                      "start": 432.87,
+                      "end": 433.15,
+                      "text": "單",
+                      "probability": 0.9933624267578125
+                    },
+                    {
+                      "start": 433.15,
+                      "end": 433.59,
+                      "text": "純",
+                      "probability": 0.9977850615978241
+                    },
+                    {
+                      "start": 433.59,
+                      "end": 434.25,
+                      "text": "訊",
+                      "probability": 0.49318931996822357
+                    },
+                    {
+                      "start": 434.25,
+                      "end": 434.61,
+                      "text": "良",
+                      "probability": 0.5911090970039368
+                    },
+                    {
+                      "start": 434.61,
+                      "end": 435.03,
+                      "text": "與",
+                      "probability": 0.9907448887825012
+                    },
+                    {
+                      "start": 435.03,
+                      "end": 435.37,
+                      "text": "千",
+                      "probability": 0.6237106323242188
+                    },
+                    {
+                      "start": 435.37,
+                      "end": 435.65,
+                      "text": "杯",
+                      "probability": 0.5663506388664246
+                    }
+                  ]
+                },
+                {
+                  "start": 437.8,
+                  "end": 441.52,
+                  "text": "保羅在史圖中稱為特殊的一位",
+                  "words": [
+                    {
+                      "start": 437.8,
+                      "end": 438.36,
+                      "text": "保",
+                      "probability": 0.5629401206970215
+                    },
+                    {
+                      "start": 438.36,
+                      "end": 438.62,
+                      "text": "羅",
+                      "probability": 0.977302074432373
+                    },
+                    {
+                      "start": 438.62,
+                      "end": 439.06,
+                      "text": "在",
+                      "probability": 0.9895546436309814
+                    },
+                    {
+                      "start": 439.06,
+                      "end": 439.54,
+                      "text": "史",
+                      "probability": 0.29697540402412415
+                    },
+                    {
+                      "start": 439.54,
+                      "end": 439.72,
+                      "text": "圖",
+                      "probability": 0.9267520010471344
+                    },
+                    {
+                      "start": 439.72,
+                      "end": 439.96,
+                      "text": "中",
+                      "probability": 0.9959909319877625
+                    },
+                    {
+                      "start": 439.96,
+                      "end": 440.26,
+                      "text": "稱",
+                      "probability": 0.6179852485656738
+                    },
+                    {
+                      "start": 440.26,
+                      "end": 440.42,
+                      "text": "為",
+                      "probability": 0.9512292146682739
+                    },
+                    {
+                      "start": 440.42,
+                      "end": 440.78,
+                      "text": "特",
+                      "probability": 0.628868579864502
+                    },
+                    {
+                      "start": 440.78,
+                      "end": 441.04,
+                      "text": "殊",
+                      "probability": 0.9979561269283295
+                    },
+                    {
+                      "start": 441.04,
+                      "end": 441.18,
+                      "text": "的",
+                      "probability": 0.995753288269043
+                    },
+                    {
+                      "start": 441.18,
+                      "end": 441.34,
+                      "text": "一",
+                      "probability": 0.9199236631393433
+                    },
+                    {
+                      "start": 441.34,
+                      "end": 441.52,
+                      "text": "位",
+                      "probability": 0.9672365784645081
+                    }
+                  ]
+                },
+                {
+                  "start": 441.52,
+                  "end": 447.38,
+                  "text": "是由於他把智力與才能都交給神的能力",
+                  "words": [
+                    {
+                      "start": 441.52,
+                      "end": 442.22,
+                      "text": "是",
+                      "probability": 0.9712899923324585
+                    },
+                    {
+                      "start": 442.22,
+                      "end": 442.42,
+                      "text": "由",
+                      "probability": 0.9970364570617676
+                    },
+                    {
+                      "start": 442.42,
+                      "end": 442.82,
+                      "text": "於",
+                      "probability": 0.9882549047470093
+                    },
+                    {
+                      "start": 442.82,
+                      "end": 443.22,
+                      "text": "他",
+                      "probability": 0.7659388184547424
+                    },
+                    {
+                      "start": 443.22,
+                      "end": 443.36,
+                      "text": "把",
+                      "probability": 0.986179769039154
+                    },
+                    {
+                      "start": 443.36,
+                      "end": 443.7,
+                      "text": "智",
+                      "probability": 0.902411162853241
+                    },
+                    {
+                      "start": 443.7,
+                      "end": 444.04,
+                      "text": "力",
+                      "probability": 0.7138676047325134
+                    },
+                    {
+                      "start": 444.04,
+                      "end": 444.4,
+                      "text": "與",
+                      "probability": 0.9946343898773193
+                    },
+                    {
+                      "start": 444.4,
+                      "end": 444.8,
+                      "text": "才",
+                      "probability": 0.8945622444152832
+                    },
+                    {
+                      "start": 444.8,
+                      "end": 445.08,
+                      "text": "能",
+                      "probability": 0.9997079968452454
+                    },
+                    {
+                      "start": 445.08,
+                      "end": 445.38,
+                      "text": "都",
+                      "probability": 0.9758801460266113
+                    },
+                    {
+                      "start": 445.38,
+                      "end": 445.64,
+                      "text": "交",
+                      "probability": 0.9959375858306885
+                    },
+                    {
+                      "start": 445.64,
+                      "end": 445.86,
+                      "text": "給",
+                      "probability": 0.9343740344047546
+                    },
+                    {
+                      "start": 445.86,
+                      "end": 446.1,
+                      "text": "神",
+                      "probability": 0.8695958852767944
+                    },
+                    {
+                      "start": 446.1,
+                      "end": 446.24,
+                      "text": "的",
+                      "probability": 0.9985882639884949
+                    },
+                    {
+                      "start": 446.24,
+                      "end": 446.4,
+                      "text": "能",
+                      "probability": 0.9986886382102966
+                    },
+                    {
+                      "start": 446.4,
+                      "end": 447.38,
+                      "text": "力",
+                      "probability": 0.9998264908790588
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.844,
+          "coherentCoverage": 0.752,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.95,
+          "suffixCoverage": 0.85,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 2,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [
+            "end substitution"
+          ],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 431.63,
-      "end": 467.7,
+      "start": 437.8,
+      "end": 466.42,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "保罗在使徒中成为特殊的一位是由于他把智力与才能交给上帝的能力以之为一种附属品这也是卫斯理之所以能",
-      "confidence": 0.627
+      "confidence": 0.734,
+      "quality": {
+        "coverage": 0.776,
+        "coherentCoverage": 0.684,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\祈祷出来的能力\\12.mp3.json",
+          "transcriptSha256": "4e51fafe45a2c85e963746ef5160c358b5acd471e5546fc609c615e9a64d706f",
+          "candidate": 437.8,
+          "expectedPhrase": "保罗在使徒中成为特殊的1",
+          "actualPhrase": "保罗在史图中称为特殊的1",
+          "phoneticPhrase": [
+            "bao",
+            "luo",
+            "zai",
+            "shi",
+            "tu",
+            "zhong",
+            "cheng",
+            "wei",
+            "te",
+            "shu",
+            "de",
+            "1"
+          ],
+          "verified": true,
+          "time": 437.8,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "exact-local-syllables-original-word-times",
+          "phoneticExact": true,
+          "literalEqual": false,
+          "wordTokens": [
+            {
+              "text": "保",
+              "start": 437.8,
+              "end": 438.36,
+              "rawStart": 1331,
+              "rawEnd": 1331,
+              "precision": "word"
+            },
+            {
+              "text": "罗",
+              "start": 438.36,
+              "end": 438.62,
+              "rawStart": 1332,
+              "rawEnd": 1332,
+              "precision": "word"
+            },
+            {
+              "text": "在",
+              "start": 438.62,
+              "end": 439.06,
+              "rawStart": 1333,
+              "rawEnd": 1333,
+              "precision": "word"
+            },
+            {
+              "text": "史",
+              "start": 439.06,
+              "end": 439.54,
+              "rawStart": 1334,
+              "rawEnd": 1334,
+              "precision": "word"
+            },
+            {
+              "text": "图",
+              "start": 439.54,
+              "end": 439.72,
+              "rawStart": 1335,
+              "rawEnd": 1335,
+              "precision": "word"
+            },
+            {
+              "text": "中",
+              "start": 439.72,
+              "end": 439.96,
+              "rawStart": 1336,
+              "rawEnd": 1336,
+              "precision": "word"
+            },
+            {
+              "text": "称",
+              "start": 439.96,
+              "end": 440.26,
+              "rawStart": 1337,
+              "rawEnd": 1337,
+              "precision": "word"
+            },
+            {
+              "text": "为",
+              "start": 440.26,
+              "end": 440.42,
+              "rawStart": 1338,
+              "rawEnd": 1338,
+              "precision": "word"
+            },
+            {
+              "text": "特",
+              "start": 440.42,
+              "end": 440.78,
+              "rawStart": 1339,
+              "rawEnd": 1339,
+              "precision": "word"
+            },
+            {
+              "text": "殊",
+              "start": 440.78,
+              "end": 441.04,
+              "rawStart": 1340,
+              "rawEnd": 1340,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 441.04,
+              "end": 441.18,
+              "rawStart": 1341,
+              "rawEnd": 1341,
+              "precision": "word"
+            },
+            {
+              "text": "1",
+              "start": 441.18,
+              "end": 441.34,
+              "rawStart": 1342,
+              "rawEnd": 1342,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "audioSha256": "82832c96780d572773b1faa7da319569579cd139029b9bfa158de7e87c9e8143",
+          "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 431.63,
+        "previousEnd": 466.42,
+        "previousConfidence": 0.745
+      },
+      "boundaryCorrections": [
+        {
+          "book": "祈祷出来的能力",
+          "page": "12_第十二章 祈祷的心灵.md",
+          "audio": "12.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\祈祷出来的能力\\12_第十二章 祈祷的心灵\\audio-01.json",
+          "targetIndex": 12,
+          "edge": "start",
+          "previousTime": 431.63,
+          "time": 437.8,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
       "start": 467.7,
@@ -117,7 +2377,88 @@
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "我们最大的需要是心灵的准备马丁路德的座右铭是祈祷得好的人研读得好我们并不是说人不应该思想运用他们",
-      "confidence": 0.81
+      "confidence": 0.88,
+      "quality": {
+        "coverage": 0.885,
+        "coherentCoverage": 0.804,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 467.7,
+        "previousEnd": 591.24,
+        "previousConfidence": 0.883
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (14 trailing chars, coverage 0.300): target 1: 「不是从心中发出来，就不能达到别人的心中；不是从活的良心中发出的，就不能刺入他人的良心。」——威",
+    "unverified end anchor: target 1: 「不是从心中发出来，就不能达到别人的心中；不是从活的良心中发出的，就不能刺入他人的良心。」——威",
+    "incomplete end (11 trailing chars, coverage 0.100): target 2: 「……在早上多用时间预备头脑，过于预备心灵。这常是我的错误，并且我常常感到它的恶果，尤其在祈祷上",
+    "unverified end anchor: target 2: 「……在早上多用时间预备头脑，过于预备心灵。这常是我的错误，并且我常常感到它的恶果，尤其在祈祷上",
+    "incomplete end (13 trailing chars, coverage 0.150): target 3: 「一篇讲章里面，如果多有头脑而少有心，就不能带着果效进入听众的心中。」——理查德•塞西尔（Ric",
+    "unverified end anchor: target 3: 「一篇讲章里面，如果多有头脑而少有心，就不能带着果效进入听众的心中。」——理查德•塞西尔（Ric",
+    "unverified end anchor: target 7: 真正的传道人是由「心」造成的。有伟大的心的人，是伟大的传道人。心不好的人可能在某种程度上作令人得",
+    "unverified end anchor: target 8: 我们注重预备讲章，以致忽略了最重要的一部分：预备心。一个预备好了的心，比一篇预备好了的讲章好得多",
+    "unverified start anchor: target 9: 我们有许多关于写讲章的技巧的书籍，以致我们心中满以为这种框架的工作，就是建筑工程的一切。年轻的传",
+    "unverified end anchor: target 11: 一个心中贪求人的称赞与高举的人，怎能宣讲那谦卑不要名利，甘取奴仆的形像的耶稣基督的福音呢？一个骄",
+    "unverified start anchor: target 12: 保罗在使徒中成为特殊的一位，是由于他把智力与才能交给神的能力，以之为一种附属品。这也是卫斯理之所",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 2",
+    "repair unverified end (previous-sync): target 3",
+    "repair unverified end (previous-sync): target 7",
+    "repair unverified end (previous-sync): target 11",
+    "repair unverified start (previous-sync): target 12"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 5,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "11842e9aef0a481097fc17c8885148c6db0b14ce8c189dd37a2842050620175f",
+  "repairCueDigest": "fbabd09fa18881eebfc056f42687422e7fa56f2b007abdba5f13fddf438040d4",
+  "previousAlignmentWarnings": []
 }

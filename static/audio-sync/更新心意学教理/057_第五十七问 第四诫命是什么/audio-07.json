@@ -8,20 +8,54 @@
   "audioDuration": 90.5404375,
   "cues": [
     {
-      "start": 2.26,
-      "end": 3.56,
-      "kind": "heading",
-      "targetIndex": 23,
-      "targetText": "礼拜六",
-      "confidence": 0.8
-    },
-    {
-      "start": 3.56,
-      "end": 35.36,
+      "start": 3.96,
+      "end": 34.12,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "真正的基督徒虽然都知道并且遵行上帝的话但不是凡事都意见相合基督徒是否需要像旧约信徒那样守安息日就",
-      "confidence": 0.751
+      "confidence": 0.862,
+      "quality": {
+        "coverage": 0.88,
+        "coherentCoverage": 0.88,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 3.56,
+        "previousEnd": 35.36,
+        "previousConfidence": 0.751
+      }
     },
     {
       "start": 35.36,
@@ -29,7 +63,198 @@
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "罗马书145622有人看这日比那日强有人看日日都是一样只是各人心里要意见坚定守日的人是为主守的你",
-      "confidence": 0.781
+      "confidence": 0.817,
+      "quality": {
+        "coverage": 0.835,
+        "coherentCoverage": 0.797,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.55,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 9,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "discarded detached start matches"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 35.36,
+        "previousEnd": 71.44,
+        "previousConfidence": 0.781
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 35.36,
+            "time": 35.36,
+            "reason": "正文起句已定位，保留原先读出处范围",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\57-6.mp3.json",
+              "sha256": "ea0110e07b564fde6bb341130c12272c8321809b01b0f74e0632df491ff7ec81",
+              "anchor": {
+                "time": 39.68,
+                "score": 0.9068,
+                "ratio": 0.9231,
+                "expected": "22yourenkanzheribinariqiangyourenkan",
+                "actual": "有人看这日比那日强有人看",
+                "span": [
+                  39.68,
+                  44.36
+                ],
+                "tokens": [
+                  {
+                    "text": "有",
+                    "start": 39.68,
+                    "end": 40.04,
+                    "rawStart": 109,
+                    "rawEnd": 109,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 39.68,
+                    "end": 40.04,
+                    "rawStart": 110,
+                    "rawEnd": 110,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "看",
+                    "start": 40.04,
+                    "end": 40.74,
+                    "rawStart": 111,
+                    "rawEnd": 111,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "这",
+                    "start": 40.74,
+                    "end": 41.24,
+                    "rawStart": 112,
+                    "rawEnd": 112,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "日",
+                    "start": 41.24,
+                    "end": 41.58,
+                    "rawStart": 113,
+                    "rawEnd": 113,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "比",
+                    "start": 41.58,
+                    "end": 42.1,
+                    "rawStart": 114,
+                    "rawEnd": 114,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "那",
+                    "start": 42.1,
+                    "end": 42.48,
+                    "rawStart": 115,
+                    "rawEnd": 115,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "日",
+                    "start": 42.48,
+                    "end": 42.66,
+                    "rawStart": 116,
+                    "rawEnd": 116,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "强",
+                    "start": 42.66,
+                    "end": 42.98,
+                    "rawStart": 117,
+                    "rawEnd": 117,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "有",
+                    "start": 43.76,
+                    "end": 43.96,
+                    "rawStart": 118,
+                    "rawEnd": 118,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 43.76,
+                    "end": 43.96,
+                    "rawStart": 119,
+                    "rawEnd": 119,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "看",
+                    "start": 43.96,
+                    "end": 44.36,
+                    "rawStart": 120,
+                    "rawEnd": 120,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": ", 22 有人看这日比那日强,有人看日日都是一样,只是各人心里要意见坚定。守日的人,是为主守的;你有信心,就当在神面前守着。人在自己以为可行的事上能不自责,就有福了。",
+              "retainedCitationInterval": [
+                35.36,
+                39.68
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (9 leading chars, coverage 0.550): target 25: 罗马书14:5-6, 22 有人看这日比那日强，有人看日日都是一样，只是各人心里要意见坚定。守日",
+    "unverified start anchor: target 25: 罗马书14:5-6, 22 有人看这日比那日强，有人看日日都是一样，只是各人心里要意见坚定。守日",
+    "repair unverified start (previous-sync): target 25"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "9e897b007ec83aab672c8077618ef7c7ad5564b44ada00d5a414807c18d370c6",
+  "repairCueDigest": "65ac8087db9b3f50d7531dadc98f300947264a8b2cd90c8aef38c1a11bb0c52d",
+  "previousAlignmentWarnings": []
 }

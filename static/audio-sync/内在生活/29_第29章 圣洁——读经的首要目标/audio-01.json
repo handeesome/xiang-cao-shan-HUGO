@@ -8,84 +8,678 @@
   "audioDuration": 509.5466875,
   "cues": [
     {
-      "start": 1.97,
-      "end": 7.87,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第29章圣洁读经的首要目标",
-      "confidence": 0.462
-    },
-    {
       "start": 7.87,
-      "end": 14.47,
+      "end": 15.35,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "求你用真理使他们成圣你的道就是真理约十七17",
-      "confidence": 0.756
+      "confidence": 0.889,
+      "quality": {
+        "coverage": 0.909,
+        "coherentCoverage": 0.818,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.818,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\内在生活\\29.mp3.json",
+          "transcriptSha256": "bc18842d8dc649295f8b2a263816d3da9fdf2fb719e27d7e56c6a9a578daf2d3",
+          "time": 15.35,
+          "candidateCue": {
+            "start": 7.87,
+            "end": 15.35,
+            "kind": "paragraph",
+            "targetIndex": 1,
+            "targetText": "求你用真理使他们成圣你的道就是真理约十七17",
+            "confidence": 1.0,
+            "quality": {
+              "coverage": 1.0,
+              "coherentCoverage": 1.0,
+              "extraSpeechContext": false,
+              "prefixCoverage": 1.0,
+              "suffixCoverage": 1.0,
+              "unmatchedLeadingChars": 0,
+              "unmatchedTrailingChars": 0,
+              "reviewRequired": false,
+              "verificationBasis": "local-boundaries",
+              "boundaryAdjusted": [],
+              "startVerified": true,
+              "endVerified": true,
+              "startEvidence": {
+                "verified": true,
+                "coverage": 1.0,
+                "continuousAnchor": true,
+                "substitutionAnchor": false,
+                "timingPrecision": "word",
+                "insideSegment": false,
+                "detachedContext": false,
+                "paragraphSupported": true,
+                "source": "previous-verified-sync",
+                "originalSource": "verified-transcript"
+              },
+              "endEvidence": {
+                "verified": true,
+                "coverage": 1.0,
+                "continuousAnchor": true,
+                "substitutionAnchor": false,
+                "timingPrecision": "word",
+                "insideSegment": false,
+                "detachedContext": false,
+                "detachedNumericLabel": false,
+                "localSupported": true,
+                "localCoverage": 1.0,
+                "localSimilarity": 1.0,
+                "localText": "真理使他们成圣你的道就是真理约翰福音17章17节",
+                "anchorOccurrences": 1,
+                "paragraphSupported": true,
+                "contextUsed": false,
+                "identityAmbiguous": false,
+                "source": "verified-transcript"
+              }
+            },
+            "repair": {
+              "startSource": "previous-verified-sync",
+              "endSource": "verified-transcript",
+              "previousStart": 7.87,
+              "previousEnd": 14.47,
+              "previousConfidence": 0.889
+            }
+          },
+          "evidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 1.0,
+            "localSimilarity": 1.0,
+            "localText": "真理使他们成圣你的道就是真理约翰福音17章17节",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false,
+            "source": "verified-transcript"
+          },
+          "source": "context-reviewed-standard-local-boundary",
+          "listenedByAgent": false,
+          "actualEndpointWords": [
+            {
+              "start": 15.11,
+              "end": 15.35,
+              "text": "節,",
+              "probability": 0.8886613845825195
+            }
+          ],
+          "printedReference": "(约十七:17)",
+          "reason": "首尾局部证据及实际词时间确认；完整出处在本段朗读，取自身末词时间，书名或节字的识别差异保留，不要求正文中间逐字一致。",
+          "contextUsed": true,
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "audioSha256": "783c375bca6a0286223f0010367500568d18b4538f1e63278b63bf5b96568ac8"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 7.87,
+        "previousEnd": 14.47,
+        "previousConfidence": 0.756
+      },
+      "boundaryCorrections": [
+        {
+          "book": "内在生活",
+          "page": "29_第29章 圣洁——读经的首要目标.md",
+          "audio": "29.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\内在生活\\29_第29章 圣洁——读经的首要目标\\audio-01.json",
+          "targetIndex": 1,
+          "edge": "end",
+          "previousTime": 14.47,
+          "time": 15.35,
+          "kind": "post-validation-local-context",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "首尾局部证据及实际词时间确认；完整出处在本段朗读，取自身末词时间，书名或节字的识别差异保留，不要求正文中间逐字一致。"
+        }
+      ]
     },
     {
-      "start": 14.47,
-      "end": 45.65,
+      "start": 16.11,
+      "end": 44.51,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "我们的主在他最伟大的代祷里说到父赐给他道他说他已将道赐给门徒们他们也领受也信了就是这样他们才成为",
-      "confidence": 0.777
+      "confidence": 0.942,
+      "quality": {
+        "coverage": 0.947,
+        "coherentCoverage": 0.926,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 14.47,
+        "previousEnd": 45.65,
+        "previousConfidence": 0.777
+      }
     },
     {
       "start": 45.65,
-      "end": 106.41,
+      "end": 105.07,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "我们的主求父在他离世后要保守留在世上的门徒并且用真理使他们成圣因为真理居住且作工在道中基督论到他",
-      "confidence": 0.927
+      "confidence": 0.927,
+      "quality": {
+        "coverage": 0.925,
+        "coherentCoverage": 0.91,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 45.65,
+        "previousEnd": 106.41,
+        "previousConfidence": 0.927
+      }
     },
     {
       "start": 106.41,
-      "end": 147.03,
+      "end": 145.97,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "然后他求父用这活泼的真理使他们成圣这真理居住在道中藉圣灵在他里面彰显出来所以他说我为他们的缘故自",
-      "confidence": 0.873
+      "confidence": 0.895,
+      "quality": {
+        "coverage": 0.911,
+        "coherentCoverage": 0.874,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 106.41,
+        "previousEnd": 147.03,
+        "previousConfidence": 0.873
+      }
     },
     {
       "start": 147.03,
-      "end": 259.04,
+      "end": 259.84,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "求你用真理使他们成圣你的道就是真理上帝的道最伟大的目标就是要使我们成为圣洁除非上帝的话使我们成为",
-      "confidence": 0.895
+      "confidence": 0.913,
+      "quality": {
+        "coverage": 0.936,
+        "coherentCoverage": 0.904,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": false,
+          "substitutionAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 147.03,
+        "previousEnd": 259.04,
+        "previousConfidence": 0.895
+      }
     },
     {
-      "start": 259.04,
-      "end": 336.8,
+      "start": 260.66,
+      "end": 336.02,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "求你用真理使他们成圣你的道就是真理惟有上帝自己能用他的道使我们成圣道若离了上帝和他直接的运行则毫",
-      "confidence": 0.855
+      "confidence": 0.908,
+      "quality": {
+        "coverage": 0.909,
+        "coherentCoverage": 0.885,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 259.04,
+        "previousEnd": 336.8,
+        "previousConfidence": 0.855
+      }
     },
     {
       "start": 336.8,
-      "end": 415.31,
+      "end": 414.43,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "求你用真理使他们成圣你的道就是真理这种藉著道而来的圣洁必须在祷告中追求等候上帝来成就我们的主不仅",
-      "confidence": 0.744
+      "confidence": 0.837,
+      "quality": {
+        "coverage": 0.868,
+        "coherentCoverage": 0.816,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 336.8,
+        "previousEnd": 415.31,
+        "previousConfidence": 0.744
+      }
     },
     {
       "start": 415.31,
-      "end": 458.43,
+      "end": 459.38,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "同样地上帝藉着他的话把基督和圣灵带进我们里面使我们成圣除非我们逗留在他面前安静下来在深深的依靠与",
-      "confidence": 0.83
+      "confidence": 0.844,
+      "quality": {
+        "coverage": 0.838,
+        "coherentCoverage": 0.711,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "source": "targeted-medium-with-two-existing-transcripts",
+          "mediumWindow": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\interior-life-29-targeted-medium.json",
+          "mediumSha256": "8adb887aa7d9cd22b1b0c8ff6a24c537007755ff8a95fa8442fbf958d5d2601e",
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\transcript-first-repair-20261017\\verified-transcripts\\内在生活\\29.mp3.json",
+          "transcriptSha256": "284a44e1e85cfaa41b32c5ffe20132d4563275597e5213e762d07efabe3ff1eb",
+          "userTranscript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\内在生活\\29.mp3.json",
+          "userTranscriptSha256": "bc18842d8dc649295f8b2a263816d3da9fdf2fb719e27d7e56c6a9a578daf2d3",
+          "audio": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-followup-20261016\\downloaded-audio\\内在生活\\29.mp3",
+          "audioSha256": "783c375bca6a0286223f0010367500568d18b4538f1e63278b63bf5b96568ac8",
+          "actualEndpointWords": [
+            {
+              "start": 458.94,
+              "end": 459.38,
+              "text": "圣，",
+              "probability": 0.6909748017787933
+            }
+          ],
+          "otherTranscriptEndTimes": [
+            459.01,
+            459.55
+          ],
+          "listenedByAgent": false,
+          "reason": "第8段末句“神话语的知识才会使我们成圣”在两个现有 transcript 中分别到459.01与459.55秒，局部 medium 词级窗确认末词“圣”到459.38秒；旧已验证边界458.43秒落在“成圣”末词之前，按三份同音频词级证据修到459.38秒。",
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "contextUsed": true
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "targeted-medium-with-two-existing-transcripts",
+        "previousStart": 415.31,
+        "previousEnd": 458.43,
+        "previousConfidence": 0.83
+      },
+      "boundaryCorrections": [
+        {
+          "book": "内在生活",
+          "page": "29_第29章 圣洁——读经的首要目标.md",
+          "audio": "29.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\内在生活\\29_第29章 圣洁——读经的首要目标\\audio-01.json",
+          "targetIndex": 8,
+          "edge": "end",
+          "previousTime": 458.43,
+          "time": 459.38,
+          "kind": "post-validation-local-context",
+          "previousVerified": true,
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "reason": "第8段末句“神话语的知识才会使我们成圣”在两个现有 transcript 中分别到459.01与459.55秒，局部 medium 词级窗确认末词“圣”到459.38秒；旧已验证边界458.43秒落在“成圣”末词之前，按三份同音频词级证据修到459.38秒。"
+        }
+      ]
     },
     {
-      "start": 458.43,
-      "end": 496.08,
+      "start": 460.03,
+      "end": 496.86,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "晨更是何等上帝圣的一件事一个人特别拨出这段时间把自己交付上帝的圣洁好藉著道成为圣洁让我们永远记得",
-      "confidence": 0.798
+      "confidence": 0.789,
+      "quality": {
+        "coverage": 0.786,
+        "coherentCoverage": 0.75,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 8,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "discarded detached start matches",
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "source": "targeted-medium-and-two-existing-transcripts",
+          "mediumWindow": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\interior-life-29-targeted-medium.json",
+          "mediumSha256": "8adb887aa7d9cd22b1b0c8ff6a24c537007755ff8a95fa8442fbf958d5d2601e",
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\transcript-first-repair-20261017\\verified-transcripts\\内在生活\\29.mp3.json",
+          "transcriptSha256": "284a44e1e85cfaa41b32c5ffe20132d4563275597e5213e762d07efabe3ff1eb",
+          "userTranscript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\内在生活\\29.mp3.json",
+          "userTranscriptSha256": "bc18842d8dc649295f8b2a263816d3da9fdf2fb719e27d7e56c6a9a578daf2d3",
+          "audio": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-followup-20261016\\downloaded-audio\\内在生活\\29.mp3",
+          "audioSha256": "783c375bca6a0286223f0010367500568d18b4538f1e63278b63bf5b96568ac8",
+          "actualStartWords": [
+            {
+              "start": 460.03,
+              "end": 460.23,
+              "text": "沉",
+              "probability": 0.6865062713623047
+            }
+          ],
+          "mediumStartWords": [
+            {
+              "start": 460.24,
+              "end": 460.34,
+              "text": " 成",
+              "probability": 0.9031534790992737
+            }
+          ],
+          "listenedByAgent": false,
+          "reason": "目标段9首句“晨更是何等神圣的一件事”在用户 transcript 与独立 verified transcript 中都从460.03秒起；targeted medium 在460.24秒识别到同一开头的语音，467.54秒又识别到完整重复句，随后接段内“一个人特别拨出”。旧起点458.43秒属于前段末句内部；按两份既有稿一致的首词起点460.03秒设置。",
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "contextUsed": true
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "targeted-medium-and-two-existing-transcripts",
+        "endSource": "verified-transcript",
+        "previousStart": 458.43,
+        "previousEnd": 496.08,
+        "previousConfidence": 0.798
+      },
+      "boundaryCorrections": [
+        {
+          "book": "内在生活",
+          "page": "29_第29章 圣洁——读经的首要目标.md",
+          "audio": "29.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\内在生活\\29_第29章 圣洁——读经的首要目标\\audio-01.json",
+          "targetIndex": 9,
+          "edge": "start",
+          "previousTime": 458.43,
+          "time": 460.03,
+          "kind": "post-validation-local-context",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "目标段9首句“晨更是何等神圣的一件事”在用户 transcript 与独立 verified transcript 中都从460.03秒起；targeted medium 在460.24秒识别到同一开头的语音，467.54秒又识别到完整重复句，随后接段内“一个人特别拨出”。旧起点458.43秒属于前段末句内部；按两份既有稿一致的首词起点460.03秒设置。"
+        }
+      ]
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 1: 求你用真理使他们成圣，你的道就是真理。（约十七：17）",
+    "incomplete start (8 leading chars, coverage 0.600): target 9: 晨更是何等神圣的一件事！一个人特别拨出这段时间把自己交付神的圣洁，好藉著道成为圣洁。让我们永远记",
+    "unverified start anchor: target 9: 晨更是何等神圣的一件事！一个人特别拨出这段时间把自己交付神的圣洁，好藉著道成为圣洁。让我们永远记",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified start (previous-sync): target 9",
+    "local spoken context confirmed end: target 1; original evidence/warnings retained"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 7,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "bd58342541d76594c0f87e005e4e59d1b25a384b8718e78edf5c662894d5508f",
+  "repairCueDigest": "55395151ebe7c4eaa92efe8fbbd5cc78f1a35ec67b14dd26cb1aa5965a38bfe0",
+  "previousAlignmentWarnings": []
 }

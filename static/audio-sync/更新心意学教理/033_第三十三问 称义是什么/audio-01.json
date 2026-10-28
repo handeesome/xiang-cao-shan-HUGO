@@ -8,36 +8,933 @@
   "audioDuration": 157.872,
   "cues": [
     {
-      "start": 2.82,
-      "end": 4.0,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "礼拜一",
-      "confidence": 0.8
+      "start": 4.22,
+      "end": 8.76,
+      "kind": "paragraph",
+      "targetIndex": 3,
+      "targetText": "请读罗马书32224",
+      "confidence": 1.0,
+      "quality": {
+        "verificationBasis": "local-boundaries",
+        "reviewRequired": false,
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "context-reviewed-read-prompt-start",
+          "expectedPhrase": "请读罗马书3:22-24。",
+          "observedPhrase": "礼拜一,请读《罗马书》三章二十二到二十四节。",
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\33-1.mp3.json",
+          "transcriptSha256": "3a4dc18f107ee968d2b0308cf843cc573ce54cacd8f5754a48ef37d4a3519746",
+          "audioSha256": "00e9146e688077f1df12fd5b4f5c57922a3f14bbe1092a5723991a4abb86cfde",
+          "wordTokens": [
+            {
+              "text": "请",
+              "start": 4.22,
+              "end": 4.4
+            },
+            {
+              "text": "读",
+              "start": 4.4,
+              "end": 4.779999999999999
+            },
+            {
+              "text": "《",
+              "start": 4.779999999999999,
+              "end": 5.02
+            },
+            {
+              "text": "罗",
+              "start": 5.02,
+              "end": 5.02
+            },
+            {
+              "text": "马",
+              "start": 5.02,
+              "end": 5.199999999999999
+            },
+            {
+              "text": "书",
+              "start": 5.199999999999999,
+              "end": 5.5600000000000005
+            },
+            {
+              "text": "》",
+              "start": 5.5600000000000005,
+              "end": 5.68
+            },
+            {
+              "text": "三",
+              "start": 5.68,
+              "end": 5.96
+            },
+            {
+              "text": "章",
+              "start": 5.96,
+              "end": 6.279999999999999
+            },
+            {
+              "text": "二",
+              "start": 6.279999999999999,
+              "end": 6.48
+            },
+            {
+              "text": "十",
+              "start": 6.48,
+              "end": 6.720000000000001
+            },
+            {
+              "text": "二",
+              "start": 6.720000000000001,
+              "end": 7.0
+            },
+            {
+              "text": "到",
+              "start": 7.0,
+              "end": 7.26
+            },
+            {
+              "text": "二",
+              "start": 7.26,
+              "end": 7.459999999999999
+            },
+            {
+              "text": "十",
+              "start": 7.459999999999999,
+              "end": 7.66
+            },
+            {
+              "text": "四",
+              "start": 7.66,
+              "end": 7.959999999999999
+            },
+            {
+              "text": "节。",
+              "start": 7.959999999999999,
+              "end": 8.76
+            }
+          ],
+          "listenedByAgent": false,
+          "reason": "录音开头标题后独立读出请读及完整书名章、节号；按现有词级稿首尾和下一段真实正文首词划界，印刷出处归属仍单列待核。",
+          "time": 4.22
+        },
+        "endEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "context-reviewed-read-prompt-ending",
+          "expectedPhrase": "请读罗马书3:22-24。",
+          "observedPhrase": "礼拜一,请读《罗马书》三章二十二到二十四节。",
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\33-1.mp3.json",
+          "transcriptSha256": "3a4dc18f107ee968d2b0308cf843cc573ce54cacd8f5754a48ef37d4a3519746",
+          "audioSha256": "00e9146e688077f1df12fd5b4f5c57922a3f14bbe1092a5723991a4abb86cfde",
+          "wordTokens": [
+            {
+              "text": "请",
+              "start": 4.22,
+              "end": 4.4
+            },
+            {
+              "text": "读",
+              "start": 4.4,
+              "end": 4.779999999999999
+            },
+            {
+              "text": "《",
+              "start": 4.779999999999999,
+              "end": 5.02
+            },
+            {
+              "text": "罗",
+              "start": 5.02,
+              "end": 5.02
+            },
+            {
+              "text": "马",
+              "start": 5.02,
+              "end": 5.199999999999999
+            },
+            {
+              "text": "书",
+              "start": 5.199999999999999,
+              "end": 5.5600000000000005
+            },
+            {
+              "text": "》",
+              "start": 5.5600000000000005,
+              "end": 5.68
+            },
+            {
+              "text": "三",
+              "start": 5.68,
+              "end": 5.96
+            },
+            {
+              "text": "章",
+              "start": 5.96,
+              "end": 6.279999999999999
+            },
+            {
+              "text": "二",
+              "start": 6.279999999999999,
+              "end": 6.48
+            },
+            {
+              "text": "十",
+              "start": 6.48,
+              "end": 6.720000000000001
+            },
+            {
+              "text": "二",
+              "start": 6.720000000000001,
+              "end": 7.0
+            },
+            {
+              "text": "到",
+              "start": 7.0,
+              "end": 7.26
+            },
+            {
+              "text": "二",
+              "start": 7.26,
+              "end": 7.459999999999999
+            },
+            {
+              "text": "十",
+              "start": 7.459999999999999,
+              "end": 7.66
+            },
+            {
+              "text": "四",
+              "start": 7.66,
+              "end": 7.959999999999999
+            },
+            {
+              "text": "节。",
+              "start": 7.959999999999999,
+              "end": 8.76
+            }
+          ],
+          "listenedByAgent": false,
+          "reason": "录音开头标题后独立读出请读及完整书名章、节号；按现有词级稿首尾和下一段真实正文首词划界，印刷出处归属仍单列待核。",
+          "time": 8.76
+        }
+      },
+      "repair": {
+        "startSource": "context-reviewed-read-prompt-start",
+        "endSource": "context-reviewed-read-prompt-ending",
+        "previousStart": null,
+        "previousEnd": null,
+        "previousConfidence": null
+      },
+      "addedCueReview": {
+        "kind": "existing-small-local-read-prompt",
+        "audioSha256": "00e9146e688077f1df12fd5b4f5c57922a3f14bbe1092a5723991a4abb86cfde",
+        "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\33-1.mp3.json",
+        "listenedByAgent": false
+      }
     },
     {
-      "start": 4.0,
-      "end": 29.75,
+      "start": 10.47,
+      "end": 30.45,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "罗马书32224就是上帝的义因信耶稣基督加给一切相信的人并没有分别因为世人都犯了罪亏缺了上帝的荣",
-      "confidence": 0.626
+      "confidence": 0.918,
+      "quality": {
+        "coverage": 0.92,
+        "coherentCoverage": 0.84,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "localSupported": false,
+          "source": "body-onset-pending-reference-ownership",
+          "time": 10.47,
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\33-1.mp3.json",
+          "transcriptSha256": "3a4dc18f107ee968d2b0308cf843cc573ce54cacd8f5754a48ef37d4a3519746",
+          "audioSha256": "00e9146e688077f1df12fd5b4f5c57922a3f14bbe1092a5723991a4abb86cfde",
+          "listenedByAgent": false,
+          "reason": "印刷出处在前段请读提示读出，本段正文首词时间已定位；完整出处归属证据仍待核实。"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\33-1.mp3.json",
+          "transcriptSha256": "09a7fd5289d893928033d56c8f7ce35d2860c0e18694d007c0d7c075925ad871",
+          "phraseChars": 12,
+          "candidate": 30.45,
+          "expectedPhrase": "督耶稣的救赎就白白地称义",
+          "actualPhrase": "督耶稣的就属就白白的称义",
+          "phoneticPhrase": [
+            "du",
+            "ye",
+            "su",
+            "de",
+            "jiu",
+            "shu",
+            "jiu",
+            "bai",
+            "bai",
+            "di",
+            "cheng",
+            "yi"
+          ],
+          "actualPhoneticPhrase": [
+            "du",
+            "ye",
+            "su",
+            "de",
+            "jiu",
+            "shu",
+            "jiu",
+            "bai",
+            "bai",
+            "de",
+            "cheng",
+            "yi"
+          ],
+          "verified": true,
+          "time": 30.45,
+          "boundedPhonetic": true,
+          "exactEndpointPhonemes": 2,
+          "maxInternalPhoneticDifferences": 2,
+          "phoneticDifferences": [
+            9
+          ],
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "督",
+              "start": 27.13,
+              "end": 27.23,
+              "rawStart": 67,
+              "rawEnd": 67,
+              "precision": "word"
+            },
+            {
+              "text": "耶",
+              "start": 27.23,
+              "end": 27.51,
+              "rawStart": 68,
+              "rawEnd": 68,
+              "precision": "word"
+            },
+            {
+              "text": "稣",
+              "start": 27.51,
+              "end": 27.65,
+              "rawStart": 69,
+              "rawEnd": 69,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 27.65,
+              "end": 27.77,
+              "rawStart": 70,
+              "rawEnd": 70,
+              "precision": "word"
+            },
+            {
+              "text": "就",
+              "start": 27.77,
+              "end": 27.97,
+              "rawStart": 71,
+              "rawEnd": 71,
+              "precision": "word"
+            },
+            {
+              "text": "属",
+              "start": 27.97,
+              "end": 28.25,
+              "rawStart": 72,
+              "rawEnd": 72,
+              "precision": "word"
+            },
+            {
+              "text": "就",
+              "start": 28.63,
+              "end": 28.85,
+              "rawStart": 73,
+              "rawEnd": 73,
+              "precision": "word"
+            },
+            {
+              "text": "白",
+              "start": 28.85,
+              "end": 29.35,
+              "rawStart": 74,
+              "rawEnd": 74,
+              "precision": "word"
+            },
+            {
+              "text": "白",
+              "start": 29.35,
+              "end": 29.75,
+              "rawStart": 75,
+              "rawEnd": 75,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 29.75,
+              "end": 29.87,
+              "rawStart": 76,
+              "rawEnd": 76,
+              "precision": "word"
+            },
+            {
+              "text": "称",
+              "start": 29.87,
+              "end": 30.13,
+              "rawStart": 77,
+              "rawEnd": 77,
+              "precision": "word"
+            },
+            {
+              "text": "义",
+              "start": 30.13,
+              "end": 30.45,
+              "rawStart": 78,
+              "rawEnd": 78,
+              "precision": "word"
+            }
+          ],
+          "source": "bounded-local-phonetic-differences-original-word-times",
+          "listenedByAgent": false,
+          "audioSha256": "00e9146e688077f1df12fd5b4f5c57922a3f14bbe1092a5723991a4abb86cfde",
+          "reason": "实际首/尾2个音节贴边相同，12音节局部短句最多2处内部识别差异；完整词边界、源段及录音唯一性、数字一致、停顿与相邻时间均核验，不逐字检查正文中间。"
+        },
+        "referenceOwnershipConstraint": {
+          "ownerTargetIndex": 3,
+          "ownerTargetText": "请读罗马书32224",
+          "notBefore": 8.76,
+          "verifiedSpokenOnset": false
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 4.0,
+        "previousEnd": 29.75,
+        "previousConfidence": 0.803
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "033_第三十三问 称义是什么.md",
+          "audio": "33-1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\033_第三十三问 称义是什么\\audio-01.json",
+          "targetIndex": 4,
+          "edge": "end",
+          "previousTime": 29.75,
+          "time": 30.45,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        },
+        {
+          "targetIndex": 4,
+          "edge": "start",
+          "previousTime": 5.02,
+          "time": 10.47,
+          "kind": "preceding-read-prompt-ownership-constraint",
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "previousVerified": true,
+          "reason": "旧起点落在前段请读提示内；后段首个经文正文词从当前时间开始。印刷出处归属尚未正式核验。"
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 10.47,
+            "time": 10.47,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\33-1.mp3.json",
+              "sha256": "3a4dc18f107ee968d2b0308cf843cc573ce54cacd8f5754a48ef37d4a3519746",
+              "anchor": {
+                "time": 10.47,
+                "score": 0.9286,
+                "ratio": 0.9286,
+                "expected": "jiushishendeyiyinxinyesujidujiageiyi",
+                "actual": "就是神的意因性耶稣基督加给1",
+                "span": [
+                  10.47,
+                  14.71
+                ],
+                "tokens": [
+                  {
+                    "text": "就",
+                    "start": 10.47,
+                    "end": 10.65,
+                    "rawStart": 15,
+                    "rawEnd": 15,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 10.47,
+                    "end": 10.65,
+                    "rawStart": 16,
+                    "rawEnd": 16,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 10.65,
+                    "end": 10.93,
+                    "rawStart": 17,
+                    "rawEnd": 18,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 10.93,
+                    "end": 11.09,
+                    "rawStart": 19,
+                    "rawEnd": 19,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "意",
+                    "start": 11.09,
+                    "end": 11.47,
+                    "rawStart": 20,
+                    "rawEnd": 20,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "因",
+                    "start": 11.75,
+                    "end": 12.15,
+                    "rawStart": 21,
+                    "rawEnd": 21,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "性",
+                    "start": 12.15,
+                    "end": 12.65,
+                    "rawStart": 22,
+                    "rawEnd": 22,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "耶",
+                    "start": 12.65,
+                    "end": 13.07,
+                    "rawStart": 23,
+                    "rawEnd": 23,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "稣",
+                    "start": 13.07,
+                    "end": 13.27,
+                    "rawStart": 24,
+                    "rawEnd": 24,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "基",
+                    "start": 13.27,
+                    "end": 13.450000000000001,
+                    "rawStart": 25,
+                    "rawEnd": 25,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "督",
+                    "start": 13.450000000000001,
+                    "end": 13.89,
+                    "rawStart": 26,
+                    "rawEnd": 26,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "加",
+                    "start": 13.89,
+                    "end": 14.25,
+                    "rawStart": 27,
+                    "rawEnd": 27,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "给",
+                    "start": 14.25,
+                    "end": 14.530000000000001,
+                    "rawStart": 28,
+                    "rawEnd": 28,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 14.530000000000001,
+                    "end": 14.71,
+                    "rawStart": 29,
+                    "rawEnd": 29,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": true,
+                "alternative": {
+                  "time": 7.96,
+                  "score": 0.888,
+                  "actual": "节就是神的意因性耶稣基督加给1"
+                }
+              },
+              "body": "就是神的义,因信耶稣基督加给一切相信的人,并没有分别。因为世人都犯了罪,亏缺了神的荣耀;如今却蒙神的恩典,因基督耶稣的救赎,就白白地称义。"
+            }
+          }
+        }
+      }
     },
     {
-      "start": 29.75,
-      "end": 128.47,
+      "start": 32.15,
+      "end": 130.55,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "人在上帝眼中看为义这对于人来说是很重要的人没有完全的义就不能够站在上帝面前这些经节告诉我们我们惟",
-      "confidence": 0.933
+      "confidence": 0.968,
+      "quality": {
+        "coverage": 0.973,
+        "coherentCoverage": 0.959,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 32.15,
+        "previousEnd": 128.47,
+        "previousConfidence": 0.959
+      }
     },
     {
-      "start": 128.47,
+      "start": 131.87,
       "end": 155.51,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "罗马书32526上帝设立耶稣作挽回祭是凭着耶稣的血藉着人的信要显明上帝的义因为祂用忍耐的心宽容人",
-      "confidence": 0.744
+      "confidence": 0.828,
+      "quality": {
+        "coverage": 0.774,
+        "coherentCoverage": 0.702,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.3,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 11,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "previous-verified-sync",
+        "previousStart": 128.47,
+        "previousEnd": 155.51,
+        "previousConfidence": 0.793
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 130.55,
+            "time": 131.87,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\33-1.mp3.json",
+              "sha256": "3a4dc18f107ee968d2b0308cf843cc573ce54cacd8f5754a48ef37d4a3519746",
+              "anchor": {
+                "time": 131.87,
+                "score": 0.9987,
+                "ratio": 1.0,
+                "expected": "shensheliyesuzuowanhuijishipingzheyesu",
+                "actual": "神设理耶稣坐晚回际是凭着耶稣",
+                "span": [
+                  131.87,
+                  136.69
+                ],
+                "tokens": [
+                  {
+                    "text": "神",
+                    "start": 131.87,
+                    "end": 132.37,
+                    "rawStart": 376,
+                    "rawEnd": 377,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "设",
+                    "start": 132.37,
+                    "end": 132.87,
+                    "rawStart": 378,
+                    "rawEnd": 378,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "理",
+                    "start": 132.87,
+                    "end": 133.09,
+                    "rawStart": 379,
+                    "rawEnd": 379,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "耶",
+                    "start": 133.09,
+                    "end": 133.37,
+                    "rawStart": 380,
+                    "rawEnd": 380,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "稣",
+                    "start": 133.37,
+                    "end": 133.69,
+                    "rawStart": 381,
+                    "rawEnd": 381,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "坐",
+                    "start": 133.69,
+                    "end": 133.97,
+                    "rawStart": 382,
+                    "rawEnd": 382,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "晚",
+                    "start": 133.97,
+                    "end": 134.19,
+                    "rawStart": 383,
+                    "rawEnd": 383,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "回",
+                    "start": 134.19,
+                    "end": 134.43,
+                    "rawStart": 384,
+                    "rawEnd": 384,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "际",
+                    "start": 134.43,
+                    "end": 134.69,
+                    "rawStart": 385,
+                    "rawEnd": 385,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 135.33,
+                    "end": 135.45,
+                    "rawStart": 386,
+                    "rawEnd": 386,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "凭",
+                    "start": 135.45,
+                    "end": 135.91,
+                    "rawStart": 387,
+                    "rawEnd": 387,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "着",
+                    "start": 135.91,
+                    "end": 136.15,
+                    "rawStart": 388,
+                    "rawEnd": 388,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "耶",
+                    "start": 136.15,
+                    "end": 136.43,
+                    "rawStart": 389,
+                    "rawEnd": 389,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "稣",
+                    "start": 136.43,
+                    "end": 136.69,
+                    "rawStart": 390,
+                    "rawEnd": 390,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 129.83,
+                  "score": 0.8845,
+                  "actual": "26节神设理耶稣坐晚回际是凭着耶稣"
+                }
+              },
+              "body": "神设立耶稣作挽回祭,是凭着耶稣的血,借着人的信,要显明神的义。因为祂用忍耐的心,宽容人先时所犯的罪,好在今时显明祂的义,使人知道祂自己为义,也称信耶稣的人为义。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.774,
+          "coherentCoverage": 0.702,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.3,
+          "suffixCoverage": 0.9,
+          "unmatchedLeadingChars": 11,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-verified-end"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 4: 罗马书3:22-24 就是神的义，因信耶稣基督加给一切相信的人，并没有分别。因为世人都犯了罪，亏",
+    "incomplete start (11 leading chars, coverage 0.300): target 6: 罗马书3:25-26 神设立耶稣作挽回祭，是凭着耶稣的血，藉着人的信，要显明神的义。因为祂用忍耐",
+    "unverified start anchor: target 6: 罗马书3:25-26 神设立耶稣作挽回祭，是凭着耶稣的血，藉着人的信，要显明神的义。因为祂用忍耐",
+    "repair unverified end (previous-sync): target 4",
+    "repair unverified start (previous-verified-end): target 6",
+    "unverified printed-reference ownership: target 4; body onset retained at 10.47s"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 3,
+    "updatedEnds": 1,
+    "addedCues": 1,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "previousAlignmentWarnings": [
+    "incomplete start (0 leading chars, coverage 0.333): target 3: 请读罗马书3:22-24。",
+    "incomplete end (11 trailing chars, coverage 0.000): target 3: 请读罗马书3:22-24。",
+    "low confidence (0.267, coverage 0.154): target 3: 请读罗马书3:22-24。",
+    "unverified start anchor: target 3: 请读罗马书3:22-24。",
+    "unverified end anchor: target 3: 请读罗马书3:22-24。",
+    "unmatched (fragment only): target 3: 请读罗马书3:22-24。",
+    "unverified end anchor: target 4: 罗马书3:22-24 就是神的义，因信耶稣基督加给一切相信的人，并没有分别。因为世人都犯了罪，亏",
+    "incomplete start (11 leading chars, coverage 0.300): target 6: 罗马书3:25-26 神设立耶稣作挽回祭，是凭着耶稣的血，藉着人的信，要显明神的义。因为祂用忍耐",
+    "unverified start anchor: target 6: 罗马书3:25-26 神设立耶稣作挽回祭，是凭着耶稣的血，藉着人的信，要显明神的义。因为祂用忍耐",
+    "repair missing cue (unverified): target 3",
+    "repair unverified end (previous-sync): target 4",
+    "repair unverified start (previous-verified-end): target 6"
+  ],
+  "currentSiteConfirmation": {
+    "model": "medium",
+    "audioSha256": "00e9146e688077f1df12fd5b4f5c57922a3f14bbe1092a5723991a4abb86cfde",
+    "audioDuration": 157.872018,
+    "windows": [
+      [
+        2.32,
+        17.63
+      ]
+    ]
+  }
 }

@@ -8,20 +8,54 @@
   "audioDuration": 88.450625,
   "cues": [
     {
-      "start": 5.9,
-      "end": 11.59,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第五章信仰的对象",
-      "confidence": 1.0
-    },
-    {
       "start": 11.59,
-      "end": 43.65,
+      "end": 42.05,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "我们基督徒的信仰是出于上帝的启示不像一般的宗教是去想去猜去摸索而得来的我们信上帝把圣经启示给我们",
-      "confidence": 0.948
+      "confidence": 0.958,
+      "quality": {
+        "coverage": 0.958,
+        "coherentCoverage": 0.958,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 11.59,
+        "previousEnd": 43.65,
+        "previousConfidence": 0.948
+      }
     },
     {
       "start": 43.65,
@@ -29,7 +63,67 @@
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "现在我们要来看基督在我们的信仰上所有的地位或者说基督在基督教中的地位不过今天基督教的样子已经变得",
-      "confidence": 0.959
+      "confidence": 0.959,
+      "quality": {
+        "coverage": 0.959,
+        "coherentCoverage": 0.952,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 43.65,
+        "previousEnd": 87.63,
+        "previousConfidence": 0.959
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "f66c4dd88472dd727e078822561559158461f3e3cd7aa2c8143eb62f2ed4fe23",
+  "repairCueDigest": "222c2bd3248f2337e739bfecfbd729cd4ad2f9c776888cf893b40a82a6f506a2",
+  "previousAlignmentWarnings": []
 }

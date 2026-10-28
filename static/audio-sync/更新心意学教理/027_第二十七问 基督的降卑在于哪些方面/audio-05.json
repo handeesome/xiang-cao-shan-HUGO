@@ -8,36 +8,393 @@
   "audioDuration": 138.7504375,
   "cues": [
     {
-      "start": 2.16,
-      "end": 4.16,
-      "kind": "heading",
-      "targetIndex": 21,
-      "targetText": "礼拜五",
-      "confidence": 0.8
-    },
-    {
       "start": 4.16,
-      "end": 75.71,
+      "end": 77.07,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "耶稣也忍受了上帝的愤怒耶稣作为上帝祂是完全地圣洁恨恶所有的罪当祂走向十字架身上带着我们所有的罪那",
-      "confidence": 0.774
+      "confidence": 0.847,
+      "quality": {
+        "coverage": 0.897,
+        "coherentCoverage": 0.851,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 4,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "discarded detached start matches"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 4.16,
+        "previousEnd": 75.71,
+        "previousConfidence": 0.841
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 4.16,
+            "time": 4.16,
+            "reason": "录音改述为当然耶稣在降卑中最难的是承担罪恶与愤怒，同段实际4.16开始。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\27-5.mp3.json",
+              "sha256": "e004ed9a2416c04ae15d9fec0cb278d6205f77cbb9954bcb995eea8a051b1a54",
+              "source": "context-reviewed-paragraph-approximation",
+              "segments": [
+                {
+                  "start": 1.62,
+                  "end": 2.7,
+                  "text": "禮拜五",
+                  "words": [
+                    {
+                      "start": 1.62,
+                      "end": 2.16,
+                      "text": "禮",
+                      "probability": 0.5340120643377304
+                    },
+                    {
+                      "start": 2.16,
+                      "end": 2.34,
+                      "text": "拜",
+                      "probability": 0.9977745413780212
+                    },
+                    {
+                      "start": 2.34,
+                      "end": 2.7,
+                      "text": "五",
+                      "probability": 0.974363386631012
+                    }
+                  ]
+                },
+                {
+                  "start": 4.16,
+                  "end": 4.68,
+                  "text": "當然",
+                  "words": [
+                    {
+                      "start": 4.16,
+                      "end": 4.68,
+                      "text": "當然",
+                      "probability": 0.786283016204834
+                    }
+                  ]
+                },
+                {
+                  "start": 5.34,
+                  "end": 7.58,
+                  "text": "耶穌在祂的降輩中間",
+                  "words": [
+                    {
+                      "start": 5.34,
+                      "end": 5.86,
+                      "text": "耶",
+                      "probability": 0.9603818655014038
+                    },
+                    {
+                      "start": 5.86,
+                      "end": 6.04,
+                      "text": "穌",
+                      "probability": 0.9894886016845703
+                    },
+                    {
+                      "start": 6.04,
+                      "end": 6.24,
+                      "text": "在",
+                      "probability": 0.998205304145813
+                    },
+                    {
+                      "start": 6.24,
+                      "end": 6.44,
+                      "text": "祂",
+                      "probability": 0.8673617541790009
+                    },
+                    {
+                      "start": 6.44,
+                      "end": 6.54,
+                      "text": "的",
+                      "probability": 0.9924025535583496
+                    },
+                    {
+                      "start": 6.54,
+                      "end": 6.72,
+                      "text": "降",
+                      "probability": 0.9186526536941528
+                    },
+                    {
+                      "start": 6.72,
+                      "end": 6.9,
+                      "text": "輩",
+                      "probability": 0.590731680393219
+                    },
+                    {
+                      "start": 6.9,
+                      "end": 7.14,
+                      "text": "中",
+                      "probability": 0.9974420070648193
+                    },
+                    {
+                      "start": 7.14,
+                      "end": 7.58,
+                      "text": "間",
+                      "probability": 0.9849121570587158
+                    }
+                  ]
+                },
+                {
+                  "start": 7.58,
+                  "end": 9.4,
+                  "text": "最難的事就是",
+                  "words": [
+                    {
+                      "start": 7.58,
+                      "end": 8.08,
+                      "text": "最",
+                      "probability": 0.9466186761856079
+                    },
+                    {
+                      "start": 8.08,
+                      "end": 8.3,
+                      "text": "難",
+                      "probability": 0.9934724569320679
+                    },
+                    {
+                      "start": 8.3,
+                      "end": 8.44,
+                      "text": "的",
+                      "probability": 0.6107797622680664
+                    },
+                    {
+                      "start": 8.44,
+                      "end": 8.7,
+                      "text": "事",
+                      "probability": 0.9849997162818909
+                    },
+                    {
+                      "start": 8.7,
+                      "end": 9.4,
+                      "text": "就是",
+                      "probability": 0.9218234419822693
+                    }
+                  ]
+                },
+                {
+                  "start": 9.4,
+                  "end": 12.28,
+                  "text": "承擔上帝百姓的罪惡",
+                  "words": [
+                    {
+                      "start": 9.4,
+                      "end": 10.18,
+                      "text": "承",
+                      "probability": 0.985188901424408
+                    },
+                    {
+                      "start": 10.18,
+                      "end": 10.54,
+                      "text": "擔",
+                      "probability": 0.9967340230941772
+                    },
+                    {
+                      "start": 10.54,
+                      "end": 10.96,
+                      "text": "上",
+                      "probability": 0.9730220437049866
+                    },
+                    {
+                      "start": 10.96,
+                      "end": 11.18,
+                      "text": "帝",
+                      "probability": 0.9974967241287231
+                    },
+                    {
+                      "start": 11.18,
+                      "end": 11.42,
+                      "text": "百",
+                      "probability": 0.9921148419380188
+                    },
+                    {
+                      "start": 11.42,
+                      "end": 11.64,
+                      "text": "姓",
+                      "probability": 0.9968902170658112
+                    },
+                    {
+                      "start": 11.64,
+                      "end": 11.8,
+                      "text": "的",
+                      "probability": 0.9966891407966614
+                    },
+                    {
+                      "start": 11.8,
+                      "end": 11.98,
+                      "text": "罪",
+                      "probability": 0.9995648562908173
+                    },
+                    {
+                      "start": 11.98,
+                      "end": 12.28,
+                      "text": "惡",
+                      "probability": 0.984453022480011
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
     },
     {
-      "start": 75.71,
-      "end": 122.91,
+      "start": 79.05,
+      "end": 121.99,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "以赛亚书5346祂诚然担当我们的忧患背负我们的痛苦我们却以为祂受责罚被上帝击打苦待了哪知祂为我们",
-      "confidence": 0.81
+      "confidence": 0.848,
+      "quality": {
+        "coverage": 0.845,
+        "coherentCoverage": 0.741,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 79.05,
+        "previousEnd": 121.99,
+        "previousConfidence": 0.842
+      }
     },
     {
       "start": 122.91,
-      "end": 135.65,
+      "end": 135.95,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "以赛亚书5310上耶和华却定意将祂压伤使祂受痛苦耶和华以祂为赎罪祭",
-      "confidence": 0.606
+      "confidence": 0.841,
+      "quality": {
+        "coverage": 0.829,
+        "coherentCoverage": 0.8,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.824,
+        "suffixCoverage": 0.824,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 122.91,
+        "previousEnd": 135.95,
+        "previousConfidence": 0.687
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (4 leading chars, coverage 0.750): target 22: 耶稣也忍受了上帝的愤怒。耶稣作为上帝，祂是完全地圣洁，恨恶所有的罪。当祂走向十字架，身上带着我们",
+    "unverified start anchor: target 22: 耶稣也忍受了上帝的愤怒。耶稣作为上帝，祂是完全地圣洁，恨恶所有的罪。当祂走向十字架，身上带着我们",
+    "repair unverified start (previous-sync): target 22"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "1ceef689a9a542796bad441d16f4f79f4a1cefe924c4aec7b1a8b486eca56073",
+  "repairCueDigest": "460487036236713a61fef3a38ee0df958f2d8b46fa47737f099383c61dfab81a",
+  "previousAlignmentWarnings": []
 }

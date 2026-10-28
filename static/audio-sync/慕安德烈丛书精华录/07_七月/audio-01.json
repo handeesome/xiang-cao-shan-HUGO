@@ -8,60 +8,464 @@
   "audioDuration": 890.5404375,
   "cues": [
     {
-      "start": 10.43,
-      "end": 11.67,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "七月",
-      "confidence": 1.0
-    },
-    {
       "start": 11.67,
-      "end": 36.55,
+      "end": 34.63,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "1有谁在来到皇宫并被邀请与王同住分享王的尊贵和荣耀而仍愿站在门口呢可惜多少人无心与主同住他们一心",
-      "confidence": 0.909
+      "confidence": 0.973,
+      "quality": {
+        "coverage": 0.982,
+        "coherentCoverage": 0.964,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\慕安德烈丛书精华录\\7.mp3.json",
+          "transcriptSha256": "a09f6a38f3cc59585ac6596fe2b5f36aad4a94f9123740e3916d40442724495e",
+          "candidate": 11.67,
+          "expectedPhrase": "1有谁在来到皇宫并被邀请",
+          "actualPhrase": "1又谁再来到皇宫并被邀请",
+          "phoneticPhrase": [
+            "1",
+            "you",
+            "shui",
+            "zai",
+            "lai",
+            "dao",
+            "huang",
+            "gong",
+            "bing",
+            "bei",
+            "yao",
+            "qing"
+          ],
+          "verified": true,
+          "time": 11.67,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "exact-local-syllables-original-word-times",
+          "phoneticExact": true,
+          "literalEqual": false,
+          "wordTokens": [
+            {
+              "text": "1",
+              "start": 11.67,
+              "end": 12.19,
+              "rawStart": 30,
+              "rawEnd": 30,
+              "precision": "word"
+            },
+            {
+              "text": "又",
+              "start": 12.99,
+              "end": 13.63,
+              "rawStart": 31,
+              "rawEnd": 31,
+              "precision": "word"
+            },
+            {
+              "text": "谁",
+              "start": 13.63,
+              "end": 14.03,
+              "rawStart": 32,
+              "rawEnd": 32,
+              "precision": "word"
+            },
+            {
+              "text": "再",
+              "start": 14.03,
+              "end": 14.73,
+              "rawStart": 33,
+              "rawEnd": 33,
+              "precision": "word"
+            },
+            {
+              "text": "来",
+              "start": 14.73,
+              "end": 15.33,
+              "rawStart": 34,
+              "rawEnd": 34,
+              "precision": "word"
+            },
+            {
+              "text": "到",
+              "start": 15.33,
+              "end": 15.61,
+              "rawStart": 35,
+              "rawEnd": 35,
+              "precision": "word"
+            },
+            {
+              "text": "皇",
+              "start": 15.61,
+              "end": 15.89,
+              "rawStart": 36,
+              "rawEnd": 36,
+              "precision": "word"
+            },
+            {
+              "text": "宫",
+              "start": 15.89,
+              "end": 16.21,
+              "rawStart": 37,
+              "rawEnd": 37,
+              "precision": "word"
+            },
+            {
+              "text": "并",
+              "start": 16.21,
+              "end": 16.99,
+              "rawStart": 38,
+              "rawEnd": 38,
+              "precision": "word"
+            },
+            {
+              "text": "被",
+              "start": 16.99,
+              "end": 17.27,
+              "rawStart": 39,
+              "rawEnd": 39,
+              "precision": "word"
+            },
+            {
+              "text": "邀",
+              "start": 17.27,
+              "end": 17.53,
+              "rawStart": 40,
+              "rawEnd": 40,
+              "precision": "word"
+            },
+            {
+              "text": "请",
+              "start": 17.53,
+              "end": 17.93,
+              "rawStart": 41,
+              "rawEnd": 41,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "audioSha256": "4b12cea0bc791448aa2be8db0b0e258d10ecfb97ee7a3a4ef8d092147b7248ac",
+          "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 11.67,
+        "previousEnd": 34.63,
+        "previousConfidence": 0.927
+      },
+      "boundaryCorrections": [
+        {
+          "book": "慕安德烈丛书精华录",
+          "page": "07_七月.md",
+          "audio": "7.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\慕安德烈丛书精华录\\07_七月\\audio-01.json",
+          "targetIndex": 1,
+          "edge": "start",
+          "previousTime": 11.67,
+          "time": 11.67,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
       "start": 36.55,
-      "end": 58.85,
+      "end": 57.47,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "2多默想主这宝贵的命令住在主里面直到这话进入心坎以致热切地追求这无可言喻的福分这福气太大了不是我",
-      "confidence": 0.904
+      "confidence": 0.904,
+      "quality": {
+        "coverage": 0.897,
+        "coherentCoverage": 0.879,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 36.55,
+        "previousEnd": 57.47,
+        "previousConfidence": 0.904
+      }
     },
     {
       "start": 58.85,
-      "end": 82.99,
+      "end": 81.81,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "3住在基督里乃是要舍弃自己接受基督的管理教导和引领跟从祂走舍己背十字架的道路在每个十字架中都有祝",
-      "confidence": 0.902
+      "confidence": 0.937,
+      "quality": {
+        "coverage": 0.937,
+        "coherentCoverage": 0.937,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 58.85,
+        "previousEnd": 81.81,
+        "previousConfidence": 0.937
+      }
     },
     {
       "start": 82.99,
-      "end": 108.45,
+      "end": 105.43,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "4住在基督里是上帝给祂每一个儿女上帝圣的义务和特权住在我里面这并非律法乃是爱的命令我们是在恩典之",
-      "confidence": 0.939
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 82.99,
+        "previousEnd": 105.43,
+        "previousConfidence": 1.0
+      }
     },
     {
-      "start": 108.45,
-      "end": 113.35,
+      "start": 106.93,
+      "end": 112.27,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "5被基督耶稣所得着这是我们的目标",
-      "confidence": 0.867
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 1.0,
+          "localSimilarity": 1.0,
+          "localText": "5被基督耶稣所得着这是我们的目标",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 108.45,
+        "previousEnd": 112.27,
+        "previousConfidence": 0.867
+      }
     },
     {
       "start": 113.35,
-      "end": 158.54,
+      "end": 157.07,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "6愿我们成为多结果子的枝子与葡萄树联合得好树里面的汁浆和养料全是我们的多少基督徒常陷于软弱失败罪",
-      "confidence": 0.815
+      "confidence": 0.941,
+      "quality": {
+        "coverage": 0.941,
+        "coherentCoverage": 0.924,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 113.35,
+        "previousEnd": 157.07,
+        "previousConfidence": 0.941
+      }
     },
     {
       "start": 158.54,
@@ -69,87 +473,931 @@
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "7住在基督里不必靠自己的努力去成就什么只要作祂所要我们作的顺服在祂所安排的环境里时刻与祂亲近上帝",
-      "confidence": 0.708
+      "confidence": 0.92,
+      "quality": {
+        "coverage": 0.912,
+        "coherentCoverage": 0.825,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 158.54,
+        "previousEnd": 178.26,
+        "previousConfidence": 0.92
+      }
     },
     {
-      "start": 178.26,
-      "end": 202.29,
+      "start": 181.17,
+      "end": 201.01,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "8要培养一颗真正倾向上帝的心乐意默念祂用信赖盼望的态度来思想祂的道路和祂的工作惟有这样的心才能承",
-      "confidence": 0.947
+      "confidence": 0.973,
+      "quality": {
+        "coverage": 0.964,
+        "coherentCoverage": 0.964,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 181.17,
+        "previousEnd": 201.01,
+        "previousConfidence": 0.973
+      }
     },
     {
       "start": 202.29,
-      "end": 246.83,
+      "end": 245.25,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "9你们得在基督耶稣里是本乎上帝林前130我们与基督联合乃是上帝所作之工不住的祷告和等候乃是给上帝",
-      "confidence": 0.909
+      "confidence": 0.935,
+      "quality": {
+        "coverage": 0.956,
+        "coherentCoverage": 0.92,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 202.29,
+        "previousEnd": 245.25,
+        "previousConfidence": 0.935
+      }
     },
     {
       "start": 246.83,
-      "end": 293.47,
+      "end": 291.95,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "10罪是从善恶树而来吃生命树的果子就能得着基督里的智慧即属天的智慧心里的眼睛明亮住在基督里就是住",
-      "confidence": 0.713
+      "confidence": 0.835,
+      "quality": {
+        "coverage": 0.838,
+        "coherentCoverage": 0.7,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "source": "existing-small-transcript-local-phrase",
+          "model": ".audio-sync-cache\\models\\small",
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\慕安德烈丛书精华录\\7.mp3.json",
+          "transcriptSha256": "a09f6a38f3cc59585ac6596fe2b5f36aad4a94f9123740e3916d40442724495e",
+          "audioSha256": "4b12cea0bc791448aa2be8db0b0e258d10ecfb97ee7a3a4ef8d092147b7248ac",
+          "window": [
+            282.13,
+            291.95
+          ],
+          "fullFileTranscribed": false,
+          "newDownloads": 0,
+          "listenedByAgent": false,
+          "timingPrecision": "segment-boundary",
+          "localSupported": true,
+          "contextUsed": true,
+          "rawSegments": [
+            {
+              "start": 282.13,
+              "end": 291.95,
+              "text": "基督就是我們的智慧,在他的生命裡才有真知識,也就是明白樹林的事。",
+              "words": [
+                {
+                  "start": 282.13,
+                  "end": 282.53,
+                  "text": "基",
+                  "probability": 0.9725127220153809
+                },
+                {
+                  "start": 282.53,
+                  "end": 282.77,
+                  "text": "督",
+                  "probability": 0.999584823846817
+                },
+                {
+                  "start": 282.77,
+                  "end": 283.45,
+                  "text": "就是",
+                  "probability": 0.922996461391449
+                },
+                {
+                  "start": 283.45,
+                  "end": 283.99,
+                  "text": "我們的",
+                  "probability": 0.9840996265411377
+                },
+                {
+                  "start": 283.99,
+                  "end": 284.35,
+                  "text": "智",
+                  "probability": 0.9996753931045532
+                },
+                {
+                  "start": 284.35,
+                  "end": 284.67,
+                  "text": "慧,",
+                  "probability": 0.9998321235179901
+                },
+                {
+                  "start": 285.45,
+                  "end": 285.69,
+                  "text": "在",
+                  "probability": 0.9934775829315186
+                },
+                {
+                  "start": 285.69,
+                  "end": 285.89,
+                  "text": "他的",
+                  "probability": 0.6719077825546265
+                },
+                {
+                  "start": 285.89,
+                  "end": 286.19,
+                  "text": "生",
+                  "probability": 0.9962372779846191
+                },
+                {
+                  "start": 286.19,
+                  "end": 286.43,
+                  "text": "命",
+                  "probability": 0.9996227025985718
+                },
+                {
+                  "start": 286.43,
+                  "end": 286.71,
+                  "text": "裡",
+                  "probability": 0.9313063621520996
+                },
+                {
+                  "start": 286.71,
+                  "end": 287.19,
+                  "text": "才",
+                  "probability": 0.9148892164230347
+                },
+                {
+                  "start": 287.19,
+                  "end": 287.41,
+                  "text": "有",
+                  "probability": 0.9936755299568176
+                },
+                {
+                  "start": 287.41,
+                  "end": 287.79,
+                  "text": "真",
+                  "probability": 0.9171666502952576
+                },
+                {
+                  "start": 287.79,
+                  "end": 288.09,
+                  "text": "知",
+                  "probability": 0.9156181812286377
+                },
+                {
+                  "start": 288.09,
+                  "end": 288.43,
+                  "text": "識,",
+                  "probability": 0.9838171005249023
+                },
+                {
+                  "start": 289.49,
+                  "end": 289.67,
+                  "text": "也",
+                  "probability": 0.9870757460594177
+                },
+                {
+                  "start": 289.67,
+                  "end": 289.97,
+                  "text": "就是",
+                  "probability": 0.9967002272605896
+                },
+                {
+                  "start": 289.97,
+                  "end": 290.69,
+                  "text": "明白",
+                  "probability": 0.9667901396751404
+                },
+                {
+                  "start": 290.69,
+                  "end": 291.31,
+                  "text": "樹",
+                  "probability": 0.9952878952026367
+                },
+                {
+                  "start": 291.31,
+                  "end": 291.51,
+                  "text": "林",
+                  "probability": 0.9989261031150818
+                },
+                {
+                  "start": 291.51,
+                  "end": 291.67,
+                  "text": "的",
+                  "probability": 0.9922674298286438
+                },
+                {
+                  "start": 291.67,
+                  "end": 291.95,
+                  "text": "事。",
+                  "probability": 0.9459830522537231
+                }
+              ]
+            }
+          ],
+          "reason": "The final phrase 明白属灵的事 ends at 291.95; the next numbered heading begins at 293.47.",
+          "verified": true
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 246.83,
+        "previousEnd": 293.47,
+        "previousConfidence": 0.828
+      },
+      "boundaryCorrections": [
+        {
+          "book": "慕安德烈丛书精华录",
+          "page": "07_七月.md",
+          "audio": "7.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\慕安德烈丛书精华录\\07_七月\\audio-01.json",
+          "targetIndex": 10,
+          "edge": "end",
+          "previousTime": 293.47,
+          "time": 291.95,
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "kind": "local-phrase-boundary-correction",
+          "proof": {
+            "source": "existing-small-transcript-local-phrase",
+            "model": ".audio-sync-cache\\models\\small",
+            "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\慕安德烈丛书精华录\\7.mp3.json",
+            "transcriptSha256": "a09f6a38f3cc59585ac6596fe2b5f36aad4a94f9123740e3916d40442724495e",
+            "audioSha256": "4b12cea0bc791448aa2be8db0b0e258d10ecfb97ee7a3a4ef8d092147b7248ac",
+            "window": [
+              282.13,
+              291.95
+            ],
+            "fullFileTranscribed": false,
+            "newDownloads": 0,
+            "listenedByAgent": false,
+            "timingPrecision": "segment-boundary",
+            "localSupported": true,
+            "contextUsed": true,
+            "rawSegments": [
+              {
+                "start": 282.13,
+                "end": 291.95,
+                "text": "基督就是我們的智慧,在他的生命裡才有真知識,也就是明白樹林的事。",
+                "words": [
+                  {
+                    "start": 282.13,
+                    "end": 282.53,
+                    "text": "基",
+                    "probability": 0.9725127220153809
+                  },
+                  {
+                    "start": 282.53,
+                    "end": 282.77,
+                    "text": "督",
+                    "probability": 0.999584823846817
+                  },
+                  {
+                    "start": 282.77,
+                    "end": 283.45,
+                    "text": "就是",
+                    "probability": 0.922996461391449
+                  },
+                  {
+                    "start": 283.45,
+                    "end": 283.99,
+                    "text": "我們的",
+                    "probability": 0.9840996265411377
+                  },
+                  {
+                    "start": 283.99,
+                    "end": 284.35,
+                    "text": "智",
+                    "probability": 0.9996753931045532
+                  },
+                  {
+                    "start": 284.35,
+                    "end": 284.67,
+                    "text": "慧,",
+                    "probability": 0.9998321235179901
+                  },
+                  {
+                    "start": 285.45,
+                    "end": 285.69,
+                    "text": "在",
+                    "probability": 0.9934775829315186
+                  },
+                  {
+                    "start": 285.69,
+                    "end": 285.89,
+                    "text": "他的",
+                    "probability": 0.6719077825546265
+                  },
+                  {
+                    "start": 285.89,
+                    "end": 286.19,
+                    "text": "生",
+                    "probability": 0.9962372779846191
+                  },
+                  {
+                    "start": 286.19,
+                    "end": 286.43,
+                    "text": "命",
+                    "probability": 0.9996227025985718
+                  },
+                  {
+                    "start": 286.43,
+                    "end": 286.71,
+                    "text": "裡",
+                    "probability": 0.9313063621520996
+                  },
+                  {
+                    "start": 286.71,
+                    "end": 287.19,
+                    "text": "才",
+                    "probability": 0.9148892164230347
+                  },
+                  {
+                    "start": 287.19,
+                    "end": 287.41,
+                    "text": "有",
+                    "probability": 0.9936755299568176
+                  },
+                  {
+                    "start": 287.41,
+                    "end": 287.79,
+                    "text": "真",
+                    "probability": 0.9171666502952576
+                  },
+                  {
+                    "start": 287.79,
+                    "end": 288.09,
+                    "text": "知",
+                    "probability": 0.9156181812286377
+                  },
+                  {
+                    "start": 288.09,
+                    "end": 288.43,
+                    "text": "識,",
+                    "probability": 0.9838171005249023
+                  },
+                  {
+                    "start": 289.49,
+                    "end": 289.67,
+                    "text": "也",
+                    "probability": 0.9870757460594177
+                  },
+                  {
+                    "start": 289.67,
+                    "end": 289.97,
+                    "text": "就是",
+                    "probability": 0.9967002272605896
+                  },
+                  {
+                    "start": 289.97,
+                    "end": 290.69,
+                    "text": "明白",
+                    "probability": 0.9667901396751404
+                  },
+                  {
+                    "start": 290.69,
+                    "end": 291.31,
+                    "text": "樹",
+                    "probability": 0.9952878952026367
+                  },
+                  {
+                    "start": 291.31,
+                    "end": 291.51,
+                    "text": "林",
+                    "probability": 0.9989261031150818
+                  },
+                  {
+                    "start": 291.51,
+                    "end": 291.67,
+                    "text": "的",
+                    "probability": 0.9922674298286438
+                  },
+                  {
+                    "start": 291.67,
+                    "end": 291.95,
+                    "text": "事。",
+                    "probability": 0.9459830522537231
+                  }
+                ]
+              }
+            ],
+            "reason": "The final phrase 明白属灵的事 ends at 291.95; the next numbered heading begins at 293.47."
+          },
+          "reason": "The final phrase 明白属灵的事 ends at 291.95; the next numbered heading begins at 293.47."
+        }
+      ]
     },
     {
       "start": 293.47,
-      "end": 315.69,
+      "end": 314.59,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "11天然的理解力绝对不能体会上帝的事要进入内室安静在祂的面前圣灵会教导你信主的人往往无助的挣扎多",
-      "confidence": 0.932
+      "confidence": 0.949,
+      "quality": {
+        "coverage": 0.949,
+        "coherentCoverage": 0.898,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": false,
+          "substitutionAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 293.47,
+        "previousEnd": 314.59,
+        "previousConfidence": 0.949
+      }
     },
     {
-      "start": 315.69,
-      "end": 342.89,
+      "start": 316.11,
+      "end": 342.07,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "12与主亲密的交通祂要籍着圣灵使祂圣洁的生命不断地流入你里面这是成圣的秘诀你就会经历到上帝的应许",
-      "confidence": 0.803
+      "confidence": 0.904,
+      "quality": {
+        "coverage": 0.899,
+        "coherentCoverage": 0.873,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 0.917,
+          "localSimilarity": 0.917,
+          "localText": "12与主亲密的交通他要籍着圣灵使他圣洁的生命不断",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 315.69,
+        "previousEnd": 342.07,
+        "previousConfidence": 0.828
+      }
     },
     {
       "start": 342.89,
-      "end": 368.63,
+      "end": 367.45,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "13基督那圣洁生命的能力远超过你败坏的肉体新生命必能治死你里面的老我切不可认为圣洁的生命能靠自我",
-      "confidence": 0.914
+      "confidence": 0.914,
+      "quality": {
+        "coverage": 0.914,
+        "coherentCoverage": 0.886,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 342.89,
+        "previousEnd": 367.45,
+        "previousConfidence": 0.914
+      }
     },
     {
       "start": 368.63,
-      "end": 386.17,
+      "end": 384.73,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "14与主亲密地交通我们会感觉到一股永不止息的生命力运行在我们里面并预尝到永生的滋味和永远的荣耀",
-      "confidence": 0.66
+      "confidence": 0.936,
+      "quality": {
+        "coverage": 0.936,
+        "coherentCoverage": 0.936,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 368.63,
+        "previousEnd": 384.73,
+        "previousConfidence": 0.936
+      }
     },
     {
       "start": 386.17,
-      "end": 407.84,
+      "end": 404.59,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "15住在基督里是我们新生命成长的秘诀这新生命是由于老旧人逐渐死亡而成长的祂必兴旺我必衰微",
-      "confidence": 0.952
+      "confidence": 0.952,
+      "quality": {
+        "coverage": 0.909,
+        "coherentCoverage": 0.909,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 386.17,
+        "previousEnd": 404.59,
+        "previousConfidence": 0.952
+      }
     },
     {
       "start": 407.84,
-      "end": 426.1,
+      "end": 425.04,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "16仰望十字架是得胜之唯一门径祂所赋予的生命是从死里复活的生命每一个新生命的力量必须经过十字架的",
-      "confidence": 0.891
+      "confidence": 0.914,
+      "quality": {
+        "coverage": 0.923,
+        "coherentCoverage": 0.865,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 407.84,
+        "previousEnd": 425.04,
+        "previousConfidence": 0.914
+      }
     },
     {
       "start": 426.1,
-      "end": 457.66,
+      "end": 457.02,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "17一个真正背负十字架的人其态度应该是这样的制服自我的意识弃绝肉体的邪情私欲并要从世上分别出来那",
-      "confidence": 0.874
+      "confidence": 0.875,
+      "quality": {
+        "coverage": 0.875,
+        "coherentCoverage": 0.875,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 426.1,
+        "previousEnd": 457.02,
+        "previousConfidence": 0.875
+      }
     },
     {
       "start": 457.66,
@@ -157,103 +1405,1388 @@
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "18耶和华必成全关乎我的事求你不要离弃你手所造的诗1388那在你们心里动了善工的必成全这工腓16",
-      "confidence": 0.789
+      "confidence": 0.842,
+      "quality": {
+        "coverage": 0.889,
+        "coherentCoverage": 0.762,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": false,
+          "substitutionAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 457.66,
+        "previousEnd": 512.44,
+        "previousConfidence": 0.842
+      }
     },
     {
       "start": 512.44,
-      "end": 559.54,
+      "end": 558.7,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "19母亲在任何忙碌中不会失去她对儿女的关切和爱同样地我们住在基督里是生命和爱的交流永不止息要操练",
-      "confidence": 0.838
+      "confidence": 0.761,
+      "quality": {
+        "coverage": 0.634,
+        "coherentCoverage": 0.618,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.15,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 17,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 512.44,
+        "previousEnd": 558.7,
+        "previousConfidence": 0.856
+      }
     },
     {
       "start": 559.54,
-      "end": 588.08,
+      "end": 586.24,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "20倒空己里面的一切圣灵的大能才会源源流入人若保留自我就不可能在信仰的道路上与主同行上帝的恩典只",
-      "confidence": 0.87
+      "confidence": 0.899,
+      "quality": {
+        "coverage": 0.899,
+        "coherentCoverage": 0.783,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\慕安德烈丛书精华录\\7.mp3.json",
+          "transcriptSha256": "a09f6a38f3cc59585ac6596fe2b5f36aad4a94f9123740e3916d40442724495e",
+          "candidate": 559.54,
+          "expectedPhrase": "20倒空己里面的1切圣灵",
+          "actualPhrase": "20道空集里面的1切圣灵",
+          "phoneticPhrase": [
+            "2",
+            "0",
+            "dao",
+            "kong",
+            "ji",
+            "li",
+            "mian",
+            "de",
+            "1",
+            "qie",
+            "sheng",
+            "ling"
+          ],
+          "verified": true,
+          "time": 559.54,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "exact-local-syllables-original-word-times",
+          "phoneticExact": true,
+          "literalEqual": false,
+          "wordTokens": [
+            {
+              "text": "2",
+              "start": 559.54,
+              "end": 560.6,
+              "rawStart": 1450,
+              "rawEnd": 1450,
+              "precision": "word"
+            },
+            {
+              "text": "0",
+              "start": 559.54,
+              "end": 560.6,
+              "rawStart": 1451,
+              "rawEnd": 1451,
+              "precision": "word"
+            },
+            {
+              "text": "道",
+              "start": 560.6,
+              "end": 561.6,
+              "rawStart": 1452,
+              "rawEnd": 1452,
+              "precision": "word"
+            },
+            {
+              "text": "空",
+              "start": 561.6,
+              "end": 561.98,
+              "rawStart": 1453,
+              "rawEnd": 1453,
+              "precision": "word"
+            },
+            {
+              "text": "集",
+              "start": 561.98,
+              "end": 562.32,
+              "rawStart": 1454,
+              "rawEnd": 1454,
+              "precision": "word"
+            },
+            {
+              "text": "里",
+              "start": 562.32,
+              "end": 562.64,
+              "rawStart": 1455,
+              "rawEnd": 1455,
+              "precision": "word"
+            },
+            {
+              "text": "面",
+              "start": 562.64,
+              "end": 562.8,
+              "rawStart": 1456,
+              "rawEnd": 1456,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 562.8,
+              "end": 562.92,
+              "rawStart": 1457,
+              "rawEnd": 1457,
+              "precision": "word"
+            },
+            {
+              "text": "1",
+              "start": 562.92,
+              "end": 563.22,
+              "rawStart": 1458,
+              "rawEnd": 1458,
+              "precision": "word"
+            },
+            {
+              "text": "切",
+              "start": 563.22,
+              "end": 563.44,
+              "rawStart": 1459,
+              "rawEnd": 1459,
+              "precision": "word"
+            },
+            {
+              "text": "圣",
+              "start": 564.12,
+              "end": 564.3,
+              "rawStart": 1460,
+              "rawEnd": 1460,
+              "precision": "word"
+            },
+            {
+              "text": "灵",
+              "start": 564.3,
+              "end": 564.44,
+              "rawStart": 1461,
+              "rawEnd": 1461,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "audioSha256": "4b12cea0bc791448aa2be8db0b0e258d10ecfb97ee7a3a4ef8d092147b7248ac",
+          "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "specific-local-word-clock-context",
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\慕安德烈丛书精华录\\7.mp3.json",
+          "transcriptSha256": "a09f6a38f3cc59585ac6596fe2b5f36aad4a94f9123740e3916d40442724495e",
+          "wordTokens": [
+            {
+              "start": 586.0,
+              "end": 586.24,
+              "text": "切",
+              "probability": 0.9999303817749023
+            }
+          ],
+          "sourceComparisons": [
+            {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\慕安德烈丛书精华录\\7.mp3.json",
+              "transcriptSha256": "a09f6a38f3cc59585ac6596fe2b5f36aad4a94f9123740e3916d40442724495e",
+              "phraseChars": 12,
+              "candidate": 586.24,
+              "expectedPhrase": "舍己就能得着基督里的1切",
+              "actualPhrase": "舍己就能得找基督力的1切",
+              "phoneticPhrase": [
+                "she",
+                "ji",
+                "jiu",
+                "neng",
+                "de",
+                "zhe",
+                "ji",
+                "du",
+                "li",
+                "de",
+                "yi",
+                "qie"
+              ],
+              "actualPhoneticPhrase": [
+                "she",
+                "ji",
+                "jiu",
+                "neng",
+                "de",
+                "zhao",
+                "ji",
+                "du",
+                "li",
+                "de",
+                "yi",
+                "qie"
+              ],
+              "verified": true,
+              "time": 586.24,
+              "boundedPhonetic": true,
+              "exactEndpointPhonemes": 2,
+              "maxInternalPhoneticDifferences": 2,
+              "phoneticDifferences": [
+                5
+              ],
+              "localSupported": true,
+              "timingPrecision": "word",
+              "wordTokens": [
+                {
+                  "text": "舍",
+                  "start": 582.26,
+                  "end": 582.84,
+                  "rawStart": 1507,
+                  "rawEnd": 1507,
+                  "precision": "word"
+                },
+                {
+                  "text": "己",
+                  "start": 582.84,
+                  "end": 583.14,
+                  "rawStart": 1508,
+                  "rawEnd": 1508,
+                  "precision": "word"
+                },
+                {
+                  "text": "就",
+                  "start": 583.14,
+                  "end": 583.7,
+                  "rawStart": 1509,
+                  "rawEnd": 1509,
+                  "precision": "word"
+                },
+                {
+                  "text": "能",
+                  "start": 583.7,
+                  "end": 584.0,
+                  "rawStart": 1510,
+                  "rawEnd": 1510,
+                  "precision": "word"
+                },
+                {
+                  "text": "得",
+                  "start": 584.0,
+                  "end": 584.38,
+                  "rawStart": 1511,
+                  "rawEnd": 1511,
+                  "precision": "word"
+                },
+                {
+                  "text": "找",
+                  "start": 584.38,
+                  "end": 584.8,
+                  "rawStart": 1512,
+                  "rawEnd": 1512,
+                  "precision": "word"
+                },
+                {
+                  "text": "基",
+                  "start": 584.8,
+                  "end": 585.14,
+                  "rawStart": 1513,
+                  "rawEnd": 1513,
+                  "precision": "word"
+                },
+                {
+                  "text": "督",
+                  "start": 585.14,
+                  "end": 585.36,
+                  "rawStart": 1514,
+                  "rawEnd": 1514,
+                  "precision": "word"
+                },
+                {
+                  "text": "力",
+                  "start": 585.36,
+                  "end": 585.54,
+                  "rawStart": 1515,
+                  "rawEnd": 1515,
+                  "precision": "word"
+                },
+                {
+                  "text": "的",
+                  "start": 585.54,
+                  "end": 585.68,
+                  "rawStart": 1516,
+                  "rawEnd": 1516,
+                  "precision": "word"
+                },
+                {
+                  "text": "1",
+                  "start": 585.68,
+                  "end": 586.0,
+                  "rawStart": 1517,
+                  "rawEnd": 1517,
+                  "precision": "word"
+                },
+                {
+                  "text": "切",
+                  "start": 586.0,
+                  "end": 586.24,
+                  "rawStart": 1518,
+                  "rawEnd": 1518,
+                  "precision": "word"
+                }
+              ],
+              "source": "bounded-local-phonetic-differences-original-word-times",
+              "listenedByAgent": false
+            },
+            {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\transcript-first-repair-20261017\\verified-transcripts\\慕安德烈丛书精华录\\7.mp3.json",
+              "transcriptSha256": "f85624eac5c2128e139955cc3f3ff89917e65335bdad60d9dfb25bfcdb5a2ea6",
+              "phraseChars": 12,
+              "candidate": 587.49,
+              "expectedPhrase": "舍己就能得着基督里的1切",
+              "actualPhrase": "舍己就能得找基督力的1切",
+              "phoneticPhrase": [
+                "she",
+                "ji",
+                "jiu",
+                "neng",
+                "de",
+                "zhe",
+                "ji",
+                "du",
+                "li",
+                "de",
+                "yi",
+                "qie"
+              ],
+              "actualPhoneticPhrase": [
+                "she",
+                "ji",
+                "jiu",
+                "neng",
+                "de",
+                "zhao",
+                "ji",
+                "du",
+                "li",
+                "de",
+                "yi",
+                "qie"
+              ],
+              "verified": true,
+              "time": 587.49,
+              "boundedPhonetic": true,
+              "exactEndpointPhonemes": 2,
+              "maxInternalPhoneticDifferences": 2,
+              "phoneticDifferences": [
+                5
+              ],
+              "localSupported": true,
+              "timingPrecision": "word",
+              "wordTokens": [
+                {
+                  "text": "舍",
+                  "start": 582.6500000000001,
+                  "end": 583.0100000000001,
+                  "rawStart": 1492,
+                  "rawEnd": 1492,
+                  "precision": "word"
+                },
+                {
+                  "text": "己",
+                  "start": 583.0100000000001,
+                  "end": 583.5100000000001,
+                  "rawStart": 1493,
+                  "rawEnd": 1493,
+                  "precision": "word"
+                },
+                {
+                  "text": "就",
+                  "start": 583.5100000000001,
+                  "end": 583.83,
+                  "rawStart": 1494,
+                  "rawEnd": 1494,
+                  "precision": "word"
+                },
+                {
+                  "text": "能",
+                  "start": 583.83,
+                  "end": 584.23,
+                  "rawStart": 1495,
+                  "rawEnd": 1495,
+                  "precision": "word"
+                },
+                {
+                  "text": "得",
+                  "start": 584.23,
+                  "end": 584.6700000000001,
+                  "rawStart": 1496,
+                  "rawEnd": 1496,
+                  "precision": "word"
+                },
+                {
+                  "text": "找",
+                  "start": 584.6700000000001,
+                  "end": 584.95,
+                  "rawStart": 1497,
+                  "rawEnd": 1497,
+                  "precision": "word"
+                },
+                {
+                  "text": "基",
+                  "start": 584.95,
+                  "end": 585.35,
+                  "rawStart": 1498,
+                  "rawEnd": 1498,
+                  "precision": "word"
+                },
+                {
+                  "text": "督",
+                  "start": 585.35,
+                  "end": 585.49,
+                  "rawStart": 1499,
+                  "rawEnd": 1499,
+                  "precision": "word"
+                },
+                {
+                  "text": "力",
+                  "start": 585.49,
+                  "end": 585.69,
+                  "rawStart": 1500,
+                  "rawEnd": 1500,
+                  "precision": "word"
+                },
+                {
+                  "text": "的",
+                  "start": 585.69,
+                  "end": 586.0100000000001,
+                  "rawStart": 1501,
+                  "rawEnd": 1501,
+                  "precision": "word"
+                },
+                {
+                  "text": "1",
+                  "start": 586.0100000000001,
+                  "end": 586.11,
+                  "rawStart": 1502,
+                  "rawEnd": 1502,
+                  "precision": "word"
+                },
+                {
+                  "text": "切",
+                  "start": 586.11,
+                  "end": 587.49,
+                  "rawStart": 1503,
+                  "rawEnd": 1503,
+                  "precision": "word"
+                }
+              ],
+              "source": "bounded-local-phonetic-differences-original-word-times",
+              "listenedByAgent": false
+            }
+          ],
+          "independentRawBase": {
+            "path": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\context-continuation-20261019\\clock-base-windows\\12.json",
+            "sha256": "f599d43ff998b1cd256dffc2d6653ffd7ddf12d82faed473b438169ecb952279",
+            "segments": [
+              {
+                "start": 576.58,
+                "end": 580.82,
+                "text": "神的恩典只来自舌极与顺佛,",
+                "words": [
+                  {
+                    "start": 576.58,
+                    "end": 577.0600000000001,
+                    "text": "神",
+                    "probability": 0.9147838354110718
+                  },
+                  {
+                    "start": 577.0600000000001,
+                    "end": 577.24,
+                    "text": "的",
+                    "probability": 0.9499428272247314
+                  },
+                  {
+                    "start": 577.24,
+                    "end": 577.4,
+                    "text": "恩",
+                    "probability": 0.9793868660926819
+                  },
+                  {
+                    "start": 577.4,
+                    "end": 577.7,
+                    "text": "典",
+                    "probability": 0.9567862451076508
+                  },
+                  {
+                    "start": 577.7,
+                    "end": 578.32,
+                    "text": "只",
+                    "probability": 0.5097936987876892
+                  },
+                  {
+                    "start": 578.32,
+                    "end": 578.82,
+                    "text": "来",
+                    "probability": 0.8094580173492432
+                  },
+                  {
+                    "start": 578.82,
+                    "end": 579.24,
+                    "text": "自",
+                    "probability": 0.9912905693054199
+                  },
+                  {
+                    "start": 579.24,
+                    "end": 579.62,
+                    "text": "舌",
+                    "probability": 0.4570614993572235
+                  },
+                  {
+                    "start": 579.62,
+                    "end": 579.96,
+                    "text": "极",
+                    "probability": 0.5822810381650925
+                  },
+                  {
+                    "start": 579.96,
+                    "end": 580.32,
+                    "text": "与",
+                    "probability": 0.9252976775169373
+                  },
+                  {
+                    "start": 580.32,
+                    "end": 580.5600000000001,
+                    "text": "顺",
+                    "probability": 0.8533609509468079
+                  },
+                  {
+                    "start": 580.5600000000001,
+                    "end": 580.82,
+                    "text": "佛,",
+                    "probability": 0.6739480942487717
+                  }
+                ]
+              },
+              {
+                "start": 581.72,
+                "end": 586.16,
+                "text": "完全舌极,就能得找基督力的一切。",
+                "words": [
+                  {
+                    "start": 581.72,
+                    "end": 582.4,
+                    "text": "完全",
+                    "probability": 0.9409564733505249
+                  },
+                  {
+                    "start": 582.4,
+                    "end": 582.82,
+                    "text": "舌",
+                    "probability": 0.9972813427448273
+                  },
+                  {
+                    "start": 582.82,
+                    "end": 583.2,
+                    "text": "极,",
+                    "probability": 0.9546626508235931
+                  },
+                  {
+                    "start": 583.54,
+                    "end": 583.6800000000001,
+                    "text": "就",
+                    "probability": 0.951521098613739
+                  },
+                  {
+                    "start": 583.6800000000001,
+                    "end": 584.04,
+                    "text": "能",
+                    "probability": 0.9995225667953491
+                  },
+                  {
+                    "start": 584.04,
+                    "end": 584.38,
+                    "text": "得",
+                    "probability": 0.7956447005271912
+                  },
+                  {
+                    "start": 584.38,
+                    "end": 584.76,
+                    "text": "找",
+                    "probability": 0.6239857077598572
+                  },
+                  {
+                    "start": 584.76,
+                    "end": 585.1,
+                    "text": "基",
+                    "probability": 0.7565810680389404
+                  },
+                  {
+                    "start": 585.1,
+                    "end": 585.32,
+                    "text": "督",
+                    "probability": 0.9828040301799774
+                  },
+                  {
+                    "start": 585.32,
+                    "end": 585.54,
+                    "text": "力",
+                    "probability": 0.6994420289993286
+                  },
+                  {
+                    "start": 585.54,
+                    "end": 585.66,
+                    "text": "的",
+                    "probability": 0.951679527759552
+                  },
+                  {
+                    "start": 585.66,
+                    "end": 585.84,
+                    "text": "一",
+                    "probability": 0.9811168313026428
+                  },
+                  {
+                    "start": 585.84,
+                    "end": 586.16,
+                    "text": "切。",
+                    "probability": 0.999693751335144
+                  }
+                ]
+              },
+              {
+                "start": 587.92,
+                "end": 592.46,
+                "text": "21.生命的火水,只有在人口。",
+                "words": [
+                  {
+                    "start": 587.92,
+                    "end": 588.6,
+                    "text": "21.",
+                    "probability": 0.475630521774292
+                  },
+                  {
+                    "start": 589.82,
+                    "end": 589.98,
+                    "text": "生",
+                    "probability": 0.9571499824523926
+                  },
+                  {
+                    "start": 589.98,
+                    "end": 590.22,
+                    "text": "命",
+                    "probability": 0.9962536096572876
+                  },
+                  {
+                    "start": 590.22,
+                    "end": 590.38,
+                    "text": "的",
+                    "probability": 0.9902798533439636
+                  },
+                  {
+                    "start": 590.38,
+                    "end": 590.6,
+                    "text": "火",
+                    "probability": 0.5174130201339722
+                  },
+                  {
+                    "start": 590.6,
+                    "end": 590.86,
+                    "text": "水,",
+                    "probability": 0.47967296838760376
+                  },
+                  {
+                    "start": 591.28,
+                    "end": 591.64,
+                    "text": "只有",
+                    "probability": 0.9234594702720642
+                  },
+                  {
+                    "start": 591.64,
+                    "end": 591.92,
+                    "text": "在",
+                    "probability": 0.9583132863044739
+                  },
+                  {
+                    "start": 591.92,
+                    "end": 592.16,
+                    "text": "人",
+                    "probability": 0.8786048293113708
+                  },
+                  {
+                    "start": 592.16,
+                    "end": 592.46,
+                    "text": "口。",
+                    "probability": 0.9367921948432922
+                  }
+                ]
+              }
+            ]
+          },
+          "speechDiagnostics": null,
+          "reason": "原small一切末词586.24与base586.16一致；后条21及生命的活水587.92另起，另一稿587.49跨入停顿。",
+          "audioSha256": "4b12cea0bc791448aa2be8db0b0e258d10ecfb97ee7a3a4ef8d092147b7248ac",
+          "listenedByAgent": false
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 559.54,
+        "previousEnd": 588.08,
+        "previousConfidence": 0.899
+      },
+      "boundaryCorrections": [
+        {
+          "book": "慕安德烈丛书精华录",
+          "page": "07_七月.md",
+          "audio": "7.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\慕安德烈丛书精华录\\07_七月\\audio-01.json",
+          "targetIndex": 20,
+          "edge": "start",
+          "previousTime": 559.54,
+          "time": 559.54,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        },
+        {
+          "book": "慕安德烈丛书精华录",
+          "page": "07_七月.md",
+          "audio": "7.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\慕安德烈丛书精华录\\07_七月\\audio-01.json",
+          "targetIndex": 20,
+          "edge": "end",
+          "previousTime": 588.08,
+          "time": 586.24,
+          "kind": "specific-local-clock-context",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false,
+          "reason": "原small一切末词586.24与base586.16一致；后条21及生命的活水587.92另起，另一稿587.49跨入停顿。"
+        }
+      ]
     },
     {
       "start": 588.08,
-      "end": 607.14,
+      "end": 607.42,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "21生命的活水只有在人渴慕的状态下才能不止息的流入人若因属灵的恩赐而自满上帝恩典的流入就要受到阻",
-      "confidence": 0.771
+      "confidence": 0.891,
+      "quality": {
+        "coverage": 0.891,
+        "coherentCoverage": 0.891,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 588.08,
+        "previousEnd": 607.42,
+        "previousConfidence": 0.927
+      }
     },
     {
-      "start": 607.14,
-      "end": 659.3,
+      "start": 608.6,
+      "end": 658.0,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "22你们要按这恩膏的教训住在主里面约壹227圣灵的恩膏要指示我们一切的事并教导我们如何住在基督里",
-      "confidence": 0.743
+      "confidence": 0.921,
+      "quality": {
+        "coverage": 0.934,
+        "coherentCoverage": 0.869,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": false,
+          "substitutionAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 608.6,
+        "previousEnd": 658.0,
+        "previousConfidence": 0.921
+      }
     },
     {
       "start": 659.3,
-      "end": 702.8,
+      "end": 701.28,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "23你们要休息要知道我是上帝诗4610休息二字可译作静止意思就是没有自己的活动唯有宁静的心灵才能",
-      "confidence": 0.875
+      "confidence": 0.875,
+      "quality": {
+        "coverage": 0.858,
+        "coherentCoverage": 0.83,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 659.3,
+        "previousEnd": 701.28,
+        "previousConfidence": 0.875
+      }
     },
     {
       "start": 702.8,
-      "end": 733.84,
+      "end": 734.98,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "24住在基督里你才能明白你所遭遇的苦难是祂的修理住在基督里你才能从试炼中得到祝福你才能明白你所得",
-      "confidence": 0.905
+      "confidence": 0.955,
+      "quality": {
+        "coverage": 0.955,
+        "coherentCoverage": 0.955,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 0.917,
+          "localSimilarity": 0.917,
+          "localText": "帝剥夺你为要使你有空处容纳他所要给你的属天的福分",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 702.8,
+        "previousEnd": 733.84,
+        "previousConfidence": 0.931
+      }
     },
     {
-      "start": 733.84,
-      "end": 758.17,
+      "start": 737.3,
+      "end": 756.06,
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "25完全放弃你自己的意思你就能与主的旨意有更完美的协调那么你就必成为一个圣洁的器皿合乎主用就能在",
-      "confidence": 0.867
+      "confidence": 0.9,
+      "quality": {
+        "coverage": 0.9,
+        "coherentCoverage": 0.867,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 737.3,
+        "previousEnd": 756.06,
+        "previousConfidence": 0.9
+      }
     },
     {
       "start": 758.17,
-      "end": 770.01,
+      "end": 768.61,
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "26全心全意住在基督里祂会负责使你结出果子使你成为别人的祝福",
-      "confidence": 0.9
+      "confidence": 0.933,
+      "quality": {
+        "coverage": 0.933,
+        "coherentCoverage": 0.933,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.867,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 758.17,
+        "previousEnd": 768.61,
+        "previousConfidence": 0.933
+      }
     },
     {
       "start": 770.01,
-      "end": 791.45,
+      "end": 789.77,
       "kind": "paragraph",
       "targetIndex": 27,
       "targetText": "27有些信徒恳切的祈求上帝祝福他们从未想到上帝的祝福不但要祈求也要在祷告中等候领受住在基督里是等",
-      "confidence": 0.949
+      "confidence": 0.949,
+      "quality": {
+        "coverage": 0.949,
+        "coherentCoverage": 0.949,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 770.01,
+        "previousEnd": 789.77,
+        "previousConfidence": 0.949
+      }
     },
     {
       "start": 791.45,
-      "end": 827.91,
+      "end": 826.83,
       "kind": "paragraph",
       "targetIndex": 28,
       "targetText": "28上帝就是爱爱就是上帝自己住在爱里面的就是住在上帝里面哦巴不得我们明白那呼召我们的爱具有无限的",
-      "confidence": 0.946
+      "confidence": 0.947,
+      "quality": {
+        "coverage": 0.938,
+        "coherentCoverage": 0.927,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 791.45,
+        "previousEnd": 826.83,
+        "previousConfidence": 0.947
+      }
     },
     {
       "start": 827.91,
-      "end": 869.53,
+      "end": 868.29,
       "kind": "paragraph",
       "targetIndex": 29,
       "targetText": "29你们若遵守我的命令就常在我的爱里约1510信徒住在主的爱里不是依靠自己的行为乃是籍着遵守祂的",
-      "confidence": 0.852
+      "confidence": 0.898,
+      "quality": {
+        "coverage": 0.907,
+        "coherentCoverage": 0.888,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 827.91,
+        "previousEnd": 868.29,
+        "previousConfidence": 0.898
+      }
     },
     {
       "start": 869.53,
-      "end": 878.27,
+      "end": 876.63,
       "kind": "paragraph",
       "targetIndex": 30,
       "targetText": "30常住在主里面的喜乐是满足的喜乐",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 869.53,
+        "previousEnd": 876.63,
+        "previousConfidence": 1.0
+      }
     },
     {
       "start": 878.27,
@@ -261,7 +2794,120 @@
       "kind": "paragraph",
       "targetIndex": 31,
       "targetText": "31只要我们与主联合就有足够的力量胜过每个试探",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 878.27,
+        "previousEnd": 887.27,
+        "previousConfidence": 1.0
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor (detached numeric label): target 1: 1、有谁在来到皇宫并被邀请与王同住分享王的尊贵和荣耀；而仍愿站在门口呢？可惜多少人无心与主同住，",
+    "unverified start anchor: target 10: 10、罪是从善恶树而来，吃生命树的果子就能得着基督里的智慧，即属天的智慧——心里的眼睛明亮。住在",
+    "unverified start anchor: target 11: 11、天然的理解力绝对不能体会神的事。要进入内室，安静在祂的面前，圣灵会教导你。信主的人往往无助",
+    "unverified start anchor (detached numeric label): target 18: 18、“耶和华必成全关乎我的事；……求你不要离弃你手所造的。”\\[诗138:8\\]；“那在你们心",
+    "incomplete end (17 trailing chars, coverage 0.150): target 19: 19、母亲在任何忙碌中不会失去她对儿女的关切和爱；同样地，我们住在基督里是生命和爱的交流，永不止",
+    "unverified end anchor: target 19: 19、母亲在任何忙碌中不会失去她对儿女的关切和爱；同样地，我们住在基督里是生命和爱的交流，永不止",
+    "unverified start anchor (detached numeric label): target 20: 20、倒空己里面的一切，圣灵的大能才会源源流入。人若保留自我，就不可能在信仰的道路上与主同行。神",
+    "unverified end anchor: target 20: 20、倒空己里面的一切，圣灵的大能才会源源流入。人若保留自我，就不可能在信仰的道路上与主同行。神",
+    "unverified end anchor: target 25: 25、完全放弃你自己的意思，你就能与主的旨意有更完美的协调；那么，你就必成为一个圣洁的器皿，合乎",
+    "unverified start anchor: target 29: 29、“你们若遵守我的命令，就常在我的爱里。”\\[约15:10\\]。信徒住在主的爱里，不是依靠自",
+    "repair unverified start (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 10",
+    "repair unverified start (previous-sync): target 20",
+    "repair unverified end (previous-sync): target 20"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "f3f602aac70ec6d3093a17adb35b91875db6d019738aa8414c1b05864ab857b0",
+  "repairCueDigest": "c450998a9065ad52ae6846d26fda79bb9129524137634898eb1b07fc96695300",
+  "previousAlignmentWarnings": [],
+  "currentSiteConfirmation": {
+    "model": "medium",
+    "audioSha256": "4b12cea0bc791448aa2be8db0b0e258d10ecfb97ee7a3a4ef8d092147b7248ac",
+    "audioDuration": 890.5404375,
+    "windows": [
+      [
+        3.67,
+        22.57
+      ],
+      [
+        100.37,
+        121.01
+      ],
+      [
+        282.13,
+        306.59
+      ],
+      [
+        307.57,
+        324.51
+      ],
+      [
+        551.34,
+        567.78
+      ],
+      [
+        576.44,
+        596.28
+      ],
+      [
+        725.84,
+        746.28
+      ]
+    ]
+  }
 }

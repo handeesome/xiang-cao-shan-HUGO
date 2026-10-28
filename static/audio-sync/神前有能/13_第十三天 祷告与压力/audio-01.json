@@ -8,92 +8,762 @@
   "audioDuration": 543.94775,
   "cues": [
     {
-      "start": 8.56,
-      "end": 18.82,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第十三天祷告与压力",
-      "confidence": 0.778
-    },
-    {
       "start": 18.82,
-      "end": 31.7,
+      "end": 33.64,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "我在困苦中祢曾使我宽广现在求祢怜恤我听我的祷告诗四1下",
-      "confidence": 0.593
+      "confidence": 0.815,
+      "quality": {
+        "coverage": 0.852,
+        "coherentCoverage": 0.778,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.692,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "source": "existing-small-transcript-local-phrase",
+          "model": ".audio-sync-cache\\models\\small",
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\神前有能\\13.mp3.json",
+          "transcriptSha256": "a9f44e2966ce6553b384f3e205cd6d214ea09c89151fb73cf79398c8c3149205",
+          "audioSha256": "54fe51ea7993d90971dff5b1539cb4d1097da73c349c8f8a336c34e76c4f07ed",
+          "window": [
+            29.64,
+            37.64
+          ],
+          "fullFileTranscribed": false,
+          "newDownloads": 0,
+          "listenedByAgent": false,
+          "timingPrecision": "word",
+          "localSupported": true,
+          "contextUsed": true,
+          "rawSegments": [
+            {
+              "start": 27.4,
+              "end": 29.66,
+              "text": "聽我的祷告",
+              "words": [
+                {
+                  "start": 27.4,
+                  "end": 28.14,
+                  "text": "聽",
+                  "probability": 0.9560210704803467
+                },
+                {
+                  "start": 28.14,
+                  "end": 28.7,
+                  "text": "我的",
+                  "probability": 0.9949527978897095
+                },
+                {
+                  "start": 28.7,
+                  "end": 29.0,
+                  "text": "祷",
+                  "probability": 0.9917902052402496
+                },
+                {
+                  "start": 29.0,
+                  "end": 29.66,
+                  "text": "告",
+                  "probability": 0.998694121837616
+                }
+              ]
+            },
+            {
+              "start": 30.3,
+              "end": 32.06,
+              "text": "十篇第四篇",
+              "words": [
+                {
+                  "start": 30.3,
+                  "end": 30.66,
+                  "text": "十",
+                  "probability": 0.48307082056999207
+                },
+                {
+                  "start": 30.66,
+                  "end": 31.04,
+                  "text": "篇",
+                  "probability": 0.9959903061389923
+                },
+                {
+                  "start": 31.04,
+                  "end": 31.4,
+                  "text": "第",
+                  "probability": 0.8928209543228149
+                },
+                {
+                  "start": 31.4,
+                  "end": 31.7,
+                  "text": "四",
+                  "probability": 0.9924457669258118
+                },
+                {
+                  "start": 31.7,
+                  "end": 32.06,
+                  "text": "篇",
+                  "probability": 0.9996434152126312
+                }
+              ]
+            },
+            {
+              "start": 32.06,
+              "end": 33.64,
+              "text": "第一節下",
+              "words": [
+                {
+                  "start": 32.06,
+                  "end": 32.6,
+                  "text": "第一",
+                  "probability": 0.743532121181488
+                },
+                {
+                  "start": 32.6,
+                  "end": 32.96,
+                  "text": "節",
+                  "probability": 0.9791147708892822
+                },
+                {
+                  "start": 32.96,
+                  "end": 33.64,
+                  "text": "下",
+                  "probability": 0.8813700675964355
+                }
+              ]
+            }
+          ],
+          "reason": "目标末尾诗篇4:1下出处读至33.64秒。",
+          "verified": true
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 18.82,
+        "previousEnd": 31.7,
+        "previousConfidence": 0.593
+      },
+      "boundaryCorrections": [
+        {
+          "book": "神前有能",
+          "page": "13_第十三天 祷告与压力.md",
+          "audio": "13.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\神前有能\\13_第十三天 祷告与压力\\audio-01.json",
+          "targetIndex": 1,
+          "edge": "end",
+          "previousTime": 31.7,
+          "time": 33.64,
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "kind": "local-phrase-boundary-correction",
+          "proof": {
+            "source": "existing-small-transcript-local-phrase",
+            "model": ".audio-sync-cache\\models\\small",
+            "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\神前有能\\13.mp3.json",
+            "transcriptSha256": "a9f44e2966ce6553b384f3e205cd6d214ea09c89151fb73cf79398c8c3149205",
+            "audioSha256": "54fe51ea7993d90971dff5b1539cb4d1097da73c349c8f8a336c34e76c4f07ed",
+            "window": [
+              29.64,
+              37.64
+            ],
+            "fullFileTranscribed": false,
+            "newDownloads": 0,
+            "listenedByAgent": false,
+            "timingPrecision": "word",
+            "localSupported": true,
+            "contextUsed": true,
+            "rawSegments": [
+              {
+                "start": 27.4,
+                "end": 29.66,
+                "text": "聽我的祷告",
+                "words": [
+                  {
+                    "start": 27.4,
+                    "end": 28.14,
+                    "text": "聽",
+                    "probability": 0.9560210704803467
+                  },
+                  {
+                    "start": 28.14,
+                    "end": 28.7,
+                    "text": "我的",
+                    "probability": 0.9949527978897095
+                  },
+                  {
+                    "start": 28.7,
+                    "end": 29.0,
+                    "text": "祷",
+                    "probability": 0.9917902052402496
+                  },
+                  {
+                    "start": 29.0,
+                    "end": 29.66,
+                    "text": "告",
+                    "probability": 0.998694121837616
+                  }
+                ]
+              },
+              {
+                "start": 30.3,
+                "end": 32.06,
+                "text": "十篇第四篇",
+                "words": [
+                  {
+                    "start": 30.3,
+                    "end": 30.66,
+                    "text": "十",
+                    "probability": 0.48307082056999207
+                  },
+                  {
+                    "start": 30.66,
+                    "end": 31.04,
+                    "text": "篇",
+                    "probability": 0.9959903061389923
+                  },
+                  {
+                    "start": 31.04,
+                    "end": 31.4,
+                    "text": "第",
+                    "probability": 0.8928209543228149
+                  },
+                  {
+                    "start": 31.4,
+                    "end": 31.7,
+                    "text": "四",
+                    "probability": 0.9924457669258118
+                  },
+                  {
+                    "start": 31.7,
+                    "end": 32.06,
+                    "text": "篇",
+                    "probability": 0.9996434152126312
+                  }
+                ]
+              },
+              {
+                "start": 32.06,
+                "end": 33.64,
+                "text": "第一節下",
+                "words": [
+                  {
+                    "start": 32.06,
+                    "end": 32.6,
+                    "text": "第一",
+                    "probability": 0.743532121181488
+                  },
+                  {
+                    "start": 32.6,
+                    "end": 32.96,
+                    "text": "節",
+                    "probability": 0.9791147708892822
+                  },
+                  {
+                    "start": 32.96,
+                    "end": 33.64,
+                    "text": "下",
+                    "probability": 0.8813700675964355
+                  }
+                ]
+              }
+            ],
+            "reason": "目标末尾诗篇4:1下出处读至33.64秒。"
+          },
+          "reason": "目标末尾诗篇4:1下出处读至33.64秒。"
+        }
+      ]
     },
     {
-      "start": 31.7,
-      "end": 82.94,
+      "start": 39.82,
+      "end": 83.9,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "有一位弟兄问我说为何他的祷告得不着答应我说因为没有压力他问为何必须有压力呢我说必须有压力祷告方能",
-      "confidence": 0.796
+      "confidence": 0.964,
+      "quality": {
+        "coverage": 0.964,
+        "coherentCoverage": 0.964,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 31.7,
+        "previousEnd": 82.94,
+        "previousConfidence": 0.796
+      }
     },
     {
-      "start": 82.94,
-      "end": 160.59,
+      "start": 85.52,
+      "end": 159.18,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "希奇大半人都是如此你若是忘了你不能怪上帝也忘了你是有心无意的说了几句上帝当然是不给你成就的许多人",
-      "confidence": 0.908
+      "confidence": 0.945,
+      "quality": {
+        "coverage": 0.945,
+        "coherentCoverage": 0.918,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 82.94,
+        "previousEnd": 160.59,
+        "previousConfidence": 0.908
+      }
     },
     {
       "start": 160.59,
-      "end": 220.97,
+      "end": 221.33,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "诺克司约翰是一位祈祷很有能力的人英国女皇马利亚曾说我不怕全苏格兰的军队我只怕诺克司约翰的祷告诺克",
-      "confidence": 0.8
+      "confidence": 0.954,
+      "quality": {
+        "coverage": 0.954,
+        "coherentCoverage": 0.941,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 160.59,
+        "previousEnd": 220.97,
+        "previousConfidence": 0.8
+      }
     },
     {
-      "start": 220.97,
-      "end": 267.04,
+      "start": 222.99,
+      "end": 257.21,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "你们也许不明白当年摩西为何要如此祷告说上帝啊你若不赦免他们领他们上去就愿你从生命册上涂抹我的名乃",
-      "confidence": 0.742
+      "confidence": 0.953,
+      "quality": {
+        "coverage": 0.958,
+        "coherentCoverage": 0.958,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 220.97,
+        "previousEnd": 267.04,
+        "previousConfidence": 0.742
+      }
     },
     {
       "start": 267.04,
-      "end": 333.04,
+      "end": 330.54,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "保罗也是如此他说我为我弟兄为我骨肉之亲就是自己被咒诅与基督分开我也愿意若以色列人不得救他宁可不得",
-      "confidence": 0.914
+      "confidence": 0.974,
+      "quality": {
+        "coverage": 0.967,
+        "coherentCoverage": 0.967,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 267.04,
+        "previousEnd": 333.04,
+        "previousConfidence": 0.914
+      }
     },
     {
       "start": 333.04,
-      "end": 386.82,
+      "end": 384.9,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "从此我们能够看见为什么有的祷告上帝听有的祷告上帝不听为什么许多时候大事的祷告上帝听而小事的祷告上",
-      "confidence": 0.89
+      "confidence": 0.966,
+      "quality": {
+        "coverage": 0.966,
+        "coherentCoverage": 0.966,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 333.04,
+        "previousEnd": 386.82,
+        "previousConfidence": 0.89
+      }
     },
     {
       "start": 386.82,
-      "end": 413.76,
+      "end": 412.5,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "上帝为什么让这许多难事没有出路的事无法避免的事临到我们身上呢并非为别的乃是要叫我们利用这个压力去",
-      "confidence": 0.787
+      "confidence": 0.942,
+      "quality": {
+        "coverage": 0.936,
+        "coherentCoverage": 0.936,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 386.82,
+        "previousEnd": 413.76,
+        "previousConfidence": 0.787
+      }
     },
     {
       "start": 413.76,
-      "end": 470.94,
+      "end": 471.76,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "我们要知道所有的压迫都是有目的的但是我的意思并不是要等到受压迫到不得了的时候才祷告我们该学习有压",
-      "confidence": 0.904
+      "confidence": 0.973,
+      "quality": {
+        "coverage": 0.976,
+        "coherentCoverage": 0.976,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 413.76,
+        "previousEnd": 470.94,
+        "previousConfidence": 0.904
+      }
     },
     {
-      "start": 470.94,
+      "start": 473.78,
       "end": 525.42,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "你们一生中得到祷告的答应有几次我们最少总有几次的祷告得着答应为什么你们那几次的祷告能得答应呢岂不",
-      "confidence": 0.878
+      "confidence": 0.914,
+      "quality": {
+        "coverage": 0.911,
+        "coherentCoverage": 0.884,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 470.94,
+        "previousEnd": 525.42,
+        "previousConfidence": 0.878
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 1: “我在困苦中，祢曾使我宽广；现在求祢怜恤我，听我的祷告！”（诗四1下）",
+    "repair unverified end (previous-sync): target 1"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 4,
+    "updatedEnds": 8,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "ad3bdde6c089c60e754744c77ce56354bf66ed97be45643a9acea39d733a4533",
+  "repairCueDigest": "f19c1fb93454a1a143641854082e324dd27ab0235c7d8407212094fde036d1b1",
+  "previousAlignmentWarnings": []
 }

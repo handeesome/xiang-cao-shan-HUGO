@@ -8,28 +8,104 @@
   "audioDuration": 83.8933125,
   "cues": [
     {
-      "start": 6.16,
-      "end": 11.06,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "八基督作人的生命",
-      "confidence": 0.8
-    },
-    {
       "start": 11.06,
-      "end": 16.1,
+      "end": 15.36,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "每一个宗教对于人群都有它的贡献",
-      "confidence": 0.966
+      "confidence": 0.966,
+      "quality": {
+        "coverage": 0.933,
+        "coherentCoverage": 0.933,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.857,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 11.06,
+        "previousEnd": 16.1,
+        "previousConfidence": 0.966
+      }
     },
     {
       "start": 16.1,
-      "end": 48.0,
+      "end": 46.6,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "每一个宗教都有一个共同点就是叫人得着什么或者说带领人达到什么目的虽然各宗教的方法不一样要给人的东",
-      "confidence": 0.981
+      "confidence": 0.981,
+      "quality": {
+        "coverage": 0.981,
+        "coherentCoverage": 0.981,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 16.1,
+        "previousEnd": 48.0,
+        "previousConfidence": 0.981
+      }
     },
     {
       "start": 48.0,
@@ -37,7 +113,67 @@
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "我们现在所要看的还不是说基督教对于国家对于政府对于世界对于社会有什么贡献我们是来看一件更重要更基",
-      "confidence": 0.962
+      "confidence": 0.962,
+      "quality": {
+        "coverage": 0.962,
+        "coherentCoverage": 0.962,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 48.0,
+        "previousEnd": 82.72,
+        "previousConfidence": 0.962
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "403863077ed4ebf7d0f38c7b38b655b1bf9640a9795c8baf59d8b70ed1785343",
+  "repairCueDigest": "aeedbc88f131c8a5be34c402adf1ea06fe6e02bd470e577a6c098c0f6ad67fec",
+  "previousAlignmentWarnings": []
 }

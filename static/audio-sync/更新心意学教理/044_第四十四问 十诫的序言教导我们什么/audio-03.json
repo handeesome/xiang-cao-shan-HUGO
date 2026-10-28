@@ -8,28 +8,295 @@
   "audioDuration": 115.656,
   "cues": [
     {
-      "start": 1.92,
-      "end": 3.02,
-      "kind": "heading",
-      "targetIndex": 6,
-      "targetText": "礼拜二",
-      "confidence": 0.8
-    },
-    {
       "start": 3.02,
-      "end": 62.38,
+      "end": 64.66,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "以色列人要顺服上帝律法的第二个原因是上帝曾与他们立约就是曾应许作他们的上帝让他们作祂的子民在这个",
-      "confidence": 0.735
+      "confidence": 0.91,
+      "quality": {
+        "coverage": 0.907,
+        "coherentCoverage": 0.871,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 3.02,
+        "previousEnd": 62.38,
+        "previousConfidence": 0.892
+      }
     },
     {
-      "start": 62.38,
-      "end": 114.68,
+      "start": 66.88,
+      "end": 114.82,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "申命记261619耶和华你的上帝今日吩咐你行这些律例典章所以你要尽心尽性谨守遵行你今日认耶和华为",
-      "confidence": 0.759
+      "confidence": 0.777,
+      "quality": {
+        "coverage": 0.743,
+        "coherentCoverage": 0.689,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.35,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 13,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "previous-verified-sync",
+        "previousStart": 62.38,
+        "previousEnd": 114.82,
+        "previousConfidence": 0.756
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 64.66,
+            "time": 66.88,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\44-2.mp3.json",
+              "sha256": "948d5cfa13cb404610402f71cb976491ae930a33ab6b96d2714a96ef1e2de981",
+              "anchor": {
+                "time": 66.88,
+                "score": 0.9547,
+                "ratio": 0.963,
+                "expected": "yehehuanideshenjinrifenfunixingzhexie",
+                "actual": "和华你的神今日吩咐你行这些",
+                "span": [
+                  66.88,
+                  70.32
+                ],
+                "tokens": [
+                  {
+                    "text": "和",
+                    "start": 66.88,
+                    "end": 67.04,
+                    "rawStart": 197,
+                    "rawEnd": 197,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "华",
+                    "start": 67.04,
+                    "end": 67.24,
+                    "rawStart": 198,
+                    "rawEnd": 198,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 67.24,
+                    "end": 67.48,
+                    "rawStart": 199,
+                    "rawEnd": 199,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 67.24,
+                    "end": 67.48,
+                    "rawStart": 200,
+                    "rawEnd": 200,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 67.48,
+                    "end": 67.82,
+                    "rawStart": 201,
+                    "rawEnd": 202,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "今",
+                    "start": 67.82,
+                    "end": 68.46,
+                    "rawStart": 203,
+                    "rawEnd": 203,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "日",
+                    "start": 67.82,
+                    "end": 68.46,
+                    "rawStart": 204,
+                    "rawEnd": 204,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "吩",
+                    "start": 68.46,
+                    "end": 68.98,
+                    "rawStart": 205,
+                    "rawEnd": 205,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "咐",
+                    "start": 68.98,
+                    "end": 69.22,
+                    "rawStart": 206,
+                    "rawEnd": 206,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 69.22,
+                    "end": 69.4,
+                    "rawStart": 207,
+                    "rawEnd": 207,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "行",
+                    "start": 69.4,
+                    "end": 69.74,
+                    "rawStart": 208,
+                    "rawEnd": 208,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "这",
+                    "start": 69.74,
+                    "end": 70.02,
+                    "rawStart": 209,
+                    "rawEnd": 209,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "些",
+                    "start": 70.02,
+                    "end": 70.32,
+                    "rawStart": 210,
+                    "rawEnd": 210,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": true,
+                "alternative": {
+                  "time": 64.42,
+                  "score": 0.8903,
+                  "actual": "节依和华你的神今日吩咐你行这些"
+                }
+              },
+              "body": "耶和华你的神今日吩咐你行这些律例、典章,所以你要尽心、尽性谨守遵行。你今日认耶和华为你的神,应许遵行祂的道,谨守祂的律例、诫命、典章,听从祂的话。耶和华今日照祂所应许你的,也认你为祂的子民,使你谨守祂的一切诫命,又使你得称赞、美名、尊荣,超乎祂所造的万民之上,并照祂所应许的,使你归耶和华你神为圣洁的民。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.743,
+          "coherentCoverage": 0.689,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.35,
+          "suffixCoverage": 0.8,
+          "unmatchedLeadingChars": 13,
+          "unmatchedTrailingChars": 1,
+          "reviewRequired": true,
+          "boundaryAdjusted": [
+            "end substitution"
+          ],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-verified-end"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.667,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (13 leading chars, coverage 0.350): target 8: 申命记26:16-19 耶和华你的神今日吩咐你行这些律例、典章，所以你要尽心、尽性谨守遵行。你今",
+    "unverified start anchor: target 8: 申命记26:16-19 耶和华你的神今日吩咐你行这些律例、典章，所以你要尽心、尽性谨守遵行。你今",
+    "repair unverified start (previous-verified-end): target 8"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "15538ea5d3671ca0c334419c767e75fafa5d6f2fd3318e1bfb8360883aa04b9b",
+  "repairCueDigest": "1895ea4fe26879f4df4af901e87e6b4403c8c9e9db3db5ce3a9c2e92127d44b2",
+  "previousAlignmentWarnings": []
 }

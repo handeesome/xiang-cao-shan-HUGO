@@ -8,28 +8,127 @@
   "audioDuration": 90.5926875,
   "cues": [
     {
-      "start": 2.0,
-      "end": 3.44,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "礼拜一",
-      "confidence": 0.8
-    },
-    {
       "start": 3.44,
-      "end": 43.9,
+      "end": 47.5,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "安息日预表着我们在基督里得到的安息从创世到救主降临人们盼望主耶稣将要带给他们的安息安息日是在每周",
-      "confidence": 0.775
+      "confidence": 0.949,
+      "quality": {
+        "coverage": 0.949,
+        "coherentCoverage": 0.928,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 3.44,
+        "previousEnd": 43.9,
+        "previousConfidence": 0.916
+      }
     },
     {
-      "start": 43.9,
+      "start": 47.5,
       "end": 86.27,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "出埃及记31121317耶和华晓谕摩西说你要吩咐以色列人说你们务要守我的安息日因为这是你我之间世",
-      "confidence": 0.632
+      "confidence": 0.87,
+      "quality": {
+        "coverage": 0.907,
+        "coherentCoverage": 0.832,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 47.5,
+        "previousEnd": 86.27,
+        "previousConfidence": 0.855
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v8-rendered-list-and-empty-paragraph-indices",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "8e403ebd53fad9f4d6a7931550916621f36ad53b33995db9ed62d600aea75b6f",
+  "repairCueDigest": "c9d92134d74f424065af0e0b78a7da8581ae6249125ca480d0a174abaa6e9c8e",
+  "previousAlignmentWarnings": []
 }

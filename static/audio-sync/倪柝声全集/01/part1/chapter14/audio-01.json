@@ -8,60 +8,1298 @@
   "audioDuration": 349.2473125,
   "cues": [
     {
-      "start": 5.52,
-      "end": 6.94,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "十四你得救了么",
-      "confidence": 0.727
-    },
-    {
-      "start": 6.94,
+      "start": 15.46,
       "end": 140.18,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "有一个法利赛人名叫尼哥底母是犹太人的官这人夜里来见耶稣说拉比我们知道你是由上帝那里来作师傅的因为",
-      "confidence": 0.795
+      "confidence": 0.882,
+      "quality": {
+        "coverage": 0.868,
+        "coherentCoverage": 0.836,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.45,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 11,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "discarded detached end matches"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 15.46,
+        "previousEnd": 140.18,
+        "previousConfidence": 0.889
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 140.18,
+            "time": 140.18,
+            "reason": "正文末句已定位，保留原出处结束范围，避免因书名识别差异截掉已读出处",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\transcript-first-repair-20261017\\verified-transcripts\\倪柝声全集\\01\\chapter14\\1.mp3.json",
+              "sha256": "16ba0e0cdc58174bce156c3a1ae7e35ea75283a61520927e5a2716f25c870787",
+              "anchor": {
+                "time": 138.9,
+                "score": 0.9987,
+                "ratio": 1.0,
+                "expected": "beijuqilaijiaoyiqiexintadedoudeyongsheng",
+                "actual": "被拘起来叫1切信他的都得永生",
+                "span": [
+                  133.34,
+                  138.9
+                ],
+                "tokens": [
+                  {
+                    "text": "被",
+                    "start": 133.34,
+                    "end": 133.64000000000001,
+                    "rawStart": 395,
+                    "rawEnd": 395,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "拘",
+                    "start": 133.64000000000001,
+                    "end": 133.82000000000002,
+                    "rawStart": 396,
+                    "rawEnd": 396,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "起",
+                    "start": 133.82000000000002,
+                    "end": 134.12,
+                    "rawStart": 397,
+                    "rawEnd": 397,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "来",
+                    "start": 134.12,
+                    "end": 134.82000000000002,
+                    "rawStart": 398,
+                    "rawEnd": 398,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "叫",
+                    "start": 134.92000000000002,
+                    "end": 135.24,
+                    "rawStart": 399,
+                    "rawEnd": 399,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 135.24,
+                    "end": 135.96,
+                    "rawStart": 400,
+                    "rawEnd": 400,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "切",
+                    "start": 135.96,
+                    "end": 136.3,
+                    "rawStart": 401,
+                    "rawEnd": 401,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "信",
+                    "start": 136.3,
+                    "end": 136.58,
+                    "rawStart": 402,
+                    "rawEnd": 402,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "他",
+                    "start": 136.58,
+                    "end": 137.18,
+                    "rawStart": 403,
+                    "rawEnd": 403,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 136.58,
+                    "end": 137.18,
+                    "rawStart": 404,
+                    "rawEnd": 404,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "都",
+                    "start": 137.42000000000002,
+                    "end": 137.76000000000002,
+                    "rawStart": 405,
+                    "rawEnd": 405,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "得",
+                    "start": 137.76000000000002,
+                    "end": 138.02,
+                    "rawStart": 406,
+                    "rawEnd": 406,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "永",
+                    "start": 138.02,
+                    "end": 138.42000000000002,
+                    "rawStart": 407,
+                    "rawEnd": 407,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "生",
+                    "start": 138.42000000000002,
+                    "end": 138.9,
+                    "rawStart": 408,
+                    "rawEnd": 408,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 141.32,
+                  "score": 0.9202,
+                  "actual": "被拘起来叫1切信他的都得永生再请"
+                }
+              },
+              "body": "「有一个法利赛人,名叫尼哥底母,是犹太人的官。这人夜里来见耶稣,说:拉比,我们知道你是由神那里来作师傅的;因为你所行的神迹,若没有神同在,无人能行。耶稣回答说:我实实在在的告诉你,人若不重生,就不能见神的国。尼哥底母说:人已经老了,如何能重生呢?岂能再进母腹生出来么?耶稣说:我实实在在的告诉你,人若不是从水和圣灵生的,就不能进神的国。从肉身生的就是肉身;从灵生的就是灵。我说你们必须重生,你不要以为希奇。风随着意思吹,你听见风的响声,却不晓得从哪里来,往哪里去;凡从圣灵生的,也是如此。尼哥底母问祂说:怎能有这事呢?耶稣回答说:你是以色列人的先生,还不明白这事么?我实实在在的告诉你,我们所说的是我们知道的;我们所见证的是我们见过的;你们却不领受我们的见证。我对你们说地上的事,你们尚且不信,若说天上的事,如何能信呢?除了从天降下,仍旧在天的人子,没有人升过天。摩西在旷野怎样举蛇,人子也必照样被举起来。叫一切信祂的都得永生。」",
+              "retainedCitationInterval": [
+                138.9,
+                140.18
+              ]
+            }
+          }
+        }
+      }
     },
     {
-      "start": 140.18,
-      "end": 190.74,
+      "start": 145.96,
+      "end": 191.82,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "在该撒利亚有一个人名叫哥尼流是意大利营的百夫长他是个虔诚人他和全家都敬畏上帝多多赒济百姓常常祷告",
-      "confidence": 0.639
+      "confidence": 0.759,
+      "quality": {
+        "coverage": 0.759,
+        "coherentCoverage": 0.684,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 145.96,
+        "previousEnd": 190.74,
+        "previousConfidence": 0.764
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 190.74,
+            "time": 191.82,
+            "reason": "正文首尾局部已定位",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\transcript-first-repair-20261017\\verified-transcripts\\倪柝声全集\\01\\chapter14\\1.mp3.json",
+              "sha256": "16ba0e0cdc58174bce156c3a1ae7e35ea75283a61520927e5a2716f25c870787",
+              "anchor": {
+                "time": 191.82,
+                "score": 0.9989,
+                "ratio": 1.0,
+                "expected": "wangyuepaquqingnachenghubidedeximenlai",
+                "actual": "往约帕去请拿称乎彼得的西门来",
+                "span": [
+                  187.74,
+                  191.82
+                ],
+                "tokens": [
+                  {
+                    "text": "往",
+                    "start": 187.74,
+                    "end": 187.9,
+                    "rawStart": 532,
+                    "rawEnd": 532,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "约",
+                    "start": 187.9,
+                    "end": 188.20000000000002,
+                    "rawStart": 533,
+                    "rawEnd": 533,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "帕",
+                    "start": 188.20000000000002,
+                    "end": 188.52,
+                    "rawStart": 534,
+                    "rawEnd": 534,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "去",
+                    "start": 188.52,
+                    "end": 189.12,
+                    "rawStart": 535,
+                    "rawEnd": 535,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "请",
+                    "start": 189.4,
+                    "end": 189.42000000000002,
+                    "rawStart": 536,
+                    "rawEnd": 536,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "拿",
+                    "start": 189.42000000000002,
+                    "end": 189.64000000000001,
+                    "rawStart": 537,
+                    "rawEnd": 537,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "称",
+                    "start": 189.64000000000001,
+                    "end": 189.86,
+                    "rawStart": 538,
+                    "rawEnd": 538,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "乎",
+                    "start": 189.86,
+                    "end": 190.04,
+                    "rawStart": 539,
+                    "rawEnd": 539,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "彼",
+                    "start": 190.04,
+                    "end": 190.34,
+                    "rawStart": 540,
+                    "rawEnd": 540,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "得",
+                    "start": 190.34,
+                    "end": 190.46,
+                    "rawStart": 541,
+                    "rawEnd": 541,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 190.46,
+                    "end": 190.72,
+                    "rawStart": 542,
+                    "rawEnd": 542,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "西",
+                    "start": 190.72,
+                    "end": 190.84,
+                    "rawStart": 543,
+                    "rawEnd": 543,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "门",
+                    "start": 190.84,
+                    "end": 190.94,
+                    "rawStart": 544,
+                    "rawEnd": 544,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "来",
+                    "start": 190.94,
+                    "end": 191.82,
+                    "rawStart": 545,
+                    "rawEnd": 545,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 208.32,
+                  "score": 0.911,
+                  "actual": "往约帕去请拿川湖彼得的西门来"
+                }
+              },
+              "body": "「在该撒利亚有一个人,名叫哥尼流,是意大利营的百夫长。他是个虔诚人,他和全家都敬畏神,多多赒济百姓,常常祷告神。有一天,约在申初,他在异象中明明看见神的一个使者进去,到他那里,说:哥尼流。哥尼流定睛看他,惊怕说:主阿!什么事呢?天使说:你的祷告和你的赒济达到神面前已蒙记念了。现在你当打发人往约帕去,请那称呼彼得的西门来。」"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.759,
+          "coherentCoverage": 0.684,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.8,
+          "suffixCoverage": 0.7,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 0.75,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 190.74,
+      "start": 197.42,
       "end": 255.4,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "那人就告诉我们他如何看见一位天使站在他屋里说你打发人往约帕去请那称呼彼得的西门来他有话告诉你可以",
-      "confidence": 0.716
+      "confidence": 0.906,
+      "quality": {
+        "coverage": 0.878,
+        "coherentCoverage": 0.868,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.3,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 13,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 197.42,
+        "previousEnd": 255.4,
+        "previousConfidence": 0.92
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 255.4,
+            "time": 255.4,
+            "reason": "正文末句已定位，保留原出处结束范围，避免因书名识别差异截掉已读出处",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\transcript-first-repair-20261017\\verified-transcripts\\倪柝声全集\\01\\chapter14\\1.mp3.json",
+              "sha256": "16ba0e0cdc58174bce156c3a1ae7e35ea75283a61520927e5a2716f25c870787",
+              "anchor": {
+                "time": 253.78,
+                "score": 0.9984,
+                "ratio": 1.0,
+                "expected": "engeiwaibangrenjiaotamenhuigaideshengmingle",
+                "actual": "恩给外邦人叫他们悔改得圣命了",
+                "span": [
+                  249.72,
+                  253.78
+                ],
+                "tokens": [
+                  {
+                    "text": "恩",
+                    "start": 249.72,
+                    "end": 249.92,
+                    "rawStart": 735,
+                    "rawEnd": 735,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "给",
+                    "start": 249.92,
+                    "end": 250.14,
+                    "rawStart": 736,
+                    "rawEnd": 736,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "外",
+                    "start": 250.14,
+                    "end": 250.35999999999999,
+                    "rawStart": 737,
+                    "rawEnd": 737,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "邦",
+                    "start": 250.35999999999999,
+                    "end": 250.6,
+                    "rawStart": 738,
+                    "rawEnd": 738,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 250.6,
+                    "end": 251.0,
+                    "rawStart": 739,
+                    "rawEnd": 739,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "叫",
+                    "start": 251.11999999999998,
+                    "end": 251.23999999999998,
+                    "rawStart": 740,
+                    "rawEnd": 740,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "他",
+                    "start": 251.23999999999998,
+                    "end": 251.66,
+                    "rawStart": 741,
+                    "rawEnd": 741,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 251.23999999999998,
+                    "end": 251.66,
+                    "rawStart": 742,
+                    "rawEnd": 742,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "悔",
+                    "start": 251.66,
+                    "end": 252.2,
+                    "rawStart": 743,
+                    "rawEnd": 743,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "改",
+                    "start": 252.2,
+                    "end": 252.45999999999998,
+                    "rawStart": 744,
+                    "rawEnd": 744,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "得",
+                    "start": 252.45999999999998,
+                    "end": 252.73999999999998,
+                    "rawStart": 745,
+                    "rawEnd": 745,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "圣",
+                    "start": 252.73999999999998,
+                    "end": 252.98,
+                    "rawStart": 746,
+                    "rawEnd": 746,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "命",
+                    "start": 252.98,
+                    "end": 253.14,
+                    "rawStart": 747,
+                    "rawEnd": 747,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "了",
+                    "start": 253.14,
+                    "end": 253.78,
+                    "rawStart": 748,
+                    "rawEnd": 748,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": true,
+                "alternative": {
+                  "time": 256.07,
+                  "score": 0.9588,
+                  "actual": "恩给外邦人叫他们悔改得圣命了我"
+                }
+              },
+              "body": "「那人就告诉我们,他如何看见一位天使站在他屋里,说:你打发人往约帕去,请那称呼彼得的西门来,他有话告诉你,可以叫你和你的全家得救。我一开讲,圣灵便降在他们身上,正像当初降在我们身上一样。我就想起主的话说:约翰是用水施洗,但你们要受圣灵的洗。神既然给他们恩赐,像在我们信主耶稣基督的时候,给了我们一样,我是谁,能拦阻神呢?众人听见这话,就不言语了,只归荣耀与神,说:这样看来,神也赐恩给外邦人,叫他们悔改得生命了。」",
+              "retainedCitationInterval": [
+                253.78,
+                255.4
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "start": 255.4,
-      "end": 288.7,
+      "end": 287.54,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "我曾用一个问题问过许多人但是他们多数不能回答有的虽答复了但是所答多非所问不晓得我所问的究竟是什么",
-      "confidence": 0.739
+      "confidence": 0.958,
+      "quality": {
+        "coverage": 0.958,
+        "coherentCoverage": 0.924,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\倪柝声全集\\01\\chapter14\\1.mp3.json",
+          "transcriptSha256": "66af73fb61342e9e00f6a121fc04e9be38bb9fb5cde901e70ef7e78483d39826",
+          "verified": true,
+          "time": 287.54,
+          "expectedPhrase": "问题没有解决，或者不晓得这个问题的意思，那么我就要问你为什么听道？ 听得什么道？",
+          "actualPhrase": "问你为什么听到听的什么道",
+          "edgeAnchor": "问你为什么听道听得什么道",
+          "evidence": {
+            "verified": false,
+            "coverage": 0.833,
+            "continuousAnchor": false,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 0.917,
+            "localSimilarity": 0.917,
+            "localText": "这个问题的意思那么我就要问你为什么听道听得什么道",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false
+          },
+          "window": [
+            276.7,
+            300.7
+          ],
+          "segments": [
+            {
+              "start": 276.66,
+              "end": 277.56,
+              "text": "得救了沒有",
+              "words": [
+                {
+                  "start": 276.66,
+                  "end": 276.94,
+                  "text": "得",
+                  "probability": 0.9996260404586792
+                },
+                {
+                  "start": 276.94,
+                  "end": 277.2,
+                  "text": "救",
+                  "probability": 0.9998345375061035
+                },
+                {
+                  "start": 277.2,
+                  "end": 277.34,
+                  "text": "了",
+                  "probability": 0.998688280582428
+                },
+                {
+                  "start": 277.34,
+                  "end": 277.56,
+                  "text": "沒有",
+                  "probability": 0.9960567951202393
+                }
+              ]
+            },
+            {
+              "start": 277.56,
+              "end": 280.3,
+              "text": "如果这个问题没有解决",
+              "words": [
+                {
+                  "start": 277.56,
+                  "end": 278.7,
+                  "text": "如果",
+                  "probability": 0.7354356646537781
+                },
+                {
+                  "start": 278.7,
+                  "end": 279.08,
+                  "text": "这个",
+                  "probability": 0.6256809234619141
+                },
+                {
+                  "start": 279.08,
+                  "end": 279.52,
+                  "text": "问题",
+                  "probability": 0.9940590858459473
+                },
+                {
+                  "start": 279.52,
+                  "end": 279.78,
+                  "text": "没有",
+                  "probability": 0.9872796535491943
+                },
+                {
+                  "start": 279.78,
+                  "end": 280.1,
+                  "text": "解",
+                  "probability": 0.997753918170929
+                },
+                {
+                  "start": 280.1,
+                  "end": 280.3,
+                  "text": "决",
+                  "probability": 0.9984725117683411
+                }
+              ]
+            },
+            {
+              "start": 280.3,
+              "end": 283.0,
+              "text": "或者不曉得这个问题的意思",
+              "words": [
+                {
+                  "start": 280.3,
+                  "end": 280.9,
+                  "text": "或者",
+                  "probability": 0.8413219451904297
+                },
+                {
+                  "start": 280.9,
+                  "end": 281.48,
+                  "text": "不",
+                  "probability": 0.9749240279197693
+                },
+                {
+                  "start": 281.48,
+                  "end": 281.74,
+                  "text": "曉",
+                  "probability": 0.8462171256542206
+                },
+                {
+                  "start": 281.74,
+                  "end": 281.9,
+                  "text": "得",
+                  "probability": 0.9997226595878601
+                },
+                {
+                  "start": 281.9,
+                  "end": 282.18,
+                  "text": "这个",
+                  "probability": 0.867292582988739
+                },
+                {
+                  "start": 282.18,
+                  "end": 282.52,
+                  "text": "问题",
+                  "probability": 0.9976287484169006
+                },
+                {
+                  "start": 282.52,
+                  "end": 282.68,
+                  "text": "的",
+                  "probability": 0.9943722486495972
+                },
+                {
+                  "start": 282.68,
+                  "end": 283.0,
+                  "text": "意思",
+                  "probability": 0.9995550513267517
+                }
+              ]
+            },
+            {
+              "start": 283.37,
+              "end": 285.86,
+              "text": "那么我就要问你为什么听到",
+              "words": [
+                {
+                  "start": 283.37,
+                  "end": 283.66,
+                  "text": "那么",
+                  "probability": 0.8686422109603882
+                },
+                {
+                  "start": 283.66,
+                  "end": 284.0,
+                  "text": "我就",
+                  "probability": 0.9762835502624512
+                },
+                {
+                  "start": 284.0,
+                  "end": 284.16,
+                  "text": "要",
+                  "probability": 0.9843907952308655
+                },
+                {
+                  "start": 284.16,
+                  "end": 284.34,
+                  "text": "问",
+                  "probability": 0.9926443099975586
+                },
+                {
+                  "start": 284.34,
+                  "end": 284.56,
+                  "text": "你",
+                  "probability": 0.9914278388023376
+                },
+                {
+                  "start": 284.56,
+                  "end": 285.2,
+                  "text": "为什么",
+                  "probability": 0.8745741844177246
+                },
+                {
+                  "start": 285.2,
+                  "end": 285.56,
+                  "text": "听",
+                  "probability": 0.9970839619636536
+                },
+                {
+                  "start": 285.56,
+                  "end": 285.86,
+                  "text": "到",
+                  "probability": 0.8313059210777283
+                }
+              ]
+            },
+            {
+              "start": 285.86,
+              "end": 287.54,
+              "text": "听的什么道",
+              "words": [
+                {
+                  "start": 285.86,
+                  "end": 286.56,
+                  "text": "听",
+                  "probability": 0.8070328235626221
+                },
+                {
+                  "start": 286.56,
+                  "end": 286.8,
+                  "text": "的",
+                  "probability": 0.5211319327354431
+                },
+                {
+                  "start": 286.8,
+                  "end": 287.26,
+                  "text": "什么",
+                  "probability": 0.9807546138763428
+                },
+                {
+                  "start": 287.26,
+                  "end": 287.54,
+                  "text": "道",
+                  "probability": 0.7557743191719055
+                }
+              ]
+            },
+            {
+              "start": 288.7,
+              "end": 291.3,
+              "text": "许多人对这个问题不能答复",
+              "words": [
+                {
+                  "start": 288.7,
+                  "end": 289.28,
+                  "text": "许",
+                  "probability": 0.9159662425518036
+                },
+                {
+                  "start": 289.28,
+                  "end": 289.52,
+                  "text": "多",
+                  "probability": 0.9995648264884949
+                },
+                {
+                  "start": 289.52,
+                  "end": 289.72,
+                  "text": "人",
+                  "probability": 0.9994115829467773
+                },
+                {
+                  "start": 289.72,
+                  "end": 289.92,
+                  "text": "对",
+                  "probability": 0.9972990155220032
+                },
+                {
+                  "start": 289.92,
+                  "end": 290.16,
+                  "text": "这个",
+                  "probability": 0.9947966933250427
+                },
+                {
+                  "start": 290.16,
+                  "end": 290.46,
+                  "text": "问题",
+                  "probability": 0.9991512298583984
+                },
+                {
+                  "start": 290.46,
+                  "end": 290.76,
+                  "text": "不能",
+                  "probability": 0.9930688142776489
+                },
+                {
+                  "start": 290.76,
+                  "end": 291.02,
+                  "text": "答",
+                  "probability": 0.9218751192092896
+                },
+                {
+                  "start": 291.02,
+                  "end": 291.3,
+                  "text": "复",
+                  "probability": 0.9937781393527985
+                }
+              ]
+            },
+            {
+              "start": 291.3,
+              "end": 294.14,
+              "text": "是因为他忽略了这个问题",
+              "words": [
+                {
+                  "start": 291.3,
+                  "end": 291.84,
+                  "text": "是",
+                  "probability": 0.8879079222679138
+                },
+                {
+                  "start": 291.84,
+                  "end": 291.98,
+                  "text": "因为",
+                  "probability": 0.774045467376709
+                },
+                {
+                  "start": 291.98,
+                  "end": 292.2,
+                  "text": "他",
+                  "probability": 0.6152870059013367
+                },
+                {
+                  "start": 292.2,
+                  "end": 292.6,
+                  "text": "忽",
+                  "probability": 0.9976528286933899
+                },
+                {
+                  "start": 292.6,
+                  "end": 292.82,
+                  "text": "略",
+                  "probability": 0.9996319711208344
+                },
+                {
+                  "start": 292.82,
+                  "end": 292.98,
+                  "text": "了",
+                  "probability": 0.9944004416465759
+                },
+                {
+                  "start": 292.98,
+                  "end": 293.14,
+                  "text": "这个",
+                  "probability": 0.9941294193267822
+                },
+                {
+                  "start": 293.14,
+                  "end": 294.14,
+                  "text": "问题",
+                  "probability": 0.9988667964935303
+                }
+              ]
+            },
+            {
+              "start": 294.8,
+              "end": 297.64,
+              "text": "这个问题哪可以忽略",
+              "words": [
+                {
+                  "start": 294.8,
+                  "end": 295.38,
+                  "text": "这个",
+                  "probability": 0.6235402226448059
+                },
+                {
+                  "start": 295.38,
+                  "end": 295.96,
+                  "text": "问题",
+                  "probability": 0.9990094900131226
+                },
+                {
+                  "start": 295.96,
+                  "end": 296.56,
+                  "text": "哪",
+                  "probability": 0.90735924243927
+                },
+                {
+                  "start": 296.56,
+                  "end": 297.1,
+                  "text": "可以",
+                  "probability": 0.9913930892944336
+                },
+                {
+                  "start": 297.1,
+                  "end": 297.38,
+                  "text": "忽",
+                  "probability": 0.9998433887958527
+                },
+                {
+                  "start": 297.38,
+                  "end": 297.64,
+                  "text": "略",
+                  "probability": 0.9999207258224487
+                }
+              ]
+            },
+            {
+              "start": 297.64,
+              "end": 300.82,
+              "text": "但是有许多人不能答复这个问题",
+              "words": [
+                {
+                  "start": 297.64,
+                  "end": 298.46,
+                  "text": "但是",
+                  "probability": 0.9281512498855591
+                },
+                {
+                  "start": 298.46,
+                  "end": 298.68,
+                  "text": "有",
+                  "probability": 0.9854507446289062
+                },
+                {
+                  "start": 298.68,
+                  "end": 298.86,
+                  "text": "许",
+                  "probability": 0.9984067976474762
+                },
+                {
+                  "start": 298.86,
+                  "end": 299.02,
+                  "text": "多",
+                  "probability": 0.9994727969169617
+                },
+                {
+                  "start": 299.02,
+                  "end": 299.26,
+                  "text": "人",
+                  "probability": 0.9994513392448425
+                },
+                {
+                  "start": 299.26,
+                  "end": 299.64,
+                  "text": "不能",
+                  "probability": 0.993183434009552
+                },
+                {
+                  "start": 299.64,
+                  "end": 299.96,
+                  "text": "答",
+                  "probability": 0.9955490827560425
+                },
+                {
+                  "start": 299.96,
+                  "end": 300.22,
+                  "text": "复",
+                  "probability": 0.9990693628787994
+                },
+                {
+                  "start": 300.22,
+                  "end": 300.42,
+                  "text": "这个",
+                  "probability": 0.9946293234825134
+                },
+                {
+                  "start": 300.42,
+                  "end": 300.82,
+                  "text": "问题",
+                  "probability": 0.9995973706245422
+                }
+              ]
+            }
+          ],
+          "source": "bounded-internal-differences-true-edge-words",
+          "listenedByAgent": false,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "actualEndpointLiteralChars": 3,
+          "maxInternalDifferences": 2,
+          "reason": "实际首/尾至少3字贴边相同，12字局部短句最多2处内部识别差异；其余局部覆盖、唯一性、完整词边界及相邻时间均核验，中间正文不逐字检查。",
+          "audioSha256": "56cb8b97fc5a96cab31b8a99be4758eaf90d96b13ad1ea5d5484acdeb1e9df61"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 255.4,
+        "previousEnd": 288.7,
+        "previousConfidence": 0.958
+      },
+      "boundaryCorrections": [
+        {
+          "book": "倪柝声全集",
+          "page": "01/part1/chapter14.md",
+          "audio": "01/chapter14/1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\倪柝声全集\\01\\part1\\chapter14\\audio-01.json",
+          "targetIndex": 5,
+          "edge": "end",
+          "previousTime": 288.7,
+          "time": 287.54,
+          "kind": "bounded-internal-differences-local-edge",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "实际首/尾至少3字贴边相同，12字局部短句最多2处内部识别差异；其余局部覆盖、唯一性、完整词边界及相邻时间均核验，中间正文不逐字检查。"
+        }
+      ]
     },
     {
       "start": 288.7,
-      "end": 306.54,
+      "end": 306.74,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "许多人对这个问题不能答复是因他忽略了这个问题哦这个问题哪可以忽略但是有许多人不能答复这个问题就是",
-      "confidence": 0.978
+      "confidence": 0.971,
+      "quality": {
+        "coverage": 0.971,
+        "coherentCoverage": 0.971,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 288.7,
+        "previousEnd": 306.74,
+        "previousConfidence": 0.971
+      }
     },
     {
-      "start": 306.54,
-      "end": 345.48,
+      "start": 308.26,
+      "end": 347.2,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "什么是得救呢要明白这个我们应先看什么不是得救那样就很容易明白什么是得救了刚才所读的圣经对于这个问",
-      "confidence": 0.811
+      "confidence": 0.877,
+      "quality": {
+        "coverage": 0.877,
+        "coherentCoverage": 0.855,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 308.26,
+        "previousEnd": 345.48,
+        "previousConfidence": 0.859
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (11 trailing chars, coverage 0.450): target 2: 「有一个法利赛人，名叫尼哥底母，是犹太人的官。这人夜里来见耶稣，说：拉比，我们知道你是由神那里来",
+    "unverified end anchor: target 2: 「有一个法利赛人，名叫尼哥底母，是犹太人的官。这人夜里来见耶稣，说：拉比，我们知道你是由神那里来",
+    "unverified end anchor: target 3: 「在该撒利亚有一个人，名叫哥尼流，是意大利营的百夫长。他是个虔诚人，他和全家都敬畏神，多多赒济百",
+    "incomplete end (13 trailing chars, coverage 0.300): target 4: 「那人就告诉我们，他如何看见一位天使站在他屋里，说：你打发人往约帕去，请那称呼彼得的西门来，他有",
+    "unverified end anchor: target 4: 「那人就告诉我们，他如何看见一位天使站在他屋里，说：你打发人往约帕去，请那称呼彼得的西门来，他有",
+    "unverified end anchor: target 5: 我曾用一个问题问过许多人，但是他们多数不能回答，有的虽答复了，但是所答多非所问，不晓得我所问的究",
+    "repair unverified end (previous-sync): target 2",
+    "repair unverified end (previous-sync): target 3",
+    "repair unverified end (previous-sync): target 4",
+    "repair unverified end (previous-sync): target 5",
+    "local phrase context confirmed end: target 5; original ASR differences and warnings retained"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 4,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "3f5c95a562ba2ad7a264357236b44d29d3cc434460605d7641dd02078d9ead92",
+  "repairCueDigest": "513fda5553455bc0b76f35b2c5b477902d1c049ac78ac4c41ca6be1e1b29257a",
+  "previousAlignmentWarnings": []
 }

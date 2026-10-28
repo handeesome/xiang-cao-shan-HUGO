@@ -8,20 +8,211 @@
   "audioDuration": 55.158625,
   "cues": [
     {
-      "start": 6.82,
-      "end": 9.88,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "十二人是因作好得救么",
-      "confidence": 0.588
-    },
-    {
-      "start": 9.88,
+      "start": 10.88,
       "end": 53.78,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "世人的答应说是但是上帝在圣经里答应说不是我们得救不得救的权能是操在上帝的手里并不是随着我们自己的",
-      "confidence": 0.807
+      "confidence": 0.956,
+      "quality": {
+        "coverage": 0.956,
+        "coherentCoverage": 0.912,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\倪柝声全集\\01\\chapter12\\1.mp3.json",
+          "transcriptSha256": "a87bd3be6078aa55f62a42afd32b2cf6d4c6b8965c91bf3980420e358af727d0",
+          "candidate": 53.78,
+          "expectedPhrase": "得救了须知这事是神作主的",
+          "actualPhrase": "得救了虚之这是是神做主的",
+          "phoneticPhrase": [
+            "de",
+            "jiu",
+            "le",
+            "xu",
+            "zhi",
+            "zhe",
+            "shi",
+            "shi",
+            "shen",
+            "zuo",
+            "zhu",
+            "de"
+          ],
+          "verified": true,
+          "time": 53.78,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "exact-local-syllables-original-word-times",
+          "phoneticExact": true,
+          "literalEqual": false,
+          "wordTokens": [
+            {
+              "text": "得",
+              "start": 49.0,
+              "end": 49.22,
+              "rawStart": 152,
+              "rawEnd": 152,
+              "precision": "word"
+            },
+            {
+              "text": "救",
+              "start": 49.22,
+              "end": 49.44,
+              "rawStart": 153,
+              "rawEnd": 153,
+              "precision": "word"
+            },
+            {
+              "text": "了",
+              "start": 49.44,
+              "end": 49.64,
+              "rawStart": 154,
+              "rawEnd": 154,
+              "precision": "word"
+            },
+            {
+              "text": "虚",
+              "start": 49.64,
+              "end": 50.66,
+              "rawStart": 155,
+              "rawEnd": 155,
+              "precision": "word"
+            },
+            {
+              "text": "之",
+              "start": 50.66,
+              "end": 50.92,
+              "rawStart": 156,
+              "rawEnd": 156,
+              "precision": "word"
+            },
+            {
+              "text": "这",
+              "start": 50.92,
+              "end": 51.8,
+              "rawStart": 157,
+              "rawEnd": 157,
+              "precision": "word"
+            },
+            {
+              "text": "是",
+              "start": 50.92,
+              "end": 51.8,
+              "rawStart": 158,
+              "rawEnd": 158,
+              "precision": "word"
+            },
+            {
+              "text": "是",
+              "start": 51.8,
+              "end": 52.42,
+              "rawStart": 159,
+              "rawEnd": 159,
+              "precision": "word"
+            },
+            {
+              "text": "神",
+              "start": 52.42,
+              "end": 52.96,
+              "rawStart": 160,
+              "rawEnd": 161,
+              "precision": "word"
+            },
+            {
+              "text": "做",
+              "start": 52.96,
+              "end": 53.3,
+              "rawStart": 162,
+              "rawEnd": 162,
+              "precision": "word"
+            },
+            {
+              "text": "主",
+              "start": 53.3,
+              "end": 53.54,
+              "rawStart": 163,
+              "rawEnd": 163,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 53.54,
+              "end": 53.78,
+              "rawStart": 164,
+              "rawEnd": 164,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "audioSha256": "ad26145b1ee0818e0d40d73f6c0a0ecd6415b76af2b250ee9568916aba6bb0a0",
+          "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 9.88,
+        "previousEnd": 53.78,
+        "previousConfidence": 0.807
+      },
+      "boundaryCorrections": [
+        {
+          "book": "倪柝声全集",
+          "page": "01/part1/chapter12.md",
+          "audio": "01/chapter12/1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\倪柝声全集\\01\\part1\\chapter12\\audio-01.json",
+          "targetIndex": 1,
+          "edge": "end",
+          "previousTime": 53.78,
+          "time": 53.78,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 1: 世人的答应说：「是。 」但是，神在圣经里答应说：「不是。 」我们得救不得救的权能是操在神的手里，",
+    "repair unverified end (previous-sync): target 1"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "cad0cd36a46ade3db2f4b6a6f20aa25e0c2dcca65f54cda0a0a8abb94ddda1a3",
+  "repairCueDigest": "76f034f890ffe8ad98eca3e305bfc579b82aff4347ff4a6da2bf5404e82c6a87",
+  "previousAlignmentWarnings": []
 }

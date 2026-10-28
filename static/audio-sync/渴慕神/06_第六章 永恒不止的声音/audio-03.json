@@ -9,67 +9,940 @@
   "cues": [
     {
       "start": 1.23,
-      "end": 59.15,
+      "end": 59.95,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "凡是愿意聆听的就必听见那天上的说话声音现今的确不是人们欢喜接受劝导要聆听的时代因为现今流行的宗教",
-      "confidence": 0.877
+      "confidence": 0.888,
+      "quality": {
+        "coverage": 0.898,
+        "coherentCoverage": 0.871,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1.23,
+        "previousEnd": 59.15,
+        "previousConfidence": 0.877
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 59.15,
+            "time": 59.95,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\6-3.mp3.json",
+              "sha256": "528c3ae8ccbb9eaf21af3d8ebbb73ee23e40dbe3818f03b48ec33fb87d3caec4",
+              "anchor": {
+                "time": 59.95,
+                "score": 0.8208,
+                "ratio": 0.8276,
+                "expected": "lishizaipingjinganwenlierbuzaizaorangli",
+                "actual": "力是在乎平静安稳里而不是在烦躁",
+                "span": [
+                  55.27,
+                  59.95
+                ],
+                "tokens": [
+                  {
+                    "text": "力",
+                    "start": 55.27,
+                    "end": 55.57,
+                    "rawStart": 175,
+                    "rawEnd": 175,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 55.57,
+                    "end": 55.97,
+                    "rawStart": 176,
+                    "rawEnd": 176,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "在",
+                    "start": 55.97,
+                    "end": 56.29,
+                    "rawStart": 177,
+                    "rawEnd": 177,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "乎",
+                    "start": 56.29,
+                    "end": 56.53,
+                    "rawStart": 178,
+                    "rawEnd": 178,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "平",
+                    "start": 56.53,
+                    "end": 56.99,
+                    "rawStart": 179,
+                    "rawEnd": 179,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "静",
+                    "start": 56.99,
+                    "end": 57.29,
+                    "rawStart": 180,
+                    "rawEnd": 180,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "安",
+                    "start": 57.29,
+                    "end": 57.57,
+                    "rawStart": 181,
+                    "rawEnd": 181,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "稳",
+                    "start": 57.57,
+                    "end": 57.71,
+                    "rawStart": 182,
+                    "rawEnd": 182,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "里",
+                    "start": 57.71,
+                    "end": 58.05,
+                    "rawStart": 183,
+                    "rawEnd": 183,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "而",
+                    "start": 58.05,
+                    "end": 58.55,
+                    "rawStart": 184,
+                    "rawEnd": 184,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "不",
+                    "start": 58.55,
+                    "end": 58.81,
+                    "rawStart": 185,
+                    "rawEnd": 185,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 58.55,
+                    "end": 58.81,
+                    "rawStart": 186,
+                    "rawEnd": 186,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "在",
+                    "start": 58.81,
+                    "end": 59.15,
+                    "rawStart": 187,
+                    "rawEnd": 187,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "烦",
+                    "start": 59.15,
+                    "end": 59.59,
+                    "rawStart": 188,
+                    "rawEnd": 188,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "躁",
+                    "start": 59.59,
+                    "end": 59.95,
+                    "rawStart": 189,
+                    "rawEnd": 189,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "凡是愿意聆听的,就必听见那天上的说话声音。现今的确不是人们欢喜接受劝导要“聆听”的时代,因为现今流行的宗教,已经没有聆听这回事了,我们和从前的世代是南辕北辙。宗教已经接受了那些可怕的邪说,籍着叫嚷声、规模、活动、声势来促使人蒙神悦纳。我们要小心,神对面临最后一次大灾难忧焦如焚的以色列人这样说:“你们要休息,要知道我是神!”(诗 46:10)如今祂仍然是这样说,似乎祂的意思是告诉我们,得力是在平静安稳里,而不在噪嚷里。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.898,
+          "coherentCoverage": 0.871,
+          "extraSpeechContext": false,
+          "prefixCoverage": 1.0,
+          "suffixCoverage": 0.9,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 59.15,
-      "end": 137.59,
+      "start": 62.07,
+      "end": 136.53,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "我们安静等候上帝十分重要最好是单独面对祂把圣经放在面前打开如果我们如此做我们便能靠近上帝开始听到",
-      "confidence": 0.951
+      "confidence": 0.971,
+      "quality": {
+        "coverage": 0.973,
+        "coherentCoverage": 0.959,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 59.15,
+        "previousEnd": 137.59,
+        "previousConfidence": 0.951
+      }
     },
     {
       "start": 137.59,
-      "end": 200.65,
+      "end": 199.89,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "我们若不确信上帝在祂所创造的宇宙中清晰地说着话圣经对于我们来说永远不会是一本活的书从一个死板无位",
-      "confidence": 0.925
+      "confidence": 0.93,
+      "quality": {
+        "coverage": 0.942,
+        "coherentCoverage": 0.932,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 137.59,
+        "previousEnd": 200.65,
+        "previousConfidence": 0.925
+      }
     },
     {
       "start": 200.65,
-      "end": 261.59,
+      "end": 261.81,
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "我们许多许多不信的恶心是由于对圣经真理错误理解和错误感觉我们以为那缄默的上帝忽然开始在一本书里说",
-      "confidence": 0.856
+      "confidence": 0.872,
+      "quality": {
+        "coverage": 0.872,
+        "coherentCoverage": 0.854,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 200.65,
+        "previousEnd": 261.59,
+        "previousConfidence": 0.856
+      }
     },
     {
-      "start": 261.59,
+      "start": 262.77,
       "end": 300.45,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "我想如果我们不把圣经看作只是上帝曾经说过的话而把它看作是上帝现在所说的话就会从属灵生活的迷雾中出",
-      "confidence": 0.901
+      "confidence": 0.904,
+      "quality": {
+        "coverage": 0.858,
+        "coherentCoverage": 0.838,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 261.59,
+        "previousEnd": 300.45,
+        "previousConfidence": 0.901
+      }
     },
     {
       "start": 300.45,
-      "end": 327.81,
+      "end": 328.53,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "但是上帝的一句话既已经说了出来就永远是说了出来正如一个小孩一旦出生就一直活下去又如同世界一次被造",
-      "confidence": 0.926
+      "confidence": 0.926,
+      "quality": {
+        "coverage": 0.936,
+        "coherentCoverage": 0.862,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 300.45,
+        "previousEnd": 327.81,
+        "previousConfidence": 0.926
+      }
     },
     {
-      "start": 327.81,
-      "end": 354.27,
+      "start": 329.89,
+      "end": 352.43,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "假如你要追求认识上帝请立刻打开圣经让它向你说话不要存着一种概念以为这不过是一件可以随处放置的东西",
-      "confidence": 0.92
+      "confidence": 0.932,
+      "quality": {
+        "coverage": 0.945,
+        "coherentCoverage": 0.89,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "candidate": 352.43,
+          "expectedPhrase": "这是1个声音1番话语那永生神的话",
+          "actualPhrase": "这是1个声音1番话语那是永生沈的话",
+          "editDistance": 1,
+          "exactEndpointPhonemes": 3,
+          "expectedPhraseSize": 16,
+          "actualPhraseSize": 17,
+          "verified": true,
+          "time": 352.43,
+          "elasticLocal": true,
+          "source": "elastic-local-phrase-original-word-times",
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "这",
+              "start": 347.21,
+              "end": 347.75,
+              "rawStart": 1118,
+              "rawEnd": 1118,
+              "precision": "word"
+            },
+            {
+              "text": "是",
+              "start": 347.21,
+              "end": 347.75,
+              "rawStart": 1119,
+              "rawEnd": 1119,
+              "precision": "word"
+            },
+            {
+              "text": "1",
+              "start": 347.75,
+              "end": 348.05,
+              "rawStart": 1120,
+              "rawEnd": 1120,
+              "precision": "word"
+            },
+            {
+              "text": "个",
+              "start": 347.75,
+              "end": 348.05,
+              "rawStart": 1121,
+              "rawEnd": 1121,
+              "precision": "word"
+            },
+            {
+              "text": "声",
+              "start": 348.05,
+              "end": 348.37,
+              "rawStart": 1122,
+              "rawEnd": 1122,
+              "precision": "word"
+            },
+            {
+              "text": "音",
+              "start": 348.37,
+              "end": 348.69,
+              "rawStart": 1123,
+              "rawEnd": 1123,
+              "precision": "word"
+            },
+            {
+              "text": "1",
+              "start": 349.07,
+              "end": 349.27,
+              "rawStart": 1124,
+              "rawEnd": 1124,
+              "precision": "word"
+            },
+            {
+              "text": "番",
+              "start": 349.27,
+              "end": 349.41,
+              "rawStart": 1125,
+              "rawEnd": 1125,
+              "precision": "word"
+            },
+            {
+              "text": "话",
+              "start": 349.41,
+              "end": 349.75,
+              "rawStart": 1126,
+              "rawEnd": 1126,
+              "precision": "word"
+            },
+            {
+              "text": "语",
+              "start": 349.75,
+              "end": 350.09,
+              "rawStart": 1127,
+              "rawEnd": 1127,
+              "precision": "word"
+            },
+            {
+              "text": "那",
+              "start": 350.39,
+              "end": 350.67,
+              "rawStart": 1128,
+              "rawEnd": 1128,
+              "precision": "word"
+            },
+            {
+              "text": "是",
+              "start": 350.67,
+              "end": 350.97,
+              "rawStart": 1129,
+              "rawEnd": 1129,
+              "precision": "word"
+            },
+            {
+              "text": "永",
+              "start": 350.97,
+              "end": 351.39,
+              "rawStart": 1130,
+              "rawEnd": 1130,
+              "precision": "word"
+            },
+            {
+              "text": "生",
+              "start": 351.39,
+              "end": 351.81,
+              "rawStart": 1131,
+              "rawEnd": 1131,
+              "precision": "word"
+            },
+            {
+              "text": "沈",
+              "start": 351.81,
+              "end": 352.11,
+              "rawStart": 1132,
+              "rawEnd": 1132,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 352.11,
+              "end": 352.43,
+              "rawStart": 1133,
+              "rawEnd": 1133,
+              "precision": "word"
+            },
+            {
+              "text": "话",
+              "start": 352.11,
+              "end": 352.43,
+              "rawStart": 1134,
+              "rawEnd": 1134,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\渴慕神\\6-3.mp3.json",
+          "transcriptSha256": "e51e4d89ed6fb2ba0c6e2dc55ff46eada559d705adc4dd9c1fc45dafd31deb3c",
+          "audioSha256": "f4a819215f478494a4bbbee45759b560caceea32c35ef90f27130e83ec05de89",
+          "reason": "实际首尾各3个连续音节精确相同；16音节局部句中最多2次识别增删；数字序列和短句身份唯一，完整词时、停顿、音频时长及相邻原cue已复核。中间正文不要求逐字相同。"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 327.81,
+        "previousEnd": 354.27,
+        "previousConfidence": 0.92
+      },
+      "boundaryCorrections": [
+        {
+          "book": "渴慕神",
+          "page": "06_第六章 永恒不止的声音.md",
+          "audio": "6-3.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\渴慕神\\06_第六章 永恒不止的声音\\audio-03.json",
+          "targetIndex": 21,
+          "edge": "end",
+          "previousTime": 354.27,
+          "time": 352.43,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        },
+        {
+          "book": "渴慕神",
+          "page": "06_第六章 永恒不止的声音.md",
+          "audio": "6-3.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\渴慕神\\06_第六章 永恒不止的声音\\audio-03.json",
+          "targetIndex": 21,
+          "edge": "end",
+          "previousTime": 352.43,
+          "time": 352.43,
+          "kind": "elastic-local-phrase-existing-word-times",
+          "previousVerified": true,
+          "previousEvidence": {
+            "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\渴慕神\\6-3.mp3.json",
+            "transcriptSha256": "e51e4d89ed6fb2ba0c6e2dc55ff46eada559d705adc4dd9c1fc45dafd31deb3c",
+            "phraseChars": 16,
+            "candidate": 352.43,
+            "expectedPhrase": "这是1个声音1番话语那永生神的话",
+            "actualPhrase": "这是1个声音1番话语那是永生沈的话",
+            "editDistance": 1,
+            "exactEndpointPhonemes": 3,
+            "expectedPhraseSize": 16,
+            "actualPhraseSize": 17,
+            "verified": true,
+            "time": 352.43,
+            "elasticLocal": true,
+            "source": "elastic-local-phrase-original-word-times",
+            "localSupported": true,
+            "timingPrecision": "word",
+            "wordTokens": [
+              {
+                "text": "这",
+                "start": 347.21,
+                "end": 347.75,
+                "rawStart": 1118,
+                "rawEnd": 1118,
+                "precision": "word"
+              },
+              {
+                "text": "是",
+                "start": 347.21,
+                "end": 347.75,
+                "rawStart": 1119,
+                "rawEnd": 1119,
+                "precision": "word"
+              },
+              {
+                "text": "1",
+                "start": 347.75,
+                "end": 348.05,
+                "rawStart": 1120,
+                "rawEnd": 1120,
+                "precision": "word"
+              },
+              {
+                "text": "个",
+                "start": 347.75,
+                "end": 348.05,
+                "rawStart": 1121,
+                "rawEnd": 1121,
+                "precision": "word"
+              },
+              {
+                "text": "声",
+                "start": 348.05,
+                "end": 348.37,
+                "rawStart": 1122,
+                "rawEnd": 1122,
+                "precision": "word"
+              },
+              {
+                "text": "音",
+                "start": 348.37,
+                "end": 348.69,
+                "rawStart": 1123,
+                "rawEnd": 1123,
+                "precision": "word"
+              },
+              {
+                "text": "1",
+                "start": 349.07,
+                "end": 349.27,
+                "rawStart": 1124,
+                "rawEnd": 1124,
+                "precision": "word"
+              },
+              {
+                "text": "番",
+                "start": 349.27,
+                "end": 349.41,
+                "rawStart": 1125,
+                "rawEnd": 1125,
+                "precision": "word"
+              },
+              {
+                "text": "话",
+                "start": 349.41,
+                "end": 349.75,
+                "rawStart": 1126,
+                "rawEnd": 1126,
+                "precision": "word"
+              },
+              {
+                "text": "语",
+                "start": 349.75,
+                "end": 350.09,
+                "rawStart": 1127,
+                "rawEnd": 1127,
+                "precision": "word"
+              },
+              {
+                "text": "那",
+                "start": 350.39,
+                "end": 350.67,
+                "rawStart": 1128,
+                "rawEnd": 1128,
+                "precision": "word"
+              },
+              {
+                "text": "是",
+                "start": 350.67,
+                "end": 350.97,
+                "rawStart": 1129,
+                "rawEnd": 1129,
+                "precision": "word"
+              },
+              {
+                "text": "永",
+                "start": 350.97,
+                "end": 351.39,
+                "rawStart": 1130,
+                "rawEnd": 1130,
+                "precision": "word"
+              },
+              {
+                "text": "生",
+                "start": 351.39,
+                "end": 351.81,
+                "rawStart": 1131,
+                "rawEnd": 1131,
+                "precision": "word"
+              },
+              {
+                "text": "沈",
+                "start": 351.81,
+                "end": 352.11,
+                "rawStart": 1132,
+                "rawEnd": 1132,
+                "precision": "word"
+              },
+              {
+                "text": "的",
+                "start": 352.11,
+                "end": 352.43,
+                "rawStart": 1133,
+                "rawEnd": 1133,
+                "precision": "word"
+              },
+              {
+                "text": "话",
+                "start": 352.11,
+                "end": 352.43,
+                "rawStart": 1134,
+                "rawEnd": 1134,
+                "precision": "word"
+              }
+            ],
+            "listenedByAgent": false,
+            "audioSha256": "f4a819215f478494a4bbbee45759b560caceea32c35ef90f27130e83ec05de89",
+            "reason": "真正首尾和短句另一端各3音节贴边相同；16音节局部窗口最多2次内部替换/添漏，数字值不变，完整词时间与唯一身份已核验；不核对段落中间。"
+          },
+          "reason": "实际首尾各3个连续音节精确相同；16音节局部句中最多2次识别增删；数字序列和短句身份唯一，完整词时、停顿、音频时长及相邻原cue已复核。中间正文不要求逐字相同。"
+        }
+      ]
     },
     {
-      "start": 354.27,
-      "end": 405.6,
+      "start": 356.03,
+      "end": 408.12,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "祷告上帝啊求你教导我怎样聆听你的声音这世代是这样喧嚣我的耳朵被千万哄乱的声音吵得累了求你赐给我像",
-      "confidence": 0.865
+      "confidence": 0.889,
+      "quality": {
+        "coverage": 0.866,
+        "coherentCoverage": 0.828,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 354.27,
+        "previousEnd": 405.6,
+        "previousConfidence": 0.865
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 15: 凡是愿意聆听的，就必听见那天上的说话声音。现今的确不是人们欢喜接受劝导要“聆听”的时代，因为现今",
+    "unverified end anchor: target 21: 假如你要追求认识神，请立刻打开圣经，让它向你说话。不要存着一种概念，以为这不过是一件可以随处放置",
+    "repair unverified end (previous-sync): target 15",
+    "repair unverified end (previous-sync): target 21"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 4,
+    "updatedEnds": 5,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "4f3d7f103017fc302ee77163b094113e18cf10d0580ba2e4454ffebf1f3dde2e",
+  "repairCueDigest": "7c94dd4e7ce7037a9f9c677daafe63ac8c4b681e9920e322337666e2273b335e",
+  "previousAlignmentWarnings": []
 }

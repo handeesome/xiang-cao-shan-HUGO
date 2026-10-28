@@ -8,36 +8,986 @@
   "audioDuration": 126.264,
   "cues": [
     {
-      "start": 2.26,
-      "end": 3.68,
-      "kind": "heading",
-      "targetIndex": 14,
-      "targetText": "礼拜四",
-      "confidence": 0.8
-    },
-    {
       "start": 3.68,
-      "end": 44.1,
+      "end": 43.4,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "如果上帝是独一真上帝如果祂是我们的上帝那么我们必须敬拜祂那也就是第一条诫命除了我以外你不可有别上",
-      "confidence": 0.677
+      "confidence": 0.898,
+      "quality": {
+        "coverage": 0.857,
+        "coherentCoverage": 0.812,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 3.68,
+        "previousEnd": 44.1,
+        "previousConfidence": 0.677
+      }
     },
     {
       "start": 44.1,
-      "end": 94.72,
+      "end": 98.74,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "敬拜上帝是向周围的全世界宣告祂的价值何等的大我们的宣告是透过我们为祂而活的整个生命当我们天天寻求",
-      "confidence": 0.852
+      "confidence": 0.915,
+      "quality": {
+        "coverage": 0.897,
+        "coherentCoverage": 0.848,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.45,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 7,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "discarded detached end matches"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 44.1,
+        "previousEnd": 94.72,
+        "previousConfidence": 0.852
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 94.72,
+            "time": 98.74,
+            "reason": "实际提示补成关于敬拜的话，98.74结束。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\46-4.mp3.json",
+              "sha256": "28aa63ef692c7e289b63f72be101f09d45b4eebef4623a7661e833fb06d8d77d",
+              "source": "context-reviewed-paragraph-approximation",
+              "segments": [
+                {
+                  "start": 91.66,
+                  "end": 96.78,
+                  "text": "请读《宝罗在菲律比书》三章七到八节中",
+                  "words": [
+                    {
+                      "start": 91.66,
+                      "end": 92.26,
+                      "text": "请",
+                      "probability": 0.013300607912242413
+                    },
+                    {
+                      "start": 92.26,
+                      "end": 92.5,
+                      "text": "读",
+                      "probability": 0.7158754616975784
+                    },
+                    {
+                      "start": 92.5,
+                      "end": 92.66,
+                      "text": "《",
+                      "probability": 0.3780447542667389
+                    },
+                    {
+                      "start": 92.66,
+                      "end": 92.94,
+                      "text": "宝",
+                      "probability": 0.7999497950077057
+                    },
+                    {
+                      "start": 92.94,
+                      "end": 93.12,
+                      "text": "罗",
+                      "probability": 0.8042342066764832
+                    },
+                    {
+                      "start": 93.12,
+                      "end": 93.38,
+                      "text": "在",
+                      "probability": 0.7037667632102966
+                    },
+                    {
+                      "start": 93.38,
+                      "end": 93.74,
+                      "text": "菲",
+                      "probability": 0.7939581274986267
+                    },
+                    {
+                      "start": 93.74,
+                      "end": 93.84,
+                      "text": "律",
+                      "probability": 0.7959335744380951
+                    },
+                    {
+                      "start": 93.84,
+                      "end": 94.0,
+                      "text": "比",
+                      "probability": 0.4946884512901306
+                    },
+                    {
+                      "start": 94.0,
+                      "end": 94.3,
+                      "text": "书",
+                      "probability": 0.9064423739910126
+                    },
+                    {
+                      "start": 94.3,
+                      "end": 94.72,
+                      "text": "》",
+                      "probability": 0.9856147170066833
+                    },
+                    {
+                      "start": 94.72,
+                      "end": 94.94,
+                      "text": "三",
+                      "probability": 0.8057922720909119
+                    },
+                    {
+                      "start": 94.94,
+                      "end": 95.24,
+                      "text": "章",
+                      "probability": 0.9540630578994751
+                    },
+                    {
+                      "start": 95.24,
+                      "end": 95.72,
+                      "text": "七",
+                      "probability": 0.8850403428077698
+                    },
+                    {
+                      "start": 95.72,
+                      "end": 96.0,
+                      "text": "到",
+                      "probability": 0.575796902179718
+                    },
+                    {
+                      "start": 96.0,
+                      "end": 96.3,
+                      "text": "八",
+                      "probability": 0.9977511763572693
+                    },
+                    {
+                      "start": 96.3,
+                      "end": 96.48,
+                      "text": "节",
+                      "probability": 0.9798964262008667
+                    },
+                    {
+                      "start": 96.48,
+                      "end": 96.78,
+                      "text": "中",
+                      "probability": 0.9377930164337158
+                    }
+                  ]
+                },
+                {
+                  "start": 96.78,
+                  "end": 98.74,
+                  "text": "关于静白的话",
+                  "words": [
+                    {
+                      "start": 96.78,
+                      "end": 97.42,
+                      "text": "关",
+                      "probability": 0.3663102686405182
+                    },
+                    {
+                      "start": 97.42,
+                      "end": 97.68,
+                      "text": "于",
+                      "probability": 0.9943438768386841
+                    },
+                    {
+                      "start": 97.68,
+                      "end": 98.16,
+                      "text": "静",
+                      "probability": 0.7790850400924683
+                    },
+                    {
+                      "start": 98.16,
+                      "end": 98.42,
+                      "text": "白",
+                      "probability": 0.2970614731311798
+                    },
+                    {
+                      "start": 98.42,
+                      "end": 98.74,
+                      "text": "的话",
+                      "probability": 0.9542990922927856
+                    }
+                  ]
+                },
+                {
+                  "start": 100.5,
+                  "end": 103.82,
+                  "text": "只是我先前以为与我友谊的",
+                  "words": [
+                    {
+                      "start": 100.5,
+                      "end": 101.1,
+                      "text": "只是",
+                      "probability": 0.2866014540195465
+                    },
+                    {
+                      "start": 101.1,
+                      "end": 101.7,
+                      "text": "我",
+                      "probability": 0.6321594715118408
+                    },
+                    {
+                      "start": 101.7,
+                      "end": 102.0,
+                      "text": "先",
+                      "probability": 0.9799127578735352
+                    },
+                    {
+                      "start": 102.0,
+                      "end": 102.3,
+                      "text": "前",
+                      "probability": 0.9854581356048584
+                    },
+                    {
+                      "start": 102.3,
+                      "end": 102.56,
+                      "text": "以",
+                      "probability": 0.9954100251197815
+                    },
+                    {
+                      "start": 102.56,
+                      "end": 102.7,
+                      "text": "为",
+                      "probability": 0.9973817467689514
+                    },
+                    {
+                      "start": 102.7,
+                      "end": 102.96,
+                      "text": "与",
+                      "probability": 0.9008797109127045
+                    },
+                    {
+                      "start": 102.96,
+                      "end": 103.18,
+                      "text": "我",
+                      "probability": 0.854624330997467
+                    },
+                    {
+                      "start": 103.18,
+                      "end": 103.36,
+                      "text": "友",
+                      "probability": 0.37644246220588684
+                    },
+                    {
+                      "start": 103.36,
+                      "end": 103.58,
+                      "text": "谊",
+                      "probability": 0.9736451506614685
+                    },
+                    {
+                      "start": 103.58,
+                      "end": 103.82,
+                      "text": "的",
+                      "probability": 0.9695615768432617
+                    }
+                  ]
+                },
+                {
+                  "start": 103.82,
+                  "end": 108.16,
+                  "text": "我现在因基督都当作有损的",
+                  "words": [
+                    {
+                      "start": 103.82,
+                      "end": 104.38,
+                      "text": "我",
+                      "probability": 0.9406405687332153
+                    },
+                    {
+                      "start": 104.38,
+                      "end": 104.74,
+                      "text": "现在",
+                      "probability": 0.9907193779945374
+                    },
+                    {
+                      "start": 104.74,
+                      "end": 105.36,
+                      "text": "因",
+                      "probability": 0.7353058457374573
+                    },
+                    {
+                      "start": 105.36,
+                      "end": 105.64,
+                      "text": "基",
+                      "probability": 0.6745877861976624
+                    },
+                    {
+                      "start": 105.64,
+                      "end": 105.82,
+                      "text": "督",
+                      "probability": 0.9989196956157684
+                    },
+                    {
+                      "start": 105.82,
+                      "end": 106.5,
+                      "text": "都",
+                      "probability": 0.8750956058502197
+                    },
+                    {
+                      "start": 106.5,
+                      "end": 106.92,
+                      "text": "当",
+                      "probability": 0.4028276205062866
+                    },
+                    {
+                      "start": 106.92,
+                      "end": 107.28,
+                      "text": "作",
+                      "probability": 0.9235813617706299
+                    },
+                    {
+                      "start": 107.28,
+                      "end": 107.58,
+                      "text": "有",
+                      "probability": 0.9310364723205566
+                    },
+                    {
+                      "start": 107.58,
+                      "end": 107.86,
+                      "text": "损",
+                      "probability": 0.9878324866294861
+                    },
+                    {
+                      "start": 107.86,
+                      "end": 108.16,
+                      "text": "的",
+                      "probability": 0.9563142657279968
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.897,
+          "coherentCoverage": 0.848,
+          "extraSpeechContext": false,
+          "prefixCoverage": 1.0,
+          "suffixCoverage": 0.45,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 7,
+          "reviewRequired": true,
+          "boundaryAdjusted": [
+            "discarded detached end matches"
+          ],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 94.72,
+      "start": 100.5,
       "end": 125.42,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "腓立比书378只是我先前以为与我有益的我现在因基督都当作有损的不但如此我也将万事当作有损的因我以",
-      "confidence": 0.654
+      "confidence": 0.778,
+      "quality": {
+        "coverage": 0.808,
+        "coherentCoverage": 0.756,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.55,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 7,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\46-4.mp3.json",
+          "transcriptSha256": "28aa63ef692c7e289b63f72be101f09d45b4eebef4623a7661e833fb06d8d77d",
+          "phraseChars": 12,
+          "candidate": 125.42,
+          "expectedPhrase": "万事看作粪土为要得着基督",
+          "actualPhrase": "万事看作愤途未要得著基督",
+          "phoneticPhrase": [
+            "wan",
+            "shi",
+            "kan",
+            "zuo",
+            "fen",
+            "tu",
+            "wei",
+            "yao",
+            "de",
+            "zhe",
+            "ji",
+            "du"
+          ],
+          "actualPhoneticPhrase": [
+            "wan",
+            "shi",
+            "kan",
+            "zuo",
+            "fen",
+            "tu",
+            "wei",
+            "yao",
+            "de",
+            "zhu",
+            "ji",
+            "du"
+          ],
+          "verified": true,
+          "time": 125.42,
+          "boundedPhonetic": true,
+          "exactEndpointPhonemes": 2,
+          "maxInternalPhoneticDifferences": 2,
+          "phoneticDifferences": [
+            9
+          ],
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "万",
+              "start": 120.2,
+              "end": 120.48,
+              "rawStart": 335,
+              "rawEnd": 335,
+              "precision": "word"
+            },
+            {
+              "text": "事",
+              "start": 120.48,
+              "end": 120.88,
+              "rawStart": 336,
+              "rawEnd": 336,
+              "precision": "word"
+            },
+            {
+              "text": "看",
+              "start": 120.88,
+              "end": 121.7,
+              "rawStart": 337,
+              "rawEnd": 337,
+              "precision": "word"
+            },
+            {
+              "text": "作",
+              "start": 121.7,
+              "end": 122.06,
+              "rawStart": 338,
+              "rawEnd": 338,
+              "precision": "word"
+            },
+            {
+              "text": "愤",
+              "start": 122.06,
+              "end": 122.34,
+              "rawStart": 339,
+              "rawEnd": 339,
+              "precision": "word"
+            },
+            {
+              "text": "途",
+              "start": 122.34,
+              "end": 122.74,
+              "rawStart": 340,
+              "rawEnd": 340,
+              "precision": "word"
+            },
+            {
+              "text": "未",
+              "start": 122.74,
+              "end": 123.58,
+              "rawStart": 341,
+              "rawEnd": 341,
+              "precision": "word"
+            },
+            {
+              "text": "要",
+              "start": 123.58,
+              "end": 123.88,
+              "rawStart": 342,
+              "rawEnd": 342,
+              "precision": "word"
+            },
+            {
+              "text": "得",
+              "start": 123.88,
+              "end": 124.32,
+              "rawStart": 343,
+              "rawEnd": 343,
+              "precision": "word"
+            },
+            {
+              "text": "著",
+              "start": 124.32,
+              "end": 124.7,
+              "rawStart": 344,
+              "rawEnd": 344,
+              "precision": "word"
+            },
+            {
+              "text": "基",
+              "start": 124.7,
+              "end": 125.12,
+              "rawStart": 345,
+              "rawEnd": 345,
+              "precision": "word"
+            },
+            {
+              "text": "督",
+              "start": 125.12,
+              "end": 125.42,
+              "rawStart": 346,
+              "rawEnd": 346,
+              "precision": "word"
+            }
+          ],
+          "source": "bounded-local-phonetic-differences-original-word-times",
+          "listenedByAgent": false,
+          "audioSha256": "54815af8afd2804426ce723854ba51609a94a9b6a7d2a8f6d8afb285aba7c7d0",
+          "reason": "实际首/尾2个音节贴边相同，12音节局部短句最多2处内部识别差异；完整词边界、源段及录音唯一性、数字一致、停顿与相邻时间均核验，不逐字检查正文中间。"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 94.72,
+        "previousEnd": 125.42,
+        "previousConfidence": 0.654
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "046_第四十六问 第一诫命吩咐我们做什么.md",
+          "audio": "46-4.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\046_第四十六问 第一诫命吩咐我们做什么\\audio-05.json",
+          "targetIndex": 17,
+          "edge": "end",
+          "previousTime": 125.42,
+          "time": 125.42,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 94.72,
+            "time": 100.5,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\46-4.mp3.json",
+              "sha256": "a694d28b12ace4e32561bc5fd80e6d06cb045200f778edb9cf416c24bd00e5b6",
+              "anchor": {
+                "time": 100.5,
+                "score": 0.9942,
+                "ratio": 1.0,
+                "expected": "zhishiwoxianqianyiweiyuwoyouyidewoxian",
+                "actual": "只是我先前以为与我友谊的我现",
+                "span": [
+                  100.5,
+                  104.74
+                ],
+                "tokens": [
+                  {
+                    "text": "只",
+                    "start": 100.5,
+                    "end": 101.1,
+                    "rawStart": 276,
+                    "rawEnd": 276,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 100.5,
+                    "end": 101.1,
+                    "rawStart": 277,
+                    "rawEnd": 277,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 101.1,
+                    "end": 101.7,
+                    "rawStart": 278,
+                    "rawEnd": 278,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "先",
+                    "start": 101.7,
+                    "end": 102.0,
+                    "rawStart": 279,
+                    "rawEnd": 279,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "前",
+                    "start": 102.0,
+                    "end": 102.3,
+                    "rawStart": 280,
+                    "rawEnd": 280,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "以",
+                    "start": 102.3,
+                    "end": 102.56,
+                    "rawStart": 281,
+                    "rawEnd": 281,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "为",
+                    "start": 102.56,
+                    "end": 102.7,
+                    "rawStart": 282,
+                    "rawEnd": 282,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "与",
+                    "start": 102.7,
+                    "end": 102.96,
+                    "rawStart": 283,
+                    "rawEnd": 283,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 102.96,
+                    "end": 103.18,
+                    "rawStart": 284,
+                    "rawEnd": 284,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "友",
+                    "start": 103.18,
+                    "end": 103.36,
+                    "rawStart": 285,
+                    "rawEnd": 285,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "谊",
+                    "start": 103.36,
+                    "end": 103.58,
+                    "rawStart": 286,
+                    "rawEnd": 286,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 103.58,
+                    "end": 103.82,
+                    "rawStart": 287,
+                    "rawEnd": 287,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 103.82,
+                    "end": 104.38,
+                    "rawStart": 288,
+                    "rawEnd": 288,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "现",
+                    "start": 104.38,
+                    "end": 104.74,
+                    "rawStart": 289,
+                    "rawEnd": 289,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 98.42,
+                  "score": 0.9176,
+                  "actual": "的话只是我先前以为与我友谊的我现"
+                }
+              },
+              "body": "只是我先前以为与我有益的,我现在因基督都当作有损的。不但如此,我也将万事当作有损的,因我以认识我主基督耶稣为至宝。我为祂已经丢弃万事,看作粪土,为要得着基督。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.808,
+          "coherentCoverage": 0.756,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.55,
+          "suffixCoverage": 0.8,
+          "unmatchedLeadingChars": 7,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\46-4.mp3.json",
+            "transcriptSha256": "28aa63ef692c7e289b63f72be101f09d45b4eebef4623a7661e833fb06d8d77d",
+            "phraseChars": 12,
+            "candidate": 125.42,
+            "expectedPhrase": "万事看作粪土为要得着基督",
+            "actualPhrase": "万事看作愤途未要得著基督",
+            "phoneticPhrase": [
+              "wan",
+              "shi",
+              "kan",
+              "zuo",
+              "fen",
+              "tu",
+              "wei",
+              "yao",
+              "de",
+              "zhe",
+              "ji",
+              "du"
+            ],
+            "actualPhoneticPhrase": [
+              "wan",
+              "shi",
+              "kan",
+              "zuo",
+              "fen",
+              "tu",
+              "wei",
+              "yao",
+              "de",
+              "zhu",
+              "ji",
+              "du"
+            ],
+            "verified": true,
+            "time": 125.42,
+            "boundedPhonetic": true,
+            "exactEndpointPhonemes": 2,
+            "maxInternalPhoneticDifferences": 2,
+            "phoneticDifferences": [
+              9
+            ],
+            "localSupported": true,
+            "timingPrecision": "word",
+            "wordTokens": [
+              {
+                "text": "万",
+                "start": 120.2,
+                "end": 120.48,
+                "rawStart": 335,
+                "rawEnd": 335,
+                "precision": "word"
+              },
+              {
+                "text": "事",
+                "start": 120.48,
+                "end": 120.88,
+                "rawStart": 336,
+                "rawEnd": 336,
+                "precision": "word"
+              },
+              {
+                "text": "看",
+                "start": 120.88,
+                "end": 121.7,
+                "rawStart": 337,
+                "rawEnd": 337,
+                "precision": "word"
+              },
+              {
+                "text": "作",
+                "start": 121.7,
+                "end": 122.06,
+                "rawStart": 338,
+                "rawEnd": 338,
+                "precision": "word"
+              },
+              {
+                "text": "愤",
+                "start": 122.06,
+                "end": 122.34,
+                "rawStart": 339,
+                "rawEnd": 339,
+                "precision": "word"
+              },
+              {
+                "text": "途",
+                "start": 122.34,
+                "end": 122.74,
+                "rawStart": 340,
+                "rawEnd": 340,
+                "precision": "word"
+              },
+              {
+                "text": "未",
+                "start": 122.74,
+                "end": 123.58,
+                "rawStart": 341,
+                "rawEnd": 341,
+                "precision": "word"
+              },
+              {
+                "text": "要",
+                "start": 123.58,
+                "end": 123.88,
+                "rawStart": 342,
+                "rawEnd": 342,
+                "precision": "word"
+              },
+              {
+                "text": "得",
+                "start": 123.88,
+                "end": 124.32,
+                "rawStart": 343,
+                "rawEnd": 343,
+                "precision": "word"
+              },
+              {
+                "text": "著",
+                "start": 124.32,
+                "end": 124.7,
+                "rawStart": 344,
+                "rawEnd": 344,
+                "precision": "word"
+              },
+              {
+                "text": "基",
+                "start": 124.7,
+                "end": 125.12,
+                "rawStart": 345,
+                "rawEnd": 345,
+                "precision": "word"
+              },
+              {
+                "text": "督",
+                "start": 125.12,
+                "end": 125.42,
+                "rawStart": 346,
+                "rawEnd": 346,
+                "precision": "word"
+              }
+            ],
+            "source": "bounded-local-phonetic-differences-original-word-times",
+            "listenedByAgent": false,
+            "audioSha256": "54815af8afd2804426ce723854ba51609a94a9b6a7d2a8f6d8afb285aba7c7d0",
+            "reason": "实际首/尾2个音节贴边相同，12音节局部短句最多2处内部识别差异；完整词边界、源段及录音唯一性、数字一致、停顿与相邻时间均核验，不逐字检查正文中间。"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (7 trailing chars, coverage 0.450): target 16: 敬拜上帝，是向周围的全世界宣告，祂的价值何等的大。我们的宣告，是透过我们为祂而活的整个生命。当我",
+    "unverified end anchor: target 16: 敬拜上帝，是向周围的全世界宣告，祂的价值何等的大。我们的宣告，是透过我们为祂而活的整个生命。当我",
+    "incomplete start (7 leading chars, coverage 0.550): target 17: 腓立比书3:7-8 只是我先前以为与我有益的，我现在因基督都当作有损的。不但如此，我也将万事当作",
+    "unverified start anchor: target 17: 腓立比书3:7-8 只是我先前以为与我有益的，我现在因基督都当作有损的。不但如此，我也将万事当作",
+    "unverified end anchor: target 17: 腓立比书3:7-8 只是我先前以为与我有益的，我现在因基督都当作有损的。不但如此，我也将万事当作",
+    "repair unverified end (previous-sync): target 16",
+    "repair unverified start (previous-sync): target 17",
+    "repair unverified end (previous-sync): target 17"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "5c672674e3354449b899f2ad99615f4418ed08f924d2f8f6539d5e6cd8888ad2",
+  "repairCueDigest": "4537c3bd63c2a2a8333b1848bc069fa12138b720a28f0f66a8e1dad4a18f3ca3",
+  "previousAlignmentWarnings": []
 }

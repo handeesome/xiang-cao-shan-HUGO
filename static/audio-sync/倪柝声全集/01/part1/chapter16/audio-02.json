@@ -8,28 +8,146 @@
   "audioDuration": 218.2671875,
   "cues": [
     {
-      "start": 0.88,
-      "end": 2.52,
-      "kind": "heading",
-      "targetIndex": 10,
-      "targetText": "二",
-      "confidence": 1.0
-    },
-    {
       "start": 2.52,
-      "end": 14.56,
+      "end": 13.72,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "有的人当我问他得救了没有的问题之后就要答说我不过尽我的力量作好服事上帝盼望后来能够得救",
-      "confidence": 0.918
+      "confidence": 0.918,
+      "quality": {
+        "coverage": 0.907,
+        "coherentCoverage": 0.86,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 2.52,
+        "previousEnd": 13.72,
+        "previousConfidence": 0.918
+      }
     },
     {
       "start": 14.56,
-      "end": 215.04,
+      "end": 217.22,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "呀这也是错的这是因为你不明白得救的方法你想你尽你的力量作好服事上帝后来能得救么须知我们自己的功劳",
-      "confidence": 0.795
+      "confidence": 0.887,
+      "quality": {
+        "coverage": 0.891,
+        "coherentCoverage": 0.847,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 1.0,
+          "localSimilarity": 1.0,
+          "localText": "为什么缘故还疑惑呢你已经得着了何必再盼望赞美主吧",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 14.56,
+        "previousEnd": 215.04,
+        "previousConfidence": 0.856
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "aa698db40006cf110c5d6cc2e2af9351b8bcee9245e5149d7ff0e0df9807c4f8",
+  "repairCueDigest": "41796ca385d820ccde2c4959ff6f318bfde5bd7a660cec603a202cea2592832e",
+  "previousAlignmentWarnings": [],
+  "currentSiteConfirmation": {
+    "model": "medium",
+    "audioSha256": "732211b1aaf07424d01d655210d52666b8d4c5a4445dc6400b7a5c15dcd9adf5",
+    "audioDuration": 218.2671875,
+    "windows": [
+      [
+        206.02,
+        218.2671875
+      ]
+    ]
+  }
 }

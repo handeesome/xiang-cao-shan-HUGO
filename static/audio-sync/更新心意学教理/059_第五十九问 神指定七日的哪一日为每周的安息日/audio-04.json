@@ -8,44 +8,722 @@
   "audioDuration": 156.369,
   "cues": [
     {
-      "start": 1.38,
-      "end": 3.16,
-      "kind": "heading",
-      "targetIndex": 8,
-      "targetText": "礼拜三",
-      "confidence": 0.8
-    },
-    {
       "start": 3.16,
-      "end": 54.64,
+      "end": 54.86,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "每周第七日安息对于犹太人是非常重要的因为上帝看它是重要的为什么安息日改到每周的第一天了呢在旧约的",
-      "confidence": 0.801
+      "confidence": 0.938,
+      "quality": {
+        "coverage": 0.935,
+        "coherentCoverage": 0.924,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 3.16,
+        "previousEnd": 54.64,
+        "previousConfidence": 0.867
+      }
     },
     {
-      "start": 54.64,
-      "end": 114.06,
+      "start": 55.04,
+      "end": 111.88,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "路加福音2418七日的头一日黎明的时候那些妇女带着所预备的香料来到坟墓前看见石头已经从坟墓滚开了",
-      "confidence": 0.839
+      "confidence": 0.886,
+      "quality": {
+        "coverage": 0.881,
+        "coherentCoverage": 0.836,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 54.64,
+        "previousEnd": 111.88,
+        "previousConfidence": 0.839
+      }
     },
     {
       "start": 114.06,
-      "end": 123.38,
+      "end": 126.26,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "就在这同一天就是七日的第一日耶稣在复活之后初次向门徒显现请读约翰福音201920",
-      "confidence": 0.824
+      "confidence": 0.789,
+      "quality": {
+        "coverage": 0.814,
+        "coherentCoverage": 0.767,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 114.06,
+        "previousEnd": 123.38,
+        "previousConfidence": 0.824
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 123.38,
+            "time": 126.26,
+            "reason": "核对原识别稿的相邻句及同一段实际读法；按真实句首或句尾定位，识别错字、译法差异和短省略不作逐字否决。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\59-3.mp3.json",
+              "sha256": "2eedfeffe07aab447a3bf2b7fa269fd78d3024fe6d678da8da1c9df8b210aa77",
+              "source": "context-reviewed-paragraph-approximation",
+              "segments": [
+                {
+                  "start": 118.2,
+                  "end": 122.38,
+                  "text": "耶稣在复活之后,初次向门徒显现,",
+                  "words": [
+                    {
+                      "start": 118.2,
+                      "end": 118.44,
+                      "text": "耶",
+                      "probability": 0.9969539642333984
+                    },
+                    {
+                      "start": 118.44,
+                      "end": 118.72,
+                      "text": "稣",
+                      "probability": 0.99960657954216
+                    },
+                    {
+                      "start": 118.72,
+                      "end": 119.24,
+                      "text": "在",
+                      "probability": 0.9861990213394165
+                    },
+                    {
+                      "start": 119.24,
+                      "end": 119.56,
+                      "text": "复",
+                      "probability": 0.9997385740280151
+                    },
+                    {
+                      "start": 119.56,
+                      "end": 119.72,
+                      "text": "活",
+                      "probability": 0.9988646507263184
+                    },
+                    {
+                      "start": 119.72,
+                      "end": 119.94,
+                      "text": "之",
+                      "probability": 0.9925196170806885
+                    },
+                    {
+                      "start": 119.94,
+                      "end": 120.16,
+                      "text": "后,",
+                      "probability": 0.9999431371688843
+                    },
+                    {
+                      "start": 120.7,
+                      "end": 120.84,
+                      "text": "初",
+                      "probability": 0.9073264002799988
+                    },
+                    {
+                      "start": 120.84,
+                      "end": 121.16,
+                      "text": "次",
+                      "probability": 0.989474356174469
+                    },
+                    {
+                      "start": 121.16,
+                      "end": 121.46,
+                      "text": "向",
+                      "probability": 0.9911164045333862
+                    },
+                    {
+                      "start": 121.46,
+                      "end": 121.64,
+                      "text": "门",
+                      "probability": 0.9271596074104309
+                    },
+                    {
+                      "start": 121.64,
+                      "end": 121.84,
+                      "text": "徒",
+                      "probability": 0.9079060554504395
+                    },
+                    {
+                      "start": 121.84,
+                      "end": 122.04,
+                      "text": "显",
+                      "probability": 0.87957963347435
+                    },
+                    {
+                      "start": 122.04,
+                      "end": 122.38,
+                      "text": "现,",
+                      "probability": 0.9805094003677368
+                    }
+                  ]
+                },
+                {
+                  "start": 123.38,
+                  "end": 126.26,
+                  "text": "庆祖愿赴赢二十章十九的二十祭礼。",
+                  "words": [
+                    {
+                      "start": 123.38,
+                      "end": 123.56,
+                      "text": "庆",
+                      "probability": 0.547239400446415
+                    },
+                    {
+                      "start": 123.56,
+                      "end": 123.78,
+                      "text": "祖",
+                      "probability": 0.4569336026906967
+                    },
+                    {
+                      "start": 123.78,
+                      "end": 124.04,
+                      "text": "愿",
+                      "probability": 0.6433451473712921
+                    },
+                    {
+                      "start": 124.04,
+                      "end": 124.28,
+                      "text": "赴",
+                      "probability": 0.4485493451356888
+                    },
+                    {
+                      "start": 124.28,
+                      "end": 124.46,
+                      "text": "赢",
+                      "probability": 0.7197927236557007
+                    },
+                    {
+                      "start": 124.46,
+                      "end": 124.74,
+                      "text": "二",
+                      "probability": 0.9189474582672119
+                    },
+                    {
+                      "start": 124.74,
+                      "end": 124.86,
+                      "text": "十",
+                      "probability": 0.996343195438385
+                    },
+                    {
+                      "start": 124.86,
+                      "end": 125.02,
+                      "text": "章",
+                      "probability": 0.8902794420719147
+                    },
+                    {
+                      "start": 125.02,
+                      "end": 125.32,
+                      "text": "十",
+                      "probability": 0.9243472218513489
+                    },
+                    {
+                      "start": 125.32,
+                      "end": 125.5,
+                      "text": "九",
+                      "probability": 0.978093147277832
+                    },
+                    {
+                      "start": 125.5,
+                      "end": 125.62,
+                      "text": "的",
+                      "probability": 0.9371354579925537
+                    },
+                    {
+                      "start": 125.62,
+                      "end": 125.8,
+                      "text": "二",
+                      "probability": 0.9818065166473389
+                    },
+                    {
+                      "start": 125.8,
+                      "end": 125.96,
+                      "text": "十",
+                      "probability": 0.999629020690918
+                    },
+                    {
+                      "start": 125.96,
+                      "end": 126.12,
+                      "text": "祭",
+                      "probability": 0.5769988223910332
+                    },
+                    {
+                      "start": 126.12,
+                      "end": 126.26,
+                      "text": "礼。",
+                      "probability": 0.8948022425174713
+                    }
+                  ]
+                },
+                {
+                  "start": 129.73,
+                  "end": 133.53,
+                  "text": "那日晚上,就是七日的第一日晚上,",
+                  "words": [
+                    {
+                      "start": 129.73,
+                      "end": 129.97,
+                      "text": "那",
+                      "probability": 0.9708861708641052
+                    },
+                    {
+                      "start": 129.97,
+                      "end": 130.15,
+                      "text": "日",
+                      "probability": 0.928439736366272
+                    },
+                    {
+                      "start": 130.15,
+                      "end": 130.59,
+                      "text": "晚上,",
+                      "probability": 0.9874102473258972
+                    },
+                    {
+                      "start": 131.13,
+                      "end": 131.49,
+                      "text": "就是",
+                      "probability": 0.9817647933959961
+                    },
+                    {
+                      "start": 131.49,
+                      "end": 132.17,
+                      "text": "七",
+                      "probability": 0.9756843447685242
+                    },
+                    {
+                      "start": 132.17,
+                      "end": 132.39,
+                      "text": "日",
+                      "probability": 0.9963415265083313
+                    },
+                    {
+                      "start": 132.39,
+                      "end": 132.55,
+                      "text": "的",
+                      "probability": 0.9971771240234375
+                    },
+                    {
+                      "start": 132.55,
+                      "end": 132.91,
+                      "text": "第一",
+                      "probability": 0.9118895530700684
+                    },
+                    {
+                      "start": 132.91,
+                      "end": 133.11,
+                      "text": "日",
+                      "probability": 0.9941926598548889
+                    },
+                    {
+                      "start": 133.11,
+                      "end": 133.53,
+                      "text": "晚上,",
+                      "probability": 0.9936410784721375
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.814,
+          "coherentCoverage": 0.767,
+          "extraSpeechContext": false,
+          "prefixCoverage": 1.0,
+          "suffixCoverage": 0.6,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 1,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 123.38,
+      "start": 129.73,
       "end": 154.51,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "约翰福音201920那日就是七日的第一日晚上门徒所在的地方因怕犹太人门都关了耶稣来站在当中对他们",
-      "confidence": 0.761
+      "confidence": 0.843,
+      "quality": {
+        "coverage": 0.778,
+        "coherentCoverage": 0.741,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.35,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 13,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 123.38,
+        "previousEnd": 154.51,
+        "previousConfidence": 0.773
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 123.38,
+            "time": 129.73,
+            "reason": "前段提示末尾仍需修正，本段用经文实际起句定位",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\59-3.mp3.json",
+              "sha256": "d1f56c67e042cb17f0aa43705e34265574864b95a2e6983b62c5dabda39f16bc",
+              "anchor": {
+                "time": 129.73,
+                "score": 0.915,
+                "ratio": 0.9333,
+                "expected": "narijiushiqiridediyiriwanshangmentu",
+                "actual": "那日晚上就是7日的第1日晚上门徒",
+                "span": [
+                  129.73,
+                  134.93
+                ],
+                "tokens": [
+                  {
+                    "text": "那",
+                    "start": 129.73,
+                    "end": 129.97,
+                    "rawStart": 390,
+                    "rawEnd": 390,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "日",
+                    "start": 129.97,
+                    "end": 130.15,
+                    "rawStart": 391,
+                    "rawEnd": 391,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "晚",
+                    "start": 130.15,
+                    "end": 130.59,
+                    "rawStart": 392,
+                    "rawEnd": 392,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "上",
+                    "start": 130.15,
+                    "end": 130.59,
+                    "rawStart": 393,
+                    "rawEnd": 393,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "就",
+                    "start": 131.13,
+                    "end": 131.49,
+                    "rawStart": 394,
+                    "rawEnd": 394,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 131.13,
+                    "end": 131.49,
+                    "rawStart": 395,
+                    "rawEnd": 395,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "7",
+                    "start": 131.49,
+                    "end": 132.17,
+                    "rawStart": 396,
+                    "rawEnd": 396,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "日",
+                    "start": 132.17,
+                    "end": 132.39,
+                    "rawStart": 397,
+                    "rawEnd": 397,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 132.39,
+                    "end": 132.55,
+                    "rawStart": 398,
+                    "rawEnd": 398,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "第",
+                    "start": 132.55,
+                    "end": 132.91,
+                    "rawStart": 399,
+                    "rawEnd": 399,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 132.55,
+                    "end": 132.91,
+                    "rawStart": 400,
+                    "rawEnd": 400,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "日",
+                    "start": 132.91,
+                    "end": 133.11,
+                    "rawStart": 401,
+                    "rawEnd": 401,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "晚",
+                    "start": 133.11,
+                    "end": 133.53,
+                    "rawStart": 402,
+                    "rawEnd": 402,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "上",
+                    "start": 133.11,
+                    "end": 133.53,
+                    "rawStart": 403,
+                    "rawEnd": 403,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "门",
+                    "start": 134.15,
+                    "end": 134.71,
+                    "rawStart": 404,
+                    "rawEnd": 404,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "徒",
+                    "start": 134.71,
+                    "end": 134.93,
+                    "rawStart": 405,
+                    "rawEnd": 405,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "那日(就是七日的第一日)晚上,门徒所在的地方,因怕犹太人,门都关了。耶稣来站在当中,对他们说:“愿你们平安!”说了这话,就把手和肋旁指给他们看。门徒看见主,就喜乐了。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.778,
+          "coherentCoverage": 0.741,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.35,
+          "suffixCoverage": 0.9,
+          "unmatchedLeadingChars": 13,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 11: 就在这同一天，就是七日的第一日，耶稣在复活之后初次向门徒显现。请读约翰福音20:19-20。",
+    "incomplete start (13 leading chars, coverage 0.350): target 12: 约翰福音20:19-20 那日（就是七日的第一日）晚上，门徒所在的地方，因怕犹太人，门都关了。耶",
+    "unverified start anchor: target 12: 约翰福音20:19-20 那日（就是七日的第一日）晚上，门徒所在的地方，因怕犹太人，门都关了。耶",
+    "repair unverified end (previous-sync): target 11",
+    "repair unverified start (previous-sync): target 12"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "996cc77191f46c057f471ae4f3de2c883edf31b91f37a4e13515f49079dcc199",
+  "repairCueDigest": "e31c6f8dc6a4c71b3bcf5cd4a6940a9a527d5278302a55a3ac13afd130c3afb1",
+  "previousAlignmentWarnings": [],
+  "currentSiteConfirmation": {
+    "model": "medium",
+    "audioSha256": "a0d06fcd451ac60a3440cb3c59de7f46469d2a96970fc8997f17697ab77cdc95",
+    "audioDuration": 156.36898,
+    "windows": [
+      [
+        36.28,
+        69.86
+      ]
+    ]
+  }
 }

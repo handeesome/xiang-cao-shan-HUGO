@@ -8,28 +8,151 @@
   "audioDuration": 347.3643125,
   "cues": [
     {
-      "start": 2.42,
-      "end": 4.08,
-      "kind": "heading",
-      "targetIndex": 27,
-      "targetText": "3认主",
-      "confidence": 0.8
-    },
-    {
       "start": 4.08,
-      "end": 233.99,
+      "end": 232.55,
       "kind": "paragraph",
-      "targetIndex": 28,
+      "targetIndex": 26,
       "targetText": "这个强盗不特责备那个强盗也不特承认他自己是一个罪人并且承认主耶稣是没有罪的请看第四十一节末了一句",
-      "confidence": 0.902
+      "confidence": 0.936,
+      "quality": {
+        "coverage": 0.935,
+        "coherentCoverage": 0.915,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 4.08,
+        "previousEnd": 232.55,
+        "previousConfidence": 0.919
+      }
     },
     {
       "start": 233.99,
-      "end": 341.69,
+      "end": 345.37,
       "kind": "paragraph",
-      "targetIndex": 29,
+      "targetIndex": 27,
       "targetText": "所以在这里我们看见这个强盗说到主耶稣的无罪受刑是最有意思的他看见主受死他又承认主是没有罪的没有罪",
-      "confidence": 0.943
+      "confidence": 0.97,
+      "quality": {
+        "coverage": 0.97,
+        "coherentCoverage": 0.97,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 233.99,
+        "previousEnd": 341.69,
+        "previousConfidence": 0.968
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 28,
+      "targetIndex": 29,
+      "targetText": "这个强盗不特责备那个强盗也不特承认他自己是一个罪人并且承认主耶稣是没有罪的请看第四十一节末了一句",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 29,
+      "targetIndex": 30,
+      "targetText": "所以在这里我们看见这个强盗说到主耶稣的无罪受刑是最有意思的他看见主受死他又承认主是没有罪的没有罪",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 29,
+      "targetIndex": 26,
+      "targetText": "这个强盗不特责备那个强盗也不特承认他自己是一个罪人并且承认主耶稣是没有罪的请看第四十一节末了一句",
+      "method": "unchanged-source-span-after-proven-duplicate-removal"
+    },
+    {
+      "previousTargetIndex": 30,
+      "targetIndex": 27,
+      "targetText": "所以在这里我们看见这个强盗说到主耶稣的无罪受刑是最有意思的他看见主受死他又承认主是没有罪的没有罪",
+      "method": "unchanged-source-span-after-proven-duplicate-removal"
+    }
+  ],
+  "chronologyReordered": false,
+  "repairFingerprint": "acd214d51bdd51c20b096e2bb8633d2a2162d80b9f1d1fed791e9e4aecb83d53",
+  "repairCueDigest": "3bff515c28bd0902e50cf6de66f351c97ae992720e1675e8d1b9539ce97e50e9",
+  "previousAlignmentWarnings": [],
+  "targetIndexMethod": "body-global-v8-rendered-list-and-empty-paragraph-indices"
 }

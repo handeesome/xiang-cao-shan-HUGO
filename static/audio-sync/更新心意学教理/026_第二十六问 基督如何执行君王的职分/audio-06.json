@@ -8,44 +8,657 @@
   "audioDuration": 144.758625,
   "cues": [
     {
-      "start": 1.74,
-      "end": 3.5,
-      "kind": "heading",
-      "targetIndex": 21,
-      "targetText": "礼拜六",
-      "confidence": 0.8
-    },
-    {
       "start": 3.5,
       "end": 23.44,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "耶稣的仇敌没有一个在祂面前站立得住祂征服了所有的仇敌将来有一天祂将完全摧毁他们请读启示录1911",
-      "confidence": 0.595
+      "confidence": 0.952,
+      "quality": {
+        "coverage": 0.952,
+        "coherentCoverage": 0.919,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 3.5,
+        "previousEnd": 23.44,
+        "previousConfidence": 0.952
+      }
     },
     {
       "start": 23.44,
-      "end": 87.25,
+      "end": 86.21,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "启示录191116我观看见天开了有一匹白马骑在马上的称为诚信真实祂审判争战都按着公义祂的眼睛如火",
-      "confidence": 0.675
+      "confidence": 0.799,
+      "quality": {
+        "coverage": 0.771,
+        "coherentCoverage": 0.617,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.35,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 12,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 23.44,
+        "previousEnd": 86.21,
+        "previousConfidence": 0.799
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 23.44,
+            "time": 23.44,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\26-6.mp3.json",
+              "sha256": "d45ac911456761729b43eb9f6cdaa5c3037226d0dfad921f9e18bbcc6d33879d",
+              "anchor": {
+                "time": 23.44,
+                "score": 1.0,
+                "ratio": 1.0,
+                "expected": "woguankanjiantiankaileyouyipibaimaqizai",
+                "actual": "我观看剑天开了有1匹白马骑在",
+                "span": [
+                  23.44,
+                  31.66
+                ],
+                "tokens": [
+                  {
+                    "text": "我",
+                    "start": 23.44,
+                    "end": 24.48,
+                    "rawStart": 65,
+                    "rawEnd": 65,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "观",
+                    "start": 25.82,
+                    "end": 26.06,
+                    "rawStart": 66,
+                    "rawEnd": 66,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "看",
+                    "start": 26.06,
+                    "end": 26.42,
+                    "rawStart": 67,
+                    "rawEnd": 67,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "剑",
+                    "start": 27.14,
+                    "end": 27.36,
+                    "rawStart": 68,
+                    "rawEnd": 68,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "天",
+                    "start": 27.36,
+                    "end": 27.88,
+                    "rawStart": 69,
+                    "rawEnd": 69,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "开",
+                    "start": 27.88,
+                    "end": 28.32,
+                    "rawStart": 70,
+                    "rawEnd": 70,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "了",
+                    "start": 28.32,
+                    "end": 28.6,
+                    "rawStart": 71,
+                    "rawEnd": 71,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "有",
+                    "start": 29.36,
+                    "end": 29.7,
+                    "rawStart": 72,
+                    "rawEnd": 72,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 29.36,
+                    "end": 29.7,
+                    "rawStart": 73,
+                    "rawEnd": 73,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "匹",
+                    "start": 29.7,
+                    "end": 29.98,
+                    "rawStart": 74,
+                    "rawEnd": 74,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "白",
+                    "start": 29.98,
+                    "end": 30.36,
+                    "rawStart": 75,
+                    "rawEnd": 75,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "马",
+                    "start": 30.36,
+                    "end": 30.7,
+                    "rawStart": 76,
+                    "rawEnd": 76,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "骑",
+                    "start": 31.24,
+                    "end": 31.48,
+                    "rawStart": 77,
+                    "rawEnd": 77,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "在",
+                    "start": 31.48,
+                    "end": 31.66,
+                    "rawStart": 78,
+                    "rawEnd": 78,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": true,
+                "alternative": {
+                  "time": 25.82,
+                  "score": 0.9546,
+                  "actual": "观看剑天开了有1匹白马骑在"
+                }
+              },
+              "body": "我观看,见天开了。有一匹白马,骑在马上的称为诚信真实,祂审判、争战都按着公义。祂的眼睛如火焰,祂头上戴着许多冠冕,又有写着的名字,除了祂自己没有人知道。祂穿着溅了血的衣服,祂的名称为神之道。在天上的众军骑着白马,穿着细麻衣,又白又洁,跟随祂。有利剑从祂口中出来,可以击杀列国。祂必用铁杖辖管他们,并要踹全能神烈怒的酒榨。在祂衣服和大腿上有名写着说:“万王之王,万主之主。”"
+            }
+          }
+        }
+      }
     },
     {
       "start": 87.25,
-      "end": 103.83,
+      "end": 104.19,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "启示录也描述了耶稣的仇敌据启示录的描述他们非常凶猛恐怖残暴他们都聚集起来要与耶稣作战请读启示录1",
-      "confidence": 0.563
+      "confidence": 0.8,
+      "quality": {
+        "coverage": 0.698,
+        "coherentCoverage": 0.698,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.55,
+        "unmatchedLeadingChars": 3,
+        "unmatchedTrailingChars": 9,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 0.75,
+          "localSimilarity": 0.8,
+          "localText": "启示录也描述了耶稣的仇敌据启示录的描述他们非常凶",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "source": "context-reviewed-read-prompt-ending",
+          "contextUsed": true,
+          "identityAmbiguous": false,
+          "continuousAnchor": false,
+          "timingPrecision": "word",
+          "time": 104.19,
+          "expectedPhrase": "启示录也描述了耶稣的仇敌。据启示录的描述，他们非常凶猛、恐怖、残暴。他们都聚集起来要与耶稣作战。请读启示录17:14。",
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\26-6.mp3.json",
+          "transcriptSha256": "6254bcdce1489bfc0b064e4c824b82d0cba021f187eaedfc930b143aab86b9de",
+          "audioSha256": "7caa9dc38bced9e22d0e524215324e18958f2e62e6d80d98084064f2100fc131",
+          "rawSegments": [
+            {
+              "start": 101.21,
+              "end": 104.19,
+              "text": "請讀祁師祿17章14節",
+              "words": [
+                {
+                  "start": 101.21,
+                  "end": 102.03,
+                  "text": "請",
+                  "probability": 0.9642877578735352
+                },
+                {
+                  "start": 102.03,
+                  "end": 102.29,
+                  "text": "讀",
+                  "probability": 0.9307579398155212
+                },
+                {
+                  "start": 102.29,
+                  "end": 102.57,
+                  "text": "祁",
+                  "probability": 0.9567395448684692
+                },
+                {
+                  "start": 102.57,
+                  "end": 102.77,
+                  "text": "師",
+                  "probability": 0.9933778643608093
+                },
+                {
+                  "start": 102.77,
+                  "end": 102.95,
+                  "text": "祿",
+                  "probability": 0.9995577335357666
+                },
+                {
+                  "start": 102.95,
+                  "end": 103.31,
+                  "text": "17",
+                  "probability": 0.5154394507408142
+                },
+                {
+                  "start": 103.31,
+                  "end": 103.57,
+                  "text": "章",
+                  "probability": 0.9778571426868439
+                },
+                {
+                  "start": 103.57,
+                  "end": 103.83,
+                  "text": "14",
+                  "probability": 0.7057410478591919
+                },
+                {
+                  "start": 103.83,
+                  "end": 104.19,
+                  "text": "節",
+                  "probability": 0.9440129995346069
+                }
+              ]
+            }
+          ],
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+          "listenedByAgent": false
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 87.25,
+        "previousEnd": 103.83,
+        "previousConfidence": 0.8
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "026_第二十六问 基督如何执行君王的职分.md",
+          "audio": "26-6.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\026_第二十六问 基督如何执行君王的职分\\audio-06.json",
+          "caseIndex": 515,
+          "targetIndex": 24,
+          "edge": "end",
+          "previousTime": 103.83,
+          "time": 104.19,
+          "kind": "verified-edge",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false,
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。"
+        }
+      ]
     },
     {
-      "start": 103.83,
-      "end": 123.07,
+      "start": 105.05,
+      "end": 121.89,
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "启示录1714他们与羔羊争战羔羊必胜过他们因为羔羊是万主之主万王之王同着羔羊的就是蒙召被选有忠心",
-      "confidence": 0.66
+      "confidence": 0.725,
+      "quality": {
+        "coverage": 0.764,
+        "coherentCoverage": 0.709,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 3,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "localSupported": false,
+          "source": "previous-verified-end",
+          "time": 104.19,
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "referenceOwnershipConstraint": {
+          "ownerTargetIndex": 24,
+          "ownerTargetText": "启示录也描述了耶稣的仇敌据启示录的描述他们非常凶猛恐怖残暴他们都聚集起来要与耶稣作战请读启示录1",
+          "notBefore": 104.19,
+          "verifiedSpokenOnset": false
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 103.83,
+        "previousEnd": 121.89,
+        "previousConfidence": 0.725
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "026_第二十六问 基督如何执行君王的职分.md",
+          "audio": "26-6.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\026_第二十六问 基督如何执行君王的职分\\audio-06.json",
+          "caseIndex": 515,
+          "targetIndex": 25,
+          "edge": "start",
+          "previousTime": 103.83,
+          "time": 104.19,
+          "kind": "unverified-neighbor-constraint",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 104.19,
+            "time": 105.05,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\26-6.mp3.json",
+              "sha256": "d45ac911456761729b43eb9f6cdaa5c3037226d0dfad921f9e18bbcc6d33879d",
+              "anchor": {
+                "time": 105.05,
+                "score": 0.9277,
+                "ratio": 0.9286,
+                "expected": "tamenyugaoyangzhengzhangaoyangbishengguotamen",
+                "actual": "他们与高扬阵战高羊必胜过他们",
+                "span": [
+                  105.05,
+                  109.69
+                ],
+                "tokens": [
+                  {
+                    "text": "他",
+                    "start": 105.05,
+                    "end": 105.63,
+                    "rawStart": 281,
+                    "rawEnd": 281,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 105.05,
+                    "end": 105.63,
+                    "rawStart": 282,
+                    "rawEnd": 282,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "与",
+                    "start": 105.63,
+                    "end": 105.99,
+                    "rawStart": 283,
+                    "rawEnd": 283,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "高",
+                    "start": 105.99,
+                    "end": 106.51,
+                    "rawStart": 284,
+                    "rawEnd": 284,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "扬",
+                    "start": 106.51,
+                    "end": 106.77,
+                    "rawStart": 285,
+                    "rawEnd": 285,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "阵",
+                    "start": 106.77,
+                    "end": 106.99,
+                    "rawStart": 286,
+                    "rawEnd": 286,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "战",
+                    "start": 106.99,
+                    "end": 107.25,
+                    "rawStart": 287,
+                    "rawEnd": 287,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "高",
+                    "start": 107.25,
+                    "end": 107.95,
+                    "rawStart": 288,
+                    "rawEnd": 288,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "羊",
+                    "start": 107.95,
+                    "end": 108.17,
+                    "rawStart": 289,
+                    "rawEnd": 289,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "必",
+                    "start": 108.17,
+                    "end": 108.71,
+                    "rawStart": 290,
+                    "rawEnd": 290,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "胜",
+                    "start": 108.71,
+                    "end": 109.17,
+                    "rawStart": 291,
+                    "rawEnd": 291,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "过",
+                    "start": 109.17,
+                    "end": 109.37,
+                    "rawStart": 292,
+                    "rawEnd": 292,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "他",
+                    "start": 109.37,
+                    "end": 109.69,
+                    "rawStart": 293,
+                    "rawEnd": 293,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 109.37,
+                    "end": 109.69,
+                    "rawStart": 294,
+                    "rawEnd": 294,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "他们与羔羊争战,羔羊必胜过他们,因为羔羊是万主之主、万王之王。同着羔羊的,就是蒙召、被选、有忠心的,也必得胜。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.764,
+          "coherentCoverage": 0.709,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.65,
+          "suffixCoverage": 0.75,
+          "unmatchedLeadingChars": 3,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "localSupported": false,
+            "source": "previous-verified-end",
+            "time": 104.19,
+            "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.667,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "referenceOwnershipConstraint": {
+            "ownerTargetIndex": 24,
+            "ownerTargetText": "启示录也描述了耶稣的仇敌据启示录的描述他们非常凶猛恐怖残暴他们都聚集起来要与耶稣作战请读启示录1",
+            "notBefore": 104.19,
+            "verifiedSpokenOnset": false
+          }
+        }
+      }
     },
     {
       "start": 123.07,
@@ -53,7 +666,81 @@
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "我们这些以耶稣为君王的人可以欢呼快乐因为我们的君王是如此的伟大祂能保护我们脱离仇敌而且有一天会把",
-      "confidence": 0.981
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 123.07,
+        "previousEnd": 142.15,
+        "previousConfidence": 1.0
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (12 leading chars, coverage 0.350): target 23: 启示录19:11-16 我观看，见天开了。有一匹白马，骑在马上的称为诚信真实，祂审判、争战都按着",
+    "unverified start anchor: target 23: 启示录19:11-16 我观看，见天开了。有一匹白马，骑在马上的称为诚信真实，祂审判、争战都按着",
+    "incomplete end (9 trailing chars, coverage 0.550): target 24: 启示录也描述了耶稣的仇敌。据启示录的描述，他们非常凶猛、恐怖、残暴。他们都聚集起来要与耶稣作战。",
+    "unverified end anchor: target 24: 启示录也描述了耶稣的仇敌。据启示录的描述，他们非常凶猛、恐怖、残暴。他们都聚集起来要与耶稣作战。",
+    "unverified start anchor: target 25: 启示录17:14 他们与羔羊争战，羔羊必胜过他们，因为羔羊是万主之主、万王之王。同着羔羊的，就是",
+    "repair unverified start (previous-sync): target 23",
+    "repair unverified end (previous-sync): target 24",
+    "repair unverified start (previous-sync): target 25",
+    "context reviewed end: target 24; 前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+    "unverified constrained start: target 25; 旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "ffb13e4472496980a52686bcdde0485e8e90f8b103414440afeb0f95eedeeee3",
+  "repairCueDigest": "a213426e9509d72628683625f5381c776d227f22972180c4a396895b8f8e0e7f",
+  "previousAlignmentWarnings": []
 }

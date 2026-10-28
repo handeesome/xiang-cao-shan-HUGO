@@ -122,7 +122,7 @@ weight: "6"
 
 ## 〖 神所差来的基督 〗
 
-{{<audio src="01/chapter06/5.mp3">}}
+{{<audio src="01/chapter06/3.mp3" sync="/audio-sync/倪柝声全集/01/part1/chapter06/audio-03.json" >}}
 
 我们不只要知道神的恩赐，也要知道，这说给我水喝的是谁？
 今天这坐在井旁的，这么卑微，这么疲乏，这么饱历风霜的祂，就是神的恩赐。
@@ -138,7 +138,7 @@ weight: "6"
 
 ## 〖 得活水的方法 〗
 
-{{<audio src="01/chapter06/6.mp3">}}
+{{<audio src="01/chapter06/4.mp3" sync="/audio-sync/倪柝声全集/01/part1/chapter06/audio-04.json" >}}
 
 「你就必早求祂，祂也必早给了你活水。」
 什么样的人能得活水呢？
@@ -171,7 +171,7 @@ weight: "6"
 
 ## 〖 女人的难处 〗
 
-{{<audio src="01/chapter06/7.mp3">}}
+{{<audio src="01/chapter06/5.mp3" sync="/audio-sync/倪柝声全集/01/part1/chapter06/audio-05.json" >}}
 
 这女人怎样作呢？
 她说，「先生没有打水的器具，井又深，你从那里得活水呢？
@@ -217,7 +217,7 @@ weight: "6"
 
 ## 〖 这水 〗
 
-{{<audio src="01/chapter06/4.mp3">}}
+{{<audio src="01/chapter06/6.mp3" sync="/audio-sync/倪柝声全集/01/part1/chapter06/audio-06.json" >}}
 
 「耶稣回答说，凡喝这水的，还要再渴。」
 (13 节)我不知道你们知不知道什么叫作口渴？
@@ -228,7 +228,7 @@ weight: "6"
 口渴就是一个没有得着满足的欲望，一个没有成功的要求。
 也许有的人说，我有一个盼望，没有得着满足。
 也许有的人说，我有一个心愿，没有得着成就。
-哦，我的口渴了。
+哦，我口渴了。
 
 世界有好的，就是把它最好的给你，但是，你还要渴。
 世界有美丽的，就是把它最美丽的给你，但是，你还要渴。
@@ -281,7 +281,7 @@ weight: "6"
 
 ## 〖 活水 〗
 
-{{<audio src="01/chapter06/3.mp3">}}
+{{<audio src="01/chapter06/7.mp3" sync="/audio-sync/倪柝声全集/01/part1/chapter06/audio-07.json" >}}
 
 如果在我们中间，有要得着满足的，我就把得满足的方法告诉你们。
 主耶稣说，「人若喝我所赐的水，就永远不渴，我所赐的水，要在他里头成为泉源，直涌到永生。

@@ -8,28 +8,378 @@
   "audioDuration": 161.8024375,
   "cues": [
     {
-      "start": 0.93,
-      "end": 2.21,
-      "kind": "heading",
-      "targetIndex": 19,
-      "targetText": "礼拜六",
-      "confidence": 0.8
-    },
-    {
       "start": 2.21,
-      "end": 44.09,
+      "end": 43.15,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "诗篇是上帝的百姓在敬拜祷告时所唱的诗歌许多诗篇都有标题有些标题会告诉我们发生了什么事情促使诗人写",
-      "confidence": 0.537
+      "confidence": 0.909,
+      "quality": {
+        "coverage": 0.913,
+        "coherentCoverage": 0.878,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 2.21,
+        "previousEnd": 44.09,
+        "previousConfidence": 0.537
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 2.21,
+            "time": 2.21,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\60-6.mp3.json",
+              "sha256": "c570b550730ae6b3257549547f731f0647e9a13ab9a9cfa8bb23d0d7e2489528",
+              "anchor": {
+                "time": 2.21,
+                "score": 0.702,
+                "ratio": 0.72,
+                "expected": "shipianshishende100xingzaijingbaidaogao",
+                "actual": "诗篇是圣地的100姓在",
+                "span": [
+                  2.21,
+                  5.49
+                ],
+                "tokens": [
+                  {
+                    "text": "诗",
+                    "start": 2.21,
+                    "end": 2.77,
+                    "rawStart": 3,
+                    "rawEnd": 3,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "篇",
+                    "start": 2.77,
+                    "end": 3.03,
+                    "rawStart": 4,
+                    "rawEnd": 4,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 3.03,
+                    "end": 3.59,
+                    "rawStart": 5,
+                    "rawEnd": 5,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "圣",
+                    "start": 3.59,
+                    "end": 4.05,
+                    "rawStart": 6,
+                    "rawEnd": 6,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "地",
+                    "start": 4.05,
+                    "end": 4.23,
+                    "rawStart": 7,
+                    "rawEnd": 7,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 4.23,
+                    "end": 4.35,
+                    "rawStart": 8,
+                    "rawEnd": 8,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 4.35,
+                    "end": 4.55,
+                    "rawStart": 9,
+                    "rawEnd": 9,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "0",
+                    "start": 4.35,
+                    "end": 4.55,
+                    "rawStart": 10,
+                    "rawEnd": 10,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "0",
+                    "start": 4.35,
+                    "end": 4.55,
+                    "rawStart": 11,
+                    "rawEnd": 11,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "姓",
+                    "start": 4.55,
+                    "end": 4.81,
+                    "rawStart": 12,
+                    "rawEnd": 12,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "在",
+                    "start": 4.81,
+                    "end": 5.49,
+                    "rawStart": 13,
+                    "rawEnd": 13,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "诗篇是上帝的百姓在敬拜祷告时所唱的诗歌。许多诗篇都有标题。有些标题会告诉我们发生了什么事情,促使诗人写下那篇诗篇。还有的标题告诉我们,诗篇应该如何配乐。诗篇92有个标题,告诉我们这篇诗篇可应用的场合。标题说“安息日的诗歌”。今日请读此诗篇,预备明天的敬拜。"
+            }
+          }
+        }
+      }
     },
     {
       "start": 44.09,
-      "end": 160.32,
+      "end": 160.68,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "诗篇92115称谢耶和华歌颂祢至高者的名用十弦的乐器和瑟用琴弹幽雅的声音早晨传扬祢的慈爱每夜传扬",
-      "confidence": 0.669
+      "confidence": 0.765,
+      "quality": {
+        "coverage": 0.762,
+        "coherentCoverage": 0.606,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\60-6.mp3.json",
+          "transcriptSha256": "fdde4eb3dfe4411b947ef56c0a7a55a2ce398b2844dde3b29e0d9e9d0d929cf2",
+          "candidate": 160.68,
+          "expectedPhrase": "他是我的磐石在他毫无不义",
+          "actualPhrase": "它是我的盘石在它毫无不易",
+          "phoneticPhrase": [
+            "ta",
+            "shi",
+            "wo",
+            "de",
+            "pan",
+            "shi",
+            "zai",
+            "ta",
+            "hao",
+            "wu",
+            "bu",
+            "yi"
+          ],
+          "verified": true,
+          "time": 160.68,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "exact-local-syllables-original-word-times",
+          "phoneticExact": true,
+          "literalEqual": false,
+          "wordTokens": [
+            {
+              "text": "它",
+              "start": 156.06,
+              "end": 156.26,
+              "rawStart": 411,
+              "rawEnd": 411,
+              "precision": "word"
+            },
+            {
+              "text": "是",
+              "start": 156.26,
+              "end": 156.46,
+              "rawStart": 412,
+              "rawEnd": 412,
+              "precision": "word"
+            },
+            {
+              "text": "我",
+              "start": 156.46,
+              "end": 156.7,
+              "rawStart": 413,
+              "rawEnd": 413,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 156.46,
+              "end": 156.7,
+              "rawStart": 414,
+              "rawEnd": 414,
+              "precision": "word"
+            },
+            {
+              "text": "盘",
+              "start": 156.7,
+              "end": 157.02,
+              "rawStart": 415,
+              "rawEnd": 415,
+              "precision": "word"
+            },
+            {
+              "text": "石",
+              "start": 157.02,
+              "end": 157.4,
+              "rawStart": 416,
+              "rawEnd": 416,
+              "precision": "word"
+            },
+            {
+              "text": "在",
+              "start": 158.12,
+              "end": 158.32,
+              "rawStart": 417,
+              "rawEnd": 417,
+              "precision": "word"
+            },
+            {
+              "text": "它",
+              "start": 158.32,
+              "end": 158.72,
+              "rawStart": 418,
+              "rawEnd": 418,
+              "precision": "word"
+            },
+            {
+              "text": "毫",
+              "start": 158.72,
+              "end": 159.54,
+              "rawStart": 419,
+              "rawEnd": 419,
+              "precision": "word"
+            },
+            {
+              "text": "无",
+              "start": 159.54,
+              "end": 159.96,
+              "rawStart": 420,
+              "rawEnd": 420,
+              "precision": "word"
+            },
+            {
+              "text": "不",
+              "start": 159.96,
+              "end": 160.32,
+              "rawStart": 421,
+              "rawEnd": 421,
+              "precision": "word"
+            },
+            {
+              "text": "易",
+              "start": 160.32,
+              "end": 160.68,
+              "rawStart": 422,
+              "rawEnd": 422,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "audioSha256": "6d72c0429551f663932331c3903b2f3f39344d9da27a21b4ed29d47a0ae1da93",
+          "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 44.09,
+        "previousEnd": 160.32,
+        "previousConfidence": 0.669
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "060_第六十问 应当如何遵守安息日为圣.md",
+          "audio": "60-6.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\060_第六十问 应当如何遵守安息日为圣\\audio-07.json",
+          "targetIndex": 21,
+          "edge": "end",
+          "previousTime": 160.32,
+          "time": 160.68,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 20: 诗篇是上帝的百姓在敬拜祷告时所唱的诗歌。许多诗篇都有标题。有些标题会告诉我们发生了什么事情，促使",
+    "unverified end anchor: target 21: 诗篇92:1-15 称谢耶和华，歌颂祢至高者的名！用十弦的乐器和瑟，用琴弹幽雅的声音。早晨传扬祢",
+    "repair unverified start (previous-sync): target 20",
+    "repair unverified end (previous-sync): target 21"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "8c10a7d925c74548ec92353748cbd3330bd2e7139ec65957cc74aa04e758c794",
+  "repairCueDigest": "1000b9973c53008d3119532aeccec4b13d79b520e57abde06bb99cf664493edc",
+  "previousAlignmentWarnings": []
 }

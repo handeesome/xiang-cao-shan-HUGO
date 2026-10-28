@@ -8,36 +8,174 @@
   "audioDuration": 89.917,
   "cues": [
     {
-      "start": 12.58,
-      "end": 13.2,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "礼拜一",
-      "confidence": 0.4
-    },
-    {
-      "start": 13.2,
-      "end": 47.02,
+      "start": 2.44,
+      "end": 45.8,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "因为亚当是全人类的先祖我们所有人都是与他联合的我们藉着出生就与第一个人亚当联合我们在他的罪上与他",
-      "confidence": 0.809
+      "confidence": 0.948,
+      "quality": {
+        "coverage": 0.948,
+        "coherentCoverage": 0.925,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 13.2,
+        "previousEnd": 47.02,
+        "previousConfidence": 0.809
+      }
     },
     {
       "start": 47.02,
-      "end": 77.84,
+      "end": 76.0,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "如果我们想要得救我们就必须与基督联合祂完全顺服的生命必须成为我们的生命祂为罪受死也必须成为我们的",
-      "confidence": 0.862
+      "confidence": 0.885,
+      "quality": {
+        "coverage": 0.895,
+        "coherentCoverage": 0.849,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 47.02,
+        "previousEnd": 77.84,
+        "previousConfidence": 0.862
+      }
     },
     {
       "start": 77.84,
-      "end": 88.78,
+      "end": 88.96,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "哥林多后书517若有人在基督里他就是新造的人旧事已过都变成新的了",
-      "confidence": 0.769
+      "confidence": 0.758,
+      "quality": {
+        "coverage": 0.781,
+        "coherentCoverage": 0.688,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.812,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 77.84,
+        "previousEnd": 88.78,
+        "previousConfidence": 0.769
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 3,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "b36f76b85d2543f0f7a1c48336bc19ecfafd40a4d24f287bd3e99cca830ce1ef",
+  "repairCueDigest": "a5ba45120f633a84a04bae3b07768e543949aff19a70069d82c2cc00757ea30c",
+  "previousAlignmentWarnings": []
 }

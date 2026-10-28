@@ -8,20 +8,353 @@
   "audioDuration": 42.456,
   "cues": [
     {
-      "start": 4.68,
-      "end": 14.66,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "礼拜一",
-      "confidence": 0.5
+      "start": 6.94,
+      "end": 11.76,
+      "kind": "paragraph",
+      "targetIndex": 1,
+      "targetText": "答上帝是独一无二又真又活的",
+      "confidence": 0.88,
+      "quality": {
+        "coverage": 0.846,
+        "coherentCoverage": 0.615,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.833,
+        "suffixCoverage": 0.833,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": false,
+          "substitutionAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": null,
+        "previousEnd": null,
+        "previousConfidence": null
+      }
     },
     {
-      "start": 14.66,
+      "start": 12.52,
       "end": 20.3,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "申命记64以色列啊你要听耶和华我们上帝是独一的主",
-      "confidence": 0.756
+      "confidence": 0.844,
+      "quality": {
+        "coverage": 0.885,
+        "coherentCoverage": 0.731,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.769,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 14.66,
+        "previousEnd": 20.3,
+        "previousConfidence": 0.723
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 14.66,
+            "time": 12.52,
+            "reason": "同段出处按实际读序计入",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\5-0.mp3.json",
+              "sha256": "ba5c0de82978f89df4bfe34141711b0dec5942451983b94bda7320cefa116088",
+              "anchor": {
+                "time": 15.76,
+                "score": 0.9559,
+                "ratio": 0.963,
+                "expected": "yiselieaniyaotingyehehuawomenshenshi",
+                "actual": "以色列你要听耶和华我们神是",
+                "span": [
+                  15.76,
+                  19.58
+                ],
+                "tokens": [
+                  {
+                    "text": "以",
+                    "start": 15.76,
+                    "end": 15.92,
+                    "rawStart": 31,
+                    "rawEnd": 31,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "色",
+                    "start": 15.92,
+                    "end": 16.2,
+                    "rawStart": 32,
+                    "rawEnd": 32,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "列",
+                    "start": 16.2,
+                    "end": 16.38,
+                    "rawStart": 33,
+                    "rawEnd": 33,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 16.38,
+                    "end": 16.82,
+                    "rawStart": 34,
+                    "rawEnd": 34,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "要",
+                    "start": 16.38,
+                    "end": 16.82,
+                    "rawStart": 35,
+                    "rawEnd": 35,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "听",
+                    "start": 16.82,
+                    "end": 17.44,
+                    "rawStart": 36,
+                    "rawEnd": 36,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "耶",
+                    "start": 18.06,
+                    "end": 18.18,
+                    "rawStart": 37,
+                    "rawEnd": 37,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "和",
+                    "start": 18.18,
+                    "end": 18.3,
+                    "rawStart": 38,
+                    "rawEnd": 38,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "华",
+                    "start": 18.3,
+                    "end": 18.42,
+                    "rawStart": 39,
+                    "rawEnd": 39,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 18.42,
+                    "end": 18.76,
+                    "rawStart": 40,
+                    "rawEnd": 40,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 18.42,
+                    "end": 18.76,
+                    "rawStart": 41,
+                    "rawEnd": 41,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 18.76,
+                    "end": 19.06,
+                    "rawStart": 42,
+                    "rawEnd": 43,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 19.06,
+                    "end": 19.58,
+                    "rawStart": 44,
+                    "rawEnd": 44,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "以色列啊,你要听!耶和华我们神是独一的主。",
+              "reference": {
+                "time": 12.52,
+                "score": 0.8181,
+                "ratio": 0.8333,
+                "expected": "shenmingjiliuzhangsijie",
+                "actual": "命集6章4",
+                "span": [
+                  12.52,
+                  14.08
+                ],
+                "tokens": [
+                  {
+                    "text": "命",
+                    "start": 12.52,
+                    "end": 12.74,
+                    "rawStart": 23,
+                    "rawEnd": 23,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "集",
+                    "start": 12.74,
+                    "end": 13.1,
+                    "rawStart": 24,
+                    "rawEnd": 24,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "6",
+                    "start": 13.1,
+                    "end": 13.5,
+                    "rawStart": 25,
+                    "rawEnd": 25,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "章",
+                    "start": 13.5,
+                    "end": 13.76,
+                    "rawStart": 26,
+                    "rawEnd": 26,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "4",
+                    "start": 13.76,
+                    "end": 14.08,
+                    "rawStart": 27,
+                    "rawEnd": 27,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              }
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.885,
+          "coherentCoverage": 0.731,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.769,
+          "suffixCoverage": 1.0,
+          "unmatchedLeadingChars": 1,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [
+            "start substitution"
+          ],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v8-rendered-list-and-empty-paragraph-indices",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 4: 申命记6:4 以色列啊，你要听！耶和华我们神是独一的主。",
+    "repair unverified start (previous-sync): target 4"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 1,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "501b5725855cf3bad6e65668a13b9cbf0e9be659f06017f431053e869e5a5a55",
+  "repairCueDigest": "2429167a04219f6a557c70cedc48696680bb2f16c010995d641eb686b99b1bbf",
+  "previousAlignmentWarnings": [],
+  "currentSiteConfirmation": {
+    "model": "medium",
+    "audioSha256": "9e0639b5ba0c43d6ab063b57a4629b7952190715a0771b36ca0e368e9f4e065e",
+    "audioDuration": 42.456,
+    "windows": [
+      [
+        0,
+        26.2
+      ]
+    ]
+  }
 }

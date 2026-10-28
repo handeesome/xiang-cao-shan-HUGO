@@ -8,44 +8,671 @@
   "audioDuration": 118.0161875,
   "cues": [
     {
-      "start": 2.0,
-      "end": 4.1,
-      "kind": "heading",
-      "targetIndex": 25,
-      "targetText": "礼拜五",
-      "confidence": 0.8
-    },
-    {
       "start": 4.1,
-      "end": 26.12,
+      "end": 25.28,
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "昨天我们看到我们有罪的思想需要圣灵帮助才能理解上帝所赐的救恩那也意味着我们有罪的意志需要圣灵如果",
-      "confidence": 0.691
+      "confidence": 0.926,
+      "quality": {
+        "coverage": 0.926,
+        "coherentCoverage": 0.912,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 4.1,
+        "previousEnd": 25.28,
+        "previousConfidence": 0.926
+      }
     },
     {
       "start": 26.12,
-      "end": 27.72,
+      "end": 30.5,
       "kind": "paragraph",
       "targetIndex": 27,
       "targetText": "请读约翰福音53940",
-      "confidence": 0.5
+      "confidence": 0.235,
+      "quality": {
+        "startVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endVerified": true,
+        "endEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "source": "context-reviewed-read-prompt-ending",
+          "contextUsed": true,
+          "identityAmbiguous": false,
+          "continuousAnchor": false,
+          "timingPrecision": "word",
+          "time": 30.5,
+          "expectedPhrase": "请读约翰福音5:39-40。",
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\31-5.mp3.json",
+          "transcriptSha256": "9c4ad3ceeecf077aee9a6149af1509539d792ce12a36f85f60eee11e2392f144",
+          "audioSha256": "1d70688c415a4f8e6b8ee4d07d92b459ad8be578819e05094823a2f35e5efe11",
+          "rawSegments": [
+            {
+              "start": 26.12,
+              "end": 30.5,
+              "text": "请读冤福音五章三十九到四十节",
+              "words": [
+                {
+                  "start": 26.12,
+                  "end": 26.72,
+                  "text": "请",
+                  "probability": 0.27439576387405396
+                },
+                {
+                  "start": 26.72,
+                  "end": 26.96,
+                  "text": "读",
+                  "probability": 0.8477295637130737
+                },
+                {
+                  "start": 26.96,
+                  "end": 27.28,
+                  "text": "冤",
+                  "probability": 0.5704937875270844
+                },
+                {
+                  "start": 27.28,
+                  "end": 27.54,
+                  "text": "福",
+                  "probability": 0.36912310123443604
+                },
+                {
+                  "start": 27.54,
+                  "end": 27.72,
+                  "text": "音",
+                  "probability": 0.3886461555957794
+                },
+                {
+                  "start": 27.72,
+                  "end": 28.16,
+                  "text": "五",
+                  "probability": 0.2413022518157959
+                },
+                {
+                  "start": 28.16,
+                  "end": 28.48,
+                  "text": "章",
+                  "probability": 0.9911482930183411
+                },
+                {
+                  "start": 28.48,
+                  "end": 28.98,
+                  "text": "三",
+                  "probability": 0.6130092740058899
+                },
+                {
+                  "start": 28.98,
+                  "end": 29.22,
+                  "text": "十",
+                  "probability": 0.9713518023490906
+                },
+                {
+                  "start": 29.22,
+                  "end": 29.52,
+                  "text": "九",
+                  "probability": 0.9928330183029175
+                },
+                {
+                  "start": 29.52,
+                  "end": 29.8,
+                  "text": "到",
+                  "probability": 0.7114064693450928
+                },
+                {
+                  "start": 29.8,
+                  "end": 30.1,
+                  "text": "四",
+                  "probability": 0.9851086735725403
+                },
+                {
+                  "start": 30.1,
+                  "end": 30.28,
+                  "text": "十",
+                  "probability": 0.9974918365478516
+                },
+                {
+                  "start": 30.28,
+                  "end": 30.5,
+                  "text": "节",
+                  "probability": 0.7065340876579285
+                }
+              ]
+            }
+          ],
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+          "listenedByAgent": false
+        },
+        "reviewRequired": true
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 26.12,
+        "previousEnd": 27.28,
+        "previousConfidence": 0.235
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "031_第三十一问 有效的恩召是什么.md",
+          "audio": "31-5.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\031_第三十一问 有效的恩召是什么\\audio-05.json",
+          "caseIndex": 576,
+          "targetIndex": 27,
+          "edge": "end",
+          "previousTime": 27.28,
+          "time": 30.5,
+          "kind": "verified-edge",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false,
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。"
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 26.12,
+            "time": 26.12,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\31-5.mp3.json",
+              "sha256": "d486c664911d8cba3c1862c724fa746f9b883985aa63156d6bc803e48a4d6534",
+              "anchor": {
+                "time": 26.12,
+                "score": 0.8829,
+                "ratio": 0.8889,
+                "expected": "qingduyuehanfuyinwuzhang39dao40jie",
+                "actual": "请读冤福音5章39到40节",
+                "span": [
+                  26.12,
+                  30.5
+                ],
+                "tokens": [
+                  {
+                    "text": "请",
+                    "start": 26.12,
+                    "end": 26.72,
+                    "rawStart": 71,
+                    "rawEnd": 71,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "读",
+                    "start": 26.72,
+                    "end": 26.96,
+                    "rawStart": 72,
+                    "rawEnd": 72,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "冤",
+                    "start": 26.96,
+                    "end": 27.28,
+                    "rawStart": 73,
+                    "rawEnd": 73,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "福",
+                    "start": 27.28,
+                    "end": 27.54,
+                    "rawStart": 74,
+                    "rawEnd": 74,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "音",
+                    "start": 27.54,
+                    "end": 27.72,
+                    "rawStart": 75,
+                    "rawEnd": 75,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "5",
+                    "start": 27.72,
+                    "end": 28.16,
+                    "rawStart": 76,
+                    "rawEnd": 76,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "章",
+                    "start": 28.16,
+                    "end": 28.48,
+                    "rawStart": 77,
+                    "rawEnd": 77,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "3",
+                    "start": 28.48,
+                    "end": 29.52,
+                    "rawStart": 78,
+                    "rawEnd": 78,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "9",
+                    "start": 28.48,
+                    "end": 29.52,
+                    "rawStart": 79,
+                    "rawEnd": 79,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "到",
+                    "start": 29.52,
+                    "end": 29.8,
+                    "rawStart": 80,
+                    "rawEnd": 80,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "4",
+                    "start": 29.8,
+                    "end": 30.28,
+                    "rawStart": 81,
+                    "rawEnd": 81,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "0",
+                    "start": 29.8,
+                    "end": 30.28,
+                    "rawStart": 82,
+                    "rawEnd": 82,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "节",
+                    "start": 30.28,
+                    "end": 30.5,
+                    "rawStart": 83,
+                    "rawEnd": 83,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "请读约翰福音5:39-40。"
+            }
+          }
+        }
+      }
     },
     {
-      "start": 27.72,
-      "end": 44.66,
+      "start": 31.32,
+      "end": 43.96,
       "kind": "paragraph",
       "targetIndex": 28,
       "targetText": "约翰福音53940你们查考圣经因你们以为内中有永生给我作见证的就是这经然而你们不肯到我这里来得生",
-      "confidence": 0.796
+      "confidence": 0.961,
+      "quality": {
+        "coverage": 0.942,
+        "coherentCoverage": 0.942,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "localSupported": false,
+          "source": "previous-verified-end",
+          "time": 30.5,
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "referenceOwnershipConstraint": {
+          "ownerTargetIndex": 27,
+          "ownerTargetText": "请读约翰福音53940",
+          "notBefore": 30.5,
+          "verifiedSpokenOnset": false
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 27.28,
+        "previousEnd": 43.96,
+        "previousConfidence": 0.961
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "031_第三十一问 有效的恩召是什么.md",
+          "audio": "31-5.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\031_第三十一问 有效的恩召是什么\\audio-05.json",
+          "caseIndex": 576,
+          "targetIndex": 28,
+          "edge": "start",
+          "previousTime": 27.28,
+          "time": 30.5,
+          "kind": "unverified-neighbor-constraint",
+          "previousVerified": true,
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 30.5,
+            "time": 31.32,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\31-5.mp3.json",
+              "sha256": "d486c664911d8cba3c1862c724fa746f9b883985aa63156d6bc803e48a4d6534",
+              "anchor": {
+                "time": 31.32,
+                "score": 0.9992,
+                "ratio": 1.0,
+                "expected": "nimenchakaoshengjingyinnimenyiweineizhongyou",
+                "actual": "你们查考圣经因你们以为内中有",
+                "span": [
+                  31.32,
+                  36.06
+                ],
+                "tokens": [
+                  {
+                    "text": "你",
+                    "start": 31.32,
+                    "end": 31.92,
+                    "rawStart": 84,
+                    "rawEnd": 84,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 31.32,
+                    "end": 31.92,
+                    "rawStart": 85,
+                    "rawEnd": 85,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "查",
+                    "start": 31.92,
+                    "end": 32.34,
+                    "rawStart": 86,
+                    "rawEnd": 86,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "考",
+                    "start": 32.34,
+                    "end": 32.76,
+                    "rawStart": 87,
+                    "rawEnd": 87,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "圣",
+                    "start": 32.76,
+                    "end": 33.1,
+                    "rawStart": 88,
+                    "rawEnd": 88,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "经",
+                    "start": 33.1,
+                    "end": 33.38,
+                    "rawStart": 89,
+                    "rawEnd": 89,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "因",
+                    "start": 33.38,
+                    "end": 34.12,
+                    "rawStart": 90,
+                    "rawEnd": 90,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 34.12,
+                    "end": 34.42,
+                    "rawStart": 91,
+                    "rawEnd": 91,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 34.12,
+                    "end": 34.42,
+                    "rawStart": 92,
+                    "rawEnd": 92,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "以",
+                    "start": 34.42,
+                    "end": 34.66,
+                    "rawStart": 93,
+                    "rawEnd": 93,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "为",
+                    "start": 34.66,
+                    "end": 34.86,
+                    "rawStart": 94,
+                    "rawEnd": 94,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "内",
+                    "start": 34.86,
+                    "end": 35.32,
+                    "rawStart": 95,
+                    "rawEnd": 95,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "中",
+                    "start": 35.32,
+                    "end": 35.76,
+                    "rawStart": 96,
+                    "rawEnd": 96,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "有",
+                    "start": 35.76,
+                    "end": 36.06,
+                    "rawStart": 97,
+                    "rawEnd": 97,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "你们查考圣经,因你们以为内中有永生;给我作见证的就是这经。然而你们不肯到我这里来得生命。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.942,
+          "coherentCoverage": 0.942,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.9,
+          "suffixCoverage": 1.0,
+          "unmatchedLeadingChars": 2,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "localSupported": false,
+            "source": "previous-verified-end",
+            "time": 30.5,
+            "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "referenceOwnershipConstraint": {
+            "ownerTargetIndex": 27,
+            "ownerTargetText": "请读约翰福音53940",
+            "notBefore": 30.5,
+            "verifiedSpokenOnset": false
+          }
+        }
+      }
     },
     {
       "start": 44.66,
-      "end": 90.32,
+      "end": 89.92,
       "kind": "paragraph",
       "targetIndex": 29,
       "targetText": "耶稣是对那些不信祂的犹太人说这些话这些犹太人查考圣经圣经清楚地教导耶稣是救主但是这些犹太人却不肯",
-      "confidence": 0.876
+      "confidence": 0.885,
+      "quality": {
+        "coverage": 0.871,
+        "coherentCoverage": 0.833,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 0.792,
+          "localSimilarity": 0.864,
+          "localText": "选择顺服上帝的命令信靠耶稣请读罗马书8章5到6节",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 44.66,
+        "previousEnd": 90.32,
+        "previousConfidence": 0.889
+      }
     },
     {
       "start": 90.32,
@@ -53,7 +680,229 @@
       "kind": "paragraph",
       "targetIndex": 30,
       "targetText": "罗马书856因为随从肉体的人体贴肉体的事随从圣灵的人体贴圣灵的事体贴肉体的就是死体贴圣灵的乃是生",
-      "confidence": 0.928
+      "confidence": 0.92,
+      "quality": {
+        "coverage": 0.87,
+        "coherentCoverage": 0.87,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 7,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 90.32,
+        "previousEnd": 107.78,
+        "previousConfidence": 0.92
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 90.32,
+            "time": 90.32,
+            "reason": "正文起句已定位，保留原先读出处范围",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\31-5.mp3.json",
+              "sha256": "d486c664911d8cba3c1862c724fa746f9b883985aa63156d6bc803e48a4d6534",
+              "anchor": {
+                "time": 91.66,
+                "score": 0.9987,
+                "ratio": 1.0,
+                "expected": "yinweisuicongroutiderentitieroutideshi",
+                "actual": "因为随从肉体的人体贴肉体的事",
+                "span": [
+                  91.66,
+                  96.32
+                ],
+                "tokens": [
+                  {
+                    "text": "因",
+                    "start": 91.66,
+                    "end": 92.3,
+                    "rawStart": 254,
+                    "rawEnd": 254,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "为",
+                    "start": 91.66,
+                    "end": 92.3,
+                    "rawStart": 255,
+                    "rawEnd": 255,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "随",
+                    "start": 92.3,
+                    "end": 92.94,
+                    "rawStart": 256,
+                    "rawEnd": 256,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "从",
+                    "start": 92.94,
+                    "end": 93.44,
+                    "rawStart": 257,
+                    "rawEnd": 257,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "肉",
+                    "start": 93.44,
+                    "end": 93.82,
+                    "rawStart": 258,
+                    "rawEnd": 258,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "体",
+                    "start": 93.82,
+                    "end": 94.08,
+                    "rawStart": 259,
+                    "rawEnd": 259,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 94.08,
+                    "end": 94.44,
+                    "rawStart": 260,
+                    "rawEnd": 260,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 94.08,
+                    "end": 94.44,
+                    "rawStart": 261,
+                    "rawEnd": 261,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "体",
+                    "start": 94.44,
+                    "end": 94.96,
+                    "rawStart": 262,
+                    "rawEnd": 262,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "贴",
+                    "start": 94.96,
+                    "end": 95.38,
+                    "rawStart": 263,
+                    "rawEnd": 263,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "肉",
+                    "start": 95.38,
+                    "end": 95.72,
+                    "rawStart": 264,
+                    "rawEnd": 264,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "体",
+                    "start": 95.72,
+                    "end": 95.94,
+                    "rawStart": 265,
+                    "rawEnd": 265,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 95.94,
+                    "end": 96.06,
+                    "rawStart": 266,
+                    "rawEnd": 266,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "事",
+                    "start": 96.06,
+                    "end": 96.32,
+                    "rawStart": 267,
+                    "rawEnd": 267,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 89.5,
+                  "score": 0.8844,
+                  "actual": "56节因为随从肉体的人体贴肉体的事"
+                }
+              },
+              "body": "因为随从肉体的人,体贴肉体的事;随从圣灵的人,体贴圣灵的事。体贴肉体的就是死;体贴圣灵的乃是生命平安。",
+              "retainedCitationInterval": [
+                90.32,
+                91.66
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (0 leading chars, coverage 0.286): target 27: 请读约翰福音5:39-40。",
+    "incomplete end (12 trailing chars, coverage 0.000): target 27: 请读约翰福音5:39-40。",
+    "low confidence (0.250, coverage 0.143): target 27: 请读约翰福音5:39-40。",
+    "unverified start anchor: target 27: 请读约翰福音5:39-40。",
+    "unverified end anchor: target 27: 请读约翰福音5:39-40。",
+    "unmatched (fragment only): target 27: 请读约翰福音5:39-40。",
+    "incomplete start (7 leading chars, coverage 0.650): target 30: 罗马书8:5-6 因为随从肉体的人，体贴肉体的事；随从圣灵的人，体贴圣灵的事。体贴肉体的就是死；",
+    "unverified start anchor: target 30: 罗马书8:5-6 因为随从肉体的人，体贴肉体的事；随从圣灵的人，体贴圣灵的事。体贴肉体的就是死；",
+    "repair unverified start (previous-sync): target 27",
+    "repair unverified end (previous-sync): target 27",
+    "repair unverified start (previous-sync): target 30",
+    "context reviewed end: target 27; 前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+    "unverified constrained start: target 28; 旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "3bcb6b56ceed55cf03d46261801c740e0d43fb840218e3c57fbb1f56287b86d7",
+  "repairCueDigest": "c8b805f240ec10ecb9d91450fed3a8e6988aecedf6f84da8bb15faf06fdf4ab6",
+  "previousAlignmentWarnings": []
 }

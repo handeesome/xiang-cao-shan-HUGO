@@ -8,20 +8,166 @@
   "audioDuration": 91.6898125,
   "cues": [
     {
-      "start": 1.42,
-      "end": 78.67,
+      "start": 4.1,
+      "end": 74.51,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "在上帝创造万有多年之后上帝呼召犹太人作自己的百姓祂把祂的律法赐给他们祂赐给他们的律法中有一条就是",
-      "confidence": 0.866
+      "confidence": 0.918,
+      "quality": {
+        "coverage": 0.918,
+        "coherentCoverage": 0.884,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 4.1,
+        "previousEnd": 78.67,
+        "previousConfidence": 0.867
+      }
+    },
+    {
+      "start": 75.13,
+      "end": 77.35,
+      "kind": "paragraph",
+      "targetIndex": 8,
+      "targetText": "出埃及记3112耶和华晓谕摩西说",
+      "confidence": 0.308,
+      "quality": {
+        "startVerified": false,
+        "endVerified": false,
+        "reviewRequired": true,
+        "verificationBasis": "paragraph-level-approximate"
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "reason": "上段已读请读出埃及记31:12；本段耶和华晓谕摩西说独立起止，不重复借用上段出处。",
+        "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\57-2.mp3.json",
+        "transcriptSha256": "e333349243373ed266c6fcd34b426096a9770b672ba75ec0f26fcf6f6bd85726",
+        "actualText": "伊河華小於摩西說",
+        "interval": [
+          75.13,
+          77.35
+        ],
+        "listenedByAgent": false,
+        "authorization": "用户要求段落级首尾大致对应，允许识别差异与摘读，不要求逐字核验。"
+      }
     },
     {
       "start": 78.67,
-      "end": 90.11,
+      "end": 90.81,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "这些安息都是在描述主耶稣祂将赐给百姓安息脱离在祂降世之前的那些礼仪和规条",
-      "confidence": 0.639
+      "confidence": 0.737,
+      "quality": {
+        "coverage": 0.737,
+        "coherentCoverage": 0.684,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.737,
+        "suffixCoverage": 0.737,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 78.67,
+        "previousEnd": 90.81,
+        "previousConfidence": 0.757
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v8-rendered-list-and-empty-paragraph-indices",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (12 leading chars, coverage 0.000): target 8: 出埃及记31:12 耶和华晓谕摩西说。",
+    "incomplete end (0 trailing chars, coverage 0.444): target 8: 出埃及记31:12 耶和华晓谕摩西说。",
+    "low confidence (0.333, coverage 0.222): target 8: 出埃及记31:12 耶和华晓谕摩西说。",
+    "unverified start anchor: target 8: 出埃及记31:12 耶和华晓谕摩西说。",
+    "unverified end anchor: target 8: 出埃及记31:12 耶和华晓谕摩西说。",
+    "unmatched (fragment only): target 8: 出埃及记31:12 耶和华晓谕摩西说。",
+    "repair missing cue (unverified): target 8",
+    "paragraph-level cue recovered: target 8; 上段已读请读出埃及记31:12；本段耶和华晓谕摩西说独立起止，不重复借用上段出处。 原始严格核验提示保留。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": [
+      8
+    ]
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "49be90313878ac99ec74e9eb39a86409c12dcce1f3f58fcb016b11cb9a938ae7",
+  "repairCueDigest": "b7504ce09ed1b8352d03ac46cab8f9e85dea202ce364984080759140e96cf6bd",
+  "previousAlignmentWarnings": []
 }

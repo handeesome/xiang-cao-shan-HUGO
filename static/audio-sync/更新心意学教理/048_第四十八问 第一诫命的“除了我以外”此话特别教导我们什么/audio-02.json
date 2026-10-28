@@ -8,36 +8,1048 @@
   "audioDuration": 123.264,
   "cues": [
     {
-      "start": 1.35,
-      "end": 2.89,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "礼拜一",
-      "confidence": 0.8
-    },
-    {
       "start": 2.89,
-      "end": 76.73,
+      "end": 76.15,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "虽然上帝不像我们一样有眼睛但是祂比我们看得清楚多了上帝同时看到所有地方和所有事物上帝之所以能够如",
-      "confidence": 0.88
+      "confidence": 0.954,
+      "quality": {
+        "coverage": 0.954,
+        "coherentCoverage": 0.94,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 2.89,
+        "previousEnd": 76.15,
+        "previousConfidence": 0.954
+      }
     },
     {
       "start": 76.73,
-      "end": 101.61,
+      "end": 109.41,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "有时候一个人去教会也行善不过他这么做只是为了在人前看起来很好其实他对上帝根本没有兴趣他是假装在敬",
-      "confidence": 0.739
+      "confidence": 0.869,
+      "quality": {
+        "coverage": 0.826,
+        "coherentCoverage": 0.804,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.35,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 11,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 76.73,
+        "previousEnd": 101.61,
+        "previousConfidence": 0.885
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 101.61,
+            "time": 109.41,
+            "reason": "核对本段请读提示的完整实际词尾，包含最后节号。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\48-1.mp3.json",
+              "sha256": "90c2572698e5bbda1715fc97e003d90516155d086851637decd584775b76e556",
+              "segments": [
+                {
+                  "start": 98.19,
+                  "end": 102.33,
+                  "text": "這樣的一個人沒有遵守第一條界面",
+                  "words": [
+                    {
+                      "start": 98.19,
+                      "end": 99.13,
+                      "text": "這樣的",
+                      "probability": 0.7801817655563354
+                    },
+                    {
+                      "start": 99.13,
+                      "end": 99.61,
+                      "text": "一個",
+                      "probability": 0.992529571056366
+                    },
+                    {
+                      "start": 99.61,
+                      "end": 99.91,
+                      "text": "人",
+                      "probability": 0.9992325305938721
+                    },
+                    {
+                      "start": 99.91,
+                      "end": 100.53,
+                      "text": "沒有",
+                      "probability": 0.9583403468132019
+                    },
+                    {
+                      "start": 100.53,
+                      "end": 100.93,
+                      "text": "遵",
+                      "probability": 0.9988287389278412
+                    },
+                    {
+                      "start": 100.93,
+                      "end": 101.27,
+                      "text": "守",
+                      "probability": 0.9975705742835999
+                    },
+                    {
+                      "start": 101.27,
+                      "end": 101.61,
+                      "text": "第一",
+                      "probability": 0.9793562293052673
+                    },
+                    {
+                      "start": 101.61,
+                      "end": 101.87,
+                      "text": "條",
+                      "probability": 0.9981204867362976
+                    },
+                    {
+                      "start": 101.87,
+                      "end": 102.13,
+                      "text": "界",
+                      "probability": 0.4105903208255768
+                    },
+                    {
+                      "start": 102.13,
+                      "end": 102.33,
+                      "text": "面",
+                      "probability": 0.818291962146759
+                    }
+                  ]
+                },
+                {
+                  "start": 103.51,
+                  "end": 109.41,
+                  "text": "請讀《四十四篇二十到二十一節》",
+                  "words": [
+                    {
+                      "start": 103.51,
+                      "end": 104.23,
+                      "text": "請",
+                      "probability": 0.9787211418151855
+                    },
+                    {
+                      "start": 104.23,
+                      "end": 104.51,
+                      "text": "讀",
+                      "probability": 0.6974499225616455
+                    },
+                    {
+                      "start": 104.51,
+                      "end": 104.89,
+                      "text": "《",
+                      "probability": 0.047000180929899216
+                    },
+                    {
+                      "start": 104.89,
+                      "end": 106.63,
+                      "text": "四",
+                      "probability": 0.2267034947872162
+                    },
+                    {
+                      "start": 106.63,
+                      "end": 106.85,
+                      "text": "十",
+                      "probability": 0.9572836756706238
+                    },
+                    {
+                      "start": 106.85,
+                      "end": 107.09,
+                      "text": "四",
+                      "probability": 0.8514586687088013
+                    },
+                    {
+                      "start": 107.09,
+                      "end": 107.33,
+                      "text": "篇",
+                      "probability": 0.9509375989437103
+                    },
+                    {
+                      "start": 107.33,
+                      "end": 107.75,
+                      "text": "二",
+                      "probability": 0.39490997791290283
+                    },
+                    {
+                      "start": 107.75,
+                      "end": 107.99,
+                      "text": "十",
+                      "probability": 0.9768548011779785
+                    },
+                    {
+                      "start": 107.99,
+                      "end": 108.11,
+                      "text": "到",
+                      "probability": 0.7766662836074829
+                    },
+                    {
+                      "start": 108.11,
+                      "end": 108.27,
+                      "text": "二",
+                      "probability": 0.997122585773468
+                    },
+                    {
+                      "start": 108.27,
+                      "end": 108.41,
+                      "text": "十",
+                      "probability": 0.9991169571876526
+                    },
+                    {
+                      "start": 108.41,
+                      "end": 108.57,
+                      "text": "一",
+                      "probability": 0.9864316582679749
+                    },
+                    {
+                      "start": 108.57,
+                      "end": 108.79,
+                      "text": "節",
+                      "probability": 0.6654516458511353
+                    },
+                    {
+                      "start": 108.79,
+                      "end": 109.41,
+                      "text": "》",
+                      "probability": 0.9810367822647095
+                    }
+                  ]
+                },
+                {
+                  "start": 109.41,
+                  "end": 111.93,
+                  "text": "倘若我們忘了神的名",
+                  "words": [
+                    {
+                      "start": 109.41,
+                      "end": 110.33,
+                      "text": "倘",
+                      "probability": 0.8715237379074097
+                    },
+                    {
+                      "start": 110.33,
+                      "end": 110.71,
+                      "text": "若",
+                      "probability": 0.9997812211513519
+                    },
+                    {
+                      "start": 110.71,
+                      "end": 111.01,
+                      "text": "我們",
+                      "probability": 0.6958386898040771
+                    },
+                    {
+                      "start": 111.01,
+                      "end": 111.27,
+                      "text": "忘",
+                      "probability": 0.9733611941337585
+                    },
+                    {
+                      "start": 111.27,
+                      "end": 111.47,
+                      "text": "了",
+                      "probability": 0.9948874115943909
+                    },
+                    {
+                      "start": 111.47,
+                      "end": 111.59,
+                      "text": "神",
+                      "probability": 0.9673740267753601
+                    },
+                    {
+                      "start": 111.59,
+                      "end": 111.73,
+                      "text": "的",
+                      "probability": 0.9841561913490295
+                    },
+                    {
+                      "start": 111.73,
+                      "end": 111.93,
+                      "text": "名",
+                      "probability": 0.972012996673584
+                    }
+                  ]
+                },
+                {
+                  "start": 111.93,
+                  "end": 114.11,
+                  "text": "或向別神舉手",
+                  "words": [
+                    {
+                      "start": 111.93,
+                      "end": 112.47,
+                      "text": "或",
+                      "probability": 0.5480484962463379
+                    },
+                    {
+                      "start": 112.47,
+                      "end": 112.77,
+                      "text": "向",
+                      "probability": 0.571431040763855
+                    },
+                    {
+                      "start": 112.77,
+                      "end": 113.17,
+                      "text": "別",
+                      "probability": 0.9577887654304504
+                    },
+                    {
+                      "start": 113.17,
+                      "end": 113.53,
+                      "text": "神",
+                      "probability": 0.9186760187149048
+                    },
+                    {
+                      "start": 113.53,
+                      "end": 113.77,
+                      "text": "舉",
+                      "probability": 0.9912368059158325
+                    },
+                    {
+                      "start": 113.77,
+                      "end": 114.11,
+                      "text": "手",
+                      "probability": 0.9892019033432007
+                    }
+                  ]
+                },
+                {
+                  "start": 114.11,
+                  "end": 117.01,
+                  "text": "神擠不監察這世嗎?",
+                  "words": [
+                    {
+                      "start": 114.11,
+                      "end": 115.09,
+                      "text": "神",
+                      "probability": 0.5882222652435303
+                    },
+                    {
+                      "start": 115.09,
+                      "end": 115.49,
+                      "text": "擠",
+                      "probability": 0.5547720193862915
+                    },
+                    {
+                      "start": 115.49,
+                      "end": 115.63,
+                      "text": "不",
+                      "probability": 0.9966030120849609
+                    },
+                    {
+                      "start": 115.63,
+                      "end": 115.87,
+                      "text": "監",
+                      "probability": 0.8648607730865479
+                    },
+                    {
+                      "start": 115.87,
+                      "end": 116.21,
+                      "text": "察",
+                      "probability": 0.8928588628768921
+                    },
+                    {
+                      "start": 116.21,
+                      "end": 116.43,
+                      "text": "這",
+                      "probability": 0.3745232820510864
+                    },
+                    {
+                      "start": 116.43,
+                      "end": 116.73,
+                      "text": "世",
+                      "probability": 0.6722588539123535
+                    },
+                    {
+                      "start": 116.73,
+                      "end": 117.01,
+                      "text": "嗎?",
+                      "probability": 0.38815754652023315
+                    }
+                  ]
+                },
+                {
+                  "start": 117.77,
+                  "end": 121.13,
+                  "text": "因為他曉得人心裡的隱秘",
+                  "words": [
+                    {
+                      "start": 117.77,
+                      "end": 118.17,
+                      "text": "因為",
+                      "probability": 0.9209482073783875
+                    },
+                    {
+                      "start": 118.17,
+                      "end": 118.75,
+                      "text": "他",
+                      "probability": 0.47011759877204895
+                    },
+                    {
+                      "start": 118.75,
+                      "end": 119.09,
+                      "text": "曉",
+                      "probability": 0.9258916974067688
+                    },
+                    {
+                      "start": 119.09,
+                      "end": 119.39,
+                      "text": "得",
+                      "probability": 0.9969295859336853
+                    },
+                    {
+                      "start": 119.39,
+                      "end": 119.85,
+                      "text": "人",
+                      "probability": 0.980819046497345
+                    },
+                    {
+                      "start": 119.85,
+                      "end": 120.25,
+                      "text": "心",
+                      "probability": 0.9979482293128967
+                    },
+                    {
+                      "start": 120.25,
+                      "end": 120.49,
+                      "text": "裡",
+                      "probability": 0.7892016768455505
+                    },
+                    {
+                      "start": 120.49,
+                      "end": 120.63,
+                      "text": "的",
+                      "probability": 0.9949605464935303
+                    },
+                    {
+                      "start": 120.63,
+                      "end": 120.85,
+                      "text": "隱",
+                      "probability": 0.9955870807170868
+                    },
+                    {
+                      "start": 120.85,
+                      "end": 121.13,
+                      "text": "秘",
+                      "probability": 0.7632644474506378
+                    }
+                  ]
+                }
+              ],
+              "source": "context-reviewed-paragraph-approximation"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.826,
+          "coherentCoverage": 0.804,
+          "extraSpeechContext": false,
+          "prefixCoverage": 1.0,
+          "suffixCoverage": 0.35,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 11,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 101.61,
+      "start": 109.41,
       "end": 121.13,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "诗篇442021倘若我们忘了上帝的名或向别上帝举手上帝岂不鉴察这事吗因为祂晓得人心里的隐秘",
-      "confidence": 0.51
+      "confidence": 0.915,
+      "quality": {
+        "coverage": 0.896,
+        "coherentCoverage": 0.833,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 101.61,
+        "previousEnd": 121.13,
+        "previousConfidence": 0.714
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 104.89,
+            "time": 109.41,
+            "reason": "前段请读提示拥有出处时间，本段从实际经文首句起，不借用提示。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\48-1.mp3.json",
+              "sha256": "90c2572698e5bbda1715fc97e003d90516155d086851637decd584775b76e556",
+              "segments": [
+                {
+                  "start": 98.19,
+                  "end": 102.33,
+                  "text": "這樣的一個人沒有遵守第一條界面",
+                  "words": [
+                    {
+                      "start": 98.19,
+                      "end": 99.13,
+                      "text": "這樣的",
+                      "probability": 0.7801817655563354
+                    },
+                    {
+                      "start": 99.13,
+                      "end": 99.61,
+                      "text": "一個",
+                      "probability": 0.992529571056366
+                    },
+                    {
+                      "start": 99.61,
+                      "end": 99.91,
+                      "text": "人",
+                      "probability": 0.9992325305938721
+                    },
+                    {
+                      "start": 99.91,
+                      "end": 100.53,
+                      "text": "沒有",
+                      "probability": 0.9583403468132019
+                    },
+                    {
+                      "start": 100.53,
+                      "end": 100.93,
+                      "text": "遵",
+                      "probability": 0.9988287389278412
+                    },
+                    {
+                      "start": 100.93,
+                      "end": 101.27,
+                      "text": "守",
+                      "probability": 0.9975705742835999
+                    },
+                    {
+                      "start": 101.27,
+                      "end": 101.61,
+                      "text": "第一",
+                      "probability": 0.9793562293052673
+                    },
+                    {
+                      "start": 101.61,
+                      "end": 101.87,
+                      "text": "條",
+                      "probability": 0.9981204867362976
+                    },
+                    {
+                      "start": 101.87,
+                      "end": 102.13,
+                      "text": "界",
+                      "probability": 0.4105903208255768
+                    },
+                    {
+                      "start": 102.13,
+                      "end": 102.33,
+                      "text": "面",
+                      "probability": 0.818291962146759
+                    }
+                  ]
+                },
+                {
+                  "start": 103.51,
+                  "end": 109.41,
+                  "text": "請讀《四十四篇二十到二十一節》",
+                  "words": [
+                    {
+                      "start": 103.51,
+                      "end": 104.23,
+                      "text": "請",
+                      "probability": 0.9787211418151855
+                    },
+                    {
+                      "start": 104.23,
+                      "end": 104.51,
+                      "text": "讀",
+                      "probability": 0.6974499225616455
+                    },
+                    {
+                      "start": 104.51,
+                      "end": 104.89,
+                      "text": "《",
+                      "probability": 0.047000180929899216
+                    },
+                    {
+                      "start": 104.89,
+                      "end": 106.63,
+                      "text": "四",
+                      "probability": 0.2267034947872162
+                    },
+                    {
+                      "start": 106.63,
+                      "end": 106.85,
+                      "text": "十",
+                      "probability": 0.9572836756706238
+                    },
+                    {
+                      "start": 106.85,
+                      "end": 107.09,
+                      "text": "四",
+                      "probability": 0.8514586687088013
+                    },
+                    {
+                      "start": 107.09,
+                      "end": 107.33,
+                      "text": "篇",
+                      "probability": 0.9509375989437103
+                    },
+                    {
+                      "start": 107.33,
+                      "end": 107.75,
+                      "text": "二",
+                      "probability": 0.39490997791290283
+                    },
+                    {
+                      "start": 107.75,
+                      "end": 107.99,
+                      "text": "十",
+                      "probability": 0.9768548011779785
+                    },
+                    {
+                      "start": 107.99,
+                      "end": 108.11,
+                      "text": "到",
+                      "probability": 0.7766662836074829
+                    },
+                    {
+                      "start": 108.11,
+                      "end": 108.27,
+                      "text": "二",
+                      "probability": 0.997122585773468
+                    },
+                    {
+                      "start": 108.27,
+                      "end": 108.41,
+                      "text": "十",
+                      "probability": 0.9991169571876526
+                    },
+                    {
+                      "start": 108.41,
+                      "end": 108.57,
+                      "text": "一",
+                      "probability": 0.9864316582679749
+                    },
+                    {
+                      "start": 108.57,
+                      "end": 108.79,
+                      "text": "節",
+                      "probability": 0.6654516458511353
+                    },
+                    {
+                      "start": 108.79,
+                      "end": 109.41,
+                      "text": "》",
+                      "probability": 0.9810367822647095
+                    }
+                  ]
+                },
+                {
+                  "start": 109.41,
+                  "end": 111.93,
+                  "text": "倘若我們忘了神的名",
+                  "words": [
+                    {
+                      "start": 109.41,
+                      "end": 110.33,
+                      "text": "倘",
+                      "probability": 0.8715237379074097
+                    },
+                    {
+                      "start": 110.33,
+                      "end": 110.71,
+                      "text": "若",
+                      "probability": 0.9997812211513519
+                    },
+                    {
+                      "start": 110.71,
+                      "end": 111.01,
+                      "text": "我們",
+                      "probability": 0.6958386898040771
+                    },
+                    {
+                      "start": 111.01,
+                      "end": 111.27,
+                      "text": "忘",
+                      "probability": 0.9733611941337585
+                    },
+                    {
+                      "start": 111.27,
+                      "end": 111.47,
+                      "text": "了",
+                      "probability": 0.9948874115943909
+                    },
+                    {
+                      "start": 111.47,
+                      "end": 111.59,
+                      "text": "神",
+                      "probability": 0.9673740267753601
+                    },
+                    {
+                      "start": 111.59,
+                      "end": 111.73,
+                      "text": "的",
+                      "probability": 0.9841561913490295
+                    },
+                    {
+                      "start": 111.73,
+                      "end": 111.93,
+                      "text": "名",
+                      "probability": 0.972012996673584
+                    }
+                  ]
+                },
+                {
+                  "start": 111.93,
+                  "end": 114.11,
+                  "text": "或向別神舉手",
+                  "words": [
+                    {
+                      "start": 111.93,
+                      "end": 112.47,
+                      "text": "或",
+                      "probability": 0.5480484962463379
+                    },
+                    {
+                      "start": 112.47,
+                      "end": 112.77,
+                      "text": "向",
+                      "probability": 0.571431040763855
+                    },
+                    {
+                      "start": 112.77,
+                      "end": 113.17,
+                      "text": "別",
+                      "probability": 0.9577887654304504
+                    },
+                    {
+                      "start": 113.17,
+                      "end": 113.53,
+                      "text": "神",
+                      "probability": 0.9186760187149048
+                    },
+                    {
+                      "start": 113.53,
+                      "end": 113.77,
+                      "text": "舉",
+                      "probability": 0.9912368059158325
+                    },
+                    {
+                      "start": 113.77,
+                      "end": 114.11,
+                      "text": "手",
+                      "probability": 0.9892019033432007
+                    }
+                  ]
+                },
+                {
+                  "start": 114.11,
+                  "end": 117.01,
+                  "text": "神擠不監察這世嗎?",
+                  "words": [
+                    {
+                      "start": 114.11,
+                      "end": 115.09,
+                      "text": "神",
+                      "probability": 0.5882222652435303
+                    },
+                    {
+                      "start": 115.09,
+                      "end": 115.49,
+                      "text": "擠",
+                      "probability": 0.5547720193862915
+                    },
+                    {
+                      "start": 115.49,
+                      "end": 115.63,
+                      "text": "不",
+                      "probability": 0.9966030120849609
+                    },
+                    {
+                      "start": 115.63,
+                      "end": 115.87,
+                      "text": "監",
+                      "probability": 0.8648607730865479
+                    },
+                    {
+                      "start": 115.87,
+                      "end": 116.21,
+                      "text": "察",
+                      "probability": 0.8928588628768921
+                    },
+                    {
+                      "start": 116.21,
+                      "end": 116.43,
+                      "text": "這",
+                      "probability": 0.3745232820510864
+                    },
+                    {
+                      "start": 116.43,
+                      "end": 116.73,
+                      "text": "世",
+                      "probability": 0.6722588539123535
+                    },
+                    {
+                      "start": 116.73,
+                      "end": 117.01,
+                      "text": "嗎?",
+                      "probability": 0.38815754652023315
+                    }
+                  ]
+                },
+                {
+                  "start": 117.77,
+                  "end": 121.13,
+                  "text": "因為他曉得人心裡的隱秘",
+                  "words": [
+                    {
+                      "start": 117.77,
+                      "end": 118.17,
+                      "text": "因為",
+                      "probability": 0.9209482073783875
+                    },
+                    {
+                      "start": 118.17,
+                      "end": 118.75,
+                      "text": "他",
+                      "probability": 0.47011759877204895
+                    },
+                    {
+                      "start": 118.75,
+                      "end": 119.09,
+                      "text": "曉",
+                      "probability": 0.9258916974067688
+                    },
+                    {
+                      "start": 119.09,
+                      "end": 119.39,
+                      "text": "得",
+                      "probability": 0.9969295859336853
+                    },
+                    {
+                      "start": 119.39,
+                      "end": 119.85,
+                      "text": "人",
+                      "probability": 0.980819046497345
+                    },
+                    {
+                      "start": 119.85,
+                      "end": 120.25,
+                      "text": "心",
+                      "probability": 0.9979482293128967
+                    },
+                    {
+                      "start": 120.25,
+                      "end": 120.49,
+                      "text": "裡",
+                      "probability": 0.7892016768455505
+                    },
+                    {
+                      "start": 120.49,
+                      "end": 120.63,
+                      "text": "的",
+                      "probability": 0.9949605464935303
+                    },
+                    {
+                      "start": 120.63,
+                      "end": 120.85,
+                      "text": "隱",
+                      "probability": 0.9955870807170868
+                    },
+                    {
+                      "start": 120.85,
+                      "end": 121.13,
+                      "text": "秘",
+                      "probability": 0.7632644474506378
+                    }
+                  ]
+                }
+              ],
+              "source": "context-reviewed-paragraph-approximation"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.896,
+          "coherentCoverage": 0.833,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.9,
+          "suffixCoverage": 0.85,
+          "unmatchedLeadingChars": 2,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": false,
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v9-explicit-reference-owner-and-numeric-edges",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (11 trailing chars, coverage 0.350): target 4: 有时候，一个人去教会，也行善，不过他这么做，只是为了在人前看起来很好。其实他对上帝根本没有兴趣；",
+    "unverified end anchor: target 4: 有时候，一个人去教会，也行善，不过他这么做，只是为了在人前看起来很好。其实他对上帝根本没有兴趣；",
+    "repair unverified end (previous-sync): target 4"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "2150aa487129cf57eaa5b9e76eff7d132a5e9fa6d046c8ab1f85e184ee21af9d",
+  "repairCueDigest": "2aa7787ff0cb5c530a0c66970d089be8752e0ffba2d8d9d6d1d2d3a8eb50128f",
+  "previousAlignmentWarnings": []
 }

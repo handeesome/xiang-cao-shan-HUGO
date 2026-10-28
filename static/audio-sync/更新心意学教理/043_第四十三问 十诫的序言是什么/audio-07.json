@@ -8,28 +8,307 @@
   "audioDuration": 123.504,
   "cues": [
     {
-      "start": 2.05,
-      "end": 3.85,
-      "kind": "heading",
-      "targetIndex": 22,
-      "targetText": "礼拜六",
-      "confidence": 0.8
-    },
-    {
       "start": 3.85,
-      "end": 65.93,
+      "end": 65.45,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "礼拜四的时候我们在申命记中读到以色列人之所以特别是因为上帝亲近他们比跟任何其它国家都亲近上帝不仅",
-      "confidence": 0.747
+      "confidence": 0.892,
+      "quality": {
+        "coverage": 0.887,
+        "coherentCoverage": 0.872,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 3.85,
+        "previousEnd": 65.93,
+        "previousConfidence": 0.888
+      }
     },
     {
-      "start": 65.93,
+      "start": 65.65,
       "end": 120.02,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "哥林多后书61671上帝的殿和偶像有什么相同呢因为我们是永生上帝的殿就如上帝曾说我要在他们中间居",
-      "confidence": 0.91
+      "confidence": 0.908,
+      "quality": {
+        "coverage": 0.888,
+        "coherentCoverage": 0.852,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.5,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 6,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 65.93,
+        "previousEnd": 120.02,
+        "previousConfidence": 0.91
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 65.93,
+            "time": 65.65,
+            "reason": "正文首尾局部已定位",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\43-6.mp3.json",
+              "sha256": "7a3c7aa83d2b0987ad6659c6195e5c99ebbcadd15d1d5fbee89d220021a0e3a5",
+              "anchor": {
+                "time": 65.65,
+                "score": 0.8903,
+                "ratio": 0.8966,
+                "expected": "yishendedianheouxiangyoushenmexiangtongneyin",
+                "actual": "1节神的殿和偶像有什么相同啊因",
+                "span": [
+                  65.65,
+                  72.85
+                ],
+                "tokens": [
+                  {
+                    "text": "1",
+                    "start": 65.65,
+                    "end": 65.93,
+                    "rawStart": 197,
+                    "rawEnd": 197,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "节",
+                    "start": 65.93,
+                    "end": 66.19,
+                    "rawStart": 198,
+                    "rawEnd": 198,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 67.57,
+                    "end": 68.59,
+                    "rawStart": 199,
+                    "rawEnd": 200,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 68.59,
+                    "end": 68.77,
+                    "rawStart": 201,
+                    "rawEnd": 201,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "殿",
+                    "start": 68.77,
+                    "end": 69.09,
+                    "rawStart": 202,
+                    "rawEnd": 202,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "和",
+                    "start": 69.09,
+                    "end": 69.79,
+                    "rawStart": 203,
+                    "rawEnd": 203,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "偶",
+                    "start": 69.79,
+                    "end": 70.31,
+                    "rawStart": 204,
+                    "rawEnd": 204,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "像",
+                    "start": 70.31,
+                    "end": 70.65,
+                    "rawStart": 205,
+                    "rawEnd": 205,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "有",
+                    "start": 70.65,
+                    "end": 70.97,
+                    "rawStart": 206,
+                    "rawEnd": 206,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "什",
+                    "start": 70.97,
+                    "end": 71.23,
+                    "rawStart": 207,
+                    "rawEnd": 207,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "么",
+                    "start": 70.97,
+                    "end": 71.23,
+                    "rawStart": 208,
+                    "rawEnd": 208,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "相",
+                    "start": 71.23,
+                    "end": 71.43,
+                    "rawStart": 209,
+                    "rawEnd": 209,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "同",
+                    "start": 71.43,
+                    "end": 71.69,
+                    "rawStart": 210,
+                    "rawEnd": 210,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "啊",
+                    "start": 71.69,
+                    "end": 72.05,
+                    "rawStart": 211,
+                    "rawEnd": 211,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "因",
+                    "start": 72.05,
+                    "end": 72.85,
+                    "rawStart": 212,
+                    "rawEnd": 212,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": true,
+                "alternative": {
+                  "time": 68.59,
+                  "score": 0.8315,
+                  "actual": "的殿和偶像有什么相同啊因"
+                }
+              },
+              "body": ":1 神的殿和偶像有什么相同呢?因为我们是永生神的殿,就如神曾说:“我要在他们中间居住,在他们中间来往;我要作他们的神,他们要作我的子民。”又说:“你们务要从他们中间出来,与他们分别,不要沾不洁净的物,我就收纳你们。我要作你们的父,你们要作我的儿女。”这是全能的主说的。亲爱的弟兄啊,我们既有这等应许,就当洁净自己,除去身体、灵魂一切的污秽,敬畏神,得以成圣。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.888,
+          "coherentCoverage": 0.852,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.5,
+          "suffixCoverage": 0.9,
+          "unmatchedLeadingChars": 6,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (6 leading chars, coverage 0.500): target 24: 哥林多后书6:16-7:1 神的殿和偶像有什么相同呢？因为我们是永生神的殿，就如神曾说：“我要在",
+    "unverified start anchor: target 24: 哥林多后书6:16-7:1 神的殿和偶像有什么相同呢？因为我们是永生神的殿，就如神曾说：“我要在",
+    "repair unverified start (previous-sync): target 24"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "42ca8bfb608f630f65c01bb88531910fb581697dc35d3fa5d25ddc6fcabc1823",
+  "repairCueDigest": "0bd80cc599b673f5d6516572847d958466e30a42b9ad7dde94d9747a0486aaae",
+  "previousAlignmentWarnings": []
 }

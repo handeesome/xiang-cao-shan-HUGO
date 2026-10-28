@@ -8,28 +8,417 @@
   "audioDuration": 111.6153125,
   "cues": [
     {
-      "start": 1.78,
-      "end": 2.36,
-      "kind": "heading",
-      "targetIndex": 6,
-      "targetText": "礼拜二",
-      "confidence": 0.8
-    },
-    {
       "start": 2.36,
-      "end": 35.52,
+      "end": 36.48,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "你还记得第二十问的回答吗上帝任凭全人类都在罪恶和悲惨状况中沉沦吗回答的开头是上帝全然根据自己的美",
-      "confidence": 0.696
+      "confidence": 0.882,
+      "quality": {
+        "coverage": 0.853,
+        "coherentCoverage": 0.844,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.55,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 9,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "source": "context-reviewed-read-prompt-ending",
+          "contextUsed": true,
+          "identityAmbiguous": false,
+          "continuousAnchor": false,
+          "timingPrecision": "word",
+          "time": 36.48,
+          "expectedPhrase": "在万古之先，拣选了一些人得永生。”在他们尚未出生之前，甚至在亚当还没有犯罪之前，上帝就计划要救赎祂的百姓。请读以弗所书1:11。",
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\29-2.mp3.json",
+          "transcriptSha256": "b0f2039f36982200da0ecf2d3d3668ac3e6772e7296e57be5c6c46ddb148e41e",
+          "audioSha256": "266bedee73eb508ff07fa9141418b46f7d735d00ecc257689265f546ea340409",
+          "rawSegments": [
+            {
+              "start": 33.92,
+              "end": 36.48,
+              "text": "请读义父所书一章十一节",
+              "words": [
+                {
+                  "start": 33.92,
+                  "end": 34.48,
+                  "text": "请",
+                  "probability": 0.7828255891799927
+                },
+                {
+                  "start": 34.48,
+                  "end": 34.74,
+                  "text": "读",
+                  "probability": 0.9790513813495636
+                },
+                {
+                  "start": 34.74,
+                  "end": 34.96,
+                  "text": "义",
+                  "probability": 0.40450412034988403
+                },
+                {
+                  "start": 34.96,
+                  "end": 35.08,
+                  "text": "父",
+                  "probability": 0.9239838123321533
+                },
+                {
+                  "start": 35.08,
+                  "end": 35.3,
+                  "text": "所",
+                  "probability": 0.9849408268928528
+                },
+                {
+                  "start": 35.3,
+                  "end": 35.52,
+                  "text": "书",
+                  "probability": 0.9397571086883545
+                },
+                {
+                  "start": 35.52,
+                  "end": 35.74,
+                  "text": "一",
+                  "probability": 0.3015182316303253
+                },
+                {
+                  "start": 35.74,
+                  "end": 35.9,
+                  "text": "章",
+                  "probability": 0.9339492619037628
+                },
+                {
+                  "start": 35.9,
+                  "end": 36.1,
+                  "text": "十",
+                  "probability": 0.9392820596694946
+                },
+                {
+                  "start": 36.1,
+                  "end": 36.26,
+                  "text": "一",
+                  "probability": 0.9873566627502441
+                },
+                {
+                  "start": 36.26,
+                  "end": 36.48,
+                  "text": "节",
+                  "probability": 0.9821765422821045
+                }
+              ]
+            }
+          ],
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+          "listenedByAgent": false
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "next-verified-start",
+        "previousStart": 2.36,
+        "previousEnd": 35.52,
+        "previousConfidence": 0.899
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "029_第二十九问 我们如何得享基督买赎的救恩.md",
+          "audio": "29-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\029_第二十九问 我们如何得享基督买赎的救恩\\audio-02.json",
+          "caseIndex": 543,
+          "targetIndex": 7,
+          "edge": "end",
+          "previousTime": 35.08,
+          "time": 36.48,
+          "kind": "verified-edge",
+          "previousEvidence": {
+            "verified": false,
+            "source": "next-verified-start"
+          },
+          "previousVerified": false,
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。"
+        }
+      ]
     },
     {
-      "start": 35.52,
-      "end": 50.27,
+      "start": 37.44,
+      "end": 48.7,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "以弗所书111我们也在祂里面得了基业这原是那位随己意行做万事的照着祂旨意所预定的",
-      "confidence": 0.769
+      "confidence": 0.951,
+      "quality": {
+        "coverage": 0.929,
+        "coherentCoverage": 0.929,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "localSupported": false,
+          "source": "previous-verified-end",
+          "time": 36.48,
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "referenceOwnershipConstraint": {
+          "ownerTargetIndex": 7,
+          "ownerTargetText": "你还记得第二十问的回答吗上帝任凭全人类都在罪恶和悲惨状况中沉沦吗回答的开头是上帝全然根据自己的美",
+          "notBefore": 36.48,
+          "verifiedSpokenOnset": false
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 35.52,
+        "previousEnd": 48.7,
+        "previousConfidence": 0.821
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "029_第二十九问 我们如何得享基督买赎的救恩.md",
+          "audio": "29-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\029_第二十九问 我们如何得享基督买赎的救恩\\audio-02.json",
+          "caseIndex": 543,
+          "targetIndex": 8,
+          "edge": "start",
+          "previousTime": 35.08,
+          "time": 36.48,
+          "kind": "unverified-neighbor-constraint",
+          "previousVerified": true,
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 36.48,
+            "time": 37.44,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\29-2.mp3.json",
+              "sha256": "3727996d83bc53fc48f5659cbc1e128ca9683acb47155d7542acd8bf47d0c2b3",
+              "anchor": {
+                "time": 37.44,
+                "score": 0.999,
+                "ratio": 1.0,
+                "expected": "womenyezaitalimiandelejiyezheyuanshi",
+                "actual": "我们也在他里面得了积业这原是",
+                "span": [
+                  37.44,
+                  42.58
+                ],
+                "tokens": [
+                  {
+                    "text": "我",
+                    "start": 37.44,
+                    "end": 38.0,
+                    "rawStart": 112,
+                    "rawEnd": 112,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 37.44,
+                    "end": 38.0,
+                    "rawStart": 113,
+                    "rawEnd": 113,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "也",
+                    "start": 38.0,
+                    "end": 38.32,
+                    "rawStart": 114,
+                    "rawEnd": 114,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "在",
+                    "start": 38.32,
+                    "end": 38.6,
+                    "rawStart": 115,
+                    "rawEnd": 115,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "他",
+                    "start": 38.6,
+                    "end": 38.86,
+                    "rawStart": 116,
+                    "rawEnd": 116,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "里",
+                    "start": 38.86,
+                    "end": 39.06,
+                    "rawStart": 117,
+                    "rawEnd": 117,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "面",
+                    "start": 39.06,
+                    "end": 39.58,
+                    "rawStart": 118,
+                    "rawEnd": 118,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "得",
+                    "start": 39.58,
+                    "end": 39.76,
+                    "rawStart": 119,
+                    "rawEnd": 119,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "了",
+                    "start": 39.76,
+                    "end": 39.96,
+                    "rawStart": 120,
+                    "rawEnd": 120,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "积",
+                    "start": 39.96,
+                    "end": 40.24,
+                    "rawStart": 121,
+                    "rawEnd": 121,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "业",
+                    "start": 40.24,
+                    "end": 40.9,
+                    "rawStart": 122,
+                    "rawEnd": 122,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "这",
+                    "start": 40.9,
+                    "end": 41.6,
+                    "rawStart": 123,
+                    "rawEnd": 123,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "原",
+                    "start": 41.6,
+                    "end": 42.26,
+                    "rawStart": 124,
+                    "rawEnd": 124,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 42.26,
+                    "end": 42.58,
+                    "rawStart": 125,
+                    "rawEnd": 125,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "我们也在祂里面得了基业,这原是那位随己意行做万事的,照着祂旨意所预定的。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.929,
+          "coherentCoverage": 0.929,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.85,
+          "suffixCoverage": 1.0,
+          "unmatchedLeadingChars": 2,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "localSupported": false,
+            "source": "previous-verified-end",
+            "time": 36.48,
+            "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "referenceOwnershipConstraint": {
+            "ownerTargetIndex": 7,
+            "ownerTargetText": "你还记得第二十问的回答吗上帝任凭全人类都在罪恶和悲惨状况中沉沦吗回答的开头是上帝全然根据自己的美",
+            "notBefore": 36.48,
+            "verifiedSpokenOnset": false
+          }
+        }
+      }
     },
     {
       "start": 50.27,
@@ -37,7 +426,205 @@
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "无论上帝计划什么祂都成就照着祂的计划丝毫不差那些蒙上帝拣选的人一个也不会在罪恶和悲惨中沉沦许多人",
-      "confidence": 0.863
+      "confidence": 0.886,
+      "quality": {
+        "coverage": 0.878,
+        "coherentCoverage": 0.818,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 50.27,
+        "previousEnd": 110.43,
+        "previousConfidence": 0.885
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 110.43,
+            "time": 110.43,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\29-2.mp3.json",
+              "sha256": "3727996d83bc53fc48f5659cbc1e128ca9683acb47155d7542acd8bf47d0c2b3",
+              "anchor": {
+                "time": 110.43,
+                "score": 0.8829,
+                "ratio": 0.8889,
+                "expected": "xierendexinzhongdonggongjiaotamenxinkaojidu",
+                "actual": "些人的心中动工叫他们姓基督",
+                "span": [
+                  106.81,
+                  110.43
+                ],
+                "tokens": [
+                  {
+                    "text": "些",
+                    "start": 106.81,
+                    "end": 106.99,
+                    "rawStart": 310,
+                    "rawEnd": 310,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 106.99,
+                    "end": 107.13,
+                    "rawStart": 311,
+                    "rawEnd": 311,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 107.13,
+                    "end": 107.25,
+                    "rawStart": 312,
+                    "rawEnd": 312,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "心",
+                    "start": 107.25,
+                    "end": 107.43,
+                    "rawStart": 313,
+                    "rawEnd": 313,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "中",
+                    "start": 107.43,
+                    "end": 107.67,
+                    "rawStart": 314,
+                    "rawEnd": 314,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "动",
+                    "start": 107.67,
+                    "end": 107.87,
+                    "rawStart": 315,
+                    "rawEnd": 315,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "工",
+                    "start": 107.87,
+                    "end": 108.23,
+                    "rawStart": 316,
+                    "rawEnd": 316,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "叫",
+                    "start": 108.23,
+                    "end": 108.85,
+                    "rawStart": 317,
+                    "rawEnd": 317,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "他",
+                    "start": 108.85,
+                    "end": 109.27,
+                    "rawStart": 318,
+                    "rawEnd": 318,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 108.85,
+                    "end": 109.27,
+                    "rawStart": 319,
+                    "rawEnd": 319,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "姓",
+                    "start": 109.27,
+                    "end": 109.89,
+                    "rawStart": 320,
+                    "rawEnd": 320,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "基",
+                    "start": 109.89,
+                    "end": 110.19,
+                    "rawStart": 321,
+                    "rawEnd": 321,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "督",
+                    "start": 110.19,
+                    "end": 110.43,
+                    "rawStart": 322,
+                    "rawEnd": 322,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "无论上帝计划什么,祂都成就,照着祂的计划丝毫不差。那些蒙上帝拣选的人,一个也不会在罪恶和悲惨中沉沦。许多人似乎以为,耶稣死在十字架上,只是使人有可能得救。他们以为,耶稣正等着看谁会相信祂,盼望着有人相信祂。圣经教导我们,上帝拣选的每一个人都会信耶稣、得拯救。圣灵保证上帝所有的选民都将信靠耶稣作他们的救主。圣父上帝拣选要拯救的人;圣子上帝受死救赎这些人;圣灵上帝在那些人的心中动工,叫他们信靠基督。"
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (9 trailing chars, coverage 0.550): target 7: 你还记得第二十问的回答吗？上帝任凭全人类都在罪恶和悲惨状况中沉沦吗？回答的开头是“上帝全然根据自",
+    "unverified end anchor: target 7: 你还记得第二十问的回答吗？上帝任凭全人类都在罪恶和悲惨状况中沉沦吗？回答的开头是“上帝全然根据自",
+    "unverified end anchor: target 9: 无论上帝计划什么，祂都成就，照着祂的计划丝毫不差。那些蒙上帝拣选的人，一个也不会在罪恶和悲惨中沉",
+    "repair unverified end (next-verified-start): target 7",
+    "repair unverified end (previous-sync): target 9",
+    "context reviewed end: target 7; 前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+    "unverified constrained start: target 8; 旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "4a012978113fa63238392bf8edf0a5e6760c00d954dba7006d433a2898eae059",
+  "repairCueDigest": "a84675176087a39d104de7f1e9cb0fbb933919a9efa657ce886b7f9444a19eea",
+  "previousAlignmentWarnings": []
 }

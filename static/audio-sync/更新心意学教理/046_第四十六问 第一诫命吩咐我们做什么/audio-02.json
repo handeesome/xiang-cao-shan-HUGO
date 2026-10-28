@@ -8,28 +8,267 @@
   "audioDuration": 136.056,
   "cues": [
     {
-      "start": 2.3,
-      "end": 2.8,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "礼拜一",
-      "confidence": 0.8
-    },
-    {
       "start": 2.8,
-      "end": 101.28,
+      "end": 104.88,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "你还记得要理问答的第一问吗人的主要目的是什么人的主要目的是荣耀上帝以祂为乐直到永远上帝设计我们的",
-      "confidence": 0.86
+      "confidence": 0.963,
+      "quality": {
+        "coverage": 0.96,
+        "coherentCoverage": 0.95,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 2.8,
+        "previousEnd": 101.28,
+        "previousConfidence": 0.956
+      }
     },
     {
-      "start": 101.28,
+      "start": 104.88,
       "end": 134.92,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "耶利米书92324耶和华如此说智慧人不要因他的智慧夸口勇士不要因他的勇力夸口财主不要因他的财物夸",
-      "confidence": 0.853
+      "confidence": 0.89,
+      "quality": {
+        "coverage": 0.825,
+        "coherentCoverage": 0.825,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.3,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 14,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "discarded detached start matches"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "previous-verified-sync",
+        "previousStart": 101.28,
+        "previousEnd": 134.92,
+        "previousConfidence": 0.853
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 104.88,
+            "time": 104.88,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\46-1.mp3.json",
+              "sha256": "d66eb98cb904226dd8f66647d319b57c0954cf76d4008e8a8d383789750b0ce8",
+              "anchor": {
+                "time": 104.88,
+                "score": 0.9286,
+                "ratio": 0.9286,
+                "expected": "yehehuarucishuozhihuirenbuyaoyintade",
+                "actual": "耶稣华如此说智慧人不要因他的",
+                "span": [
+                  104.88,
+                  109.5
+                ],
+                "tokens": [
+                  {
+                    "text": "耶",
+                    "start": 104.88,
+                    "end": 106.04,
+                    "rawStart": 301,
+                    "rawEnd": 301,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "稣",
+                    "start": 106.04,
+                    "end": 106.2,
+                    "rawStart": 302,
+                    "rawEnd": 302,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "华",
+                    "start": 106.2,
+                    "end": 106.34,
+                    "rawStart": 303,
+                    "rawEnd": 303,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "如",
+                    "start": 106.34,
+                    "end": 106.72,
+                    "rawStart": 304,
+                    "rawEnd": 304,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "此",
+                    "start": 106.34,
+                    "end": 106.72,
+                    "rawStart": 305,
+                    "rawEnd": 305,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "说",
+                    "start": 106.72,
+                    "end": 107.18,
+                    "rawStart": 306,
+                    "rawEnd": 306,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "智",
+                    "start": 107.18,
+                    "end": 108.06,
+                    "rawStart": 307,
+                    "rawEnd": 307,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "慧",
+                    "start": 108.06,
+                    "end": 108.32,
+                    "rawStart": 308,
+                    "rawEnd": 308,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 108.32,
+                    "end": 108.62,
+                    "rawStart": 309,
+                    "rawEnd": 309,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "不",
+                    "start": 108.62,
+                    "end": 108.96,
+                    "rawStart": 310,
+                    "rawEnd": 310,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "要",
+                    "start": 108.62,
+                    "end": 108.96,
+                    "rawStart": 311,
+                    "rawEnd": 311,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "因",
+                    "start": 108.96,
+                    "end": 109.26,
+                    "rawStart": 312,
+                    "rawEnd": 312,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "他",
+                    "start": 109.26,
+                    "end": 109.5,
+                    "rawStart": 313,
+                    "rawEnd": 313,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 109.26,
+                    "end": 109.5,
+                    "rawStart": 314,
+                    "rawEnd": 314,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "耶和华如此说:“智慧人不要因他的智慧夸口,勇士不要因他的勇力夸口,财主不要因他的财物夸口。夸口的却因他有聪明,认识我是耶和华,又知道我喜悦在世上施行慈爱、公平和公义,以此夸口。”这是耶和华说的。"
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v8-rendered-list-and-empty-paragraph-indices",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (14 leading chars, coverage 0.300): target 4: 耶利米书9:23-24 耶和华如此说：“智慧人不要因他的智慧夸口，勇士不要因他的勇力夸口，财主不",
+    "unverified start anchor: target 4: 耶利米书9:23-24 耶和华如此说：“智慧人不要因他的智慧夸口，勇士不要因他的勇力夸口，财主不",
+    "repair unverified start (previous-verified-end): target 4"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "20d73a714dcd372fd4565917373b996adb2aba0b9396ce2adc0eadeb3dc84755",
+  "repairCueDigest": "4d1f3b772338839b8a6fad3c68a71dc99e34350e864fae8d6dd1882cdae78c73",
+  "previousAlignmentWarnings": []
 }

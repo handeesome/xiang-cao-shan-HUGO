@@ -8,28 +8,281 @@
   "audioDuration": 97.8024375,
   "cues": [
     {
-      "start": 1.75,
-      "end": 2.25,
-      "kind": "heading",
-      "targetIndex": 6,
-      "targetText": "礼拜二",
-      "confidence": 0.8
-    },
-    {
       "start": 2.25,
-      "end": 64.43,
+      "end": 66.87,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "每个人都应该知道上帝告诉我们祂的名字这是祂多么慈爱的作为啊尤其是祂把祂的名告诉我们这样我们可以用",
-      "confidence": 0.759
+      "confidence": 0.981,
+      "quality": {
+        "coverage": 0.981,
+        "coherentCoverage": 0.981,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 2.25,
+        "previousEnd": 64.43,
+        "previousConfidence": 0.958
+      }
     },
     {
-      "start": 64.43,
-      "end": 89.37,
+      "start": 68.37,
+      "end": 88.67,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "启示录1689第四位天使把碗倒在日头上叫日头能用火烤人人被大热所烤就亵渎那有权掌管这些灾的上帝之",
-      "confidence": 0.699
+      "confidence": 0.835,
+      "quality": {
+        "coverage": 0.762,
+        "coherentCoverage": 0.762,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.5,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 10,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "previous-verified-sync",
+        "previousStart": 64.43,
+        "previousEnd": 88.67,
+        "previousConfidence": 0.823
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 66.87,
+            "time": 68.37,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\56-2.mp3.json",
+              "sha256": "7002e6a6a45d29cd947700a779dc6bc0fe626470457d5b9dff20884f6fab9da1",
+              "anchor": {
+                "time": 68.37,
+                "score": 0.9985,
+                "ratio": 1.0,
+                "expected": "disiweitianshibawandaozairitoushangjiaori",
+                "actual": "第4位天使把碗倒在日头上叫日",
+                "span": [
+                  68.37,
+                  73.61
+                ],
+                "tokens": [
+                  {
+                    "text": "第",
+                    "start": 68.37,
+                    "end": 68.77,
+                    "rawStart": 212,
+                    "rawEnd": 212,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "4",
+                    "start": 68.77,
+                    "end": 69.23,
+                    "rawStart": 213,
+                    "rawEnd": 213,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "位",
+                    "start": 69.23,
+                    "end": 69.43,
+                    "rawStart": 214,
+                    "rawEnd": 214,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "天",
+                    "start": 69.43,
+                    "end": 69.71,
+                    "rawStart": 215,
+                    "rawEnd": 215,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "使",
+                    "start": 69.71,
+                    "end": 70.03,
+                    "rawStart": 216,
+                    "rawEnd": 216,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "把",
+                    "start": 70.47,
+                    "end": 70.65,
+                    "rawStart": 217,
+                    "rawEnd": 217,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "碗",
+                    "start": 70.65,
+                    "end": 71.13,
+                    "rawStart": 218,
+                    "rawEnd": 218,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "倒",
+                    "start": 71.13,
+                    "end": 71.47,
+                    "rawStart": 219,
+                    "rawEnd": 219,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "在",
+                    "start": 71.47,
+                    "end": 71.73,
+                    "rawStart": 220,
+                    "rawEnd": 220,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "日",
+                    "start": 71.73,
+                    "end": 71.95,
+                    "rawStart": 221,
+                    "rawEnd": 221,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "头",
+                    "start": 71.95,
+                    "end": 72.19,
+                    "rawStart": 222,
+                    "rawEnd": 222,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "上",
+                    "start": 72.19,
+                    "end": 72.49,
+                    "rawStart": 223,
+                    "rawEnd": 223,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "叫",
+                    "start": 72.95,
+                    "end": 73.21,
+                    "rawStart": 224,
+                    "rawEnd": 224,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "日",
+                    "start": 73.21,
+                    "end": 73.61,
+                    "rawStart": 225,
+                    "rawEnd": 225,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 66.23,
+                  "score": 0.8846,
+                  "actual": "到9节第4位天使把碗倒在日头上叫日"
+                }
+              },
+              "body": "第四位天使把碗倒在日头上,叫日头能用火烤人。人被大热所烤,就亵渎那有权掌管这些灾的神之名,并不悔改将荣耀归给神。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.762,
+          "coherentCoverage": 0.762,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.5,
+          "suffixCoverage": 0.9,
+          "unmatchedLeadingChars": 10,
+          "unmatchedTrailingChars": 2,
+          "reviewRequired": true,
+          "boundaryAdjusted": [
+            "end substitution"
+          ],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-verified-end"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     },
     {
       "start": 89.37,
@@ -37,7 +290,73 @@
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "这些人越是顽梗不悔改上帝就为他们积蓄更重的审判",
-      "confidence": 0.826
+      "confidence": 0.826,
+      "quality": {
+        "coverage": 0.826,
+        "coherentCoverage": 0.826,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.818,
+        "suffixCoverage": 0.818,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 89.37,
+        "previousEnd": 96.85,
+        "previousConfidence": 0.826
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (10 leading chars, coverage 0.500): target 8: 启示录16:8-9 第四位天使把碗倒在日头上，叫日头能用火烤人。人被大热所烤，就亵渎那有权掌管这",
+    "unverified start anchor: target 8: 启示录16:8-9 第四位天使把碗倒在日头上，叫日头能用火烤人。人被大热所烤，就亵渎那有权掌管这",
+    "repair unverified start (previous-verified-end): target 8"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "56fe303d6994a7fc97e5d8d29ee2c8b620fdb57083a9133ffe4173d70c445145",
+  "repairCueDigest": "9256b454b15c64f04999207c56ab5e793c1d6ff7aaf9a0e3798954933e199e25",
+  "previousAlignmentWarnings": []
 }

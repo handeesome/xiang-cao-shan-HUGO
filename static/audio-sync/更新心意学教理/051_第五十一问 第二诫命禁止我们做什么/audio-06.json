@@ -8,28 +8,108 @@
   "audioDuration": 110.256,
   "cues": [
     {
-      "start": 1.86,
-      "end": 3.6,
-      "kind": "heading",
-      "targetIndex": 22,
-      "targetText": "礼拜五",
-      "confidence": 0.8
-    },
-    {
       "start": 3.6,
-      "end": 40.84,
+      "end": 43.74,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "耶稣曾对一些不顾上帝吩咐只要自己想法的人讲话上帝吩咐成年的儿女要孝敬年长的父母供给他们的需要耶稣",
-      "confidence": 0.922
+      "confidence": 0.941,
+      "quality": {
+        "coverage": 0.945,
+        "coherentCoverage": 0.913,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 3.6,
+        "previousEnd": 40.84,
+        "previousConfidence": 0.922
+      }
     },
     {
-      "start": 40.84,
-      "end": 71.82,
+      "start": 43.74,
+      "end": 70.4,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "马太福音15389耶稣回答说你们为什么因着你们的遗传犯上帝的诫命呢这百姓用嘴唇尊敬我心却远离我他",
-      "confidence": 0.624
+      "confidence": 0.826,
+      "quality": {
+        "coverage": 0.877,
+        "coherentCoverage": 0.822,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 40.84,
+        "previousEnd": 70.4,
+        "previousConfidence": 0.726
+      }
     },
     {
       "start": 71.82,
@@ -37,7 +117,208 @@
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "今天在敬拜中也往往看到上帝在圣经中未曾吩咐的事情同时敬拜中又往往缺少了上帝吩咐我们聚集要做的事情",
-      "confidence": 0.907
+      "confidence": 0.925,
+      "quality": {
+        "coverage": 0.921,
+        "coherentCoverage": 0.904,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 71.82,
+        "previousEnd": 109.12,
+        "previousConfidence": 0.925
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 109.12,
+            "time": 109.12,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\51-5.mp3.json",
+              "sha256": "790ebad6d12dd592b5757a1fddf520e2f4d67b65bd23d5e485da2ba16907065b",
+              "anchor": {
+                "time": 109.12,
+                "score": 0.9286,
+                "ratio": 0.9286,
+                "expected": "youjiazhizheyangdejingbaibushizaizunchongshen",
+                "actual": "有价值这样的敬拜不是在遵从神",
+                "span": [
+                  103.28,
+                  109.12
+                ],
+                "tokens": [
+                  {
+                    "text": "有",
+                    "start": 103.28,
+                    "end": 103.68,
+                    "rawStart": 311,
+                    "rawEnd": 311,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "价",
+                    "start": 103.68,
+                    "end": 104.06,
+                    "rawStart": 312,
+                    "rawEnd": 312,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "值",
+                    "start": 104.06,
+                    "end": 104.32,
+                    "rawStart": 313,
+                    "rawEnd": 313,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "这",
+                    "start": 104.32,
+                    "end": 105.26,
+                    "rawStart": 314,
+                    "rawEnd": 314,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "样",
+                    "start": 104.32,
+                    "end": 105.26,
+                    "rawStart": 315,
+                    "rawEnd": 315,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 105.26,
+                    "end": 105.42,
+                    "rawStart": 316,
+                    "rawEnd": 316,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "敬",
+                    "start": 105.42,
+                    "end": 105.6,
+                    "rawStart": 317,
+                    "rawEnd": 317,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "拜",
+                    "start": 105.6,
+                    "end": 105.92,
+                    "rawStart": 318,
+                    "rawEnd": 318,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "不",
+                    "start": 105.92,
+                    "end": 106.74,
+                    "rawStart": 319,
+                    "rawEnd": 319,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 105.92,
+                    "end": 106.74,
+                    "rawStart": 320,
+                    "rawEnd": 320,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "在",
+                    "start": 106.74,
+                    "end": 107.46,
+                    "rawStart": 321,
+                    "rawEnd": 321,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "遵",
+                    "start": 107.46,
+                    "end": 108.1,
+                    "rawStart": 322,
+                    "rawEnd": 322,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "从",
+                    "start": 108.1,
+                    "end": 108.52,
+                    "rawStart": 323,
+                    "rawEnd": 323,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 108.52,
+                    "end": 109.12,
+                    "rawStart": 324,
+                    "rawEnd": 325,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "今天,在敬拜中也往往看到上帝在圣经中未曾吩咐的事情。同时,敬拜中又往往缺少了上帝吩咐我们聚集要做的事情。为什么会这样?是因为教会把上帝的吩咐放在一边,倒去做那些人以为美的事情。耶稣说这样的敬拜也是枉然。这样的敬拜没有价值。这样的敬拜不是在尊崇上帝。"
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 25: 今天，在敬拜中也往往看到上帝在圣经中未曾吩咐的事情。同时，敬拜中又往往缺少了上帝吩咐我们聚集要做",
+    "repair unverified end (previous-sync): target 25"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "031aa1e99f567beef7f2373f7a24a3f8c8b57a3d31ed88133b43d6f086232adb",
+  "repairCueDigest": "d383927ee97818c981b99be77e24cf01fbbd9a44862e96ef744c2dce0d5ae8e6",
+  "previousAlignmentWarnings": []
 }

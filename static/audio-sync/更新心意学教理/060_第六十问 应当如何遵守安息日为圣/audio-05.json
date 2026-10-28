@@ -8,28 +8,247 @@
   "audioDuration": 82.338,
   "cues": [
     {
-      "start": 2.01,
-      "end": 3.33,
-      "kind": "heading",
-      "targetIndex": 11,
-      "targetText": "礼拜四",
-      "confidence": 0.8
-    },
-    {
       "start": 3.33,
       "end": 59.01,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "主日去教会的另一个原因是我们属于上帝也属于祂的百姓无论在旧约新约上帝都把祂的百姓看成一个群体祂想",
-      "confidence": 0.73
+      "confidence": 0.908,
+      "quality": {
+        "coverage": 0.918,
+        "coherentCoverage": 0.907,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 3.33,
+        "previousEnd": 59.01,
+        "previousConfidence": 0.73
+      }
     },
     {
       "start": 59.01,
-      "end": 74.09,
+      "end": 73.19,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "使徒行传207七日的第一日我们聚会掰饼的时候保罗因为要次日起行就与他们讲论直讲到半夜",
-      "confidence": 0.791
+      "confidence": 0.791,
+      "quality": {
+        "coverage": 0.81,
+        "coherentCoverage": 0.786,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 59.01,
+        "previousEnd": 74.09,
+        "previousConfidence": 0.791
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 59.01,
+            "time": 59.01,
+            "reason": "正文起句已定位，保留原先读出处范围",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\60-4.mp3.json",
+              "sha256": "98228d9cf27c41d25d05dd18d15b7226c80e613349a49164d06c218d5e073906",
+              "anchor": {
+                "time": 61.93,
+                "score": 0.9971,
+                "ratio": 1.0,
+                "expected": "qiridediyiriwomenjuhuibaibingdeshi",
+                "actual": "7日的第1日我们聚会掰饼的时",
+                "span": [
+                  61.93,
+                  66.45
+                ],
+                "tokens": [
+                  {
+                    "text": "7",
+                    "start": 61.93,
+                    "end": 62.95,
+                    "rawStart": 208,
+                    "rawEnd": 208,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "日",
+                    "start": 62.95,
+                    "end": 63.23,
+                    "rawStart": 209,
+                    "rawEnd": 209,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 63.23,
+                    "end": 63.37,
+                    "rawStart": 210,
+                    "rawEnd": 210,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "第",
+                    "start": 63.37,
+                    "end": 63.63,
+                    "rawStart": 211,
+                    "rawEnd": 211,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 63.37,
+                    "end": 63.63,
+                    "rawStart": 212,
+                    "rawEnd": 212,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "日",
+                    "start": 63.63,
+                    "end": 63.97,
+                    "rawStart": 213,
+                    "rawEnd": 213,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 63.97,
+                    "end": 64.65,
+                    "rawStart": 214,
+                    "rawEnd": 214,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 63.97,
+                    "end": 64.65,
+                    "rawStart": 215,
+                    "rawEnd": 215,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "聚",
+                    "start": 64.65,
+                    "end": 64.99,
+                    "rawStart": 216,
+                    "rawEnd": 216,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "会",
+                    "start": 64.99,
+                    "end": 65.37,
+                    "rawStart": 217,
+                    "rawEnd": 217,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "掰",
+                    "start": 65.37,
+                    "end": 65.73,
+                    "rawStart": 218,
+                    "rawEnd": 218,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "饼",
+                    "start": 65.73,
+                    "end": 65.97,
+                    "rawStart": 219,
+                    "rawEnd": 219,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 65.97,
+                    "end": 66.45,
+                    "rawStart": 220,
+                    "rawEnd": 220,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "时",
+                    "start": 65.97,
+                    "end": 66.45,
+                    "rawStart": 221,
+                    "rawEnd": 221,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "七日的第一日,我们聚会掰饼的时候,保罗因为要次日起行,就与他们讲论,直讲到半夜。",
+              "retainedCitationInterval": [
+                59.01,
+                61.93
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "start": 74.09,
@@ -37,7 +256,464 @@
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "根据这节经文描述我们敬拜的时候常常做哪两样事",
-      "confidence": 0.909
+      "confidence": 0.909,
+      "quality": {
+        "coverage": 0.909,
+        "coherentCoverage": 0.727,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.909,
+        "suffixCoverage": 0.909,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\60-4.mp3.json",
+          "transcriptSha256": "81d2c597e4bdfac88c27db7a8167b3c25f10885723fad21b3a7d20fe5751fedf",
+          "verified": true,
+          "time": 74.09,
+          "expectedPhrase": "根据这节经文描述，我们敬拜的时候常常做哪两样事？",
+          "actualPhrase": "根据这些经文描述我们敬拜",
+          "edgeAnchor": "根据这节经文描述我们敬拜",
+          "evidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": false,
+            "substitutionAnchor": true,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 0.909,
+            "localSimilarity": 0.909,
+            "localText": "根据这节经文描述我们敬拜的时候常常做哪2样事",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false
+          },
+          "window": [
+            62.09,
+            82.338
+          ],
+          "segments": [
+            {
+              "start": 61.93,
+              "end": 63.97,
+              "text": "七日的第一日",
+              "words": [
+                {
+                  "start": 61.93,
+                  "end": 62.95,
+                  "text": "七",
+                  "probability": 0.8033478260040283
+                },
+                {
+                  "start": 62.95,
+                  "end": 63.23,
+                  "text": "日",
+                  "probability": 0.9861365556716919
+                },
+                {
+                  "start": 63.23,
+                  "end": 63.37,
+                  "text": "的",
+                  "probability": 0.9708201289176941
+                },
+                {
+                  "start": 63.37,
+                  "end": 63.63,
+                  "text": "第一",
+                  "probability": 0.99403977394104
+                },
+                {
+                  "start": 63.63,
+                  "end": 63.97,
+                  "text": "日",
+                  "probability": 0.9725281596183777
+                }
+              ]
+            },
+            {
+              "start": 63.97,
+              "end": 66.45,
+              "text": "我们聚会掰饼的时候",
+              "words": [
+                {
+                  "start": 63.97,
+                  "end": 64.65,
+                  "text": "我们",
+                  "probability": 0.9079345464706421
+                },
+                {
+                  "start": 64.65,
+                  "end": 64.99,
+                  "text": "聚",
+                  "probability": 0.9984679222106934
+                },
+                {
+                  "start": 64.99,
+                  "end": 65.37,
+                  "text": "会",
+                  "probability": 0.999175488948822
+                },
+                {
+                  "start": 65.37,
+                  "end": 65.73,
+                  "text": "掰",
+                  "probability": 0.700901985168457
+                },
+                {
+                  "start": 65.73,
+                  "end": 65.97,
+                  "text": "饼",
+                  "probability": 0.7790375649929047
+                },
+                {
+                  "start": 65.97,
+                  "end": 66.45,
+                  "text": "的时候",
+                  "probability": 0.9753494262695312
+                }
+              ]
+            },
+            {
+              "start": 67.19,
+              "end": 69.91,
+              "text": "保罗因为要四日起行",
+              "words": [
+                {
+                  "start": 67.19,
+                  "end": 67.49,
+                  "text": "保",
+                  "probability": 0.3782767653465271
+                },
+                {
+                  "start": 67.49,
+                  "end": 67.79,
+                  "text": "罗",
+                  "probability": 0.9887776672840118
+                },
+                {
+                  "start": 67.79,
+                  "end": 68.33,
+                  "text": "因为",
+                  "probability": 0.9658419489860535
+                },
+                {
+                  "start": 68.33,
+                  "end": 68.67,
+                  "text": "要",
+                  "probability": 0.9828002452850342
+                },
+                {
+                  "start": 68.67,
+                  "end": 69.09,
+                  "text": "四",
+                  "probability": 0.6890703439712524
+                },
+                {
+                  "start": 69.09,
+                  "end": 69.29,
+                  "text": "日",
+                  "probability": 0.9905099272727966
+                },
+                {
+                  "start": 69.29,
+                  "end": 69.53,
+                  "text": "起",
+                  "probability": 0.7511085867881775
+                },
+                {
+                  "start": 69.53,
+                  "end": 69.91,
+                  "text": "行",
+                  "probability": 0.9901764988899231
+                }
+              ]
+            },
+            {
+              "start": 69.91,
+              "end": 71.35,
+              "text": "就与他们讲论",
+              "words": [
+                {
+                  "start": 69.91,
+                  "end": 70.43,
+                  "text": "就",
+                  "probability": 0.9895231127738953
+                },
+                {
+                  "start": 70.43,
+                  "end": 70.57,
+                  "text": "与",
+                  "probability": 0.9875887334346771
+                },
+                {
+                  "start": 70.57,
+                  "end": 70.79,
+                  "text": "他们",
+                  "probability": 0.9511873722076416
+                },
+                {
+                  "start": 70.79,
+                  "end": 71.09,
+                  "text": "讲",
+                  "probability": 0.9908608198165894
+                },
+                {
+                  "start": 71.09,
+                  "end": 71.35,
+                  "text": "论",
+                  "probability": 0.9947130382061005
+                }
+              ]
+            },
+            {
+              "start": 71.35,
+              "end": 73.19,
+              "text": "只讲到半夜",
+              "words": [
+                {
+                  "start": 71.35,
+                  "end": 71.95,
+                  "text": "只",
+                  "probability": 0.6545389890670776
+                },
+                {
+                  "start": 71.95,
+                  "end": 72.31,
+                  "text": "讲",
+                  "probability": 0.9923408031463623
+                },
+                {
+                  "start": 72.31,
+                  "end": 72.53,
+                  "text": "到",
+                  "probability": 0.9687225222587585
+                },
+                {
+                  "start": 72.53,
+                  "end": 72.83,
+                  "text": "半",
+                  "probability": 0.9961304664611816
+                },
+                {
+                  "start": 72.83,
+                  "end": 73.19,
+                  "text": "夜",
+                  "probability": 0.99379563331604
+                }
+              ]
+            },
+            {
+              "start": 74.09,
+              "end": 75.87,
+              "text": "根据这些经文描述",
+              "words": [
+                {
+                  "start": 74.09,
+                  "end": 74.39,
+                  "text": "根",
+                  "probability": 0.9857863187789917
+                },
+                {
+                  "start": 74.39,
+                  "end": 74.57,
+                  "text": "据",
+                  "probability": 0.9985085427761078
+                },
+                {
+                  "start": 74.57,
+                  "end": 74.79,
+                  "text": "这",
+                  "probability": 0.9835700392723083
+                },
+                {
+                  "start": 74.79,
+                  "end": 74.89,
+                  "text": "些",
+                  "probability": 0.4916536808013916
+                },
+                {
+                  "start": 74.89,
+                  "end": 75.05,
+                  "text": "经",
+                  "probability": 0.923641562461853
+                },
+                {
+                  "start": 75.05,
+                  "end": 75.27,
+                  "text": "文",
+                  "probability": 0.9806564450263977
+                },
+                {
+                  "start": 75.27,
+                  "end": 75.55,
+                  "text": "描",
+                  "probability": 0.8726218044757843
+                },
+                {
+                  "start": 75.55,
+                  "end": 75.87,
+                  "text": "述",
+                  "probability": 0.999931812286377
+                }
+              ]
+            },
+            {
+              "start": 75.87,
+              "end": 77.39,
+              "text": "我们敬拜的时候",
+              "words": [
+                {
+                  "start": 75.87,
+                  "end": 76.55,
+                  "text": "我们",
+                  "probability": 0.9600202441215515
+                },
+                {
+                  "start": 76.55,
+                  "end": 76.81,
+                  "text": "敬",
+                  "probability": 0.8616444170475006
+                },
+                {
+                  "start": 76.81,
+                  "end": 77.03,
+                  "text": "拜",
+                  "probability": 0.9977636337280273
+                },
+                {
+                  "start": 77.03,
+                  "end": 77.39,
+                  "text": "的时候",
+                  "probability": 0.9867380857467651
+                }
+              ]
+            },
+            {
+              "start": 77.39,
+              "end": 80.23,
+              "text": "常常做哪两件事",
+              "words": [
+                {
+                  "start": 77.39,
+                  "end": 78.09,
+                  "text": "常",
+                  "probability": 0.4517284035682678
+                },
+                {
+                  "start": 78.09,
+                  "end": 78.51,
+                  "text": "常",
+                  "probability": 0.9955077171325684
+                },
+                {
+                  "start": 78.51,
+                  "end": 78.91,
+                  "text": "做",
+                  "probability": 0.9551308751106262
+                },
+                {
+                  "start": 78.91,
+                  "end": 79.35,
+                  "text": "哪",
+                  "probability": 0.7579320669174194
+                },
+                {
+                  "start": 79.35,
+                  "end": 79.65,
+                  "text": "两",
+                  "probability": 0.9595864415168762
+                },
+                {
+                  "start": 79.65,
+                  "end": 79.89,
+                  "text": "件",
+                  "probability": 0.9956203103065491
+                },
+                {
+                  "start": 79.89,
+                  "end": 80.23,
+                  "text": "事",
+                  "probability": 0.9998307228088379
+                }
+              ]
+            }
+          ],
+          "source": "true-edge-local-anchor-review",
+          "listenedByAgent": false,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "reason": "真正首尾文字锚点及词时间确认；局部单字识别差异不要求全文逐字相同。",
+          "audioSha256": "ee60d791a76df73d0d562bdf55d21ccf3ec851bd4addee30bd98edfe3b71c05a"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 74.09,
+        "previousEnd": 80.23,
+        "previousConfidence": 0.909
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "060_第六十问 应当如何遵守安息日为圣.md",
+          "audio": "60-4.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\060_第六十问 应当如何遵守安息日为圣\\audio-05.json",
+          "targetIndex": 14,
+          "edge": "start",
+          "previousTime": 74.09,
+          "time": 74.09,
+          "kind": "local-edge-confirmation",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "真正首尾文字锚点及词时间确认；局部单字识别差异不要求全文逐字相同。"
+        }
+      ]
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 13: 使徒行传20:7 七日的第一日，我们聚会掰饼的时候，保罗因为要次日起行，就与他们讲论，直讲到半夜",
+    "unverified start anchor: target 14: 根据这节经文描述，我们敬拜的时候常常做哪两样事？",
+    "repair unverified start (previous-sync): target 13",
+    "repair unverified start (previous-sync): target 14",
+    "local context confirmed start: target 14; 真正首尾文字锚点及词时间确认；局部单字识别差异不要求全文逐字相同。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "015e64189f3afee34a7fcd00871adff75e99693a95dcef3e6e3925e5da854e06",
+  "repairCueDigest": "4ebc5682cad4b67814488438c8e678b848d34ed2cdd29ab81d1b4ec7e8cf9128",
+  "previousAlignmentWarnings": []
 }

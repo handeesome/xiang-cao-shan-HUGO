@@ -8,36 +8,443 @@
   "audioDuration": 1797.592375,
   "cues": [
     {
-      "start": 24.97,
-      "end": 28.27,
-      "kind": "heading",
-      "targetIndex": 41,
-      "targetText": "心灵学的崛起",
-      "confidence": 1.0
-    },
-    {
       "start": 28.27,
-      "end": 57.95,
+      "end": 57.01,
       "kind": "paragraph",
       "targetIndex": 42,
       "targetText": "慕安德烈博士说道人们魂不正常的活动不正常地运用心思和意志的能力乃是最大的危险现今这种危险更是千百",
-      "confidence": 0.76
+      "confidence": 0.951,
+      "quality": {
+        "coverage": 0.951,
+        "coherentCoverage": 0.931,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\魂与灵\\6-2.mp3.json",
+          "transcriptSha256": "8a1c79313b151190347cfa5cb560b5a69317667803a8c122b62d8bc2e3a164d8",
+          "phraseChars": 12,
+          "candidate": 28.27,
+          "expectedPhrase": "慕安德烈博士说道人们魂不",
+          "actualPhrase": "穆安德利博士说道人们魂不",
+          "phoneticPhrase": [
+            "mu",
+            "an",
+            "de",
+            "lie",
+            "bo",
+            "shi",
+            "shuo",
+            "dao",
+            "ren",
+            "men",
+            "hun",
+            "bu"
+          ],
+          "actualPhoneticPhrase": [
+            "mu",
+            "an",
+            "de",
+            "li",
+            "bo",
+            "shi",
+            "shuo",
+            "dao",
+            "ren",
+            "men",
+            "hun",
+            "bu"
+          ],
+          "verified": true,
+          "time": 28.27,
+          "boundedPhonetic": true,
+          "exactEndpointPhonemes": 2,
+          "maxInternalPhoneticDifferences": 2,
+          "phoneticDifferences": [
+            3
+          ],
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "穆",
+              "start": 28.27,
+              "end": 28.83,
+              "rawStart": 60,
+              "rawEnd": 60,
+              "precision": "word"
+            },
+            {
+              "text": "安",
+              "start": 28.83,
+              "end": 28.99,
+              "rawStart": 61,
+              "rawEnd": 61,
+              "precision": "word"
+            },
+            {
+              "text": "德",
+              "start": 28.99,
+              "end": 29.17,
+              "rawStart": 62,
+              "rawEnd": 62,
+              "precision": "word"
+            },
+            {
+              "text": "利",
+              "start": 29.17,
+              "end": 29.25,
+              "rawStart": 63,
+              "rawEnd": 63,
+              "precision": "word"
+            },
+            {
+              "text": "博",
+              "start": 29.25,
+              "end": 29.43,
+              "rawStart": 64,
+              "rawEnd": 64,
+              "precision": "word"
+            },
+            {
+              "text": "士",
+              "start": 29.43,
+              "end": 29.69,
+              "rawStart": 65,
+              "rawEnd": 65,
+              "precision": "word"
+            },
+            {
+              "text": "说",
+              "start": 29.69,
+              "end": 29.93,
+              "rawStart": 66,
+              "rawEnd": 66,
+              "precision": "word"
+            },
+            {
+              "text": "道",
+              "start": 29.93,
+              "end": 30.23,
+              "rawStart": 67,
+              "rawEnd": 67,
+              "precision": "word"
+            },
+            {
+              "text": "人",
+              "start": 30.23,
+              "end": 30.93,
+              "rawStart": 68,
+              "rawEnd": 68,
+              "precision": "word"
+            },
+            {
+              "text": "们",
+              "start": 30.93,
+              "end": 31.11,
+              "rawStart": 69,
+              "rawEnd": 69,
+              "precision": "word"
+            },
+            {
+              "text": "魂",
+              "start": 31.11,
+              "end": 31.49,
+              "rawStart": 70,
+              "rawEnd": 70,
+              "precision": "word"
+            },
+            {
+              "text": "不",
+              "start": 31.49,
+              "end": 31.93,
+              "rawStart": 71,
+              "rawEnd": 71,
+              "precision": "word"
+            }
+          ],
+          "source": "bounded-local-phonetic-differences-original-word-times",
+          "listenedByAgent": false,
+          "audioSha256": "47930c9914f2d2c485299d546e57925918c454f29df3a393c7e61bafc011ec15",
+          "reason": "实际首/尾2个音节贴边相同，12音节局部短句最多2处内部识别差异；完整词边界、源段及录音唯一性、数字一致、停顿与相邻时间均核验，不逐字检查正文中间。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 28.27,
+        "previousEnd": 57.01,
+        "previousConfidence": 0.951
+      },
+      "boundaryCorrections": [
+        {
+          "book": "魂与灵",
+          "page": "06_「魂的能力」与「灵的能力」.md",
+          "audio": "6-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\魂与灵\\06_「魂的能力」与「灵的能力」\\audio-02.json",
+          "targetIndex": 42,
+          "edge": "start",
+          "previousTime": 28.27,
+          "time": 28.27,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
       "start": 57.95,
-      "end": 88.11,
+      "end": 86.31,
       "kind": "paragraph",
       "targetIndex": 43,
       "targetText": "那些愿意随从灵成为上帝圣灵流通渠道的基督徒其危险乃是由于他的无知他可能运用魂的能力在上帝的工作上",
-      "confidence": 0.98
+      "confidence": 0.98,
+      "quality": {
+        "coverage": 0.98,
+        "coherentCoverage": 0.98,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 57.95,
+        "previousEnd": 86.31,
+        "previousConfidence": 0.98
+      }
     },
     {
       "start": 88.11,
-      "end": 108.99,
+      "end": 107.57,
       "kind": "paragraph",
       "targetIndex": 44,
       "targetText": "现在让我们尽力简要地来看有关魂的能力这个题目再没有别人比麦哈迪太太mrsmchardie论述得更",
-      "confidence": 0.795
+      "confidence": 0.795,
+      "quality": {
+        "coverage": 0.674,
+        "coherentCoverage": 0.674,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.1,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 18,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 88.11,
+        "previousEnd": 108.99,
+        "previousConfidence": 0.795
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 108.99,
+            "time": 107.57,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\魂与灵\\6-2.mp3.json",
+              "sha256": "a72fda53c5c3087453b482274a4b53884bfbb098e1d2d152f934c341f1d898f7",
+              "anchor": {
+                "time": 107.57,
+                "score": 0.9986,
+                "ratio": 1.0,
+                "expected": "shishifeichangyougongxiande",
+                "actual": "时是非常有贡献的",
+                "span": [
+                  105.69,
+                  107.57
+                ],
+                "tokens": [
+                  {
+                    "text": "时",
+                    "start": 105.69,
+                    "end": 105.95,
+                    "rawStart": 320,
+                    "rawEnd": 320,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 105.95,
+                    "end": 106.15,
+                    "rawStart": 321,
+                    "rawEnd": 321,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "非",
+                    "start": 106.15,
+                    "end": 106.57,
+                    "rawStart": 322,
+                    "rawEnd": 322,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "常",
+                    "start": 106.15,
+                    "end": 106.57,
+                    "rawStart": 323,
+                    "rawEnd": 323,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "有",
+                    "start": 106.57,
+                    "end": 106.83,
+                    "rawStart": 324,
+                    "rawEnd": 324,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "贡",
+                    "start": 106.83,
+                    "end": 107.03,
+                    "rawStart": 325,
+                    "rawEnd": 325,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "献",
+                    "start": 107.03,
+                    "end": 107.31,
+                    "rawStart": 326,
+                    "rawEnd": 326,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 107.31,
+                    "end": 107.57,
+                    "rawStart": 327,
+                    "rawEnd": 327,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 109.71,
+                  "score": 0.8762,
+                  "actual": "时是非常有贡献的在这"
+                },
+                "phraseSize": 8,
+                "matchingText": "现在,让我们尽力简要地来看有关「魂的能力」这个题目。再没有别人比麦哈迪太太论述得更详细,但是这些有价值的书已经绝版了;这些书在当时是非常有贡献的。",
+                "normalization": "parenthetical-or-number-label-removed"
+              },
+              "body": "现在,让我们尽力简要地来看有关「魂的能力」这个题目。再没有别人比麦哈迪太太(Mrs.McHardie)论述得更详细,但是这些有价值的书已经绝版了;这些书在当时是非常有贡献的(宾氏从麦哈迪太太的著作中得到许多亮光)。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.674,
+          "coherentCoverage": 0.674,
+          "extraSpeechContext": false,
+          "prefixCoverage": 1.0,
+          "suffixCoverage": 0.1,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 18,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
       "start": 108.99,
@@ -45,247 +452,4301 @@
       "kind": "paragraph",
       "targetIndex": 45,
       "targetText": "在这世代的末后日子有一个明显的征兆就是创世记这卷书遭魔鬼激烈的反对它正努力地想推翻创世记这卷书的",
-      "confidence": 0.743
+      "confidence": 0.88,
+      "quality": {
+        "coverage": 0.88,
+        "coherentCoverage": 0.868,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 108.99,
+        "previousEnd": 158.19,
+        "previousConfidence": 0.88
+      }
     },
     {
       "start": 158.19,
-      "end": 174.07,
+      "end": 173.39,
       "kind": "list-item",
       "targetIndex": 46,
       "targetText": "一魂原是上帝放在无罪的亚当里面为的是要与上帝有交通且遵行上帝的旨意但如今却被引用到灵魂学的研究范",
-      "confidence": 0.939
+      "confidence": 0.959,
+      "quality": {
+        "coverage": 0.959,
+        "coherentCoverage": 0.918,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 158.19,
+        "previousEnd": 173.39,
+        "previousConfidence": 0.959
+      }
     },
     {
       "start": 174.07,
-      "end": 189.27,
-      "kind": "list-item",
-      "targetIndex": 47,
-      "targetText": "二那试探者知道在无罪的亚当里的潜能它企图把这些能力置于它的控制下而非在上帝的管理下所以它在伊甸园",
-      "confidence": 0.769
-    },
-    {
-      "start": 189.27,
-      "end": 207.53,
+      "end": 189.67,
       "kind": "list-item",
       "targetIndex": 48,
+      "targetText": "二那试探者知道在无罪的亚当里的潜能它企图把这些能力置于它的控制下而非在上帝的管理下所以它在伊甸园",
+      "confidence": 0.865,
+      "quality": {
+        "coverage": 0.849,
+        "coherentCoverage": 0.774,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "source": "existing-small-transcript-local-phrase",
+          "model": ".audio-sync-cache\\models\\small",
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\魂与灵\\6-2.mp3.json",
+          "transcriptSha256": "a72fda53c5c3087453b482274a4b53884bfbb098e1d2d152f934c341f1d898f7",
+          "audioSha256": null,
+          "audioDuration": 1797.592375,
+          "syncAudioDuration": 1797.592375,
+          "audioDurationMatch": true,
+          "fullFileTranscribed": false,
+          "newDownloads": 0,
+          "listenedByAgent": false,
+          "timingPrecision": "word",
+          "localSupported": true,
+          "contextUsed": true,
+          "verificationMethod": "bounded-local-12-syllable",
+          "verified": true,
+          "candidateTime": 189.67,
+          "expectedPhrase": "所以它在伊甸园试探了夏娃",
+          "actualPhrase": "所以他在异电源试探了下蛙",
+          "wordTokens": [
+            {
+              "text": "所",
+              "start": 186.65,
+              "end": 187.11,
+              "rawStart": 585,
+              "rawEnd": 585,
+              "precision": "word"
+            },
+            {
+              "text": "以",
+              "start": 186.65,
+              "end": 187.11,
+              "rawStart": 586,
+              "rawEnd": 586,
+              "precision": "word"
+            },
+            {
+              "text": "他",
+              "start": 187.11,
+              "end": 187.51,
+              "rawStart": 587,
+              "rawEnd": 587,
+              "precision": "word"
+            },
+            {
+              "text": "在",
+              "start": 187.51,
+              "end": 187.67,
+              "rawStart": 588,
+              "rawEnd": 588,
+              "precision": "word"
+            },
+            {
+              "text": "异",
+              "start": 187.67,
+              "end": 187.87,
+              "rawStart": 589,
+              "rawEnd": 589,
+              "precision": "word"
+            },
+            {
+              "text": "电",
+              "start": 187.87,
+              "end": 188.07,
+              "rawStart": 590,
+              "rawEnd": 590,
+              "precision": "word"
+            },
+            {
+              "text": "源",
+              "start": 188.07,
+              "end": 188.41,
+              "rawStart": 591,
+              "rawEnd": 591,
+              "precision": "word"
+            },
+            {
+              "text": "试",
+              "start": 188.41,
+              "end": 188.83,
+              "rawStart": 592,
+              "rawEnd": 592,
+              "precision": "word"
+            },
+            {
+              "text": "探",
+              "start": 188.83,
+              "end": 189.07,
+              "rawStart": 593,
+              "rawEnd": 593,
+              "precision": "word"
+            },
+            {
+              "text": "了",
+              "start": 189.07,
+              "end": 189.27,
+              "rawStart": 594,
+              "rawEnd": 594,
+              "precision": "word"
+            },
+            {
+              "text": "下",
+              "start": 189.27,
+              "end": 189.45,
+              "rawStart": 595,
+              "rawEnd": 595,
+              "precision": "word"
+            },
+            {
+              "text": "蛙",
+              "start": 189.45,
+              "end": 189.67,
+              "rawStart": 596,
+              "rawEnd": 596,
+              "precision": "word"
+            }
+          ],
+          "reason": "12音节局部短句的首尾音节与正文边界一致，内部识别差异不超过算法限值；短句在该段正文中唯一，未与其他段落混淆。录音与时间稿时长完全一致。 录音文件未在工作区，故无可核对的音频 SHA-256。"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 174.07,
+        "previousEnd": 189.27,
+        "previousConfidence": 0.865
+      },
+      "boundaryCorrections": [
+        {
+          "book": "魂与灵",
+          "page": "06_「魂的能力」与「灵的能力」.md",
+          "audio": "6-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\魂与灵\\06_「魂的能力」与「灵的能力」\\audio-02.json",
+          "targetIndex": 48,
+          "edge": "end",
+          "previousTime": 189.27,
+          "time": 189.67,
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "kind": "local-phrase-boundary-correction",
+          "proof": {
+            "source": "existing-small-transcript-local-phrase",
+            "model": ".audio-sync-cache\\models\\small",
+            "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\魂与灵\\6-2.mp3.json",
+            "transcriptSha256": "a72fda53c5c3087453b482274a4b53884bfbb098e1d2d152f934c341f1d898f7",
+            "audioSha256": null,
+            "audioDuration": 1797.592375,
+            "syncAudioDuration": 1797.592375,
+            "audioDurationMatch": true,
+            "fullFileTranscribed": false,
+            "newDownloads": 0,
+            "listenedByAgent": false,
+            "timingPrecision": "word",
+            "localSupported": true,
+            "contextUsed": true,
+            "verificationMethod": "bounded-local-12-syllable",
+            "verified": true,
+            "candidateTime": 189.67,
+            "expectedPhrase": "所以它在伊甸园试探了夏娃",
+            "actualPhrase": "所以他在异电源试探了下蛙",
+            "wordTokens": [
+              {
+                "text": "所",
+                "start": 186.65,
+                "end": 187.11,
+                "rawStart": 585,
+                "rawEnd": 585,
+                "precision": "word"
+              },
+              {
+                "text": "以",
+                "start": 186.65,
+                "end": 187.11,
+                "rawStart": 586,
+                "rawEnd": 586,
+                "precision": "word"
+              },
+              {
+                "text": "他",
+                "start": 187.11,
+                "end": 187.51,
+                "rawStart": 587,
+                "rawEnd": 587,
+                "precision": "word"
+              },
+              {
+                "text": "在",
+                "start": 187.51,
+                "end": 187.67,
+                "rawStart": 588,
+                "rawEnd": 588,
+                "precision": "word"
+              },
+              {
+                "text": "异",
+                "start": 187.67,
+                "end": 187.87,
+                "rawStart": 589,
+                "rawEnd": 589,
+                "precision": "word"
+              },
+              {
+                "text": "电",
+                "start": 187.87,
+                "end": 188.07,
+                "rawStart": 590,
+                "rawEnd": 590,
+                "precision": "word"
+              },
+              {
+                "text": "源",
+                "start": 188.07,
+                "end": 188.41,
+                "rawStart": 591,
+                "rawEnd": 591,
+                "precision": "word"
+              },
+              {
+                "text": "试",
+                "start": 188.41,
+                "end": 188.83,
+                "rawStart": 592,
+                "rawEnd": 592,
+                "precision": "word"
+              },
+              {
+                "text": "探",
+                "start": 188.83,
+                "end": 189.07,
+                "rawStart": 593,
+                "rawEnd": 593,
+                "precision": "word"
+              },
+              {
+                "text": "了",
+                "start": 189.07,
+                "end": 189.27,
+                "rawStart": 594,
+                "rawEnd": 594,
+                "precision": "word"
+              },
+              {
+                "text": "下",
+                "start": 189.27,
+                "end": 189.45,
+                "rawStart": 595,
+                "rawEnd": 595,
+                "precision": "word"
+              },
+              {
+                "text": "蛙",
+                "start": 189.45,
+                "end": 189.67,
+                "rawStart": 596,
+                "rawEnd": 596,
+                "precision": "word"
+              }
+            ],
+            "reason": "12音节局部短句的首尾音节与正文边界一致，内部识别差异不超过算法限值；短句在该段正文中唯一，未与其他段落混淆。录音与时间稿时长完全一致。 录音文件未在工作区，故无可核对的音频 SHA-256。"
+          },
+          "reason": "12音节局部短句的首尾音节与正文边界一致，内部识别差异不超过算法限值；短句在该段正文中唯一，未与其他段落混淆。录音与时间稿时长完全一致。 录音文件未在工作区，故无可核对的音频 SHA-256。"
+        }
+      ]
+    },
+    {
+      "start": 192.17,
+      "end": 206.25,
+      "kind": "list-item",
+      "targetIndex": 50,
       "targetText": "三亚当堕落后在灵里与上帝有了极大的分隔他所有的潜能与他一同堕落了而且这些潜能是落在那试探者的控制",
-      "confidence": 0.66
+      "confidence": 0.938,
+      "quality": {
+        "coverage": 0.939,
+        "coherentCoverage": 0.918,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 192.17,
+        "previousEnd": 206.25,
+        "previousConfidence": 0.938
+      }
     },
     {
       "start": 207.53,
-      "end": 251.25,
+      "end": 250.19,
       "kind": "paragraph",
-      "targetIndex": 49,
+      "targetIndex": 52,
       "targetText": "在前文我们提到撒但最大的计谋其主要策略是掳掠1科学家2商人3宗教家这是经由一个邪灵控制下所指示的",
-      "confidence": 0.826
+      "confidence": 0.913,
+      "quality": {
+        "coverage": 0.913,
+        "coherentCoverage": 0.855,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 207.53,
+        "previousEnd": 250.19,
+        "previousConfidence": 0.913
+      }
     },
     {
-      "start": 251.25,
-      "end": 328.57,
+      "start": 252.55,
+      "end": 325.67,
       "kind": "paragraph",
-      "targetIndex": 50,
+      "targetIndex": 53,
       "targetText": "从降灵术的历史上我们知道第一次的进展是由安东麦斯摩antonmesmer于一七七八年所发现即请灵",
-      "confidence": 0.797
+      "confidence": 0.885,
+      "quality": {
+        "coverage": 0.865,
+        "coherentCoverage": 0.832,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 251.25,
+        "previousEnd": 325.67,
+        "previousConfidence": 0.885
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 251.25,
+            "time": 252.55,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\魂与灵\\6-2.mp3.json",
+              "sha256": "a72fda53c5c3087453b482274a4b53884bfbb098e1d2d152f934c341f1d898f7",
+              "anchor": {
+                "time": 252.55,
+                "score": 0.8607,
+                "ratio": 0.88,
+                "expected": "congjianglingshudelishishangwomenzhidaodiyi",
+                "actual": "树的历史上我们知道第1",
+                "span": [
+                  252.55,
+                  255.19
+                ],
+                "tokens": [
+                  {
+                    "text": "树",
+                    "start": 252.55,
+                    "end": 252.81,
+                    "rawStart": 787,
+                    "rawEnd": 787,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 252.81,
+                    "end": 252.99,
+                    "rawStart": 788,
+                    "rawEnd": 788,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "历",
+                    "start": 252.99,
+                    "end": 253.13,
+                    "rawStart": 789,
+                    "rawEnd": 789,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "史",
+                    "start": 253.13,
+                    "end": 253.33,
+                    "rawStart": 790,
+                    "rawEnd": 790,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "上",
+                    "start": 253.33,
+                    "end": 253.57,
+                    "rawStart": 791,
+                    "rawEnd": 791,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 253.57,
+                    "end": 253.83,
+                    "rawStart": 792,
+                    "rawEnd": 792,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 253.57,
+                    "end": 253.83,
+                    "rawStart": 793,
+                    "rawEnd": 793,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "知",
+                    "start": 253.83,
+                    "end": 254.19,
+                    "rawStart": 794,
+                    "rawEnd": 794,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "道",
+                    "start": 253.83,
+                    "end": 254.19,
+                    "rawStart": 795,
+                    "rawEnd": 795,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "第",
+                    "start": 254.83,
+                    "end": 255.19,
+                    "rawStart": 796,
+                    "rawEnd": 796,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 254.83,
+                    "end": 255.19,
+                    "rawStart": 797,
+                    "rawEnd": 797,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": true,
+                "alternative": {
+                  "time": 249.91,
+                  "score": 0.8202,
+                  "actual": "中从祥林树的历史上我们知道第1"
+                }
+              },
+              "body": "从降灵术的历史上我们知道,第一次的进展是由安东麦斯摩(Anton Mesmer)于一七七八年所发现,即请灵能进入与人交通(这并非指那些经过长期与艰难训练的行家,如前文所指出的回教高僧)。这种知识就是现代人所说的「催眠术」。在麦斯摩以后,我们看见他们的一些同道有更多其他的「发现」,而他们所带出的一些现象简直是令人无法相信。但是,麦斯摩认为这是研究人的科学,所以极力呼吁科学界对这「自然的现象」加以研究,他宣称他的「发现」是当代「最伟大的科学明证」。这样,撒但掳掠科学家的计划就得逞了。因为心灵研究者已承认降灵术是「所有心智科学(包括基督教科学会)的基石」。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.865,
+          "coherentCoverage": 0.832,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.85,
+          "suffixCoverage": 0.8,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     },
     {
       "start": 328.57,
-      "end": 454.98,
+      "end": 453.98,
       "kind": "paragraph",
-      "targetIndex": 51,
+      "targetIndex": 54,
       "targetText": "在麦斯摩获得人们里面潜伏上帝秘能力的基本知识之后他的同道也跟着有一连串的发现当人们找到了钥匙之后",
-      "confidence": 0.865
+      "confidence": 0.945,
+      "quality": {
+        "coverage": 0.944,
+        "coherentCoverage": 0.937,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 328.57,
+        "previousEnd": 453.98,
+        "previousConfidence": 0.945
+      }
     },
     {
       "start": 454.98,
-      "end": 476.58,
+      "end": 475.2,
       "kind": "paragraph",
-      "targetIndex": 52,
+      "targetIndex": 55,
       "targetText": "刚开始时科学家只是追随这些发现把它视为自然科学的分支并没有想把它与灵媒的现象牵连在一起而且他们在",
-      "confidence": 0.929
+      "confidence": 0.929,
+      "quality": {
+        "coverage": 0.929,
+        "coherentCoverage": 0.829,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\魂与灵\\6-2.mp3.json",
+          "transcriptSha256": "8a1c79313b151190347cfa5cb560b5a69317667803a8c122b62d8bc2e3a164d8",
+          "verified": true,
+          "time": 475.2,
+          "expectedPhrase": "与灵媒的现象牵连在一起，而且他们在一切的教导及理论上都是小心翼翼地避开诸灵的事。",
+          "actualPhrase": "是小心翼翼的避开朱灵的事",
+          "edgeAnchor": "是小心翼翼地避开诸灵的事",
+          "evidence": {
+            "verified": false,
+            "coverage": 0.833,
+            "continuousAnchor": false,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 0.917,
+            "localSimilarity": 0.917,
+            "localText": "们在1切的教导及理论上都是小心翼翼地避开诸灵的事",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false
+          },
+          "window": [
+            464.58,
+            488.58
+          ],
+          "segments": [
+            {
+              "start": 464.32,
+              "end": 475.2,
+              "text": "与灵媚的现象牵连在一起,而且他们在一切的教导及理论上都是小心翼翼的避开朱灵的事。",
+              "words": [
+                {
+                  "start": 464.32,
+                  "end": 464.84,
+                  "text": "与",
+                  "probability": 0.9736193418502808
+                },
+                {
+                  "start": 464.84,
+                  "end": 465.2,
+                  "text": "灵",
+                  "probability": 0.8941730260848999
+                },
+                {
+                  "start": 465.2,
+                  "end": 465.44,
+                  "text": "媚",
+                  "probability": 0.5990343689918518
+                },
+                {
+                  "start": 465.44,
+                  "end": 465.6,
+                  "text": "的",
+                  "probability": 0.986885666847229
+                },
+                {
+                  "start": 465.6,
+                  "end": 465.82,
+                  "text": "现",
+                  "probability": 0.9685915112495422
+                },
+                {
+                  "start": 465.82,
+                  "end": 466.16,
+                  "text": "象",
+                  "probability": 0.9929438233375549
+                },
+                {
+                  "start": 466.16,
+                  "end": 466.5,
+                  "text": "牵",
+                  "probability": 0.7322956770658493
+                },
+                {
+                  "start": 466.5,
+                  "end": 466.74,
+                  "text": "连",
+                  "probability": 0.9935800135135651
+                },
+                {
+                  "start": 466.74,
+                  "end": 466.94,
+                  "text": "在",
+                  "probability": 0.9945238828659058
+                },
+                {
+                  "start": 466.94,
+                  "end": 467.34,
+                  "text": "一起,",
+                  "probability": 0.9997009038925171
+                },
+                {
+                  "start": 468.16,
+                  "end": 468.54,
+                  "text": "而且",
+                  "probability": 0.9931014776229858
+                },
+                {
+                  "start": 468.54,
+                  "end": 468.96,
+                  "text": "他们",
+                  "probability": 0.9649387001991272
+                },
+                {
+                  "start": 468.96,
+                  "end": 469.18,
+                  "text": "在",
+                  "probability": 0.9870191812515259
+                },
+                {
+                  "start": 469.18,
+                  "end": 469.46,
+                  "text": "一",
+                  "probability": 0.9293314218521118
+                },
+                {
+                  "start": 469.46,
+                  "end": 469.62,
+                  "text": "切",
+                  "probability": 0.9819023609161377
+                },
+                {
+                  "start": 469.62,
+                  "end": 469.76,
+                  "text": "的",
+                  "probability": 0.8208030462265015
+                },
+                {
+                  "start": 469.76,
+                  "end": 470.0,
+                  "text": "教",
+                  "probability": 0.8290628790855408
+                },
+                {
+                  "start": 470.0,
+                  "end": 470.26,
+                  "text": "导",
+                  "probability": 0.9475910067558289
+                },
+                {
+                  "start": 470.26,
+                  "end": 470.86,
+                  "text": "及",
+                  "probability": 0.6796814203262329
+                },
+                {
+                  "start": 470.86,
+                  "end": 471.22,
+                  "text": "理",
+                  "probability": 0.9931885004043579
+                },
+                {
+                  "start": 471.22,
+                  "end": 471.46,
+                  "text": "论",
+                  "probability": 0.999388188123703
+                },
+                {
+                  "start": 471.46,
+                  "end": 471.8,
+                  "text": "上",
+                  "probability": 0.9964339733123779
+                },
+                {
+                  "start": 471.8,
+                  "end": 472.4,
+                  "text": "都是",
+                  "probability": 0.8845560550689697
+                },
+                {
+                  "start": 472.4,
+                  "end": 472.92,
+                  "text": "小心",
+                  "probability": 0.9149611592292786
+                },
+                {
+                  "start": 472.92,
+                  "end": 473.28,
+                  "text": "翼",
+                  "probability": 0.9090264439582825
+                },
+                {
+                  "start": 473.28,
+                  "end": 473.42,
+                  "text": "翼",
+                  "probability": 0.9996907114982605
+                },
+                {
+                  "start": 473.42,
+                  "end": 473.64,
+                  "text": "的",
+                  "probability": 0.9082261323928833
+                },
+                {
+                  "start": 473.64,
+                  "end": 474.0,
+                  "text": "避",
+                  "probability": 0.9459043145179749
+                },
+                {
+                  "start": 474.0,
+                  "end": 474.28,
+                  "text": "开",
+                  "probability": 0.9641209244728088
+                },
+                {
+                  "start": 474.28,
+                  "end": 474.58,
+                  "text": "朱",
+                  "probability": 0.6715182065963745
+                },
+                {
+                  "start": 474.58,
+                  "end": 474.8,
+                  "text": "灵",
+                  "probability": 0.6864286512136459
+                },
+                {
+                  "start": 474.8,
+                  "end": 474.96,
+                  "text": "的",
+                  "probability": 0.9537094235420227
+                },
+                {
+                  "start": 474.96,
+                  "end": 475.2,
+                  "text": "事。",
+                  "probability": 0.9216635823249817
+                }
+              ]
+            },
+            {
+              "start": 476.58,
+              "end": 488.7,
+              "text": "起次,我们来看看萨达如何计划努力而伤人,这是今日广泛所遇到的事,他的计划是把这些发现列为生意上",
+              "words": [
+                {
+                  "start": 476.58,
+                  "end": 477.08,
+                  "text": "起",
+                  "probability": 0.5817425847053528
+                },
+                {
+                  "start": 477.08,
+                  "end": 477.42,
+                  "text": "次,",
+                  "probability": 0.7070043087005615
+                },
+                {
+                  "start": 477.74,
+                  "end": 477.96,
+                  "text": "我们",
+                  "probability": 0.46476778388023376
+                },
+                {
+                  "start": 477.96,
+                  "end": 478.16,
+                  "text": "来",
+                  "probability": 0.9908301830291748
+                },
+                {
+                  "start": 478.16,
+                  "end": 478.42,
+                  "text": "看看",
+                  "probability": 0.9746605753898621
+                },
+                {
+                  "start": 478.42,
+                  "end": 478.92,
+                  "text": "萨",
+                  "probability": 0.631706029176712
+                },
+                {
+                  "start": 478.92,
+                  "end": 479.04,
+                  "text": "达",
+                  "probability": 0.9279515147209167
+                },
+                {
+                  "start": 479.04,
+                  "end": 479.42,
+                  "text": "如何",
+                  "probability": 0.978376030921936
+                },
+                {
+                  "start": 479.42,
+                  "end": 479.94,
+                  "text": "计",
+                  "probability": 0.9691727757453918
+                },
+                {
+                  "start": 479.94,
+                  "end": 480.12,
+                  "text": "划",
+                  "probability": 0.997656524181366
+                },
+                {
+                  "start": 480.12,
+                  "end": 480.32,
+                  "text": "努",
+                  "probability": 0.9675695896148682
+                },
+                {
+                  "start": 480.32,
+                  "end": 480.48,
+                  "text": "力",
+                  "probability": 0.9824512600898743
+                },
+                {
+                  "start": 480.48,
+                  "end": 480.62,
+                  "text": "而",
+                  "probability": 0.47796183824539185
+                },
+                {
+                  "start": 480.62,
+                  "end": 480.76,
+                  "text": "伤",
+                  "probability": 0.532426655292511
+                },
+                {
+                  "start": 480.76,
+                  "end": 481.02,
+                  "text": "人,",
+                  "probability": 0.9686019420623779
+                },
+                {
+                  "start": 481.42,
+                  "end": 482.06,
+                  "text": "这是",
+                  "probability": 0.934393584728241
+                },
+                {
+                  "start": 482.06,
+                  "end": 482.72,
+                  "text": "今日",
+                  "probability": 0.7040604948997498
+                },
+                {
+                  "start": 482.72,
+                  "end": 483.14,
+                  "text": "广",
+                  "probability": 0.9807019829750061
+                },
+                {
+                  "start": 483.14,
+                  "end": 483.38,
+                  "text": "泛",
+                  "probability": 0.9903651475906372
+                },
+                {
+                  "start": 483.38,
+                  "end": 483.6,
+                  "text": "所",
+                  "probability": 0.9897361993789673
+                },
+                {
+                  "start": 483.6,
+                  "end": 483.78,
+                  "text": "遇",
+                  "probability": 0.9977619349956512
+                },
+                {
+                  "start": 483.78,
+                  "end": 483.98,
+                  "text": "到",
+                  "probability": 0.9770282506942749
+                },
+                {
+                  "start": 483.98,
+                  "end": 484.1,
+                  "text": "的",
+                  "probability": 0.9569248557090759
+                },
+                {
+                  "start": 484.1,
+                  "end": 484.36,
+                  "text": "事,",
+                  "probability": 0.9531200528144836
+                },
+                {
+                  "start": 485.18,
+                  "end": 485.42,
+                  "text": "他的",
+                  "probability": 0.8178048729896545
+                },
+                {
+                  "start": 485.42,
+                  "end": 485.68,
+                  "text": "计",
+                  "probability": 0.9977507889270782
+                },
+                {
+                  "start": 485.68,
+                  "end": 485.94,
+                  "text": "划",
+                  "probability": 0.999649703502655
+                },
+                {
+                  "start": 485.94,
+                  "end": 486.18,
+                  "text": "是",
+                  "probability": 0.9825666546821594
+                },
+                {
+                  "start": 486.18,
+                  "end": 486.3,
+                  "text": "把",
+                  "probability": 0.99080491065979
+                },
+                {
+                  "start": 486.3,
+                  "end": 486.48,
+                  "text": "这",
+                  "probability": 0.9783880114555359
+                },
+                {
+                  "start": 486.48,
+                  "end": 486.66,
+                  "text": "些",
+                  "probability": 0.9943880438804626
+                },
+                {
+                  "start": 486.66,
+                  "end": 486.9,
+                  "text": "发",
+                  "probability": 0.9793171286582947
+                },
+                {
+                  "start": 486.9,
+                  "end": 487.28,
+                  "text": "现",
+                  "probability": 0.9863903522491455
+                },
+                {
+                  "start": 487.28,
+                  "end": 487.68,
+                  "text": "列",
+                  "probability": 0.9764883518218994
+                },
+                {
+                  "start": 487.68,
+                  "end": 487.84,
+                  "text": "为",
+                  "probability": 0.9908071160316467
+                },
+                {
+                  "start": 487.84,
+                  "end": 488.22,
+                  "text": "生",
+                  "probability": 0.8134738206863403
+                },
+                {
+                  "start": 488.22,
+                  "end": 488.44,
+                  "text": "意",
+                  "probability": 0.987700343132019
+                },
+                {
+                  "start": 488.44,
+                  "end": 488.7,
+                  "text": "上",
+                  "probability": 0.9949668049812317
+                }
+              ]
+            }
+          ],
+          "source": "bounded-internal-differences-true-edge-words",
+          "listenedByAgent": false,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "actualEndpointLiteralChars": 3,
+          "maxInternalDifferences": 2,
+          "reason": "实际首/尾至少3字贴边相同，12字局部短句最多2处内部识别差异；其余局部覆盖、唯一性、完整词边界及相邻时间均核验，中间正文不逐字检查。",
+          "audioSha256": "47930c9914f2d2c485299d546e57925918c454f29df3a393c7e61bafc011ec15"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 454.98,
+        "previousEnd": 476.58,
+        "previousConfidence": 0.929
+      },
+      "boundaryCorrections": [
+        {
+          "book": "魂与灵",
+          "page": "06_「魂的能力」与「灵的能力」.md",
+          "audio": "6-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\魂与灵\\06_「魂的能力」与「灵的能力」\\audio-02.json",
+          "targetIndex": 55,
+          "edge": "end",
+          "previousTime": 476.58,
+          "time": 475.2,
+          "kind": "bounded-internal-differences-local-edge",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "实际首/尾至少3字贴边相同，12字局部短句最多2处内部识别差异；其余局部覆盖、唯一性、完整词边界及相邻时间均核验，中间正文不逐字检查。"
+        }
+      ]
     },
     {
       "start": 476.58,
-      "end": 553.0,
+      "end": 550.76,
       "kind": "paragraph",
-      "targetIndex": 53,
+      "targetIndex": 56,
       "targetText": "其次我们来看看撒但如何计划掳掠商人这是今日广泛所遇到的事它的计划是把这些发现列为生意上成功的条件",
-      "confidence": 0.61
+      "confidence": 0.702,
+      "quality": {
+        "coverage": 0.576,
+        "coherentCoverage": 0.57,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.25,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 0.75,
+          "localSimilarity": 0.75,
+          "localText": "其次我们来看看撒但如何计划掳掠商人这是今日广泛所",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 476.58,
+        "previousEnd": 553.0,
+        "previousConfidence": 0.702
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 553.0,
+            "time": 550.76,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\魂与灵\\6-2.mp3.json",
+              "sha256": "a72fda53c5c3087453b482274a4b53884bfbb098e1d2d152f934c341f1d898f7",
+              "anchor": {
+                "time": 550.76,
+                "score": 0.9978,
+                "ratio": 1.0,
+                "expected": "tongdeshengmingdengdeng",
+                "actual": "同的生命等等",
+                "span": [
+                  549.56,
+                  550.76
+                ],
+                "tokens": [
+                  {
+                    "text": "同",
+                    "start": 549.56,
+                    "end": 549.8,
+                    "rawStart": 1721,
+                    "rawEnd": 1721,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 549.8,
+                    "end": 549.94,
+                    "rawStart": 1722,
+                    "rawEnd": 1722,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "生",
+                    "start": 549.94,
+                    "end": 550.16,
+                    "rawStart": 1723,
+                    "rawEnd": 1723,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "命",
+                    "start": 550.16,
+                    "end": 550.38,
+                    "rawStart": 1724,
+                    "rawEnd": 1724,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "等",
+                    "start": 550.38,
+                    "end": 550.76,
+                    "rawStart": 1725,
+                    "rawEnd": 1725,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "等",
+                    "start": 550.38,
+                    "end": 550.76,
+                    "rawStart": 1726,
+                    "rawEnd": 1726,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 553.36,
+                  "score": 0.9167,
+                  "actual": "同的生命等等在"
+                },
+                "phraseSize": 6,
+                "matchingText": "其次,我们来看看撒但如何计划掳掠「商人」,这是今日广泛所遇到的事。它的计划是把这些「发现」列为生意上成功的条件,而让人们去追求这目标,最后再借着广泛流传的广告和书籍来宣传如何发展「内在的能力」。尔后,各处的商人都被鼓动去运用「心思的能力」或心思催眠术以获得信赖与成功,并发展一种「强的个人吸引力催眠术」。〔注:这个计谋现在已有更大的进展。有位读者告诉宾氏,这类的广告在美国正到处泛滥,其中的一些书如:Persibak Power(个人的能力)或Your master-self(你能控制自己);Greative Power(创造能力)或Your Constructive Forces(自我建造的能力);Faith Power(信心的能力)或Your Inspirational Forces(自我灵感的能力);Regenerating Power(再生的能力)或Vital Rejuvenation(返老还童的生命)等等。〕",
+                "normalization": "original-body"
+              },
+              "body": "其次,我们来看看撒但如何计划掳掠「商人」,这是今日广泛所遇到的事。它的计划是把这些「发现」列为生意上成功的条件,而让人们去追求这目标,最后再借着广泛流传的广告和书籍来宣传如何发展「内在的能力」。尔后,各处的商人都被鼓动去运用「心思的能力」或心思催眠术以获得信赖与成功,并发展一种「强的个人吸引力催眠术」。〔注:这个计谋现在已有更大的进展。有位读者告诉宾氏,这类的广告在美国正到处泛滥,其中的一些书如:Persibak Power(个人的能力)或Your master-self(你能控制自己);Greative Power(创造能力)或Your Constructive Forces(自我建造的能力);Faith Power(信心的能力)或Your Inspirational Forces(自我灵感的能力);Regenerating Power(再生的能力)或Vital Rejuvenation(返老还童的生命)等等。〕"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.576,
+          "coherentCoverage": 0.57,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.7,
+          "suffixCoverage": 0.25,
+          "unmatchedLeadingChars": 1,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [
+            "start substitution"
+          ],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 0.75,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 0.75,
+            "localSimilarity": 0.75,
+            "localText": "其次我们来看看撒但如何计划掳掠商人这是今日广泛所",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false,
+            "source": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
       "start": 553.0,
-      "end": 606.52,
+      "end": 607.96,
       "kind": "paragraph",
-      "targetIndex": 54,
+      "targetIndex": 57,
       "targetText": "再者我们来看看仇敌努力要得着宗教家的计谋我们看见今天有许多基督教的教师吸取了鬼魔有关圣经的纯理性",
-      "confidence": 0.757
+      "confidence": 0.879,
+      "quality": {
+        "coverage": 0.885,
+        "coherentCoverage": 0.833,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "candidate": 607.96,
+          "expectedPhrase": "的人就被撒谎者导入了叉路",
+          "actualPhrase": "的人就被撒黄者倒露了岔路",
+          "phoneticPhrase": [
+            "de",
+            "ren",
+            "jiu",
+            "bei",
+            "sa",
+            "huang",
+            "zhe",
+            "dao",
+            "ru",
+            "le",
+            "cha",
+            "lu"
+          ],
+          "actualPhoneticPhrase": [
+            "de",
+            "ren",
+            "jiu",
+            "bei",
+            "sa",
+            "huang",
+            "zhe",
+            "dao",
+            "lu",
+            "le",
+            "cha",
+            "lu"
+          ],
+          "verified": true,
+          "time": 607.96,
+          "boundedPhonetic": true,
+          "exactEndpointPhonemes": 2,
+          "maxInternalPhoneticDifferences": 2,
+          "phoneticDifferences": [
+            8
+          ],
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "的",
+              "start": 604.28,
+              "end": 604.68,
+              "rawStart": 1892,
+              "rawEnd": 1892,
+              "precision": "word"
+            },
+            {
+              "text": "人",
+              "start": 604.28,
+              "end": 604.68,
+              "rawStart": 1893,
+              "rawEnd": 1893,
+              "precision": "word"
+            },
+            {
+              "text": "就",
+              "start": 604.68,
+              "end": 605.28,
+              "rawStart": 1894,
+              "rawEnd": 1894,
+              "precision": "word"
+            },
+            {
+              "text": "被",
+              "start": 605.28,
+              "end": 605.56,
+              "rawStart": 1895,
+              "rawEnd": 1895,
+              "precision": "word"
+            },
+            {
+              "text": "撒",
+              "start": 605.56,
+              "end": 605.94,
+              "rawStart": 1896,
+              "rawEnd": 1896,
+              "precision": "word"
+            },
+            {
+              "text": "黄",
+              "start": 605.94,
+              "end": 606.22,
+              "rawStart": 1897,
+              "rawEnd": 1897,
+              "precision": "word"
+            },
+            {
+              "text": "者",
+              "start": 606.22,
+              "end": 606.52,
+              "rawStart": 1898,
+              "rawEnd": 1898,
+              "precision": "word"
+            },
+            {
+              "text": "倒",
+              "start": 606.52,
+              "end": 606.94,
+              "rawStart": 1899,
+              "rawEnd": 1899,
+              "precision": "word"
+            },
+            {
+              "text": "露",
+              "start": 606.94,
+              "end": 607.24,
+              "rawStart": 1900,
+              "rawEnd": 1900,
+              "precision": "word"
+            },
+            {
+              "text": "了",
+              "start": 607.24,
+              "end": 607.38,
+              "rawStart": 1901,
+              "rawEnd": 1901,
+              "precision": "word"
+            },
+            {
+              "text": "岔",
+              "start": 607.38,
+              "end": 607.64,
+              "rawStart": 1902,
+              "rawEnd": 1902,
+              "precision": "word"
+            },
+            {
+              "text": "路",
+              "start": 607.64,
+              "end": 607.96,
+              "rawStart": 1903,
+              "rawEnd": 1903,
+              "precision": "word"
+            }
+          ],
+          "source": "inline-notes-observed-context",
+          "listenedByAgent": false,
+          "edge": "end",
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\魂与灵\\6-2.mp3.json",
+          "transcriptSha256": "8a1c79313b151190347cfa5cb560b5a69317667803a8c122b62d8bc2e3a164d8",
+          "notes": [
+            {
+              "start": 600.22,
+              "end": 601.68,
+              "expected": "(虚假的学说)",
+              "actual": "虚假的学说",
+              "tokens": [
+                {
+                  "text": "虚",
+                  "start": 600.22,
+                  "end": 600.66,
+                  "rawStart": 1882,
+                  "rawEnd": 1882,
+                  "precision": "word"
+                },
+                {
+                  "text": "假",
+                  "start": 600.66,
+                  "end": 600.94,
+                  "rawStart": 1883,
+                  "rawEnd": 1883,
+                  "precision": "word"
+                },
+                {
+                  "text": "的",
+                  "start": 600.94,
+                  "end": 601.08,
+                  "rawStart": 1884,
+                  "rawEnd": 1884,
+                  "precision": "word"
+                },
+                {
+                  "text": "学",
+                  "start": 601.08,
+                  "end": 601.3,
+                  "rawStart": 1885,
+                  "rawEnd": 1885,
+                  "precision": "word"
+                },
+                {
+                  "text": "说",
+                  "start": 601.3,
+                  "end": 601.68,
+                  "rawStart": 1886,
+                  "rawEnd": 1886,
+                  "precision": "word"
+                }
+              ]
+            }
+          ],
+          "identityBasis": "true-local-edge-and-complete-inline-notes-observed-before-ending",
+          "audioSha256": "47930c9914f2d2c485299d546e57925918c454f29df3a393c7e61bafc011ec15"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 553.0,
+        "previousEnd": 606.52,
+        "previousConfidence": 0.879
+      },
+      "boundaryCorrections": [
+        {
+          "book": "魂与灵",
+          "page": "06_「魂的能力」与「灵的能力」.md",
+          "audio": "6-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\魂与灵\\06_「魂的能力」与「灵的能力」\\audio-02.json",
+          "targetIndex": 57,
+          "edge": "end",
+          "previousTime": 606.52,
+          "time": 607.96,
+          "kind": "inline-notes-observed-context",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
-      "start": 606.52,
-      "end": 641.03,
+      "start": 609.16,
+      "end": 639.0,
       "kind": "paragraph",
-      "targetIndex": 55,
+      "targetIndex": 58,
       "targetText": "我们确信所预言的撇弃真道的潮流正达到高潮而且正急速地在扩张中上帝和人类的头号仇敌正在掌舵它要使全",
-      "confidence": 0.727
+      "confidence": 0.857,
+      "quality": {
+        "coverage": 0.857,
+        "coherentCoverage": 0.824,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 609.16,
+        "previousEnd": 639.0,
+        "previousConfidence": 0.857
+      }
     },
     {
       "start": 641.03,
-      "end": 678.39,
+      "end": 677.33,
       "kind": "paragraph",
-      "targetIndex": 56,
+      "targetIndex": 59,
       "targetText": "今天一个发现紧跟着一个发现每天的报纸似乎都已无法赶上其发展的速度举例来说心理分析现在被认为是一门",
-      "confidence": 0.927
+      "confidence": 0.927,
+      "quality": {
+        "coverage": 0.927,
+        "coherentCoverage": 0.927,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 641.03,
+        "previousEnd": 677.33,
+        "previousConfidence": 0.927
+      }
     },
     {
       "start": 678.39,
-      "end": 732.37,
+      "end": 730.65,
       "kind": "paragraph",
-      "targetIndex": 57,
+      "targetIndex": 60,
       "targetText": "一般有见识的人把现今心灵学的洪流描绘成这个时代的挪亚的日子挪亚时代的洪水毁灭了凡有血气的但借着一",
-      "confidence": 0.78
+      "confidence": 0.933,
+      "quality": {
+        "coverage": 0.933,
+        "coherentCoverage": 0.921,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 678.39,
+        "previousEnd": 730.65,
+        "previousConfidence": 0.933
+      }
     },
     {
       "start": 732.37,
-      "end": 779.63,
+      "end": 777.09,
       "kind": "paragraph",
-      "targetIndex": 58,
+      "targetIndex": 61,
       "targetText": "现在上帝的儿女们必须知道如何护卫自己以分辨魂与灵的不同他们必须知道在处理与别人相关的问题上可能误",
-      "confidence": 0.936
+      "confidence": 0.936,
+      "quality": {
+        "coverage": 0.933,
+        "coherentCoverage": 0.9,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\魂与灵\\6-2.mp3.json",
+          "transcriptSha256": "8a1c79313b151190347cfa5cb560b5a69317667803a8c122b62d8bc2e3a164d8",
+          "candidate": 732.37,
+          "expectedPhrase": "现在神的儿女们必须知道如",
+          "actualPhrase": "现在沈的儿女们必须知道如",
+          "phoneticPhrase": [
+            "xian",
+            "zai",
+            "shen",
+            "de",
+            "er",
+            "nv",
+            "men",
+            "bi",
+            "xu",
+            "zhi",
+            "dao",
+            "ru"
+          ],
+          "verified": true,
+          "time": 732.37,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "exact-local-syllables-original-word-times",
+          "phoneticExact": true,
+          "literalEqual": false,
+          "wordTokens": [
+            {
+              "text": "现",
+              "start": 732.37,
+              "end": 732.89,
+              "rawStart": 2282,
+              "rawEnd": 2282,
+              "precision": "word"
+            },
+            {
+              "text": "在",
+              "start": 732.37,
+              "end": 732.89,
+              "rawStart": 2283,
+              "rawEnd": 2283,
+              "precision": "word"
+            },
+            {
+              "text": "沈",
+              "start": 732.89,
+              "end": 733.41,
+              "rawStart": 2284,
+              "rawEnd": 2284,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 733.41,
+              "end": 733.53,
+              "rawStart": 2285,
+              "rawEnd": 2285,
+              "precision": "word"
+            },
+            {
+              "text": "儿",
+              "start": 733.53,
+              "end": 733.71,
+              "rawStart": 2286,
+              "rawEnd": 2286,
+              "precision": "word"
+            },
+            {
+              "text": "女",
+              "start": 733.71,
+              "end": 733.89,
+              "rawStart": 2287,
+              "rawEnd": 2287,
+              "precision": "word"
+            },
+            {
+              "text": "们",
+              "start": 733.89,
+              "end": 734.13,
+              "rawStart": 2288,
+              "rawEnd": 2288,
+              "precision": "word"
+            },
+            {
+              "text": "必",
+              "start": 734.13,
+              "end": 734.41,
+              "rawStart": 2289,
+              "rawEnd": 2289,
+              "precision": "word"
+            },
+            {
+              "text": "须",
+              "start": 734.41,
+              "end": 734.55,
+              "rawStart": 2290,
+              "rawEnd": 2290,
+              "precision": "word"
+            },
+            {
+              "text": "知",
+              "start": 734.55,
+              "end": 734.95,
+              "rawStart": 2291,
+              "rawEnd": 2291,
+              "precision": "word"
+            },
+            {
+              "text": "道",
+              "start": 734.55,
+              "end": 734.95,
+              "rawStart": 2292,
+              "rawEnd": 2292,
+              "precision": "word"
+            },
+            {
+              "text": "如",
+              "start": 734.95,
+              "end": 735.57,
+              "rawStart": 2293,
+              "rawEnd": 2293,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "audioSha256": "47930c9914f2d2c485299d546e57925918c454f29df3a393c7e61bafc011ec15",
+          "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 732.37,
+        "previousEnd": 777.09,
+        "previousConfidence": 0.936
+      },
+      "boundaryCorrections": [
+        {
+          "book": "魂与灵",
+          "page": "06_「魂的能力」与「灵的能力」.md",
+          "audio": "6-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\魂与灵\\06_「魂的能力」与「灵的能力」\\audio-02.json",
+          "targetIndex": 61,
+          "edge": "start",
+          "previousTime": 732.37,
+          "time": 732.37,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
       "start": 779.63,
-      "end": 841.98,
+      "end": 838.75,
       "kind": "paragraph",
-      "targetIndex": 59,
+      "targetIndex": 62,
       "targetText": "魂的能力与灵的能力对抗是今天的主要战场基督的身体乃是借着在他里面圣灵的能力而得以升天这世上乌云密",
-      "confidence": 0.807
-    },
-    {
-      "start": 841.98,
-      "end": 844.96,
-      "kind": "heading",
-      "targetIndex": 60,
-      "targetText": "子凭着自己不能做什么",
-      "confidence": 0.706
+      "confidence": 0.932,
+      "quality": {
+        "coverage": 0.93,
+        "coherentCoverage": 0.892,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 779.63,
+        "previousEnd": 838.75,
+        "previousConfidence": 0.932
+      }
     },
     {
       "start": 844.96,
-      "end": 857.0,
+      "end": 855.88,
       "kind": "paragraph",
-      "targetIndex": 61,
+      "targetIndex": 64,
       "targetText": "这是一篇聚会信息特别用比较简单的方式来说明魂的区别可与前面讲章相互参照",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 844.96,
+        "previousEnd": 855.88,
+        "previousConfidence": 1.0
+      }
     },
     {
       "start": 857.0,
       "end": 951.94,
       "kind": "paragraph",
-      "targetIndex": 62,
+      "targetIndex": 65,
       "targetText": "魂的能力简单地说是来自于魂而灵的能力则是源自于灵魂是魂的能力及灵的能力二者表显的媒介魂的能力是借",
-      "confidence": 0.839
+      "confidence": 0.938,
+      "quality": {
+        "coverage": 0.952,
+        "coherentCoverage": 0.93,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 857.0,
+        "previousEnd": 951.94,
+        "previousConfidence": 0.938
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 951.94,
+            "time": 951.94,
+            "reason": "正文末句已定位，保留原出处结束范围，避免因书名识别差异截掉已读出处",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\魂与灵\\6-2.mp3.json",
+              "sha256": "a72fda53c5c3087453b482274a4b53884bfbb098e1d2d152f934c341f1d898f7",
+              "anchor": {
+                "time": 949.96,
+                "score": 0.998,
+                "ratio": 1.0,
+                "expected": "jiukeyifenbianchutashilaizihezhongnengli",
+                "actual": "就可以分辨出她是来自何种能力",
+                "span": [
+                  945.58,
+                  949.96
+                ],
+                "tokens": [
+                  {
+                    "text": "就",
+                    "start": 945.58,
+                    "end": 946.34,
+                    "rawStart": 2913,
+                    "rawEnd": 2913,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "可",
+                    "start": 945.58,
+                    "end": 946.34,
+                    "rawStart": 2914,
+                    "rawEnd": 2914,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "以",
+                    "start": 945.58,
+                    "end": 946.34,
+                    "rawStart": 2915,
+                    "rawEnd": 2915,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "分",
+                    "start": 946.34,
+                    "end": 946.58,
+                    "rawStart": 2916,
+                    "rawEnd": 2916,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "辨",
+                    "start": 946.58,
+                    "end": 946.78,
+                    "rawStart": 2917,
+                    "rawEnd": 2917,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "出",
+                    "start": 946.78,
+                    "end": 947.14,
+                    "rawStart": 2918,
+                    "rawEnd": 2918,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "她",
+                    "start": 947.14,
+                    "end": 947.7,
+                    "rawStart": 2919,
+                    "rawEnd": 2919,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 947.7,
+                    "end": 948.02,
+                    "rawStart": 2920,
+                    "rawEnd": 2920,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "来",
+                    "start": 948.02,
+                    "end": 948.46,
+                    "rawStart": 2921,
+                    "rawEnd": 2921,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "自",
+                    "start": 948.46,
+                    "end": 948.8,
+                    "rawStart": 2922,
+                    "rawEnd": 2922,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "何",
+                    "start": 948.8,
+                    "end": 949.18,
+                    "rawStart": 2923,
+                    "rawEnd": 2923,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "种",
+                    "start": 949.18,
+                    "end": 949.44,
+                    "rawStart": 2924,
+                    "rawEnd": 2924,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "能",
+                    "start": 949.44,
+                    "end": 949.62,
+                    "rawStart": 2925,
+                    "rawEnd": 2925,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "力",
+                    "start": 949.62,
+                    "end": 949.96,
+                    "rawStart": 2926,
+                    "rawEnd": 2926,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "「魂的能力」简单地说是来自于魂,而「灵的能力」则是源自于灵。魂是「魂的能力」及「灵的能力」二者表显的媒介。魂的能力是借着魂的官能彰显,而灵的能力与同样是借着魂的官能来表现。让我简略地来说明这点。我先画出灵、魂、体三个部分,其中「灵」居首,「魂」居中,而「体」则在最低层,然后,再画一个箭头由上而下,从「灵」到魂再往外。这表示圣灵在人的灵里,往下经过魂的官能而流露出来。另外我再画一个箭头由下往上,从「体」的部分进入魂,再从魂的官能出来。头一个图,你可以看见「灵的能力」是来自神而使魂得着能力;但第二图则是,「魂的能力」出自肉体进入魂再流露出来。「魂」是居间所,是「灵」与「魂」能力的媒介,而我们只要从所结的果子,就可以分辨出它是来自何种能力",
+              "retainedCitationInterval": [
+                949.96,
+                951.94
+              ]
+            }
+          }
+        }
+      }
     },
     {
-      "start": 951.94,
-      "end": 1023.57,
+      "start": 954.94,
+      "end": 1022.33,
       "kind": "paragraph",
-      "targetIndex": 63,
+      "targetIndex": 66,
       "targetText": "我曾说过魂的能力是起源于魂更正确地说它是源自于身体或动物性的生命就是圣经所说的肉体现今所发现魂的",
-      "confidence": 0.764
+      "confidence": 0.932,
+      "quality": {
+        "coverage": 0.939,
+        "coherentCoverage": 0.919,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 954.94,
+        "previousEnd": 1022.33,
+        "previousConfidence": 0.932
+      }
     },
     {
       "start": 1023.57,
-      "end": 1099.29,
+      "end": 1098.21,
       "kind": "paragraph",
-      "targetIndex": 64,
+      "targetIndex": 67,
       "targetText": "现今的危险是一切的事都在属魂的范畴中但却仿冒为属灵的因着无知而发展并运用这些心灵的能力却又误以为",
-      "confidence": 0.833
+      "confidence": 0.938,
+      "quality": {
+        "coverage": 0.94,
+        "coherentCoverage": 0.927,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1023.57,
+        "previousEnd": 1098.21,
+        "previousConfidence": 0.938
+      }
     },
     {
       "start": 1099.29,
-      "end": 1134.54,
+      "end": 1133.04,
       "kind": "paragraph",
-      "targetIndex": 65,
+      "targetIndex": 68,
       "targetText": "再者信徒为了得到圣灵的洗的确据就被假以催眠术的方法于是这些仿冒的圣灵的洗便进入了属于基督的教会另",
-      "confidence": 0.919
+      "confidence": 0.919,
+      "quality": {
+        "coverage": 0.919,
+        "coherentCoverage": 0.901,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\魂与灵\\6-2.mp3.json",
+          "transcriptSha256": "8a1c79313b151190347cfa5cb560b5a69317667803a8c122b62d8bc2e3a164d8",
+          "candidate": 1133.04,
+          "expectedPhrase": "的生命相混合并用以服事神",
+          "actualPhrase": "的生命相混合并用以俯视神",
+          "phoneticPhrase": [
+            "de",
+            "sheng",
+            "ming",
+            "xiang",
+            "hun",
+            "he",
+            "bing",
+            "yong",
+            "yi",
+            "fu",
+            "shi",
+            "shen"
+          ],
+          "verified": true,
+          "time": 1133.04,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "exact-local-syllables-original-word-times",
+          "phoneticExact": true,
+          "literalEqual": false,
+          "wordTokens": [
+            {
+              "text": "的",
+              "start": 1128.96,
+              "end": 1129.2,
+              "rawStart": 3488,
+              "rawEnd": 3488,
+              "precision": "word"
+            },
+            {
+              "text": "生",
+              "start": 1129.2,
+              "end": 1129.44,
+              "rawStart": 3489,
+              "rawEnd": 3489,
+              "precision": "word"
+            },
+            {
+              "text": "命",
+              "start": 1129.44,
+              "end": 1129.72,
+              "rawStart": 3490,
+              "rawEnd": 3490,
+              "precision": "word"
+            },
+            {
+              "text": "相",
+              "start": 1129.72,
+              "end": 1130.08,
+              "rawStart": 3491,
+              "rawEnd": 3491,
+              "precision": "word"
+            },
+            {
+              "text": "混",
+              "start": 1130.08,
+              "end": 1130.32,
+              "rawStart": 3492,
+              "rawEnd": 3492,
+              "precision": "word"
+            },
+            {
+              "text": "合",
+              "start": 1130.32,
+              "end": 1131.06,
+              "rawStart": 3493,
+              "rawEnd": 3493,
+              "precision": "word"
+            },
+            {
+              "text": "并",
+              "start": 1131.08,
+              "end": 1131.56,
+              "rawStart": 3494,
+              "rawEnd": 3494,
+              "precision": "word"
+            },
+            {
+              "text": "用",
+              "start": 1131.56,
+              "end": 1131.82,
+              "rawStart": 3495,
+              "rawEnd": 3495,
+              "precision": "word"
+            },
+            {
+              "text": "以",
+              "start": 1131.82,
+              "end": 1132.1,
+              "rawStart": 3496,
+              "rawEnd": 3496,
+              "precision": "word"
+            },
+            {
+              "text": "俯",
+              "start": 1132.1,
+              "end": 1132.52,
+              "rawStart": 3497,
+              "rawEnd": 3497,
+              "precision": "word"
+            },
+            {
+              "text": "视",
+              "start": 1132.52,
+              "end": 1132.78,
+              "rawStart": 3498,
+              "rawEnd": 3498,
+              "precision": "word"
+            },
+            {
+              "text": "神",
+              "start": 1132.78,
+              "end": 1133.04,
+              "rawStart": 3499,
+              "rawEnd": 3500,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "audioSha256": "47930c9914f2d2c485299d546e57925918c454f29df3a393c7e61bafc011ec15",
+          "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 1099.29,
+        "previousEnd": 1134.54,
+        "previousConfidence": 0.919
+      },
+      "boundaryCorrections": [
+        {
+          "book": "魂与灵",
+          "page": "06_「魂的能力」与「灵的能力」.md",
+          "audio": "6-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\魂与灵\\06_「魂的能力」与「灵的能力」\\audio-02.json",
+          "targetIndex": 68,
+          "edge": "end",
+          "previousTime": 1134.54,
+          "time": 1133.04,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
       "start": 1134.54,
-      "end": 1230.76,
+      "end": 1228.19,
       "kind": "paragraph",
-      "targetIndex": 66,
+      "targetIndex": 69,
       "targetText": "这是今天世界上像洪水般的心灵能力的潮流是魔鬼藉以执行它的计划和目标的凭借叫人活的乃是圣灵肉体是无",
-      "confidence": 0.924
+      "confidence": 0.928,
+      "quality": {
+        "coverage": 0.928,
+        "coherentCoverage": 0.914,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1134.54,
+        "previousEnd": 1228.19,
+        "previousConfidence": 0.928
+      }
     },
     {
       "start": 1230.76,
-      "end": 1260.3,
+      "end": 1259.54,
       "kind": "paragraph",
-      "targetIndex": 67,
+      "targetIndex": 70,
       "targetText": "肉体是无益的属灵的工作是真实无伪的如果能力是来自魂中肉体的生命那定然结不出果子你虽劳苦却没有果子",
-      "confidence": 0.863
+      "confidence": 0.863,
+      "quality": {
+        "coverage": 0.868,
+        "coherentCoverage": 0.736,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1230.76,
+        "previousEnd": 1259.54,
+        "previousConfidence": 0.863
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 1230.76,
+            "time": 1230.76,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\魂与灵\\6-2.mp3.json",
+              "sha256": "a72fda53c5c3087453b482274a4b53884bfbb098e1d2d152f934c341f1d898f7",
+              "anchor": {
+                "time": 1230.76,
+                "score": 0.8906,
+                "ratio": 0.8966,
+                "expected": "routishiwuyideshulingdegongzuoshizhenshi",
+                "actual": "肉体也是无异的树林的工作是真是",
+                "span": [
+                  1230.76,
+                  1235.04
+                ],
+                "tokens": [
+                  {
+                    "text": "肉",
+                    "start": 1230.76,
+                    "end": 1231.02,
+                    "rawStart": 3791,
+                    "rawEnd": 3791,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "体",
+                    "start": 1231.02,
+                    "end": 1231.3,
+                    "rawStart": 3792,
+                    "rawEnd": 3792,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "也",
+                    "start": 1231.3,
+                    "end": 1231.62,
+                    "rawStart": 3793,
+                    "rawEnd": 3793,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 1231.3,
+                    "end": 1231.62,
+                    "rawStart": 3794,
+                    "rawEnd": 3794,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "无",
+                    "start": 1231.62,
+                    "end": 1231.88,
+                    "rawStart": 3795,
+                    "rawEnd": 3795,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "异",
+                    "start": 1231.88,
+                    "end": 1232.06,
+                    "rawStart": 3796,
+                    "rawEnd": 3796,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 1232.06,
+                    "end": 1232.28,
+                    "rawStart": 3797,
+                    "rawEnd": 3797,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "树",
+                    "start": 1233.14,
+                    "end": 1233.28,
+                    "rawStart": 3798,
+                    "rawEnd": 3798,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "林",
+                    "start": 1233.28,
+                    "end": 1233.44,
+                    "rawStart": 3799,
+                    "rawEnd": 3799,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 1233.44,
+                    "end": 1233.56,
+                    "rawStart": 3800,
+                    "rawEnd": 3800,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "工",
+                    "start": 1233.56,
+                    "end": 1233.98,
+                    "rawStart": 3801,
+                    "rawEnd": 3801,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "作",
+                    "start": 1233.56,
+                    "end": 1233.98,
+                    "rawStart": 3802,
+                    "rawEnd": 3802,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 1233.98,
+                    "end": 1234.5,
+                    "rawStart": 3803,
+                    "rawEnd": 3803,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "真",
+                    "start": 1234.5,
+                    "end": 1234.8,
+                    "rawStart": 3804,
+                    "rawEnd": 3804,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 1234.8,
+                    "end": 1235.04,
+                    "rawStart": 3805,
+                    "rawEnd": 3805,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": true,
+                "alternative": {
+                  "time": 1227.85,
+                  "score": 0.8518,
+                  "actual": "新肉体也是无异的树林的工作是真是"
+                }
+              },
+              "body": "「肉体是无益的」。属灵的工作是真实无伪的,如果能力是来自魂中肉体的生命,那定然结不出果子。你虽劳苦,却没有果子!因为「魂」从天然的生命所得的能力是「没有益处」的。「肉体是无益的」,「肉体」既是无益,魂的能力当然也就无益了。"
+            }
+          }
+        }
+      }
     },
     {
       "start": 1260.3,
-      "end": 1308.7,
-      "kind": "paragraph",
-      "targetIndex": 68,
-      "targetText": "让我们来看约翰福音的几处经文首先来看看主所说有关他对自己及自己能力的态度虽然在他的情形来说这些都",
-      "confidence": 0.807
-    },
-    {
-      "start": 1308.7,
-      "end": 1352.6,
-      "kind": "paragraph",
-      "targetIndex": 69,
-      "targetText": "当我们读到主耶稣基督所说的子凭着自己不能做什么时这是何等令人惊奇他从未凭他自己的意思来做任何事情",
-      "confidence": 0.825
-    },
-    {
-      "start": 1352.6,
-      "end": 1384.18,
-      "kind": "paragraph",
-      "targetIndex": 70,
-      "targetText": "主耶稣又说我怎么听见就怎么审判我不受从人来的荣耀我来不是要照着自己的意思行我不求自己的荣耀以上是",
-      "confidence": 0.878
-    },
-    {
-      "start": 1384.18,
-      "end": 1474.59,
+      "end": 1309.52,
       "kind": "paragraph",
       "targetIndex": 71,
+      "targetText": "让我们来看约翰福音的几处经文首先来看看主所说有关他对自己及自己能力的态度虽然在他的情形来说这些都",
+      "confidence": 0.923,
+      "quality": {
+        "coverage": 0.924,
+        "coherentCoverage": 0.889,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "source": "existing-small-transcript-local-phrase",
+          "model": ".audio-sync-cache\\models\\small",
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\魂与灵\\6-2.mp3.json",
+          "transcriptSha256": "a72fda53c5c3087453b482274a4b53884bfbb098e1d2d152f934c341f1d898f7",
+          "audioSha256": null,
+          "audioDuration": 1797.592375,
+          "syncAudioDuration": 1797.592375,
+          "audioDurationMatch": true,
+          "fullFileTranscribed": false,
+          "newDownloads": 0,
+          "listenedByAgent": false,
+          "timingPrecision": "word",
+          "localSupported": true,
+          "contextUsed": true,
+          "verificationMethod": "bounded-local-12-syllable",
+          "verified": true,
+          "candidateTime": 1309.52,
+          "expectedPhrase": "天然的人是无法受圣灵的事",
+          "actualPhrase": "天然的人是无法受胜利的事",
+          "wordTokens": [
+            {
+              "text": "天",
+              "start": 1306.74,
+              "end": 1307.12,
+              "rawStart": 4015,
+              "rawEnd": 4015,
+              "precision": "word"
+            },
+            {
+              "text": "然",
+              "start": 1307.12,
+              "end": 1307.28,
+              "rawStart": 4016,
+              "rawEnd": 4016,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 1307.28,
+              "end": 1307.56,
+              "rawStart": 4017,
+              "rawEnd": 4017,
+              "precision": "word"
+            },
+            {
+              "text": "人",
+              "start": 1307.28,
+              "end": 1307.56,
+              "rawStart": 4018,
+              "rawEnd": 4018,
+              "precision": "word"
+            },
+            {
+              "text": "是",
+              "start": 1307.56,
+              "end": 1307.94,
+              "rawStart": 4019,
+              "rawEnd": 4019,
+              "precision": "word"
+            },
+            {
+              "text": "无",
+              "start": 1307.94,
+              "end": 1308.2,
+              "rawStart": 4020,
+              "rawEnd": 4020,
+              "precision": "word"
+            },
+            {
+              "text": "法",
+              "start": 1308.2,
+              "end": 1308.46,
+              "rawStart": 4021,
+              "rawEnd": 4021,
+              "precision": "word"
+            },
+            {
+              "text": "受",
+              "start": 1308.46,
+              "end": 1308.7,
+              "rawStart": 4022,
+              "rawEnd": 4022,
+              "precision": "word"
+            },
+            {
+              "text": "胜",
+              "start": 1308.7,
+              "end": 1308.96,
+              "rawStart": 4023,
+              "rawEnd": 4023,
+              "precision": "word"
+            },
+            {
+              "text": "利",
+              "start": 1308.96,
+              "end": 1309.12,
+              "rawStart": 4024,
+              "rawEnd": 4024,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 1309.12,
+              "end": 1309.3,
+              "rawStart": 4025,
+              "rawEnd": 4025,
+              "precision": "word"
+            },
+            {
+              "text": "事",
+              "start": 1309.3,
+              "end": 1309.52,
+              "rawStart": 4026,
+              "rawEnd": 4026,
+              "precision": "word"
+            }
+          ],
+          "reason": "12音节局部短句的首尾音节与正文边界一致，内部识别差异不超过算法限值；短句在该段正文中唯一，未与其他段落混淆。录音与时间稿时长完全一致。 录音文件未在工作区，故无可核对的音频 SHA-256。"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 1260.3,
+        "previousEnd": 1308.7,
+        "previousConfidence": 0.923
+      },
+      "boundaryCorrections": [
+        {
+          "book": "魂与灵",
+          "page": "06_「魂的能力」与「灵的能力」.md",
+          "audio": "6-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\魂与灵\\06_「魂的能力」与「灵的能力」\\audio-02.json",
+          "targetIndex": 71,
+          "edge": "end",
+          "previousTime": 1308.7,
+          "time": 1309.52,
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "kind": "local-phrase-boundary-correction",
+          "proof": {
+            "source": "existing-small-transcript-local-phrase",
+            "model": ".audio-sync-cache\\models\\small",
+            "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\魂与灵\\6-2.mp3.json",
+            "transcriptSha256": "a72fda53c5c3087453b482274a4b53884bfbb098e1d2d152f934c341f1d898f7",
+            "audioSha256": null,
+            "audioDuration": 1797.592375,
+            "syncAudioDuration": 1797.592375,
+            "audioDurationMatch": true,
+            "fullFileTranscribed": false,
+            "newDownloads": 0,
+            "listenedByAgent": false,
+            "timingPrecision": "word",
+            "localSupported": true,
+            "contextUsed": true,
+            "verificationMethod": "bounded-local-12-syllable",
+            "verified": true,
+            "candidateTime": 1309.52,
+            "expectedPhrase": "天然的人是无法受圣灵的事",
+            "actualPhrase": "天然的人是无法受胜利的事",
+            "wordTokens": [
+              {
+                "text": "天",
+                "start": 1306.74,
+                "end": 1307.12,
+                "rawStart": 4015,
+                "rawEnd": 4015,
+                "precision": "word"
+              },
+              {
+                "text": "然",
+                "start": 1307.12,
+                "end": 1307.28,
+                "rawStart": 4016,
+                "rawEnd": 4016,
+                "precision": "word"
+              },
+              {
+                "text": "的",
+                "start": 1307.28,
+                "end": 1307.56,
+                "rawStart": 4017,
+                "rawEnd": 4017,
+                "precision": "word"
+              },
+              {
+                "text": "人",
+                "start": 1307.28,
+                "end": 1307.56,
+                "rawStart": 4018,
+                "rawEnd": 4018,
+                "precision": "word"
+              },
+              {
+                "text": "是",
+                "start": 1307.56,
+                "end": 1307.94,
+                "rawStart": 4019,
+                "rawEnd": 4019,
+                "precision": "word"
+              },
+              {
+                "text": "无",
+                "start": 1307.94,
+                "end": 1308.2,
+                "rawStart": 4020,
+                "rawEnd": 4020,
+                "precision": "word"
+              },
+              {
+                "text": "法",
+                "start": 1308.2,
+                "end": 1308.46,
+                "rawStart": 4021,
+                "rawEnd": 4021,
+                "precision": "word"
+              },
+              {
+                "text": "受",
+                "start": 1308.46,
+                "end": 1308.7,
+                "rawStart": 4022,
+                "rawEnd": 4022,
+                "precision": "word"
+              },
+              {
+                "text": "胜",
+                "start": 1308.7,
+                "end": 1308.96,
+                "rawStart": 4023,
+                "rawEnd": 4023,
+                "precision": "word"
+              },
+              {
+                "text": "利",
+                "start": 1308.96,
+                "end": 1309.12,
+                "rawStart": 4024,
+                "rawEnd": 4024,
+                "precision": "word"
+              },
+              {
+                "text": "的",
+                "start": 1309.12,
+                "end": 1309.3,
+                "rawStart": 4025,
+                "rawEnd": 4025,
+                "precision": "word"
+              },
+              {
+                "text": "事",
+                "start": 1309.3,
+                "end": 1309.52,
+                "rawStart": 4026,
+                "rawEnd": 4026,
+                "precision": "word"
+              }
+            ],
+            "reason": "12音节局部短句的首尾音节与正文边界一致，内部识别差异不超过算法限值；短句在该段正文中唯一，未与其他段落混淆。录音与时间稿时长完全一致。 录音文件未在工作区，故无可核对的音频 SHA-256。"
+          },
+          "reason": "12音节局部短句的首尾音节与正文边界一致，内部识别差异不超过算法限值；短句在该段正文中唯一，未与其他段落混淆。录音与时间稿时长完全一致。 录音文件未在工作区，故无可核对的音频 SHA-256。"
+        }
+      ]
+    },
+    {
+      "start": 1310.6,
+      "end": 1352.94,
+      "kind": "paragraph",
+      "targetIndex": 72,
+      "targetText": "当我们读到主耶稣基督所说的子凭着自己不能做什么时这是何等令人惊奇他从未凭他自己的意思来做任何事情",
+      "confidence": 0.919,
+      "quality": {
+        "coverage": 0.922,
+        "coherentCoverage": 0.887,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1310.6,
+        "previousEnd": 1352.94,
+        "previousConfidence": 0.919
+      }
+    },
+    {
+      "start": 1354.16,
+      "end": 1388.68,
+      "kind": "paragraph",
+      "targetIndex": 73,
+      "targetText": "主耶稣又说我怎么听见就怎么审判我不受从人来的荣耀我来不是要照着自己的意思行我不求自己的荣耀以上是",
+      "confidence": 0.951,
+      "quality": {
+        "coverage": 0.951,
+        "coherentCoverage": 0.922,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1354.16,
+        "previousEnd": 1388.68,
+        "previousConfidence": 0.951
+      }
+    },
+    {
+      "start": 1389.52,
+      "end": 1473.59,
+      "kind": "paragraph",
+      "targetIndex": 74,
       "targetText": "今天的危机是上帝的儿女们因为不知道心灵能力的存在以致任其发展而广泛地传讲心理学也带来了危险现在很",
-      "confidence": 0.768
+      "confidence": 0.914,
+      "quality": {
+        "coverage": 0.909,
+        "coherentCoverage": 0.89,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1389.52,
+        "previousEnd": 1473.59,
+        "previousConfidence": 0.914
+      }
     },
     {
       "start": 1474.59,
-      "end": 1567.58,
+      "end": 1565.98,
       "kind": "paragraph",
-      "targetIndex": 72,
+      "targetIndex": 75,
       "targetText": "在此我要指出的是关于魂的能力对基督徒生命的危害魂的能力与意志有关主能够释放且增强意志但乃是借圣灵",
-      "confidence": 0.801
+      "confidence": 0.967,
+      "quality": {
+        "coverage": 0.967,
+        "coherentCoverage": 0.967,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1474.59,
+        "previousEnd": 1565.98,
+        "previousConfidence": 0.967
+      }
     },
     {
       "start": 1567.58,
-      "end": 1709.44,
+      "end": 1706.44,
       "kind": "paragraph",
-      "targetIndex": 73,
+      "targetIndex": 76,
       "targetText": "在敬拜上也有运用心灵能力的危险主说上帝是个灵所以拜他的必须用心灵和诚实拜他那么许多教会极力培养官",
-      "confidence": 0.931
+      "confidence": 0.931,
+      "quality": {
+        "coverage": 0.935,
+        "coherentCoverage": 0.906,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1567.58,
+        "previousEnd": 1706.44,
+        "previousConfidence": 0.931
+      }
     },
     {
       "start": 1709.44,
-      "end": 1734.42,
+      "end": 1735.36,
       "kind": "paragraph",
-      "targetIndex": 74,
+      "targetIndex": 77,
       "targetText": "目前属灵信徒的危机是运用魂的能力由于来自四面八方的思想潮流许多人就深受影响甚至未留心警戒你可以全",
-      "confidence": 0.902
+      "confidence": 0.902,
+      "quality": {
+        "coverage": 0.881,
+        "coherentCoverage": 0.857,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\魂与灵\\6-2.mp3.json",
+          "transcriptSha256": "8a1c79313b151190347cfa5cb560b5a69317667803a8c122b62d8bc2e3a164d8",
+          "phraseChars": 12,
+          "candidate": 1709.44,
+          "expectedPhrase": "目前属灵信徒的危机是运用",
+          "actualPhrase": "目前树林信徒的危机是运用",
+          "phoneticPhrase": [
+            "mu",
+            "qian",
+            "shu",
+            "ling",
+            "xin",
+            "tu",
+            "de",
+            "wei",
+            "ji",
+            "shi",
+            "yun",
+            "yong"
+          ],
+          "actualPhoneticPhrase": [
+            "mu",
+            "qian",
+            "shu",
+            "lin",
+            "xin",
+            "tu",
+            "de",
+            "wei",
+            "ji",
+            "shi",
+            "yun",
+            "yong"
+          ],
+          "verified": true,
+          "time": 1709.44,
+          "boundedPhonetic": true,
+          "exactEndpointPhonemes": 2,
+          "maxInternalPhoneticDifferences": 2,
+          "phoneticDifferences": [
+            3
+          ],
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "目",
+              "start": 1709.44,
+              "end": 1709.78,
+              "rawStart": 5250,
+              "rawEnd": 5250,
+              "precision": "word"
+            },
+            {
+              "text": "前",
+              "start": 1709.44,
+              "end": 1709.78,
+              "rawStart": 5251,
+              "rawEnd": 5251,
+              "precision": "word"
+            },
+            {
+              "text": "树",
+              "start": 1709.78,
+              "end": 1710.26,
+              "rawStart": 5252,
+              "rawEnd": 5252,
+              "precision": "word"
+            },
+            {
+              "text": "林",
+              "start": 1710.26,
+              "end": 1710.44,
+              "rawStart": 5253,
+              "rawEnd": 5253,
+              "precision": "word"
+            },
+            {
+              "text": "信",
+              "start": 1710.44,
+              "end": 1710.68,
+              "rawStart": 5254,
+              "rawEnd": 5254,
+              "precision": "word"
+            },
+            {
+              "text": "徒",
+              "start": 1710.68,
+              "end": 1710.84,
+              "rawStart": 5255,
+              "rawEnd": 5255,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 1710.84,
+              "end": 1710.96,
+              "rawStart": 5256,
+              "rawEnd": 5256,
+              "precision": "word"
+            },
+            {
+              "text": "危",
+              "start": 1710.96,
+              "end": 1711.16,
+              "rawStart": 5257,
+              "rawEnd": 5257,
+              "precision": "word"
+            },
+            {
+              "text": "机",
+              "start": 1711.16,
+              "end": 1711.44,
+              "rawStart": 5258,
+              "rawEnd": 5258,
+              "precision": "word"
+            },
+            {
+              "text": "是",
+              "start": 1711.44,
+              "end": 1712.08,
+              "rawStart": 5259,
+              "rawEnd": 5259,
+              "precision": "word"
+            },
+            {
+              "text": "运",
+              "start": 1712.08,
+              "end": 1712.42,
+              "rawStart": 5260,
+              "rawEnd": 5260,
+              "precision": "word"
+            },
+            {
+              "text": "用",
+              "start": 1712.42,
+              "end": 1712.64,
+              "rawStart": 5261,
+              "rawEnd": 5261,
+              "precision": "word"
+            }
+          ],
+          "source": "bounded-local-phonetic-differences-original-word-times",
+          "listenedByAgent": false,
+          "audioSha256": "47930c9914f2d2c485299d546e57925918c454f29df3a393c7e61bafc011ec15",
+          "reason": "实际首/尾2个音节贴边相同，12音节局部短句最多2处内部识别差异；完整词边界、源段及录音唯一性、数字一致、停顿与相邻时间均核验，不逐字检查正文中间。"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 1709.44,
+        "previousEnd": 1734.42,
+        "previousConfidence": 0.902
+      },
+      "boundaryCorrections": [
+        {
+          "book": "魂与灵",
+          "page": "06_「魂的能力」与「灵的能力」.md",
+          "audio": "6-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\魂与灵\\06_「魂的能力」与「灵的能力」\\audio-02.json",
+          "targetIndex": 77,
+          "edge": "start",
+          "previousTime": 1709.44,
+          "time": 1709.44,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 1734.42,
+            "time": 1735.36,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\魂与灵\\6-2.mp3.json",
+              "sha256": "a72fda53c5c3087453b482274a4b53884bfbb098e1d2d152f934c341f1d898f7",
+              "anchor": {
+                "time": 1735.36,
+                "score": 0.956,
+                "ratio": 0.963,
+                "expected": "qiutagejuezheyiqiemanyandeshushiqiyan",
+                "actual": "求他割决这1切蔓延的蜀式企",
+                "span": [
+                  1731.4,
+                  1735.36
+                ],
+                "tokens": [
+                  {
+                    "text": "求",
+                    "start": 1731.4,
+                    "end": 1731.62,
+                    "rawStart": 5320,
+                    "rawEnd": 5320,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "他",
+                    "start": 1731.62,
+                    "end": 1731.88,
+                    "rawStart": 5321,
+                    "rawEnd": 5321,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "割",
+                    "start": 1731.88,
+                    "end": 1732.72,
+                    "rawStart": 5322,
+                    "rawEnd": 5322,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "决",
+                    "start": 1732.72,
+                    "end": 1733.0,
+                    "rawStart": 5323,
+                    "rawEnd": 5323,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "这",
+                    "start": 1733.0,
+                    "end": 1733.32,
+                    "rawStart": 5324,
+                    "rawEnd": 5324,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 1733.32,
+                    "end": 1733.54,
+                    "rawStart": 5325,
+                    "rawEnd": 5325,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "切",
+                    "start": 1733.54,
+                    "end": 1733.66,
+                    "rawStart": 5326,
+                    "rawEnd": 5326,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "蔓",
+                    "start": 1733.66,
+                    "end": 1733.92,
+                    "rawStart": 5327,
+                    "rawEnd": 5327,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "延",
+                    "start": 1733.92,
+                    "end": 1734.14,
+                    "rawStart": 5328,
+                    "rawEnd": 5328,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 1734.14,
+                    "end": 1734.42,
+                    "rawStart": 5329,
+                    "rawEnd": 5329,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "蜀",
+                    "start": 1734.42,
+                    "end": 1734.8,
+                    "rawStart": 5330,
+                    "rawEnd": 5330,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "式",
+                    "start": 1734.8,
+                    "end": 1735.06,
+                    "rawStart": 5331,
+                    "rawEnd": 5331,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "企",
+                    "start": 1735.06,
+                    "end": 1735.36,
+                    "rawStart": 5332,
+                    "rawEnd": 5332,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": true,
+                "alternative": {
+                  "time": 1737.92,
+                  "score": 0.8871,
+                  "actual": "求他割决这1切蔓延的蜀式企业且"
+                }
+              },
+              "body": "目前属灵信徒的危机是运用魂的能力。由于来自四面八方的思想潮流,许多人就深受影响,甚至未留心警戒。你可以全然脱离这些潮流,只要你站在基督死的立场上,同时祈求他隔绝这一切蔓延的属世气焰。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.881,
+          "coherentCoverage": 0.857,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.9,
+          "suffixCoverage": 0.7,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 4,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [
+            "end substitution"
+          ],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\魂与灵\\6-2.mp3.json",
+            "transcriptSha256": "8a1c79313b151190347cfa5cb560b5a69317667803a8c122b62d8bc2e3a164d8",
+            "phraseChars": 12,
+            "candidate": 1709.44,
+            "expectedPhrase": "目前属灵信徒的危机是运用",
+            "actualPhrase": "目前树林信徒的危机是运用",
+            "phoneticPhrase": [
+              "mu",
+              "qian",
+              "shu",
+              "ling",
+              "xin",
+              "tu",
+              "de",
+              "wei",
+              "ji",
+              "shi",
+              "yun",
+              "yong"
+            ],
+            "actualPhoneticPhrase": [
+              "mu",
+              "qian",
+              "shu",
+              "lin",
+              "xin",
+              "tu",
+              "de",
+              "wei",
+              "ji",
+              "shi",
+              "yun",
+              "yong"
+            ],
+            "verified": true,
+            "time": 1709.44,
+            "boundedPhonetic": true,
+            "exactEndpointPhonemes": 2,
+            "maxInternalPhoneticDifferences": 2,
+            "phoneticDifferences": [
+              3
+            ],
+            "localSupported": true,
+            "timingPrecision": "word",
+            "wordTokens": [
+              {
+                "text": "目",
+                "start": 1709.44,
+                "end": 1709.78,
+                "rawStart": 5250,
+                "rawEnd": 5250,
+                "precision": "word"
+              },
+              {
+                "text": "前",
+                "start": 1709.44,
+                "end": 1709.78,
+                "rawStart": 5251,
+                "rawEnd": 5251,
+                "precision": "word"
+              },
+              {
+                "text": "树",
+                "start": 1709.78,
+                "end": 1710.26,
+                "rawStart": 5252,
+                "rawEnd": 5252,
+                "precision": "word"
+              },
+              {
+                "text": "林",
+                "start": 1710.26,
+                "end": 1710.44,
+                "rawStart": 5253,
+                "rawEnd": 5253,
+                "precision": "word"
+              },
+              {
+                "text": "信",
+                "start": 1710.44,
+                "end": 1710.68,
+                "rawStart": 5254,
+                "rawEnd": 5254,
+                "precision": "word"
+              },
+              {
+                "text": "徒",
+                "start": 1710.68,
+                "end": 1710.84,
+                "rawStart": 5255,
+                "rawEnd": 5255,
+                "precision": "word"
+              },
+              {
+                "text": "的",
+                "start": 1710.84,
+                "end": 1710.96,
+                "rawStart": 5256,
+                "rawEnd": 5256,
+                "precision": "word"
+              },
+              {
+                "text": "危",
+                "start": 1710.96,
+                "end": 1711.16,
+                "rawStart": 5257,
+                "rawEnd": 5257,
+                "precision": "word"
+              },
+              {
+                "text": "机",
+                "start": 1711.16,
+                "end": 1711.44,
+                "rawStart": 5258,
+                "rawEnd": 5258,
+                "precision": "word"
+              },
+              {
+                "text": "是",
+                "start": 1711.44,
+                "end": 1712.08,
+                "rawStart": 5259,
+                "rawEnd": 5259,
+                "precision": "word"
+              },
+              {
+                "text": "运",
+                "start": 1712.08,
+                "end": 1712.42,
+                "rawStart": 5260,
+                "rawEnd": 5260,
+                "precision": "word"
+              },
+              {
+                "text": "用",
+                "start": 1712.42,
+                "end": 1712.64,
+                "rawStart": 5261,
+                "rawEnd": 5261,
+                "precision": "word"
+              }
+            ],
+            "source": "bounded-local-phonetic-differences-original-word-times",
+            "listenedByAgent": false,
+            "audioSha256": "47930c9914f2d2c485299d546e57925918c454f29df3a393c7e61bafc011ec15",
+            "reason": "实际首/尾2个音节贴边相同，12音节局部短句最多2处内部识别差异；完整词边界、源段及录音唯一性、数字一致、停顿与相邻时间均核验，不逐字检查正文中间。"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 1734.42,
+      "start": 1737.32,
       "end": 1794.76,
       "kind": "paragraph",
-      "targetIndex": 75,
+      "targetIndex": 78,
       "targetText": "且让我们扪心自问我们的心思是否真正地更新了我们的心思是否被上帝的圣灵光照并坚固或者我们只是一个有",
-      "confidence": 0.878
+      "confidence": 0.961,
+      "quality": {
+        "coverage": 0.961,
+        "coherentCoverage": 0.961,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1737.32,
+        "previousEnd": 1794.76,
+        "previousConfidence": 0.961
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 42: 慕安德烈博士说道：「人们魂不正常的活动、不正常地运用心思和意志的能力，乃是最大的危险。」现今，这",
+    "incomplete end (18 trailing chars, coverage 0.100): target 44: 现在，让我们尽力简要地来看有关「魂的能力」这个题目。再没有别人比麦哈迪太太（Mrs.McHard",
+    "unverified end anchor: target 44: 现在，让我们尽力简要地来看有关「魂的能力」这个题目。再没有别人比麦哈迪太太（Mrs.McHard",
+    "unverified end anchor: target 48: （二）那试探者知道在无罪的亚当里的潜能，它企图把这些能力置于它的控制下，而非在神的管理下所以它在",
+    "unverified start anchor (detached numeric label): target 50: （三）亚当堕落后在灵里与神有了极大的分隔，他所有的潜能与他一同堕落了，而且这些潜能是落在那试探者",
+    "unverified start anchor: target 53: 从降灵术的历史上我们知道，第一次的进展是由安东麦斯摩（Anton Mesmer）于一七七八年所发",
+    "unverified end anchor: target 55: 刚开始时，科学家只是追随这些「发现」，把它视为自然科学的分支，并没有想把它与灵媒的现象牵连在一起",
+    "incomplete end (0 trailing chars, coverage 0.250): target 56: 其次，我们来看看撒但如何计划掳掠「商人」，这是今日广泛所遇到的事。它的计划是把这些「发现」列为生",
+    "unverified end anchor: target 56: 其次，我们来看看撒但如何计划掳掠「商人」，这是今日广泛所遇到的事。它的计划是把这些「发现」列为生",
+    "unverified end anchor: target 57: 再者，我们来看看仇敌努力要得着「宗教家」的计谋。我们看见今天有许多基督教的教师吸取了鬼魔有关圣经",
+    "unverified start anchor: target 58: 我们确信所预言的「撇弃」真道的潮流正达到高潮，而且正急速地在扩张中。神和人类的头号仇敌正在掌舵，",
+    "unverified start anchor: target 61: 现在，神的儿女们必须知道如何护卫自己，以分辨「魂与灵」的不同。他们必须知道，在处理与别人相关的问",
+    "unverified end anchor (detached numeric label): target 65: 「魂的能力」简单地说是来自于魂，而「灵的能力」则是源自于灵。魂是「魂的能力」及「灵的能力」二者表",
+    "unverified start anchor: target 67: 现今的危险是，一切的事都在属魂的范畴中，但却仿冒为属灵的；因着无知而发展并运用这些心灵的能力，却",
+    "unverified end anchor: target 68: 再者，信徒为了得到「圣灵的洗」的「确据」，就被假以催眠术的方法，于是这些仿冒的「圣灵的洗」便进入",
+    "unverified start anchor: target 70: 「肉体是无益的」。属灵的工作是真实无伪的，如果能力是来自魂中肉体的生命，那定然结不出果子。你虽劳",
+    "unverified end anchor: target 71: 让我们来看约翰福音的几处经文，首先来看看主所说有关他对自己及自己「能力」的态度虽然在他的情形来说",
+    "unverified end anchor: target 74: 今天的危机是，神的儿女们因为不知道心灵能力的存在，以致任其发展。而广泛地传讲心理学也带来了危险。",
+    "incomplete end (4 trailing chars, coverage 0.700): target 77: 目前属灵信徒的危机是运用魂的能力。由于来自四面八方的思想潮流，许多人就深受影响，甚至未留心警戒。",
+    "unverified start anchor: target 77: 目前属灵信徒的危机是运用魂的能力。由于来自四面八方的思想潮流，许多人就深受影响，甚至未留心警戒。",
+    "unverified end anchor: target 77: 目前属灵信徒的危机是运用魂的能力。由于来自四面八方的思想潮流，许多人就深受影响，甚至未留心警戒。",
+    "repair unverified start (previous-sync): target 42",
+    "repair unverified end (previous-sync): target 44",
+    "repair unverified end (previous-sync): target 48",
+    "repair unverified start (previous-sync): target 53",
+    "repair unverified end (previous-sync): target 55",
+    "repair unverified end (previous-sync): target 56",
+    "repair unverified end (previous-sync): target 57",
+    "repair unverified start (previous-sync): target 61",
+    "repair unverified end (previous-sync): target 65",
+    "repair unverified end (previous-sync): target 68",
+    "repair unverified start (previous-sync): target 70",
+    "repair unverified end (previous-sync): target 71",
+    "repair unverified start (previous-sync): target 77",
+    "repair unverified end (previous-sync): target 77",
+    "local phrase context confirmed end: target 55; original ASR differences and warnings retained"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 5,
+    "unverifiedEnds": 9,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 47,
+      "targetIndex": 48,
+      "targetText": "二那试探者知道在无罪的亚当里的潜能它企图把这些能力置于它的控制下而非在上帝的管理下所以它在伊甸园",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 48,
+      "targetIndex": 50,
+      "targetText": "三亚当堕落后在灵里与上帝有了极大的分隔他所有的潜能与他一同堕落了而且这些潜能是落在那试探者的控制",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 49,
+      "targetIndex": 52,
+      "targetText": "在前文我们提到撒但最大的计谋其主要策略是掳掠1科学家2商人3宗教家这是经由一个邪灵控制下所指示的",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 50,
+      "targetIndex": 53,
+      "targetText": "从降灵术的历史上我们知道第一次的进展是由安东麦斯摩antonmesmer于一七七八年所发现即请灵",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 51,
+      "targetIndex": 54,
+      "targetText": "在麦斯摩获得人们里面潜伏上帝秘能力的基本知识之后他的同道也跟着有一连串的发现当人们找到了钥匙之后",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 52,
+      "targetIndex": 55,
+      "targetText": "刚开始时科学家只是追随这些发现把它视为自然科学的分支并没有想把它与灵媒的现象牵连在一起而且他们在",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 53,
+      "targetIndex": 56,
+      "targetText": "其次我们来看看撒但如何计划掳掠商人这是今日广泛所遇到的事它的计划是把这些发现列为生意上成功的条件",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 54,
+      "targetIndex": 57,
+      "targetText": "再者我们来看看仇敌努力要得着宗教家的计谋我们看见今天有许多基督教的教师吸取了鬼魔有关圣经的纯理性",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 55,
+      "targetIndex": 58,
+      "targetText": "我们确信所预言的撇弃真道的潮流正达到高潮而且正急速地在扩张中上帝和人类的头号仇敌正在掌舵它要使全",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 56,
+      "targetIndex": 59,
+      "targetText": "今天一个发现紧跟着一个发现每天的报纸似乎都已无法赶上其发展的速度举例来说心理分析现在被认为是一门",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 57,
+      "targetIndex": 60,
+      "targetText": "一般有见识的人把现今心灵学的洪流描绘成这个时代的挪亚的日子挪亚时代的洪水毁灭了凡有血气的但借着一",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 58,
+      "targetIndex": 61,
+      "targetText": "现在上帝的儿女们必须知道如何护卫自己以分辨魂与灵的不同他们必须知道在处理与别人相关的问题上可能误",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 59,
+      "targetIndex": 62,
+      "targetText": "魂的能力与灵的能力对抗是今天的主要战场基督的身体乃是借着在他里面圣灵的能力而得以升天这世上乌云密",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 61,
+      "targetIndex": 64,
+      "targetText": "这是一篇聚会信息特别用比较简单的方式来说明魂的区别可与前面讲章相互参照",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 62,
+      "targetIndex": 65,
+      "targetText": "魂的能力简单地说是来自于魂而灵的能力则是源自于灵魂是魂的能力及灵的能力二者表显的媒介魂的能力是借",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 63,
+      "targetIndex": 66,
+      "targetText": "我曾说过魂的能力是起源于魂更正确地说它是源自于身体或动物性的生命就是圣经所说的肉体现今所发现魂的",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 64,
+      "targetIndex": 67,
+      "targetText": "现今的危险是一切的事都在属魂的范畴中但却仿冒为属灵的因着无知而发展并运用这些心灵的能力却又误以为",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 65,
+      "targetIndex": 68,
+      "targetText": "再者信徒为了得到圣灵的洗的确据就被假以催眠术的方法于是这些仿冒的圣灵的洗便进入了属于基督的教会另",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 66,
+      "targetIndex": 69,
+      "targetText": "这是今天世界上像洪水般的心灵能力的潮流是魔鬼藉以执行它的计划和目标的凭借叫人活的乃是圣灵肉体是无",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 67,
+      "targetIndex": 70,
+      "targetText": "肉体是无益的属灵的工作是真实无伪的如果能力是来自魂中肉体的生命那定然结不出果子你虽劳苦却没有果子",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 68,
+      "targetIndex": 71,
+      "targetText": "让我们来看约翰福音的几处经文首先来看看主所说有关他对自己及自己能力的态度虽然在他的情形来说这些都",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 69,
+      "targetIndex": 72,
+      "targetText": "当我们读到主耶稣基督所说的子凭着自己不能做什么时这是何等令人惊奇他从未凭他自己的意思来做任何事情",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 70,
+      "targetIndex": 73,
+      "targetText": "主耶稣又说我怎么听见就怎么审判我不受从人来的荣耀我来不是要照着自己的意思行我不求自己的荣耀以上是",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 71,
+      "targetIndex": 74,
+      "targetText": "今天的危机是上帝的儿女们因为不知道心灵能力的存在以致任其发展而广泛地传讲心理学也带来了危险现在很",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 72,
+      "targetIndex": 75,
+      "targetText": "在此我要指出的是关于魂的能力对基督徒生命的危害魂的能力与意志有关主能够释放且增强意志但乃是借圣灵",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 73,
+      "targetIndex": 76,
+      "targetText": "在敬拜上也有运用心灵能力的危险主说上帝是个灵所以拜他的必须用心灵和诚实拜他那么许多教会极力培养官",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 74,
+      "targetIndex": 77,
+      "targetText": "目前属灵信徒的危机是运用魂的能力由于来自四面八方的思想潮流许多人就深受影响甚至未留心警戒你可以全",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 75,
+      "targetIndex": 78,
+      "targetText": "且让我们扪心自问我们的心思是否真正地更新了我们的心思是否被上帝的圣灵光照并坚固或者我们只是一个有",
+      "method": "exact-text-and-reproduced-parser-index"
+    }
+  ],
+  "chronologyReordered": false,
+  "repairFingerprint": "467668e813b4e93900bf1092102d6934709951e90649c1de0746e13f292f32ba",
+  "repairCueDigest": "a1403736aa1b5c7ee2892af810af58f54fb3fc28d34e0a19612863bb8d2555f0",
+  "previousAlignmentWarnings": [],
+  "targetIndexMethod": "body-global-v8-rendered-list-and-empty-paragraph-indices"
 }

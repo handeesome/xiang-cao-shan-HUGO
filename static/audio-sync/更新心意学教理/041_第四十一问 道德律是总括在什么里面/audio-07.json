@@ -8,44 +8,706 @@
   "audioDuration": 78.9420625,
   "cues": [
     {
-      "start": 1.64,
-      "end": 3.18,
-      "kind": "heading",
-      "targetIndex": 24,
-      "targetText": "礼拜六",
-      "confidence": 0.8
-    },
-    {
       "start": 3.18,
-      "end": 27.42,
+      "end": 28.84,
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "我们没有可能一直全守上帝的律法任何一条律法被触犯上帝都会愤怒惩罚罪人我们怎么还有指望能够让祂喜悦",
-      "confidence": 0.684
+      "confidence": 0.969,
+      "quality": {
+        "coverage": 0.963,
+        "coherentCoverage": 0.963,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 3.18,
+        "previousEnd": 27.42,
+        "previousConfidence": 0.935
+      }
     },
     {
-      "start": 27.42,
-      "end": 36.56,
+      "start": 29.96,
+      "end": 36.9,
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "罗马书104律法的总结就是基督使凡信祂的都得着义",
-      "confidence": 0.667
+      "confidence": 0.756,
+      "quality": {
+        "coverage": 0.654,
+        "coherentCoverage": 0.654,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.385,
+        "suffixCoverage": 0.923,
+        "unmatchedLeadingChars": 8,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "previous-verified-sync",
+        "previousStart": 27.42,
+        "previousEnd": 36.9,
+        "previousConfidence": 0.816
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 28.84,
+            "time": 29.96,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\41-6.mp3.json",
+              "sha256": "cd5e3ef2e64a904de6146efb91b228a284f323b9c32475296ead5d53dc104abb",
+              "anchor": {
+                "time": 29.96,
+                "score": 0.9989,
+                "ratio": 1.0,
+                "expected": "lvfadezongjiejiushijidushifanxintade",
+                "actual": "律法的总结就是基督使凡信他的",
+                "span": [
+                  29.96,
+                  35.28
+                ],
+                "tokens": [
+                  {
+                    "text": "律",
+                    "start": 29.96,
+                    "end": 30.64,
+                    "rawStart": 85,
+                    "rawEnd": 85,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "法",
+                    "start": 30.64,
+                    "end": 30.86,
+                    "rawStart": 86,
+                    "rawEnd": 86,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 30.86,
+                    "end": 30.96,
+                    "rawStart": 87,
+                    "rawEnd": 87,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "总",
+                    "start": 30.96,
+                    "end": 31.2,
+                    "rawStart": 88,
+                    "rawEnd": 88,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "结",
+                    "start": 31.2,
+                    "end": 31.5,
+                    "rawStart": 89,
+                    "rawEnd": 89,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "就",
+                    "start": 31.5,
+                    "end": 32.26,
+                    "rawStart": 90,
+                    "rawEnd": 90,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 31.5,
+                    "end": 32.26,
+                    "rawStart": 91,
+                    "rawEnd": 91,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "基",
+                    "start": 32.26,
+                    "end": 32.7,
+                    "rawStart": 92,
+                    "rawEnd": 92,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "督",
+                    "start": 32.7,
+                    "end": 32.92,
+                    "rawStart": 93,
+                    "rawEnd": 93,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "使",
+                    "start": 32.92,
+                    "end": 33.96,
+                    "rawStart": 94,
+                    "rawEnd": 94,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "凡",
+                    "start": 33.96,
+                    "end": 34.5,
+                    "rawStart": 95,
+                    "rawEnd": 95,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "信",
+                    "start": 34.5,
+                    "end": 34.82,
+                    "rawStart": 96,
+                    "rawEnd": 96,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "他",
+                    "start": 34.82,
+                    "end": 35.28,
+                    "rawStart": 97,
+                    "rawEnd": 97,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 34.82,
+                    "end": 35.28,
+                    "rawStart": 98,
+                    "rawEnd": 98,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "律法的总结就是基督,使凡信祂的都得着义。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.654,
+          "coherentCoverage": 0.654,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.385,
+          "suffixCoverage": 0.923,
+          "unmatchedLeadingChars": 8,
+          "unmatchedTrailingChars": 1,
+          "reviewRequired": true,
+          "boundaryAdjusted": [
+            "end substitution"
+          ],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-verified-end"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     },
     {
-      "start": 36.56,
-      "end": 63.88,
+      "start": 38.2,
+      "end": 65.52,
       "kind": "paragraph",
       "targetIndex": 27,
       "targetText": "如果我们信靠耶稣满足上帝所有的要求是不是说我们不用再思虑遵守上帝道德律的事了绝对不是我们现在是上",
-      "confidence": 0.8
+      "confidence": 0.817,
+      "quality": {
+        "coverage": 0.775,
+        "coherentCoverage": 0.753,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.45,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 10,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "source": "context-reviewed-read-prompt-ending",
+          "contextUsed": true,
+          "identityAmbiguous": false,
+          "continuousAnchor": false,
+          "timingPrecision": "word",
+          "time": 65.52,
+          "expectedPhrase": "上帝道德律的事了？绝对不是。我们现在是上帝的儿女，我们想要像祂的样式。我们想要让祂知道我们是怎样地爱祂。请读约翰福音14:15。",
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\41-6.mp3.json",
+          "transcriptSha256": "c1a74c12cf289b4786ee1b9a7a688d7d41c0010b64fcf8171c314e8497bee829",
+          "audioSha256": "2a1ba177e0bee749e73f71401a03a1061a71ca182d3508386c35457236f9a45f",
+          "rawSegments": [
+            {
+              "start": 62.36,
+              "end": 65.52,
+              "text": "请读愿福音十四章十五节",
+              "words": [
+                {
+                  "start": 62.36,
+                  "end": 62.92,
+                  "text": "请",
+                  "probability": 0.7584352493286133
+                },
+                {
+                  "start": 62.92,
+                  "end": 63.2,
+                  "text": "读",
+                  "probability": 0.9829197525978088
+                },
+                {
+                  "start": 63.2,
+                  "end": 63.44,
+                  "text": "愿",
+                  "probability": 0.5259837284684181
+                },
+                {
+                  "start": 63.44,
+                  "end": 63.7,
+                  "text": "福",
+                  "probability": 0.10619813203811646
+                },
+                {
+                  "start": 63.7,
+                  "end": 63.88,
+                  "text": "音",
+                  "probability": 0.8653929829597473
+                },
+                {
+                  "start": 63.88,
+                  "end": 64.36,
+                  "text": "十",
+                  "probability": 0.5815863609313965
+                },
+                {
+                  "start": 64.36,
+                  "end": 64.58,
+                  "text": "四",
+                  "probability": 0.9921603798866272
+                },
+                {
+                  "start": 64.58,
+                  "end": 64.86,
+                  "text": "章",
+                  "probability": 0.992152065038681
+                },
+                {
+                  "start": 64.86,
+                  "end": 65.12,
+                  "text": "十",
+                  "probability": 0.8914960622787476
+                },
+                {
+                  "start": 65.12,
+                  "end": 65.34,
+                  "text": "五",
+                  "probability": 0.9986662864685059
+                },
+                {
+                  "start": 65.34,
+                  "end": 65.52,
+                  "text": "节",
+                  "probability": 0.9471683502197266
+                }
+              ]
+            }
+          ],
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+          "listenedByAgent": false
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "next-verified-start",
+        "previousStart": 38.2,
+        "previousEnd": 63.88,
+        "previousConfidence": 0.84
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "041_第四十一问 道德律是总括在什么里面.md",
+          "audio": "41-6.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\041_第四十一问 道德律是总括在什么里面\\audio-07.json",
+          "caseIndex": 625,
+          "targetIndex": 27,
+          "edge": "end",
+          "previousTime": 63.44,
+          "time": 65.52,
+          "kind": "verified-edge",
+          "previousEvidence": {
+            "verified": false,
+            "source": "next-verified-start"
+          },
+          "previousVerified": false,
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。"
+        }
+      ]
     },
     {
-      "start": 63.88,
+      "start": 66.32,
       "end": 71.22,
       "kind": "paragraph",
       "targetIndex": 28,
       "targetText": "约翰福音1415你们若爱我就必遵守我的命令",
-      "confidence": 0.65
+      "confidence": 0.955,
+      "quality": {
+        "coverage": 0.913,
+        "coherentCoverage": 0.913,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.818,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "localSupported": false,
+          "source": "previous-verified-end",
+          "time": 65.52,
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "referenceOwnershipConstraint": {
+          "ownerTargetIndex": 27,
+          "ownerTargetText": "如果我们信靠耶稣满足上帝所有的要求是不是说我们不用再思虑遵守上帝道德律的事了绝对不是我们现在是上",
+          "notBefore": 65.52,
+          "verifiedSpokenOnset": false
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 63.88,
+        "previousEnd": 71.22,
+        "previousConfidence": 0.65
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "041_第四十一问 道德律是总括在什么里面.md",
+          "audio": "41-6.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\041_第四十一问 道德律是总括在什么里面\\audio-07.json",
+          "caseIndex": 625,
+          "targetIndex": 28,
+          "edge": "start",
+          "previousTime": 63.44,
+          "time": 65.52,
+          "kind": "unverified-neighbor-constraint",
+          "previousVerified": true,
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 65.52,
+            "time": 66.32,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\41-6.mp3.json",
+              "sha256": "cd5e3ef2e64a904de6146efb91b228a284f323b9c32475296ead5d53dc104abb",
+              "anchor": {
+                "time": 66.32,
+                "score": 0.9992,
+                "ratio": 1.0,
+                "expected": "nimenruoaiwojiubizunshouwodemingling",
+                "actual": "你们若爱我就必遵守我的命令",
+                "span": [
+                  66.32,
+                  71.22
+                ],
+                "tokens": [
+                  {
+                    "text": "你",
+                    "start": 66.32,
+                    "end": 66.88,
+                    "rawStart": 191,
+                    "rawEnd": 191,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 66.32,
+                    "end": 66.88,
+                    "rawStart": 192,
+                    "rawEnd": 192,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "若",
+                    "start": 66.88,
+                    "end": 67.16,
+                    "rawStart": 193,
+                    "rawEnd": 193,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "爱",
+                    "start": 67.16,
+                    "end": 67.48,
+                    "rawStart": 194,
+                    "rawEnd": 194,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 67.48,
+                    "end": 67.9,
+                    "rawStart": 195,
+                    "rawEnd": 195,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "就",
+                    "start": 67.9,
+                    "end": 68.78,
+                    "rawStart": 196,
+                    "rawEnd": 196,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "必",
+                    "start": 68.78,
+                    "end": 69.36,
+                    "rawStart": 197,
+                    "rawEnd": 197,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "遵",
+                    "start": 69.36,
+                    "end": 69.76,
+                    "rawStart": 198,
+                    "rawEnd": 198,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "守",
+                    "start": 69.76,
+                    "end": 70.12,
+                    "rawStart": 199,
+                    "rawEnd": 199,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 70.12,
+                    "end": 70.6,
+                    "rawStart": 200,
+                    "rawEnd": 200,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 70.12,
+                    "end": 70.6,
+                    "rawStart": 201,
+                    "rawEnd": 201,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "命",
+                    "start": 70.6,
+                    "end": 70.92,
+                    "rawStart": 202,
+                    "rawEnd": 202,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "令",
+                    "start": 70.92,
+                    "end": 71.22,
+                    "rawStart": 203,
+                    "rawEnd": 203,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "你们若爱我,就必遵守我的命令。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.913,
+          "coherentCoverage": 0.913,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.818,
+          "suffixCoverage": 1.0,
+          "unmatchedLeadingChars": 2,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "localSupported": false,
+            "source": "previous-verified-end",
+            "time": 65.52,
+            "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "referenceOwnershipConstraint": {
+            "ownerTargetIndex": 27,
+            "ownerTargetText": "如果我们信靠耶稣满足上帝所有的要求是不是说我们不用再思虑遵守上帝道德律的事了绝对不是我们现在是上",
+            "notBefore": 65.52,
+            "verifiedSpokenOnset": false
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (8 leading chars, coverage 0.385): target 26: 罗马书10:4 律法的总结就是基督，使凡信祂的都得着义。",
+    "unverified start anchor: target 26: 罗马书10:4 律法的总结就是基督，使凡信祂的都得着义。",
+    "incomplete end (10 trailing chars, coverage 0.450): target 27: 如果我们信靠耶稣满足上帝所有的要求，是不是说我们不用再思虑遵守上帝道德律的事了？绝对不是。我们现",
+    "unverified end anchor: target 27: 如果我们信靠耶稣满足上帝所有的要求，是不是说我们不用再思虑遵守上帝道德律的事了？绝对不是。我们现",
+    "repair unverified start (previous-verified-end): target 26",
+    "repair unverified end (next-verified-start): target 27",
+    "context reviewed end: target 27; 前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+    "unverified constrained start: target 28; 旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "0b239f52199ff8492820f382e73e63c56025e367c16de49fc42186758dd576e0",
+  "repairCueDigest": "0a3148751219730750008a67cdd35793de6326910e9186784a22cd27eec7ea4f",
+  "previousAlignmentWarnings": []
 }

@@ -8,68 +8,964 @@
   "audioDuration": 690.6775625,
   "cues": [
     {
-      "start": 19.25,
-      "end": 27.4,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第四天当你们祷告",
-      "confidence": 0.875
-    },
-    {
       "start": 27.4,
-      "end": 41.18,
+      "end": 42.58,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "耶和华我的磐石我的救赎主啊愿我口中的言语心里的意念在祢面前蒙悦纳诗十九14",
-      "confidence": 0.712
+      "confidence": 0.79,
+      "quality": {
+        "coverage": 0.8,
+        "coherentCoverage": 0.65,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "candidate": 27.4,
+          "expectedPhrase": "耶和华我的磐石我的救赎主啊愿我口",
+          "actualPhrase": "叶赫华我的盘石我的旧属主啊愿我口",
+          "editDistance": 0,
+          "exactEndpointPhonemes": 3,
+          "expectedPhraseSize": 16,
+          "actualPhraseSize": 16,
+          "verified": true,
+          "time": 27.4,
+          "elasticLocal": true,
+          "source": "elastic-local-phrase-original-word-times",
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "叶",
+              "start": 27.4,
+              "end": 27.52,
+              "rawStart": 8,
+              "rawEnd": 8,
+              "precision": "word"
+            },
+            {
+              "text": "赫",
+              "start": 27.52,
+              "end": 27.68,
+              "rawStart": 9,
+              "rawEnd": 9,
+              "precision": "word"
+            },
+            {
+              "text": "华",
+              "start": 27.68,
+              "end": 28.06,
+              "rawStart": 10,
+              "rawEnd": 10,
+              "precision": "word"
+            },
+            {
+              "text": "我",
+              "start": 28.06,
+              "end": 28.56,
+              "rawStart": 11,
+              "rawEnd": 11,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 28.56,
+              "end": 28.68,
+              "rawStart": 12,
+              "rawEnd": 12,
+              "precision": "word"
+            },
+            {
+              "text": "盘",
+              "start": 28.68,
+              "end": 29.02,
+              "rawStart": 13,
+              "rawEnd": 13,
+              "precision": "word"
+            },
+            {
+              "text": "石",
+              "start": 29.02,
+              "end": 29.42,
+              "rawStart": 14,
+              "rawEnd": 14,
+              "precision": "word"
+            },
+            {
+              "text": "我",
+              "start": 29.42,
+              "end": 29.94,
+              "rawStart": 15,
+              "rawEnd": 15,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 29.94,
+              "end": 30.08,
+              "rawStart": 16,
+              "rawEnd": 16,
+              "precision": "word"
+            },
+            {
+              "text": "旧",
+              "start": 30.08,
+              "end": 30.32,
+              "rawStart": 17,
+              "rawEnd": 17,
+              "precision": "word"
+            },
+            {
+              "text": "属",
+              "start": 30.32,
+              "end": 30.58,
+              "rawStart": 18,
+              "rawEnd": 18,
+              "precision": "word"
+            },
+            {
+              "text": "主",
+              "start": 30.58,
+              "end": 30.9,
+              "rawStart": 19,
+              "rawEnd": 19,
+              "precision": "word"
+            },
+            {
+              "text": "啊",
+              "start": 30.9,
+              "end": 31.2,
+              "rawStart": 20,
+              "rawEnd": 20,
+              "precision": "word"
+            },
+            {
+              "text": "愿",
+              "start": 31.78,
+              "end": 32.36,
+              "rawStart": 21,
+              "rawEnd": 21,
+              "precision": "word"
+            },
+            {
+              "text": "我",
+              "start": 32.36,
+              "end": 32.72,
+              "rawStart": 22,
+              "rawEnd": 22,
+              "precision": "word"
+            },
+            {
+              "text": "口",
+              "start": 32.72,
+              "end": 33.18,
+              "rawStart": 23,
+              "rawEnd": 23,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\神前有能\\04.mp3.json",
+          "transcriptSha256": "9e86f45384265ae6b6c6e2f5d7a03d62f2e1175b6989a8cb6a92fe17813c1e3f",
+          "audioSha256": "d94c842a4acf39a42e2c3767d0f71382cefe63f52a3fad1d13bfee5cefc93b21",
+          "reason": "实际首尾各3个连续音节精确相同；16音节局部句中最多2次识别增删；数字序列和短句身份唯一，完整词时、停顿、音频时长及相邻原cue已复核。中间正文不要求逐字相同。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 27.4,
+        "previousEnd": 41.18,
+        "previousConfidence": 0.74
+      },
+      "boundaryCorrections": [
+        {
+          "book": "神前有能",
+          "page": "04_第四天 当你们祷告.md",
+          "audio": "04.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\神前有能\\04_第四天 当你们祷告\\audio-01.json",
+          "targetIndex": 1,
+          "edge": "start",
+          "previousTime": 27.4,
+          "time": 27.4,
+          "kind": "elastic-local-phrase-existing-word-times",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "实际首尾各3个连续音节精确相同；16音节局部句中最多2次识别增删；数字序列和短句身份唯一，完整词时、停顿、音频时长及相邻原cue已复核。中间正文不要求逐字相同。"
+        }
+      ]
     },
     {
-      "start": 41.18,
-      "end": 152.75,
+      "start": 52.67,
+      "end": 150.51,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "主说你们祷告的时候不可像那假冒为善的人爱站在会堂里和十字路口上祷告故意叫人看见我实在告诉你们他们",
-      "confidence": 0.958
+      "confidence": 0.966,
+      "quality": {
+        "coverage": 0.966,
+        "coherentCoverage": 0.955,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": false,
+          "substitutionAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 52.67,
+        "previousEnd": 150.51,
+        "previousConfidence": 0.965
+      }
     },
     {
       "start": 152.75,
-      "end": 239.28,
+      "end": 237.82,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "那么我们祷告的时候应当怎样呢主说你祷告的时候要进你的内屋关上门祷告你在暗中的父你父在暗中察看必然",
-      "confidence": 0.954
+      "confidence": 0.955,
+      "quality": {
+        "coverage": 0.95,
+        "coherentCoverage": 0.941,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 152.75,
+        "previousEnd": 237.82,
+        "previousConfidence": 0.954
+      }
     },
     {
       "start": 239.28,
-      "end": 301.23,
+      "end": 299.88,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "你这样祷告你在暗中的父你父在暗中察看必然报答你这是何等大的安慰要祷告你在暗中的父就需要信虽然你在",
-      "confidence": 0.903
+      "confidence": 0.948,
+      "quality": {
+        "coverage": 0.948,
+        "coherentCoverage": 0.909,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\神前有能\\04.mp3.json",
+          "transcriptSha256": "9e86f45384265ae6b6c6e2f5d7a03d62f2e1175b6989a8cb6a92fe17813c1e3f",
+          "verified": true,
+          "time": 239.28,
+          "expectedPhrase": "你这样“祷告你在暗中的父，你父在暗中察看，必然报答你”。这是何等大的安慰。要祷告",
+          "actualPhrase": "你这样导告你在暗中的父你",
+          "edgeAnchor": "你这样祷告你在暗中的父你",
+          "evidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": false,
+            "substitutionAnchor": true,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 0.917,
+            "localSimilarity": 0.917,
+            "localText": "你这样祷告你在暗中的父你父在暗中察看必然报答你这",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false
+          },
+          "window": [
+            227.28,
+            251.28
+          ],
+          "segments": [
+            {
+              "start": 226.68,
+              "end": 228.0,
+              "text": "面",
+              "words": [
+                {
+                  "start": 226.68,
+                  "end": 228.0,
+                  "text": "面",
+                  "probability": 0.9987167119979858
+                }
+              ]
+            },
+            {
+              "start": 228.0,
+              "end": 229.18,
+              "text": "换句话说",
+              "words": [
+                {
+                  "start": 228.0,
+                  "end": 228.5,
+                  "text": "换",
+                  "probability": 0.9867107272148132
+                },
+                {
+                  "start": 228.5,
+                  "end": 228.66,
+                  "text": "句",
+                  "probability": 0.998393714427948
+                },
+                {
+                  "start": 228.66,
+                  "end": 228.86,
+                  "text": "话",
+                  "probability": 0.9958421587944031
+                },
+                {
+                  "start": 228.86,
+                  "end": 229.18,
+                  "text": "说",
+                  "probability": 0.996423065662384
+                }
+              ]
+            },
+            {
+              "start": 229.18,
+              "end": 232.52,
+              "text": "你不要理外面任何的声音",
+              "words": [
+                {
+                  "start": 229.18,
+                  "end": 229.82,
+                  "text": "你",
+                  "probability": 0.705291211605072
+                },
+                {
+                  "start": 229.82,
+                  "end": 230.16,
+                  "text": "不要",
+                  "probability": 0.9976352453231812
+                },
+                {
+                  "start": 230.16,
+                  "end": 230.42,
+                  "text": "理",
+                  "probability": 0.41600555181503296
+                },
+                {
+                  "start": 230.42,
+                  "end": 230.84,
+                  "text": "外",
+                  "probability": 0.9885514974594116
+                },
+                {
+                  "start": 230.84,
+                  "end": 231.16,
+                  "text": "面",
+                  "probability": 0.9993634819984436
+                },
+                {
+                  "start": 231.16,
+                  "end": 231.52,
+                  "text": "任",
+                  "probability": 0.9857387542724609
+                },
+                {
+                  "start": 231.52,
+                  "end": 231.8,
+                  "text": "何",
+                  "probability": 0.999923825263977
+                },
+                {
+                  "start": 231.8,
+                  "end": 231.94,
+                  "text": "的",
+                  "probability": 0.9905641078948975
+                },
+                {
+                  "start": 231.94,
+                  "end": 232.2,
+                  "text": "声",
+                  "probability": 0.9898799657821655
+                },
+                {
+                  "start": 232.2,
+                  "end": 232.52,
+                  "text": "音",
+                  "probability": 0.9987173080444336
+                }
+              ]
+            },
+            {
+              "start": 233.02,
+              "end": 234.64,
+              "text": "你只要安静地",
+              "words": [
+                {
+                  "start": 233.02,
+                  "end": 233.36,
+                  "text": "你",
+                  "probability": 0.9666727185249329
+                },
+                {
+                  "start": 233.36,
+                  "end": 233.58,
+                  "text": "只",
+                  "probability": 0.9985154271125793
+                },
+                {
+                  "start": 233.58,
+                  "end": 233.74,
+                  "text": "要",
+                  "probability": 0.9981885552406311
+                },
+                {
+                  "start": 233.74,
+                  "end": 234.04,
+                  "text": "安",
+                  "probability": 0.9958624839782715
+                },
+                {
+                  "start": 234.04,
+                  "end": 234.34,
+                  "text": "静",
+                  "probability": 0.9989424645900726
+                },
+                {
+                  "start": 234.34,
+                  "end": 234.64,
+                  "text": "地",
+                  "probability": 0.6070007085800171
+                }
+              ]
+            },
+            {
+              "start": 234.98,
+              "end": 237.82,
+              "text": "单单地导告你的神",
+              "words": [
+                {
+                  "start": 234.98,
+                  "end": 235.32,
+                  "text": "单",
+                  "probability": 0.10941433161497116
+                },
+                {
+                  "start": 235.32,
+                  "end": 235.68,
+                  "text": "单",
+                  "probability": 0.976408064365387
+                },
+                {
+                  "start": 235.68,
+                  "end": 236.14,
+                  "text": "地",
+                  "probability": 0.8578895330429077
+                },
+                {
+                  "start": 236.14,
+                  "end": 236.56,
+                  "text": "导",
+                  "probability": 0.6463878005743027
+                },
+                {
+                  "start": 236.56,
+                  "end": 236.94,
+                  "text": "告",
+                  "probability": 0.9780473113059998
+                },
+                {
+                  "start": 236.94,
+                  "end": 237.42,
+                  "text": "你的",
+                  "probability": 0.9983528852462769
+                },
+                {
+                  "start": 237.42,
+                  "end": 237.82,
+                  "text": "神",
+                  "probability": 0.9066003561019897
+                }
+              ]
+            },
+            {
+              "start": 239.28,
+              "end": 242.54,
+              "text": "你这样导告你在暗中的父",
+              "words": [
+                {
+                  "start": 239.28,
+                  "end": 239.96,
+                  "text": "你",
+                  "probability": 0.9602642059326172
+                },
+                {
+                  "start": 239.96,
+                  "end": 240.3,
+                  "text": "这样",
+                  "probability": 0.9927136301994324
+                },
+                {
+                  "start": 240.3,
+                  "end": 240.78,
+                  "text": "导",
+                  "probability": 0.9811162352561951
+                },
+                {
+                  "start": 240.78,
+                  "end": 241.12,
+                  "text": "告",
+                  "probability": 0.991992175579071
+                },
+                {
+                  "start": 241.12,
+                  "end": 241.54,
+                  "text": "你在",
+                  "probability": 0.9838056564331055
+                },
+                {
+                  "start": 241.54,
+                  "end": 241.86,
+                  "text": "暗",
+                  "probability": 0.9787010252475739
+                },
+                {
+                  "start": 241.86,
+                  "end": 242.1,
+                  "text": "中",
+                  "probability": 0.9990874528884888
+                },
+                {
+                  "start": 242.1,
+                  "end": 242.28,
+                  "text": "的",
+                  "probability": 0.9471956491470337
+                },
+                {
+                  "start": 242.28,
+                  "end": 242.54,
+                  "text": "父",
+                  "probability": 0.5874689817428589
+                }
+              ]
+            },
+            {
+              "start": 242.9,
+              "end": 245.06,
+              "text": "你父在暗中查看",
+              "words": [
+                {
+                  "start": 242.9,
+                  "end": 243.24,
+                  "text": "你",
+                  "probability": 0.5947549343109131
+                },
+                {
+                  "start": 243.24,
+                  "end": 243.54,
+                  "text": "父",
+                  "probability": 0.9920774102210999
+                },
+                {
+                  "start": 243.54,
+                  "end": 243.84,
+                  "text": "在",
+                  "probability": 0.9933870434761047
+                },
+                {
+                  "start": 243.84,
+                  "end": 244.12,
+                  "text": "暗",
+                  "probability": 0.997974306344986
+                },
+                {
+                  "start": 244.12,
+                  "end": 244.34,
+                  "text": "中",
+                  "probability": 0.9995502829551697
+                },
+                {
+                  "start": 244.34,
+                  "end": 244.66,
+                  "text": "查",
+                  "probability": 0.9727206826210022
+                },
+                {
+                  "start": 244.66,
+                  "end": 245.06,
+                  "text": "看",
+                  "probability": 0.9852446913719177
+                }
+              ]
+            },
+            {
+              "start": 245.06,
+              "end": 247.12,
+              "text": "必然报答你",
+              "words": [
+                {
+                  "start": 245.06,
+                  "end": 245.68,
+                  "text": "必",
+                  "probability": 0.9493653178215027
+                },
+                {
+                  "start": 245.68,
+                  "end": 246.14,
+                  "text": "然",
+                  "probability": 0.9997510313987732
+                },
+                {
+                  "start": 246.14,
+                  "end": 246.5,
+                  "text": "报",
+                  "probability": 0.7438796162605286
+                },
+                {
+                  "start": 246.5,
+                  "end": 246.74,
+                  "text": "答",
+                  "probability": 0.9896401762962341
+                },
+                {
+                  "start": 246.74,
+                  "end": 247.12,
+                  "text": "你",
+                  "probability": 0.9976778626441956
+                }
+              ]
+            },
+            {
+              "start": 247.12,
+              "end": 250.26,
+              "text": "这是何等大的安慰?",
+              "words": [
+                {
+                  "start": 247.12,
+                  "end": 248.3,
+                  "text": "这是",
+                  "probability": 0.528892993927002
+                },
+                {
+                  "start": 248.3,
+                  "end": 248.92,
+                  "text": "何",
+                  "probability": 0.9625860452651978
+                },
+                {
+                  "start": 248.92,
+                  "end": 249.28,
+                  "text": "等",
+                  "probability": 0.9845768809318542
+                },
+                {
+                  "start": 249.28,
+                  "end": 249.6,
+                  "text": "大的",
+                  "probability": 0.975853681564331
+                },
+                {
+                  "start": 249.6,
+                  "end": 249.96,
+                  "text": "安",
+                  "probability": 0.994666576385498
+                },
+                {
+                  "start": 249.96,
+                  "end": 250.26,
+                  "text": "慰?",
+                  "probability": 0.9974641799926758
+                }
+              ]
+            }
+          ],
+          "source": "true-edge-local-anchor-review",
+          "listenedByAgent": false,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "reason": "真正首尾文字锚点及词时间确认；局部单字识别差异不要求全文逐字相同。",
+          "audioSha256": "d94c842a4acf39a42e2c3767d0f71382cefe63f52a3fad1d13bfee5cefc93b21"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 239.28,
+        "previousEnd": 299.88,
+        "previousConfidence": 0.948
+      },
+      "boundaryCorrections": [
+        {
+          "book": "神前有能",
+          "page": "04_第四天 当你们祷告.md",
+          "audio": "04.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\神前有能\\04_第四天 当你们祷告\\audio-01.json",
+          "targetIndex": 4,
+          "edge": "start",
+          "previousTime": 239.28,
+          "time": 239.28,
+          "kind": "local-edge-confirmation",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "真正首尾文字锚点及词时间确认；局部单字识别差异不要求全文逐字相同。"
+        }
+      ]
     },
     {
       "start": 301.23,
-      "end": 366.2,
+      "end": 363.9,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "弟兄姊妹主说必然就是必然在这里主担保我们在暗中的祷告是决不会落空的你认真祷告父必报答就是今天似乎",
-      "confidence": 0.782
+      "confidence": 0.931,
+      "quality": {
+        "coverage": 0.931,
+        "coherentCoverage": 0.901,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 301.23,
+        "previousEnd": 363.9,
+        "previousConfidence": 0.931
+      }
     },
     {
       "start": 366.2,
-      "end": 460.43,
+      "end": 459.18,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "主在这里不只教训我们祷告不可显露自己并且教训我们说你们祷告不可像外邦人用许多重复话他们以为话多了",
-      "confidence": 0.943
+      "confidence": 0.95,
+      "quality": {
+        "coverage": 0.948,
+        "coherentCoverage": 0.941,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 366.2,
+        "previousEnd": 459.18,
+        "previousConfidence": 0.95
+      }
     },
     {
       "start": 460.43,
-      "end": 547.33,
+      "end": 529.95,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "弟兄姊妹我们祷告的话语不要只有声音没有意义多少人在祷告聚会中的祷告是没有意义的他祷告你不说阿们他",
-      "confidence": 0.91
+      "confidence": 0.923,
+      "quality": {
+        "coverage": 0.925,
+        "coherentCoverage": 0.92,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 460.43,
+        "previousEnd": 529.95,
+        "previousConfidence": 0.925
+      }
     },
     {
       "start": 547.33,
@@ -77,7 +973,75 @@
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "主说你们不可效法他们因为你们没有祈求以先你们所需用的你们的父早已知道了这给我们看见我们的祷告能不",
-      "confidence": 0.959
+      "confidence": 0.959,
+      "quality": {
+        "coverage": 0.959,
+        "coherentCoverage": 0.959,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 547.33,
+        "previousEnd": 654.35,
+        "previousConfidence": 0.959
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v9-explicit-reference-owner-and-numeric-edges",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 1: “耶和华我的磐石，我的救赎主啊，愿我口中的言语，心里的意念在祢面前蒙悦纳。”（诗十九14）",
+    "unverified start anchor: target 4: 你这样“祷告你在暗中的父，你父在暗中察看，必然报答你”。这是何等大的安慰。要祷告你在暗中的父，就",
+    "repair unverified start (previous-sync): target 1",
+    "repair unverified start (previous-sync): target 4",
+    "local context confirmed start: target 4; 真正首尾文字锚点及词时间确认；局部单字识别差异不要求全文逐字相同。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "1c4af28d684045ff9959259778b66980576c1b029582240918bfd5e45329673a",
+  "repairCueDigest": "77d312607a78a7ff885de8786d816488360ae411858e72ae77eafad35fb3d8e1",
+  "previousAlignmentWarnings": []
 }

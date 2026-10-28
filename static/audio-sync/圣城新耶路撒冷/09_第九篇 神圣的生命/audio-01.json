@@ -8,204 +8,2743 @@
   "audioDuration": 1194.843,
   "cues": [
     {
-      "start": 29.38,
-      "end": 35.6,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第九篇上帝圣的生命",
-      "confidence": 0.875
-    },
-    {
-      "start": 35.6,
-      "end": 36.8,
-      "kind": "paragraph",
-      "targetIndex": 1,
-      "targetText": "读经",
-      "confidence": 0.667
-    },
-    {
-      "start": 36.8,
-      "end": 55.33,
+      "start": 41.88,
+      "end": 56.91,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "圣灵向众教会所说的话凡有耳的就应当听得胜的我必将上帝乐园中生命树的果子赐给他吃启二7",
-      "confidence": 0.773
+      "confidence": 0.787,
+      "quality": {
+        "coverage": 0.783,
+        "coherentCoverage": 0.739,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "discarded detached start matches",
+          "discarded detached end matches"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "source": "previous-verified-sync",
+          "confirmation": {
+            "edge": "start",
+            "excerpt": "「圣灵向众教会所说的话，凡有耳的，就应当听。得胜的，我必将神乐园中生命树的果子赐",
+            "proofs": [
+              {
+                "model": "small",
+                "time": 42.33,
+                "coverage": 0.804,
+                "confidence": 0.796,
+                "evidence": {
+                  "verified": true,
+                  "coverage": 0.833,
+                  "continuousAnchor": true,
+                  "substitutionAnchor": false,
+                  "timingPrecision": "word",
+                  "insideSegment": false,
+                  "detachedContext": false,
+                  "detachedNumericLabel": false,
+                  "localSupported": true,
+                  "localCoverage": 0.833,
+                  "localSimilarity": 0.87,
+                  "localText": "圣灵向众教会所说的话凡有耳的就应当听得胜的我必将",
+                  "anchorOccurrences": 1,
+                  "paragraphSupported": true,
+                  "contextUsed": false,
+                  "identityAmbiguous": false
+                }
+              },
+              {
+                "model": "medium",
+                "time": 41.88,
+                "coverage": 0.935,
+                "confidence": 0.905,
+                "evidence": {
+                  "verified": true,
+                  "coverage": 1.0,
+                  "continuousAnchor": true,
+                  "substitutionAnchor": false,
+                  "timingPrecision": "word",
+                  "insideSegment": false,
+                  "detachedContext": false,
+                  "detachedNumericLabel": false,
+                  "localSupported": true,
+                  "localCoverage": 1.0,
+                  "localSimilarity": 1.0,
+                  "localText": "圣灵向众教会所说的话凡有耳的就应当听得胜的我必将",
+                  "anchorOccurrences": 1,
+                  "paragraphSupported": true,
+                  "contextUsed": false,
+                  "identityAmbiguous": false
+                }
+              }
+            ],
+            "verified": true
+          },
+          "originalSource": "two-model-local-boundary"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 41.88,
+        "previousEnd": 56.91,
+        "previousConfidence": 0.8
+      },
+      "boundaryCorrections": [
+        {
+          "edge": "start",
+          "previous": 39.38,
+          "current": 41.88,
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "confirmation": {
+            "edge": "start",
+            "excerpt": "「圣灵向众教会所说的话，凡有耳的，就应当听。得胜的，我必将神乐园中生命树的果子赐",
+            "proofs": [
+              {
+                "model": "small",
+                "time": 42.33,
+                "coverage": 0.804,
+                "confidence": 0.796,
+                "evidence": {
+                  "verified": true,
+                  "coverage": 0.833,
+                  "continuousAnchor": true,
+                  "substitutionAnchor": false,
+                  "timingPrecision": "word",
+                  "insideSegment": false,
+                  "detachedContext": false,
+                  "detachedNumericLabel": false,
+                  "localSupported": true,
+                  "localCoverage": 0.833,
+                  "localSimilarity": 0.87,
+                  "localText": "圣灵向众教会所说的话凡有耳的就应当听得胜的我必将",
+                  "anchorOccurrences": 1,
+                  "paragraphSupported": true,
+                  "contextUsed": false,
+                  "identityAmbiguous": false
+                }
+              },
+              {
+                "model": "medium",
+                "time": 41.88,
+                "coverage": 0.935,
+                "confidence": 0.905,
+                "evidence": {
+                  "verified": true,
+                  "coverage": 1.0,
+                  "continuousAnchor": true,
+                  "substitutionAnchor": false,
+                  "timingPrecision": "word",
+                  "insideSegment": false,
+                  "detachedContext": false,
+                  "detachedNumericLabel": false,
+                  "localSupported": true,
+                  "localCoverage": 1.0,
+                  "localSimilarity": 1.0,
+                  "localText": "圣灵向众教会所说的话凡有耳的就应当听得胜的我必将",
+                  "anchorOccurrences": 1,
+                  "paragraphSupported": true,
+                  "contextUsed": false,
+                  "identityAmbiguous": false
+                }
+              }
+            ],
+            "verified": true
+          },
+          "audioSha256": "45a422f0ecc6c4a5995ab6511bdfce3cfd22568b4c2cb26ef3585473912a1d76"
+        }
+      ]
     },
     {
-      "start": 55.33,
-      "end": 104.37,
+      "start": 62.31,
+      "end": 104.15,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "天使又指示我在城内街道当中一道生命水的河明亮如水晶从上帝和羔羊的宝座流出来在河这边与那边有生命树",
-      "confidence": 0.703
-    },
-    {
-      "start": 104.37,
-      "end": 107.05,
-      "kind": "heading",
-      "targetIndex": 4,
-      "targetText": "生命树的地位",
-      "confidence": 0.833
+      "confidence": 0.848,
+      "quality": {
+        "coverage": 0.817,
+        "coherentCoverage": 0.786,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.4,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 10,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "source": "existing-small-transcript-local-phrase",
+          "model": ".audio-sync-cache\\models\\small",
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\transcript-first-repair-20261017\\verified-transcripts\\圣城新耶路撒冷\\9.mp3.json",
+          "transcriptSha256": "4f78c645dc891f1840d310d7775c93b31bbca532118ae5ecce859f5c73e1cf92",
+          "audioSha256": "45a422f0ecc6c4a5995ab6511bdfce3cfd22568b4c2cb26ef3585473912a1d76",
+          "window": [
+            92.21,
+            104.15
+          ],
+          "fullFileTranscribed": false,
+          "newDownloads": 0,
+          "listenedByAgent": false,
+          "timingPrecision": "word",
+          "localSupported": true,
+          "contextUsed": true,
+          "rawSegments": [
+            {
+              "start": 92.21,
+              "end": 104.14999999999999,
+              "text": "这书上的预言,若有人删去什么,神必从这书上所写的生命书和圣诚删去他的愤。",
+              "avgLogProb": -0.12997088573312246,
+              "noSpeechProb": 0.001106058363802731,
+              "words": [
+                {
+                  "start": 92.21,
+                  "end": 92.57,
+                  "text": "这",
+                  "probability": 0.6178827285766602
+                },
+                {
+                  "start": 92.57,
+                  "end": 92.78999999999999,
+                  "text": "书",
+                  "probability": 0.9978478848934174
+                },
+                {
+                  "start": 92.78999999999999,
+                  "end": 93.07,
+                  "text": "上",
+                  "probability": 0.9984219074249268
+                },
+                {
+                  "start": 93.07,
+                  "end": 93.28999999999999,
+                  "text": "的",
+                  "probability": 0.9948720335960388
+                },
+                {
+                  "start": 93.28999999999999,
+                  "end": 93.50999999999999,
+                  "text": "预",
+                  "probability": 0.9326203167438507
+                },
+                {
+                  "start": 93.50999999999999,
+                  "end": 93.75,
+                  "text": "言,",
+                  "probability": 0.992603600025177
+                },
+                {
+                  "start": 94.11,
+                  "end": 94.30999999999999,
+                  "text": "若",
+                  "probability": 0.9966416656970978
+                },
+                {
+                  "start": 94.30999999999999,
+                  "end": 94.72999999999999,
+                  "text": "有人",
+                  "probability": 0.9729401469230652
+                },
+                {
+                  "start": 94.72999999999999,
+                  "end": 95.30999999999999,
+                  "text": "删",
+                  "probability": 0.9331154227256775
+                },
+                {
+                  "start": 95.30999999999999,
+                  "end": 95.50999999999999,
+                  "text": "去",
+                  "probability": 0.9568856358528137
+                },
+                {
+                  "start": 95.50999999999999,
+                  "end": 95.91,
+                  "text": "什么,",
+                  "probability": 0.981310248374939
+                },
+                {
+                  "start": 96.50999999999999,
+                  "end": 97.07,
+                  "text": "神",
+                  "probability": 0.9158394932746887
+                },
+                {
+                  "start": 97.07,
+                  "end": 97.44999999999999,
+                  "text": "必",
+                  "probability": 0.9482081532478333
+                },
+                {
+                  "start": 97.44999999999999,
+                  "end": 97.66999999999999,
+                  "text": "从",
+                  "probability": 0.9982097148895264
+                },
+                {
+                  "start": 97.66999999999999,
+                  "end": 97.91,
+                  "text": "这",
+                  "probability": 0.9916384816169739
+                },
+                {
+                  "start": 97.91,
+                  "end": 98.14999999999999,
+                  "text": "书",
+                  "probability": 0.9987976551055908
+                },
+                {
+                  "start": 98.14999999999999,
+                  "end": 98.58999999999999,
+                  "text": "上",
+                  "probability": 0.998955488204956
+                },
+                {
+                  "start": 98.58999999999999,
+                  "end": 98.91,
+                  "text": "所",
+                  "probability": 0.9933727979660034
+                },
+                {
+                  "start": 98.91,
+                  "end": 99.03,
+                  "text": "写",
+                  "probability": 0.9993162751197815
+                },
+                {
+                  "start": 99.03,
+                  "end": 99.21,
+                  "text": "的",
+                  "probability": 0.9959130883216858
+                },
+                {
+                  "start": 99.21,
+                  "end": 99.47,
+                  "text": "生",
+                  "probability": 0.8657866716384888
+                },
+                {
+                  "start": 99.47,
+                  "end": 99.72999999999999,
+                  "text": "命",
+                  "probability": 0.9996891021728516
+                },
+                {
+                  "start": 99.72999999999999,
+                  "end": 100.11,
+                  "text": "书",
+                  "probability": 0.6954494267702103
+                },
+                {
+                  "start": 100.11,
+                  "end": 100.58999999999999,
+                  "text": "和",
+                  "probability": 0.7694674730300903
+                },
+                {
+                  "start": 100.58999999999999,
+                  "end": 101.00999999999999,
+                  "text": "圣",
+                  "probability": 0.9858217239379883
+                },
+                {
+                  "start": 101.00999999999999,
+                  "end": 101.25,
+                  "text": "诚",
+                  "probability": 0.8259495794773102
+                },
+                {
+                  "start": 101.25,
+                  "end": 101.83,
+                  "text": "删",
+                  "probability": 0.9919684827327728
+                },
+                {
+                  "start": 101.83,
+                  "end": 102.19,
+                  "text": "去",
+                  "probability": 0.944312334060669
+                },
+                {
+                  "start": 102.19,
+                  "end": 102.57,
+                  "text": "他的",
+                  "probability": 0.569447934627533
+                },
+                {
+                  "start": 102.57,
+                  "end": 104.14999999999999,
+                  "text": "愤。",
+                  "probability": 0.7826982140541077
+                }
+              ]
+            }
+          ],
+          "reason": "目标引文包括启示录22章1至2、14、19节；末句“他的份”在104.15秒结束，随后转入标题。",
+          "verified": true
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 62.31,
+        "previousEnd": 104.37,
+        "previousConfidence": 0.831
+      },
+      "boundaryCorrections": [
+        {
+          "book": "圣城新耶路撒冷",
+          "page": "09_第九篇 神圣的生命.md",
+          "audio": "9.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\圣城新耶路撒冷\\09_第九篇 神圣的生命\\audio-01.json",
+          "targetIndex": 3,
+          "edge": "end",
+          "previousTime": 104.37,
+          "time": 104.15,
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "kind": "local-phrase-boundary-correction",
+          "proof": {
+            "source": "existing-small-transcript-local-phrase",
+            "model": ".audio-sync-cache\\models\\small",
+            "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\transcript-first-repair-20261017\\verified-transcripts\\圣城新耶路撒冷\\9.mp3.json",
+            "transcriptSha256": "4f78c645dc891f1840d310d7775c93b31bbca532118ae5ecce859f5c73e1cf92",
+            "audioSha256": "45a422f0ecc6c4a5995ab6511bdfce3cfd22568b4c2cb26ef3585473912a1d76",
+            "window": [
+              92.21,
+              104.15
+            ],
+            "fullFileTranscribed": false,
+            "newDownloads": 0,
+            "listenedByAgent": false,
+            "timingPrecision": "word",
+            "localSupported": true,
+            "contextUsed": true,
+            "rawSegments": [
+              {
+                "start": 92.21,
+                "end": 104.14999999999999,
+                "text": "这书上的预言,若有人删去什么,神必从这书上所写的生命书和圣诚删去他的愤。",
+                "avgLogProb": -0.12997088573312246,
+                "noSpeechProb": 0.001106058363802731,
+                "words": [
+                  {
+                    "start": 92.21,
+                    "end": 92.57,
+                    "text": "这",
+                    "probability": 0.6178827285766602
+                  },
+                  {
+                    "start": 92.57,
+                    "end": 92.78999999999999,
+                    "text": "书",
+                    "probability": 0.9978478848934174
+                  },
+                  {
+                    "start": 92.78999999999999,
+                    "end": 93.07,
+                    "text": "上",
+                    "probability": 0.9984219074249268
+                  },
+                  {
+                    "start": 93.07,
+                    "end": 93.28999999999999,
+                    "text": "的",
+                    "probability": 0.9948720335960388
+                  },
+                  {
+                    "start": 93.28999999999999,
+                    "end": 93.50999999999999,
+                    "text": "预",
+                    "probability": 0.9326203167438507
+                  },
+                  {
+                    "start": 93.50999999999999,
+                    "end": 93.75,
+                    "text": "言,",
+                    "probability": 0.992603600025177
+                  },
+                  {
+                    "start": 94.11,
+                    "end": 94.30999999999999,
+                    "text": "若",
+                    "probability": 0.9966416656970978
+                  },
+                  {
+                    "start": 94.30999999999999,
+                    "end": 94.72999999999999,
+                    "text": "有人",
+                    "probability": 0.9729401469230652
+                  },
+                  {
+                    "start": 94.72999999999999,
+                    "end": 95.30999999999999,
+                    "text": "删",
+                    "probability": 0.9331154227256775
+                  },
+                  {
+                    "start": 95.30999999999999,
+                    "end": 95.50999999999999,
+                    "text": "去",
+                    "probability": 0.9568856358528137
+                  },
+                  {
+                    "start": 95.50999999999999,
+                    "end": 95.91,
+                    "text": "什么,",
+                    "probability": 0.981310248374939
+                  },
+                  {
+                    "start": 96.50999999999999,
+                    "end": 97.07,
+                    "text": "神",
+                    "probability": 0.9158394932746887
+                  },
+                  {
+                    "start": 97.07,
+                    "end": 97.44999999999999,
+                    "text": "必",
+                    "probability": 0.9482081532478333
+                  },
+                  {
+                    "start": 97.44999999999999,
+                    "end": 97.66999999999999,
+                    "text": "从",
+                    "probability": 0.9982097148895264
+                  },
+                  {
+                    "start": 97.66999999999999,
+                    "end": 97.91,
+                    "text": "这",
+                    "probability": 0.9916384816169739
+                  },
+                  {
+                    "start": 97.91,
+                    "end": 98.14999999999999,
+                    "text": "书",
+                    "probability": 0.9987976551055908
+                  },
+                  {
+                    "start": 98.14999999999999,
+                    "end": 98.58999999999999,
+                    "text": "上",
+                    "probability": 0.998955488204956
+                  },
+                  {
+                    "start": 98.58999999999999,
+                    "end": 98.91,
+                    "text": "所",
+                    "probability": 0.9933727979660034
+                  },
+                  {
+                    "start": 98.91,
+                    "end": 99.03,
+                    "text": "写",
+                    "probability": 0.9993162751197815
+                  },
+                  {
+                    "start": 99.03,
+                    "end": 99.21,
+                    "text": "的",
+                    "probability": 0.9959130883216858
+                  },
+                  {
+                    "start": 99.21,
+                    "end": 99.47,
+                    "text": "生",
+                    "probability": 0.8657866716384888
+                  },
+                  {
+                    "start": 99.47,
+                    "end": 99.72999999999999,
+                    "text": "命",
+                    "probability": 0.9996891021728516
+                  },
+                  {
+                    "start": 99.72999999999999,
+                    "end": 100.11,
+                    "text": "书",
+                    "probability": 0.6954494267702103
+                  },
+                  {
+                    "start": 100.11,
+                    "end": 100.58999999999999,
+                    "text": "和",
+                    "probability": 0.7694674730300903
+                  },
+                  {
+                    "start": 100.58999999999999,
+                    "end": 101.00999999999999,
+                    "text": "圣",
+                    "probability": 0.9858217239379883
+                  },
+                  {
+                    "start": 101.00999999999999,
+                    "end": 101.25,
+                    "text": "诚",
+                    "probability": 0.8259495794773102
+                  },
+                  {
+                    "start": 101.25,
+                    "end": 101.83,
+                    "text": "删",
+                    "probability": 0.9919684827327728
+                  },
+                  {
+                    "start": 101.83,
+                    "end": 102.19,
+                    "text": "去",
+                    "probability": 0.944312334060669
+                  },
+                  {
+                    "start": 102.19,
+                    "end": 102.57,
+                    "text": "他的",
+                    "probability": 0.569447934627533
+                  },
+                  {
+                    "start": 102.57,
+                    "end": 104.14999999999999,
+                    "text": "愤。",
+                    "probability": 0.7826982140541077
+                  }
+                ]
+              }
+            ],
+            "reason": "目标引文包括启示录22章1至2、14、19节；末句“他的份”在104.15秒结束，随后转入标题。"
+          },
+          "reason": "目标引文包括启示录22章1至2、14、19节；末句“他的份”在104.15秒结束，随后转入标题。"
+        }
+      ]
     },
     {
       "start": 107.05,
-      "end": 168.28,
+      "end": 169.18,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "我们在圣经中的最后一章又被带到圣经的开头就是生命树的面前就这点看来一切事情的终结正好和开头的时候",
-      "confidence": 0.679
+      "confidence": 0.881,
+      "quality": {
+        "coverage": 0.878,
+        "coherentCoverage": 0.852,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 107.05,
+        "previousEnd": 169.18,
+        "previousConfidence": 0.907
+      }
     },
     {
-      "start": 168.28,
-      "end": 208.38,
+      "start": 169.42,
+      "end": 209.46,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "虽然起初在伊甸园当中有生命树人却和它无份要和生命树有份是有某些条件的那些条件就是信心和顺服因着人",
-      "confidence": 0.805
+      "confidence": 0.895,
+      "quality": {
+        "coverage": 0.892,
+        "coherentCoverage": 0.829,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 0.917,
+          "localSimilarity": 0.917,
+          "localText": "虽然起初在伊甸园当中有生命树人却和它无份要和生命",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "source": "targeted-medium-local-window",
+          "model": "medium",
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\圣城新耶路撒冷-audit\\targeted-medium-windows.json",
+          "transcriptSha256": "7bd184f93811ba1608334097b394526c5a0d4314466a8145f6bdaa36f277b1c4",
+          "audioSha256": "45a422f0ecc6c4a5995ab6511bdfce3cfd22568b4c2cb26ef3585473912a1d76",
+          "window": [
+            202,
+            218
+          ],
+          "fullFileTranscribed": false,
+          "newDownloads": 0,
+          "listenedByAgent": false,
+          "timingPrecision": "word",
+          "localSupported": true,
+          "contextUsed": true,
+          "segments": [
+            {
+              "start": 203.72,
+              "end": 216.64,
+              "text": "使没有信心和不顺服的人与生命数无分,当然这些都是一些表号的说法,说出了蜀灵的原则。",
+              "words": [
+                {
+                  "start": 203.72,
+                  "end": 204.38,
+                  "text": "使",
+                  "probability": 0.111
+                },
+                {
+                  "start": 204.38,
+                  "end": 204.92,
+                  "text": "没有",
+                  "probability": 0.612
+                },
+                {
+                  "start": 204.92,
+                  "end": 205.36,
+                  "text": "信",
+                  "probability": 0.992
+                },
+                {
+                  "start": 205.36,
+                  "end": 205.7,
+                  "text": "心",
+                  "probability": 1.0
+                },
+                {
+                  "start": 205.7,
+                  "end": 206.06,
+                  "text": "和",
+                  "probability": 0.982
+                },
+                {
+                  "start": 206.06,
+                  "end": 206.34,
+                  "text": "不",
+                  "probability": 0.999
+                },
+                {
+                  "start": 206.34,
+                  "end": 206.5,
+                  "text": "顺",
+                  "probability": 0.983
+                },
+                {
+                  "start": 206.5,
+                  "end": 206.66,
+                  "text": "服",
+                  "probability": 0.589
+                },
+                {
+                  "start": 206.66,
+                  "end": 207.08,
+                  "text": "的人",
+                  "probability": 0.993
+                },
+                {
+                  "start": 207.08,
+                  "end": 207.88,
+                  "text": "与",
+                  "probability": 0.966
+                },
+                {
+                  "start": 207.88,
+                  "end": 208.2,
+                  "text": "生",
+                  "probability": 0.911
+                },
+                {
+                  "start": 208.2,
+                  "end": 208.52,
+                  "text": "命",
+                  "probability": 0.999
+                },
+                {
+                  "start": 208.52,
+                  "end": 208.8,
+                  "text": "数",
+                  "probability": 0.875
+                },
+                {
+                  "start": 208.8,
+                  "end": 209.12,
+                  "text": "无",
+                  "probability": 0.992
+                },
+                {
+                  "start": 209.12,
+                  "end": 209.46,
+                  "text": "分,",
+                  "probability": 0.516
+                },
+                {
+                  "start": 210.48,
+                  "end": 210.94,
+                  "text": "当然",
+                  "probability": 0.757
+                },
+                {
+                  "start": 210.94,
+                  "end": 211.56,
+                  "text": "这",
+                  "probability": 0.705
+                },
+                {
+                  "start": 211.56,
+                  "end": 211.68,
+                  "text": "些",
+                  "probability": 0.996
+                },
+                {
+                  "start": 211.68,
+                  "end": 212.18,
+                  "text": "都是",
+                  "probability": 0.994
+                },
+                {
+                  "start": 212.18,
+                  "end": 212.68,
+                  "text": "一些",
+                  "probability": 0.973
+                },
+                {
+                  "start": 212.68,
+                  "end": 213.02,
+                  "text": "表",
+                  "probability": 0.987
+                },
+                {
+                  "start": 213.02,
+                  "end": 213.26,
+                  "text": "号",
+                  "probability": 0.954
+                },
+                {
+                  "start": 213.26,
+                  "end": 213.48,
+                  "text": "的",
+                  "probability": 0.89
+                },
+                {
+                  "start": 213.48,
+                  "end": 213.7,
+                  "text": "说",
+                  "probability": 0.998
+                },
+                {
+                  "start": 213.7,
+                  "end": 214.04,
+                  "text": "法,",
+                  "probability": 0.998
+                },
+                {
+                  "start": 214.68,
+                  "end": 215.0,
+                  "text": "说",
+                  "probability": 0.958
+                },
+                {
+                  "start": 215.0,
+                  "end": 215.22,
+                  "text": "出",
+                  "probability": 0.972
+                },
+                {
+                  "start": 215.22,
+                  "end": 215.4,
+                  "text": "了",
+                  "probability": 0.99
+                },
+                {
+                  "start": 215.4,
+                  "end": 215.54,
+                  "text": "蜀",
+                  "probability": 0.853
+                },
+                {
+                  "start": 215.54,
+                  "end": 215.72,
+                  "text": "灵",
+                  "probability": 0.936
+                },
+                {
+                  "start": 215.72,
+                  "end": 215.96,
+                  "text": "的",
+                  "probability": 0.99
+                },
+                {
+                  "start": 215.96,
+                  "end": 216.2,
+                  "text": "原",
+                  "probability": 0.985
+                },
+                {
+                  "start": 216.2,
+                  "end": 216.64,
+                  "text": "则。",
+                  "probability": 1.0
+                }
+              ]
+            },
+            {
+              "start": 216.64,
+              "end": 217.98,
+              "text": "这个神圣圣",
+              "words": [
+                {
+                  "start": 216.64,
+                  "end": 217.34,
+                  "text": "这个",
+                  "probability": 0.402
+                },
+                {
+                  "start": 217.34,
+                  "end": 217.62,
+                  "text": "神",
+                  "probability": 0.892
+                },
+                {
+                  "start": 217.62,
+                  "end": 217.82,
+                  "text": "圣",
+                  "probability": 0.867
+                },
+                {
+                  "start": 217.82,
+                  "end": 217.98,
+                  "text": "圣",
+                  "probability": 0.869
+                }
+              ]
+            }
+          ],
+          "reason": "该正文最后一句“不能与生命树有份”在209.46秒结束，下一正文从210.38秒开始。",
+          "verified": true
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 169.18,
+        "previousEnd": 208.38,
+        "previousConfidence": 0.862
+      },
+      "boundaryCorrections": [
+        {
+          "book": "圣城新耶路撒冷",
+          "page": "09_第九篇 神圣的生命.md",
+          "audio": "9.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\圣城新耶路撒冷\\09_第九篇 神圣的生命\\audio-01.json",
+          "targetIndex": 6,
+          "edge": "end",
+          "previousTime": 208.38,
+          "time": 209.46,
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "kind": "local-phrase-boundary-correction",
+          "proof": {
+            "source": "targeted-medium-local-window",
+            "model": "medium",
+            "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\圣城新耶路撒冷-audit\\targeted-medium-windows.json",
+            "transcriptSha256": "7bd184f93811ba1608334097b394526c5a0d4314466a8145f6bdaa36f277b1c4",
+            "audioSha256": "45a422f0ecc6c4a5995ab6511bdfce3cfd22568b4c2cb26ef3585473912a1d76",
+            "window": [
+              202,
+              218
+            ],
+            "fullFileTranscribed": false,
+            "newDownloads": 0,
+            "listenedByAgent": false,
+            "timingPrecision": "word",
+            "localSupported": true,
+            "contextUsed": true,
+            "segments": [
+              {
+                "start": 203.72,
+                "end": 216.64,
+                "text": "使没有信心和不顺服的人与生命数无分,当然这些都是一些表号的说法,说出了蜀灵的原则。",
+                "words": [
+                  {
+                    "start": 203.72,
+                    "end": 204.38,
+                    "text": "使",
+                    "probability": 0.111
+                  },
+                  {
+                    "start": 204.38,
+                    "end": 204.92,
+                    "text": "没有",
+                    "probability": 0.612
+                  },
+                  {
+                    "start": 204.92,
+                    "end": 205.36,
+                    "text": "信",
+                    "probability": 0.992
+                  },
+                  {
+                    "start": 205.36,
+                    "end": 205.7,
+                    "text": "心",
+                    "probability": 1.0
+                  },
+                  {
+                    "start": 205.7,
+                    "end": 206.06,
+                    "text": "和",
+                    "probability": 0.982
+                  },
+                  {
+                    "start": 206.06,
+                    "end": 206.34,
+                    "text": "不",
+                    "probability": 0.999
+                  },
+                  {
+                    "start": 206.34,
+                    "end": 206.5,
+                    "text": "顺",
+                    "probability": 0.983
+                  },
+                  {
+                    "start": 206.5,
+                    "end": 206.66,
+                    "text": "服",
+                    "probability": 0.589
+                  },
+                  {
+                    "start": 206.66,
+                    "end": 207.08,
+                    "text": "的人",
+                    "probability": 0.993
+                  },
+                  {
+                    "start": 207.08,
+                    "end": 207.88,
+                    "text": "与",
+                    "probability": 0.966
+                  },
+                  {
+                    "start": 207.88,
+                    "end": 208.2,
+                    "text": "生",
+                    "probability": 0.911
+                  },
+                  {
+                    "start": 208.2,
+                    "end": 208.52,
+                    "text": "命",
+                    "probability": 0.999
+                  },
+                  {
+                    "start": 208.52,
+                    "end": 208.8,
+                    "text": "数",
+                    "probability": 0.875
+                  },
+                  {
+                    "start": 208.8,
+                    "end": 209.12,
+                    "text": "无",
+                    "probability": 0.992
+                  },
+                  {
+                    "start": 209.12,
+                    "end": 209.46,
+                    "text": "分,",
+                    "probability": 0.516
+                  },
+                  {
+                    "start": 210.48,
+                    "end": 210.94,
+                    "text": "当然",
+                    "probability": 0.757
+                  },
+                  {
+                    "start": 210.94,
+                    "end": 211.56,
+                    "text": "这",
+                    "probability": 0.705
+                  },
+                  {
+                    "start": 211.56,
+                    "end": 211.68,
+                    "text": "些",
+                    "probability": 0.996
+                  },
+                  {
+                    "start": 211.68,
+                    "end": 212.18,
+                    "text": "都是",
+                    "probability": 0.994
+                  },
+                  {
+                    "start": 212.18,
+                    "end": 212.68,
+                    "text": "一些",
+                    "probability": 0.973
+                  },
+                  {
+                    "start": 212.68,
+                    "end": 213.02,
+                    "text": "表",
+                    "probability": 0.987
+                  },
+                  {
+                    "start": 213.02,
+                    "end": 213.26,
+                    "text": "号",
+                    "probability": 0.954
+                  },
+                  {
+                    "start": 213.26,
+                    "end": 213.48,
+                    "text": "的",
+                    "probability": 0.89
+                  },
+                  {
+                    "start": 213.48,
+                    "end": 213.7,
+                    "text": "说",
+                    "probability": 0.998
+                  },
+                  {
+                    "start": 213.7,
+                    "end": 214.04,
+                    "text": "法,",
+                    "probability": 0.998
+                  },
+                  {
+                    "start": 214.68,
+                    "end": 215.0,
+                    "text": "说",
+                    "probability": 0.958
+                  },
+                  {
+                    "start": 215.0,
+                    "end": 215.22,
+                    "text": "出",
+                    "probability": 0.972
+                  },
+                  {
+                    "start": 215.22,
+                    "end": 215.4,
+                    "text": "了",
+                    "probability": 0.99
+                  },
+                  {
+                    "start": 215.4,
+                    "end": 215.54,
+                    "text": "蜀",
+                    "probability": 0.853
+                  },
+                  {
+                    "start": 215.54,
+                    "end": 215.72,
+                    "text": "灵",
+                    "probability": 0.936
+                  },
+                  {
+                    "start": 215.72,
+                    "end": 215.96,
+                    "text": "的",
+                    "probability": 0.99
+                  },
+                  {
+                    "start": 215.96,
+                    "end": 216.2,
+                    "text": "原",
+                    "probability": 0.985
+                  },
+                  {
+                    "start": 216.2,
+                    "end": 216.64,
+                    "text": "则。",
+                    "probability": 1.0
+                  }
+                ]
+              },
+              {
+                "start": 216.64,
+                "end": 217.98,
+                "text": "这个神圣圣",
+                "words": [
+                  {
+                    "start": 216.64,
+                    "end": 217.34,
+                    "text": "这个",
+                    "probability": 0.402
+                  },
+                  {
+                    "start": 217.34,
+                    "end": 217.62,
+                    "text": "神",
+                    "probability": 0.892
+                  },
+                  {
+                    "start": 217.62,
+                    "end": 217.82,
+                    "text": "圣",
+                    "probability": 0.867
+                  },
+                  {
+                    "start": 217.82,
+                    "end": 217.98,
+                    "text": "圣",
+                    "probability": 0.869
+                  }
+                ]
+              }
+            ],
+            "reason": "该正文最后一句“不能与生命树有份”在209.46秒结束，下一正文从210.38秒开始。"
+          },
+          "reason": "该正文最后一句“不能与生命树有份”在209.46秒结束，下一正文从210.38秒开始。"
+        }
+      ]
     },
     {
-      "start": 208.38,
-      "end": 256.9,
+      "start": 209.72,
+      "end": 256.14,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "当然这些都是一些表号的说法说出了属灵的原则这个上帝圣生命的问题乃是有史以来最重要的问题这问题是历",
-      "confidence": 0.934
+      "confidence": 0.986,
+      "quality": {
+        "coverage": 0.986,
+        "coherentCoverage": 0.986,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 0.958,
+          "localSimilarity": 0.958,
+          "localText": "的性情上帝的目的和上帝的心意就是要人有份于这生命",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 209.72,
+        "previousEnd": 256.9,
+        "previousConfidence": 0.944
+      }
     },
     {
       "start": 256.9,
-      "end": 277.9,
+      "end": 276.58,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "生命树象征的地位是很明显的它在上帝园子的当中这个上帝圣生命的问题正处在上帝创造的中心并且在一切事",
-      "confidence": 0.939
-    },
-    {
-      "start": 277.9,
-      "end": 279.9,
-      "kind": "heading",
-      "targetIndex": 9,
-      "targetText": "属灵的死亡",
-      "confidence": 1.0
+      "confidence": 0.924,
+      "quality": {
+        "coverage": 0.924,
+        "coherentCoverage": 0.894,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 256.9,
+        "previousEnd": 276.58,
+        "previousConfidence": 0.939
+      }
     },
     {
       "start": 279.9,
-      "end": 343.1,
+      "end": 341.96,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "这生命对人是有益的上帝愿意人得着这上帝圣的生命但是我们已经说过需要具备信心与顺服两个条件因为人在",
-      "confidence": 0.879
+      "confidence": 0.923,
+      "quality": {
+        "coverage": 0.925,
+        "coherentCoverage": 0.888,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "specific-local-word-clock-context",
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\圣城新耶路撒冷\\9.mp3.json",
+          "transcriptSha256": "4315913a0dde61ac3d4689d65187202171a53c857e4cac7a6187442495749cd0",
+          "wordTokens": [
+            {
+              "start": 341.62,
+              "end": 341.96,
+              "text": "证。",
+              "probability": 0.9952467381954193
+            }
+          ],
+          "sourceComparisons": [
+            {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\圣城新耶路撒冷\\9.mp3.json",
+              "transcriptSha256": "4315913a0dde61ac3d4689d65187202171a53c857e4cac7a6187442495749cd0",
+              "phraseChars": 12,
+              "candidate": 341.96,
+              "expectedPhrase": "死亡乃是不信和悖逆的明证",
+              "actualPhrase": "死亡乃是不信和被逆的名证",
+              "phoneticPhrase": [
+                "si",
+                "wang",
+                "nai",
+                "shi",
+                "bu",
+                "xin",
+                "he",
+                "bei",
+                "ni",
+                "de",
+                "ming",
+                "zheng"
+              ],
+              "actualPhoneticPhrase": [
+                "si",
+                "wang",
+                "nai",
+                "shi",
+                "bu",
+                "xin",
+                "he",
+                "bei",
+                "ni",
+                "de",
+                "ming",
+                "zheng"
+              ],
+              "verified": true,
+              "time": 341.96,
+              "boundedPhonetic": true,
+              "exactEndpointPhonemes": 2,
+              "maxInternalPhoneticDifferences": 2,
+              "phoneticDifferences": [],
+              "localSupported": true,
+              "timingPrecision": "word",
+              "wordTokens": [
+                {
+                  "text": "死",
+                  "start": 337.76,
+                  "end": 338.02,
+                  "rawStart": 935,
+                  "rawEnd": 935,
+                  "precision": "word"
+                },
+                {
+                  "text": "亡",
+                  "start": 338.02,
+                  "end": 338.26,
+                  "rawStart": 936,
+                  "rawEnd": 936,
+                  "precision": "word"
+                },
+                {
+                  "text": "乃",
+                  "start": 338.26,
+                  "end": 338.84,
+                  "rawStart": 937,
+                  "rawEnd": 937,
+                  "precision": "word"
+                },
+                {
+                  "text": "是",
+                  "start": 338.84,
+                  "end": 339.2,
+                  "rawStart": 938,
+                  "rawEnd": 938,
+                  "precision": "word"
+                },
+                {
+                  "text": "不",
+                  "start": 339.2,
+                  "end": 339.66,
+                  "rawStart": 939,
+                  "rawEnd": 939,
+                  "precision": "word"
+                },
+                {
+                  "text": "信",
+                  "start": 339.66,
+                  "end": 340.1,
+                  "rawStart": 940,
+                  "rawEnd": 940,
+                  "precision": "word"
+                },
+                {
+                  "text": "和",
+                  "start": 340.1,
+                  "end": 340.64,
+                  "rawStart": 941,
+                  "rawEnd": 941,
+                  "precision": "word"
+                },
+                {
+                  "text": "被",
+                  "start": 340.64,
+                  "end": 341.0,
+                  "rawStart": 942,
+                  "rawEnd": 942,
+                  "precision": "word"
+                },
+                {
+                  "text": "逆",
+                  "start": 341.0,
+                  "end": 341.24,
+                  "rawStart": 943,
+                  "rawEnd": 943,
+                  "precision": "word"
+                },
+                {
+                  "text": "的",
+                  "start": 341.24,
+                  "end": 341.46,
+                  "rawStart": 944,
+                  "rawEnd": 944,
+                  "precision": "word"
+                },
+                {
+                  "text": "名",
+                  "start": 341.46,
+                  "end": 341.62,
+                  "rawStart": 945,
+                  "rawEnd": 945,
+                  "precision": "word"
+                },
+                {
+                  "text": "证",
+                  "start": 341.62,
+                  "end": 341.96,
+                  "rawStart": 946,
+                  "rawEnd": 946,
+                  "precision": "word"
+                }
+              ],
+              "source": "bounded-local-phonetic-differences-original-word-times",
+              "listenedByAgent": false
+            },
+            {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\transcript-first-repair-20261017\\verified-transcripts\\圣城新耶路撒冷\\9.mp3.json",
+              "transcriptSha256": "4f78c645dc891f1840d310d7775c93b31bbca532118ae5ecce859f5c73e1cf92",
+              "phraseChars": 12,
+              "candidate": 343.04,
+              "expectedPhrase": "死亡乃是不信和悖逆的明证",
+              "actualPhrase": "死亡乃是不信和被逆的名证",
+              "phoneticPhrase": [
+                "si",
+                "wang",
+                "nai",
+                "shi",
+                "bu",
+                "xin",
+                "he",
+                "bei",
+                "ni",
+                "de",
+                "ming",
+                "zheng"
+              ],
+              "actualPhoneticPhrase": [
+                "si",
+                "wang",
+                "nai",
+                "shi",
+                "bu",
+                "xin",
+                "he",
+                "bei",
+                "ni",
+                "de",
+                "ming",
+                "zheng"
+              ],
+              "verified": true,
+              "time": 343.04,
+              "boundedPhonetic": true,
+              "exactEndpointPhonemes": 2,
+              "maxInternalPhoneticDifferences": 2,
+              "phoneticDifferences": [],
+              "localSupported": true,
+              "timingPrecision": "word",
+              "wordTokens": [
+                {
+                  "text": "死",
+                  "start": 337.98,
+                  "end": 338.18,
+                  "rawStart": 935,
+                  "rawEnd": 935,
+                  "precision": "word"
+                },
+                {
+                  "text": "亡",
+                  "start": 338.18,
+                  "end": 338.66,
+                  "rawStart": 936,
+                  "rawEnd": 936,
+                  "precision": "word"
+                },
+                {
+                  "text": "乃",
+                  "start": 338.66,
+                  "end": 338.98,
+                  "rawStart": 937,
+                  "rawEnd": 937,
+                  "precision": "word"
+                },
+                {
+                  "text": "是",
+                  "start": 338.98,
+                  "end": 339.52000000000004,
+                  "rawStart": 938,
+                  "rawEnd": 938,
+                  "precision": "word"
+                },
+                {
+                  "text": "不",
+                  "start": 339.52000000000004,
+                  "end": 339.96000000000004,
+                  "rawStart": 939,
+                  "rawEnd": 939,
+                  "precision": "word"
+                },
+                {
+                  "text": "信",
+                  "start": 339.96000000000004,
+                  "end": 340.38,
+                  "rawStart": 940,
+                  "rawEnd": 940,
+                  "precision": "word"
+                },
+                {
+                  "text": "和",
+                  "start": 340.38,
+                  "end": 340.84000000000003,
+                  "rawStart": 941,
+                  "rawEnd": 941,
+                  "precision": "word"
+                },
+                {
+                  "text": "被",
+                  "start": 340.84000000000003,
+                  "end": 341.26000000000005,
+                  "rawStart": 942,
+                  "rawEnd": 942,
+                  "precision": "word"
+                },
+                {
+                  "text": "逆",
+                  "start": 341.26000000000005,
+                  "end": 341.36,
+                  "rawStart": 943,
+                  "rawEnd": 943,
+                  "precision": "word"
+                },
+                {
+                  "text": "的",
+                  "start": 341.36,
+                  "end": 341.62,
+                  "rawStart": 944,
+                  "rawEnd": 944,
+                  "precision": "word"
+                },
+                {
+                  "text": "名",
+                  "start": 341.62,
+                  "end": 341.90000000000003,
+                  "rawStart": 945,
+                  "rawEnd": 945,
+                  "precision": "word"
+                },
+                {
+                  "text": "证",
+                  "start": 341.90000000000003,
+                  "end": 343.04,
+                  "rawStart": 946,
+                  "rawEnd": 946,
+                  "precision": "word"
+                }
+              ],
+              "source": "bounded-local-phonetic-differences-original-word-times",
+              "listenedByAgent": false
+            }
+          ],
+          "independentRawBase": {
+            "path": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\context-continuation-20261019\\clock-base-windows\\9.json",
+            "sha256": "1b16b2ac0ee5ef79d7f0e2439bc127a4f0f7957179105218864057bf914784d5",
+            "segments": [
+              {
+                "start": 331.96,
+                "end": 336.29999999999995,
+                "text": "有信心,神要說,用順佛來證明,",
+                "words": [
+                  {
+                    "start": 331.96,
+                    "end": 331.96,
+                    "text": "有",
+                    "probability": 0.009846518747508526
+                  },
+                  {
+                    "start": 331.96,
+                    "end": 332.18,
+                    "text": "信",
+                    "probability": 0.899448573589325
+                  },
+                  {
+                    "start": 332.18,
+                    "end": 332.62,
+                    "text": "心,",
+                    "probability": 0.9941616654396057
+                  },
+                  {
+                    "start": 333.06,
+                    "end": 333.41999999999996,
+                    "text": "神",
+                    "probability": 0.82529616355896
+                  },
+                  {
+                    "start": 333.41999999999996,
+                    "end": 333.59999999999997,
+                    "text": "要",
+                    "probability": 0.911103367805481
+                  },
+                  {
+                    "start": 333.59999999999997,
+                    "end": 333.96,
+                    "text": "說,",
+                    "probability": 0.7395548820495605
+                  },
+                  {
+                    "start": 334.38,
+                    "end": 334.53999999999996,
+                    "text": "用",
+                    "probability": 0.9512159824371338
+                  },
+                  {
+                    "start": 334.53999999999996,
+                    "end": 334.91999999999996,
+                    "text": "順",
+                    "probability": 0.8968358933925629
+                  },
+                  {
+                    "start": 334.91999999999996,
+                    "end": 335.21999999999997,
+                    "text": "佛",
+                    "probability": 0.7191327512264252
+                  },
+                  {
+                    "start": 335.21999999999997,
+                    "end": 335.65999999999997,
+                    "text": "來",
+                    "probability": 0.9734400510787964
+                  },
+                  {
+                    "start": 335.65999999999997,
+                    "end": 335.97999999999996,
+                    "text": "證",
+                    "probability": 0.9819844961166382
+                  },
+                  {
+                    "start": 335.97999999999996,
+                    "end": 336.29999999999995,
+                    "text": "明,",
+                    "probability": 0.9997926354408264
+                  }
+                ]
+              },
+              {
+                "start": 337.12,
+                "end": 341.97999999999996,
+                "text": "鼠靈的死亡,乃是不信和被逆的名證。",
+                "words": [
+                  {
+                    "start": 337.12,
+                    "end": 337.44,
+                    "text": "鼠",
+                    "probability": 0.537011131644249
+                  },
+                  {
+                    "start": 337.44,
+                    "end": 337.58,
+                    "text": "靈",
+                    "probability": 0.7631992697715759
+                  },
+                  {
+                    "start": 337.58,
+                    "end": 337.73999999999995,
+                    "text": "的",
+                    "probability": 0.95182865858078
+                  },
+                  {
+                    "start": 337.73999999999995,
+                    "end": 338.0,
+                    "text": "死",
+                    "probability": 0.9956739544868469
+                  },
+                  {
+                    "start": 338.0,
+                    "end": 338.21999999999997,
+                    "text": "亡,",
+                    "probability": 0.9966461658477783
+                  },
+                  {
+                    "start": 338.59999999999997,
+                    "end": 338.84,
+                    "text": "乃",
+                    "probability": 0.6016016155481339
+                  },
+                  {
+                    "start": 338.84,
+                    "end": 339.2,
+                    "text": "是",
+                    "probability": 0.971521258354187
+                  },
+                  {
+                    "start": 339.2,
+                    "end": 339.62,
+                    "text": "不",
+                    "probability": 0.958061158657074
+                  },
+                  {
+                    "start": 339.62,
+                    "end": 340.02,
+                    "text": "信",
+                    "probability": 0.6357848644256592
+                  },
+                  {
+                    "start": 340.02,
+                    "end": 340.59999999999997,
+                    "text": "和",
+                    "probability": 0.8684747219085693
+                  },
+                  {
+                    "start": 340.59999999999997,
+                    "end": 340.96,
+                    "text": "被",
+                    "probability": 0.3341394066810608
+                  },
+                  {
+                    "start": 340.96,
+                    "end": 341.26,
+                    "text": "逆",
+                    "probability": 0.7877834737300873
+                  },
+                  {
+                    "start": 341.26,
+                    "end": 341.44,
+                    "text": "的",
+                    "probability": 0.8535465598106384
+                  },
+                  {
+                    "start": 341.44,
+                    "end": 341.64,
+                    "text": "名",
+                    "probability": 0.2528368830680847
+                  },
+                  {
+                    "start": 341.64,
+                    "end": 341.97999999999996,
+                    "text": "證。",
+                    "probability": 0.815995991230011
+                  }
+                ]
+              },
+              {
+                "start": 342.91999999999996,
+                "end": 346.5,
+                "text": "假若你要知道,什麼是鼠靈的死亡,",
+                "words": [
+                  {
+                    "start": 342.91999999999996,
+                    "end": 343.56,
+                    "text": "假",
+                    "probability": 0.948306143283844
+                  },
+                  {
+                    "start": 343.56,
+                    "end": 343.84,
+                    "text": "若",
+                    "probability": 0.99363973736763
+                  },
+                  {
+                    "start": 343.84,
+                    "end": 344.28,
+                    "text": "你要",
+                    "probability": 0.7066057920455933
+                  },
+                  {
+                    "start": 344.28,
+                    "end": 344.73999999999995,
+                    "text": "知道,",
+                    "probability": 0.9927910566329956
+                  },
+                  {
+                    "start": 345.08,
+                    "end": 345.28,
+                    "text": "什麼",
+                    "probability": 0.5298752188682556
+                  },
+                  {
+                    "start": 345.28,
+                    "end": 345.53999999999996,
+                    "text": "是",
+                    "probability": 0.9650008082389832
+                  },
+                  {
+                    "start": 345.53999999999996,
+                    "end": 345.73999999999995,
+                    "text": "鼠",
+                    "probability": 0.6351013630628586
+                  },
+                  {
+                    "start": 345.73999999999995,
+                    "end": 345.88,
+                    "text": "靈",
+                    "probability": 0.9822084903717041
+                  },
+                  {
+                    "start": 345.88,
+                    "end": 346.03999999999996,
+                    "text": "的",
+                    "probability": 0.9894753694534302
+                  },
+                  {
+                    "start": 346.03999999999996,
+                    "end": 346.29999999999995,
+                    "text": "死",
+                    "probability": 0.9997490048408508
+                  },
+                  {
+                    "start": 346.29999999999995,
+                    "end": 346.5,
+                    "text": "亡,",
+                    "probability": 0.9999325275421143
+                  }
+                ]
+              },
+              {
+                "start": 346.5,
+                "end": 347.78,
+                "text": "神經",
+                "words": [
+                  {
+                    "start": 346.5,
+                    "end": 347.5,
+                    "text": "神",
+                    "probability": 0.3518432080745697
+                  },
+                  {
+                    "start": 347.5,
+                    "end": 347.78,
+                    "text": "經",
+                    "probability": 0.49681100249290466
+                  }
+                ]
+              }
+            ]
+          },
+          "speechDiagnostics": null,
+          "reason": "原small明证末词341.96与base341.98一致；另一稿343.04拖进停顿，原旧343.1应缩回。",
+          "audioSha256": "45a422f0ecc6c4a5995ab6511bdfce3cfd22568b4c2cb26ef3585473912a1d76",
+          "listenedByAgent": false
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 279.9,
+        "previousEnd": 343.1,
+        "previousConfidence": 0.933
+      },
+      "boundaryCorrections": [
+        {
+          "book": "圣城新耶路撒冷",
+          "page": "09_第九篇 神圣的生命.md",
+          "audio": "9.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\圣城新耶路撒冷\\09_第九篇 神圣的生命\\audio-01.json",
+          "targetIndex": 10,
+          "edge": "end",
+          "previousTime": 343.1,
+          "time": 341.96,
+          "kind": "specific-local-clock-context",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false,
+          "reason": "原small明证末词341.96与base341.98一致；另一稿343.04拖进停顿，原旧343.1应缩回。"
+        }
+      ]
     },
     {
       "start": 343.1,
-      "end": 361.3,
+      "end": 361.64,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "假若你要知道什么是属灵的死亡圣经说得十分清楚属灵的死亡就是与上帝分离上帝是生命的源头与上帝分离就",
-      "confidence": 0.885
+      "confidence": 0.957,
+      "quality": {
+        "coverage": 0.948,
+        "coherentCoverage": 0.948,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 343.1,
+        "previousEnd": 361.64,
+        "previousConfidence": 0.983
+      }
     },
     {
-      "start": 361.3,
-      "end": 406.5,
+      "start": 362.62,
+      "end": 405.08,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "但是以上的解释并不完全属灵死亡的结果是什么呢离开上帝的结果叫任何事物都不能达到完全到了某一个地步",
-      "confidence": 0.886
+      "confidence": 0.973,
+      "quality": {
+        "coverage": 0.97,
+        "coherentCoverage": 0.97,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 362.62,
+        "previousEnd": 405.08,
+        "previousConfidence": 0.973
+      }
     },
     {
       "start": 406.5,
-      "end": 451.84,
+      "end": 449.34,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "从前有一个有名的无上帝论者他以为他所知道的事很多他以他在哲学方面的知识为夸耀因而自命为自由思想家",
-      "confidence": 0.824
+      "confidence": 0.87,
+      "quality": {
+        "coverage": 0.864,
+        "coherentCoverage": 0.818,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 406.5,
+        "previousEnd": 449.34,
+        "previousConfidence": 0.87
+      }
     },
     {
-      "start": 451.84,
-      "end": 452.36,
-      "kind": "heading",
-      "targetIndex": 14,
-      "targetText": "历代的战场",
-      "confidence": 0.571
-    },
-    {
-      "start": 452.36,
-      "end": 493.66,
+      "start": 453.82,
+      "end": 492.68,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "因着信心和顺服是脱离死亡的道路所以信心和顺服就成了历代的战场争战最大的根基乃是信心上帝的儿子道成",
-      "confidence": 0.704
+      "confidence": 0.877,
+      "quality": {
+        "coverage": 0.877,
+        "coherentCoverage": 0.825,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 453.82,
+        "previousEnd": 492.68,
+        "previousConfidence": 0.877
+      }
     },
     {
       "start": 493.66,
-      "end": 505.94,
+      "end": 504.94,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "这一切都系于在上帝儿子里面的信心和在生活中对上帝儿子的顺服上这乃是生命的道路",
-      "confidence": 0.892
+      "confidence": 0.892,
+      "quality": {
+        "coverage": 0.868,
+        "coherentCoverage": 0.816,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.842,
+        "suffixCoverage": 0.895,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 493.66,
+        "previousEnd": 504.94,
+        "previousConfidence": 0.892
+      }
     },
     {
       "start": 505.94,
-      "end": 557.46,
+      "end": 555.8,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "现在你们发现那棵树不仅是一棵树乃是一个人那人就是上帝的儿子耶稣基督我们曾说过这座新耶路撒冷是从天",
-      "confidence": 0.676
-    },
-    {
-      "start": 557.46,
-      "end": 561.14,
-      "kind": "heading",
-      "targetIndex": 18,
-      "targetText": "上帝圣生命的实际性质",
-      "confidence": 1.0
+      "confidence": 0.948,
+      "quality": {
+        "coverage": 0.944,
+        "coherentCoverage": 0.944,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 505.94,
+        "previousEnd": 555.8,
+        "previousConfidence": 0.948
+      }
     },
     {
       "start": 561.14,
-      "end": 622.76,
+      "end": 621.74,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "我要在这里着重的说那生命是一个非常实际的生命这一点就天然的生命来说是无可置疑的我们知道为着要挽救",
-      "confidence": 0.781
+      "confidence": 0.901,
+      "quality": {
+        "coverage": 0.892,
+        "coherentCoverage": 0.851,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 561.14,
+        "previousEnd": 621.74,
+        "previousConfidence": 0.901
+      }
     },
     {
       "start": 622.76,
-      "end": 675.96,
+      "end": 675.18,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "生命能使我们非常忙碌我相信你们都知道大布道家利温斯敦好多年前我曾参与为记念他诞生一百周年的庆祝活",
-      "confidence": 0.933
+      "confidence": 0.933,
+      "quality": {
+        "coverage": 0.933,
+        "coherentCoverage": 0.927,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 622.76,
+        "previousEnd": 675.18,
+        "previousConfidence": 0.933
+      }
     },
     {
       "start": 675.96,
-      "end": 714.0,
+      "end": 712.98,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "你们都知道电是非常实际的这件事用不着我来解释假若你要找证据你可以将灯泡取下按下电灯开关再将你的大",
-      "confidence": 0.953
+      "confidence": 0.953,
+      "quality": {
+        "coverage": 0.957,
+        "coherentCoverage": 0.957,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 675.96,
+        "previousEnd": 712.98,
+        "previousConfidence": 0.953
+      }
     },
     {
       "start": 714.0,
-      "end": 763.34,
+      "end": 759.78,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "以上的话不过是引到我们的重点假若就天然的生命来说那一切都是实在的上帝圣的生命岂不更要实在吗上帝圣",
-      "confidence": 0.912
+      "confidence": 0.949,
+      "quality": {
+        "coverage": 0.949,
+        "coherentCoverage": 0.949,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 0.917,
+          "localSimilarity": 0.917,
+          "localText": "足地成就1切超过我们所求所想的以弗所书3章20节",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 714.0,
+        "previousEnd": 763.34,
+        "previousConfidence": 0.88
+      }
     },
     {
-      "start": 763.34,
-      "end": 781.24,
+      "start": 759.9,
+      "end": 780.3,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "充充足足充充足足地成就一切充充足足地成就一切超过我们所求所想这就是那运行在我们心里的大力也就是上",
-      "confidence": 0.607
-    },
-    {
-      "start": 781.24,
-      "end": 784.12,
-      "kind": "heading",
-      "targetIndex": 24,
-      "targetText": "上帝圣生命的限制",
-      "confidence": 0.875
+      "confidence": 0.885,
+      "quality": {
+        "coverage": 0.869,
+        "coherentCoverage": 0.77,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\圣城新耶路撒冷\\9.mp3.json",
+          "transcriptSha256": "4315913a0dde61ac3d4689d65187202171a53c857e4cac7a6187442495749cd0",
+          "candidate": 759.9,
+          "expectedPhrase": "充充足足充充足足",
+          "actualPhrase": "冲冲祖祖冲冲祖祖",
+          "phoneticPhrase": [
+            "chong",
+            "chong",
+            "zu",
+            "zu",
+            "chong",
+            "chong",
+            "zu",
+            "zu"
+          ],
+          "verified": true,
+          "time": 759.9,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "exact-local-syllables-original-word-times",
+          "phoneticExact": true,
+          "literalEqual": false,
+          "wordTokens": [
+            {
+              "text": "冲",
+              "start": 759.9,
+              "end": 760.5,
+              "rawStart": 2188,
+              "rawEnd": 2188,
+              "precision": "word"
+            },
+            {
+              "text": "冲",
+              "start": 760.5,
+              "end": 760.84,
+              "rawStart": 2189,
+              "rawEnd": 2189,
+              "precision": "word"
+            },
+            {
+              "text": "祖",
+              "start": 760.84,
+              "end": 761.14,
+              "rawStart": 2190,
+              "rawEnd": 2190,
+              "precision": "word"
+            },
+            {
+              "text": "祖",
+              "start": 761.14,
+              "end": 761.9,
+              "rawStart": 2191,
+              "rawEnd": 2191,
+              "precision": "word"
+            },
+            {
+              "text": "冲",
+              "start": 761.9,
+              "end": 762.44,
+              "rawStart": 2192,
+              "rawEnd": 2192,
+              "precision": "word"
+            },
+            {
+              "text": "冲",
+              "start": 762.44,
+              "end": 762.74,
+              "rawStart": 2193,
+              "rawEnd": 2193,
+              "precision": "word"
+            },
+            {
+              "text": "祖",
+              "start": 762.74,
+              "end": 763.0,
+              "rawStart": 2194,
+              "rawEnd": 2194,
+              "precision": "word"
+            },
+            {
+              "text": "祖",
+              "start": 763.0,
+              "end": 763.34,
+              "rawStart": 2195,
+              "rawEnd": 2195,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "audioSha256": "45a422f0ecc6c4a5995ab6511bdfce3cfd22568b4c2cb26ef3585473912a1d76",
+          "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 763.34,
+        "previousEnd": 780.3,
+        "previousConfidence": 0.804
+      },
+      "boundaryCorrections": [
+        {
+          "book": "圣城新耶路撒冷",
+          "page": "09_第九篇 神圣的生命.md",
+          "audio": "9.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\圣城新耶路撒冷\\09_第九篇 神圣的生命\\audio-01.json",
+          "targetIndex": 23,
+          "edge": "start",
+          "previousTime": 763.34,
+          "time": 759.9,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
       "start": 784.12,
@@ -213,63 +2752,317 @@
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "现在我们已经看过圣城的每一部分都是上帝性的说明这一切又都归结到耶稣基督身上任何事物违反了上帝圣的",
-      "confidence": 0.759
+      "confidence": 0.952,
+      "quality": {
+        "coverage": 0.958,
+        "coherentCoverage": 0.958,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 784.12,
+        "previousEnd": 807.12,
+        "previousConfidence": 0.952
+      }
     },
     {
       "start": 807.12,
-      "end": 885.52,
+      "end": 884.52,
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "我们曾说圣城明如水晶你可以看透它在它里面没有黑暗的事又说像透明的金子这也是寓意的说法说到绝对诚实",
-      "confidence": 0.885
+      "confidence": 0.973,
+      "quality": {
+        "coverage": 0.973,
+        "coherentCoverage": 0.973,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 807.12,
+        "previousEnd": 884.52,
+        "previousConfidence": 0.973
+      }
     },
     {
       "start": 885.52,
-      "end": 914.08,
+      "end": 913.3,
       "kind": "paragraph",
       "targetIndex": 27,
       "targetText": "在圣经中有几样上帝所厌恶的事谎言就是其中之一骄傲也是上帝所厌恶的诗篇一百卅八篇第六节说祂却从远处",
-      "confidence": 0.739
+      "confidence": 0.957,
+      "quality": {
+        "coverage": 0.951,
+        "coherentCoverage": 0.951,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 885.52,
+        "previousEnd": 913.3,
+        "previousConfidence": 0.957
+      }
     },
     {
       "start": 914.08,
-      "end": 992.88,
+      "end": 993.22,
       "kind": "paragraph",
       "targetIndex": 28,
       "targetText": "让我们来看圣城的另外一点一座城乃是一个有次序的表号在一个正常的城中每一件事都是有次序的对每件事的",
-      "confidence": 0.813
+      "confidence": 0.888,
+      "quality": {
+        "coverage": 0.883,
+        "coherentCoverage": 0.867,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 914.08,
+        "previousEnd": 993.22,
+        "previousConfidence": 0.888
+      }
     },
     {
-      "start": 992.88,
-      "end": 1031.53,
+      "start": 994.16,
+      "end": 1030.45,
       "kind": "paragraph",
       "targetIndex": 29,
       "targetText": "当我看到一个人缺乏真实规律的生活时我要说上帝圣的生命在这个人身上必定受到委屈当上帝子民中间有了混",
-      "confidence": 0.895
-    },
-    {
-      "start": 1031.53,
-      "end": 1035.43,
-      "kind": "heading",
-      "targetIndex": 30,
-      "targetText": "上帝圣生命结果子众多",
-      "confidence": 1.0
+      "confidence": 0.975,
+      "quality": {
+        "coverage": 0.975,
+        "coherentCoverage": 0.975,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 994.16,
+        "previousEnd": 1030.45,
+        "previousConfidence": 0.975
+      }
     },
     {
       "start": 1035.43,
-      "end": 1115.85,
+      "end": 1114.23,
       "kind": "paragraph",
       "targetIndex": 31,
       "targetText": "关于这个生命我们还要提到两点上帝圣的生命总是多结果子的你们知道这生命树是长在生命河的旁边它能长出",
-      "confidence": 0.962
-    },
-    {
-      "start": 1115.85,
-      "end": 1120.17,
-      "kind": "heading",
-      "targetIndex": 32,
-      "targetText": "主耶稣基督在我们生命中的地位",
-      "confidence": 1.0
+      "confidence": 0.974,
+      "quality": {
+        "coverage": 0.972,
+        "coherentCoverage": 0.972,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1035.43,
+        "previousEnd": 1114.23,
+        "previousConfidence": 0.974
+      }
     },
     {
       "start": 1120.17,
@@ -277,7 +3070,113 @@
       "kind": "paragraph",
       "targetIndex": 33,
       "targetText": "这是今天我所要说的最后一点这座城是一个管理的中心你们还记得那条生命水的河是从宝座流出来的所以一切",
-      "confidence": 0.955
+      "confidence": 0.96,
+      "quality": {
+        "coverage": 0.96,
+        "coherentCoverage": 0.95,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1120.17,
+        "previousEnd": 1183.15,
+        "previousConfidence": 0.96
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 2: 「圣灵向众教会所说的话，凡有耳的，就应当听。得胜的，我必将神乐园中生命树的果子赐给他吃。」（启二",
+    "incomplete end (10 trailing chars, coverage 0.400): target 3: 「天使又指示我在城内街道当中一道生命水的河，明亮如水晶，从神和羔羊的宝座流出来。在河这边与那边有",
+    "unverified end anchor: target 3: 「天使又指示我在城内街道当中一道生命水的河，明亮如水晶，从神和羔羊的宝座流出来。在河这边与那边有",
+    "unverified end anchor: target 5: 我们在圣经中的最后一章，又被带到圣经的开头，就是生命树的面前。就这点看来，一切事情的终结，正好和",
+    "unverified end anchor: target 6: 虽然起初在伊甸园当中有生命树，人却和它无份。要和生命树有份是有某些条件的。那些条件就是信心和顺服",
+    "unverified end anchor: target 10: 这生命对人是有益的。神愿意人得着这神圣的生命，但是，我们已经说过，需要具备信心与顺服两个条件，因",
+    "unverified start anchor: target 11: 假若你要知道什么是属灵的死亡，圣经说得十分清楚，属灵的死亡就是与神分离。神是生命的源头，与神分离",
+    "unverified end anchor: target 13: 从前有一个有名的无神论者，他以为他所知道的事很多。他以他在哲学方面的知识为夸耀，因而自命为「自由",
+    "unverified end anchor: target 15: 因着信心和顺服是脱离死亡的道路，所以信心和顺服就成了历代的战场。争战最大的根基乃是信心，神的儿子",
+    "unverified start anchor: target 16: 这一切都系于在神儿子里面的信心和在生活中对神儿子的顺服上。这乃是生命的道路。",
+    "unverified start anchor: target 23: 「充充足足」，「充充足足地成就一切」，「充充足足地成就一切超过我们所求所想」。这就是那运行在我们",
+    "repair unverified end (previous-sync): target 3",
+    "repair unverified end (previous-sync): target 6",
+    "repair unverified end (previous-sync): target 10",
+    "repair unverified start (previous-sync): target 23"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 3,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "98089f05c2345d5f5c8681a8179a48d2326efcba5e2b3a16aa66076d80a76e34",
+  "repairCueDigest": "9f19df73d6f422a7a93a55fa4caf5ec6ba1802396dcdd0bade9b110eda643acb",
+  "previousAlignmentWarnings": [],
+  "currentSiteConfirmation": {
+    "model": "medium",
+    "audioSha256": "45a422f0ecc6c4a5995ab6511bdfce3cfd22568b4c2cb26ef3585473912a1d76",
+    "audioDuration": 1194.843,
+    "windows": [
+      [
+        92.21,
+        133.09
+      ],
+      [
+        155.78,
+        230.68
+      ],
+      [
+        245.3,
+        276.58
+      ],
+      [
+        325.6,
+        353.78
+      ],
+      [
+        741.56,
+        783.36
+      ]
+    ]
+  }
 }

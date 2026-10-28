@@ -8,20 +8,54 @@
   "audioDuration": 412.8271875,
   "cues": [
     {
-      "start": 1.14,
-      "end": 4.66,
-      "kind": "heading",
-      "targetIndex": 18,
-      "targetText": "你怎样敢说没有上帝",
-      "confidence": 1.0
-    },
-    {
       "start": 4.66,
-      "end": 290.1,
+      "end": 288.72,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "若是今天有一位无上帝派的朋友要来说到上帝有无的问题这是我们在谈道之间常常可以碰到的他们必定说上帝",
-      "confidence": 0.899
+      "confidence": 0.961,
+      "quality": {
+        "coverage": 0.958,
+        "coherentCoverage": 0.951,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 4.66,
+        "previousEnd": 290.1,
+        "previousConfidence": 0.899
+      }
     },
     {
       "start": 290.1,
@@ -29,7 +63,49 @@
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "让我举一个例我有一个弟弟六岁的时候刚刚从幼稚园毕业拿了一张文凭回家来好像是威风得很以为自己是得到",
-      "confidence": 0.954
+      "confidence": 0.954,
+      "quality": {
+        "coverage": 0.954,
+        "coherentCoverage": 0.939,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 290.1,
+        "previousEnd": 334.27,
+        "previousConfidence": 0.954
+      }
     },
     {
       "start": 334.27,
@@ -37,7 +113,67 @@
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "让我们再看天文学家说光的速度一秒钟要走十八万六千英里一英里要合中国的三里多在这一秒的中间光已经走",
-      "confidence": 0.938
+      "confidence": 0.938,
+      "quality": {
+        "coverage": 0.938,
+        "coherentCoverage": 0.938,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 334.27,
+        "previousEnd": 410.97,
+        "previousConfidence": 0.938
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "8b159b1faab4dfd82c6d87c80b76038a893ed6b0ab03af8ce8be94029b934052",
+  "repairCueDigest": "6d238ca2bb791c18da20325fcda06a05a2e6c0972ea536f55017dbbac9ab0f45",
+  "previousAlignmentWarnings": []
 }

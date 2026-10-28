@@ -8,108 +8,1090 @@
   "audioDuration": 626.247625,
   "cues": [
     {
-      "start": 1.17,
-      "end": 15.98,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第八章与上帝和好",
-      "confidence": 0.625
-    },
-    {
-      "start": 15.98,
+      "start": 16.38,
       "end": 25.72,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "上帝啊愿你崇高过于诸天愿你的荣耀高过全地诗575",
-      "confidence": 0.545
+      "confidence": 0.909,
+      "quality": {
+        "coverage": 0.833,
+        "coherentCoverage": 0.833,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.667,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 15.98,
+        "previousEnd": 25.72,
+        "previousConfidence": 0.818
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 25.72,
+            "time": 25.72,
+            "reason": "正文末句已定位，保留原出处结束范围，避免因书名识别差异截掉已读出处",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\8-1.mp3.json",
+              "sha256": "9ca383e560dfa84e36eabc81a686e1602edde06ca92fd249ef70482ad1664fcc",
+              "anchor": {
+                "time": 24.36,
+                "score": 0.9986,
+                "ratio": 1.0,
+                "expected": "gaoguoyuzhutianyuanniderongyaogaoguoquandi",
+                "actual": "高过于诸天愿你的荣耀高过全地",
+                "span": [
+                  18.46,
+                  24.36
+                ],
+                "tokens": [
+                  {
+                    "text": "高",
+                    "start": 18.46,
+                    "end": 18.96,
+                    "rawStart": 21,
+                    "rawEnd": 21,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "过",
+                    "start": 18.96,
+                    "end": 19.439999999999998,
+                    "rawStart": 22,
+                    "rawEnd": 22,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "于",
+                    "start": 19.439999999999998,
+                    "end": 19.68,
+                    "rawStart": 23,
+                    "rawEnd": 23,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "诸",
+                    "start": 19.68,
+                    "end": 19.96,
+                    "rawStart": 24,
+                    "rawEnd": 24,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "天",
+                    "start": 19.96,
+                    "end": 20.46,
+                    "rawStart": 25,
+                    "rawEnd": 25,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "愿",
+                    "start": 21.18,
+                    "end": 21.439999999999998,
+                    "rawStart": 26,
+                    "rawEnd": 26,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 21.439999999999998,
+                    "end": 21.72,
+                    "rawStart": 27,
+                    "rawEnd": 27,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 21.439999999999998,
+                    "end": 21.72,
+                    "rawStart": 28,
+                    "rawEnd": 28,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "荣",
+                    "start": 21.72,
+                    "end": 22.08,
+                    "rawStart": 29,
+                    "rawEnd": 29,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "耀",
+                    "start": 22.08,
+                    "end": 22.58,
+                    "rawStart": 30,
+                    "rawEnd": 30,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "高",
+                    "start": 22.58,
+                    "end": 23.04,
+                    "rawStart": 31,
+                    "rawEnd": 31,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "过",
+                    "start": 23.04,
+                    "end": 23.38,
+                    "rawStart": 32,
+                    "rawEnd": 32,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "全",
+                    "start": 23.38,
+                    "end": 23.78,
+                    "rawStart": 33,
+                    "rawEnd": 33,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "地",
+                    "start": 23.78,
+                    "end": 24.36,
+                    "rawStart": 34,
+                    "rawEnd": 34,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 26.96,
+                  "score": 0.9201,
+                  "actual": "高过于诸天愿你的荣耀高过全地1个"
+                }
+              },
+              "body": "“神啊,愿你崇高过于诸天,愿你的荣耀高过全地。”",
+              "retainedCitationInterval": [
+                24.36,
+                25.72
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "start": 25.72,
-      "end": 51.34,
+      "end": 50.26,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "一个顶明显的道理就是自然界中各样的秩序是靠着正常的关系来维持的物与物之间的协调有赖于各自有其正确",
-      "confidence": 0.827
+      "confidence": 0.98,
+      "quality": {
+        "coverage": 0.973,
+        "coherentCoverage": 0.947,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 25.72,
+        "previousEnd": 50.26,
+        "previousConfidence": 0.987
+      }
     },
     {
       "start": 51.34,
-      "end": 106.02,
+      "end": 104.62,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "我在本书的前几章已经暗示过人类痛苦的起因乃是道德伦理本末倒置我们对于上帝对于人的关系已经颠倒了人",
-      "confidence": 0.787
+      "confidence": 0.97,
+      "quality": {
+        "coverage": 0.964,
+        "coherentCoverage": 0.927,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": false,
+          "substitutionAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 51.34,
+        "previousEnd": 104.62,
+        "previousConfidence": 0.97
+      }
     },
     {
       "start": 106.02,
-      "end": 182.54,
+      "end": 181.26,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "上帝与罪人之间的关系恢复正常之后一种满足的属灵生活就要开始这种改变不止是法律上的乃是一种自觉而有",
-      "confidence": 0.864
+      "confidence": 0.939,
+      "quality": {
+        "coverage": 0.941,
+        "coherentCoverage": 0.916,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 106.02,
+        "previousEnd": 181.26,
+        "previousConfidence": 0.939
+      }
     },
     {
       "start": 182.54,
-      "end": 242.97,
+      "end": 243.25,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "任何关系该有一个起点就是一个中心点作为衡量一切事物的标准这个中心点不用什么定律就能够确定它的是亦",
-      "confidence": 0.839
+      "confidence": 0.901,
+      "quality": {
+        "coverage": 0.879,
+        "coherentCoverage": 0.826,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 182.54,
+        "previousEnd": 243.25,
+        "previousConfidence": 0.886
+      }
     },
     {
-      "start": 242.97,
+      "start": 252.78,
       "end": 280.58,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "水手以六分仪测量太阳的高度可以算出自己在海中的位置我们测定我们道德的方位是凭着上帝我们必须以上帝",
-      "confidence": 0.872
+      "confidence": 0.99,
+      "quality": {
+        "coverage": 0.99,
+        "coherentCoverage": 0.99,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 252.78,
+        "previousEnd": 280.58,
+        "previousConfidence": 0.99
+      }
     },
     {
       "start": 280.58,
-      "end": 346.02,
+      "end": 345.16,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "基督徒大部分的难处都是由于不愿意把上帝当作上帝看待使我们的生活与祂失调我们限制祂要祂来迎合我们我",
-      "confidence": 0.922
+      "confidence": 0.95,
+      "quality": {
+        "coverage": 0.944,
+        "coherentCoverage": 0.93,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 280.58,
+        "previousEnd": 345.16,
+        "previousConfidence": 0.95
+      }
     },
     {
       "start": 346.02,
-      "end": 392.36,
+      "end": 394.24,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "让我们以上帝为起点在一切的背后在一切之上在一切之前只有上帝在次序上祂是首先的在等级与地位上祂是最",
-      "confidence": 0.914
+      "confidence": 0.91,
+      "quality": {
+        "coverage": 0.915,
+        "coherentCoverage": 0.879,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "citation-normalized-local-edge-context",
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\渴慕神\\8-1.mp3.json",
+          "transcriptSha256": "0a106e74cb2db0240baaab0c4c96f8bf9dd936a845d4e62fb522b67c748da536",
+          "proof": {
+            "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\渴慕神\\8-1.mp3.json",
+            "transcriptSha256": "0a106e74cb2db0240baaab0c4c96f8bf9dd936a845d4e62fb522b67c748da536",
+            "bodyEvidence": {
+              "start": {
+                "candidate": 346.02,
+                "expectedPhrase": "让我们以神为起点",
+                "actualPhrase": "让我们以神为起点",
+                "phoneticPhrase": [
+                  "rang",
+                  "wo",
+                  "men",
+                  "yi",
+                  "shen",
+                  "wei",
+                  "qi",
+                  "dian"
+                ],
+                "verified": true,
+                "time": 346.02,
+                "localSupported": true,
+                "timingPrecision": "word",
+                "source": "exact-local-syllables-original-word-times",
+                "phoneticExact": true,
+                "literalEqual": true,
+                "wordTokens": [
+                  {
+                    "text": "让",
+                    "start": 346.02,
+                    "end": 346.62,
+                    "rawStart": 1019,
+                    "rawEnd": 1019,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 346.62,
+                    "end": 346.94,
+                    "rawStart": 1020,
+                    "rawEnd": 1020,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 346.62,
+                    "end": 346.94,
+                    "rawStart": 1021,
+                    "rawEnd": 1021,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "以",
+                    "start": 346.94,
+                    "end": 347.36,
+                    "rawStart": 1022,
+                    "rawEnd": 1022,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 347.36,
+                    "end": 347.64,
+                    "rawStart": 1023,
+                    "rawEnd": 1024,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "为",
+                    "start": 347.64,
+                    "end": 347.86,
+                    "rawStart": 1025,
+                    "rawEnd": 1025,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "起",
+                    "start": 347.86,
+                    "end": 348.14,
+                    "rawStart": 1026,
+                    "rawEnd": 1026,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "点",
+                    "start": 348.14,
+                    "end": 348.46,
+                    "rawStart": 1027,
+                    "rawEnd": 1027,
+                    "precision": "word"
+                  }
+                ],
+                "listenedByAgent": false
+              },
+              "end": {
+                "candidate": 391.82,
+                "expectedPhrase": "旨意被创造而有的",
+                "actualPhrase": "旨意被创造而有的",
+                "phoneticPhrase": [
+                  "zhi",
+                  "yi",
+                  "bei",
+                  "chuang",
+                  "zao",
+                  "er",
+                  "you",
+                  "de"
+                ],
+                "verified": true,
+                "time": 391.82,
+                "localSupported": true,
+                "timingPrecision": "word",
+                "source": "exact-local-syllables-original-word-times",
+                "phoneticExact": true,
+                "literalEqual": true,
+                "wordTokens": [
+                  {
+                    "text": "旨",
+                    "start": 389.66,
+                    "end": 389.94,
+                    "rawStart": 1147,
+                    "rawEnd": 1147,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "意",
+                    "start": 389.94,
+                    "end": 390.2,
+                    "rawStart": 1148,
+                    "rawEnd": 1148,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "被",
+                    "start": 390.2,
+                    "end": 390.48,
+                    "rawStart": 1149,
+                    "rawEnd": 1149,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "创",
+                    "start": 390.48,
+                    "end": 390.78,
+                    "rawStart": 1150,
+                    "rawEnd": 1150,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "造",
+                    "start": 390.78,
+                    "end": 391.04,
+                    "rawStart": 1151,
+                    "rawEnd": 1151,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "而",
+                    "start": 391.04,
+                    "end": 391.2,
+                    "rawStart": 1152,
+                    "rawEnd": 1152,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "有",
+                    "start": 391.2,
+                    "end": 391.44,
+                    "rawStart": 1153,
+                    "rawEnd": 1153,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 391.44,
+                    "end": 391.82,
+                    "rawStart": 1154,
+                    "rawEnd": 1154,
+                    "precision": "word"
+                  }
+                ],
+                "listenedByAgent": false
+              }
+            },
+            "verified": true,
+            "start": 346.02,
+            "end": 394.24,
+            "citation": {
+              "start": 391.82,
+              "end": 394.24,
+              "expected": "启示录4章11节",
+              "actual": "启示录4章11节",
+              "tokens": [
+                {
+                  "text": "启",
+                  "start": 391.82,
+                  "end": 392.36,
+                  "rawStart": 1155,
+                  "rawEnd": 1155,
+                  "precision": "word"
+                },
+                {
+                  "text": "示",
+                  "start": 392.36,
+                  "end": 392.58,
+                  "rawStart": 1156,
+                  "rawEnd": 1156,
+                  "precision": "word"
+                },
+                {
+                  "text": "录",
+                  "start": 392.58,
+                  "end": 392.82,
+                  "rawStart": 1157,
+                  "rawEnd": 1157,
+                  "precision": "word"
+                },
+                {
+                  "text": "4",
+                  "start": 392.82,
+                  "end": 393.34,
+                  "rawStart": 1158,
+                  "rawEnd": 1158,
+                  "precision": "word"
+                },
+                {
+                  "text": "章",
+                  "start": 393.34,
+                  "end": 393.6,
+                  "rawStart": 1159,
+                  "rawEnd": 1159,
+                  "precision": "word"
+                },
+                {
+                  "text": "1",
+                  "start": 393.6,
+                  "end": 394.0,
+                  "rawStart": 1160,
+                  "rawEnd": 1160,
+                  "precision": "word"
+                },
+                {
+                  "text": "1",
+                  "start": 393.6,
+                  "end": 394.0,
+                  "rawStart": 1161,
+                  "rawEnd": 1161,
+                  "precision": "word"
+                },
+                {
+                  "text": "节",
+                  "start": 394.0,
+                  "end": 394.24,
+                  "rawStart": 1162,
+                  "rawEnd": 1162,
+                  "precision": "word"
+                }
+              ]
+            },
+            "order": "after-body"
+          },
+          "audioSha256": "364bc576fb68bb4daf251c0fa4e752551840a71f90ab190b65f8ea8c8a3c98b5",
+          "listenedByAgent": false
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 346.02,
+        "previousEnd": 392.36,
+        "previousConfidence": 0.914
+      },
+      "boundaryCorrections": [
+        {
+          "book": "渴慕神",
+          "page": "08_第八章 与神和好.md",
+          "audio": "8-1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\渴慕神\\08_第八章 与神和好\\audio-01.json",
+          "targetIndex": 8,
+          "edge": "end",
+          "previousTime": 392.36,
+          "time": 394.24,
+          "kind": "citation-normalized-local-edge-context",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
-      "start": 392.36,
-      "end": 433.03,
+      "start": 396.47,
+      "end": 431.93,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "每个人都属于上帝而且是因祂的旨意才能活着上帝就是上帝我们就是我们上帝与我们之间唯一可想像的关系就",
-      "confidence": 0.909
+      "confidence": 0.938,
+      "quality": {
+        "coverage": 0.938,
+        "coherentCoverage": 0.92,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 396.47,
+        "previousEnd": 431.93,
+        "previousConfidence": 0.938
+      }
     },
     {
       "start": 433.03,
-      "end": 473.75,
+      "end": 472.73,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "追求认识上帝首要的是使我们的性情和上帝的性情趋于一致这并非在法律的地位上如此实际上也要如此在此我",
-      "confidence": 0.885
+      "confidence": 0.885,
+      "quality": {
+        "coverage": 0.871,
+        "coherentCoverage": 0.831,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 433.03,
+        "previousEnd": 472.73,
+        "previousConfidence": 0.885
+      }
     },
     {
       "start": 473.75,
-      "end": 505.79,
+      "end": 506.57,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "什么时候我们决心高举上帝在我们之上就从世俗的行列中走出来我们会发觉自己与世俗的生活很不调和越是我",
-      "confidence": 0.77
+      "confidence": 0.94,
+      "quality": {
+        "coverage": 0.935,
+        "coherentCoverage": 0.935,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 473.75,
+        "previousEnd": 506.57,
+        "previousConfidence": 0.94
+      }
     },
     {
-      "start": 505.79,
+      "start": 507.31,
       "end": 578.33,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "由于我们与上帝之间的关系恢复直接造成我们与世界的决裂因为世上已堕落的人们并不荣耀上帝成千上万的人",
-      "confidence": 0.868
+      "confidence": 0.946,
+      "quality": {
+        "coverage": 0.946,
+        "coherentCoverage": 0.923,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 507.31,
+        "previousEnd": 578.33,
+        "previousConfidence": 0.945
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (4 trailing chars, coverage 0.667): target 1: “神啊，愿你崇高过于诸天，愿你的荣耀高过全地。”（诗 57:5）",
+    "unverified end anchor: target 1: “神啊，愿你崇高过于诸天，愿你的荣耀高过全地。”（诗 57:5）",
+    "unverified end anchor: target 8: 让我们以神为起点，在一切的背后，在一切之上，在一切之前，只有神。在次序上，祂是首先的，在等级与地",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 8",
+    "citation-normalized local context confirmed end: target 8; previous evidence retained"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "78eb35b91125fac64e8fa1e52483f4ef08bc43fa203c99894917855a14d395c5",
+  "repairCueDigest": "3a0f10f4499b431f2fb0a064cdec8a80689591fd7abdcfa6beacf25e59297d00",
+  "previousAlignmentWarnings": [],
+  "currentSiteConfirmation": {
+    "model": "medium",
+    "audioSha256": "364bc576fb68bb4daf251c0fa4e752551840a71f90ab190b65f8ea8c8a3c98b5",
+    "audioDuration": 626.247596,
+    "windows": [
+      [
+        12.1,
+        31.56
+      ],
+      [
+        380.6,
+        406.47
+      ]
+    ]
+  }
 }

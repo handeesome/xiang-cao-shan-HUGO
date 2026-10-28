@@ -8,20 +8,72 @@
   "audioDuration": 136.3613125,
   "cues": [
     {
-      "start": 7.64,
-      "end": 11.96,
-      "kind": "heading",
-      "targetIndex": 1,
-      "targetText": "又有五个下地狱的法子",
-      "confidence": 0.9
-    },
-    {
       "start": 11.96,
       "end": 134.96,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "我们现在要从圣经里看出五个下地狱的法子我的朋友阿这个题目真是一个严重的题目因为这是论到人生死关头",
-      "confidence": 0.9
+      "confidence": 0.95,
+      "quality": {
+        "coverage": 0.95,
+        "coherentCoverage": 0.945,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 11.96,
+        "previousEnd": 134.96,
+        "previousConfidence": 0.9
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "336d8a6fd5493b3e8ba16778e61a9e2487ae861af2d1e74fac3160cf1c83ba41",
+  "repairCueDigest": "cbb34b32c91776c0a3155c97224baad6ddda91f29d75db982e1ba6cad295571d",
+  "previousAlignmentWarnings": []
 }

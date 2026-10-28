@@ -8,60 +8,340 @@
   "audioDuration": 1417.9548125,
   "cues": [
     {
-      "start": 21.1,
-      "end": 22.7,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "3属魂的人",
-      "confidence": 0.75
-    },
-    {
       "start": 22.7,
-      "end": 35.08,
+      "end": 36.16,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "然而属魂血气的人不领会上帝圣灵的事惟有属灵的人才能看透林前二14",
-      "confidence": 0.761
+      "confidence": 0.8,
+      "quality": {
+        "coverage": 0.865,
+        "coherentCoverage": 0.73,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.833,
+        "suffixCoverage": 0.889,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 22.7,
+        "previousEnd": 35.08,
+        "previousConfidence": 0.761
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 22.7,
+            "time": 22.7,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\魂与灵\\3-1.mp3.json",
+              "sha256": "f34e6734a7e991b74eb43e1746377362a54d60ccfe7bac408292e717124082b0",
+              "anchor": {
+                "time": 22.7,
+                "score": 1.0,
+                "ratio": 1.0,
+                "expected": "ranershuhunderen",
+                "actual": "然而鼠魂的人",
+                "span": [
+                  22.7,
+                  24.7
+                ],
+                "tokens": [
+                  {
+                    "text": "然",
+                    "start": 22.7,
+                    "end": 23.3,
+                    "rawStart": 49,
+                    "rawEnd": 49,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "而",
+                    "start": 23.3,
+                    "end": 23.64,
+                    "rawStart": 50,
+                    "rawEnd": 50,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "鼠",
+                    "start": 23.72,
+                    "end": 24.06,
+                    "rawStart": 51,
+                    "rawEnd": 51,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "魂",
+                    "start": 24.06,
+                    "end": 24.36,
+                    "rawStart": 52,
+                    "rawEnd": 52,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 24.36,
+                    "end": 24.7,
+                    "rawStart": 53,
+                    "rawEnd": 53,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 24.36,
+                    "end": 24.7,
+                    "rawStart": 54,
+                    "rawEnd": 54,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "phraseSize": 6,
+                "matchingText": "「然而属『魂的』人,不领会神圣灵的事,惟有属灵的人才能看透。」",
+                "normalization": "parenthetical-or-number-label-removed"
+              },
+              "body": "「然而属『魂(血气)的』人,不领会神圣灵的事,惟有属灵的人才能看透。」"
+            }
+          }
+        }
+      }
     },
     {
-      "start": 35.08,
-      "end": 74.12,
+      "start": 37.12,
+      "end": 74.3,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "基督徒到达认识十字架的阶段时就不再随从肉体行事这时他们自认是属灵的信徒被上帝的圣灵完全更新及引领",
-      "confidence": 0.828
+      "confidence": 0.922,
+      "quality": {
+        "coverage": 0.918,
+        "coherentCoverage": 0.893,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 37.12,
+        "previousEnd": 74.3,
+        "previousConfidence": 0.921
+      }
     },
     {
-      "start": 74.12,
-      "end": 143.78,
+      "start": 75.02,
+      "end": 143.02,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "那已在灵里活过来的信徒是被圣灵所生并且上帝的圣灵住在他的灵里他已从十字架的启示明白胜过随从肉体生",
-      "confidence": 0.839
+      "confidence": 0.933,
+      "quality": {
+        "coverage": 0.928,
+        "coherentCoverage": 0.919,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 75.02,
+        "previousEnd": 143.02,
+        "previousConfidence": 0.932
+      }
     },
     {
       "start": 143.78,
-      "end": 192.66,
+      "end": 191.88,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "我们早已指出一般错误的观念就是当圣徒知道了他已与基督向罪死了不再习惯地随从肉体他就成了属灵人且是",
-      "confidence": 0.84
+      "confidence": 0.869,
+      "quality": {
+        "coverage": 0.832,
+        "coherentCoverage": 0.81,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 143.78,
+        "previousEnd": 191.88,
+        "previousConfidence": 0.869
+      }
     },
     {
       "start": 192.66,
-      "end": 206.48,
+      "end": 204.86,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "要清楚地明白这一点我们先来看看什么是不再属肉体或随肉体生活而是属魂的基督徒之标志",
-      "confidence": 0.692
-    },
-    {
-      "start": 206.48,
-      "end": 209.24,
-      "kind": "heading",
-      "targetIndex": 6,
-      "targetText": "属魂生命的样式",
-      "confidence": 0.769
+      "confidence": 0.975,
+      "quality": {
+        "coverage": 0.975,
+        "coherentCoverage": 0.975,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 192.66,
+        "previousEnd": 204.86,
+        "previousConfidence": 0.975
+      }
     },
     {
       "start": 209.24,
@@ -69,135 +349,2318 @@
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "我们已经知道魂包括心思情感它是人格的中心是自觉的所在信徒可能全然地从加拉太书五章十九至廿一节所记",
-      "confidence": 0.749
+      "confidence": 0.873,
+      "quality": {
+        "coverage": 0.851,
+        "coherentCoverage": 0.809,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 209.24,
+        "previousEnd": 281.94,
+        "previousConfidence": 0.867
+      }
     },
     {
       "start": 281.94,
-      "end": 363.82,
+      "end": 364.5,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "举例来说如果要论属心思生活的问题从雅各书我们就可以清楚地分辨属灵和属魂的或肉体与智慧的不同使徒写",
-      "confidence": 0.77
+      "confidence": 0.921,
+      "quality": {
+        "coverage": 0.908,
+        "coherentCoverage": 0.864,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 281.94,
+        "previousEnd": 364.5,
+        "previousConfidence": 0.904
+      }
     },
     {
-      "start": 363.82,
-      "end": 409.16,
+      "start": 365.44,
+      "end": 408.14,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "从雅各书的亮光中我们可以清楚地看见教会的光景及其形成分裂和宗派的原因嫉妒和纷争的肉体工作往往是教",
-      "confidence": 0.719
+      "confidence": 0.909,
+      "quality": {
+        "coverage": 0.926,
+        "coherentCoverage": 0.911,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 365.44,
+        "previousEnd": 408.14,
+        "previousConfidence": 0.909
+      }
     },
     {
       "start": 409.16,
-      "end": 445.03,
+      "end": 442.76,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "潘伯指出心思不只是容易堕落而且是一切恩赐中最危险的一种除非它是在上帝圣灵引导下许多基督徒是如此依",
-      "confidence": 0.726
+      "confidence": 0.94,
+      "quality": {
+        "coverage": 0.935,
+        "coherentCoverage": 0.935,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 409.16,
+        "previousEnd": 442.76,
+        "previousConfidence": 0.94
+      }
     },
     {
       "start": 445.03,
-      "end": 500.35,
+      "end": 502.27,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "再者出于属魂的信仰和教训常造成派别和分裂他们可能真正爱那些不同意见的人但是不同的看法无疑地将造成",
-      "confidence": 0.775
+      "confidence": 0.896,
+      "quality": {
+        "coverage": 0.896,
+        "coherentCoverage": 0.896,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 445.03,
+        "previousEnd": 500.35,
+        "previousConfidence": 0.889
+      }
     },
     {
-      "start": 500.35,
+      "start": 503.89,
       "end": 537.33,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "不但如此基督徒属魂的本质也强调了与别人在真理看法上的微小差异即强调字句上少许的薄荷茴香而却丢弃了",
-      "confidence": 0.654
+      "confidence": 0.881,
+      "quality": {
+        "coverage": 0.893,
+        "coherentCoverage": 0.825,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 503.89,
+        "previousEnd": 537.33,
+        "previousConfidence": 0.881
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 537.33,
+            "time": 537.33,
+            "reason": "正文末句已定位，保留原出处结束范围，避免因书名识别差异截掉已读出处",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\魂与灵\\3-1.mp3.json",
+              "sha256": "f34e6734a7e991b74eb43e1746377362a54d60ccfe7bac408292e717124082b0",
+              "anchor": {
+                "time": 536.43,
+                "score": 0.8562,
+                "ratio": 0.8571,
+                "expected": "zhangerdadaozhendaoshangtongguiyuyidetiaojian",
+                "actual": "长到达到真到少同归于1的条件",
+                "span": [
+                  532.77,
+                  536.43
+                ],
+                "tokens": [
+                  {
+                    "text": "长",
+                    "start": 532.77,
+                    "end": 533.05,
+                    "rawStart": 1611,
+                    "rawEnd": 1611,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "到",
+                    "start": 533.05,
+                    "end": 533.37,
+                    "rawStart": 1612,
+                    "rawEnd": 1612,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "达",
+                    "start": 533.37,
+                    "end": 533.69,
+                    "rawStart": 1613,
+                    "rawEnd": 1613,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "到",
+                    "start": 533.69,
+                    "end": 534.07,
+                    "rawStart": 1614,
+                    "rawEnd": 1614,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "真",
+                    "start": 534.07,
+                    "end": 534.31,
+                    "rawStart": 1615,
+                    "rawEnd": 1615,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "到",
+                    "start": 534.31,
+                    "end": 534.53,
+                    "rawStart": 1616,
+                    "rawEnd": 1616,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "少",
+                    "start": 534.53,
+                    "end": 534.75,
+                    "rawStart": 1617,
+                    "rawEnd": 1617,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "同",
+                    "start": 534.75,
+                    "end": 535.09,
+                    "rawStart": 1618,
+                    "rawEnd": 1618,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "归",
+                    "start": 535.09,
+                    "end": 535.35,
+                    "rawStart": 1619,
+                    "rawEnd": 1619,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "于",
+                    "start": 535.35,
+                    "end": 535.57,
+                    "rawStart": 1620,
+                    "rawEnd": 1620,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 535.57,
+                    "end": 535.75,
+                    "rawStart": 1621,
+                    "rawEnd": 1621,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 535.75,
+                    "end": 535.89,
+                    "rawStart": 1622,
+                    "rawEnd": 1622,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "条",
+                    "start": 535.89,
+                    "end": 536.13,
+                    "rawStart": 1623,
+                    "rawEnd": 1623,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "件",
+                    "start": 536.13,
+                    "end": 536.43,
+                    "rawStart": 1624,
+                    "rawEnd": 1624,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "不但如此,基督徒属魂的本质也强调了与别人在「真理看法」上的微小差异,即强调字句上「少许的薄荷、茴香」,而却丢弃了「律法上更重要的事」,就是福音时代基督的律法,亦即信徒彼此相爱及灵里合一,乃信徒增长而达到「真道上同归于一」的条件",
+              "retainedCitationInterval": [
+                536.43,
+                537.33
+              ]
+            }
+          }
+        }
+      }
     },
     {
-      "start": 537.33,
-      "end": 595.17,
+      "start": 542.27,
+      "end": 595.43,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "简而言之属魂的生命是受到超自然邪恶势力所影响这是信仰分门别派之主要因素甚至在真正属上帝儿女之中也",
-      "confidence": 0.727
+      "confidence": 0.864,
+      "quality": {
+        "coverage": 0.898,
+        "coherentCoverage": 0.819,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 537.33,
+        "previousEnd": 595.43,
+        "previousConfidence": 0.852
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 537.33,
+            "time": 542.27,
+            "reason": "简而言之首字识别有误，按实际句首保留。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\魂与灵\\3-1.mp3.json",
+              "sha256": "f781058508da0c89fc4455db3232c38fe6117f715ffbbedd90035462a26bf560",
+              "segments": [
+                {
+                  "start": 525.41,
+                  "end": 540.35,
+                  "text": "也就是信徒彼此相愛及淩理合一,乃信徒真長到達到真到少同歸於一的條件,以復所書四章三解是三解。",
+                  "words": [
+                    {
+                      "start": 525.41,
+                      "end": 526.59,
+                      "text": "也",
+                      "probability": 0.8033686280250549
+                    },
+                    {
+                      "start": 526.59,
+                      "end": 527.01,
+                      "text": "就是",
+                      "probability": 0.9776679277420044
+                    },
+                    {
+                      "start": 527.01,
+                      "end": 527.49,
+                      "text": "信",
+                      "probability": 0.6092926859855652
+                    },
+                    {
+                      "start": 527.49,
+                      "end": 527.73,
+                      "text": "徒",
+                      "probability": 0.988104373216629
+                    },
+                    {
+                      "start": 527.73,
+                      "end": 527.95,
+                      "text": "彼",
+                      "probability": 0.9931842088699341
+                    },
+                    {
+                      "start": 527.95,
+                      "end": 528.23,
+                      "text": "此",
+                      "probability": 0.999876856803894
+                    },
+                    {
+                      "start": 528.23,
+                      "end": 528.45,
+                      "text": "相",
+                      "probability": 0.9949658513069153
+                    },
+                    {
+                      "start": 528.45,
+                      "end": 528.79,
+                      "text": "愛",
+                      "probability": 0.6056150197982788
+                    },
+                    {
+                      "start": 528.79,
+                      "end": 529.45,
+                      "text": "及",
+                      "probability": 0.28755998611450195
+                    },
+                    {
+                      "start": 529.45,
+                      "end": 529.83,
+                      "text": "淩",
+                      "probability": 0.4356420785188675
+                    },
+                    {
+                      "start": 529.83,
+                      "end": 530.11,
+                      "text": "理",
+                      "probability": 0.711668074131012
+                    },
+                    {
+                      "start": 530.11,
+                      "end": 530.39,
+                      "text": "合",
+                      "probability": 0.8621761798858643
+                    },
+                    {
+                      "start": 530.39,
+                      "end": 530.65,
+                      "text": "一,",
+                      "probability": 0.88567715883255
+                    },
+                    {
+                      "start": 531.07,
+                      "end": 531.41,
+                      "text": "乃",
+                      "probability": 0.9842418730258942
+                    },
+                    {
+                      "start": 531.41,
+                      "end": 531.75,
+                      "text": "信",
+                      "probability": 0.9900779724121094
+                    },
+                    {
+                      "start": 531.75,
+                      "end": 532.19,
+                      "text": "徒",
+                      "probability": 0.9998411536216736
+                    },
+                    {
+                      "start": 532.19,
+                      "end": 532.77,
+                      "text": "真",
+                      "probability": 0.5857678055763245
+                    },
+                    {
+                      "start": 532.77,
+                      "end": 533.05,
+                      "text": "長",
+                      "probability": 0.8038628101348877
+                    },
+                    {
+                      "start": 533.05,
+                      "end": 533.37,
+                      "text": "到",
+                      "probability": 0.2202715277671814
+                    },
+                    {
+                      "start": 533.37,
+                      "end": 533.69,
+                      "text": "達",
+                      "probability": 0.9165055155754089
+                    },
+                    {
+                      "start": 533.69,
+                      "end": 534.07,
+                      "text": "到",
+                      "probability": 0.9908021092414856
+                    },
+                    {
+                      "start": 534.07,
+                      "end": 534.31,
+                      "text": "真",
+                      "probability": 0.9098712205886841
+                    },
+                    {
+                      "start": 534.31,
+                      "end": 534.53,
+                      "text": "到",
+                      "probability": 0.6367710828781128
+                    },
+                    {
+                      "start": 534.53,
+                      "end": 534.75,
+                      "text": "少",
+                      "probability": 0.7788882851600647
+                    },
+                    {
+                      "start": 534.75,
+                      "end": 535.09,
+                      "text": "同",
+                      "probability": 0.9499500393867493
+                    },
+                    {
+                      "start": 535.09,
+                      "end": 535.35,
+                      "text": "歸",
+                      "probability": 0.991145133972168
+                    },
+                    {
+                      "start": 535.35,
+                      "end": 535.57,
+                      "text": "於",
+                      "probability": 0.5533815026283264
+                    },
+                    {
+                      "start": 535.57,
+                      "end": 535.75,
+                      "text": "一",
+                      "probability": 0.5586435198783875
+                    },
+                    {
+                      "start": 535.75,
+                      "end": 535.89,
+                      "text": "的",
+                      "probability": 0.9865865707397461
+                    },
+                    {
+                      "start": 535.89,
+                      "end": 536.13,
+                      "text": "條",
+                      "probability": 0.9871538281440735
+                    },
+                    {
+                      "start": 536.13,
+                      "end": 536.43,
+                      "text": "件,",
+                      "probability": 0.9995335340499878
+                    },
+                    {
+                      "start": 537.33,
+                      "end": 537.49,
+                      "text": "以",
+                      "probability": 0.27273067831993103
+                    },
+                    {
+                      "start": 537.49,
+                      "end": 537.61,
+                      "text": "復",
+                      "probability": 0.6856744140386581
+                    },
+                    {
+                      "start": 537.61,
+                      "end": 537.83,
+                      "text": "所",
+                      "probability": 0.9819853901863098
+                    },
+                    {
+                      "start": 537.83,
+                      "end": 538.11,
+                      "text": "書",
+                      "probability": 0.5532724261283875
+                    },
+                    {
+                      "start": 538.11,
+                      "end": 538.45,
+                      "text": "四",
+                      "probability": 0.7992929816246033
+                    },
+                    {
+                      "start": 538.45,
+                      "end": 538.73,
+                      "text": "章",
+                      "probability": 0.9660202860832214
+                    },
+                    {
+                      "start": 538.73,
+                      "end": 539.15,
+                      "text": "三",
+                      "probability": 0.9693475961685181
+                    },
+                    {
+                      "start": 539.15,
+                      "end": 539.47,
+                      "text": "解",
+                      "probability": 0.7804986834526062
+                    },
+                    {
+                      "start": 539.47,
+                      "end": 539.77,
+                      "text": "是",
+                      "probability": 0.4679952561855316
+                    },
+                    {
+                      "start": 539.77,
+                      "end": 540.01,
+                      "text": "三",
+                      "probability": 0.996444046497345
+                    },
+                    {
+                      "start": 540.01,
+                      "end": 540.35,
+                      "text": "解。",
+                      "probability": 0.9967418313026428
+                    }
+                  ]
+                },
+                {
+                  "start": 542.27,
+                  "end": 556.89,
+                  "text": "这而言之,树魂的生命是受到超自然邪恶势力所影响,这是信仰封门别派之主要因素,甚至在真正树生儿女之中也是如此。",
+                  "words": [
+                    {
+                      "start": 542.27,
+                      "end": 542.79,
+                      "text": "这",
+                      "probability": 0.10356980562210083
+                    },
+                    {
+                      "start": 542.79,
+                      "end": 542.97,
+                      "text": "而",
+                      "probability": 0.9017088413238525
+                    },
+                    {
+                      "start": 542.97,
+                      "end": 543.21,
+                      "text": "言",
+                      "probability": 0.4117959439754486
+                    },
+                    {
+                      "start": 543.21,
+                      "end": 543.57,
+                      "text": "之,",
+                      "probability": 0.9992372989654541
+                    },
+                    {
+                      "start": 544.17,
+                      "end": 544.31,
+                      "text": "树",
+                      "probability": 0.657462552189827
+                    },
+                    {
+                      "start": 544.31,
+                      "end": 544.49,
+                      "text": "魂",
+                      "probability": 0.978031188249588
+                    },
+                    {
+                      "start": 544.49,
+                      "end": 544.61,
+                      "text": "的",
+                      "probability": 0.9912602305412292
+                    },
+                    {
+                      "start": 544.61,
+                      "end": 544.81,
+                      "text": "生",
+                      "probability": 0.844614565372467
+                    },
+                    {
+                      "start": 544.81,
+                      "end": 545.07,
+                      "text": "命",
+                      "probability": 0.9995388984680176
+                    },
+                    {
+                      "start": 545.07,
+                      "end": 545.63,
+                      "text": "是",
+                      "probability": 0.8018472194671631
+                    },
+                    {
+                      "start": 545.63,
+                      "end": 545.89,
+                      "text": "受",
+                      "probability": 0.9977996945381165
+                    },
+                    {
+                      "start": 545.89,
+                      "end": 546.21,
+                      "text": "到",
+                      "probability": 0.9505191445350647
+                    },
+                    {
+                      "start": 546.21,
+                      "end": 546.59,
+                      "text": "超",
+                      "probability": 0.889055073261261
+                    },
+                    {
+                      "start": 546.59,
+                      "end": 546.85,
+                      "text": "自",
+                      "probability": 0.9870364665985107
+                    },
+                    {
+                      "start": 546.85,
+                      "end": 547.07,
+                      "text": "然",
+                      "probability": 0.9875853061676025
+                    },
+                    {
+                      "start": 547.07,
+                      "end": 547.41,
+                      "text": "邪",
+                      "probability": 0.9954165816307068
+                    },
+                    {
+                      "start": 547.41,
+                      "end": 547.65,
+                      "text": "恶",
+                      "probability": 0.9969141781330109
+                    },
+                    {
+                      "start": 547.65,
+                      "end": 547.91,
+                      "text": "势",
+                      "probability": 0.9778821766376495
+                    },
+                    {
+                      "start": 547.91,
+                      "end": 548.07,
+                      "text": "力",
+                      "probability": 0.9967682361602783
+                    },
+                    {
+                      "start": 548.07,
+                      "end": 548.25,
+                      "text": "所",
+                      "probability": 0.9974489808082581
+                    },
+                    {
+                      "start": 548.25,
+                      "end": 548.53,
+                      "text": "影",
+                      "probability": 0.9764052629470825
+                    },
+                    {
+                      "start": 548.53,
+                      "end": 548.73,
+                      "text": "响,",
+                      "probability": 0.9980539381504059
+                    },
+                    {
+                      "start": 549.47,
+                      "end": 549.93,
+                      "text": "这是",
+                      "probability": 0.8833388686180115
+                    },
+                    {
+                      "start": 549.93,
+                      "end": 550.23,
+                      "text": "信",
+                      "probability": 0.8125959634780884
+                    },
+                    {
+                      "start": 550.23,
+                      "end": 550.51,
+                      "text": "仰",
+                      "probability": 0.9384771883487701
+                    },
+                    {
+                      "start": 550.51,
+                      "end": 550.87,
+                      "text": "封",
+                      "probability": 0.5482652857899666
+                    },
+                    {
+                      "start": 550.87,
+                      "end": 551.11,
+                      "text": "门",
+                      "probability": 0.9161740839481354
+                    },
+                    {
+                      "start": 551.11,
+                      "end": 551.33,
+                      "text": "别",
+                      "probability": 0.9838602542877197
+                    },
+                    {
+                      "start": 551.33,
+                      "end": 551.69,
+                      "text": "派",
+                      "probability": 0.9981528520584106
+                    },
+                    {
+                      "start": 551.69,
+                      "end": 552.01,
+                      "text": "之",
+                      "probability": 0.8325566053390503
+                    },
+                    {
+                      "start": 552.01,
+                      "end": 552.17,
+                      "text": "主",
+                      "probability": 0.9976946711540222
+                    },
+                    {
+                      "start": 552.17,
+                      "end": 552.33,
+                      "text": "要",
+                      "probability": 0.998503565788269
+                    },
+                    {
+                      "start": 552.33,
+                      "end": 552.53,
+                      "text": "因",
+                      "probability": 0.995376467704773
+                    },
+                    {
+                      "start": 552.53,
+                      "end": 552.85,
+                      "text": "素,",
+                      "probability": 0.9991274476051331
+                    },
+                    {
+                      "start": 553.51,
+                      "end": 553.77,
+                      "text": "甚",
+                      "probability": 0.980918288230896
+                    },
+                    {
+                      "start": 553.77,
+                      "end": 554.07,
+                      "text": "至",
+                      "probability": 0.9960699081420898
+                    },
+                    {
+                      "start": 554.07,
+                      "end": 554.37,
+                      "text": "在",
+                      "probability": 0.978934109210968
+                    },
+                    {
+                      "start": 554.37,
+                      "end": 554.57,
+                      "text": "真",
+                      "probability": 0.8794955015182495
+                    },
+                    {
+                      "start": 554.57,
+                      "end": 554.75,
+                      "text": "正",
+                      "probability": 0.9948709011077881
+                    },
+                    {
+                      "start": 554.75,
+                      "end": 554.99,
+                      "text": "树",
+                      "probability": 0.9414307475090027
+                    },
+                    {
+                      "start": 554.99,
+                      "end": 555.15,
+                      "text": "生",
+                      "probability": 0.9558005332946777
+                    },
+                    {
+                      "start": 555.15,
+                      "end": 555.39,
+                      "text": "儿",
+                      "probability": 0.9564494490623474
+                    },
+                    {
+                      "start": 555.39,
+                      "end": 555.55,
+                      "text": "女",
+                      "probability": 0.9993875026702881
+                    },
+                    {
+                      "start": 555.55,
+                      "end": 555.77,
+                      "text": "之",
+                      "probability": 0.9880535006523132
+                    },
+                    {
+                      "start": 555.77,
+                      "end": 556.05,
+                      "text": "中",
+                      "probability": 0.9962478280067444
+                    },
+                    {
+                      "start": 556.05,
+                      "end": 556.39,
+                      "text": "也是",
+                      "probability": 0.9138664603233337
+                    },
+                    {
+                      "start": 556.39,
+                      "end": 556.89,
+                      "text": "如此。",
+                      "probability": 0.9995550513267517
+                    }
+                  ]
+                }
+              ],
+              "source": "context-reviewed-paragraph-approximation"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.898,
+          "coherentCoverage": 0.819,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.9,
+          "suffixCoverage": 1.0,
+          "unmatchedLeadingChars": 1,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [
+            "start substitution"
+          ],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     },
     {
-      "start": 595.17,
-      "end": 663.19,
+      "start": 596.43,
+      "end": 664.25,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "自我孤立和比别人更圣洁一直是属魂的标志因为主耶稣说人为人子恨恶你们隔离拒绝你们你们就有福了路六2",
-      "confidence": 0.685
+      "confidence": 0.925,
+      "quality": {
+        "coverage": 0.932,
+        "coherentCoverage": 0.913,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 596.43,
+        "previousEnd": 664.25,
+        "previousConfidence": 0.902
+      }
     },
     {
-      "start": 663.19,
-      "end": 775.39,
+      "start": 665.35,
+      "end": 775.85,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "属魂生命的另一部分是情绪是从身体的感觉产生的基督徒可能被属魂的感觉支配而以为它都是属灵的潘伯说圣",
-      "confidence": 0.84
+      "confidence": 0.944,
+      "quality": {
+        "coverage": 0.95,
+        "coherentCoverage": 0.924,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 665.35,
+        "previousEnd": 775.85,
+        "previousConfidence": 0.932
+      }
     },
     {
-      "start": 775.39,
-      "end": 836.79,
+      "start": 776.55,
+      "end": 835.77,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "在此所陈明的事实是何等的严肃为何教会里会有许多有名无实的基督徒这些人身上根本没有基督徒真正生命的",
-      "confidence": 0.93
+      "confidence": 0.935,
+      "quality": {
+        "coverage": 0.932,
+        "coherentCoverage": 0.896,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\魂与灵\\3-1.mp3.json",
+          "transcriptSha256": "f781058508da0c89fc4455db3232c38fe6117f715ffbbedd90035462a26bf560",
+          "verified": true,
+          "time": 776.55,
+          "expectedPhrase": "在此所陈明的事实是何等的严肃！为何教会里会有许多有名无实的基督徒，这些人身上根本",
+          "actualPhrase": "在此所承明的事实是何等的",
+          "edgeAnchor": "在此所陈明的事实是何等的",
+          "evidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": false,
+            "substitutionAnchor": true,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 0.917,
+            "localSimilarity": 0.917,
+            "localText": "在此所陈明的事实是何等的严肃为何教会里会有许多有",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false
+          },
+          "window": [
+            763.85,
+            787.85
+          ],
+          "segments": [
+            {
+              "start": 763.67,
+              "end": 775.85,
+              "text": "现,雅各书三章十五节,因为撒旦的影响是借属土的身体进入的,然后控制魂,以至得着门路进入淋漓。",
+              "words": [
+                {
+                  "start": 763.67,
+                  "end": 763.95,
+                  "text": "现,",
+                  "probability": 0.993186354637146
+                },
+                {
+                  "start": 764.59,
+                  "end": 764.73,
+                  "text": "雅",
+                  "probability": 0.8883461058139801
+                },
+                {
+                  "start": 764.73,
+                  "end": 764.91,
+                  "text": "各",
+                  "probability": 0.9880244135856628
+                },
+                {
+                  "start": 764.91,
+                  "end": 765.27,
+                  "text": "书",
+                  "probability": 0.669208750128746
+                },
+                {
+                  "start": 765.27,
+                  "end": 765.77,
+                  "text": "三",
+                  "probability": 0.8619171977043152
+                },
+                {
+                  "start": 765.77,
+                  "end": 766.01,
+                  "text": "章",
+                  "probability": 0.9347411692142487
+                },
+                {
+                  "start": 766.01,
+                  "end": 766.27,
+                  "text": "十",
+                  "probability": 0.8557001352310181
+                },
+                {
+                  "start": 766.27,
+                  "end": 766.43,
+                  "text": "五",
+                  "probability": 0.9930607080459595
+                },
+                {
+                  "start": 766.43,
+                  "end": 766.63,
+                  "text": "节,",
+                  "probability": 0.8866304755210876
+                },
+                {
+                  "start": 767.29,
+                  "end": 767.45,
+                  "text": "因为",
+                  "probability": 0.9827361106872559
+                },
+                {
+                  "start": 767.45,
+                  "end": 767.75,
+                  "text": "撒",
+                  "probability": 0.9986892640590668
+                },
+                {
+                  "start": 767.75,
+                  "end": 767.93,
+                  "text": "旦",
+                  "probability": 0.9991841912269592
+                },
+                {
+                  "start": 767.93,
+                  "end": 768.07,
+                  "text": "的",
+                  "probability": 0.9941792488098145
+                },
+                {
+                  "start": 768.07,
+                  "end": 768.27,
+                  "text": "影",
+                  "probability": 0.9949874877929688
+                },
+                {
+                  "start": 768.27,
+                  "end": 768.49,
+                  "text": "响",
+                  "probability": 0.9962736964225769
+                },
+                {
+                  "start": 768.49,
+                  "end": 768.91,
+                  "text": "是",
+                  "probability": 0.9771246314048767
+                },
+                {
+                  "start": 768.91,
+                  "end": 769.33,
+                  "text": "借",
+                  "probability": 0.9507453143596649
+                },
+                {
+                  "start": 769.33,
+                  "end": 769.59,
+                  "text": "属",
+                  "probability": 0.9626851081848145
+                },
+                {
+                  "start": 769.59,
+                  "end": 769.89,
+                  "text": "土",
+                  "probability": 0.9659974575042725
+                },
+                {
+                  "start": 769.89,
+                  "end": 770.05,
+                  "text": "的",
+                  "probability": 0.992815375328064
+                },
+                {
+                  "start": 770.05,
+                  "end": 770.25,
+                  "text": "身",
+                  "probability": 0.9923749566078186
+                },
+                {
+                  "start": 770.25,
+                  "end": 770.55,
+                  "text": "体",
+                  "probability": 0.9994673132896423
+                },
+                {
+                  "start": 770.55,
+                  "end": 770.77,
+                  "text": "进",
+                  "probability": 0.9814524054527283
+                },
+                {
+                  "start": 770.77,
+                  "end": 770.99,
+                  "text": "入",
+                  "probability": 0.9995044469833374
+                },
+                {
+                  "start": 770.99,
+                  "end": 771.23,
+                  "text": "的,",
+                  "probability": 0.976108729839325
+                },
+                {
+                  "start": 771.71,
+                  "end": 772.13,
+                  "text": "然后",
+                  "probability": 0.9928777813911438
+                },
+                {
+                  "start": 772.13,
+                  "end": 772.61,
+                  "text": "控",
+                  "probability": 0.9935543537139893
+                },
+                {
+                  "start": 772.61,
+                  "end": 772.77,
+                  "text": "制",
+                  "probability": 0.9869664907455444
+                },
+                {
+                  "start": 772.77,
+                  "end": 773.05,
+                  "text": "魂,",
+                  "probability": 0.9998813271522522
+                },
+                {
+                  "start": 773.59,
+                  "end": 773.69,
+                  "text": "以",
+                  "probability": 0.8093866109848022
+                },
+                {
+                  "start": 773.69,
+                  "end": 773.93,
+                  "text": "至",
+                  "probability": 0.49944618344306946
+                },
+                {
+                  "start": 773.93,
+                  "end": 774.29,
+                  "text": "得",
+                  "probability": 0.9837716221809387
+                },
+                {
+                  "start": 774.29,
+                  "end": 774.45,
+                  "text": "着",
+                  "probability": 0.9591834545135498
+                },
+                {
+                  "start": 774.45,
+                  "end": 774.65,
+                  "text": "门",
+                  "probability": 0.6749087572097778
+                },
+                {
+                  "start": 774.65,
+                  "end": 774.89,
+                  "text": "路",
+                  "probability": 0.9889265298843384
+                },
+                {
+                  "start": 774.89,
+                  "end": 775.21,
+                  "text": "进",
+                  "probability": 0.9800297617912292
+                },
+                {
+                  "start": 775.21,
+                  "end": 775.39,
+                  "text": "入",
+                  "probability": 0.9995238780975342
+                },
+                {
+                  "start": 775.39,
+                  "end": 775.65,
+                  "text": "淋",
+                  "probability": 0.7188475131988525
+                },
+                {
+                  "start": 775.65,
+                  "end": 775.85,
+                  "text": "漓。",
+                  "probability": 0.7062880545854568
+                }
+              ]
+            },
+            {
+              "start": 776.55,
+              "end": 785.01,
+              "text": "在此所承明的事实是何等的严肃,为何教会力会有许多有名无实的基督徒?",
+              "words": [
+                {
+                  "start": 776.55,
+                  "end": 777.03,
+                  "text": "在",
+                  "probability": 0.6285054087638855
+                },
+                {
+                  "start": 777.03,
+                  "end": 777.37,
+                  "text": "此",
+                  "probability": 0.9972934126853943
+                },
+                {
+                  "start": 777.37,
+                  "end": 777.75,
+                  "text": "所",
+                  "probability": 0.571265459060669
+                },
+                {
+                  "start": 777.75,
+                  "end": 778.03,
+                  "text": "承",
+                  "probability": 0.6333330720663071
+                },
+                {
+                  "start": 778.03,
+                  "end": 778.19,
+                  "text": "明",
+                  "probability": 0.677962064743042
+                },
+                {
+                  "start": 778.19,
+                  "end": 778.33,
+                  "text": "的",
+                  "probability": 0.9797875881195068
+                },
+                {
+                  "start": 778.33,
+                  "end": 778.55,
+                  "text": "事",
+                  "probability": 0.9883766770362854
+                },
+                {
+                  "start": 778.55,
+                  "end": 778.83,
+                  "text": "实",
+                  "probability": 0.7356446981430054
+                },
+                {
+                  "start": 778.83,
+                  "end": 779.09,
+                  "text": "是",
+                  "probability": 0.9681517481803894
+                },
+                {
+                  "start": 779.09,
+                  "end": 779.39,
+                  "text": "何",
+                  "probability": 0.9141209125518799
+                },
+                {
+                  "start": 779.39,
+                  "end": 779.59,
+                  "text": "等",
+                  "probability": 0.981895923614502
+                },
+                {
+                  "start": 779.59,
+                  "end": 779.77,
+                  "text": "的",
+                  "probability": 0.9667263031005859
+                },
+                {
+                  "start": 779.77,
+                  "end": 779.97,
+                  "text": "严",
+                  "probability": 0.9243409931659698
+                },
+                {
+                  "start": 779.97,
+                  "end": 780.27,
+                  "text": "肃,",
+                  "probability": 0.9739915430545807
+                },
+                {
+                  "start": 781.11,
+                  "end": 781.27,
+                  "text": "为",
+                  "probability": 0.9065501689910889
+                },
+                {
+                  "start": 781.27,
+                  "end": 781.63,
+                  "text": "何",
+                  "probability": 0.9994295239448547
+                },
+                {
+                  "start": 781.63,
+                  "end": 781.87,
+                  "text": "教",
+                  "probability": 0.9641702175140381
+                },
+                {
+                  "start": 781.87,
+                  "end": 782.11,
+                  "text": "会",
+                  "probability": 0.9359729290008545
+                },
+                {
+                  "start": 782.11,
+                  "end": 782.31,
+                  "text": "力",
+                  "probability": 0.6296120882034302
+                },
+                {
+                  "start": 782.31,
+                  "end": 782.67,
+                  "text": "会",
+                  "probability": 0.9565519690513611
+                },
+                {
+                  "start": 782.67,
+                  "end": 782.83,
+                  "text": "有",
+                  "probability": 0.993232011795044
+                },
+                {
+                  "start": 782.83,
+                  "end": 783.05,
+                  "text": "许",
+                  "probability": 0.9888451099395752
+                },
+                {
+                  "start": 783.05,
+                  "end": 783.31,
+                  "text": "多",
+                  "probability": 0.9993335604667664
+                },
+                {
+                  "start": 783.31,
+                  "end": 783.55,
+                  "text": "有",
+                  "probability": 0.9866934418678284
+                },
+                {
+                  "start": 783.55,
+                  "end": 783.79,
+                  "text": "名",
+                  "probability": 0.9848756194114685
+                },
+                {
+                  "start": 783.79,
+                  "end": 784.11,
+                  "text": "无",
+                  "probability": 0.9614622592926025
+                },
+                {
+                  "start": 784.11,
+                  "end": 784.35,
+                  "text": "实",
+                  "probability": 0.46409061551094055
+                },
+                {
+                  "start": 784.35,
+                  "end": 784.51,
+                  "text": "的",
+                  "probability": 0.9941220879554749
+                },
+                {
+                  "start": 784.51,
+                  "end": 784.65,
+                  "text": "基",
+                  "probability": 0.8940430879592896
+                },
+                {
+                  "start": 784.65,
+                  "end": 784.79,
+                  "text": "督",
+                  "probability": 0.9934002459049225
+                },
+                {
+                  "start": 784.79,
+                  "end": 785.01,
+                  "text": "徒?",
+                  "probability": 0.9968419969081879
+                }
+              ]
+            },
+            {
+              "start": 785.83,
+              "end": 788.11,
+              "text": "这些人甚像根本没有基",
+              "words": [
+                {
+                  "start": 785.83,
+                  "end": 785.99,
+                  "text": "这",
+                  "probability": 0.9511789679527283
+                },
+                {
+                  "start": 785.99,
+                  "end": 786.13,
+                  "text": "些",
+                  "probability": 0.999765932559967
+                },
+                {
+                  "start": 786.13,
+                  "end": 786.27,
+                  "text": "人",
+                  "probability": 0.999739944934845
+                },
+                {
+                  "start": 786.27,
+                  "end": 786.51,
+                  "text": "甚",
+                  "probability": 0.2536485195159912
+                },
+                {
+                  "start": 786.51,
+                  "end": 786.75,
+                  "text": "像",
+                  "probability": 0.6790288090705872
+                },
+                {
+                  "start": 786.75,
+                  "end": 787.13,
+                  "text": "根",
+                  "probability": 0.9890061616897583
+                },
+                {
+                  "start": 787.13,
+                  "end": 787.51,
+                  "text": "本",
+                  "probability": 0.9994571805000305
+                },
+                {
+                  "start": 787.51,
+                  "end": 787.83,
+                  "text": "没有",
+                  "probability": 0.992702841758728
+                },
+                {
+                  "start": 787.83,
+                  "end": 788.11,
+                  "text": "基",
+                  "probability": 0.9904897212982178
+                }
+              ]
+            }
+          ],
+          "source": "true-edge-local-anchor-review",
+          "listenedByAgent": false,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "reason": "真正首尾文字锚点及词时间确认；局部单字识别差异不要求全文逐字相同。",
+          "audioSha256": "6834549a2276d73e17de7bfcee48f8f0cc97400df81739b1f8e0924665372618"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 775.85,
+        "previousEnd": 835.77,
+        "previousConfidence": 0.934
+      },
+      "boundaryCorrections": [
+        {
+          "book": "魂与灵",
+          "page": "03_属魂的人.md",
+          "audio": "3-1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\魂与灵\\03_属魂的人\\audio-01.json",
+          "targetIndex": 16,
+          "edge": "start",
+          "previousTime": 775.85,
+          "time": 776.55,
+          "kind": "local-edge-confirmation",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "真正首尾文字锚点及词时间确认；局部单字识别差异不要求全文逐字相同。"
+        }
+      ]
     },
     {
       "start": 836.79,
-      "end": 859.71,
+      "end": 858.99,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "那么这一切的感动都该贬损了吗当然不是但是它们不能救人的魂它们也许可以借着读经或讲道的信息来带领内",
-      "confidence": 0.892
+      "confidence": 0.892,
+      "quality": {
+        "coverage": 0.886,
+        "coherentCoverage": 0.873,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 836.79,
+        "previousEnd": 858.99,
+        "previousConfidence": 0.892
+      }
     },
     {
       "start": 859.71,
-      "end": 919.33,
+      "end": 918.23,
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "但是这样做仍有极严重的危险因为这些感动只能达到魂并不能触摸到灵而带出重生的能力那是虚假的会使人徒",
-      "confidence": 0.797
+      "confidence": 0.893,
+      "quality": {
+        "coverage": 0.888,
+        "coherentCoverage": 0.856,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 859.71,
+        "previousEnd": 918.23,
+        "previousConfidence": 0.893
+      }
     },
     {
       "start": 919.33,
-      "end": 997.63,
+      "end": 995.77,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "再者宣教工作求诸于感觉及魂的激动那是极大多数已悔改的人无法站立得稳以及福音大能逐渐消失的原因除此",
-      "confidence": 0.876
+      "confidence": 0.908,
+      "quality": {
+        "coverage": 0.903,
+        "coherentCoverage": 0.874,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 919.33,
+        "previousEnd": 995.77,
+        "previousConfidence": 0.908
+      }
     },
     {
       "start": 997.63,
-      "end": 1049.97,
+      "end": 1049.11,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "一个人可能天生就是一个热心的魂借着火热的魂来推动别人魂的感情但是这些人的信心并不是建立在上帝的大",
-      "confidence": 0.813
+      "confidence": 0.916,
+      "quality": {
+        "coverage": 0.914,
+        "coherentCoverage": 0.891,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\魂与灵\\3-1.mp3.json",
+          "transcriptSha256": "f781058508da0c89fc4455db3232c38fe6117f715ffbbedd90035462a26bf560",
+          "phraseChars": 12,
+          "candidate": 1049.11,
+          "expectedPhrase": "灵是从复活之神儿子赐下的",
+          "actualPhrase": "灵是从复活之生儿子刺下的",
+          "phoneticPhrase": [
+            "ling",
+            "shi",
+            "cong",
+            "fu",
+            "huo",
+            "zhi",
+            "shen",
+            "er",
+            "zi",
+            "ci",
+            "xia",
+            "de"
+          ],
+          "actualPhoneticPhrase": [
+            "ling",
+            "shi",
+            "cong",
+            "fu",
+            "huo",
+            "zhi",
+            "sheng",
+            "er",
+            "zi",
+            "ci",
+            "xia",
+            "de"
+          ],
+          "verified": true,
+          "time": 1049.11,
+          "boundedPhonetic": true,
+          "exactEndpointPhonemes": 2,
+          "maxInternalPhoneticDifferences": 2,
+          "phoneticDifferences": [
+            6
+          ],
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "灵",
+              "start": 1045.73,
+              "end": 1045.93,
+              "rawStart": 3234,
+              "rawEnd": 3234,
+              "precision": "word"
+            },
+            {
+              "text": "是",
+              "start": 1045.93,
+              "end": 1046.29,
+              "rawStart": 3235,
+              "rawEnd": 3235,
+              "precision": "word"
+            },
+            {
+              "text": "从",
+              "start": 1046.29,
+              "end": 1046.59,
+              "rawStart": 3236,
+              "rawEnd": 3236,
+              "precision": "word"
+            },
+            {
+              "text": "复",
+              "start": 1046.59,
+              "end": 1046.95,
+              "rawStart": 3237,
+              "rawEnd": 3237,
+              "precision": "word"
+            },
+            {
+              "text": "活",
+              "start": 1046.95,
+              "end": 1047.23,
+              "rawStart": 3238,
+              "rawEnd": 3238,
+              "precision": "word"
+            },
+            {
+              "text": "之",
+              "start": 1047.23,
+              "end": 1047.43,
+              "rawStart": 3239,
+              "rawEnd": 3239,
+              "precision": "word"
+            },
+            {
+              "text": "生",
+              "start": 1047.43,
+              "end": 1047.65,
+              "rawStart": 3240,
+              "rawEnd": 3240,
+              "precision": "word"
+            },
+            {
+              "text": "儿",
+              "start": 1047.65,
+              "end": 1047.95,
+              "rawStart": 3241,
+              "rawEnd": 3241,
+              "precision": "word"
+            },
+            {
+              "text": "子",
+              "start": 1047.95,
+              "end": 1048.25,
+              "rawStart": 3242,
+              "rawEnd": 3242,
+              "precision": "word"
+            },
+            {
+              "text": "刺",
+              "start": 1048.25,
+              "end": 1048.59,
+              "rawStart": 3243,
+              "rawEnd": 3243,
+              "precision": "word"
+            },
+            {
+              "text": "下",
+              "start": 1048.59,
+              "end": 1048.87,
+              "rawStart": 3244,
+              "rawEnd": 3244,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 1048.87,
+              "end": 1049.11,
+              "rawStart": 3245,
+              "rawEnd": 3245,
+              "precision": "word"
+            }
+          ],
+          "source": "bounded-local-phonetic-differences-original-word-times",
+          "listenedByAgent": false,
+          "audioSha256": "6834549a2276d73e17de7bfcee48f8f0cc97400df81739b1f8e0924665372618",
+          "reason": "实际首/尾2个音节贴边相同，12音节局部短句最多2处内部识别差异；完整词边界、源段及录音唯一性、数字一致、停顿与相邻时间均核验，不逐字检查正文中间。"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 997.63,
+        "previousEnd": 1049.97,
+        "previousConfidence": 0.916
+      },
+      "boundaryCorrections": [
+        {
+          "book": "魂与灵",
+          "page": "03_属魂的人.md",
+          "audio": "3-1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\魂与灵\\03_属魂的人\\audio-01.json",
+          "targetIndex": 20,
+          "edge": "end",
+          "previousTime": 1049.97,
+          "time": 1049.11,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
       "start": 1049.97,
-      "end": 1102.39,
+      "end": 1101.11,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "我们发觉属心思的人他的灵并未得复苏当他来处置灵魂的永生问题时意志坚强的人会运用他意志及性格的优势",
-      "confidence": 0.877
+      "confidence": 0.988,
+      "quality": {
+        "coverage": 0.988,
+        "coherentCoverage": 0.988,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1049.97,
+        "previousEnd": 1101.11,
+        "previousConfidence": 0.988
+      }
     },
     {
       "start": 1102.39,
-      "end": 1140.81,
+      "end": 1139.63,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "还有少部分的一些基督徒他们认识住在自己里面的圣灵而其属魂的程度也少很多这些人的信仰经历是一种魂与",
-      "confidence": 0.977
+      "confidence": 0.977,
+      "quality": {
+        "coverage": 0.969,
+        "coherentCoverage": 0.969,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1102.39,
+        "previousEnd": 1139.63,
+        "previousConfidence": 0.977
+      }
     },
     {
       "start": 1140.81,
-      "end": 1267.23,
+      "end": 1266.49,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "魂不只包括了心思和情感从圣经中可以看出魂是人格的所在其中包括了情感懮喜等能力经上说我的魂甚是懮伤",
-      "confidence": 0.681
+      "confidence": 0.872,
+      "quality": {
+        "coverage": 0.861,
+        "coherentCoverage": 0.818,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1140.81,
+        "previousEnd": 1266.49,
+        "previousConfidence": 0.812
+      }
     },
     {
       "start": 1267.23,
@@ -205,7 +2668,81 @@
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "从这点我们可以看出来邪灵如何能在属魂生命的各方面中工作",
-      "confidence": 0.741
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1267.23,
+        "previousEnd": 1275.21,
+        "previousConfidence": 1.0
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 1: 「然而属『魂（血气）的』人，不领会神圣灵的事，惟有属灵的人才能看透。」（林前二14）",
+    "unverified end anchor: target 12: 不但如此，基督徒属魂的本质也强调了与别人在「真理看法」上的微小差异，即强调字句上「少许的薄荷、茴",
+    "unverified start anchor: target 13: 简而言之，属魂的生命是受到超自然邪恶势力所影响，这是信仰分门别派之主要因素，甚至在真正属神儿女之",
+    "unverified start anchor: target 16: 在此所陈明的事实是何等的严肃！为何教会里会有许多有名无实的基督徒，这些人身上根本没有基督徒真正生",
+    "unverified end anchor: target 20: 一个人可能天生就是一个「热心」的魂，借着火热的魂来推动别人魂的感情，但是这些人的信心并不是建立在",
+    "repair unverified start (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 12",
+    "repair unverified start (previous-sync): target 13",
+    "repair unverified start (previous-sync): target 16",
+    "repair unverified end (previous-sync): target 20",
+    "local context confirmed start: target 16; 真正首尾文字锚点及词时间确认；局部单字识别差异不要求全文逐字相同。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 3,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "066072b82a47e790877151a38888495d634de2d00f1fa3f9340095620db422e3",
+  "repairCueDigest": "7500a59b61c5b074d9a29b097318205b0225d471ebf0a07cc97a03d1d123e803",
+  "previousAlignmentWarnings": []
 }

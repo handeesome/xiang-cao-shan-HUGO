@@ -8,36 +8,321 @@
   "audioDuration": 125.2190625,
   "cues": [
     {
-      "start": 1.8,
-      "end": 3.3,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "礼拜一",
-      "confidence": 0.8
-    },
-    {
       "start": 3.3,
-      "end": 50.62,
+      "end": 49.54,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "上帝造人有良心我们的良心会告诉我们什么时候我们顺服上帝了什么时候得罪上帝了但是因为我们是有罪的所",
-      "confidence": 0.973
+      "confidence": 0.993,
+      "quality": {
+        "coverage": 0.993,
+        "coherentCoverage": 0.993,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 3.3,
+        "previousEnd": 49.54,
+        "previousConfidence": 0.993
+      }
     },
     {
       "start": 50.62,
-      "end": 61.7,
+      "end": 65.48,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "上帝不是一次性地赐给我们整本圣经上帝赐下的最初的经文就包括十诫请读出埃及记342728",
-      "confidence": 0.763
+      "confidence": 0.826,
+      "quality": {
+        "coverage": 0.809,
+        "coherentCoverage": 0.766,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 50.62,
+        "previousEnd": 61.7,
+        "previousConfidence": 0.763
+      }
     },
     {
-      "start": 61.7,
-      "end": 92.0,
+      "start": 67.28,
+      "end": 90.74,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "出埃及记342728耶和华吩咐摩西说你要将这些话写上因为我是按这话与你和以色列人立约摩西在耶和华",
-      "confidence": 0.766
+      "confidence": 0.823,
+      "quality": {
+        "coverage": 0.765,
+        "coherentCoverage": 0.753,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.3,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 14,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "previous-verified-sync",
+        "previousStart": 61.7,
+        "previousEnd": 90.74,
+        "previousConfidence": 0.766
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 65.48,
+            "time": 67.28,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\41-1.mp3.json",
+              "sha256": "07cde7942529c06e39c25c41062fd420e7fbe88367a31d1256ec56b2e287f731",
+              "anchor": {
+                "time": 67.28,
+                "score": 0.9552,
+                "ratio": 0.963,
+                "expected": "yehehuafenfumoxishuoniyaojiangzhexiehua",
+                "actual": "和华吩咐摩西说你要将这些话",
+                "span": [
+                  67.28,
+                  70.88
+                ],
+                "tokens": [
+                  {
+                    "text": "和",
+                    "start": 67.28,
+                    "end": 67.38,
+                    "rawStart": 199,
+                    "rawEnd": 199,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "华",
+                    "start": 67.38,
+                    "end": 67.62,
+                    "rawStart": 200,
+                    "rawEnd": 200,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "吩",
+                    "start": 67.62,
+                    "end": 67.9,
+                    "rawStart": 201,
+                    "rawEnd": 201,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "咐",
+                    "start": 67.9,
+                    "end": 68.02,
+                    "rawStart": 202,
+                    "rawEnd": 202,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "摩",
+                    "start": 68.02,
+                    "end": 68.24,
+                    "rawStart": 203,
+                    "rawEnd": 203,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "西",
+                    "start": 68.24,
+                    "end": 68.48,
+                    "rawStart": 204,
+                    "rawEnd": 204,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "说",
+                    "start": 68.48,
+                    "end": 68.78,
+                    "rawStart": 205,
+                    "rawEnd": 205,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 68.78,
+                    "end": 69.74,
+                    "rawStart": 206,
+                    "rawEnd": 206,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "要",
+                    "start": 68.78,
+                    "end": 69.74,
+                    "rawStart": 207,
+                    "rawEnd": 207,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "将",
+                    "start": 69.74,
+                    "end": 70.14,
+                    "rawStart": 208,
+                    "rawEnd": 208,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "这",
+                    "start": 70.14,
+                    "end": 70.48,
+                    "rawStart": 209,
+                    "rawEnd": 209,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "些",
+                    "start": 70.48,
+                    "end": 70.68,
+                    "rawStart": 210,
+                    "rawEnd": 210,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "话",
+                    "start": 70.68,
+                    "end": 70.88,
+                    "rawStart": 211,
+                    "rawEnd": 211,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 65.02,
+                  "score": 0.8202,
+                  "actual": "28戒义和华吩咐摩西说你要将这些话"
+                }
+              },
+              "body": "耶和华吩咐摩西说:“你要将这些话写上,因为我是按这话与你和以色列人立约。”摩西在耶和华那里四十昼夜,也不吃饭,也不喝水。耶和华将这约的话,就是十条诫,写在两块版上。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.765,
+          "coherentCoverage": 0.753,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.3,
+          "suffixCoverage": 0.85,
+          "unmatchedLeadingChars": 14,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-verified-end"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     },
     {
       "start": 92.0,
@@ -45,7 +330,359 @@
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "十诫总结了上帝启示给我们的全部旨意总结就是尽量以最简短的方式讲出某事最重要的部分十诫只用几句话就",
-      "confidence": 0.88
+      "confidence": 0.874,
+      "quality": {
+        "coverage": 0.865,
+        "coherentCoverage": 0.779,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\41-1.mp3.json",
+          "transcriptSha256": "36465e17e1956fdf2d2bf4351df4b54c7c5c596647f838409e03b811d7acf754",
+          "phraseChars": 12,
+          "candidate": 92.0,
+          "expectedPhrase": "10诫总结了神启示给我们",
+          "actualPhrase": "10戒总结的神岂是给我们",
+          "phoneticPhrase": [
+            "1",
+            "0",
+            "jie",
+            "zong",
+            "jie",
+            "le",
+            "shen",
+            "qi",
+            "shi",
+            "gei",
+            "wo",
+            "men"
+          ],
+          "actualPhoneticPhrase": [
+            "1",
+            "0",
+            "jie",
+            "zong",
+            "jie",
+            "de",
+            "shen",
+            "qi",
+            "shi",
+            "gei",
+            "wo",
+            "men"
+          ],
+          "verified": true,
+          "time": 92.0,
+          "boundedPhonetic": true,
+          "exactEndpointPhonemes": 2,
+          "maxInternalPhoneticDifferences": 2,
+          "phoneticDifferences": [
+            5
+          ],
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "1",
+              "start": 92.0,
+              "end": 92.62,
+              "rawStart": 270,
+              "rawEnd": 270,
+              "precision": "word"
+            },
+            {
+              "text": "0",
+              "start": 92.0,
+              "end": 92.62,
+              "rawStart": 271,
+              "rawEnd": 271,
+              "precision": "word"
+            },
+            {
+              "text": "戒",
+              "start": 92.62,
+              "end": 92.98,
+              "rawStart": 272,
+              "rawEnd": 272,
+              "precision": "word"
+            },
+            {
+              "text": "总",
+              "start": 92.98,
+              "end": 93.36,
+              "rawStart": 273,
+              "rawEnd": 273,
+              "precision": "word"
+            },
+            {
+              "text": "结",
+              "start": 93.36,
+              "end": 93.56,
+              "rawStart": 274,
+              "rawEnd": 274,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 93.56,
+              "end": 93.68,
+              "rawStart": 275,
+              "rawEnd": 275,
+              "precision": "word"
+            },
+            {
+              "text": "神",
+              "start": 93.68,
+              "end": 94.16,
+              "rawStart": 276,
+              "rawEnd": 277,
+              "precision": "word"
+            },
+            {
+              "text": "岂",
+              "start": 94.16,
+              "end": 94.46,
+              "rawStart": 278,
+              "rawEnd": 278,
+              "precision": "word"
+            },
+            {
+              "text": "是",
+              "start": 94.46,
+              "end": 94.66,
+              "rawStart": 279,
+              "rawEnd": 279,
+              "precision": "word"
+            },
+            {
+              "text": "给",
+              "start": 94.66,
+              "end": 94.78,
+              "rawStart": 280,
+              "rawEnd": 280,
+              "precision": "word"
+            },
+            {
+              "text": "我",
+              "start": 94.78,
+              "end": 95.08,
+              "rawStart": 281,
+              "rawEnd": 281,
+              "precision": "word"
+            },
+            {
+              "text": "们",
+              "start": 94.78,
+              "end": 95.08,
+              "rawStart": 282,
+              "rawEnd": 282,
+              "precision": "word"
+            }
+          ],
+          "source": "bounded-local-phonetic-differences-original-word-times",
+          "listenedByAgent": false,
+          "audioSha256": "8d9ad672a29814f66da31affab7697dadb2a2cf3fbd30f1b54133a505f63c51e",
+          "reason": "实际首/尾2个音节贴边相同，12音节局部短句最多2处内部识别差异；完整词边界、源段及录音唯一性、数字一致、停顿与相邻时间均核验，不逐字检查正文中间。"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 92.0,
+        "previousEnd": 123.38,
+        "previousConfidence": 0.88
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "041_第四十一问 道德律是总括在什么里面.md",
+          "audio": "41-1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\041_第四十一问 道德律是总括在什么里面\\audio-02.json",
+          "targetIndex": 6,
+          "edge": "start",
+          "previousTime": 92.0,
+          "time": 92.0,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 123.38,
+            "time": 123.38,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\41-1.mp3.json",
+              "sha256": "07cde7942529c06e39c25c41062fd420e7fbe88367a31d1256ec56b2e287f731",
+              "anchor": {
+                "time": 123.38,
+                "score": 0.7347,
+                "ratio": 0.7407,
+                "expected": "zhengdikandaoshencixia10jieshideyongyi",
+                "actual": "整的看到神赐下实践式的用意",
+                "span": [
+                  119.64,
+                  123.38
+                ],
+                "tokens": [
+                  {
+                    "text": "整",
+                    "start": 119.64,
+                    "end": 119.92,
+                    "rawStart": 358,
+                    "rawEnd": 358,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 119.92,
+                    "end": 120.08,
+                    "rawStart": 359,
+                    "rawEnd": 359,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "看",
+                    "start": 120.08,
+                    "end": 120.4,
+                    "rawStart": 360,
+                    "rawEnd": 360,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "到",
+                    "start": 120.08,
+                    "end": 120.4,
+                    "rawStart": 361,
+                    "rawEnd": 361,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 120.4,
+                    "end": 121.32,
+                    "rawStart": 362,
+                    "rawEnd": 363,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "赐",
+                    "start": 121.32,
+                    "end": 121.58,
+                    "rawStart": 364,
+                    "rawEnd": 364,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "下",
+                    "start": 121.58,
+                    "end": 121.86,
+                    "rawStart": 365,
+                    "rawEnd": 365,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "实",
+                    "start": 121.86,
+                    "end": 122.28,
+                    "rawStart": 366,
+                    "rawEnd": 366,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "践",
+                    "start": 122.28,
+                    "end": 122.58,
+                    "rawStart": 367,
+                    "rawEnd": 367,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "式",
+                    "start": 122.58,
+                    "end": 122.78,
+                    "rawStart": 368,
+                    "rawEnd": 368,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 122.78,
+                    "end": 122.92,
+                    "rawStart": 369,
+                    "rawEnd": 369,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "用",
+                    "start": 122.92,
+                    "end": 123.06,
+                    "rawStart": 370,
+                    "rawEnd": 370,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "意",
+                    "start": 123.06,
+                    "end": 123.38,
+                    "rawStart": 371,
+                    "rawEnd": 371,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "十诫总结了上帝启示给我们的全部旨意。总结就是尽量以最简短的方式,讲出某事最重要的部分。十诫只用几句话,就将上帝所要求我们的,都告诉我们了。经文中其他的教导和命令,都在解释十诫,帮助我们更完整地看到上帝赐下十诫时的用意。"
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v8-rendered-list-and-empty-paragraph-indices",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (14 leading chars, coverage 0.300): target 5: 出埃及记34:27-28 耶和华吩咐摩西说：“你要将这些话写上，因为我是按这话与你和以色列人立约",
+    "unverified start anchor: target 5: 出埃及记34:27-28 耶和华吩咐摩西说：“你要将这些话写上，因为我是按这话与你和以色列人立约",
+    "unverified start anchor: target 6: 十诫总结了上帝启示给我们的全部旨意。总结就是尽量以最简短的方式，讲出某事最重要的部分。十诫只用几",
+    "unverified end anchor: target 6: 十诫总结了上帝启示给我们的全部旨意。总结就是尽量以最简短的方式，讲出某事最重要的部分。十诫只用几",
+    "repair unverified start (previous-verified-end): target 5",
+    "repair unverified start (previous-sync): target 6",
+    "repair unverified end (previous-sync): target 6"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "8a2e776d66e21bd7960493295b0e7bfc14a964272bd50cd327a3d5e61319ecac",
+  "repairCueDigest": "1359437a6d9f7af673eba86cf8a9aa18ffa90b0644b1e5f17cc000193991cab7",
+  "previousAlignmentWarnings": []
 }

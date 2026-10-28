@@ -8,20 +8,111 @@
   "audioDuration": 35.856,
   "cues": [
     {
-      "start": 14.4,
-      "end": 14.58,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "礼拜一",
-      "confidence": 0.5
+      "start": 10.56,
+      "end": 16.7,
+      "kind": "paragraph",
+      "targetIndex": 1,
+      "targetText": "答上帝的道记载于新旧约圣经就是唯一的准则指教我们如何荣耀祂以祂为乐",
+      "confidence": 0.4,
+      "quality": {
+        "startVerified": false,
+        "endVerified": false,
+        "reviewRequired": true,
+        "verificationBasis": "paragraph-level-approximate"
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "reason": "答、新旧约圣经是唯一的准则；该录音采用简答，不能等待未朗读的展开说明。",
+        "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\2-0.mp3.json",
+        "transcriptSha256": "a1add85d759a8fb532bab477e1a39f11e6e8677f74a2d8c1cdc5b1063fa58959",
+        "actualText": "答,心就曰圣经,是唯一的准则。",
+        "interval": [
+          10.56,
+          16.7
+        ],
+        "listenedByAgent": false,
+        "authorization": "用户要求段落级首尾大致对应，允许识别差异与摘读，不要求逐字核验。"
+      }
     },
     {
-      "start": 14.58,
+      "start": 16.74,
       "end": 35.16,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "提摩太后书31617圣经都是上帝所默示的于教训督责使人归正教导人学义都是有益的叫属上帝的人得以完",
-      "confidence": 0.733
+      "confidence": 0.867,
+      "quality": {
+        "coverage": 0.867,
+        "coherentCoverage": 0.8,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 16.74,
+        "previousEnd": 35.16,
+        "previousConfidence": 0.867
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v8-rendered-list-and-empty-paragraph-indices",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (18 leading chars, coverage 0.000): target 1: 答：上帝的道记载于新旧约圣经，就是唯一的准则，指教我们如何荣耀祂、以祂为乐。",
+    "low confidence (0.583, coverage 0.424): target 1: 答：上帝的道记载于新旧约圣经，就是唯一的准则，指教我们如何荣耀祂、以祂为乐。",
+    "unverified start anchor: target 1: 答：上帝的道记载于新旧约圣经，就是唯一的准则，指教我们如何荣耀祂、以祂为乐。",
+    "unverified end anchor: target 1: 答：上帝的道记载于新旧约圣经，就是唯一的准则，指教我们如何荣耀祂、以祂为乐。",
+    "repair missing cue (unverified): target 1",
+    "paragraph-level cue recovered: target 1; 答、新旧约圣经是唯一的准则；该录音采用简答，不能等待未朗读的展开说明。 原始严格核验提示保留。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": [
+      1
+    ]
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "d694b3653a846d145bb69b3a8cf4d1d18ee57616df5d04acacd84591844172ef",
+  "repairCueDigest": "c59189e85926eee2727123ae3240f0518a40cfb35195109556fe0a857eaf3f99",
+  "previousAlignmentWarnings": []
 }

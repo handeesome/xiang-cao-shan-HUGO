@@ -8,36 +8,1041 @@
   "audioDuration": 119.725,
   "cues": [
     {
-      "start": 0.34,
-      "end": 2.04,
-      "kind": "heading",
-      "targetIndex": 19,
-      "targetText": "礼拜五",
-      "confidence": 0.8
-    },
-    {
       "start": 2.04,
-      "end": 34.9,
+      "end": 34.32,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "今天人们是否从别人那里接受敬拜尊荣仿佛他们是上帝今天是否有人似乎觉得自己既然是伟人名人就不需要顺",
-      "confidence": 0.765
+      "confidence": 0.939,
+      "quality": {
+        "coverage": 0.939,
+        "coherentCoverage": 0.918,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 2.04,
+        "previousEnd": 34.9,
+        "previousConfidence": 0.765
+      }
     },
     {
-      "start": 34.9,
-      "end": 36.48,
+      "start": 35.46,
+      "end": 38.18,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "请读以弗所书556",
-      "confidence": 0.4
+      "confidence": 0.4,
+      "quality": {
+        "startVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endVerified": false,
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "reviewRequired": true
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 34.9,
+        "previousEnd": 36.48,
+        "previousConfidence": 0.4
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 36.48,
+            "time": 38.18,
+            "reason": "核对原识别稿的相邻句及同一段实际读法；按真实句首或句尾定位，识别错字、译法差异和短省略不作逐字否决。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\48-5.mp3.json",
+              "sha256": "db7c3ff4ed7b33a8c013c3d26a8ae4eab08d83a49c275725f9d5cdbf754ca776",
+              "source": "context-reviewed-paragraph-approximation",
+              "segments": [
+                {
+                  "start": 27.6,
+                  "end": 34.32,
+                  "text": "对于像西律那样接受如此尊重的人有一样的感受",
+                  "words": [
+                    {
+                      "start": 27.6,
+                      "end": 28.46,
+                      "text": "对",
+                      "probability": 0.35946863889694214
+                    },
+                    {
+                      "start": 28.46,
+                      "end": 28.72,
+                      "text": "于",
+                      "probability": 0.9896309971809387
+                    },
+                    {
+                      "start": 28.72,
+                      "end": 29.32,
+                      "text": "像",
+                      "probability": 0.7405282855033875
+                    },
+                    {
+                      "start": 29.32,
+                      "end": 29.92,
+                      "text": "西",
+                      "probability": 0.4368230700492859
+                    },
+                    {
+                      "start": 29.92,
+                      "end": 30.14,
+                      "text": "律",
+                      "probability": 0.618608370423317
+                    },
+                    {
+                      "start": 30.14,
+                      "end": 30.4,
+                      "text": "那",
+                      "probability": 0.997121274471283
+                    },
+                    {
+                      "start": 30.4,
+                      "end": 30.58,
+                      "text": "样",
+                      "probability": 0.9983371496200562
+                    },
+                    {
+                      "start": 30.58,
+                      "end": 31.0,
+                      "text": "接",
+                      "probability": 0.8517774343490601
+                    },
+                    {
+                      "start": 31.0,
+                      "end": 31.32,
+                      "text": "受",
+                      "probability": 0.9989219903945923
+                    },
+                    {
+                      "start": 31.32,
+                      "end": 31.96,
+                      "text": "如此",
+                      "probability": 0.9896705746650696
+                    },
+                    {
+                      "start": 31.96,
+                      "end": 32.3,
+                      "text": "尊",
+                      "probability": 0.9638877809047699
+                    },
+                    {
+                      "start": 32.3,
+                      "end": 32.46,
+                      "text": "重",
+                      "probability": 0.6703359484672546
+                    },
+                    {
+                      "start": 32.46,
+                      "end": 32.74,
+                      "text": "的人",
+                      "probability": 0.9972009658813477
+                    },
+                    {
+                      "start": 32.74,
+                      "end": 33.28,
+                      "text": "有一",
+                      "probability": 0.6493655443191528
+                    },
+                    {
+                      "start": 33.28,
+                      "end": 33.7,
+                      "text": "样",
+                      "probability": 0.8737039566040039
+                    },
+                    {
+                      "start": 33.7,
+                      "end": 33.8,
+                      "text": "的",
+                      "probability": 0.9716113805770874
+                    },
+                    {
+                      "start": 33.8,
+                      "end": 33.98,
+                      "text": "感",
+                      "probability": 0.9993385672569275
+                    },
+                    {
+                      "start": 33.98,
+                      "end": 34.32,
+                      "text": "受",
+                      "probability": 0.9986377358436584
+                    }
+                  ]
+                },
+                {
+                  "start": 34.9,
+                  "end": 38.18,
+                  "text": "见读义父所书五章五的六集",
+                  "words": [
+                    {
+                      "start": 34.9,
+                      "end": 35.46,
+                      "text": "见",
+                      "probability": 0.051572103053331375
+                    },
+                    {
+                      "start": 35.46,
+                      "end": 35.64,
+                      "text": "读",
+                      "probability": 0.9014093279838562
+                    },
+                    {
+                      "start": 35.64,
+                      "end": 35.92,
+                      "text": "义",
+                      "probability": 0.6769588887691498
+                    },
+                    {
+                      "start": 35.92,
+                      "end": 36.02,
+                      "text": "父",
+                      "probability": 0.7873483896255493
+                    },
+                    {
+                      "start": 36.02,
+                      "end": 36.2,
+                      "text": "所",
+                      "probability": 0.9782348275184631
+                    },
+                    {
+                      "start": 36.2,
+                      "end": 36.48,
+                      "text": "书",
+                      "probability": 0.8886215388774872
+                    },
+                    {
+                      "start": 36.48,
+                      "end": 36.8,
+                      "text": "五",
+                      "probability": 0.2536998391151428
+                    },
+                    {
+                      "start": 36.8,
+                      "end": 37.06,
+                      "text": "章",
+                      "probability": 0.943121463060379
+                    },
+                    {
+                      "start": 37.06,
+                      "end": 37.5,
+                      "text": "五",
+                      "probability": 0.5278913378715515
+                    },
+                    {
+                      "start": 37.5,
+                      "end": 37.7,
+                      "text": "的",
+                      "probability": 0.9072210192680359
+                    },
+                    {
+                      "start": 37.7,
+                      "end": 37.92,
+                      "text": "六",
+                      "probability": 0.15779173374176025
+                    },
+                    {
+                      "start": 37.92,
+                      "end": 38.18,
+                      "text": "集",
+                      "probability": 0.41389918327331543
+                    }
+                  ]
+                },
+                {
+                  "start": 39.02,
+                  "end": 41.16,
+                  "text": "因为你们确实的知道",
+                  "words": [
+                    {
+                      "start": 39.02,
+                      "end": 39.58,
+                      "text": "因为",
+                      "probability": 0.9407959580421448
+                    },
+                    {
+                      "start": 39.58,
+                      "end": 40.04,
+                      "text": "你们",
+                      "probability": 0.9768999814987183
+                    },
+                    {
+                      "start": 40.04,
+                      "end": 40.46,
+                      "text": "确",
+                      "probability": 0.9977873265743256
+                    },
+                    {
+                      "start": 40.46,
+                      "end": 40.72,
+                      "text": "实",
+                      "probability": 0.9973834156990051
+                    },
+                    {
+                      "start": 40.72,
+                      "end": 40.84,
+                      "text": "的",
+                      "probability": 0.6046624779701233
+                    },
+                    {
+                      "start": 40.84,
+                      "end": 41.16,
+                      "text": "知道",
+                      "probability": 0.9986893534660339
+                    }
+                  ]
+                },
+                {
+                  "start": 41.16,
+                  "end": 46.08,
+                  "text": "无论是淫乱的 是诬会的 是有贪心的",
+                  "words": [
+                    {
+                      "start": 41.16,
+                      "end": 41.72,
+                      "text": "无",
+                      "probability": 0.8894643783569336
+                    },
+                    {
+                      "start": 41.72,
+                      "end": 41.86,
+                      "text": "论",
+                      "probability": 0.9989666044712067
+                    },
+                    {
+                      "start": 41.86,
+                      "end": 42.18,
+                      "text": "是",
+                      "probability": 0.9988081455230713
+                    },
+                    {
+                      "start": 42.18,
+                      "end": 42.6,
+                      "text": "淫",
+                      "probability": 0.6645844727754593
+                    },
+                    {
+                      "start": 42.6,
+                      "end": 42.88,
+                      "text": "乱",
+                      "probability": 0.9969526529312134
+                    },
+                    {
+                      "start": 42.88,
+                      "end": 43.26,
+                      "text": "的",
+                      "probability": 0.9482478499412537
+                    },
+                    {
+                      "start": 43.26,
+                      "end": 43.78,
+                      "text": " 是",
+                      "probability": 0.09661787748336792
+                    },
+                    {
+                      "start": 43.78,
+                      "end": 44.12,
+                      "text": "诬",
+                      "probability": 0.7397832572460175
+                    },
+                    {
+                      "start": 44.12,
+                      "end": 44.38,
+                      "text": "会",
+                      "probability": 0.3879033327102661
+                    },
+                    {
+                      "start": 44.38,
+                      "end": 44.7,
+                      "text": "的",
+                      "probability": 0.9883766770362854
+                    },
+                    {
+                      "start": 44.7,
+                      "end": 45.14,
+                      "text": " 是",
+                      "probability": 0.37573519349098206
+                    },
+                    {
+                      "start": 45.14,
+                      "end": 45.3,
+                      "text": "有",
+                      "probability": 0.980577826499939
+                    },
+                    {
+                      "start": 45.3,
+                      "end": 45.5,
+                      "text": "贪",
+                      "probability": 0.9708214700222015
+                    },
+                    {
+                      "start": 45.5,
+                      "end": 45.76,
+                      "text": "心",
+                      "probability": 0.9977501034736633
+                    },
+                    {
+                      "start": 45.76,
+                      "end": 46.08,
+                      "text": "的",
+                      "probability": 0.9990440011024475
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          "start": {
+            "old": 34.9,
+            "time": 35.46,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\48-5.mp3.json",
+              "sha256": "6f6b5e3c48910b5d10f855f61eae11f224bc96f9c22ed30186343efab6923595",
+              "anchor": {
+                "time": 35.46,
+                "score": 0.9268,
+                "ratio": 0.9333,
+                "expected": "qingduyifusuoshuwuzhang",
+                "actual": "读义父所书5章",
+                "span": [
+                  35.46,
+                  37.06
+                ],
+                "tokens": [
+                  {
+                    "text": "读",
+                    "start": 35.46,
+                    "end": 35.64,
+                    "rawStart": 102,
+                    "rawEnd": 102,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "义",
+                    "start": 35.64,
+                    "end": 35.92,
+                    "rawStart": 103,
+                    "rawEnd": 103,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "父",
+                    "start": 35.92,
+                    "end": 36.02,
+                    "rawStart": 104,
+                    "rawEnd": 104,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "所",
+                    "start": 36.02,
+                    "end": 36.2,
+                    "rawStart": 105,
+                    "rawEnd": 105,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "书",
+                    "start": 36.2,
+                    "end": 36.48,
+                    "rawStart": 106,
+                    "rawEnd": 106,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "5",
+                    "start": 36.48,
+                    "end": 36.8,
+                    "rawStart": 107,
+                    "rawEnd": 107,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "章",
+                    "start": 36.8,
+                    "end": 37.06,
+                    "rawStart": 108,
+                    "rawEnd": 108,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "phraseSize": 8,
+                "matchingText": "请读以弗所书5:5-6。",
+                "normalization": "original-body"
+              },
+              "body": "请读以弗所书5:5-6。"
+            }
+          }
+        },
+        "previousQuality": {
+          "startVerified": false,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endVerified": false,
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reviewRequired": true
+        }
+      }
     },
     {
-      "start": 36.48,
-      "end": 65.06,
+      "start": 39.02,
+      "end": 62.88,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "以弗所书556因为你们确实地知道无论是淫乱的是污秽的是有贪心的在基督和上帝的国里都是无分的有贪心",
-      "confidence": 0.788
+      "confidence": 0.812,
+      "quality": {
+        "coverage": 0.798,
+        "coherentCoverage": 0.667,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 7,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\48-5.mp3.json",
+          "transcriptSha256": "db7c3ff4ed7b33a8c013c3d26a8ae4eab08d83a49c275725f9d5cdbf754ca776",
+          "phraseChars": 12,
+          "candidate": 62.88,
+          "expectedPhrase": "神的忿怒必临到那悖逆之子",
+          "actualPhrase": "事的愤怒必领到那被逆之子",
+          "phoneticPhrase": [
+            "shen",
+            "de",
+            "fen",
+            "nu",
+            "bi",
+            "lin",
+            "dao",
+            "na",
+            "bei",
+            "ni",
+            "zhi",
+            "zi"
+          ],
+          "actualPhoneticPhrase": [
+            "shi",
+            "de",
+            "fen",
+            "nu",
+            "bi",
+            "ling",
+            "dao",
+            "na",
+            "bei",
+            "ni",
+            "zhi",
+            "zi"
+          ],
+          "verified": true,
+          "time": 62.88,
+          "boundedPhonetic": true,
+          "exactEndpointPhonemes": 2,
+          "maxInternalPhoneticDifferences": 2,
+          "phoneticDifferences": [
+            0,
+            5
+          ],
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "事",
+              "start": 58.4,
+              "end": 58.88,
+              "rawStart": 176,
+              "rawEnd": 176,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 59.34,
+              "end": 59.5,
+              "rawStart": 177,
+              "rawEnd": 177,
+              "precision": "word"
+            },
+            {
+              "text": "愤",
+              "start": 59.5,
+              "end": 59.66,
+              "rawStart": 178,
+              "rawEnd": 178,
+              "precision": "word"
+            },
+            {
+              "text": "怒",
+              "start": 59.66,
+              "end": 59.92,
+              "rawStart": 179,
+              "rawEnd": 179,
+              "precision": "word"
+            },
+            {
+              "text": "必",
+              "start": 59.92,
+              "end": 60.48,
+              "rawStart": 180,
+              "rawEnd": 180,
+              "precision": "word"
+            },
+            {
+              "text": "领",
+              "start": 60.48,
+              "end": 60.8,
+              "rawStart": 181,
+              "rawEnd": 181,
+              "precision": "word"
+            },
+            {
+              "text": "到",
+              "start": 60.8,
+              "end": 61.1,
+              "rawStart": 182,
+              "rawEnd": 182,
+              "precision": "word"
+            },
+            {
+              "text": "那",
+              "start": 61.1,
+              "end": 61.36,
+              "rawStart": 183,
+              "rawEnd": 183,
+              "precision": "word"
+            },
+            {
+              "text": "被",
+              "start": 61.36,
+              "end": 61.82,
+              "rawStart": 184,
+              "rawEnd": 184,
+              "precision": "word"
+            },
+            {
+              "text": "逆",
+              "start": 61.82,
+              "end": 62.12,
+              "rawStart": 185,
+              "rawEnd": 185,
+              "precision": "word"
+            },
+            {
+              "text": "之",
+              "start": 62.12,
+              "end": 62.48,
+              "rawStart": 186,
+              "rawEnd": 186,
+              "precision": "word"
+            },
+            {
+              "text": "子",
+              "start": 62.48,
+              "end": 62.88,
+              "rawStart": 187,
+              "rawEnd": 187,
+              "precision": "word"
+            }
+          ],
+          "source": "bounded-local-phonetic-differences-original-word-times",
+          "listenedByAgent": false,
+          "audioSha256": "537db378dccd6a3d29db097985615249c4b9b178615ab80c06865312b007ed44",
+          "reason": "实际首/尾2个音节贴边相同，12音节局部短句最多2处内部识别差异；完整词边界、源段及录音唯一性、数字一致、停顿与相邻时间均核验，不逐字检查正文中间。"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 36.48,
+        "previousEnd": 65.06,
+        "previousConfidence": 0.788
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "048_第四十八问 第一诫命的“除了我以外”此话特别教导我们什么.md",
+          "audio": "48-5.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\048_第四十八问 第一诫命的“除了我以外”此话特别教导我们什么\\audio-06.json",
+          "targetIndex": 22,
+          "edge": "end",
+          "previousTime": 65.06,
+          "time": 62.88,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 36.48,
+            "time": 39.02,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\48-5.mp3.json",
+              "sha256": "6f6b5e3c48910b5d10f855f61eae11f224bc96f9c22ed30186343efab6923595",
+              "anchor": {
+                "time": 39.02,
+                "score": 0.926,
+                "ratio": 0.9286,
+                "expected": "yinweinimenqueshidizhidaowulunshiyinluan",
+                "actual": "因为你们确实的知道无论是淫乱",
+                "span": [
+                  39.02,
+                  42.88
+                ],
+                "tokens": [
+                  {
+                    "text": "因",
+                    "start": 39.02,
+                    "end": 39.58,
+                    "rawStart": 113,
+                    "rawEnd": 113,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "为",
+                    "start": 39.02,
+                    "end": 39.58,
+                    "rawStart": 114,
+                    "rawEnd": 114,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 39.58,
+                    "end": 40.04,
+                    "rawStart": 115,
+                    "rawEnd": 115,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 39.58,
+                    "end": 40.04,
+                    "rawStart": 116,
+                    "rawEnd": 116,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "确",
+                    "start": 40.04,
+                    "end": 40.46,
+                    "rawStart": 117,
+                    "rawEnd": 117,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "实",
+                    "start": 40.46,
+                    "end": 40.72,
+                    "rawStart": 118,
+                    "rawEnd": 118,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 40.72,
+                    "end": 40.84,
+                    "rawStart": 119,
+                    "rawEnd": 119,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "知",
+                    "start": 40.84,
+                    "end": 41.16,
+                    "rawStart": 120,
+                    "rawEnd": 120,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "道",
+                    "start": 40.84,
+                    "end": 41.16,
+                    "rawStart": 121,
+                    "rawEnd": 121,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "无",
+                    "start": 41.16,
+                    "end": 41.72,
+                    "rawStart": 122,
+                    "rawEnd": 122,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "论",
+                    "start": 41.72,
+                    "end": 41.86,
+                    "rawStart": 123,
+                    "rawEnd": 123,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 41.86,
+                    "end": 42.18,
+                    "rawStart": 124,
+                    "rawEnd": 124,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "淫",
+                    "start": 42.18,
+                    "end": 42.6,
+                    "rawStart": 125,
+                    "rawEnd": 125,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "乱",
+                    "start": 42.6,
+                    "end": 42.88,
+                    "rawStart": 126,
+                    "rawEnd": 126,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "因为你们确实地知道,无论是淫乱的,是污秽的,是有贪心的,在基督和神的国里都是无分的。有贪心的,就与拜偶像的一样。不要被人虚浮的话欺哄,因这些事,神的忿怒必临到那悖逆之子。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.798,
+          "coherentCoverage": 0.667,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.6,
+          "suffixCoverage": 0.7,
+          "unmatchedLeadingChars": 7,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\48-5.mp3.json",
+            "transcriptSha256": "db7c3ff4ed7b33a8c013c3d26a8ae4eab08d83a49c275725f9d5cdbf754ca776",
+            "phraseChars": 12,
+            "candidate": 62.88,
+            "expectedPhrase": "神的忿怒必临到那悖逆之子",
+            "actualPhrase": "事的愤怒必领到那被逆之子",
+            "phoneticPhrase": [
+              "shen",
+              "de",
+              "fen",
+              "nu",
+              "bi",
+              "lin",
+              "dao",
+              "na",
+              "bei",
+              "ni",
+              "zhi",
+              "zi"
+            ],
+            "actualPhoneticPhrase": [
+              "shi",
+              "de",
+              "fen",
+              "nu",
+              "bi",
+              "ling",
+              "dao",
+              "na",
+              "bei",
+              "ni",
+              "zhi",
+              "zi"
+            ],
+            "verified": true,
+            "time": 62.88,
+            "boundedPhonetic": true,
+            "exactEndpointPhonemes": 2,
+            "maxInternalPhoneticDifferences": 2,
+            "phoneticDifferences": [
+              0,
+              5
+            ],
+            "localSupported": true,
+            "timingPrecision": "word",
+            "wordTokens": [
+              {
+                "text": "事",
+                "start": 58.4,
+                "end": 58.88,
+                "rawStart": 176,
+                "rawEnd": 176,
+                "precision": "word"
+              },
+              {
+                "text": "的",
+                "start": 59.34,
+                "end": 59.5,
+                "rawStart": 177,
+                "rawEnd": 177,
+                "precision": "word"
+              },
+              {
+                "text": "愤",
+                "start": 59.5,
+                "end": 59.66,
+                "rawStart": 178,
+                "rawEnd": 178,
+                "precision": "word"
+              },
+              {
+                "text": "怒",
+                "start": 59.66,
+                "end": 59.92,
+                "rawStart": 179,
+                "rawEnd": 179,
+                "precision": "word"
+              },
+              {
+                "text": "必",
+                "start": 59.92,
+                "end": 60.48,
+                "rawStart": 180,
+                "rawEnd": 180,
+                "precision": "word"
+              },
+              {
+                "text": "领",
+                "start": 60.48,
+                "end": 60.8,
+                "rawStart": 181,
+                "rawEnd": 181,
+                "precision": "word"
+              },
+              {
+                "text": "到",
+                "start": 60.8,
+                "end": 61.1,
+                "rawStart": 182,
+                "rawEnd": 182,
+                "precision": "word"
+              },
+              {
+                "text": "那",
+                "start": 61.1,
+                "end": 61.36,
+                "rawStart": 183,
+                "rawEnd": 183,
+                "precision": "word"
+              },
+              {
+                "text": "被",
+                "start": 61.36,
+                "end": 61.82,
+                "rawStart": 184,
+                "rawEnd": 184,
+                "precision": "word"
+              },
+              {
+                "text": "逆",
+                "start": 61.82,
+                "end": 62.12,
+                "rawStart": 185,
+                "rawEnd": 185,
+                "precision": "word"
+              },
+              {
+                "text": "之",
+                "start": 62.12,
+                "end": 62.48,
+                "rawStart": 186,
+                "rawEnd": 186,
+                "precision": "word"
+              },
+              {
+                "text": "子",
+                "start": 62.48,
+                "end": 62.88,
+                "rawStart": 187,
+                "rawEnd": 187,
+                "precision": "word"
+              }
+            ],
+            "source": "bounded-local-phonetic-differences-original-word-times",
+            "listenedByAgent": false,
+            "audioSha256": "537db378dccd6a3d29db097985615249c4b9b178615ab80c06865312b007ed44",
+            "reason": "实际首/尾2个音节贴边相同，12音节局部短句最多2处内部识别差异；完整词边界、源段及录音唯一性、数字一致、停顿与相邻时间均核验，不逐字检查正文中间。"
+          }
+        }
+      }
     },
     {
       "start": 65.06,
@@ -45,7 +1050,227 @@
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "这段经文告诉我们有贪心的人就是一个拜偶像的人有贪心的人他们想要的总比上帝已经赐予的多这样的人与上",
-      "confidence": 0.637
+      "confidence": 0.881,
+      "quality": {
+        "coverage": 0.878,
+        "coherentCoverage": 0.811,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 6,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 65.06,
+        "previousEnd": 116.28,
+        "previousConfidence": 0.637
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 116.28,
+            "time": 116.28,
+            "reason": "正文末句已定位，保留原出处结束范围，避免因书名识别差异截掉已读出处",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\48-5.mp3.json",
+              "sha256": "6f6b5e3c48910b5d10f855f61eae11f224bc96f9c22ed30186343efab6923595",
+              "anchor": {
+                "time": 114.96,
+                "score": 0.9987,
+                "ratio": 1.0,
+                "expected": "menluozaiyongshengshendeshoulizhenshikepade",
+                "actual": "们落在永生神的手里真是可怕的",
+                "span": [
+                  109.08,
+                  114.96
+                ],
+                "tokens": [
+                  {
+                    "text": "们",
+                    "start": 109.08,
+                    "end": 109.56,
+                    "rawStart": 318,
+                    "rawEnd": 318,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "落",
+                    "start": 109.56,
+                    "end": 110.76,
+                    "rawStart": 319,
+                    "rawEnd": 319,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "在",
+                    "start": 110.76,
+                    "end": 111.14,
+                    "rawStart": 320,
+                    "rawEnd": 320,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "永",
+                    "start": 111.14,
+                    "end": 111.48,
+                    "rawStart": 321,
+                    "rawEnd": 321,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "生",
+                    "start": 111.48,
+                    "end": 111.82,
+                    "rawStart": 322,
+                    "rawEnd": 322,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 111.82,
+                    "end": 112.08,
+                    "rawStart": 323,
+                    "rawEnd": 324,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 112.08,
+                    "end": 112.2,
+                    "rawStart": 325,
+                    "rawEnd": 325,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "手",
+                    "start": 112.2,
+                    "end": 112.4,
+                    "rawStart": 326,
+                    "rawEnd": 326,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "里",
+                    "start": 112.4,
+                    "end": 112.68,
+                    "rawStart": 327,
+                    "rawEnd": 327,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "真",
+                    "start": 112.68,
+                    "end": 113.42,
+                    "rawStart": 328,
+                    "rawEnd": 328,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 113.42,
+                    "end": 113.78,
+                    "rawStart": 329,
+                    "rawEnd": 329,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "可",
+                    "start": 113.78,
+                    "end": 114.16,
+                    "rawStart": 330,
+                    "rawEnd": 330,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "怕",
+                    "start": 114.16,
+                    "end": 114.58,
+                    "rawStart": 331,
+                    "rawEnd": 331,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 114.58,
+                    "end": 114.96,
+                    "rawStart": 332,
+                    "rawEnd": 332,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "这段经文告诉我们,有贪心的人,就是一个拜偶像的人。有贪心的人,他们想要的总比上帝已经赐予的多。这样的人与上帝的国无关。上帝的愤怒会临到这人。上帝的愤怒,是圣洁的、大能的、可怕的。那些以别的人或物当作神的人,大大地得罪上帝。如果他们不悔改,祂的愤怒最终会降临在他们身上。圣经告诉我们“落在永生神的手里,真是可怕的!”",
+              "retainedCitationInterval": [
+                114.96,
+                116.28
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (1 leading chars, coverage 0.250): target 21: 请读以弗所书5:5-6。",
+    "incomplete end (3 trailing chars, coverage 0.250): target 21: 请读以弗所书5:5-6。",
+    "low confidence (0.400, coverage 0.333): target 21: 请读以弗所书5:5-6。",
+    "unverified start anchor: target 21: 请读以弗所书5:5-6。",
+    "unverified end anchor: target 21: 请读以弗所书5:5-6。",
+    "unmatched (fragment only): target 21: 请读以弗所书5:5-6。",
+    "incomplete start (7 leading chars, coverage 0.600): target 22: 以弗所书5:5-6 因为你们确实地知道，无论是淫乱的，是污秽的，是有贪心的，在基督和神的国里都是",
+    "unverified start anchor: target 22: 以弗所书5:5-6 因为你们确实地知道，无论是淫乱的，是污秽的，是有贪心的，在基督和神的国里都是",
+    "unverified end anchor: target 22: 以弗所书5:5-6 因为你们确实地知道，无论是淫乱的，是污秽的，是有贪心的，在基督和神的国里都是",
+    "incomplete end (6 trailing chars, coverage 0.650): target 23: 这段经文告诉我们，有贪心的人，就是一个拜偶像的人。有贪心的人，他们想要的总比上帝已经赐予的多。这",
+    "unverified end anchor: target 23: 这段经文告诉我们，有贪心的人，就是一个拜偶像的人。有贪心的人，他们想要的总比上帝已经赐予的多。这",
+    "repair unverified start (previous-sync): target 21",
+    "repair unverified end (previous-sync): target 21",
+    "repair unverified start (previous-sync): target 22",
+    "repair unverified end (previous-sync): target 22",
+    "repair unverified end (previous-sync): target 23"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 3,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "e40c7fa7cd114a4314cffb6e32c985e9f1b1a89221d772d6fba23f99c5dc6127",
+  "repairCueDigest": "9323b8835bcd50eb28bc453edfe9aa591008dbc648a87ea27ad5a51ba8124e35",
+  "previousAlignmentWarnings": []
 }

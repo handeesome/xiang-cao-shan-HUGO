@@ -8,36 +8,112 @@
   "audioDuration": 59.064,
   "cues": [
     {
-      "start": 30.27,
-      "end": 41.41,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "礼拜一",
-      "confidence": 0.5
+      "start": 1.49,
+      "end": 16.01,
+      "kind": "paragraph",
+      "targetIndex": 1,
+      "targetText": "答圣经主要的教导是人对于上帝所当信的真理以及上帝要人所当尽的本分",
+      "confidence": 0.824,
+      "quality": {
+        "coverage": 0.875,
+        "coherentCoverage": 0.781,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.938,
+        "suffixCoverage": 0.812,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": false,
+          "substitutionAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": null,
+        "previousEnd": null,
+        "previousConfidence": null
+      }
     },
     {
-      "start": 41.41,
-      "end": 42.03,
-      "kind": "heading",
-      "targetIndex": 12,
-      "targetText": "礼拜二",
-      "confidence": 0.5
-    },
-    {
-      "start": 42.03,
-      "end": 44.83,
-      "kind": "heading",
-      "targetIndex": 18,
-      "targetText": "礼拜三",
-      "confidence": 0.5
-    },
-    {
-      "start": 44.83,
-      "end": 45.07,
-      "kind": "heading",
-      "targetIndex": 25,
-      "targetText": "礼拜四",
-      "confidence": 0.5
+      "start": 19.21,
+      "end": 31.13,
+      "kind": "paragraph",
+      "targetIndex": 32,
+      "targetText": "约翰福音2031但记这些事要叫你们信耶稣是基督是上帝的儿子并且叫你们信了祂就可以因祂的名得生命",
+      "confidence": 0.488,
+      "quality": {
+        "startVerified": false,
+        "endVerified": false,
+        "reviewRequired": true,
+        "verificationBasis": "paragraph-level-approximate"
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "reason": "实际引用约翰20:31的信耶稣是基督至得生命，随后读出处；对应经文摘读。",
+        "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\3-0.mp3.json",
+        "transcriptSha256": "07ae03f67c96b4dba321fa6705e81b134e1c0d3e12b5bf1f02d1b91e7a150b3f",
+        "actualText": "信耶稣是基督,是神的儿子,就可以因耶稣的名得圣命。《玉安福音》二十章 三十一集",
+        "interval": [
+          19.21,
+          31.13
+        ],
+        "listenedByAgent": false,
+        "authorization": "用户要求段落级首尾大致对应，允许识别差异与摘读，不要求逐字核验。"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v8-rendered-list-and-empty-paragraph-indices",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (19 leading chars, coverage 0.050): target 32: 约翰福音20:31 但记这些事，要叫你们信耶稣是基督，是神的儿子；并且叫你们信了祂，就可以因祂的",
+    "incomplete end (0 trailing chars, coverage 0.500): target 32: 约翰福音20:31 但记这些事，要叫你们信耶稣是基督，是神的儿子；并且叫你们信了祂，就可以因祂的",
+    "low confidence (0.556, coverage 0.408): target 32: 约翰福音20:31 但记这些事，要叫你们信耶稣是基督，是神的儿子；并且叫你们信了祂，就可以因祂的",
+    "unverified start anchor: target 32: 约翰福音20:31 但记这些事，要叫你们信耶稣是基督，是神的儿子；并且叫你们信了祂，就可以因祂的",
+    "unverified end anchor: target 32: 约翰福音20:31 但记这些事，要叫你们信耶稣是基督，是神的儿子；并且叫你们信了祂，就可以因祂的",
+    "repair missing cue (unverified): target 32",
+    "paragraph-level cue recovered: target 32; 实际引用约翰20:31的信耶稣是基督至得生命，随后读出处；对应经文摘读。 原始严格核验提示保留。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 1,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": [
+      32
+    ]
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "eb4a1d1498c8ed031ae8d9208864461839bb030c9c8be9cee6e70d71b0d67250",
+  "repairCueDigest": "40b744a40151d69859cc0bec1ab90bf47b2db7a00135d9edb558f0c86cb0a5a8",
+  "previousAlignmentWarnings": []
 }

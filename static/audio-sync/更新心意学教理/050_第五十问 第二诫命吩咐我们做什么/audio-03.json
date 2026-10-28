@@ -8,28 +8,432 @@
   "audioDuration": 112.512,
   "cues": [
     {
-      "start": 1.5,
-      "end": 2.68,
-      "kind": "heading",
-      "targetIndex": 7,
-      "targetText": "礼拜二",
-      "confidence": 0.8
-    },
-    {
       "start": 2.68,
-      "end": 84.36,
+      "end": 87.12,
       "kind": "paragraph",
-      "targetIndex": 8,
+      "targetIndex": 10,
       "targetText": "有一次一位妇人问耶稣应该怎样敬拜上帝她想问的是应该在哪里敬拜她关心的是律法的礼仪部分耶稣的回答说",
-      "confidence": 0.782
+      "confidence": 0.874,
+      "quality": {
+        "coverage": 0.956,
+        "coherentCoverage": 0.951,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 2.68,
+        "previousEnd": 84.36,
+        "previousConfidence": 0.874
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 84.36,
+            "time": 87.12,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\50-2.mp3.json",
+              "sha256": "569af7234c93610d4c3eff8eef460c22efdb9645d1fd40d5a923a350d60b22c1",
+              "anchor": {
+                "time": 87.12,
+                "score": 0.9246,
+                "ratio": 0.9333,
+                "expected": "sizhang23dao24jie",
+                "actual": "4章23到24",
+                "span": [
+                  85.06,
+                  87.12
+                ],
+                "tokens": [
+                  {
+                    "text": "4",
+                    "start": 85.06,
+                    "end": 85.32,
+                    "rawStart": 257,
+                    "rawEnd": 257,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "章",
+                    "start": 85.32,
+                    "end": 85.54,
+                    "rawStart": 258,
+                    "rawEnd": 258,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "2",
+                    "start": 85.54,
+                    "end": 86.3,
+                    "rawStart": 259,
+                    "rawEnd": 259,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "3",
+                    "start": 85.54,
+                    "end": 86.3,
+                    "rawStart": 260,
+                    "rawEnd": 260,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "到",
+                    "start": 86.3,
+                    "end": 86.52,
+                    "rawStart": 261,
+                    "rawEnd": 261,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "2",
+                    "start": 86.52,
+                    "end": 87.12,
+                    "rawStart": 262,
+                    "rawEnd": 262,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "4",
+                    "start": 86.52,
+                    "end": 87.12,
+                    "rawStart": 263,
+                    "rawEnd": 263,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "phraseSize": 8,
+                "matchingText": "有一次,一位妇人问耶稣应该怎样敬拜上帝。她想问的是应该在哪里敬拜。她关心的是律法的礼仪部分。耶稣的回答说明,现在耶稣已经来了,律法的礼仪部分就不重要了。耶稣说,那些正确敬拜上帝的人,会用心灵和诚实(在圣灵中用真理)敬拜。如果我们想要按照上帝接受的方式来敬拜上帝,我们就必须照着上帝在祂的圣道中启示的真理来敬拜祂,而不是照着我们自己的想法。耶稣说,敬拜上帝的人,必须在圣灵中,在真理中敬拜上帝。照着自己的想法敬拜上帝,不照着上帝旨意的方式敬拜,就根本算不上是敬拜上帝。请读约翰福音4:23-24。",
+                "normalization": "original-body"
+              },
+              "body": "有一次,一位妇人问耶稣应该怎样敬拜上帝。她想问的是应该在哪里敬拜。她关心的是律法的礼仪部分。耶稣的回答说明,现在耶稣已经来了,律法的礼仪部分就不重要了。耶稣说,那些正确敬拜上帝的人,会用心灵和诚实(在圣灵中用真理)敬拜。如果我们想要按照上帝接受的方式来敬拜上帝,我们就必须照着上帝在祂的圣道中启示的真理来敬拜祂,而不是照着我们自己的想法。耶稣说,敬拜上帝的人,必须在圣灵中,在真理中敬拜上帝。照着自己的想法敬拜上帝,不照着上帝旨意的方式敬拜,就根本算不上是敬拜上帝。请读约翰福音4:23-24。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.956,
+          "coherentCoverage": 0.951,
+          "extraSpeechContext": false,
+          "prefixCoverage": 1.0,
+          "suffixCoverage": 0.75,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 1,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 84.36,
-      "end": 106.66,
+      "start": 88.72,
+      "end": 107.02,
       "kind": "paragraph",
-      "targetIndex": 9,
+      "targetIndex": 11,
       "targetText": "约翰福音42324时候将到如今就是了那真正拜父的要用心灵和诚实拜祂因为父要这样的人拜祂上帝是个灵",
-      "confidence": 0.775
+      "confidence": 0.931,
+      "quality": {
+        "coverage": 0.818,
+        "coherentCoverage": 0.818,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.4,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 12,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 84.36,
+        "previousEnd": 107.02,
+        "previousConfidence": 0.931
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 84.36,
+            "time": 88.72,
+            "reason": "前段提示末尾仍需修正，本段用经文实际起句定位",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\50-2.mp3.json",
+              "sha256": "569af7234c93610d4c3eff8eef460c22efdb9645d1fd40d5a923a350d60b22c1",
+              "anchor": {
+                "time": 88.72,
+                "score": 0.9956,
+                "ratio": 1.0,
+                "expected": "shihoujiangdaorujinjiushilenazhenzhengbaifu",
+                "actual": "时候将到如今就是了那真正拜父",
+                "span": [
+                  88.72,
+                  93.54
+                ],
+                "tokens": [
+                  {
+                    "text": "时",
+                    "start": 88.72,
+                    "end": 89.36,
+                    "rawStart": 265,
+                    "rawEnd": 265,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "候",
+                    "start": 88.72,
+                    "end": 89.36,
+                    "rawStart": 266,
+                    "rawEnd": 266,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "将",
+                    "start": 89.36,
+                    "end": 89.72,
+                    "rawStart": 267,
+                    "rawEnd": 267,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "到",
+                    "start": 89.72,
+                    "end": 90.06,
+                    "rawStart": 268,
+                    "rawEnd": 268,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "如",
+                    "start": 90.06,
+                    "end": 90.7,
+                    "rawStart": 269,
+                    "rawEnd": 269,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "今",
+                    "start": 90.7,
+                    "end": 91.04,
+                    "rawStart": 270,
+                    "rawEnd": 270,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "就",
+                    "start": 91.04,
+                    "end": 91.46,
+                    "rawStart": 271,
+                    "rawEnd": 271,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 91.04,
+                    "end": 91.46,
+                    "rawStart": 272,
+                    "rawEnd": 272,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "了",
+                    "start": 91.46,
+                    "end": 92.18,
+                    "rawStart": 273,
+                    "rawEnd": 273,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "那",
+                    "start": 92.18,
+                    "end": 92.56,
+                    "rawStart": 274,
+                    "rawEnd": 274,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "真",
+                    "start": 92.56,
+                    "end": 92.8,
+                    "rawStart": 275,
+                    "rawEnd": 275,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "正",
+                    "start": 92.8,
+                    "end": 92.98,
+                    "rawStart": 276,
+                    "rawEnd": 276,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "拜",
+                    "start": 92.98,
+                    "end": 93.26,
+                    "rawStart": 277,
+                    "rawEnd": 277,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "父",
+                    "start": 93.26,
+                    "end": 93.54,
+                    "rawStart": 278,
+                    "rawEnd": 278,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 86.52,
+                  "score": 0.8831,
+                  "actual": "24集时候将到如今就是了那真正拜父"
+                }
+              },
+              "body": "时候将到,如今就是了。那真正拜父的,要用心灵和诚实拜祂,因为父要这样的人拜祂。神是个灵,所以拜祂的,必须用心灵和诚实拜祂。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.818,
+          "coherentCoverage": 0.818,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.4,
+          "suffixCoverage": 1.0,
+          "unmatchedLeadingChars": 12,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 10: 有一次，一位妇人问耶稣应该怎样敬拜上帝。她想问的是应该在哪里敬拜。她关心的是律法的礼仪部分。耶稣",
+    "incomplete start (12 leading chars, coverage 0.400): target 11: 约翰福音4:23-24 时候将到，如今就是了。那真正拜父的，要用心灵和诚实拜祂，因为父要这样的人",
+    "unverified start anchor: target 11: 约翰福音4:23-24 时候将到，如今就是了。那真正拜父的，要用心灵和诚实拜祂，因为父要这样的人",
+    "repair unverified end (previous-sync): target 10",
+    "repair unverified start (previous-sync): target 11"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 8,
+      "targetIndex": 10,
+      "targetText": "有一次一位妇人问耶稣应该怎样敬拜上帝她想问的是应该在哪里敬拜她关心的是律法的礼仪部分耶稣的回答说",
+      "method": "unchanged-source-span-after-insertion"
+    },
+    {
+      "previousTargetIndex": 9,
+      "targetIndex": 11,
+      "targetText": "约翰福音42324时候将到如今就是了那真正拜父的要用心灵和诚实拜祂因为父要这样的人拜祂上帝是个灵",
+      "method": "unchanged-source-span-after-insertion"
+    }
+  ],
+  "chronologyReordered": false,
+  "repairFingerprint": "8c2908f5c36d9e455ac8e07ea7a4d04ef5fd16c12f68ccd3ec6ecfdb9f3f17d0",
+  "repairCueDigest": "a9be5fac89d76be80362072c87781c647f24a6a4f687f1445001ab53f40c7fee",
+  "previousAlignmentWarnings": [],
+  "targetIndexMethod": "body-global-v8-rendered-list-and-empty-paragraph-indices"
 }

@@ -8,20 +8,276 @@
   "audioDuration": 142.277,
   "cues": [
     {
-      "start": 34.78,
-      "end": 77.0,
+      "start": 43.92,
+      "end": 81.24,
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "死亡之所以让人如此愁烦因为人们害怕死后的事从来没有信靠耶稣基督做他们唯一救主的人有所恐惧圣经告诉",
-      "confidence": 0.697
+      "confidence": 0.933,
+      "quality": {
+        "coverage": 0.929,
+        "coherentCoverage": 0.893,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 43.92,
+        "previousEnd": 77.0,
+        "previousConfidence": 0.907
+      }
     },
     {
-      "start": 77.0,
-      "end": 106.54,
+      "start": 85.44,
+      "end": 105.1,
       "kind": "paragraph",
       "targetIndex": 27,
       "targetText": "帖撒罗尼迦后书189要报应那不认识上帝和那不听从我主耶稣福音的人他们要受刑罚就是永远沉沦离开主的",
-      "confidence": 0.633
+      "confidence": 0.787,
+      "quality": {
+        "coverage": 0.847,
+        "coherentCoverage": 0.814,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "previous-verified-sync",
+        "previousStart": 77.0,
+        "previousEnd": 105.1,
+        "previousConfidence": 0.662
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 81.24,
+            "time": 85.44,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\19-6.mp3.json",
+              "sha256": "ec6d45023b9ca08b46db49b60fc78920d6035520d5fe2920b4f13cac858b920f",
+              "anchor": {
+                "time": 85.44,
+                "score": 0.9958,
+                "ratio": 1.0,
+                "expected": "yaobaoyingnaburenshishenhenabutingcongwo",
+                "actual": "要报应那不认识神和那不听从我",
+                "span": [
+                  85.44,
+                  90.9
+                ],
+                "tokens": [
+                  {
+                    "text": "要",
+                    "start": 85.44,
+                    "end": 86.46,
+                    "rawStart": 220,
+                    "rawEnd": 220,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "报",
+                    "start": 86.46,
+                    "end": 87.02,
+                    "rawStart": 221,
+                    "rawEnd": 221,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "应",
+                    "start": 87.02,
+                    "end": 87.36,
+                    "rawStart": 222,
+                    "rawEnd": 222,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "那",
+                    "start": 87.36,
+                    "end": 87.66,
+                    "rawStart": 223,
+                    "rawEnd": 223,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "不",
+                    "start": 87.66,
+                    "end": 87.98,
+                    "rawStart": 224,
+                    "rawEnd": 224,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "认",
+                    "start": 87.98,
+                    "end": 88.18,
+                    "rawStart": 225,
+                    "rawEnd": 225,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "识",
+                    "start": 88.18,
+                    "end": 88.4,
+                    "rawStart": 226,
+                    "rawEnd": 226,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 88.4,
+                    "end": 88.7,
+                    "rawStart": 227,
+                    "rawEnd": 228,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "和",
+                    "start": 88.7,
+                    "end": 89.3,
+                    "rawStart": 229,
+                    "rawEnd": 229,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "那",
+                    "start": 89.3,
+                    "end": 89.5,
+                    "rawStart": 230,
+                    "rawEnd": 230,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "不",
+                    "start": 89.5,
+                    "end": 89.74,
+                    "rawStart": 231,
+                    "rawEnd": 231,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "听",
+                    "start": 89.74,
+                    "end": 90.1,
+                    "rawStart": 232,
+                    "rawEnd": 232,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "从",
+                    "start": 90.1,
+                    "end": 90.44,
+                    "rawStart": 233,
+                    "rawEnd": 233,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 90.44,
+                    "end": 90.9,
+                    "rawStart": 234,
+                    "rawEnd": 234,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "要报应那不认识神和那不听从我主耶稣福音的人。他们要受刑罚,就是永远沉沦,离开主的面和祂权能的荣光。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.847,
+          "coherentCoverage": 0.814,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.75,
+          "suffixCoverage": 0.8,
+          "unmatchedLeadingChars": 2,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [
+            "start substitution"
+          ],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-verified-end"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     },
     {
       "start": 106.54,
@@ -29,7 +285,72 @@
       "kind": "paragraph",
       "targetIndex": 28,
       "targetText": "人的悲惨是彻底的他活在劳苦愁烦之中与上帝隔绝而他被造原是要以上帝为乐的他会死死后去到一个永远受刑",
-      "confidence": 0.753
+      "confidence": 0.871,
+      "quality": {
+        "coverage": 0.871,
+        "coherentCoverage": 0.8,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 106.54,
+        "previousEnd": 137.62,
+        "previousConfidence": 0.871
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 27: 帖撒罗尼迦后书1:8-9 要报应那不认识神和那不听从我主耶稣福音的人。他们要受刑罚，就是永远沉沦",
+    "repair unverified start (previous-verified-end): target 27"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "abb03196361dac54aac8ff2470f40d1b2f4593afb2aa6addfe28515fdb6a068b",
+  "repairCueDigest": "47107409151dad86747a6fcdbe1bb3a1fcd789975a31073fbd1590ab06904a37",
+  "previousAlignmentWarnings": []
 }

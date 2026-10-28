@@ -8,92 +8,1454 @@
   "audioDuration": 568.490875,
   "cues": [
     {
-      "start": 0.75,
-      "end": 12.66,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第十章分别为圣的生活",
-      "confidence": 0.9
-    },
-    {
-      "start": 12.66,
+      "start": 16.78,
       "end": 24.5,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "所以你们或吃或喝无论作什么都要为荣耀上帝而行林前1031",
-      "confidence": 0.603
+      "confidence": 0.76,
+      "quality": {
+        "coverage": 0.679,
+        "coherentCoverage": 0.536,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.786,
+        "suffixCoverage": 0.571,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 6,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 12.66,
+        "previousEnd": 24.5,
+        "previousConfidence": 0.603
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 24.5,
+            "time": 24.5,
+            "reason": "正文末句已定位，保留原出处结束范围，避免因书名识别差异截掉已读出处",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\10-1.mp3.json",
+              "sha256": "192df85130574575f653554bcd44b6510425b2d161fa0bad8aca5d4638d092af",
+              "anchor": {
+                "time": 23.46,
+                "score": 0.999,
+                "ratio": 1.0,
+                "expected": "hewulunzuoshenmedouyaoweirongyaoshenerxing",
+                "actual": "喝无论做什么都要为荣耀神而行",
+                "span": [
+                  19.04,
+                  23.46
+                ],
+                "tokens": [
+                  {
+                    "text": "喝",
+                    "start": 19.04,
+                    "end": 19.4,
+                    "rawStart": 30,
+                    "rawEnd": 30,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "无",
+                    "start": 19.4,
+                    "end": 20.1,
+                    "rawStart": 31,
+                    "rawEnd": 31,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "论",
+                    "start": 20.1,
+                    "end": 20.22,
+                    "rawStart": 32,
+                    "rawEnd": 32,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "做",
+                    "start": 20.22,
+                    "end": 20.42,
+                    "rawStart": 33,
+                    "rawEnd": 33,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "什",
+                    "start": 20.42,
+                    "end": 20.76,
+                    "rawStart": 34,
+                    "rawEnd": 34,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "么",
+                    "start": 20.42,
+                    "end": 20.76,
+                    "rawStart": 35,
+                    "rawEnd": 35,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "都",
+                    "start": 20.76,
+                    "end": 21.32,
+                    "rawStart": 36,
+                    "rawEnd": 36,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "要",
+                    "start": 21.32,
+                    "end": 21.5,
+                    "rawStart": 37,
+                    "rawEnd": 37,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "为",
+                    "start": 21.5,
+                    "end": 21.72,
+                    "rawStart": 38,
+                    "rawEnd": 38,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "荣",
+                    "start": 21.72,
+                    "end": 22.16,
+                    "rawStart": 39,
+                    "rawEnd": 39,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "耀",
+                    "start": 22.16,
+                    "end": 22.46,
+                    "rawStart": 40,
+                    "rawEnd": 40,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 22.46,
+                    "end": 22.72,
+                    "rawStart": 41,
+                    "rawEnd": 42,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "而",
+                    "start": 22.72,
+                    "end": 23.0,
+                    "rawStart": 43,
+                    "rawEnd": 43,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "行",
+                    "start": 23.0,
+                    "end": 23.46,
+                    "rawStart": 44,
+                    "rawEnd": 44,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 25.74,
+                  "score": 0.8195,
+                  "actual": "无论做什么都要为荣耀神而行基督徒内"
+                }
+              },
+              "body": "“所以,你们或吃或喝,无论作什么,都要为荣耀神而行。”",
+              "retainedCitationInterval": [
+                23.46,
+                24.5
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "start": 24.5,
-      "end": 52.62,
+      "end": 51.48,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "基督徒内心平安最大的拦阻就是惯于把生活分为两部分上帝圣的和世俗的因为这两部分是分开的而同时在道德",
-      "confidence": 0.837
+      "confidence": 0.935,
+      "quality": {
+        "coverage": 0.935,
+        "coherentCoverage": 0.88,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\渴慕神\\10-1.mp3.json",
+          "transcriptSha256": "8550a954699bcd2c9df0de5e9bba4df1c32632afd0d548fa2280d5d39448c7cc",
+          "verified": true,
+          "time": 51.48,
+          "expectedPhrase": "法共存的，我们常从这一部分来回地跑到另一部分，如此就造成我们分裂而不统一的生活。",
+          "actualPhrase": "成我们分裂而不同意的生活",
+          "edgeAnchor": "成我们分裂而不统1的生活",
+          "evidence": {
+            "verified": false,
+            "coverage": 0.833,
+            "continuousAnchor": false,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 0.875,
+            "localSimilarity": 0.875,
+            "localText": "回地跑到另1部分如此就造成我们分裂而不统1的生活",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false
+          },
+          "window": [
+            40.62,
+            64.62
+          ],
+          "segments": [
+            {
+              "start": 40.6,
+              "end": 41.74,
+              "text": "無法共存的",
+              "words": [
+                {
+                  "start": 40.6,
+                  "end": 40.9,
+                  "text": "無",
+                  "probability": 0.9980043768882751
+                },
+                {
+                  "start": 40.9,
+                  "end": 41.04,
+                  "text": "法",
+                  "probability": 0.9988701939582825
+                },
+                {
+                  "start": 41.04,
+                  "end": 41.22,
+                  "text": "共",
+                  "probability": 0.995800793170929
+                },
+                {
+                  "start": 41.22,
+                  "end": 41.48,
+                  "text": "存",
+                  "probability": 0.999716579914093
+                },
+                {
+                  "start": 41.48,
+                  "end": 41.74,
+                  "text": "的",
+                  "probability": 0.9863714575767517
+                }
+              ]
+            },
+            {
+              "start": 41.74,
+              "end": 46.64,
+              "text": "我們常從這一部分來回的跑到另一部分",
+              "words": [
+                {
+                  "start": 41.74,
+                  "end": 42.92,
+                  "text": "我們",
+                  "probability": 0.8415844440460205
+                },
+                {
+                  "start": 42.92,
+                  "end": 43.18,
+                  "text": "常",
+                  "probability": 0.8521866202354431
+                },
+                {
+                  "start": 43.18,
+                  "end": 43.58,
+                  "text": "從",
+                  "probability": 0.9906126260757446
+                },
+                {
+                  "start": 43.58,
+                  "end": 44.1,
+                  "text": "這一",
+                  "probability": 0.9229130744934082
+                },
+                {
+                  "start": 44.1,
+                  "end": 44.54,
+                  "text": "部分",
+                  "probability": 0.9641315937042236
+                },
+                {
+                  "start": 44.54,
+                  "end": 44.98,
+                  "text": "來",
+                  "probability": 0.9593092799186707
+                },
+                {
+                  "start": 44.98,
+                  "end": 45.32,
+                  "text": "回",
+                  "probability": 0.9916894435882568
+                },
+                {
+                  "start": 45.32,
+                  "end": 45.5,
+                  "text": "的",
+                  "probability": 0.8157669901847839
+                },
+                {
+                  "start": 45.5,
+                  "end": 45.74,
+                  "text": "跑",
+                  "probability": 0.9558358788490295
+                },
+                {
+                  "start": 45.74,
+                  "end": 45.92,
+                  "text": "到",
+                  "probability": 0.9708983302116394
+                },
+                {
+                  "start": 45.92,
+                  "end": 46.22,
+                  "text": "另",
+                  "probability": 0.9947262406349182
+                },
+                {
+                  "start": 46.22,
+                  "end": 46.32,
+                  "text": "一",
+                  "probability": 0.9804003238677979
+                },
+                {
+                  "start": 46.32,
+                  "end": 46.64,
+                  "text": "部分",
+                  "probability": 0.9927639365196228
+                }
+              ]
+            },
+            {
+              "start": 46.64,
+              "end": 51.48,
+              "text": "如此就造成我們分裂而不同意的生活",
+              "words": [
+                {
+                  "start": 46.64,
+                  "end": 47.68,
+                  "text": "如此",
+                  "probability": 0.9380475878715515
+                },
+                {
+                  "start": 47.68,
+                  "end": 48.18,
+                  "text": "就",
+                  "probability": 0.9708343744277954
+                },
+                {
+                  "start": 48.18,
+                  "end": 48.58,
+                  "text": "造",
+                  "probability": 0.9893836379051208
+                },
+                {
+                  "start": 48.58,
+                  "end": 48.86,
+                  "text": "成",
+                  "probability": 0.9995982050895691
+                },
+                {
+                  "start": 48.86,
+                  "end": 49.1,
+                  "text": "我們",
+                  "probability": 0.982002854347229
+                },
+                {
+                  "start": 49.1,
+                  "end": 49.4,
+                  "text": "分",
+                  "probability": 0.9917221665382385
+                },
+                {
+                  "start": 49.4,
+                  "end": 49.7,
+                  "text": "裂",
+                  "probability": 0.9983343780040741
+                },
+                {
+                  "start": 49.7,
+                  "end": 50.24,
+                  "text": "而",
+                  "probability": 0.995468258857727
+                },
+                {
+                  "start": 50.24,
+                  "end": 50.64,
+                  "text": "不同",
+                  "probability": 0.9787179231643677
+                },
+                {
+                  "start": 50.64,
+                  "end": 50.94,
+                  "text": "意",
+                  "probability": 0.9906304478645325
+                },
+                {
+                  "start": 50.94,
+                  "end": 51.08,
+                  "text": "的",
+                  "probability": 0.9942389726638794
+                },
+                {
+                  "start": 51.08,
+                  "end": 51.48,
+                  "text": "生活",
+                  "probability": 0.995389461517334
+                }
+              ]
+            },
+            {
+              "start": 52.62,
+              "end": 57.24,
+              "text": "我們的苦惱是因為要同時在兩個世界中生活",
+              "words": [
+                {
+                  "start": 52.62,
+                  "end": 53.22,
+                  "text": "我們的",
+                  "probability": 0.9474198818206787
+                },
+                {
+                  "start": 53.22,
+                  "end": 53.56,
+                  "text": "苦",
+                  "probability": 0.9994097948074341
+                },
+                {
+                  "start": 53.56,
+                  "end": 53.76,
+                  "text": "惱",
+                  "probability": 0.929436445236206
+                },
+                {
+                  "start": 53.76,
+                  "end": 54.14,
+                  "text": "是",
+                  "probability": 0.9855803847312927
+                },
+                {
+                  "start": 54.14,
+                  "end": 54.44,
+                  "text": "因為",
+                  "probability": 0.960734486579895
+                },
+                {
+                  "start": 54.44,
+                  "end": 54.94,
+                  "text": "要",
+                  "probability": 0.9921017289161682
+                },
+                {
+                  "start": 54.94,
+                  "end": 55.24,
+                  "text": "同",
+                  "probability": 0.9859159588813782
+                },
+                {
+                  "start": 55.24,
+                  "end": 55.58,
+                  "text": "時",
+                  "probability": 0.9969165325164795
+                },
+                {
+                  "start": 55.58,
+                  "end": 55.88,
+                  "text": "在",
+                  "probability": 0.9911330342292786
+                },
+                {
+                  "start": 55.88,
+                  "end": 56.18,
+                  "text": "兩個",
+                  "probability": 0.9924125075340271
+                },
+                {
+                  "start": 56.18,
+                  "end": 56.58,
+                  "text": "世界",
+                  "probability": 0.9983772039413452
+                },
+                {
+                  "start": 56.58,
+                  "end": 56.8,
+                  "text": "中",
+                  "probability": 0.899510383605957
+                },
+                {
+                  "start": 56.8,
+                  "end": 57.24,
+                  "text": "生活",
+                  "probability": 0.9849773645401001
+                }
+              ]
+            },
+            {
+              "start": 57.82,
+              "end": 61.28,
+              "text": "一個是屬靈的,另一個是屬自然的",
+              "words": [
+                {
+                  "start": 57.82,
+                  "end": 58.34,
+                  "text": "一個",
+                  "probability": 0.9427542090415955
+                },
+                {
+                  "start": 58.34,
+                  "end": 58.58,
+                  "text": "是",
+                  "probability": 0.9890425801277161
+                },
+                {
+                  "start": 58.58,
+                  "end": 58.76,
+                  "text": "屬",
+                  "probability": 0.965122789144516
+                },
+                {
+                  "start": 58.76,
+                  "end": 58.96,
+                  "text": "靈",
+                  "probability": 0.9278726577758789
+                },
+                {
+                  "start": 58.96,
+                  "end": 59.22,
+                  "text": "的,",
+                  "probability": 0.9819725155830383
+                },
+                {
+                  "start": 59.4,
+                  "end": 59.6,
+                  "text": "另",
+                  "probability": 0.9559229016304016
+                },
+                {
+                  "start": 59.6,
+                  "end": 59.8,
+                  "text": "一個",
+                  "probability": 0.9958966970443726
+                },
+                {
+                  "start": 59.8,
+                  "end": 60.04,
+                  "text": "是",
+                  "probability": 0.9142385125160217
+                },
+                {
+                  "start": 60.04,
+                  "end": 60.42,
+                  "text": "屬",
+                  "probability": 0.9993698000907898
+                },
+                {
+                  "start": 60.42,
+                  "end": 60.68,
+                  "text": "自",
+                  "probability": 0.9879376292228699
+                },
+                {
+                  "start": 60.68,
+                  "end": 60.88,
+                  "text": "然",
+                  "probability": 0.9981279969215393
+                },
+                {
+                  "start": 60.88,
+                  "end": 61.28,
+                  "text": "的",
+                  "probability": 0.9957991242408752
+                }
+              ]
+            },
+            {
+              "start": 61.82,
+              "end": 64.0,
+              "text": "從亞當後裔的地位來說",
+              "words": [
+                {
+                  "start": 61.82,
+                  "end": 62.28,
+                  "text": "從",
+                  "probability": 0.9782862663269043
+                },
+                {
+                  "start": 62.28,
+                  "end": 62.56,
+                  "text": "亞",
+                  "probability": 0.9630728363990784
+                },
+                {
+                  "start": 62.56,
+                  "end": 62.7,
+                  "text": "當",
+                  "probability": 0.9684310555458069
+                },
+                {
+                  "start": 62.7,
+                  "end": 62.94,
+                  "text": "後",
+                  "probability": 0.46064746379852295
+                },
+                {
+                  "start": 62.94,
+                  "end": 63.08,
+                  "text": "裔",
+                  "probability": 0.7361441105604172
+                },
+                {
+                  "start": 63.08,
+                  "end": 63.2,
+                  "text": "的",
+                  "probability": 0.9941315054893494
+                },
+                {
+                  "start": 63.2,
+                  "end": 63.38,
+                  "text": "地",
+                  "probability": 0.992546021938324
+                },
+                {
+                  "start": 63.38,
+                  "end": 63.52,
+                  "text": "位",
+                  "probability": 0.9995995163917542
+                },
+                {
+                  "start": 63.52,
+                  "end": 64.0,
+                  "text": "來說",
+                  "probability": 0.9799291491508484
+                }
+              ]
+            },
+            {
+              "start": 64.0,
+              "end": 64.76,
+              "text": "我们",
+              "words": [
+                {
+                  "start": 64.0,
+                  "end": 64.76,
+                  "text": "我们",
+                  "probability": 0.4174767732620239
+                }
+              ]
+            }
+          ],
+          "source": "bounded-internal-differences-true-edge-words",
+          "listenedByAgent": false,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "actualEndpointLiteralChars": 3,
+          "maxInternalDifferences": 2,
+          "reason": "实际首/尾至少3字贴边相同，12字局部短句最多2处内部识别差异；其余局部覆盖、唯一性、完整词边界及相邻时间均核验，中间正文不逐字检查。",
+          "audioSha256": "423a8c25bd3f412aaa61fd09ca66db0cb804de5edeefb55afc25e03e4e43fbda"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 24.5,
+        "previousEnd": 52.62,
+        "previousConfidence": 0.837
+      },
+      "boundaryCorrections": [
+        {
+          "book": "渴慕神",
+          "page": "10_第十章 分别为圣的生活.md",
+          "audio": "10-1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\渴慕神\\10_第十章 分别为圣的生活\\audio-01.json",
+          "targetIndex": 2,
+          "edge": "end",
+          "previousTime": 52.62,
+          "time": 51.48,
+          "kind": "bounded-internal-differences-local-edge",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "实际首/尾至少3字贴边相同，12字局部短句最多2处内部识别差异；其余局部覆盖、唯一性、完整词边界及相邻时间均核验，中间正文不逐字检查。"
+        }
+      ]
     },
     {
       "start": 52.62,
-      "end": 101.34,
+      "end": 100.44,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "我们的苦恼是因为要同时在两个世界中生活一个是属灵的另一个是属自然的从亚当后裔的地位来说我们在地上",
-      "confidence": 0.858
+      "confidence": 0.963,
+      "quality": {
+        "coverage": 0.963,
+        "coherentCoverage": 0.963,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 52.62,
+        "previousEnd": 101.34,
+        "previousConfidence": 0.858
+      }
     },
     {
       "start": 101.34,
-      "end": 151.66,
+      "end": 150.22,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "如此我们整个生活分为两个独立的部分我们认识到两类不同的事情第一类事情我们做的时候会感觉到满意而且",
-      "confidence": 0.922
+      "confidence": 0.945,
+      "quality": {
+        "coverage": 0.959,
+        "coherentCoverage": 0.947,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 101.34,
+        "previousEnd": 151.66,
+        "previousConfidence": 0.922
+      }
     },
     {
       "start": 151.66,
-      "end": 196.06,
+      "end": 196.46,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "和这些上帝圣的事相对的就是世俗的事包括我们和亚当的儿女一同有份的一切生活动作例如吃饭睡觉工作照顾",
-      "confidence": 0.797
+      "confidence": 0.892,
+      "quality": {
+        "coverage": 0.881,
+        "coherentCoverage": 0.819,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 151.66,
+        "previousEnd": 196.06,
+        "previousConfidence": 0.797
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 196.06,
+            "time": 196.46,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\10-1.mp3.json",
+              "sha256": "192df85130574575f653554bcd44b6510425b2d161fa0bad8aca5d4638d092af",
+              "anchor": {
+                "time": 196.46,
+                "score": 0.8825,
+                "ratio": 0.8889,
+                "expected": "dequqiaobuzaishouzheshijiedeshiwuchanlei",
+                "actual": "的躯跷不再受着世纪的事物禅",
+                "span": [
+                  193.34,
+                  196.46
+                ],
+                "tokens": [
+                  {
+                    "text": "的",
+                    "start": 193.34,
+                    "end": 193.48,
+                    "rawStart": 620,
+                    "rawEnd": 620,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "躯",
+                    "start": 193.48,
+                    "end": 193.7,
+                    "rawStart": 621,
+                    "rawEnd": 621,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "跷",
+                    "start": 193.7,
+                    "end": 193.94,
+                    "rawStart": 622,
+                    "rawEnd": 622,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "不",
+                    "start": 193.94,
+                    "end": 194.66,
+                    "rawStart": 623,
+                    "rawEnd": 623,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "再",
+                    "start": 194.66,
+                    "end": 194.92,
+                    "rawStart": 624,
+                    "rawEnd": 624,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "受",
+                    "start": 194.92,
+                    "end": 195.16,
+                    "rawStart": 625,
+                    "rawEnd": 625,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "着",
+                    "start": 195.16,
+                    "end": 195.32,
+                    "rawStart": 626,
+                    "rawEnd": 626,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "世",
+                    "start": 195.32,
+                    "end": 195.56,
+                    "rawStart": 627,
+                    "rawEnd": 627,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "纪",
+                    "start": 195.56,
+                    "end": 195.7,
+                    "rawStart": 628,
+                    "rawEnd": 628,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 195.7,
+                    "end": 195.84,
+                    "rawStart": 629,
+                    "rawEnd": 629,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "事",
+                    "start": 195.84,
+                    "end": 196.06,
+                    "rawStart": 630,
+                    "rawEnd": 630,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "物",
+                    "start": 196.06,
+                    "end": 196.2,
+                    "rawStart": 631,
+                    "rawEnd": 631,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "禅",
+                    "start": 196.2,
+                    "end": 196.46,
+                    "rawStart": 632,
+                    "rawEnd": 632,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "和这些神圣的事相对的,就是世俗的事,包括我们和亚当的儿女一同有份的一切生活动作,例如吃饭、睡觉、工作、照顾身体,以及在这里那里所做的许多平凡无味的事。这些事我们做起来总是憎厌,心中疑惧不安,向神表示亏欠,因为我们认为太浪费时间与精力,我们会常常觉得不舒服,心中深深感到挫败,于是对自己说,将来有一天来到,我们要脱去这属地的躯壳,不再受这世界的事务缠累。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.881,
+          "coherentCoverage": 0.819,
+          "extraSpeechContext": false,
+          "prefixCoverage": 1.0,
+          "suffixCoverage": 0.65,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 3,
+          "reviewRequired": true,
+          "boundaryAdjusted": [
+            "end substitution"
+          ],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 196.06,
-      "end": 250.27,
+      "start": 217.29,
+      "end": 249.01,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "这就是一向所谓上帝圣和世俗相对照的说法大多数的基督徒都陷在这种理论的圈套里无法满意地调和这两方面",
-      "confidence": 0.942
+      "confidence": 0.955,
+      "quality": {
+        "coverage": 0.964,
+        "coherentCoverage": 0.964,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 196.06,
+        "previousEnd": 250.27,
+        "previousConfidence": 0.942
+      }
     },
     {
       "start": 250.27,
-      "end": 282.55,
+      "end": 281.01,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "我相信这种痛苦完全是不必要的只会使人陷入进退维谷的境地可是这个幽谷并非真实存在的这乃是一种在误会",
-      "confidence": 0.91
+      "confidence": 0.91,
+      "quality": {
+        "coverage": 0.906,
+        "coherentCoverage": 0.896,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 250.27,
+        "previousEnd": 282.55,
+        "previousConfidence": 0.91
+      }
     },
     {
       "start": 282.55,
-      "end": 343.65,
+      "end": 342.33,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "主耶稣基督自己就是我们最完全的榜样在祂并没有分开的生活祂在父上帝的面前从婴孩一直活到在十字架上受",
-      "confidence": 0.772
+      "confidence": 0.906,
+      "quality": {
+        "coverage": 0.92,
+        "coherentCoverage": 0.884,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 282.55,
+        "previousEnd": 343.65,
+        "previousConfidence": 0.772
+      }
     },
     {
       "start": 343.65,
-      "end": 393.81,
+      "end": 392.99,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "保罗的劝告叫人凡事都要为荣耀上帝而行并不仅仅是一种敬虔生活的理想乃是由圣灵启示出来完整真理的一部",
-      "confidence": 0.956
+      "confidence": 0.956,
+      "quality": {
+        "coverage": 0.956,
+        "coherentCoverage": 0.94,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": false,
+          "substitutionAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 343.65,
+        "previousEnd": 393.81,
+        "previousConfidence": 0.956
+      }
     },
     {
       "start": 393.81,
-      "end": 458.05,
+      "end": 456.77,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "在古时敬虔人士的著作中那种僧侣修道式的对身体的憎恶在圣经中是没有根据的圣经有勉励人要朴实稳重的教",
-      "confidence": 0.758
+      "confidence": 0.918,
+      "quality": {
+        "coverage": 0.918,
+        "coherentCoverage": 0.89,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\渴慕神\\10-1.mp3.json",
+          "transcriptSha256": "8550a954699bcd2c9df0de5e9bba4df1c32632afd0d548fa2280d5d39448c7cc",
+          "phraseChars": 12,
+          "candidate": 393.81,
+          "expectedPhrase": "在古时敬虔人士的著作中那",
+          "actualPhrase": "在古时近前人事的著作中那",
+          "phoneticPhrase": [
+            "zai",
+            "gu",
+            "shi",
+            "jing",
+            "qian",
+            "ren",
+            "shi",
+            "de",
+            "zhu",
+            "zuo",
+            "zhong",
+            "na"
+          ],
+          "actualPhoneticPhrase": [
+            "zai",
+            "gu",
+            "shi",
+            "jin",
+            "qian",
+            "ren",
+            "shi",
+            "de",
+            "zhu",
+            "zuo",
+            "zhong",
+            "na"
+          ],
+          "verified": true,
+          "time": 393.81,
+          "boundedPhonetic": true,
+          "exactEndpointPhonemes": 2,
+          "maxInternalPhoneticDifferences": 2,
+          "phoneticDifferences": [
+            3
+          ],
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "在",
+              "start": 393.81,
+              "end": 394.33,
+              "rawStart": 1238,
+              "rawEnd": 1238,
+              "precision": "word"
+            },
+            {
+              "text": "古",
+              "start": 394.33,
+              "end": 394.71,
+              "rawStart": 1239,
+              "rawEnd": 1239,
+              "precision": "word"
+            },
+            {
+              "text": "时",
+              "start": 394.71,
+              "end": 394.97,
+              "rawStart": 1240,
+              "rawEnd": 1240,
+              "precision": "word"
+            },
+            {
+              "text": "近",
+              "start": 394.97,
+              "end": 395.37,
+              "rawStart": 1241,
+              "rawEnd": 1241,
+              "precision": "word"
+            },
+            {
+              "text": "前",
+              "start": 395.37,
+              "end": 395.73,
+              "rawStart": 1242,
+              "rawEnd": 1242,
+              "precision": "word"
+            },
+            {
+              "text": "人",
+              "start": 395.73,
+              "end": 395.99,
+              "rawStart": 1243,
+              "rawEnd": 1243,
+              "precision": "word"
+            },
+            {
+              "text": "事",
+              "start": 395.99,
+              "end": 396.21,
+              "rawStart": 1244,
+              "rawEnd": 1244,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 396.21,
+              "end": 396.37,
+              "rawStart": 1245,
+              "rawEnd": 1245,
+              "precision": "word"
+            },
+            {
+              "text": "著",
+              "start": 396.37,
+              "end": 396.59,
+              "rawStart": 1246,
+              "rawEnd": 1246,
+              "precision": "word"
+            },
+            {
+              "text": "作",
+              "start": 396.59,
+              "end": 396.83,
+              "rawStart": 1247,
+              "rawEnd": 1247,
+              "precision": "word"
+            },
+            {
+              "text": "中",
+              "start": 396.83,
+              "end": 397.15,
+              "rawStart": 1248,
+              "rawEnd": 1248,
+              "precision": "word"
+            },
+            {
+              "text": "那",
+              "start": 397.15,
+              "end": 397.73,
+              "rawStart": 1249,
+              "rawEnd": 1249,
+              "precision": "word"
+            }
+          ],
+          "source": "bounded-local-phonetic-differences-original-word-times",
+          "listenedByAgent": false,
+          "audioSha256": "423a8c25bd3f412aaa61fd09ca66db0cb804de5edeefb55afc25e03e4e43fbda",
+          "reason": "实际首/尾2个音节贴边相同，12音节局部短句最多2处内部识别差异；完整词边界、源段及录音唯一性、数字一致、停顿与相邻时间均核验，不逐字检查正文中间。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 393.81,
+        "previousEnd": 458.05,
+        "previousConfidence": 0.758
+      },
+      "boundaryCorrections": [
+        {
+          "book": "渴慕神",
+          "page": "10_第十章 分别为圣的生活.md",
+          "audio": "10-1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\渴慕神\\10_第十章 分别为圣的生活\\audio-01.json",
+          "targetIndex": 10,
+          "edge": "start",
+          "previousTime": 393.81,
+          "time": 393.81,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
       "start": 458.05,
@@ -101,7 +1463,471 @@
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "我们把身体的性能予以滥用或戕qiang伤会叫我们觉得羞耻就如犯罪或作出违反自然的行为那是一点都不",
-      "confidence": 0.765
+      "confidence": 0.802,
+      "quality": {
+        "coverage": 0.777,
+        "coherentCoverage": 0.652,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\渴慕神\\10-1.mp3.json",
+          "transcriptSha256": "8550a954699bcd2c9df0de5e9bba4df1c32632afd0d548fa2280d5d39448c7cc",
+          "candidate": 458.05,
+          "expectedPhrase": "我们把身体的性能予以滥用",
+          "actualPhrase": "我们把身体的性能予以烂用",
+          "phoneticPhrase": [
+            "wo",
+            "men",
+            "ba",
+            "shen",
+            "ti",
+            "de",
+            "xing",
+            "neng",
+            "yu",
+            "yi",
+            "lan",
+            "yong"
+          ],
+          "verified": true,
+          "time": 458.05,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "exact-local-syllables-original-word-times",
+          "phoneticExact": true,
+          "literalEqual": false,
+          "wordTokens": [
+            {
+              "text": "我",
+              "start": 458.05,
+              "end": 458.61,
+              "rawStart": 1457,
+              "rawEnd": 1457,
+              "precision": "word"
+            },
+            {
+              "text": "们",
+              "start": 458.05,
+              "end": 458.61,
+              "rawStart": 1458,
+              "rawEnd": 1458,
+              "precision": "word"
+            },
+            {
+              "text": "把",
+              "start": 458.61,
+              "end": 458.81,
+              "rawStart": 1459,
+              "rawEnd": 1459,
+              "precision": "word"
+            },
+            {
+              "text": "身",
+              "start": 458.81,
+              "end": 459.07,
+              "rawStart": 1460,
+              "rawEnd": 1460,
+              "precision": "word"
+            },
+            {
+              "text": "体",
+              "start": 459.07,
+              "end": 459.25,
+              "rawStart": 1461,
+              "rawEnd": 1461,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 459.25,
+              "end": 459.37,
+              "rawStart": 1462,
+              "rawEnd": 1462,
+              "precision": "word"
+            },
+            {
+              "text": "性",
+              "start": 459.37,
+              "end": 459.59,
+              "rawStart": 1463,
+              "rawEnd": 1463,
+              "precision": "word"
+            },
+            {
+              "text": "能",
+              "start": 459.59,
+              "end": 459.91,
+              "rawStart": 1464,
+              "rawEnd": 1464,
+              "precision": "word"
+            },
+            {
+              "text": "予",
+              "start": 459.91,
+              "end": 460.47,
+              "rawStart": 1465,
+              "rawEnd": 1465,
+              "precision": "word"
+            },
+            {
+              "text": "以",
+              "start": 460.47,
+              "end": 460.71,
+              "rawStart": 1466,
+              "rawEnd": 1466,
+              "precision": "word"
+            },
+            {
+              "text": "烂",
+              "start": 460.71,
+              "end": 461.01,
+              "rawStart": 1467,
+              "rawEnd": 1467,
+              "precision": "word"
+            },
+            {
+              "text": "用",
+              "start": 461.01,
+              "end": 461.33,
+              "rawStart": 1468,
+              "rawEnd": 1468,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "audioSha256": "423a8c25bd3f412aaa61fd09ca66db0cb804de5edeefb55afc25e03e4e43fbda",
+          "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+        },
+        "endEvidence": {
+          "source": "existing-small-transcript-local-phrase",
+          "model": ".audio-sync-cache\\models\\small",
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\10-1.mp3.json",
+          "transcriptSha256": "192df85130574575f653554bcd44b6510425b2d161fa0bad8aca5d4638d092af",
+          "audioSha256": null,
+          "audioDuration": 568.490875,
+          "syncAudioDuration": 568.490875,
+          "audioDurationMatch": true,
+          "fullFileTranscribed": false,
+          "newDownloads": 0,
+          "listenedByAgent": false,
+          "timingPrecision": "word",
+          "localSupported": true,
+          "contextUsed": true,
+          "verificationMethod": "bounded-local-12-syllable",
+          "verified": true,
+          "candidateTime": 491.15,
+          "expectedPhrase": "是决不能使创造者得荣耀的",
+          "actualPhrase": "是绝不能是创造著得重要的",
+          "wordTokens": [
+            {
+              "text": "是",
+              "start": 487.87,
+              "end": 488.17,
+              "rawStart": 1550,
+              "rawEnd": 1550,
+              "precision": "word"
+            },
+            {
+              "text": "绝",
+              "start": 488.17,
+              "end": 488.61,
+              "rawStart": 1551,
+              "rawEnd": 1551,
+              "precision": "word"
+            },
+            {
+              "text": "不",
+              "start": 488.61,
+              "end": 489.11,
+              "rawStart": 1552,
+              "rawEnd": 1552,
+              "precision": "word"
+            },
+            {
+              "text": "能",
+              "start": 488.61,
+              "end": 489.11,
+              "rawStart": 1553,
+              "rawEnd": 1553,
+              "precision": "word"
+            },
+            {
+              "text": "是",
+              "start": 489.11,
+              "end": 489.49,
+              "rawStart": 1554,
+              "rawEnd": 1554,
+              "precision": "word"
+            },
+            {
+              "text": "创",
+              "start": 489.49,
+              "end": 489.83,
+              "rawStart": 1555,
+              "rawEnd": 1555,
+              "precision": "word"
+            },
+            {
+              "text": "造",
+              "start": 489.83,
+              "end": 490.11,
+              "rawStart": 1556,
+              "rawEnd": 1556,
+              "precision": "word"
+            },
+            {
+              "text": "著",
+              "start": 490.11,
+              "end": 490.29,
+              "rawStart": 1557,
+              "rawEnd": 1557,
+              "precision": "word"
+            },
+            {
+              "text": "得",
+              "start": 490.29,
+              "end": 490.57,
+              "rawStart": 1558,
+              "rawEnd": 1558,
+              "precision": "word"
+            },
+            {
+              "text": "重",
+              "start": 490.57,
+              "end": 490.81,
+              "rawStart": 1559,
+              "rawEnd": 1559,
+              "precision": "word"
+            },
+            {
+              "text": "要",
+              "start": 490.57,
+              "end": 490.81,
+              "rawStart": 1560,
+              "rawEnd": 1560,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 490.81,
+              "end": 491.15,
+              "rawStart": 1561,
+              "rawEnd": 1561,
+              "precision": "word"
+            }
+          ],
+          "phoneticDifferences": [
+            7,
+            9
+          ],
+          "reason": "本段首/尾12音节局部短句唯一对应正文边界，词级时间及段落身份通过核验；词稿与sync记录时长完全一致。 录音文件不在工作区，因此没有可核对的音频 SHA-256。"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 458.05,
+        "previousEnd": 491.15,
+        "previousConfidence": 0.765
+      },
+      "boundaryCorrections": [
+        {
+          "book": "渴慕神",
+          "page": "10_第十章 分别为圣的生活.md",
+          "audio": "10-1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\渴慕神\\10_第十章 分别为圣的生活\\audio-01.json",
+          "targetIndex": 11,
+          "edge": "start",
+          "previousTime": 458.05,
+          "time": 458.05,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        },
+        {
+          "book": "渴慕神",
+          "page": "10_第十章 分别为圣的生活.md",
+          "audio": "10-1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\渴慕神\\10_第十章 分别为圣的生活\\audio-01.json",
+          "targetIndex": 11,
+          "edge": "end",
+          "previousTime": 491.15,
+          "time": 491.15,
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "kind": "local-phrase-boundary-correction",
+          "proof": {
+            "source": "existing-small-transcript-local-phrase",
+            "model": ".audio-sync-cache\\models\\small",
+            "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\10-1.mp3.json",
+            "transcriptSha256": "192df85130574575f653554bcd44b6510425b2d161fa0bad8aca5d4638d092af",
+            "audioSha256": null,
+            "audioDuration": 568.490875,
+            "syncAudioDuration": 568.490875,
+            "audioDurationMatch": true,
+            "fullFileTranscribed": false,
+            "newDownloads": 0,
+            "listenedByAgent": false,
+            "timingPrecision": "word",
+            "localSupported": true,
+            "contextUsed": true,
+            "verificationMethod": "bounded-local-12-syllable",
+            "verified": true,
+            "candidateTime": 491.15,
+            "expectedPhrase": "是决不能使创造者得荣耀的",
+            "actualPhrase": "是绝不能是创造著得重要的",
+            "wordTokens": [
+              {
+                "text": "是",
+                "start": 487.87,
+                "end": 488.17,
+                "rawStart": 1550,
+                "rawEnd": 1550,
+                "precision": "word"
+              },
+              {
+                "text": "绝",
+                "start": 488.17,
+                "end": 488.61,
+                "rawStart": 1551,
+                "rawEnd": 1551,
+                "precision": "word"
+              },
+              {
+                "text": "不",
+                "start": 488.61,
+                "end": 489.11,
+                "rawStart": 1552,
+                "rawEnd": 1552,
+                "precision": "word"
+              },
+              {
+                "text": "能",
+                "start": 488.61,
+                "end": 489.11,
+                "rawStart": 1553,
+                "rawEnd": 1553,
+                "precision": "word"
+              },
+              {
+                "text": "是",
+                "start": 489.11,
+                "end": 489.49,
+                "rawStart": 1554,
+                "rawEnd": 1554,
+                "precision": "word"
+              },
+              {
+                "text": "创",
+                "start": 489.49,
+                "end": 489.83,
+                "rawStart": 1555,
+                "rawEnd": 1555,
+                "precision": "word"
+              },
+              {
+                "text": "造",
+                "start": 489.83,
+                "end": 490.11,
+                "rawStart": 1556,
+                "rawEnd": 1556,
+                "precision": "word"
+              },
+              {
+                "text": "著",
+                "start": 490.11,
+                "end": 490.29,
+                "rawStart": 1557,
+                "rawEnd": 1557,
+                "precision": "word"
+              },
+              {
+                "text": "得",
+                "start": 490.29,
+                "end": 490.57,
+                "rawStart": 1558,
+                "rawEnd": 1558,
+                "precision": "word"
+              },
+              {
+                "text": "重",
+                "start": 490.57,
+                "end": 490.81,
+                "rawStart": 1559,
+                "rawEnd": 1559,
+                "precision": "word"
+              },
+              {
+                "text": "要",
+                "start": 490.57,
+                "end": 490.81,
+                "rawStart": 1560,
+                "rawEnd": 1560,
+                "precision": "word"
+              },
+              {
+                "text": "的",
+                "start": 490.81,
+                "end": 491.15,
+                "rawStart": 1561,
+                "rawEnd": 1561,
+                "precision": "word"
+              }
+            ],
+            "phoneticDifferences": [
+              7,
+              9
+            ],
+            "reason": "本段首/尾12音节局部短句唯一对应正文边界，词级时间及段落身份通过核验；词稿与sync记录时长完全一致。 录音文件不在工作区，因此没有可核对的音频 SHA-256。"
+          },
+          "reason": "本段首/尾12音节局部短句唯一对应正文边界，词级时间及段落身份通过核验；词稿与sync记录时长完全一致。 录音文件不在工作区，因此没有可核对的音频 SHA-256。"
+        }
+      ]
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (6 trailing chars, coverage 0.571): target 1: “所以，你们或吃或喝，无论作什么，都要为荣耀神而行。”（林前 10:31）",
+    "unverified end anchor: target 1: “所以，你们或吃或喝，无论作什么，都要为荣耀神而行。”（林前 10:31）",
+    "unverified end anchor: target 2: 基督徒内心平安最大的拦阻，就是惯于把生活分为两部分：神圣的和世俗的。因为这两部分是分开的，而同时",
+    "unverified end anchor: target 5: 和这些神圣的事相对的，就是世俗的事，包括我们和亚当的儿女一同有份的一切生活动作，例如吃饭、睡觉、",
+    "unverified start anchor: target 10: 在古时敬虔人士的著作中，那种僧侣修道式的对身体的憎恶，在圣经中是没有根据的。圣经有勉励人要朴实稳",
+    "unverified end anchor: target 11: 我们把身体的性能予以滥用，或戕（qiang）伤，会叫我们觉得羞耻，就如犯罪或作出违反自然的行为，",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 2",
+    "repair unverified end (previous-sync): target 5",
+    "repair unverified start (previous-sync): target 10",
+    "repair unverified start (previous-sync): target 11",
+    "repair unverified end (previous-sync): target 11",
+    "local phrase context confirmed end: target 2; original ASR differences and warnings retained"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 7,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 4,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "781086b5ff5b301dda350e3c2747c6cb4cd2051224586bd808a03421804368b2",
+  "repairCueDigest": "cd81eefdaecdc049b56d14d27a1c82c26fff4cd812412007e9041edefbe4a49e",
+  "previousAlignmentWarnings": []
 }

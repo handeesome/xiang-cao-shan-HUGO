@@ -8,28 +8,124 @@
   "audioDuration": 75.0378125,
   "cues": [
     {
-      "start": 0.05,
-      "end": 2.49,
-      "kind": "heading",
-      "targetIndex": 10,
-      "targetText": "信仰的根基",
-      "confidence": 1.0
-    },
-    {
       "start": 2.49,
-      "end": 46.11,
+      "end": 46.51,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "所以真正基督教的信仰乃是建立在一个人身上就是建立在基督身上而不是建立在道理上真正基督教的信仰着重",
-      "confidence": 0.848
+      "confidence": 0.958,
+      "quality": {
+        "coverage": 0.958,
+        "coherentCoverage": 0.958,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 2.49,
+        "previousEnd": 46.11,
+        "previousConfidence": 0.848
+      }
     },
     {
-      "start": 46.11,
+      "start": 48.63,
       "end": 74.03,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "拿撒勒人耶稣到底是谁既是一个关系我们基本信仰的重要问题我们就要从圣经中来找出它的答案现在我们要看",
-      "confidence": 0.659
+      "confidence": 0.965,
+      "quality": {
+        "coverage": 0.965,
+        "coherentCoverage": 0.965,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 46.11,
+        "previousEnd": 74.03,
+        "previousConfidence": 0.659
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "74cc23b7099f6ec03ed7e804bee2d2f5fc4bc76e072d513d552cac0ce311e8bc",
+  "repairCueDigest": "bc8416c6054341b0f7c48dce4bbb36bcb97a1a9d9316de27ed22c266e8338707",
+  "previousAlignmentWarnings": []
 }

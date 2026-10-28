@@ -8,36 +8,461 @@
   "audioDuration": 470.498,
   "cues": [
     {
-      "start": 0.24,
-      "end": 2.86,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第六章祈祷的果效",
-      "confidence": 0.8
-    },
-    {
-      "start": 2.86,
-      "end": 58.44,
+      "start": 4.56,
+      "end": 56.9,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "我的软弱与不能结果的主要原因就是在祈祷上的无可推诿的落后我随时能写作读书聆听但是祈祷比这些更属灵",
-      "confidence": 0.814
+      "confidence": 0.85,
+      "quality": {
+        "coverage": 0.802,
+        "coherentCoverage": 0.79,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.1,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 18,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 2.86,
+        "previousEnd": 58.44,
+        "previousConfidence": 0.814
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 58.44,
+            "time": 56.9,
+            "reason": "局部识别确认实际末句或署名的结束；按段落范围定位，保留识别差异。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\paragraph-finish-20261021\\local-51.json",
+              "sha256": "abd18ea82dd6e3e59e70aa96ee3550f9c616d071018523a6b1366c2adfbf920b",
+              "segments": [
+                {
+                  "start": 51.0,
+                  "end": 54.78,
+                  "text": "五组爱时,记得是就会较容易啦",
+                  "words": [
+                    {
+                      "start": 51.0,
+                      "end": 51.12,
+                      "text": "五",
+                      "probability": 0.228
+                    },
+                    {
+                      "start": 51.12,
+                      "end": 51.34,
+                      "text": "组",
+                      "probability": 0.709
+                    },
+                    {
+                      "start": 51.34,
+                      "end": 51.54,
+                      "text": "爱",
+                      "probability": 0.74
+                    },
+                    {
+                      "start": 51.54,
+                      "end": 51.84,
+                      "text": "时,",
+                      "probability": 0.847
+                    },
+                    {
+                      "start": 52.3,
+                      "end": 52.62,
+                      "text": "记",
+                      "probability": 0.346
+                    },
+                    {
+                      "start": 52.62,
+                      "end": 52.8,
+                      "text": "得",
+                      "probability": 0.956
+                    },
+                    {
+                      "start": 52.8,
+                      "end": 53.14,
+                      "text": "是",
+                      "probability": 0.902
+                    },
+                    {
+                      "start": 53.14,
+                      "end": 53.48,
+                      "text": "就",
+                      "probability": 0.653
+                    },
+                    {
+                      "start": 53.48,
+                      "end": 53.84,
+                      "text": "会",
+                      "probability": 0.749
+                    },
+                    {
+                      "start": 53.84,
+                      "end": 54.04,
+                      "text": "较",
+                      "probability": 0.548
+                    },
+                    {
+                      "start": 54.04,
+                      "end": 54.38,
+                      "text": "容易",
+                      "probability": 0.997
+                    },
+                    {
+                      "start": 54.38,
+                      "end": 54.78,
+                      "text": "啦",
+                      "probability": 0.639
+                    }
+                  ]
+                },
+                {
+                  "start": 55.64,
+                  "end": 56.9,
+                  "text": "纽顿立茶",
+                  "words": [
+                    {
+                      "start": 55.52,
+                      "end": 55.86,
+                      "text": "纽",
+                      "probability": 0.457
+                    },
+                    {
+                      "start": 55.86,
+                      "end": 56.2,
+                      "text": "顿",
+                      "probability": 0.784
+                    },
+                    {
+                      "start": 56.2,
+                      "end": 56.6,
+                      "text": "立",
+                      "probability": 0.678
+                    },
+                    {
+                      "start": 56.6,
+                      "end": 56.9,
+                      "text": "茶",
+                      "probability": 0.239
+                    }
+                  ]
+                }
+              ],
+              "source": "targeted-local-asr"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.802,
+          "coherentCoverage": 0.79,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.95,
+          "suffixCoverage": 0.1,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 18,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
       "start": 58.44,
-      "end": 113.79,
+      "end": 111.3,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "我们可以把这一句话作为属灵的格言在每一个成功的传道人的工作里祈祷都是一种显著与管制一切力量在他的",
-      "confidence": 0.807
+      "confidence": 0.932,
+      "quality": {
+        "coverage": 0.932,
+        "coherentCoverage": 0.915,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\祈祷出来的能力\\06.mp3.json",
+          "transcriptSha256": "cc8fe4b6e1e8989c6462cc0fb61c27373d167c29b06e3d246a20be12f8835ff5",
+          "phraseChars": 12,
+          "candidate": 111.3,
+          "expectedPhrase": "众身上创造圣洁敬虔的品格",
+          "actualPhrase": "众身上创造瞬间净浅的品格",
+          "phoneticPhrase": [
+            "zhong",
+            "shen",
+            "shang",
+            "chuang",
+            "zao",
+            "sheng",
+            "jie",
+            "jing",
+            "qian",
+            "de",
+            "pin",
+            "ge"
+          ],
+          "actualPhoneticPhrase": [
+            "zhong",
+            "shen",
+            "shang",
+            "chuang",
+            "zao",
+            "shun",
+            "jian",
+            "jing",
+            "qian",
+            "de",
+            "pin",
+            "ge"
+          ],
+          "verified": true,
+          "time": 111.3,
+          "boundedPhonetic": true,
+          "exactEndpointPhonemes": 2,
+          "maxInternalPhoneticDifferences": 2,
+          "phoneticDifferences": [
+            5,
+            6
+          ],
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "众",
+              "start": 107.22,
+              "end": 107.5,
+              "rawStart": 315,
+              "rawEnd": 315,
+              "precision": "word"
+            },
+            {
+              "text": "身",
+              "start": 107.5,
+              "end": 107.76,
+              "rawStart": 316,
+              "rawEnd": 316,
+              "precision": "word"
+            },
+            {
+              "text": "上",
+              "start": 107.76,
+              "end": 108.16,
+              "rawStart": 317,
+              "rawEnd": 317,
+              "precision": "word"
+            },
+            {
+              "text": "创",
+              "start": 108.16,
+              "end": 108.62,
+              "rawStart": 318,
+              "rawEnd": 318,
+              "precision": "word"
+            },
+            {
+              "text": "造",
+              "start": 108.62,
+              "end": 108.92,
+              "rawStart": 319,
+              "rawEnd": 319,
+              "precision": "word"
+            },
+            {
+              "text": "瞬",
+              "start": 108.92,
+              "end": 109.46,
+              "rawStart": 320,
+              "rawEnd": 320,
+              "precision": "word"
+            },
+            {
+              "text": "间",
+              "start": 109.46,
+              "end": 109.86,
+              "rawStart": 321,
+              "rawEnd": 321,
+              "precision": "word"
+            },
+            {
+              "text": "净",
+              "start": 109.86,
+              "end": 110.26,
+              "rawStart": 322,
+              "rawEnd": 322,
+              "precision": "word"
+            },
+            {
+              "text": "浅",
+              "start": 110.26,
+              "end": 110.58,
+              "rawStart": 323,
+              "rawEnd": 323,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 110.58,
+              "end": 110.7,
+              "rawStart": 324,
+              "rawEnd": 324,
+              "precision": "word"
+            },
+            {
+              "text": "品",
+              "start": 110.7,
+              "end": 110.92,
+              "rawStart": 325,
+              "rawEnd": 325,
+              "precision": "word"
+            },
+            {
+              "text": "格",
+              "start": 110.92,
+              "end": 111.3,
+              "rawStart": 326,
+              "rawEnd": 326,
+              "precision": "word"
+            }
+          ],
+          "source": "bounded-local-phonetic-differences-original-word-times",
+          "listenedByAgent": false,
+          "audioSha256": "e2eff037055ad042283b9ff980e298e1ff9fd11b6ecd28f59491933145b18da4",
+          "reason": "实际首/尾2个音节贴边相同，12音节局部短句最多2处内部识别差异；完整词边界、源段及录音唯一性、数字一致、停顿与相邻时间均核验，不逐字检查正文中间。"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 58.44,
+        "previousEnd": 113.79,
+        "previousConfidence": 0.807
+      },
+      "boundaryCorrections": [
+        {
+          "book": "祈祷出来的能力",
+          "page": "06_第六章 祈祷的果效.md",
+          "audio": "06.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\祈祷出来的能力\\06_第六章 祈祷的果效\\audio-01.json",
+          "targetIndex": 2,
+          "edge": "end",
+          "previousTime": 113.79,
+          "time": 111.3,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
       "start": 113.79,
-      "end": 249.96,
+      "end": 249.32,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "祈祷的传道人将上帝放入他的工作中上帝进入传道人的工作中并不是一件自然的事或是一件藉普通原则而成的",
-      "confidence": 0.77
+      "confidence": 0.863,
+      "quality": {
+        "coverage": 0.815,
+        "coherentCoverage": 0.772,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 113.79,
+        "previousEnd": 249.96,
+        "previousConfidence": 0.77
+      }
     },
     {
       "start": 249.96,
@@ -45,15 +470,99 @@
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "许多传道人只有表面上的工作效果也有许多传道人的工作沉沉如死其原因就是缺少祷告没有人能不祈祷而有真",
-      "confidence": 0.785
+      "confidence": 0.863,
+      "quality": {
+        "coverage": 0.838,
+        "coherentCoverage": 0.821,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 249.96,
+        "previousEnd": 325.42,
+        "previousConfidence": 0.785
+      }
     },
     {
       "start": 325.42,
-      "end": 405.3,
+      "end": 403.28,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "上帝的真传道人们都有一个显著的特点作为标记他们都是祈祷人他们彼此之间有许多不同点但是都有一个中心",
-      "confidence": 0.915
+      "confidence": 0.952,
+      "quality": {
+        "coverage": 0.955,
+        "coherentCoverage": 0.955,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 325.42,
+        "previousEnd": 405.3,
+        "previousConfidence": 0.915
+      }
     },
     {
       "start": 405.3,
@@ -61,7 +570,364 @@
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "祈祷对于他们正像对于保罗一样是心灵的一种迫切的努力与挣扎祈祷对于他们又像对于基督一样祂大声哀哭流",
-      "confidence": 0.747
+      "confidence": 0.882,
+      "quality": {
+        "coverage": 0.871,
+        "coherentCoverage": 0.757,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "candidate": 405.3,
+          "expectedPhrase": "祈祷对于他们正像对于保罗1样是心",
+          "actualPhrase": "祈祷对他们正向对宝螺1样是心",
+          "editDistance": 2,
+          "exactEndpointPhonemes": 3,
+          "expectedPhraseSize": 16,
+          "actualPhraseSize": 14,
+          "verified": true,
+          "time": 405.3,
+          "elasticLocal": true,
+          "source": "elastic-local-phrase-original-word-times",
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "祈",
+              "start": 405.3,
+              "end": 405.74,
+              "rawStart": 1220,
+              "rawEnd": 1220,
+              "precision": "word"
+            },
+            {
+              "text": "祷",
+              "start": 405.74,
+              "end": 405.96,
+              "rawStart": 1221,
+              "rawEnd": 1221,
+              "precision": "word"
+            },
+            {
+              "text": "对",
+              "start": 405.96,
+              "end": 406.42,
+              "rawStart": 1222,
+              "rawEnd": 1222,
+              "precision": "word"
+            },
+            {
+              "text": "他",
+              "start": 406.42,
+              "end": 406.84,
+              "rawStart": 1223,
+              "rawEnd": 1223,
+              "precision": "word"
+            },
+            {
+              "text": "们",
+              "start": 406.42,
+              "end": 406.84,
+              "rawStart": 1224,
+              "rawEnd": 1224,
+              "precision": "word"
+            },
+            {
+              "text": "正",
+              "start": 406.84,
+              "end": 407.3,
+              "rawStart": 1225,
+              "rawEnd": 1225,
+              "precision": "word"
+            },
+            {
+              "text": "向",
+              "start": 407.3,
+              "end": 407.6,
+              "rawStart": 1226,
+              "rawEnd": 1226,
+              "precision": "word"
+            },
+            {
+              "text": "对",
+              "start": 407.6,
+              "end": 407.84,
+              "rawStart": 1227,
+              "rawEnd": 1227,
+              "precision": "word"
+            },
+            {
+              "text": "宝",
+              "start": 407.84,
+              "end": 408.14,
+              "rawStart": 1228,
+              "rawEnd": 1228,
+              "precision": "word"
+            },
+            {
+              "text": "螺",
+              "start": 408.14,
+              "end": 408.36,
+              "rawStart": 1229,
+              "rawEnd": 1229,
+              "precision": "word"
+            },
+            {
+              "text": "1",
+              "start": 408.36,
+              "end": 408.62,
+              "rawStart": 1230,
+              "rawEnd": 1230,
+              "precision": "word"
+            },
+            {
+              "text": "样",
+              "start": 408.62,
+              "end": 408.92,
+              "rawStart": 1231,
+              "rawEnd": 1231,
+              "precision": "word"
+            },
+            {
+              "text": "是",
+              "start": 409.16,
+              "end": 409.46,
+              "rawStart": 1232,
+              "rawEnd": 1232,
+              "precision": "word"
+            },
+            {
+              "text": "心",
+              "start": 409.46,
+              "end": 409.82,
+              "rawStart": 1233,
+              "rawEnd": 1233,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\祈祷出来的能力\\06.mp3.json",
+          "transcriptSha256": "cc8fe4b6e1e8989c6462cc0fb61c27373d167c29b06e3d246a20be12f8835ff5",
+          "audioSha256": "e2eff037055ad042283b9ff980e298e1ff9fd11b6ecd28f59491933145b18da4",
+          "reason": "实际首尾各3个连续音节精确相同；16音节局部句中最多2次识别增删；数字序列和短句身份唯一，完整词时、停顿、音频时长及相邻原cue已复核。中间正文不要求逐字相同。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 405.3,
+        "previousEnd": 468.8,
+        "previousConfidence": 0.747
+      },
+      "boundaryCorrections": [
+        {
+          "book": "祈祷出来的能力",
+          "page": "06_第六章 祈祷的果效.md",
+          "audio": "06.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\祈祷出来的能力\\06_第六章 祈祷的果效\\audio-01.json",
+          "targetIndex": 6,
+          "edge": "start",
+          "previousTime": 405.3,
+          "time": 405.3,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        },
+        {
+          "book": "祈祷出来的能力",
+          "page": "06_第六章 祈祷的果效.md",
+          "audio": "06.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\祈祷出来的能力\\06_第六章 祈祷的果效\\audio-01.json",
+          "targetIndex": 6,
+          "edge": "start",
+          "previousTime": 405.3,
+          "time": 405.3,
+          "kind": "elastic-local-phrase-existing-word-times",
+          "previousVerified": true,
+          "previousEvidence": {
+            "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\祈祷出来的能力\\06.mp3.json",
+            "transcriptSha256": "cc8fe4b6e1e8989c6462cc0fb61c27373d167c29b06e3d246a20be12f8835ff5",
+            "phraseChars": 16,
+            "candidate": 405.3,
+            "expectedPhrase": "祈祷对于他们正像对于保罗1样是心",
+            "actualPhrase": "祈祷对他们正向对宝螺1样是心",
+            "editDistance": 2,
+            "exactEndpointPhonemes": 3,
+            "expectedPhraseSize": 16,
+            "actualPhraseSize": 14,
+            "verified": true,
+            "time": 405.3,
+            "elasticLocal": true,
+            "source": "elastic-local-phrase-original-word-times",
+            "localSupported": true,
+            "timingPrecision": "word",
+            "wordTokens": [
+              {
+                "text": "祈",
+                "start": 405.3,
+                "end": 405.74,
+                "rawStart": 1220,
+                "rawEnd": 1220,
+                "precision": "word"
+              },
+              {
+                "text": "祷",
+                "start": 405.74,
+                "end": 405.96,
+                "rawStart": 1221,
+                "rawEnd": 1221,
+                "precision": "word"
+              },
+              {
+                "text": "对",
+                "start": 405.96,
+                "end": 406.42,
+                "rawStart": 1222,
+                "rawEnd": 1222,
+                "precision": "word"
+              },
+              {
+                "text": "他",
+                "start": 406.42,
+                "end": 406.84,
+                "rawStart": 1223,
+                "rawEnd": 1223,
+                "precision": "word"
+              },
+              {
+                "text": "们",
+                "start": 406.42,
+                "end": 406.84,
+                "rawStart": 1224,
+                "rawEnd": 1224,
+                "precision": "word"
+              },
+              {
+                "text": "正",
+                "start": 406.84,
+                "end": 407.3,
+                "rawStart": 1225,
+                "rawEnd": 1225,
+                "precision": "word"
+              },
+              {
+                "text": "向",
+                "start": 407.3,
+                "end": 407.6,
+                "rawStart": 1226,
+                "rawEnd": 1226,
+                "precision": "word"
+              },
+              {
+                "text": "对",
+                "start": 407.6,
+                "end": 407.84,
+                "rawStart": 1227,
+                "rawEnd": 1227,
+                "precision": "word"
+              },
+              {
+                "text": "宝",
+                "start": 407.84,
+                "end": 408.14,
+                "rawStart": 1228,
+                "rawEnd": 1228,
+                "precision": "word"
+              },
+              {
+                "text": "螺",
+                "start": 408.14,
+                "end": 408.36,
+                "rawStart": 1229,
+                "rawEnd": 1229,
+                "precision": "word"
+              },
+              {
+                "text": "1",
+                "start": 408.36,
+                "end": 408.62,
+                "rawStart": 1230,
+                "rawEnd": 1230,
+                "precision": "word"
+              },
+              {
+                "text": "样",
+                "start": 408.62,
+                "end": 408.92,
+                "rawStart": 1231,
+                "rawEnd": 1231,
+                "precision": "word"
+              },
+              {
+                "text": "是",
+                "start": 409.16,
+                "end": 409.46,
+                "rawStart": 1232,
+                "rawEnd": 1232,
+                "precision": "word"
+              },
+              {
+                "text": "心",
+                "start": 409.46,
+                "end": 409.82,
+                "rawStart": 1233,
+                "rawEnd": 1233,
+                "precision": "word"
+              }
+            ],
+            "listenedByAgent": false,
+            "audioSha256": "e2eff037055ad042283b9ff980e298e1ff9fd11b6ecd28f59491933145b18da4",
+            "reason": "真正首尾和短句另一端各3音节贴边相同；16音节局部窗口最多2次内部替换/添漏，数字值不变，完整词时间与唯一身份已核验；不核对段落中间。"
+          },
+          "reason": "实际首尾各3个连续音节精确相同；16音节局部句中最多2次识别增删；数字序列和短句身份唯一，完整词时、停顿、音频时长及相邻原cue已复核。中间正文不要求逐字相同。"
+        }
+      ]
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (18 trailing chars, coverage 0.100): target 1: 「我的软弱与不能结果的主要原因，就是在祈祷上的无可推诿的落后。我随时能写作、读书、聆听；但是祈祷",
+    "unverified end anchor: target 1: 「我的软弱与不能结果的主要原因，就是在祈祷上的无可推诿的落后。我随时能写作、读书、聆听；但是祈祷",
+    "unverified end anchor: target 2: 我们可以把这一句话作为属灵的格言：在每一个成功的传道人的工作里，祈祷都是一种显著与管制一切力量，",
+    "unverified start anchor: target 6: 祈祷对于他们正像对于保罗一样，是心灵的一种迫切的努力与挣扎；祈祷对于他们又像对于基督一样：「祂大",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 2",
+    "repair unverified start (previous-sync): target 6"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "c6724a5df3ed079012d475738e0bdf6c9d073c653ed24edc649669fba2777ee1",
+  "repairCueDigest": "4b61e82416916ff8252ae3e80b401207a8fd1f83021dec0a4e1759f225f2a770",
+  "previousAlignmentWarnings": []
 }

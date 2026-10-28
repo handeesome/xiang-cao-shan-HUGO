@@ -8,28 +8,314 @@
   "audioDuration": 69.264,
   "cues": [
     {
-      "start": 2.1,
-      "end": 2.66,
-      "kind": "heading",
-      "targetIndex": 15,
-      "targetText": "礼拜四",
-      "confidence": 0.8
-    },
-    {
       "start": 2.66,
-      "end": 31.9,
+      "end": 33.74,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "上帝的名大过所有其它的名上帝的名代表祂的属性上帝行奇事为自己的名得荣耀称颂祂要求我们荣耀祂的名以",
-      "confidence": 0.807
+      "confidence": 0.878,
+      "quality": {
+        "coverage": 0.868,
+        "coherentCoverage": 0.835,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 0.792,
+          "localSimilarity": 0.826,
+          "localText": "都会乐于称颂上帝伟大的名请读诗篇113篇1到4节",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 2.66,
+        "previousEnd": 31.9,
+        "previousConfidence": 0.865
+      }
     },
     {
-      "start": 31.9,
-      "end": 66.44,
+      "start": 35.82,
+      "end": 67.94,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "诗篇11314你们要赞美耶和华耶和华的仆人哪你们要赞美赞美耶和华的名耶和华的名是应当称颂的从今时",
-      "confidence": 0.726
+      "confidence": 0.824,
+      "quality": {
+        "coverage": 0.806,
+        "coherentCoverage": 0.796,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 8,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "previous-verified-sync",
+        "previousStart": 31.9,
+        "previousEnd": 67.94,
+        "previousConfidence": 0.813
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 33.74,
+            "time": 35.82,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\53-4.mp3.json",
+              "sha256": "86f17abc9ea7f8f9b3ae30904d57c53251eeaec3413d1d92ab54320f38447e0c",
+              "anchor": {
+                "time": 35.82,
+                "score": 0.9979,
+                "ratio": 1.0,
+                "expected": "nimenyaozanmeiyehehuayehehuadepuren",
+                "actual": "你们要赞美耶和华耶和华的普人",
+                "span": [
+                  35.82,
+                  40.66
+                ],
+                "tokens": [
+                  {
+                    "text": "你",
+                    "start": 35.82,
+                    "end": 36.38,
+                    "rawStart": 95,
+                    "rawEnd": 95,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 35.82,
+                    "end": 36.38,
+                    "rawStart": 96,
+                    "rawEnd": 96,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "要",
+                    "start": 36.38,
+                    "end": 36.74,
+                    "rawStart": 97,
+                    "rawEnd": 97,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "赞",
+                    "start": 36.74,
+                    "end": 37.2,
+                    "rawStart": 98,
+                    "rawEnd": 98,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "美",
+                    "start": 37.2,
+                    "end": 37.58,
+                    "rawStart": 99,
+                    "rawEnd": 99,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "耶",
+                    "start": 37.58,
+                    "end": 37.86,
+                    "rawStart": 100,
+                    "rawEnd": 100,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "和",
+                    "start": 37.86,
+                    "end": 38.06,
+                    "rawStart": 101,
+                    "rawEnd": 101,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "华",
+                    "start": 38.06,
+                    "end": 38.34,
+                    "rawStart": 102,
+                    "rawEnd": 102,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "耶",
+                    "start": 39.26,
+                    "end": 39.82,
+                    "rawStart": 103,
+                    "rawEnd": 103,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "和",
+                    "start": 39.82,
+                    "end": 39.96,
+                    "rawStart": 104,
+                    "rawEnd": 104,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "华",
+                    "start": 39.96,
+                    "end": 40.06,
+                    "rawStart": 105,
+                    "rawEnd": 105,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 40.06,
+                    "end": 40.2,
+                    "rawStart": 106,
+                    "rawEnd": 106,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "普",
+                    "start": 40.2,
+                    "end": 40.4,
+                    "rawStart": 107,
+                    "rawEnd": 107,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 40.4,
+                    "end": 40.66,
+                    "rawStart": 108,
+                    "rawEnd": 108,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 33.74,
+                  "score": 0.8852,
+                  "actual": "道4节你们要赞美耶和华耶和华的普人"
+                }
+              },
+              "body": "你们要赞美耶和华!耶和华的仆人哪,你们要赞美,赞美耶和华的名!耶和华的名是应当称颂的,从今时直到永远!从日出之地到日落之处,耶和华的名是应当赞美的!耶和华超乎万民之上,祂的荣耀高过诸天!"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.806,
+          "coherentCoverage": 0.796,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.6,
+          "suffixCoverage": 0.75,
+          "unmatchedLeadingChars": 8,
+          "unmatchedTrailingChars": 2,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [
+            "end substitution"
+          ],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-verified-end"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.75,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (8 leading chars, coverage 0.600): target 17: 诗篇113:1-4 你们要赞美耶和华！耶和华的仆人哪，你们要赞美，赞美耶和华的名！耶和华的名是应",
+    "unverified start anchor: target 17: 诗篇113:1-4 你们要赞美耶和华！耶和华的仆人哪，你们要赞美，赞美耶和华的名！耶和华的名是应",
+    "repair unverified start (previous-verified-end): target 17"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "987f6aacceaae59219e0075207e51dae81905fe07861050251bfc1d323d2c0d1",
+  "repairCueDigest": "2bfbb83d77de2a8a96dd62541c694294a12f2041eb28a0143d45f5558dc743a9",
+  "previousAlignmentWarnings": []
 }

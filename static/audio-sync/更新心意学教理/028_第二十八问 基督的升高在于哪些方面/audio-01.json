@@ -8,44 +8,509 @@
   "audioDuration": 149.681625,
   "cues": [
     {
-      "start": 1.72,
-      "end": 3.54,
-      "kind": "heading",
-      "targetIndex": 5,
-      "targetText": "礼拜二",
-      "confidence": 0.8
-    },
-    {
-      "start": 3.54,
-      "end": 6.48,
+      "start": 2.94,
+      "end": 6.36,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "请读约翰福音21922",
-      "confidence": 0.455
+      "confidence": 0.815,
+      "quality": {
+        "coverage": 0.786,
+        "coherentCoverage": 0.786,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.714,
+        "suffixCoverage": 0.857,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.727,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 2.94,
+        "previousEnd": 6.48,
+        "previousConfidence": 0.667
+      }
     },
     {
-      "start": 6.48,
-      "end": 38.93,
+      "start": 7.4,
+      "end": 37.62,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "约翰福音21922耶稣回答说你们拆毁这殿我三日内要再建立起来犹太人便说这殿是四十六年才造成的你三",
-      "confidence": 0.718
+      "confidence": 0.934,
+      "quality": {
+        "coverage": 0.885,
+        "coherentCoverage": 0.885,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.4,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 12,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 6.48,
+        "previousEnd": 37.62,
+        "previousConfidence": 0.923
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 6.48,
+            "time": 7.4,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\28-2.mp3.json",
+              "sha256": "1d881f33e88f13e1b3cd7d614765c66670fcdddc362a1771a7f80f0d50374d4e",
+              "anchor": {
+                "time": 7.4,
+                "score": 0.9991,
+                "ratio": 1.0,
+                "expected": "yesuhuidashuonimenchaihuizhedianwosanri",
+                "actual": "耶稣回答说你们拆毁这殿我3日",
+                "span": [
+                  7.4,
+                  12.52
+                ],
+                "tokens": [
+                  {
+                    "text": "耶",
+                    "start": 7.4,
+                    "end": 8.0,
+                    "rawStart": 17,
+                    "rawEnd": 17,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "稣",
+                    "start": 8.0,
+                    "end": 8.18,
+                    "rawStart": 18,
+                    "rawEnd": 18,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "回",
+                    "start": 8.18,
+                    "end": 8.38,
+                    "rawStart": 19,
+                    "rawEnd": 19,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "答",
+                    "start": 8.38,
+                    "end": 8.58,
+                    "rawStart": 20,
+                    "rawEnd": 20,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "说",
+                    "start": 8.58,
+                    "end": 8.86,
+                    "rawStart": 21,
+                    "rawEnd": 21,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 9.52,
+                    "end": 9.88,
+                    "rawStart": 22,
+                    "rawEnd": 22,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 9.52,
+                    "end": 9.88,
+                    "rawStart": 23,
+                    "rawEnd": 23,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "拆",
+                    "start": 9.88,
+                    "end": 10.24,
+                    "rawStart": 24,
+                    "rawEnd": 24,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "毁",
+                    "start": 10.24,
+                    "end": 10.62,
+                    "rawStart": 25,
+                    "rawEnd": 25,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "这",
+                    "start": 10.62,
+                    "end": 10.96,
+                    "rawStart": 26,
+                    "rawEnd": 26,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "殿",
+                    "start": 10.96,
+                    "end": 11.2,
+                    "rawStart": 27,
+                    "rawEnd": 27,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 11.68,
+                    "end": 12.0,
+                    "rawStart": 28,
+                    "rawEnd": 28,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "3",
+                    "start": 12.0,
+                    "end": 12.34,
+                    "rawStart": 29,
+                    "rawEnd": 29,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "日",
+                    "start": 12.34,
+                    "end": 12.52,
+                    "rawStart": 30,
+                    "rawEnd": 30,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "耶稣回答说:“你们拆毁这殿,我三日内要再建立起来。”犹太人便说:“这殿是四十六年才造成的,你三日内就再建立起来吗?”但耶稣这话,是以祂的身体为殿。所以到祂从死里复活以后,门徒就想起祂说过这话,便信了圣经和耶稣所说的。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.885,
+          "coherentCoverage": 0.885,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.4,
+          "suffixCoverage": 1.0,
+          "unmatchedLeadingChars": 12,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     },
     {
       "start": 38.93,
-      "end": 86.15,
+      "end": 98.37,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "耶稣在很多方面是与众不同的耶稣独特的一点就是祂是唯一一位死过又复活的人在圣经的记载中上帝有的时候",
-      "confidence": 0.801
+      "confidence": 0.822,
+      "quality": {
+        "coverage": 0.772,
+        "coherentCoverage": 0.734,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.05,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 19,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "discarded detached end matches"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 38.93,
+        "previousEnd": 86.15,
+        "previousConfidence": 0.822
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 86.15,
+            "time": 98.37,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\28-2.mp3.json",
+              "sha256": "1d881f33e88f13e1b3cd7d614765c66670fcdddc362a1771a7f80f0d50374d4e",
+              "anchor": {
+                "time": 98.37,
+                "score": 0.8211,
+                "ratio": 0.8333,
+                "expected": "jiubuzujieyile",
+                "actual": "就不足记忆了",
+                "span": [
+                  96.29,
+                  98.37
+                ],
+                "tokens": [
+                  {
+                    "text": "就",
+                    "start": 96.29,
+                    "end": 96.85,
+                    "rawStart": 285,
+                    "rawEnd": 285,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "不",
+                    "start": 96.85,
+                    "end": 97.37,
+                    "rawStart": 286,
+                    "rawEnd": 286,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "足",
+                    "start": 97.37,
+                    "end": 97.67,
+                    "rawStart": 287,
+                    "rawEnd": 287,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "记",
+                    "start": 97.67,
+                    "end": 97.99,
+                    "rawStart": 288,
+                    "rawEnd": 288,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "忆",
+                    "start": 97.99,
+                    "end": 98.21,
+                    "rawStart": 289,
+                    "rawEnd": 289,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "了",
+                    "start": 98.21,
+                    "end": 98.37,
+                    "rawStart": 290,
+                    "rawEnd": 290,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "phraseSize": 6,
+                "matchingText": "耶稣在很多方面是与众不同的。耶稣独特的一点就是,祂是唯一一位死过又复活的人。在圣经的记载中,上帝有的时候给先知能力,让人从死里复活。耶稣在世的时候也曾经叫别人从死里复活。但是只有耶稣自己是靠着自己的大能从死里复活。只有耶稣是上帝,作为上帝,祂有力量胜过死亡。对于我们来说,耶稣从死里复活这一点很重要,因为如果耶稣没有复活,我们的信仰就不足介意了。",
+                "normalization": "original-body"
+              },
+              "body": "耶稣在很多方面是与众不同的。耶稣独特的一点就是,祂是唯一一位死过又复活的人。在圣经的记载中,上帝有的时候给先知能力,让人从死里复活。耶稣在世的时候也曾经叫别人从死里复活。但是只有耶稣自己是靠着自己的大能从死里复活。只有耶稣是上帝,作为上帝,祂有力量胜过死亡。对于我们来说,耶稣从死里复活这一点很重要,因为如果耶稣没有复活,我们的信仰就不足介意了。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.772,
+          "coherentCoverage": 0.734,
+          "extraSpeechContext": false,
+          "prefixCoverage": 1.0,
+          "suffixCoverage": 0.05,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 19,
+          "reviewRequired": true,
+          "boundaryAdjusted": [
+            "discarded detached end matches"
+          ],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 86.15,
+      "start": 99.68,
       "end": 145.98,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "耶稣是我们的先知祂曾宣告自己是上帝祂说过祂会复活的如果祂没有从死里复活那么祂就成了假先知耶稣是我",
-      "confidence": 0.679
+      "confidence": 0.898,
+      "quality": {
+        "coverage": 0.895,
+        "coherentCoverage": 0.874,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 99.68,
+        "previousEnd": 145.98,
+        "previousConfidence": 0.897
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (12 leading chars, coverage 0.400): target 7: 约翰福音2:19-22 耶稣回答说：“你们拆毁这殿，我三日内要再建立起来。”犹太人便说：“这殿是",
+    "unverified start anchor: target 7: 约翰福音2:19-22 耶稣回答说：“你们拆毁这殿，我三日内要再建立起来。”犹太人便说：“这殿是",
+    "incomplete end (19 trailing chars, coverage 0.050): target 8: 耶稣在很多方面是与众不同的。耶稣独特的一点就是，祂是唯一一位死过又复活的人。在圣经的记载中，上帝",
+    "unverified end anchor: target 8: 耶稣在很多方面是与众不同的。耶稣独特的一点就是，祂是唯一一位死过又复活的人。在圣经的记载中，上帝",
+    "repair unverified start (previous-sync): target 7",
+    "repair unverified end (previous-sync): target 8"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "82f9573efc5fd933a9c6c416dc663ec0e20c9bc2b8d0e75c7ba477cb76069b29",
+  "repairCueDigest": "5b48052aa89d969432453dbe8c9626b3f3e0cd764534400ca62066634876e6c2",
+  "previousAlignmentWarnings": []
 }

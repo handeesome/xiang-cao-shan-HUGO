@@ -8,20 +8,114 @@
   "audioDuration": 12.048,
   "cues": [
     {
-      "start": 1.14,
-      "end": 1.78,
-      "kind": "heading",
-      "targetIndex": 4,
-      "targetText": "礼拜一",
-      "confidence": 0.4
-    },
-    {
-      "start": 1.78,
-      "end": 11.46,
+      "start": 5.6,
+      "end": 11.68,
       "kind": "paragraph",
-      "targetIndex": 6,
-      "targetText": "约翰一书34凡犯罪的就是违背律法违背律法就是罪",
-      "confidence": 0.348
+      "targetIndex": 1,
+      "targetText": "答凡不遵守或违背上帝的律法的都是罪",
+      "confidence": 0.97,
+      "quality": {
+        "coverage": 0.941,
+        "coherentCoverage": 0.941,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.875,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": null,
+        "previousEnd": null,
+        "previousConfidence": null
+      }
+    }
+  ],
+  "alignmentMethod": "body-global-v8-rendered-list-and-empty-paragraph-indices",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 1,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "93e8f0987868264a41c970d9afbcfed3afcb1ddee66a6a5c6908421876d2e17e",
+  "repairCueDigest": "dd764d5025ca52a1a918148aad8fd07c0f77d8a4358770392083d87081101eb3",
+  "previousAlignmentWarnings": [],
+  "removedMisidentifiedCues": [
+    {
+      "cue": {
+        "start": 1.78,
+        "end": 11.46,
+        "kind": "paragraph",
+        "targetIndex": 6,
+        "targetText": "约翰一书34凡犯罪的就是违背律法违背律法就是罪",
+        "confidence": 0.348,
+        "quality": {
+          "startVerified": false,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endVerified": false,
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reviewRequired": true
+        },
+        "repair": {
+          "startSource": "previous-sync",
+          "endSource": "previous-sync",
+          "previousStart": 1.78,
+          "previousEnd": 11.46,
+          "previousConfidence": 0.348
+        }
+      },
+      "reason": "Both model windows identify different spoken body; this verse was not read here.",
+      "proofModels": [
+        "small",
+        "medium"
+      ],
+      "audioSha256": "87d9ff0c25ce8d6bd36af6b5a6a421fb87709e0274cd8054797e65a164acb502",
+      "window": [
+        0,
+        12.048
+      ]
     }
   ]
 }

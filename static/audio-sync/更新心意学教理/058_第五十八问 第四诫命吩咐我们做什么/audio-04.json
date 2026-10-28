@@ -8,20 +8,464 @@
   "audioDuration": 79.36,
   "cues": [
     {
-      "start": 1.52,
-      "end": 34.08,
+      "start": 2.88,
+      "end": 36.16,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "安息日预表着信徒们在耶稣里的安息当我们凭着信心来到耶稣那里相信祂会赐我们安息脱离守律法的重任脱离",
-      "confidence": 0.704
+      "confidence": 0.912,
+      "quality": {
+        "coverage": 0.91,
+        "coherentCoverage": 0.901,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1.52,
+        "previousEnd": 34.08,
+        "previousConfidence": 0.704
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 34.08,
+            "time": 36.16,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\58-3.mp3.json",
+              "sha256": "ce065f5c891e9a5c37f2fb6821aa9624d0a4beba8abd838daf86bf41a26cca4e",
+              "anchor": {
+                "time": 36.16,
+                "score": 0.9265,
+                "ratio": 0.9286,
+                "expected": "yueqingduxibolaishusizhangbadao11jie",
+                "actual": "悦请读西伯兰书4章8道11节",
+                "span": [
+                  31.46,
+                  36.16
+                ],
+                "tokens": [
+                  {
+                    "text": "悦",
+                    "start": 31.46,
+                    "end": 31.72,
+                    "rawStart": 100,
+                    "rawEnd": 100,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "请",
+                    "start": 32.46,
+                    "end": 33.02,
+                    "rawStart": 101,
+                    "rawEnd": 101,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "读",
+                    "start": 33.02,
+                    "end": 33.28,
+                    "rawStart": 102,
+                    "rawEnd": 102,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "西",
+                    "start": 33.28,
+                    "end": 33.52,
+                    "rawStart": 103,
+                    "rawEnd": 103,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "伯",
+                    "start": 33.52,
+                    "end": 33.6,
+                    "rawStart": 104,
+                    "rawEnd": 104,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "兰",
+                    "start": 33.6,
+                    "end": 33.72,
+                    "rawStart": 105,
+                    "rawEnd": 105,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "书",
+                    "start": 33.72,
+                    "end": 34.08,
+                    "rawStart": 106,
+                    "rawEnd": 106,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "4",
+                    "start": 34.08,
+                    "end": 34.66,
+                    "rawStart": 107,
+                    "rawEnd": 107,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "章",
+                    "start": 34.66,
+                    "end": 34.92,
+                    "rawStart": 108,
+                    "rawEnd": 108,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "8",
+                    "start": 34.92,
+                    "end": 35.3,
+                    "rawStart": 109,
+                    "rawEnd": 109,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "道",
+                    "start": 35.3,
+                    "end": 35.54,
+                    "rawStart": 110,
+                    "rawEnd": 110,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 35.54,
+                    "end": 35.9,
+                    "rawStart": 111,
+                    "rawEnd": 111,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 35.54,
+                    "end": 35.9,
+                    "rawStart": 112,
+                    "rawEnd": 112,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "节",
+                    "start": 35.9,
+                    "end": 36.16,
+                    "rawStart": 113,
+                    "rawEnd": 113,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 38.38,
+                  "score": 0.8164,
+                  "actual": "悦请读西伯兰书4章8道11节若是约"
+                }
+              },
+              "body": "安息日预表着信徒们在耶稣里的安息。当我们凭着信心来到耶稣那里,相信祂会赐我们安息,脱离守律法的重任,脱离我们罪恶的重担,我们就是做了安息日所预表的事。我们歇了我们的劳苦。我们不再企图借着我们的行为赚取上帝的喜悦。请读希伯来书4:8-11。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.91,
+          "coherentCoverage": 0.901,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.95,
+          "suffixCoverage": 0.7,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 4,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 34.08,
+      "start": 37.02,
       "end": 68.8,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "希伯来书4811若是约书亚已叫他们享了安息后来上帝就不再提别的日子了这样看来必另有一安息日的安息",
-      "confidence": 0.842
+      "confidence": 0.893,
+      "quality": {
+        "coverage": 0.851,
+        "coherentCoverage": 0.807,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.55,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 8,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 34.08,
+        "previousEnd": 68.8,
+        "previousConfidence": 0.842
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 34.08,
+            "time": 37.02,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\58-3.mp3.json",
+              "sha256": "ce065f5c891e9a5c37f2fb6821aa9624d0a4beba8abd838daf86bf41a26cca4e",
+              "anchor": {
+                "time": 37.02,
+                "score": 0.9971,
+                "ratio": 1.0,
+                "expected": "ruoshiyueshuyayijiaotamenxiangleanxihou",
+                "actual": "若是约书亚已教他们想了安息后",
+                "span": [
+                  37.02,
+                  41.56
+                ],
+                "tokens": [
+                  {
+                    "text": "若",
+                    "start": 37.02,
+                    "end": 37.58,
+                    "rawStart": 114,
+                    "rawEnd": 114,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 37.58,
+                    "end": 37.88,
+                    "rawStart": 115,
+                    "rawEnd": 115,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "约",
+                    "start": 37.88,
+                    "end": 38.38,
+                    "rawStart": 116,
+                    "rawEnd": 116,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "书",
+                    "start": 38.38,
+                    "end": 38.58,
+                    "rawStart": 117,
+                    "rawEnd": 117,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "亚",
+                    "start": 38.58,
+                    "end": 38.88,
+                    "rawStart": 118,
+                    "rawEnd": 118,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "已",
+                    "start": 38.88,
+                    "end": 39.3,
+                    "rawStart": 119,
+                    "rawEnd": 119,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "教",
+                    "start": 39.3,
+                    "end": 39.56,
+                    "rawStart": 120,
+                    "rawEnd": 120,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "他",
+                    "start": 39.56,
+                    "end": 39.88,
+                    "rawStart": 121,
+                    "rawEnd": 121,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 39.56,
+                    "end": 39.88,
+                    "rawStart": 122,
+                    "rawEnd": 122,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "想",
+                    "start": 39.88,
+                    "end": 40.1,
+                    "rawStart": 123,
+                    "rawEnd": 123,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "了",
+                    "start": 40.1,
+                    "end": 40.24,
+                    "rawStart": 124,
+                    "rawEnd": 124,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "安",
+                    "start": 40.24,
+                    "end": 40.58,
+                    "rawStart": 125,
+                    "rawEnd": 125,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "息",
+                    "start": 40.58,
+                    "end": 40.8,
+                    "rawStart": 126,
+                    "rawEnd": 126,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "后",
+                    "start": 40.8,
+                    "end": 41.56,
+                    "rawStart": 127,
+                    "rawEnd": 127,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "若是约书亚已叫他们享了安息,后来神就不再提别的日子了。这样看来,必另有一安息日的安息,为神的子民存留。因为那进入安息的,乃是歇了自己的工,正如神歇了祂的工一样。所以,我们务必竭力进入那安息,免得有人学那不信从的样子跌倒了。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.851,
+          "coherentCoverage": 0.807,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.55,
+          "suffixCoverage": 0.95,
+          "unmatchedLeadingChars": 8,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (4 trailing chars, coverage 0.700): target 10: 安息日预表着信徒们在耶稣里的安息。当我们凭着信心来到耶稣那里，相信祂会赐我们安息，脱离守律法的重",
+    "unverified end anchor: target 10: 安息日预表着信徒们在耶稣里的安息。当我们凭着信心来到耶稣那里，相信祂会赐我们安息，脱离守律法的重",
+    "incomplete start (8 leading chars, coverage 0.550): target 11: 希伯来书4:8-11 若是约书亚已叫他们享了安息，后来神就不再提别的日子了。这样看来，必另有一安",
+    "unverified start anchor: target 11: 希伯来书4:8-11 若是约书亚已叫他们享了安息，后来神就不再提别的日子了。这样看来，必另有一安",
+    "repair unverified end (previous-sync): target 10",
+    "repair unverified start (previous-sync): target 11"
+  ],
+  "previousAlignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "aff8b72dc98c823c86467e9f74fe2832f89d701c5ddf4f8c6cd4ba4451b78368",
+  "repairCueDigest": "45beda4b5b67d354f012307cbca9361869b5b15c2a56f20248690deb5610fdbc"
 }

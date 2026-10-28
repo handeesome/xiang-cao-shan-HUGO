@@ -8,52 +8,430 @@
   "audioDuration": 331.65275,
   "cues": [
     {
-      "start": 1.17,
-      "end": 4.47,
-      "kind": "heading",
-      "targetIndex": 39,
-      "targetText": "你说耶稣是谁",
-      "confidence": 1.0
-    },
-    {
       "start": 4.47,
-      "end": 46.39,
+      "end": 45.69,
       "kind": "paragraph",
       "targetIndex": 40,
       "targetText": "到底拿撒勒人耶稣是谁呢你怎么来说祂呢你说祂是基督教的教主说祂是牺牲服务的模范说祂是社会改革家说祂",
-      "confidence": 0.86
+      "confidence": 0.956,
+      "quality": {
+        "coverage": 0.956,
+        "coherentCoverage": 0.877,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\倪柝声全集\\01\\02\\03\\6.mp3.json",
+          "transcriptSha256": "c4aa6f8cc912bf93482946bc99665787c12948248d6f5803b8eadc564ff793b5",
+          "phraseChars": 12,
+          "candidate": 4.47,
+          "expectedPhrase": "到底拿撒勒人耶稣是谁呢你",
+          "actualPhrase": "到底哪撒拉人耶稣是谁呢你",
+          "phoneticPhrase": [
+            "dao",
+            "di",
+            "na",
+            "sa",
+            "lei",
+            "ren",
+            "ye",
+            "su",
+            "shi",
+            "shui",
+            "ne",
+            "ni"
+          ],
+          "actualPhoneticPhrase": [
+            "dao",
+            "di",
+            "na",
+            "sa",
+            "la",
+            "ren",
+            "ye",
+            "su",
+            "shi",
+            "shui",
+            "ne",
+            "ni"
+          ],
+          "verified": true,
+          "time": 4.47,
+          "boundedPhonetic": true,
+          "exactEndpointPhonemes": 2,
+          "maxInternalPhoneticDifferences": 2,
+          "phoneticDifferences": [
+            4
+          ],
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "到",
+              "start": 4.47,
+              "end": 4.99,
+              "rawStart": 6,
+              "rawEnd": 6,
+              "precision": "word"
+            },
+            {
+              "text": "底",
+              "start": 4.47,
+              "end": 4.99,
+              "rawStart": 7,
+              "rawEnd": 7,
+              "precision": "word"
+            },
+            {
+              "text": "哪",
+              "start": 5.49,
+              "end": 5.55,
+              "rawStart": 8,
+              "rawEnd": 8,
+              "precision": "word"
+            },
+            {
+              "text": "撒",
+              "start": 5.55,
+              "end": 5.79,
+              "rawStart": 9,
+              "rawEnd": 9,
+              "precision": "word"
+            },
+            {
+              "text": "拉",
+              "start": 5.79,
+              "end": 5.97,
+              "rawStart": 10,
+              "rawEnd": 10,
+              "precision": "word"
+            },
+            {
+              "text": "人",
+              "start": 5.97,
+              "end": 6.27,
+              "rawStart": 11,
+              "rawEnd": 11,
+              "precision": "word"
+            },
+            {
+              "text": "耶",
+              "start": 6.53,
+              "end": 6.71,
+              "rawStart": 12,
+              "rawEnd": 12,
+              "precision": "word"
+            },
+            {
+              "text": "稣",
+              "start": 6.71,
+              "end": 6.99,
+              "rawStart": 13,
+              "rawEnd": 13,
+              "precision": "word"
+            },
+            {
+              "text": "是",
+              "start": 6.99,
+              "end": 7.25,
+              "rawStart": 14,
+              "rawEnd": 14,
+              "precision": "word"
+            },
+            {
+              "text": "谁",
+              "start": 7.25,
+              "end": 7.47,
+              "rawStart": 15,
+              "rawEnd": 15,
+              "precision": "word"
+            },
+            {
+              "text": "呢",
+              "start": 7.47,
+              "end": 7.71,
+              "rawStart": 16,
+              "rawEnd": 16,
+              "precision": "word"
+            },
+            {
+              "text": "你",
+              "start": 8.85,
+              "end": 9.11,
+              "rawStart": 17,
+              "rawEnd": 17,
+              "precision": "word"
+            }
+          ],
+          "source": "bounded-local-phonetic-differences-original-word-times",
+          "listenedByAgent": false,
+          "audioSha256": "9e24df7dfa6cb54417de3f65bd96ffcf48894082aef162da2ce234acfabfd943",
+          "reason": "实际首/尾2个音节贴边相同，12音节局部短句最多2处内部识别差异；完整词边界、源段及录音唯一性、数字一致、停顿与相邻时间均核验，不逐字检查正文中间。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 4.47,
+        "previousEnd": 45.69,
+        "previousConfidence": 0.956
+      },
+      "boundaryCorrections": [
+        {
+          "book": "倪柝声全集",
+          "page": "01/part2/chapter19.md",
+          "audio": "01/02/03/6.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\倪柝声全集\\01\\part2\\chapter19\\audio-06.json",
+          "targetIndex": 40,
+          "edge": "start",
+          "previousTime": 4.47,
+          "time": 4.47,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
       "start": 46.39,
-      "end": 102.19,
+      "end": 102.51,
       "kind": "paragraph",
       "targetIndex": 41,
       "targetText": "祂是个疯子么你如果读祂的传记看祂的生活考察祂的言行就知道祂不但不疯而且在任何情形任何环境下祂都是",
-      "confidence": 0.765
+      "confidence": 0.947,
+      "quality": {
+        "coverage": 0.947,
+        "coherentCoverage": 0.93,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 46.39,
+        "previousEnd": 102.51,
+        "previousConfidence": 0.947
+      }
     },
     {
-      "start": 102.19,
-      "end": 163.93,
+      "start": 103.73,
+      "end": 162.69,
       "kind": "paragraph",
       "targetIndex": 42,
       "targetText": "难道祂是骗子么骗子永远是因为有利可图才来骗人的若是无利可图骗来做什么呢拿撒勒人耶稣为什么被钉死十",
-      "confidence": 0.839
+      "confidence": 0.933,
+      "quality": {
+        "coverage": 0.93,
+        "coherentCoverage": 0.925,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 103.73,
+        "previousEnd": 162.69,
+        "previousConfidence": 0.935
+      }
     },
     {
       "start": 163.93,
-      "end": 221.21,
+      "end": 219.89,
       "kind": "paragraph",
       "targetIndex": 43,
       "targetText": "有一次一个人来和我谈道他读过一些有关耶稣的书不过他只承认耶稣的道德极高可称作完人是人类模范可是不",
-      "confidence": 0.906
+      "confidence": 0.965,
+      "quality": {
+        "coverage": 0.965,
+        "coherentCoverage": 0.953,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 163.93,
+        "previousEnd": 219.89,
+        "previousConfidence": 0.953
+      }
     },
     {
-      "start": 221.21,
-      "end": 300.51,
+      "start": 221.67,
+      "end": 299.45,
       "kind": "paragraph",
       "targetIndex": 44,
       "targetText": "请看约翰福音一章一节太初有道道与上帝同在道就是上帝第十四节道成了肉身住在我们中间充充满满的有恩典",
-      "confidence": 0.825
+      "confidence": 0.939,
+      "quality": {
+        "coverage": 0.941,
+        "coherentCoverage": 0.919,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 1.0,
+          "localSimilarity": 1.0,
+          "localText": "请看约翰福音1章1节太初有道道与上帝同在道就是上",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 221.21,
+        "previousEnd": 299.45,
+        "previousConfidence": 0.931
+      }
     },
     {
       "start": 300.51,
@@ -61,7 +439,88 @@
       "kind": "paragraph",
       "targetIndex": 45,
       "targetText": "到这里我们只不过看了五个条件中的第一个条件而只有拿撒勒人耶稣通过了这个条件显明祂是上帝成的人此外",
-      "confidence": 0.98
+      "confidence": 0.98,
+      "quality": {
+        "coverage": 0.98,
+        "coherentCoverage": 0.98,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 300.51,
+        "previousEnd": 330.47,
+        "previousConfidence": 0.98
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 40: 到底拿撒勒人耶稣是谁呢？ 你怎么来说祂呢？ 你说祂是基督教的教主？ 说祂是牺牲服务的模范？ 说祂",
+    "repair unverified start (previous-sync): target 40"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "485d9638c2a135340bfbdcde2c719848c13a9e4f7904f21c424006c44baafa24",
+  "repairCueDigest": "522ead8396b6c7041806fb63b9c44b5f9ad0c5e39749459b52651249818f9a2f",
+  "previousAlignmentWarnings": [],
+  "currentSiteConfirmation": {
+    "model": "medium",
+    "audioSha256": "9e24df7dfa6cb54417de3f65bd96ffcf48894082aef162da2ce234acfabfd943",
+    "audioDuration": 331.65275,
+    "windows": [
+      [
+        0.0,
+        13.21
+      ],
+      [
+        209.51,
+        229.21
+      ]
+    ]
+  }
 }

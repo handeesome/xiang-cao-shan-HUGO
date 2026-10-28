@@ -8,28 +8,446 @@
   "audioDuration": 117.3459375,
   "cues": [
     {
-      "start": 6.96,
-      "end": 7.16,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "礼拜一",
-      "confidence": 0.5
-    },
-    {
-      "start": 7.16,
-      "end": 82.94,
+      "start": 4.2,
+      "end": 85.5,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "上帝曾经命令百姓敬拜祂而且告诉他们敬拜当中要他们做的事情上帝的百姓不可以效仿外邦人的敬拜在旧约时",
-      "confidence": 0.901
+      "confidence": 0.938,
+      "quality": {
+        "coverage": 0.927,
+        "coherentCoverage": 0.912,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 6,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "source": "context-reviewed-read-prompt-ending",
+          "contextUsed": true,
+          "identityAmbiguous": false,
+          "continuousAnchor": false,
+          "timingPrecision": "word",
+          "time": 85.5,
+          "expectedPhrase": "帝是灵。祂没有可见的身体。祂不让祂的百姓制造一个看得见的东西，然后说这就是上帝，或者说这就仿佛是上帝。请读申命记4:15-18。",
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\51-1.mp3.json",
+          "transcriptSha256": "d4684eee94af211211cf2b45df8cbe4dc7a3561f85b2746716a5b59c25b67f04",
+          "audioSha256": "eeeeab06b4114abbe2120f7c2c20850a2a04997898af9c4a92fb07ada50ff90a",
+          "rawSegments": [
+            {
+              "start": 81.14,
+              "end": 85.5,
+              "text": "请读生命节四章十五到十八节",
+              "words": [
+                {
+                  "start": 81.14,
+                  "end": 82.26,
+                  "text": "请",
+                  "probability": 0.7472230195999146
+                },
+                {
+                  "start": 82.26,
+                  "end": 82.48,
+                  "text": "读",
+                  "probability": 0.946102499961853
+                },
+                {
+                  "start": 82.48,
+                  "end": 82.78,
+                  "text": "生",
+                  "probability": 0.6654879450798035
+                },
+                {
+                  "start": 82.78,
+                  "end": 82.94,
+                  "text": "命",
+                  "probability": 0.996972918510437
+                },
+                {
+                  "start": 82.94,
+                  "end": 83.2,
+                  "text": "节",
+                  "probability": 0.8275216817855835
+                },
+                {
+                  "start": 83.2,
+                  "end": 83.74,
+                  "text": "四",
+                  "probability": 0.49783971905708313
+                },
+                {
+                  "start": 83.74,
+                  "end": 84.02,
+                  "text": "章",
+                  "probability": 0.9534016251564026
+                },
+                {
+                  "start": 84.02,
+                  "end": 84.48,
+                  "text": "十",
+                  "probability": 0.6907858848571777
+                },
+                {
+                  "start": 84.48,
+                  "end": 84.7,
+                  "text": "五",
+                  "probability": 0.9952799081802368
+                },
+                {
+                  "start": 84.7,
+                  "end": 84.86,
+                  "text": "到",
+                  "probability": 0.8200864791870117
+                },
+                {
+                  "start": 84.86,
+                  "end": 85.04,
+                  "text": "十",
+                  "probability": 0.9855173230171204
+                },
+                {
+                  "start": 85.04,
+                  "end": 85.24,
+                  "text": "八",
+                  "probability": 0.9993107318878174
+                },
+                {
+                  "start": 85.24,
+                  "end": 85.5,
+                  "text": "节",
+                  "probability": 0.817949652671814
+                }
+              ]
+            }
+          ],
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+          "listenedByAgent": false
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 7.16,
+        "previousEnd": 82.94,
+        "previousConfidence": 0.901
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "051_第五十一问 第二诫命禁止我们做什么.md",
+          "audio": "51-1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\051_第五十一问 第二诫命禁止我们做什么\\audio-02.json",
+          "caseIndex": 709,
+          "targetIndex": 3,
+          "edge": "end",
+          "previousTime": 82.94,
+          "time": 85.5,
+          "kind": "verified-edge",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false,
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。"
+        }
+      ]
     },
     {
-      "start": 82.94,
+      "start": 86.16,
       "end": 115.42,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "申命记41518所以你们要分外谨慎因为耶和华在何烈山从火中对你们说话的那日你们没有看见什么形像惟",
-      "confidence": 0.8
+      "confidence": 0.81,
+      "quality": {
+        "coverage": 0.814,
+        "coherentCoverage": 0.763,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.4,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 8,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "localSupported": false,
+          "source": "previous-verified-end",
+          "time": 85.5,
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "referenceOwnershipConstraint": {
+          "ownerTargetIndex": 3,
+          "ownerTargetText": "上帝曾经命令百姓敬拜祂而且告诉他们敬拜当中要他们做的事情上帝的百姓不可以效仿外邦人的敬拜在旧约时",
+          "notBefore": 85.5,
+          "verifiedSpokenOnset": false
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 82.94,
+        "previousEnd": 115.42,
+        "previousConfidence": 0.8
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "051_第五十一问 第二诫命禁止我们做什么.md",
+          "audio": "51-1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\051_第五十一问 第二诫命禁止我们做什么\\audio-02.json",
+          "caseIndex": 709,
+          "targetIndex": 4,
+          "edge": "start",
+          "previousTime": 82.94,
+          "time": 85.5,
+          "kind": "unverified-neighbor-constraint",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 85.5,
+            "time": 86.16,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\51-1.mp3.json",
+              "sha256": "f102841bd24ccccf076594ae5d37ed1e6a94896e8928c8e885ae3b16f32d84bc",
+              "anchor": {
+                "time": 86.16,
+                "score": 0.8565,
+                "ratio": 0.8571,
+                "expected": "suoyinimenyaofenwaijinshenyinweiyehehua",
+                "actual": "所以你们要愤外景深因为伊河华",
+                "span": [
+                  86.16,
+                  90.78
+                ],
+                "tokens": [
+                  {
+                    "text": "所",
+                    "start": 86.16,
+                    "end": 86.76,
+                    "rawStart": 271,
+                    "rawEnd": 271,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "以",
+                    "start": 86.16,
+                    "end": 86.76,
+                    "rawStart": 272,
+                    "rawEnd": 272,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 86.76,
+                    "end": 87.34,
+                    "rawStart": 273,
+                    "rawEnd": 273,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 86.76,
+                    "end": 87.34,
+                    "rawStart": 274,
+                    "rawEnd": 274,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "要",
+                    "start": 87.34,
+                    "end": 87.64,
+                    "rawStart": 275,
+                    "rawEnd": 275,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "愤",
+                    "start": 87.64,
+                    "end": 88.12,
+                    "rawStart": 276,
+                    "rawEnd": 276,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "外",
+                    "start": 88.12,
+                    "end": 88.46,
+                    "rawStart": 277,
+                    "rawEnd": 277,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "景",
+                    "start": 88.46,
+                    "end": 88.7,
+                    "rawStart": 278,
+                    "rawEnd": 278,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "深",
+                    "start": 88.7,
+                    "end": 88.98,
+                    "rawStart": 279,
+                    "rawEnd": 279,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "因",
+                    "start": 88.98,
+                    "end": 89.84,
+                    "rawStart": 280,
+                    "rawEnd": 280,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "为",
+                    "start": 88.98,
+                    "end": 89.84,
+                    "rawStart": 281,
+                    "rawEnd": 281,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "伊",
+                    "start": 89.84,
+                    "end": 90.4,
+                    "rawStart": 282,
+                    "rawEnd": 282,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "河",
+                    "start": 90.4,
+                    "end": 90.54,
+                    "rawStart": 283,
+                    "rawEnd": 283,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "华",
+                    "start": 90.54,
+                    "end": 90.78,
+                    "rawStart": 284,
+                    "rawEnd": 284,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "所以你们要分外谨慎,因为耶和华在何烈山从火中对你们说话的那日,你们没有看见什么形像。惟恐你们败坏自己,雕刻偶像,仿佛什么男像女像,或地上走兽的像,或空中飞鸟的像,或地上爬物的像,或地底下水中鱼的像。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.814,
+          "coherentCoverage": 0.763,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.4,
+          "suffixCoverage": 1.0,
+          "unmatchedLeadingChars": 8,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "localSupported": false,
+            "source": "previous-verified-end",
+            "time": 85.5,
+            "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "referenceOwnershipConstraint": {
+            "ownerTargetIndex": 3,
+            "ownerTargetText": "上帝曾经命令百姓敬拜祂而且告诉他们敬拜当中要他们做的事情上帝的百姓不可以效仿外邦人的敬拜在旧约时",
+            "notBefore": 85.5,
+            "verifiedSpokenOnset": false
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (6 trailing chars, coverage 0.650): target 3: 上帝曾经命令百姓敬拜祂，而且告诉他们，敬拜当中要他们做的事情。上帝的百姓不可以效仿外邦人的敬拜。",
+    "unverified end anchor: target 3: 上帝曾经命令百姓敬拜祂，而且告诉他们，敬拜当中要他们做的事情。上帝的百姓不可以效仿外邦人的敬拜。",
+    "incomplete start (8 leading chars, coverage 0.400): target 4: 申命记4:15-18 所以你们要分外谨慎，因为耶和华在何烈山从火中对你们说话的那日，你们没有看见",
+    "unverified start anchor: target 4: 申命记4:15-18 所以你们要分外谨慎，因为耶和华在何烈山从火中对你们说话的那日，你们没有看见",
+    "repair unverified end (previous-sync): target 3",
+    "repair unverified start (previous-sync): target 4",
+    "context reviewed end: target 3; 前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+    "unverified constrained start: target 4; 旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "077cbf98e8537cc1bd54b6dca655814839737689ced27c6dd966482fb86cf547",
+  "repairCueDigest": "6c36bfd5c46f6c3720a570f5b1c611d1f469ceef150d5c8542c2c64676f40062",
+  "previousAlignmentWarnings": []
 }

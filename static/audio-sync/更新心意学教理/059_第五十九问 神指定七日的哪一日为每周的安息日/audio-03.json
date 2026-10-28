@@ -8,20 +8,54 @@
   "audioDuration": 146.155125,
   "cues": [
     {
-      "start": 1.72,
-      "end": 2.92,
-      "kind": "heading",
-      "targetIndex": 5,
-      "targetText": "礼拜二",
-      "confidence": 0.8
-    },
-    {
       "start": 2.92,
       "end": 74.3,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "上帝向以色列人显明祂要求他们严肃对待安息日触犯安息日将要受到死的刑罚当以色列人去往上帝的应许地途",
-      "confidence": 0.816
+      "confidence": 0.89,
+      "quality": {
+        "coverage": 0.892,
+        "coherentCoverage": 0.861,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 2.92,
+        "previousEnd": 74.3,
+        "previousConfidence": 0.816
+      }
     },
     {
       "start": 74.3,
@@ -29,7 +63,212 @@
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "出埃及记162330摩西对他们说耶和华这样说明天是圣安息日是向耶和华守的圣安息日你们要烤的就烤了",
-      "confidence": 0.721
+      "confidence": 0.844,
+      "quality": {
+        "coverage": 0.873,
+        "coherentCoverage": 0.845,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.45,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 10,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 74.3,
+        "previousEnd": 144.8,
+        "previousConfidence": 0.721
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 74.3,
+            "time": 74.3,
+            "reason": "正文起句已定位，保留原先读出处范围",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\59-2.mp3.json",
+              "sha256": "d52293b1944a1e503346a791dfeb58517f32ab8c958a6b481cee19bbd9c301ac",
+              "anchor": {
+                "time": 75.54,
+                "score": 0.9273,
+                "ratio": 0.9286,
+                "expected": "moxiduitamenshuoyehehuazheyangshuomingtian",
+                "actual": "摩西对他们说耶稣华这样说明天",
+                "span": [
+                  75.54,
+                  79.42
+                ],
+                "tokens": [
+                  {
+                    "text": "摩",
+                    "start": 75.54,
+                    "end": 75.78,
+                    "rawStart": 238,
+                    "rawEnd": 238,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "西",
+                    "start": 75.78,
+                    "end": 75.9,
+                    "rawStart": 239,
+                    "rawEnd": 239,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "对",
+                    "start": 75.9,
+                    "end": 76.02,
+                    "rawStart": 240,
+                    "rawEnd": 240,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "他",
+                    "start": 76.02,
+                    "end": 76.24,
+                    "rawStart": 241,
+                    "rawEnd": 241,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 76.02,
+                    "end": 76.24,
+                    "rawStart": 242,
+                    "rawEnd": 242,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "说",
+                    "start": 76.24,
+                    "end": 76.62,
+                    "rawStart": 243,
+                    "rawEnd": 243,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "耶",
+                    "start": 77.44,
+                    "end": 77.62,
+                    "rawStart": 244,
+                    "rawEnd": 244,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "稣",
+                    "start": 77.62,
+                    "end": 77.8,
+                    "rawStart": 245,
+                    "rawEnd": 245,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "华",
+                    "start": 77.8,
+                    "end": 77.92,
+                    "rawStart": 246,
+                    "rawEnd": 246,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "这",
+                    "start": 77.92,
+                    "end": 78.14,
+                    "rawStart": 247,
+                    "rawEnd": 247,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "样",
+                    "start": 77.92,
+                    "end": 78.14,
+                    "rawStart": 248,
+                    "rawEnd": 248,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "说",
+                    "start": 78.14,
+                    "end": 78.48,
+                    "rawStart": 249,
+                    "rawEnd": 249,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "明",
+                    "start": 79.02,
+                    "end": 79.18,
+                    "rawStart": 250,
+                    "rawEnd": 250,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "天",
+                    "start": 79.18,
+                    "end": 79.42,
+                    "rawStart": 251,
+                    "rawEnd": 251,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "摩西对他们说:“耶和华这样说:‘明天是圣安息日,是向耶和华守的圣安息日,你们要烤的就烤了,要煮的就煮了,所剩下的都留到早晨。’”摩西说:“你们今天吃这个吧!因为今天是向耶和华守的安息日,你们在田野必找不着了。六天可以收取,第七天乃是安息日,那一天必没有了。”第七天百姓中有人出去收,什么也找不着。耶和华对摩西说:“你们不肯守我的诫命和律法要到几时呢?你们看!耶和华既将安息日赐给你们,所以第六天祂赐给你们两天的食物,第七天各人要住在自己的地方,不许什么人出去。”于是,百姓第七天安息了。",
+              "retainedCitationInterval": [
+                74.3,
+                75.54
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (10 leading chars, coverage 0.450): target 7: 出埃及记16:23-30 摩西对他们说：“耶和华这样说：‘明天是圣安息日，是向耶和华守的圣安息日",
+    "unverified start anchor: target 7: 出埃及记16:23-30 摩西对他们说：“耶和华这样说：‘明天是圣安息日，是向耶和华守的圣安息日",
+    "repair unverified start (previous-sync): target 7"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "de537475daa9fed76cd79cc4015926af15bd0c6281d7c644b0d91e5c7858ce47",
+  "repairCueDigest": "9cf06ad3255c3c4ba0ce128c765d22bf3804766dcafd532aefd1296231dcf783",
+  "previousAlignmentWarnings": []
 }

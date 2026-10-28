@@ -9,131 +9,1549 @@
   "cues": [
     {
       "start": 0.08,
-      "end": 31.12,
+      "end": 31.2,
       "kind": "paragraph",
       "targetIndex": 29,
       "targetText": "所以弟兄姊妹们上帝为甚么放一件二件东西在那里就是为要给我们看见我们不能我告诉你们说这是圣经里一个",
-      "confidence": 0.773
+      "confidence": 0.778,
+      "quality": {
+        "coverage": 0.644,
+        "coherentCoverage": 0.644,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 64,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "source": "targeted-medium-local-window",
+          "model": "medium",
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\victorious-life-targeted-windows.json",
+          "transcriptSha256": "27335c2304337f2f6980f44973273875a5a835e8426d4d1dc6eedfb56915ae5b",
+          "audioSha256": "87878ee152bc9f760f2783244b87436f0d57cc2bd2bca5c9118de495666292d0",
+          "window": [
+            0,
+            38
+          ],
+          "fullFileTranscribed": false,
+          "newDownloads": 0,
+          "listenedByAgent": false,
+          "timingPrecision": "word",
+          "localSupported": true,
+          "contextUsed": true,
+          "wordTokens": [
+            {
+              "start": 0.08,
+              "end": 0.62,
+              "text": "当",
+              "probability": 0.607
+            }
+          ],
+          "reason": "This clip starts midway through paragraph 29; its first phrase 当我们每一次说 occurs inside that paragraph and starts at the clip’s first spoken word, 0.08.",
+          "verified": true
+        },
+        "endEvidence": {
+          "source": "targeted-medium-local-window",
+          "model": "medium",
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\victorious-life-targeted-windows.json",
+          "transcriptSha256": "27335c2304337f2f6980f44973273875a5a835e8426d4d1dc6eedfb56915ae5b",
+          "audioSha256": "87878ee152bc9f760f2783244b87436f0d57cc2bd2bca5c9118de495666292d0",
+          "window": [
+            0,
+            38
+          ],
+          "fullFileTranscribed": false,
+          "newDownloads": 0,
+          "listenedByAgent": false,
+          "timingPrecision": "word",
+          "localSupported": true,
+          "contextUsed": true,
+          "wordTokens": [
+            {
+              "start": 30.44,
+              "end": 31.2,
+              "text": "悦",
+              "probability": 0.994
+            },
+            {
+              "start": 31.2,
+              "end": 31.5,
+              "text": "神",
+              "probability": 0.831
+            }
+          ],
+          "reason": "Paragraph 29 ends with 想讨神的喜悦; the local medium word 悦 ends at 31.20, before the next paragraph begins.",
+          "verified": true
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 0.08,
+        "previousEnd": 30.5,
+        "previousConfidence": 0.775
+      },
+      "boundaryCorrections": [
+        {
+          "book": "得胜的生命",
+          "page": "第四篇 如何经历得胜的生命.md",
+          "audio": "4-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\得胜的生命\\第四篇 如何经历得胜的生命\\audio-02.json",
+          "targetIndex": 29,
+          "edge": "start",
+          "previousTime": 0.08,
+          "time": 0.08,
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "kind": "local-window-boundary-confirmation",
+          "proof": {
+            "source": "targeted-medium-local-window",
+            "model": "medium",
+            "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\victorious-life-targeted-windows.json",
+            "transcriptSha256": "27335c2304337f2f6980f44973273875a5a835e8426d4d1dc6eedfb56915ae5b",
+            "audioSha256": "87878ee152bc9f760f2783244b87436f0d57cc2bd2bca5c9118de495666292d0",
+            "window": [
+              0,
+              38
+            ],
+            "fullFileTranscribed": false,
+            "newDownloads": 0,
+            "listenedByAgent": false,
+            "timingPrecision": "word",
+            "localSupported": true,
+            "contextUsed": true,
+            "wordTokens": [
+              {
+                "start": 0.08,
+                "end": 0.62,
+                "text": "当",
+                "probability": 0.607
+              }
+            ],
+            "reason": "This clip starts midway through paragraph 29; its first phrase 当我们每一次说 occurs inside that paragraph and starts at the clip’s first spoken word, 0.08."
+          },
+          "reason": "This clip starts midway through paragraph 29; its first phrase 当我们每一次说 occurs inside that paragraph and starts at the clip’s first spoken word, 0.08."
+        },
+        {
+          "book": "得胜的生命",
+          "page": "第四篇 如何经历得胜的生命.md",
+          "audio": "4-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\得胜的生命\\第四篇 如何经历得胜的生命\\audio-02.json",
+          "targetIndex": 29,
+          "edge": "end",
+          "previousTime": 30.5,
+          "time": 31.2,
+          "previousVerified": true,
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 1.0,
+            "localSimilarity": 1.0,
+            "localText": "没有良善所以你1直盼望你1直尽力量想讨上帝的喜悦",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "kind": "local-window-boundary-confirmation",
+          "proof": {
+            "source": "targeted-medium-local-window",
+            "model": "medium",
+            "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\victorious-life-targeted-windows.json",
+            "transcriptSha256": "27335c2304337f2f6980f44973273875a5a835e8426d4d1dc6eedfb56915ae5b",
+            "audioSha256": "87878ee152bc9f760f2783244b87436f0d57cc2bd2bca5c9118de495666292d0",
+            "window": [
+              0,
+              38
+            ],
+            "fullFileTranscribed": false,
+            "newDownloads": 0,
+            "listenedByAgent": false,
+            "timingPrecision": "word",
+            "localSupported": true,
+            "contextUsed": true,
+            "wordTokens": [
+              {
+                "start": 30.44,
+                "end": 31.2,
+                "text": "悦",
+                "probability": 0.994
+              },
+              {
+                "start": 31.2,
+                "end": 31.5,
+                "text": "神",
+                "probability": 0.831
+              }
+            ],
+            "reason": "Paragraph 29 ends with 想讨神的喜悦; the local medium word 悦 ends at 31.20, before the next paragraph begins."
+          },
+          "reason": "Paragraph 29 ends with 想讨神的喜悦; the local medium word 悦 ends at 31.20, before the next paragraph begins."
+        }
+      ]
     },
     {
-      "start": 31.12,
-      "end": 112.46,
+      "start": 31.2,
+      "end": 113.04,
       "kind": "paragraph",
       "targetIndex": 30,
       "targetText": "上帝知道我们的肉体没有用处我们却不知道我们的肉体没有用处所以上帝就把律法赐给我们上帝赐下律法来是",
-      "confidence": 0.858
+      "confidence": 0.931,
+      "quality": {
+        "coverage": 0.933,
+        "coherentCoverage": 0.918,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "source": "targeted-medium-local-window",
+          "model": "medium",
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\victorious-life-targeted-windows.json",
+          "transcriptSha256": "27335c2304337f2f6980f44973273875a5a835e8426d4d1dc6eedfb56915ae5b",
+          "audioSha256": "87878ee152bc9f760f2783244b87436f0d57cc2bd2bca5c9118de495666292d0",
+          "window": [
+            0,
+            38
+          ],
+          "fullFileTranscribed": false,
+          "newDownloads": 0,
+          "listenedByAgent": false,
+          "timingPrecision": "word",
+          "localSupported": true,
+          "contextUsed": true,
+          "wordTokens": [
+            {
+              "start": 30.44,
+              "end": 31.2,
+              "text": "悦",
+              "probability": 0.994
+            },
+            {
+              "start": 31.2,
+              "end": 31.5,
+              "text": "神",
+              "probability": 0.831
+            }
+          ],
+          "reason": "Paragraph 30 begins 上帝知道我们的肉体没有用处; local medium starts the matching 神知道 phrase at 31.20.",
+          "verified": true
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 31.12,
+        "previousEnd": 113.04,
+        "previousConfidence": 0.931
+      },
+      "boundaryCorrections": [
+        {
+          "book": "得胜的生命",
+          "page": "第四篇 如何经历得胜的生命.md",
+          "audio": "4-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\得胜的生命\\第四篇 如何经历得胜的生命\\audio-02.json",
+          "targetIndex": 30,
+          "edge": "start",
+          "previousTime": 31.12,
+          "time": 31.2,
+          "previousVerified": true,
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "kind": "local-window-boundary-confirmation",
+          "proof": {
+            "source": "targeted-medium-local-window",
+            "model": "medium",
+            "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\victorious-life-targeted-windows.json",
+            "transcriptSha256": "27335c2304337f2f6980f44973273875a5a835e8426d4d1dc6eedfb56915ae5b",
+            "audioSha256": "87878ee152bc9f760f2783244b87436f0d57cc2bd2bca5c9118de495666292d0",
+            "window": [
+              0,
+              38
+            ],
+            "fullFileTranscribed": false,
+            "newDownloads": 0,
+            "listenedByAgent": false,
+            "timingPrecision": "word",
+            "localSupported": true,
+            "contextUsed": true,
+            "wordTokens": [
+              {
+                "start": 30.44,
+                "end": 31.2,
+                "text": "悦",
+                "probability": 0.994
+              },
+              {
+                "start": 31.2,
+                "end": 31.5,
+                "text": "神",
+                "probability": 0.831
+              }
+            ],
+            "reason": "Paragraph 30 begins 上帝知道我们的肉体没有用处; local medium starts the matching 神知道 phrase at 31.20."
+          },
+          "reason": "Paragraph 30 begins 上帝知道我们的肉体没有用处; local medium starts the matching 神知道 phrase at 31.20."
+        }
+      ]
     },
     {
-      "start": 112.46,
-      "end": 144.88,
+      "start": 113.78,
+      "end": 144.36,
       "kind": "paragraph",
       "targetIndex": 31,
       "targetText": "罗马七章的宝贝就是在这里我们看见罗马七章的那一个人一直在那里挣扎为甚么缘故呢因为上帝对于他早就完",
-      "confidence": 0.951
+      "confidence": 0.97,
+      "quality": {
+        "coverage": 0.97,
+        "coherentCoverage": 0.97,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 113.78,
+        "previousEnd": 144.36,
+        "previousConfidence": 0.97
+      }
     },
     {
       "start": 144.88,
-      "end": 223.62,
+      "end": 222.64,
       "kind": "paragraph",
       "targetIndex": 32,
       "targetText": "我告诉你们说许多基督人不得胜是因为他失败不够多许多基督人犯罪犯得不够多所以他不得胜罪如果多犯一点",
-      "confidence": 0.978
-    },
-    {
-      "start": 223.62,
-      "end": 225.98,
-      "kind": "heading",
-      "targetIndex": 33,
-      "targetText": "六不能也不打算能",
-      "confidence": 0.933
+      "confidence": 0.978,
+      "quality": {
+        "coverage": 0.978,
+        "coherentCoverage": 0.978,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 144.88,
+        "previousEnd": 222.64,
+        "previousConfidence": 0.978
+      }
     },
     {
       "start": 225.98,
-      "end": 303.66,
+      "end": 303.0,
       "kind": "paragraph",
       "targetIndex": 34,
       "targetText": "我想在这里我们还要进一步再看一些许多弟兄姊妹知道自己是不能的你知道你自己不能或者让我再问一句话到",
-      "confidence": 0.964
+      "confidence": 0.964,
+      "quality": {
+        "coverage": 0.962,
+        "coherentCoverage": 0.952,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 225.98,
+        "previousEnd": 303.0,
+        "previousConfidence": 0.964
+      }
     },
     {
       "start": 303.66,
-      "end": 345.84,
+      "end": 346.14,
       "kind": "paragraph",
       "targetIndex": 35,
       "targetText": "但是在这里不能是一件事不打算能又是一件事你听见过这一句话么不能又不打算能许多时候我们知道不能但是",
-      "confidence": 0.979
+      "confidence": 0.976,
+      "quality": {
+        "coverage": 0.976,
+        "coherentCoverage": 0.976,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 303.66,
+        "previousEnd": 346.14,
+        "previousConfidence": 0.976
+      }
     },
     {
-      "start": 345.84,
-      "end": 411.0,
+      "start": 347.2,
+      "end": 410.26,
       "kind": "paragraph",
       "targetIndex": 36,
       "targetText": "比方这里有一个担子有三百斤重你自己只会挑二百斤你知道你不能挑三百斤但是许多人明明知道担子太重不能",
-      "confidence": 0.969
+      "confidence": 0.975,
+      "quality": {
+        "coverage": 0.973,
+        "coherentCoverage": 0.973,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 347.2,
+        "previousEnd": 410.26,
+        "previousConfidence": 0.975
+      }
     },
     {
       "start": 411.0,
-      "end": 481.12,
+      "end": 480.46,
       "kind": "paragraph",
       "targetIndex": 37,
       "targetText": "但是我们还打算能甚么叫作还打算能我想可以拿脾气作为比方比方你有一个很急的脾气你没有办法管住自己的",
-      "confidence": 0.913
+      "confidence": 0.913,
+      "quality": {
+        "coverage": 0.913,
+        "coherentCoverage": 0.862,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 411.0,
+        "previousEnd": 480.46,
+        "previousConfidence": 0.913
+      }
     },
     {
       "start": 481.12,
-      "end": 582.78,
+      "end": 582.06,
       "kind": "paragraph",
       "targetIndex": 38,
       "targetText": "弟兄姊妹们请你们记得得胜的条件就是不能但是得胜最大的难处就是我们打算能得胜是基督给我们得胜是基督",
-      "confidence": 0.956
+      "confidence": 0.961,
+      "quality": {
+        "coverage": 0.959,
+        "coherentCoverage": 0.944,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": false,
+          "substitutionAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 481.12,
+        "previousEnd": 582.06,
+        "previousConfidence": 0.961
+      }
     },
     {
       "start": 582.78,
-      "end": 666.88,
+      "end": 666.14,
       "kind": "paragraph",
       "targetIndex": 39,
       "targetText": "我们人作事常常有重迭的可能我家里有一个用人他要辞工回去了我就再去请一个新的用人我对那一个老的用人",
-      "confidence": 0.943
+      "confidence": 0.946,
+      "quality": {
+        "coverage": 0.946,
+        "coherentCoverage": 0.931,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\得胜的生命\\4-2.mp3.json",
+          "transcriptSha256": "e4c3ea3cb67f6e5135c7d7e1d0ed19b21e4c20d56663dd30c536cf08af14b5a1",
+          "verified": true,
+          "time": 582.78,
+          "expectedPhrase": "我们人作事常常有重迭的可能。我家里有一个用人，他要辞 工回去了，我就再去请一个新",
+          "actualPhrase": "我们人做事常常有重叠的可",
+          "edgeAnchor": "我们人作事常常有重迭的可",
+          "evidence": {
+            "verified": false,
+            "coverage": 0.833,
+            "continuousAnchor": false,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 0.917,
+            "localSimilarity": 0.917,
+            "localText": "我们人作事常常有重迭的可能我家里有1个用人他要辞",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false
+          },
+          "window": [
+            570.78,
+            594.78
+          ],
+          "segments": [
+            {
+              "start": 570.68,
+              "end": 572.74,
+              "text": "战,一战就败了。",
+              "words": [
+                {
+                  "start": 570.68,
+                  "end": 571.0,
+                  "text": "战,",
+                  "probability": 0.9104582369327545
+                },
+                {
+                  "start": 571.42,
+                  "end": 571.58,
+                  "text": "一",
+                  "probability": 0.9894341826438904
+                },
+                {
+                  "start": 571.58,
+                  "end": 571.9,
+                  "text": "战",
+                  "probability": 0.9951963424682617
+                },
+                {
+                  "start": 571.9,
+                  "end": 572.24,
+                  "text": "就",
+                  "probability": 0.9915086030960083
+                },
+                {
+                  "start": 572.24,
+                  "end": 572.52,
+                  "text": "败",
+                  "probability": 0.9550239145755768
+                },
+                {
+                  "start": 572.52,
+                  "end": 572.74,
+                  "text": "了。",
+                  "probability": 0.9951515197753906
+                }
+              ]
+            },
+            {
+              "start": 572.74,
+              "end": 577.42,
+              "text": "你盼望你能,你就是想,如果我能的话就好了。",
+              "words": [
+                {
+                  "start": 572.74,
+                  "end": 573.32,
+                  "text": "你",
+                  "probability": 0.3096517026424408
+                },
+                {
+                  "start": 573.32,
+                  "end": 573.56,
+                  "text": "盼",
+                  "probability": 0.6341419965028763
+                },
+                {
+                  "start": 573.56,
+                  "end": 573.76,
+                  "text": "望",
+                  "probability": 0.9920807480812073
+                },
+                {
+                  "start": 573.76,
+                  "end": 573.96,
+                  "text": "你",
+                  "probability": 0.9652820825576782
+                },
+                {
+                  "start": 573.96,
+                  "end": 574.24,
+                  "text": "能,",
+                  "probability": 0.882479190826416
+                },
+                {
+                  "start": 574.56,
+                  "end": 574.76,
+                  "text": "你",
+                  "probability": 0.8152679800987244
+                },
+                {
+                  "start": 574.76,
+                  "end": 575.08,
+                  "text": "就是",
+                  "probability": 0.9830880761146545
+                },
+                {
+                  "start": 575.08,
+                  "end": 575.38,
+                  "text": "想,",
+                  "probability": 0.9946922659873962
+                },
+                {
+                  "start": 575.52,
+                  "end": 575.72,
+                  "text": "如果",
+                  "probability": 0.9708113670349121
+                },
+                {
+                  "start": 575.72,
+                  "end": 576.14,
+                  "text": "我",
+                  "probability": 0.943874180316925
+                },
+                {
+                  "start": 576.14,
+                  "end": 576.34,
+                  "text": "能",
+                  "probability": 0.9977462887763977
+                },
+                {
+                  "start": 576.34,
+                  "end": 576.74,
+                  "text": "的话",
+                  "probability": 0.6837707161903381
+                },
+                {
+                  "start": 576.74,
+                  "end": 577.06,
+                  "text": "就",
+                  "probability": 0.7699651122093201
+                },
+                {
+                  "start": 577.06,
+                  "end": 577.42,
+                  "text": "好了。",
+                  "probability": 0.9685728549957275
+                }
+              ]
+            },
+            {
+              "start": 577.78,
+              "end": 582.06,
+              "text": "你在那里用力气的时候,基督就不能在那里面活。",
+              "words": [
+                {
+                  "start": 577.78,
+                  "end": 578.12,
+                  "text": "你在",
+                  "probability": 0.8622608184814453
+                },
+                {
+                  "start": 578.12,
+                  "end": 578.42,
+                  "text": "那",
+                  "probability": 0.9880015254020691
+                },
+                {
+                  "start": 578.42,
+                  "end": 578.56,
+                  "text": "里",
+                  "probability": 0.8795205950737
+                },
+                {
+                  "start": 578.56,
+                  "end": 578.72,
+                  "text": "用",
+                  "probability": 0.9669018983840942
+                },
+                {
+                  "start": 578.72,
+                  "end": 578.92,
+                  "text": "力",
+                  "probability": 0.766886293888092
+                },
+                {
+                  "start": 578.92,
+                  "end": 579.12,
+                  "text": "气",
+                  "probability": 0.9970996379852295
+                },
+                {
+                  "start": 579.12,
+                  "end": 579.58,
+                  "text": "的时候,",
+                  "probability": 0.9933862090110779
+                },
+                {
+                  "start": 580.06,
+                  "end": 580.2,
+                  "text": "基",
+                  "probability": 0.5671327114105225
+                },
+                {
+                  "start": 580.2,
+                  "end": 580.42,
+                  "text": "督",
+                  "probability": 0.9988107681274414
+                },
+                {
+                  "start": 580.42,
+                  "end": 580.72,
+                  "text": "就",
+                  "probability": 0.9823392033576965
+                },
+                {
+                  "start": 580.72,
+                  "end": 581.02,
+                  "text": "不能",
+                  "probability": 0.9900021553039551
+                },
+                {
+                  "start": 581.02,
+                  "end": 581.28,
+                  "text": "在",
+                  "probability": 0.993630588054657
+                },
+                {
+                  "start": 581.28,
+                  "end": 581.4,
+                  "text": "那",
+                  "probability": 0.6224318146705627
+                },
+                {
+                  "start": 581.4,
+                  "end": 581.6,
+                  "text": "里",
+                  "probability": 0.9980568289756775
+                },
+                {
+                  "start": 581.6,
+                  "end": 581.82,
+                  "text": "面",
+                  "probability": 0.957278311252594
+                },
+                {
+                  "start": 581.82,
+                  "end": 582.06,
+                  "text": "活。",
+                  "probability": 0.9627106189727783
+                }
+              ]
+            },
+            {
+              "start": 582.78,
+              "end": 585.56,
+              "text": "我们人做事常常有重叠的可能。",
+              "words": [
+                {
+                  "start": 582.78,
+                  "end": 583.1,
+                  "text": "我们",
+                  "probability": 0.9077147841453552
+                },
+                {
+                  "start": 583.1,
+                  "end": 583.44,
+                  "text": "人",
+                  "probability": 0.9871267676353455
+                },
+                {
+                  "start": 583.44,
+                  "end": 583.66,
+                  "text": "做",
+                  "probability": 0.46843862533569336
+                },
+                {
+                  "start": 583.66,
+                  "end": 583.86,
+                  "text": "事",
+                  "probability": 0.9896858334541321
+                },
+                {
+                  "start": 583.86,
+                  "end": 584.14,
+                  "text": "常",
+                  "probability": 0.7551790475845337
+                },
+                {
+                  "start": 584.14,
+                  "end": 584.34,
+                  "text": "常",
+                  "probability": 0.9691110849380493
+                },
+                {
+                  "start": 584.34,
+                  "end": 584.5,
+                  "text": "有",
+                  "probability": 0.9954336285591125
+                },
+                {
+                  "start": 584.5,
+                  "end": 584.78,
+                  "text": "重",
+                  "probability": 0.7761094570159912
+                },
+                {
+                  "start": 584.78,
+                  "end": 585.0,
+                  "text": "叠",
+                  "probability": 0.9263461530208588
+                },
+                {
+                  "start": 585.0,
+                  "end": 585.14,
+                  "text": "的",
+                  "probability": 0.9938107132911682
+                },
+                {
+                  "start": 585.14,
+                  "end": 585.56,
+                  "text": "可能。",
+                  "probability": 0.9981749057769775
+                }
+              ]
+            },
+            {
+              "start": 586.0,
+              "end": 591.56,
+              "text": "我家里有一个用人,他要辞工回去了,我就再去请一个新的用人。",
+              "words": [
+                {
+                  "start": 586.0,
+                  "end": 586.2,
+                  "text": "我",
+                  "probability": 0.9842633605003357
+                },
+                {
+                  "start": 586.2,
+                  "end": 586.4,
+                  "text": "家",
+                  "probability": 0.9960284233093262
+                },
+                {
+                  "start": 586.4,
+                  "end": 586.56,
+                  "text": "里",
+                  "probability": 0.9971675276756287
+                },
+                {
+                  "start": 586.56,
+                  "end": 586.68,
+                  "text": "有",
+                  "probability": 0.9936361312866211
+                },
+                {
+                  "start": 586.68,
+                  "end": 586.9,
+                  "text": "一个",
+                  "probability": 0.9886038303375244
+                },
+                {
+                  "start": 586.9,
+                  "end": 587.14,
+                  "text": "用",
+                  "probability": 0.929663360118866
+                },
+                {
+                  "start": 587.14,
+                  "end": 587.34,
+                  "text": "人,",
+                  "probability": 0.997136116027832
+                },
+                {
+                  "start": 587.7,
+                  "end": 587.86,
+                  "text": "他",
+                  "probability": 0.9497014880180359
+                },
+                {
+                  "start": 587.86,
+                  "end": 588.02,
+                  "text": "要",
+                  "probability": 0.9943615198135376
+                },
+                {
+                  "start": 588.02,
+                  "end": 588.3,
+                  "text": "辞",
+                  "probability": 0.9580345749855042
+                },
+                {
+                  "start": 588.3,
+                  "end": 588.48,
+                  "text": "工",
+                  "probability": 0.8614270687103271
+                },
+                {
+                  "start": 588.48,
+                  "end": 588.74,
+                  "text": "回",
+                  "probability": 0.9563180804252625
+                },
+                {
+                  "start": 588.74,
+                  "end": 589.1,
+                  "text": "去了,",
+                  "probability": 0.9988353848457336
+                },
+                {
+                  "start": 589.52,
+                  "end": 589.76,
+                  "text": "我就",
+                  "probability": 0.9757694602012634
+                },
+                {
+                  "start": 589.76,
+                  "end": 590.02,
+                  "text": "再",
+                  "probability": 0.9890163540840149
+                },
+                {
+                  "start": 590.02,
+                  "end": 590.22,
+                  "text": "去",
+                  "probability": 0.9885665774345398
+                },
+                {
+                  "start": 590.22,
+                  "end": 590.44,
+                  "text": "请",
+                  "probability": 0.9930103421211243
+                },
+                {
+                  "start": 590.44,
+                  "end": 590.7,
+                  "text": "一个",
+                  "probability": 0.9816886186599731
+                },
+                {
+                  "start": 590.7,
+                  "end": 591.02,
+                  "text": "新",
+                  "probability": 0.9942295551300049
+                },
+                {
+                  "start": 591.02,
+                  "end": 591.2,
+                  "text": "的",
+                  "probability": 0.99752277135849
+                },
+                {
+                  "start": 591.2,
+                  "end": 591.38,
+                  "text": "用",
+                  "probability": 0.9934430122375488
+                },
+                {
+                  "start": 591.38,
+                  "end": 591.56,
+                  "text": "人。",
+                  "probability": 0.9998948574066162
+                }
+              ]
+            },
+            {
+              "start": 592.04,
+              "end": 594.92,
+              "text": "我对那一个老的用人说,你再住",
+              "words": [
+                {
+                  "start": 592.04,
+                  "end": 592.24,
+                  "text": "我",
+                  "probability": 0.9895490407943726
+                },
+                {
+                  "start": 592.24,
+                  "end": 592.38,
+                  "text": "对",
+                  "probability": 0.996161699295044
+                },
+                {
+                  "start": 592.38,
+                  "end": 592.54,
+                  "text": "那",
+                  "probability": 0.9471012353897095
+                },
+                {
+                  "start": 592.54,
+                  "end": 592.76,
+                  "text": "一个",
+                  "probability": 0.9800826907157898
+                },
+                {
+                  "start": 592.76,
+                  "end": 592.96,
+                  "text": "老",
+                  "probability": 0.9957088232040405
+                },
+                {
+                  "start": 592.96,
+                  "end": 593.1,
+                  "text": "的",
+                  "probability": 0.9960938096046448
+                },
+                {
+                  "start": 593.1,
+                  "end": 593.3,
+                  "text": "用",
+                  "probability": 0.9834384322166443
+                },
+                {
+                  "start": 593.3,
+                  "end": 593.44,
+                  "text": "人",
+                  "probability": 0.9998239874839783
+                },
+                {
+                  "start": 593.44,
+                  "end": 593.74,
+                  "text": "说,",
+                  "probability": 0.9893231987953186
+                },
+                {
+                  "start": 594.22,
+                  "end": 594.38,
+                  "text": "你",
+                  "probability": 0.6380443572998047
+                },
+                {
+                  "start": 594.38,
+                  "end": 594.66,
+                  "text": "再",
+                  "probability": 0.9384033679962158
+                },
+                {
+                  "start": 594.66,
+                  "end": 594.92,
+                  "text": "住",
+                  "probability": 0.95235675573349
+                }
+              ]
+            }
+          ],
+          "source": "bounded-internal-differences-true-edge-words",
+          "listenedByAgent": false,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "actualEndpointLiteralChars": 3,
+          "maxInternalDifferences": 2,
+          "reason": "实际首/尾至少3字贴边相同，12字局部短句最多2处内部识别差异；其余局部覆盖、唯一性、完整词边界及相邻时间均核验，中间正文不逐字检查。",
+          "audioSha256": "87878ee152bc9f760f2783244b87436f0d57cc2bd2bca5c9118de495666292d0"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 582.78,
+        "previousEnd": 666.14,
+        "previousConfidence": 0.952
+      },
+      "boundaryCorrections": [
+        {
+          "book": "得胜的生命",
+          "page": "第四篇 如何经历得胜的生命.md",
+          "audio": "4-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\得胜的生命\\第四篇 如何经历得胜的生命\\audio-02.json",
+          "targetIndex": 39,
+          "edge": "start",
+          "previousTime": 582.78,
+          "time": 582.78,
+          "kind": "bounded-internal-differences-local-edge",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "实际首/尾至少3字贴边相同，12字局部短句最多2处内部识别差异；其余局部覆盖、唯一性、完整词边界及相邻时间均核验，中间正文不逐字检查。"
+        }
+      ]
     },
     {
       "start": 666.88,
-      "end": 717.38,
+      "end": 716.82,
       "kind": "paragraph",
       "targetIndex": 40,
       "targetText": "虽然是这样还不够许多人看见他不能就在那里流泪你哭起来了自然流泪哭是顶好的许多时候我们常常要掉了眼",
-      "confidence": 0.817
+      "confidence": 0.942,
+      "quality": {
+        "coverage": 0.942,
+        "coherentCoverage": 0.932,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 666.88,
+        "previousEnd": 716.82,
+        "previousConfidence": 0.942
+      }
     },
     {
       "start": 717.38,
-      "end": 801.48,
+      "end": 800.88,
       "kind": "paragraph",
       "targetIndex": 41,
       "targetText": "我常常想路加十八章和十九章连在一起是顶有意思的你知道十九章是甚么事情十九章是撒该的故事撒该是甚么",
-      "confidence": 0.948
+      "confidence": 0.951,
+      "quality": {
+        "coverage": 0.946,
+        "coherentCoverage": 0.936,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 717.38,
+        "previousEnd": 800.88,
+        "previousConfidence": 0.951
+      }
     },
     {
       "start": 801.48,
-      "end": 835.52,
+      "end": 833.82,
       "kind": "paragraph",
       "targetIndex": 42,
       "targetText": "今天许多基督人看见自己有一个坏的脾气看见自己有污秽的思想看见自己有身体上的罪有灵性上的罪他怎么作",
-      "confidence": 0.956
+      "confidence": 0.956,
+      "quality": {
+        "coverage": 0.956,
+        "coherentCoverage": 0.949,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 801.48,
+        "previousEnd": 833.82,
+        "previousConfidence": 0.956
+      }
     },
     {
-      "start": 835.52,
-      "end": 836.64,
-      "kind": "heading",
-      "targetIndex": 43,
-      "targetText": "七夸自己的软弱",
-      "confidence": 0.667
-    },
-    {
-      "start": 836.64,
+      "start": 837.44,
       "end": 888.08,
       "kind": "paragraph",
       "targetIndex": 44,
       "targetText": "林后十二章九节说祂对我说我的恩典够你用的因为我的能力是在人的软弱上显得完全所以我更喜欢夸自己的软",
-      "confidence": 0.658
+      "confidence": 0.968,
+      "quality": {
+        "coverage": 0.965,
+        "coherentCoverage": 0.965,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 837.44,
+        "previousEnd": 888.08,
+        "previousConfidence": 0.968
+      }
     },
     {
       "start": 888.08,
@@ -141,111 +1559,694 @@
       "kind": "paragraph",
       "targetIndex": 45,
       "targetText": "你有没有感谢上帝赞美上帝因为在你里面有污秽因为在你里面充满了罪恶我告诉你说如果你有这些难处你要感",
-      "confidence": 0.929
+      "confidence": 0.959,
+      "quality": {
+        "coverage": 0.959,
+        "coherentCoverage": 0.959,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 888.08,
+        "previousEnd": 914.52,
+        "previousConfidence": 0.959
+      }
     },
     {
       "start": 914.52,
-      "end": 952.62,
+      "end": 953.22,
       "kind": "paragraph",
       "targetIndex": 46,
       "targetText": "为甚么保罗说我更喜欢夸自己的软弱你知道夸字在原文就是荣耀保罗说我把这软弱当作我的荣耀这是为甚么缘",
-      "confidence": 0.917
+      "confidence": 0.921,
+      "quality": {
+        "coverage": 0.921,
+        "coherentCoverage": 0.908,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 914.52,
+        "previousEnd": 953.22,
+        "previousConfidence": 0.921
+      }
     },
     {
-      "start": 952.62,
-      "end": 1028.86,
+      "start": 954.16,
+      "end": 1030.0,
       "kind": "paragraph",
       "targetIndex": 47,
       "targetText": "弟兄姊妹们你有没有甚么罪是你所不能承认的你有没有甚么事情要奉献给上帝但是奉献不来或者你有没有甚么",
-      "confidence": 0.938
+      "confidence": 0.969,
+      "quality": {
+        "coverage": 0.971,
+        "coherentCoverage": 0.971,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 954.16,
+        "previousEnd": 1030.0,
+        "previousConfidence": 0.969
+      }
     },
     {
-      "start": 1028.86,
-      "end": 1118.74,
+      "start": 1030.7,
+      "end": 1117.3,
       "kind": "paragraph",
       "targetIndex": 48,
       "targetText": "看见自己无依无靠是顶荣耀的一件事主的目的是要那一个少年人看见自己的无依无靠但是那一个少年人回家去",
-      "confidence": 0.933
+      "confidence": 0.979,
+      "quality": {
+        "coverage": 0.979,
+        "coherentCoverage": 0.979,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1030.7,
+        "previousEnd": 1117.3,
+        "previousConfidence": 0.979
+      }
     },
     {
-      "start": 1118.74,
-      "end": 1120.14,
-      "kind": "heading",
-      "targetIndex": 49,
-      "targetText": "八主耶稣只医绝症",
-      "confidence": 0.667
-    },
-    {
-      "start": 1120.14,
-      "end": 1334.9,
+      "start": 1121.52,
+      "end": 1334.18,
       "kind": "paragraph",
       "targetIndex": 50,
       "targetText": "这一次在烟台有一个弟兄过得胜的关这一个弟兄是从东三省来的他在军队里过了十多年的生活他是一个大夫当",
-      "confidence": 0.888
+      "confidence": 0.949,
+      "quality": {
+        "coverage": 0.95,
+        "coherentCoverage": 0.938,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1121.52,
+        "previousEnd": 1334.18,
+        "previousConfidence": 0.949
+      }
     },
     {
       "start": 1334.9,
-      "end": 1480.64,
+      "end": 1479.26,
       "kind": "paragraph",
       "targetIndex": 51,
       "targetText": "我就对他说这是一件可快乐的事情为着这一件事情你该感谢赞美上帝他说你不知道别人戒烟戒得掉我戒不掉你",
-      "confidence": 0.965
+      "confidence": 0.972,
+      "quality": {
+        "coverage": 0.974,
+        "coherentCoverage": 0.974,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1334.9,
+        "previousEnd": 1479.26,
+        "previousConfidence": 0.972
+      }
     },
     {
       "start": 1480.64,
-      "end": 1553.44,
+      "end": 1552.94,
       "kind": "paragraph",
       "targetIndex": 52,
       "targetText": "后来我就把林后十二章九节打开来给他看念给他听我问他说那对于你的软弱应该怎样流泪么不必流泪怎么办我",
-      "confidence": 0.891
+      "confidence": 0.98,
+      "quality": {
+        "coverage": 0.98,
+        "coherentCoverage": 0.98,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1480.64,
+        "previousEnd": 1552.94,
+        "previousConfidence": 0.98
+      }
     },
     {
       "start": 1553.44,
-      "end": 1617.54,
+      "end": 1616.76,
       "kind": "paragraph",
       "targetIndex": 53,
       "targetText": "他就说好我祷告他真是像一个军人一样顶快的跪在那里了我就先祷告我祷告说主我感谢你因为今天有机会在一",
-      "confidence": 0.87
+      "confidence": 0.934,
+      "quality": {
+        "coverage": 0.932,
+        "coherentCoverage": 0.917,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1553.44,
+        "previousEnd": 1616.76,
+        "previousConfidence": 0.934
+      }
     },
     {
       "start": 1617.54,
-      "end": 1681.74,
+      "end": 1680.86,
       "kind": "paragraph",
       "targetIndex": 54,
       "targetText": "到了第二天晚上他又来聚会他对我见证他告诉他的师母说一年多来你一直和我吵一直说我吃烟不对但是我怎么",
-      "confidence": 0.952
-    },
-    {
-      "start": 1681.74,
-      "end": 1683.7,
-      "kind": "heading",
-      "targetIndex": 55,
-      "targetText": "九我们不能上帝能",
-      "confidence": 0.933
+      "confidence": 0.953,
+      "quality": {
+        "coverage": 0.953,
+        "coherentCoverage": 0.941,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1617.54,
+        "previousEnd": 1680.86,
+        "previousConfidence": 0.953
+      }
     },
     {
       "start": 1683.7,
-      "end": 1747.22,
+      "end": 1746.56,
       "kind": "paragraph",
       "targetIndex": 56,
       "targetText": "我告诉你说上帝能所以你如果要看见你已经与基督同钉十字架第一件事就是要看见你自己不能第二件事就是要",
-      "confidence": 0.901
+      "confidence": 0.979,
+      "quality": {
+        "coverage": 0.973,
+        "coherentCoverage": 0.965,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1683.7,
+        "previousEnd": 1746.56,
+        "previousConfidence": 0.979
+      }
     },
     {
       "start": 1747.22,
-      "end": 1791.02,
+      "end": 1790.04,
       "kind": "paragraph",
       "targetIndex": 57,
       "targetText": "我告诉你说在过去的几个月之中多少时候撒但来对我说话他从来不放松他一直在那里说你得胜了么你看你还是",
-      "confidence": 0.981
+      "confidence": 0.988,
+      "quality": {
+        "coverage": 0.988,
+        "coherentCoverage": 0.988,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1747.22,
+        "previousEnd": 1790.04,
+        "previousConfidence": 0.988
+      }
     },
     {
-      "start": 1791.02,
+      "start": 1791.18,
       "end": 1831.54,
       "kind": "paragraph",
       "targetIndex": 58,
       "targetText": "哦弟兄姊妹们不能不是一个拦阻不能是一个帮助我们越不能基督越有机会显出祂的能力来祂专门把我们的不能",
-      "confidence": 0.717
+      "confidence": 0.947,
+      "quality": {
+        "coverage": 0.947,
+        "coherentCoverage": 0.934,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 1.0,
+          "localSimilarity": 1.0,
+          "localText": "哦弟兄姊妹们不能不是1个拦阻不能是1个帮助我们越",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1791.02,
+        "previousEnd": 1831.54,
+        "previousConfidence": 0.921
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (64 leading chars, coverage 0.000): target 29: 所以，弟兄姊妹们，神为甚么放一件、二件东西在那里？就是为要给我们看见，我们不能。我告诉你们说，这",
+    "unverified start anchor: target 39: 我们人作事常常有重迭的可能。我家里有一个用人，他要辞 工回去了，我就再去请一个新的用人。我对那一",
+    "unverified end anchor: target 46: 为甚么保罗说，我更喜欢夸自己的软弱？你知道『夸』字在原文就是荣耀。保罗说，我把这软弱当作我的荣耀",
+    "repair unverified start (previous-sync): target 29",
+    "repair unverified start (previous-sync): target 39",
+    "local phrase context confirmed start: target 39; original ASR differences and warnings retained"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "84c0100e30fd1116fcf5813661827ffa602bb4cb3916f3568b503553ae2b7cb2",
+  "repairCueDigest": "2ac7a5c5d1d02c8881ef1197c101a75e4105617e394105c2f8f4f288f075d34f",
+  "previousAlignmentWarnings": [
+    "incomplete start (64 leading chars, coverage 0.000): target 29: 所以，弟兄姊妹们，神为甚么放一件、二件东西在那里？就是为要给我们看见，我们不能。我告诉你们说，这",
+    "unverified start anchor: target 29: 所以，弟兄姊妹们，神为甚么放一件、二件东西在那里？就是为要给我们看见，我们不能。我告诉你们说，这",
+    "unverified start anchor: target 39: 我们人作事常常有重迭的可能。我家里有一个用人，他要辞 工回去了，我就再去请一个新的用人。我对那一",
+    "unverified end anchor: target 46: 为甚么保罗说，我更喜欢夸自己的软弱？你知道『夸』字在原文就是荣耀。保罗说，我把这软弱当作我的荣耀",
+    "repair unverified start (previous-sync): target 29",
+    "repair unverified start (previous-sync): target 39",
+    "local phrase context confirmed start: target 39; original ASR differences and warnings retained"
+  ],
+  "currentSiteConfirmation": {
+    "model": "medium",
+    "audioSha256": "87878ee152bc9f760f2783244b87436f0d57cc2bd2bca5c9118de495666292d0",
+    "audioDuration": 1836.355875,
+    "windows": [
+      [
+        0.0,
+        9.7
+      ],
+      [
+        572.74,
+        591.56
+      ],
+      [
+        1772.46,
+        1801.08
+      ]
+    ]
+  }
 }

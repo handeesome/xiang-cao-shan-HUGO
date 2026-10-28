@@ -8,28 +8,624 @@
   "audioDuration": 96.0010625,
   "cues": [
     {
-      "start": 1.69,
-      "end": 3.29,
-      "kind": "heading",
-      "targetIndex": 7,
-      "targetText": "礼拜二",
-      "confidence": 0.8
-    },
-    {
       "start": 3.29,
-      "end": 63.91,
+      "end": 67.93,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "要吃饭了母亲站在门口大声叫正在院子里玩耍的孩子们吃饭啦孩子们可能会听妈妈的话回家还有可能他们不听",
-      "confidence": 0.771
+      "confidence": 0.891,
+      "quality": {
+        "coverage": 0.863,
+        "coherentCoverage": 0.841,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.35,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 6,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 3.29,
+        "previousEnd": 63.91,
+        "previousConfidence": 0.771
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 63.91,
+            "time": 67.93,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\31-2.mp3.json",
+              "sha256": "9ddf4c3ca34285ceb6252ce7707fd8b0a14a5c6db8d72b3e956411938d93e686",
+              "anchor": {
+                "time": 67.93,
+                "score": 0.778,
+                "ratio": 0.8,
+                "expected": "saluonijiahoushuerzhang13dao14jie",
+                "actual": "家后说2章13到14节",
+                "span": [
+                  65.03,
+                  67.93
+                ],
+                "tokens": [
+                  {
+                    "text": "家",
+                    "start": 65.03,
+                    "end": 65.15,
+                    "rawStart": 178,
+                    "rawEnd": 178,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "后",
+                    "start": 65.15,
+                    "end": 65.37,
+                    "rawStart": 179,
+                    "rawEnd": 179,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "说",
+                    "start": 65.37,
+                    "end": 65.63,
+                    "rawStart": 180,
+                    "rawEnd": 180,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "2",
+                    "start": 65.63,
+                    "end": 66.07,
+                    "rawStart": 181,
+                    "rawEnd": 181,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "章",
+                    "start": 66.07,
+                    "end": 66.37,
+                    "rawStart": 182,
+                    "rawEnd": 182,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 66.37,
+                    "end": 67.07,
+                    "rawStart": 183,
+                    "rawEnd": 183,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "3",
+                    "start": 66.37,
+                    "end": 67.07,
+                    "rawStart": 184,
+                    "rawEnd": 184,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "到",
+                    "start": 67.07,
+                    "end": 67.23,
+                    "rawStart": 185,
+                    "rawEnd": 185,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 67.23,
+                    "end": 67.67,
+                    "rawStart": 186,
+                    "rawEnd": 186,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "4",
+                    "start": 67.23,
+                    "end": 67.67,
+                    "rawStart": 187,
+                    "rawEnd": 187,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "节",
+                    "start": 67.67,
+                    "end": 67.93,
+                    "rawStart": 188,
+                    "rawEnd": 188,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "要吃饭了,母亲站在门口,大声叫正在院子里玩耍的孩子们:“吃饭啦!”孩子们可能会听妈妈的话回家,还有可能他们不听。这是一种召唤。但这不是“有效的呼召”。“有效”的意思是带来结果,促使事情发生。有效的呼召,就是能让被召的人有所回应的呼召。在有效的呼召中,上帝呼召人来信福音中所赐下的耶稣基督。同时,上帝会实际地促使那个人做上帝呼召他做的事。圣灵有效地呼召上帝的选民,叫他们以信心回应福音。请读帖撒罗尼迦后书2:13-14。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.863,
+          "coherentCoverage": 0.841,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.95,
+          "suffixCoverage": 0.35,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 6,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 63.91,
+      "start": 69.31,
       "end": 94.87,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "帖撒罗尼迦后书21314主所爱的弟兄们哪我们本该常为你们感谢上帝因为祂从起初拣选了你们叫你们因信",
-      "confidence": 0.753
+      "confidence": 0.753,
+      "quality": {
+        "coverage": 0.766,
+        "coherentCoverage": 0.734,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.4,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 12,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\31-2.mp3.json",
+          "transcriptSha256": "9ef56b8eb210d923df4ac1ea2cd52a096ac2657239902e7925dc588c3ee3698c",
+          "candidate": 94.87,
+          "expectedPhrase": "主耶稣基督的荣光",
+          "actualPhrase": "主耶稣季度的荣光",
+          "phoneticPhrase": [
+            "zhu",
+            "ye",
+            "su",
+            "ji",
+            "du",
+            "de",
+            "rong",
+            "guang"
+          ],
+          "verified": true,
+          "time": 94.87,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "exact-local-syllables-original-word-times",
+          "phoneticExact": true,
+          "literalEqual": false,
+          "wordTokens": [
+            {
+              "text": "主",
+              "start": 92.93,
+              "end": 93.27,
+              "rawStart": 263,
+              "rawEnd": 263,
+              "precision": "word"
+            },
+            {
+              "text": "耶",
+              "start": 93.27,
+              "end": 93.59,
+              "rawStart": 264,
+              "rawEnd": 264,
+              "precision": "word"
+            },
+            {
+              "text": "稣",
+              "start": 93.59,
+              "end": 93.83,
+              "rawStart": 265,
+              "rawEnd": 265,
+              "precision": "word"
+            },
+            {
+              "text": "季",
+              "start": 93.83,
+              "end": 94.05,
+              "rawStart": 266,
+              "rawEnd": 266,
+              "precision": "word"
+            },
+            {
+              "text": "度",
+              "start": 94.05,
+              "end": 94.19,
+              "rawStart": 267,
+              "rawEnd": 267,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 94.19,
+              "end": 94.33,
+              "rawStart": 268,
+              "rawEnd": 268,
+              "precision": "word"
+            },
+            {
+              "text": "荣",
+              "start": 94.33,
+              "end": 94.55,
+              "rawStart": 269,
+              "rawEnd": 269,
+              "precision": "word"
+            },
+            {
+              "text": "光",
+              "start": 94.55,
+              "end": 94.87,
+              "rawStart": 270,
+              "rawEnd": 270,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "audioSha256": "a7de58339a705ec5da87b4e32362dac7fd35b946018e4b3da6f6191178fefe74",
+          "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 63.91,
+        "previousEnd": 94.87,
+        "previousConfidence": 0.753
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "031_第三十一问 有效的恩召是什么.md",
+          "audio": "31-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\031_第三十一问 有效的恩召是什么\\audio-02.json",
+          "targetIndex": 9,
+          "edge": "end",
+          "previousTime": 94.87,
+          "time": 94.87,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 63.91,
+            "time": 69.31,
+            "reason": "前段提示末尾仍需修正，本段用经文实际起句定位",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\31-2.mp3.json",
+              "sha256": "9ddf4c3ca34285ceb6252ce7707fd8b0a14a5c6db8d72b3e956411938d93e686",
+              "anchor": {
+                "time": 69.31,
+                "score": 0.9232,
+                "ratio": 0.9286,
+                "expected": "zhusuoaidedixiongmennawomenbengaichangwei",
+                "actual": "主所爱的弟兄们哪我们本该藏为",
+                "span": [
+                  69.31,
+                  73.71
+                ],
+                "tokens": [
+                  {
+                    "text": "主",
+                    "start": 69.31,
+                    "end": 69.87,
+                    "rawStart": 189,
+                    "rawEnd": 189,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "所",
+                    "start": 69.87,
+                    "end": 70.15,
+                    "rawStart": 190,
+                    "rawEnd": 190,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "爱",
+                    "start": 70.15,
+                    "end": 70.35,
+                    "rawStart": 191,
+                    "rawEnd": 191,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 70.35,
+                    "end": 70.47,
+                    "rawStart": 192,
+                    "rawEnd": 192,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "弟",
+                    "start": 70.47,
+                    "end": 70.65,
+                    "rawStart": 193,
+                    "rawEnd": 193,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "兄",
+                    "start": 70.65,
+                    "end": 70.87,
+                    "rawStart": 194,
+                    "rawEnd": 194,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 70.87,
+                    "end": 71.07,
+                    "rawStart": 195,
+                    "rawEnd": 195,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "哪",
+                    "start": 71.07,
+                    "end": 71.35,
+                    "rawStart": 196,
+                    "rawEnd": 196,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 71.35,
+                    "end": 72.21,
+                    "rawStart": 197,
+                    "rawEnd": 197,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 71.35,
+                    "end": 72.21,
+                    "rawStart": 198,
+                    "rawEnd": 198,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "本",
+                    "start": 72.21,
+                    "end": 72.57,
+                    "rawStart": 199,
+                    "rawEnd": 199,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "该",
+                    "start": 72.57,
+                    "end": 72.99,
+                    "rawStart": 200,
+                    "rawEnd": 200,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "藏",
+                    "start": 72.99,
+                    "end": 73.41,
+                    "rawStart": 201,
+                    "rawEnd": 201,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "为",
+                    "start": 73.41,
+                    "end": 73.71,
+                    "rawStart": 202,
+                    "rawEnd": 202,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 67.23,
+                  "score": 0.8183,
+                  "actual": "14节主所爱的弟兄们哪我们本该"
+                }
+              },
+              "body": "主所爱的弟兄们哪,我们本该常为你们感谢神,因为祂从起初拣选了你们,叫你们因信真道,又被圣灵感动成为圣洁,能以得救。神藉我们所传的福音召你们到这地步,好得着我们主耶稣基督的荣光。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.766,
+          "coherentCoverage": 0.734,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.4,
+          "suffixCoverage": 0.8,
+          "unmatchedLeadingChars": 12,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\31-2.mp3.json",
+            "transcriptSha256": "9ef56b8eb210d923df4ac1ea2cd52a096ac2657239902e7925dc588c3ee3698c",
+            "candidate": 94.87,
+            "expectedPhrase": "主耶稣基督的荣光",
+            "actualPhrase": "主耶稣季度的荣光",
+            "phoneticPhrase": [
+              "zhu",
+              "ye",
+              "su",
+              "ji",
+              "du",
+              "de",
+              "rong",
+              "guang"
+            ],
+            "verified": true,
+            "time": 94.87,
+            "localSupported": true,
+            "timingPrecision": "word",
+            "source": "exact-local-syllables-original-word-times",
+            "phoneticExact": true,
+            "literalEqual": false,
+            "wordTokens": [
+              {
+                "text": "主",
+                "start": 92.93,
+                "end": 93.27,
+                "rawStart": 263,
+                "rawEnd": 263,
+                "precision": "word"
+              },
+              {
+                "text": "耶",
+                "start": 93.27,
+                "end": 93.59,
+                "rawStart": 264,
+                "rawEnd": 264,
+                "precision": "word"
+              },
+              {
+                "text": "稣",
+                "start": 93.59,
+                "end": 93.83,
+                "rawStart": 265,
+                "rawEnd": 265,
+                "precision": "word"
+              },
+              {
+                "text": "季",
+                "start": 93.83,
+                "end": 94.05,
+                "rawStart": 266,
+                "rawEnd": 266,
+                "precision": "word"
+              },
+              {
+                "text": "度",
+                "start": 94.05,
+                "end": 94.19,
+                "rawStart": 267,
+                "rawEnd": 267,
+                "precision": "word"
+              },
+              {
+                "text": "的",
+                "start": 94.19,
+                "end": 94.33,
+                "rawStart": 268,
+                "rawEnd": 268,
+                "precision": "word"
+              },
+              {
+                "text": "荣",
+                "start": 94.33,
+                "end": 94.55,
+                "rawStart": 269,
+                "rawEnd": 269,
+                "precision": "word"
+              },
+              {
+                "text": "光",
+                "start": 94.55,
+                "end": 94.87,
+                "rawStart": 270,
+                "rawEnd": 270,
+                "precision": "word"
+              }
+            ],
+            "listenedByAgent": false,
+            "audioSha256": "a7de58339a705ec5da87b4e32362dac7fd35b946018e4b3da6f6191178fefe74",
+            "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (6 trailing chars, coverage 0.350): target 8: 要吃饭了，母亲站在门口，大声叫正在院子里玩耍的孩子们：“吃饭啦！”孩子们可能会听妈妈的话回家，还",
+    "unverified end anchor: target 8: 要吃饭了，母亲站在门口，大声叫正在院子里玩耍的孩子们：“吃饭啦！”孩子们可能会听妈妈的话回家，还",
+    "incomplete start (12 leading chars, coverage 0.400): target 9: 帖撒罗尼迦后书2:13-14 主所爱的弟兄们哪，我们本该常为你们感谢神，因为祂从起初拣选了你们，",
+    "unverified start anchor: target 9: 帖撒罗尼迦后书2:13-14 主所爱的弟兄们哪，我们本该常为你们感谢神，因为祂从起初拣选了你们，",
+    "unverified end anchor: target 9: 帖撒罗尼迦后书2:13-14 主所爱的弟兄们哪，我们本该常为你们感谢神，因为祂从起初拣选了你们，",
+    "repair unverified end (previous-sync): target 8",
+    "repair unverified start (previous-sync): target 9",
+    "repair unverified end (previous-sync): target 9"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "21e5a4e1f1923dc2c82bc6ce3be3777844725c048fbd5df0deb9c0ae6f548d4c",
+  "repairCueDigest": "b0b32bf9417b18736a5981e79eb1b64b866d1f31f515724d9c84222d328ad7c7",
+  "previousAlignmentWarnings": []
 }

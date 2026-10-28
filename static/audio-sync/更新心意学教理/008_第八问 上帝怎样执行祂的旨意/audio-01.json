@@ -8,20 +8,146 @@
   "audioDuration": 26.448,
   "cues": [
     {
-      "start": 14.86,
-      "end": 15.06,
-      "kind": "heading",
-      "targetIndex": 8,
-      "targetText": "礼拜二",
-      "confidence": 0.5
+      "start": 6.72,
+      "end": 12.92,
+      "kind": "paragraph",
+      "targetIndex": 1,
+      "targetText": "答上帝以创造和护理之工来执行祂的旨意",
+      "confidence": 0.944,
+      "quality": {
+        "coverage": 0.944,
+        "coherentCoverage": 0.944,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.889,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 6.72,
+        "previousEnd": 12.92,
+        "previousConfidence": 0.944
+      }
     },
     {
-      "start": 15.06,
-      "end": 25.5,
+      "start": 13.74,
+      "end": 25.74,
       "kind": "paragraph",
       "targetIndex": 29,
       "targetText": "罗马书828我们晓得万事都互相效力叫爱上帝的人得益处就是按祂旨意被召的人",
-      "confidence": 0.627
+      "confidence": 0.921,
+      "quality": {
+        "coverage": 0.921,
+        "coherentCoverage": 0.868,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.947,
+        "suffixCoverage": 0.895,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 0.917,
+          "localSimilarity": 0.917,
+          "localText": "都互相效力叫爱上帝的人得益处就是按他旨意被召的人",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 13.74,
+        "previousEnd": 25.5,
+        "previousConfidence": 0.784
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "1188e655b85e7ea9bd095c22fab2cda5355a54b9f5bc54ad5d493f1ca17acceb",
+  "repairCueDigest": "0fe49db0daf9dcb67cbaf30eab72561175f7e6156746d7208ee787828b290fc2",
+  "previousAlignmentWarnings": [],
+  "currentSiteConfirmation": {
+    "model": "medium",
+    "audioSha256": "19101a8dfcd3f5d18160217efe365f9f73171d05dff63613fb8238575c7ae072",
+    "audioDuration": 26.448,
+    "windows": [
+      [
+        16.5,
+        26.448
+      ]
+    ]
+  }
 }

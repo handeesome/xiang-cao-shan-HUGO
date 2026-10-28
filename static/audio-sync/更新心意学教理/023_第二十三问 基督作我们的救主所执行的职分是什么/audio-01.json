@@ -8,28 +8,361 @@
   "audioDuration": 42.648,
   "cues": [
     {
-      "start": 22.0,
-      "end": 22.44,
-      "kind": "heading",
-      "targetIndex": 5,
-      "targetText": "礼拜二",
-      "confidence": 0.5
+      "start": 9.34,
+      "end": 20.46,
+      "kind": "paragraph",
+      "targetIndex": 1,
+      "targetText": "答基督作我们的救赎主在降卑与升高的境界中执行先知祭司君王的职分",
+      "confidence": 0.935,
+      "quality": {
+        "coverage": 0.935,
+        "coherentCoverage": 0.935,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.867,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 9.34,
+        "previousEnd": 20.46,
+        "previousConfidence": 0.935
+      }
     },
     {
-      "start": 22.44,
-      "end": 22.74,
-      "kind": "heading",
-      "targetIndex": 12,
-      "targetText": "礼拜四",
-      "confidence": 0.5
-    },
-    {
-      "start": 22.74,
+      "start": 21.04,
       "end": 41.4,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "希伯来书72427这位既是永远常存的祂祭司的职任就长久不更换凡靠着祂进到上帝面前的人祂都能拯救到",
-      "confidence": 0.454
+      "confidence": 0.58,
+      "quality": {
+        "coverage": 0.423,
+        "coherentCoverage": 0.387,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 77,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 0.833,
+          "localSimilarity": 0.833,
+          "localText": "希伯来书7章24到27节这位既是永远常存的他祭司",
+          "anchorOccurrences": 1,
+          "paragraphSupported": false,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 22.74,
+        "previousEnd": 41.4,
+        "previousConfidence": 0.537
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 41.4,
+            "time": 41.4,
+            "reason": "本段希伯来书引文只摘读前半，到替他们祈求结束，不为未读后文造时间。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\23-0.mp3.json",
+              "sha256": "d3b99c14139c545d8cd2f35c050a6c4794724164f62970e36f6e7ce286a006e0",
+              "source": "context-reviewed-paragraph-approximation",
+              "segments": [
+                {
+                  "start": 31.24,
+                  "end": 34.48,
+                  "text": "反靠着祂进到神面前的人",
+                  "words": [
+                    {
+                      "start": 31.24,
+                      "end": 32.06,
+                      "text": "反",
+                      "probability": 0.6772350668907166
+                    },
+                    {
+                      "start": 32.06,
+                      "end": 32.78,
+                      "text": "靠",
+                      "probability": 0.7592175900936127
+                    },
+                    {
+                      "start": 32.78,
+                      "end": 32.94,
+                      "text": "着",
+                      "probability": 0.9741447567939758
+                    },
+                    {
+                      "start": 32.94,
+                      "end": 33.12,
+                      "text": "祂",
+                      "probability": 0.8208602368831635
+                    },
+                    {
+                      "start": 33.12,
+                      "end": 33.28,
+                      "text": "进",
+                      "probability": 0.9243692755699158
+                    },
+                    {
+                      "start": 33.28,
+                      "end": 33.46,
+                      "text": "到",
+                      "probability": 0.9601971507072449
+                    },
+                    {
+                      "start": 33.46,
+                      "end": 33.64,
+                      "text": "神",
+                      "probability": 0.9582257270812988
+                    },
+                    {
+                      "start": 33.64,
+                      "end": 33.88,
+                      "text": "面",
+                      "probability": 0.9794918298721313
+                    },
+                    {
+                      "start": 33.88,
+                      "end": 34.12,
+                      "text": "前",
+                      "probability": 0.9994376301765442
+                    },
+                    {
+                      "start": 34.12,
+                      "end": 34.48,
+                      "text": "的人",
+                      "probability": 0.9981784820556641
+                    }
+                  ]
+                },
+                {
+                  "start": 34.48,
+                  "end": 36.74,
+                  "text": "祂都能拯救到底",
+                  "words": [
+                    {
+                      "start": 34.48,
+                      "end": 35.04,
+                      "text": "祂",
+                      "probability": 0.8879522085189819
+                    },
+                    {
+                      "start": 35.04,
+                      "end": 35.24,
+                      "text": "都",
+                      "probability": 0.9863587021827698
+                    },
+                    {
+                      "start": 35.24,
+                      "end": 35.54,
+                      "text": "能",
+                      "probability": 0.9949624538421631
+                    },
+                    {
+                      "start": 35.54,
+                      "end": 35.92,
+                      "text": "拯",
+                      "probability": 0.8156155645847321
+                    },
+                    {
+                      "start": 35.92,
+                      "end": 36.24,
+                      "text": "救",
+                      "probability": 0.9973834156990051
+                    },
+                    {
+                      "start": 36.24,
+                      "end": 36.74,
+                      "text": "到底",
+                      "probability": 0.8697712421417236
+                    }
+                  ]
+                },
+                {
+                  "start": 36.74,
+                  "end": 39.78,
+                  "text": "因为祂是长远活着",
+                  "words": [
+                    {
+                      "start": 36.74,
+                      "end": 37.58,
+                      "text": "因为",
+                      "probability": 0.9487082362174988
+                    },
+                    {
+                      "start": 37.58,
+                      "end": 37.86,
+                      "text": "祂",
+                      "probability": 0.9965402483940125
+                    },
+                    {
+                      "start": 37.86,
+                      "end": 38.16,
+                      "text": "是",
+                      "probability": 0.992317795753479
+                    },
+                    {
+                      "start": 38.16,
+                      "end": 38.78,
+                      "text": "长",
+                      "probability": 0.9120898246765137
+                    },
+                    {
+                      "start": 38.78,
+                      "end": 39.1,
+                      "text": "远",
+                      "probability": 0.9702426493167877
+                    },
+                    {
+                      "start": 39.1,
+                      "end": 39.42,
+                      "text": "活",
+                      "probability": 0.9976414442062378
+                    },
+                    {
+                      "start": 39.42,
+                      "end": 39.78,
+                      "text": "着",
+                      "probability": 0.9948239326477051
+                    }
+                  ]
+                },
+                {
+                  "start": 39.78,
+                  "end": 41.4,
+                  "text": "替祂们祈求",
+                  "words": [
+                    {
+                      "start": 39.78,
+                      "end": 40.4,
+                      "text": "替",
+                      "probability": 0.9792208671569824
+                    },
+                    {
+                      "start": 40.4,
+                      "end": 40.7,
+                      "text": "祂",
+                      "probability": 0.8316359519958496
+                    },
+                    {
+                      "start": 40.7,
+                      "end": 40.84,
+                      "text": "们",
+                      "probability": 0.9896580576896667
+                    },
+                    {
+                      "start": 40.84,
+                      "end": 41.1,
+                      "text": "祈",
+                      "probability": 0.9628489315509796
+                    },
+                    {
+                      "start": 41.1,
+                      "end": 41.4,
+                      "text": "求",
+                      "probability": 0.9970422387123108
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (77 trailing chars, coverage 0.000): target 15: 希伯来书7:24-27 这位既是永远常存的，祂祭司的职任就长久不更换。凡靠着祂进到神面前的人，祂",
+    "low confidence (0.580, coverage 0.423): target 15: 希伯来书7:24-27 这位既是永远常存的，祂祭司的职任就长久不更换。凡靠着祂进到神面前的人，祂",
+    "unverified end anchor: target 15: 希伯来书7:24-27 这位既是永远常存的，祂祭司的职任就长久不更换。凡靠着祂进到神面前的人，祂",
+    "repair unverified end (previous-sync): target 15"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "416cf5f080dd2208a480a9ca8fd125c96024391214e326aaf04445f2f41c4dc5",
+  "repairCueDigest": "d561404a4613a2fd0943f18223d1b26c239dd1a2841e187d433118e89f10cb6f",
+  "previousAlignmentWarnings": [],
+  "currentSiteConfirmation": {
+    "model": "medium",
+    "audioSha256": "7d93d6cb8148d7a472c8fe82debe9678cdadb7109f5f384b3c74d14710f6508d",
+    "audioDuration": 42.648,
+    "windows": [
+      [
+        0,
+        34.48
+      ]
+    ]
+  }
 }

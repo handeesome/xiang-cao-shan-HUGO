@@ -8,28 +8,104 @@
   "audioDuration": 190.56,
   "cues": [
     {
-      "start": 1.52,
-      "end": 2.98,
-      "kind": "heading",
-      "targetIndex": 11,
-      "targetText": "礼拜三",
-      "confidence": 0.8
-    },
-    {
       "start": 2.98,
-      "end": 78.76,
+      "end": 77.6,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "贯穿整个旧约上帝的百姓都在与偶像崇拜争战尽管他们有上帝的诫命告诉他们要敬拜祂而且只能敬拜祂不过以",
-      "confidence": 0.872
+      "confidence": 0.952,
+      "quality": {
+        "coverage": 0.952,
+        "coherentCoverage": 0.943,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 2.98,
+        "previousEnd": 78.76,
+        "previousConfidence": 0.872
+      }
     },
     {
       "start": 78.76,
-      "end": 109.16,
+      "end": 107.52,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "不过罪人总是为自己制造偶像虽然不是真的树立雕像来拜有一个故事说到一个忠心的犹太人他连做梦都不会向",
-      "confidence": 0.966
+      "confidence": 0.966,
+      "quality": {
+        "coverage": 0.977,
+        "coherentCoverage": 0.977,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 78.76,
+        "previousEnd": 109.16,
+        "previousConfidence": 0.966
+      }
     },
     {
       "start": 109.16,
@@ -37,7 +113,67 @@
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "马太福音191622有一个人来见耶稣说夫子我该做什么善事才能得永生耶稣对他说你为什么以善事问我呢",
-      "confidence": 0.945
+      "confidence": 0.945,
+      "quality": {
+        "coverage": 0.952,
+        "coherentCoverage": 0.931,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 109.16,
+        "previousEnd": 186.0,
+        "previousConfidence": 0.945
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "474b5cca96a974211597e474126aaa1555bd46a3e344e5ca64f805594eabb925",
+  "repairCueDigest": "8666e334e43438490b2ff97d0ac298f52ce55880a0b4ef7ba0cf152a8d6ab909",
+  "previousAlignmentWarnings": []
 }

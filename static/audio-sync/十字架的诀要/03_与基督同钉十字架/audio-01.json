@@ -8,52 +8,367 @@
   "audioDuration": 371.8385625,
   "cues": [
     {
-      "start": 2.22,
-      "end": 7.52,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第三日与基督同钉十字架",
-      "confidence": 0.727
-    },
-    {
       "start": 7.52,
-      "end": 16.88,
+      "end": 18.86,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "我已经与基督同钉十字架现在活着的不再是我乃是基督活在我里面加二20",
-      "confidence": 0.656
+      "confidence": 0.781,
+      "quality": {
+        "coverage": 0.788,
+        "coherentCoverage": 0.636,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.812,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\十字架的诀要\\3.mp3.json",
+          "transcriptSha256": "b41e72233f505c0223ab5b8355ee5588df8c9b5293f4529222b6903b374b4998",
+          "time": 18.86,
+          "candidateCue": {
+            "start": 7.52,
+            "end": 18.86,
+            "kind": "paragraph",
+            "targetIndex": 1,
+            "targetText": "我已经与基督同钉十字架现在活着的不再是我乃是基督活在我里面加二20",
+            "confidence": 0.835,
+            "quality": {
+              "coverage": 0.846,
+              "coherentCoverage": 0.769,
+              "extraSpeechContext": false,
+              "prefixCoverage": 0.842,
+              "suffixCoverage": 0.842,
+              "unmatchedLeadingChars": 0,
+              "unmatchedTrailingChars": 1,
+              "reviewRequired": false,
+              "verificationBasis": "local-boundaries",
+              "boundaryAdjusted": [
+                "end substitution"
+              ],
+              "startVerified": true,
+              "endVerified": true,
+              "startEvidence": {
+                "verified": true,
+                "coverage": 0.833,
+                "continuousAnchor": true,
+                "substitutionAnchor": false,
+                "timingPrecision": "word",
+                "insideSegment": false,
+                "detachedContext": false,
+                "paragraphSupported": true,
+                "source": "previous-verified-sync",
+                "originalSource": "verified-transcript"
+              },
+              "endEvidence": {
+                "verified": true,
+                "coverage": 0.917,
+                "continuousAnchor": true,
+                "substitutionAnchor": false,
+                "timingPrecision": "word",
+                "insideSegment": false,
+                "detachedContext": false,
+                "detachedNumericLabel": false,
+                "localSupported": true,
+                "localCoverage": 0.833,
+                "localSimilarity": 0.851,
+                "localText": "着的不再是我乃是基督活在我里面加拉太书2章20节",
+                "anchorOccurrences": 1,
+                "paragraphSupported": true,
+                "contextUsed": false,
+                "identityAmbiguous": false,
+                "source": "verified-transcript"
+              }
+            },
+            "repair": {
+              "startSource": "previous-verified-sync",
+              "endSource": "verified-transcript",
+              "previousStart": 7.52,
+              "previousEnd": 16.88,
+              "previousConfidence": 0.781
+            }
+          },
+          "evidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 0.833,
+            "localSimilarity": 0.851,
+            "localText": "着的不再是我乃是基督活在我里面加拉太书2章20节",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false,
+            "source": "verified-transcript"
+          },
+          "source": "context-reviewed-standard-local-boundary",
+          "listenedByAgent": false,
+          "actualEndpointWords": [
+            {
+              "start": 18.6,
+              "end": 18.86,
+              "text": "集",
+              "probability": 0.5529475808143616
+            }
+          ],
+          "printedReference": "(加二:20)",
+          "reason": "首尾局部证据及实际词时间确认；完整出处在本段朗读，取自身末词时间，书名或节字的识别差异保留，不要求正文中间逐字一致。",
+          "contextUsed": true,
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "audioSha256": "3604e35da94d67a59b4f5fd419de4e9c8ff7c872961ab67acd6ff04ff6ad980f"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 7.52,
+        "previousEnd": 16.88,
+        "previousConfidence": 0.656
+      },
+      "boundaryCorrections": [
+        {
+          "book": "十字架的诀要",
+          "page": "03_与基督同钉十字架.md",
+          "audio": "3.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\十字架的诀要\\03_与基督同钉十字架\\audio-01.json",
+          "targetIndex": 1,
+          "edge": "end",
+          "previousTime": 16.88,
+          "time": 18.86,
+          "kind": "post-validation-local-context",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "首尾局部证据及实际词时间确认；完整出处在本段朗读，取自身末词时间，书名或节字的识别差异保留，不要求正文中间逐字一致。"
+        }
+      ]
     },
     {
-      "start": 16.88,
-      "end": 39.14,
+      "start": 19.46,
+      "end": 38.16,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "与基督的十字架交通的思想经常使我们自己的能力失效而能跟从祂有祂的形象除非我们已学会了解我已经与基",
-      "confidence": 0.826
+      "confidence": 0.938,
+      "quality": {
+        "coverage": 0.938,
+        "coherentCoverage": 0.923,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 16.88,
+        "previousEnd": 39.14,
+        "previousConfidence": 0.826
+      }
     },
     {
       "start": 39.14,
-      "end": 64.04,
+      "end": 63.3,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "让我们了解这点亚当死了所有在他里面的子孙也与他同死由于我有份于他在乐园的堕落因此在灵里的死也有份",
-      "confidence": 0.949
+      "confidence": 0.949,
+      "quality": {
+        "coverage": 0.949,
+        "coherentCoverage": 0.949,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 39.14,
+        "previousEnd": 64.04,
+        "previousConfidence": 0.949
+      }
     },
     {
       "start": 64.04,
-      "end": 120.02,
+      "end": 118.54,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "基督来了成了末后的亚当死于十字架而所有信祂的人都在此有份其中每一位都能衷心的说我已经与基督同钉十",
-      "confidence": 0.888
+      "confidence": 0.921,
+      "quality": {
+        "coverage": 0.921,
+        "coherentCoverage": 0.921,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 64.04,
+        "previousEnd": 120.02,
+        "previousConfidence": 0.888
+      }
     },
     {
       "start": 120.02,
-      "end": 166.72,
+      "end": 165.84,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "我们在此已有一个深而宝贵的真理但大多数的基督徒并不太了解因为这种知识并非轻易而快速能得着需要极长",
-      "confidence": 0.951
+      "confidence": 0.958,
+      "quality": {
+        "coverage": 0.965,
+        "coherentCoverage": 0.937,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 120.02,
+        "previousEnd": 166.72,
+        "previousConfidence": 0.951
+      }
     },
     {
       "start": 166.72,
@@ -61,7 +376,71 @@
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "当基督活在我里面老我被治死我自然不再自己而活信心能使钉十字架的基督活在我里面成为事实与十字架交通",
-      "confidence": 0.941
+      "confidence": 0.941,
+      "quality": {
+        "coverage": 0.949,
+        "coherentCoverage": 0.949,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 166.72,
+        "previousEnd": 185.32,
+        "previousConfidence": 0.941
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 1: “我已经与基督同钉十字架，现在活着的不再是我，乃是基督活在我里面。”（加二：20）",
+    "repair unverified end (previous-sync): target 1",
+    "local spoken context confirmed end: target 1; original evidence/warnings retained"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 4,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "5d1a799a85f90dfeef6e2de8fbcbdb11968ff8c32d1a1014df8509999c55f6a5",
+  "repairCueDigest": "88d47206f408e5f6fa531f45e2dc9d28cf230f06fbe2f282000edddaf4e8625a",
+  "previousAlignmentWarnings": []
 }

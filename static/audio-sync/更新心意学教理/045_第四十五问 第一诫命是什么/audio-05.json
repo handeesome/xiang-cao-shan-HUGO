@@ -9,27 +9,444 @@
   "cues": [
     {
       "start": 4.09,
-      "end": 42.09,
+      "end": 44.89,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "新约的另一个故事讲到一个人和他妻子他们都属于早期的教会他们非常慷慨奉献了不少钱帮助教会里的穷人不",
-      "confidence": 0.702
+      "confidence": 0.896,
+      "quality": {
+        "coverage": 0.862,
+        "coherentCoverage": 0.854,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.5,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "source": "context-reviewed-read-prompt-ending",
+          "contextUsed": true,
+          "identityAmbiguous": false,
+          "continuousAnchor": false,
+          "timingPrecision": "word",
+          "time": 44.89,
+          "expectedPhrase": "个偶像，致使他们这么做。故事没有具体告诉你，对于他们来说，有什么比上帝更重要，不过你读一读就会知道的。请读使徒行传5:1-11。",
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\45-4.mp3.json",
+          "transcriptSha256": "7b9abdc3b381cf2710486942a887e9e003aa4b244dff5c30c02baa864398f221",
+          "audioSha256": "34cdb1231d7eb6c6c2f0e41a07a7db8a50f352074b10cb4550a04b34d08d8476",
+          "rawSegments": [
+            {
+              "start": 39.63,
+              "end": 44.89,
+              "text": "请读十度行传五章一到十一节",
+              "words": [
+                {
+                  "start": 39.63,
+                  "end": 40.69,
+                  "text": "请",
+                  "probability": 0.5526601076126099
+                },
+                {
+                  "start": 40.69,
+                  "end": 41.01,
+                  "text": "读",
+                  "probability": 0.9841504096984863
+                },
+                {
+                  "start": 41.01,
+                  "end": 41.49,
+                  "text": "十",
+                  "probability": 0.8693092465400696
+                },
+                {
+                  "start": 41.49,
+                  "end": 41.59,
+                  "text": "度",
+                  "probability": 0.38107091188430786
+                },
+                {
+                  "start": 41.59,
+                  "end": 41.79,
+                  "text": "行",
+                  "probability": 0.38381701707839966
+                },
+                {
+                  "start": 41.79,
+                  "end": 42.09,
+                  "text": "传",
+                  "probability": 0.857408344745636
+                },
+                {
+                  "start": 42.09,
+                  "end": 42.69,
+                  "text": "五",
+                  "probability": 0.5032464265823364
+                },
+                {
+                  "start": 42.69,
+                  "end": 42.99,
+                  "text": "章",
+                  "probability": 0.8276704251766205
+                },
+                {
+                  "start": 42.99,
+                  "end": 43.61,
+                  "text": "一",
+                  "probability": 0.6767457127571106
+                },
+                {
+                  "start": 43.61,
+                  "end": 44.09,
+                  "text": "到",
+                  "probability": 0.8386741876602173
+                },
+                {
+                  "start": 44.09,
+                  "end": 44.49,
+                  "text": "十",
+                  "probability": 0.9937688708305359
+                },
+                {
+                  "start": 44.49,
+                  "end": 44.67,
+                  "text": "一",
+                  "probability": 0.9707121253013611
+                },
+                {
+                  "start": 44.67,
+                  "end": 44.89,
+                  "text": "节",
+                  "probability": 0.9589245915412903
+                }
+              ]
+            }
+          ],
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+          "listenedByAgent": false
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "next-verified-start",
+        "previousStart": 4.09,
+        "previousEnd": 42.09,
+        "previousConfidence": 0.702
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "045_第四十五问 第一诫命是什么.md",
+          "audio": "45-4.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\045_第四十五问 第一诫命是什么\\audio-05.json",
+          "caseIndex": 654,
+          "targetIndex": 16,
+          "edge": "end",
+          "previousTime": 41.59,
+          "time": 44.89,
+          "kind": "verified-edge",
+          "previousEvidence": {
+            "verified": false,
+            "source": "next-verified-start"
+          },
+          "previousVerified": false,
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。"
+        }
+      ]
     },
     {
-      "start": 42.09,
-      "end": 162.98,
+      "start": 46.17,
+      "end": 163.96,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "使徒行传5111有一个人名叫亚拿尼亚同他的妻子撒非喇卖了田产把价银私自留下几分他的妻子也知道其余",
-      "confidence": 0.651
+      "confidence": 0.812,
+      "quality": {
+        "coverage": 0.825,
+        "coherentCoverage": 0.762,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "localSupported": false,
+          "source": "previous-verified-end",
+          "time": 44.89,
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "referenceOwnershipConstraint": {
+          "ownerTargetIndex": 16,
+          "ownerTargetText": "新约的另一个故事讲到一个人和他妻子他们都属于早期的教会他们非常慷慨奉献了不少钱帮助教会里的穷人不",
+          "notBefore": 44.89,
+          "verifiedSpokenOnset": false
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 42.09,
+        "previousEnd": 162.98,
+        "previousConfidence": 0.651
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "045_第四十五问 第一诫命是什么.md",
+          "audio": "45-4.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\045_第四十五问 第一诫命是什么\\audio-05.json",
+          "caseIndex": 654,
+          "targetIndex": 17,
+          "edge": "start",
+          "previousTime": 41.59,
+          "time": 44.89,
+          "kind": "unverified-neighbor-constraint",
+          "previousVerified": true,
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 44.89,
+            "time": 46.17,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\45-4.mp3.json",
+              "sha256": "3588064133bc3537926dd5f285a6e7bf914ae7295f5774a09090326eb022419c",
+              "anchor": {
+                "time": 46.17,
+                "score": 0.9987,
+                "ratio": 1.0,
+                "expected": "youyigerenmingjiao",
+                "actual": "有1个人名叫",
+                "span": [
+                  46.17,
+                  48.75
+                ],
+                "tokens": [
+                  {
+                    "text": "有",
+                    "start": 46.17,
+                    "end": 47.19,
+                    "rawStart": 129,
+                    "rawEnd": 129,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 47.19,
+                    "end": 47.47,
+                    "rawStart": 130,
+                    "rawEnd": 130,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "个",
+                    "start": 47.19,
+                    "end": 47.47,
+                    "rawStart": 131,
+                    "rawEnd": 131,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 47.47,
+                    "end": 47.83,
+                    "rawStart": 132,
+                    "rawEnd": 132,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "名",
+                    "start": 47.83,
+                    "end": 48.37,
+                    "rawStart": 133,
+                    "rawEnd": 133,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "叫",
+                    "start": 48.37,
+                    "end": 48.75,
+                    "rawStart": 134,
+                    "rawEnd": 134,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "phraseSize": 6,
+                "matchingText": "有一个人,名叫亚拿尼亚,同他的妻子撒非喇卖了田产,把价银私自留下几分,他的妻子也知道,其余的几分拿来放在使徒脚前。彼得说:“亚拿尼亚,为什么撒但充满了你的心,叫你欺哄圣灵,把田地的价银私自留下几分呢?田地还没有卖,不是你自己的吗?既卖了,价银不是你作主吗?你怎么心里起这意念呢?你不是欺哄人,是欺哄神了!”亚拿尼亚听见这话,就仆倒,断了气。听见的人都甚惧怕。有些少年人起来,把他包裹,抬出去埋葬了。约过了三小时,他的妻子进来,还不知道这事。彼得对她说:“你告诉我,你们卖田地的价银就是这些吗?”她说:“就是这些。”彼得说:“你们为什么同心试探主的灵呢?埋葬你丈夫之人的脚已到门口,他们也要把你抬出去。”妇人立刻仆倒在彼得脚前,断了气。那些少年人进来,见她已经死了,就抬出去,埋在她丈夫旁边。全教会和听见这事的人都甚惧怕。",
+                "normalization": "original-body"
+              },
+              "body": "有一个人,名叫亚拿尼亚,同他的妻子撒非喇卖了田产,把价银私自留下几分,他的妻子也知道,其余的几分拿来放在使徒脚前。彼得说:“亚拿尼亚,为什么撒但充满了你的心,叫你欺哄圣灵,把田地的价银私自留下几分呢?田地还没有卖,不是你自己的吗?既卖了,价银不是你作主吗?你怎么心里起这意念呢?你不是欺哄人,是欺哄神了!”亚拿尼亚听见这话,就仆倒,断了气。听见的人都甚惧怕。有些少年人起来,把他包裹,抬出去埋葬了。约过了三小时,他的妻子进来,还不知道这事。彼得对她说:“你告诉我,你们卖田地的价银就是这些吗?”她说:“就是这些。”彼得说:“你们为什么同心试探主的灵呢?埋葬你丈夫之人的脚已到门口,他们也要把你抬出去。”妇人立刻仆倒在彼得脚前,断了气。那些少年人进来,见她已经死了,就抬出去,埋在她丈夫旁边。全教会和听见这事的人都甚惧怕。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.825,
+          "coherentCoverage": 0.762,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.75,
+          "suffixCoverage": 0.85,
+          "unmatchedLeadingChars": 2,
+          "unmatchedTrailingChars": 1,
+          "reviewRequired": true,
+          "boundaryAdjusted": [
+            "end substitution"
+          ],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "localSupported": false,
+            "source": "previous-verified-end",
+            "time": 44.89,
+            "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "referenceOwnershipConstraint": {
+            "ownerTargetIndex": 16,
+            "ownerTargetText": "新约的另一个故事讲到一个人和他妻子他们都属于早期的教会他们非常慷慨奉献了不少钱帮助教会里的穷人不",
+            "notBefore": 44.89,
+            "verifiedSpokenOnset": false
+          }
+        }
+      }
     },
     {
-      "start": 162.98,
+      "start": 163.96,
       "end": 195.82,
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "你认为他们的偶像是什么不是钱否则他们不会奉献那么多是他们的名声对他们来说很重要他们想让教会里的人",
-      "confidence": 0.854
+      "confidence": 0.988,
+      "quality": {
+        "coverage": 0.988,
+        "coherentCoverage": 0.988,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 162.98,
+        "previousEnd": 195.82,
+        "previousConfidence": 0.854
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (4 trailing chars, coverage 0.500): target 16: 新约的另一个故事讲到一个人和他妻子。他们都属于早期的教会。他们非常慷慨，奉献了不少钱帮助教会里的",
+    "unverified end anchor: target 16: 新约的另一个故事讲到一个人和他妻子。他们都属于早期的教会。他们非常慷慨，奉献了不少钱帮助教会里的",
+    "repair unverified end (next-verified-start): target 16",
+    "context reviewed end: target 16; 前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+    "unverified constrained start: target 17; 旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+  ],
+  "previousAlignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "da1986398c0ada9927c480e2b15224ef4b6f1f829b60b579c4ef5fd4c8c7cc85",
+  "repairCueDigest": "aea8fd009f1846e69b1ede435248271ea7d358c5a11a22a0aec049b9ca968c6d"
 }

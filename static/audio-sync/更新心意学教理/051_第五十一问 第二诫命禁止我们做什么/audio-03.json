@@ -8,36 +8,541 @@
   "audioDuration": 129.048,
   "cues": [
     {
-      "start": 1.66,
-      "end": 2.94,
-      "kind": "heading",
-      "targetIndex": 5,
-      "targetText": "礼拜二",
-      "confidence": 0.8
+      "start": 3.3,
+      "end": 7.28,
+      "kind": "paragraph",
+      "targetIndex": 6,
+      "targetText": "请读使徒行传1729",
+      "confidence": 0.833,
+      "quality": {
+        "verificationBasis": "local-boundaries",
+        "reviewRequired": false,
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "context-reviewed-read-prompt-start",
+          "expectedPhrase": "请读使徒行传17:29。",
+          "observedPhrase": "礼拜二,请读《石头行传》17章29节。",
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\51-2.mp3.json",
+          "transcriptSha256": "6f04374be20ea7faa18f4dabbc7f69094f51256c82e471b25e5f115a502dfa77",
+          "audioSha256": "932824a6295c870b1ac267c14d6df18987265a8aca2ab4fa7d61cc8560810655",
+          "wordTokens": [
+            {
+              "text": "请",
+              "start": 3.3,
+              "end": 3.4
+            },
+            {
+              "text": "读",
+              "start": 3.4,
+              "end": 3.96
+            },
+            {
+              "text": "《",
+              "start": 3.96,
+              "end": 4.06
+            },
+            {
+              "text": "石",
+              "start": 4.06,
+              "end": 4.18
+            },
+            {
+              "text": "头",
+              "start": 4.18,
+              "end": 4.36
+            },
+            {
+              "text": "行",
+              "start": 4.36,
+              "end": 4.62
+            },
+            {
+              "text": "传",
+              "start": 4.62,
+              "end": 4.9
+            },
+            {
+              "text": "》",
+              "start": 4.9,
+              "end": 5.04
+            },
+            {
+              "text": "17",
+              "start": 5.04,
+              "end": 5.46
+            },
+            {
+              "text": "章",
+              "start": 5.46,
+              "end": 5.9
+            },
+            {
+              "text": "29",
+              "start": 5.9,
+              "end": 6.34
+            },
+            {
+              "text": "节。",
+              "start": 6.34,
+              "end": 7.28
+            }
+          ],
+          "listenedByAgent": false,
+          "reason": "录音开头标题后独立读出请读及完整书名章、节号；按现有词级稿首尾和下一段真实正文首词划界，印刷出处归属仍单列待核。",
+          "time": 3.3
+        },
+        "endEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "context-reviewed-read-prompt-ending",
+          "expectedPhrase": "请读使徒行传17:29。",
+          "observedPhrase": "礼拜二,请读《石头行传》17章29节。",
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\51-2.mp3.json",
+          "transcriptSha256": "6f04374be20ea7faa18f4dabbc7f69094f51256c82e471b25e5f115a502dfa77",
+          "audioSha256": "932824a6295c870b1ac267c14d6df18987265a8aca2ab4fa7d61cc8560810655",
+          "wordTokens": [
+            {
+              "text": "请",
+              "start": 3.3,
+              "end": 3.4
+            },
+            {
+              "text": "读",
+              "start": 3.4,
+              "end": 3.96
+            },
+            {
+              "text": "《",
+              "start": 3.96,
+              "end": 4.06
+            },
+            {
+              "text": "石",
+              "start": 4.06,
+              "end": 4.18
+            },
+            {
+              "text": "头",
+              "start": 4.18,
+              "end": 4.36
+            },
+            {
+              "text": "行",
+              "start": 4.36,
+              "end": 4.62
+            },
+            {
+              "text": "传",
+              "start": 4.62,
+              "end": 4.9
+            },
+            {
+              "text": "》",
+              "start": 4.9,
+              "end": 5.04
+            },
+            {
+              "text": "17",
+              "start": 5.04,
+              "end": 5.46
+            },
+            {
+              "text": "章",
+              "start": 5.46,
+              "end": 5.9
+            },
+            {
+              "text": "29",
+              "start": 5.9,
+              "end": 6.34
+            },
+            {
+              "text": "节。",
+              "start": 6.34,
+              "end": 7.28
+            }
+          ],
+          "listenedByAgent": false,
+          "reason": "录音开头标题后独立读出请读及完整书名章、节号；按现有词级稿首尾和下一段真实正文首词划界，印刷出处归属仍单列待核。",
+          "time": 7.28
+        }
+      },
+      "repair": {
+        "startSource": "context-reviewed-read-prompt-start",
+        "endSource": "context-reviewed-read-prompt-ending",
+        "previousStart": null,
+        "previousEnd": null,
+        "previousConfidence": null
+      },
+      "addedCueReview": {
+        "kind": "existing-small-local-read-prompt",
+        "audioSha256": "932824a6295c870b1ac267c14d6df18987265a8aca2ab4fa7d61cc8560810655",
+        "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\51-2.mp3.json",
+        "listenedByAgent": false
+      }
     },
     {
-      "start": 2.94,
-      "end": 20.48,
+      "start": 7.82,
+      "end": 18.74,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "使徒行传1729我们既是上帝所生的就不当以为上帝的上帝性像人用手艺心思所雕刻的金银石",
-      "confidence": 0.584
+      "confidence": 0.977,
+      "quality": {
+        "coverage": 0.955,
+        "coherentCoverage": 0.955,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "localSupported": false,
+          "source": "body-onset-pending-reference-ownership",
+          "time": 7.82,
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\51-2.mp3.json",
+          "transcriptSha256": "6f04374be20ea7faa18f4dabbc7f69094f51256c82e471b25e5f115a502dfa77",
+          "audioSha256": "932824a6295c870b1ac267c14d6df18987265a8aca2ab4fa7d61cc8560810655",
+          "listenedByAgent": false,
+          "reason": "印刷出处在前段请读提示读出，本段正文首词时间已定位；完整出处归属证据仍待核实。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "referenceOwnershipConstraint": {
+          "ownerTargetIndex": 6,
+          "ownerTargetText": "请读使徒行传1729",
+          "notBefore": 7.28,
+          "verifiedSpokenOnset": false
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 2.94,
+        "previousEnd": 18.74,
+        "previousConfidence": 0.719
+      },
+      "boundaryCorrections": [
+        {
+          "targetIndex": 7,
+          "edge": "start",
+          "previousTime": 4.36,
+          "time": 7.82,
+          "kind": "preceding-read-prompt-ownership-constraint",
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "previousVerified": true,
+          "reason": "旧起点落在前段请读提示内；后段首个经文正文词从当前时间开始。印刷出处归属尚未正式核验。"
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 7.82,
+            "time": 7.82,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\51-2.mp3.json",
+              "sha256": "6f04374be20ea7faa18f4dabbc7f69094f51256c82e471b25e5f115a502dfa77",
+              "anchor": {
+                "time": 7.82,
+                "score": 1.0,
+                "ratio": 1.0,
+                "expected": "womenjishishensuoshengdejiubudangyiweishen",
+                "actual": "我们既是神所生的就不当以为神",
+                "span": [
+                  7.82,
+                  12.42
+                ],
+                "tokens": [
+                  {
+                    "text": "我",
+                    "start": 7.82,
+                    "end": 8.1,
+                    "rawStart": 15,
+                    "rawEnd": 15,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 7.82,
+                    "end": 8.1,
+                    "rawStart": 16,
+                    "rawEnd": 16,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "既",
+                    "start": 8.1,
+                    "end": 8.54,
+                    "rawStart": 17,
+                    "rawEnd": 17,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 8.54,
+                    "end": 8.92,
+                    "rawStart": 18,
+                    "rawEnd": 18,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 8.92,
+                    "end": 9.34,
+                    "rawStart": 19,
+                    "rawEnd": 20,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "所",
+                    "start": 9.34,
+                    "end": 9.74,
+                    "rawStart": 21,
+                    "rawEnd": 21,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "生",
+                    "start": 9.74,
+                    "end": 9.9,
+                    "rawStart": 22,
+                    "rawEnd": 22,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 9.9,
+                    "end": 10.48,
+                    "rawStart": 23,
+                    "rawEnd": 23,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "就",
+                    "start": 10.66,
+                    "end": 11.12,
+                    "rawStart": 24,
+                    "rawEnd": 24,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "不",
+                    "start": 11.12,
+                    "end": 11.6,
+                    "rawStart": 25,
+                    "rawEnd": 25,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "当",
+                    "start": 11.6,
+                    "end": 11.84,
+                    "rawStart": 26,
+                    "rawEnd": 26,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "以",
+                    "start": 11.84,
+                    "end": 12.04,
+                    "rawStart": 27,
+                    "rawEnd": 27,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "为",
+                    "start": 12.04,
+                    "end": 12.2,
+                    "rawStart": 28,
+                    "rawEnd": 28,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 12.2,
+                    "end": 12.42,
+                    "rawStart": 29,
+                    "rawEnd": 30,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 5.46,
+                  "score": 0.8183,
+                  "actual": "章29节我们既是神所生的就不当以为"
+                }
+              },
+              "body": "我们既是神所生的,就不当以为神的神性像人用手艺、心思所雕刻的金、银、石。"
+            }
+          }
+        }
+      }
     },
     {
       "start": 20.48,
-      "end": 69.2,
+      "end": 68.26,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "在当今的美国人们不再用金子木头石头制作偶像来跪拜今天上帝的百姓不会受试探造偶像说这就是上帝今天人",
-      "confidence": 0.95
+      "confidence": 0.994,
+      "quality": {
+        "coverage": 0.988,
+        "coherentCoverage": 0.988,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 20.48,
+        "previousEnd": 68.26,
+        "previousConfidence": 0.994
+      }
     },
     {
       "start": 69.2,
-      "end": 126.98,
+      "end": 127.34,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "有时候人们听别人说关于上帝的事情没经过查考圣经就信以为真你不应该相信自己对于上帝的想法你也不应该",
-      "confidence": 0.898
+      "confidence": 0.992,
+      "quality": {
+        "coverage": 0.989,
+        "coherentCoverage": 0.989,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 69.2,
+        "previousEnd": 127.34,
+        "previousConfidence": 0.992
+      }
     }
+  ],
+  "alignmentMethod": "body-global-v8-rendered-list-and-empty-paragraph-indices",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified printed-reference ownership: target 7; body onset retained at 7.82s"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 0,
+    "addedCues": 1,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "previousAlignmentWarnings": [
+    "incomplete start (0 leading chars, coverage 0.333): target 6: 请读使徒行传17:29。",
+    "incomplete end (10 trailing chars, coverage 0.000): target 6: 请读使徒行传17:29。",
+    "low confidence (0.286, coverage 0.167): target 6: 请读使徒行传17:29。",
+    "unverified start anchor: target 6: 请读使徒行传17:29。",
+    "unverified end anchor: target 6: 请读使徒行传17:29。",
+    "unmatched (fragment only): target 6: 请读使徒行传17:29。",
+    "repair missing cue (unverified): target 6"
   ]
 }

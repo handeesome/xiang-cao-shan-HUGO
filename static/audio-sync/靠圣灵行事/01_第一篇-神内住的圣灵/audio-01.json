@@ -8,300 +8,2123 @@
   "audioDuration": 1601.752375,
   "cues": [
     {
-      "start": 12.5,
-      "end": 21.62,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第一篇上帝内住的圣灵",
-      "confidence": 1.0
-    },
-    {
       "start": 21.62,
       "end": 28.03,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "除了上帝一位之外再没有良善的可1018",
-      "confidence": 0.645
-    },
-    {
-      "start": 28.03,
-      "end": 32.03,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "受造物本身是没有良善的",
-      "confidence": 0.857
+      "confidence": 0.625,
+      "quality": {
+        "coverage": 0.526,
+        "coherentCoverage": 0.421,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.667,
+        "suffixCoverage": 0.333,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 5,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 21.62,
+        "previousEnd": 28.03,
+        "previousConfidence": 0.625
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 28.03,
+            "time": 28.03,
+            "reason": "正文末句已定位，保留原出处结束范围，避免因书名识别差异截掉已读出处",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\靠圣灵行事\\1.mp3.json",
+              "sha256": "6a712510334384efc12a9cb363afcc246b46213a4d04af2f295cd96cde989816",
+              "anchor": {
+                "time": 25.68,
+                "score": 0.819,
+                "ratio": 0.8333,
+                "expected": "chuleshenyiweizhiwaizaimeiyouliangshande",
+                "actual": "除了神以外再没有2善的",
+                "span": [
+                  21.62,
+                  25.68
+                ],
+                "tokens": [
+                  {
+                    "text": "除",
+                    "start": 21.62,
+                    "end": 22.18,
+                    "rawStart": 52,
+                    "rawEnd": 52,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "了",
+                    "start": 22.18,
+                    "end": 22.38,
+                    "rawStart": 53,
+                    "rawEnd": 53,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 22.38,
+                    "end": 22.6,
+                    "rawStart": 54,
+                    "rawEnd": 55,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "以",
+                    "start": 22.6,
+                    "end": 22.9,
+                    "rawStart": 56,
+                    "rawEnd": 56,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "外",
+                    "start": 22.9,
+                    "end": 23.1,
+                    "rawStart": 57,
+                    "rawEnd": 57,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "再",
+                    "start": 23.96,
+                    "end": 24.34,
+                    "rawStart": 58,
+                    "rawEnd": 58,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "没",
+                    "start": 24.34,
+                    "end": 24.8,
+                    "rawStart": 59,
+                    "rawEnd": 59,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "有",
+                    "start": 24.34,
+                    "end": 24.8,
+                    "rawStart": 60,
+                    "rawEnd": 60,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "2",
+                    "start": 24.8,
+                    "end": 25.02,
+                    "rawStart": 61,
+                    "rawEnd": 61,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "善",
+                    "start": 25.02,
+                    "end": 25.34,
+                    "rawStart": 62,
+                    "rawEnd": 62,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 25.34,
+                    "end": 25.68,
+                    "rawStart": 63,
+                    "rawEnd": 63,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "“除了神一位之外,再没有良善的。”",
+              "retainedCitationInterval": [
+                25.68,
+                28.03
+              ]
+            }
+          },
+          "start": {
+            "old": 21.62,
+            "time": 21.62,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\靠圣灵行事\\1.mp3.json",
+              "sha256": "6a712510334384efc12a9cb363afcc246b46213a4d04af2f295cd96cde989816",
+              "anchor": {
+                "time": 21.62,
+                "score": 0.8213,
+                "ratio": 0.8333,
+                "expected": "chuleshenyiweizhiwaizaimeiyouliangshande",
+                "actual": "除了神以外再没有2善的",
+                "span": [
+                  21.62,
+                  25.68
+                ],
+                "tokens": [
+                  {
+                    "text": "除",
+                    "start": 21.62,
+                    "end": 22.18,
+                    "rawStart": 52,
+                    "rawEnd": 52,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "了",
+                    "start": 22.18,
+                    "end": 22.38,
+                    "rawStart": 53,
+                    "rawEnd": 53,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 22.38,
+                    "end": 22.6,
+                    "rawStart": 54,
+                    "rawEnd": 55,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "以",
+                    "start": 22.6,
+                    "end": 22.9,
+                    "rawStart": 56,
+                    "rawEnd": 56,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "外",
+                    "start": 22.9,
+                    "end": 23.1,
+                    "rawStart": 57,
+                    "rawEnd": 57,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "再",
+                    "start": 23.96,
+                    "end": 24.34,
+                    "rawStart": 58,
+                    "rawEnd": 58,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "没",
+                    "start": 24.34,
+                    "end": 24.8,
+                    "rawStart": 59,
+                    "rawEnd": 59,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "有",
+                    "start": 24.34,
+                    "end": 24.8,
+                    "rawStart": 60,
+                    "rawEnd": 60,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "2",
+                    "start": 24.8,
+                    "end": 25.02,
+                    "rawStart": 61,
+                    "rawEnd": 61,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "善",
+                    "start": 25.02,
+                    "end": 25.34,
+                    "rawStart": 62,
+                    "rawEnd": 62,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 25.34,
+                    "end": 25.68,
+                    "rawStart": 63,
+                    "rawEnd": 63,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "“除了神一位之外,再没有良善的。”"
+            }
+          }
+        }
+      }
     },
     {
       "start": 32.03,
-      "end": 98.09,
+      "end": 95.85,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "在上帝创造万有以前这句话是真实可信的在祂创造了万千蒙福的圣洁的天上受造之物后这句话所藏的真理也没",
-      "confidence": 0.899
+      "confidence": 0.906,
+      "quality": {
+        "coverage": 0.904,
+        "coherentCoverage": 0.888,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 32.03,
+        "previousEnd": 95.85,
+        "previousConfidence": 0.906
+      }
     },
     {
-      "start": 98.09,
-      "end": 100.35,
-      "kind": "heading",
-      "targetIndex": 4,
-      "targetText": "堕落的人必须重生",
-      "confidence": 0.933
-    },
-    {
-      "start": 100.35,
-      "end": 174.54,
+      "start": 101.89,
+      "end": 172.75,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "在创造万物时上帝将祂的灵吹进亚当的鼻孔里他就成为有上帝形像和样式的人要使堕落的人重新归向上帝上帝",
-      "confidence": 0.932
+      "confidence": 0.943,
+      "quality": {
+        "coverage": 0.939,
+        "coherentCoverage": 0.926,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 101.89,
+        "previousEnd": 172.75,
+        "previousConfidence": 0.943
+      }
     },
     {
-      "start": 174.54,
-      "end": 178.84,
-      "kind": "heading",
-      "targetIndex": 6,
-      "targetText": "真正的基督信仰是与基督相联",
-      "confidence": 0.88
-    },
-    {
-      "start": 178.84,
-      "end": 272.32,
+      "start": 180.82,
+      "end": 269.58,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "真正的基督信仰是不断地藉着基督完完全全地倚靠上帝从而活出所有的生命亮光和美德但是撒但的虚假宗教则",
-      "confidence": 0.91
+      "confidence": 0.925,
+      "quality": {
+        "coverage": 0.929,
+        "coherentCoverage": 0.906,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\靠圣灵行事\\1.mp3.json",
+          "transcriptSha256": "2a2a8f27360e8e58e49d848cd5d2f99cf479de07379cd76ef739a3a92049f2b3",
+          "verified": true,
+          "time": 180.82,
+          "expectedPhrase": "真正的基督信仰是不断地藉着基督，完完全全地倚靠神，从而活出所有的生命、亮光和美德",
+          "actualPhrase": "真正的基督信仰是不断的借",
+          "edgeAnchor": "真正的基督信仰是不断地借",
+          "evidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 0.833,
+            "localSimilarity": 0.833,
+            "localText": "真正的基督信仰是不断地借着基督完完全全地倚靠上帝",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false
+          },
+          "window": [
+            166.84,
+            190.84
+          ],
+          "segments": [
+            {
+              "start": 166.63,
+              "end": 168.61,
+              "text": "变成另一个亚当一样",
+              "words": [
+                {
+                  "start": 166.63,
+                  "end": 166.89,
+                  "text": "变",
+                  "probability": 0.9977380931377411
+                },
+                {
+                  "start": 166.89,
+                  "end": 167.23,
+                  "text": "成",
+                  "probability": 0.9946532249450684
+                },
+                {
+                  "start": 167.23,
+                  "end": 167.55,
+                  "text": "另",
+                  "probability": 0.9732672572135925
+                },
+                {
+                  "start": 167.55,
+                  "end": 167.75,
+                  "text": "一个",
+                  "probability": 0.9861682057380676
+                },
+                {
+                  "start": 167.75,
+                  "end": 167.93,
+                  "text": "亚",
+                  "probability": 0.7216976284980774
+                },
+                {
+                  "start": 167.93,
+                  "end": 168.13,
+                  "text": "当",
+                  "probability": 0.9869526624679565
+                },
+                {
+                  "start": 168.13,
+                  "end": 168.41,
+                  "text": "一",
+                  "probability": 0.9906753301620483
+                },
+                {
+                  "start": 168.41,
+                  "end": 168.61,
+                  "text": "样",
+                  "probability": 0.9997796416282654
+                }
+              ]
+            },
+            {
+              "start": 168.61,
+              "end": 172.75,
+              "text": "是不能叫人從得屬神的生命的",
+              "words": [
+                {
+                  "start": 168.61,
+                  "end": 169.37,
+                  "text": "是",
+                  "probability": 0.5660345554351807
+                },
+                {
+                  "start": 169.37,
+                  "end": 169.83,
+                  "text": "不能",
+                  "probability": 0.937076210975647
+                },
+                {
+                  "start": 169.83,
+                  "end": 170.13,
+                  "text": "叫",
+                  "probability": 0.731435239315033
+                },
+                {
+                  "start": 170.13,
+                  "end": 170.43,
+                  "text": "人",
+                  "probability": 0.9950222969055176
+                },
+                {
+                  "start": 170.43,
+                  "end": 170.87,
+                  "text": "從",
+                  "probability": 0.5344005823135376
+                },
+                {
+                  "start": 170.87,
+                  "end": 171.27,
+                  "text": "得",
+                  "probability": 0.7692895531654358
+                },
+                {
+                  "start": 171.27,
+                  "end": 171.65,
+                  "text": "屬",
+                  "probability": 0.6659022867679596
+                },
+                {
+                  "start": 171.65,
+                  "end": 171.93,
+                  "text": "神",
+                  "probability": 0.6879932880401611
+                },
+                {
+                  "start": 171.93,
+                  "end": 172.07,
+                  "text": "的",
+                  "probability": 0.9917004704475403
+                },
+                {
+                  "start": 172.07,
+                  "end": 172.27,
+                  "text": "生",
+                  "probability": 0.9854435324668884
+                },
+                {
+                  "start": 172.27,
+                  "end": 172.51,
+                  "text": "命",
+                  "probability": 0.9997101426124573
+                },
+                {
+                  "start": 172.51,
+                  "end": 172.75,
+                  "text": "的",
+                  "probability": 0.9457988739013672
+                }
+              ]
+            },
+            {
+              "start": 174.54,
+              "end": 179.18,
+              "text": "真正的基督信仰是與基督相連",
+              "words": [
+                {
+                  "start": 174.54,
+                  "end": 175.44,
+                  "text": "真",
+                  "probability": 0.3992754817008972
+                },
+                {
+                  "start": 175.44,
+                  "end": 175.76,
+                  "text": "正",
+                  "probability": 0.9984592199325562
+                },
+                {
+                  "start": 175.76,
+                  "end": 175.96,
+                  "text": "的",
+                  "probability": 0.9950942993164062
+                },
+                {
+                  "start": 175.96,
+                  "end": 176.18,
+                  "text": "基",
+                  "probability": 0.9253802299499512
+                },
+                {
+                  "start": 176.18,
+                  "end": 176.32,
+                  "text": "督",
+                  "probability": 0.9901908934116364
+                },
+                {
+                  "start": 176.32,
+                  "end": 176.52,
+                  "text": "信",
+                  "probability": 0.9766932129859924
+                },
+                {
+                  "start": 176.52,
+                  "end": 176.82,
+                  "text": "仰",
+                  "probability": 0.9295309782028198
+                },
+                {
+                  "start": 176.82,
+                  "end": 177.48,
+                  "text": "是",
+                  "probability": 0.904022753238678
+                },
+                {
+                  "start": 177.48,
+                  "end": 178.02,
+                  "text": "與",
+                  "probability": 0.9802276492118835
+                },
+                {
+                  "start": 178.02,
+                  "end": 178.44,
+                  "text": "基",
+                  "probability": 0.997698962688446
+                },
+                {
+                  "start": 178.44,
+                  "end": 178.62,
+                  "text": "督",
+                  "probability": 0.9990711212158203
+                },
+                {
+                  "start": 178.62,
+                  "end": 178.84,
+                  "text": "相",
+                  "probability": 0.9926885962486267
+                },
+                {
+                  "start": 178.84,
+                  "end": 179.18,
+                  "text": "連",
+                  "probability": 0.8192645907402039
+                }
+              ]
+            },
+            {
+              "start": 180.82,
+              "end": 184.86,
+              "text": "真正的基督信仰是不斷的借著基督",
+              "words": [
+                {
+                  "start": 180.82,
+                  "end": 181.4,
+                  "text": "真",
+                  "probability": 0.9589815735816956
+                },
+                {
+                  "start": 181.4,
+                  "end": 181.64,
+                  "text": "正",
+                  "probability": 0.999943733215332
+                },
+                {
+                  "start": 181.64,
+                  "end": 181.78,
+                  "text": "的",
+                  "probability": 0.997300922870636
+                },
+                {
+                  "start": 181.78,
+                  "end": 181.96,
+                  "text": "基",
+                  "probability": 0.9992309808731079
+                },
+                {
+                  "start": 181.96,
+                  "end": 182.06,
+                  "text": "督",
+                  "probability": 0.9993160367012024
+                },
+                {
+                  "start": 182.06,
+                  "end": 182.26,
+                  "text": "信",
+                  "probability": 0.9995865225791931
+                },
+                {
+                  "start": 182.26,
+                  "end": 182.58,
+                  "text": "仰",
+                  "probability": 0.999416321516037
+                },
+                {
+                  "start": 182.58,
+                  "end": 183.16,
+                  "text": "是",
+                  "probability": 0.9765824675559998
+                },
+                {
+                  "start": 183.16,
+                  "end": 183.64,
+                  "text": "不",
+                  "probability": 0.9920526742935181
+                },
+                {
+                  "start": 183.64,
+                  "end": 183.9,
+                  "text": "斷",
+                  "probability": 0.9999291300773621
+                },
+                {
+                  "start": 183.9,
+                  "end": 184.06,
+                  "text": "的",
+                  "probability": 0.5333372354507446
+                },
+                {
+                  "start": 184.06,
+                  "end": 184.2,
+                  "text": "借",
+                  "probability": 0.8482295572757721
+                },
+                {
+                  "start": 184.2,
+                  "end": 184.36,
+                  "text": "著",
+                  "probability": 0.7035825848579407
+                },
+                {
+                  "start": 184.36,
+                  "end": 184.62,
+                  "text": "基",
+                  "probability": 0.9991938471794128
+                },
+                {
+                  "start": 184.62,
+                  "end": 184.86,
+                  "text": "督",
+                  "probability": 0.9993751645088196
+                }
+              ]
+            },
+            {
+              "start": 184.86,
+              "end": 187.8,
+              "text": "完完全全的依靠神",
+              "words": [
+                {
+                  "start": 184.86,
+                  "end": 185.66,
+                  "text": "完",
+                  "probability": 0.8244554996490479
+                },
+                {
+                  "start": 185.66,
+                  "end": 186.46,
+                  "text": "完全",
+                  "probability": 0.7262939810752869
+                },
+                {
+                  "start": 186.46,
+                  "end": 186.94,
+                  "text": "全",
+                  "probability": 0.9967212080955505
+                },
+                {
+                  "start": 186.94,
+                  "end": 187.1,
+                  "text": "的",
+                  "probability": 0.544629693031311
+                },
+                {
+                  "start": 187.1,
+                  "end": 187.22,
+                  "text": "依",
+                  "probability": 0.769058108329773
+                },
+                {
+                  "start": 187.22,
+                  "end": 187.5,
+                  "text": "靠",
+                  "probability": 0.9997064173221588
+                },
+                {
+                  "start": 187.5,
+                  "end": 187.8,
+                  "text": "神",
+                  "probability": 0.9926300048828125
+                }
+              ]
+            },
+            {
+              "start": 187.8,
+              "end": 191.14,
+              "text": "從而活出所有的生命",
+              "words": [
+                {
+                  "start": 187.8,
+                  "end": 188.7,
+                  "text": "從",
+                  "probability": 0.8870412707328796
+                },
+                {
+                  "start": 188.7,
+                  "end": 189.0,
+                  "text": "而",
+                  "probability": 0.9958875775337219
+                },
+                {
+                  "start": 189.0,
+                  "end": 189.36,
+                  "text": "活",
+                  "probability": 0.9954999089241028
+                },
+                {
+                  "start": 189.36,
+                  "end": 189.66,
+                  "text": "出",
+                  "probability": 0.9987210631370544
+                },
+                {
+                  "start": 189.66,
+                  "end": 190.18,
+                  "text": "所有",
+                  "probability": 0.9852971434593201
+                },
+                {
+                  "start": 190.18,
+                  "end": 190.5,
+                  "text": "的",
+                  "probability": 0.9911312460899353
+                },
+                {
+                  "start": 190.5,
+                  "end": 190.76,
+                  "text": "生",
+                  "probability": 0.9976140260696411
+                },
+                {
+                  "start": 190.76,
+                  "end": 191.14,
+                  "text": "命",
+                  "probability": 0.9998212456703186
+                }
+              ]
+            }
+          ],
+          "source": "true-edge-local-anchor-review",
+          "listenedByAgent": false,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "reason": "真正首尾文字锚点及词时间确认；局部单字识别差异不要求全文逐字相同。",
+          "audioSha256": "c665eebc70c47adbb7abd67b67ece42b26f4e97c8d0a800e5f1c116d31561693"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 178.84,
+        "previousEnd": 269.58,
+        "previousConfidence": 0.925
+      },
+      "boundaryCorrections": [
+        {
+          "book": "靠圣灵行事",
+          "page": "01_第一篇-神内住的圣灵.md",
+          "audio": "1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\靠圣灵行事\\01_第一篇-神内住的圣灵\\audio-01.json",
+          "targetIndex": 7,
+          "edge": "start",
+          "previousTime": 178.84,
+          "time": 180.82,
+          "kind": "local-edge-confirmation",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "真正首尾文字锚点及词时间确认；局部单字识别差异不要求全文逐字相同。"
+        }
+      ]
     },
     {
-      "start": 272.32,
-      "end": 279.58,
-      "kind": "heading",
-      "targetIndex": 8,
-      "targetText": "人的救恩只能靠造物主和人的灵和好联合",
-      "confidence": 1.0
-    },
-    {
-      "start": 279.58,
-      "end": 367.52,
+      "start": 280.14,
+      "end": 365.68,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "人起初的堕落带来人上帝间的分离人也同时失去了在上帝里面的生命亮光和美德所以人的救恩只能靠造物主和",
-      "confidence": 0.863
+      "confidence": 0.946,
+      "quality": {
+        "coverage": 0.944,
+        "coherentCoverage": 0.936,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "discarded detached start matches"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 280.14,
+        "previousEnd": 365.68,
+        "previousConfidence": 0.946
+      }
     },
     {
-      "start": 367.52,
-      "end": 373.82,
-      "kind": "heading",
-      "targetIndex": 10,
-      "targetText": "圣经必须经过圣灵的启迪作工才能进入属灵的实际",
-      "confidence": 0.619
-    },
-    {
-      "start": 373.82,
-      "end": 457.03,
+      "start": 375.3,
+      "end": 454.64,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "无论你读哪一章圣经就算是存着前所未有的喜乐你也定能会感到贫乏空虚依然故我除非那段经文能使你完全归",
-      "confidence": 0.905
-    },
-    {
-      "start": 457.03,
-      "end": 463.28,
-      "kind": "heading",
-      "targetIndex": 12,
-      "targetText": "出于圣灵的才能蒙上帝悦纳",
-      "confidence": 0.917
+      "confidence": 0.918,
+      "quality": {
+        "coverage": 0.916,
+        "coherentCoverage": 0.893,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 375.3,
+        "previousEnd": 454.64,
+        "previousConfidence": 0.918
+      }
     },
     {
       "start": 463.28,
-      "end": 551.76,
+      "end": 550.98,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "如果拿走了圣灵的启示或者说让这启示暂停一会儿那么就再找不到任何宗教行为或情感是可以长出上帝圣的东",
-      "confidence": 0.867
+      "confidence": 0.923,
+      "quality": {
+        "coverage": 0.925,
+        "coherentCoverage": 0.902,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\靠圣灵行事\\1.mp3.json",
+          "transcriptSha256": "2a2a8f27360e8e58e49d848cd5d2f99cf479de07379cd76ef739a3a92049f2b3",
+          "phraseChars": 12,
+          "candidate": 550.98,
+          "expectedPhrase": "就这份圣灵感召的爱约翰说",
+          "actualPhrase": "就这份圣灵感照的爱遇寒说",
+          "phoneticPhrase": [
+            "jiu",
+            "zhe",
+            "fen",
+            "sheng",
+            "ling",
+            "gan",
+            "zhao",
+            "de",
+            "ai",
+            "yue",
+            "han",
+            "shuo"
+          ],
+          "actualPhoneticPhrase": [
+            "jiu",
+            "zhe",
+            "fen",
+            "sheng",
+            "ling",
+            "gan",
+            "zhao",
+            "de",
+            "ai",
+            "yu",
+            "han",
+            "shuo"
+          ],
+          "verified": true,
+          "time": 550.98,
+          "boundedPhonetic": true,
+          "exactEndpointPhonemes": 2,
+          "maxInternalPhoneticDifferences": 2,
+          "phoneticDifferences": [
+            9
+          ],
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "就",
+              "start": 547.08,
+              "end": 547.68,
+              "rawStart": 1556,
+              "rawEnd": 1556,
+              "precision": "word"
+            },
+            {
+              "text": "这",
+              "start": 547.68,
+              "end": 548.1,
+              "rawStart": 1557,
+              "rawEnd": 1557,
+              "precision": "word"
+            },
+            {
+              "text": "份",
+              "start": 548.1,
+              "end": 548.26,
+              "rawStart": 1558,
+              "rawEnd": 1558,
+              "precision": "word"
+            },
+            {
+              "text": "圣",
+              "start": 548.26,
+              "end": 548.58,
+              "rawStart": 1559,
+              "rawEnd": 1559,
+              "precision": "word"
+            },
+            {
+              "text": "灵",
+              "start": 548.58,
+              "end": 548.88,
+              "rawStart": 1560,
+              "rawEnd": 1560,
+              "precision": "word"
+            },
+            {
+              "text": "感",
+              "start": 548.88,
+              "end": 549.18,
+              "rawStart": 1561,
+              "rawEnd": 1561,
+              "precision": "word"
+            },
+            {
+              "text": "照",
+              "start": 549.18,
+              "end": 549.44,
+              "rawStart": 1562,
+              "rawEnd": 1562,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 549.44,
+              "end": 549.58,
+              "rawStart": 1563,
+              "rawEnd": 1563,
+              "precision": "word"
+            },
+            {
+              "text": "爱",
+              "start": 549.58,
+              "end": 549.9,
+              "rawStart": 1564,
+              "rawEnd": 1564,
+              "precision": "word"
+            },
+            {
+              "text": "遇",
+              "start": 549.9,
+              "end": 550.54,
+              "rawStart": 1565,
+              "rawEnd": 1565,
+              "precision": "word"
+            },
+            {
+              "text": "寒",
+              "start": 550.54,
+              "end": 550.72,
+              "rawStart": 1566,
+              "rawEnd": 1566,
+              "precision": "word"
+            },
+            {
+              "text": "说",
+              "start": 550.72,
+              "end": 550.98,
+              "rawStart": 1567,
+              "rawEnd": 1567,
+              "precision": "word"
+            }
+          ],
+          "source": "bounded-local-phonetic-differences-original-word-times",
+          "listenedByAgent": false,
+          "audioSha256": "c665eebc70c47adbb7abd67b67ece42b26f4e97c8d0a800e5f1c116d31561693",
+          "reason": "实际首/尾2个音节贴边相同，12音节局部短句最多2处内部识别差异；完整词边界、源段及录音唯一性、数字一致、停顿与相邻时间均核验，不逐字检查正文中间。"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 463.28,
+        "previousEnd": 551.76,
+        "previousConfidence": 0.923
+      },
+      "boundaryCorrections": [
+        {
+          "book": "靠圣灵行事",
+          "page": "01_第一篇-神内住的圣灵.md",
+          "audio": "1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\靠圣灵行事\\01_第一篇-神内住的圣灵\\audio-01.json",
+          "targetIndex": 13,
+          "edge": "end",
+          "previousTime": 551.76,
+          "time": 550.98,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
       "start": 551.76,
-      "end": 556.96,
+      "end": 556.34,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "住在爱里面的就是住在上帝里面",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 551.76,
+        "previousEnd": 556.34,
+        "previousConfidence": 1.0
+      }
     },
     {
       "start": 556.96,
-      "end": 575.02,
+      "end": 572.74,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "假设这是出于别的灵的另一种爱而不是出于上帝的圣灵在我们里面散发的爱那么住在这种爱里的人是绝不可能",
-      "confidence": 1.0
-    },
-    {
-      "start": 575.02,
-      "end": 581.86,
-      "kind": "heading",
-      "targetIndex": 16,
-      "targetText": "圣灵的启迪和赐力与重生得救一样重要",
-      "confidence": 0.765
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 556.96,
+        "previousEnd": 572.74,
+        "previousConfidence": 1.0
+      }
     },
     {
       "start": 581.86,
-      "end": 678.9,
+      "end": 677.53,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "人只有把决志信主时与上帝建立的那生命关系维持下去才能保持他在得赎身份中的美善就是说圣灵在得赎者的",
-      "confidence": 0.818
-    },
-    {
-      "start": 678.9,
-      "end": 688.98,
-      "kind": "heading",
-      "targetIndex": 18,
-      "targetText": "顺服圣灵才能活在主里面否则就活在黑暗势力中",
-      "confidence": 0.905
+      "confidence": 0.904,
+      "quality": {
+        "coverage": 0.902,
+        "coherentCoverage": 0.877,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 581.86,
+        "previousEnd": 677.53,
+        "previousConfidence": 0.904
+      }
     },
     {
       "start": 688.98,
-      "end": 756.3,
+      "end": 753.9,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "人所得到的上帝圣的生命只有在上帝里面并从上帝里面成长永远不会在人的旧生命里面成长因此由于人抗拒圣",
-      "confidence": 0.875
+      "confidence": 0.954,
+      "quality": {
+        "coverage": 0.951,
+        "coherentCoverage": 0.94,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 688.98,
+        "previousEnd": 753.9,
+        "previousConfidence": 0.954
+      }
     },
     {
-      "start": 756.3,
-      "end": 759.34,
-      "kind": "heading",
-      "targetIndex": 20,
-      "targetText": "遵上帝旨是受造物的天职",
-      "confidence": 0.8
-    },
-    {
-      "start": 759.34,
-      "end": 877.65,
+      "start": 762.27,
+      "end": 876.39,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "除了上帝完备的旨意以外没有别的东西是智慧的圣洁的公平的这跟只有上帝是无限的永远的一般真确因此无论",
-      "confidence": 0.924
+      "confidence": 0.925,
+      "quality": {
+        "coverage": 0.921,
+        "coherentCoverage": 0.909,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 762.27,
+        "previousEnd": 876.39,
+        "previousConfidence": 0.925
+      }
     },
     {
       "start": 877.65,
-      "end": 953.08,
+      "end": 949.63,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "如果你认为自己的意愿有别于上帝的旨意是正确的就像你夸口说在上帝的宇宙中你未曾得着能力两者同样是对",
-      "confidence": 0.872
-    },
-    {
-      "start": 953.08,
-      "end": 960.42,
-      "kind": "heading",
-      "targetIndex": 23,
-      "targetText": "信上帝必须信上帝无限智慧和爱的计划",
-      "confidence": 1.0
+      "confidence": 0.937,
+      "quality": {
+        "coverage": 0.935,
+        "coherentCoverage": 0.93,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 877.65,
+        "previousEnd": 949.63,
+        "previousConfidence": 0.937
+      }
     },
     {
       "start": 960.42,
-      "end": 1091.98,
+      "end": 1090.34,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "这是基督徒与上帝之间的真正关系因为若不相信上帝有无限的爱和智慧就算不上是信祂了当人确信上帝对他生",
-      "confidence": 0.912
-    },
-    {
-      "start": 1091.98,
-      "end": 1103.36,
-      "kind": "heading",
-      "targetIndex": 25,
-      "targetText": "临到上帝儿女的事没有偶然的极需因信把自己交在上帝的大能手中",
-      "confidence": 0.828
+      "confidence": 0.964,
+      "quality": {
+        "coverage": 0.97,
+        "coherentCoverage": 0.954,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 960.42,
+        "previousEnd": 1090.34,
+        "previousConfidence": 0.964
+      }
     },
     {
       "start": 1103.36,
-      "end": 1236.65,
+      "end": 1233.66,
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "对相信和顺服上帝的儿女来说没有事情是偶然的正如宇宙的创造并非偶然一样这是肯定的那么基督徒就应当常",
-      "confidence": 0.959
-    },
-    {
-      "start": 1236.65,
-      "end": 1244.77,
-      "kind": "heading",
-      "targetIndex": 27,
-      "targetText": "福音的救恩是要叫人自愿顺服上帝一切的计划",
-      "confidence": 1.0
+      "confidence": 0.959,
+      "quality": {
+        "coverage": 0.96,
+        "coherentCoverage": 0.949,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1103.36,
+        "previousEnd": 1233.66,
+        "previousConfidence": 0.959
+      }
     },
     {
       "start": 1244.77,
-      "end": 1343.47,
+      "end": 1341.81,
       "kind": "paragraph",
       "targetIndex": 28,
       "targetText": "如果认为上帝救赎的计划最终只为拯救我们免受审判这岂非最自私的想法么反之这计划是要拯救我们免于叛逆",
-      "confidence": 0.98
-    },
-    {
-      "start": 1343.47,
-      "end": 1352.89,
-      "kind": "heading",
-      "targetIndex": 29,
-      "targetText": "拒绝圣灵的作为和能力使教会偏离正道",
-      "confidence": 0.765
+      "confidence": 0.986,
+      "quality": {
+        "coverage": 0.986,
+        "coherentCoverage": 0.986,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1244.77,
+        "previousEnd": 1341.81,
+        "previousConfidence": 0.986
+      }
     },
     {
       "start": 1352.89,
-      "end": 1425.82,
+      "end": 1422.99,
       "kind": "paragraph",
       "targetIndex": 30,
       "targetText": "对于上帝的旨意缺乏完全的顺服又不知道救恩只能藉着内住的圣灵大能使基督的生命在得赎的心内成形这两点",
-      "confidence": 0.743
+      "confidence": 0.924,
+      "quality": {
+        "coverage": 0.922,
+        "coherentCoverage": 0.878,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\靠圣灵行事\\1.mp3.json",
+          "transcriptSha256": "2a2a8f27360e8e58e49d848cd5d2f99cf479de07379cd76ef739a3a92049f2b3",
+          "phraseChars": 12,
+          "candidate": 1352.89,
+          "expectedPhrase": "对于神的旨意缺乏完全的顺",
+          "actualPhrase": "对于圣的旨意缺乏完全的顺",
+          "phoneticPhrase": [
+            "dui",
+            "yu",
+            "shen",
+            "de",
+            "zhi",
+            "yi",
+            "que",
+            "fa",
+            "wan",
+            "quan",
+            "de",
+            "shun"
+          ],
+          "actualPhoneticPhrase": [
+            "dui",
+            "yu",
+            "sheng",
+            "de",
+            "zhi",
+            "yi",
+            "que",
+            "fa",
+            "wan",
+            "quan",
+            "de",
+            "shun"
+          ],
+          "verified": true,
+          "time": 1352.89,
+          "boundedPhonetic": true,
+          "exactEndpointPhonemes": 2,
+          "maxInternalPhoneticDifferences": 2,
+          "phoneticDifferences": [
+            2
+          ],
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "对",
+              "start": 1352.89,
+              "end": 1353.09,
+              "rawStart": 3811,
+              "rawEnd": 3811,
+              "precision": "word"
+            },
+            {
+              "text": "于",
+              "start": 1353.09,
+              "end": 1353.33,
+              "rawStart": 3812,
+              "rawEnd": 3812,
+              "precision": "word"
+            },
+            {
+              "text": "圣",
+              "start": 1353.33,
+              "end": 1353.65,
+              "rawStart": 3813,
+              "rawEnd": 3813,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 1353.65,
+              "end": 1353.81,
+              "rawStart": 3814,
+              "rawEnd": 3814,
+              "precision": "word"
+            },
+            {
+              "text": "旨",
+              "start": 1353.81,
+              "end": 1354.03,
+              "rawStart": 3815,
+              "rawEnd": 3815,
+              "precision": "word"
+            },
+            {
+              "text": "意",
+              "start": 1354.03,
+              "end": 1354.27,
+              "rawStart": 3816,
+              "rawEnd": 3816,
+              "precision": "word"
+            },
+            {
+              "text": "缺",
+              "start": 1354.27,
+              "end": 1354.65,
+              "rawStart": 3817,
+              "rawEnd": 3817,
+              "precision": "word"
+            },
+            {
+              "text": "乏",
+              "start": 1354.65,
+              "end": 1354.95,
+              "rawStart": 3818,
+              "rawEnd": 3818,
+              "precision": "word"
+            },
+            {
+              "text": "完",
+              "start": 1354.95,
+              "end": 1355.69,
+              "rawStart": 3819,
+              "rawEnd": 3819,
+              "precision": "word"
+            },
+            {
+              "text": "全",
+              "start": 1354.95,
+              "end": 1355.69,
+              "rawStart": 3820,
+              "rawEnd": 3820,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 1355.69,
+              "end": 1355.91,
+              "rawStart": 3821,
+              "rawEnd": 3821,
+              "precision": "word"
+            },
+            {
+              "text": "顺",
+              "start": 1355.91,
+              "end": 1356.07,
+              "rawStart": 3822,
+              "rawEnd": 3822,
+              "precision": "word"
+            }
+          ],
+          "source": "bounded-local-phonetic-differences-original-word-times",
+          "listenedByAgent": false,
+          "audioSha256": "c665eebc70c47adbb7abd67b67ece42b26f4e97c8d0a800e5f1c116d31561693",
+          "reason": "实际首/尾2个音节贴边相同，12音节局部短句最多2处内部识别差异；完整词边界、源段及录音唯一性、数字一致、停顿与相邻时间均核验，不逐字检查正文中间。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1352.89,
+        "previousEnd": 1422.99,
+        "previousConfidence": 0.924
+      },
+      "boundaryCorrections": [
+        {
+          "book": "靠圣灵行事",
+          "page": "01_第一篇-神内住的圣灵.md",
+          "audio": "1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\靠圣灵行事\\01_第一篇-神内住的圣灵\\audio-01.json",
+          "targetIndex": 30,
+          "edge": "start",
+          "previousTime": 1352.89,
+          "time": 1352.89,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
-      "start": 1425.82,
-      "end": 1432.25,
-      "kind": "heading",
-      "targetIndex": 31,
-      "targetText": "圣灵的降临是要成就基督所作的救恩",
-      "confidence": 0.625
-    },
-    {
-      "start": 1432.25,
-      "end": 1468.25,
+      "start": 1433.65,
+      "end": 1468.75,
       "kind": "paragraph",
       "targetIndex": 32,
       "targetText": "圣灵的降临是要成全福音正如基督的降临为要成全律法和先知书一样若基督没有降临律法书中的一切预表和人",
-      "confidence": 0.69
+      "confidence": 0.814,
+      "quality": {
+        "coverage": 0.802,
+        "coherentCoverage": 0.782,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 3,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "discarded detached start matches",
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 0.792,
+          "localSimilarity": 0.844,
+          "localText": "圣灵的降临是要成全福音正如基督的降临为要成全律法",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1432.25,
+        "previousEnd": 1468.75,
+        "previousConfidence": 0.822
+      }
     },
     {
-      "start": 1468.25,
-      "end": 1479.87,
+      "start": 1470.39,
+      "end": 1481.19,
       "kind": "paragraph",
       "targetIndex": 33,
       "targetText": "我去是与你们有益的我若不去保惠师就不到你们这里来我若去就差祂来",
-      "confidence": 0.885
+      "confidence": 0.935,
+      "quality": {
+        "coverage": 0.935,
+        "coherentCoverage": 0.871,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.933,
+        "suffixCoverage": 0.933,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1470.39,
+        "previousEnd": 1481.19,
+        "previousConfidence": 0.935
+      }
     },
     {
-      "start": 1479.87,
-      "end": 1505.05,
+      "start": 1482.33,
+      "end": 1503.53,
       "kind": "paragraph",
       "targetIndex": 34,
       "targetText": "从这段话就可清楚证明以上所述非虚没有十字架和复活基督就不能去就是有了这些前奏祂的升天便可以成就因",
-      "confidence": 0.887
+      "confidence": 0.955,
+      "quality": {
+        "coverage": 0.955,
+        "coherentCoverage": 0.955,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1482.33,
+        "previousEnd": 1503.53,
+        "previousConfidence": 0.955
+      }
     },
     {
       "start": 1505.05,
-      "end": 1518.94,
+      "end": 1516.99,
       "kind": "paragraph",
       "targetIndex": 35,
       "targetText": "圣灵的降临是基督的死复活升天的结果对成就基督所作的救恩是十分重要的",
-      "confidence": 0.879
-    },
-    {
-      "start": 1518.94,
-      "end": 1531.78,
-      "kind": "heading",
-      "targetIndex": 36,
-      "targetText": "圣灵在人的灵里内住和工作对人的灵与魂的得救绝对必须",
-      "confidence": 0.92
+      "confidence": 0.882,
+      "quality": {
+        "coverage": 0.882,
+        "coherentCoverage": 0.853,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.882,
+        "suffixCoverage": 0.882,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1505.05,
+        "previousEnd": 1516.99,
+        "previousConfidence": 0.882
+      }
     },
     {
       "start": 1531.78,
@@ -309,7 +2132,234 @@
       "kind": "paragraph",
       "targetIndex": 37,
       "targetText": "基督徒不看重圣灵不藉祂来成就救恩的生命能力难怪他们不能使福音落实就像犹太人不能持守纯净的律法叛教",
-      "confidence": 0.902
+      "confidence": 0.907,
+      "quality": {
+        "coverage": 0.907,
+        "coherentCoverage": 0.883,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\靠圣灵行事\\1.mp3.json",
+          "transcriptSha256": "2a2a8f27360e8e58e49d848cd5d2f99cf479de07379cd76ef739a3a92049f2b3",
+          "candidate": 1600.4,
+          "expectedPhrase": "我们与神连合的得赎光景中",
+          "actualPhrase": "我们与神联合的德属光景中",
+          "phoneticPhrase": [
+            "wo",
+            "men",
+            "yu",
+            "shen",
+            "lian",
+            "he",
+            "de",
+            "de",
+            "shu",
+            "guang",
+            "jing",
+            "zhong"
+          ],
+          "verified": true,
+          "time": 1600.4,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "exact-local-syllables-original-word-times",
+          "phoneticExact": true,
+          "literalEqual": false,
+          "wordTokens": [
+            {
+              "text": "我",
+              "start": 1596.9,
+              "end": 1597.24,
+              "rawStart": 4480,
+              "rawEnd": 4480,
+              "precision": "word"
+            },
+            {
+              "text": "们",
+              "start": 1596.9,
+              "end": 1597.24,
+              "rawStart": 4481,
+              "rawEnd": 4481,
+              "precision": "word"
+            },
+            {
+              "text": "与",
+              "start": 1597.24,
+              "end": 1597.7,
+              "rawStart": 4482,
+              "rawEnd": 4482,
+              "precision": "word"
+            },
+            {
+              "text": "神",
+              "start": 1597.7,
+              "end": 1598.08,
+              "rawStart": 4483,
+              "rawEnd": 4484,
+              "precision": "word"
+            },
+            {
+              "text": "联",
+              "start": 1598.08,
+              "end": 1598.42,
+              "rawStart": 4485,
+              "rawEnd": 4485,
+              "precision": "word"
+            },
+            {
+              "text": "合",
+              "start": 1598.42,
+              "end": 1598.72,
+              "rawStart": 4486,
+              "rawEnd": 4486,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 1598.72,
+              "end": 1598.92,
+              "rawStart": 4487,
+              "rawEnd": 4487,
+              "precision": "word"
+            },
+            {
+              "text": "德",
+              "start": 1598.92,
+              "end": 1599.18,
+              "rawStart": 4488,
+              "rawEnd": 4488,
+              "precision": "word"
+            },
+            {
+              "text": "属",
+              "start": 1599.18,
+              "end": 1599.5,
+              "rawStart": 4489,
+              "rawEnd": 4489,
+              "precision": "word"
+            },
+            {
+              "text": "光",
+              "start": 1599.5,
+              "end": 1599.82,
+              "rawStart": 4490,
+              "rawEnd": 4490,
+              "precision": "word"
+            },
+            {
+              "text": "景",
+              "start": 1599.82,
+              "end": 1600.08,
+              "rawStart": 4491,
+              "rawEnd": 4491,
+              "precision": "word"
+            },
+            {
+              "text": "中",
+              "start": 1600.08,
+              "end": 1600.4,
+              "rawStart": 4492,
+              "rawEnd": 4492,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "audioSha256": "c665eebc70c47adbb7abd67b67ece42b26f4e97c8d0a800e5f1c116d31561693",
+          "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 1531.78,
+        "previousEnd": 1600.4,
+        "previousConfidence": 0.907
+      },
+      "boundaryCorrections": [
+        {
+          "book": "靠圣灵行事",
+          "page": "01_第一篇-神内住的圣灵.md",
+          "audio": "1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\靠圣灵行事\\01_第一篇-神内住的圣灵\\audio-01.json",
+          "targetIndex": 37,
+          "edge": "end",
+          "previousTime": 1600.4,
+          "time": 1600.4,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (5 trailing chars, coverage 0.333): target 1: “除了神一位之外，再没有良善的。”（可 10:18）",
+    "low confidence (0.645, coverage 0.526): target 1: “除了神一位之外，再没有良善的。”（可 10:18）",
+    "unverified start anchor: target 1: “除了神一位之外，再没有良善的。”（可 10:18）",
+    "unverified end anchor: target 1: “除了神一位之外，再没有良善的。”（可 10:18）",
+    "unverified start anchor (detached boundary context): target 7: 真正的基督信仰是不断地藉着基督，完完全全地倚靠神，从而活出所有的生命、亮光和美德，但是撒但的虚假",
+    "unverified end anchor: target 13: 如果拿走了圣灵的启示，或者说，让这启示暂停一会儿，那么就再找不到任何宗教行为或情感，是可以长出神",
+    "unverified end anchor (detached numeric label): target 17: 人只有把决志信主时，与神建立的那生命关系维持下去，才能保持他在得赎身份中的美善。就是说，圣灵在得",
+    "unverified start anchor: target 30: 对于神的旨意缺乏完全的顺服，又不知道救恩只能藉着内住的圣灵大能，使基督的生命在得赎的心内成形，这",
+    "unverified start anchor: target 35: 圣灵的降临是基督的死、复活、升天的结果，对成就基督所作的救恩是十分重要的。",
+    "unverified end anchor: target 37: 基督徒不看重圣灵，不藉祂来成就救恩的生命、能力，难怪他们不能使福音落实，就像犹太人不能持守纯净的",
+    "repair unverified start (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified start (previous-sync): target 7",
+    "repair unverified end (previous-sync): target 13",
+    "repair unverified start (previous-sync): target 30",
+    "repair unverified end (previous-sync): target 37",
+    "local context confirmed start: target 7; 真正首尾文字锚点及词时间确认；局部单字识别差异不要求全文逐字相同。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 3,
+    "unverifiedEnds": 3,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "664c62d09b6a9905895828a53d96d80db1a72de2292526be178031c0ab8ff8ac",
+  "repairCueDigest": "520905442c6f6015b6783580e58c5450bac8e1c74decf7804f9fc9dea317b146",
+  "previousAlignmentWarnings": [],
+  "currentSiteConfirmation": {
+    "model": "medium",
+    "audioSha256": "c665eebc70c47adbb7abd67b67ece42b26f4e97c8d0a800e5f1c116d31561693",
+    "audioDuration": 1601.752336,
+    "windows": [
+      [
+        663.32,
+        691.62
+      ]
+    ]
+  }
 }

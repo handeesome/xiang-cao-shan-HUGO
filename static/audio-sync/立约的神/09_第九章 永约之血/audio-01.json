@@ -8,36 +8,854 @@
   "audioDuration": 694.118,
   "cues": [
     {
-      "start": 0.08,
-      "end": 11.94,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第九章永约之血",
-      "confidence": 0.857
-    },
-    {
       "start": 11.94,
-      "end": 26.3,
+      "end": 18.18,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "你看这是立约之血是耶和华与你们立约的凭据出248来920",
-      "confidence": 0.622
+      "confidence": 0.384,
+      "quality": {
+        "coverage": 0.5,
+        "coherentCoverage": 0.214,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.714,
+        "suffixCoverage": 0.286,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 9,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\立约的神\\9.mp3.json",
+          "transcriptSha256": "4746bd13856cc99a25431fe049b47c5b9aad891aa401229fa9cb9f108edf16d2",
+          "source": "context-reviewed-existing-raw-words",
+          "contextUsed": true,
+          "rawSegments": [
+            {
+              "start": 14.72,
+              "end": 18.18,
+              "text": "是依和华与你们立曰的凭句",
+              "words": [
+                {
+                  "start": 14.72,
+                  "end": 15.54,
+                  "text": "是",
+                  "probability": 0.8777124881744385
+                },
+                {
+                  "start": 15.54,
+                  "end": 15.92,
+                  "text": "依",
+                  "probability": 0.6430366635322571
+                },
+                {
+                  "start": 15.92,
+                  "end": 16.14,
+                  "text": "和",
+                  "probability": 0.5529628396034241
+                },
+                {
+                  "start": 16.14,
+                  "end": 16.44,
+                  "text": "华",
+                  "probability": 0.9753203988075256
+                },
+                {
+                  "start": 16.44,
+                  "end": 16.78,
+                  "text": "与",
+                  "probability": 0.9611608386039734
+                },
+                {
+                  "start": 16.78,
+                  "end": 17.04,
+                  "text": "你们",
+                  "probability": 0.9792448282241821
+                },
+                {
+                  "start": 17.04,
+                  "end": 17.32,
+                  "text": "立",
+                  "probability": 0.9959736466407776
+                },
+                {
+                  "start": 17.32,
+                  "end": 17.48,
+                  "text": "曰",
+                  "probability": 0.9943011701107025
+                },
+                {
+                  "start": 17.48,
+                  "end": 17.62,
+                  "text": "的",
+                  "probability": 0.9961574673652649
+                },
+                {
+                  "start": 17.62,
+                  "end": 17.86,
+                  "text": "凭",
+                  "probability": 0.8471179306507111
+                },
+                {
+                  "start": 17.86,
+                  "end": 18.18,
+                  "text": "句",
+                  "probability": 0.30712929368019104
+                }
+              ]
+            }
+          ],
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "reason": "本段立约的凭据，词稿凭句，18.18结束；之后再请看和两条下一段出处不属于本段。",
+          "audioSha256": "0d543d23a9ab73d2cf29d2fd988deb752be24053c7ee6912858bd29bf8691368",
+          "listenedByAgent": false
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 11.94,
+        "previousEnd": 26.3,
+        "previousConfidence": 0.622
+      },
+      "boundaryCorrections": [
+        {
+          "book": "立约的神",
+          "page": "09_第九章 永约之血.md",
+          "audio": "9.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\立约的神\\09_第九章 永约之血\\audio-01.json",
+          "targetIndex": 1,
+          "edge": "end",
+          "previousTime": 26.3,
+          "time": 18.18,
+          "kind": "spoken-order-context-review",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "本段立约的凭据，词稿凭句，18.18结束；之后再请看和两条下一段出处不属于本段。"
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 11.94,
+            "time": 11.94,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\立约的神\\9.mp3.json",
+              "sha256": "5ebd5f7b7cbd6fb77259edc9723dbd696e6216e33b0436b889e262331d875343",
+              "anchor": {
+                "time": 11.94,
+                "score": 0.8342,
+                "ratio": 0.8462,
+                "expected": "nikanzheshiliyuezhixueshiyehehuayuni",
+                "actual": "你看立曰之血是依和华与你",
+                "span": [
+                  11.94,
+                  17.04
+                ],
+                "tokens": [
+                  {
+                    "text": "你",
+                    "start": 11.94,
+                    "end": 12.46,
+                    "rawStart": 28,
+                    "rawEnd": 28,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "看",
+                    "start": 11.94,
+                    "end": 12.46,
+                    "rawStart": 29,
+                    "rawEnd": 29,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "立",
+                    "start": 13.12,
+                    "end": 13.82,
+                    "rawStart": 30,
+                    "rawEnd": 30,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "曰",
+                    "start": 13.82,
+                    "end": 14.08,
+                    "rawStart": 31,
+                    "rawEnd": 31,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "之",
+                    "start": 14.08,
+                    "end": 14.34,
+                    "rawStart": 32,
+                    "rawEnd": 32,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "血",
+                    "start": 14.34,
+                    "end": 14.72,
+                    "rawStart": 33,
+                    "rawEnd": 33,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 14.72,
+                    "end": 15.54,
+                    "rawStart": 34,
+                    "rawEnd": 34,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "依",
+                    "start": 15.54,
+                    "end": 15.92,
+                    "rawStart": 35,
+                    "rawEnd": 35,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "和",
+                    "start": 15.92,
+                    "end": 16.14,
+                    "rawStart": 36,
+                    "rawEnd": 36,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "华",
+                    "start": 16.14,
+                    "end": 16.44,
+                    "rawStart": 37,
+                    "rawEnd": 37,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "与",
+                    "start": 16.44,
+                    "end": 16.78,
+                    "rawStart": 38,
+                    "rawEnd": 38,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 16.78,
+                    "end": 17.04,
+                    "rawStart": 39,
+                    "rawEnd": 39,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "「你看,这是立约之血,是耶和华与你们立约的凭据。」"
+            }
+          }
+        }
+      }
     },
     {
-      "start": 26.3,
-      "end": 35.78,
+      "start": 20.98,
+      "end": 31.12,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "这杯是用我的血所立的新约林前1125太2628",
-      "confidence": 0.686
+      "confidence": 0.522,
+      "quality": {
+        "coverage": 0.522,
+        "coherentCoverage": 0.522,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 11,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\立约的神\\9.mp3.json",
+          "transcriptSha256": "4746bd13856cc99a25431fe049b47c5b9aad891aa401229fa9cb9f108edf16d2",
+          "source": "context-reviewed-existing-raw-words",
+          "contextUsed": true,
+          "rawSegments": [
+            {
+              "start": 20.26,
+              "end": 23.36,
+              "text": "再请看戈列多前说是一章二十五节",
+              "words": [
+                {
+                  "start": 20.26,
+                  "end": 20.52,
+                  "text": "再",
+                  "probability": 0.8193535208702087
+                },
+                {
+                  "start": 20.52,
+                  "end": 20.72,
+                  "text": "请",
+                  "probability": 0.938215970993042
+                },
+                {
+                  "start": 20.72,
+                  "end": 20.98,
+                  "text": "看",
+                  "probability": 0.9974668025970459
+                },
+                {
+                  "start": 20.98,
+                  "end": 21.22,
+                  "text": "戈",
+                  "probability": 0.8405343890190125
+                },
+                {
+                  "start": 21.22,
+                  "end": 21.32,
+                  "text": "列",
+                  "probability": 0.7043394446372986
+                },
+                {
+                  "start": 21.32,
+                  "end": 21.44,
+                  "text": "多",
+                  "probability": 0.6166720986366272
+                },
+                {
+                  "start": 21.44,
+                  "end": 21.66,
+                  "text": "前",
+                  "probability": 0.760463297367096
+                },
+                {
+                  "start": 21.66,
+                  "end": 21.96,
+                  "text": "说",
+                  "probability": 0.9418179988861084
+                },
+                {
+                  "start": 21.96,
+                  "end": 22.22,
+                  "text": "是",
+                  "probability": 0.5455765724182129
+                },
+                {
+                  "start": 22.22,
+                  "end": 22.38,
+                  "text": "一",
+                  "probability": 0.9860134720802307
+                },
+                {
+                  "start": 22.38,
+                  "end": 22.54,
+                  "text": "章",
+                  "probability": 0.9985865652561188
+                },
+                {
+                  "start": 22.54,
+                  "end": 22.76,
+                  "text": "二",
+                  "probability": 0.9985573887825012
+                },
+                {
+                  "start": 22.76,
+                  "end": 22.88,
+                  "text": "十",
+                  "probability": 0.998468816280365
+                },
+                {
+                  "start": 22.88,
+                  "end": 23.08,
+                  "text": "五",
+                  "probability": 0.9978391528129578
+                },
+                {
+                  "start": 23.08,
+                  "end": 23.36,
+                  "text": "节",
+                  "probability": 0.9906865954399109
+                }
+              ]
+            }
+          ],
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "reason": "本段林前11:25及太26:28先读，哥林多前书词稿戈列多前说，从20.98开始，前面再请看作为引读语不扩入正文。",
+          "audioSha256": "0d543d23a9ab73d2cf29d2fd988deb752be24053c7ee6912858bd29bf8691368",
+          "listenedByAgent": false
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\立约的神\\9.mp3.json",
+          "transcriptSha256": "4746bd13856cc99a25431fe049b47c5b9aad891aa401229fa9cb9f108edf16d2",
+          "source": "context-reviewed-existing-raw-words",
+          "contextUsed": true,
+          "rawSegments": [
+            {
+              "start": 26.3,
+              "end": 31.12,
+              "text": "这杯是用我的血所立的新约。",
+              "words": [
+                {
+                  "start": 26.3,
+                  "end": 27.5,
+                  "text": "这",
+                  "probability": 0.2434491217136383
+                },
+                {
+                  "start": 27.5,
+                  "end": 27.84,
+                  "text": "杯",
+                  "probability": 0.4644626975059509
+                },
+                {
+                  "start": 27.84,
+                  "end": 28.46,
+                  "text": "是",
+                  "probability": 0.9293491840362549
+                },
+                {
+                  "start": 28.46,
+                  "end": 29.02,
+                  "text": "用",
+                  "probability": 0.8903757929801941
+                },
+                {
+                  "start": 29.02,
+                  "end": 29.54,
+                  "text": "我的",
+                  "probability": 0.8766041994094849
+                },
+                {
+                  "start": 29.54,
+                  "end": 29.92,
+                  "text": "血",
+                  "probability": 0.8084657192230225
+                },
+                {
+                  "start": 29.92,
+                  "end": 30.3,
+                  "text": "所",
+                  "probability": 0.9636591076850891
+                },
+                {
+                  "start": 30.3,
+                  "end": 30.48,
+                  "text": "立",
+                  "probability": 0.7968427538871765
+                },
+                {
+                  "start": 30.48,
+                  "end": 30.62,
+                  "text": "的",
+                  "probability": 0.9900513291358948
+                },
+                {
+                  "start": 30.62,
+                  "end": 30.82,
+                  "text": "新",
+                  "probability": 0.6196733713150024
+                },
+                {
+                  "start": 30.82,
+                  "end": 31.12,
+                  "text": "约。",
+                  "probability": 0.9643153250217438
+                }
+              ]
+            }
+          ],
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "reason": "两条出处已在前读，正文新约的约31.12结束。",
+          "audioSha256": "0d543d23a9ab73d2cf29d2fd988deb752be24053c7ee6912858bd29bf8691368",
+          "listenedByAgent": false
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 26.3,
+        "previousEnd": 35.78,
+        "previousConfidence": 0.686
+      },
+      "boundaryCorrections": [
+        {
+          "book": "立约的神",
+          "page": "09_第九章 永约之血.md",
+          "audio": "9.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\立约的神\\09_第九章 永约之血\\audio-01.json",
+          "targetIndex": 2,
+          "edge": "start",
+          "previousTime": 26.3,
+          "time": 20.98,
+          "kind": "spoken-order-context-review",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "本段林前11:25及太26:28先读，哥林多前书词稿戈列多前说，从20.98开始，前面再请看作为引读语不扩入正文。"
+        },
+        {
+          "book": "立约的神",
+          "page": "09_第九章 永约之血.md",
+          "audio": "9.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\立约的神\\09_第九章 永约之血\\audio-01.json",
+          "targetIndex": 2,
+          "edge": "end",
+          "previousTime": 35.78,
+          "time": 31.12,
+          "kind": "spoken-order-context-review",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "两条出处已在前读，正文新约的约31.12结束。"
+        }
+      ]
     },
     {
-      "start": 35.78,
-      "end": 44.3,
+      "start": 31.96,
+      "end": 38.14,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "使他成圣之约的血来1029",
-      "confidence": 0.7
+      "confidence": 0.438,
+      "quality": {
+        "coverage": 0.538,
+        "coherentCoverage": 0.538,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.833,
+        "suffixCoverage": 0.167,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 5,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\立约的神\\9.mp3.json",
+          "transcriptSha256": "4746bd13856cc99a25431fe049b47c5b9aad891aa401229fa9cb9f108edf16d2",
+          "source": "context-reviewed-existing-raw-words",
+          "contextUsed": true,
+          "rawSegments": [
+            {
+              "start": 31.96,
+              "end": 38.14,
+              "text": "西伯莱书十章二十九节,是他成圣之约的血。",
+              "words": [
+                {
+                  "start": 31.96,
+                  "end": 32.6,
+                  "text": "西",
+                  "probability": 0.5236818790435791
+                },
+                {
+                  "start": 32.6,
+                  "end": 32.68,
+                  "text": "伯",
+                  "probability": 0.7539389431476593
+                },
+                {
+                  "start": 32.68,
+                  "end": 32.8,
+                  "text": "莱",
+                  "probability": 0.8301803469657898
+                },
+                {
+                  "start": 32.8,
+                  "end": 33.16,
+                  "text": "书",
+                  "probability": 0.8898642659187317
+                },
+                {
+                  "start": 33.16,
+                  "end": 33.58,
+                  "text": "十",
+                  "probability": 0.3544156849384308
+                },
+                {
+                  "start": 33.58,
+                  "end": 33.82,
+                  "text": "章",
+                  "probability": 0.9908857941627502
+                },
+                {
+                  "start": 33.82,
+                  "end": 34.06,
+                  "text": "二",
+                  "probability": 0.9418644309043884
+                },
+                {
+                  "start": 34.06,
+                  "end": 34.18,
+                  "text": "十",
+                  "probability": 0.995962917804718
+                },
+                {
+                  "start": 34.18,
+                  "end": 34.38,
+                  "text": "九",
+                  "probability": 0.9930718541145325
+                },
+                {
+                  "start": 34.38,
+                  "end": 34.64,
+                  "text": "节,",
+                  "probability": 0.936166524887085
+                },
+                {
+                  "start": 35.5,
+                  "end": 35.78,
+                  "text": "是",
+                  "probability": 0.9337061047554016
+                },
+                {
+                  "start": 35.78,
+                  "end": 36.2,
+                  "text": "他",
+                  "probability": 0.5868269801139832
+                },
+                {
+                  "start": 36.2,
+                  "end": 36.74,
+                  "text": "成",
+                  "probability": 0.368459016084671
+                },
+                {
+                  "start": 36.74,
+                  "end": 37.1,
+                  "text": "圣",
+                  "probability": 0.95330810546875
+                },
+                {
+                  "start": 37.1,
+                  "end": 37.48,
+                  "text": "之",
+                  "probability": 0.9821142554283142
+                },
+                {
+                  "start": 37.48,
+                  "end": 37.66,
+                  "text": "约",
+                  "probability": 0.9975011348724365
+                },
+                {
+                  "start": 37.66,
+                  "end": 37.84,
+                  "text": "的",
+                  "probability": 0.9932534098625183
+                },
+                {
+                  "start": 37.84,
+                  "end": 38.14,
+                  "text": "血。",
+                  "probability": 0.9463198781013489
+                }
+              ]
+            }
+          ],
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "reason": "本段来10:29先读，词稿西伯莱书十章二十九节31.96起，随后使他成圣之约的血。",
+          "audioSha256": "0d543d23a9ab73d2cf29d2fd988deb752be24053c7ee6912858bd29bf8691368",
+          "listenedByAgent": false
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\立约的神\\9.mp3.json",
+          "transcriptSha256": "4746bd13856cc99a25431fe049b47c5b9aad891aa401229fa9cb9f108edf16d2",
+          "source": "context-reviewed-existing-raw-words",
+          "contextUsed": true,
+          "rawSegments": [
+            {
+              "start": 31.96,
+              "end": 38.14,
+              "text": "西伯莱书十章二十九节,是他成圣之约的血。",
+              "words": [
+                {
+                  "start": 31.96,
+                  "end": 32.6,
+                  "text": "西",
+                  "probability": 0.5236818790435791
+                },
+                {
+                  "start": 32.6,
+                  "end": 32.68,
+                  "text": "伯",
+                  "probability": 0.7539389431476593
+                },
+                {
+                  "start": 32.68,
+                  "end": 32.8,
+                  "text": "莱",
+                  "probability": 0.8301803469657898
+                },
+                {
+                  "start": 32.8,
+                  "end": 33.16,
+                  "text": "书",
+                  "probability": 0.8898642659187317
+                },
+                {
+                  "start": 33.16,
+                  "end": 33.58,
+                  "text": "十",
+                  "probability": 0.3544156849384308
+                },
+                {
+                  "start": 33.58,
+                  "end": 33.82,
+                  "text": "章",
+                  "probability": 0.9908857941627502
+                },
+                {
+                  "start": 33.82,
+                  "end": 34.06,
+                  "text": "二",
+                  "probability": 0.9418644309043884
+                },
+                {
+                  "start": 34.06,
+                  "end": 34.18,
+                  "text": "十",
+                  "probability": 0.995962917804718
+                },
+                {
+                  "start": 34.18,
+                  "end": 34.38,
+                  "text": "九",
+                  "probability": 0.9930718541145325
+                },
+                {
+                  "start": 34.38,
+                  "end": 34.64,
+                  "text": "节,",
+                  "probability": 0.936166524887085
+                },
+                {
+                  "start": 35.5,
+                  "end": 35.78,
+                  "text": "是",
+                  "probability": 0.9337061047554016
+                },
+                {
+                  "start": 35.78,
+                  "end": 36.2,
+                  "text": "他",
+                  "probability": 0.5868269801139832
+                },
+                {
+                  "start": 36.2,
+                  "end": 36.74,
+                  "text": "成",
+                  "probability": 0.368459016084671
+                },
+                {
+                  "start": 36.74,
+                  "end": 37.1,
+                  "text": "圣",
+                  "probability": 0.95330810546875
+                },
+                {
+                  "start": 37.1,
+                  "end": 37.48,
+                  "text": "之",
+                  "probability": 0.9821142554283142
+                },
+                {
+                  "start": 37.48,
+                  "end": 37.66,
+                  "text": "约",
+                  "probability": 0.9975011348724365
+                },
+                {
+                  "start": 37.66,
+                  "end": 37.84,
+                  "text": "的",
+                  "probability": 0.9932534098625183
+                },
+                {
+                  "start": 37.84,
+                  "end": 38.14,
+                  "text": "血。",
+                  "probability": 0.9463198781013489
+                }
+              ]
+            }
+          ],
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "reason": "本段出处在前，正文之约的血38.14结束。",
+          "audioSha256": "0d543d23a9ab73d2cf29d2fd988deb752be24053c7ee6912858bd29bf8691368",
+          "listenedByAgent": false
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 35.78,
+        "previousEnd": 44.3,
+        "previousConfidence": 0.7
+      },
+      "boundaryCorrections": [
+        {
+          "book": "立约的神",
+          "page": "09_第九章 永约之血.md",
+          "audio": "9.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\立约的神\\09_第九章 永约之血\\audio-01.json",
+          "targetIndex": 3,
+          "edge": "start",
+          "previousTime": 35.78,
+          "time": 31.96,
+          "kind": "spoken-order-context-review",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "本段来10:29先读，词稿西伯莱书十章二十九节31.96起，随后使他成圣之约的血。"
+        },
+        {
+          "book": "立约的神",
+          "page": "09_第九章 永约之血.md",
+          "audio": "9.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\立约的神\\09_第九章 永约之血\\audio-01.json",
+          "targetIndex": 3,
+          "edge": "end",
+          "previousTime": 44.3,
+          "time": 38.14,
+          "kind": "spoken-order-context-review",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "本段出处在前，正文之约的血38.14结束。"
+        }
+      ]
     },
     {
       "start": 44.3,
@@ -45,95 +863,1521 @@
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "永约之血来1320",
-      "confidence": 0.615
+      "confidence": 0.615,
+      "quality": {
+        "coverage": 0.444,
+        "coherentCoverage": 0.444,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 5,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 44.3,
+        "previousEnd": 47.14,
+        "previousConfidence": 0.615
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 47.14,
+            "time": 47.14,
+            "reason": "正文末句已定位，保留原出处结束范围，避免因书名识别差异截掉已读出处",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\立约的神\\9.mp3.json",
+              "sha256": "5ebd5f7b7cbd6fb77259edc9723dbd696e6216e33b0436b889e262331d875343",
+              "anchor": {
+                "time": 45.62,
+                "score": 0.9985,
+                "ratio": 1.0,
+                "expected": "yongyuezhixue",
+                "actual": "永约之血",
+                "span": [
+                  44.3,
+                  45.62
+                ],
+                "tokens": [
+                  {
+                    "text": "永",
+                    "start": 44.3,
+                    "end": 44.5,
+                    "rawStart": 112,
+                    "rawEnd": 112,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "约",
+                    "start": 44.5,
+                    "end": 44.92,
+                    "rawStart": 113,
+                    "rawEnd": 113,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "之",
+                    "start": 44.92,
+                    "end": 45.22,
+                    "rawStart": 114,
+                    "rawEnd": 114,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "血",
+                    "start": 45.22,
+                    "end": 45.62,
+                    "rawStart": 115,
+                    "rawEnd": 115,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "「永约之血。」",
+              "retainedCitationInterval": [
+                45.62,
+                47.14
+              ]
+            }
+          },
+          "start": {
+            "old": 44.3,
+            "time": 44.3,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\立约的神\\9.mp3.json",
+              "sha256": "5ebd5f7b7cbd6fb77259edc9723dbd696e6216e33b0436b889e262331d875343",
+              "anchor": {
+                "time": 44.3,
+                "score": 1.0,
+                "ratio": 1.0,
+                "expected": "yongyuezhixue",
+                "actual": "永约之血",
+                "span": [
+                  44.3,
+                  45.62
+                ],
+                "tokens": [
+                  {
+                    "text": "永",
+                    "start": 44.3,
+                    "end": 44.5,
+                    "rawStart": 112,
+                    "rawEnd": 112,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "约",
+                    "start": 44.5,
+                    "end": 44.92,
+                    "rawStart": 113,
+                    "rawEnd": 113,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "之",
+                    "start": 44.92,
+                    "end": 45.22,
+                    "rawStart": 114,
+                    "rawEnd": 114,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "血",
+                    "start": 45.22,
+                    "end": 45.62,
+                    "rawStart": 115,
+                    "rawEnd": 115,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "「永约之血。」"
+            }
+          }
+        }
+      }
     },
     {
       "start": 47.14,
-      "end": 101.6,
+      "end": 100.5,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "血是上帝最深远最奥秘也是最全能和属天的思考两约之中都贯穿着血新约尤其如此两约之血最大的区别在于一",
-      "confidence": 0.872
+      "confidence": 0.872,
+      "quality": {
+        "coverage": 0.861,
+        "coherentCoverage": 0.837,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 47.14,
+        "previousEnd": 101.6,
+        "previousConfidence": 0.872
+      }
     },
     {
       "start": 101.6,
-      "end": 146.72,
+      "end": 147.32,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "第一个约是经由血而来如果没有代赎与调和圣洁的上帝和有罪的人之间不可能有友谊而罪的代赎必须是死的代",
-      "confidence": 0.876
+      "confidence": 0.907,
+      "quality": {
+        "coverage": 0.904,
+        "coherentCoverage": 0.867,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 101.6,
+        "previousEnd": 146.72,
+        "previousConfidence": 0.876
+      }
     },
     {
-      "start": 146.72,
-      "end": 211.78,
+      "start": 148.72,
+      "end": 210.32,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "所有这一切都是将来要成就的奥秘之事的影像和预表这远超过天使或人类所能想象的范畴即使是今天也超过人",
-      "confidence": 0.739
+      "confidence": 0.909,
+      "quality": {
+        "coverage": 0.907,
+        "coherentCoverage": 0.87,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 146.72,
+        "previousEnd": 211.78,
+        "previousConfidence": 0.739
+      }
     },
     {
       "start": 211.78,
-      "end": 249.96,
+      "end": 247.98,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "希伯来书915为此祂作了新约的中保既然受死赎了人在前约之时所犯的罪过便叫蒙召之人得着所应许永远的",
-      "confidence": 0.781
+      "confidence": 0.816,
+      "quality": {
+        "coverage": 0.823,
+        "coherentCoverage": 0.752,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "source": "existing-small-transcript-local-phrase",
+          "model": ".audio-sync-cache\\models\\small",
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\立约的神\\9.mp3.json",
+          "transcriptSha256": "5ebd5f7b7cbd6fb77259edc9723dbd696e6216e33b0436b889e262331d875343",
+          "audioSha256": null,
+          "audioDuration": 694.118,
+          "syncAudioDuration": 694.118,
+          "audioDurationMatch": true,
+          "fullFileTranscribed": false,
+          "newDownloads": 0,
+          "listenedByAgent": false,
+          "timingPrecision": "word",
+          "localSupported": true,
+          "contextUsed": true,
+          "verificationMethod": "bounded-local-12-syllable",
+          "verified": true,
+          "candidateTime": 211.78,
+          "expectedPhrase": "希伯来书9章15节为此他",
+          "actualPhrase": "西伯莱姆9章15节为此他",
+          "wordTokens": [
+            {
+              "text": "西",
+              "start": 211.78,
+              "end": 212.3,
+              "rawStart": 604,
+              "rawEnd": 604,
+              "precision": "word"
+            },
+            {
+              "text": "伯",
+              "start": 212.3,
+              "end": 212.4,
+              "rawStart": 605,
+              "rawEnd": 605,
+              "precision": "word"
+            },
+            {
+              "text": "莱",
+              "start": 212.4,
+              "end": 212.52,
+              "rawStart": 606,
+              "rawEnd": 606,
+              "precision": "word"
+            },
+            {
+              "text": "姆",
+              "start": 212.52,
+              "end": 212.68,
+              "rawStart": 607,
+              "rawEnd": 607,
+              "precision": "word"
+            },
+            {
+              "text": "9",
+              "start": 212.68,
+              "end": 212.9,
+              "rawStart": 608,
+              "rawEnd": 608,
+              "precision": "word"
+            },
+            {
+              "text": "章",
+              "start": 212.9,
+              "end": 213.06,
+              "rawStart": 609,
+              "rawEnd": 609,
+              "precision": "word"
+            },
+            {
+              "text": "1",
+              "start": 213.06,
+              "end": 213.46,
+              "rawStart": 610,
+              "rawEnd": 610,
+              "precision": "word"
+            },
+            {
+              "text": "5",
+              "start": 213.06,
+              "end": 213.46,
+              "rawStart": 611,
+              "rawEnd": 611,
+              "precision": "word"
+            },
+            {
+              "text": "节",
+              "start": 213.46,
+              "end": 213.7,
+              "rawStart": 612,
+              "rawEnd": 612,
+              "precision": "word"
+            },
+            {
+              "text": "为",
+              "start": 213.7,
+              "end": 214.54,
+              "rawStart": 613,
+              "rawEnd": 613,
+              "precision": "word"
+            },
+            {
+              "text": "此",
+              "start": 214.54,
+              "end": 214.88,
+              "rawStart": 614,
+              "rawEnd": 614,
+              "precision": "word"
+            },
+            {
+              "text": "他",
+              "start": 214.88,
+              "end": 215.3,
+              "rawStart": 615,
+              "rawEnd": 615,
+              "precision": "word"
+            }
+          ],
+          "phoneticDifferences": [
+            3
+          ],
+          "reason": "本段首/尾12音节局部短句唯一，首尾音节、原始词级时间和段落身份均通过核验；词稿与sync记录时长完全一致。 录音文件不在工作区，因此没有可核对的音频 SHA-256。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 211.78,
+        "previousEnd": 249.96,
+        "previousConfidence": 0.781
+      },
+      "boundaryCorrections": [
+        {
+          "book": "立约的神",
+          "page": "09_第九章 永约之血.md",
+          "audio": "9.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\立约的神\\09_第九章 永约之血\\audio-01.json",
+          "targetIndex": 8,
+          "edge": "start",
+          "previousTime": 211.78,
+          "time": 211.78,
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "kind": "local-phrase-boundary-correction",
+          "proof": {
+            "source": "existing-small-transcript-local-phrase",
+            "model": ".audio-sync-cache\\models\\small",
+            "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\立约的神\\9.mp3.json",
+            "transcriptSha256": "5ebd5f7b7cbd6fb77259edc9723dbd696e6216e33b0436b889e262331d875343",
+            "audioSha256": null,
+            "audioDuration": 694.118,
+            "syncAudioDuration": 694.118,
+            "audioDurationMatch": true,
+            "fullFileTranscribed": false,
+            "newDownloads": 0,
+            "listenedByAgent": false,
+            "timingPrecision": "word",
+            "localSupported": true,
+            "contextUsed": true,
+            "verificationMethod": "bounded-local-12-syllable",
+            "verified": true,
+            "candidateTime": 211.78,
+            "expectedPhrase": "希伯来书9章15节为此他",
+            "actualPhrase": "西伯莱姆9章15节为此他",
+            "wordTokens": [
+              {
+                "text": "西",
+                "start": 211.78,
+                "end": 212.3,
+                "rawStart": 604,
+                "rawEnd": 604,
+                "precision": "word"
+              },
+              {
+                "text": "伯",
+                "start": 212.3,
+                "end": 212.4,
+                "rawStart": 605,
+                "rawEnd": 605,
+                "precision": "word"
+              },
+              {
+                "text": "莱",
+                "start": 212.4,
+                "end": 212.52,
+                "rawStart": 606,
+                "rawEnd": 606,
+                "precision": "word"
+              },
+              {
+                "text": "姆",
+                "start": 212.52,
+                "end": 212.68,
+                "rawStart": 607,
+                "rawEnd": 607,
+                "precision": "word"
+              },
+              {
+                "text": "9",
+                "start": 212.68,
+                "end": 212.9,
+                "rawStart": 608,
+                "rawEnd": 608,
+                "precision": "word"
+              },
+              {
+                "text": "章",
+                "start": 212.9,
+                "end": 213.06,
+                "rawStart": 609,
+                "rawEnd": 609,
+                "precision": "word"
+              },
+              {
+                "text": "1",
+                "start": 213.06,
+                "end": 213.46,
+                "rawStart": 610,
+                "rawEnd": 610,
+                "precision": "word"
+              },
+              {
+                "text": "5",
+                "start": 213.06,
+                "end": 213.46,
+                "rawStart": 611,
+                "rawEnd": 611,
+                "precision": "word"
+              },
+              {
+                "text": "节",
+                "start": 213.46,
+                "end": 213.7,
+                "rawStart": 612,
+                "rawEnd": 612,
+                "precision": "word"
+              },
+              {
+                "text": "为",
+                "start": 213.7,
+                "end": 214.54,
+                "rawStart": 613,
+                "rawEnd": 613,
+                "precision": "word"
+              },
+              {
+                "text": "此",
+                "start": 214.54,
+                "end": 214.88,
+                "rawStart": 614,
+                "rawEnd": 614,
+                "precision": "word"
+              },
+              {
+                "text": "他",
+                "start": 214.88,
+                "end": 215.3,
+                "rawStart": 615,
+                "rawEnd": 615,
+                "precision": "word"
+              }
+            ],
+            "phoneticDifferences": [
+              3
+            ],
+            "reason": "本段首/尾12音节局部短句唯一，首尾音节、原始词级时间和段落身份均通过核验；词稿与sync记录时长完全一致。 录音文件不在工作区，因此没有可核对的音频 SHA-256。"
+          },
+          "reason": "本段首/尾12音节局部短句唯一，首尾音节、原始词级时间和段落身份均通过核验；词稿与sync记录时长完全一致。 录音文件不在工作区，因此没有可核对的音频 SHA-256。"
+        }
+      ]
     },
     {
       "start": 249.96,
-      "end": 344.09,
+      "end": 342.62,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "新约的血是代赎的血是把我们从罪和律法中赎回的赎价我们在世上付钱买了东西后它将从此完全属于购买者而",
-      "confidence": 0.844
+      "confidence": 0.844,
+      "quality": {
+        "coverage": 0.849,
+        "coherentCoverage": 0.777,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "candidate": 342.62,
+          "expectedPhrase": "完全自由地活出新约的生命",
+          "actualPhrase": "完全自由地活出心悦的生命",
+          "phoneticPhrase": [
+            "wan",
+            "quan",
+            "zi",
+            "you",
+            "di",
+            "huo",
+            "chu",
+            "xin",
+            "yue",
+            "de",
+            "sheng",
+            "ming"
+          ],
+          "verified": true,
+          "time": 342.62,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "inline-notes-observed-context",
+          "phoneticExact": true,
+          "literalEqual": false,
+          "wordTokens": [
+            {
+              "text": "完",
+              "start": 339.8,
+              "end": 340.22,
+              "rawStart": 1003,
+              "rawEnd": 1003,
+              "precision": "word"
+            },
+            {
+              "text": "全",
+              "start": 339.8,
+              "end": 340.22,
+              "rawStart": 1004,
+              "rawEnd": 1004,
+              "precision": "word"
+            },
+            {
+              "text": "自",
+              "start": 340.22,
+              "end": 340.8,
+              "rawStart": 1005,
+              "rawEnd": 1005,
+              "precision": "word"
+            },
+            {
+              "text": "由",
+              "start": 340.22,
+              "end": 340.8,
+              "rawStart": 1006,
+              "rawEnd": 1006,
+              "precision": "word"
+            },
+            {
+              "text": "地",
+              "start": 340.8,
+              "end": 341.02,
+              "rawStart": 1007,
+              "rawEnd": 1007,
+              "precision": "word"
+            },
+            {
+              "text": "活",
+              "start": 341.02,
+              "end": 341.22,
+              "rawStart": 1008,
+              "rawEnd": 1008,
+              "precision": "word"
+            },
+            {
+              "text": "出",
+              "start": 341.22,
+              "end": 341.42,
+              "rawStart": 1009,
+              "rawEnd": 1009,
+              "precision": "word"
+            },
+            {
+              "text": "心",
+              "start": 341.42,
+              "end": 341.74,
+              "rawStart": 1010,
+              "rawEnd": 1010,
+              "precision": "word"
+            },
+            {
+              "text": "悦",
+              "start": 341.74,
+              "end": 341.98,
+              "rawStart": 1011,
+              "rawEnd": 1011,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 341.98,
+              "end": 342.14,
+              "rawStart": 1012,
+              "rawEnd": 1012,
+              "precision": "word"
+            },
+            {
+              "text": "生",
+              "start": 342.14,
+              "end": 342.34,
+              "rawStart": 1013,
+              "rawEnd": 1013,
+              "precision": "word"
+            },
+            {
+              "text": "命",
+              "start": 342.34,
+              "end": 342.62,
+              "rawStart": 1014,
+              "rawEnd": 1014,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "edge": "end",
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\立约的神\\9.mp3.json",
+          "transcriptSha256": "4746bd13856cc99a25431fe049b47c5b9aad891aa401229fa9cb9f108edf16d2",
+          "notes": [
+            {
+              "start": 301.04,
+              "end": 303.8,
+              "expected": "(彼前1:18-19)",
+              "actual": "彼得前述1章18道19节",
+              "tokens": [
+                {
+                  "text": "彼",
+                  "start": 301.04,
+                  "end": 301.64,
+                  "rawStart": 879,
+                  "rawEnd": 879,
+                  "precision": "word"
+                },
+                {
+                  "text": "得",
+                  "start": 301.64,
+                  "end": 301.8,
+                  "rawStart": 880,
+                  "rawEnd": 880,
+                  "precision": "word"
+                },
+                {
+                  "text": "前",
+                  "start": 301.8,
+                  "end": 302.0,
+                  "rawStart": 881,
+                  "rawEnd": 881,
+                  "precision": "word"
+                },
+                {
+                  "text": "述",
+                  "start": 302.0,
+                  "end": 302.22,
+                  "rawStart": 882,
+                  "rawEnd": 882,
+                  "precision": "word"
+                },
+                {
+                  "text": "1",
+                  "start": 302.22,
+                  "end": 302.54,
+                  "rawStart": 883,
+                  "rawEnd": 883,
+                  "precision": "word"
+                },
+                {
+                  "text": "章",
+                  "start": 302.54,
+                  "end": 302.72,
+                  "rawStart": 884,
+                  "rawEnd": 884,
+                  "precision": "word"
+                },
+                {
+                  "text": "1",
+                  "start": 302.72,
+                  "end": 303.1,
+                  "rawStart": 885,
+                  "rawEnd": 885,
+                  "precision": "word"
+                },
+                {
+                  "text": "8",
+                  "start": 302.72,
+                  "end": 303.1,
+                  "rawStart": 886,
+                  "rawEnd": 886,
+                  "precision": "word"
+                },
+                {
+                  "text": "道",
+                  "start": 303.1,
+                  "end": 303.2,
+                  "rawStart": 887,
+                  "rawEnd": 887,
+                  "precision": "word"
+                },
+                {
+                  "text": "1",
+                  "start": 303.2,
+                  "end": 303.58,
+                  "rawStart": 888,
+                  "rawEnd": 888,
+                  "precision": "word"
+                },
+                {
+                  "text": "9",
+                  "start": 303.2,
+                  "end": 303.58,
+                  "rawStart": 889,
+                  "rawEnd": 889,
+                  "precision": "word"
+                },
+                {
+                  "text": "节",
+                  "start": 303.58,
+                  "end": 303.8,
+                  "rawStart": 890,
+                  "rawEnd": 890,
+                  "precision": "word"
+                }
+              ]
+            }
+          ],
+          "identityBasis": "true-local-edge-and-complete-inline-notes-observed-before-ending",
+          "audioSha256": "0d543d23a9ab73d2cf29d2fd988deb752be24053c7ee6912858bd29bf8691368"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 249.96,
+        "previousEnd": 344.09,
+        "previousConfidence": 0.844
+      },
+      "boundaryCorrections": [
+        {
+          "book": "立约的神",
+          "page": "09_第九章 永约之血.md",
+          "audio": "9.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\立约的神\\09_第九章 永约之血\\audio-01.json",
+          "targetIndex": 9,
+          "edge": "end",
+          "previousTime": 344.09,
+          "time": 342.62,
+          "kind": "inline-notes-observed-context",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
       "start": 344.09,
-      "end": 416.36,
+      "end": 414.74,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "血的流出是为了我们的救赎而血的喷洒则为了我们罪得洗净何等奇妙这是新约又一个属灵的奥秘单凭着人的智",
-      "confidence": 0.9
+      "confidence": 0.91,
+      "quality": {
+        "coverage": 0.908,
+        "coherentCoverage": 0.859,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 344.09,
+        "previousEnd": 416.36,
+        "previousConfidence": 0.9
+      }
     },
     {
       "start": 416.36,
-      "end": 480.42,
+      "end": 479.32,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "还有另一个关乎血的真理当犹太人把主耶稣和摩西比较时主说你们若不吃人子的肉不喝人子的血就没有生命在",
-      "confidence": 0.871
+      "confidence": 0.882,
+      "quality": {
+        "coverage": 0.894,
+        "coherentCoverage": 0.822,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": false,
+          "substitutionAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 416.36,
+        "previousEnd": 480.42,
+        "previousConfidence": 0.871
+      }
     },
     {
       "start": 480.42,
-      "end": 550.34,
+      "end": 550.7,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "因为罪的存在没有血上帝与人之间无法有约可谈同样没有上帝儿子的宝血也不会有新约的存在除去罪是立约之",
-      "confidence": 0.761
+      "confidence": 0.831,
+      "quality": {
+        "coverage": 0.843,
+        "coherentCoverage": 0.814,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "source": "existing-small-transcript-local-phrase",
+          "model": ".audio-sync-cache\\models\\small",
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\立约的神\\9.mp3.json",
+          "transcriptSha256": "5ebd5f7b7cbd6fb77259edc9723dbd696e6216e33b0436b889e262331d875343",
+          "audioSha256": null,
+          "audioDuration": 694.118,
+          "syncAudioDuration": 694.118,
+          "audioDurationMatch": true,
+          "fullFileTranscribed": false,
+          "newDownloads": 0,
+          "listenedByAgent": false,
+          "timingPrecision": "word",
+          "localSupported": true,
+          "contextUsed": true,
+          "verificationMethod": "bounded-local-12-syllable",
+          "verified": true,
+          "candidateTime": 550.7,
+          "expectedPhrase": "与神同行的必不可少的预备",
+          "actualPhrase": "欲生同行的必不可少的欲悲",
+          "wordTokens": [
+            {
+              "text": "欲",
+              "start": 547.38,
+              "end": 547.72,
+              "rawStart": 1608,
+              "rawEnd": 1608,
+              "precision": "word"
+            },
+            {
+              "text": "生",
+              "start": 547.72,
+              "end": 548.0,
+              "rawStart": 1609,
+              "rawEnd": 1609,
+              "precision": "word"
+            },
+            {
+              "text": "同",
+              "start": 548.0,
+              "end": 548.26,
+              "rawStart": 1610,
+              "rawEnd": 1610,
+              "precision": "word"
+            },
+            {
+              "text": "行",
+              "start": 548.26,
+              "end": 548.52,
+              "rawStart": 1611,
+              "rawEnd": 1611,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 548.52,
+              "end": 548.76,
+              "rawStart": 1612,
+              "rawEnd": 1612,
+              "precision": "word"
+            },
+            {
+              "text": "必",
+              "start": 548.76,
+              "end": 549.18,
+              "rawStart": 1613,
+              "rawEnd": 1613,
+              "precision": "word"
+            },
+            {
+              "text": "不",
+              "start": 549.18,
+              "end": 549.56,
+              "rawStart": 1614,
+              "rawEnd": 1614,
+              "precision": "word"
+            },
+            {
+              "text": "可",
+              "start": 549.56,
+              "end": 549.86,
+              "rawStart": 1615,
+              "rawEnd": 1615,
+              "precision": "word"
+            },
+            {
+              "text": "少",
+              "start": 549.86,
+              "end": 550.18,
+              "rawStart": 1616,
+              "rawEnd": 1616,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 550.18,
+              "end": 550.34,
+              "rawStart": 1617,
+              "rawEnd": 1617,
+              "precision": "word"
+            },
+            {
+              "text": "欲",
+              "start": 550.34,
+              "end": 550.5,
+              "rawStart": 1618,
+              "rawEnd": 1618,
+              "precision": "word"
+            },
+            {
+              "text": "悲",
+              "start": 550.5,
+              "end": 550.7,
+              "rawStart": 1619,
+              "rawEnd": 1619,
+              "precision": "word"
+            }
+          ],
+          "phoneticDifferences": [
+            1
+          ],
+          "reason": "本段首/尾12音节局部短句唯一，首尾音节、原始词级时间和段落身份均通过核验；词稿与sync记录时长完全一致。 录音文件不在工作区，因此没有可核对的音频 SHA-256。"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 480.42,
+        "previousEnd": 550.34,
+        "previousConfidence": 0.761
+      },
+      "boundaryCorrections": [
+        {
+          "book": "立约的神",
+          "page": "09_第九章 永约之血.md",
+          "audio": "9.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\立约的神\\09_第九章 永约之血\\audio-01.json",
+          "targetIndex": 12,
+          "edge": "end",
+          "previousTime": 550.34,
+          "time": 550.7,
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "kind": "local-phrase-boundary-correction",
+          "proof": {
+            "source": "existing-small-transcript-local-phrase",
+            "model": ".audio-sync-cache\\models\\small",
+            "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\立约的神\\9.mp3.json",
+            "transcriptSha256": "5ebd5f7b7cbd6fb77259edc9723dbd696e6216e33b0436b889e262331d875343",
+            "audioSha256": null,
+            "audioDuration": 694.118,
+            "syncAudioDuration": 694.118,
+            "audioDurationMatch": true,
+            "fullFileTranscribed": false,
+            "newDownloads": 0,
+            "listenedByAgent": false,
+            "timingPrecision": "word",
+            "localSupported": true,
+            "contextUsed": true,
+            "verificationMethod": "bounded-local-12-syllable",
+            "verified": true,
+            "candidateTime": 550.7,
+            "expectedPhrase": "与神同行的必不可少的预备",
+            "actualPhrase": "欲生同行的必不可少的欲悲",
+            "wordTokens": [
+              {
+                "text": "欲",
+                "start": 547.38,
+                "end": 547.72,
+                "rawStart": 1608,
+                "rawEnd": 1608,
+                "precision": "word"
+              },
+              {
+                "text": "生",
+                "start": 547.72,
+                "end": 548.0,
+                "rawStart": 1609,
+                "rawEnd": 1609,
+                "precision": "word"
+              },
+              {
+                "text": "同",
+                "start": 548.0,
+                "end": 548.26,
+                "rawStart": 1610,
+                "rawEnd": 1610,
+                "precision": "word"
+              },
+              {
+                "text": "行",
+                "start": 548.26,
+                "end": 548.52,
+                "rawStart": 1611,
+                "rawEnd": 1611,
+                "precision": "word"
+              },
+              {
+                "text": "的",
+                "start": 548.52,
+                "end": 548.76,
+                "rawStart": 1612,
+                "rawEnd": 1612,
+                "precision": "word"
+              },
+              {
+                "text": "必",
+                "start": 548.76,
+                "end": 549.18,
+                "rawStart": 1613,
+                "rawEnd": 1613,
+                "precision": "word"
+              },
+              {
+                "text": "不",
+                "start": 549.18,
+                "end": 549.56,
+                "rawStart": 1614,
+                "rawEnd": 1614,
+                "precision": "word"
+              },
+              {
+                "text": "可",
+                "start": 549.56,
+                "end": 549.86,
+                "rawStart": 1615,
+                "rawEnd": 1615,
+                "precision": "word"
+              },
+              {
+                "text": "少",
+                "start": 549.86,
+                "end": 550.18,
+                "rawStart": 1616,
+                "rawEnd": 1616,
+                "precision": "word"
+              },
+              {
+                "text": "的",
+                "start": 550.18,
+                "end": 550.34,
+                "rawStart": 1617,
+                "rawEnd": 1617,
+                "precision": "word"
+              },
+              {
+                "text": "欲",
+                "start": 550.34,
+                "end": 550.5,
+                "rawStart": 1618,
+                "rawEnd": 1618,
+                "precision": "word"
+              },
+              {
+                "text": "悲",
+                "start": 550.5,
+                "end": 550.7,
+                "rawStart": 1619,
+                "rawEnd": 1619,
+                "precision": "word"
+              }
+            ],
+            "phoneticDifferences": [
+              1
+            ],
+            "reason": "本段首/尾12音节局部短句唯一，首尾音节、原始词级时间和段落身份均通过核验；词稿与sync记录时长完全一致。 录音文件不在工作区，因此没有可核对的音频 SHA-256。"
+          },
+          "reason": "本段首/尾12音节局部短句唯一，首尾音节、原始词级时间和段落身份均通过核验；词稿与sync记录时长完全一致。 录音文件不在工作区，因此没有可核对的音频 SHA-256。"
+        }
+      ]
     },
     {
-      "start": 550.34,
-      "end": 603.24,
+      "start": 552.14,
+      "end": 602.52,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "许多人可能会觉得他们不明白或没有意识到这宝血的大能沉思冥想无济于事甚至祷告都不能带来所需的亮光要",
-      "confidence": 0.778
+      "confidence": 0.904,
+      "quality": {
+        "coverage": 0.899,
+        "coherentCoverage": 0.854,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 550.34,
+        "previousEnd": 603.24,
+        "previousConfidence": 0.778
+      }
     },
     {
       "start": 603.24,
-      "end": 657.2,
+      "end": 656.58,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "圣灵给予我们信心信从宝血而来的赦罪和平安祂更带领我们明白并经历罪得洁净的大能藉着信属天的能力带来",
-      "confidence": 0.772
+      "confidence": 0.905,
+      "quality": {
+        "coverage": 0.899,
+        "coherentCoverage": 0.874,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 603.24,
+        "previousEnd": 657.2,
+        "previousConfidence": 0.772
+      }
     },
     {
       "start": 657.2,
-      "end": 692.9,
+      "end": 693.26,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "哦永约之血奥秘中的奥秘恩典中的恩典上帝的全能开了至圣所之门开了我们的心开了新约的道路在那里我们相",
-      "confidence": 0.87
+      "confidence": 0.894,
+      "quality": {
+        "coverage": 0.903,
+        "coherentCoverage": 0.854,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 657.2,
+        "previousEnd": 692.9,
+        "previousConfidence": 0.87
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (9 trailing chars, coverage 0.286): target 1: 「你看，这是立约之血，是耶和华与你们立约的凭据。」（出24:8；来9:20）",
+    "low confidence (0.622, coverage 0.500): target 1: 「你看，这是立约之血，是耶和华与你们立约的凭据。」（出24:8；来9:20）",
+    "unverified start anchor: target 1: 「你看，这是立约之血，是耶和华与你们立约的凭据。」（出24:8；来9:20）",
+    "unverified end anchor: target 1: 「你看，这是立约之血，是耶和华与你们立约的凭据。」（出24:8；来9:20）",
+    "incomplete end (11 trailing chars, coverage 0.000): target 2: 「这杯是用我的血所立的新约。」（林前11:25；太26:28）",
+    "low confidence (0.686, coverage 0.522): target 2: 「这杯是用我的血所立的新约。」（林前11:25；太26:28）",
+    "unverified start anchor: target 2: 「这杯是用我的血所立的新约。」（林前11:25；太26:28）",
+    "unverified end anchor: target 2: 「这杯是用我的血所立的新约。」（林前11:25；太26:28）",
+    "incomplete end (5 trailing chars, coverage 0.167): target 3: 「使他成圣之约的血。」（来10:29）",
+    "low confidence (0.700, coverage 0.538): target 3: 「使他成圣之约的血。」（来10:29）",
+    "unverified start anchor: target 3: 「使他成圣之约的血。」（来10:29）",
+    "unverified end anchor: target 3: 「使他成圣之约的血。」（来10:29）",
+    "incomplete end (5 trailing chars, coverage 0.000): target 4: 「永约之血。」（来13:20）",
+    "low confidence (0.615, coverage 0.444): target 4: 「永约之血。」（来13:20）",
+    "unverified start anchor: target 4: 「永约之血。」（来13:20）",
+    "unverified end anchor: target 4: 「永约之血。」（来13:20）",
+    "unverified start anchor: target 8: 希伯来书9:15：「为此，祂作了新约的中保，既然受死赎了人在前约之时所犯的罪过，便叫蒙召之人得着",
+    "unverified end anchor: target 9: 新约的血是代赎的血，是把我们从罪和律法中赎回的赎价。我们在世上付钱买了东西后，它将从此完全属于购",
+    "repair unverified start (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified start (previous-sync): target 2",
+    "repair unverified end (previous-sync): target 2",
+    "repair unverified start (previous-sync): target 3",
+    "repair unverified end (previous-sync): target 3",
+    "repair unverified start (previous-sync): target 4",
+    "repair unverified end (previous-sync): target 4",
+    "repair unverified start (previous-sync): target 8",
+    "repair unverified end (previous-sync): target 9",
+    "repair unverified end (previous-sync): target 12",
+    "local context confirmed end: target 1; 本段立约的凭据，词稿凭句，18.18结束；之后再请看和两条下一段出处不属于本段。",
+    "local context confirmed start: target 2; 本段林前11:25及太26:28先读，哥林多前书词稿戈列多前说，从20.98开始，前面再请看作为引读语不扩入正文。",
+    "local context confirmed end: target 2; 两条出处已在前读，正文新约的约31.12结束。",
+    "local context confirmed start: target 3; 本段来10:29先读，词稿西伯莱书十章二十九节31.96起，随后使他成圣之约的血。",
+    "local context confirmed end: target 3; 本段出处在前，正文之约的血38.14结束。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 9,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 5,
+    "unverifiedEnds": 6,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "26540437f1f8566a64123d42890341bcad018f81f70f2bcf739a577176e84b8f",
+  "repairCueDigest": "4af515453b1b864a1dab5a0b788cfb623ecea6ffe834eba55d280b984a9144df",
+  "previousAlignmentWarnings": []
 }

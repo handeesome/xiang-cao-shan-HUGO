@@ -8,28 +8,295 @@
   "audioDuration": 158.256,
   "cues": [
     {
-      "start": 1.46,
-      "end": 3.0,
-      "kind": "heading",
-      "targetIndex": 5,
-      "targetText": "礼拜二",
-      "confidence": 0.8
-    },
-    {
       "start": 3.0,
       "end": 133.82,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "在先前的问答中我们曾经学过十诫是道德律的总结十诫是上帝赐给人要人遵守的所有律法的缩影要理问答中关",
-      "confidence": 0.79
+      "confidence": 0.943,
+      "quality": {
+        "coverage": 0.941,
+        "coherentCoverage": 0.941,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 3.0,
+        "previousEnd": 133.82,
+        "previousConfidence": 0.79
+      }
     },
     {
-      "start": 133.82,
+      "start": 136.56,
       "end": 156.92,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "诗篇13812我要一心称谢祢在诸上帝面前歌颂祢我要向祢的圣殿下拜为祢的慈爱和诚实称赞祢的名因祢使",
-      "confidence": 0.767
+      "confidence": 0.9,
+      "quality": {
+        "coverage": 0.885,
+        "coherentCoverage": 0.869,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 133.82,
+        "previousEnd": 156.92,
+        "previousConfidence": 0.767
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 133.82,
+            "time": 136.56,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\54-2.mp3.json",
+              "sha256": "08295b68167f9b63a04c9dd7cce72e676542ecde1fc7fe74ef7bf0ccbf0196b4",
+              "anchor": {
+                "time": 136.56,
+                "score": 0.9973,
+                "ratio": 1.0,
+                "expected": "woyaoyixinchengxienizaizhushenmianqiangesong",
+                "actual": "我要1心称谢你在诸神面前歌颂",
+                "span": [
+                  136.56,
+                  142.78
+                ],
+                "tokens": [
+                  {
+                    "text": "我",
+                    "start": 136.56,
+                    "end": 137.76,
+                    "rawStart": 430,
+                    "rawEnd": 430,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "要",
+                    "start": 136.56,
+                    "end": 137.76,
+                    "rawStart": 431,
+                    "rawEnd": 431,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 137.76,
+                    "end": 138.34,
+                    "rawStart": 432,
+                    "rawEnd": 432,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "心",
+                    "start": 138.34,
+                    "end": 138.76,
+                    "rawStart": 433,
+                    "rawEnd": 433,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "称",
+                    "start": 138.76,
+                    "end": 139.1,
+                    "rawStart": 434,
+                    "rawEnd": 434,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "谢",
+                    "start": 139.1,
+                    "end": 139.46,
+                    "rawStart": 435,
+                    "rawEnd": 435,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 139.46,
+                    "end": 139.72,
+                    "rawStart": 436,
+                    "rawEnd": 436,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "在",
+                    "start": 139.72,
+                    "end": 140.68,
+                    "rawStart": 437,
+                    "rawEnd": 437,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "诸",
+                    "start": 140.68,
+                    "end": 141.08,
+                    "rawStart": 438,
+                    "rawEnd": 438,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 141.08,
+                    "end": 141.36,
+                    "rawStart": 439,
+                    "rawEnd": 440,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "面",
+                    "start": 141.36,
+                    "end": 141.62,
+                    "rawStart": 441,
+                    "rawEnd": 441,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "前",
+                    "start": 141.62,
+                    "end": 142.08,
+                    "rawStart": 442,
+                    "rawEnd": 442,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "歌",
+                    "start": 142.08,
+                    "end": 142.48,
+                    "rawStart": 443,
+                    "rawEnd": 443,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "颂",
+                    "start": 142.48,
+                    "end": 142.78,
+                    "rawStart": 444,
+                    "rawEnd": 444,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 134.4,
+                  "score": 0.8846,
+                  "actual": "到2节我要1心称谢你在诸神面前歌颂"
+                }
+              },
+              "body": "我要一心称谢祢,在诸神面前歌颂祢!我要向祢的圣殿下拜,为祢的慈爱和诚实称赞祢的名;因祢使祢的话显为大,过于祢所应许的。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.885,
+          "coherentCoverage": 0.869,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.7,
+          "suffixCoverage": 0.95,
+          "unmatchedLeadingChars": 1,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 7: 诗篇138:1-2 我要一心称谢祢，在诸神面前歌颂祢！我要向祢的圣殿下拜，为祢的慈爱和诚实称赞祢",
+    "repair unverified start (previous-sync): target 7"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "0fd38da0ba99b951895cde36f868ce39284366736b05acd6c7cf6de6bb91539b",
+  "repairCueDigest": "7d64771694f1afa1554c4ee8059d791e314d66be9ceee6af89300332496ee88c",
+  "previousAlignmentWarnings": []
 }

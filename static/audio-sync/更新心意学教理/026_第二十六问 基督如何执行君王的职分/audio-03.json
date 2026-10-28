@@ -8,28 +8,687 @@
   "audioDuration": 209.4900625,
   "cues": [
     {
-      "start": 1.94,
-      "end": 3.36,
-      "kind": "heading",
-      "targetIndex": 9,
-      "targetText": "礼拜三",
-      "confidence": 0.8
-    },
-    {
       "start": 3.36,
-      "end": 8.42,
+      "end": 12.78,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "今天我们会把昨天开始的故事看完请读使徒行传91019上",
-      "confidence": 0.571
+      "confidence": 0.667,
+      "quality": {
+        "coverage": 0.567,
+        "coherentCoverage": 0.567,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.133,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 13,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "source": "context-reviewed-read-prompt-ending",
+          "contextUsed": true,
+          "identityAmbiguous": false,
+          "continuousAnchor": false,
+          "timingPrecision": "word",
+          "time": 12.78,
+          "expectedPhrase": "今天我们会把昨天开始的故事看完。请读使徒行传9:10-19上。",
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\26-3.mp3.json",
+          "transcriptSha256": "0f537e9281911bfab483fd70b2a988deef43bd39ec6e06922e58e7a61c33a9bf",
+          "audioSha256": "89a41e65fa2850bd677b145f432528a77971d3a74cf202ae67a3cbf666e73796",
+          "rawSegments": [
+            {
+              "start": 8.42,
+              "end": 12.78,
+              "text": "請讀石頭星傳九章十到十九節上",
+              "words": [
+                {
+                  "start": 8.42,
+                  "end": 8.74,
+                  "text": "請",
+                  "probability": 0.9739000201225281
+                },
+                {
+                  "start": 8.74,
+                  "end": 8.94,
+                  "text": "讀",
+                  "probability": 0.8707664012908936
+                },
+                {
+                  "start": 8.94,
+                  "end": 9.28,
+                  "text": "石",
+                  "probability": 0.5673466324806213
+                },
+                {
+                  "start": 9.28,
+                  "end": 9.4,
+                  "text": "頭",
+                  "probability": 0.9896191954612732
+                },
+                {
+                  "start": 9.4,
+                  "end": 9.56,
+                  "text": "星",
+                  "probability": 0.529060423374176
+                },
+                {
+                  "start": 9.56,
+                  "end": 9.82,
+                  "text": "傳",
+                  "probability": 0.7250076532363892
+                },
+                {
+                  "start": 9.82,
+                  "end": 10.38,
+                  "text": "九",
+                  "probability": 0.5775355696678162
+                },
+                {
+                  "start": 10.38,
+                  "end": 10.7,
+                  "text": "章",
+                  "probability": 0.9423122704029083
+                },
+                {
+                  "start": 10.7,
+                  "end": 11.34,
+                  "text": "十",
+                  "probability": 0.6606904864311218
+                },
+                {
+                  "start": 11.34,
+                  "end": 11.82,
+                  "text": "到",
+                  "probability": 0.7374967336654663
+                },
+                {
+                  "start": 11.82,
+                  "end": 12.06,
+                  "text": "十",
+                  "probability": 0.9606491923332214
+                },
+                {
+                  "start": 12.06,
+                  "end": 12.26,
+                  "text": "九",
+                  "probability": 0.9969197511672974
+                },
+                {
+                  "start": 12.26,
+                  "end": 12.44,
+                  "text": "節",
+                  "probability": 0.778660774230957
+                },
+                {
+                  "start": 12.44,
+                  "end": 12.78,
+                  "text": "上",
+                  "probability": 0.9413517117500305
+                }
+              ]
+            }
+          ],
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+          "listenedByAgent": false
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 3.36,
+        "previousEnd": 8.42,
+        "previousConfidence": 0.714
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "026_第二十六问 基督如何执行君王的职分.md",
+          "audio": "26-3.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\026_第二十六问 基督如何执行君王的职分\\audio-03.json",
+          "caseIndex": 510,
+          "targetIndex": 10,
+          "edge": "end",
+          "previousTime": 8.42,
+          "time": 12.78,
+          "kind": "verified-edge",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false,
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。"
+        }
+      ]
     },
     {
-      "start": 8.42,
-      "end": 126.65,
+      "start": 14.24,
+      "end": 125.41,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "使徒行传91019上当下在大马士革有一个门徒名叫亚拿尼亚主在异象中对他说亚拿尼亚他说主我在这里主",
-      "confidence": 0.772
+      "confidence": 0.892,
+      "quality": {
+        "coverage": 0.888,
+        "coherentCoverage": 0.85,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 3,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "localSupported": false,
+          "source": "previous-verified-end",
+          "time": 12.78,
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "referenceOwnershipConstraint": {
+          "ownerTargetIndex": 10,
+          "ownerTargetText": "今天我们会把昨天开始的故事看完请读使徒行传91019上",
+          "notBefore": 12.78,
+          "verifiedSpokenOnset": false
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 8.42,
+        "previousEnd": 125.41,
+        "previousConfidence": 0.865
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "026_第二十六问 基督如何执行君王的职分.md",
+          "audio": "26-3.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\026_第二十六问 基督如何执行君王的职分\\audio-03.json",
+          "caseIndex": 510,
+          "targetIndex": 11,
+          "edge": "start",
+          "previousTime": 9.56,
+          "time": 12.78,
+          "kind": "unverified-neighbor-constraint",
+          "previousVerified": true,
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 0.75,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 0.875,
+            "localSimilarity": 0.933,
+            "localText": "使徒行传9章10到19节上当下在大马士革有1个门",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false,
+            "source": "verified-transcript"
+          },
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 12.78,
+            "time": 14.24,
+            "reason": "前段请读提示拥有出处时间，本段从实际经文首句起，不借用提示。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\26-3.mp3.json",
+              "sha256": "0f537e9281911bfab483fd70b2a988deef43bd39ec6e06922e58e7a61c33a9bf",
+              "segments": [
+                {
+                  "start": 3.36,
+                  "end": 7.48,
+                  "text": "今天我們會把昨天開始的故事看完",
+                  "words": [
+                    {
+                      "start": 3.36,
+                      "end": 4.0,
+                      "text": "今天",
+                      "probability": 0.4495442807674408
+                    },
+                    {
+                      "start": 4.0,
+                      "end": 4.64,
+                      "text": "我們",
+                      "probability": 0.739423394203186
+                    },
+                    {
+                      "start": 4.64,
+                      "end": 4.86,
+                      "text": "會",
+                      "probability": 0.9954159259796143
+                    },
+                    {
+                      "start": 4.86,
+                      "end": 5.12,
+                      "text": "把",
+                      "probability": 0.9900708794593811
+                    },
+                    {
+                      "start": 5.12,
+                      "end": 5.5,
+                      "text": "昨",
+                      "probability": 0.9857284426689148
+                    },
+                    {
+                      "start": 5.5,
+                      "end": 5.88,
+                      "text": "天",
+                      "probability": 0.9952709078788757
+                    },
+                    {
+                      "start": 5.88,
+                      "end": 6.18,
+                      "text": "開始",
+                      "probability": 0.9784526228904724
+                    },
+                    {
+                      "start": 6.18,
+                      "end": 6.52,
+                      "text": "的",
+                      "probability": 0.993970513343811
+                    },
+                    {
+                      "start": 6.52,
+                      "end": 6.7,
+                      "text": "故",
+                      "probability": 0.9897122383117676
+                    },
+                    {
+                      "start": 6.7,
+                      "end": 6.84,
+                      "text": "事",
+                      "probability": 0.9992343187332153
+                    },
+                    {
+                      "start": 6.84,
+                      "end": 7.06,
+                      "text": "看",
+                      "probability": 0.9940013289451599
+                    },
+                    {
+                      "start": 7.06,
+                      "end": 7.48,
+                      "text": "完",
+                      "probability": 0.9920251369476318
+                    }
+                  ]
+                },
+                {
+                  "start": 8.42,
+                  "end": 12.78,
+                  "text": "請讀石頭星傳九章十到十九節上",
+                  "words": [
+                    {
+                      "start": 8.42,
+                      "end": 8.74,
+                      "text": "請",
+                      "probability": 0.9739000201225281
+                    },
+                    {
+                      "start": 8.74,
+                      "end": 8.94,
+                      "text": "讀",
+                      "probability": 0.8707664012908936
+                    },
+                    {
+                      "start": 8.94,
+                      "end": 9.28,
+                      "text": "石",
+                      "probability": 0.5673466324806213
+                    },
+                    {
+                      "start": 9.28,
+                      "end": 9.4,
+                      "text": "頭",
+                      "probability": 0.9896191954612732
+                    },
+                    {
+                      "start": 9.4,
+                      "end": 9.56,
+                      "text": "星",
+                      "probability": 0.529060423374176
+                    },
+                    {
+                      "start": 9.56,
+                      "end": 9.82,
+                      "text": "傳",
+                      "probability": 0.7250076532363892
+                    },
+                    {
+                      "start": 9.82,
+                      "end": 10.38,
+                      "text": "九",
+                      "probability": 0.5775355696678162
+                    },
+                    {
+                      "start": 10.38,
+                      "end": 10.7,
+                      "text": "章",
+                      "probability": 0.9423122704029083
+                    },
+                    {
+                      "start": 10.7,
+                      "end": 11.34,
+                      "text": "十",
+                      "probability": 0.6606904864311218
+                    },
+                    {
+                      "start": 11.34,
+                      "end": 11.82,
+                      "text": "到",
+                      "probability": 0.7374967336654663
+                    },
+                    {
+                      "start": 11.82,
+                      "end": 12.06,
+                      "text": "十",
+                      "probability": 0.9606491923332214
+                    },
+                    {
+                      "start": 12.06,
+                      "end": 12.26,
+                      "text": "九",
+                      "probability": 0.9969197511672974
+                    },
+                    {
+                      "start": 12.26,
+                      "end": 12.44,
+                      "text": "節",
+                      "probability": 0.778660774230957
+                    },
+                    {
+                      "start": 12.44,
+                      "end": 12.78,
+                      "text": "上",
+                      "probability": 0.9413517117500305
+                    }
+                  ]
+                },
+                {
+                  "start": 14.24,
+                  "end": 20.42,
+                  "text": "當下在大馬士革有一個門徒名叫亞納尼亞",
+                  "words": [
+                    {
+                      "start": 14.24,
+                      "end": 14.88,
+                      "text": "當",
+                      "probability": 0.8509748578071594
+                    },
+                    {
+                      "start": 14.88,
+                      "end": 15.32,
+                      "text": "下",
+                      "probability": 0.9977285265922546
+                    },
+                    {
+                      "start": 15.32,
+                      "end": 15.8,
+                      "text": "在",
+                      "probability": 0.9178622961044312
+                    },
+                    {
+                      "start": 15.8,
+                      "end": 16.12,
+                      "text": "大",
+                      "probability": 0.9591304659843445
+                    },
+                    {
+                      "start": 16.12,
+                      "end": 16.28,
+                      "text": "馬",
+                      "probability": 0.98275226354599
+                    },
+                    {
+                      "start": 16.28,
+                      "end": 16.48,
+                      "text": "士",
+                      "probability": 0.590630054473877
+                    },
+                    {
+                      "start": 16.48,
+                      "end": 16.76,
+                      "text": "革",
+                      "probability": 0.9477365612983704
+                    },
+                    {
+                      "start": 16.76,
+                      "end": 17.44,
+                      "text": "有",
+                      "probability": 0.9481973648071289
+                    },
+                    {
+                      "start": 17.44,
+                      "end": 17.8,
+                      "text": "一個",
+                      "probability": 0.9839397668838501
+                    },
+                    {
+                      "start": 17.8,
+                      "end": 18.0,
+                      "text": "門",
+                      "probability": 0.9354962706565857
+                    },
+                    {
+                      "start": 18.0,
+                      "end": 18.32,
+                      "text": "徒",
+                      "probability": 0.9804774522781372
+                    },
+                    {
+                      "start": 18.32,
+                      "end": 18.82,
+                      "text": "名",
+                      "probability": 0.9305243492126465
+                    },
+                    {
+                      "start": 18.82,
+                      "end": 19.16,
+                      "text": "叫",
+                      "probability": 0.9884008169174194
+                    },
+                    {
+                      "start": 19.16,
+                      "end": 19.66,
+                      "text": "亞",
+                      "probability": 0.31169793009757996
+                    },
+                    {
+                      "start": 19.66,
+                      "end": 19.92,
+                      "text": "納",
+                      "probability": 0.5794987678527832
+                    },
+                    {
+                      "start": 19.92,
+                      "end": 20.18,
+                      "text": "尼",
+                      "probability": 0.9850603938102722
+                    },
+                    {
+                      "start": 20.18,
+                      "end": 20.42,
+                      "text": "亞",
+                      "probability": 0.9691017866134644
+                    }
+                  ]
+                },
+                {
+                  "start": 21.32,
+                  "end": 23.36,
+                  "text": "主在意象中對他說",
+                  "words": [
+                    {
+                      "start": 21.32,
+                      "end": 21.64,
+                      "text": "主",
+                      "probability": 0.5987391471862793
+                    },
+                    {
+                      "start": 21.64,
+                      "end": 22.24,
+                      "text": "在",
+                      "probability": 0.9922269582748413
+                    },
+                    {
+                      "start": 22.24,
+                      "end": 22.54,
+                      "text": "意",
+                      "probability": 0.9434083700180054
+                    },
+                    {
+                      "start": 22.54,
+                      "end": 22.72,
+                      "text": "象",
+                      "probability": 0.8157640695571899
+                    },
+                    {
+                      "start": 22.72,
+                      "end": 22.92,
+                      "text": "中",
+                      "probability": 0.998648464679718
+                    },
+                    {
+                      "start": 22.92,
+                      "end": 23.08,
+                      "text": "對",
+                      "probability": 0.995475709438324
+                    },
+                    {
+                      "start": 23.08,
+                      "end": 23.36,
+                      "text": "他說",
+                      "probability": 0.764887273311615
+                    }
+                  ]
+                },
+                {
+                  "start": 24.08,
+                  "end": 26.3,
+                  "text": "亞納尼亞他說",
+                  "words": [
+                    {
+                      "start": 24.08,
+                      "end": 24.72,
+                      "text": "亞",
+                      "probability": 0.6480440497398376
+                    },
+                    {
+                      "start": 24.72,
+                      "end": 24.9,
+                      "text": "納",
+                      "probability": 0.9975383877754211
+                    },
+                    {
+                      "start": 24.9,
+                      "end": 25.12,
+                      "text": "尼",
+                      "probability": 0.9994904398918152
+                    },
+                    {
+                      "start": 25.12,
+                      "end": 25.4,
+                      "text": "亞",
+                      "probability": 0.9990660548210144
+                    },
+                    {
+                      "start": 25.4,
+                      "end": 26.3,
+                      "text": "他說",
+                      "probability": 0.7517378330230713
+                    }
+                  ]
+                }
+              ],
+              "source": "context-reviewed-paragraph-approximation"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.888,
+          "coherentCoverage": 0.85,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.85,
+          "suffixCoverage": 0.9,
+          "unmatchedLeadingChars": 3,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "localSupported": false,
+            "source": "previous-verified-end",
+            "time": 12.78,
+            "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "referenceOwnershipConstraint": {
+            "ownerTargetIndex": 10,
+            "ownerTargetText": "今天我们会把昨天开始的故事看完请读使徒行传91019上",
+            "notBefore": 12.78,
+            "verifiedSpokenOnset": false
+          }
+        }
+      }
     },
     {
       "start": 126.65,
@@ -37,7 +696,452 @@
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "亚拿尼亚称耶稣为主我们会称我们所顺服的人为主亚拿尼亚不愿意去见扫罗因为大家都知道扫罗想要抓捕苦害",
-      "confidence": 0.753
+      "confidence": 0.908,
+      "quality": {
+        "coverage": 0.898,
+        "coherentCoverage": 0.877,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 5,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 126.65,
+        "previousEnd": 208.05,
+        "previousConfidence": 0.89
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 126.65,
+            "time": 126.65,
+            "reason": "亚拿尼亚名字识别缺失，保留实际首句，排除后文重复名字。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\26-3.mp3.json",
+              "sha256": "0f537e9281911bfab483fd70b2a988deef43bd39ec6e06922e58e7a61c33a9bf",
+              "segments": [
+                {
+                  "start": 115.33,
+                  "end": 118.49,
+                  "text": "好像有灵立刻掉下来",
+                  "words": [
+                    {
+                      "start": 115.33,
+                      "end": 115.99,
+                      "text": "好像",
+                      "probability": 0.9338511824607849
+                    },
+                    {
+                      "start": 115.99,
+                      "end": 116.37,
+                      "text": "有",
+                      "probability": 0.8759545683860779
+                    },
+                    {
+                      "start": 116.37,
+                      "end": 116.71,
+                      "text": "灵",
+                      "probability": 0.8633033633232117
+                    },
+                    {
+                      "start": 116.71,
+                      "end": 117.21,
+                      "text": "立",
+                      "probability": 0.9807387590408325
+                    },
+                    {
+                      "start": 117.21,
+                      "end": 117.57,
+                      "text": "刻",
+                      "probability": 0.9909927845001221
+                    },
+                    {
+                      "start": 117.57,
+                      "end": 117.81,
+                      "text": "掉",
+                      "probability": 0.9748559594154358
+                    },
+                    {
+                      "start": 117.81,
+                      "end": 118.09,
+                      "text": "下",
+                      "probability": 0.996840238571167
+                    },
+                    {
+                      "start": 118.09,
+                      "end": 118.49,
+                      "text": "来",
+                      "probability": 0.981913149356842
+                    }
+                  ]
+                },
+                {
+                  "start": 118.49,
+                  "end": 120.25,
+                  "text": "他就能看见",
+                  "words": [
+                    {
+                      "start": 118.49,
+                      "end": 119.01,
+                      "text": "他",
+                      "probability": 0.5023254752159119
+                    },
+                    {
+                      "start": 119.01,
+                      "end": 119.19,
+                      "text": "就",
+                      "probability": 0.9947583079338074
+                    },
+                    {
+                      "start": 119.19,
+                      "end": 119.35,
+                      "text": "能",
+                      "probability": 0.9971814155578613
+                    },
+                    {
+                      "start": 119.35,
+                      "end": 119.59,
+                      "text": "看",
+                      "probability": 0.9921074509620667
+                    },
+                    {
+                      "start": 119.59,
+                      "end": 120.25,
+                      "text": "见",
+                      "probability": 0.9978491067886353
+                    }
+                  ]
+                },
+                {
+                  "start": 120.25,
+                  "end": 122.09,
+                  "text": "于是起来瘦了心",
+                  "words": [
+                    {
+                      "start": 120.25,
+                      "end": 120.59,
+                      "text": "于",
+                      "probability": 0.9024779796600342
+                    },
+                    {
+                      "start": 120.59,
+                      "end": 120.75,
+                      "text": "是",
+                      "probability": 0.9983155727386475
+                    },
+                    {
+                      "start": 120.75,
+                      "end": 120.97,
+                      "text": "起",
+                      "probability": 0.989039421081543
+                    },
+                    {
+                      "start": 120.97,
+                      "end": 121.27,
+                      "text": "来",
+                      "probability": 0.9870361685752869
+                    },
+                    {
+                      "start": 121.27,
+                      "end": 121.63,
+                      "text": "瘦",
+                      "probability": 0.8976514339447021
+                    },
+                    {
+                      "start": 121.63,
+                      "end": 121.79,
+                      "text": "了",
+                      "probability": 0.9758641123771667
+                    },
+                    {
+                      "start": 121.79,
+                      "end": 122.09,
+                      "text": "心",
+                      "probability": 0.564565122127533
+                    }
+                  ]
+                },
+                {
+                  "start": 122.09,
+                  "end": 125.41,
+                  "text": "吃过饭就健壮了",
+                  "words": [
+                    {
+                      "start": 122.09,
+                      "end": 123.17,
+                      "text": "吃",
+                      "probability": 0.9608437418937683
+                    },
+                    {
+                      "start": 123.17,
+                      "end": 123.39,
+                      "text": "过",
+                      "probability": 0.9949988126754761
+                    },
+                    {
+                      "start": 123.39,
+                      "end": 123.67,
+                      "text": "饭",
+                      "probability": 0.9994899332523346
+                    },
+                    {
+                      "start": 123.67,
+                      "end": 124.31,
+                      "text": "就",
+                      "probability": 0.9606863856315613
+                    },
+                    {
+                      "start": 124.31,
+                      "end": 124.81,
+                      "text": "健",
+                      "probability": 0.540927529335022
+                    },
+                    {
+                      "start": 124.81,
+                      "end": 125.11,
+                      "text": "壮",
+                      "probability": 0.9863173961639404
+                    },
+                    {
+                      "start": 125.11,
+                      "end": 125.41,
+                      "text": "了",
+                      "probability": 0.9559342861175537
+                    }
+                  ]
+                },
+                {
+                  "start": 126.65,
+                  "end": 129.73,
+                  "text": "耶稣为主",
+                  "words": [
+                    {
+                      "start": 126.65,
+                      "end": 127.25,
+                      "text": "耶",
+                      "probability": 0.2698513865470886
+                    },
+                    {
+                      "start": 127.25,
+                      "end": 127.41,
+                      "text": "稣",
+                      "probability": 0.5685636401176453
+                    },
+                    {
+                      "start": 127.41,
+                      "end": 129.33,
+                      "text": "为",
+                      "probability": 0.5318195223808289
+                    },
+                    {
+                      "start": 129.33,
+                      "end": 129.73,
+                      "text": "主",
+                      "probability": 0.9996904134750366
+                    }
+                  ]
+                },
+                {
+                  "start": 129.73,
+                  "end": 133.53,
+                  "text": "我们会称我们所顺服的人为主",
+                  "words": [
+                    {
+                      "start": 129.73,
+                      "end": 130.79,
+                      "text": "我们",
+                      "probability": 0.8869066834449768
+                    },
+                    {
+                      "start": 130.79,
+                      "end": 131.07,
+                      "text": "会",
+                      "probability": 0.9922250509262085
+                    },
+                    {
+                      "start": 131.07,
+                      "end": 131.61,
+                      "text": "称",
+                      "probability": 0.9731414020061493
+                    },
+                    {
+                      "start": 131.61,
+                      "end": 132.05,
+                      "text": "我们",
+                      "probability": 0.9473787546157837
+                    },
+                    {
+                      "start": 132.05,
+                      "end": 132.31,
+                      "text": "所",
+                      "probability": 0.9115896821022034
+                    },
+                    {
+                      "start": 132.31,
+                      "end": 132.59,
+                      "text": "顺",
+                      "probability": 0.964358925819397
+                    },
+                    {
+                      "start": 132.59,
+                      "end": 132.79,
+                      "text": "服",
+                      "probability": 0.8624001741409302
+                    },
+                    {
+                      "start": 132.79,
+                      "end": 132.99,
+                      "text": "的人",
+                      "probability": 0.9727785587310791
+                    },
+                    {
+                      "start": 132.99,
+                      "end": 133.23,
+                      "text": "为",
+                      "probability": 0.9813832640647888
+                    },
+                    {
+                      "start": 133.23,
+                      "end": 133.53,
+                      "text": "主",
+                      "probability": 0.9992019534111023
+                    }
+                  ]
+                },
+                {
+                  "start": 134.29,
+                  "end": 137.45,
+                  "text": "亚拿尼亚不愿意娶贱嫂罗",
+                  "words": [
+                    {
+                      "start": 134.29,
+                      "end": 134.89,
+                      "text": "亚",
+                      "probability": 0.49061625823378563
+                    },
+                    {
+                      "start": 134.89,
+                      "end": 135.03,
+                      "text": "拿",
+                      "probability": 0.477185994386673
+                    },
+                    {
+                      "start": 135.03,
+                      "end": 135.21,
+                      "text": "尼",
+                      "probability": 0.9770712852478027
+                    },
+                    {
+                      "start": 135.21,
+                      "end": 135.41,
+                      "text": "亚",
+                      "probability": 0.9759452044963837
+                    },
+                    {
+                      "start": 135.41,
+                      "end": 135.77,
+                      "text": "不",
+                      "probability": 0.9758460521697998
+                    },
+                    {
+                      "start": 135.77,
+                      "end": 136.05,
+                      "text": "愿",
+                      "probability": 0.9898815155029297
+                    },
+                    {
+                      "start": 136.05,
+                      "end": 136.33,
+                      "text": "意",
+                      "probability": 0.9908549785614014
+                    },
+                    {
+                      "start": 136.33,
+                      "end": 136.73,
+                      "text": "娶",
+                      "probability": 0.6063190549612045
+                    },
+                    {
+                      "start": 136.73,
+                      "end": 136.89,
+                      "text": "贱",
+                      "probability": 0.5299566388130188
+                    },
+                    {
+                      "start": 136.89,
+                      "end": 137.19,
+                      "text": "嫂",
+                      "probability": 0.7055600136518478
+                    },
+                    {
+                      "start": 137.19,
+                      "end": 137.45,
+                      "text": "罗",
+                      "probability": 0.844476968050003
+                    }
+                  ]
+                }
+              ],
+              "source": "context-reviewed-paragraph-approximation"
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (13 trailing chars, coverage 0.133): target 10: 今天我们会把昨天开始的故事看完。请读使徒行传9:10-19上。",
+    "unverified end anchor: target 10: 今天我们会把昨天开始的故事看完。请读使徒行传9:10-19上。",
+    "incomplete start (5 leading chars, coverage 0.750): target 12: 亚拿尼亚称耶稣为“主”。我们会称我们所顺服的人为“主”。亚拿尼亚不愿意去见扫罗，因为大家都知道，",
+    "unverified start anchor: target 12: 亚拿尼亚称耶稣为“主”。我们会称我们所顺服的人为“主”。亚拿尼亚不愿意去见扫罗，因为大家都知道，",
+    "repair unverified end (previous-sync): target 10",
+    "repair unverified start (previous-sync): target 12",
+    "context reviewed end: target 10; 前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+    "unverified constrained start: target 11; 旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "76b574c062fe302102442e1ddd90721eda54968a39505dae8c62fac620f2b4f6",
+  "repairCueDigest": "4c4437d826e622327df197c2eab53cbf4fbc1b8db86411e9d1755d21bb4d1f87",
+  "previousAlignmentWarnings": []
 }

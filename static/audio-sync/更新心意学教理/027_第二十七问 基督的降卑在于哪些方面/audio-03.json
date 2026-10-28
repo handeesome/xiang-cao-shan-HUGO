@@ -8,36 +8,707 @@
   "audioDuration": 162.61225,
   "cues": [
     {
-      "start": 2.23,
-      "end": 5.6,
-      "kind": "heading",
-      "targetIndex": 9,
-      "targetText": "礼拜三",
-      "confidence": 0.8
-    },
-    {
-      "start": 5.6,
-      "end": 9.02,
+      "start": 5.1,
+      "end": 7.76,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "请读诗篇95篇",
-      "confidence": 0.286
+      "confidence": 0.571,
+      "quality": {
+        "coverage": 0.714,
+        "coherentCoverage": 0.571,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.333,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.714,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 5.6,
+        "previousEnd": 9.02,
+        "previousConfidence": 0.286
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 5.6,
+            "time": 5.1,
+            "reason": "核对原识别稿的相邻句及同一段实际读法；按真实句首或句尾定位，识别错字、译法差异和短省略不作逐字否决。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\27-3.mp3.json",
+              "sha256": "cf23fd48342406bcb32d415a90018c3639e2e688d0edbcfb77a7df192f086032",
+              "source": "context-reviewed-paragraph-approximation",
+              "segments": [
+                {
+                  "start": 1.65,
+                  "end": 7.76,
+                  "text": "禮拜三 請多十篇九十五篇",
+                  "words": [
+                    {
+                      "start": 1.65,
+                      "end": 2.23,
+                      "text": "禮",
+                      "probability": 0.36427886597812176
+                    },
+                    {
+                      "start": 2.23,
+                      "end": 2.39,
+                      "text": "拜",
+                      "probability": 0.36849653720855713
+                    },
+                    {
+                      "start": 2.39,
+                      "end": 2.81,
+                      "text": "三",
+                      "probability": 0.7641887068748474
+                    },
+                    {
+                      "start": 5.1,
+                      "end": 5.6,
+                      "text": " 請",
+                      "probability": 0.5875450968742371
+                    },
+                    {
+                      "start": 5.6,
+                      "end": 5.88,
+                      "text": "多",
+                      "probability": 0.9689412713050842
+                    },
+                    {
+                      "start": 5.88,
+                      "end": 6.44,
+                      "text": "十",
+                      "probability": 0.5548446178436279
+                    },
+                    {
+                      "start": 6.44,
+                      "end": 6.76,
+                      "text": "篇",
+                      "probability": 0.997636616230011
+                    },
+                    {
+                      "start": 6.76,
+                      "end": 7.04,
+                      "text": "九",
+                      "probability": 0.5432488918304443
+                    },
+                    {
+                      "start": 7.04,
+                      "end": 7.22,
+                      "text": "十",
+                      "probability": 0.9964553117752075
+                    },
+                    {
+                      "start": 7.22,
+                      "end": 7.42,
+                      "text": "五",
+                      "probability": 0.9974833130836487
+                    },
+                    {
+                      "start": 7.42,
+                      "end": 7.76,
+                      "text": "篇",
+                      "probability": 0.9996430277824402
+                    }
+                  ]
+                },
+                {
+                  "start": 9.02,
+                  "end": 12.26,
+                  "text": "來呀 我們要向依赫華歌唱",
+                  "words": [
+                    {
+                      "start": 9.02,
+                      "end": 9.7,
+                      "text": "來",
+                      "probability": 0.6975341439247131
+                    },
+                    {
+                      "start": 9.7,
+                      "end": 10.14,
+                      "text": "呀",
+                      "probability": 0.9086441397666931
+                    },
+                    {
+                      "start": 10.14,
+                      "end": 10.68,
+                      "text": " 我們",
+                      "probability": 0.52817702293396
+                    },
+                    {
+                      "start": 10.68,
+                      "end": 10.92,
+                      "text": "要",
+                      "probability": 0.9990679621696472
+                    },
+                    {
+                      "start": 10.92,
+                      "end": 11.12,
+                      "text": "向",
+                      "probability": 0.9939836859703064
+                    },
+                    {
+                      "start": 11.12,
+                      "end": 11.34,
+                      "text": "依",
+                      "probability": 0.6926574409008026
+                    },
+                    {
+                      "start": 11.34,
+                      "end": 11.46,
+                      "text": "赫",
+                      "probability": 0.6400261670351028
+                    },
+                    {
+                      "start": 11.46,
+                      "end": 11.64,
+                      "text": "華",
+                      "probability": 0.9833973050117493
+                    },
+                    {
+                      "start": 11.64,
+                      "end": 11.9,
+                      "text": "歌",
+                      "probability": 0.9788455963134766
+                    },
+                    {
+                      "start": 11.9,
+                      "end": 12.26,
+                      "text": "唱",
+                      "probability": 0.9991315007209778
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.714,
+          "coherentCoverage": 0.571,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.333,
+          "suffixCoverage": 1.0,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.714,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          }
+        }
+      }
     },
     {
       "start": 9.02,
-      "end": 93.79,
+      "end": 94.13,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "诗篇95111来啊我们要向耶和华歌唱向拯救我们的磐石欢呼我们要来感谢祂用诗歌向祂欢呼因耶和华为大",
-      "confidence": 0.724
+      "confidence": 0.822,
+      "quality": {
+        "coverage": 0.805,
+        "coherentCoverage": 0.726,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.35,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 10,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 9.02,
+        "previousEnd": 94.13,
+        "previousConfidence": 0.826
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 9.02,
+            "time": 9.02,
+            "reason": "正文起句已定位，保留原先读出处范围",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\27-3.mp3.json",
+              "sha256": "0a657db1c6ff8169053f4368514a29ce5c7ef39a488fa1e6eed7a250ca4c4ed5",
+              "anchor": {
+                "time": 9.02,
+                "score": 0.8571,
+                "ratio": 0.8571,
+                "expected": "laiawomenyaoxiangyehehuagechangxiangzhengjiu",
+                "actual": "来呀我们要向依赫华歌唱向拯救",
+                "span": [
+                  9.02,
+                  14.46
+                ],
+                "tokens": [
+                  {
+                    "text": "来",
+                    "start": 9.02,
+                    "end": 9.7,
+                    "rawStart": 11,
+                    "rawEnd": 11,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "呀",
+                    "start": 9.7,
+                    "end": 10.14,
+                    "rawStart": 12,
+                    "rawEnd": 12,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 10.14,
+                    "end": 10.68,
+                    "rawStart": 13,
+                    "rawEnd": 13,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 10.14,
+                    "end": 10.68,
+                    "rawStart": 14,
+                    "rawEnd": 14,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "要",
+                    "start": 10.68,
+                    "end": 10.92,
+                    "rawStart": 15,
+                    "rawEnd": 15,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "向",
+                    "start": 10.92,
+                    "end": 11.12,
+                    "rawStart": 16,
+                    "rawEnd": 16,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "依",
+                    "start": 11.12,
+                    "end": 11.34,
+                    "rawStart": 17,
+                    "rawEnd": 17,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "赫",
+                    "start": 11.34,
+                    "end": 11.46,
+                    "rawStart": 18,
+                    "rawEnd": 18,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "华",
+                    "start": 11.46,
+                    "end": 11.64,
+                    "rawStart": 19,
+                    "rawEnd": 19,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "歌",
+                    "start": 11.64,
+                    "end": 11.9,
+                    "rawStart": 20,
+                    "rawEnd": 20,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "唱",
+                    "start": 11.9,
+                    "end": 12.26,
+                    "rawStart": 21,
+                    "rawEnd": 21,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "向",
+                    "start": 12.26,
+                    "end": 13.54,
+                    "rawStart": 22,
+                    "rawEnd": 22,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "拯",
+                    "start": 13.54,
+                    "end": 14.1,
+                    "rawStart": 23,
+                    "rawEnd": 23,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "救",
+                    "start": 14.1,
+                    "end": 14.46,
+                    "rawStart": 24,
+                    "rawEnd": 24,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "来啊,我们要向耶和华歌唱,向拯救我们的磐石欢呼!我们要来感谢祂,用诗歌向祂欢呼!因耶和华为大神,为大王,超乎万神之上。地的深处在祂手中,山的高峰也属祂。海洋属祂,是祂造的;旱地也是祂手造成的。来啊,我们要屈身敬拜,在造我们的耶和华面前跪下。因为祂是我们的神,我们是祂草场的羊,是祂手下的民。惟愿你们今天听祂的话!你们不可硬着心,像当日在米利巴,就是在旷野的玛撒。那时,你们的祖宗试我探我,并且观看我的作为。四十年之久,我厌烦那世代,说:“这是心里迷糊的百姓,竟不晓得我的作为!”所以我在怒中起誓说:“他们断不可进入我的安息!”",
+              "retainedCitationInterval": [
+                9.02,
+                9.02
+              ]
+            }
+          }
+        }
+      }
     },
     {
-      "start": 93.79,
-      "end": 154.08,
+      "start": 94.13,
+      "end": 160.38,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "这篇诗篇赞美上帝是万有之上的大君王它讲述了万物万民都属于祂祂都随自己的旨意对待他们这篇诗篇提醒我",
-      "confidence": 0.635
+      "confidence": 0.905,
+      "quality": {
+        "coverage": 0.908,
+        "coherentCoverage": 0.87,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 94.13,
+        "previousEnd": 154.08,
+        "previousConfidence": 0.905
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 154.08,
+            "time": 160.38,
+            "reason": "核对原识别稿的相邻句及同一段实际读法；按真实句首或句尾定位，识别错字、译法差异和短省略不作逐字否决。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\27-3.mp3.json",
+              "sha256": "cf23fd48342406bcb32d415a90018c3639e2e688d0edbcfb77a7df192f086032",
+              "source": "context-reviewed-paragraph-approximation",
+              "segments": [
+                {
+                  "start": 151.06,
+                  "end": 154.08,
+                  "text": "自己伏在律法之下",
+                  "words": [
+                    {
+                      "start": 151.06,
+                      "end": 152.04,
+                      "text": "自己",
+                      "probability": 0.8175432682037354
+                    },
+                    {
+                      "start": 152.04,
+                      "end": 152.56,
+                      "text": "伏",
+                      "probability": 0.7167680710554123
+                    },
+                    {
+                      "start": 152.56,
+                      "end": 152.94,
+                      "text": "在",
+                      "probability": 0.9939578771591187
+                    },
+                    {
+                      "start": 152.94,
+                      "end": 153.28,
+                      "text": "律",
+                      "probability": 0.9980105757713318
+                    },
+                    {
+                      "start": 153.28,
+                      "end": 153.52,
+                      "text": "法",
+                      "probability": 0.9996299743652344
+                    },
+                    {
+                      "start": 153.52,
+                      "end": 153.74,
+                      "text": "之",
+                      "probability": 0.5199661254882812
+                    },
+                    {
+                      "start": 153.74,
+                      "end": 154.08,
+                      "text": "下",
+                      "probability": 0.9990731477737427
+                    }
+                  ]
+                },
+                {
+                  "start": 154.08,
+                  "end": 157.18,
+                  "text": "他現在竟要順服他",
+                  "words": [
+                    {
+                      "start": 154.08,
+                      "end": 155.22,
+                      "text": "他",
+                      "probability": 0.9717901349067688
+                    },
+                    {
+                      "start": 155.22,
+                      "end": 155.5,
+                      "text": "現在",
+                      "probability": 0.9941226840019226
+                    },
+                    {
+                      "start": 155.5,
+                      "end": 156.16,
+                      "text": "竟",
+                      "probability": 0.7045888453722
+                    },
+                    {
+                      "start": 156.16,
+                      "end": 156.36,
+                      "text": "要",
+                      "probability": 0.8943793773651123
+                    },
+                    {
+                      "start": 156.36,
+                      "end": 156.58,
+                      "text": "順",
+                      "probability": 0.9693750739097595
+                    },
+                    {
+                      "start": 156.58,
+                      "end": 156.82,
+                      "text": "服",
+                      "probability": 0.8067048788070679
+                    },
+                    {
+                      "start": 156.82,
+                      "end": 157.18,
+                      "text": "他",
+                      "probability": 0.9380648136138916
+                    }
+                  ]
+                },
+                {
+                  "start": 157.18,
+                  "end": 160.38,
+                  "text": "為受造者制定的律法",
+                  "words": [
+                    {
+                      "start": 157.18,
+                      "end": 157.7,
+                      "text": "為",
+                      "probability": 0.9593947529792786
+                    },
+                    {
+                      "start": 157.7,
+                      "end": 158.4,
+                      "text": "受",
+                      "probability": 0.996048629283905
+                    },
+                    {
+                      "start": 158.4,
+                      "end": 158.76,
+                      "text": "造",
+                      "probability": 0.9879103899002075
+                    },
+                    {
+                      "start": 158.76,
+                      "end": 159.18,
+                      "text": "者",
+                      "probability": 0.9985159039497375
+                    },
+                    {
+                      "start": 159.18,
+                      "end": 159.4,
+                      "text": "制",
+                      "probability": 0.8927018642425537
+                    },
+                    {
+                      "start": 159.4,
+                      "end": 159.68,
+                      "text": "定",
+                      "probability": 0.9811322093009949
+                    },
+                    {
+                      "start": 159.68,
+                      "end": 159.8,
+                      "text": "的",
+                      "probability": 0.8548724055290222
+                    },
+                    {
+                      "start": 159.8,
+                      "end": 160.06,
+                      "text": "律",
+                      "probability": 0.999066948890686
+                    },
+                    {
+                      "start": 160.06,
+                      "end": 160.38,
+                      "text": "法",
+                      "probability": 0.9998714923858643
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.908,
+          "coherentCoverage": 0.87,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.9,
+          "suffixCoverage": 0.7,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (0 leading chars, coverage 0.333): target 10: 请读诗篇95篇。",
+    "incomplete start (10 leading chars, coverage 0.350): target 11: 诗篇95:1-11 来啊，我们要向耶和华歌唱，向拯救我们的磐石欢呼！我们要来感谢祂，用诗歌向祂欢",
+    "unverified start anchor: target 11: 诗篇95:1-11 来啊，我们要向耶和华歌唱，向拯救我们的磐石欢呼！我们要来感谢祂，用诗歌向祂欢",
+    "unverified end anchor: target 12: 这篇诗篇赞美上帝是万有之上的大君王。它讲述了万物、万民都属于祂，祂都随自己的旨意对待他们。这篇诗",
+    "repair unverified start (previous-sync): target 10",
+    "repair unverified start (previous-sync): target 11",
+    "repair unverified end (previous-sync): target 12"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "3e6fa8c260314c35ffbd260be81e1cb453ea5a39807d28b28d2d9ccf1faee5a5",
+  "repairCueDigest": "054016db6bce598bd6e57d6ce187467ae6662d38bfd1e532933cf7a58b684b39",
+  "previousAlignmentWarnings": []
 }

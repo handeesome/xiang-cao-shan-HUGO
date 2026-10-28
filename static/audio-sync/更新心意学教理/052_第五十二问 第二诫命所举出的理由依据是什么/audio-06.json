@@ -8,20 +8,210 @@
   "audioDuration": 79.512,
   "cues": [
     {
-      "start": 1.66,
-      "end": 2.94,
-      "kind": "heading",
-      "targetIndex": 15,
-      "targetText": "礼拜五",
-      "confidence": 0.8
-    },
-    {
       "start": 2.94,
-      "end": 59.78,
+      "end": 58.3,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "这个诫命的最后一段说上帝对那些爱祂守祂诫命的人发慈爱我们想要知道祂想要的是什么好让我们能遵守这样",
-      "confidence": 0.602
+      "confidence": 0.924,
+      "quality": {
+        "coverage": 0.924,
+        "coherentCoverage": 0.888,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\52-5.mp3.json",
+          "transcriptSha256": "251bc236aca12d0179c34bee8f9c8a8a8eed6e1eadaf96dda0c8b6078ec8483b",
+          "phraseChars": 12,
+          "candidate": 2.94,
+          "expectedPhrase": "这个诫命的最后1段说神对",
+          "actualPhrase": "这个界面的最后1段说神对",
+          "phoneticPhrase": [
+            "zhe",
+            "ge",
+            "jie",
+            "ming",
+            "de",
+            "zui",
+            "hou",
+            "yi",
+            "duan",
+            "shuo",
+            "shen",
+            "dui"
+          ],
+          "actualPhoneticPhrase": [
+            "zhe",
+            "ge",
+            "jie",
+            "mian",
+            "de",
+            "zui",
+            "hou",
+            "yi",
+            "duan",
+            "shuo",
+            "shen",
+            "dui"
+          ],
+          "verified": true,
+          "time": 2.94,
+          "boundedPhonetic": true,
+          "exactEndpointPhonemes": 2,
+          "maxInternalPhoneticDifferences": 2,
+          "phoneticDifferences": [
+            3
+          ],
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "这",
+              "start": 2.94,
+              "end": 3.62,
+              "rawStart": 3,
+              "rawEnd": 3,
+              "precision": "word"
+            },
+            {
+              "text": "个",
+              "start": 2.94,
+              "end": 3.62,
+              "rawStart": 4,
+              "rawEnd": 4,
+              "precision": "word"
+            },
+            {
+              "text": "界",
+              "start": 3.62,
+              "end": 3.9,
+              "rawStart": 5,
+              "rawEnd": 5,
+              "precision": "word"
+            },
+            {
+              "text": "面",
+              "start": 3.9,
+              "end": 4.06,
+              "rawStart": 6,
+              "rawEnd": 6,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 4.06,
+              "end": 4.2,
+              "rawStart": 7,
+              "rawEnd": 7,
+              "precision": "word"
+            },
+            {
+              "text": "最",
+              "start": 4.2,
+              "end": 4.6,
+              "rawStart": 8,
+              "rawEnd": 8,
+              "precision": "word"
+            },
+            {
+              "text": "后",
+              "start": 4.2,
+              "end": 4.6,
+              "rawStart": 9,
+              "rawEnd": 9,
+              "precision": "word"
+            },
+            {
+              "text": "1",
+              "start": 4.6,
+              "end": 4.82,
+              "rawStart": 10,
+              "rawEnd": 10,
+              "precision": "word"
+            },
+            {
+              "text": "段",
+              "start": 4.82,
+              "end": 4.96,
+              "rawStart": 11,
+              "rawEnd": 11,
+              "precision": "word"
+            },
+            {
+              "text": "说",
+              "start": 4.96,
+              "end": 5.3,
+              "rawStart": 12,
+              "rawEnd": 12,
+              "precision": "word"
+            },
+            {
+              "text": "神",
+              "start": 5.3,
+              "end": 6.94,
+              "rawStart": 13,
+              "rawEnd": 14,
+              "precision": "word"
+            },
+            {
+              "text": "对",
+              "start": 6.94,
+              "end": 7.42,
+              "rawStart": 15,
+              "rawEnd": 15,
+              "precision": "word"
+            }
+          ],
+          "source": "bounded-local-phonetic-differences-original-word-times",
+          "listenedByAgent": false,
+          "audioSha256": "9b7ba13e2860d7196fd2df0e4f9eddacde6bcfff03d1bc8d4da33d75a9799592",
+          "reason": "实际首/尾2个音节贴边相同，12音节局部短句最多2处内部识别差异；完整词边界、源段及录音唯一性、数字一致、停顿与相邻时间均核验，不逐字检查正文中间。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 2.94,
+        "previousEnd": 58.3,
+        "previousConfidence": 0.891
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "052_第五十二问 第二诫命所举出的理由依据是什么.md",
+          "audio": "52-5.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\052_第五十二问 第二诫命所举出的理由依据是什么\\audio-06.json",
+          "targetIndex": 16,
+          "edge": "start",
+          "previousTime": 2.94,
+          "time": 2.94,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
       "start": 59.78,
@@ -29,7 +219,73 @@
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "约翰福音1421有了我的命令又遵守的这人就是爱我的爱我的必蒙我父爱他我也要爱他并且要向他显现",
-      "confidence": 0.821
+      "confidence": 0.938,
+      "quality": {
+        "coverage": 0.938,
+        "coherentCoverage": 0.938,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 59.78,
+        "previousEnd": 77.34,
+        "previousConfidence": 0.821
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 16: 这个诫命的最后一段说，上帝对那些爱祂守祂诫命的人发慈爱。我们想要知道祂想要的是什么，好让我们能遵",
+    "repair unverified start (previous-sync): target 16"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "ea9680db2a97cda915929e6659e5c6af6b8c63e479fbe4e196201dcb1d6cea38",
+  "repairCueDigest": "41025f199f3f6ee3525b99d1f670168a2910220973cbdbbac3754380ef4dae02",
+  "previousAlignmentWarnings": []
 }

@@ -8,20 +8,410 @@
   "audioDuration": 73.6130625,
   "cues": [
     {
-      "start": 2.47,
-      "end": 2.95,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "礼拜一",
-      "confidence": 0.8
+      "start": 2.95,
+      "end": 6.53,
+      "kind": "paragraph",
+      "targetIndex": 3,
+      "targetText": "请读创世记213",
+      "confidence": 0.818,
+      "quality": {
+        "verificationBasis": "local-boundaries",
+        "reviewRequired": false,
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "context-reviewed-read-prompt-start",
+          "expectedPhrase": "请读创世记2:1-3。",
+          "observedPhrase": "禮拜一請讀創始祭二章一到三節",
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\57-1.mp3.json",
+          "transcriptSha256": "f325536a558d45fa17aee3aa4ad2fbb612fc3fc9dc6b5db412ddb9ab64b11e6e",
+          "audioSha256": "a081fbe98aceb396796bb2ed954f759773fe15eb64c73c2b1a1291ce97b93b55",
+          "wordTokens": [
+            {
+              "text": "請",
+              "start": 2.95,
+              "end": 3.75
+            },
+            {
+              "text": "讀",
+              "start": 3.75,
+              "end": 4.01
+            },
+            {
+              "text": "創",
+              "start": 4.01,
+              "end": 4.35
+            },
+            {
+              "text": "始",
+              "start": 4.35,
+              "end": 4.57
+            },
+            {
+              "text": "祭",
+              "start": 4.57,
+              "end": 4.81
+            },
+            {
+              "text": "二",
+              "start": 4.81,
+              "end": 5.21
+            },
+            {
+              "text": "章",
+              "start": 5.21,
+              "end": 5.45
+            },
+            {
+              "text": "一",
+              "start": 5.45,
+              "end": 5.73
+            },
+            {
+              "text": "到",
+              "start": 5.73,
+              "end": 5.97
+            },
+            {
+              "text": "三",
+              "start": 5.97,
+              "end": 6.25
+            },
+            {
+              "text": "節",
+              "start": 6.25,
+              "end": 6.53
+            }
+          ],
+          "listenedByAgent": false,
+          "reason": "录音开头标题后独立读出请读及完整书名章、节号；按现有词级稿首尾和下一段真实正文首词划界，印刷出处归属仍单列待核。",
+          "time": 2.95
+        },
+        "endEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "context-reviewed-read-prompt-ending",
+          "expectedPhrase": "请读创世记2:1-3。",
+          "observedPhrase": "禮拜一請讀創始祭二章一到三節",
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\57-1.mp3.json",
+          "transcriptSha256": "f325536a558d45fa17aee3aa4ad2fbb612fc3fc9dc6b5db412ddb9ab64b11e6e",
+          "audioSha256": "a081fbe98aceb396796bb2ed954f759773fe15eb64c73c2b1a1291ce97b93b55",
+          "wordTokens": [
+            {
+              "text": "請",
+              "start": 2.95,
+              "end": 3.75
+            },
+            {
+              "text": "讀",
+              "start": 3.75,
+              "end": 4.01
+            },
+            {
+              "text": "創",
+              "start": 4.01,
+              "end": 4.35
+            },
+            {
+              "text": "始",
+              "start": 4.35,
+              "end": 4.57
+            },
+            {
+              "text": "祭",
+              "start": 4.57,
+              "end": 4.81
+            },
+            {
+              "text": "二",
+              "start": 4.81,
+              "end": 5.21
+            },
+            {
+              "text": "章",
+              "start": 5.21,
+              "end": 5.45
+            },
+            {
+              "text": "一",
+              "start": 5.45,
+              "end": 5.73
+            },
+            {
+              "text": "到",
+              "start": 5.73,
+              "end": 5.97
+            },
+            {
+              "text": "三",
+              "start": 5.97,
+              "end": 6.25
+            },
+            {
+              "text": "節",
+              "start": 6.25,
+              "end": 6.53
+            }
+          ],
+          "listenedByAgent": false,
+          "reason": "录音开头标题后独立读出请读及完整书名章、节号；按现有词级稿首尾和下一段真实正文首词划界，印刷出处归属仍单列待核。",
+          "time": 6.53
+        }
+      },
+      "repair": {
+        "startSource": "context-reviewed-read-prompt-start",
+        "endSource": "context-reviewed-read-prompt-ending",
+        "previousStart": null,
+        "previousEnd": null,
+        "previousConfidence": null
+      },
+      "addedCueReview": {
+        "kind": "existing-small-local-read-prompt",
+        "audioSha256": "a081fbe98aceb396796bb2ed954f759773fe15eb64c73c2b1a1291ce97b93b55",
+        "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\57-1.mp3.json",
+        "listenedByAgent": false
+      }
     },
     {
-      "start": 2.95,
-      "end": 33.83,
+      "start": 7.81,
+      "end": 32.07,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "创世记213天地万物都造齐了到第七日上帝造物的工已经完毕就在第七日歇了祂一切的工安息了上帝赐福给",
-      "confidence": 0.632
+      "confidence": 0.876,
+      "quality": {
+        "coverage": 0.859,
+        "coherentCoverage": 0.833,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 3,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "localSupported": false,
+          "source": "body-onset-pending-reference-ownership",
+          "time": 7.81,
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\57-1.mp3.json",
+          "transcriptSha256": "f325536a558d45fa17aee3aa4ad2fbb612fc3fc9dc6b5db412ddb9ab64b11e6e",
+          "audioSha256": "a081fbe98aceb396796bb2ed954f759773fe15eb64c73c2b1a1291ce97b93b55",
+          "listenedByAgent": false,
+          "reason": "印刷出处在前段请读提示读出，本段正文首词时间已定位；完整出处归属证据仍待核实。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "referenceOwnershipConstraint": {
+          "ownerTargetIndex": 3,
+          "ownerTargetText": "请读创世记213",
+          "notBefore": 6.53,
+          "verifiedSpokenOnset": false
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 2.95,
+        "previousEnd": 32.07,
+        "previousConfidence": 0.8
+      },
+      "boundaryCorrections": [
+        {
+          "targetIndex": 4,
+          "edge": "start",
+          "previousTime": 4.81,
+          "time": 7.81,
+          "kind": "preceding-read-prompt-ownership-constraint",
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 0.75,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 0.875,
+            "localSimilarity": 0.933,
+            "localText": "创世记2章1到3节天地万物都造齐了到第7日上帝造",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false,
+            "source": "verified-transcript"
+          },
+          "previousVerified": true,
+          "reason": "旧起点落在前段请读提示内；后段首个经文正文词从当前时间开始。印刷出处归属尚未正式核验。"
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 7.81,
+            "time": 7.81,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\57-1.mp3.json",
+              "sha256": "f325536a558d45fa17aee3aa4ad2fbb612fc3fc9dc6b5db412ddb9ab64b11e6e",
+              "anchor": {
+                "time": 7.81,
+                "score": 1.0,
+                "ratio": 1.0,
+                "expected": "tiandiwanwudouzaoqiledaodiqirishenzao",
+                "actual": "天地万物都造齐了到第7日神造",
+                "span": [
+                  7.81,
+                  13.69
+                ],
+                "tokens": [
+                  {
+                    "text": "天",
+                    "start": 7.81,
+                    "end": 8.37,
+                    "rawStart": 14,
+                    "rawEnd": 14,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "地",
+                    "start": 8.37,
+                    "end": 8.67,
+                    "rawStart": 15,
+                    "rawEnd": 15,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "万",
+                    "start": 8.67,
+                    "end": 8.89,
+                    "rawStart": 16,
+                    "rawEnd": 16,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "物",
+                    "start": 8.89,
+                    "end": 9.19,
+                    "rawStart": 17,
+                    "rawEnd": 17,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "都",
+                    "start": 9.19,
+                    "end": 9.61,
+                    "rawStart": 18,
+                    "rawEnd": 18,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "造",
+                    "start": 9.61,
+                    "end": 10.07,
+                    "rawStart": 19,
+                    "rawEnd": 19,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "齐",
+                    "start": 10.07,
+                    "end": 10.45,
+                    "rawStart": 20,
+                    "rawEnd": 20,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "了",
+                    "start": 10.45,
+                    "end": 10.75,
+                    "rawStart": 21,
+                    "rawEnd": 21,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "到",
+                    "start": 10.75,
+                    "end": 11.65,
+                    "rawStart": 22,
+                    "rawEnd": 22,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "第",
+                    "start": 11.65,
+                    "end": 11.95,
+                    "rawStart": 23,
+                    "rawEnd": 23,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "7",
+                    "start": 11.95,
+                    "end": 12.25,
+                    "rawStart": 24,
+                    "rawEnd": 24,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "日",
+                    "start": 12.25,
+                    "end": 12.69,
+                    "rawStart": 25,
+                    "rawEnd": 25,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 12.69,
+                    "end": 13.27,
+                    "rawStart": 26,
+                    "rawEnd": 27,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "造",
+                    "start": 13.27,
+                    "end": 13.69,
+                    "rawStart": 28,
+                    "rawEnd": 28,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 5.73,
+                  "score": 0.8831,
+                  "actual": "到3节天地万物都造齐了到第7日神造"
+                }
+              },
+              "body": "天地万物都造齐了。到第七日,神造物的工已经完毕,就在第七日歇了祂一切的工,安息了。神赐福给第七日,定为圣日,因为在这日神歇了祂一切创造的工,就安息了。"
+            }
+          }
+        }
+      }
     },
     {
       "start": 33.83,
@@ -29,7 +419,79 @@
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "上帝从无中造出万有祂在六日之内创造了一切在第七日上帝歇了祂的工上帝不是累了上帝是灵没有身体祂不会",
-      "confidence": 0.922
+      "confidence": 0.951,
+      "quality": {
+        "coverage": 0.951,
+        "coherentCoverage": 0.951,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 33.83,
+        "previousEnd": 72.47,
+        "previousConfidence": 0.951
+      }
     }
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 5: 上帝从无中造出万有。祂在六日之内创造了一切。在第七日，上帝歇了祂的工。上帝不是累了。上帝是灵，没",
+    "unverified printed-reference ownership: target 4; body onset retained at 7.81s"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 0,
+    "addedCues": 1,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "previousAlignmentWarnings": [
+    "incomplete end (8 trailing chars, coverage 0.000): target 3: 请读创世记2:1-3。",
+    "low confidence (0.429, coverage 0.273): target 3: 请读创世记2:1-3。",
+    "unverified start anchor: target 3: 请读创世记2:1-3。",
+    "unverified end anchor: target 3: 请读创世记2:1-3。",
+    "unmatched (fragment only): target 3: 请读创世记2:1-3。",
+    "unverified end anchor: target 5: 上帝从无中造出万有。祂在六日之内创造了一切。在第七日，上帝歇了祂的工。上帝不是累了。上帝是灵，没",
+    "repair missing cue (unverified): target 3"
   ]
 }

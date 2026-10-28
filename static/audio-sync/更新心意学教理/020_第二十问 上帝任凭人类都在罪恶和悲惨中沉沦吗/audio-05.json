@@ -8,28 +8,828 @@
   "audioDuration": 179.34475,
   "cues": [
     {
-      "start": 0.72,
-      "end": 106.11,
+      "start": 49.64,
+      "end": 104.8,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "圣灵上帝在上帝与祂百姓所立的约中也有重要的角色罪已经使我们的心思蒙蔽无法靠自己理解福音圣灵赐下属",
-      "confidence": 0.69
+      "confidence": 0.949,
+      "quality": {
+        "coverage": 0.949,
+        "coherentCoverage": 0.949,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 49.64,
+        "previousEnd": 104.8,
+        "previousConfidence": 0.946
+      }
     },
     {
       "start": 106.11,
-      "end": 143.81,
+      "end": 146.89,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "耶稣为祂百姓所获得的一些福分要等到耶稣再来的时候才会赐下来在那之前圣灵都住在他们里面祂保证他们最",
-      "confidence": 0.896
+      "confidence": 0.894,
+      "quality": {
+        "coverage": 0.857,
+        "coherentCoverage": 0.805,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.35,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 12,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "next-verified-start"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "next-verified-start",
+        "previousStart": 106.11,
+        "previousEnd": 143.81,
+        "previousConfidence": 0.912
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 143.27,
+            "time": 146.89,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\20-4.mp3.json",
+              "sha256": "e94964837d05c7a392e6fa718b9c971993a33c6b3787624f94fa5178abc97c1a",
+              "anchor": {
+                "time": 146.89,
+                "score": 0.9964,
+                "ratio": 1.0,
+                "expected": "qingduyifusuoshuyizhang13dao14jie",
+                "actual": "请读乙服所书1章13到14节",
+                "span": [
+                  141.83,
+                  146.89
+                ],
+                "tokens": [
+                  {
+                    "text": "请",
+                    "start": 141.83,
+                    "end": 142.39,
+                    "rawStart": 412,
+                    "rawEnd": 412,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "读",
+                    "start": 142.39,
+                    "end": 142.69,
+                    "rawStart": 413,
+                    "rawEnd": 413,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "乙",
+                    "start": 142.69,
+                    "end": 143.11,
+                    "rawStart": 414,
+                    "rawEnd": 414,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "服",
+                    "start": 143.11,
+                    "end": 143.27,
+                    "rawStart": 415,
+                    "rawEnd": 415,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "所",
+                    "start": 143.27,
+                    "end": 143.53,
+                    "rawStart": 416,
+                    "rawEnd": 416,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "书",
+                    "start": 143.53,
+                    "end": 143.81,
+                    "rawStart": 417,
+                    "rawEnd": 417,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 143.81,
+                    "end": 144.35,
+                    "rawStart": 418,
+                    "rawEnd": 418,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "章",
+                    "start": 144.35,
+                    "end": 144.63,
+                    "rawStart": 419,
+                    "rawEnd": 419,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 144.63,
+                    "end": 145.61,
+                    "rawStart": 420,
+                    "rawEnd": 420,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "3",
+                    "start": 144.63,
+                    "end": 145.61,
+                    "rawStart": 421,
+                    "rawEnd": 421,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "到",
+                    "start": 145.61,
+                    "end": 146.01,
+                    "rawStart": 422,
+                    "rawEnd": 422,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 146.01,
+                    "end": 146.63,
+                    "rawStart": 423,
+                    "rawEnd": 423,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "4",
+                    "start": 146.01,
+                    "end": 146.63,
+                    "rawStart": 424,
+                    "rawEnd": 424,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "节",
+                    "start": 146.63,
+                    "end": 146.89,
+                    "rawStart": 425,
+                    "rawEnd": 425,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 149.29,
+                  "score": 0.8147,
+                  "actual": "读乙服所书1章13到14节你们既听"
+                }
+              },
+              "body": "耶稣为祂百姓所获得的一些福分,要等到耶稣再来的时候才会赐下来。在那之前,圣灵都住在他们里面。祂保证,他们最终会得到耶稣为他们获得的一切。如果你已经信靠耶稣作你的救主,那么对于圣灵赐你对福音的悟性,对于圣灵更新你的心意,使你能够信耶稣,你应该是何等地感恩啊!请读以弗所书1:13-14。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.857,
+          "coherentCoverage": 0.805,
+          "extraSpeechContext": false,
+          "prefixCoverage": 1.0,
+          "suffixCoverage": 0.35,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 12,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "next-verified-start"
+          }
+        }
+      }
     },
     {
-      "start": 143.81,
+      "start": 148.01,
       "end": 171.69,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "以弗所书11314你们既听见真理的道就是那叫你们得救的福音也信了基督既然信祂就受了所应许的圣灵为",
-      "confidence": 0.767
+      "confidence": 0.878,
+      "quality": {
+        "coverage": 0.867,
+        "coherentCoverage": 0.867,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 143.81,
+        "previousEnd": 171.69,
+        "previousConfidence": 0.78
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 143.27,
+            "time": 148.01,
+            "reason": "前段请读提示拥有出处时间，本段从实际经文首句起，不借用提示。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\20-4.mp3.json",
+              "sha256": "e94964837d05c7a392e6fa718b9c971993a33c6b3787624f94fa5178abc97c1a",
+              "segments": [
+                {
+                  "start": 137.71,
+                  "end": 141.03,
+                  "text": "你应该是何等的感恩啊",
+                  "words": [
+                    {
+                      "start": 137.71,
+                      "end": 138.65,
+                      "text": "你",
+                      "probability": 0.8930391669273376
+                    },
+                    {
+                      "start": 138.65,
+                      "end": 138.91,
+                      "text": "应",
+                      "probability": 0.9991016387939453
+                    },
+                    {
+                      "start": 138.91,
+                      "end": 139.09,
+                      "text": "该",
+                      "probability": 0.9987629652023315
+                    },
+                    {
+                      "start": 139.09,
+                      "end": 139.37,
+                      "text": "是",
+                      "probability": 0.9963845014572144
+                    },
+                    {
+                      "start": 139.37,
+                      "end": 139.87,
+                      "text": "何",
+                      "probability": 0.9225854277610779
+                    },
+                    {
+                      "start": 139.87,
+                      "end": 140.09,
+                      "text": "等",
+                      "probability": 0.956943929195404
+                    },
+                    {
+                      "start": 140.09,
+                      "end": 140.27,
+                      "text": "的",
+                      "probability": 0.9663950800895691
+                    },
+                    {
+                      "start": 140.27,
+                      "end": 140.43,
+                      "text": "感",
+                      "probability": 0.9389063119888306
+                    },
+                    {
+                      "start": 140.43,
+                      "end": 140.67,
+                      "text": "恩",
+                      "probability": 0.9994354844093323
+                    },
+                    {
+                      "start": 140.67,
+                      "end": 141.03,
+                      "text": "啊",
+                      "probability": 0.8407017588615417
+                    }
+                  ]
+                },
+                {
+                  "start": 141.83,
+                  "end": 146.89,
+                  "text": "请读乙服所书一章十三到十四节",
+                  "words": [
+                    {
+                      "start": 141.83,
+                      "end": 142.39,
+                      "text": "请",
+                      "probability": 0.20090900361537933
+                    },
+                    {
+                      "start": 142.39,
+                      "end": 142.69,
+                      "text": "读",
+                      "probability": 0.9602211117744446
+                    },
+                    {
+                      "start": 142.69,
+                      "end": 143.11,
+                      "text": "乙",
+                      "probability": 0.5996743440628052
+                    },
+                    {
+                      "start": 143.11,
+                      "end": 143.27,
+                      "text": "服",
+                      "probability": 0.14915041625499725
+                    },
+                    {
+                      "start": 143.27,
+                      "end": 143.53,
+                      "text": "所",
+                      "probability": 0.7492564916610718
+                    },
+                    {
+                      "start": 143.53,
+                      "end": 143.81,
+                      "text": "书",
+                      "probability": 0.9647488296031952
+                    },
+                    {
+                      "start": 143.81,
+                      "end": 144.35,
+                      "text": "一",
+                      "probability": 0.38319844007492065
+                    },
+                    {
+                      "start": 144.35,
+                      "end": 144.63,
+                      "text": "章",
+                      "probability": 0.9631039202213287
+                    },
+                    {
+                      "start": 144.63,
+                      "end": 145.17,
+                      "text": "十",
+                      "probability": 0.788512110710144
+                    },
+                    {
+                      "start": 145.17,
+                      "end": 145.61,
+                      "text": "三",
+                      "probability": 0.9848761558532715
+                    },
+                    {
+                      "start": 145.61,
+                      "end": 146.01,
+                      "text": "到",
+                      "probability": 0.5907079577445984
+                    },
+                    {
+                      "start": 146.01,
+                      "end": 146.37,
+                      "text": "十",
+                      "probability": 0.9934775829315186
+                    },
+                    {
+                      "start": 146.37,
+                      "end": 146.63,
+                      "text": "四",
+                      "probability": 0.996616780757904
+                    },
+                    {
+                      "start": 146.63,
+                      "end": 146.89,
+                      "text": "节",
+                      "probability": 0.971080482006073
+                    }
+                  ]
+                },
+                {
+                  "start": 148.01,
+                  "end": 150.57,
+                  "text": "你们既听见真理的道",
+                  "words": [
+                    {
+                      "start": 148.01,
+                      "end": 148.57,
+                      "text": "你们",
+                      "probability": 0.27110031247138977
+                    },
+                    {
+                      "start": 148.57,
+                      "end": 148.89,
+                      "text": "既",
+                      "probability": 0.9091342985630035
+                    },
+                    {
+                      "start": 148.89,
+                      "end": 149.29,
+                      "text": "听",
+                      "probability": 0.9773589968681335
+                    },
+                    {
+                      "start": 149.29,
+                      "end": 149.59,
+                      "text": "见",
+                      "probability": 0.9937415719032288
+                    },
+                    {
+                      "start": 149.59,
+                      "end": 149.97,
+                      "text": "真",
+                      "probability": 0.5671507716178894
+                    },
+                    {
+                      "start": 149.97,
+                      "end": 150.19,
+                      "text": "理",
+                      "probability": 0.9832888245582581
+                    },
+                    {
+                      "start": 150.19,
+                      "end": 150.31,
+                      "text": "的",
+                      "probability": 0.5630598664283752
+                    },
+                    {
+                      "start": 150.31,
+                      "end": 150.57,
+                      "text": "道",
+                      "probability": 0.9402359127998352
+                    }
+                  ]
+                },
+                {
+                  "start": 150.57,
+                  "end": 153.45,
+                  "text": "就是那叫你们得旧的福音",
+                  "words": [
+                    {
+                      "start": 150.57,
+                      "end": 151.47,
+                      "text": "就是",
+                      "probability": 0.7820461392402649
+                    },
+                    {
+                      "start": 151.47,
+                      "end": 151.73,
+                      "text": "那",
+                      "probability": 0.9886233806610107
+                    },
+                    {
+                      "start": 151.73,
+                      "end": 151.97,
+                      "text": "叫",
+                      "probability": 0.8866684436798096
+                    },
+                    {
+                      "start": 151.97,
+                      "end": 152.25,
+                      "text": "你们",
+                      "probability": 0.980627715587616
+                    },
+                    {
+                      "start": 152.25,
+                      "end": 152.61,
+                      "text": "得",
+                      "probability": 0.9023978114128113
+                    },
+                    {
+                      "start": 152.61,
+                      "end": 152.81,
+                      "text": "旧",
+                      "probability": 0.6550773829221725
+                    },
+                    {
+                      "start": 152.81,
+                      "end": 152.97,
+                      "text": "的",
+                      "probability": 0.996812641620636
+                    },
+                    {
+                      "start": 152.97,
+                      "end": 153.17,
+                      "text": "福",
+                      "probability": 0.9142634868621826
+                    },
+                    {
+                      "start": 153.17,
+                      "end": 153.45,
+                      "text": "音",
+                      "probability": 0.9854542016983032
+                    }
+                  ]
+                },
+                {
+                  "start": 153.93,
+                  "end": 154.97,
+                  "text": "也信了基督",
+                  "words": [
+                    {
+                      "start": 153.93,
+                      "end": 154.21,
+                      "text": "也",
+                      "probability": 0.8522162437438965
+                    },
+                    {
+                      "start": 154.21,
+                      "end": 154.45,
+                      "text": "信",
+                      "probability": 0.40784281492233276
+                    },
+                    {
+                      "start": 154.45,
+                      "end": 154.59,
+                      "text": "了",
+                      "probability": 0.9471073150634766
+                    },
+                    {
+                      "start": 154.59,
+                      "end": 154.81,
+                      "text": "基",
+                      "probability": 0.8681942224502563
+                    },
+                    {
+                      "start": 154.81,
+                      "end": 154.97,
+                      "text": "督",
+                      "probability": 0.9989113807678223
+                    }
+                  ]
+                },
+                {
+                  "start": 154.97,
+                  "end": 156.65,
+                  "text": "既然信他",
+                  "words": [
+                    {
+                      "start": 154.97,
+                      "end": 155.91,
+                      "text": "既",
+                      "probability": 0.9439907670021057
+                    },
+                    {
+                      "start": 155.91,
+                      "end": 156.09,
+                      "text": "然",
+                      "probability": 0.9979574680328369
+                    },
+                    {
+                      "start": 156.09,
+                      "end": 156.31,
+                      "text": "信",
+                      "probability": 0.9872761368751526
+                    },
+                    {
+                      "start": 156.31,
+                      "end": 156.65,
+                      "text": "他",
+                      "probability": 0.6703270673751831
+                    }
+                  ]
+                },
+                {
+                  "start": 156.65,
+                  "end": 160.11,
+                  "text": "就受了所允许的圣灵为应祭",
+                  "words": [
+                    {
+                      "start": 156.65,
+                      "end": 157.21,
+                      "text": "就",
+                      "probability": 0.8151641488075256
+                    },
+                    {
+                      "start": 157.21,
+                      "end": 157.81,
+                      "text": "受",
+                      "probability": 0.9775816798210144
+                    },
+                    {
+                      "start": 157.81,
+                      "end": 158.07,
+                      "text": "了",
+                      "probability": 0.9768713116645813
+                    },
+                    {
+                      "start": 158.07,
+                      "end": 158.37,
+                      "text": "所",
+                      "probability": 0.8896878957748413
+                    },
+                    {
+                      "start": 158.37,
+                      "end": 158.69,
+                      "text": "允",
+                      "probability": 0.8387980163097382
+                    },
+                    {
+                      "start": 158.69,
+                      "end": 158.93,
+                      "text": "许",
+                      "probability": 0.9981774091720581
+                    },
+                    {
+                      "start": 158.93,
+                      "end": 159.11,
+                      "text": "的",
+                      "probability": 0.9981967806816101
+                    },
+                    {
+                      "start": 159.11,
+                      "end": 159.29,
+                      "text": "圣",
+                      "probability": 0.9958489835262299
+                    },
+                    {
+                      "start": 159.29,
+                      "end": 159.45,
+                      "text": "灵",
+                      "probability": 0.945836216211319
+                    },
+                    {
+                      "start": 159.45,
+                      "end": 159.63,
+                      "text": "为",
+                      "probability": 0.9188646078109741
+                    },
+                    {
+                      "start": 159.63,
+                      "end": 159.89,
+                      "text": "应",
+                      "probability": 0.6384282112121582
+                    },
+                    {
+                      "start": 159.89,
+                      "end": 160.11,
+                      "text": "祭",
+                      "probability": 0.6628783345222473
+                    }
+                  ]
+                }
+              ],
+              "source": "context-reviewed-paragraph-approximation"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.867,
+          "coherentCoverage": 0.867,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.9,
+          "suffixCoverage": 0.75,
+          "unmatchedLeadingChars": 2,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": false,
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.667,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (12 trailing chars, coverage 0.350): target 21: 耶稣为祂百姓所获得的一些福分，要等到耶稣再来的时候才会赐下来。在那之前，圣灵都住在他们里面。祂保",
+    "unverified end anchor: target 21: 耶稣为祂百姓所获得的一些福分，要等到耶稣再来的时候才会赐下来。在那之前，圣灵都住在他们里面。祂保",
+    "repair unverified end (next-verified-start): target 21"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "33c3d4bea77baa8b2d84f409463b6af66ba975e0a5f27893e2fb65768a08796a",
+  "repairCueDigest": "796bbc398df15fd1a8e89746ccc1e156f5a717adcb2a654644b60f9cd1b7ecfd",
+  "previousAlignmentWarnings": []
 }

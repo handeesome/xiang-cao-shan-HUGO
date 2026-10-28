@@ -8,28 +8,297 @@
   "audioDuration": 104.448,
   "cues": [
     {
-      "start": 1.71,
-      "end": 2.87,
-      "kind": "heading",
-      "targetIndex": 7,
-      "targetText": "礼拜二",
-      "confidence": 0.8
-    },
-    {
-      "start": 2.87,
-      "end": 83.97,
+      "start": 1.17,
+      "end": 86.37,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "称义有两个重要的方面第一方面就是赦免我们犯过的所有罪圣经告诉我们我们犯罪的时候就是在得罪上帝尽管",
-      "confidence": 0.888
+      "confidence": 0.972,
+      "quality": {
+        "coverage": 0.977,
+        "coherentCoverage": 0.977,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1.17,
+        "previousEnd": 83.97,
+        "previousConfidence": 0.963
+      }
     },
     {
-      "start": 83.97,
+      "start": 87.71,
       "end": 102.39,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "诗篇3212得赦免其过遮盖其罪的这人是有福的凡心里没有诡诈耶和华不算为有罪的这人是有福的",
-      "confidence": 0.689
+      "confidence": 0.706,
+      "quality": {
+        "coverage": 0.638,
+        "coherentCoverage": 0.511,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.4,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 9,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "previous-verified-sync",
+        "previousStart": 83.97,
+        "previousEnd": 102.39,
+        "previousConfidence": 0.689
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 86.37,
+            "time": 87.71,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\33-2.mp3.json",
+              "sha256": "17784e486a731eedad98493fecb79de1c910d082f6cf4846cd6f66c697d7d5e5",
+              "anchor": {
+                "time": 87.71,
+                "score": 0.8558,
+                "ratio": 0.8571,
+                "expected": "deshemianqiguozhegaiqizuidezherenshiyou",
+                "actual": "得世面其过之盖其罪的这人是有",
+                "span": [
+                  87.71,
+                  93.71
+                ],
+                "tokens": [
+                  {
+                    "text": "得",
+                    "start": 87.71,
+                    "end": 88.87,
+                    "rawStart": 266,
+                    "rawEnd": 266,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "世",
+                    "start": 88.87,
+                    "end": 89.37,
+                    "rawStart": 267,
+                    "rawEnd": 267,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "面",
+                    "start": 89.37,
+                    "end": 89.69,
+                    "rawStart": 268,
+                    "rawEnd": 268,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "其",
+                    "start": 89.69,
+                    "end": 89.99,
+                    "rawStart": 269,
+                    "rawEnd": 269,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "过",
+                    "start": 89.99,
+                    "end": 90.33,
+                    "rawStart": 270,
+                    "rawEnd": 270,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "之",
+                    "start": 90.33,
+                    "end": 91.11,
+                    "rawStart": 271,
+                    "rawEnd": 271,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "盖",
+                    "start": 91.11,
+                    "end": 91.45,
+                    "rawStart": 272,
+                    "rawEnd": 272,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "其",
+                    "start": 91.45,
+                    "end": 91.81,
+                    "rawStart": 273,
+                    "rawEnd": 273,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "罪",
+                    "start": 91.81,
+                    "end": 92.09,
+                    "rawStart": 274,
+                    "rawEnd": 274,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 92.09,
+                    "end": 92.37,
+                    "rawStart": 275,
+                    "rawEnd": 275,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "这",
+                    "start": 92.37,
+                    "end": 93.13,
+                    "rawStart": 276,
+                    "rawEnd": 276,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 93.13,
+                    "end": 93.31,
+                    "rawStart": 277,
+                    "rawEnd": 277,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 93.31,
+                    "end": 93.53,
+                    "rawStart": 278,
+                    "rawEnd": 278,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "有",
+                    "start": 93.53,
+                    "end": 93.71,
+                    "rawStart": 279,
+                    "rawEnd": 279,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "得赦免其过、遮盖其罪的,这人是有福的!凡心里没有诡诈、耶和华不算为有罪的,这人是有福的!"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.638,
+          "coherentCoverage": 0.511,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.4,
+          "suffixCoverage": 0.75,
+          "unmatchedLeadingChars": 9,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-verified-end"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v9-explicit-reference-owner-and-numeric-edges",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (9 leading chars, coverage 0.400): target 9: 诗篇32:1-2 得赦免其过、遮盖其罪的，这人是有福的！凡心里没有诡诈、耶和华不算为有罪的，这人",
+    "unverified start anchor: target 9: 诗篇32:1-2 得赦免其过、遮盖其罪的，这人是有福的！凡心里没有诡诈、耶和华不算为有罪的，这人",
+    "repair unverified start (previous-verified-end): target 9"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "a6f261e74ad346d343028ff752c8546f20540dda3d277c47f1a91f2f887603fc",
+  "repairCueDigest": "ee23483b5d7c33ba16f65e93e23fd2b3fc7848b1c02eb9c04a1c3015163c5d50",
+  "previousAlignmentWarnings": []
 }

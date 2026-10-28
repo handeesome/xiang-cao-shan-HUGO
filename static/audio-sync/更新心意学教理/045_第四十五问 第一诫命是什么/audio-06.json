@@ -8,20 +8,296 @@
   "audioDuration": 98.76,
   "cues": [
     {
-      "start": 1.84,
-      "end": 3.04,
-      "kind": "heading",
-      "targetIndex": 19,
-      "targetText": "礼拜五",
-      "confidence": 0.8
+      "start": 2.76,
+      "end": 7.6,
+      "kind": "paragraph",
+      "targetIndex": 20,
+      "targetText": "请读腓立比书31819",
+      "confidence": 0.774,
+      "quality": {
+        "verificationBasis": "local-boundaries",
+        "reviewRequired": false,
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "two-raw-models-local-read-prompt",
+          "time": 2.76,
+          "smallTime": 3.04,
+          "mediumTime": 2.76,
+          "smallObserved": "遷都菲利比書三章十八到十九節",
+          "mediumObserved": "星期五请读《菲律比书》三章十八到十九节",
+          "smallTranscript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\45-5.mp3.json",
+          "smallSha256": "8cf53c176a5c26b9ee2af22a4abdc288e959bba154b1016cf7ef1aee2bd682b9",
+          "mediumWindow": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\catechism-45-5-medium.json",
+          "audioSha256": "e1212e75782e2941ad9fdaaf8c9210bc98b6b5cf8d4dcae2fc0039121a6d548e",
+          "listenedByAgent": false
+        },
+        "endEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "context-reviewed-read-prompt-ending",
+          "time": 7.6,
+          "smallTime": 6.86,
+          "mediumTime": 7.6,
+          "smallObserved": "遷都菲利比書三章十八到十九節",
+          "mediumObserved": "星期五请读《菲律比书》三章十八到十九节",
+          "smallTranscript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\45-5.mp3.json",
+          "smallSha256": "8cf53c176a5c26b9ee2af22a4abdc288e959bba154b1016cf7ef1aee2bd682b9",
+          "mediumWindow": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\catechism-45-5-medium.json",
+          "audioSha256": "e1212e75782e2941ad9fdaaf8c9210bc98b6b5cf8d4dcae2fc0039121a6d548e",
+          "listenedByAgent": false,
+          "reason": "原始small把请读误识为迁都；局部medium明确识别请读菲律比书三章十八到十九节，两个提示末词时间差0.74秒。"
+        }
+      },
+      "repair": {
+        "startSource": "two-raw-models-local-read-prompt",
+        "endSource": "context-reviewed-read-prompt-ending",
+        "previousStart": null,
+        "previousEnd": null,
+        "previousConfidence": null
+      },
+      "addedCueReview": {
+        "kind": "two-model-local-read-prompt",
+        "audioSha256": "e1212e75782e2941ad9fdaaf8c9210bc98b6b5cf8d4dcae2fc0039121a6d548e",
+        "smallTranscript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\45-5.mp3.json",
+        "mediumWindow": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\catechism-45-5-medium.json",
+        "listenedByAgent": false
+      }
     },
     {
-      "start": 3.04,
-      "end": 34.39,
+      "start": 8.6,
+      "end": 31.94,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "腓立比书31819因为有许多人行事是基督十字架的仇敌我屡次告诉你们现在又流泪地告诉你们他们的结局",
-      "confidence": 0.561
+      "confidence": 0.854,
+      "quality": {
+        "coverage": 0.839,
+        "coherentCoverage": 0.816,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "localSupported": false,
+          "source": "two-model-body-onset-pending-reference-ownership",
+          "time": 8.6,
+          "smallTime": 8.6,
+          "mediumTime": 8.92,
+          "smallTranscript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\45-5.mp3.json",
+          "smallSha256": "8cf53c176a5c26b9ee2af22a4abdc288e959bba154b1016cf7ef1aee2bd682b9",
+          "mediumWindow": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\catechism-45-5-medium.json",
+          "audioSha256": "e1212e75782e2941ad9fdaaf8c9210bc98b6b5cf8d4dcae2fc0039121a6d548e",
+          "listenedByAgent": false,
+          "reason": "前段请读已独立定位，正文首词在此后开始；印刷出处完整归属仍待核实。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "referenceOwnershipConstraint": {
+          "ownerTargetIndex": 20,
+          "ownerTargetText": "请读腓立比书31819",
+          "notBefore": 7.6,
+          "verifiedSpokenOnset": false
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 3.04,
+        "previousEnd": 31.94,
+        "previousConfidence": 0.76
+      },
+      "boundaryCorrections": [
+        {
+          "targetIndex": 21,
+          "edge": "start",
+          "previousTime": 4.44,
+          "time": 8.6,
+          "kind": "preceding-read-prompt-ownership-constraint",
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "previousVerified": true,
+          "reason": "旧已验证起点实际位于前段请读提示内；两份词稿的正文因为有许多人行事分别在8.60和8.92秒开始，撤回旧归属。"
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 8.6,
+            "time": 8.6,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\45-5.mp3.json",
+              "sha256": "8cf53c176a5c26b9ee2af22a4abdc288e959bba154b1016cf7ef1aee2bd682b9",
+              "anchor": {
+                "time": 8.6,
+                "score": 1.0,
+                "ratio": 1.0,
+                "expected": "yinweiyouxuduorenxingshishijidushizijia",
+                "actual": "因为有许多人行事是基督师自家",
+                "span": [
+                  8.6,
+                  13.3
+                ],
+                "tokens": [
+                  {
+                    "text": "因",
+                    "start": 8.6,
+                    "end": 9.16,
+                    "rawStart": 17,
+                    "rawEnd": 17,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "为",
+                    "start": 8.6,
+                    "end": 9.16,
+                    "rawStart": 18,
+                    "rawEnd": 18,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "有",
+                    "start": 9.16,
+                    "end": 9.72,
+                    "rawStart": 19,
+                    "rawEnd": 19,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "许",
+                    "start": 9.72,
+                    "end": 10.2,
+                    "rawStart": 20,
+                    "rawEnd": 20,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "多",
+                    "start": 10.2,
+                    "end": 10.56,
+                    "rawStart": 21,
+                    "rawEnd": 21,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 10.56,
+                    "end": 10.84,
+                    "rawStart": 22,
+                    "rawEnd": 22,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "行",
+                    "start": 10.84,
+                    "end": 11.12,
+                    "rawStart": 23,
+                    "rawEnd": 23,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "事",
+                    "start": 11.12,
+                    "end": 11.48,
+                    "rawStart": 24,
+                    "rawEnd": 24,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 11.48,
+                    "end": 12.2,
+                    "rawStart": 25,
+                    "rawEnd": 25,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "基",
+                    "start": 12.2,
+                    "end": 12.58,
+                    "rawStart": 26,
+                    "rawEnd": 26,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "督",
+                    "start": 12.58,
+                    "end": 12.74,
+                    "rawStart": 27,
+                    "rawEnd": 27,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "师",
+                    "start": 12.74,
+                    "end": 12.96,
+                    "rawStart": 28,
+                    "rawEnd": 28,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "自",
+                    "start": 12.96,
+                    "end": 13.14,
+                    "rawStart": 29,
+                    "rawEnd": 29,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "家",
+                    "start": 13.14,
+                    "end": 13.3,
+                    "rawStart": 30,
+                    "rawEnd": 30,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 6.26,
+                  "score": 0.8829,
+                  "actual": "19节因为有许多人行事是基督师自家"
+                }
+              },
+              "body": "因为有许多人行事是基督十字架的仇敌。我屡次告诉你们,现在又流泪地告诉你们:他们的结局就是沉沦,他们的神就是自己的肚腹,他们以自己的羞辱为荣耀,专以地上的事为念。"
+            }
+          }
+        }
+      }
     },
     {
       "start": 34.39,
@@ -29,7 +305,72 @@
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "在这段经文中使徒保罗描述了上帝的那些仇敌他说他们的上帝是什么肚腹不是说他们向自己的肚腹祷告这就是",
-      "confidence": 0.938
+      "confidence": 0.944,
+      "quality": {
+        "coverage": 0.947,
+        "coherentCoverage": 0.947,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 34.39,
+        "previousEnd": 95.19,
+        "previousConfidence": 0.938
+      }
     }
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified printed-reference ownership: target 21; body onset retained at 8.60s"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 0,
+    "addedCues": 1,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "previousAlignmentWarnings": [
+    "unmatched: target 20: 请读腓立比书3:18-19。",
+    "repair missing cue (unverified): target 20"
   ]
 }

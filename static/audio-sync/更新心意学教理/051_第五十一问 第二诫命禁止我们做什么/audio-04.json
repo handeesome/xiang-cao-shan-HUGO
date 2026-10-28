@@ -9,51 +9,882 @@
   "cues": [
     {
       "start": 3.54,
-      "end": 47.9,
+      "end": 47.38,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "上帝的百姓不制造上帝的雕像或者画像这个事情为什么那么重要呢上帝的百姓从经文中认识上帝而不是通过想",
-      "confidence": 0.97
+      "confidence": 0.978,
+      "quality": {
+        "coverage": 0.971,
+        "coherentCoverage": 0.971,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 3.54,
+        "previousEnd": 47.9,
+        "previousConfidence": 0.97
+      }
     },
     {
       "start": 47.9,
-      "end": 50.84,
+      "end": 51.36,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "请读诗篇9712",
-      "confidence": 0.875
+      "confidence": 0.889,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 0.75,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 47.9,
+        "previousEnd": 50.84,
+        "previousConfidence": 0.875
+      }
     },
     {
-      "start": 50.84,
-      "end": 68.44,
+      "start": 53.06,
+      "end": 66.9,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "诗篇9712耶和华作王愿地快乐愿众海岛欢喜密云和幽暗在祂的四围公义和公平是祂宝座的根基",
-      "confidence": 0.771
+      "confidence": 0.815,
+      "quality": {
+        "coverage": 0.767,
+        "coherentCoverage": 0.767,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 7,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "verified-transcript",
+        "previousStart": 50.84,
+        "previousEnd": 68.44,
+        "previousConfidence": 0.771
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 51.36,
+            "time": 53.06,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\51-3.mp3.json",
+              "sha256": "032e6000384c567b9ad51cf2738d75294b6acf91a6ac9c9ffefb59b11426d6ec",
+              "anchor": {
+                "time": 53.06,
+                "score": 0.9553,
+                "ratio": 0.963,
+                "expected": "yehehuazuowangyuandikuaileyuanzhonghaidaohuan",
+                "actual": "和华作王愿地快乐愿众海岛欢",
+                "span": [
+                  53.06,
+                  58.2
+                ],
+                "tokens": [
+                  {
+                    "text": "和",
+                    "start": 53.06,
+                    "end": 53.22,
+                    "rawStart": 150,
+                    "rawEnd": 150,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "华",
+                    "start": 53.22,
+                    "end": 53.44,
+                    "rawStart": 151,
+                    "rawEnd": 151,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "作",
+                    "start": 53.44,
+                    "end": 53.68,
+                    "rawStart": 152,
+                    "rawEnd": 152,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "王",
+                    "start": 53.68,
+                    "end": 54.08,
+                    "rawStart": 153,
+                    "rawEnd": 153,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "愿",
+                    "start": 54.5,
+                    "end": 54.74,
+                    "rawStart": 154,
+                    "rawEnd": 154,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "地",
+                    "start": 54.74,
+                    "end": 55.02,
+                    "rawStart": 155,
+                    "rawEnd": 155,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "快",
+                    "start": 55.02,
+                    "end": 55.38,
+                    "rawStart": 156,
+                    "rawEnd": 156,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "乐",
+                    "start": 55.38,
+                    "end": 55.7,
+                    "rawStart": 157,
+                    "rawEnd": 157,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "愿",
+                    "start": 56.22,
+                    "end": 56.56,
+                    "rawStart": 158,
+                    "rawEnd": 158,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "众",
+                    "start": 56.56,
+                    "end": 57.22,
+                    "rawStart": 159,
+                    "rawEnd": 159,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "海",
+                    "start": 57.22,
+                    "end": 57.7,
+                    "rawStart": 160,
+                    "rawEnd": 160,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "岛",
+                    "start": 57.7,
+                    "end": 57.98,
+                    "rawStart": 161,
+                    "rawEnd": 161,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "欢",
+                    "start": 57.98,
+                    "end": 58.2,
+                    "rawStart": 162,
+                    "rawEnd": 162,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 50.84,
+                  "score": 0.8202,
+                  "actual": "到2节义和华作王愿地快乐愿众海岛欢"
+                }
+              },
+              "body": "耶和华作王,愿地快乐,愿众海岛欢喜!密云和幽暗在祂的四围;公义和公平是祂宝座的根基。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.767,
+          "coherentCoverage": 0.767,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.65,
+          "suffixCoverage": 0.9,
+          "unmatchedLeadingChars": 7,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-verified-end"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          }
+        }
+      }
     },
     {
       "start": 68.44,
-      "end": 72.72,
+      "end": 71.18,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "经文说什么围绕上帝",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 68.44,
+        "previousEnd": 72.72,
+        "previousConfidence": 1.0
+      }
     },
     {
       "start": 72.72,
-      "end": 104.84,
+      "end": 76.82,
+      "kind": "paragraph",
+      "targetIndex": 15,
+      "targetText": "请读提摩太前书61516",
+      "confidence": 0.733,
+      "quality": {
+        "verificationBasis": "local-boundaries",
+        "reviewRequired": true,
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "two-raw-models-local-read-prompt",
+          "time": 72.72,
+          "smallTime": 72.72,
+          "mediumTime": 73.06,
+          "smallObserved": "秦都听过台前说,六章十五到十六节。",
+          "mediumObserved": "请读清末台前说,六章十五到十六节。",
+          "smallTranscript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\51-3.mp3.json",
+          "smallSha256": "032e6000384c567b9ad51cf2738d75294b6acf91a6ac9c9ffefb59b11426d6ec",
+          "mediumWindow": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\catechism-51-3-medium.json",
+          "audioSha256": "dc78531d88183e1312f733ccce301d2668385cf53e472a26af1a66aaf838368f",
+          "listenedByAgent": false
+        },
+        "endEvidence": {
+          "verified": false,
+          "localSupported": false,
+          "timingPrecision": "word",
+          "source": "two-model-read-prompt-end-disagreement",
+          "time": 77.76,
+          "smallTime": 76.82,
+          "mediumTime": 77.76,
+          "smallTranscript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\51-3.mp3.json",
+          "smallSha256": "032e6000384c567b9ad51cf2738d75294b6acf91a6ac9c9ffefb59b11426d6ec",
+          "mediumWindow": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\catechism-51-3-medium.json",
+          "audioSha256": "dc78531d88183e1312f733ccce301d2668385cf53e472a26af1a66aaf838368f",
+          "listenedByAgent": false,
+          "reason": "请读末词两模型相差0.94秒；暂用medium末词时间，留待试听。"
+        }
+      },
+      "repair": {
+        "startSource": "two-raw-models-local-read-prompt",
+        "endSource": "two-model-read-prompt-end-disagreement",
+        "previousStart": null,
+        "previousEnd": null,
+        "previousConfidence": null
+      },
+      "addedCueReview": {
+        "kind": "two-model-local-read-prompt",
+        "audioSha256": "dc78531d88183e1312f733ccce301d2668385cf53e472a26af1a66aaf838368f",
+        "smallTranscript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\51-3.mp3.json",
+        "mediumWindow": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\catechism-51-3-medium.json",
+        "listenedByAgent": false
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 77.76,
+            "time": 76.82,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\51-3.mp3.json",
+              "sha256": "032e6000384c567b9ad51cf2738d75294b6acf91a6ac9c9ffefb59b11426d6ec",
+              "anchor": {
+                "time": 76.82,
+                "score": 0.7811,
+                "ratio": 0.8,
+                "expected": "dutimotaiqianshuliuzhang15dao16jie",
+                "actual": "台前说6章15到16节",
+                "span": [
+                  73.68,
+                  76.82
+                ],
+                "tokens": [
+                  {
+                    "text": "台",
+                    "start": 73.68,
+                    "end": 73.82,
+                    "rawStart": 199,
+                    "rawEnd": 199,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "前",
+                    "start": 73.82,
+                    "end": 74.04,
+                    "rawStart": 200,
+                    "rawEnd": 200,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "说",
+                    "start": 74.04,
+                    "end": 74.4,
+                    "rawStart": 201,
+                    "rawEnd": 201,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "6",
+                    "start": 75.14,
+                    "end": 75.36,
+                    "rawStart": 202,
+                    "rawEnd": 202,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "章",
+                    "start": 75.36,
+                    "end": 75.62,
+                    "rawStart": 203,
+                    "rawEnd": 203,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 75.62,
+                    "end": 76.06,
+                    "rawStart": 204,
+                    "rawEnd": 204,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "5",
+                    "start": 75.62,
+                    "end": 76.06,
+                    "rawStart": 205,
+                    "rawEnd": 205,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "到",
+                    "start": 76.06,
+                    "end": 76.22,
+                    "rawStart": 206,
+                    "rawEnd": 206,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 76.22,
+                    "end": 76.58,
+                    "rawStart": 207,
+                    "rawEnd": 207,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "6",
+                    "start": 76.22,
+                    "end": 76.58,
+                    "rawStart": 208,
+                    "rawEnd": 208,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "节",
+                    "start": 76.58,
+                    "end": 76.82,
+                    "rawStart": 209,
+                    "rawEnd": 209,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "请读提摩太前书6:15-16。"
+            }
+          }
+        },
+        "previousQuality": {
+          "verificationBasis": "local-boundaries",
+          "reviewRequired": true,
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "localSupported": true,
+            "timingPrecision": "word",
+            "source": "two-raw-models-local-read-prompt",
+            "time": 72.72,
+            "smallTime": 72.72,
+            "mediumTime": 73.06,
+            "smallObserved": "秦都听过台前说,六章十五到十六节。",
+            "mediumObserved": "请读清末台前说,六章十五到十六节。",
+            "smallTranscript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\51-3.mp3.json",
+            "smallSha256": "032e6000384c567b9ad51cf2738d75294b6acf91a6ac9c9ffefb59b11426d6ec",
+            "mediumWindow": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\catechism-51-3-medium.json",
+            "audioSha256": "dc78531d88183e1312f733ccce301d2668385cf53e472a26af1a66aaf838368f",
+            "listenedByAgent": false
+          },
+          "endEvidence": {
+            "verified": false,
+            "localSupported": false,
+            "timingPrecision": "word",
+            "source": "two-model-read-prompt-end-disagreement",
+            "time": 77.76,
+            "smallTime": 76.82,
+            "mediumTime": 77.76,
+            "smallTranscript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\51-3.mp3.json",
+            "smallSha256": "032e6000384c567b9ad51cf2738d75294b6acf91a6ac9c9ffefb59b11426d6ec",
+            "mediumWindow": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\catechism-51-3-medium.json",
+            "audioSha256": "dc78531d88183e1312f733ccce301d2668385cf53e472a26af1a66aaf838368f",
+            "listenedByAgent": false,
+            "reason": "请读末词两模型相差0.94秒；暂用medium末词时间，留待试听。"
+          }
+        }
+      }
+    },
+    {
+      "start": 77.88,
+      "end": 105.94,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "提摩太前书61516到了日期那可称颂独有权能的万王之王万主之主就是那独一不死住在人不能靠近的光里",
-      "confidence": 0.599
+      "confidence": 0.788,
+      "quality": {
+        "coverage": 0.795,
+        "coherentCoverage": 0.759,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.35,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 10,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "localSupported": false,
+          "source": "two-model-body-onset-pending-reference-ownership",
+          "time": 77.88,
+          "smallTime": 77.88,
+          "mediumTime": 78.46,
+          "smallTranscript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\51-3.mp3.json",
+          "smallSha256": "032e6000384c567b9ad51cf2738d75294b6acf91a6ac9c9ffefb59b11426d6ec",
+          "mediumWindow": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\catechism-51-3-medium.json",
+          "audioSha256": "dc78531d88183e1312f733ccce301d2668385cf53e472a26af1a66aaf838368f",
+          "listenedByAgent": false,
+          "reason": "正文首词在请读提示后；印刷出处的完整归属尚未确认。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 72.72,
+        "previousEnd": 104.84,
+        "previousConfidence": 0.599
+      },
+      "boundaryCorrections": [
+        {
+          "targetIndex": 16,
+          "edge": "start",
+          "previousTime": 72.72,
+          "time": 77.88,
+          "kind": "preceding-read-prompt-ownership-constraint",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false,
+          "reason": "旧经文起点位于前段请读提示；正文两份词稿分别于77.88和78.46秒开始。"
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 77.88,
+            "time": 77.88,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\51-3.mp3.json",
+              "sha256": "032e6000384c567b9ad51cf2738d75294b6acf91a6ac9c9ffefb59b11426d6ec",
+              "anchor": {
+                "time": 77.88,
+                "score": 0.9286,
+                "ratio": 0.9286,
+                "expected": "daoleriqinakechengsongduyouquannengdewan",
+                "actual": "到人日期那可撑送独有全能的万",
+                "span": [
+                  77.88,
+                  83.44
+                ],
+                "tokens": [
+                  {
+                    "text": "到",
+                    "start": 77.88,
+                    "end": 78.56,
+                    "rawStart": 210,
+                    "rawEnd": 210,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 78.56,
+                    "end": 78.76,
+                    "rawStart": 211,
+                    "rawEnd": 211,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "日",
+                    "start": 78.76,
+                    "end": 78.96,
+                    "rawStart": 212,
+                    "rawEnd": 212,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "期",
+                    "start": 78.96,
+                    "end": 79.28,
+                    "rawStart": 213,
+                    "rawEnd": 213,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "那",
+                    "start": 79.7,
+                    "end": 79.98,
+                    "rawStart": 214,
+                    "rawEnd": 214,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "可",
+                    "start": 79.98,
+                    "end": 80.72,
+                    "rawStart": 215,
+                    "rawEnd": 215,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "撑",
+                    "start": 80.72,
+                    "end": 81.16,
+                    "rawStart": 216,
+                    "rawEnd": 216,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "送",
+                    "start": 81.16,
+                    "end": 81.56,
+                    "rawStart": 217,
+                    "rawEnd": 217,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "独",
+                    "start": 81.56,
+                    "end": 82.18,
+                    "rawStart": 218,
+                    "rawEnd": 218,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "有",
+                    "start": 82.18,
+                    "end": 82.38,
+                    "rawStart": 219,
+                    "rawEnd": 219,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "全",
+                    "start": 82.38,
+                    "end": 82.72,
+                    "rawStart": 220,
+                    "rawEnd": 220,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "能",
+                    "start": 82.72,
+                    "end": 82.96,
+                    "rawStart": 221,
+                    "rawEnd": 221,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 82.96,
+                    "end": 83.12,
+                    "rawStart": 222,
+                    "rawEnd": 222,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "万",
+                    "start": 83.12,
+                    "end": 83.44,
+                    "rawStart": 223,
+                    "rawEnd": 223,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "到了日期,那可称颂、独有权能的万王之王、万主之主,就是那独一不死,住在人不能靠近的光里,是人未曾看见,也不能看见的,要将祂显明出来。但愿尊贵和永远的权能都归给祂。阿们!"
+            }
+          }
+        }
+      }
     },
     {
-      "start": 104.84,
+      "start": 105.94,
       "end": 166.71,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "经文说上帝住在哪里为什么一处经文说上帝被幽暗环绕另一处经文却说祂住在人不能靠近的光里两处经文都描",
-      "confidence": 0.911
+      "confidence": 0.961,
+      "quality": {
+        "coverage": 0.958,
+        "coherentCoverage": 0.94,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 104.84,
+        "previousEnd": 166.71,
+        "previousConfidence": 0.911
+      }
     }
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (7 leading chars, coverage 0.650): target 13: 诗篇97:1-2 耶和华作王，愿地快乐，愿众海岛欢喜！密云和幽暗在祂的四围；公义和公平是祂宝座的",
+    "unverified start anchor: target 13: 诗篇97:1-2 耶和华作王，愿地快乐，愿众海岛欢喜！密云和幽暗在祂的四围；公义和公平是祂宝座的",
+    "incomplete start (10 leading chars, coverage 0.350): target 16: 提摩太前书6:15-16 到了日期，那可称颂、独有权能的万王之王、万主之主，就是那独一不死，住在",
+    "unverified start anchor: target 16: 提摩太前书6:15-16 到了日期，那可称颂、独有权能的万王之王、万主之主，就是那独一不死，住在",
+    "repair unverified start (previous-verified-end): target 13",
+    "repair unverified start (previous-sync): target 16",
+    "unverified end of read prompt: target 15; small 76.82s vs medium 77.76s",
+    "unverified printed-reference ownership: target 16; body onset retained at 77.88s"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 3,
+    "updatedEnds": 5,
+    "addedCues": 1,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "previousAlignmentWarnings": [
+    "incomplete start (7 leading chars, coverage 0.650): target 13: 诗篇97:1-2 耶和华作王，愿地快乐，愿众海岛欢喜！密云和幽暗在祂的四围；公义和公平是祂宝座的",
+    "unverified start anchor: target 13: 诗篇97:1-2 耶和华作王，愿地快乐，愿众海岛欢喜！密云和幽暗在祂的四围；公义和公平是祂宝座的",
+    "incomplete start (5 leading chars, coverage 0.167): target 15: 请读提摩太前书6:15-16。",
+    "incomplete end (6 trailing chars, coverage 0.000): target 15: 请读提摩太前书6:15-16。",
+    "low confidence (0.111, coverage 0.083): target 15: 请读提摩太前书6:15-16。",
+    "unverified start anchor: target 15: 请读提摩太前书6:15-16。",
+    "unverified end anchor: target 15: 请读提摩太前书6:15-16。",
+    "unmatched (fragment only): target 15: 请读提摩太前书6:15-16。",
+    "incomplete start (10 leading chars, coverage 0.350): target 16: 提摩太前书6:15-16 到了日期，那可称颂、独有权能的万王之王、万主之主，就是那独一不死，住在",
+    "unverified start anchor: target 16: 提摩太前书6:15-16 到了日期，那可称颂、独有权能的万王之王、万主之主，就是那独一不死，住在",
+    "repair missing cue (unverified): target 15",
+    "repair unverified start (previous-verified-end): target 13",
+    "repair unverified start (previous-sync): target 16"
   ]
 }

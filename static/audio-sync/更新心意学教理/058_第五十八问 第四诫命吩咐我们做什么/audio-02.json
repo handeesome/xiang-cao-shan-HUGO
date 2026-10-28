@@ -8,28 +8,980 @@
   "audioDuration": 106.69825,
   "cues": [
     {
-      "start": 1.53,
-      "end": 2.51,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "礼拜一",
-      "confidence": 0.8
-    },
-    {
       "start": 2.51,
-      "end": 81.89,
+      "end": 84.97,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "安息日是一种安息在创造的时候第一个安息日上帝歇了祂创造的工作这第四诫命呼吁上帝的百姓要藉着停止日",
-      "confidence": 0.887
+      "confidence": 0.944,
+      "quality": {
+        "coverage": 0.944,
+        "coherentCoverage": 0.928,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": false,
+          "substitutionAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 2.51,
+        "previousEnd": 81.89,
+        "previousConfidence": 0.938
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 84.65,
+            "time": 84.97,
+            "reason": "核对本段请读提示的完整实际词尾，包含最后节号。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\58-1.mp3.json",
+              "sha256": "7bda6c8ec825ae16c090962e00f0a6fba2d2a6d429671fbcac2661e1c781647f",
+              "segments": [
+                {
+                  "start": 70.53,
+                  "end": 75.87,
+                  "text": "七日之中为上帝分出一天,停止日常的工作,",
+                  "words": [
+                    {
+                      "start": 70.53,
+                      "end": 70.73,
+                      "text": "七",
+                      "probability": 0.7100442051887512
+                    },
+                    {
+                      "start": 70.73,
+                      "end": 70.89,
+                      "text": "日",
+                      "probability": 0.9868336319923401
+                    },
+                    {
+                      "start": 70.89,
+                      "end": 71.09,
+                      "text": "之",
+                      "probability": 0.9942922592163086
+                    },
+                    {
+                      "start": 71.09,
+                      "end": 71.37,
+                      "text": "中",
+                      "probability": 0.9867267608642578
+                    },
+                    {
+                      "start": 71.37,
+                      "end": 71.91,
+                      "text": "为",
+                      "probability": 0.4228759706020355
+                    },
+                    {
+                      "start": 71.91,
+                      "end": 72.29,
+                      "text": "上",
+                      "probability": 0.987177848815918
+                    },
+                    {
+                      "start": 72.29,
+                      "end": 72.55,
+                      "text": "帝",
+                      "probability": 0.9997492432594299
+                    },
+                    {
+                      "start": 72.55,
+                      "end": 72.85,
+                      "text": "分",
+                      "probability": 0.9749532341957092
+                    },
+                    {
+                      "start": 72.85,
+                      "end": 73.07,
+                      "text": "出",
+                      "probability": 0.9090189933776855
+                    },
+                    {
+                      "start": 73.07,
+                      "end": 73.27,
+                      "text": "一",
+                      "probability": 0.9954140186309814
+                    },
+                    {
+                      "start": 73.27,
+                      "end": 73.59,
+                      "text": "天,",
+                      "probability": 0.997668445110321
+                    },
+                    {
+                      "start": 74.07,
+                      "end": 74.29,
+                      "text": "停",
+                      "probability": 0.950206995010376
+                    },
+                    {
+                      "start": 74.29,
+                      "end": 74.69,
+                      "text": "止",
+                      "probability": 0.9963106513023376
+                    },
+                    {
+                      "start": 74.69,
+                      "end": 75.01,
+                      "text": "日",
+                      "probability": 0.9921243786811829
+                    },
+                    {
+                      "start": 75.01,
+                      "end": 75.29,
+                      "text": "常",
+                      "probability": 0.9731894731521606
+                    },
+                    {
+                      "start": 75.29,
+                      "end": 75.45,
+                      "text": "的",
+                      "probability": 0.8825516104698181
+                    },
+                    {
+                      "start": 75.45,
+                      "end": 75.87,
+                      "text": "工作,",
+                      "probability": 0.997497022151947
+                    }
+                  ]
+                },
+                {
+                  "start": 76.67,
+                  "end": 79.71,
+                  "text": "这样可以提醒上帝的百姓这些事情。",
+                  "words": [
+                    {
+                      "start": 76.67,
+                      "end": 76.95,
+                      "text": "这样",
+                      "probability": 0.9635874629020691
+                    },
+                    {
+                      "start": 76.95,
+                      "end": 77.53,
+                      "text": "可以",
+                      "probability": 0.940477728843689
+                    },
+                    {
+                      "start": 77.53,
+                      "end": 77.73,
+                      "text": "提",
+                      "probability": 0.9983177185058594
+                    },
+                    {
+                      "start": 77.73,
+                      "end": 77.93,
+                      "text": "醒",
+                      "probability": 0.9952982068061829
+                    },
+                    {
+                      "start": 77.93,
+                      "end": 78.21,
+                      "text": "上",
+                      "probability": 0.9888445734977722
+                    },
+                    {
+                      "start": 78.21,
+                      "end": 78.35,
+                      "text": "帝",
+                      "probability": 0.9996149837970734
+                    },
+                    {
+                      "start": 78.35,
+                      "end": 78.45,
+                      "text": "的",
+                      "probability": 0.96513831615448
+                    },
+                    {
+                      "start": 78.45,
+                      "end": 78.67,
+                      "text": "百",
+                      "probability": 0.9992831349372864
+                    },
+                    {
+                      "start": 78.67,
+                      "end": 78.91,
+                      "text": "姓",
+                      "probability": 0.999971866607666
+                    },
+                    {
+                      "start": 78.91,
+                      "end": 79.13,
+                      "text": "这",
+                      "probability": 0.9814895987510681
+                    },
+                    {
+                      "start": 79.13,
+                      "end": 79.29,
+                      "text": "些",
+                      "probability": 0.9945606589317322
+                    },
+                    {
+                      "start": 79.29,
+                      "end": 79.71,
+                      "text": "事情。",
+                      "probability": 0.974896252155304
+                    }
+                  ]
+                },
+                {
+                  "start": 80.79,
+                  "end": 84.97,
+                  "text": "请读诗篇六十二篇,一节五节。",
+                  "words": [
+                    {
+                      "start": 80.79,
+                      "end": 81.05,
+                      "text": "请",
+                      "probability": 0.6311742663383484
+                    },
+                    {
+                      "start": 81.05,
+                      "end": 81.27,
+                      "text": "读",
+                      "probability": 0.9168866872787476
+                    },
+                    {
+                      "start": 81.27,
+                      "end": 81.63,
+                      "text": "诗",
+                      "probability": 0.717569574713707
+                    },
+                    {
+                      "start": 81.63,
+                      "end": 81.89,
+                      "text": "篇",
+                      "probability": 0.9856078028678894
+                    },
+                    {
+                      "start": 81.89,
+                      "end": 82.21,
+                      "text": "六",
+                      "probability": 0.7934881448745728
+                    },
+                    {
+                      "start": 82.21,
+                      "end": 82.35,
+                      "text": "十",
+                      "probability": 0.9947157502174377
+                    },
+                    {
+                      "start": 82.35,
+                      "end": 82.51,
+                      "text": "二",
+                      "probability": 0.9975258708000183
+                    },
+                    {
+                      "start": 82.51,
+                      "end": 82.83,
+                      "text": "篇,",
+                      "probability": 0.9944177865982056
+                    },
+                    {
+                      "start": 83.63,
+                      "end": 83.81,
+                      "text": "一",
+                      "probability": 0.8560354113578796
+                    },
+                    {
+                      "start": 83.81,
+                      "end": 84.13,
+                      "text": "节",
+                      "probability": 0.9449850916862488
+                    },
+                    {
+                      "start": 84.13,
+                      "end": 84.65,
+                      "text": "五",
+                      "probability": 0.9157276153564453
+                    },
+                    {
+                      "start": 84.65,
+                      "end": 84.97,
+                      "text": "节。",
+                      "probability": 0.9919217824935913
+                    }
+                  ]
+                },
+                {
+                  "start": 86.53,
+                  "end": 91.21,
+                  "text": "我的心默默无声 专等候审",
+                  "words": [
+                    {
+                      "start": 86.53,
+                      "end": 87.25,
+                      "text": "我的",
+                      "probability": 0.7568789124488831
+                    },
+                    {
+                      "start": 87.25,
+                      "end": 87.71,
+                      "text": "心",
+                      "probability": 0.9978195428848267
+                    },
+                    {
+                      "start": 87.71,
+                      "end": 88.45,
+                      "text": "默",
+                      "probability": 0.841902881860733
+                    },
+                    {
+                      "start": 88.45,
+                      "end": 88.73,
+                      "text": "默",
+                      "probability": 0.999560683965683
+                    },
+                    {
+                      "start": 88.73,
+                      "end": 89.01,
+                      "text": "无",
+                      "probability": 0.7800095677375793
+                    },
+                    {
+                      "start": 89.01,
+                      "end": 89.33,
+                      "text": "声",
+                      "probability": 0.9378185868263245
+                    },
+                    {
+                      "start": 90.03,
+                      "end": 90.23,
+                      "text": " 专",
+                      "probability": 0.8972541391849518
+                    },
+                    {
+                      "start": 90.23,
+                      "end": 90.65,
+                      "text": "等",
+                      "probability": 0.9964094758033752
+                    },
+                    {
+                      "start": 90.65,
+                      "end": 90.91,
+                      "text": "候",
+                      "probability": 0.7873914837837219
+                    },
+                    {
+                      "start": 90.91,
+                      "end": 91.21,
+                      "text": "审",
+                      "probability": 0.9328086972236633
+                    }
+                  ]
+                },
+                {
+                  "start": 91.97,
+                  "end": 95.43,
+                  "text": "我的祝恩是从他而来",
+                  "words": [
+                    {
+                      "start": 91.97,
+                      "end": 92.69,
+                      "text": "我的",
+                      "probability": 0.7801497578620911
+                    },
+                    {
+                      "start": 92.69,
+                      "end": 92.93,
+                      "text": "祝",
+                      "probability": 0.6410550326108932
+                    },
+                    {
+                      "start": 92.93,
+                      "end": 93.25,
+                      "text": "恩",
+                      "probability": 0.972137451171875
+                    },
+                    {
+                      "start": 93.25,
+                      "end": 93.81,
+                      "text": "是",
+                      "probability": 0.7796507477760315
+                    },
+                    {
+                      "start": 93.81,
+                      "end": 94.39,
+                      "text": "从",
+                      "probability": 0.9684451818466187
+                    },
+                    {
+                      "start": 94.39,
+                      "end": 94.75,
+                      "text": "他",
+                      "probability": 0.6708201766014099
+                    },
+                    {
+                      "start": 94.75,
+                      "end": 95.05,
+                      "text": "而",
+                      "probability": 0.9974756836891174
+                    },
+                    {
+                      "start": 95.05,
+                      "end": 95.43,
+                      "text": "来",
+                      "probability": 0.9993368983268738
+                    }
+                  ]
+                }
+              ],
+              "source": "context-reviewed-paragraph-approximation"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.944,
+          "coherentCoverage": 0.928,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.9,
+          "suffixCoverage": 0.95,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": false,
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": false,
+            "substitutionAnchor": true,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          }
+        }
+      }
     },
     {
-      "start": 81.89,
+      "start": 86.53,
       "end": 106.45,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "诗篇6215我的心默默无声专等候上帝我的救恩是从祂而来我的心哪你当默默无声专等候上帝因为我的盼望",
-      "confidence": 0.755
+      "confidence": 0.851,
+      "quality": {
+        "coverage": 0.782,
+        "coherentCoverage": 0.727,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.55,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 6,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "previous-verified-sync",
+        "previousStart": 81.89,
+        "previousEnd": 106.45,
+        "previousConfidence": 0.792
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 84.65,
+            "time": 86.53,
+            "reason": "前段请读提示拥有出处时间，本段从实际经文首句起，不借用提示。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\58-1.mp3.json",
+              "sha256": "7bda6c8ec825ae16c090962e00f0a6fba2d2a6d429671fbcac2661e1c781647f",
+              "segments": [
+                {
+                  "start": 76.67,
+                  "end": 79.71,
+                  "text": "这样可以提醒上帝的百姓这些事情。",
+                  "words": [
+                    {
+                      "start": 76.67,
+                      "end": 76.95,
+                      "text": "这样",
+                      "probability": 0.9635874629020691
+                    },
+                    {
+                      "start": 76.95,
+                      "end": 77.53,
+                      "text": "可以",
+                      "probability": 0.940477728843689
+                    },
+                    {
+                      "start": 77.53,
+                      "end": 77.73,
+                      "text": "提",
+                      "probability": 0.9983177185058594
+                    },
+                    {
+                      "start": 77.73,
+                      "end": 77.93,
+                      "text": "醒",
+                      "probability": 0.9952982068061829
+                    },
+                    {
+                      "start": 77.93,
+                      "end": 78.21,
+                      "text": "上",
+                      "probability": 0.9888445734977722
+                    },
+                    {
+                      "start": 78.21,
+                      "end": 78.35,
+                      "text": "帝",
+                      "probability": 0.9996149837970734
+                    },
+                    {
+                      "start": 78.35,
+                      "end": 78.45,
+                      "text": "的",
+                      "probability": 0.96513831615448
+                    },
+                    {
+                      "start": 78.45,
+                      "end": 78.67,
+                      "text": "百",
+                      "probability": 0.9992831349372864
+                    },
+                    {
+                      "start": 78.67,
+                      "end": 78.91,
+                      "text": "姓",
+                      "probability": 0.999971866607666
+                    },
+                    {
+                      "start": 78.91,
+                      "end": 79.13,
+                      "text": "这",
+                      "probability": 0.9814895987510681
+                    },
+                    {
+                      "start": 79.13,
+                      "end": 79.29,
+                      "text": "些",
+                      "probability": 0.9945606589317322
+                    },
+                    {
+                      "start": 79.29,
+                      "end": 79.71,
+                      "text": "事情。",
+                      "probability": 0.974896252155304
+                    }
+                  ]
+                },
+                {
+                  "start": 80.79,
+                  "end": 84.97,
+                  "text": "请读诗篇六十二篇,一节五节。",
+                  "words": [
+                    {
+                      "start": 80.79,
+                      "end": 81.05,
+                      "text": "请",
+                      "probability": 0.6311742663383484
+                    },
+                    {
+                      "start": 81.05,
+                      "end": 81.27,
+                      "text": "读",
+                      "probability": 0.9168866872787476
+                    },
+                    {
+                      "start": 81.27,
+                      "end": 81.63,
+                      "text": "诗",
+                      "probability": 0.717569574713707
+                    },
+                    {
+                      "start": 81.63,
+                      "end": 81.89,
+                      "text": "篇",
+                      "probability": 0.9856078028678894
+                    },
+                    {
+                      "start": 81.89,
+                      "end": 82.21,
+                      "text": "六",
+                      "probability": 0.7934881448745728
+                    },
+                    {
+                      "start": 82.21,
+                      "end": 82.35,
+                      "text": "十",
+                      "probability": 0.9947157502174377
+                    },
+                    {
+                      "start": 82.35,
+                      "end": 82.51,
+                      "text": "二",
+                      "probability": 0.9975258708000183
+                    },
+                    {
+                      "start": 82.51,
+                      "end": 82.83,
+                      "text": "篇,",
+                      "probability": 0.9944177865982056
+                    },
+                    {
+                      "start": 83.63,
+                      "end": 83.81,
+                      "text": "一",
+                      "probability": 0.8560354113578796
+                    },
+                    {
+                      "start": 83.81,
+                      "end": 84.13,
+                      "text": "节",
+                      "probability": 0.9449850916862488
+                    },
+                    {
+                      "start": 84.13,
+                      "end": 84.65,
+                      "text": "五",
+                      "probability": 0.9157276153564453
+                    },
+                    {
+                      "start": 84.65,
+                      "end": 84.97,
+                      "text": "节。",
+                      "probability": 0.9919217824935913
+                    }
+                  ]
+                },
+                {
+                  "start": 86.53,
+                  "end": 91.21,
+                  "text": "我的心默默无声 专等候审",
+                  "words": [
+                    {
+                      "start": 86.53,
+                      "end": 87.25,
+                      "text": "我的",
+                      "probability": 0.7568789124488831
+                    },
+                    {
+                      "start": 87.25,
+                      "end": 87.71,
+                      "text": "心",
+                      "probability": 0.9978195428848267
+                    },
+                    {
+                      "start": 87.71,
+                      "end": 88.45,
+                      "text": "默",
+                      "probability": 0.841902881860733
+                    },
+                    {
+                      "start": 88.45,
+                      "end": 88.73,
+                      "text": "默",
+                      "probability": 0.999560683965683
+                    },
+                    {
+                      "start": 88.73,
+                      "end": 89.01,
+                      "text": "无",
+                      "probability": 0.7800095677375793
+                    },
+                    {
+                      "start": 89.01,
+                      "end": 89.33,
+                      "text": "声",
+                      "probability": 0.9378185868263245
+                    },
+                    {
+                      "start": 90.03,
+                      "end": 90.23,
+                      "text": " 专",
+                      "probability": 0.8972541391849518
+                    },
+                    {
+                      "start": 90.23,
+                      "end": 90.65,
+                      "text": "等",
+                      "probability": 0.9964094758033752
+                    },
+                    {
+                      "start": 90.65,
+                      "end": 90.91,
+                      "text": "候",
+                      "probability": 0.7873914837837219
+                    },
+                    {
+                      "start": 90.91,
+                      "end": 91.21,
+                      "text": "审",
+                      "probability": 0.9328086972236633
+                    }
+                  ]
+                },
+                {
+                  "start": 91.97,
+                  "end": 95.43,
+                  "text": "我的祝恩是从他而来",
+                  "words": [
+                    {
+                      "start": 91.97,
+                      "end": 92.69,
+                      "text": "我的",
+                      "probability": 0.7801497578620911
+                    },
+                    {
+                      "start": 92.69,
+                      "end": 92.93,
+                      "text": "祝",
+                      "probability": 0.6410550326108932
+                    },
+                    {
+                      "start": 92.93,
+                      "end": 93.25,
+                      "text": "恩",
+                      "probability": 0.972137451171875
+                    },
+                    {
+                      "start": 93.25,
+                      "end": 93.81,
+                      "text": "是",
+                      "probability": 0.7796507477760315
+                    },
+                    {
+                      "start": 93.81,
+                      "end": 94.39,
+                      "text": "从",
+                      "probability": 0.9684451818466187
+                    },
+                    {
+                      "start": 94.39,
+                      "end": 94.75,
+                      "text": "他",
+                      "probability": 0.6708201766014099
+                    },
+                    {
+                      "start": 94.75,
+                      "end": 95.05,
+                      "text": "而",
+                      "probability": 0.9974756836891174
+                    },
+                    {
+                      "start": 95.05,
+                      "end": 95.43,
+                      "text": "来",
+                      "probability": 0.9993368983268738
+                    }
+                  ]
+                },
+                {
+                  "start": 96.41,
+                  "end": 102.15,
+                  "text": "我的心啊 你当默默无声 专等候审",
+                  "words": [
+                    {
+                      "start": 96.41,
+                      "end": 97.13,
+                      "text": "我的",
+                      "probability": 0.8706355094909668
+                    },
+                    {
+                      "start": 97.13,
+                      "end": 97.45,
+                      "text": "心",
+                      "probability": 0.9970360994338989
+                    },
+                    {
+                      "start": 97.45,
+                      "end": 97.81,
+                      "text": "啊",
+                      "probability": 0.5009726285934448
+                    },
+                    {
+                      "start": 97.81,
+                      "end": 98.33,
+                      "text": " 你",
+                      "probability": 0.6472178101539612
+                    },
+                    {
+                      "start": 98.33,
+                      "end": 98.57,
+                      "text": "当",
+                      "probability": 0.8876450657844543
+                    },
+                    {
+                      "start": 98.57,
+                      "end": 98.91,
+                      "text": "默",
+                      "probability": 0.9948595464229584
+                    },
+                    {
+                      "start": 98.91,
+                      "end": 99.13,
+                      "text": "默",
+                      "probability": 0.9998952150344849
+                    },
+                    {
+                      "start": 99.13,
+                      "end": 99.41,
+                      "text": "无",
+                      "probability": 0.9976060390472412
+                    },
+                    {
+                      "start": 99.41,
+                      "end": 99.73,
+                      "text": "声",
+                      "probability": 0.9995893836021423
+                    },
+                    {
+                      "start": 100.13,
+                      "end": 100.43,
+                      "text": " 专",
+                      "probability": 0.9995847642421722
+                    },
+                    {
+                      "start": 100.43,
+                      "end": 100.81,
+                      "text": "等",
+                      "probability": 0.9987121820449829
+                    },
+                    {
+                      "start": 100.81,
+                      "end": 101.07,
+                      "text": "候",
+                      "probability": 0.9961405396461487
+                    },
+                    {
+                      "start": 101.07,
+                      "end": 102.15,
+                      "text": "审",
+                      "probability": 0.9983067512512207
+                    }
+                  ]
+                }
+              ],
+              "source": "context-reviewed-paragraph-approximation"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.782,
+          "coherentCoverage": 0.727,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.55,
+          "suffixCoverage": 0.9,
+          "unmatchedLeadingChars": 6,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-verified-end"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (6 leading chars, coverage 0.550): target 4: 诗篇62:1, 5 我的心默默无声，专等候神；我的救恩是从祂而来。我的心哪，你当默默无声，专等候",
+    "unverified start anchor: target 4: 诗篇62:1, 5 我的心默默无声，专等候神；我的救恩是从祂而来。我的心哪，你当默默无声，专等候",
+    "repair unverified start (previous-verified-end): target 4"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "5dbbabcd2b407b1072be77038253b0d9b58edf429342be63714642e6a16ca52c",
+  "repairCueDigest": "9a06a5faabf6c2294421fc9fade93d38b2e5089586d013500bbdbcd66fc905a7",
+  "previousAlignmentWarnings": []
 }

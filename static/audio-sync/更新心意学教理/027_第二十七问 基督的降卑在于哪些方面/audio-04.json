@@ -8,60 +8,1605 @@
   "audioDuration": 163.1488125,
   "cues": [
     {
-      "start": 2.6,
-      "end": 29.04,
-      "kind": "heading",
-      "targetIndex": 13,
-      "targetText": "礼拜四",
-      "confidence": 0.8
-    },
-    {
-      "start": 29.04,
-      "end": 60.7,
+      "start": 4.04,
+      "end": 59.64,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "因为堕落每一个生在世上的人都经历一些痛苦愁烦耶稣也经历痛苦愁烦耶稣也住在世上的罪人中间就会给祂带",
-      "confidence": 0.678
+      "confidence": 0.664,
+      "quality": {
+        "coverage": 0.91,
+        "coherentCoverage": 0.876,
+        "extraSpeechContext": true,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 29.04,
+        "previousEnd": 60.7,
+        "previousConfidence": 0.678
+      }
     },
     {
       "start": 60.7,
-      "end": 96.14,
+      "end": 92.86,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "就连耶稣最亲近的朋友和亲人也常常误解祂还有许多人恨恶祂耶稣忍受着孤独祂知道祂是谁祂知道祂那重大的",
-      "confidence": 0.833
+      "confidence": 0.902,
+      "quality": {
+        "coverage": 0.844,
+        "coherentCoverage": 0.844,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.3,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 14,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 60.7,
+        "previousEnd": 96.14,
+        "previousConfidence": 0.833
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 96.14,
+            "time": 92.86,
+            "reason": "多个出处为随后逐段引文的索引，本段提示看看特别的痛苦92.86结束，不借用下一引文出处。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\27-4.mp3.json",
+              "sha256": "57c27fc81d5bcfbf647acbd3fae67d4c95b3d5be09ea83e3a4cf9989d233487d",
+              "source": "context-reviewed-paragraph-approximation",
+              "segments": [
+                {
+                  "start": 85.9,
+                  "end": 87.86,
+                  "text": "请读下面的经文",
+                  "words": [
+                    {
+                      "start": 85.9,
+                      "end": 86.5,
+                      "text": "请",
+                      "probability": 0.8944489359855652
+                    },
+                    {
+                      "start": 86.5,
+                      "end": 86.76,
+                      "text": "读",
+                      "probability": 0.8735323548316956
+                    },
+                    {
+                      "start": 86.76,
+                      "end": 87.2,
+                      "text": "下面",
+                      "probability": 0.9984918832778931
+                    },
+                    {
+                      "start": 87.2,
+                      "end": 87.42,
+                      "text": "的",
+                      "probability": 0.9984402060508728
+                    },
+                    {
+                      "start": 87.42,
+                      "end": 87.58,
+                      "text": "经",
+                      "probability": 0.8749987483024597
+                    },
+                    {
+                      "start": 87.58,
+                      "end": 87.86,
+                      "text": "文",
+                      "probability": 0.9741629958152771
+                    }
+                  ]
+                },
+                {
+                  "start": 87.86,
+                  "end": 92.86,
+                  "text": "看看耶稣忍受的几种特别的痛苦",
+                  "words": [
+                    {
+                      "start": 87.86,
+                      "end": 88.82,
+                      "text": "看看",
+                      "probability": 0.0662216767668724
+                    },
+                    {
+                      "start": 88.82,
+                      "end": 89.56,
+                      "text": "耶",
+                      "probability": 0.9796409606933594
+                    },
+                    {
+                      "start": 89.56,
+                      "end": 89.96,
+                      "text": "稣",
+                      "probability": 0.8790155351161957
+                    },
+                    {
+                      "start": 89.96,
+                      "end": 90.52,
+                      "text": "忍",
+                      "probability": 0.9947270452976227
+                    },
+                    {
+                      "start": 90.52,
+                      "end": 90.74,
+                      "text": "受",
+                      "probability": 0.9983239769935608
+                    },
+                    {
+                      "start": 90.74,
+                      "end": 90.88,
+                      "text": "的",
+                      "probability": 0.8855556845664978
+                    },
+                    {
+                      "start": 90.88,
+                      "end": 91.08,
+                      "text": "几",
+                      "probability": 0.6346996873617172
+                    },
+                    {
+                      "start": 91.08,
+                      "end": 91.36,
+                      "text": "种",
+                      "probability": 0.9909742474555969
+                    },
+                    {
+                      "start": 91.36,
+                      "end": 91.96,
+                      "text": "特",
+                      "probability": 0.967689037322998
+                    },
+                    {
+                      "start": 91.96,
+                      "end": 92.22,
+                      "text": "别",
+                      "probability": 0.9981029033660889
+                    },
+                    {
+                      "start": 92.22,
+                      "end": 92.32,
+                      "text": "的",
+                      "probability": 0.8383415937423706
+                    },
+                    {
+                      "start": 92.32,
+                      "end": 92.54,
+                      "text": "痛",
+                      "probability": 0.9979817867279053
+                    },
+                    {
+                      "start": 92.54,
+                      "end": 92.86,
+                      "text": "苦",
+                      "probability": 0.9986509680747986
+                    }
+                  ]
+                },
+                {
+                  "start": 94.84,
+                  "end": 97.34,
+                  "text": "约翰福音七章一节",
+                  "words": [
+                    {
+                      "start": 94.84,
+                      "end": 95.68,
+                      "text": "约",
+                      "probability": 0.5343305431306362
+                    },
+                    {
+                      "start": 95.68,
+                      "end": 95.86,
+                      "text": "翰",
+                      "probability": 0.9948180913925171
+                    },
+                    {
+                      "start": 95.86,
+                      "end": 95.98,
+                      "text": "福",
+                      "probability": 0.6965740323066711
+                    },
+                    {
+                      "start": 95.98,
+                      "end": 96.14,
+                      "text": "音",
+                      "probability": 0.3165162205696106
+                    },
+                    {
+                      "start": 96.14,
+                      "end": 96.68,
+                      "text": "七",
+                      "probability": 0.7448495030403137
+                    },
+                    {
+                      "start": 96.68,
+                      "end": 96.84,
+                      "text": "章",
+                      "probability": 0.9847672283649445
+                    },
+                    {
+                      "start": 96.84,
+                      "end": 97.08,
+                      "text": "一",
+                      "probability": 0.89738529920578
+                    },
+                    {
+                      "start": 97.08,
+                      "end": 97.34,
+                      "text": "节",
+                      "probability": 0.8790755867958069
+                    }
+                  ]
+                },
+                {
+                  "start": 98.14,
+                  "end": 102.18,
+                  "text": "这是以后耶稣在家里旅游行",
+                  "words": [
+                    {
+                      "start": 98.14,
+                      "end": 98.7,
+                      "text": "这是",
+                      "probability": 0.24230743944644928
+                    },
+                    {
+                      "start": 98.7,
+                      "end": 99.0,
+                      "text": "以",
+                      "probability": 0.9924639463424683
+                    },
+                    {
+                      "start": 99.0,
+                      "end": 99.22,
+                      "text": "后",
+                      "probability": 0.9993390440940857
+                    },
+                    {
+                      "start": 99.22,
+                      "end": 99.9,
+                      "text": "耶",
+                      "probability": 0.92912757396698
+                    },
+                    {
+                      "start": 99.9,
+                      "end": 100.24,
+                      "text": "稣",
+                      "probability": 0.9988620281219482
+                    },
+                    {
+                      "start": 100.24,
+                      "end": 100.84,
+                      "text": "在",
+                      "probability": 0.9844141006469727
+                    },
+                    {
+                      "start": 100.84,
+                      "end": 101.26,
+                      "text": "家",
+                      "probability": 0.4898306727409363
+                    },
+                    {
+                      "start": 101.26,
+                      "end": 101.46,
+                      "text": "里",
+                      "probability": 0.9789016842842102
+                    },
+                    {
+                      "start": 101.46,
+                      "end": 101.62,
+                      "text": "旅",
+                      "probability": 0.7306445837020874
+                    },
+                    {
+                      "start": 101.62,
+                      "end": 101.96,
+                      "text": "游",
+                      "probability": 0.785797506570816
+                    },
+                    {
+                      "start": 101.96,
+                      "end": 102.18,
+                      "text": "行",
+                      "probability": 0.9515721201896667
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.844,
+          "coherentCoverage": 0.844,
+          "extraSpeechContext": false,
+          "prefixCoverage": 1.0,
+          "suffixCoverage": 0.3,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 14,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 96.14,
-      "end": 109.01,
+      "start": 94.84,
+      "end": 107.76,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "约翰福音71这事以后耶稣在加利利游行不愿在犹太游行因为犹太人想要杀祂",
-      "confidence": 0.585
+      "confidence": 0.606,
+      "quality": {
+        "coverage": 0.588,
+        "coherentCoverage": 0.559,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.412,
+        "suffixCoverage": 0.765,
+        "unmatchedLeadingChars": 6,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\27-4.mp3.json",
+          "transcriptSha256": "57c27fc81d5bcfbf647acbd3fae67d4c95b3d5be09ea83e3a4cf9989d233487d",
+          "candidate": 107.76,
+          "expectedPhrase": "太游行因为犹太人想要杀他",
+          "actualPhrase": "泰游行因为游泰人想要杀他",
+          "phoneticPhrase": [
+            "tai",
+            "you",
+            "xing",
+            "yin",
+            "wei",
+            "you",
+            "tai",
+            "ren",
+            "xiang",
+            "yao",
+            "sha",
+            "ta"
+          ],
+          "verified": true,
+          "time": 107.76,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "exact-local-syllables-original-word-times",
+          "phoneticExact": true,
+          "literalEqual": false,
+          "wordTokens": [
+            {
+              "text": "泰",
+              "start": 103.86,
+              "end": 104.14,
+              "rawStart": 275,
+              "rawEnd": 275,
+              "precision": "word"
+            },
+            {
+              "text": "游",
+              "start": 104.14,
+              "end": 104.42,
+              "rawStart": 276,
+              "rawEnd": 276,
+              "precision": "word"
+            },
+            {
+              "text": "行",
+              "start": 104.42,
+              "end": 104.82,
+              "rawStart": 277,
+              "rawEnd": 277,
+              "precision": "word"
+            },
+            {
+              "text": "因",
+              "start": 104.82,
+              "end": 105.66,
+              "rawStart": 278,
+              "rawEnd": 278,
+              "precision": "word"
+            },
+            {
+              "text": "为",
+              "start": 104.82,
+              "end": 105.66,
+              "rawStart": 279,
+              "rawEnd": 279,
+              "precision": "word"
+            },
+            {
+              "text": "游",
+              "start": 105.66,
+              "end": 106.28,
+              "rawStart": 280,
+              "rawEnd": 280,
+              "precision": "word"
+            },
+            {
+              "text": "泰",
+              "start": 106.28,
+              "end": 106.48,
+              "rawStart": 281,
+              "rawEnd": 281,
+              "precision": "word"
+            },
+            {
+              "text": "人",
+              "start": 106.48,
+              "end": 106.76,
+              "rawStart": 282,
+              "rawEnd": 282,
+              "precision": "word"
+            },
+            {
+              "text": "想",
+              "start": 106.76,
+              "end": 107.04,
+              "rawStart": 283,
+              "rawEnd": 283,
+              "precision": "word"
+            },
+            {
+              "text": "要",
+              "start": 107.04,
+              "end": 107.24,
+              "rawStart": 284,
+              "rawEnd": 284,
+              "precision": "word"
+            },
+            {
+              "text": "杀",
+              "start": 107.24,
+              "end": 107.46,
+              "rawStart": 285,
+              "rawEnd": 285,
+              "precision": "word"
+            },
+            {
+              "text": "他",
+              "start": 107.46,
+              "end": 107.76,
+              "rawStart": 286,
+              "rawEnd": 286,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "audioSha256": "4472cd8018bebd9cec593cb346651ef8d303959c40f0bcf397050d4086813216",
+          "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 96.14,
+        "previousEnd": 109.01,
+        "previousConfidence": 0.585
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "027_第二十七问 基督的降卑在于哪些方面.md",
+          "audio": "27-4.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\027_第二十七问 基督的降卑在于哪些方面\\audio-04.json",
+          "targetIndex": 16,
+          "edge": "end",
+          "previousTime": 109.01,
+          "time": 107.76,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 96.14,
+            "time": 94.84,
+            "reason": "约翰福音7:1出处属于本段引文。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\27-4.mp3.json",
+              "sha256": "57c27fc81d5bcfbf647acbd3fae67d4c95b3d5be09ea83e3a4cf9989d233487d",
+              "segments": [
+                {
+                  "start": 81.44,
+                  "end": 85.1,
+                  "text": "他要为他们的罪承受刑法",
+                  "words": [
+                    {
+                      "start": 81.44,
+                      "end": 82.5,
+                      "text": "他",
+                      "probability": 0.970963180065155
+                    },
+                    {
+                      "start": 82.5,
+                      "end": 82.64,
+                      "text": "要",
+                      "probability": 0.9899784326553345
+                    },
+                    {
+                      "start": 82.64,
+                      "end": 82.78,
+                      "text": "为",
+                      "probability": 0.9949778914451599
+                    },
+                    {
+                      "start": 82.78,
+                      "end": 83.02,
+                      "text": "他们",
+                      "probability": 0.9894801378250122
+                    },
+                    {
+                      "start": 83.02,
+                      "end": 83.24,
+                      "text": "的",
+                      "probability": 0.9765030145645142
+                    },
+                    {
+                      "start": 83.24,
+                      "end": 83.46,
+                      "text": "罪",
+                      "probability": 0.9804818630218506
+                    },
+                    {
+                      "start": 83.46,
+                      "end": 84.1,
+                      "text": "承",
+                      "probability": 0.6693623661994934
+                    },
+                    {
+                      "start": 84.1,
+                      "end": 84.5,
+                      "text": "受",
+                      "probability": 0.9798372387886047
+                    },
+                    {
+                      "start": 84.5,
+                      "end": 84.8,
+                      "text": "刑",
+                      "probability": 0.8886483907699585
+                    },
+                    {
+                      "start": 84.8,
+                      "end": 85.1,
+                      "text": "法",
+                      "probability": 0.5917642712593079
+                    }
+                  ]
+                },
+                {
+                  "start": 85.9,
+                  "end": 87.86,
+                  "text": "请读下面的经文",
+                  "words": [
+                    {
+                      "start": 85.9,
+                      "end": 86.5,
+                      "text": "请",
+                      "probability": 0.8944489359855652
+                    },
+                    {
+                      "start": 86.5,
+                      "end": 86.76,
+                      "text": "读",
+                      "probability": 0.8735323548316956
+                    },
+                    {
+                      "start": 86.76,
+                      "end": 87.2,
+                      "text": "下面",
+                      "probability": 0.9984918832778931
+                    },
+                    {
+                      "start": 87.2,
+                      "end": 87.42,
+                      "text": "的",
+                      "probability": 0.9984402060508728
+                    },
+                    {
+                      "start": 87.42,
+                      "end": 87.58,
+                      "text": "经",
+                      "probability": 0.8749987483024597
+                    },
+                    {
+                      "start": 87.58,
+                      "end": 87.86,
+                      "text": "文",
+                      "probability": 0.9741629958152771
+                    }
+                  ]
+                },
+                {
+                  "start": 87.86,
+                  "end": 92.86,
+                  "text": "看看耶稣忍受的几种特别的痛苦",
+                  "words": [
+                    {
+                      "start": 87.86,
+                      "end": 88.82,
+                      "text": "看看",
+                      "probability": 0.0662216767668724
+                    },
+                    {
+                      "start": 88.82,
+                      "end": 89.56,
+                      "text": "耶",
+                      "probability": 0.9796409606933594
+                    },
+                    {
+                      "start": 89.56,
+                      "end": 89.96,
+                      "text": "稣",
+                      "probability": 0.8790155351161957
+                    },
+                    {
+                      "start": 89.96,
+                      "end": 90.52,
+                      "text": "忍",
+                      "probability": 0.9947270452976227
+                    },
+                    {
+                      "start": 90.52,
+                      "end": 90.74,
+                      "text": "受",
+                      "probability": 0.9983239769935608
+                    },
+                    {
+                      "start": 90.74,
+                      "end": 90.88,
+                      "text": "的",
+                      "probability": 0.8855556845664978
+                    },
+                    {
+                      "start": 90.88,
+                      "end": 91.08,
+                      "text": "几",
+                      "probability": 0.6346996873617172
+                    },
+                    {
+                      "start": 91.08,
+                      "end": 91.36,
+                      "text": "种",
+                      "probability": 0.9909742474555969
+                    },
+                    {
+                      "start": 91.36,
+                      "end": 91.96,
+                      "text": "特",
+                      "probability": 0.967689037322998
+                    },
+                    {
+                      "start": 91.96,
+                      "end": 92.22,
+                      "text": "别",
+                      "probability": 0.9981029033660889
+                    },
+                    {
+                      "start": 92.22,
+                      "end": 92.32,
+                      "text": "的",
+                      "probability": 0.8383415937423706
+                    },
+                    {
+                      "start": 92.32,
+                      "end": 92.54,
+                      "text": "痛",
+                      "probability": 0.9979817867279053
+                    },
+                    {
+                      "start": 92.54,
+                      "end": 92.86,
+                      "text": "苦",
+                      "probability": 0.9986509680747986
+                    }
+                  ]
+                },
+                {
+                  "start": 94.84,
+                  "end": 97.34,
+                  "text": "约翰福音七章一节",
+                  "words": [
+                    {
+                      "start": 94.84,
+                      "end": 95.68,
+                      "text": "约",
+                      "probability": 0.5343305431306362
+                    },
+                    {
+                      "start": 95.68,
+                      "end": 95.86,
+                      "text": "翰",
+                      "probability": 0.9948180913925171
+                    },
+                    {
+                      "start": 95.86,
+                      "end": 95.98,
+                      "text": "福",
+                      "probability": 0.6965740323066711
+                    },
+                    {
+                      "start": 95.98,
+                      "end": 96.14,
+                      "text": "音",
+                      "probability": 0.3165162205696106
+                    },
+                    {
+                      "start": 96.14,
+                      "end": 96.68,
+                      "text": "七",
+                      "probability": 0.7448495030403137
+                    },
+                    {
+                      "start": 96.68,
+                      "end": 96.84,
+                      "text": "章",
+                      "probability": 0.9847672283649445
+                    },
+                    {
+                      "start": 96.84,
+                      "end": 97.08,
+                      "text": "一",
+                      "probability": 0.89738529920578
+                    },
+                    {
+                      "start": 97.08,
+                      "end": 97.34,
+                      "text": "节",
+                      "probability": 0.8790755867958069
+                    }
+                  ]
+                },
+                {
+                  "start": 98.14,
+                  "end": 102.18,
+                  "text": "这是以后耶稣在家里旅游行",
+                  "words": [
+                    {
+                      "start": 98.14,
+                      "end": 98.7,
+                      "text": "这是",
+                      "probability": 0.24230743944644928
+                    },
+                    {
+                      "start": 98.7,
+                      "end": 99.0,
+                      "text": "以",
+                      "probability": 0.9924639463424683
+                    },
+                    {
+                      "start": 99.0,
+                      "end": 99.22,
+                      "text": "后",
+                      "probability": 0.9993390440940857
+                    },
+                    {
+                      "start": 99.22,
+                      "end": 99.9,
+                      "text": "耶",
+                      "probability": 0.92912757396698
+                    },
+                    {
+                      "start": 99.9,
+                      "end": 100.24,
+                      "text": "稣",
+                      "probability": 0.9988620281219482
+                    },
+                    {
+                      "start": 100.24,
+                      "end": 100.84,
+                      "text": "在",
+                      "probability": 0.9844141006469727
+                    },
+                    {
+                      "start": 100.84,
+                      "end": 101.26,
+                      "text": "家",
+                      "probability": 0.4898306727409363
+                    },
+                    {
+                      "start": 101.26,
+                      "end": 101.46,
+                      "text": "里",
+                      "probability": 0.9789016842842102
+                    },
+                    {
+                      "start": 101.46,
+                      "end": 101.62,
+                      "text": "旅",
+                      "probability": 0.7306445837020874
+                    },
+                    {
+                      "start": 101.62,
+                      "end": 101.96,
+                      "text": "游",
+                      "probability": 0.785797506570816
+                    },
+                    {
+                      "start": 101.96,
+                      "end": 102.18,
+                      "text": "行",
+                      "probability": 0.9515721201896667
+                    }
+                  ]
+                },
+                {
+                  "start": 102.18,
+                  "end": 104.82,
+                  "text": "不愿在游泰游行",
+                  "words": [
+                    {
+                      "start": 102.18,
+                      "end": 102.92,
+                      "text": "不",
+                      "probability": 0.8838608860969543
+                    },
+                    {
+                      "start": 102.92,
+                      "end": 103.14,
+                      "text": "愿",
+                      "probability": 0.9888766705989838
+                    },
+                    {
+                      "start": 103.14,
+                      "end": 103.42,
+                      "text": "在",
+                      "probability": 0.8327155113220215
+                    },
+                    {
+                      "start": 103.42,
+                      "end": 103.86,
+                      "text": "游",
+                      "probability": 0.8824062645435333
+                    },
+                    {
+                      "start": 103.86,
+                      "end": 104.14,
+                      "text": "泰",
+                      "probability": 0.8668557107448578
+                    },
+                    {
+                      "start": 104.14,
+                      "end": 104.42,
+                      "text": "游",
+                      "probability": 0.9381368160247803
+                    },
+                    {
+                      "start": 104.42,
+                      "end": 104.82,
+                      "text": "行",
+                      "probability": 0.9987310767173767
+                    }
+                  ]
+                },
+                {
+                  "start": 104.82,
+                  "end": 107.76,
+                  "text": "因为游泰人想要杀他",
+                  "words": [
+                    {
+                      "start": 104.82,
+                      "end": 105.66,
+                      "text": "因为",
+                      "probability": 0.9700507521629333
+                    },
+                    {
+                      "start": 105.66,
+                      "end": 106.28,
+                      "text": "游",
+                      "probability": 0.6233506053686142
+                    },
+                    {
+                      "start": 106.28,
+                      "end": 106.48,
+                      "text": "泰",
+                      "probability": 0.9978358745574951
+                    },
+                    {
+                      "start": 106.48,
+                      "end": 106.76,
+                      "text": "人",
+                      "probability": 0.9974671602249146
+                    },
+                    {
+                      "start": 106.76,
+                      "end": 107.04,
+                      "text": "想",
+                      "probability": 0.9869664907455444
+                    },
+                    {
+                      "start": 107.04,
+                      "end": 107.24,
+                      "text": "要",
+                      "probability": 0.9933099746704102
+                    },
+                    {
+                      "start": 107.24,
+                      "end": 107.46,
+                      "text": "杀",
+                      "probability": 0.9963513910770416
+                    },
+                    {
+                      "start": 107.46,
+                      "end": 107.76,
+                      "text": "他",
+                      "probability": 0.8487170338630676
+                    }
+                  ]
+                }
+              ],
+              "source": "context-reviewed-paragraph-approximation"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.588,
+          "coherentCoverage": 0.559,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.412,
+          "suffixCoverage": 0.765,
+          "unmatchedLeadingChars": 6,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\27-4.mp3.json",
+            "transcriptSha256": "57c27fc81d5bcfbf647acbd3fae67d4c95b3d5be09ea83e3a4cf9989d233487d",
+            "candidate": 107.76,
+            "expectedPhrase": "太游行因为犹太人想要杀他",
+            "actualPhrase": "泰游行因为游泰人想要杀他",
+            "phoneticPhrase": [
+              "tai",
+              "you",
+              "xing",
+              "yin",
+              "wei",
+              "you",
+              "tai",
+              "ren",
+              "xiang",
+              "yao",
+              "sha",
+              "ta"
+            ],
+            "verified": true,
+            "time": 107.76,
+            "localSupported": true,
+            "timingPrecision": "word",
+            "source": "exact-local-syllables-original-word-times",
+            "phoneticExact": true,
+            "literalEqual": false,
+            "wordTokens": [
+              {
+                "text": "泰",
+                "start": 103.86,
+                "end": 104.14,
+                "rawStart": 275,
+                "rawEnd": 275,
+                "precision": "word"
+              },
+              {
+                "text": "游",
+                "start": 104.14,
+                "end": 104.42,
+                "rawStart": 276,
+                "rawEnd": 276,
+                "precision": "word"
+              },
+              {
+                "text": "行",
+                "start": 104.42,
+                "end": 104.82,
+                "rawStart": 277,
+                "rawEnd": 277,
+                "precision": "word"
+              },
+              {
+                "text": "因",
+                "start": 104.82,
+                "end": 105.66,
+                "rawStart": 278,
+                "rawEnd": 278,
+                "precision": "word"
+              },
+              {
+                "text": "为",
+                "start": 104.82,
+                "end": 105.66,
+                "rawStart": 279,
+                "rawEnd": 279,
+                "precision": "word"
+              },
+              {
+                "text": "游",
+                "start": 105.66,
+                "end": 106.28,
+                "rawStart": 280,
+                "rawEnd": 280,
+                "precision": "word"
+              },
+              {
+                "text": "泰",
+                "start": 106.28,
+                "end": 106.48,
+                "rawStart": 281,
+                "rawEnd": 281,
+                "precision": "word"
+              },
+              {
+                "text": "人",
+                "start": 106.48,
+                "end": 106.76,
+                "rawStart": 282,
+                "rawEnd": 282,
+                "precision": "word"
+              },
+              {
+                "text": "想",
+                "start": 106.76,
+                "end": 107.04,
+                "rawStart": 283,
+                "rawEnd": 283,
+                "precision": "word"
+              },
+              {
+                "text": "要",
+                "start": 107.04,
+                "end": 107.24,
+                "rawStart": 284,
+                "rawEnd": 284,
+                "precision": "word"
+              },
+              {
+                "text": "杀",
+                "start": 107.24,
+                "end": 107.46,
+                "rawStart": 285,
+                "rawEnd": 285,
+                "precision": "word"
+              },
+              {
+                "text": "他",
+                "start": 107.46,
+                "end": 107.76,
+                "rawStart": 286,
+                "rawEnd": 286,
+                "precision": "word"
+              }
+            ],
+            "listenedByAgent": false,
+            "audioSha256": "4472cd8018bebd9cec593cb346651ef8d303959c40f0bcf397050d4086813216",
+            "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+          }
+        }
+      }
     },
     {
       "start": 109.01,
-      "end": 116.89,
+      "end": 117.23,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "约翰福音75因为连祂的弟兄说这话是因为不信祂",
-      "confidence": 0.8
+      "confidence": 0.87,
+      "quality": {
+        "coverage": 0.909,
+        "coherentCoverage": 0.909,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.818,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 109.01,
+        "previousEnd": 116.89,
+        "previousConfidence": 0.8
+      }
     },
     {
-      "start": 116.89,
-      "end": 133.65,
+      "start": 117.23,
+      "end": 131.51,
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "约翰福音848犹太人回答说我们说你是撒马利亚人并且是鬼附着的这话岂不正对吗",
-      "confidence": 0.649
+      "confidence": 0.658,
+      "quality": {
+        "coverage": 0.676,
+        "coherentCoverage": 0.676,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.556,
+        "suffixCoverage": 0.833,
+        "unmatchedLeadingChars": 8,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "verified-transcript",
+        "previousStart": 116.89,
+        "previousEnd": 133.65,
+        "previousConfidence": 0.649
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 117.23,
+            "time": 117.23,
+            "reason": "正文起句已定位，保留原先读出处范围",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\27-4.mp3.json",
+              "sha256": "890176c8d0359bd9ec39914be3d1ec3251f00b0baba7a1757cc0d93b9c1bba91",
+              "anchor": {
+                "time": 121.51,
+                "score": 0.9243,
+                "ratio": 0.9286,
+                "expected": "youtairenhuidashuowomenshuonishisamali",
+                "actual": "有太人回答说我们说你是3玛丽",
+                "span": [
+                  121.51,
+                  125.63
+                ],
+                "tokens": [
+                  {
+                    "text": "有",
+                    "start": 121.51,
+                    "end": 122.03,
+                    "rawStart": 319,
+                    "rawEnd": 319,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "太",
+                    "start": 122.03,
+                    "end": 122.23,
+                    "rawStart": 320,
+                    "rawEnd": 320,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 122.23,
+                    "end": 122.47,
+                    "rawStart": 321,
+                    "rawEnd": 321,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "回",
+                    "start": 122.47,
+                    "end": 122.71,
+                    "rawStart": 322,
+                    "rawEnd": 322,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "答",
+                    "start": 122.71,
+                    "end": 122.91,
+                    "rawStart": 323,
+                    "rawEnd": 323,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "说",
+                    "start": 122.91,
+                    "end": 123.21,
+                    "rawStart": 324,
+                    "rawEnd": 324,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 123.81,
+                    "end": 124.33,
+                    "rawStart": 325,
+                    "rawEnd": 325,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 123.81,
+                    "end": 124.33,
+                    "rawStart": 326,
+                    "rawEnd": 326,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "说",
+                    "start": 124.33,
+                    "end": 124.55,
+                    "rawStart": 327,
+                    "rawEnd": 327,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 124.55,
+                    "end": 124.87,
+                    "rawStart": 328,
+                    "rawEnd": 328,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 124.55,
+                    "end": 124.87,
+                    "rawStart": 329,
+                    "rawEnd": 329,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "3",
+                    "start": 124.87,
+                    "end": 125.37,
+                    "rawStart": 330,
+                    "rawEnd": 330,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "玛",
+                    "start": 125.37,
+                    "end": 125.51,
+                    "rawStart": 331,
+                    "rawEnd": 331,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "丽",
+                    "start": 125.51,
+                    "end": 125.63,
+                    "rawStart": 332,
+                    "rawEnd": 332,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "犹太人回答说:“我们说你是撒马利亚人,并且是鬼附着的,这话岂不正对吗?”",
+              "retainedCitationInterval": [
+                117.23,
+                121.51
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "start": 133.65,
-      "end": 143.83,
+      "end": 142.83,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "约翰福音859于是他们拿石头要打祂耶稣却躲藏从殿里出去了",
-      "confidence": 0.643
+      "confidence": 0.679,
+      "quality": {
+        "coverage": 0.679,
+        "coherentCoverage": 0.679,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.429,
+        "suffixCoverage": 0.929,
+        "unmatchedLeadingChars": 7,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 133.65,
+        "previousEnd": 143.83,
+        "previousConfidence": 0.643
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 133.65,
+            "time": 133.65,
+            "reason": "正文起句已定位，保留原先读出处范围",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\27-4.mp3.json",
+              "sha256": "890176c8d0359bd9ec39914be3d1ec3251f00b0baba7a1757cc0d93b9c1bba91",
+              "anchor": {
+                "time": 135.77,
+                "score": 0.9979,
+                "ratio": 1.0,
+                "expected": "yushitamennashitouyaodatayesuqueduo",
+                "actual": "于是他们那石头要打他耶稣却躲",
+                "span": [
+                  135.77,
+                  140.41
+                ],
+                "tokens": [
+                  {
+                    "text": "于",
+                    "start": 135.77,
+                    "end": 136.29,
+                    "rawStart": 357,
+                    "rawEnd": 357,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 136.29,
+                    "end": 136.53,
+                    "rawStart": 358,
+                    "rawEnd": 358,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "他",
+                    "start": 136.53,
+                    "end": 136.95,
+                    "rawStart": 359,
+                    "rawEnd": 359,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 136.53,
+                    "end": 136.95,
+                    "rawStart": 360,
+                    "rawEnd": 360,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "那",
+                    "start": 136.95,
+                    "end": 137.19,
+                    "rawStart": 361,
+                    "rawEnd": 361,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "石",
+                    "start": 137.19,
+                    "end": 137.41,
+                    "rawStart": 362,
+                    "rawEnd": 362,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "头",
+                    "start": 137.41,
+                    "end": 137.55,
+                    "rawStart": 363,
+                    "rawEnd": 363,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "要",
+                    "start": 137.55,
+                    "end": 137.67,
+                    "rawStart": 364,
+                    "rawEnd": 364,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "打",
+                    "start": 137.67,
+                    "end": 137.87,
+                    "rawStart": 365,
+                    "rawEnd": 365,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "他",
+                    "start": 137.87,
+                    "end": 138.41,
+                    "rawStart": 366,
+                    "rawEnd": 366,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "耶",
+                    "start": 138.41,
+                    "end": 139.33,
+                    "rawStart": 367,
+                    "rawEnd": 367,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "稣",
+                    "start": 139.33,
+                    "end": 139.57,
+                    "rawStart": 368,
+                    "rawEnd": 368,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "却",
+                    "start": 139.57,
+                    "end": 139.99,
+                    "rawStart": 369,
+                    "rawEnd": 369,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "躲",
+                    "start": 139.99,
+                    "end": 140.41,
+                    "rawStart": 370,
+                    "rawEnd": 370,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "于是他们拿石头要打祂,耶稣却躲藏,从殿里出去了。",
+              "retainedCitationInterval": [
+                133.65,
+                135.77
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "start": 143.83,
@@ -69,7 +1614,230 @@
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "约翰福音1227我现在心里忧愁我说什么才好呢父啊救我脱离这时候但我原是为这时候来的",
-      "confidence": 0.714
+      "confidence": 0.714,
+      "quality": {
+        "coverage": 0.732,
+        "coherentCoverage": 0.707,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 8,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 143.83,
+        "previousEnd": 159.95,
+        "previousConfidence": 0.714
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 143.83,
+            "time": 143.83,
+            "reason": "正文起句已定位，保留原先读出处范围",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\27-4.mp3.json",
+              "sha256": "890176c8d0359bd9ec39914be3d1ec3251f00b0baba7a1757cc0d93b9c1bba91",
+              "anchor": {
+                "time": 147.95,
+                "score": 0.9959,
+                "ratio": 1.0,
+                "expected": "woxianzaixinliyouchouwoshuoshenmecaihaone",
+                "actual": "我现在心里忧愁我说什么才好呢",
+                "span": [
+                  147.95,
+                  151.91
+                ],
+                "tokens": [
+                  {
+                    "text": "我",
+                    "start": 147.95,
+                    "end": 148.51,
+                    "rawStart": 387,
+                    "rawEnd": 387,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "现",
+                    "start": 148.51,
+                    "end": 148.81,
+                    "rawStart": 388,
+                    "rawEnd": 388,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "在",
+                    "start": 148.51,
+                    "end": 148.81,
+                    "rawStart": 389,
+                    "rawEnd": 389,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "心",
+                    "start": 148.81,
+                    "end": 149.35,
+                    "rawStart": 390,
+                    "rawEnd": 390,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "里",
+                    "start": 149.35,
+                    "end": 149.53,
+                    "rawStart": 391,
+                    "rawEnd": 391,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "忧",
+                    "start": 149.53,
+                    "end": 149.73,
+                    "rawStart": 392,
+                    "rawEnd": 392,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "愁",
+                    "start": 149.73,
+                    "end": 150.05,
+                    "rawStart": 393,
+                    "rawEnd": 393,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 150.05,
+                    "end": 150.69,
+                    "rawStart": 394,
+                    "rawEnd": 394,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "说",
+                    "start": 150.69,
+                    "end": 150.89,
+                    "rawStart": 395,
+                    "rawEnd": 395,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "什",
+                    "start": 150.89,
+                    "end": 151.17,
+                    "rawStart": 396,
+                    "rawEnd": 396,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "么",
+                    "start": 150.89,
+                    "end": 151.17,
+                    "rawStart": 397,
+                    "rawEnd": 397,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "才",
+                    "start": 151.17,
+                    "end": 151.39,
+                    "rawStart": 398,
+                    "rawEnd": 398,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "好",
+                    "start": 151.39,
+                    "end": 151.73,
+                    "rawStart": 399,
+                    "rawEnd": 399,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "呢",
+                    "start": 151.73,
+                    "end": 151.91,
+                    "rawStart": 400,
+                    "rawEnd": 400,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 145.47,
+                  "score": 0.8836,
+                  "actual": "27节我现在心里忧愁我说什么才好呢"
+                }
+              },
+              "body": "我现在心里忧愁,我说什么才好呢?父啊,救我脱离这时候;但我原是为这时候来的。",
+              "retainedCitationInterval": [
+                143.83,
+                147.95
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (14 trailing chars, coverage 0.300): target 15: 就连耶稣最亲近的朋友和亲人也常常误解祂，还有许多人恨恶祂。耶稣忍受着孤独。祂知道祂是谁。祂知道祂",
+    "unverified end anchor: target 15: 就连耶稣最亲近的朋友和亲人也常常误解祂，还有许多人恨恶祂。耶稣忍受着孤独。祂知道祂是谁。祂知道祂",
+    "incomplete start (6 leading chars, coverage 0.412): target 16: 约翰福音7:1 这事以后，耶稣在加利利游行，不愿在犹太游行，因为犹太人想要杀祂。",
+    "unverified start anchor: target 16: 约翰福音7:1 这事以后，耶稣在加利利游行，不愿在犹太游行，因为犹太人想要杀祂。",
+    "incomplete start (8 leading chars, coverage 0.556): target 18: 约翰福音8:48 犹太人回答说：“我们说你是撒马利亚人，并且是鬼附着的，这话岂不正对吗？”",
+    "unverified start anchor: target 18: 约翰福音8:48 犹太人回答说：“我们说你是撒马利亚人，并且是鬼附着的，这话岂不正对吗？”",
+    "incomplete start (7 leading chars, coverage 0.429): target 19: 约翰福音8:59 于是他们拿石头要打祂，耶稣却躲藏，从殿里出去了。",
+    "unverified start anchor: target 19: 约翰福音8:59 于是他们拿石头要打祂，耶稣却躲藏，从殿里出去了。",
+    "incomplete start (8 leading chars, coverage 0.600): target 20: 约翰福音12:27 我现在心里忧愁，我说什么才好呢？父啊，救我脱离这时候；但我原是为这时候来的。",
+    "unverified start anchor: target 20: 约翰福音12:27 我现在心里忧愁，我说什么才好呢？父啊，救我脱离这时候；但我原是为这时候来的。",
+    "repair unverified end (previous-sync): target 15",
+    "repair unverified start (previous-sync): target 16",
+    "repair unverified end (previous-sync): target 16",
+    "repair unverified start (previous-verified-end): target 18",
+    "repair unverified start (previous-sync): target 19",
+    "repair unverified start (previous-sync): target 20"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 4,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 4,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "4fb03dd26e1b2182f8465afc82b8bef744211e2a9a4e22f0ec2daded7bacd645",
+  "repairCueDigest": "47c5e763957b7a554afefdbc3f649f0e6c0bc233ebf9f08250e1b6d13f4d0714",
+  "previousAlignmentWarnings": []
 }

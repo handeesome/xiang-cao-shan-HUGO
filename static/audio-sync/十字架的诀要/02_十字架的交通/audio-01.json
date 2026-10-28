@@ -8,28 +8,274 @@
   "audioDuration": 371.8385625,
   "cues": [
     {
-      "start": 2.51,
-      "end": 6.69,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第二日十字架的交通",
-      "confidence": 1.0
-    },
-    {
       "start": 6.69,
-      "end": 9.75,
+      "end": 12.39,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "你们当以基督耶稣的心为心腓二5",
-      "confidence": 0.593
+      "confidence": 0.812,
+      "quality": {
+        "coverage": 0.867,
+        "coherentCoverage": 0.8,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.714,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "source": "context-reviewed-existing-word-time",
+          "expectedPhrase": "“你们当以基督耶稣的心为心”。（腓二：5）",
+          "rawSegment": {
+            "start": 9.75,
+            "end": 12.39,
+            "text": "菲律比書二章五節"
+          },
+          "time": 12.39,
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\十字架的诀要\\2.mp3.json",
+          "transcriptSha256": "33422e1d3e40dd11c0a687f9bb93640a4e30c60688fdb542ba0037e79ba4c4c6",
+          "audioSha256": "038c92d112053a8f6f171ffd38e960572f0c6ec28b1361accc6eddf80a315a99",
+          "timingPrecision": "word",
+          "reason": "腓立比书二章五节归属于前段，原11.69秒只读完章号二；出处末词节的末尾为12.39秒。",
+          "listenedByAgent": false
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 6.69,
+        "previousEnd": 9.75,
+        "previousConfidence": 0.593
+      },
+      "boundaryCorrections": [
+        {
+          "edge": "end",
+          "previous": 11.69,
+          "current": 12.39,
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "confirmation": {
+            "verified": true,
+            "source": "context-reviewed-existing-word-time",
+            "expectedPhrase": "“你们当以基督耶稣的心为心”。（腓二：5）",
+            "rawSegment": {
+              "start": 9.75,
+              "end": 12.39,
+              "text": "菲律比書二章五節"
+            },
+            "time": 12.39,
+            "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\十字架的诀要\\2.mp3.json",
+            "transcriptSha256": "33422e1d3e40dd11c0a687f9bb93640a4e30c60688fdb542ba0037e79ba4c4c6",
+            "audioSha256": "038c92d112053a8f6f171ffd38e960572f0c6ec28b1361accc6eddf80a315a99",
+            "timingPrecision": "word",
+            "reason": "腓立比书二章五节归属于前段，原11.69秒只读完章号二；出处末词节的末尾为12.39秒。",
+            "listenedByAgent": false
+          }
+        }
+      ]
     },
     {
-      "start": 9.75,
+      "start": 13.09,
       "end": 61.39,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "使徒保罗在此告诉我们基督的心祂虚己取了奴仆的形象成为人的样式且死在十字架上所以基督的心志就是实在",
-      "confidence": 0.782
+      "confidence": 0.861,
+      "quality": {
+        "coverage": 0.85,
+        "coherentCoverage": 0.81,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "source": "context-reviewed-existing-word-time",
+          "expectedPhrase": "使徒保罗在此告诉我们基督的心！祂虚己取了奴仆的形象，成为 人的样式，且死在十字架上，所以基督的心",
+          "rawSegment": {
+            "start": 13.09,
+            "end": 16.61,
+            "text": "史圖保羅在此告訴我們基督的心"
+          },
+          "time": 13.09,
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\十字架的诀要\\2.mp3.json",
+          "transcriptSha256": "33422e1d3e40dd11c0a687f9bb93640a4e30c60688fdb542ba0037e79ba4c4c6",
+          "audioSha256": "038c92d112053a8f6f171ffd38e960572f0c6ec28b1361accc6eddf80a315a99",
+          "timingPrecision": "word",
+          "reason": "使徒保罗被small识别成史图保罗，但整句身份明确；13.09秒的首词开始正确，原13.83秒切入保罗，参考12.11秒则还在读前段腓立比书出处。",
+          "listenedByAgent": false
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 9.75,
+        "previousEnd": 61.39,
+        "previousConfidence": 0.782
+      },
+      "boundaryCorrections": [
+        {
+          "edge": "start",
+          "previous": 13.73,
+          "current": 13.83,
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "confirmation": {
+            "edge": "start",
+            "excerpt": "使徒保罗在此告诉我们基督的心！祂虚己取了奴仆的形象，成为 人的样式，且死在十字架上，所以基督的心志就是：实在的谦卑，舍 己直到死的地步，使心灵向我们活着，而我们",
+            "proofs": [
+              {
+                "model": "small",
+                "time": 13.73,
+                "coverage": 0.859,
+                "confidence": 0.853,
+                "evidence": {
+                  "verified": true,
+                  "coverage": 0.833,
+                  "continuousAnchor": true,
+                  "substitutionAnchor": false,
+                  "timingPrecision": "word",
+                  "insideSegment": false,
+                  "detachedContext": false,
+                  "paragraphSupported": true
+                }
+              },
+              {
+                "model": "medium",
+                "time": 13.83,
+                "coverage": 0.944,
+                "confidence": 0.957,
+                "evidence": {
+                  "verified": true,
+                  "coverage": 0.833,
+                  "continuousAnchor": true,
+                  "substitutionAnchor": false,
+                  "timingPrecision": "word",
+                  "insideSegment": false,
+                  "detachedContext": false,
+                  "paragraphSupported": true
+                }
+              }
+            ],
+            "verified": true
+          },
+          "audioSha256": "038c92d112053a8f6f171ffd38e960572f0c6ec28b1361accc6eddf80a315a99"
+        },
+        {
+          "edge": "start",
+          "previous": 13.83,
+          "current": 13.09,
+          "previousEvidence": {
+            "verified": true,
+            "source": "two-model-current-audio",
+            "confirmation": {
+              "edge": "start",
+              "excerpt": "使徒保罗在此告诉我们基督的心！祂虚己取了奴仆的形象，成为 人的样式，且死在十字架上，所以基督的心志就是：实在的谦卑，舍 己直到死的地步，使心灵向我们活着，而我们",
+              "proofs": [
+                {
+                  "model": "small",
+                  "time": 13.73,
+                  "coverage": 0.859,
+                  "confidence": 0.853,
+                  "evidence": {
+                    "verified": true,
+                    "coverage": 0.833,
+                    "continuousAnchor": true,
+                    "substitutionAnchor": false,
+                    "timingPrecision": "word",
+                    "insideSegment": false,
+                    "detachedContext": false,
+                    "paragraphSupported": true
+                  }
+                },
+                {
+                  "model": "medium",
+                  "time": 13.83,
+                  "coverage": 0.944,
+                  "confidence": 0.957,
+                  "evidence": {
+                    "verified": true,
+                    "coverage": 0.833,
+                    "continuousAnchor": true,
+                    "substitutionAnchor": false,
+                    "timingPrecision": "word",
+                    "insideSegment": false,
+                    "detachedContext": false,
+                    "paragraphSupported": true
+                  }
+                }
+              ],
+              "verified": true
+            }
+          },
+          "confirmation": {
+            "verified": true,
+            "source": "context-reviewed-existing-word-time",
+            "expectedPhrase": "使徒保罗在此告诉我们基督的心！祂虚己取了奴仆的形象，成为 人的样式，且死在十字架上，所以基督的心",
+            "rawSegment": {
+              "start": 13.09,
+              "end": 16.61,
+              "text": "史圖保羅在此告訴我們基督的心"
+            },
+            "time": 13.09,
+            "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\十字架的诀要\\2.mp3.json",
+            "transcriptSha256": "33422e1d3e40dd11c0a687f9bb93640a4e30c60688fdb542ba0037e79ba4c4c6",
+            "audioSha256": "038c92d112053a8f6f171ffd38e960572f0c6ec28b1361accc6eddf80a315a99",
+            "timingPrecision": "word",
+            "reason": "使徒保罗被small识别成史图保罗，但整句身份明确；13.09秒的首词开始正确，原13.83秒切入保罗，参考12.11秒则还在读前段腓立比书出处。",
+            "listenedByAgent": false
+          }
+        }
+      ]
     },
     {
       "start": 61.39,
@@ -37,23 +283,169 @@
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "当他们照此去实施他们就可感觉能洞察实在与基督同在他们学习将老旧的生命与基督同钉十字架他们与罪在基",
-      "confidence": 0.893
+      "confidence": 0.893,
+      "quality": {
+        "coverage": 0.893,
+        "coherentCoverage": 0.861,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 61.39,
+        "previousEnd": 99.8,
+        "previousConfidence": 0.893
+      }
     },
     {
       "start": 99.8,
-      "end": 128.9,
+      "end": 129.48,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "这样他们逐渐更深地进入为上头来的呼召而活向罪恶与世界和老我是死的意义每个人他所有这世界都有十字架",
-      "confidence": 0.758
+      "confidence": 0.837,
+      "quality": {
+        "coverage": 0.828,
+        "coherentCoverage": 0.742,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 99.8,
+        "previousEnd": 128.9,
+        "previousConfidence": 0.758
+      }
     },
     {
-      "start": 128.9,
+      "start": 131.97,
       "end": 148.49,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "这是不容易学会而且没有任何快捷方式只有十字架学校与救赎主的十字架有个别的交通才能对此有更深的理解",
-      "confidence": 0.764
+      "confidence": 0.963,
+      "quality": {
+        "coverage": 0.963,
+        "coherentCoverage": 0.963,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 128.9,
+        "previousEnd": 148.49,
+        "previousConfidence": 0.764
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "364b6dd13bd36a5ac3dae16bb4d622529329624f1d9a12a1c64a8aac65556c70",
+  "repairCueDigest": "9f65f3520fb23a4c325befd205fdc8be4b6c6a2cfc4c5a00bf24b5f3c51b424a",
+  "previousAlignmentWarnings": []
 }

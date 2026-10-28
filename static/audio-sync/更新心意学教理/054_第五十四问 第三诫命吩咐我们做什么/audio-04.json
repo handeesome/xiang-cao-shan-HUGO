@@ -9,19 +9,294 @@
   "cues": [
     {
       "start": 2.94,
-      "end": 96.99,
+      "end": 97.59,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "在圣经中上帝有许多不同的名字这是因为对于上帝的百姓来说没有哪一个名字能够完全包括上帝所有的属性你",
-      "confidence": 0.931
+      "confidence": 0.971,
+      "quality": {
+        "coverage": 0.971,
+        "coherentCoverage": 0.971,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 2.94,
+        "previousEnd": 96.99,
+        "previousConfidence": 0.963
+      }
     },
     {
-      "start": 96.99,
+      "start": 98.47,
       "end": 132.41,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "诗篇14515我的上帝我的王啊我要尊崇祢我要永永远远称颂祢的名我要天天称颂祢也要永永远远赞美祢的",
-      "confidence": 0.693
+      "confidence": 0.871,
+      "quality": {
+        "coverage": 0.83,
+        "coherentCoverage": 0.83,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.5,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 10,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "previous-verified-sync",
+        "previousStart": 96.99,
+        "previousEnd": 132.41,
+        "previousConfidence": 0.888
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 97.59,
+            "time": 98.47,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\54-3.mp3.json",
+              "sha256": "054bfa1972772ec6678b9bee9dc7514c93a43a4ac75c06f73129f3d558e4efcd",
+              "anchor": {
+                "time": 98.47,
+                "score": 0.9991,
+                "ratio": 1.0,
+                "expected": "wodeshenwodewangawoyaozunchongniwoyao",
+                "actual": "我的神我的王啊我要尊崇你我要",
+                "span": [
+                  98.47,
+                  103.97
+                ],
+                "tokens": [
+                  {
+                    "text": "我",
+                    "start": 98.47,
+                    "end": 99.13,
+                    "rawStart": 311,
+                    "rawEnd": 311,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 98.47,
+                    "end": 99.13,
+                    "rawStart": 312,
+                    "rawEnd": 312,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 99.13,
+                    "end": 99.45,
+                    "rawStart": 313,
+                    "rawEnd": 314,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 99.81,
+                    "end": 100.01,
+                    "rawStart": 315,
+                    "rawEnd": 315,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 99.81,
+                    "end": 100.01,
+                    "rawStart": 316,
+                    "rawEnd": 316,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "王",
+                    "start": 100.01,
+                    "end": 100.29,
+                    "rawStart": 317,
+                    "rawEnd": 317,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "啊",
+                    "start": 100.29,
+                    "end": 100.97,
+                    "rawStart": 318,
+                    "rawEnd": 318,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 101.31,
+                    "end": 101.53,
+                    "rawStart": 319,
+                    "rawEnd": 319,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "要",
+                    "start": 101.31,
+                    "end": 101.53,
+                    "rawStart": 320,
+                    "rawEnd": 320,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "尊",
+                    "start": 101.53,
+                    "end": 102.53,
+                    "rawStart": 321,
+                    "rawEnd": 321,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "崇",
+                    "start": 102.53,
+                    "end": 102.87,
+                    "rawStart": 322,
+                    "rawEnd": 322,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 102.87,
+                    "end": 103.23,
+                    "rawStart": 323,
+                    "rawEnd": 323,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 103.69,
+                    "end": 103.97,
+                    "rawStart": 324,
+                    "rawEnd": 324,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "要",
+                    "start": 103.69,
+                    "end": 103.97,
+                    "rawStart": 325,
+                    "rawEnd": 325,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "我的神、我的王啊,我要尊崇祢,我要永永远远称颂祢的名!我要天天称颂祢,也要永永远远赞美祢的名!耶和华本为大,该受大赞美,其大无法测度。这代要对那代颂赞祢的作为,也要传扬祢的大能。我要默念祢威严的尊荣和祢奇妙的作为。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.83,
+          "coherentCoverage": 0.83,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.5,
+          "suffixCoverage": 0.95,
+          "unmatchedLeadingChars": 10,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-verified-end"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v9-explicit-reference-owner-and-numeric-edges",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (10 leading chars, coverage 0.500): target 10: 诗篇145:1-5 我的神、我的王啊，我要尊崇祢，我要永永远远称颂祢的名！我要天天称颂祢，也要永",
+    "unverified start anchor: target 10: 诗篇145:1-5 我的神、我的王啊，我要尊崇祢，我要永永远远称颂祢的名！我要天天称颂祢，也要永",
+    "repair unverified start (previous-verified-end): target 10"
+  ],
+  "previousAlignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "4fe86fbe6c114d2c82931b25c461c780ee763c32fe04ae7b33a3ace0b1216ec8",
+  "repairCueDigest": "51159f714c3f29514648739aa728286be68b54edaadc1d7244828227d053751e"
 }

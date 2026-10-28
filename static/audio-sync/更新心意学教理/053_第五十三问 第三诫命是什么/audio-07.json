@@ -8,36 +8,775 @@
   "audioDuration": 91.056,
   "cues": [
     {
-      "start": 2.0,
-      "end": 3.94,
-      "kind": "heading",
-      "targetIndex": 22,
-      "targetText": "礼拜六",
-      "confidence": 0.8
-    },
-    {
       "start": 3.94,
-      "end": 33.56,
+      "end": 37.76,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "上帝关于自己的名字所说的也适用于主耶稣基督的名耶稣是圣子上帝圣父上帝也要耶稣的名字如同自己的名字",
-      "confidence": 0.735
+      "confidence": 0.919,
+      "quality": {
+        "coverage": 0.898,
+        "coherentCoverage": 0.898,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 8,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 3.94,
+        "previousEnd": 33.56,
+        "previousConfidence": 0.735
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 33.56,
+            "time": 37.76,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\53-6.mp3.json",
+              "sha256": "dcbf451c72c86de81b0dfce5674152345b54b9a1d79ca97c2308562551aef48b",
+              "anchor": {
+                "time": 37.76,
+                "score": 0.7815,
+                "ratio": 0.7857,
+                "expected": "rongqingdufeilibishuerzhangbadao11jie",
+                "actual": "荣请读菲律宾说2章8道11节",
+                "span": [
+                  33.56,
+                  37.76
+                ],
+                "tokens": [
+                  {
+                    "text": "荣",
+                    "start": 33.56,
+                    "end": 33.86,
+                    "rawStart": 92,
+                    "rawEnd": 92,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "请",
+                    "start": 33.86,
+                    "end": 34.9,
+                    "rawStart": 93,
+                    "rawEnd": 93,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "读",
+                    "start": 34.9,
+                    "end": 35.16,
+                    "rawStart": 94,
+                    "rawEnd": 94,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "菲",
+                    "start": 35.16,
+                    "end": 35.48,
+                    "rawStart": 95,
+                    "rawEnd": 95,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "律",
+                    "start": 35.48,
+                    "end": 35.62,
+                    "rawStart": 96,
+                    "rawEnd": 96,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "宾",
+                    "start": 35.62,
+                    "end": 35.72,
+                    "rawStart": 97,
+                    "rawEnd": 97,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "说",
+                    "start": 35.72,
+                    "end": 36.06,
+                    "rawStart": 98,
+                    "rawEnd": 98,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "2",
+                    "start": 36.06,
+                    "end": 36.36,
+                    "rawStart": 99,
+                    "rawEnd": 99,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "章",
+                    "start": 36.36,
+                    "end": 36.58,
+                    "rawStart": 100,
+                    "rawEnd": 100,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "8",
+                    "start": 36.58,
+                    "end": 36.9,
+                    "rawStart": 101,
+                    "rawEnd": 101,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "道",
+                    "start": 36.9,
+                    "end": 37.1,
+                    "rawStart": 102,
+                    "rawEnd": 102,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 37.1,
+                    "end": 37.5,
+                    "rawStart": 103,
+                    "rawEnd": 103,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 37.1,
+                    "end": 37.5,
+                    "rawStart": 104,
+                    "rawEnd": 104,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "节",
+                    "start": 37.5,
+                    "end": 37.76,
+                    "rawStart": 105,
+                    "rawEnd": 105,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "上帝关于自己的名字所说的,也适用于主耶稣基督的名。耶稣是圣子上帝,圣父上帝也要耶稣的名字如同自己的名字一样得着尊荣。除此以外,因为耶稣成为人,为上帝百姓的罪而死,圣父上帝要祂的儿子更加得尊荣。请读腓立比书2:8-11。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.898,
+          "coherentCoverage": 0.898,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.95,
+          "suffixCoverage": 0.6,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 8,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 33.56,
-      "end": 68.58,
+      "start": 39.0,
+      "end": 69.9,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "腓立比书2811既有人的样子就自己卑微存心顺服以至于死且死在十字架上所以上帝将祂升为至高又赐给祂",
-      "confidence": 0.714
+      "confidence": 0.844,
+      "quality": {
+        "coverage": 0.859,
+        "coherentCoverage": 0.828,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 8,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\53-6.mp3.json",
+          "transcriptSha256": "8426a4cb771c4215895a6b39ef22e502235e21d94c75b2737c5e2d56b711c5ea",
+          "candidate": 69.9,
+          "expectedPhrase": "稣基督为主使荣耀归与父神",
+          "actualPhrase": "稣基督为主是荣耀归于复审",
+          "phoneticPhrase": [
+            "su",
+            "ji",
+            "du",
+            "wei",
+            "zhu",
+            "shi",
+            "rong",
+            "yao",
+            "gui",
+            "yu",
+            "fu",
+            "shen"
+          ],
+          "verified": true,
+          "time": 69.9,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "exact-local-syllables-original-word-times",
+          "phoneticExact": true,
+          "literalEqual": false,
+          "wordTokens": [
+            {
+              "text": "稣",
+              "start": 65.88,
+              "end": 66.08,
+              "rawStart": 185,
+              "rawEnd": 185,
+              "precision": "word"
+            },
+            {
+              "text": "基",
+              "start": 66.08,
+              "end": 66.24,
+              "rawStart": 186,
+              "rawEnd": 186,
+              "precision": "word"
+            },
+            {
+              "text": "督",
+              "start": 66.24,
+              "end": 66.34,
+              "rawStart": 187,
+              "rawEnd": 187,
+              "precision": "word"
+            },
+            {
+              "text": "为",
+              "start": 66.34,
+              "end": 66.6,
+              "rawStart": 188,
+              "rawEnd": 188,
+              "precision": "word"
+            },
+            {
+              "text": "主",
+              "start": 66.6,
+              "end": 66.94,
+              "rawStart": 189,
+              "rawEnd": 189,
+              "precision": "word"
+            },
+            {
+              "text": "是",
+              "start": 66.94,
+              "end": 67.7,
+              "rawStart": 190,
+              "rawEnd": 190,
+              "precision": "word"
+            },
+            {
+              "text": "荣",
+              "start": 67.7,
+              "end": 68.18,
+              "rawStart": 191,
+              "rawEnd": 191,
+              "precision": "word"
+            },
+            {
+              "text": "耀",
+              "start": 68.18,
+              "end": 68.58,
+              "rawStart": 192,
+              "rawEnd": 192,
+              "precision": "word"
+            },
+            {
+              "text": "归",
+              "start": 68.58,
+              "end": 68.96,
+              "rawStart": 193,
+              "rawEnd": 193,
+              "precision": "word"
+            },
+            {
+              "text": "于",
+              "start": 68.96,
+              "end": 69.3,
+              "rawStart": 194,
+              "rawEnd": 194,
+              "precision": "word"
+            },
+            {
+              "text": "复",
+              "start": 69.3,
+              "end": 69.62,
+              "rawStart": 195,
+              "rawEnd": 195,
+              "precision": "word"
+            },
+            {
+              "text": "审",
+              "start": 69.62,
+              "end": 69.9,
+              "rawStart": 196,
+              "rawEnd": 196,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "audioSha256": "b2bd27704a31487a592fce646791a2ff232392537ef0206cce5437e82010aa82",
+          "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 33.56,
+        "previousEnd": 68.58,
+        "previousConfidence": 0.714
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "053_第五十三问 第三诫命是什么.md",
+          "audio": "53-6.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\053_第五十三问 第三诫命是什么\\audio-07.json",
+          "targetIndex": 24,
+          "edge": "end",
+          "previousTime": 68.58,
+          "time": 69.9,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 33.56,
+            "time": 39.0,
+            "reason": "前段提示末尾仍需修正，本段用经文实际起句定位",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\53-6.mp3.json",
+              "sha256": "dcbf451c72c86de81b0dfce5674152345b54b9a1d79ca97c2308562551aef48b",
+              "anchor": {
+                "time": 39.0,
+                "score": 0.9946,
+                "ratio": 1.0,
+                "expected": "jiyourendeyangzijiuzijibeiweicunxinshun",
+                "actual": "既有人的样子就自己卑微存心顺",
+                "span": [
+                  39.0,
+                  44.44
+                ],
+                "tokens": [
+                  {
+                    "text": "既",
+                    "start": 39.0,
+                    "end": 39.6,
+                    "rawStart": 106,
+                    "rawEnd": 106,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "有",
+                    "start": 39.6,
+                    "end": 39.82,
+                    "rawStart": 107,
+                    "rawEnd": 107,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 39.6,
+                    "end": 39.82,
+                    "rawStart": 108,
+                    "rawEnd": 108,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 39.82,
+                    "end": 40.04,
+                    "rawStart": 109,
+                    "rawEnd": 109,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "样",
+                    "start": 40.04,
+                    "end": 40.24,
+                    "rawStart": 110,
+                    "rawEnd": 110,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "子",
+                    "start": 40.24,
+                    "end": 40.6,
+                    "rawStart": 111,
+                    "rawEnd": 111,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "就",
+                    "start": 40.6,
+                    "end": 41.26,
+                    "rawStart": 112,
+                    "rawEnd": 112,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "自",
+                    "start": 41.26,
+                    "end": 42.08,
+                    "rawStart": 113,
+                    "rawEnd": 113,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "己",
+                    "start": 41.26,
+                    "end": 42.08,
+                    "rawStart": 114,
+                    "rawEnd": 114,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "卑",
+                    "start": 42.08,
+                    "end": 42.46,
+                    "rawStart": 115,
+                    "rawEnd": 115,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "微",
+                    "start": 42.46,
+                    "end": 42.76,
+                    "rawStart": 116,
+                    "rawEnd": 116,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "存",
+                    "start": 42.76,
+                    "end": 43.54,
+                    "rawStart": 117,
+                    "rawEnd": 117,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "心",
+                    "start": 43.54,
+                    "end": 44.06,
+                    "rawStart": 118,
+                    "rawEnd": 118,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "顺",
+                    "start": 44.06,
+                    "end": 44.44,
+                    "rawStart": 119,
+                    "rawEnd": 119,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 36.9,
+                  "score": 0.8174,
+                  "actual": "道11节既有人的样子就自己卑微存心"
+                }
+              },
+              "body": "既有人的样子,就自己卑微,存心顺服,以至于死,且死在十字架上。所以神将祂升为至高,又赐给祂那超乎万名之上的名,叫一切在天上的、地上的和地底下的,因耶稣的名无不屈膝,无不口称耶稣基督为主,使荣耀归与父神。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.859,
+          "coherentCoverage": 0.828,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.6,
+          "suffixCoverage": 0.75,
+          "unmatchedLeadingChars": 8,
+          "unmatchedTrailingChars": 4,
+          "reviewRequired": true,
+          "boundaryAdjusted": [
+            "end substitution"
+          ],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\53-6.mp3.json",
+            "transcriptSha256": "8426a4cb771c4215895a6b39ef22e502235e21d94c75b2737c5e2d56b711c5ea",
+            "candidate": 69.9,
+            "expectedPhrase": "稣基督为主使荣耀归与父神",
+            "actualPhrase": "稣基督为主是荣耀归于复审",
+            "phoneticPhrase": [
+              "su",
+              "ji",
+              "du",
+              "wei",
+              "zhu",
+              "shi",
+              "rong",
+              "yao",
+              "gui",
+              "yu",
+              "fu",
+              "shen"
+            ],
+            "verified": true,
+            "time": 69.9,
+            "localSupported": true,
+            "timingPrecision": "word",
+            "source": "exact-local-syllables-original-word-times",
+            "phoneticExact": true,
+            "literalEqual": false,
+            "wordTokens": [
+              {
+                "text": "稣",
+                "start": 65.88,
+                "end": 66.08,
+                "rawStart": 185,
+                "rawEnd": 185,
+                "precision": "word"
+              },
+              {
+                "text": "基",
+                "start": 66.08,
+                "end": 66.24,
+                "rawStart": 186,
+                "rawEnd": 186,
+                "precision": "word"
+              },
+              {
+                "text": "督",
+                "start": 66.24,
+                "end": 66.34,
+                "rawStart": 187,
+                "rawEnd": 187,
+                "precision": "word"
+              },
+              {
+                "text": "为",
+                "start": 66.34,
+                "end": 66.6,
+                "rawStart": 188,
+                "rawEnd": 188,
+                "precision": "word"
+              },
+              {
+                "text": "主",
+                "start": 66.6,
+                "end": 66.94,
+                "rawStart": 189,
+                "rawEnd": 189,
+                "precision": "word"
+              },
+              {
+                "text": "是",
+                "start": 66.94,
+                "end": 67.7,
+                "rawStart": 190,
+                "rawEnd": 190,
+                "precision": "word"
+              },
+              {
+                "text": "荣",
+                "start": 67.7,
+                "end": 68.18,
+                "rawStart": 191,
+                "rawEnd": 191,
+                "precision": "word"
+              },
+              {
+                "text": "耀",
+                "start": 68.18,
+                "end": 68.58,
+                "rawStart": 192,
+                "rawEnd": 192,
+                "precision": "word"
+              },
+              {
+                "text": "归",
+                "start": 68.58,
+                "end": 68.96,
+                "rawStart": 193,
+                "rawEnd": 193,
+                "precision": "word"
+              },
+              {
+                "text": "于",
+                "start": 68.96,
+                "end": 69.3,
+                "rawStart": 194,
+                "rawEnd": 194,
+                "precision": "word"
+              },
+              {
+                "text": "复",
+                "start": 69.3,
+                "end": 69.62,
+                "rawStart": 195,
+                "rawEnd": 195,
+                "precision": "word"
+              },
+              {
+                "text": "审",
+                "start": 69.62,
+                "end": 69.9,
+                "rawStart": 196,
+                "rawEnd": 196,
+                "precision": "word"
+              }
+            ],
+            "listenedByAgent": false,
+            "audioSha256": "b2bd27704a31487a592fce646791a2ff232392537ef0206cce5437e82010aa82",
+            "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+          }
+        }
+      }
     },
     {
-      "start": 68.58,
+      "start": 72.5,
       "end": 90.18,
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "耶稣的名也包括在这条不可妄称上帝之名的诫命中我们对于上帝的名所有的敬畏荣耀尊重也必须同样应用于主",
-      "confidence": 0.714
+      "confidence": 0.963,
+      "quality": {
+        "coverage": 0.963,
+        "coherentCoverage": 0.963,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 68.58,
+        "previousEnd": 90.18,
+        "previousConfidence": 0.714
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (8 trailing chars, coverage 0.600): target 23: 上帝关于自己的名字所说的，也适用于主耶稣基督的名。耶稣是圣子上帝，圣父上帝也要耶稣的名字如同自己",
+    "unverified end anchor: target 23: 上帝关于自己的名字所说的，也适用于主耶稣基督的名。耶稣是圣子上帝，圣父上帝也要耶稣的名字如同自己",
+    "incomplete start (8 leading chars, coverage 0.600): target 24: 腓立比书2:8-11 既有人的样子，就自己卑微，存心顺服，以至于死，且死在十字架上。所以神将祂升",
+    "incomplete end (4 trailing chars, coverage 0.750): target 24: 腓立比书2:8-11 既有人的样子，就自己卑微，存心顺服，以至于死，且死在十字架上。所以神将祂升",
+    "unverified start anchor: target 24: 腓立比书2:8-11 既有人的样子，就自己卑微，存心顺服，以至于死，且死在十字架上。所以神将祂升",
+    "unverified end anchor: target 24: 腓立比书2:8-11 既有人的样子，就自己卑微，存心顺服，以至于死，且死在十字架上。所以神将祂升",
+    "repair unverified end (previous-sync): target 23",
+    "repair unverified start (previous-sync): target 24",
+    "repair unverified end (previous-sync): target 24"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "c8a9c6dc80156fd28239fb6389731c7d79442bf686176f8c9e42c15fd85d5c86",
+  "repairCueDigest": "60ce3362851bb5110fbf9726c0d588beb449d5ea065b67cbd28407df58d4935e",
+  "previousAlignmentWarnings": []
 }

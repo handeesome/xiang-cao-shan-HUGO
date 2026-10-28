@@ -9,51 +9,1008 @@
   "cues": [
     {
       "start": 4.01,
-      "end": 23.73,
+      "end": 25.27,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "我们也在祂的生命与祂的复活上与祂联合耶稣在世的一生都完全遵行了父的旨意藉着信祂的完全的义就成了我",
-      "confidence": 0.941
+      "confidence": 0.984,
+      "quality": {
+        "coverage": 0.984,
+        "coherentCoverage": 0.984,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 4.01,
+        "previousEnd": 23.73,
+        "previousConfidence": 0.941
+      }
     },
     {
-      "start": 23.73,
-      "end": 34.31,
+      "start": 26.33,
+      "end": 33.23,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "哥林多后书521上帝使那无罪的替我们成为罪好叫我们在祂里面成为上帝的义",
-      "confidence": 0.765
+      "confidence": 0.812,
+      "quality": {
+        "coverage": 0.703,
+        "coherentCoverage": 0.703,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.444,
+        "suffixCoverage": 0.944,
+        "unmatchedLeadingChars": 10,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "verified-transcript",
+        "previousStart": 23.73,
+        "previousEnd": 34.31,
+        "previousConfidence": 0.765
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 25.27,
+            "time": 26.33,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\30-4.mp3.json",
+              "sha256": "2b9d09c8907201da5c969266259c6fa59c3fda8cb65443f4bab276d1dde95dc1",
+              "anchor": {
+                "time": 26.33,
+                "score": 0.9989,
+                "ratio": 1.0,
+                "expected": "shenshinawuzuidetiwomenchengweizuihaojiao",
+                "actual": "神使那无罪的替我们成为罪好叫",
+                "span": [
+                  26.33,
+                  30.51
+                ],
+                "tokens": [
+                  {
+                    "text": "神",
+                    "start": 26.33,
+                    "end": 26.87,
+                    "rawStart": 63,
+                    "rawEnd": 64,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "使",
+                    "start": 26.87,
+                    "end": 27.17,
+                    "rawStart": 65,
+                    "rawEnd": 65,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "那",
+                    "start": 27.17,
+                    "end": 27.31,
+                    "rawStart": 66,
+                    "rawEnd": 66,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "无",
+                    "start": 27.31,
+                    "end": 27.63,
+                    "rawStart": 67,
+                    "rawEnd": 67,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "罪",
+                    "start": 27.63,
+                    "end": 27.89,
+                    "rawStart": 68,
+                    "rawEnd": 68,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 27.89,
+                    "end": 28.17,
+                    "rawStart": 69,
+                    "rawEnd": 69,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "替",
+                    "start": 28.17,
+                    "end": 28.65,
+                    "rawStart": 70,
+                    "rawEnd": 70,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 28.65,
+                    "end": 28.93,
+                    "rawStart": 71,
+                    "rawEnd": 71,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 28.65,
+                    "end": 28.93,
+                    "rawStart": 72,
+                    "rawEnd": 72,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "成",
+                    "start": 28.93,
+                    "end": 29.21,
+                    "rawStart": 73,
+                    "rawEnd": 73,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "为",
+                    "start": 29.21,
+                    "end": 29.37,
+                    "rawStart": 74,
+                    "rawEnd": 74,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "罪",
+                    "start": 29.37,
+                    "end": 29.65,
+                    "rawStart": 75,
+                    "rawEnd": 75,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "好",
+                    "start": 29.65,
+                    "end": 30.35,
+                    "rawStart": 76,
+                    "rawEnd": 76,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "叫",
+                    "start": 30.35,
+                    "end": 30.51,
+                    "rawStart": 77,
+                    "rawEnd": 77,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 24.13,
+                  "score": 0.8196,
+                  "actual": "章21节神使那无罪的替我们成为罪好"
+                }
+              },
+              "body": "神使那无罪的,替我们成为罪,好叫我们在祂里面成为神的义。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.703,
+          "coherentCoverage": 0.703,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.444,
+          "suffixCoverage": 0.944,
+          "unmatchedLeadingChars": 10,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-verified-end"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          }
+        }
+      }
     },
     {
       "start": 34.31,
-      "end": 45.31,
+      "end": 46.95,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "正如耶稣从死里复活将来我们的身体也会从死里复活请读哥林多前书1522",
-      "confidence": 0.938
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 34.31,
+        "previousEnd": 45.31,
+        "previousConfidence": 0.938
+      }
     },
     {
-      "start": 45.31,
-      "end": 57.35,
+      "start": 47.91,
+      "end": 55.99,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "哥林多前书1522在亚当里众人都死了照样在基督里众人也都要复活",
-      "confidence": 0.467
+      "confidence": 0.8,
+      "quality": {
+        "coverage": 0.667,
+        "coherentCoverage": 0.667,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.312,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 11,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "verified-transcript",
+        "previousStart": 45.31,
+        "previousEnd": 57.35,
+        "previousConfidence": 0.467
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 46.95,
+            "time": 47.91,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\30-4.mp3.json",
+              "sha256": "2b9d09c8907201da5c969266259c6fa59c3fda8cb65443f4bab276d1dde95dc1",
+              "anchor": {
+                "time": 47.91,
+                "score": 0.999,
+                "ratio": 1.0,
+                "expected": "zaiyadanglizhongrendousilezhaoyangzaijidu",
+                "actual": "在亚当里众人都死了照样在基督",
+                "span": [
+                  47.91,
+                  53.05
+                ],
+                "tokens": [
+                  {
+                    "text": "在",
+                    "start": 47.91,
+                    "end": 48.47,
+                    "rawStart": 126,
+                    "rawEnd": 126,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "亚",
+                    "start": 48.47,
+                    "end": 49.03,
+                    "rawStart": 127,
+                    "rawEnd": 127,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "当",
+                    "start": 49.03,
+                    "end": 49.31,
+                    "rawStart": 128,
+                    "rawEnd": 128,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "里",
+                    "start": 49.31,
+                    "end": 49.65,
+                    "rawStart": 129,
+                    "rawEnd": 129,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "众",
+                    "start": 50.11,
+                    "end": 50.19,
+                    "rawStart": 130,
+                    "rawEnd": 130,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 50.19,
+                    "end": 50.35,
+                    "rawStart": 131,
+                    "rawEnd": 131,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "都",
+                    "start": 50.35,
+                    "end": 50.55,
+                    "rawStart": 132,
+                    "rawEnd": 132,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "死",
+                    "start": 50.55,
+                    "end": 50.83,
+                    "rawStart": 133,
+                    "rawEnd": 133,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "了",
+                    "start": 50.83,
+                    "end": 51.21,
+                    "rawStart": 134,
+                    "rawEnd": 134,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "照",
+                    "start": 51.21,
+                    "end": 51.95,
+                    "rawStart": 135,
+                    "rawEnd": 135,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "样",
+                    "start": 51.95,
+                    "end": 52.25,
+                    "rawStart": 136,
+                    "rawEnd": 136,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "在",
+                    "start": 52.25,
+                    "end": 52.69,
+                    "rawStart": 137,
+                    "rawEnd": 137,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "基",
+                    "start": 52.69,
+                    "end": 52.93,
+                    "rawStart": 138,
+                    "rawEnd": 138,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "督",
+                    "start": 52.93,
+                    "end": 53.05,
+                    "rawStart": 139,
+                    "rawEnd": 139,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 45.83,
+                  "score": 0.8196,
+                  "actual": "章22节在亚当里众人都死了照样在基"
+                }
+              },
+              "body": "在亚当里众人都死了;照样,在基督里众人也都要复活。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.667,
+          "coherentCoverage": 0.667,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.312,
+          "suffixCoverage": 1.0,
+          "unmatchedLeadingChars": 11,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-verified-end"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          }
+        }
+      }
     },
     {
       "start": 57.35,
-      "end": 91.3,
+      "end": 93.2,
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "藉着信心我们也在圣洁的新生命上与基督联合耶稣整个一生都寻求上帝的喜悦当我们与祂联合的时候我们也追",
-      "confidence": 0.779
+      "confidence": 0.919,
+      "quality": {
+        "coverage": 0.922,
+        "coherentCoverage": 0.912,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 57.35,
+        "previousEnd": 91.3,
+        "previousConfidence": 0.779
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 91.3,
+            "time": 93.2,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\30-4.mp3.json",
+              "sha256": "2b9d09c8907201da5c969266259c6fa59c3fda8cb65443f4bab276d1dde95dc1",
+              "anchor": {
+                "time": 93.2,
+                "score": 0.8552,
+                "ratio": 0.8571,
+                "expected": "zunxingtaqingduluomashuliuzhangsidaoqijie",
+                "actual": "遵循他借读罗马书6章4道7节",
+                "span": [
+                  86.37,
+                  93.2
+                ],
+                "tokens": [
+                  {
+                    "text": "遵",
+                    "start": 86.37,
+                    "end": 86.77,
+                    "rawStart": 236,
+                    "rawEnd": 236,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "循",
+                    "start": 86.77,
+                    "end": 87.05,
+                    "rawStart": 237,
+                    "rawEnd": 237,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "他",
+                    "start": 87.05,
+                    "end": 87.47,
+                    "rawStart": 238,
+                    "rawEnd": 238,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "借",
+                    "start": 89.04,
+                    "end": 89.94,
+                    "rawStart": 239,
+                    "rawEnd": 239,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "读",
+                    "start": 89.94,
+                    "end": 90.24,
+                    "rawStart": 240,
+                    "rawEnd": 240,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "罗",
+                    "start": 90.24,
+                    "end": 90.68,
+                    "rawStart": 241,
+                    "rawEnd": 241,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "马",
+                    "start": 90.68,
+                    "end": 90.96,
+                    "rawStart": 242,
+                    "rawEnd": 242,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "书",
+                    "start": 90.96,
+                    "end": 91.3,
+                    "rawStart": 243,
+                    "rawEnd": 243,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "6",
+                    "start": 91.3,
+                    "end": 91.74,
+                    "rawStart": 244,
+                    "rawEnd": 244,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "章",
+                    "start": 91.74,
+                    "end": 92.1,
+                    "rawStart": 245,
+                    "rawEnd": 245,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "4",
+                    "start": 92.1,
+                    "end": 92.48,
+                    "rawStart": 246,
+                    "rawEnd": 246,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "道",
+                    "start": 92.48,
+                    "end": 92.68,
+                    "rawStart": 247,
+                    "rawEnd": 247,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "7",
+                    "start": 92.68,
+                    "end": 92.98,
+                    "rawStart": 248,
+                    "rawEnd": 248,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "节",
+                    "start": 92.98,
+                    "end": 93.2,
+                    "rawStart": 249,
+                    "rawEnd": 249,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "借着信心,我们也在圣洁的新生命上与基督联合。耶稣整个一生都寻求上帝的喜悦。当我们与祂联合的时候,我们也追求祂所追求的。住在我们里面的圣灵,会赐给我们能力来爱慕上帝的旨意,并寻求在我们的生活中遵行它。请读罗马书6:4-7。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.922,
+          "coherentCoverage": 0.912,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.9,
+          "suffixCoverage": 0.7,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 3,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 91.3,
+      "start": 94.7,
       "end": 134.68,
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "罗马书647所以我们藉着洗礼归入死和祂一同埋葬原是叫我们一举一动有新生的样式像基督藉着父的荣耀从",
-      "confidence": 0.798
+      "confidence": 0.881,
+      "quality": {
+        "coverage": 0.844,
+        "coherentCoverage": 0.789,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 7,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 91.3,
+        "previousEnd": 134.68,
+        "previousConfidence": 0.798
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 91.3,
+            "time": 94.7,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\30-4.mp3.json",
+              "sha256": "2b9d09c8907201da5c969266259c6fa59c3fda8cb65443f4bab276d1dde95dc1",
+              "anchor": {
+                "time": 94.7,
+                "score": 0.9966,
+                "ratio": 1.0,
+                "expected": "suoyiwomenjiezhexiliguirusihetayi",
+                "actual": "所以我们借着洗礼归入死和他1",
+                "span": [
+                  94.7,
+                  99.4
+                ],
+                "tokens": [
+                  {
+                    "text": "所",
+                    "start": 94.7,
+                    "end": 95.34,
+                    "rawStart": 250,
+                    "rawEnd": 250,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "以",
+                    "start": 94.7,
+                    "end": 95.34,
+                    "rawStart": 251,
+                    "rawEnd": 251,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 95.34,
+                    "end": 95.98,
+                    "rawStart": 252,
+                    "rawEnd": 252,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 95.34,
+                    "end": 95.98,
+                    "rawStart": 253,
+                    "rawEnd": 253,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "借",
+                    "start": 95.98,
+                    "end": 96.32,
+                    "rawStart": 254,
+                    "rawEnd": 254,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "着",
+                    "start": 96.32,
+                    "end": 96.52,
+                    "rawStart": 255,
+                    "rawEnd": 255,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "洗",
+                    "start": 96.52,
+                    "end": 96.74,
+                    "rawStart": 256,
+                    "rawEnd": 256,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "礼",
+                    "start": 96.74,
+                    "end": 96.98,
+                    "rawStart": 257,
+                    "rawEnd": 257,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "归",
+                    "start": 96.98,
+                    "end": 97.36,
+                    "rawStart": 258,
+                    "rawEnd": 258,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "入",
+                    "start": 97.36,
+                    "end": 97.68,
+                    "rawStart": 259,
+                    "rawEnd": 259,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "死",
+                    "start": 97.68,
+                    "end": 98.06,
+                    "rawStart": 260,
+                    "rawEnd": 260,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "和",
+                    "start": 98.06,
+                    "end": 98.8,
+                    "rawStart": 261,
+                    "rawEnd": 261,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "他",
+                    "start": 98.8,
+                    "end": 99.1,
+                    "rawStart": 262,
+                    "rawEnd": 262,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 99.1,
+                    "end": 99.4,
+                    "rawStart": 263,
+                    "rawEnd": 263,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 92.68,
+                  "score": 0.92,
+                  "actual": "7节所以我们借着洗礼归入死和他1"
+                }
+              },
+              "body": "所以我们借着洗礼归入死,和祂一同埋葬,原是叫我们一举一动有新生的样式,像基督借着父的荣耀从死里复活一样。我们若在祂死的形状上与祂联合,也要在祂复活的形状上与祂联合。因为知道我们的旧人和祂同钉十字架,使罪身灭绝,叫我们不再作罪的奴仆;因为已死的人是脱离了罪。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.844,
+          "coherentCoverage": 0.789,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.65,
+          "suffixCoverage": 0.8,
+          "unmatchedLeadingChars": 7,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.75,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (10 leading chars, coverage 0.444): target 22: 哥林多后书5:21 神使那无罪的，替我们成为罪，好叫我们在祂里面成为神的义。",
+    "unverified start anchor: target 22: 哥林多后书5:21 神使那无罪的，替我们成为罪，好叫我们在祂里面成为神的义。",
+    "incomplete start (11 leading chars, coverage 0.312): target 24: 哥林多前书15:22 在亚当里众人都死了；照样，在基督里众人也都要复活。",
+    "unverified start anchor: target 24: 哥林多前书15:22 在亚当里众人都死了；照样，在基督里众人也都要复活。",
+    "unverified end anchor: target 25: 藉着信心，我们也在圣洁的新生命上与基督联合。耶稣整个一生都寻求上帝的喜悦。当我们与祂联合的时候，",
+    "incomplete start (7 leading chars, coverage 0.650): target 26: 罗马书6:4-7 所以我们藉着洗礼归入死，和祂一同埋葬，原是叫我们一举一动有新生的样式，像基督藉",
+    "unverified start anchor: target 26: 罗马书6:4-7 所以我们藉着洗礼归入死，和祂一同埋葬，原是叫我们一举一动有新生的样式，像基督藉",
+    "repair unverified start (previous-verified-end): target 22",
+    "repair unverified start (previous-verified-end): target 24",
+    "repair unverified end (previous-sync): target 25",
+    "repair unverified start (previous-sync): target 26"
+  ],
+  "previousAlignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 4,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 3,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "b58fc67dceec721edcdcb6df5d4df3ac55559698afd8d2d1cea636df0acfe090",
+  "repairCueDigest": "7e43858695cacfcb7880c7aa7261844301107cfba43d7716362a26c4d510716c"
 }

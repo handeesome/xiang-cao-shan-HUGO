@@ -8,44 +8,1329 @@
   "audioDuration": 269.3365625,
   "cues": [
     {
-      "start": 33.41,
-      "end": 91.48,
+      "start": 49.92,
+      "end": 90.08,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "在上帝与祂百姓所立的恩典之约中圣子上帝有非常重要的角色祂成为人满足了约中所有的要求这样上帝的百姓",
-      "confidence": 0.834
+      "confidence": 0.984,
+      "quality": {
+        "coverage": 0.984,
+        "coherentCoverage": 0.984,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 49.92,
+        "previousEnd": 90.08,
+        "previousConfidence": 0.984
+      }
     },
     {
       "start": 91.48,
-      "end": 105.58,
+      "end": 108.34,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "耶稣来到世界为自己的百姓完成上帝的旨意耶稣降世舍命为要上帝百姓中的每一个人都得生命请读约翰福音6",
-      "confidence": 0.845
+      "confidence": 0.796,
+      "quality": {
+        "coverage": 0.695,
+        "coherentCoverage": 0.695,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.2,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 16,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 91.48,
+        "previousEnd": 104.94,
+        "previousConfidence": 0.788
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 104.94,
+            "time": 108.34,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\20-3.mp3.json",
+              "sha256": "32514cda6e0071736866274d0c1ecbf752cb8ed48b1ba25958a93ff703891c98",
+              "anchor": {
+                "time": 108.34,
+                "score": 0.9077,
+                "ratio": 0.9231,
+                "expected": "qingduyuehanfuyinliuzhang37dao40jie",
+                "actual": "约翰福音6章37到40节",
+                "span": [
+                  104.94,
+                  108.34
+                ],
+                "tokens": [
+                  {
+                    "text": "约",
+                    "start": 104.94,
+                    "end": 105.12,
+                    "rawStart": 287,
+                    "rawEnd": 287,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "翰",
+                    "start": 105.12,
+                    "end": 105.28,
+                    "rawStart": 288,
+                    "rawEnd": 288,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "福",
+                    "start": 105.28,
+                    "end": 105.4,
+                    "rawStart": 289,
+                    "rawEnd": 289,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "音",
+                    "start": 105.4,
+                    "end": 105.58,
+                    "rawStart": 290,
+                    "rawEnd": 290,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "6",
+                    "start": 105.58,
+                    "end": 106.0,
+                    "rawStart": 291,
+                    "rawEnd": 291,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "章",
+                    "start": 106.0,
+                    "end": 106.3,
+                    "rawStart": 292,
+                    "rawEnd": 292,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "3",
+                    "start": 106.3,
+                    "end": 107.22,
+                    "rawStart": 293,
+                    "rawEnd": 293,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "7",
+                    "start": 106.3,
+                    "end": 107.22,
+                    "rawStart": 294,
+                    "rawEnd": 294,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "到",
+                    "start": 107.52,
+                    "end": 107.6,
+                    "rawStart": 295,
+                    "rawEnd": 295,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "4",
+                    "start": 107.6,
+                    "end": 108.1,
+                    "rawStart": 296,
+                    "rawEnd": 296,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "0",
+                    "start": 107.6,
+                    "end": 108.1,
+                    "rawStart": 297,
+                    "rawEnd": 297,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "节",
+                    "start": 108.1,
+                    "end": 108.34,
+                    "rawStart": 298,
+                    "rawEnd": 298,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 110.7,
+                  "score": 0.8158,
+                  "actual": "约翰福音6章37到40节凡妇所"
+                }
+              },
+              "body": "耶稣来到世界,为自己的百姓完成上帝的旨意。耶稣降世舍命,为要上帝百姓中的每一个人都得生命。请读约翰福音6:37-40。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.695,
+          "coherentCoverage": 0.695,
+          "extraSpeechContext": false,
+          "prefixCoverage": 1.0,
+          "suffixCoverage": 0.2,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 16,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 105.58,
-      "end": 147.2,
+      "start": 109.44,
+      "end": 146.14,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "约翰福音63740凡父所赐给我的人必到我这里来到我这里来的我总不丢弃他因为我从天上降下来不是要按",
-      "confidence": 0.891
+      "confidence": 0.977,
+      "quality": {
+        "coverage": 0.977,
+        "coherentCoverage": 0.977,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 104.94,
+        "previousEnd": 146.14,
+        "previousConfidence": 0.97
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 104.94,
+            "time": 109.44,
+            "reason": "前段请读提示拥有出处时间，本段从实际经文首句起，不借用提示。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\20-3.mp3.json",
+              "sha256": "32514cda6e0071736866274d0c1ecbf752cb8ed48b1ba25958a93ff703891c98",
+              "segments": [
+                {
+                  "start": 97.46,
+                  "end": 103.62,
+                  "text": "耶稣将士舍命,未遥上帝百姓中的每一个人都得生命。",
+                  "words": [
+                    {
+                      "start": 97.46,
+                      "end": 97.98,
+                      "text": "耶",
+                      "probability": 0.9870390295982361
+                    },
+                    {
+                      "start": 97.98,
+                      "end": 98.18,
+                      "text": "稣",
+                      "probability": 0.9944827854633331
+                    },
+                    {
+                      "start": 98.18,
+                      "end": 98.38,
+                      "text": "将",
+                      "probability": 0.8885735869407654
+                    },
+                    {
+                      "start": 98.38,
+                      "end": 98.62,
+                      "text": "士",
+                      "probability": 0.7513267397880554
+                    },
+                    {
+                      "start": 98.62,
+                      "end": 98.86,
+                      "text": "舍",
+                      "probability": 0.9925607740879059
+                    },
+                    {
+                      "start": 98.86,
+                      "end": 99.1,
+                      "text": "命,",
+                      "probability": 0.9987334609031677
+                    },
+                    {
+                      "start": 99.74,
+                      "end": 99.9,
+                      "text": "未",
+                      "probability": 0.23076553642749786
+                    },
+                    {
+                      "start": 99.9,
+                      "end": 100.12,
+                      "text": "遥",
+                      "probability": 0.7634381353855133
+                    },
+                    {
+                      "start": 100.12,
+                      "end": 100.46,
+                      "text": "上",
+                      "probability": 0.940959095954895
+                    },
+                    {
+                      "start": 100.46,
+                      "end": 100.6,
+                      "text": "帝",
+                      "probability": 0.9882772862911224
+                    },
+                    {
+                      "start": 100.6,
+                      "end": 100.82,
+                      "text": "百",
+                      "probability": 0.9969257712364197
+                    },
+                    {
+                      "start": 100.82,
+                      "end": 101.0,
+                      "text": "姓",
+                      "probability": 0.9999530911445618
+                    },
+                    {
+                      "start": 101.0,
+                      "end": 101.22,
+                      "text": "中",
+                      "probability": 0.9761989116668701
+                    },
+                    {
+                      "start": 101.22,
+                      "end": 101.4,
+                      "text": "的",
+                      "probability": 0.9879834651947021
+                    },
+                    {
+                      "start": 101.4,
+                      "end": 101.74,
+                      "text": "每",
+                      "probability": 0.9905718564987183
+                    },
+                    {
+                      "start": 101.74,
+                      "end": 102.14,
+                      "text": "一个",
+                      "probability": 0.9518654942512512
+                    },
+                    {
+                      "start": 102.14,
+                      "end": 102.54,
+                      "text": "人",
+                      "probability": 0.9943088889122009
+                    },
+                    {
+                      "start": 102.54,
+                      "end": 102.84,
+                      "text": "都",
+                      "probability": 0.9748069643974304
+                    },
+                    {
+                      "start": 102.84,
+                      "end": 103.08,
+                      "text": "得",
+                      "probability": 0.9983003735542297
+                    },
+                    {
+                      "start": 103.08,
+                      "end": 103.34,
+                      "text": "生",
+                      "probability": 0.9364103078842163
+                    },
+                    {
+                      "start": 103.34,
+                      "end": 103.62,
+                      "text": "命。",
+                      "probability": 0.99973064661026
+                    }
+                  ]
+                },
+                {
+                  "start": 104.94,
+                  "end": 108.34,
+                  "text": "约翰福音六章三十七,到四十节。",
+                  "words": [
+                    {
+                      "start": 104.94,
+                      "end": 105.12,
+                      "text": "约",
+                      "probability": 0.6819590628147125
+                    },
+                    {
+                      "start": 105.12,
+                      "end": 105.28,
+                      "text": "翰",
+                      "probability": 0.998052567243576
+                    },
+                    {
+                      "start": 105.28,
+                      "end": 105.4,
+                      "text": "福",
+                      "probability": 0.7925620675086975
+                    },
+                    {
+                      "start": 105.4,
+                      "end": 105.58,
+                      "text": "音",
+                      "probability": 0.6792590618133545
+                    },
+                    {
+                      "start": 105.58,
+                      "end": 106.0,
+                      "text": "六",
+                      "probability": 0.5098469257354736
+                    },
+                    {
+                      "start": 106.0,
+                      "end": 106.3,
+                      "text": "章",
+                      "probability": 0.9808666706085205
+                    },
+                    {
+                      "start": 106.3,
+                      "end": 106.68,
+                      "text": "三",
+                      "probability": 0.9268895387649536
+                    },
+                    {
+                      "start": 106.68,
+                      "end": 106.9,
+                      "text": "十",
+                      "probability": 0.9902162551879883
+                    },
+                    {
+                      "start": 106.9,
+                      "end": 107.22,
+                      "text": "七,",
+                      "probability": 0.9725192785263062
+                    },
+                    {
+                      "start": 107.52,
+                      "end": 107.6,
+                      "text": "到",
+                      "probability": 0.7120404243469238
+                    },
+                    {
+                      "start": 107.6,
+                      "end": 107.9,
+                      "text": "四",
+                      "probability": 0.8993269801139832
+                    },
+                    {
+                      "start": 107.9,
+                      "end": 108.1,
+                      "text": "十",
+                      "probability": 0.989680826663971
+                    },
+                    {
+                      "start": 108.1,
+                      "end": 108.34,
+                      "text": "节。",
+                      "probability": 0.46719256043434143
+                    }
+                  ]
+                },
+                {
+                  "start": 109.44,
+                  "end": 113.32,
+                  "text": "凡妇所赐给我的人,必到我这里来。",
+                  "words": [
+                    {
+                      "start": 109.44,
+                      "end": 109.8,
+                      "text": "凡",
+                      "probability": 0.80460986495018
+                    },
+                    {
+                      "start": 109.8,
+                      "end": 110.32,
+                      "text": "妇",
+                      "probability": 0.6239534839987755
+                    },
+                    {
+                      "start": 110.32,
+                      "end": 110.7,
+                      "text": "所",
+                      "probability": 0.946264386177063
+                    },
+                    {
+                      "start": 110.7,
+                      "end": 110.94,
+                      "text": "赐",
+                      "probability": 0.9349570870399475
+                    },
+                    {
+                      "start": 110.94,
+                      "end": 111.1,
+                      "text": "给",
+                      "probability": 0.8869008421897888
+                    },
+                    {
+                      "start": 111.1,
+                      "end": 111.28,
+                      "text": "我的",
+                      "probability": 0.9831224083900452
+                    },
+                    {
+                      "start": 111.28,
+                      "end": 111.66,
+                      "text": "人,",
+                      "probability": 0.995475709438324
+                    },
+                    {
+                      "start": 112.1,
+                      "end": 112.22,
+                      "text": "必",
+                      "probability": 0.8948696255683899
+                    },
+                    {
+                      "start": 112.22,
+                      "end": 112.54,
+                      "text": "到",
+                      "probability": 0.936806857585907
+                    },
+                    {
+                      "start": 112.54,
+                      "end": 112.74,
+                      "text": "我",
+                      "probability": 0.9946393370628357
+                    },
+                    {
+                      "start": 112.74,
+                      "end": 112.98,
+                      "text": "这里",
+                      "probability": 0.9792094230651855
+                    },
+                    {
+                      "start": 112.98,
+                      "end": 113.32,
+                      "text": "来。",
+                      "probability": 0.9993501305580139
+                    }
+                  ]
+                },
+                {
+                  "start": 114.02,
+                  "end": 116.96,
+                  "text": "到我这里来的,我总不丢弃他。",
+                  "words": [
+                    {
+                      "start": 114.02,
+                      "end": 114.3,
+                      "text": "到",
+                      "probability": 0.8989733457565308
+                    },
+                    {
+                      "start": 114.3,
+                      "end": 114.46,
+                      "text": "我",
+                      "probability": 0.9976535439491272
+                    },
+                    {
+                      "start": 114.46,
+                      "end": 114.66,
+                      "text": "这里",
+                      "probability": 0.9933722019195557
+                    },
+                    {
+                      "start": 114.66,
+                      "end": 114.94,
+                      "text": "来",
+                      "probability": 0.9986433386802673
+                    },
+                    {
+                      "start": 114.94,
+                      "end": 115.12,
+                      "text": "的,",
+                      "probability": 0.9356645345687866
+                    },
+                    {
+                      "start": 115.54,
+                      "end": 115.68,
+                      "text": "我",
+                      "probability": 0.9969438910484314
+                    },
+                    {
+                      "start": 115.68,
+                      "end": 115.94,
+                      "text": "总",
+                      "probability": 0.9914761185646057
+                    },
+                    {
+                      "start": 115.94,
+                      "end": 116.2,
+                      "text": "不",
+                      "probability": 0.9887307286262512
+                    },
+                    {
+                      "start": 116.2,
+                      "end": 116.38,
+                      "text": "丢",
+                      "probability": 0.9954589605331421
+                    },
+                    {
+                      "start": 116.38,
+                      "end": 116.64,
+                      "text": "弃",
+                      "probability": 0.9633861184120178
+                    },
+                    {
+                      "start": 116.64,
+                      "end": 116.96,
+                      "text": "他。",
+                      "probability": 0.3847028911113739
+                    }
+                  ]
+                },
+                {
+                  "start": 116.96,
+                  "end": 122.56,
+                  "text": "因为我从天上降下来不是要按自己的意思行",
+                  "words": [
+                    {
+                      "start": 116.96,
+                      "end": 118.08,
+                      "text": "因为",
+                      "probability": 0.34486132860183716
+                    },
+                    {
+                      "start": 118.08,
+                      "end": 118.64,
+                      "text": "我",
+                      "probability": 0.9241605401039124
+                    },
+                    {
+                      "start": 118.64,
+                      "end": 118.84,
+                      "text": "从",
+                      "probability": 0.9826755523681641
+                    },
+                    {
+                      "start": 118.84,
+                      "end": 119.12,
+                      "text": "天",
+                      "probability": 0.9956911206245422
+                    },
+                    {
+                      "start": 119.12,
+                      "end": 119.48,
+                      "text": "上",
+                      "probability": 0.9950188398361206
+                    },
+                    {
+                      "start": 119.48,
+                      "end": 119.8,
+                      "text": "降",
+                      "probability": 0.9938439130783081
+                    },
+                    {
+                      "start": 119.8,
+                      "end": 120.08,
+                      "text": "下",
+                      "probability": 0.9912233352661133
+                    },
+                    {
+                      "start": 120.08,
+                      "end": 120.38,
+                      "text": "来",
+                      "probability": 0.9956061244010925
+                    },
+                    {
+                      "start": 120.38,
+                      "end": 120.88,
+                      "text": "不是",
+                      "probability": 0.6743056178092957
+                    },
+                    {
+                      "start": 120.88,
+                      "end": 121.16,
+                      "text": "要",
+                      "probability": 0.9422765970230103
+                    },
+                    {
+                      "start": 121.16,
+                      "end": 121.28,
+                      "text": "按",
+                      "probability": 0.9840113520622253
+                    },
+                    {
+                      "start": 121.28,
+                      "end": 121.6,
+                      "text": "自己",
+                      "probability": 0.9900588393211365
+                    },
+                    {
+                      "start": 121.6,
+                      "end": 121.8,
+                      "text": "的",
+                      "probability": 0.9968776702880859
+                    },
+                    {
+                      "start": 121.8,
+                      "end": 122.1,
+                      "text": "意思",
+                      "probability": 0.986834704875946
+                    },
+                    {
+                      "start": 122.1,
+                      "end": 122.56,
+                      "text": "行",
+                      "probability": 0.93482905626297
+                    }
+                  ]
+                }
+              ],
+              "source": "context-reviewed-paragraph-approximation"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.977,
+          "coherentCoverage": 0.977,
+          "extraSpeechContext": false,
+          "prefixCoverage": 1.0,
+          "suffixCoverage": 1.0,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": false,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     },
     {
       "start": 147.2,
-      "end": 195.5,
+      "end": 197.58,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "如果你已经信靠耶稣把你从罪恶中拯救出来那么祂在上帝面前顺服的生命就是为你而作的祂为你获得了上帝恩",
-      "confidence": 0.83
+      "confidence": 0.921,
+      "quality": {
+        "coverage": 0.895,
+        "coherentCoverage": 0.895,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.45,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 11,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "source": "context-reviewed-read-prompt-ending",
+          "contextUsed": true,
+          "identityAmbiguous": false,
+          "continuousAnchor": false,
+          "timingPrecision": "word",
+          "time": 197.58,
+          "expectedPhrase": "承担了这些。圣子上帝降世，为了你遵守了约中所有的要求，使你可以享受此约所有的福分，你应该何等的感恩呢！请读以弗所书1:7-12。",
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\20-3.mp3.json",
+          "transcriptSha256": "32514cda6e0071736866274d0c1ecbf752cb8ed48b1ba25958a93ff703891c98",
+          "audioSha256": "d78720e90fc332108c8fb1374388fabe1e9e2a1cd4610cc3b1e519e39fa678aa",
+          "rawSegments": [
+            {
+              "start": 194.32,
+              "end": 197.58,
+              "text": "千督以夫所說一張七道十二節。",
+              "words": [
+                {
+                  "start": 194.32,
+                  "end": 194.56,
+                  "text": "千",
+                  "probability": 0.10666516423225403
+                },
+                {
+                  "start": 194.56,
+                  "end": 194.8,
+                  "text": "督",
+                  "probability": 0.7636677920818329
+                },
+                {
+                  "start": 194.8,
+                  "end": 195.12,
+                  "text": "以",
+                  "probability": 0.6854612827301025
+                },
+                {
+                  "start": 195.12,
+                  "end": 195.26,
+                  "text": "夫",
+                  "probability": 0.30143439769744873
+                },
+                {
+                  "start": 195.26,
+                  "end": 195.5,
+                  "text": "所",
+                  "probability": 0.9930570125579834
+                },
+                {
+                  "start": 195.5,
+                  "end": 195.76,
+                  "text": "說",
+                  "probability": 0.855537474155426
+                },
+                {
+                  "start": 195.76,
+                  "end": 196.1,
+                  "text": "一",
+                  "probability": 0.709315836429596
+                },
+                {
+                  "start": 196.1,
+                  "end": 196.36,
+                  "text": "張",
+                  "probability": 0.6630492806434631
+                },
+                {
+                  "start": 196.36,
+                  "end": 196.78,
+                  "text": "七",
+                  "probability": 0.689883291721344
+                },
+                {
+                  "start": 196.78,
+                  "end": 196.98,
+                  "text": "道",
+                  "probability": 0.773248553276062
+                },
+                {
+                  "start": 196.98,
+                  "end": 197.2,
+                  "text": "十",
+                  "probability": 0.9862163066864014
+                },
+                {
+                  "start": 197.2,
+                  "end": 197.34,
+                  "text": "二",
+                  "probability": 0.8962737917900085
+                },
+                {
+                  "start": 197.34,
+                  "end": 197.58,
+                  "text": "節。",
+                  "probability": 0.954354465007782
+                }
+              ]
+            }
+          ],
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+          "listenedByAgent": false
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "next-verified-start",
+        "previousStart": 147.2,
+        "previousEnd": 195.5,
+        "previousConfidence": 0.903
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "020_第二十问 上帝任凭人类都在罪恶和悲惨中沉沦吗.md",
+          "audio": "20-3.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\020_第二十问 上帝任凭人类都在罪恶和悲惨中沉沦吗\\audio-04.json",
+          "caseIndex": 498,
+          "targetIndex": 17,
+          "edge": "end",
+          "previousTime": 195.44,
+          "time": 197.58,
+          "kind": "verified-edge",
+          "previousEvidence": {
+            "verified": false,
+            "source": "next-verified-start"
+          },
+          "previousVerified": false,
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。"
+        }
+      ]
     },
     {
-      "start": 195.5,
+      "start": 199.12,
       "end": 251.84,
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "以弗所书1712我们藉这爱子的血得蒙救赎过犯得以赦免乃是照祂丰富的恩典这恩典是上帝用诸般智慧聪明",
-      "confidence": 0.855
+      "confidence": 0.917,
+      "quality": {
+        "coverage": 0.915,
+        "coherentCoverage": 0.903,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "localSupported": false,
+          "source": "previous-verified-end",
+          "time": 197.58,
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "referenceOwnershipConstraint": {
+          "ownerTargetIndex": 17,
+          "ownerTargetText": "如果你已经信靠耶稣把你从罪恶中拯救出来那么祂在上帝面前顺服的生命就是为你而作的祂为你获得了上帝恩",
+          "notBefore": 197.58,
+          "verifiedSpokenOnset": false
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 195.5,
+        "previousEnd": 251.84,
+        "previousConfidence": 0.894
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "020_第二十问 上帝任凭人类都在罪恶和悲惨中沉沦吗.md",
+          "audio": "20-3.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\020_第二十问 上帝任凭人类都在罪恶和悲惨中沉沦吗\\audio-04.json",
+          "caseIndex": 498,
+          "targetIndex": 18,
+          "edge": "start",
+          "previousTime": 195.44,
+          "time": 197.58,
+          "kind": "unverified-neighbor-constraint",
+          "previousVerified": true,
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 0.833,
+            "localSimilarity": 0.851,
+            "localText": "以弗所书1章7到12节我们藉这爱子的血得蒙救赎过",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false,
+            "source": "verified-transcript"
+          },
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 197.58,
+            "time": 199.12,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\transcript-first-repair-20261017\\verified-transcripts\\更新心意学教理\\20-3.mp3.json",
+              "sha256": "43e4b477bf6ba9223bb76a09ef9b239d82a32dfdd6b275f658073a62e263a925",
+              "anchor": {
+                "time": 199.12,
+                "score": 0.889,
+                "ratio": 0.8966,
+                "expected": "womenjizheaizidexuedemengjiushuguofan",
+                "actual": "我们借着爱子的血得恩蒙救赎过犯",
+                "span": [
+                  199.12,
+                  203.82000000000002
+                ],
+                "tokens": [
+                  {
+                    "text": "我",
+                    "start": 199.12,
+                    "end": 199.32000000000002,
+                    "rawStart": 580,
+                    "rawEnd": 580,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 199.12,
+                    "end": 199.32000000000002,
+                    "rawStart": 581,
+                    "rawEnd": 581,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "借",
+                    "start": 199.32000000000002,
+                    "end": 199.60000000000002,
+                    "rawStart": 582,
+                    "rawEnd": 582,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "着",
+                    "start": 199.60000000000002,
+                    "end": 200.0,
+                    "rawStart": 583,
+                    "rawEnd": 583,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "爱",
+                    "start": 200.0,
+                    "end": 200.32000000000002,
+                    "rawStart": 584,
+                    "rawEnd": 584,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "子",
+                    "start": 200.32000000000002,
+                    "end": 200.48000000000002,
+                    "rawStart": 585,
+                    "rawEnd": 585,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 200.48000000000002,
+                    "end": 200.74,
+                    "rawStart": 586,
+                    "rawEnd": 586,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "血",
+                    "start": 200.74,
+                    "end": 201.14000000000001,
+                    "rawStart": 587,
+                    "rawEnd": 587,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "得",
+                    "start": 201.14000000000001,
+                    "end": 201.68,
+                    "rawStart": 588,
+                    "rawEnd": 588,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "恩",
+                    "start": 201.68,
+                    "end": 201.84,
+                    "rawStart": 589,
+                    "rawEnd": 589,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "蒙",
+                    "start": 201.84,
+                    "end": 201.98000000000002,
+                    "rawStart": 590,
+                    "rawEnd": 590,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "救",
+                    "start": 201.98000000000002,
+                    "end": 202.38,
+                    "rawStart": 591,
+                    "rawEnd": 591,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "赎",
+                    "start": 202.38,
+                    "end": 203.06,
+                    "rawStart": 592,
+                    "rawEnd": 592,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "过",
+                    "start": 203.38,
+                    "end": 203.60000000000002,
+                    "rawStart": 593,
+                    "rawEnd": 593,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "犯",
+                    "start": 203.60000000000002,
+                    "end": 203.82000000000002,
+                    "rawStart": 594,
+                    "rawEnd": 594,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "我们藉这爱子的血得蒙救赎,过犯得以赦免,乃是照祂丰富的恩典。这恩典是神用诸般智慧聪明,充充足足赏给我们的,都是照祂自己所预定的美意,叫我们知道祂旨意的奥秘;要照所安排的,在日期满足的时候,使天上、地上一切所有的,都在基督里面同归于一。我们也在祂里面得了基业,这原是那位随己意行做万事的,照着祂旨意所预定的,叫祂的荣耀,从我们这首先在基督里有盼望的人,可以得着称赞。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.915,
+          "coherentCoverage": 0.903,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.8,
+          "suffixCoverage": 0.9,
+          "unmatchedLeadingChars": 2,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "localSupported": false,
+            "source": "previous-verified-end",
+            "time": 197.58,
+            "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "referenceOwnershipConstraint": {
+            "ownerTargetIndex": 17,
+            "ownerTargetText": "如果你已经信靠耶稣把你从罪恶中拯救出来那么祂在上帝面前顺服的生命就是为你而作的祂为你获得了上帝恩",
+            "notBefore": 197.58,
+            "verifiedSpokenOnset": false
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (16 trailing chars, coverage 0.200): target 15: 耶稣来到世界，为自己的百姓完成上帝的旨意。耶稣降世舍命，为要上帝百姓中的每一个人都得生命。请读约",
+    "unverified end anchor: target 15: 耶稣来到世界，为自己的百姓完成上帝的旨意。耶稣降世舍命，为要上帝百姓中的每一个人都得生命。请读约",
+    "incomplete end (11 trailing chars, coverage 0.450): target 17: 如果你已经信靠耶稣把你从罪恶中拯救出来，那么祂在上帝面前顺服的生命，就是为你而作的。祂为你获得了",
+    "unverified end anchor: target 17: 如果你已经信靠耶稣把你从罪恶中拯救出来，那么祂在上帝面前顺服的生命，就是为你而作的。祂为你获得了",
+    "repair unverified end (previous-sync): target 15",
+    "repair unverified end (next-verified-start): target 17",
+    "context reviewed end: target 17; 前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+    "unverified constrained start: target 18; 旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "c90465d4a89a1325fe418effe93d2d7a816b517bd851d0c75ebd29e44686bc83",
+  "repairCueDigest": "c418b4dd27c7f771378cc46f47332c3d27bd740840e57aadd8b25b813edf2e70",
+  "previousAlignmentWarnings": [],
+  "currentSiteConfirmation": {
+    "model": "medium",
+    "audioSha256": "d78720e90fc332108c8fb1374388fabe1e9e2a1cd4610cc3b1e519e39fa678aa",
+    "audioDuration": 269.3365625,
+    "windows": [
+      [
+        96.94,
+        113.32
+      ],
+      [
+        186.52,
+        204.68
+      ]
+    ]
+  }
 }

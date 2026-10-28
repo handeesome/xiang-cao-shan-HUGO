@@ -8,20 +8,54 @@
   "audioDuration": 126.197,
   "cues": [
     {
-      "start": 1.3,
-      "end": 5.39,
-      "kind": "heading",
-      "targetIndex": 18,
-      "targetText": "礼拜五",
-      "confidence": 1.0
-    },
-    {
       "start": 5.39,
-      "end": 51.77,
+      "end": 50.65,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "在旧约记载中上帝真的为以色列民行了好多上帝迹奇事祂以大能拯救他们救他们脱离奴役和仇敌上帝也照顾他",
-      "confidence": 0.592
+      "confidence": 0.662,
+      "quality": {
+        "coverage": 0.761,
+        "coherentCoverage": 0.628,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 5.39,
+        "previousEnd": 51.77,
+        "previousConfidence": 0.592
+      }
     },
     {
       "start": 51.77,
@@ -29,7 +63,49 @@
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "如果旧约中上帝的百姓有充分的理由顺服上帝所赐的道德律我们今日作祂百姓的当然有更充分的理由在顺服中",
-      "confidence": 0.869
+      "confidence": 0.965,
+      "quality": {
+        "coverage": 0.968,
+        "coherentCoverage": 0.955,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 51.77,
+        "previousEnd": 102.79,
+        "previousConfidence": 0.869
+      }
     },
     {
       "start": 102.79,
@@ -37,7 +113,217 @@
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "哥林多后书51415原来基督的爱激励我们因我们想一人既替众人死众人就都死了并且祂替众人死是叫那些",
-      "confidence": 0.656
+      "confidence": 0.87,
+      "quality": {
+        "coverage": 0.814,
+        "coherentCoverage": 0.771,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.5,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 10,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 102.79,
+        "previousEnd": 124.47,
+        "previousConfidence": 0.656
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 102.79,
+            "time": 102.79,
+            "reason": "正文起句已定位，保留原先读出处范围",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\43-5.mp3.json",
+              "sha256": "b14956dd07be5e017e1f24a5258fbc29cc9376492dc0c8055cf661b80d8b0cf4",
+              "anchor": {
+                "time": 103.05,
+                "score": 0.9997,
+                "ratio": 1.0,
+                "expected": "yuanlaijidudeaijiliwomenyinwomenxiang",
+                "actual": "原来基督的爱激励我们因我们想",
+                "span": [
+                  103.05,
+                  108.09
+                ],
+                "tokens": [
+                  {
+                    "text": "原",
+                    "start": 103.05,
+                    "end": 104.29,
+                    "rawStart": 314,
+                    "rawEnd": 314,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "来",
+                    "start": 104.29,
+                    "end": 104.73,
+                    "rawStart": 315,
+                    "rawEnd": 315,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "基",
+                    "start": 104.91,
+                    "end": 105.17,
+                    "rawStart": 316,
+                    "rawEnd": 316,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "督",
+                    "start": 105.17,
+                    "end": 105.35,
+                    "rawStart": 317,
+                    "rawEnd": 317,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 105.35,
+                    "end": 105.49,
+                    "rawStart": 318,
+                    "rawEnd": 318,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "爱",
+                    "start": 105.49,
+                    "end": 105.79,
+                    "rawStart": 319,
+                    "rawEnd": 319,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "激",
+                    "start": 105.79,
+                    "end": 106.15,
+                    "rawStart": 320,
+                    "rawEnd": 320,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "励",
+                    "start": 106.15,
+                    "end": 106.31,
+                    "rawStart": 321,
+                    "rawEnd": 321,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 106.31,
+                    "end": 106.67,
+                    "rawStart": 322,
+                    "rawEnd": 322,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 106.31,
+                    "end": 106.67,
+                    "rawStart": 323,
+                    "rawEnd": 323,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "因",
+                    "start": 107.05,
+                    "end": 107.51,
+                    "rawStart": 324,
+                    "rawEnd": 324,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 107.51,
+                    "end": 107.73,
+                    "rawStart": 325,
+                    "rawEnd": 325,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 107.51,
+                    "end": 107.73,
+                    "rawStart": 326,
+                    "rawEnd": 326,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "想",
+                    "start": 107.73,
+                    "end": 108.09,
+                    "rawStart": 327,
+                    "rawEnd": 327,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 105.17,
+                  "score": 0.8596,
+                  "actual": "督的爱激励我们因我们想"
+                }
+              },
+              "body": "原来基督的爱激励我们。因我们想,一人既替众人死,众人就都死了;并且祂替众人死,是叫那些活着的人不再为自己活,乃为替他们死而复活的主活。",
+              "retainedCitationInterval": [
+                102.79,
+                103.05
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (10 leading chars, coverage 0.500): target 21: 哥林多后书5:14-15 原来基督的爱激励我们。因我们想，一人既替众人死，众人就都死了；并且祂替",
+    "unverified start anchor: target 21: 哥林多后书5:14-15 原来基督的爱激励我们。因我们想，一人既替众人死，众人就都死了；并且祂替",
+    "repair unverified start (previous-sync): target 21"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "cacd6431f6d995e4debecabbd470d60c43d6601076be533ee70d9bd8c950e8c5",
+  "repairCueDigest": "b681581aa86546c5f339657d9c8cb693191feaacd884b572ac80379facb8e696",
+  "previousAlignmentWarnings": []
 }

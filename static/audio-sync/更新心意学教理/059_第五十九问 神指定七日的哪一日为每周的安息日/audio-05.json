@@ -8,36 +8,888 @@
   "audioDuration": 99.89225,
   "cues": [
     {
-      "start": 1.67,
-      "end": 2.89,
-      "kind": "heading",
-      "targetIndex": 13,
-      "targetText": "礼拜四",
-      "confidence": 0.8
-    },
-    {
       "start": 2.89,
-      "end": 39.83,
+      "end": 43.73,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "在耶稣从死里复活的那天晚上耶稣向门徒显现的时候有一个门徒没有在场那个门徒叫多马大家告诉多马他们看",
-      "confidence": 0.68
+      "confidence": 0.859,
+      "quality": {
+        "coverage": 0.821,
+        "coherentCoverage": 0.784,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.4,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 12,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 2.89,
+        "previousEnd": 39.83,
+        "previousConfidence": 0.68
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 39.83,
+            "time": 43.73,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\59-4.mp3.json",
+              "sha256": "0604d1a2dfa0fd9872727ade800f2db2975f8a717135734ba6bcb40a98f9a233",
+              "anchor": {
+                "time": 43.73,
+                "score": 0.8581,
+                "ratio": 0.88,
+                "expected": "duyuehanfuyin20zhang26dao29jie",
+                "actual": "复因20章26到29节",
+                "span": [
+                  40.85,
+                  43.73
+                ],
+                "tokens": [
+                  {
+                    "text": "复",
+                    "start": 40.85,
+                    "end": 41.09,
+                    "rawStart": 128,
+                    "rawEnd": 128,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "因",
+                    "start": 41.09,
+                    "end": 41.25,
+                    "rawStart": 129,
+                    "rawEnd": 129,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "2",
+                    "start": 41.25,
+                    "end": 41.67,
+                    "rawStart": 130,
+                    "rawEnd": 130,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "0",
+                    "start": 41.25,
+                    "end": 41.67,
+                    "rawStart": 131,
+                    "rawEnd": 131,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "章",
+                    "start": 41.67,
+                    "end": 41.85,
+                    "rawStart": 132,
+                    "rawEnd": 132,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "2",
+                    "start": 41.85,
+                    "end": 42.55,
+                    "rawStart": 133,
+                    "rawEnd": 133,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "6",
+                    "start": 41.85,
+                    "end": 42.55,
+                    "rawStart": 134,
+                    "rawEnd": 134,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "到",
+                    "start": 42.55,
+                    "end": 42.93,
+                    "rawStart": 135,
+                    "rawEnd": 135,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "2",
+                    "start": 42.93,
+                    "end": 43.51,
+                    "rawStart": 136,
+                    "rawEnd": 136,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "9",
+                    "start": 42.93,
+                    "end": 43.51,
+                    "rawStart": 137,
+                    "rawEnd": 137,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "节",
+                    "start": 43.51,
+                    "end": 43.73,
+                    "rawStart": 138,
+                    "rawEnd": 138,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "在耶稣从死里复活的那天晚上,耶稣向门徒显现的时候,有一个门徒没有在场。那个门徒叫多马。大家告诉多马,他们看到耶稣了。多马不敢相信。他要是不亲眼看到耶稣,就不相信。多马告诉其他门徒,除非他摸到耶稣手上的钉痕,探一探祂肋旁兵丁的枪留下的伤口,否则不会相信耶稣已经从死里复活。请读约翰福音20:26-29。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.821,
+          "coherentCoverage": 0.784,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.95,
+          "suffixCoverage": 0.4,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 12,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 39.83,
-      "end": 82.65,
+      "start": 45.47,
+      "end": 83.31,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "约翰福音202629过了八日门徒又在屋里多马也和他们同在门都关了耶稣来站在当中说愿你们平安就对多",
-      "confidence": 0.729
+      "confidence": 0.746,
+      "quality": {
+        "coverage": 0.733,
+        "coherentCoverage": 0.692,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.5,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 10,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 39.83,
+        "previousEnd": 82.65,
+        "previousConfidence": 0.729
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 82.65,
+            "time": 83.31,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\59-4.mp3.json",
+              "sha256": "0604d1a2dfa0fd9872727ade800f2db2975f8a717135734ba6bcb40a98f9a233",
+              "anchor": {
+                "time": 83.31,
+                "score": 0.9563,
+                "ratio": 0.963,
+                "expected": "wocaixinnameiyoukanjianjiuxindeyoufule",
+                "actual": "我才信那没有看见就信得又肤",
+                "span": [
+                  79.65,
+                  83.31
+                ],
+                "tokens": [
+                  {
+                    "text": "我",
+                    "start": 79.65,
+                    "end": 79.83,
+                    "rawStart": 229,
+                    "rawEnd": 229,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "才",
+                    "start": 79.83,
+                    "end": 80.11,
+                    "rawStart": 230,
+                    "rawEnd": 230,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "信",
+                    "start": 80.11,
+                    "end": 80.45,
+                    "rawStart": 231,
+                    "rawEnd": 231,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "那",
+                    "start": 80.45,
+                    "end": 81.11,
+                    "rawStart": 232,
+                    "rawEnd": 232,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "没",
+                    "start": 81.11,
+                    "end": 81.43,
+                    "rawStart": 233,
+                    "rawEnd": 233,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "有",
+                    "start": 81.11,
+                    "end": 81.43,
+                    "rawStart": 234,
+                    "rawEnd": 234,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "看",
+                    "start": 81.43,
+                    "end": 81.77,
+                    "rawStart": 235,
+                    "rawEnd": 235,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "见",
+                    "start": 81.77,
+                    "end": 82.05,
+                    "rawStart": 236,
+                    "rawEnd": 236,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "就",
+                    "start": 82.05,
+                    "end": 82.35,
+                    "rawStart": 237,
+                    "rawEnd": 237,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "信",
+                    "start": 82.35,
+                    "end": 82.65,
+                    "rawStart": 238,
+                    "rawEnd": 238,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "得",
+                    "start": 82.65,
+                    "end": 82.85,
+                    "rawStart": 239,
+                    "rawEnd": 239,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "又",
+                    "start": 82.85,
+                    "end": 83.03,
+                    "rawStart": 240,
+                    "rawEnd": 240,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "肤",
+                    "start": 83.03,
+                    "end": 83.31,
+                    "rawStart": 241,
+                    "rawEnd": 241,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 85.45,
+                  "score": 0.8519,
+                  "actual": "我才信那没有看见就信得又肤蓝耶稣"
+                }
+              },
+              "body": "过了八日,门徒又在屋里,多马也和他们同在。门都关了。耶稣来站在当中说:“愿你们平安!”就对多马说:“伸过你的指头来,摸(注:“摸”原文作“看”)我的手;伸出你的手来,探入我的肋旁。不要疑惑,总要信!”多马说:“我的主!我的神!”耶稣对他说:“你因看见了我才信,那没有看见就信的有福了!”"
+            }
+          },
+          "start": {
+            "old": 39.83,
+            "time": 45.47,
+            "reason": "前段请读提示拥有出处时间，本段从实际经文首句起，不借用提示。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\59-4.mp3.json",
+              "sha256": "cb4b66163df5b3c24a2055f4213782d5e3693d1d094a339141e58817e66b81a8",
+              "segments": [
+                {
+                  "start": 35.55,
+                  "end": 38.97,
+                  "text": "否则,不会相信耶稣已经从死里复活。",
+                  "words": [
+                    {
+                      "start": 35.55,
+                      "end": 35.79,
+                      "text": "否",
+                      "probability": 0.996488094329834
+                    },
+                    {
+                      "start": 35.79,
+                      "end": 36.03,
+                      "text": "则,",
+                      "probability": 0.9578876197338104
+                    },
+                    {
+                      "start": 36.37,
+                      "end": 36.63,
+                      "text": "不会",
+                      "probability": 0.8783696889877319
+                    },
+                    {
+                      "start": 36.63,
+                      "end": 37.13,
+                      "text": "相信",
+                      "probability": 0.9811031818389893
+                    },
+                    {
+                      "start": 37.13,
+                      "end": 37.55,
+                      "text": "耶",
+                      "probability": 0.9958544969558716
+                    },
+                    {
+                      "start": 37.55,
+                      "end": 37.69,
+                      "text": "稣",
+                      "probability": 0.9957995712757111
+                    },
+                    {
+                      "start": 37.69,
+                      "end": 37.89,
+                      "text": "已经",
+                      "probability": 0.8871244788169861
+                    },
+                    {
+                      "start": 37.89,
+                      "end": 38.15,
+                      "text": "从",
+                      "probability": 0.9901824593544006
+                    },
+                    {
+                      "start": 38.15,
+                      "end": 38.37,
+                      "text": "死",
+                      "probability": 0.8093012571334839
+                    },
+                    {
+                      "start": 38.37,
+                      "end": 38.51,
+                      "text": "里",
+                      "probability": 0.5064029693603516
+                    },
+                    {
+                      "start": 38.51,
+                      "end": 38.69,
+                      "text": "复",
+                      "probability": 0.9626078605651855
+                    },
+                    {
+                      "start": 38.69,
+                      "end": 38.97,
+                      "text": "活。",
+                      "probability": 0.9486555457115173
+                    }
+                  ]
+                },
+                {
+                  "start": 39.83,
+                  "end": 43.73,
+                  "text": "祈祷愿复因二十章二十六到二十九节。",
+                  "words": [
+                    {
+                      "start": 39.83,
+                      "end": 40.35,
+                      "text": "祈",
+                      "probability": 0.46671033650636673
+                    },
+                    {
+                      "start": 40.35,
+                      "end": 40.55,
+                      "text": "祷",
+                      "probability": 0.5089532285928726
+                    },
+                    {
+                      "start": 40.55,
+                      "end": 40.85,
+                      "text": "愿",
+                      "probability": 0.7800857722759247
+                    },
+                    {
+                      "start": 40.85,
+                      "end": 41.09,
+                      "text": "复",
+                      "probability": 0.6438217163085938
+                    },
+                    {
+                      "start": 41.09,
+                      "end": 41.25,
+                      "text": "因",
+                      "probability": 0.2565208375453949
+                    },
+                    {
+                      "start": 41.25,
+                      "end": 41.57,
+                      "text": "二",
+                      "probability": 0.7724534869194031
+                    },
+                    {
+                      "start": 41.57,
+                      "end": 41.67,
+                      "text": "十",
+                      "probability": 0.9334241151809692
+                    },
+                    {
+                      "start": 41.67,
+                      "end": 41.85,
+                      "text": "章",
+                      "probability": 0.718720868229866
+                    },
+                    {
+                      "start": 41.85,
+                      "end": 42.17,
+                      "text": "二",
+                      "probability": 0.9276391267776489
+                    },
+                    {
+                      "start": 42.17,
+                      "end": 42.33,
+                      "text": "十",
+                      "probability": 0.9991687536239624
+                    },
+                    {
+                      "start": 42.33,
+                      "end": 42.55,
+                      "text": "六",
+                      "probability": 0.9771608114242554
+                    },
+                    {
+                      "start": 42.55,
+                      "end": 42.93,
+                      "text": "到",
+                      "probability": 0.6756048798561096
+                    },
+                    {
+                      "start": 42.93,
+                      "end": 43.19,
+                      "text": "二",
+                      "probability": 0.9975897073745728
+                    },
+                    {
+                      "start": 43.19,
+                      "end": 43.33,
+                      "text": "十",
+                      "probability": 0.9996355772018433
+                    },
+                    {
+                      "start": 43.33,
+                      "end": 43.51,
+                      "text": "九",
+                      "probability": 0.987561047077179
+                    },
+                    {
+                      "start": 43.51,
+                      "end": 43.73,
+                      "text": "节。",
+                      "probability": 0.32342198491096497
+                    }
+                  ]
+                },
+                {
+                  "start": 45.47,
+                  "end": 48.67,
+                  "text": "过了八日,门徒又在屋里,",
+                  "words": [
+                    {
+                      "start": 45.47,
+                      "end": 45.71,
+                      "text": "过",
+                      "probability": 0.8408581018447876
+                    },
+                    {
+                      "start": 45.71,
+                      "end": 45.85,
+                      "text": "了",
+                      "probability": 0.9965233206748962
+                    },
+                    {
+                      "start": 45.85,
+                      "end": 46.05,
+                      "text": "八",
+                      "probability": 0.9577047824859619
+                    },
+                    {
+                      "start": 46.05,
+                      "end": 46.35,
+                      "text": "日,",
+                      "probability": 0.9937233328819275
+                    },
+                    {
+                      "start": 46.91,
+                      "end": 47.11,
+                      "text": "门",
+                      "probability": 0.9470610320568085
+                    },
+                    {
+                      "start": 47.11,
+                      "end": 47.45,
+                      "text": "徒",
+                      "probability": 0.7236277461051941
+                    },
+                    {
+                      "start": 47.45,
+                      "end": 47.95,
+                      "text": "又",
+                      "probability": 0.9543968439102173
+                    },
+                    {
+                      "start": 47.95,
+                      "end": 48.23,
+                      "text": "在",
+                      "probability": 0.9904243350028992
+                    },
+                    {
+                      "start": 48.23,
+                      "end": 48.47,
+                      "text": "屋",
+                      "probability": 0.9935181438922882
+                    },
+                    {
+                      "start": 48.47,
+                      "end": 48.67,
+                      "text": "里,",
+                      "probability": 0.9886804819107056
+                    }
+                  ]
+                },
+                {
+                  "start": 49.43,
+                  "end": 53.01,
+                  "text": "多马也和他们同在,门都关了,",
+                  "words": [
+                    {
+                      "start": 49.43,
+                      "end": 49.59,
+                      "text": "多",
+                      "probability": 0.8465317487716675
+                    },
+                    {
+                      "start": 49.59,
+                      "end": 49.83,
+                      "text": "马",
+                      "probability": 0.8301427364349365
+                    },
+                    {
+                      "start": 49.83,
+                      "end": 50.31,
+                      "text": "也",
+                      "probability": 0.9811974167823792
+                    },
+                    {
+                      "start": 50.31,
+                      "end": 50.73,
+                      "text": "和",
+                      "probability": 0.9809942245483398
+                    },
+                    {
+                      "start": 50.73,
+                      "end": 50.99,
+                      "text": "他们",
+                      "probability": 0.7876272201538086
+                    },
+                    {
+                      "start": 50.99,
+                      "end": 51.27,
+                      "text": "同",
+                      "probability": 0.9241936206817627
+                    },
+                    {
+                      "start": 51.27,
+                      "end": 51.53,
+                      "text": "在,",
+                      "probability": 0.9771012663841248
+                    },
+                    {
+                      "start": 52.11,
+                      "end": 52.23,
+                      "text": "门",
+                      "probability": 0.9987984895706177
+                    },
+                    {
+                      "start": 52.23,
+                      "end": 52.53,
+                      "text": "都",
+                      "probability": 0.9723829030990601
+                    },
+                    {
+                      "start": 52.53,
+                      "end": 52.75,
+                      "text": "关",
+                      "probability": 0.9591071009635925
+                    },
+                    {
+                      "start": 52.75,
+                      "end": 53.01,
+                      "text": "了,",
+                      "probability": 0.9630360007286072
+                    }
+                  ]
+                },
+                {
+                  "start": 53.01,
+                  "end": 57.37,
+                  "text": "耶稣来站在当中说,愿你们平安。",
+                  "words": [
+                    {
+                      "start": 53.01,
+                      "end": 53.91,
+                      "text": "耶",
+                      "probability": 0.5040391683578491
+                    },
+                    {
+                      "start": 53.91,
+                      "end": 54.03,
+                      "text": "稣",
+                      "probability": 0.8067158162593842
+                    },
+                    {
+                      "start": 54.03,
+                      "end": 54.23,
+                      "text": "来",
+                      "probability": 0.23232224583625793
+                    },
+                    {
+                      "start": 54.23,
+                      "end": 54.51,
+                      "text": "站",
+                      "probability": 0.9772729277610779
+                    },
+                    {
+                      "start": 54.51,
+                      "end": 54.69,
+                      "text": "在",
+                      "probability": 0.9980961680412292
+                    },
+                    {
+                      "start": 54.69,
+                      "end": 54.91,
+                      "text": "当",
+                      "probability": 0.9261223673820496
+                    },
+                    {
+                      "start": 54.91,
+                      "end": 55.15,
+                      "text": "中",
+                      "probability": 0.9947935938835144
+                    },
+                    {
+                      "start": 55.15,
+                      "end": 55.49,
+                      "text": "说,",
+                      "probability": 0.9654083847999573
+                    },
+                    {
+                      "start": 56.27,
+                      "end": 56.49,
+                      "text": "愿",
+                      "probability": 0.8610911667346954
+                    },
+                    {
+                      "start": 56.49,
+                      "end": 56.73,
+                      "text": "你们",
+                      "probability": 0.9394689202308655
+                    },
+                    {
+                      "start": 56.73,
+                      "end": 57.05,
+                      "text": "平",
+                      "probability": 0.9975233674049377
+                    },
+                    {
+                      "start": 57.05,
+                      "end": 57.37,
+                      "text": "安。",
+                      "probability": 0.9995274543762207
+                    }
+                  ]
+                }
+              ],
+              "source": "context-reviewed-paragraph-approximation"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.733,
+          "coherentCoverage": 0.692,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.5,
+          "suffixCoverage": 0.7,
+          "unmatchedLeadingChars": 10,
+          "unmatchedTrailingChars": 4,
+          "reviewRequired": true,
+          "boundaryAdjusted": [
+            "end substitution"
+          ],
+          "startVerified": false,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 82.65,
+      "start": 84.85,
       "end": 94.17,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "耶稣在向其他门徒显现一周之后向多马显现跟多马讲话那又是一个礼拜天",
-      "confidence": 0.559
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 82.65,
+        "previousEnd": 94.17,
+        "previousConfidence": 0.559
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (12 trailing chars, coverage 0.400): target 14: 在耶稣从死里复活的那天晚上，耶稣向门徒显现的时候，有一个门徒没有在场。那个门徒叫多马。大家告诉多",
+    "unverified end anchor: target 14: 在耶稣从死里复活的那天晚上，耶稣向门徒显现的时候，有一个门徒没有在场。那个门徒叫多马。大家告诉多",
+    "incomplete start (10 leading chars, coverage 0.500): target 15: 约翰福音20:26-29 过了八日，门徒又在屋里，多马也和他们同在。门都关了。耶稣来站在当中说：",
+    "incomplete end (4 trailing chars, coverage 0.700): target 15: 约翰福音20:26-29 过了八日，门徒又在屋里，多马也和他们同在。门都关了。耶稣来站在当中说：",
+    "unverified start anchor: target 15: 约翰福音20:26-29 过了八日，门徒又在屋里，多马也和他们同在。门都关了。耶稣来站在当中说：",
+    "unverified end anchor: target 15: 约翰福音20:26-29 过了八日，门徒又在屋里，多马也和他们同在。门都关了。耶稣来站在当中说：",
+    "repair unverified end (previous-sync): target 14",
+    "repair unverified start (previous-sync): target 15",
+    "repair unverified end (previous-sync): target 15"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "aedfbdac9052c87dbb24c716fed8089b5f2ba914b204ffaef753295724715d84",
+  "repairCueDigest": "dff1c900cad1a58e1794c1914acae95aaadac2e0813b6e399f05965cd197bb01",
+  "previousAlignmentWarnings": []
 }

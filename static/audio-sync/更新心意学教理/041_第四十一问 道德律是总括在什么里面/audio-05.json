@@ -8,52 +8,1333 @@
   "audioDuration": 134.0484375,
   "cues": [
     {
-      "start": 0.18,
-      "end": 1.6,
-      "kind": "heading",
-      "targetIndex": 14,
-      "targetText": "礼拜四",
-      "confidence": 0.8
-    },
-    {
       "start": 1.6,
-      "end": 9.0,
+      "end": 16.74,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "以色列人朝见上帝的时间到了他们聚集在西奈山脚下请读出埃及记191619和出埃及记201819",
-      "confidence": 0.522
+      "confidence": 0.827,
+      "quality": {
+        "coverage": 0.827,
+        "coherentCoverage": 0.827,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1.6,
+        "previousEnd": 9.0,
+        "previousConfidence": 0.638
+      }
     },
     {
-      "start": 9.0,
-      "end": 70.2,
+      "start": 18.08,
+      "end": 69.24,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "出埃及记191619到了第三天早晨在山上有雷轰闪电和密云并且角声甚大营中的百姓尽都发颤摩西率领百",
-      "confidence": 0.617
+      "confidence": 0.766,
+      "quality": {
+        "coverage": 0.76,
+        "coherentCoverage": 0.584,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 4,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "previous-verified-sync",
+        "previousStart": 9.0,
+        "previousEnd": 69.24,
+        "previousConfidence": 0.672
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 16.74,
+            "time": 18.08,
+            "reason": "同段出处按实际读序计入",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\41-4.mp3.json",
+              "sha256": "9e8c390049886a6ea7bc1f39a4ff49aa42fe247a0f574beb3e09b922ec6a829a",
+              "anchor": {
+                "time": 24.67,
+                "score": 0.9921,
+                "ratio": 1.0,
+                "expected": "daoledisantianzaochenzaishanshangyouleihongshan",
+                "actual": "到了第3天早晨在山上有雷鸿闪",
+                "span": [
+                  24.67,
+                  30.75
+                ],
+                "tokens": [
+                  {
+                    "text": "到",
+                    "start": 24.67,
+                    "end": 24.93,
+                    "rawStart": 68,
+                    "rawEnd": 68,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "了",
+                    "start": 24.67,
+                    "end": 24.93,
+                    "rawStart": 69,
+                    "rawEnd": 69,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "第",
+                    "start": 24.93,
+                    "end": 25.35,
+                    "rawStart": 70,
+                    "rawEnd": 70,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "3",
+                    "start": 24.93,
+                    "end": 25.35,
+                    "rawStart": 71,
+                    "rawEnd": 71,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "天",
+                    "start": 25.35,
+                    "end": 25.77,
+                    "rawStart": 72,
+                    "rawEnd": 72,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "早",
+                    "start": 25.77,
+                    "end": 26.13,
+                    "rawStart": 73,
+                    "rawEnd": 73,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "晨",
+                    "start": 26.13,
+                    "end": 26.47,
+                    "rawStart": 74,
+                    "rawEnd": 74,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "在",
+                    "start": 27.01,
+                    "end": 27.53,
+                    "rawStart": 75,
+                    "rawEnd": 75,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "山",
+                    "start": 27.53,
+                    "end": 27.93,
+                    "rawStart": 76,
+                    "rawEnd": 76,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "上",
+                    "start": 27.93,
+                    "end": 28.27,
+                    "rawStart": 77,
+                    "rawEnd": 77,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "有",
+                    "start": 28.27,
+                    "end": 28.65,
+                    "rawStart": 78,
+                    "rawEnd": 78,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "雷",
+                    "start": 28.65,
+                    "end": 29.09,
+                    "rawStart": 79,
+                    "rawEnd": 79,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "鸿",
+                    "start": 29.09,
+                    "end": 29.45,
+                    "rawStart": 80,
+                    "rawEnd": 80,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "闪",
+                    "start": 29.45,
+                    "end": 30.75,
+                    "rawStart": 81,
+                    "rawEnd": 81,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": true,
+                "alternative": {
+                  "time": 21.38,
+                  "score": 0.9549,
+                  "actual": "节到了第3天早晨在山上有雷鸿闪"
+                }
+              },
+              "body": "到了第三天早晨,在山上有雷轰、闪电和密云,并且角声甚大,营中的百姓尽都发颤。摩西率领百姓出营迎接神,都站在山下。西奈全山冒烟,因为耶和华在火中降于山上,山的烟气上腾,如烧窑一般,遍山大大地震动。角声渐渐地高而又高,摩西就说话,神有声音答应他。",
+              "reference": {
+                "time": 18.08,
+                "score": 0.9165,
+                "ratio": 0.9231,
+                "expected": "chuaijiji19zhang16dao19jie",
+                "actual": "初哀之祭19章16到19节",
+                "span": [
+                  18.08,
+                  21.88
+                ],
+                "tokens": [
+                  {
+                    "text": "初",
+                    "start": 18.08,
+                    "end": 18.6,
+                    "rawStart": 55,
+                    "rawEnd": 55,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "哀",
+                    "start": 18.6,
+                    "end": 18.78,
+                    "rawStart": 56,
+                    "rawEnd": 56,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "之",
+                    "start": 18.78,
+                    "end": 18.94,
+                    "rawStart": 57,
+                    "rawEnd": 57,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "祭",
+                    "start": 18.94,
+                    "end": 19.18,
+                    "rawStart": 58,
+                    "rawEnd": 58,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 19.18,
+                    "end": 19.78,
+                    "rawStart": 59,
+                    "rawEnd": 59,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "9",
+                    "start": 19.18,
+                    "end": 19.78,
+                    "rawStart": 60,
+                    "rawEnd": 60,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "章",
+                    "start": 19.78,
+                    "end": 20.12,
+                    "rawStart": 61,
+                    "rawEnd": 61,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 20.12,
+                    "end": 20.8,
+                    "rawStart": 62,
+                    "rawEnd": 62,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "6",
+                    "start": 20.12,
+                    "end": 20.8,
+                    "rawStart": 63,
+                    "rawEnd": 63,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "到",
+                    "start": 20.8,
+                    "end": 21.02,
+                    "rawStart": 64,
+                    "rawEnd": 64,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 21.02,
+                    "end": 21.38,
+                    "rawStart": 65,
+                    "rawEnd": 65,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "9",
+                    "start": 21.02,
+                    "end": 21.38,
+                    "rawStart": 66,
+                    "rawEnd": 66,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "节",
+                    "start": 21.38,
+                    "end": 21.88,
+                    "rawStart": 67,
+                    "rawEnd": 67,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": true,
+                "alternative": {
+                  "time": 9.74,
+                  "score": 0.9081,
+                  "actual": "初哀之祭19章16到19节"
+                }
+              }
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.76,
+          "coherentCoverage": 0.584,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.8,
+          "suffixCoverage": 0.8,
+          "unmatchedLeadingChars": 4,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [
+            "start substitution"
+          ],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-verified-end"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     },
     {
       "start": 70.2,
-      "end": 96.72,
+      "end": 94.56,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "出埃及记201819众百姓见雷轰闪电角声山上冒烟就都发颤远远地站立对摩西说求你和我们说话我们必听",
-      "confidence": 0.667
+      "confidence": 0.794,
+      "quality": {
+        "coverage": 0.794,
+        "coherentCoverage": 0.632,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 70.2,
+        "previousEnd": 94.56,
+        "previousConfidence": 0.767
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 70.2,
+            "time": 70.2,
+            "reason": "同段出处按实际读序计入",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\41-4.mp3.json",
+              "sha256": "9e8c390049886a6ea7bc1f39a4ff49aa42fe247a0f574beb3e09b922ec6a829a",
+              "anchor": {
+                "time": 74.68,
+                "score": 0.8575,
+                "ratio": 0.88,
+                "expected": "zhong100xingjianleihongshandianjiaoshengshanshang",
+                "actual": "众100姓见雷鸿闪电脚",
+                "span": [
+                  74.68,
+                  79.4
+                ],
+                "tokens": [
+                  {
+                    "text": "众",
+                    "start": 74.68,
+                    "end": 75.28,
+                    "rawStart": 191,
+                    "rawEnd": 191,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 75.28,
+                    "end": 75.54,
+                    "rawStart": 192,
+                    "rawEnd": 192,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "0",
+                    "start": 75.28,
+                    "end": 75.54,
+                    "rawStart": 193,
+                    "rawEnd": 193,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "0",
+                    "start": 75.28,
+                    "end": 75.54,
+                    "rawStart": 194,
+                    "rawEnd": 194,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "姓",
+                    "start": 75.54,
+                    "end": 75.84,
+                    "rawStart": 195,
+                    "rawEnd": 195,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "见",
+                    "start": 75.84,
+                    "end": 76.56,
+                    "rawStart": 196,
+                    "rawEnd": 196,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "雷",
+                    "start": 76.56,
+                    "end": 77.06,
+                    "rawStart": 197,
+                    "rawEnd": 197,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "鸿",
+                    "start": 77.06,
+                    "end": 77.46,
+                    "rawStart": 198,
+                    "rawEnd": 198,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "闪",
+                    "start": 77.46,
+                    "end": 78.3,
+                    "rawStart": 199,
+                    "rawEnd": 199,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "电",
+                    "start": 78.3,
+                    "end": 78.66,
+                    "rawStart": 200,
+                    "rawEnd": 200,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "脚",
+                    "start": 78.66,
+                    "end": 79.4,
+                    "rawStart": 201,
+                    "rawEnd": 201,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "众百姓见雷轰、闪电、角声、山上冒烟,就都发颤,远远地站立,对摩西说:“求你和我们说话,我们必听,不要神和我们说话,恐怕我们死亡。”",
+              "reference": {
+                "time": 70.2,
+                "score": 0.9186,
+                "ratio": 0.9231,
+                "expected": "chuaijiji20zhang18dao19jie",
+                "actual": "出爱之际20章18到19节",
+                "span": [
+                  70.2,
+                  73.38
+                ],
+                "tokens": [
+                  {
+                    "text": "出",
+                    "start": 70.2,
+                    "end": 70.8,
+                    "rawStart": 178,
+                    "rawEnd": 178,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "爱",
+                    "start": 70.8,
+                    "end": 70.98,
+                    "rawStart": 179,
+                    "rawEnd": 179,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "之",
+                    "start": 70.98,
+                    "end": 71.14,
+                    "rawStart": 180,
+                    "rawEnd": 180,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "际",
+                    "start": 71.14,
+                    "end": 71.36,
+                    "rawStart": 181,
+                    "rawEnd": 181,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "2",
+                    "start": 71.36,
+                    "end": 71.92,
+                    "rawStart": 182,
+                    "rawEnd": 182,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "0",
+                    "start": 71.36,
+                    "end": 71.92,
+                    "rawStart": 183,
+                    "rawEnd": 183,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "章",
+                    "start": 71.92,
+                    "end": 72.14,
+                    "rawStart": 184,
+                    "rawEnd": 184,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 72.14,
+                    "end": 72.6,
+                    "rawStart": 185,
+                    "rawEnd": 185,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "8",
+                    "start": 72.14,
+                    "end": 72.6,
+                    "rawStart": 186,
+                    "rawEnd": 186,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "到",
+                    "start": 72.6,
+                    "end": 72.76,
+                    "rawStart": 187,
+                    "rawEnd": 187,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 72.76,
+                    "end": 73.18,
+                    "rawStart": 188,
+                    "rawEnd": 188,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "9",
+                    "start": 72.76,
+                    "end": 73.18,
+                    "rawStart": 189,
+                    "rawEnd": 189,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "节",
+                    "start": 73.18,
+                    "end": 73.38,
+                    "rawStart": 190,
+                    "rawEnd": 190,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              }
+            }
+          }
+        }
+      }
     },
     {
       "start": 96.72,
-      "end": 111.78,
+      "end": 110.78,
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "尽管上帝并不是想让我们像惧怕凶恶的怪兽那样怕祂不过祂确实要我们敬畏祂请读出埃及记2020",
-      "confidence": 0.608
+      "confidence": 0.624,
+      "quality": {
+        "coverage": 0.63,
+        "coherentCoverage": 0.391,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.65,
+        "suffixCoverage": 0.55,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 96.72,
+        "previousEnd": 111.78,
+        "previousConfidence": 0.615
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 111.78,
+            "time": 110.78,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\41-4.mp3.json",
+              "sha256": "9e8c390049886a6ea7bc1f39a4ff49aa42fe247a0f574beb3e09b922ec6a829a",
+              "anchor": {
+                "time": 110.78,
+                "score": 0.8332,
+                "ratio": 0.8462,
+                "expected": "weitaqingduchuaijiji20zhang20jie",
+                "actual": "他庆禄除爱几季20章20",
+                "span": [
+                  106.6,
+                  110.78
+                ],
+                "tokens": [
+                  {
+                    "text": "他",
+                    "start": 106.6,
+                    "end": 106.96,
+                    "rawStart": 280,
+                    "rawEnd": 280,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "庆",
+                    "start": 108.22,
+                    "end": 108.38,
+                    "rawStart": 281,
+                    "rawEnd": 281,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "禄",
+                    "start": 108.38,
+                    "end": 108.6,
+                    "rawStart": 282,
+                    "rawEnd": 282,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "除",
+                    "start": 108.6,
+                    "end": 108.94,
+                    "rawStart": 283,
+                    "rawEnd": 283,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "爱",
+                    "start": 108.94,
+                    "end": 109.12,
+                    "rawStart": 284,
+                    "rawEnd": 284,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "几",
+                    "start": 109.12,
+                    "end": 109.28,
+                    "rawStart": 285,
+                    "rawEnd": 285,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "季",
+                    "start": 109.28,
+                    "end": 109.5,
+                    "rawStart": 286,
+                    "rawEnd": 286,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "2",
+                    "start": 109.5,
+                    "end": 110.08,
+                    "rawStart": 287,
+                    "rawEnd": 287,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "0",
+                    "start": 109.5,
+                    "end": 110.08,
+                    "rawStart": 288,
+                    "rawEnd": 288,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "章",
+                    "start": 110.08,
+                    "end": 110.3,
+                    "rawStart": 289,
+                    "rawEnd": 289,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "2",
+                    "start": 110.3,
+                    "end": 110.78,
+                    "rawStart": 290,
+                    "rawEnd": 290,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "0",
+                    "start": 110.3,
+                    "end": 110.78,
+                    "rawStart": 291,
+                    "rawEnd": 291,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "尽管上帝并不是想让我们像惧怕凶恶的怪兽那样怕祂,不过祂确实要我们敬畏祂。请读出埃及记20:20。"
+            }
+          },
+          "start": {
+            "old": 96.72,
+            "time": 96.72,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\41-4.mp3.json",
+              "sha256": "9e8c390049886a6ea7bc1f39a4ff49aa42fe247a0f574beb3e09b922ec6a829a",
+              "anchor": {
+                "time": 96.72,
+                "score": 0.7572,
+                "ratio": 0.7692,
+                "expected": "jinguanshenbingbushixiangrangwomenxiangjupaxiong",
+                "actual": "尽管圣地并不是想让我们想",
+                "span": [
+                  96.72,
+                  100.5
+                ],
+                "tokens": [
+                  {
+                    "text": "尽",
+                    "start": 96.72,
+                    "end": 96.96,
+                    "rawStart": 246,
+                    "rawEnd": 246,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "管",
+                    "start": 96.96,
+                    "end": 97.34,
+                    "rawStart": 247,
+                    "rawEnd": 247,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "圣",
+                    "start": 97.34,
+                    "end": 97.8,
+                    "rawStart": 248,
+                    "rawEnd": 248,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "地",
+                    "start": 97.8,
+                    "end": 98.12,
+                    "rawStart": 249,
+                    "rawEnd": 249,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "并",
+                    "start": 98.12,
+                    "end": 98.72,
+                    "rawStart": 250,
+                    "rawEnd": 250,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "不",
+                    "start": 98.72,
+                    "end": 98.98,
+                    "rawStart": 251,
+                    "rawEnd": 251,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 98.72,
+                    "end": 98.98,
+                    "rawStart": 252,
+                    "rawEnd": 252,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "想",
+                    "start": 98.98,
+                    "end": 99.24,
+                    "rawStart": 253,
+                    "rawEnd": 253,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "让",
+                    "start": 99.24,
+                    "end": 99.44,
+                    "rawStart": 254,
+                    "rawEnd": 254,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 99.44,
+                    "end": 99.78,
+                    "rawStart": 255,
+                    "rawEnd": 255,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 99.44,
+                    "end": 99.78,
+                    "rawStart": 256,
+                    "rawEnd": 256,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "想",
+                    "start": 99.78,
+                    "end": 100.5,
+                    "rawStart": 257,
+                    "rawEnd": 257,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "尽管上帝并不是想让我们像惧怕凶恶的怪兽那样怕祂,不过祂确实要我们敬畏祂。请读出埃及记20:20。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.63,
+          "coherentCoverage": 0.391,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.65,
+          "suffixCoverage": 0.55,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 1,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
       "start": 111.78,
-      "end": 125.2,
+      "end": 123.8,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "出埃及记2020摩西对百姓说不要惧怕因为上帝降临是要试验你们叫你们时常敬畏祂不致犯罪",
-      "confidence": 0.632
+      "confidence": 0.659,
+      "quality": {
+        "coverage": 0.587,
+        "coherentCoverage": 0.478,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.5,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 10,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\41-4.mp3.json",
+          "transcriptSha256": "7f1ed4564737a1e5f3f9ab7ebb1e4c463531acf8085f65c1d126dd72cee6f359",
+          "phraseChars": 12,
+          "candidate": 123.8,
+          "expectedPhrase": "叫你们时常敬畏他不致犯罪",
+          "actualPhrase": "教你们时常敬畏他不是犯罪",
+          "phoneticPhrase": [
+            "jiao",
+            "ni",
+            "men",
+            "shi",
+            "chang",
+            "jing",
+            "wei",
+            "ta",
+            "bu",
+            "zhi",
+            "fan",
+            "zui"
+          ],
+          "actualPhoneticPhrase": [
+            "jiao",
+            "ni",
+            "men",
+            "shi",
+            "chang",
+            "jing",
+            "wei",
+            "ta",
+            "bu",
+            "shi",
+            "fan",
+            "zui"
+          ],
+          "verified": true,
+          "time": 123.8,
+          "boundedPhonetic": true,
+          "exactEndpointPhonemes": 2,
+          "maxInternalPhoneticDifferences": 2,
+          "phoneticDifferences": [
+            9
+          ],
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "教",
+              "start": 119.36,
+              "end": 120.26,
+              "rawStart": 317,
+              "rawEnd": 317,
+              "precision": "word"
+            },
+            {
+              "text": "你",
+              "start": 120.26,
+              "end": 120.52,
+              "rawStart": 318,
+              "rawEnd": 318,
+              "precision": "word"
+            },
+            {
+              "text": "们",
+              "start": 120.26,
+              "end": 120.52,
+              "rawStart": 319,
+              "rawEnd": 319,
+              "precision": "word"
+            },
+            {
+              "text": "时",
+              "start": 120.52,
+              "end": 121.1,
+              "rawStart": 320,
+              "rawEnd": 320,
+              "precision": "word"
+            },
+            {
+              "text": "常",
+              "start": 121.1,
+              "end": 121.58,
+              "rawStart": 321,
+              "rawEnd": 321,
+              "precision": "word"
+            },
+            {
+              "text": "敬",
+              "start": 121.58,
+              "end": 121.88,
+              "rawStart": 322,
+              "rawEnd": 322,
+              "precision": "word"
+            },
+            {
+              "text": "畏",
+              "start": 121.88,
+              "end": 122.08,
+              "rawStart": 323,
+              "rawEnd": 323,
+              "precision": "word"
+            },
+            {
+              "text": "他",
+              "start": 122.08,
+              "end": 122.44,
+              "rawStart": 324,
+              "rawEnd": 324,
+              "precision": "word"
+            },
+            {
+              "text": "不",
+              "start": 122.44,
+              "end": 123.22,
+              "rawStart": 325,
+              "rawEnd": 325,
+              "precision": "word"
+            },
+            {
+              "text": "是",
+              "start": 122.44,
+              "end": 123.22,
+              "rawStart": 326,
+              "rawEnd": 326,
+              "precision": "word"
+            },
+            {
+              "text": "犯",
+              "start": 123.22,
+              "end": 123.54,
+              "rawStart": 327,
+              "rawEnd": 327,
+              "precision": "word"
+            },
+            {
+              "text": "罪",
+              "start": 123.54,
+              "end": 123.8,
+              "rawStart": 328,
+              "rawEnd": 328,
+              "precision": "word"
+            }
+          ],
+          "source": "bounded-local-phonetic-differences-original-word-times",
+          "listenedByAgent": false,
+          "audioSha256": "70a65a0d1288b65e22462a6732b009d1260cc28acebba7aeb1c544ffcbe4250c",
+          "reason": "实际首/尾2个音节贴边相同，12音节局部短句最多2处内部识别差异；完整词边界、源段及录音唯一性、数字一致、停顿与相邻时间均核验，不逐字检查正文中间。"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 111.78,
+        "previousEnd": 125.2,
+        "previousConfidence": 0.675
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "041_第四十一问 道德律是总括在什么里面.md",
+          "audio": "41-4.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\041_第四十一问 道德律是总括在什么里面\\audio-05.json",
+          "targetIndex": 19,
+          "edge": "end",
+          "previousTime": 125.2,
+          "time": 123.8,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 111.78,
+            "time": 111.78,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\41-4.mp3.json",
+              "sha256": "9e8c390049886a6ea7bc1f39a4ff49aa42fe247a0f574beb3e09b922ec6a829a",
+              "anchor": {
+                "time": 111.78,
+                "score": 0.8571,
+                "ratio": 0.8571,
+                "expected": "moxidui100xingshuobuyaojupayinwei",
+                "actual": "摩西对100姓说不要祝他因为",
+                "span": [
+                  111.78,
+                  116.62
+                ],
+                "tokens": [
+                  {
+                    "text": "摩",
+                    "start": 111.78,
+                    "end": 112.34,
+                    "rawStart": 293,
+                    "rawEnd": 293,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "西",
+                    "start": 112.34,
+                    "end": 112.54,
+                    "rawStart": 294,
+                    "rawEnd": 294,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "对",
+                    "start": 112.54,
+                    "end": 112.76,
+                    "rawStart": 295,
+                    "rawEnd": 295,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 112.76,
+                    "end": 113.2,
+                    "rawStart": 296,
+                    "rawEnd": 296,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "0",
+                    "start": 112.76,
+                    "end": 113.2,
+                    "rawStart": 297,
+                    "rawEnd": 297,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "0",
+                    "start": 112.76,
+                    "end": 113.2,
+                    "rawStart": 298,
+                    "rawEnd": 298,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "姓",
+                    "start": 113.2,
+                    "end": 113.42,
+                    "rawStart": 299,
+                    "rawEnd": 299,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "说",
+                    "start": 113.42,
+                    "end": 113.76,
+                    "rawStart": 300,
+                    "rawEnd": 300,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "不",
+                    "start": 114.54,
+                    "end": 115.08,
+                    "rawStart": 301,
+                    "rawEnd": 301,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "要",
+                    "start": 114.54,
+                    "end": 115.08,
+                    "rawStart": 302,
+                    "rawEnd": 302,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "祝",
+                    "start": 115.08,
+                    "end": 115.36,
+                    "rawStart": 303,
+                    "rawEnd": 303,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "他",
+                    "start": 115.36,
+                    "end": 115.66,
+                    "rawStart": 304,
+                    "rawEnd": 304,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "因",
+                    "start": 115.66,
+                    "end": 116.62,
+                    "rawStart": 305,
+                    "rawEnd": 305,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "为",
+                    "start": 115.66,
+                    "end": 116.62,
+                    "rawStart": 306,
+                    "rawEnd": 306,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "摩西对百姓说:“不要惧怕,因为神降临是要试验你们,叫你们时常敬畏祂,不致犯罪。”"
+            }
+          }
+        }
+      }
     },
     {
       "start": 125.2,
@@ -61,7 +1342,83 @@
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "如果我们以正确的方式敬畏祂我们就会谨慎不去得罪上帝",
-      "confidence": 0.96
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 125.2,
+        "previousEnd": 132.5,
+        "previousConfidence": 1.0
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v8-rendered-list-and-empty-paragraph-indices",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (4 leading chars, coverage 0.800): target 16: 出埃及记19:16-19 到了第三天早晨，在山上有雷轰、闪电和密云，并且角声甚大，营中的百姓尽都",
+    "unverified start anchor: target 16: 出埃及记19:16-19 到了第三天早晨，在山上有雷轰、闪电和密云，并且角声甚大，营中的百姓尽都",
+    "unverified start anchor: target 17: 出埃及记20:18-19 众百姓见雷轰、闪电、角声、山上冒烟，就都发颤，远远地站立，对摩西说：“",
+    "unverified start anchor: target 18: 尽管上帝并不是想让我们像惧怕凶恶的怪兽那样怕祂，不过祂确实要我们敬畏祂。请读出埃及记20:20。",
+    "unverified end anchor: target 18: 尽管上帝并不是想让我们像惧怕凶恶的怪兽那样怕祂，不过祂确实要我们敬畏祂。请读出埃及记20:20。",
+    "incomplete start (10 leading chars, coverage 0.500): target 19: 出埃及记20:20 摩西对百姓说：“不要惧怕，因为神降临是要试验你们，叫你们时常敬畏祂，不致犯罪",
+    "unverified start anchor: target 19: 出埃及记20:20 摩西对百姓说：“不要惧怕，因为神降临是要试验你们，叫你们时常敬畏祂，不致犯罪",
+    "repair unverified start (previous-verified-end): target 16",
+    "repair unverified start (previous-sync): target 17",
+    "repair unverified start (previous-sync): target 18",
+    "repair unverified end (previous-sync): target 18",
+    "repair unverified start (previous-sync): target 19",
+    "repair unverified end (previous-sync): target 19"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 4,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "42b37ddd928e4877af9e7ed6cf1cbb52c33e7783fdbd8c43dbabf3bac1051135",
+  "repairCueDigest": "b7eac9d125cbd3b018d6a5afc3a325365b39c35bf3b6256b51efe471fd3fe048",
+  "previousAlignmentWarnings": []
 }

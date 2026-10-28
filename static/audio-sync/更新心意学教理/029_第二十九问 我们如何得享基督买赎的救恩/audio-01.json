@@ -8,20 +8,54 @@
   "audioDuration": 104.352,
   "cues": [
     {
-      "start": 1.57,
-      "end": 2.93,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "礼拜一",
-      "confidence": 0.8
-    },
-    {
       "start": 2.93,
-      "end": 34.83,
+      "end": 34.05,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "假设你是全世界最邪恶的统治者的俘虏假设这位统治者一直剥夺你的自由将你限制在一个黑暗痛苦的国度里不",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 2.93,
+        "previousEnd": 34.83,
+        "previousConfidence": 1.0
+      }
     },
     {
       "start": 34.83,
@@ -29,7 +63,194 @@
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "我们每个人在信靠基督之前就是这样生活的我们需要一位比我们的强敌撒但更厉害的来救我们脱离他的控制将",
-      "confidence": 0.904
+      "confidence": 0.91,
+      "quality": {
+        "coverage": 0.915,
+        "coherentCoverage": 0.864,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 34.83,
+        "previousEnd": 84.83,
+        "previousConfidence": 0.904
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 34.83,
+            "time": 34.83,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\29-1.mp3.json",
+              "sha256": "652649d8c656d49c84510df2126a6ac5523d4fa2255cee1bb4b0ebb3e140aa95",
+              "anchor": {
+                "time": 34.83,
+                "score": 0.8906,
+                "ratio": 0.8966,
+                "expected": "womenmeigerenzaixinkaojiduzhiqianjiushi",
+                "actual": "我们每1个人在献考基督之前就是",
+                "span": [
+                  34.83,
+                  37.97
+                ],
+                "tokens": [
+                  {
+                    "text": "我",
+                    "start": 34.83,
+                    "end": 35.35,
+                    "rawStart": 108,
+                    "rawEnd": 108,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 34.83,
+                    "end": 35.35,
+                    "rawStart": 109,
+                    "rawEnd": 109,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "每",
+                    "start": 35.35,
+                    "end": 35.57,
+                    "rawStart": 110,
+                    "rawEnd": 110,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 35.57,
+                    "end": 35.83,
+                    "rawStart": 111,
+                    "rawEnd": 111,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "个",
+                    "start": 35.57,
+                    "end": 35.83,
+                    "rawStart": 112,
+                    "rawEnd": 112,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 35.83,
+                    "end": 36.07,
+                    "rawStart": 113,
+                    "rawEnd": 113,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "在",
+                    "start": 36.07,
+                    "end": 36.41,
+                    "rawStart": 114,
+                    "rawEnd": 114,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "献",
+                    "start": 36.41,
+                    "end": 36.77,
+                    "rawStart": 115,
+                    "rawEnd": 115,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "考",
+                    "start": 36.77,
+                    "end": 36.95,
+                    "rawStart": 116,
+                    "rawEnd": 116,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "基",
+                    "start": 36.95,
+                    "end": 37.13,
+                    "rawStart": 117,
+                    "rawEnd": 117,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "督",
+                    "start": 37.13,
+                    "end": 37.19,
+                    "rawStart": 118,
+                    "rawEnd": 118,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "之",
+                    "start": 37.19,
+                    "end": 37.63,
+                    "rawStart": 119,
+                    "rawEnd": 119,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "前",
+                    "start": 37.19,
+                    "end": 37.63,
+                    "rawStart": 120,
+                    "rawEnd": 120,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "就",
+                    "start": 37.63,
+                    "end": 37.97,
+                    "rawStart": 121,
+                    "rawEnd": 121,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 37.63,
+                    "end": 37.97,
+                    "rawStart": 122,
+                    "rawEnd": 122,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "我们每个人在信靠基督之前就是这样生活的。我们需要一位比我们的强敌撒但更厉害的,来救我们脱离他的控制,将我们放在智慧和良善的君王,耶稣的国度里。因为我们的罪,撒但在我们身上就有了权势。为要释放我们脱离他的邪恶统治,必须有人为我们的罪付上代价。耶稣将我们从撒但的权势下释放出来,将我们放在祂自己的国度里。耶稣买赎了我们,或者说,为我们的罪付上了代价,叫我们脱离撒但。请读歌罗西书1:13-14。"
+            }
+          }
+        }
+      }
     },
     {
       "start": 84.83,
@@ -37,7 +258,214 @@
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "歌罗西书11314祂救了我们脱离黑暗的权势把我们迁到祂爱子的国里我们在爱子里得蒙救赎罪过得以赦免",
-      "confidence": 0.773
+      "confidence": 0.773,
+      "quality": {
+        "coverage": 0.708,
+        "coherentCoverage": 0.625,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.45,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 10,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 84.83,
+        "previousEnd": 98.85,
+        "previousConfidence": 0.773
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 84.83,
+            "time": 84.83,
+            "reason": "正文起句已定位，保留原先读出处范围",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\29-1.mp3.json",
+              "sha256": "652649d8c656d49c84510df2126a6ac5523d4fa2255cee1bb4b0ebb3e140aa95",
+              "anchor": {
+                "time": 86.19,
+                "score": 0.9272,
+                "ratio": 0.9286,
+                "expected": "tajiulewomentuoliheiandequanshibawo",
+                "actual": "她救了我们脱离黑暗的蠢事把我",
+                "span": [
+                  86.19,
+                  90.75
+                ],
+                "tokens": [
+                  {
+                    "text": "她",
+                    "start": 86.19,
+                    "end": 86.85,
+                    "rawStart": 288,
+                    "rawEnd": 288,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "救",
+                    "start": 86.85,
+                    "end": 87.29,
+                    "rawStart": 289,
+                    "rawEnd": 289,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "了",
+                    "start": 87.29,
+                    "end": 87.49,
+                    "rawStart": 290,
+                    "rawEnd": 290,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 87.49,
+                    "end": 87.77,
+                    "rawStart": 291,
+                    "rawEnd": 291,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 87.49,
+                    "end": 87.77,
+                    "rawStart": 292,
+                    "rawEnd": 292,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "脱",
+                    "start": 87.77,
+                    "end": 88.21,
+                    "rawStart": 293,
+                    "rawEnd": 293,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "离",
+                    "start": 88.21,
+                    "end": 88.43,
+                    "rawStart": 294,
+                    "rawEnd": 294,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "黑",
+                    "start": 88.43,
+                    "end": 88.71,
+                    "rawStart": 295,
+                    "rawEnd": 295,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "暗",
+                    "start": 88.71,
+                    "end": 88.89,
+                    "rawStart": 296,
+                    "rawEnd": 296,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 88.89,
+                    "end": 89.03,
+                    "rawStart": 297,
+                    "rawEnd": 297,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "蠢",
+                    "start": 89.03,
+                    "end": 89.25,
+                    "rawStart": 298,
+                    "rawEnd": 298,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "事",
+                    "start": 89.25,
+                    "end": 89.59,
+                    "rawStart": 299,
+                    "rawEnd": 299,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "把",
+                    "start": 89.59,
+                    "end": 90.41,
+                    "rawStart": 300,
+                    "rawEnd": 300,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 90.41,
+                    "end": 90.75,
+                    "rawStart": 301,
+                    "rawEnd": 301,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "祂救了我们脱离黑暗的权势,把我们迁到祂爱子的国里;我们在爱子里得蒙救赎,罪过得以赦免。",
+              "retainedCitationInterval": [
+                84.83,
+                86.19
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 4: 我们每个人在信靠基督之前就是这样生活的。我们需要一位比我们的强敌撒但更厉害的，来救我们脱离他的控",
+    "incomplete start (10 leading chars, coverage 0.450): target 5: 歌罗西书1:13-14 祂救了我们脱离黑暗的权势，把我们迁到祂爱子的国里；我们在爱子里得蒙救赎，",
+    "unverified start anchor: target 5: 歌罗西书1:13-14 祂救了我们脱离黑暗的权势，把我们迁到祂爱子的国里；我们在爱子里得蒙救赎，",
+    "repair unverified start (previous-sync): target 4",
+    "repair unverified start (previous-sync): target 5"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "192cfc47748dc626a70c52eea975adca63eaaf00ef165e6603456ad89b26cb5f",
+  "repairCueDigest": "93993f59f2bc54b65e8d7b69f52cce8c5515527183365f6c3c16a4eb8426d480",
+  "previousAlignmentWarnings": []
 }

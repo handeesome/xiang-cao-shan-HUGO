@@ -8,124 +8,1348 @@
   "audioDuration": 671.8051875,
   "cues": [
     {
-      "start": 1.55,
-      "end": 15.08,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第七章灵魂的注视",
-      "confidence": 0.8
-    },
-    {
       "start": 15.08,
       "end": 20.64,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "仰望为我们信心创始成终的耶稣来122",
-      "confidence": 0.812
+      "confidence": 0.812,
+      "quality": {
+        "coverage": 0.722,
+        "coherentCoverage": 0.556,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.444,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 15.08,
+        "previousEnd": 20.64,
+        "previousConfidence": 0.812
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 20.64,
+            "time": 20.64,
+            "reason": "正文末句已定位，保留原出处结束范围，避免因书名识别差异截掉已读出处",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\7-1.mp3.json",
+              "sha256": "a62596513fb9632b2752fd953474b14f16061e400ad333713433df7d1eba1bcd",
+              "anchor": {
+                "time": 19.38,
+                "score": 0.9987,
+                "ratio": 1.0,
+                "expected": "yangwangweiwomenxinxinchuangshichengzhongdeyesu",
+                "actual": "仰望为我们信心创始成中的耶稣",
+                "span": [
+                  15.08,
+                  19.38
+                ],
+                "tokens": [
+                  {
+                    "text": "仰",
+                    "start": 15.08,
+                    "end": 15.68,
+                    "rawStart": 16,
+                    "rawEnd": 16,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "望",
+                    "start": 15.68,
+                    "end": 16.0,
+                    "rawStart": 17,
+                    "rawEnd": 17,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "为",
+                    "start": 16.0,
+                    "end": 16.46,
+                    "rawStart": 18,
+                    "rawEnd": 18,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 16.46,
+                    "end": 16.88,
+                    "rawStart": 19,
+                    "rawEnd": 19,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 16.46,
+                    "end": 16.88,
+                    "rawStart": 20,
+                    "rawEnd": 20,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "信",
+                    "start": 16.88,
+                    "end": 17.14,
+                    "rawStart": 21,
+                    "rawEnd": 21,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "心",
+                    "start": 17.14,
+                    "end": 17.44,
+                    "rawStart": 22,
+                    "rawEnd": 22,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "创",
+                    "start": 17.44,
+                    "end": 17.9,
+                    "rawStart": 23,
+                    "rawEnd": 23,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "始",
+                    "start": 17.9,
+                    "end": 18.28,
+                    "rawStart": 24,
+                    "rawEnd": 24,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "成",
+                    "start": 18.28,
+                    "end": 18.58,
+                    "rawStart": 25,
+                    "rawEnd": 25,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "中",
+                    "start": 18.58,
+                    "end": 18.82,
+                    "rawStart": 26,
+                    "rawEnd": 26,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 18.82,
+                    "end": 18.96,
+                    "rawStart": 27,
+                    "rawEnd": 27,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "耶",
+                    "start": 18.96,
+                    "end": 19.14,
+                    "rawStart": 28,
+                    "rawEnd": 28,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "稣",
+                    "start": 19.14,
+                    "end": 19.38,
+                    "rawStart": 29,
+                    "rawEnd": 29,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 21.54,
+                  "score": 0.8843,
+                  "actual": "仰望为我们信心创始成中的耶稣我们试"
+                }
+              },
+              "body": "“仰望为我们信心创始成终的耶稣。”",
+              "retainedCitationInterval": [
+                19.38,
+                20.64
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "start": 20.64,
-      "end": 46.96,
+      "end": 47.68,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "我们试想想第六章所提那个稍稍有思想的人第一次读圣经的时候是怎样的光景他对圣经中的一切事先是毫无所",
-      "confidence": 0.851
+      "confidence": 0.956,
+      "quality": {
+        "coverage": 0.956,
+        "coherentCoverage": 0.934,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 20.64,
+        "previousEnd": 47.68,
+        "previousConfidence": 0.957
+      }
     },
     {
-      "start": 46.96,
-      "end": 99.04,
+      "start": 48.48,
+      "end": 97.7,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "像这样的一个人读圣经不必经过多少时间就会注意到一些在字句以外的真理那就是在记录上帝人关系背后的那",
-      "confidence": 0.787
+      "confidence": 0.921,
+      "quality": {
+        "coverage": 0.905,
+        "coherentCoverage": 0.851,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 48.48,
+        "previousEnd": 97.7,
+        "previousConfidence": 0.921
+      }
     },
     {
       "start": 99.04,
-      "end": 144.98,
+      "end": 143.92,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "在圣经的许多法则中居于最高的就是信心他很容易便看到圣经对信心的重视决不会把它忽略他很可能作如下的",
-      "confidence": 0.803
+      "confidence": 0.916,
+      "quality": {
+        "coverage": 0.89,
+        "coherentCoverage": 0.87,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 99.04,
+        "previousEnd": 143.92,
+        "previousConfidence": 0.916
+      }
     },
     {
       "start": 144.98,
-      "end": 177.04,
+      "end": 175.78,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "当这个人读到希伯来书第十一章时他看见对于有信心的人的赞美也不会以为奇怪他或已读过保罗在罗马书和加",
-      "confidence": 0.844
+      "confidence": 0.843,
+      "quality": {
+        "coverage": 0.832,
+        "coherentCoverage": 0.779,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 144.98,
+        "previousEnd": 175.78,
+        "previousConfidence": 0.844
+      }
     },
     {
       "start": 177.04,
-      "end": 205.48,
+      "end": 205.66,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "既然知道信心如此的重要它是我们追求认识上帝所必须有的东西那么很自然地我们极其关心自己到底有没有得",
-      "confidence": 0.76
+      "confidence": 0.947,
+      "quality": {
+        "coverage": 0.934,
+        "coherentCoverage": 0.925,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 177.04,
+        "previousEnd": 205.66,
+        "previousConfidence": 0.947
+      }
     },
     {
-      "start": 205.48,
-      "end": 302.6,
+      "start": 216.84,
+      "end": 301.54,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "几乎一切讲者和作者说到信心所讲的都是那一套东西他们说信心就是相信上帝的应许把上帝的话当作实在的把",
-      "confidence": 0.803
+      "confidence": 0.905,
+      "quality": {
+        "coverage": 0.906,
+        "coherentCoverage": 0.866,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 216.84,
+        "previousEnd": 301.54,
+        "previousConfidence": 0.905
+      }
     },
     {
       "start": 302.6,
-      "end": 348.42,
+      "end": 347.36,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "实际说来在圣经中并没有把信心下一个明确的定义除了希伯来书第十一章第一节那短短十八个字的定义以外我",
-      "confidence": 0.873
+      "confidence": 0.959,
+      "quality": {
+        "coverage": 0.956,
+        "coherentCoverage": 0.95,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 302.6,
+        "previousEnd": 347.36,
+        "previousConfidence": 0.96
+      }
     },
     {
       "start": 348.42,
-      "end": 390.34,
+      "end": 389.06,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "我们最好只了解到这里为止而不求更深的明白我们只知道它从哪里来以及它籍着什么方法来到我们里面信心是",
-      "confidence": 0.887
+      "confidence": 0.903,
+      "quality": {
+        "coverage": 0.928,
+        "coherentCoverage": 0.888,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 348.42,
+        "previousEnd": 389.06,
+        "previousConfidence": 0.887
+      }
     },
     {
       "start": 390.34,
-      "end": 414.24,
+      "end": 413.6,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "以下所提到的信心是或类似的话我的意思乃是指是一个相信上帝的人信心的实行现在让我们抛开关于信心定义",
-      "confidence": 0.988
+      "confidence": 0.988,
+      "quality": {
+        "coverage": 0.977,
+        "coherentCoverage": 0.977,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 390.34,
+        "previousEnd": 413.6,
+        "previousConfidence": 0.988
+      }
     },
     {
       "start": 414.24,
-      "end": 459.16,
+      "end": 461.3,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "民数记中有一段戏剧性的故事叫我们看到信心在作用方面的表现以色列人因为道路难行开始沮丧并且怨讟上帝",
-      "confidence": 0.828
+      "confidence": 0.862,
+      "quality": {
+        "coverage": 0.875,
+        "coherentCoverage": 0.789,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 3,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "start substitution",
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 0.833,
+          "localSimilarity": 0.889,
+          "localText": "民数记中有1段戏剧性的故事叫我们看到信心在作用方",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "source": "existing-small-transcript-local-phrase",
+          "model": ".audio-sync-cache\\models\\small",
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\7-1.mp3.json",
+          "transcriptSha256": "a62596513fb9632b2752fd953474b14f16061e400ad333713433df7d1eba1bcd",
+          "audioSha256": null,
+          "audioDuration": 671.8051875,
+          "syncAudioDuration": 671.8051875,
+          "audioDurationMatch": true,
+          "fullFileTranscribed": false,
+          "newDownloads": 0,
+          "listenedByAgent": false,
+          "timingPrecision": "word",
+          "localSupported": true,
+          "contextUsed": true,
+          "verificationMethod": "bounded-local-12-syllable",
+          "verified": true,
+          "candidateTime": 461.3,
+          "expectedPhrase": "蛇就活了民数记21章9节",
+          "actualPhrase": "蛇就活了明书记21章就结",
+          "wordTokens": [
+            {
+              "text": "蛇",
+              "start": 458.02,
+              "end": 458.32,
+              "rawStart": 1464,
+              "rawEnd": 1464,
+              "precision": "word"
+            },
+            {
+              "text": "就",
+              "start": 458.32,
+              "end": 458.6,
+              "rawStart": 1465,
+              "rawEnd": 1465,
+              "precision": "word"
+            },
+            {
+              "text": "活",
+              "start": 458.6,
+              "end": 458.86,
+              "rawStart": 1466,
+              "rawEnd": 1466,
+              "precision": "word"
+            },
+            {
+              "text": "了",
+              "start": 458.86,
+              "end": 459.16,
+              "rawStart": 1467,
+              "rawEnd": 1467,
+              "precision": "word"
+            },
+            {
+              "text": "明",
+              "start": 459.16,
+              "end": 459.64,
+              "rawStart": 1468,
+              "rawEnd": 1468,
+              "precision": "word"
+            },
+            {
+              "text": "书",
+              "start": 459.64,
+              "end": 459.82,
+              "rawStart": 1469,
+              "rawEnd": 1469,
+              "precision": "word"
+            },
+            {
+              "text": "记",
+              "start": 459.82,
+              "end": 460.02,
+              "rawStart": 1470,
+              "rawEnd": 1470,
+              "precision": "word"
+            },
+            {
+              "text": "2",
+              "start": 460.02,
+              "end": 460.56,
+              "rawStart": 1471,
+              "rawEnd": 1471,
+              "precision": "word"
+            },
+            {
+              "text": "1",
+              "start": 460.02,
+              "end": 460.56,
+              "rawStart": 1472,
+              "rawEnd": 1472,
+              "precision": "word"
+            },
+            {
+              "text": "章",
+              "start": 460.56,
+              "end": 460.78,
+              "rawStart": 1473,
+              "rawEnd": 1473,
+              "precision": "word"
+            },
+            {
+              "text": "就",
+              "start": 460.78,
+              "end": 461.0,
+              "rawStart": 1474,
+              "rawEnd": 1474,
+              "precision": "word"
+            },
+            {
+              "text": "结",
+              "start": 461.0,
+              "end": 461.3,
+              "rawStart": 1475,
+              "rawEnd": 1475,
+              "precision": "word"
+            }
+          ],
+          "phoneticDifferences": [
+            4
+          ],
+          "reason": "本段首/尾12音节局部短句唯一对应正文边界，词级时间及段落身份通过核验；词稿与sync记录时长完全一致。 录音文件不在工作区，因此没有可核对的音频 SHA-256。"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 414.24,
+        "previousEnd": 459.16,
+        "previousConfidence": 0.835
+      },
+      "boundaryCorrections": [
+        {
+          "book": "渴慕神",
+          "page": "07_第七章 灵魂的注视.md",
+          "audio": "7-1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\渴慕神\\07_第七章 灵魂的注视\\audio-01.json",
+          "targetIndex": 11,
+          "edge": "end",
+          "previousTime": 459.16,
+          "time": 461.3,
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "kind": "local-phrase-boundary-correction",
+          "proof": {
+            "source": "existing-small-transcript-local-phrase",
+            "model": ".audio-sync-cache\\models\\small",
+            "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\7-1.mp3.json",
+            "transcriptSha256": "a62596513fb9632b2752fd953474b14f16061e400ad333713433df7d1eba1bcd",
+            "audioSha256": null,
+            "audioDuration": 671.8051875,
+            "syncAudioDuration": 671.8051875,
+            "audioDurationMatch": true,
+            "fullFileTranscribed": false,
+            "newDownloads": 0,
+            "listenedByAgent": false,
+            "timingPrecision": "word",
+            "localSupported": true,
+            "contextUsed": true,
+            "verificationMethod": "bounded-local-12-syllable",
+            "verified": true,
+            "candidateTime": 461.3,
+            "expectedPhrase": "蛇就活了民数记21章9节",
+            "actualPhrase": "蛇就活了明书记21章就结",
+            "wordTokens": [
+              {
+                "text": "蛇",
+                "start": 458.02,
+                "end": 458.32,
+                "rawStart": 1464,
+                "rawEnd": 1464,
+                "precision": "word"
+              },
+              {
+                "text": "就",
+                "start": 458.32,
+                "end": 458.6,
+                "rawStart": 1465,
+                "rawEnd": 1465,
+                "precision": "word"
+              },
+              {
+                "text": "活",
+                "start": 458.6,
+                "end": 458.86,
+                "rawStart": 1466,
+                "rawEnd": 1466,
+                "precision": "word"
+              },
+              {
+                "text": "了",
+                "start": 458.86,
+                "end": 459.16,
+                "rawStart": 1467,
+                "rawEnd": 1467,
+                "precision": "word"
+              },
+              {
+                "text": "明",
+                "start": 459.16,
+                "end": 459.64,
+                "rawStart": 1468,
+                "rawEnd": 1468,
+                "precision": "word"
+              },
+              {
+                "text": "书",
+                "start": 459.64,
+                "end": 459.82,
+                "rawStart": 1469,
+                "rawEnd": 1469,
+                "precision": "word"
+              },
+              {
+                "text": "记",
+                "start": 459.82,
+                "end": 460.02,
+                "rawStart": 1470,
+                "rawEnd": 1470,
+                "precision": "word"
+              },
+              {
+                "text": "2",
+                "start": 460.02,
+                "end": 460.56,
+                "rawStart": 1471,
+                "rawEnd": 1471,
+                "precision": "word"
+              },
+              {
+                "text": "1",
+                "start": 460.02,
+                "end": 460.56,
+                "rawStart": 1472,
+                "rawEnd": 1472,
+                "precision": "word"
+              },
+              {
+                "text": "章",
+                "start": 460.56,
+                "end": 460.78,
+                "rawStart": 1473,
+                "rawEnd": 1473,
+                "precision": "word"
+              },
+              {
+                "text": "就",
+                "start": 460.78,
+                "end": 461.0,
+                "rawStart": 1474,
+                "rawEnd": 1474,
+                "precision": "word"
+              },
+              {
+                "text": "结",
+                "start": 461.0,
+                "end": 461.3,
+                "rawStart": 1475,
+                "rawEnd": 1475,
+                "precision": "word"
+              }
+            ],
+            "phoneticDifferences": [
+              4
+            ],
+            "reason": "本段首/尾12音节局部短句唯一对应正文边界，词级时间及段落身份通过核验；词稿与sync记录时长完全一致。 录音文件不在工作区，因此没有可核对的音频 SHA-256。"
+          },
+          "reason": "本段首/尾12音节局部短句唯一对应正文边界，词级时间及段落身份通过核验；词稿与sync记录时长完全一致。 录音文件不在工作区，因此没有可核对的音频 SHA-256。"
+        }
+      ]
     },
     {
-      "start": 459.16,
-      "end": 491.44,
+      "start": 461.86,
+      "end": 493.68,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "新约里这一段历史我们主耶稣作了一个权威性的解释祂向听众解释人怎样得上帝的拯救祂告诉他们是籍着相信",
-      "confidence": 0.833
+      "confidence": 0.908,
+      "quality": {
+        "coverage": 0.925,
+        "coherentCoverage": 0.897,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 461.86,
+        "previousEnd": 493.68,
+        "previousConfidence": 0.908
+      }
     },
     {
-      "start": 491.44,
-      "end": 528.38,
+      "start": 494.58,
+      "end": 527.22,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "稍稍有思想的人读到这里就会有一个重要的发现他会注意到望和信是两个同义的字望那旧约中的铜蛇就等于信",
-      "confidence": 0.895
+      "confidence": 0.943,
+      "quality": {
+        "coverage": 0.947,
+        "coherentCoverage": 0.921,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 494.58,
+        "previousEnd": 527.22,
+        "previousConfidence": 0.943
+      }
     },
     {
       "start": 528.38,
-      "end": 613.44,
+      "end": 614.2,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "他看了这些就会联想到已读过的经文并且其中的意义如同泉涌来到他的心中凡仰望他的便有光荣他们的脸必不",
-      "confidence": 0.769
+      "confidence": 0.846,
+      "quality": {
+        "coverage": 0.872,
+        "coherentCoverage": 0.802,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 528.38,
+        "previousEnd": 613.44,
+        "previousConfidence": 0.796
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 613.44,
+            "time": 614.2,
+            "reason": "正文首尾局部已定位",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\7-1.mp3.json",
+              "sha256": "a62596513fb9632b2752fd953474b14f16061e400ad333713433df7d1eba1bcd",
+              "anchor": {
+                "time": 614.2,
+                "score": 0.9278,
+                "ratio": 0.9286,
+                "expected": "buduandikanyushifusuozuodetacainengzuo",
+                "actual": "不断的看于是副所做的他才能做",
+                "span": [
+                  609.44,
+                  614.2
+                ],
+                "tokens": [
+                  {
+                    "text": "不",
+                    "start": 609.44,
+                    "end": 609.68,
+                    "rawStart": 1950,
+                    "rawEnd": 1950,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "断",
+                    "start": 609.68,
+                    "end": 609.94,
+                    "rawStart": 1951,
+                    "rawEnd": 1951,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 609.94,
+                    "end": 610.06,
+                    "rawStart": 1952,
+                    "rawEnd": 1952,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "看",
+                    "start": 610.06,
+                    "end": 610.34,
+                    "rawStart": 1953,
+                    "rawEnd": 1953,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "于",
+                    "start": 610.34,
+                    "end": 611.16,
+                    "rawStart": 1954,
+                    "rawEnd": 1954,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 611.16,
+                    "end": 611.46,
+                    "rawStart": 1955,
+                    "rawEnd": 1955,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "副",
+                    "start": 611.46,
+                    "end": 611.98,
+                    "rawStart": 1956,
+                    "rawEnd": 1956,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "所",
+                    "start": 611.98,
+                    "end": 612.26,
+                    "rawStart": 1957,
+                    "rawEnd": 1957,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "做",
+                    "start": 612.26,
+                    "end": 612.5,
+                    "rawStart": 1958,
+                    "rawEnd": 1958,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 612.5,
+                    "end": 612.72,
+                    "rawStart": 1959,
+                    "rawEnd": 1959,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "他",
+                    "start": 612.72,
+                    "end": 613.04,
+                    "rawStart": 1960,
+                    "rawEnd": 1960,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "才",
+                    "start": 613.04,
+                    "end": 613.26,
+                    "rawStart": 1961,
+                    "rawEnd": 1961,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "能",
+                    "start": 613.26,
+                    "end": 613.44,
+                    "rawStart": 1962,
+                    "rawEnd": 1962,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "做",
+                    "start": 613.44,
+                    "end": 614.2,
+                    "rawStart": 1963,
+                    "rawEnd": 1963,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "他看了这些就会联想到已读过的经文,并且其中的意义如同泉涌来到他的心中。“凡仰望他的,便有光荣;他们的脸,必不蒙羞。”(诗 34:5)“坐在天上主啊,我向你举目。看哪,仆人的眼睛怎样望主人的手,使女的眼睛怎样望主母的手,我们的眼睛也照样望耶和华我们的神,直到他怜悯我们。”(诗篇123:1-2)在这里是求怜悯的人,一直望着那位发怜悯的神,他的眼睛从不离开神,直到他得着怜悯。连我们的主耶稣自己也常常望着神。“......望着天祝福,擘开饼,递给门徒,......”(太 14:19)。显然耶稣在教训人,祂作成祂的工作,是籍着用祂里面的眼睛时时望着祂的父。祂的能力是在于祂不断地看,于是,父所作的祂才能作"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.872,
+          "coherentCoverage": 0.802,
+          "extraSpeechContext": false,
+          "prefixCoverage": 1.0,
+          "suffixCoverage": 0.7,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (4 trailing chars, coverage 0.444): target 1: “仰望为我们信心创始成终的耶稣。”（来 12:2）",
+    "unverified start anchor: target 1: “仰望为我们信心创始成终的耶稣。”（来 12:2）",
+    "unverified end anchor: target 1: “仰望为我们信心创始成终的耶稣。”（来 12:2）",
+    "unverified end anchor (detached numeric label): target 11: 民数记中有一段戏剧性的故事，叫我们看到信心在作用方面的表现。以色列人因为道路难行，开始沮丧并且怨",
+    "unverified end anchor (detached numeric label): target 12: 新约里这一段历史，我们主耶稣作了一个权威性的解释。祂向听众解释，人怎样得神的拯救，祂告诉他们是籍",
+    "unverified end anchor (detached numeric label): target 14: 他看了这些就会联想到已读过的经文，并且其中的意义如同泉涌来到他的心中。“凡仰望他的，便有光荣；他",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 11",
+    "repair unverified end (previous-sync): target 14"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 3,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "173cd7881d6a2d23ffa8b12d24cee3b70d3e2c8c9dc7c4b5e5ea34235b36809c",
+  "repairCueDigest": "8753c571abdc2415813ed70dd157223bc1976c6864880ca0bbdf31681bbde684",
+  "previousAlignmentWarnings": []
 }

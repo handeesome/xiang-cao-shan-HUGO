@@ -8,36 +8,546 @@
   "audioDuration": 90.4881875,
   "cues": [
     {
-      "start": 1.18,
-      "end": 2.4,
-      "kind": "heading",
-      "targetIndex": 15,
-      "targetText": "礼拜五",
-      "confidence": 0.8
-    },
-    {
       "start": 2.4,
-      "end": 9.02,
+      "end": 10.9,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "上帝的百姓在主日听道记念主餐共同敬拜请读哥林多前书1612",
-      "confidence": 0.692
+      "confidence": 0.808,
+      "quality": {
+        "coverage": 0.759,
+        "coherentCoverage": 0.724,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.857,
+        "suffixCoverage": 0.643,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "source": "context-reviewed-read-prompt-ending",
+          "contextUsed": true,
+          "identityAmbiguous": false,
+          "continuousAnchor": false,
+          "timingPrecision": "word",
+          "time": 10.9,
+          "expectedPhrase": "上帝的百姓在主日听道、记念主餐，共同敬拜。请读哥林多前书16:1-2。",
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\60-5.mp3.json",
+          "transcriptSha256": "0865f629e6e9fa965f991317def3a1ba386bba96514df535d471ab0e713e9763",
+          "audioSha256": "bd9125f2190ddd2a7bb12bb500de0f9769067766d208fa3a07c140517ed79a1a",
+          "rawSegments": [
+            {
+              "start": 0.66,
+              "end": 10.9,
+              "text": "禮拜五,上帝的百姓在主日聽到,紀念主餐共同敬拜,請讀哥林多陳書十六章一到二節。",
+              "words": [
+                {
+                  "start": 5.76,
+                  "end": 6.24,
+                  "text": "主",
+                  "probability": 0.541808545589447
+                },
+                {
+                  "start": 6.24,
+                  "end": 6.56,
+                  "text": "餐",
+                  "probability": 0.7457341551780701
+                },
+                {
+                  "start": 6.56,
+                  "end": 6.86,
+                  "text": "共",
+                  "probability": 0.9170233011245728
+                },
+                {
+                  "start": 6.86,
+                  "end": 7.08,
+                  "text": "同",
+                  "probability": 0.9968562126159668
+                },
+                {
+                  "start": 7.08,
+                  "end": 7.32,
+                  "text": "敬",
+                  "probability": 0.9464681446552277
+                },
+                {
+                  "start": 7.32,
+                  "end": 7.62,
+                  "text": "拜,",
+                  "probability": 0.961536705493927
+                },
+                {
+                  "start": 8.32,
+                  "end": 8.4,
+                  "text": "請",
+                  "probability": 0.9326037168502808
+                },
+                {
+                  "start": 8.4,
+                  "end": 8.62,
+                  "text": "讀",
+                  "probability": 0.9488290548324585
+                },
+                {
+                  "start": 8.62,
+                  "end": 8.78,
+                  "text": "哥",
+                  "probability": 0.21431699395179749
+                },
+                {
+                  "start": 8.78,
+                  "end": 8.88,
+                  "text": "林",
+                  "probability": 0.3916100561618805
+                },
+                {
+                  "start": 8.88,
+                  "end": 9.02,
+                  "text": "多",
+                  "probability": 0.899749755859375
+                },
+                {
+                  "start": 9.02,
+                  "end": 9.24,
+                  "text": "陳",
+                  "probability": 0.34712767601013184
+                },
+                {
+                  "start": 9.24,
+                  "end": 9.5,
+                  "text": "書",
+                  "probability": 0.8300204873085022
+                },
+                {
+                  "start": 9.5,
+                  "end": 9.76,
+                  "text": "十",
+                  "probability": 0.49336910247802734
+                },
+                {
+                  "start": 9.76,
+                  "end": 9.92,
+                  "text": "六",
+                  "probability": 0.9971344470977783
+                },
+                {
+                  "start": 9.92,
+                  "end": 10.06,
+                  "text": "章",
+                  "probability": 0.7841271162033081
+                },
+                {
+                  "start": 10.06,
+                  "end": 10.28,
+                  "text": "一",
+                  "probability": 0.9396561980247498
+                },
+                {
+                  "start": 10.28,
+                  "end": 10.46,
+                  "text": "到",
+                  "probability": 0.8677917718887329
+                },
+                {
+                  "start": 10.46,
+                  "end": 10.64,
+                  "text": "二",
+                  "probability": 0.9987565279006958
+                },
+                {
+                  "start": 10.64,
+                  "end": 10.9,
+                  "text": "節。",
+                  "probability": 0.8594961166381836
+                }
+              ]
+            }
+          ],
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+          "listenedByAgent": false
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 2.4,
+        "previousEnd": 9.02,
+        "previousConfidence": 0.692
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "060_第六十问 应当如何遵守安息日为圣.md",
+          "audio": "60-5.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\060_第六十问 应当如何遵守安息日为圣\\audio-06.json",
+          "caseIndex": 791,
+          "targetIndex": 16,
+          "edge": "end",
+          "previousTime": 9.02,
+          "time": 10.9,
+          "kind": "verified-edge",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false,
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。"
+        }
+      ]
     },
     {
-      "start": 9.02,
+      "start": 12.08,
       "end": 30.16,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "哥林多前书1612论到为圣徒捐钱我从前怎样吩咐加拉太的众教会你们也当怎样行每逢七日的第一日各人要",
-      "confidence": 0.588
+      "confidence": 0.765,
+      "quality": {
+        "coverage": 0.75,
+        "coherentCoverage": 0.706,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.5,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 9,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "localSupported": false,
+          "source": "previous-verified-end",
+          "time": 10.9,
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "referenceOwnershipConstraint": {
+          "ownerTargetIndex": 16,
+          "ownerTargetText": "上帝的百姓在主日听道记念主餐共同敬拜请读哥林多前书1612",
+          "notBefore": 10.9,
+          "verifiedSpokenOnset": false
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 9.02,
+        "previousEnd": 30.16,
+        "previousConfidence": 0.588
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "060_第六十问 应当如何遵守安息日为圣.md",
+          "audio": "60-5.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\060_第六十问 应当如何遵守安息日为圣\\audio-06.json",
+          "caseIndex": 791,
+          "targetIndex": 17,
+          "edge": "start",
+          "previousTime": 9.02,
+          "time": 10.9,
+          "kind": "unverified-neighbor-constraint",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 10.9,
+            "time": 12.08,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\60-5.mp3.json",
+              "sha256": "121408caf459ea90bb1c8231da4cbb478f24fe59b4a0b5fe13db891a8542e4e8",
+              "anchor": {
+                "time": 12.08,
+                "score": 0.9583,
+                "ratio": 0.9655,
+                "expected": "lundaoweishengtujuanqianwocongqianzenyangfenfu",
+                "actual": "论到为圣土捐钱我从前怎么样吩咐",
+                "span": [
+                  12.08,
+                  16.82
+                ],
+                "tokens": [
+                  {
+                    "text": "论",
+                    "start": 12.08,
+                    "end": 12.56,
+                    "rawStart": 37,
+                    "rawEnd": 37,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "到",
+                    "start": 12.56,
+                    "end": 12.98,
+                    "rawStart": 38,
+                    "rawEnd": 38,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "为",
+                    "start": 12.98,
+                    "end": 13.26,
+                    "rawStart": 39,
+                    "rawEnd": 39,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "圣",
+                    "start": 13.26,
+                    "end": 13.62,
+                    "rawStart": 40,
+                    "rawEnd": 40,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "土",
+                    "start": 13.62,
+                    "end": 13.84,
+                    "rawStart": 41,
+                    "rawEnd": 41,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "捐",
+                    "start": 13.84,
+                    "end": 14.08,
+                    "rawStart": 42,
+                    "rawEnd": 42,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "钱",
+                    "start": 14.08,
+                    "end": 14.42,
+                    "rawStart": 43,
+                    "rawEnd": 43,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 15.0,
+                    "end": 15.18,
+                    "rawStart": 44,
+                    "rawEnd": 44,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "从",
+                    "start": 15.18,
+                    "end": 15.42,
+                    "rawStart": 45,
+                    "rawEnd": 45,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "前",
+                    "start": 15.42,
+                    "end": 15.76,
+                    "rawStart": 46,
+                    "rawEnd": 46,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "怎",
+                    "start": 15.76,
+                    "end": 16.1,
+                    "rawStart": 47,
+                    "rawEnd": 47,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "么",
+                    "start": 16.1,
+                    "end": 16.26,
+                    "rawStart": 48,
+                    "rawEnd": 48,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "样",
+                    "start": 16.26,
+                    "end": 16.4,
+                    "rawStart": 49,
+                    "rawEnd": 49,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "吩",
+                    "start": 16.4,
+                    "end": 16.52,
+                    "rawStart": 50,
+                    "rawEnd": 50,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "咐",
+                    "start": 16.52,
+                    "end": 16.82,
+                    "rawStart": 51,
+                    "rawEnd": 51,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "论到为圣徒捐钱,我从前怎样吩咐加拉太的众教会,你们也当怎样行。每逢七日的第一日,各人要照自己的进项抽出来留着,免得我来的时候现凑。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.75,
+          "coherentCoverage": 0.706,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.5,
+          "suffixCoverage": 0.75,
+          "unmatchedLeadingChars": 9,
+          "unmatchedTrailingChars": 2,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "localSupported": false,
+            "source": "previous-verified-end",
+            "time": 10.9,
+            "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.75,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "referenceOwnershipConstraint": {
+            "ownerTargetIndex": 16,
+            "ownerTargetText": "上帝的百姓在主日听道记念主餐共同敬拜请读哥林多前书1612",
+            "notBefore": 10.9,
+            "verifiedSpokenOnset": false
+          }
+        }
+      }
     },
     {
-      "start": 30.16,
+      "start": 32.36,
       "end": 88.64,
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "使徒保罗告诉哥林多教会要在七日的第一日把奉献抽出来我们奉献金钱的时候也是在敬拜上帝我们的奉献表明",
-      "confidence": 0.94
+      "confidence": 0.95,
+      "quality": {
+        "coverage": 0.947,
+        "coherentCoverage": 0.942,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 30.16,
+        "previousEnd": 88.64,
+        "previousConfidence": 0.94
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (4 trailing chars, coverage 0.643): target 16: 上帝的百姓在主日听道、记念主餐，共同敬拜。请读哥林多前书16:1-2。",
+    "unverified end anchor: target 16: 上帝的百姓在主日听道、记念主餐，共同敬拜。请读哥林多前书16:1-2。",
+    "incomplete start (9 leading chars, coverage 0.500): target 17: 哥林多前书16:1-2 论到为圣徒捐钱，我从前怎样吩咐加拉太的众教会，你们也当怎样行。每逢七日的",
+    "unverified start anchor: target 17: 哥林多前书16:1-2 论到为圣徒捐钱，我从前怎样吩咐加拉太的众教会，你们也当怎样行。每逢七日的",
+    "repair unverified end (previous-sync): target 16",
+    "repair unverified start (previous-sync): target 17",
+    "context reviewed end: target 16; 前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+    "unverified constrained start: target 17; 旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "6910cadc0dbbbe80c8f263b44f9056a60e7be20a6c59b90f86400f895879560d",
+  "repairCueDigest": "9747a9ac51763ee8b0b8dadac7d8523f5093dd0762a2511fd4fbb3dfda7e9e0e",
+  "previousAlignmentWarnings": []
 }

@@ -8,132 +8,2399 @@
   "audioDuration": 791.1159375,
   "cues": [
     {
-      "start": 0.78,
-      "end": 3.88,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第三章旧约",
-      "confidence": 0.8
-    },
-    {
-      "start": 3.88,
+      "start": 7.6,
       "end": 21.18,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "如今你们若实在听从我的话遵守我的约就要在万民中作属我的子民出195",
-      "confidence": 0.704
+      "confidence": 0.735,
+      "quality": {
+        "coverage": 0.758,
+        "coherentCoverage": 0.636,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.5,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 5,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 3.88,
+        "previousEnd": 21.18,
+        "previousConfidence": 0.704
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 21.18,
+            "time": 21.18,
+            "reason": "正文末句已定位，保留原出处结束范围，避免因书名识别差异截掉已读出处",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\立约的神\\3.mp3.json",
+              "sha256": "87eb24ba538a45e306885bedb3a25f3d2cecedc0212444bc37e3593d34b5bb02",
+              "anchor": {
+                "time": 17.14,
+                "score": 0.8788,
+                "ratio": 0.8889,
+                "expected": "deyuejiuyaozaiwanminzhongzuoshuwodezimin",
+                "actual": "的约就要在万名中做熟我的子",
+                "span": [
+                  12.34,
+                  17.14
+                ],
+                "tokens": [
+                  {
+                    "text": "的",
+                    "start": 12.34,
+                    "end": 12.66,
+                    "rawStart": 29,
+                    "rawEnd": 29,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "约",
+                    "start": 12.66,
+                    "end": 12.94,
+                    "rawStart": 30,
+                    "rawEnd": 30,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "就",
+                    "start": 12.94,
+                    "end": 13.74,
+                    "rawStart": 31,
+                    "rawEnd": 31,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "要",
+                    "start": 13.74,
+                    "end": 13.9,
+                    "rawStart": 32,
+                    "rawEnd": 32,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "在",
+                    "start": 13.9,
+                    "end": 14.14,
+                    "rawStart": 33,
+                    "rawEnd": 33,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "万",
+                    "start": 14.14,
+                    "end": 14.54,
+                    "rawStart": 34,
+                    "rawEnd": 34,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "名",
+                    "start": 14.54,
+                    "end": 14.76,
+                    "rawStart": 35,
+                    "rawEnd": 35,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "中",
+                    "start": 14.76,
+                    "end": 15.1,
+                    "rawStart": 36,
+                    "rawEnd": 36,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "做",
+                    "start": 15.1,
+                    "end": 15.76,
+                    "rawStart": 37,
+                    "rawEnd": 37,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "熟",
+                    "start": 15.76,
+                    "end": 16.32,
+                    "rawStart": 38,
+                    "rawEnd": 38,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 16.32,
+                    "end": 16.82,
+                    "rawStart": 39,
+                    "rawEnd": 39,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 16.32,
+                    "end": 16.82,
+                    "rawStart": 40,
+                    "rawEnd": 40,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "子",
+                    "start": 16.82,
+                    "end": 17.14,
+                    "rawStart": 41,
+                    "rawEnd": 41,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "「如今你们若实在听从我的话,遵守我的约,就要在万民中作属我的子民。」",
+              "retainedCitationInterval": [
+                17.14,
+                21.18
+              ]
+            }
+          }
+        }
+      }
     },
     {
-      "start": 21.18,
-      "end": 30.32,
+      "start": 23.88,
+      "end": 30.68,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "祂将所吩咐你们当守的约指示你们就是十条诫申413",
-      "confidence": 0.625
+      "confidence": 0.744,
+      "quality": {
+        "coverage": 0.667,
+        "coherentCoverage": 0.583,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.833,
+        "suffixCoverage": 0.5,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 5,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 21.18,
+        "previousEnd": 30.32,
+        "previousConfidence": 0.625
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 30.32,
+            "time": 30.68,
+            "reason": "正文首尾局部已定位",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\立约的神\\3.mp3.json",
+              "sha256": "87eb24ba538a45e306885bedb3a25f3d2cecedc0212444bc37e3593d34b5bb02",
+              "anchor": {
+                "time": 30.68,
+                "score": 0.9996,
+                "ratio": 1.0,
+                "expected": "dangshoudeyuezhishinimenjiushi10tiaojie",
+                "actual": "当首的约只是你们就是10条界",
+                "span": [
+                  26.4,
+                  30.68
+                ],
+                "tokens": [
+                  {
+                    "text": "当",
+                    "start": 26.4,
+                    "end": 26.72,
+                    "rawStart": 61,
+                    "rawEnd": 61,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "首",
+                    "start": 26.72,
+                    "end": 27.1,
+                    "rawStart": 62,
+                    "rawEnd": 62,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 27.1,
+                    "end": 27.26,
+                    "rawStart": 63,
+                    "rawEnd": 63,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "约",
+                    "start": 27.26,
+                    "end": 27.52,
+                    "rawStart": 64,
+                    "rawEnd": 64,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "只",
+                    "start": 27.52,
+                    "end": 28.02,
+                    "rawStart": 65,
+                    "rawEnd": 65,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 27.52,
+                    "end": 28.02,
+                    "rawStart": 66,
+                    "rawEnd": 66,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 28.02,
+                    "end": 28.48,
+                    "rawStart": 67,
+                    "rawEnd": 67,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 28.02,
+                    "end": 28.48,
+                    "rawStart": 68,
+                    "rawEnd": 68,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "就",
+                    "start": 28.96,
+                    "end": 29.34,
+                    "rawStart": 69,
+                    "rawEnd": 69,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 28.96,
+                    "end": 29.34,
+                    "rawStart": 70,
+                    "rawEnd": 70,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 29.34,
+                    "end": 29.9,
+                    "rawStart": 71,
+                    "rawEnd": 71,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "0",
+                    "start": 29.34,
+                    "end": 29.9,
+                    "rawStart": 72,
+                    "rawEnd": 72,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "条",
+                    "start": 29.9,
+                    "end": 30.32,
+                    "rawStart": 73,
+                    "rawEnd": 73,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "界",
+                    "start": 30.32,
+                    "end": 30.68,
+                    "rawStart": 74,
+                    "rawEnd": 74,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": true,
+                "alternative": {
+                  "time": 33.88,
+                  "score": 0.956,
+                  "actual": "当首的约只是你们就是10条界再"
+                }
+              },
+              "body": "「祂将所吩咐你们当守的约,指示你们,就是十条诫。」"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.667,
+          "coherentCoverage": 0.583,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.833,
+          "suffixCoverage": 0.5,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 5,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 30.32,
-      "end": 45.46,
+      "start": 37.86,
+      "end": 46.44,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "你们果然听从这些典章谨守遵行耶和华你上帝必守约施慈爱申712",
-      "confidence": 0.594
+      "confidence": 0.717,
+      "quality": {
+        "coverage": 0.667,
+        "coherentCoverage": 0.567,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.533,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 30.32,
+        "previousEnd": 45.46,
+        "previousConfidence": 0.594
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 45.46,
+            "time": 46.44,
+            "reason": "正文首尾局部已定位",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\立约的神\\3.mp3.json",
+              "sha256": "87eb24ba538a45e306885bedb3a25f3d2cecedc0212444bc37e3593d34b5bb02",
+              "anchor": {
+                "time": 46.44,
+                "score": 0.9276,
+                "ratio": 0.9286,
+                "expected": "shouzunxingyehehuanishenbishouyueshiciai",
+                "actual": "守尊行耶和华女神必守约诗此爱",
+                "span": [
+                  41.18,
+                  46.44
+                ],
+                "tokens": [
+                  {
+                    "text": "守",
+                    "start": 41.18,
+                    "end": 41.62,
+                    "rawStart": 96,
+                    "rawEnd": 96,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "尊",
+                    "start": 41.62,
+                    "end": 41.98,
+                    "rawStart": 97,
+                    "rawEnd": 97,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "行",
+                    "start": 41.98,
+                    "end": 42.26,
+                    "rawStart": 98,
+                    "rawEnd": 98,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "耶",
+                    "start": 43.04,
+                    "end": 43.18,
+                    "rawStart": 99,
+                    "rawEnd": 99,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "和",
+                    "start": 43.18,
+                    "end": 43.3,
+                    "rawStart": 100,
+                    "rawEnd": 100,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "华",
+                    "start": 43.3,
+                    "end": 43.44,
+                    "rawStart": 101,
+                    "rawEnd": 101,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "女",
+                    "start": 43.44,
+                    "end": 43.64,
+                    "rawStart": 102,
+                    "rawEnd": 102,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 43.64,
+                    "end": 43.94,
+                    "rawStart": 103,
+                    "rawEnd": 104,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "必",
+                    "start": 43.94,
+                    "end": 44.5,
+                    "rawStart": 105,
+                    "rawEnd": 105,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "守",
+                    "start": 44.5,
+                    "end": 45.1,
+                    "rawStart": 106,
+                    "rawEnd": 106,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "约",
+                    "start": 45.1,
+                    "end": 45.46,
+                    "rawStart": 107,
+                    "rawEnd": 107,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "诗",
+                    "start": 45.46,
+                    "end": 45.82,
+                    "rawStart": 108,
+                    "rawEnd": 108,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "此",
+                    "start": 45.82,
+                    "end": 46.22,
+                    "rawStart": 109,
+                    "rawEnd": 109,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "爱",
+                    "start": 46.22,
+                    "end": 46.44,
+                    "rawStart": 110,
+                    "rawEnd": 110,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 48.76,
+                  "score": 0.8174,
+                  "actual": "守尊行耶和华女神必守约诗此爱再来看"
+                }
+              },
+              "body": "「你们果然听从这些典章,谨守遵行,耶和华你神必守约施慈爱。」"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.667,
+          "coherentCoverage": 0.567,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.8,
+          "suffixCoverage": 0.533,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 4,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 45.46,
-      "end": 66.84,
+      "start": 56.02,
+      "end": 65.84,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "我要与以色列家和犹大家另立新约不像我与他们祖宗所立的约他们背了这约耶313132",
-      "confidence": 0.625
+      "confidence": 0.877,
+      "quality": {
+        "coverage": 0.8,
+        "coherentCoverage": 0.8,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 7,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "edge": "end",
+          "time": 65.84,
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\立约的神\\3.mp3.json",
+          "transcriptSha256": "e9070ae7721004cf5629b6ee9cc867fb8139b45b46073faff30cfa5980c0fc0c",
+          "bodyEvidence": {
+            "start": {
+              "candidate": 56.02,
+              "expectedPhrase": "我要与以色列家和犹大家另",
+              "actualPhrase": "我要与以色列家和有大家另",
+              "phoneticPhrase": [
+                "wo",
+                "yao",
+                "yu",
+                "yi",
+                "se",
+                "lie",
+                "jia",
+                "he",
+                "you",
+                "da",
+                "jia",
+                "ling"
+              ],
+              "verified": true,
+              "time": 56.02,
+              "localSupported": true,
+              "timingPrecision": "word",
+              "source": "exact-local-syllables-original-word-times",
+              "phoneticExact": true,
+              "literalEqual": false,
+              "wordTokens": [
+                {
+                  "text": "我",
+                  "start": 56.02,
+                  "end": 56.58,
+                  "rawStart": 128,
+                  "rawEnd": 128,
+                  "precision": "word"
+                },
+                {
+                  "text": "要",
+                  "start": 56.02,
+                  "end": 56.58,
+                  "rawStart": 129,
+                  "rawEnd": 129,
+                  "precision": "word"
+                },
+                {
+                  "text": "与",
+                  "start": 56.58,
+                  "end": 57.14,
+                  "rawStart": 130,
+                  "rawEnd": 130,
+                  "precision": "word"
+                },
+                {
+                  "text": "以",
+                  "start": 57.14,
+                  "end": 57.48,
+                  "rawStart": 131,
+                  "rawEnd": 131,
+                  "precision": "word"
+                },
+                {
+                  "text": "色",
+                  "start": 57.48,
+                  "end": 57.7,
+                  "rawStart": 132,
+                  "rawEnd": 132,
+                  "precision": "word"
+                },
+                {
+                  "text": "列",
+                  "start": 57.7,
+                  "end": 57.88,
+                  "rawStart": 133,
+                  "rawEnd": 133,
+                  "precision": "word"
+                },
+                {
+                  "text": "家",
+                  "start": 57.88,
+                  "end": 58.18,
+                  "rawStart": 134,
+                  "rawEnd": 134,
+                  "precision": "word"
+                },
+                {
+                  "text": "和",
+                  "start": 58.18,
+                  "end": 58.46,
+                  "rawStart": 135,
+                  "rawEnd": 135,
+                  "precision": "word"
+                },
+                {
+                  "text": "有",
+                  "start": 58.46,
+                  "end": 58.78,
+                  "rawStart": 136,
+                  "rawEnd": 136,
+                  "precision": "word"
+                },
+                {
+                  "text": "大",
+                  "start": 58.78,
+                  "end": 59.12,
+                  "rawStart": 137,
+                  "rawEnd": 137,
+                  "precision": "word"
+                },
+                {
+                  "text": "家",
+                  "start": 58.78,
+                  "end": 59.12,
+                  "rawStart": 138,
+                  "rawEnd": 138,
+                  "precision": "word"
+                },
+                {
+                  "text": "另",
+                  "start": 59.12,
+                  "end": 59.68,
+                  "rawStart": 139,
+                  "rawEnd": 139,
+                  "precision": "word"
+                }
+              ],
+              "listenedByAgent": false
+            },
+            "end": {
+              "candidate": 65.84,
+              "expectedPhrase": "祖宗所立的约他们背了这约",
+              "actualPhrase": "祖宗所立的约他们背了这约",
+              "phoneticPhrase": [
+                "zu",
+                "zong",
+                "suo",
+                "li",
+                "de",
+                "yue",
+                "ta",
+                "men",
+                "bei",
+                "le",
+                "zhe",
+                "yue"
+              ],
+              "verified": true,
+              "time": 65.84,
+              "localSupported": true,
+              "timingPrecision": "word",
+              "source": "exact-local-syllables-original-word-times",
+              "phoneticExact": true,
+              "literalEqual": true,
+              "wordTokens": [
+                {
+                  "text": "祖",
+                  "start": 62.12,
+                  "end": 62.56,
+                  "rawStart": 149,
+                  "rawEnd": 149,
+                  "precision": "word"
+                },
+                {
+                  "text": "宗",
+                  "start": 62.56,
+                  "end": 62.84,
+                  "rawStart": 150,
+                  "rawEnd": 150,
+                  "precision": "word"
+                },
+                {
+                  "text": "所",
+                  "start": 62.84,
+                  "end": 63.14,
+                  "rawStart": 151,
+                  "rawEnd": 151,
+                  "precision": "word"
+                },
+                {
+                  "text": "立",
+                  "start": 63.14,
+                  "end": 63.32,
+                  "rawStart": 152,
+                  "rawEnd": 152,
+                  "precision": "word"
+                },
+                {
+                  "text": "的",
+                  "start": 63.32,
+                  "end": 63.46,
+                  "rawStart": 153,
+                  "rawEnd": 153,
+                  "precision": "word"
+                },
+                {
+                  "text": "约",
+                  "start": 63.46,
+                  "end": 63.7,
+                  "rawStart": 154,
+                  "rawEnd": 154,
+                  "precision": "word"
+                },
+                {
+                  "text": "他",
+                  "start": 64.32,
+                  "end": 64.88,
+                  "rawStart": 155,
+                  "rawEnd": 155,
+                  "precision": "word"
+                },
+                {
+                  "text": "们",
+                  "start": 64.32,
+                  "end": 64.88,
+                  "rawStart": 156,
+                  "rawEnd": 156,
+                  "precision": "word"
+                },
+                {
+                  "text": "背",
+                  "start": 64.88,
+                  "end": 65.22,
+                  "rawStart": 157,
+                  "rawEnd": 157,
+                  "precision": "word"
+                },
+                {
+                  "text": "了",
+                  "start": 65.22,
+                  "end": 65.38,
+                  "rawStart": 158,
+                  "rawEnd": 158,
+                  "precision": "word"
+                },
+                {
+                  "text": "这",
+                  "start": 65.38,
+                  "end": 65.56,
+                  "rawStart": 159,
+                  "rawEnd": 159,
+                  "precision": "word"
+                },
+                {
+                  "text": "约",
+                  "start": 65.56,
+                  "end": 65.84,
+                  "rawStart": 160,
+                  "rawEnd": 160,
+                  "precision": "word"
+                }
+              ],
+              "listenedByAgent": false
+            }
+          },
+          "citation": {
+            "start": 48.76,
+            "end": 53.72,
+            "printed": "(耶31:31-32)",
+            "printedBooks": [
+              "耶利米书"
+            ],
+            "printedNumbers": [
+              "31",
+              "31",
+              "32"
+            ],
+            "actual": "耶利米书31章31节到32节",
+            "wordTokens": [
+              {
+                "text": "耶",
+                "start": 48.76,
+                "end": 49.48,
+                "rawStart": 114,
+                "rawEnd": 114,
+                "precision": "word"
+              },
+              {
+                "text": "利",
+                "start": 49.48,
+                "end": 49.76,
+                "rawStart": 115,
+                "rawEnd": 115,
+                "precision": "word"
+              },
+              {
+                "text": "米",
+                "start": 49.76,
+                "end": 49.98,
+                "rawStart": 116,
+                "rawEnd": 116,
+                "precision": "word"
+              },
+              {
+                "text": "书",
+                "start": 49.98,
+                "end": 50.34,
+                "rawStart": 117,
+                "rawEnd": 117,
+                "precision": "word"
+              },
+              {
+                "text": "3",
+                "start": 50.54,
+                "end": 51.0,
+                "rawStart": 118,
+                "rawEnd": 118,
+                "precision": "word"
+              },
+              {
+                "text": "1",
+                "start": 50.54,
+                "end": 51.0,
+                "rawStart": 119,
+                "rawEnd": 119,
+                "precision": "word"
+              },
+              {
+                "text": "章",
+                "start": 51.0,
+                "end": 51.28,
+                "rawStart": 120,
+                "rawEnd": 120,
+                "precision": "word"
+              },
+              {
+                "text": "3",
+                "start": 51.56,
+                "end": 52.16,
+                "rawStart": 121,
+                "rawEnd": 121,
+                "precision": "word"
+              },
+              {
+                "text": "1",
+                "start": 51.56,
+                "end": 52.16,
+                "rawStart": 122,
+                "rawEnd": 122,
+                "precision": "word"
+              },
+              {
+                "text": "节",
+                "start": 52.16,
+                "end": 52.36,
+                "rawStart": 123,
+                "rawEnd": 123,
+                "precision": "word"
+              },
+              {
+                "text": "到",
+                "start": 52.64,
+                "end": 52.74,
+                "rawStart": 124,
+                "rawEnd": 124,
+                "precision": "word"
+              },
+              {
+                "text": "3",
+                "start": 52.74,
+                "end": 53.44,
+                "rawStart": 125,
+                "rawEnd": 125,
+                "precision": "word"
+              },
+              {
+                "text": "2",
+                "start": 52.74,
+                "end": 53.44,
+                "rawStart": 126,
+                "rawEnd": 126,
+                "precision": "word"
+              },
+              {
+                "text": "节",
+                "start": 53.44,
+                "end": 53.72,
+                "rawStart": 127,
+                "rawEnd": 127,
+                "precision": "word"
+              }
+            ],
+            "source": "explicit-printed-books-and-numbers-observed-in-raw-speech"
+          },
+          "identityBasis": "all-explicit-printed-book-names-and-number-values-observed-with-local-body-edges",
+          "retainedOpposite": null,
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "listenedByAgent": false,
+          "source": "components-observed-context",
+          "audioSha256": "a7adfa6bd41ff96440a8decaeb0a0d63c297f3c4f5b10dfdcf8d9efcaa128466"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 45.46,
+        "previousEnd": 66.84,
+        "previousConfidence": 0.625
+      },
+      "boundaryCorrections": [
+        {
+          "book": "立约的神",
+          "page": "03_第三章 旧约.md",
+          "audio": "3.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\立约的神\\03_第三章 旧约\\audio-01.json",
+          "targetIndex": 4,
+          "edge": "end",
+          "previousTime": 66.84,
+          "time": 65.84,
+          "kind": "components-observed-context",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
       "start": 66.84,
-      "end": 166.82,
+      "end": 165.8,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "我们看见两约存在的原因在于在决定人类最终命运的过程中上帝与人双方都应有其当有的位置角色上帝是发起",
-      "confidence": 0.929
+      "confidence": 0.929,
+      "quality": {
+        "coverage": 0.931,
+        "coherentCoverage": 0.914,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 66.84,
+        "previousEnd": 166.82,
+        "previousConfidence": 0.929
+      }
     },
     {
       "start": 166.82,
-      "end": 265.62,
+      "end": 264.88,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "请注意旧约的条文你们若实在听从我的话遵守我的约你们就要归我作圣洁的国民出1956再看耶利米书72",
-      "confidence": 0.815
+      "confidence": 0.864,
+      "quality": {
+        "coverage": 0.883,
+        "coherentCoverage": 0.829,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\立约的神\\3.mp3.json",
+          "transcriptSha256": "e9070ae7721004cf5629b6ee9cc867fb8139b45b46073faff30cfa5980c0fc0c",
+          "verified": true,
+          "time": 166.82,
+          "expectedPhrase": "请注意旧约的条文，「你们若实在听从我的话，遵守我的约，……你们就要归我作圣洁的国",
+          "actualPhrase": "请注意就约的条文你们若实",
+          "edgeAnchor": "请注意旧约的条文你们若实",
+          "evidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": false,
+            "substitutionAnchor": true,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 0.958,
+            "localSimilarity": 0.958,
+            "localText": "请注意旧约的条文你们若实在听从我的话遵守我的约你",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false
+          },
+          "window": [
+            154.82,
+            178.82
+          ],
+          "segments": [
+            {
+              "start": 154.64,
+              "end": 156.44,
+              "text": "更晚善的做预备的",
+              "words": [
+                {
+                  "start": 154.64,
+                  "end": 154.98,
+                  "text": "更",
+                  "probability": 0.9977039694786072
+                },
+                {
+                  "start": 154.98,
+                  "end": 155.26,
+                  "text": "晚",
+                  "probability": 0.590263307094574
+                },
+                {
+                  "start": 155.26,
+                  "end": 155.54,
+                  "text": "善",
+                  "probability": 0.8355342447757721
+                },
+                {
+                  "start": 155.54,
+                  "end": 155.68,
+                  "text": "的",
+                  "probability": 0.7034521102905273
+                },
+                {
+                  "start": 155.68,
+                  "end": 155.84,
+                  "text": "做",
+                  "probability": 0.9012743234634399
+                },
+                {
+                  "start": 155.84,
+                  "end": 156.04,
+                  "text": "预",
+                  "probability": 0.9823832213878632
+                },
+                {
+                  "start": 156.04,
+                  "end": 156.22,
+                  "text": "备",
+                  "probability": 0.9988888502120972
+                },
+                {
+                  "start": 156.22,
+                  "end": 156.44,
+                  "text": "的",
+                  "probability": 0.9656251668930054
+                }
+              ]
+            },
+            {
+              "start": 157.12,
+              "end": 158.4,
+              "text": "在救恩上",
+              "words": [
+                {
+                  "start": 157.12,
+                  "end": 157.68,
+                  "text": "在",
+                  "probability": 0.9960713386535645
+                },
+                {
+                  "start": 157.68,
+                  "end": 157.94,
+                  "text": "救",
+                  "probability": 0.4348256587982178
+                },
+                {
+                  "start": 157.94,
+                  "end": 158.1,
+                  "text": "恩",
+                  "probability": 0.9956685304641724
+                },
+                {
+                  "start": 158.1,
+                  "end": 158.4,
+                  "text": "上",
+                  "probability": 0.9968830347061157
+                }
+              ]
+            },
+            {
+              "start": 158.4,
+              "end": 162.58,
+              "text": "神和人的心要得到完全的满足",
+              "words": [
+                {
+                  "start": 158.4,
+                  "end": 158.96,
+                  "text": "神",
+                  "probability": 0.8710741400718689
+                },
+                {
+                  "start": 158.96,
+                  "end": 159.42,
+                  "text": "和",
+                  "probability": 0.992112398147583
+                },
+                {
+                  "start": 159.42,
+                  "end": 159.74,
+                  "text": "人",
+                  "probability": 0.9965144991874695
+                },
+                {
+                  "start": 159.74,
+                  "end": 159.92,
+                  "text": "的",
+                  "probability": 0.9972695708274841
+                },
+                {
+                  "start": 159.92,
+                  "end": 160.18,
+                  "text": "心",
+                  "probability": 0.9924865961074829
+                },
+                {
+                  "start": 160.18,
+                  "end": 160.72,
+                  "text": "要",
+                  "probability": 0.9928306937217712
+                },
+                {
+                  "start": 160.72,
+                  "end": 161.0,
+                  "text": "得",
+                  "probability": 0.9990690350532532
+                },
+                {
+                  "start": 161.0,
+                  "end": 161.24,
+                  "text": "到",
+                  "probability": 0.9917657971382141
+                },
+                {
+                  "start": 161.24,
+                  "end": 161.9,
+                  "text": "完全",
+                  "probability": 0.9785630106925964
+                },
+                {
+                  "start": 161.9,
+                  "end": 162.1,
+                  "text": "的",
+                  "probability": 0.9926350712776184
+                },
+                {
+                  "start": 162.1,
+                  "end": 162.26,
+                  "text": "满",
+                  "probability": 0.993367999792099
+                },
+                {
+                  "start": 162.26,
+                  "end": 162.58,
+                  "text": "足",
+                  "probability": 0.9955396056175232
+                }
+              ]
+            },
+            {
+              "start": 162.58,
+              "end": 165.8,
+              "text": "就约是绝对不完全的",
+              "words": [
+                {
+                  "start": 162.58,
+                  "end": 163.56,
+                  "text": "就",
+                  "probability": 0.3501102030277252
+                },
+                {
+                  "start": 163.56,
+                  "end": 163.74,
+                  "text": "约",
+                  "probability": 0.790769100189209
+                },
+                {
+                  "start": 163.74,
+                  "end": 164.04,
+                  "text": "是",
+                  "probability": 0.9698745608329773
+                },
+                {
+                  "start": 164.04,
+                  "end": 164.5,
+                  "text": "绝",
+                  "probability": 0.9916442930698395
+                },
+                {
+                  "start": 164.5,
+                  "end": 164.82,
+                  "text": "对",
+                  "probability": 0.9871455430984497
+                },
+                {
+                  "start": 164.82,
+                  "end": 165.08,
+                  "text": "不",
+                  "probability": 0.9963366985321045
+                },
+                {
+                  "start": 165.08,
+                  "end": 165.46,
+                  "text": "完全",
+                  "probability": 0.9573817849159241
+                },
+                {
+                  "start": 165.46,
+                  "end": 165.8,
+                  "text": "的",
+                  "probability": 0.9873390197753906
+                }
+              ]
+            },
+            {
+              "start": 166.82,
+              "end": 169.26,
+              "text": "请注意就约的条文",
+              "words": [
+                {
+                  "start": 166.82,
+                  "end": 167.42,
+                  "text": "请",
+                  "probability": 0.8322030901908875
+                },
+                {
+                  "start": 167.42,
+                  "end": 167.82,
+                  "text": "注意",
+                  "probability": 0.9852146506309509
+                },
+                {
+                  "start": 167.82,
+                  "end": 168.46,
+                  "text": "就",
+                  "probability": 0.642747163772583
+                },
+                {
+                  "start": 168.46,
+                  "end": 168.64,
+                  "text": "约",
+                  "probability": 0.9998076558113098
+                },
+                {
+                  "start": 168.64,
+                  "end": 168.76,
+                  "text": "的",
+                  "probability": 0.9900795221328735
+                },
+                {
+                  "start": 168.76,
+                  "end": 169.04,
+                  "text": "条",
+                  "probability": 0.9460967183113098
+                },
+                {
+                  "start": 169.04,
+                  "end": 169.26,
+                  "text": "文",
+                  "probability": 0.888240396976471
+                }
+              ]
+            },
+            {
+              "start": 169.26,
+              "end": 172.52,
+              "text": "你们若实在听从我的话",
+              "words": [
+                {
+                  "start": 169.26,
+                  "end": 170.1,
+                  "text": "你们",
+                  "probability": 0.6555152535438538
+                },
+                {
+                  "start": 170.1,
+                  "end": 170.46,
+                  "text": "若",
+                  "probability": 0.9566274881362915
+                },
+                {
+                  "start": 170.46,
+                  "end": 170.98,
+                  "text": "实",
+                  "probability": 0.985945999622345
+                },
+                {
+                  "start": 170.98,
+                  "end": 171.4,
+                  "text": "在",
+                  "probability": 0.9973695278167725
+                },
+                {
+                  "start": 171.4,
+                  "end": 171.76,
+                  "text": "听",
+                  "probability": 0.9889294505119324
+                },
+                {
+                  "start": 171.76,
+                  "end": 171.96,
+                  "text": "从",
+                  "probability": 0.9937491416931152
+                },
+                {
+                  "start": 171.96,
+                  "end": 172.22,
+                  "text": "我的",
+                  "probability": 0.9972171783447266
+                },
+                {
+                  "start": 172.22,
+                  "end": 172.52,
+                  "text": "话",
+                  "probability": 0.9958460927009583
+                }
+              ]
+            },
+            {
+              "start": 172.52,
+              "end": 174.1,
+              "text": "遵守我的约",
+              "words": [
+                {
+                  "start": 172.52,
+                  "end": 173.22,
+                  "text": "遵",
+                  "probability": 0.9820956289768219
+                },
+                {
+                  "start": 173.22,
+                  "end": 173.54,
+                  "text": "守",
+                  "probability": 0.9950083494186401
+                },
+                {
+                  "start": 173.54,
+                  "end": 173.84,
+                  "text": "我的",
+                  "probability": 0.9963913559913635
+                },
+                {
+                  "start": 173.84,
+                  "end": 174.1,
+                  "text": "约",
+                  "probability": 0.9987818896770477
+                }
+              ]
+            },
+            {
+              "start": 174.1,
+              "end": 177.58,
+              "text": "你们就要归我做圣洁的国民",
+              "words": [
+                {
+                  "start": 174.1,
+                  "end": 174.76,
+                  "text": "你们",
+                  "probability": 0.8866171836853027
+                },
+                {
+                  "start": 174.76,
+                  "end": 175.0,
+                  "text": "就",
+                  "probability": 0.9950697422027588
+                },
+                {
+                  "start": 175.0,
+                  "end": 175.26,
+                  "text": "要",
+                  "probability": 0.9956359267234802
+                },
+                {
+                  "start": 175.26,
+                  "end": 175.56,
+                  "text": "归",
+                  "probability": 0.9704760015010834
+                },
+                {
+                  "start": 175.56,
+                  "end": 175.98,
+                  "text": "我",
+                  "probability": 0.995624840259552
+                },
+                {
+                  "start": 175.98,
+                  "end": 176.34,
+                  "text": "做",
+                  "probability": 0.8932130932807922
+                },
+                {
+                  "start": 176.34,
+                  "end": 176.82,
+                  "text": "圣",
+                  "probability": 0.7484380751848221
+                },
+                {
+                  "start": 176.82,
+                  "end": 177.0,
+                  "text": "洁",
+                  "probability": 0.8065472543239594
+                },
+                {
+                  "start": 177.0,
+                  "end": 177.14,
+                  "text": "的",
+                  "probability": 0.9833751320838928
+                },
+                {
+                  "start": 177.14,
+                  "end": 177.3,
+                  "text": "国",
+                  "probability": 0.9974579215049744
+                },
+                {
+                  "start": 177.3,
+                  "end": 177.58,
+                  "text": "民",
+                  "probability": 0.8092864751815796
+                }
+              ]
+            },
+            {
+              "start": 177.58,
+              "end": 178.82,
+              "text": "出埃",
+              "words": [
+                {
+                  "start": 177.58,
+                  "end": 178.62,
+                  "text": "出",
+                  "probability": 0.427619606256485
+                },
+                {
+                  "start": 178.62,
+                  "end": 178.82,
+                  "text": "埃",
+                  "probability": 0.611147053539753
+                }
+              ]
+            }
+          ],
+          "source": "true-edge-local-anchor-review",
+          "listenedByAgent": false,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "reason": "真正首尾文字锚点及词时间确认；局部单字识别差异不要求全文逐字相同。",
+          "audioSha256": "a7adfa6bd41ff96440a8decaeb0a0d63c297f3c4f5b10dfdcf8d9efcaa128466"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 166.82,
+        "previousEnd": 265.62,
+        "previousConfidence": 0.815
+      },
+      "boundaryCorrections": [
+        {
+          "book": "立约的神",
+          "page": "03_第三章 旧约.md",
+          "audio": "3.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\立约的神\\03_第三章 旧约\\audio-01.json",
+          "targetIndex": 6,
+          "edge": "start",
+          "previousTime": 166.82,
+          "time": 166.82,
+          "kind": "local-edge-confirmation",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "真正首尾文字锚点及词时间确认；局部单字识别差异不要求全文逐字相同。"
+        }
+      ]
     },
     {
       "start": 265.62,
-      "end": 294.08,
+      "end": 294.42,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "在律法中上帝提供了预表性的赎罪祭和赦罪之恩藉着祭司先知和君王上帝启示着祂自己并予人以护佑和恩典上",
-      "confidence": 0.871
+      "confidence": 0.93,
+      "quality": {
+        "coverage": 0.926,
+        "coherentCoverage": 0.904,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 265.62,
+        "previousEnd": 294.08,
+        "previousConfidence": 0.871
+      }
     },
     {
-      "start": 294.08,
-      "end": 392.96,
+      "start": 295.8,
+      "end": 392.26,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "上帝的工作是有效果的在有恩典相随的律法之下造就了一批圣徒他们敬畏上帝渴慕完全遵行上帝的律法但从整",
-      "confidence": 0.808
+      "confidence": 0.81,
+      "quality": {
+        "coverage": 0.834,
+        "coherentCoverage": 0.762,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 294.08,
+        "previousEnd": 392.96,
+        "previousConfidence": 0.808
+      }
     },
     {
       "start": 392.96,
-      "end": 423.73,
+      "end": 422.42,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "律法的伟大功用在于它显明什么是罪因为上帝的咒诅它是令人憎恶的因为它的破坏性它是使人痛苦的也因为它",
-      "confidence": 0.903
+      "confidence": 0.903,
+      "quality": {
+        "coverage": 0.898,
+        "coherentCoverage": 0.857,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 392.96,
+        "previousEnd": 423.73,
+        "previousConfidence": 0.903
+      }
     },
     {
       "start": 423.73,
-      "end": 473.83,
+      "end": 476.07,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "在研读旧约时我们需要记住圣经评价它的两面性是上帝的恩典向以色列人颁布旧约上帝以伴随着律法的恩典作",
-      "confidence": 0.863
+      "confidence": 0.863,
+      "quality": {
+        "coverage": 0.855,
+        "coherentCoverage": 0.767,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 5,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "candidate": 423.73,
+          "expectedPhrase": "在研读旧约时我们需要记住圣经评价",
+          "actualPhrase": "在研读就约时我们需要记住圣经评价",
+          "editDistance": 0,
+          "exactEndpointPhonemes": 3,
+          "expectedPhraseSize": 16,
+          "actualPhraseSize": 16,
+          "verified": true,
+          "time": 423.73,
+          "elasticLocal": true,
+          "source": "elastic-local-phrase-original-word-times",
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "在",
+              "start": 423.73,
+              "end": 424.73,
+              "rawStart": 1247,
+              "rawEnd": 1247,
+              "precision": "word"
+            },
+            {
+              "text": "研",
+              "start": 424.73,
+              "end": 425.27,
+              "rawStart": 1248,
+              "rawEnd": 1248,
+              "precision": "word"
+            },
+            {
+              "text": "读",
+              "start": 425.27,
+              "end": 425.57,
+              "rawStart": 1249,
+              "rawEnd": 1249,
+              "precision": "word"
+            },
+            {
+              "text": "就",
+              "start": 425.57,
+              "end": 425.93,
+              "rawStart": 1250,
+              "rawEnd": 1250,
+              "precision": "word"
+            },
+            {
+              "text": "约",
+              "start": 425.93,
+              "end": 426.09,
+              "rawStart": 1251,
+              "rawEnd": 1251,
+              "precision": "word"
+            },
+            {
+              "text": "时",
+              "start": 426.09,
+              "end": 426.41,
+              "rawStart": 1252,
+              "rawEnd": 1252,
+              "precision": "word"
+            },
+            {
+              "text": "我",
+              "start": 426.77,
+              "end": 426.97,
+              "rawStart": 1253,
+              "rawEnd": 1253,
+              "precision": "word"
+            },
+            {
+              "text": "们",
+              "start": 426.77,
+              "end": 426.97,
+              "rawStart": 1254,
+              "rawEnd": 1254,
+              "precision": "word"
+            },
+            {
+              "text": "需",
+              "start": 426.97,
+              "end": 427.23,
+              "rawStart": 1255,
+              "rawEnd": 1255,
+              "precision": "word"
+            },
+            {
+              "text": "要",
+              "start": 426.97,
+              "end": 427.23,
+              "rawStart": 1256,
+              "rawEnd": 1256,
+              "precision": "word"
+            },
+            {
+              "text": "记",
+              "start": 427.23,
+              "end": 427.51,
+              "rawStart": 1257,
+              "rawEnd": 1257,
+              "precision": "word"
+            },
+            {
+              "text": "住",
+              "start": 427.51,
+              "end": 427.73,
+              "rawStart": 1258,
+              "rawEnd": 1258,
+              "precision": "word"
+            },
+            {
+              "text": "圣",
+              "start": 427.73,
+              "end": 428.25,
+              "rawStart": 1259,
+              "rawEnd": 1259,
+              "precision": "word"
+            },
+            {
+              "text": "经",
+              "start": 428.25,
+              "end": 428.57,
+              "rawStart": 1260,
+              "rawEnd": 1260,
+              "precision": "word"
+            },
+            {
+              "text": "评",
+              "start": 428.57,
+              "end": 429.09,
+              "rawStart": 1261,
+              "rawEnd": 1261,
+              "precision": "word"
+            },
+            {
+              "text": "价",
+              "start": 429.09,
+              "end": 429.37,
+              "rawStart": 1262,
+              "rawEnd": 1262,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\立约的神\\3.mp3.json",
+          "transcriptSha256": "e9070ae7721004cf5629b6ee9cc867fb8139b45b46073faff30cfa5980c0fc0c",
+          "audioSha256": "a7adfa6bd41ff96440a8decaeb0a0d63c297f3c4f5b10dfdcf8d9efcaa128466",
+          "reason": "实际首尾各3个连续音节精确相同；16音节局部句中最多2次识别增删；数字序列和短句身份唯一，完整词时、停顿、音频时长及相邻原cue已复核。中间正文不要求逐字相同。"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\立约的神\\3.mp3.json",
+          "transcriptSha256": "e9070ae7721004cf5629b6ee9cc867fb8139b45b46073faff30cfa5980c0fc0c",
+          "time": 476.07,
+          "candidateCue": {
+            "start": 423.73,
+            "end": 476.07,
+            "kind": "paragraph",
+            "targetIndex": 10,
+            "targetText": "在研读旧约时我们需要记住圣经评价它的两面性是上帝的恩典向以色列人颁布旧约上帝以伴随着律法的恩典作",
+            "confidence": 0.879,
+            "quality": {
+              "coverage": 0.879,
+              "coherentCoverage": 0.8,
+              "extraSpeechContext": false,
+              "prefixCoverage": 0.9,
+              "suffixCoverage": 0.85,
+              "unmatchedLeadingChars": 0,
+              "unmatchedTrailingChars": 0,
+              "reviewRequired": false,
+              "verificationBasis": "local-boundaries",
+              "boundaryAdjusted": [],
+              "startVerified": true,
+              "endVerified": true,
+              "startEvidence": {
+                "verified": true,
+                "coverage": 0.917,
+                "continuousAnchor": false,
+                "substitutionAnchor": true,
+                "timingPrecision": "word",
+                "insideSegment": false,
+                "detachedContext": false,
+                "detachedNumericLabel": false,
+                "localSupported": true,
+                "localCoverage": 0.917,
+                "localSimilarity": 0.917,
+                "localText": "在研读旧约时我们需要记住圣经评价它的2面性是上帝",
+                "anchorOccurrences": 1,
+                "paragraphSupported": true,
+                "contextUsed": false,
+                "identityAmbiguous": false,
+                "source": "verified-transcript"
+              },
+              "endEvidence": {
+                "verified": true,
+                "coverage": 0.917,
+                "continuousAnchor": true,
+                "substitutionAnchor": false,
+                "timingPrecision": "word",
+                "insideSegment": false,
+                "detachedContext": false,
+                "detachedNumericLabel": false,
+                "localSupported": true,
+                "localCoverage": 0.792,
+                "localSimilarity": 0.792,
+                "localText": "来诅咒它有它自己的荣光哥林多后书3章10到12节",
+                "anchorOccurrences": 1,
+                "paragraphSupported": true,
+                "contextUsed": false,
+                "identityAmbiguous": false,
+                "source": "verified-transcript"
+              }
+            },
+            "repair": {
+              "startSource": "verified-transcript",
+              "endSource": "verified-transcript",
+              "previousStart": 423.73,
+              "previousEnd": 473.83,
+              "previousConfidence": 0.863
+            }
+          },
+          "evidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 0.792,
+            "localSimilarity": 0.792,
+            "localText": "来诅咒它有它自己的荣光哥林多后书3章10到12节",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false,
+            "source": "verified-transcript"
+          },
+          "source": "context-reviewed-standard-local-boundary",
+          "listenedByAgent": false,
+          "actualEndpointWords": [
+            {
+              "start": 475.85,
+              "end": 476.07,
+              "text": "节",
+              "probability": 0.5377898216247559
+            }
+          ],
+          "printedReference": "(林后3:10-12)",
+          "reason": "首尾局部证据及实际词时间确认；完整出处在本段朗读，取自身末词时间，书名或节字的识别差异保留，不要求正文中间逐字一致。",
+          "contextUsed": true,
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "audioSha256": "a7adfa6bd41ff96440a8decaeb0a0d63c297f3c4f5b10dfdcf8d9efcaa128466"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 423.73,
+        "previousEnd": 473.83,
+        "previousConfidence": 0.863
+      },
+      "boundaryCorrections": [
+        {
+          "book": "立约的神",
+          "page": "03_第三章 旧约.md",
+          "audio": "3.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\立约的神\\03_第三章 旧约\\audio-01.json",
+          "targetIndex": 10,
+          "edge": "end",
+          "previousTime": 473.83,
+          "time": 476.07,
+          "kind": "post-validation-local-context",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "首尾局部证据及实际词时间确认；完整出处在本段朗读，取自身末词时间，书名或节字的识别差异保留，不要求正文中间逐字一致。"
+        },
+        {
+          "book": "立约的神",
+          "page": "03_第三章 旧约.md",
+          "audio": "3.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\立约的神\\03_第三章 旧约\\audio-01.json",
+          "targetIndex": 10,
+          "edge": "start",
+          "previousTime": 423.73,
+          "time": 423.73,
+          "kind": "elastic-local-phrase-existing-word-times",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "实际首尾各3个连续音节精确相同；16音节局部句中最多2次识别增删；数字序列和短句身份唯一，完整词时、停顿、音频时长及相邻原cue已复核。中间正文不要求逐字相同。"
+        }
+      ]
     },
     {
-      "start": 473.83,
-      "end": 507.35,
+      "start": 477.77,
+      "end": 506.37,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "保罗书信中清晰地讲到旧约的两面性所以他说凡以行律法为本的都是被咒诅的加310但立刻他又讲到律法是",
-      "confidence": 0.775
+      "confidence": 0.824,
+      "quality": {
+        "coverage": 0.843,
+        "coherentCoverage": 0.795,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 473.83,
+        "previousEnd": 507.35,
+        "previousConfidence": 0.775
+      }
     },
     {
       "start": 507.35,
-      "end": 518.85,
+      "end": 517.99,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "旧约在其预备的功用上是必不可少的但在实行完备救恩上是绝对不完全的",
-      "confidence": 0.875
+      "confidence": 0.875,
+      "quality": {
+        "coverage": 0.875,
+        "coherentCoverage": 0.875,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.938,
+        "suffixCoverage": 0.812,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 507.35,
+        "previousEnd": 518.85,
+        "previousConfidence": 0.875
+      }
     },
     {
       "start": 518.85,
-      "end": 568.25,
+      "end": 567.67,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "上帝要教导我们的功课只有两个一是罪的功课一是圣洁的功课旧约在使人服罪和相信无法自救上达到了其目的",
-      "confidence": 0.951
+      "confidence": 0.951,
+      "quality": {
+        "coverage": 0.951,
+        "coherentCoverage": 0.931,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 518.85,
+        "previousEnd": 568.25,
+        "previousConfidence": 0.951
+      }
     },
     {
       "start": 568.25,
-      "end": 619.03,
+      "end": 617.59,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "另一个功课是圣洁的功课在新约三位一体的上帝保证了一切祂给我们一个新心并负责保守它让祂自己的灵住在",
-      "confidence": 0.931
+      "confidence": 0.938,
+      "quality": {
+        "coverage": 0.935,
+        "coherentCoverage": 0.928,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 568.25,
+        "previousEnd": 619.03,
+        "previousConfidence": 0.931
+      }
     },
     {
       "start": 619.03,
-      "end": 702.94,
+      "end": 700.05,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "这本书为着实际应用的目的而写其目的在于帮助信徒知道上帝所赐这新约的奇妙恩典并负责引人进入这新约所",
-      "confidence": 0.867
+      "confidence": 0.938,
+      "quality": {
+        "coverage": 0.938,
+        "coherentCoverage": 0.938,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 619.03,
+        "previousEnd": 702.94,
+        "previousConfidence": 0.867
+      }
     },
     {
       "start": 702.94,
@@ -141,7 +2408,89 @@
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "亲爱的读者你是否意识到你没有完全活在新约之中在你身上仍有旧约的捆绑让旧约的工作在你身上结束吧相信",
-      "confidence": 0.86
+      "confidence": 0.941,
+      "quality": {
+        "coverage": 0.939,
+        "coherentCoverage": 0.92,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 702.94,
+        "previousEnd": 790.24,
+        "previousConfidence": 0.86
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (5 trailing chars, coverage 0.500): target 1: 「如今你们若实在听从我的话，遵守我的约，就要在万民中作属我的子民。」（出19:5）",
+    "unverified end anchor: target 1: 「如今你们若实在听从我的话，遵守我的约，就要在万民中作属我的子民。」（出19:5）",
+    "incomplete end (5 trailing chars, coverage 0.500): target 2: 「祂将所吩咐你们当守的约，指示你们，就是十条诫。」（申4:13）",
+    "unverified end anchor: target 2: 「祂将所吩咐你们当守的约，指示你们，就是十条诫。」（申4:13）",
+    "incomplete end (4 trailing chars, coverage 0.533): target 3: 「你们果然听从这些典章，谨守遵行，耶和华你神必守约施慈爱。」（申7:12）",
+    "unverified end anchor: target 3: 「你们果然听从这些典章，谨守遵行，耶和华你神必守约施慈爱。」（申7:12）",
+    "incomplete end (7 trailing chars, coverage 0.650): target 4: 「我要与以色列家和犹大家另立新约，不像我与他们祖宗所立的约……他们背了这约。」（耶31:31-3",
+    "unverified end anchor: target 4: 「我要与以色列家和犹大家另立新约，不像我与他们祖宗所立的约……他们背了这约。」（耶31:31-3",
+    "unverified start anchor: target 6: 请注意旧约的条文，「你们若实在听从我的话，遵守我的约，……你们就要归我作圣洁的国民。」（出19:",
+    "incomplete end (5 trailing chars, coverage 0.600): target 10: 在研读旧约时，我们需要记住圣经评价它的两面性：是神的恩典向以色列人颁布旧约，神以伴随着律法的恩典",
+    "unverified start anchor: target 10: 在研读旧约时，我们需要记住圣经评价它的两面性：是神的恩典向以色列人颁布旧约，神以伴随着律法的恩典",
+    "unverified end anchor: target 10: 在研读旧约时，我们需要记住圣经评价它的两面性：是神的恩典向以色列人颁布旧约，神以伴随着律法的恩典",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 2",
+    "repair unverified end (previous-sync): target 3",
+    "repair unverified end (previous-sync): target 4",
+    "repair unverified start (previous-sync): target 6",
+    "repair unverified start (previous-sync): target 10",
+    "repair unverified end (previous-sync): target 10",
+    "local context confirmed start: target 6; 真正首尾文字锚点及词时间确认；局部单字识别差异不要求全文逐字相同。",
+    "local spoken context confirmed end: target 10; original evidence/warnings retained"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 6,
+    "updatedEnds": 10,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 5,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "93d5d56358881df517455445ab2098e28d8b7a18ab5fb5307db6b496651b1a36",
+  "repairCueDigest": "561a5ce0f6088ea433ead0928223a31cabcef79a38f9c79bbf996b1f12f3b553",
+  "previousAlignmentWarnings": []
 }

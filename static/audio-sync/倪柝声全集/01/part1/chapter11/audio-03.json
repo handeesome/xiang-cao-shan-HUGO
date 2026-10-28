@@ -8,20 +8,57 @@
   "audioDuration": 1620.486375,
   "cues": [
     {
-      "start": 0.85,
-      "end": 3.67,
-      "kind": "heading",
-      "targetIndex": 25,
-      "targetText": "恶人上天堂",
-      "confidence": 1.0
-    },
-    {
       "start": 3.67,
-      "end": 17.87,
+      "end": 16.73,
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "我们现在要看主耶稣所说那个得救的坏人看他到底坏到什么地步然后再看他既是坏人为什么竟然上天堂",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 3.67,
+        "previousEnd": 16.73,
+        "previousConfidence": 1.0
+      }
     },
     {
       "start": 17.87,
@@ -29,135 +66,2187 @@
       "kind": "paragraph",
       "targetIndex": 27,
       "targetText": "这个人是个税吏10节按着当时犹太社会的情形税吏是国民中最卑鄙不过的一等人我们中国人看男人最坏的就",
-      "confidence": 0.762
+      "confidence": 0.84,
+      "quality": {
+        "coverage": 0.832,
+        "coherentCoverage": 0.794,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "paired-local-edge-context",
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\倪柝声全集\\01\\chapter11\\3.mp3.json",
+          "transcriptSha256": "c2a868ab84b729e83868258c7eb9c9059228876914c52081f7e204c4898e9e77",
+          "proof": {
+            "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\倪柝声全集\\01\\chapter11\\3.mp3.json",
+            "transcriptSha256": "c2a868ab84b729e83868258c7eb9c9059228876914c52081f7e204c4898e9e77",
+            "verified": true,
+            "edges": {
+              "start": {
+                "verified": true,
+                "time": 17.87,
+                "phrase": "这个人是个",
+                "literalChars": 5,
+                "wordTokens": [
+                  {
+                    "text": "这",
+                    "start": 17.87,
+                    "end": 18.47,
+                    "rawStart": 50,
+                    "rawEnd": 50,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "个",
+                    "start": 17.87,
+                    "end": 18.47,
+                    "rawStart": 51,
+                    "rawEnd": 51,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 18.47,
+                    "end": 18.71,
+                    "rawStart": 52,
+                    "rawEnd": 52,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 18.71,
+                    "end": 18.99,
+                    "rawStart": 53,
+                    "rawEnd": 53,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "个",
+                    "start": 18.99,
+                    "end": 19.13,
+                    "rawStart": 54,
+                    "rawEnd": 54,
+                    "precision": "word"
+                  }
+                ],
+                "localSupported": true,
+                "timingPrecision": "word",
+                "source": "paired-unique-literal-endpoints",
+                "listenedByAgent": false
+              },
+              "end": {
+                "verified": true,
+                "time": 76.17,
+                "phrase": "他得救他得上天堂",
+                "literalChars": 8,
+                "wordTokens": [
+                  {
+                    "text": "他",
+                    "start": 72.91,
+                    "end": 73.07,
+                    "rawStart": 194,
+                    "rawEnd": 194,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "得",
+                    "start": 73.07,
+                    "end": 73.25,
+                    "rawStart": 195,
+                    "rawEnd": 195,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "救",
+                    "start": 73.25,
+                    "end": 73.55,
+                    "rawStart": 196,
+                    "rawEnd": 196,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "他",
+                    "start": 74.37,
+                    "end": 74.69,
+                    "rawStart": 197,
+                    "rawEnd": 197,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "得",
+                    "start": 74.69,
+                    "end": 75.03,
+                    "rawStart": 198,
+                    "rawEnd": 198,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "上",
+                    "start": 75.03,
+                    "end": 75.47,
+                    "rawStart": 199,
+                    "rawEnd": 199,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "天",
+                    "start": 75.47,
+                    "end": 75.83,
+                    "rawStart": 200,
+                    "rawEnd": 200,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "堂",
+                    "start": 75.83,
+                    "end": 76.17,
+                    "rawStart": 201,
+                    "rawEnd": 201,
+                    "precision": "word"
+                  }
+                ],
+                "localSupported": true,
+                "timingPrecision": "word",
+                "source": "paired-unique-literal-endpoints",
+                "listenedByAgent": false
+              }
+            },
+            "identityBasis": "both-local-literal-endpoints",
+            "listenedByAgent": false
+          },
+          "audioSha256": "8841039d41451477ae4a7879b2f994467d52583d14f48293938939f52a136965",
+          "listenedByAgent": false
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 17.87,
+        "previousEnd": 76.17,
+        "previousConfidence": 0.814
+      },
+      "boundaryCorrections": [
+        {
+          "book": "倪柝声全集",
+          "page": "01/part1/chapter11.md",
+          "audio": "01/chapter11/3.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\倪柝声全集\\01\\part1\\chapter11\\audio-03.json",
+          "targetIndex": 27,
+          "edge": "start",
+          "previousTime": 17.87,
+          "time": 17.87,
+          "kind": "paired-local-edge-context",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
       "start": 76.17,
-      "end": 153.57,
+      "end": 152.37,
       "kind": "paragraph",
       "targetIndex": 28,
       "targetText": "当日犹太人屈处在罗马政府专制威权之下罗马人对于犹太的关税是取包捐的制度就是政府定规某地当有多少税",
-      "confidence": 0.838
+      "confidence": 0.87,
+      "quality": {
+        "coverage": 0.868,
+        "coherentCoverage": 0.808,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 76.17,
+        "previousEnd": 152.37,
+        "previousConfidence": 0.87
+      }
     },
     {
       "start": 153.57,
-      "end": 237.89,
+      "end": 236.03,
       "kind": "paragraph",
       "targetIndex": 29,
       "targetText": "他是一个罪人13节他自己的良心控告他自己他所作的事都是违反上帝的律法的他不能守上帝的诫命他的思想",
-      "confidence": 0.87
+      "confidence": 0.876,
+      "quality": {
+        "coverage": 0.88,
+        "coherentCoverage": 0.85,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 153.57,
+        "previousEnd": 236.03,
+        "previousConfidence": 0.876
+      }
     },
     {
       "start": 237.89,
-      "end": 344.07,
+      "end": 341.77,
       "kind": "paragraph",
       "targetIndex": 30,
       "targetText": "世上的罪人哪你知道你自己是个罪人你以为你自己是不堪救药的你以为你自己是不堪得救的也是不能得救的你",
-      "confidence": 0.868
+      "confidence": 0.893,
+      "quality": {
+        "coverage": 0.893,
+        "coherentCoverage": 0.836,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 237.89,
+        "previousEnd": 341.77,
+        "previousConfidence": 0.893
+      }
     },
     {
       "start": 344.07,
-      "end": 422.48,
+      "end": 420.19,
       "kind": "paragraph",
       "targetIndex": 31,
       "targetText": "从世人的眼光看过来这样的罪人应当沉沦有余如果是按着人们的判案就好人可以上天堂坏人应当下地狱如果我",
-      "confidence": 0.679
+      "confidence": 0.885,
+      "quality": {
+        "coverage": 0.887,
+        "coherentCoverage": 0.824,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 344.07,
+        "previousEnd": 420.19,
+        "previousConfidence": 0.885
+      }
     },
     {
       "start": 422.48,
-      "end": 525.44,
+      "end": 524.14,
       "kind": "paragraph",
       "targetIndex": 32,
       "targetText": "我有一次搭宁兴轮船从沪上回闽我在船上和闽中一位很著名的商家谈道我对他说主耶稣代死赎罪的福音他就答",
-      "confidence": 0.854
+      "confidence": 0.896,
+      "quality": {
+        "coverage": 0.894,
+        "coherentCoverage": 0.834,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 422.48,
+        "previousEnd": 524.14,
+        "previousConfidence": 0.896
+      }
     },
     {
-      "start": 525.44,
+      "start": 525.82,
       "end": 583.22,
       "kind": "paragraph",
       "targetIndex": 33,
       "targetText": "这个税吏是罪大恶极的但是他得救了这样难道人都当犯罪叫自己变成大奸巨恶然后可以得救么这样难道人们可",
-      "confidence": 0.792
+      "confidence": 0.903,
+      "quality": {
+        "coverage": 0.901,
+        "coherentCoverage": 0.854,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\transcript-first-repair-20261017\\verified-transcripts\\倪柝声全集\\01\\chapter11\\3.mp3.json",
+          "transcriptSha256": "53ee5e4d4a2b1b975acd1a94f4cfc7556e33f6bfd61037f1cc6552bb0ba15242",
+          "verified": true,
+          "time": 525.82,
+          "expectedPhrase": "这个税吏是罪大恶极的，但是他得救了；这样，难道人都当犯罪，叫自己变成大奸巨恶，然",
+          "actualPhrase": "这个税礼是罪大恶极的但是",
+          "edgeAnchor": "这个税吏是罪大恶极的但是",
+          "evidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": false,
+            "substitutionAnchor": true,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 0.958,
+            "localSimilarity": 0.958,
+            "localText": "这个税吏是罪大恶极的但是他得救了这样难道人都当犯",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false
+          },
+          "window": [
+            513.44,
+            537.44
+          ],
+          "segments": [
+            {
+              "start": 513.24,
+              "end": 514.24,
+              "text": "上天堂",
+              "words": [
+                {
+                  "start": 513.24,
+                  "end": 513.64,
+                  "text": "上",
+                  "probability": 0.8632126450538635
+                },
+                {
+                  "start": 513.64,
+                  "end": 513.96,
+                  "text": "天",
+                  "probability": 0.9713944792747498
+                },
+                {
+                  "start": 513.96,
+                  "end": 514.24,
+                  "text": "堂",
+                  "probability": 0.9993122220039368
+                }
+              ]
+            },
+            {
+              "start": 515.14,
+              "end": 516.54,
+              "text": "所以罪人",
+              "words": [
+                {
+                  "start": 515.14,
+                  "end": 515.7,
+                  "text": "所以",
+                  "probability": 0.9911038875579834
+                },
+                {
+                  "start": 515.7,
+                  "end": 516.26,
+                  "text": "罪",
+                  "probability": 0.9619856774806976
+                },
+                {
+                  "start": 516.26,
+                  "end": 516.54,
+                  "text": "人",
+                  "probability": 0.9992358684539795
+                }
+              ]
+            },
+            {
+              "start": 516.54,
+              "end": 521.04,
+              "text": "你应当快来,接受神的救恩。",
+              "words": [
+                {
+                  "start": 516.54,
+                  "end": 517.38,
+                  "text": "你",
+                  "probability": 0.3347550332546234
+                },
+                {
+                  "start": 517.38,
+                  "end": 517.9399999999999,
+                  "text": "应",
+                  "probability": 0.08486732095479965
+                },
+                {
+                  "start": 517.9399999999999,
+                  "end": 518.2199999999999,
+                  "text": "当",
+                  "probability": 0.9953179359436035
+                },
+                {
+                  "start": 518.2199999999999,
+                  "end": 518.56,
+                  "text": "快",
+                  "probability": 0.9946105480194092
+                },
+                {
+                  "start": 518.56,
+                  "end": 519.0999999999999,
+                  "text": "来,",
+                  "probability": 0.9909783601760864
+                },
+                {
+                  "start": 519.16,
+                  "end": 519.4599999999999,
+                  "text": "接",
+                  "probability": 0.9594433307647705
+                },
+                {
+                  "start": 519.4599999999999,
+                  "end": 519.5999999999999,
+                  "text": "受",
+                  "probability": 0.9992595314979553
+                },
+                {
+                  "start": 519.5999999999999,
+                  "end": 519.86,
+                  "text": "神",
+                  "probability": 0.9884554147720337
+                },
+                {
+                  "start": 519.86,
+                  "end": 520.02,
+                  "text": "的",
+                  "probability": 0.9836645722389221
+                },
+                {
+                  "start": 520.02,
+                  "end": 520.18,
+                  "text": "救",
+                  "probability": 0.9811119437217712
+                },
+                {
+                  "start": 520.18,
+                  "end": 521.04,
+                  "text": "恩。",
+                  "probability": 0.9989245533943176
+                }
+              ]
+            },
+            {
+              "start": 521.3399999999999,
+              "end": 525.04,
+              "text": "恶人可以上天堂,这是福音。",
+              "words": [
+                {
+                  "start": 521.3399999999999,
+                  "end": 521.4399999999999,
+                  "text": "恶",
+                  "probability": 0.9454042613506317
+                },
+                {
+                  "start": 521.4399999999999,
+                  "end": 521.8199999999999,
+                  "text": "人",
+                  "probability": 0.9990071654319763
+                },
+                {
+                  "start": 521.8199999999999,
+                  "end": 522.3399999999999,
+                  "text": "可以",
+                  "probability": 0.8873546719551086
+                },
+                {
+                  "start": 522.3399999999999,
+                  "end": 522.54,
+                  "text": "上",
+                  "probability": 0.9956953525543213
+                },
+                {
+                  "start": 522.54,
+                  "end": 522.88,
+                  "text": "天",
+                  "probability": 0.9953816533088684
+                },
+                {
+                  "start": 522.88,
+                  "end": 523.26,
+                  "text": "堂,",
+                  "probability": 0.9997784793376923
+                },
+                {
+                  "start": 523.48,
+                  "end": 523.76,
+                  "text": "这是",
+                  "probability": 0.9676093459129333
+                },
+                {
+                  "start": 523.76,
+                  "end": 524.04,
+                  "text": "福",
+                  "probability": 0.9967040419578552
+                },
+                {
+                  "start": 524.04,
+                  "end": 525.04,
+                  "text": "音。",
+                  "probability": 0.970121443271637
+                }
+              ]
+            },
+            {
+              "start": 525.8199999999999,
+              "end": 530.74,
+              "text": "这个税礼是罪大恶极的,但是他得救了。",
+              "words": [
+                {
+                  "start": 525.8199999999999,
+                  "end": 526.0999999999999,
+                  "text": "这个",
+                  "probability": 0.8835309743881226
+                },
+                {
+                  "start": 526.0999999999999,
+                  "end": 526.3,
+                  "text": "税",
+                  "probability": 0.7178336679935455
+                },
+                {
+                  "start": 526.3,
+                  "end": 526.4599999999999,
+                  "text": "礼",
+                  "probability": 0.6104937344789505
+                },
+                {
+                  "start": 526.4599999999999,
+                  "end": 526.92,
+                  "text": "是",
+                  "probability": 0.9735425114631653
+                },
+                {
+                  "start": 526.92,
+                  "end": 527.1999999999999,
+                  "text": "罪",
+                  "probability": 0.5680890530347824
+                },
+                {
+                  "start": 527.1999999999999,
+                  "end": 527.36,
+                  "text": "大",
+                  "probability": 0.9884719848632812
+                },
+                {
+                  "start": 527.36,
+                  "end": 527.5799999999999,
+                  "text": "恶",
+                  "probability": 0.9707100987434387
+                },
+                {
+                  "start": 527.5799999999999,
+                  "end": 527.76,
+                  "text": "极",
+                  "probability": 0.9415026903152466
+                },
+                {
+                  "start": 527.76,
+                  "end": 528.28,
+                  "text": "的,",
+                  "probability": 0.9531318545341492
+                },
+                {
+                  "start": 528.62,
+                  "end": 529.0999999999999,
+                  "text": "但是",
+                  "probability": 0.9173433780670166
+                },
+                {
+                  "start": 529.0999999999999,
+                  "end": 529.56,
+                  "text": "他",
+                  "probability": 0.4716692864894867
+                },
+                {
+                  "start": 529.56,
+                  "end": 529.8,
+                  "text": "得",
+                  "probability": 0.9983381032943726
+                },
+                {
+                  "start": 529.8,
+                  "end": 529.9599999999999,
+                  "text": "救",
+                  "probability": 0.9945341348648071
+                },
+                {
+                  "start": 529.9599999999999,
+                  "end": 530.74,
+                  "text": "了。",
+                  "probability": 0.9437284469604492
+                }
+              ]
+            },
+            {
+              "start": 531.1999999999999,
+              "end": 533.56,
+              "text": "这样难道人都当犯罪者?",
+              "words": [
+                {
+                  "start": 531.1999999999999,
+                  "end": 531.48,
+                  "text": "这样",
+                  "probability": 0.9844359159469604
+                },
+                {
+                  "start": 531.48,
+                  "end": 531.88,
+                  "text": "难",
+                  "probability": 0.7687947154045105
+                },
+                {
+                  "start": 531.88,
+                  "end": 532.02,
+                  "text": "道",
+                  "probability": 0.9978840947151184
+                },
+                {
+                  "start": 532.02,
+                  "end": 532.4399999999999,
+                  "text": "人",
+                  "probability": 0.975245475769043
+                },
+                {
+                  "start": 532.4399999999999,
+                  "end": 532.9599999999999,
+                  "text": "都",
+                  "probability": 0.9713960289955139
+                },
+                {
+                  "start": 532.9599999999999,
+                  "end": 533.16,
+                  "text": "当",
+                  "probability": 0.9798397421836853
+                },
+                {
+                  "start": 533.16,
+                  "end": 533.48,
+                  "text": "犯",
+                  "probability": 0.9872389733791351
+                },
+                {
+                  "start": 533.48,
+                  "end": 533.56,
+                  "text": "罪",
+                  "probability": 0.9990662038326263
+                },
+                {
+                  "start": 533.56,
+                  "end": 533.56,
+                  "text": "者?",
+                  "probability": 0.20273154973983765
+                }
+              ]
+            },
+            {
+              "start": 533.58,
+              "end": 536.38,
+              "text": "叫自己變成大監聚惡",
+              "words": [
+                {
+                  "start": 533.58,
+                  "end": 534.02,
+                  "text": "叫",
+                  "probability": 0.4470936954021454
+                },
+                {
+                  "start": 534.02,
+                  "end": 534.26,
+                  "text": "自己",
+                  "probability": 0.9852960109710693
+                },
+                {
+                  "start": 534.26,
+                  "end": 534.52,
+                  "text": "變",
+                  "probability": 0.7838919162750244
+                },
+                {
+                  "start": 534.52,
+                  "end": 534.82,
+                  "text": "成",
+                  "probability": 0.9916679859161377
+                },
+                {
+                  "start": 534.82,
+                  "end": 535.46,
+                  "text": "大",
+                  "probability": 0.9020974040031433
+                },
+                {
+                  "start": 535.46,
+                  "end": 535.76,
+                  "text": "監",
+                  "probability": 0.6111244112253189
+                },
+                {
+                  "start": 535.76,
+                  "end": 536.1,
+                  "text": "聚",
+                  "probability": 0.7855966985225677
+                },
+                {
+                  "start": 536.1,
+                  "end": 536.38,
+                  "text": "惡",
+                  "probability": 0.9022539854049683
+                }
+              ]
+            },
+            {
+              "start": 536.38,
+              "end": 537.74,
+              "text": "然後可以",
+              "words": [
+                {
+                  "start": 536.38,
+                  "end": 537.1,
+                  "text": "然後",
+                  "probability": 0.7088906764984131
+                },
+                {
+                  "start": 537.1,
+                  "end": 537.74,
+                  "text": "可以",
+                  "probability": 0.9468554258346558
+                }
+              ]
+            }
+          ],
+          "source": "true-edge-local-anchor-review",
+          "listenedByAgent": false,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "reason": "真正首尾文字锚点及词时间确认；局部单字识别差异不要求全文逐字相同。",
+          "audioSha256": "8841039d41451477ae4a7879b2f994467d52583d14f48293938939f52a136965"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 525.44,
+        "previousEnd": 583.22,
+        "previousConfidence": 0.886
+      },
+      "boundaryCorrections": [
+        {
+          "book": "倪柝声全集",
+          "page": "01/part1/chapter11.md",
+          "audio": "01/chapter11/3.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\倪柝声全集\\01\\part1\\chapter11\\audio-03.json",
+          "targetIndex": 33,
+          "edge": "start",
+          "previousTime": 525.44,
+          "time": 525.82,
+          "kind": "local-edge-confirmation",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "真正首尾文字锚点及词时间确认；局部单字识别差异不要求全文逐字相同。"
+        }
+      ]
     },
     {
       "start": 583.22,
-      "end": 656.99,
+      "end": 655.17,
       "kind": "paragraph",
       "targetIndex": 34,
       "targetText": "他虽然是个卖给罪恶的人他在上帝的面前并不敢骄傲以为自己有什么主耶稣说他自卑在上帝的面前14节经上",
-      "confidence": 0.8
+      "confidence": 0.94,
+      "quality": {
+        "coverage": 0.944,
+        "coherentCoverage": 0.921,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 583.22,
+        "previousEnd": 655.17,
+        "previousConfidence": 0.94
+      }
     },
     {
-      "start": 656.99,
-      "end": 811.71,
+      "start": 658.15,
+      "end": 810.45,
       "kind": "paragraph",
       "targetIndex": 35,
       "targetText": "上帝赐恩给谦卑的人你若骄傲以为你什么都有了一无所缺了我愿意圣灵开启你的心叫你看出你自己的缺乏叫你",
-      "confidence": 0.832
+      "confidence": 0.934,
+      "quality": {
+        "coverage": 0.939,
+        "coherentCoverage": 0.935,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 0.958,
+          "localSimilarity": 0.958,
+          "localText": "上帝赐恩给谦卑的人你若骄傲以为你什么都有了1无所",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 656.99,
+        "previousEnd": 810.45,
+        "previousConfidence": 0.93
+      }
     },
     {
       "start": 811.71,
-      "end": 864.83,
+      "end": 864.17,
       "kind": "paragraph",
       "targetIndex": 36,
       "targetText": "主耶稣说祂来本不是召义人乃是召罪人太九13又说人子来为要寻找拯救失丧的人路十九10所以你如果是一",
-      "confidence": 0.843
+      "confidence": 0.897,
+      "quality": {
+        "coverage": 0.897,
+        "coherentCoverage": 0.877,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 811.71,
+        "previousEnd": 864.17,
+        "previousConfidence": 0.897
+      }
     },
     {
       "start": 864.83,
-      "end": 1015.44,
+      "end": 1014.1,
       "kind": "paragraph",
       "targetIndex": 37,
       "targetText": "英国著名传道司布真先生一夜作了一梦梦见到了天门外边看见有一群又光明又荣耀的圣者排着队擎着得胜旗且",
-      "confidence": 0.745
+      "confidence": 0.845,
+      "quality": {
+        "coverage": 0.845,
+        "coherentCoverage": 0.738,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 864.83,
+        "previousEnd": 1014.1,
+        "previousConfidence": 0.845
+      }
     },
     {
       "start": 1015.44,
-      "end": 1123.8,
+      "end": 1122.64,
       "kind": "paragraph",
       "targetIndex": 38,
       "targetText": "圣灵在人心中头一步的工作就是叫人知罪上帝拯救一个罪人的头一步就是差遣祂的圣灵作工在人的心里叫人为",
-      "confidence": 0.822
+      "confidence": 0.886,
+      "quality": {
+        "coverage": 0.884,
+        "coherentCoverage": 0.797,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1015.44,
+        "previousEnd": 1122.64,
+        "previousConfidence": 0.883
+      }
     },
     {
-      "start": 1123.8,
+      "start": 1124.23,
       "end": 1254.13,
       "kind": "paragraph",
       "targetIndex": 39,
       "targetText": "这个税吏不特自处在罪人的地位并且他真为他自己的罪恶悲伤捶着胸他恨恶他的自己他想到他自己从前如何犯",
-      "confidence": 0.744
+      "confidence": 0.879,
+      "quality": {
+        "coverage": 0.87,
+        "coherentCoverage": 0.824,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\transcript-first-repair-20261017\\verified-transcripts\\倪柝声全集\\01\\chapter11\\3.mp3.json",
+          "transcriptSha256": "53ee5e4d4a2b1b975acd1a94f4cfc7556e33f6bfd61037f1cc6552bb0ba15242",
+          "verified": true,
+          "time": 1124.23,
+          "expectedPhrase": "这个税吏不特自处在罪人的地位，并且，他真为他自己的罪恶悲伤：「捶着胸。 」他恨恶",
+          "actualPhrase": "这个税例不特自处在罪人的",
+          "edgeAnchor": "这个税吏不特自处在罪人的",
+          "evidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": false,
+            "substitutionAnchor": true,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 0.958,
+            "localSimilarity": 0.958,
+            "localText": "这个税吏不特自处在罪人的地位并且他真为他自己的罪",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false
+          },
+          "window": [
+            1111.8,
+            1135.8
+          ],
+          "segments": [
+            {
+              "start": 1111.76,
+              "end": 1112.44,
+              "text": "主的裡面",
+              "words": [
+                {
+                  "start": 1111.76,
+                  "end": 1112.0,
+                  "text": "主",
+                  "probability": 0.8956090807914734
+                },
+                {
+                  "start": 1112.0,
+                  "end": 1112.12,
+                  "text": "的",
+                  "probability": 0.9783048629760742
+                },
+                {
+                  "start": 1112.12,
+                  "end": 1112.44,
+                  "text": "裡面",
+                  "probability": 0.7786996364593506
+                }
+              ]
+            },
+            {
+              "start": 1113.22,
+              "end": 1115.36,
+              "text": "所以如果這個時候",
+              "words": [
+                {
+                  "start": 1113.22,
+                  "end": 1113.86,
+                  "text": "所以",
+                  "probability": 0.9927409291267395
+                },
+                {
+                  "start": 1113.86,
+                  "end": 1114.5,
+                  "text": "如果",
+                  "probability": 0.7701495885848999
+                },
+                {
+                  "start": 1114.5,
+                  "end": 1114.84,
+                  "text": "這個",
+                  "probability": 0.917432963848114
+                },
+                {
+                  "start": 1114.84,
+                  "end": 1115.36,
+                  "text": "時候",
+                  "probability": 0.9932419657707214
+                }
+              ]
+            },
+            {
+              "start": 1115.4099999999999,
+              "end": 1123.31,
+              "text": "圣灵叫你知罪,这不是他要定你的罪,这表明他要拯救你。",
+              "words": [
+                {
+                  "start": 1115.4099999999999,
+                  "end": 1115.99,
+                  "text": "圣",
+                  "probability": 0.5256107375025749
+                },
+                {
+                  "start": 1115.99,
+                  "end": 1116.2099999999998,
+                  "text": "灵",
+                  "probability": 0.8701864182949066
+                },
+                {
+                  "start": 1116.2099999999998,
+                  "end": 1116.35,
+                  "text": "叫",
+                  "probability": 0.4533522129058838
+                },
+                {
+                  "start": 1116.35,
+                  "end": 1116.6499999999999,
+                  "text": "你",
+                  "probability": 0.937067449092865
+                },
+                {
+                  "start": 1116.6499999999999,
+                  "end": 1116.9299999999998,
+                  "text": "知",
+                  "probability": 0.9486338496208191
+                },
+                {
+                  "start": 1116.9299999999998,
+                  "end": 1117.51,
+                  "text": "罪,",
+                  "probability": 0.9986710548400879
+                },
+                {
+                  "start": 1117.81,
+                  "end": 1117.87,
+                  "text": "这",
+                  "probability": 0.9216532111167908
+                },
+                {
+                  "start": 1117.87,
+                  "end": 1118.1699999999998,
+                  "text": "不是",
+                  "probability": 0.9925552010536194
+                },
+                {
+                  "start": 1118.1699999999998,
+                  "end": 1118.75,
+                  "text": "他",
+                  "probability": 0.5795007348060608
+                },
+                {
+                  "start": 1118.75,
+                  "end": 1119.1699999999998,
+                  "text": "要",
+                  "probability": 0.9023345112800598
+                },
+                {
+                  "start": 1119.1699999999998,
+                  "end": 1119.4099999999999,
+                  "text": "定",
+                  "probability": 0.9715088605880737
+                },
+                {
+                  "start": 1119.4099999999999,
+                  "end": 1119.7099999999998,
+                  "text": "你的",
+                  "probability": 0.9828740358352661
+                },
+                {
+                  "start": 1119.7099999999998,
+                  "end": 1120.1699999999998,
+                  "text": "罪,",
+                  "probability": 0.9997458755970001
+                },
+                {
+                  "start": 1120.4299999999998,
+                  "end": 1120.55,
+                  "text": "这",
+                  "probability": 0.9717525243759155
+                },
+                {
+                  "start": 1120.55,
+                  "end": 1120.81,
+                  "text": "表",
+                  "probability": 0.8875354528427124
+                },
+                {
+                  "start": 1120.81,
+                  "end": 1121.1499999999999,
+                  "text": "明",
+                  "probability": 0.9993886947631836
+                },
+                {
+                  "start": 1121.1499999999999,
+                  "end": 1121.3899999999999,
+                  "text": "他",
+                  "probability": 0.9133619070053101
+                },
+                {
+                  "start": 1121.3899999999999,
+                  "end": 1121.9099999999999,
+                  "text": "要",
+                  "probability": 0.9837309122085571
+                },
+                {
+                  "start": 1121.9099999999999,
+                  "end": 1122.1299999999999,
+                  "text": "拯",
+                  "probability": 0.9960885941982269
+                },
+                {
+                  "start": 1122.1299999999999,
+                  "end": 1122.4299999999998,
+                  "text": "救",
+                  "probability": 0.9998526573181152
+                },
+                {
+                  "start": 1122.4299999999998,
+                  "end": 1123.31,
+                  "text": "你。",
+                  "probability": 0.998104453086853
+                }
+              ]
+            },
+            {
+              "start": 1124.2299999999998,
+              "end": 1132.1299999999999,
+              "text": "这个税例不特自处在罪人的地位,并且他真为他自己的罪恶悲伤。",
+              "words": [
+                {
+                  "start": 1124.2299999999998,
+                  "end": 1124.57,
+                  "text": "这个",
+                  "probability": 0.8692367076873779
+                },
+                {
+                  "start": 1124.57,
+                  "end": 1124.85,
+                  "text": "税",
+                  "probability": 0.576936200261116
+                },
+                {
+                  "start": 1124.85,
+                  "end": 1125.37,
+                  "text": "例",
+                  "probability": 0.29373669624328613
+                },
+                {
+                  "start": 1125.37,
+                  "end": 1126.11,
+                  "text": "不",
+                  "probability": 0.9152694940567017
+                },
+                {
+                  "start": 1126.11,
+                  "end": 1126.51,
+                  "text": "特",
+                  "probability": 0.9953363537788391
+                },
+                {
+                  "start": 1126.51,
+                  "end": 1126.99,
+                  "text": "自",
+                  "probability": 0.9194117784500122
+                },
+                {
+                  "start": 1126.99,
+                  "end": 1127.35,
+                  "text": "处",
+                  "probability": 0.9947959184646606
+                },
+                {
+                  "start": 1127.35,
+                  "end": 1127.6699999999998,
+                  "text": "在",
+                  "probability": 0.9842351675033569
+                },
+                {
+                  "start": 1127.6699999999998,
+                  "end": 1127.8899999999999,
+                  "text": "罪",
+                  "probability": 0.9983627796173096
+                },
+                {
+                  "start": 1127.8899999999999,
+                  "end": 1128.09,
+                  "text": "人",
+                  "probability": 0.9997091889381409
+                },
+                {
+                  "start": 1128.09,
+                  "end": 1128.27,
+                  "text": "的",
+                  "probability": 0.9629408121109009
+                },
+                {
+                  "start": 1128.27,
+                  "end": 1128.4499999999998,
+                  "text": "地",
+                  "probability": 0.9976981282234192
+                },
+                {
+                  "start": 1128.4499999999998,
+                  "end": 1129.03,
+                  "text": "位,",
+                  "probability": 0.9998456239700317
+                },
+                {
+                  "start": 1129.2099999999998,
+                  "end": 1129.49,
+                  "text": "并",
+                  "probability": 0.9955860078334808
+                },
+                {
+                  "start": 1129.49,
+                  "end": 1129.85,
+                  "text": "且",
+                  "probability": 0.9982548356056213
+                },
+                {
+                  "start": 1129.85,
+                  "end": 1130.1699999999998,
+                  "text": "他",
+                  "probability": 0.7627816200256348
+                },
+                {
+                  "start": 1130.1699999999998,
+                  "end": 1130.37,
+                  "text": "真",
+                  "probability": 0.8496025204658508
+                },
+                {
+                  "start": 1130.37,
+                  "end": 1130.59,
+                  "text": "为",
+                  "probability": 0.9852853417396545
+                },
+                {
+                  "start": 1130.59,
+                  "end": 1130.85,
+                  "text": "他",
+                  "probability": 0.9259628057479858
+                },
+                {
+                  "start": 1130.85,
+                  "end": 1131.1699999999998,
+                  "text": "自己",
+                  "probability": 0.9965403079986572
+                },
+                {
+                  "start": 1131.1699999999998,
+                  "end": 1131.37,
+                  "text": "的",
+                  "probability": 0.9928930401802063
+                },
+                {
+                  "start": 1131.37,
+                  "end": 1131.49,
+                  "text": "罪",
+                  "probability": 0.9996241331100464
+                },
+                {
+                  "start": 1131.49,
+                  "end": 1131.6899999999998,
+                  "text": "恶",
+                  "probability": 0.9950267374515533
+                },
+                {
+                  "start": 1131.6899999999998,
+                  "end": 1131.99,
+                  "text": "悲",
+                  "probability": 0.8648201525211334
+                },
+                {
+                  "start": 1131.99,
+                  "end": 1132.1299999999999,
+                  "text": "伤。",
+                  "probability": 0.9903451800346375
+                }
+              ]
+            },
+            {
+              "start": 1132.16,
+              "end": 1133.94,
+              "text": "垂着胸",
+              "words": [
+                {
+                  "start": 1132.16,
+                  "end": 1133.1,
+                  "text": "垂",
+                  "probability": 0.6998070627450943
+                },
+                {
+                  "start": 1133.1,
+                  "end": 1133.48,
+                  "text": "着",
+                  "probability": 0.8905020952224731
+                },
+                {
+                  "start": 1133.48,
+                  "end": 1133.94,
+                  "text": "胸",
+                  "probability": 0.928186446428299
+                }
+              ]
+            },
+            {
+              "start": 1133.94,
+              "end": 1136.1,
+              "text": "他恨无他的自己",
+              "words": [
+                {
+                  "start": 1133.94,
+                  "end": 1134.96,
+                  "text": "他",
+                  "probability": 0.8384758830070496
+                },
+                {
+                  "start": 1134.96,
+                  "end": 1135.24,
+                  "text": "恨",
+                  "probability": 0.9889039397239685
+                },
+                {
+                  "start": 1135.24,
+                  "end": 1135.38,
+                  "text": "无",
+                  "probability": 0.401721328496933
+                },
+                {
+                  "start": 1135.38,
+                  "end": 1135.58,
+                  "text": "他的",
+                  "probability": 0.959496021270752
+                },
+                {
+                  "start": 1135.58,
+                  "end": 1136.1,
+                  "text": "自己",
+                  "probability": 0.9838248491287231
+                }
+              ]
+            }
+          ],
+          "source": "true-edge-local-anchor-review",
+          "listenedByAgent": false,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "reason": "真正首尾文字锚点及词时间确认；局部单字识别差异不要求全文逐字相同。",
+          "audioSha256": "8841039d41451477ae4a7879b2f994467d52583d14f48293938939f52a136965"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1123.8,
+        "previousEnd": 1254.13,
+        "previousConfidence": 0.873
+      },
+      "boundaryCorrections": [
+        {
+          "book": "倪柝声全集",
+          "page": "01/part1/chapter11.md",
+          "audio": "01/chapter11/3.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\倪柝声全集\\01\\part1\\chapter11\\audio-03.json",
+          "targetIndex": 39,
+          "edge": "start",
+          "previousTime": 1123.8,
+          "time": 1124.23,
+          "kind": "local-edge-confirmation",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "真正首尾文字锚点及词时间确认；局部单字识别差异不要求全文逐字相同。"
+        }
+      ]
     },
     {
       "start": 1254.13,
-      "end": 1304.22,
+      "end": 1302.76,
       "kind": "paragraph",
       "targetIndex": 40,
       "targetText": "这个罪人得救的独一无二原因就是因为他相信十字架替死的救恩他虽然自卑然而自卑不能救他他虽然忧伤然而",
-      "confidence": 0.773
+      "confidence": 0.933,
+      "quality": {
+        "coverage": 0.93,
+        "coherentCoverage": 0.909,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": false,
+          "substitutionAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1254.13,
+        "previousEnd": 1302.76,
+        "previousConfidence": 0.933
+      }
     },
     {
       "start": 1304.22,
-      "end": 1386.09,
+      "end": 1384.2,
       "kind": "paragraph",
       "targetIndex": 41,
       "targetText": "他祷告说上帝阿开恩可怜我这个罪人这句话在原文里尚有一个译法就是上帝阿为我这个罪人赎罪或作上帝阿准",
-      "confidence": 0.829
+      "confidence": 0.881,
+      "quality": {
+        "coverage": 0.879,
+        "coherentCoverage": 0.812,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1304.22,
+        "previousEnd": 1384.2,
+        "previousConfidence": 0.881
+      }
     },
     {
       "start": 1386.09,
-      "end": 1531.17,
+      "end": 1529.69,
       "kind": "paragraph",
       "targetIndex": 42,
       "targetText": "他来到上帝的面前并不是求上帝帮助他叫他回家之后自己能够改变因为他知道他自己是不能改变的他不会改良",
-      "confidence": 0.789
+      "confidence": 0.905,
+      "quality": {
+        "coverage": 0.901,
+        "coherentCoverage": 0.864,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1386.09,
+        "previousEnd": 1529.69,
+        "previousConfidence": 0.886
+      }
     },
     {
-      "start": 1531.17,
-      "end": 1618.47,
+      "start": 1531.65,
+      "end": 1618.77,
       "kind": "paragraph",
       "targetIndex": 43,
       "targetText": "税吏来到上帝面前求赎罪凡求告主名的就必得救然而人未曾信祂怎能求祂呢罗十1314税吏求告上帝因为他",
-      "confidence": 0.743
+      "confidence": 0.873,
+      "quality": {
+        "coverage": 0.863,
+        "coherentCoverage": 0.813,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "start substitution",
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\transcript-first-repair-20261017\\verified-transcripts\\倪柝声全集\\01\\chapter11\\3.mp3.json",
+          "transcriptSha256": "53ee5e4d4a2b1b975acd1a94f4cfc7556e33f6bfd61037f1cc6552bb0ba15242",
+          "phraseChars": 12,
+          "candidate": 1531.65,
+          "expectedPhrase": "税吏来到神面前求赎罪凡求",
+          "actualPhrase": "水里来到圣面前求赎罪凡求",
+          "phoneticPhrase": [
+            "shui",
+            "li",
+            "lai",
+            "dao",
+            "shen",
+            "mian",
+            "qian",
+            "qiu",
+            "shu",
+            "zui",
+            "fan",
+            "qiu"
+          ],
+          "actualPhoneticPhrase": [
+            "shui",
+            "li",
+            "lai",
+            "dao",
+            "sheng",
+            "mian",
+            "qian",
+            "qiu",
+            "shu",
+            "zui",
+            "fan",
+            "qiu"
+          ],
+          "verified": true,
+          "time": 1531.65,
+          "boundedPhonetic": true,
+          "exactEndpointPhonemes": 2,
+          "maxInternalPhoneticDifferences": 2,
+          "phoneticDifferences": [
+            4
+          ],
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "水",
+              "start": 1531.6499999999999,
+              "end": 1531.95,
+              "rawStart": 4380,
+              "rawEnd": 4380,
+              "precision": "word"
+            },
+            {
+              "text": "里",
+              "start": 1531.95,
+              "end": 1532.29,
+              "rawStart": 4381,
+              "rawEnd": 4381,
+              "precision": "word"
+            },
+            {
+              "text": "来",
+              "start": 1532.29,
+              "end": 1532.71,
+              "rawStart": 4382,
+              "rawEnd": 4382,
+              "precision": "word"
+            },
+            {
+              "text": "到",
+              "start": 1532.71,
+              "end": 1532.8899999999999,
+              "rawStart": 4383,
+              "rawEnd": 4383,
+              "precision": "word"
+            },
+            {
+              "text": "圣",
+              "start": 1532.8899999999999,
+              "end": 1533.05,
+              "rawStart": 4384,
+              "rawEnd": 4384,
+              "precision": "word"
+            },
+            {
+              "text": "面",
+              "start": 1533.05,
+              "end": 1533.45,
+              "rawStart": 4385,
+              "rawEnd": 4385,
+              "precision": "word"
+            },
+            {
+              "text": "前",
+              "start": 1533.45,
+              "end": 1533.83,
+              "rawStart": 4386,
+              "rawEnd": 4386,
+              "precision": "word"
+            },
+            {
+              "text": "求",
+              "start": 1533.83,
+              "end": 1534.21,
+              "rawStart": 4387,
+              "rawEnd": 4387,
+              "precision": "word"
+            },
+            {
+              "text": "赎",
+              "start": 1534.21,
+              "end": 1534.55,
+              "rawStart": 4388,
+              "rawEnd": 4388,
+              "precision": "word"
+            },
+            {
+              "text": "罪",
+              "start": 1534.55,
+              "end": 1535.1299999999999,
+              "rawStart": 4389,
+              "rawEnd": 4389,
+              "precision": "word"
+            },
+            {
+              "text": "凡",
+              "start": 1536.05,
+              "end": 1536.3899999999999,
+              "rawStart": 4390,
+              "rawEnd": 4390,
+              "precision": "word"
+            },
+            {
+              "text": "求",
+              "start": 1536.3899999999999,
+              "end": 1536.67,
+              "rawStart": 4391,
+              "rawEnd": 4391,
+              "precision": "word"
+            }
+          ],
+          "source": "bounded-local-phonetic-differences-original-word-times",
+          "listenedByAgent": false,
+          "audioSha256": "8841039d41451477ae4a7879b2f994467d52583d14f48293938939f52a136965",
+          "reason": "实际首/尾2个音节贴边相同，12音节局部短句最多2处内部识别差异；完整词边界、源段及录音唯一性、数字一致、停顿与相邻时间均核验，不逐字检查正文中间。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 1531.17,
+        "previousEnd": 1618.77,
+        "previousConfidence": 0.853
+      },
+      "boundaryCorrections": [
+        {
+          "book": "倪柝声全集",
+          "page": "01/part1/chapter11.md",
+          "audio": "01/chapter11/3.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\倪柝声全集\\01\\part1\\chapter11\\audio-03.json",
+          "targetIndex": 43,
+          "edge": "start",
+          "previousTime": 1531.17,
+          "time": 1531.65,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 27: 这个人是个「税吏」(10 节)。 按着当时犹太社会的情形，税吏是国民中最卑鄙不过的一等人。 我们",
+    "unverified end anchor: target 27: 这个人是个「税吏」(10 节)。 按着当时犹太社会的情形，税吏是国民中最卑鄙不过的一等人。 我们",
+    "unverified start anchor: target 33: 这个税吏是罪大恶极的，但是他得救了；这样，难道人都当犯罪，叫自己变成大奸巨恶，然后可以得救么？ ",
+    "unverified start anchor: target 34: 他虽然是个卖给罪恶的人，他在神的面前，并不敢骄傲，以为自己有什么；主耶稣说，他「自卑」在神的面前",
+    "unverified start anchor: target 39: 这个税吏不特自处在罪人的地位，并且，他真为他自己的罪恶悲伤：「捶着胸。 」他恨恶他的自己。 他想",
+    "unverified end anchor: target 42: 他来到神的面前，并不是求神帮助他，叫他回家之后，自己能够改变。 因为他知道他自己是不能改变的。 ",
+    "unverified start anchor: target 43: 税吏来到神面前求赎罪。 「凡求告主名的，就必得救。然而，人未曾信祂，怎能求祂呢？」 (罗十 13",
+    "repair unverified start (previous-sync): target 27",
+    "repair unverified start (previous-sync): target 33",
+    "repair unverified start (previous-sync): target 39",
+    "repair unverified start (previous-sync): target 43",
+    "local context confirmed start: target 33; 真正首尾文字锚点及词时间确认；局部单字识别差异不要求全文逐字相同。",
+    "local context confirmed start: target 39; 真正首尾文字锚点及词时间确认；局部单字识别差异不要求全文逐字相同。",
+    "paired local context confirmed start: target 27; previous evidence retained"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 4,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "2fc301830fa1840af25de15c702594f0e03b939d13d2a5568ae2b9be1ba577cd",
+  "repairCueDigest": "8f9f27b41082ce422d0e34f8c5982e4fd9f094ba86fc38e1c87aff6e5d5ebc89",
+  "previousAlignmentWarnings": [],
+  "currentSiteConfirmation": {
+    "model": "medium",
+    "audioSha256": "8841039d41451477ae4a7879b2f994467d52583d14f48293938939f52a136965",
+    "audioDuration": 1620.486375,
+    "windows": [
+      [
+        8.57,
+        29.37
+      ],
+      [
+        516.54,
+        533.58
+      ],
+      [
+        648.97,
+        665.75
+      ],
+      [
+        1115.36,
+        1132.16
+      ],
+      [
+        1521.79,
+        1541.97
+      ]
+    ]
+  }
 }

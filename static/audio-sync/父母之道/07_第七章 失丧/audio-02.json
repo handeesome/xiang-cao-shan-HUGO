@@ -9,67 +9,654 @@
   "cues": [
     {
       "start": 1.62,
-      "end": 25.76,
+      "end": 25.18,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "这些比喻中的每一个都聚焦于失丧的一个方面的含义将有助于你理解孩子的行为和理解作为他们父母的工作描",
-      "confidence": 0.929
+      "confidence": 0.929,
+      "quality": {
+        "coverage": 0.897,
+        "coherentCoverage": 0.897,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 6,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 1.62,
+        "previousEnd": 25.76,
+        "previousConfidence": 0.929
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 1.62,
+            "time": 1.62,
+            "reason": "本段开头简读，每一个都聚焦；不从内部重复的这些比喻起算。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\父母之道\\7-2.mp3.json",
+              "sha256": "2ef3997d872169c82b4496974a6c0a2e9e5b91ac4eb054ab9c1c1df9944b6f81",
+              "segments": [
+                {
+                  "start": 1.62,
+                  "end": 6.86,
+                  "text": "每一个都聚焦于时尚的一个方面的含义",
+                  "words": [
+                    {
+                      "start": 1.62,
+                      "end": 2.1,
+                      "text": "每",
+                      "probability": 0.4501948356628418
+                    },
+                    {
+                      "start": 2.1,
+                      "end": 2.5,
+                      "text": "一个",
+                      "probability": 0.7176108956336975
+                    },
+                    {
+                      "start": 2.5,
+                      "end": 3.54,
+                      "text": "都",
+                      "probability": 0.7472339868545532
+                    },
+                    {
+                      "start": 3.54,
+                      "end": 4.06,
+                      "text": "聚",
+                      "probability": 0.9904946684837341
+                    },
+                    {
+                      "start": 4.06,
+                      "end": 4.28,
+                      "text": "焦",
+                      "probability": 0.993908166885376
+                    },
+                    {
+                      "start": 4.28,
+                      "end": 4.58,
+                      "text": "于",
+                      "probability": 0.9599409103393555
+                    },
+                    {
+                      "start": 4.58,
+                      "end": 5.2,
+                      "text": "时",
+                      "probability": 0.1577582210302353
+                    },
+                    {
+                      "start": 5.2,
+                      "end": 5.56,
+                      "text": "尚",
+                      "probability": 0.8941756188869476
+                    },
+                    {
+                      "start": 5.56,
+                      "end": 5.7,
+                      "text": "的",
+                      "probability": 0.8656994700431824
+                    },
+                    {
+                      "start": 5.7,
+                      "end": 5.86,
+                      "text": "一个",
+                      "probability": 0.8283050656318665
+                    },
+                    {
+                      "start": 5.86,
+                      "end": 6.22,
+                      "text": "方面",
+                      "probability": 0.8954488039016724
+                    },
+                    {
+                      "start": 6.22,
+                      "end": 6.42,
+                      "text": "的",
+                      "probability": 0.9767596125602722
+                    },
+                    {
+                      "start": 6.42,
+                      "end": 6.62,
+                      "text": "含",
+                      "probability": 0.9372949004173279
+                    },
+                    {
+                      "start": 6.62,
+                      "end": 6.86,
+                      "text": "义",
+                      "probability": 0.9849573969841003
+                    }
+                  ]
+                },
+                {
+                  "start": 7.38,
+                  "end": 14.1,
+                  "text": "将有助于你理解孩子的行为和理解作为他们父母的工作描述",
+                  "words": [
+                    {
+                      "start": 7.38,
+                      "end": 7.9,
+                      "text": "将",
+                      "probability": 0.8983125686645508
+                    },
+                    {
+                      "start": 7.9,
+                      "end": 8.12,
+                      "text": "有",
+                      "probability": 0.9951529502868652
+                    },
+                    {
+                      "start": 8.12,
+                      "end": 8.3,
+                      "text": "助",
+                      "probability": 0.9914202690124512
+                    },
+                    {
+                      "start": 8.3,
+                      "end": 8.52,
+                      "text": "于",
+                      "probability": 0.9885634183883667
+                    },
+                    {
+                      "start": 8.52,
+                      "end": 8.84,
+                      "text": "你",
+                      "probability": 0.9594627618789673
+                    },
+                    {
+                      "start": 8.84,
+                      "end": 9.04,
+                      "text": "理",
+                      "probability": 0.9900922179222107
+                    },
+                    {
+                      "start": 9.04,
+                      "end": 9.24,
+                      "text": "解",
+                      "probability": 0.9999070167541504
+                    },
+                    {
+                      "start": 9.24,
+                      "end": 9.5,
+                      "text": "孩子",
+                      "probability": 0.996757447719574
+                    },
+                    {
+                      "start": 9.5,
+                      "end": 9.72,
+                      "text": "的",
+                      "probability": 0.9983348250389099
+                    },
+                    {
+                      "start": 9.72,
+                      "end": 10.04,
+                      "text": "行",
+                      "probability": 0.9970138072967529
+                    },
+                    {
+                      "start": 10.04,
+                      "end": 10.3,
+                      "text": "为",
+                      "probability": 0.99457848072052
+                    },
+                    {
+                      "start": 10.3,
+                      "end": 10.72,
+                      "text": "和",
+                      "probability": 0.9780253767967224
+                    },
+                    {
+                      "start": 10.72,
+                      "end": 10.9,
+                      "text": "理",
+                      "probability": 0.9836190342903137
+                    },
+                    {
+                      "start": 10.9,
+                      "end": 11.34,
+                      "text": "解",
+                      "probability": 0.9999675750732422
+                    },
+                    {
+                      "start": 11.34,
+                      "end": 12.14,
+                      "text": "作",
+                      "probability": 0.9484764933586121
+                    },
+                    {
+                      "start": 12.14,
+                      "end": 12.3,
+                      "text": "为",
+                      "probability": 0.9928863644599915
+                    },
+                    {
+                      "start": 12.3,
+                      "end": 12.56,
+                      "text": "他们",
+                      "probability": 0.9697863459587097
+                    },
+                    {
+                      "start": 12.56,
+                      "end": 12.88,
+                      "text": "父",
+                      "probability": 0.9917198419570923
+                    },
+                    {
+                      "start": 12.88,
+                      "end": 13.02,
+                      "text": "母",
+                      "probability": 0.9994049072265625
+                    },
+                    {
+                      "start": 13.02,
+                      "end": 13.14,
+                      "text": "的",
+                      "probability": 0.9943027496337891
+                    },
+                    {
+                      "start": 13.14,
+                      "end": 13.46,
+                      "text": "工作",
+                      "probability": 0.996892511844635
+                    },
+                    {
+                      "start": 13.46,
+                      "end": 13.78,
+                      "text": "描",
+                      "probability": 0.9961016476154327
+                    },
+                    {
+                      "start": 13.78,
+                      "end": 14.1,
+                      "text": "述",
+                      "probability": 0.9999047219753265
+                    }
+                  ]
+                }
+              ],
+              "source": "context-reviewed-paragraph-approximation"
+            }
+          }
+        }
+      }
     },
     {
       "start": 25.76,
-      "end": 86.48,
+      "end": 85.22,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "第一羊需要有牧羊人它们需要智慧保护和牧羊人提供的供应你的孩子也是一样他们需要在一个人的照顾下健康",
-      "confidence": 0.874
+      "confidence": 0.967,
+      "quality": {
+        "coverage": 0.974,
+        "coherentCoverage": 0.943,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 25.76,
+        "previousEnd": 86.48,
+        "previousConfidence": 0.874
+      }
     },
     {
       "start": 86.48,
-      "end": 172.52,
+      "end": 171.38,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "第二羊群容易迷失羊自然而然容易被青草吸引很容易越过界限羊也喜欢随大流盲目跟着羊群跑你的孩子也是如",
-      "confidence": 0.885
+      "confidence": 0.961,
+      "quality": {
+        "coverage": 0.964,
+        "coherentCoverage": 0.954,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 86.48,
+        "previousEnd": 172.52,
+        "previousConfidence": 0.885
+      }
     },
     {
       "start": 172.52,
-      "end": 241.78,
+      "end": 242.36,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "在这个富有启发性的比喻里还有第三层意思一旦羊迷失了它没有能力救自己它需要牧羊人去寻找它带它回家你",
-      "confidence": 0.936
+      "confidence": 0.967,
+      "quality": {
+        "coverage": 0.969,
+        "coherentCoverage": 0.965,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 172.52,
+        "previousEnd": 241.78,
+        "previousConfidence": 0.936
+      }
     },
     {
-      "start": 241.78,
-      "end": 339.4,
+      "start": 244.22,
+      "end": 338.08,
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "失钱的比喻讲的不是关于丢失的硬币它的焦点不是硬币而是那个寻找硬币的人在这个比喻里只有三节经文通过",
-      "confidence": 0.87
+      "confidence": 0.959,
+      "quality": {
+        "coverage": 0.959,
+        "coherentCoverage": 0.951,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 241.78,
+        "previousEnd": 339.4,
+        "previousConfidence": 0.87
+      }
     },
     {
       "start": 339.4,
-      "end": 440.02,
+      "end": 438.5,
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "三个关于失丧的比喻里面最长的一个是浪子的比喻浪子回家的比喻可能是耶稣的比喻中最广为人知的单独这一",
-      "confidence": 0.875
+      "confidence": 0.931,
+      "quality": {
+        "coverage": 0.941,
+        "coherentCoverage": 0.927,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 339.4,
+        "previousEnd": 440.02,
+        "previousConfidence": 0.875
+      }
     },
     {
       "start": 440.02,
-      "end": 481.34,
+      "end": 482.2,
       "kind": "paragraph",
       "targetIndex": 27,
       "targetText": "所有这些因素导致一个事实失丧的人对他们自己来说是个威胁他们被带到毁灭之地虽然他们几乎都不知道这点",
-      "confidence": 0.957
+      "confidence": 0.954,
+      "quality": {
+        "coverage": 0.96,
+        "coherentCoverage": 0.953,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 440.02,
+        "previousEnd": 481.34,
+        "previousConfidence": 0.957
+      }
     },
     {
-      "start": 481.34,
-      "end": 615.3,
+      "start": 483.42,
+      "end": 614.14,
       "kind": "paragraph",
       "targetIndex": 28,
       "targetText": "最后这个故事中的老父亲有力地回应了这个问题对于失丧的孩子他们最需要的是什么他们最需要的不是批评论",
-      "confidence": 0.97
+      "confidence": 0.973,
+      "quality": {
+        "coverage": 0.983,
+        "coherentCoverage": 0.967,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 481.34,
+        "previousEnd": 615.3,
+        "previousConfidence": 0.97
+      }
     },
     {
       "start": 615.3,
@@ -77,7 +664,71 @@
       "kind": "paragraph",
       "targetIndex": 29,
       "targetText": "如果你们面对的都是偶尔为之的坏行为如果你们要做的就是制定规则和控制行为那么子女教育会变得容易许多",
-      "confidence": 0.814
+      "confidence": 0.942,
+      "quality": {
+        "coverage": 0.946,
+        "coherentCoverage": 0.925,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 615.3,
+        "previousEnd": 657.44,
+        "previousConfidence": 0.814
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (6 leading chars, coverage 0.600): target 21: 这些比喻中的每一个都聚焦于“失丧”的一个方面的含义，将有助于你理解孩子的行为和理解作为他们父母的",
+    "unverified start anchor: target 21: 这些比喻中的每一个都聚焦于“失丧”的一个方面的含义，将有助于你理解孩子的行为和理解作为他们父母的",
+    "repair unverified start (previous-sync): target 21"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 8,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "f7a03c02d8585469e371b11b85b318ada1449cbc4054693d779d17df2601810b",
+  "repairCueDigest": "2b530efc56930d8ebf0a1f340e9e7269a60704b55f1f0d31a8bbd442d2030581",
+  "previousAlignmentWarnings": []
 }

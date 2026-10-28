@@ -8,36 +8,523 @@
   "audioDuration": 117.048,
   "cues": [
     {
-      "start": 1.89,
-      "end": 2.35,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "礼拜一",
-      "confidence": 0.8
-    },
-    {
       "start": 2.35,
-      "end": 46.27,
+      "end": 45.13,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "你曾否背诵过十诫的内容如果你背过现在再来一次吧如果没有背过那么十诫简版就在下面列举出来1除了上帝",
-      "confidence": 0.724
+      "confidence": 0.875,
+      "quality": {
+        "coverage": 0.86,
+        "coherentCoverage": 0.833,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 2.35,
+        "previousEnd": 45.13,
+        "previousConfidence": 0.787
+      }
     },
     {
       "start": 46.27,
-      "end": 57.45,
+      "end": 60.35,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "有一次一个人问耶稣哪个诫命是最大的耶稣的答案可能让他始料未及请读马太福音223739",
-      "confidence": 0.641
+      "confidence": 0.718,
+      "quality": {
+        "coverage": 0.622,
+        "coherentCoverage": 0.622,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.25,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 13,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "source": "context-reviewed-read-prompt-ending",
+          "contextUsed": true,
+          "identityAmbiguous": false,
+          "continuousAnchor": false,
+          "timingPrecision": "word",
+          "time": 60.35,
+          "expectedPhrase": "有一次，一个人问耶稣，哪个诫命是最大的。耶稣的答案可能让他始料未及。请读马太福音22:37-39。",
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\42-1.mp3.json",
+          "transcriptSha256": "a38942ff6d387076732b8701cef3f8402882d4ce61afa8dd68a58ff286fe0178",
+          "audioSha256": "a49c206d0c4bdc330f351cd0ade465714fbae1a0dc354541f559ea2c755187cc",
+          "rawSegments": [
+            {
+              "start": 55.51,
+              "end": 60.35,
+              "text": "请读《法太福音》二十二章三十七到三十九节",
+              "words": [
+                {
+                  "start": 55.51,
+                  "end": 56.41,
+                  "text": "请",
+                  "probability": 0.06849680840969086
+                },
+                {
+                  "start": 56.41,
+                  "end": 56.67,
+                  "text": "读",
+                  "probability": 0.8917984664440155
+                },
+                {
+                  "start": 56.67,
+                  "end": 56.73,
+                  "text": "《",
+                  "probability": 0.4925820231437683
+                },
+                {
+                  "start": 56.73,
+                  "end": 56.91,
+                  "text": "法",
+                  "probability": 0.1183609813451767
+                },
+                {
+                  "start": 56.91,
+                  "end": 57.05,
+                  "text": "太",
+                  "probability": 0.9020746946334839
+                },
+                {
+                  "start": 57.05,
+                  "end": 57.19,
+                  "text": "福",
+                  "probability": 0.9702215194702148
+                },
+                {
+                  "start": 57.19,
+                  "end": 57.35,
+                  "text": "音",
+                  "probability": 0.7288368940353394
+                },
+                {
+                  "start": 57.35,
+                  "end": 57.45,
+                  "text": "》",
+                  "probability": 0.9741613864898682
+                },
+                {
+                  "start": 57.45,
+                  "end": 57.71,
+                  "text": "二",
+                  "probability": 0.1472233533859253
+                },
+                {
+                  "start": 57.71,
+                  "end": 57.85,
+                  "text": "十",
+                  "probability": 0.995871365070343
+                },
+                {
+                  "start": 57.85,
+                  "end": 58.03,
+                  "text": "二",
+                  "probability": 0.9933363199234009
+                },
+                {
+                  "start": 58.03,
+                  "end": 58.23,
+                  "text": "章",
+                  "probability": 0.9961341321468353
+                },
+                {
+                  "start": 58.23,
+                  "end": 58.65,
+                  "text": "三",
+                  "probability": 0.8762937188148499
+                },
+                {
+                  "start": 58.65,
+                  "end": 58.83,
+                  "text": "十",
+                  "probability": 0.9906366467475891
+                },
+                {
+                  "start": 58.83,
+                  "end": 59.17,
+                  "text": "七",
+                  "probability": 0.9921042919158936
+                },
+                {
+                  "start": 59.17,
+                  "end": 59.45,
+                  "text": "到",
+                  "probability": 0.8036437034606934
+                },
+                {
+                  "start": 59.45,
+                  "end": 59.73,
+                  "text": "三",
+                  "probability": 0.9899545907974243
+                },
+                {
+                  "start": 59.73,
+                  "end": 59.91,
+                  "text": "十",
+                  "probability": 0.998503565788269
+                },
+                {
+                  "start": 59.91,
+                  "end": 60.09,
+                  "text": "九",
+                  "probability": 0.9959113597869873
+                },
+                {
+                  "start": 60.09,
+                  "end": 60.35,
+                  "text": "节",
+                  "probability": 0.923702597618103
+                }
+              ]
+            }
+          ],
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+          "listenedByAgent": false
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "next-verified-start",
+        "previousStart": 46.27,
+        "previousEnd": 57.45,
+        "previousConfidence": 0.795
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "042_第四十二问 十诫的总纲是什么.md",
+          "audio": "42-1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\042_第四十二问 十诫的总纲是什么\\audio-02.json",
+          "caseIndex": 626,
+          "targetIndex": 4,
+          "edge": "end",
+          "previousTime": 56.91,
+          "time": 60.35,
+          "kind": "verified-edge",
+          "previousEvidence": {
+            "verified": false,
+            "source": "next-verified-start"
+          },
+          "previousVerified": false,
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。"
+        }
+      ]
     },
     {
-      "start": 57.45,
-      "end": 78.05,
+      "start": 60.93,
+      "end": 76.49,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "马太福音223739耶稣对他说你要尽心尽性尽意爱主你的上帝这是诫命中的第一且是最大的其次也相仿就",
-      "confidence": 0.642
+      "confidence": 0.857,
+      "quality": {
+        "coverage": 0.842,
+        "coherentCoverage": 0.772,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "localSupported": false,
+          "source": "previous-verified-end",
+          "time": 60.35,
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "referenceOwnershipConstraint": {
+          "ownerTargetIndex": 4,
+          "ownerTargetText": "有一次一个人问耶稣哪个诫命是最大的耶稣的答案可能让他始料未及请读马太福音223739",
+          "notBefore": 60.35,
+          "verifiedSpokenOnset": false
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 57.45,
+        "previousEnd": 76.49,
+        "previousConfidence": 0.661
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "042_第四十二问 十诫的总纲是什么.md",
+          "audio": "42-1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\042_第四十二问 十诫的总纲是什么\\audio-02.json",
+          "caseIndex": 626,
+          "targetIndex": 5,
+          "edge": "start",
+          "previousTime": 56.91,
+          "time": 60.35,
+          "kind": "unverified-neighbor-constraint",
+          "previousVerified": true,
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 60.35,
+            "time": 60.93,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\42-1.mp3.json",
+              "sha256": "165f3fd9ece8e2f96904f10def55447c358ebf272affcda1225cfc6339ff6b4e",
+              "anchor": {
+                "time": 60.93,
+                "score": 0.7851,
+                "ratio": 0.7857,
+                "expected": "yesuduitashuoniyaojinxinjinxingjinyiai",
+                "actual": "耶稣对他说你要静心静性静意爱",
+                "span": [
+                  60.93,
+                  66.77
+                ],
+                "tokens": [
+                  {
+                    "text": "耶",
+                    "start": 60.93,
+                    "end": 61.49,
+                    "rawStart": 158,
+                    "rawEnd": 158,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "稣",
+                    "start": 61.49,
+                    "end": 61.61,
+                    "rawStart": 159,
+                    "rawEnd": 159,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "对",
+                    "start": 61.61,
+                    "end": 61.77,
+                    "rawStart": 160,
+                    "rawEnd": 160,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "他",
+                    "start": 61.77,
+                    "end": 61.97,
+                    "rawStart": 161,
+                    "rawEnd": 161,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "说",
+                    "start": 61.97,
+                    "end": 62.23,
+                    "rawStart": 162,
+                    "rawEnd": 162,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 62.65,
+                    "end": 62.91,
+                    "rawStart": 163,
+                    "rawEnd": 163,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "要",
+                    "start": 62.65,
+                    "end": 62.91,
+                    "rawStart": 164,
+                    "rawEnd": 164,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "静",
+                    "start": 62.91,
+                    "end": 63.57,
+                    "rawStart": 165,
+                    "rawEnd": 165,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "心",
+                    "start": 63.57,
+                    "end": 64.01,
+                    "rawStart": 166,
+                    "rawEnd": 166,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "静",
+                    "start": 64.01,
+                    "end": 64.59,
+                    "rawStart": 167,
+                    "rawEnd": 167,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "性",
+                    "start": 64.59,
+                    "end": 64.95,
+                    "rawStart": 168,
+                    "rawEnd": 168,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "静",
+                    "start": 64.95,
+                    "end": 65.49,
+                    "rawStart": 169,
+                    "rawEnd": 169,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "意",
+                    "start": 65.49,
+                    "end": 65.83,
+                    "rawStart": 170,
+                    "rawEnd": 170,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "爱",
+                    "start": 66.31,
+                    "end": 66.77,
+                    "rawStart": 171,
+                    "rawEnd": 171,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "耶稣对他说:“你要尽心、尽性、尽意,爱主你的神。”这是诫命中的第一,且是最大的。其次也相仿,就是要爱人如己。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.842,
+          "coherentCoverage": 0.772,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.95,
+          "suffixCoverage": 0.95,
+          "unmatchedLeadingChars": 1,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "localSupported": false,
+            "source": "previous-verified-end",
+            "time": 60.35,
+            "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "referenceOwnershipConstraint": {
+            "ownerTargetIndex": 4,
+            "ownerTargetText": "有一次一个人问耶稣哪个诫命是最大的耶稣的答案可能让他始料未及请读马太福音223739",
+            "notBefore": 60.35,
+            "verifiedSpokenOnset": false
+          }
+        }
+      }
     },
     {
       "start": 78.05,
@@ -45,15 +532,296 @@
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "耶稣说最大的诫命是竭诚爱上帝祂说第二大的诫命就是要爱人如己你能在列出来的十诫中看到这两点吗虽然我",
-      "confidence": 0.819
+      "confidence": 0.808,
+      "quality": {
+        "coverage": 0.718,
+        "coherentCoverage": 0.68,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.4,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 10,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 78.05,
+        "previousEnd": 108.93,
+        "previousConfidence": 0.829
+      }
     },
     {
-      "start": 108.93,
+      "start": 109.99,
       "end": 116.03,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "马太福音2240这两条诫命是律法和先知一切道理的总纲",
-      "confidence": 0.708
+      "confidence": 0.84,
+      "quality": {
+        "coverage": 0.964,
+        "coherentCoverage": 0.964,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.929,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 108.93,
+        "previousEnd": 116.03,
+        "previousConfidence": 0.708
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 108.93,
+            "time": 109.99,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\42-1.mp3.json",
+              "sha256": "165f3fd9ece8e2f96904f10def55447c358ebf272affcda1225cfc6339ff6b4e",
+              "anchor": {
+                "time": 109.99,
+                "score": 0.9989,
+                "ratio": 1.0,
+                "expected": "zheertiaojiemingshilvfahexianzhiyiqiedao",
+                "actual": "这2条借命是律法和先知1切道",
+                "span": [
+                  109.99,
+                  115.21
+                ],
+                "tokens": [
+                  {
+                    "text": "这",
+                    "start": 109.99,
+                    "end": 110.89,
+                    "rawStart": 300,
+                    "rawEnd": 300,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "2",
+                    "start": 110.89,
+                    "end": 111.05,
+                    "rawStart": 301,
+                    "rawEnd": 301,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "条",
+                    "start": 111.05,
+                    "end": 111.25,
+                    "rawStart": 302,
+                    "rawEnd": 302,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "借",
+                    "start": 111.25,
+                    "end": 111.49,
+                    "rawStart": 303,
+                    "rawEnd": 303,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "命",
+                    "start": 111.49,
+                    "end": 111.67,
+                    "rawStart": 304,
+                    "rawEnd": 304,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 111.67,
+                    "end": 111.97,
+                    "rawStart": 305,
+                    "rawEnd": 305,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "律",
+                    "start": 111.97,
+                    "end": 112.63,
+                    "rawStart": 306,
+                    "rawEnd": 306,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "法",
+                    "start": 112.63,
+                    "end": 113.05,
+                    "rawStart": 307,
+                    "rawEnd": 307,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "和",
+                    "start": 113.05,
+                    "end": 113.45,
+                    "rawStart": 308,
+                    "rawEnd": 308,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "先",
+                    "start": 113.45,
+                    "end": 113.83,
+                    "rawStart": 309,
+                    "rawEnd": 309,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "知",
+                    "start": 113.83,
+                    "end": 114.15,
+                    "rawStart": 310,
+                    "rawEnd": 310,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 114.15,
+                    "end": 114.59,
+                    "rawStart": 311,
+                    "rawEnd": 311,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "切",
+                    "start": 114.59,
+                    "end": 114.91,
+                    "rawStart": 312,
+                    "rawEnd": 312,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "道",
+                    "start": 114.91,
+                    "end": 115.21,
+                    "rawStart": 313,
+                    "rawEnd": 313,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "这两条诫命是律法和先知一切道理的总纲。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.964,
+          "coherentCoverage": 0.964,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.929,
+          "suffixCoverage": 1.0,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (13 trailing chars, coverage 0.250): target 4: 有一次，一个人问耶稣，哪个诫命是最大的。耶稣的答案可能让他始料未及。请读马太福音22:37-39",
+    "unverified end anchor: target 4: 有一次，一个人问耶稣，哪个诫命是最大的。耶稣的答案可能让他始料未及。请读马太福音22:37-39",
+    "incomplete end (10 trailing chars, coverage 0.400): target 6: 耶稣说，最大的诫命是竭诚爱神。祂说第二大的诫命就是要爱人如己。你能在列出来的十诫中看到这两点吗？",
+    "unverified end anchor: target 6: 耶稣说，最大的诫命是竭诚爱神。祂说第二大的诫命就是要爱人如己。你能在列出来的十诫中看到这两点吗？",
+    "repair conflict (replacement withheld): targets 6, 7",
+    "repair unverified end (next-verified-start): target 4",
+    "repair unverified start (previous-sync): target 7",
+    "context reviewed end: target 4; 前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+    "unverified constrained start: target 5; 旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "52fe2d3126ec662b74be9bea4632eb5c9f0e0ac706f14120a170abc680e605a5",
+  "repairCueDigest": "a72ee2803efc0d33e2d0976243e76de2e4e4d3b63509ded2bf8f73ca6693d257",
+  "previousAlignmentWarnings": []
 }

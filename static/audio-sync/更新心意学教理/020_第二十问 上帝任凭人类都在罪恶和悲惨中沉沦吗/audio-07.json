@@ -8,12 +8,336 @@
   "audioDuration": 169.130875,
   "cues": [
     {
-      "start": 2.0,
+      "start": 48.7,
+      "end": 53.3,
+      "kind": "paragraph",
+      "targetIndex": 28,
+      "targetText": "请读罗马书82830",
+      "confidence": 1.0,
+      "quality": {
+        "verificationBasis": "local-boundaries",
+        "reviewRequired": false,
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "two-raw-models-local-read-prompt",
+          "time": 48.7,
+          "smallTime": 48.94,
+          "mediumTime": 48.7,
+          "smallObserved": "請讀羅馬書,8章28-30節",
+          "mediumObserved": "请读《罗马书》八章二十八到三十节",
+          "smallTranscript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\20-6.mp3.json",
+          "smallSha256": "98ff58bcbfabf23fd4583870ee064766d88c7716a07c8f13c4e65dd3e560792f",
+          "mediumWindow": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\remaining-repair-20261014\\medium-windows\\更新心意学教理\\20-6.mp3.0.json",
+          "audioSha256": "3d3965e5f106a5dd86aaba03e8cdaf9a3ab2dbcff8a56890ba7f4563a3e69ef1",
+          "listenedByAgent": false
+        },
+        "endEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "context-reviewed-read-prompt-ending",
+          "time": 53.3,
+          "smallTime": 53.04,
+          "mediumTime": 53.3,
+          "smallObserved": "請讀羅馬書,8章28-30節",
+          "mediumObserved": "请读《罗马书》八章二十八到三十节",
+          "smallTranscript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\20-6.mp3.json",
+          "smallSha256": "98ff58bcbfabf23fd4583870ee064766d88c7716a07c8f13c4e65dd3e560792f",
+          "mediumWindow": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\remaining-repair-20261014\\medium-windows\\更新心意学教理\\20-6.mp3.0.json",
+          "audioSha256": "3d3965e5f106a5dd86aaba03e8cdaf9a3ab2dbcff8a56890ba7f4563a3e69ef1",
+          "listenedByAgent": false,
+          "reason": "两份独立词级稿均在礼拜六标题后读出完整请读罗马书八章二十八到三十节；末词时间相差0.26秒。"
+        }
+      },
+      "repair": {
+        "startSource": "two-raw-models-local-read-prompt",
+        "endSource": "context-reviewed-read-prompt-ending",
+        "previousStart": null,
+        "previousEnd": null,
+        "previousConfidence": null
+      },
+      "addedCueReview": {
+        "kind": "two-model-local-read-prompt",
+        "audioSha256": "3d3965e5f106a5dd86aaba03e8cdaf9a3ab2dbcff8a56890ba7f4563a3e69ef1",
+        "rawSmallTranscript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\20-6.mp3.json",
+        "mediumWindow": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\remaining-repair-20261014\\medium-windows\\更新心意学教理\\20-6.mp3.0.json",
+        "listenedByAgent": false
+      }
+    },
+    {
+      "start": 54.16,
       "end": 86.84,
       "kind": "paragraph",
       "targetIndex": 29,
       "targetText": "罗马书82830我们晓得万事都互相效力叫爱上帝的人得益处就是按祂旨意被召的人因为祂预先所知道的人",
-      "confidence": 0.457
+      "confidence": 0.916,
+      "quality": {
+        "coverage": 0.912,
+        "coherentCoverage": 0.903,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "localSupported": false,
+          "source": "two-model-body-onset-pending-reference-ownership",
+          "time": 54.06,
+          "smallTime": 54.06,
+          "mediumTime": 54.16,
+          "smallTranscript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\20-6.mp3.json",
+          "smallSha256": "98ff58bcbfabf23fd4583870ee064766d88c7716a07c8f13c4e65dd3e560792f",
+          "mediumWindow": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\remaining-repair-20261014\\medium-windows\\更新心意学教理\\20-6.mp3.0.json",
+          "audioSha256": "3d3965e5f106a5dd86aaba03e8cdaf9a3ab2dbcff8a56890ba7f4563a3e69ef1",
+          "listenedByAgent": false,
+          "reason": "印刷出处在前段请读提示读出；后段正文首词已定位，完整出处归属证据仍待核实。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "referenceOwnershipConstraint": {
+          "ownerTargetIndex": 28,
+          "ownerTargetText": "请读罗马书82830",
+          "notBefore": 53.3,
+          "verifiedSpokenOnset": false
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 2.0,
+        "previousEnd": 86.84,
+        "previousConfidence": 0.593
+      },
+      "boundaryCorrections": [
+        {
+          "targetIndex": 29,
+          "edge": "start",
+          "previousTime": 50.26,
+          "time": 54.06,
+          "kind": "preceding-read-prompt-ownership-constraint",
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "previousVerified": true,
+          "reason": "旧起点落在前段请读提示内；两份词稿的正文我们晓得分别在54.06和54.16秒开始。印刷出处归属尚待正式核验。"
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 54.06,
+            "time": 54.16,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\20-6.mp3.json",
+              "sha256": "7e928e987878bbe093e7790161c2b443d4d364b45d8dd49ba0ff3b850193d309",
+              "anchor": {
+                "time": 54.16,
+                "score": 0.9999,
+                "ratio": 1.0,
+                "expected": "womenxiaodewanshidouhuxiangxiaolijiaoaishen",
+                "actual": "我们晓得万事都互相效力叫爱神",
+                "span": [
+                  54.16,
+                  59.16
+                ],
+                "tokens": [
+                  {
+                    "text": "我",
+                    "start": 54.16,
+                    "end": 54.760000000000005,
+                    "rawStart": 130,
+                    "rawEnd": 130,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 54.16,
+                    "end": 54.760000000000005,
+                    "rawStart": 131,
+                    "rawEnd": 131,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "晓",
+                    "start": 54.760000000000005,
+                    "end": 55.18000000000001,
+                    "rawStart": 132,
+                    "rawEnd": 132,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "得",
+                    "start": 55.18000000000001,
+                    "end": 55.540000000000006,
+                    "rawStart": 133,
+                    "rawEnd": 133,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "万",
+                    "start": 55.540000000000006,
+                    "end": 56.06,
+                    "rawStart": 134,
+                    "rawEnd": 134,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "事",
+                    "start": 56.06,
+                    "end": 56.38,
+                    "rawStart": 135,
+                    "rawEnd": 135,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "都",
+                    "start": 56.38,
+                    "end": 56.8,
+                    "rawStart": 136,
+                    "rawEnd": 136,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "互",
+                    "start": 56.8,
+                    "end": 57.06,
+                    "rawStart": 137,
+                    "rawEnd": 137,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "相",
+                    "start": 57.06,
+                    "end": 57.32,
+                    "rawStart": 138,
+                    "rawEnd": 138,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "效",
+                    "start": 57.32,
+                    "end": 57.620000000000005,
+                    "rawStart": 139,
+                    "rawEnd": 139,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "力",
+                    "start": 57.620000000000005,
+                    "end": 57.92,
+                    "rawStart": 140,
+                    "rawEnd": 140,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "叫",
+                    "start": 57.92,
+                    "end": 58.540000000000006,
+                    "rawStart": 141,
+                    "rawEnd": 141,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "爱",
+                    "start": 58.540000000000006,
+                    "end": 58.94,
+                    "rawStart": 142,
+                    "rawEnd": 142,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 58.94,
+                    "end": 59.16,
+                    "rawStart": 143,
+                    "rawEnd": 144,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "我们晓得万事都互相效力,叫爱神的人得益处,就是按祂旨意被召的人。因为祂预先所知道的人,就预先定下效法祂儿子的模样,使祂儿子在许多弟兄中作长子。预先所定下的人又召他们来;所召来的人又称他们为义;所称为义的人又叫他们得荣耀。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.912,
+          "coherentCoverage": 0.903,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.95,
+          "suffixCoverage": 1.0,
+          "unmatchedLeadingChars": 1,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "localSupported": false,
+            "source": "two-model-body-onset-pending-reference-ownership",
+            "time": 54.06,
+            "smallTime": 54.06,
+            "mediumTime": 54.16,
+            "smallTranscript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\20-6.mp3.json",
+            "smallSha256": "98ff58bcbfabf23fd4583870ee064766d88c7716a07c8f13c4e65dd3e560792f",
+            "mediumWindow": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\remaining-repair-20261014\\medium-windows\\更新心意学教理\\20-6.mp3.0.json",
+            "audioSha256": "3d3965e5f106a5dd86aaba03e8cdaf9a3ab2dbcff8a56890ba7f4563a3e69ef1",
+            "listenedByAgent": false,
+            "reason": "印刷出处在前段请读提示读出；后段正文首词已定位，完整出处归属证据仍待核实。"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "referenceOwnershipConstraint": {
+            "ownerTargetIndex": 28,
+            "ownerTargetText": "请读罗马书82830",
+            "notBefore": 53.3,
+            "verifiedSpokenOnset": false
+          }
+        }
+      }
     },
     {
       "start": 86.84,
@@ -21,7 +345,401 @@
       "kind": "paragraph",
       "targetIndex": 30,
       "targetText": "这里说上帝预先知道的人祂预定拣选他们这不是说上帝预见未来看到谁会相信祂的儿子然后再拣选这些人作祂",
-      "confidence": 0.75
+      "confidence": 0.795,
+      "quality": {
+        "coverage": 0.882,
+        "coherentCoverage": 0.845,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 7,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "discarded detached start matches"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 86.84,
+        "previousEnd": 161.5,
+        "previousConfidence": 0.803
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 86.84,
+            "time": 86.84,
+            "reason": "录音以这段经文说的是上帝的预定转述同段，起点正确。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\20-6.mp3.json",
+              "sha256": "98ff58bcbfabf23fd4583870ee064766d88c7716a07c8f13c4e65dd3e560792f",
+              "source": "context-reviewed-paragraph-approximation",
+              "segments": [
+                {
+                  "start": 79.82,
+                  "end": 83.1,
+                  "text": "所照来的人又称他们为义",
+                  "words": [
+                    {
+                      "start": 79.82,
+                      "end": 80.58,
+                      "text": "所",
+                      "probability": 0.20726053416728973
+                    },
+                    {
+                      "start": 80.58,
+                      "end": 80.96,
+                      "text": "照",
+                      "probability": 0.27837640047073364
+                    },
+                    {
+                      "start": 80.96,
+                      "end": 81.16,
+                      "text": "来",
+                      "probability": 0.8101245760917664
+                    },
+                    {
+                      "start": 81.16,
+                      "end": 81.48,
+                      "text": "的人",
+                      "probability": 0.9873247146606445
+                    },
+                    {
+                      "start": 81.48,
+                      "end": 81.98,
+                      "text": "又",
+                      "probability": 0.7968825697898865
+                    },
+                    {
+                      "start": 81.98,
+                      "end": 82.28,
+                      "text": "称",
+                      "probability": 0.9697423279285431
+                    },
+                    {
+                      "start": 82.28,
+                      "end": 82.6,
+                      "text": "他们",
+                      "probability": 0.9265221953392029
+                    },
+                    {
+                      "start": 82.6,
+                      "end": 82.82,
+                      "text": "为",
+                      "probability": 0.39361533522605896
+                    },
+                    {
+                      "start": 82.82,
+                      "end": 83.1,
+                      "text": "义",
+                      "probability": 0.7106897383928299
+                    }
+                  ]
+                },
+                {
+                  "start": 83.1,
+                  "end": 86.84,
+                  "text": "所称为义的人又叫他们得荣耀",
+                  "words": [
+                    {
+                      "start": 83.1,
+                      "end": 84.08,
+                      "text": "所",
+                      "probability": 0.7837148308753967
+                    },
+                    {
+                      "start": 84.08,
+                      "end": 84.36,
+                      "text": "称",
+                      "probability": 0.999797523021698
+                    },
+                    {
+                      "start": 84.36,
+                      "end": 84.62,
+                      "text": "为",
+                      "probability": 0.9440788626670837
+                    },
+                    {
+                      "start": 84.62,
+                      "end": 84.78,
+                      "text": "义",
+                      "probability": 0.9929453730583191
+                    },
+                    {
+                      "start": 84.78,
+                      "end": 85.1,
+                      "text": "的人",
+                      "probability": 0.9800940155982971
+                    },
+                    {
+                      "start": 85.1,
+                      "end": 85.62,
+                      "text": "又",
+                      "probability": 0.9054381251335144
+                    },
+                    {
+                      "start": 85.62,
+                      "end": 85.78,
+                      "text": "叫",
+                      "probability": 0.8345332741737366
+                    },
+                    {
+                      "start": 85.78,
+                      "end": 86.06,
+                      "text": "他们",
+                      "probability": 0.9831204414367676
+                    },
+                    {
+                      "start": 86.06,
+                      "end": 86.3,
+                      "text": "得",
+                      "probability": 0.901612401008606
+                    },
+                    {
+                      "start": 86.3,
+                      "end": 86.56,
+                      "text": "荣",
+                      "probability": 0.9748998284339905
+                    },
+                    {
+                      "start": 86.56,
+                      "end": 86.84,
+                      "text": "耀",
+                      "probability": 0.9944811761379242
+                    }
+                  ]
+                },
+                {
+                  "start": 86.84,
+                  "end": 92.12,
+                  "text": "这段经文说的是上帝的预定",
+                  "words": [
+                    {
+                      "start": 86.84,
+                      "end": 87.72,
+                      "text": "这",
+                      "probability": 0.7891221046447754
+                    },
+                    {
+                      "start": 89.26,
+                      "end": 89.42,
+                      "text": "段",
+                      "probability": 0.9278614521026611
+                    },
+                    {
+                      "start": 89.42,
+                      "end": 89.6,
+                      "text": "经",
+                      "probability": 0.9627301692962646
+                    },
+                    {
+                      "start": 89.6,
+                      "end": 89.82,
+                      "text": "文",
+                      "probability": 0.9859638214111328
+                    },
+                    {
+                      "start": 89.82,
+                      "end": 90.16,
+                      "text": "说",
+                      "probability": 0.9883991479873657
+                    },
+                    {
+                      "start": 90.16,
+                      "end": 90.5,
+                      "text": "的是",
+                      "probability": 0.9715264439582825
+                    },
+                    {
+                      "start": 90.5,
+                      "end": 91.2,
+                      "text": "上",
+                      "probability": 0.7772200107574463
+                    },
+                    {
+                      "start": 91.2,
+                      "end": 91.46,
+                      "text": "帝",
+                      "probability": 0.9973298907279968
+                    },
+                    {
+                      "start": 91.46,
+                      "end": 91.62,
+                      "text": "的",
+                      "probability": 0.9641179442405701
+                    },
+                    {
+                      "start": 91.62,
+                      "end": 91.84,
+                      "text": "预",
+                      "probability": 0.8707023561000824
+                    },
+                    {
+                      "start": 91.84,
+                      "end": 92.12,
+                      "text": "定",
+                      "probability": 0.8493945002555847
+                    }
+                  ]
+                },
+                {
+                  "start": 92.12,
+                  "end": 93.42,
+                  "text": "或者说",
+                  "words": [
+                    {
+                      "start": 92.12,
+                      "end": 93.0,
+                      "text": "或者",
+                      "probability": 0.9271851778030396
+                    },
+                    {
+                      "start": 93.0,
+                      "end": 93.42,
+                      "text": "说",
+                      "probability": 0.9840787649154663
+                    }
+                  ]
+                },
+                {
+                  "start": 93.42,
+                  "end": 97.08,
+                  "text": "预先减选一些人做他的儿女",
+                  "words": [
+                    {
+                      "start": 93.42,
+                      "end": 94.14,
+                      "text": "预",
+                      "probability": 0.7859178483486176
+                    },
+                    {
+                      "start": 94.14,
+                      "end": 94.58,
+                      "text": "先",
+                      "probability": 0.995983362197876
+                    },
+                    {
+                      "start": 94.58,
+                      "end": 94.98,
+                      "text": "减",
+                      "probability": 0.6490633487701416
+                    },
+                    {
+                      "start": 94.98,
+                      "end": 95.32,
+                      "text": "选",
+                      "probability": 0.9774574935436249
+                    },
+                    {
+                      "start": 95.32,
+                      "end": 95.68,
+                      "text": "一些",
+                      "probability": 0.9924604296684265
+                    },
+                    {
+                      "start": 95.68,
+                      "end": 96.04,
+                      "text": "人",
+                      "probability": 0.9983035326004028
+                    },
+                    {
+                      "start": 96.04,
+                      "end": 96.32,
+                      "text": "做",
+                      "probability": 0.9088457226753235
+                    },
+                    {
+                      "start": 96.32,
+                      "end": 96.64,
+                      "text": "他的",
+                      "probability": 0.9185803532600403
+                    },
+                    {
+                      "start": 96.64,
+                      "end": 96.82,
+                      "text": "儿",
+                      "probability": 0.9890713691711426
+                    },
+                    {
+                      "start": 96.82,
+                      "end": 97.08,
+                      "text": "女",
+                      "probability": 0.9994820952415466
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (7 leading chars, coverage 0.600): target 30: 这里说，上帝预先知道的人，祂预定拣选他们。这不是说，上帝预见未来，看到谁会相信祂的儿子，然后再拣",
+    "unverified start anchor: target 30: 这里说，上帝预先知道的人，祂预定拣选他们。这不是说，上帝预见未来，看到谁会相信祂的儿子，然后再拣",
+    "repair unverified start (previous-sync): target 30",
+    "unverified printed-reference ownership: target 29; body onset retained at 54.06s"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 0,
+    "addedCues": 1,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "previousAlignmentWarnings": [
+    "incomplete start (0 leading chars, coverage 0.333): target 28: 请读罗马书8:28-30。",
+    "incomplete end (11 trailing chars, coverage 0.000): target 28: 请读罗马书8:28-30。",
+    "low confidence (0.267, coverage 0.154): target 28: 请读罗马书8:28-30。",
+    "unverified start anchor: target 28: 请读罗马书8:28-30。",
+    "unverified end anchor: target 28: 请读罗马书8:28-30。",
+    "unmatched (fragment only): target 28: 请读罗马书8:28-30。",
+    "incomplete start (7 leading chars, coverage 0.600): target 30: 这里说，上帝预先知道的人，祂预定拣选他们。这不是说，上帝预见未来，看到谁会相信祂的儿子，然后再拣",
+    "unverified start anchor: target 30: 这里说，上帝预先知道的人，祂预定拣选他们。这不是说，上帝预见未来，看到谁会相信祂的儿子，然后再拣",
+    "repair missing cue (unverified): target 28",
+    "repair unverified start (previous-sync): target 30"
+  ],
+  "currentSiteConfirmation": {
+    "model": "medium",
+    "audioSha256": "3d3965e5f106a5dd86aaba03e8cdaf9a3ab2dbcff8a56890ba7f4563a3e69ef1",
+    "audioDuration": 169.130862,
+    "windows": [
+      [
+        26.26,
+        66.7
+      ]
+    ]
+  }
 }

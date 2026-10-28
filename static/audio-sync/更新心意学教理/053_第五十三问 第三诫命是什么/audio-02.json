@@ -8,28 +8,107 @@
   "audioDuration": 147.648,
   "cues": [
     {
-      "start": 2.15,
-      "end": 2.63,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "礼拜一",
-      "confidence": 0.8
-    },
-    {
       "start": 2.63,
-      "end": 86.41,
+      "end": 85.57,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "当我们跟别人介绍自己告诉人家我们的名字是因为我们想要与人家建立关系我们每天也会见到许多不跟我们说",
-      "confidence": 0.85
+      "confidence": 0.976,
+      "quality": {
+        "coverage": 0.973,
+        "coherentCoverage": 0.952,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 2.63,
+        "previousEnd": 85.57,
+        "previousConfidence": 0.976
+      }
     },
     {
       "start": 86.41,
-      "end": 110.99,
+      "end": 109.29,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "当上帝呼召摩西带领以色列人离开埃及为奴之地摩西担心百姓会问他是谁差遣他做这事的我告诉百姓祢叫什么",
-      "confidence": 0.871
+      "confidence": 0.955,
+      "quality": {
+        "coverage": 0.974,
+        "coherentCoverage": 0.908,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 86.41,
+        "previousEnd": 110.99,
+        "previousConfidence": 0.884
+      }
     },
     {
       "start": 110.99,
@@ -37,7 +116,214 @@
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "出埃及记31415上帝对摩西说我是自有永有的又说你要对以色列人这样说那自有的打发我到你们这里来上",
-      "confidence": 0.837
+      "confidence": 0.921,
+      "quality": {
+        "coverage": 0.887,
+        "coherentCoverage": 0.887,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.5,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 9,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 110.99,
+        "previousEnd": 146.39,
+        "previousConfidence": 0.921
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 110.99,
+            "time": 110.99,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\53-1.mp3.json",
+              "sha256": "bbbaeca7d7114c6761828327e7d6232f5992b0fae8e9afd340aa436e8bc86649",
+              "anchor": {
+                "time": 110.99,
+                "score": 1.0,
+                "ratio": 1.0,
+                "expected": "shenduimoxishuowoshiziyouyongyoudeyoushuo",
+                "actual": "神对摩西说我是自有拥有的又说",
+                "span": [
+                  110.99,
+                  116.97
+                ],
+                "tokens": [
+                  {
+                    "text": "神",
+                    "start": 110.99,
+                    "end": 111.59,
+                    "rawStart": 374,
+                    "rawEnd": 375,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "对",
+                    "start": 111.59,
+                    "end": 111.97,
+                    "rawStart": 376,
+                    "rawEnd": 376,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "摩",
+                    "start": 111.97,
+                    "end": 112.43,
+                    "rawStart": 377,
+                    "rawEnd": 377,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "西",
+                    "start": 112.43,
+                    "end": 112.65,
+                    "rawStart": 378,
+                    "rawEnd": 378,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "说",
+                    "start": 112.65,
+                    "end": 112.99,
+                    "rawStart": 379,
+                    "rawEnd": 379,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 113.49,
+                    "end": 113.97,
+                    "rawStart": 380,
+                    "rawEnd": 380,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 113.49,
+                    "end": 113.97,
+                    "rawStart": 381,
+                    "rawEnd": 381,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "自",
+                    "start": 113.97,
+                    "end": 114.77,
+                    "rawStart": 382,
+                    "rawEnd": 382,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "有",
+                    "start": 114.77,
+                    "end": 115.15,
+                    "rawStart": 383,
+                    "rawEnd": 383,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "拥",
+                    "start": 115.15,
+                    "end": 115.43,
+                    "rawStart": 384,
+                    "rawEnd": 384,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "有",
+                    "start": 115.43,
+                    "end": 115.73,
+                    "rawStart": 385,
+                    "rawEnd": 385,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 115.73,
+                    "end": 116.09,
+                    "rawStart": 386,
+                    "rawEnd": 386,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "又",
+                    "start": 116.41,
+                    "end": 116.65,
+                    "rawStart": 387,
+                    "rawEnd": 387,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "说",
+                    "start": 116.65,
+                    "end": 116.97,
+                    "rawStart": 388,
+                    "rawEnd": 388,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 108.85,
+                  "score": 0.9192,
+                  "actual": "回答神对摩西说我是自有拥有的又说"
+                }
+              },
+              "body": "神对摩西说:“我是自有永有的。”又说:“你要对以色列人这样说:‘那自有的打发我到你们这里来。’”神又对摩西说:“你要对以色列人这样说:‘耶和华你们祖宗的神,就是亚伯拉罕的神,以撒的神,雅各的神,打发我到你们这里来。耶和华是我的名,直到永远;这也是我的纪念,直到万代。’”"
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (9 leading chars, coverage 0.500): target 5: 出埃及记3:14-15 神对摩西说：“我是自有永有的。”又说：“你要对以色列人这样说：‘那自有的",
+    "unverified start anchor: target 5: 出埃及记3:14-15 神对摩西说：“我是自有永有的。”又说：“你要对以色列人这样说：‘那自有的",
+    "repair unverified start (previous-sync): target 5"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "5501b4329cac69ce6cb47f2216b595cfb35d53cc9576a1df8d6a8b2356e168ac",
+  "repairCueDigest": "a49ca4a381621f848a25fd38af23e7500e9f03b79db7b035159546aebf467692",
+  "previousAlignmentWarnings": []
 }

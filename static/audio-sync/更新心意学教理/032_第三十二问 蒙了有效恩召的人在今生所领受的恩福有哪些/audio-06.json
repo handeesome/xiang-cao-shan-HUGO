@@ -8,20 +8,54 @@
   "audioDuration": 180.8135625,
   "cues": [
     {
-      "start": 1.72,
-      "end": 4.12,
-      "kind": "heading",
-      "targetIndex": 23,
-      "targetText": "礼拜六",
-      "confidence": 0.8
-    },
-    {
       "start": 4.12,
-      "end": 45.1,
+      "end": 43.82,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "在圣经里有两个叫扫罗的人如果我们比较一下就会发现有效恩召带来的不同旧约的扫罗是个国王他住在皇宫要",
-      "confidence": 0.924
+      "confidence": 0.933,
+      "quality": {
+        "coverage": 0.933,
+        "coherentCoverage": 0.899,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 4.12,
+        "previousEnd": 45.1,
+        "previousConfidence": 0.924
+      }
     },
     {
       "start": 45.1,
@@ -29,7 +63,49 @@
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "我们很自然地会以为哪一个扫罗会更满足呢当然是国王扫罗了不过事实不是这样圣灵有效地呼召了新约的扫罗",
-      "confidence": 0.837
+      "confidence": 0.837,
+      "quality": {
+        "coverage": 0.837,
+        "coherentCoverage": 0.752,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 45.1,
+        "previousEnd": 142.52,
+        "previousConfidence": 0.837
+      }
     },
     {
       "start": 142.52,
@@ -37,7 +113,217 @@
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "以弗所书21213那时你们与基督无关在以色列国民以外在所应许的诸约上是局外人并且活在世上没有指望",
-      "confidence": 0.846
+      "confidence": 0.846,
+      "quality": {
+        "coverage": 0.805,
+        "coherentCoverage": 0.732,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.55,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 9,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 142.52,
+        "previousEnd": 169.8,
+        "previousConfidence": 0.846
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 142.52,
+            "time": 142.52,
+            "reason": "正文起句已定位，保留原先读出处范围",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\32-6.mp3.json",
+              "sha256": "f8334c2ba83dd2ca855081e7f4d3067897672739c1a32d538f67d0585499b27e",
+              "anchor": {
+                "time": 144.52,
+                "score": 0.998,
+                "ratio": 1.0,
+                "expected": "nashinimenyujiduwuguanzaiyiselieguo",
+                "actual": "那时你们与基督无关在以色列国",
+                "span": [
+                  144.52,
+                  148.94
+                ],
+                "tokens": [
+                  {
+                    "text": "那",
+                    "start": 144.52,
+                    "end": 145.1,
+                    "rawStart": 393,
+                    "rawEnd": 393,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "时",
+                    "start": 145.1,
+                    "end": 145.44,
+                    "rawStart": 394,
+                    "rawEnd": 394,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 145.44,
+                    "end": 145.9,
+                    "rawStart": 395,
+                    "rawEnd": 395,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 145.44,
+                    "end": 145.9,
+                    "rawStart": 396,
+                    "rawEnd": 396,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "与",
+                    "start": 145.9,
+                    "end": 146.14,
+                    "rawStart": 397,
+                    "rawEnd": 397,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "基",
+                    "start": 146.14,
+                    "end": 146.34,
+                    "rawStart": 398,
+                    "rawEnd": 398,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "督",
+                    "start": 146.34,
+                    "end": 146.48,
+                    "rawStart": 399,
+                    "rawEnd": 399,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "无",
+                    "start": 146.48,
+                    "end": 146.74,
+                    "rawStart": 400,
+                    "rawEnd": 400,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "关",
+                    "start": 146.74,
+                    "end": 147.0,
+                    "rawStart": 401,
+                    "rawEnd": 401,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "在",
+                    "start": 147.0,
+                    "end": 147.88,
+                    "rawStart": 402,
+                    "rawEnd": 402,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "以",
+                    "start": 147.88,
+                    "end": 148.34,
+                    "rawStart": 403,
+                    "rawEnd": 403,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "色",
+                    "start": 148.34,
+                    "end": 148.6,
+                    "rawStart": 404,
+                    "rawEnd": 404,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "列",
+                    "start": 148.6,
+                    "end": 148.78,
+                    "rawStart": 405,
+                    "rawEnd": 405,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "国",
+                    "start": 148.78,
+                    "end": 148.94,
+                    "rawStart": 406,
+                    "rawEnd": 406,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 142.16,
+                  "score": 0.8849,
+                  "actual": "13节那时你们与基督无关在以色列国"
+                }
+              },
+              "body": "那时,你们与基督无关,在以色列国民以外,在所应许的诸约上是局外人,并且活在世上没有指望,没有神。你们从前远离神的人,如今却在基督耶稣里,靠着祂的血,已经得亲近了。",
+              "retainedCitationInterval": [
+                142.52,
+                144.52
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (9 leading chars, coverage 0.550): target 26: 以弗所书2:12-13 那时，你们与基督无关，在以色列国民以外，在所应许的诸约上是局外人，并且活",
+    "unverified start anchor: target 26: 以弗所书2:12-13 那时，你们与基督无关，在以色列国民以外，在所应许的诸约上是局外人，并且活",
+    "repair unverified start (previous-sync): target 26"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "ad20bc7ddba00eeb551d51cde231eb136381cbd65b8d6ff7b121c21f96984b83",
+  "repairCueDigest": "dfee9f37ef82f12c3171aeec2d2a8378097d76fdd8d6c91a0339866ae3e92426",
+  "previousAlignmentWarnings": []
 }

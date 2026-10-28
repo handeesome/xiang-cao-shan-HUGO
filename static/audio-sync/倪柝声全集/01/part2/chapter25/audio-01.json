@@ -8,20 +8,72 @@
   "audioDuration": 54.336,
   "cues": [
     {
-      "start": 6.05,
-      "end": 10.35,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第九章罪人也与主同钉",
-      "confidence": 0.947
-    },
-    {
-      "start": 10.35,
+      "start": 11.55,
       "end": 53.51,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "上帝喜悦将祂自己的生命分给人这是上帝的救法中最主要的一点只有得着了上帝的生命才能够有像上帝那样的",
-      "confidence": 0.957
+      "confidence": 0.987,
+      "quality": {
+        "coverage": 0.987,
+        "coherentCoverage": 0.987,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 10.35,
+        "previousEnd": 53.51,
+        "previousConfidence": 0.957
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "17b4bfa6b1396ecc2e4dfd60139334a1e1bffd3a84f762d4486a8d8d0b073662",
+  "repairCueDigest": "f5d153f9f16439d625f8928ca6d22b2460ac7ad26a7fada3cb2a68ea34aed28e",
+  "previousAlignmentWarnings": []
 }

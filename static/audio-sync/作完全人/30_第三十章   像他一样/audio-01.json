@@ -8,60 +8,450 @@
   "audioDuration": 320.664,
   "cues": [
     {
-      "start": 1.36,
-      "end": 6.2,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第三十章像他一样",
-      "confidence": 0.75
-    },
-    {
-      "start": 6.2,
+      "start": 9.74,
       "end": 23.32,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "这样爱在我们里面得以完全我们就可以在审判的日子坦然无惧因为他如何我们在这世上也如何约壹四17",
-      "confidence": 0.816
+      "confidence": 0.92,
+      "quality": {
+        "coverage": 0.87,
+        "coherentCoverage": 0.87,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 5,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 6.2,
+        "previousEnd": 23.32,
+        "previousConfidence": 0.816
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 23.32,
+            "time": 23.32,
+            "reason": "正文末句已定位，保留原出处结束范围，避免因书名识别差异截掉已读出处",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\作完全人\\30-v2.mp3.json",
+              "sha256": "e341aac27a18778cf5c11c0dc0f2502c242bee9644c3ff10bc98ff39e214bf7f",
+              "anchor": {
+                "time": 21.64,
+                "score": 0.9983,
+                "ratio": 1.0,
+                "expected": "yinweitaruhewomenzaizheshishangyeruhe",
+                "actual": "因为他如何我们在这世上也如何",
+                "span": [
+                  17.74,
+                  21.64
+                ],
+                "tokens": [
+                  {
+                    "text": "因",
+                    "start": 17.74,
+                    "end": 18.3,
+                    "rawStart": 47,
+                    "rawEnd": 47,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "为",
+                    "start": 17.74,
+                    "end": 18.3,
+                    "rawStart": 48,
+                    "rawEnd": 48,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "他",
+                    "start": 18.3,
+                    "end": 18.58,
+                    "rawStart": 49,
+                    "rawEnd": 49,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "如",
+                    "start": 18.58,
+                    "end": 19.0,
+                    "rawStart": 50,
+                    "rawEnd": 50,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "何",
+                    "start": 18.58,
+                    "end": 19.0,
+                    "rawStart": 51,
+                    "rawEnd": 51,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 19.0,
+                    "end": 19.54,
+                    "rawStart": 52,
+                    "rawEnd": 52,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 19.0,
+                    "end": 19.54,
+                    "rawStart": 53,
+                    "rawEnd": 53,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "在",
+                    "start": 19.54,
+                    "end": 19.76,
+                    "rawStart": 54,
+                    "rawEnd": 54,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "这",
+                    "start": 19.76,
+                    "end": 19.9,
+                    "rawStart": 55,
+                    "rawEnd": 55,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "世",
+                    "start": 19.9,
+                    "end": 20.14,
+                    "rawStart": 56,
+                    "rawEnd": 56,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "上",
+                    "start": 20.14,
+                    "end": 20.5,
+                    "rawStart": 57,
+                    "rawEnd": 57,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "也",
+                    "start": 20.5,
+                    "end": 20.98,
+                    "rawStart": 58,
+                    "rawEnd": 58,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "如",
+                    "start": 20.98,
+                    "end": 21.64,
+                    "rawStart": 59,
+                    "rawEnd": 59,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "何",
+                    "start": 20.98,
+                    "end": 21.64,
+                    "rawStart": 60,
+                    "rawEnd": 60,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 23.88,
+                  "score": 0.9208,
+                  "actual": "因为他如何我们在这世上也如何我们"
+                }
+              },
+              "body": "「这样,爱在我们里面得以完全,我们就可以在审判的日子坦然无惧,因为他如何,我们在这世上也如何」",
+              "retainedCitationInterval": [
+                21.64,
+                23.32
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "start": 23.32,
-      "end": 102.44,
+      "end": 101.0,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "我们应该考查摆在我们面前的这种充满完全的爱的生命所依循的步骤上帝所赐的爱得以进入人的内心之中首先",
-      "confidence": 0.948
+      "confidence": 0.957,
+      "quality": {
+        "coverage": 0.955,
+        "coherentCoverage": 0.942,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 23.32,
+        "previousEnd": 102.44,
+        "previousConfidence": 0.948
+      }
     },
     {
       "start": 102.44,
-      "end": 161.24,
+      "end": 159.76,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "人只有完全借着寻求上帝才能得着完全的心人们可以看出他对主完全恭顺的爱并且帮助弟兄与弟兄彼此相爱基",
-      "confidence": 0.947
+      "confidence": 0.947,
+      "quality": {
+        "coverage": 0.947,
+        "coherentCoverage": 0.93,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 102.44,
+        "previousEnd": 161.24,
+        "previousConfidence": 0.947
+      }
     },
     {
       "start": 161.24,
-      "end": 254.23,
+      "end": 252.3,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "对于完全的爱使徒约翰还要说些什么吗是的他要告诉我们两件事首先他告诉我们完全的爱所得着的最大的福气",
-      "confidence": 0.903
+      "confidence": 0.966,
+      "quality": {
+        "coverage": 0.966,
+        "coherentCoverage": 0.966,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 161.24,
+        "previousEnd": 254.23,
+        "previousConfidence": 0.903
+      }
     },
     {
       "start": 254.23,
-      "end": 279.61,
+      "end": 278.83,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "因为他如何我们在这世上也如何在第二章第六节里面我们读到人若说他住在主里面就该自己照着主所行的去行",
-      "confidence": 0.986
+      "confidence": 0.986,
+      "quality": {
+        "coverage": 0.986,
+        "coherentCoverage": 0.986,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 254.23,
+        "previousEnd": 279.61,
+        "previousConfidence": 0.986
+      }
     },
     {
       "start": 279.61,
-      "end": 297.15,
+      "end": 296.11,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "我们在第三章第三节中又读到凡向他有这指望的就洁净自己像他洁净一样所以效法基督的洁净是完全的爱的标",
-      "confidence": 0.939
+      "confidence": 0.939,
+      "quality": {
+        "coverage": 0.939,
+        "coherentCoverage": 0.898,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 279.61,
+        "previousEnd": 297.15,
+        "previousConfidence": 0.939
+      }
     },
     {
       "start": 297.15,
@@ -69,7 +459,71 @@
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "在第三章第十六节里面我们又读到主为我们舍命我们从此就知道何为爱我们也当为弟兄舍命所以效法基督对我",
-      "confidence": 0.968
+      "confidence": 0.968,
+      "quality": {
+        "coverage": 0.968,
+        "coherentCoverage": 0.921,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 297.15,
+        "previousEnd": 319.35,
+        "previousConfidence": 0.968
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (5 trailing chars, coverage 0.700): target 1: 「这样，爱在我们里面得以完全，我们就可以在审判的日子坦然无惧，因为他如何，我们在这世上也如何」(",
+    "unverified end anchor: target 1: 「这样，爱在我们里面得以完全，我们就可以在审判的日子坦然无惧，因为他如何，我们在这世上也如何」(",
+    "repair unverified end (previous-sync): target 1"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 5,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "e73ca907d9ba8bdaf10f94d0ea28c3c135972fb50ce68fabc06c57d91c8d73f8",
+  "repairCueDigest": "18d114e9f56411f0bdf1d1dfd10dff5d5585c81994241b736b097fe0bb3a6cd7",
+  "previousAlignmentWarnings": []
 }

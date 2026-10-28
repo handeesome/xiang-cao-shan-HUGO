@@ -8,76 +8,752 @@
   "audioDuration": 406.897375,
   "cues": [
     {
-      "start": 1.14,
-      "end": 2.98,
-      "kind": "heading",
-      "targetIndex": 47,
-      "targetText": "四",
-      "confidence": 1.0
-    },
-    {
       "start": 2.98,
-      "end": 10.98,
+      "end": 12.26,
       "kind": "paragraph",
       "targetIndex": 48,
       "targetText": "以色列人的得救不是因为他们自己有什么功绩乃是因为他们倚靠羔羊的宝血",
-      "confidence": 0.594
+      "confidence": 0.906,
+      "quality": {
+        "coverage": 0.939,
+        "coherentCoverage": 0.848,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.875,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 2.98,
+        "previousEnd": 10.98,
+        "previousConfidence": 0.781
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 10.98,
+            "time": 12.26,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\transcript-first-repair-20261017\\verified-transcripts\\倪柝声全集\\01\\chapter03\\5.mp3.json",
+              "sha256": "5ec454d93c402863161afbc79dfb336ff94225148a60bf8765069458470744f4",
+              "anchor": {
+                "time": 12.26,
+                "score": 0.9987,
+                "ratio": 1.0,
+                "expected": "jinaishiyinweitamenyikaogaoyangdebaoxue",
+                "actual": "绩乃是因为他们倚靠高养的宝血",
+                "span": [
+                  7.34,
+                  12.26
+                ],
+                "tokens": [
+                  {
+                    "text": "绩",
+                    "start": 7.34,
+                    "end": 7.96,
+                    "rawStart": 20,
+                    "rawEnd": 20,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "乃",
+                    "start": 8.26,
+                    "end": 8.36,
+                    "rawStart": 21,
+                    "rawEnd": 21,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 8.36,
+                    "end": 8.52,
+                    "rawStart": 22,
+                    "rawEnd": 22,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "因",
+                    "start": 8.52,
+                    "end": 9.1,
+                    "rawStart": 23,
+                    "rawEnd": 23,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "为",
+                    "start": 8.52,
+                    "end": 9.1,
+                    "rawStart": 24,
+                    "rawEnd": 24,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "他",
+                    "start": 9.1,
+                    "end": 9.58,
+                    "rawStart": 25,
+                    "rawEnd": 25,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 9.1,
+                    "end": 9.58,
+                    "rawStart": 26,
+                    "rawEnd": 26,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "倚",
+                    "start": 9.58,
+                    "end": 10.14,
+                    "rawStart": 27,
+                    "rawEnd": 27,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "靠",
+                    "start": 10.14,
+                    "end": 10.440000000000001,
+                    "rawStart": 28,
+                    "rawEnd": 28,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "高",
+                    "start": 10.440000000000001,
+                    "end": 10.8,
+                    "rawStart": 29,
+                    "rawEnd": 29,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "养",
+                    "start": 10.8,
+                    "end": 10.92,
+                    "rawStart": 30,
+                    "rawEnd": 30,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 10.92,
+                    "end": 11.14,
+                    "rawStart": 31,
+                    "rawEnd": 31,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "宝",
+                    "start": 11.14,
+                    "end": 11.38,
+                    "rawStart": 32,
+                    "rawEnd": 32,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "血",
+                    "start": 11.38,
+                    "end": 12.26,
+                    "rawStart": 33,
+                    "rawEnd": 33,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 20.88,
+                  "score": 0.7989,
+                  "actual": "乃是因为他们没有羔羊的宝血"
+                }
+              },
+              "body": "以色列人的得救,不是因为他们自己有什么功绩,乃是因为他们倚靠羔羊的宝血。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.939,
+          "coherentCoverage": 0.848,
+          "extraSpeechContext": false,
+          "prefixCoverage": 1.0,
+          "suffixCoverage": 0.875,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 10.98,
-      "end": 59.58,
+      "start": 12.98,
+      "end": 59.72,
       "kind": "paragraph",
       "targetIndex": 49,
       "targetText": "埃及人的沉沦并不是因他们有什么恶行乃是因为他们没有羔羊的宝血我们得救与沉沦只看我们倚靠宝血与否若",
-      "confidence": 0.768
+      "confidence": 0.901,
+      "quality": {
+        "coverage": 0.901,
+        "coherentCoverage": 0.879,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 12.98,
+        "previousEnd": 59.72,
+        "previousConfidence": 0.855
+      }
     },
     {
-      "start": 59.58,
-      "end": 80.22,
+      "start": 60.6,
+      "end": 78.02,
       "kind": "paragraph",
       "targetIndex": 50,
       "targetText": "他们答应说先生我的儿子不比别人的儿子他并没有杀人放火为人也很公正诚实万事他都是顺着良心这么好的人",
-      "confidence": 0.982
+      "confidence": 0.982,
+      "quality": {
+        "coverage": 0.982,
+        "coherentCoverage": 0.982,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 60.6,
+        "previousEnd": 78.02,
+        "previousConfidence": 0.982
+      }
     },
     {
       "start": 80.22,
-      "end": 89.9,
+      "end": 89.34,
       "kind": "paragraph",
       "targetIndex": 51,
       "targetText": "我说你的门上若没有羔羊的血上帝必定不越过你们要刑罚你们啊",
-      "confidence": 0.893
+      "confidence": 0.893,
+      "quality": {
+        "coverage": 0.893,
+        "coherentCoverage": 0.893,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.857,
+        "suffixCoverage": 0.929,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 80.22,
+        "previousEnd": 89.34,
+        "previousConfidence": 0.893
+      }
     },
     {
       "start": 89.9,
-      "end": 100.14,
+      "end": 98.4,
       "kind": "paragraph",
       "targetIndex": 52,
       "targetText": "他们说别人或用得着羔羊的血但是我们这样的好人用不着什么羔羊的血",
-      "confidence": 0.871
+      "confidence": 0.871,
+      "quality": {
+        "coverage": 0.871,
+        "coherentCoverage": 0.806,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.867,
+        "suffixCoverage": 0.867,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\倪柝声全集\\01\\chapter03\\5.mp3.json",
+          "transcriptSha256": "f756429763086a2f4d91a3d7e6cbdbf840a0249859ed39c0d16cd4910e8cdfcd",
+          "candidate": 98.4,
+          "expectedPhrase": "的好人用不着什么羔羊的血",
+          "actualPhrase": "的好人用不着什么高养的血",
+          "phoneticPhrase": [
+            "de",
+            "hao",
+            "ren",
+            "yong",
+            "bu",
+            "zhe",
+            "shen",
+            "me",
+            "gao",
+            "yang",
+            "de",
+            "xue"
+          ],
+          "verified": true,
+          "time": 98.4,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "exact-local-syllables-original-word-times",
+          "phoneticExact": true,
+          "literalEqual": false,
+          "wordTokens": [
+            {
+              "text": "的",
+              "start": 96.04,
+              "end": 96.22,
+              "rawStart": 279,
+              "rawEnd": 279,
+              "precision": "word"
+            },
+            {
+              "text": "好",
+              "start": 96.22,
+              "end": 96.42,
+              "rawStart": 280,
+              "rawEnd": 280,
+              "precision": "word"
+            },
+            {
+              "text": "人",
+              "start": 96.42,
+              "end": 96.7,
+              "rawStart": 281,
+              "rawEnd": 281,
+              "precision": "word"
+            },
+            {
+              "text": "用",
+              "start": 96.7,
+              "end": 97.14,
+              "rawStart": 282,
+              "rawEnd": 282,
+              "precision": "word"
+            },
+            {
+              "text": "不",
+              "start": 97.14,
+              "end": 97.26,
+              "rawStart": 283,
+              "rawEnd": 283,
+              "precision": "word"
+            },
+            {
+              "text": "着",
+              "start": 97.26,
+              "end": 97.4,
+              "rawStart": 284,
+              "rawEnd": 284,
+              "precision": "word"
+            },
+            {
+              "text": "什",
+              "start": 97.4,
+              "end": 97.62,
+              "rawStart": 285,
+              "rawEnd": 285,
+              "precision": "word"
+            },
+            {
+              "text": "么",
+              "start": 97.4,
+              "end": 97.62,
+              "rawStart": 286,
+              "rawEnd": 286,
+              "precision": "word"
+            },
+            {
+              "text": "高",
+              "start": 97.62,
+              "end": 97.84,
+              "rawStart": 287,
+              "rawEnd": 287,
+              "precision": "word"
+            },
+            {
+              "text": "养",
+              "start": 97.84,
+              "end": 98.0,
+              "rawStart": 288,
+              "rawEnd": 288,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 98.0,
+              "end": 98.14,
+              "rawStart": 289,
+              "rawEnd": 289,
+              "precision": "word"
+            },
+            {
+              "text": "血",
+              "start": 98.14,
+              "end": 98.4,
+              "rawStart": 290,
+              "rawEnd": 290,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "audioSha256": "ff79a0af55a93a4563eeba93a9696ab8dea81902ec497b85a9cf722219276269",
+          "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 89.9,
+        "previousEnd": 100.14,
+        "previousConfidence": 0.871
+      },
+      "boundaryCorrections": [
+        {
+          "book": "倪柝声全集",
+          "page": "01/part1/chapter03.md",
+          "audio": "01/chapter03/5.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\倪柝声全集\\01\\part1\\chapter03\\audio-05.json",
+          "targetIndex": 52,
+          "edge": "end",
+          "previousTime": 100.14,
+          "time": 98.4,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
       "start": 100.14,
-      "end": 197.02,
+      "end": 200.65,
       "kind": "paragraph",
       "targetIndex": 53,
       "targetText": "半夜到了他们的儿子死了我对你说这就是凡倚靠自己的义而不倚靠主耶稣宝血的人的结局永远沉沦你虽然比你",
-      "confidence": 0.812
+      "confidence": 0.877,
+      "quality": {
+        "coverage": 0.878,
+        "coherentCoverage": 0.851,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 0.833,
+          "localSimilarity": 0.833,
+          "localText": "们曾用羔羊的血把衣裳洗白净了启示录7章9到17节",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 100.14,
+        "previousEnd": 197.02,
+        "previousConfidence": 0.867
+      }
     },
     {
-      "start": 197.02,
-      "end": 251.42,
+      "start": 201.98,
+      "end": 249.57,
       "kind": "paragraph",
       "targetIndex": 54,
       "targetText": "一日一日的过去一点一点的飞去时候到了上帝审判的时候到了到了半夜耶和华把埃及地所有的长子尽都杀了出",
-      "confidence": 0.803
+      "confidence": 0.883,
+      "quality": {
+        "coverage": 0.88,
+        "coherentCoverage": 0.866,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 0.958,
+          "localSimilarity": 0.958,
+          "localText": "时候请你快来现在正是悦纳的时候现在正是拯救的日子",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 201.98,
+        "previousEnd": 251.42,
+        "previousConfidence": 0.832
+      }
     },
     {
       "start": 251.42,
-      "end": 298.13,
+      "end": 297.05,
       "kind": "paragraph",
       "targetIndex": 55,
       "targetText": "无一家不死一个人的出十二30埃及人每家都死一人然而以色列人家中并非没有死的埃及人和以色列人家中都",
-      "confidence": 0.937
+      "confidence": 0.981,
+      "quality": {
+        "coverage": 0.977,
+        "coherentCoverage": 0.977,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 251.42,
+        "previousEnd": 297.05,
+        "previousConfidence": 0.937
+      }
     },
     {
       "start": 298.13,
@@ -85,7 +761,98 @@
       "kind": "paragraph",
       "targetIndex": 56,
       "targetText": "亲爱的读者哪我不知道你要谁死是你自己担当你自己的罪而死呢或是你相信倚靠上帝的羔羊主耶稣让祂代替你",
-      "confidence": 0.822
+      "confidence": 0.909,
+      "quality": {
+        "coverage": 0.904,
+        "coherentCoverage": 0.879,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 298.13,
+        "previousEnd": 403.86,
+        "previousConfidence": 0.875
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 48: 以色列人的得救，不是因为他们自己有什么功绩，乃是因为他们倚靠羔羊的宝血。",
+    "unverified end anchor: target 52: 他们说：「别人或用得着羔羊的血，但是，我们这样的好人，用不着什么羔羊的血。 」",
+    "repair unverified end (previous-sync): target 48",
+    "repair unverified end (previous-sync): target 52"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "dc9a87f653c0b25256f6298dd8f28a9759f32208f145ec1effa0f4ef14bf0301",
+  "repairCueDigest": "9676943c3303f657f946b0717fc15a9d3fac1113d4aba256d5868d0982454c4c",
+  "previousAlignmentWarnings": [],
+  "currentSiteConfirmation": {
+    "model": "medium",
+    "audioSha256": "ff79a0af55a93a4563eeba93a9696ab8dea81902ec497b85a9cf722219276269",
+    "audioDuration": 406.897375,
+    "windows": [
+      [
+        1.14,
+        20.9
+      ],
+      [
+        89.9,
+        108.92
+      ],
+      [
+        189.02,
+        206.8
+      ],
+      [
+        243.42,
+        260.6
+      ]
+    ]
+  }
 }

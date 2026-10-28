@@ -8,28 +8,108 @@
   "audioDuration": 111.096,
   "cues": [
     {
-      "start": 2.35,
-      "end": 3.95,
-      "kind": "heading",
-      "targetIndex": 27,
-      "targetText": "礼拜五",
-      "confidence": 0.8
-    },
-    {
       "start": 3.95,
-      "end": 66.05,
+      "end": 68.23,
       "kind": "paragraph",
       "targetIndex": 28,
       "targetText": "犯罪抵挡上帝是有后果的亚当藉着他的悖逆该承受这些后果亚当所有的后代藉着出生与亚当联合他们都经历这",
-      "confidence": 0.751
+      "confidence": 0.931,
+      "quality": {
+        "coverage": 0.931,
+        "coherentCoverage": 0.912,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 3.95,
+        "previousEnd": 66.05,
+        "previousConfidence": 0.9
+      }
     },
     {
-      "start": 66.05,
-      "end": 84.62,
+      "start": 69.6,
+      "end": 83.58,
       "kind": "paragraph",
       "targetIndex": 29,
       "targetText": "以弗所书13愿颂赞归与我们主耶稣基督的父上帝祂在基督里曾赐给我们天上各样属灵的福气",
-      "confidence": 0.756
+      "confidence": 0.907,
+      "quality": {
+        "coverage": 0.907,
+        "coherentCoverage": 0.86,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 66.05,
+        "previousEnd": 83.58,
+        "previousConfidence": 0.778
+      }
     },
     {
       "start": 84.62,
@@ -37,7 +117,70 @@
       "kind": "paragraph",
       "targetIndex": 30,
       "targetText": "以弗所书267祂又叫我们与基督耶稣一同复活一同坐在天上要将祂极丰富的恩典就是祂在基督耶稣里向我们",
-      "confidence": 0.819
+      "confidence": 0.938,
+      "quality": {
+        "coverage": 0.938,
+        "coherentCoverage": 0.938,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 84.62,
+        "previousEnd": 108.36,
+        "previousConfidence": 0.866
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "11e258a786de453c5487d0ad5c84cffd3b5195459c2cc164094c72e412dfba2a",
+  "repairCueDigest": "3c6c75d50794aae4921effa1300948107ed0419bbbbb14ab73f121402d8d8249",
+  "previousAlignmentWarnings": []
 }

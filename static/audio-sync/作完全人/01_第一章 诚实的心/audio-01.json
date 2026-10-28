@@ -8,92 +8,1665 @@
   "audioDuration": 479.93,
   "cues": [
     {
-      "start": 0.0,
-      "end": 3.88,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第一章诚实的心",
-      "confidence": 1.0
-    },
-    {
       "start": 3.88,
-      "end": 12.78,
+      "end": 14.24,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "挪亚是个义人在当时的世代是个完全人挪亚与上帝同行创六9",
-      "confidence": 0.962
+      "confidence": 0.764,
+      "quality": {
+        "coverage": 0.677,
+        "coherentCoverage": 0.581,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.867,
+        "suffixCoverage": 0.467,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 7,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 3.88,
+        "previousEnd": 14.24,
+        "previousConfidence": 0.935
+      }
     },
     {
-      "start": 12.78,
-      "end": 29.25,
+      "start": 16.4,
+      "end": 31.89,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "耶和华问撒但说你曾用心察看我的仆人乔布没有地上再没有人像他完全正直敬畏上帝远离恶事伯一8",
-      "confidence": 0.778
+      "confidence": 0.796,
+      "quality": {
+        "coverage": 0.833,
+        "coherentCoverage": 0.771,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 0.833,
+          "localSimilarity": 0.833,
+          "localText": "耶和华问撒但说你曾用心察看我的仆人乔布没有地上再",
+          "anchorOccurrences": 0,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "source": "context-reviewed-existing-word-time",
+          "expectedPhrase": "「耶和华问撒但说：『你曾用心察看我的仆人乔布没有？地上再没有人像他完全正直，敬畏神，远离恶事』」(伯一8)。",
+          "rawSegment": {
+            "start": 29.25,
+            "end": 31.89,
+            "text": "岳博记一章八节"
+          },
+          "time": 31.89,
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\作完全人\\01-v2.mp3.json",
+          "transcriptSha256": "dbaeea44735f484eab07018e80a437446ae864ec02f513871acc5a46cac89da3",
+          "audioSha256": "7efee7ed5848cd8721df32dc5b00267fcb43f28d9754870874f8a6106a2c0446",
+          "timingPrecision": "word",
+          "reason": "原31.09秒仍在约伯记一章八节的章号中；采用small原始词“节”的完整末尾31.89秒，不把medium拖入停顿的33.15秒当作精确终点。",
+          "listenedByAgent": false
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 14.24,
+        "previousEnd": 31.09,
+        "previousConfidence": 0.804
+      },
+      "boundaryCorrections": [
+        {
+          "edge": "end",
+          "previous": 31.09,
+          "current": 31.89,
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "confirmation": {
+            "verified": true,
+            "source": "context-reviewed-existing-word-time",
+            "expectedPhrase": "「耶和华问撒但说：『你曾用心察看我的仆人乔布没有？地上再没有人像他完全正直，敬畏神，远离恶事』」(伯一8)。",
+            "rawSegment": {
+              "start": 29.25,
+              "end": 31.89,
+              "text": "岳博记一章八节"
+            },
+            "time": 31.89,
+            "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\作完全人\\01-v2.mp3.json",
+            "transcriptSha256": "dbaeea44735f484eab07018e80a437446ae864ec02f513871acc5a46cac89da3",
+            "audioSha256": "7efee7ed5848cd8721df32dc5b00267fcb43f28d9754870874f8a6106a2c0446",
+            "timingPrecision": "word",
+            "reason": "原31.09秒仍在约伯记一章八节的章号中；采用small原始词“节”的完整末尾31.89秒，不把medium拖入停顿的33.15秒当作精确终点。",
+            "listenedByAgent": false
+          }
+        }
+      ]
     },
     {
-      "start": 29.25,
-      "end": 43.81,
+      "start": 33.51,
+      "end": 42.93,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "所罗门不效法他父亲戴维诚诚实实地顺服耶和华他的上帝王上十一4",
-      "confidence": 0.627
+      "confidence": 0.836,
+      "quality": {
+        "coverage": 0.824,
+        "coherentCoverage": 0.765,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.824,
+        "suffixCoverage": 0.824,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 0.875,
+          "localSimilarity": 0.824,
+          "localText": "所罗门不效法他父亲戴维诚诚实实地顺服耶和华他的上",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 31.09,
+        "previousEnd": 42.93,
+        "previousConfidence": 0.714
+      }
     },
     {
       "start": 43.81,
-      "end": 50.43,
+      "end": 51.53,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "亚撒一生却向耶和华存诚实的心王上十五14",
-      "confidence": 0.75
+      "confidence": 0.875,
+      "quality": {
+        "coverage": 0.875,
+        "coherentCoverage": 0.792,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.833,
+        "suffixCoverage": 0.917,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "candidate": 43.81,
+          "expectedPhrase": "亚撒1生却向耶和华存诚实的心列王",
+          "actualPhrase": "亚撒1身却像义和华存诚实的心列王",
+          "editDistance": 2,
+          "exactEndpointPhonemes": 3,
+          "expectedPhraseSize": 16,
+          "actualPhraseSize": 16,
+          "verified": true,
+          "time": 43.81,
+          "elasticLocal": true,
+          "source": "elastic-local-phrase-original-word-times",
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "亚",
+              "start": 43.81,
+              "end": 44.37,
+              "rawStart": 117,
+              "rawEnd": 117,
+              "precision": "word"
+            },
+            {
+              "text": "撒",
+              "start": 44.37,
+              "end": 44.65,
+              "rawStart": 118,
+              "rawEnd": 118,
+              "precision": "word"
+            },
+            {
+              "text": "1",
+              "start": 44.65,
+              "end": 45.19,
+              "rawStart": 119,
+              "rawEnd": 119,
+              "precision": "word"
+            },
+            {
+              "text": "身",
+              "start": 45.19,
+              "end": 45.59,
+              "rawStart": 120,
+              "rawEnd": 120,
+              "precision": "word"
+            },
+            {
+              "text": "却",
+              "start": 45.59,
+              "end": 45.99,
+              "rawStart": 121,
+              "rawEnd": 121,
+              "precision": "word"
+            },
+            {
+              "text": "像",
+              "start": 45.99,
+              "end": 46.19,
+              "rawStart": 122,
+              "rawEnd": 122,
+              "precision": "word"
+            },
+            {
+              "text": "义",
+              "start": 46.19,
+              "end": 46.39,
+              "rawStart": 123,
+              "rawEnd": 123,
+              "precision": "word"
+            },
+            {
+              "text": "和",
+              "start": 46.39,
+              "end": 46.53,
+              "rawStart": 124,
+              "rawEnd": 124,
+              "precision": "word"
+            },
+            {
+              "text": "华",
+              "start": 46.53,
+              "end": 46.79,
+              "rawStart": 125,
+              "rawEnd": 125,
+              "precision": "word"
+            },
+            {
+              "text": "存",
+              "start": 46.79,
+              "end": 47.39,
+              "rawStart": 126,
+              "rawEnd": 126,
+              "precision": "word"
+            },
+            {
+              "text": "诚",
+              "start": 47.39,
+              "end": 47.89,
+              "rawStart": 127,
+              "rawEnd": 127,
+              "precision": "word"
+            },
+            {
+              "text": "实",
+              "start": 47.89,
+              "end": 48.19,
+              "rawStart": 128,
+              "rawEnd": 128,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 48.19,
+              "end": 48.35,
+              "rawStart": 129,
+              "rawEnd": 129,
+              "precision": "word"
+            },
+            {
+              "text": "心",
+              "start": 48.35,
+              "end": 48.63,
+              "rawStart": 130,
+              "rawEnd": 130,
+              "precision": "word"
+            },
+            {
+              "text": "列",
+              "start": 48.63,
+              "end": 49.35,
+              "rawStart": 131,
+              "rawEnd": 131,
+              "precision": "word"
+            },
+            {
+              "text": "王",
+              "start": 49.35,
+              "end": 49.53,
+              "rawStart": 132,
+              "rawEnd": 132,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\作完全人\\01-v2.mp3.json",
+          "transcriptSha256": "dbaeea44735f484eab07018e80a437446ae864ec02f513871acc5a46cac89da3",
+          "audioSha256": "7efee7ed5848cd8721df32dc5b00267fcb43f28d9754870874f8a6106a2c0446",
+          "reason": "实际首尾各3个连续音节精确相同；16音节局部句中最多2次识别增删；数字序列和短句身份唯一，完整词时、停顿、音频时长及相邻原cue已复核。中间正文不要求逐字相同。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 43.81,
+        "previousEnd": 51.53,
+        "previousConfidence": 0.833
+      },
+      "boundaryCorrections": [
+        {
+          "book": "作完全人",
+          "page": "01_第一章 诚实的心.md",
+          "audio": "01-v2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\作完全人\\01_第一章 诚实的心\\audio-01.json",
+          "targetIndex": 4,
+          "edge": "start",
+          "previousTime": 43.81,
+          "time": 43.81,
+          "kind": "explicit-citation-and-local-body-context",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        },
+        {
+          "book": "作完全人",
+          "page": "01_第一章 诚实的心.md",
+          "audio": "01-v2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\作完全人\\01_第一章 诚实的心\\audio-01.json",
+          "targetIndex": 4,
+          "edge": "start",
+          "previousTime": 43.81,
+          "time": 43.81,
+          "kind": "elastic-local-phrase-existing-word-times",
+          "previousVerified": true,
+          "previousEvidence": {
+            "edge": "start",
+            "time": 43.81,
+            "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\作完全人\\01-v2.mp3.json",
+            "transcriptSha256": "dbaeea44735f484eab07018e80a437446ae864ec02f513871acc5a46cac89da3",
+            "bodyEvidence": {
+              "start": {
+                "candidate": 43.81,
+                "expectedPhrase": "亚撒1生却向耶和华存诚实",
+                "actualPhrase": "亚撒1身却像义和华存诚实",
+                "phoneticPhrase": [
+                  "ya",
+                  "sa",
+                  "yi",
+                  "sheng",
+                  "que",
+                  "xiang",
+                  "ye",
+                  "he",
+                  "hua",
+                  "cun",
+                  "cheng",
+                  "shi"
+                ],
+                "actualPhoneticPhrase": [
+                  "ya",
+                  "sa",
+                  "yi",
+                  "shen",
+                  "que",
+                  "xiang",
+                  "yi",
+                  "he",
+                  "hua",
+                  "cun",
+                  "cheng",
+                  "shi"
+                ],
+                "verified": true,
+                "time": 43.81,
+                "boundedPhonetic": true,
+                "exactEndpointPhonemes": 2,
+                "maxInternalPhoneticDifferences": 2,
+                "phoneticDifferences": [
+                  3,
+                  6
+                ],
+                "localSupported": true,
+                "timingPrecision": "word",
+                "wordTokens": [
+                  {
+                    "text": "亚",
+                    "start": 43.81,
+                    "end": 44.37,
+                    "rawStart": 117,
+                    "rawEnd": 117,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "撒",
+                    "start": 44.37,
+                    "end": 44.65,
+                    "rawStart": 118,
+                    "rawEnd": 118,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 44.65,
+                    "end": 45.19,
+                    "rawStart": 119,
+                    "rawEnd": 119,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "身",
+                    "start": 45.19,
+                    "end": 45.59,
+                    "rawStart": 120,
+                    "rawEnd": 120,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "却",
+                    "start": 45.59,
+                    "end": 45.99,
+                    "rawStart": 121,
+                    "rawEnd": 121,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "像",
+                    "start": 45.99,
+                    "end": 46.19,
+                    "rawStart": 122,
+                    "rawEnd": 122,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "义",
+                    "start": 46.19,
+                    "end": 46.39,
+                    "rawStart": 123,
+                    "rawEnd": 123,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "和",
+                    "start": 46.39,
+                    "end": 46.53,
+                    "rawStart": 124,
+                    "rawEnd": 124,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "华",
+                    "start": 46.53,
+                    "end": 46.79,
+                    "rawStart": 125,
+                    "rawEnd": 125,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "存",
+                    "start": 46.79,
+                    "end": 47.39,
+                    "rawStart": 126,
+                    "rawEnd": 126,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "诚",
+                    "start": 47.39,
+                    "end": 47.89,
+                    "rawStart": 127,
+                    "rawEnd": 127,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "实",
+                    "start": 47.89,
+                    "end": 48.19,
+                    "rawStart": 128,
+                    "rawEnd": 128,
+                    "precision": "word"
+                  }
+                ],
+                "source": "bounded-local-phonetic-differences-original-word-times",
+                "listenedByAgent": false
+              },
+              "end": {
+                "verified": true,
+                "time": 48.63,
+                "phrase": "和华存诚实的心",
+                "literalChars": 7,
+                "wordTokens": [
+                  {
+                    "text": "和",
+                    "start": 46.39,
+                    "end": 46.53,
+                    "rawStart": 124,
+                    "rawEnd": 124,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "华",
+                    "start": 46.53,
+                    "end": 46.79,
+                    "rawStart": 125,
+                    "rawEnd": 125,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "存",
+                    "start": 46.79,
+                    "end": 47.39,
+                    "rawStart": 126,
+                    "rawEnd": 126,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "诚",
+                    "start": 47.39,
+                    "end": 47.89,
+                    "rawStart": 127,
+                    "rawEnd": 127,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "实",
+                    "start": 47.89,
+                    "end": 48.19,
+                    "rawStart": 128,
+                    "rawEnd": 128,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 48.19,
+                    "end": 48.35,
+                    "rawStart": 129,
+                    "rawEnd": 129,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "心",
+                    "start": 48.35,
+                    "end": 48.63,
+                    "rawStart": 130,
+                    "rawEnd": 130,
+                    "precision": "word"
+                  }
+                ],
+                "localSupported": true,
+                "timingPrecision": "word",
+                "source": "paired-unique-literal-endpoints",
+                "listenedByAgent": false
+              }
+            },
+            "citation": {
+              "start": 48.63,
+              "end": 51.53,
+              "expected": "列王纪上15章14节",
+              "actual": "列王记上15章14节",
+              "tokens": [
+                {
+                  "text": "列",
+                  "start": 48.63,
+                  "end": 49.35,
+                  "rawStart": 131,
+                  "rawEnd": 131,
+                  "precision": "word"
+                },
+                {
+                  "text": "王",
+                  "start": 49.35,
+                  "end": 49.53,
+                  "rawStart": 132,
+                  "rawEnd": 132,
+                  "precision": "word"
+                },
+                {
+                  "text": "记",
+                  "start": 49.53,
+                  "end": 49.67,
+                  "rawStart": 133,
+                  "rawEnd": 133,
+                  "precision": "word"
+                },
+                {
+                  "text": "上",
+                  "start": 49.67,
+                  "end": 49.99,
+                  "rawStart": 134,
+                  "rawEnd": 134,
+                  "precision": "word"
+                },
+                {
+                  "text": "1",
+                  "start": 49.99,
+                  "end": 50.43,
+                  "rawStart": 135,
+                  "rawEnd": 135,
+                  "precision": "word"
+                },
+                {
+                  "text": "5",
+                  "start": 49.99,
+                  "end": 50.43,
+                  "rawStart": 136,
+                  "rawEnd": 136,
+                  "precision": "word"
+                },
+                {
+                  "text": "章",
+                  "start": 50.43,
+                  "end": 50.59,
+                  "rawStart": 137,
+                  "rawEnd": 137,
+                  "precision": "word"
+                },
+                {
+                  "text": "1",
+                  "start": 50.59,
+                  "end": 51.03,
+                  "rawStart": 138,
+                  "rawEnd": 138,
+                  "precision": "word"
+                },
+                {
+                  "text": "4",
+                  "start": 50.59,
+                  "end": 51.03,
+                  "rawStart": 139,
+                  "rawEnd": 139,
+                  "precision": "word"
+                },
+                {
+                  "text": "节",
+                  "start": 51.03,
+                  "end": 51.53,
+                  "rawStart": 140,
+                  "rawEnd": 140,
+                  "precision": "word"
+                }
+              ]
+            },
+            "identityBasis": "unique-explicit-citation-and-local-body-edges",
+            "retainedOpposite": null,
+            "verified": true,
+            "localSupported": true,
+            "timingPrecision": "word",
+            "listenedByAgent": false,
+            "source": "explicit-citation-and-local-body-context",
+            "audioSha256": "7efee7ed5848cd8721df32dc5b00267fcb43f28d9754870874f8a6106a2c0446"
+          },
+          "reason": "实际首尾各3个连续音节精确相同；16音节局部句中最多2次识别增删；数字序列和短句身份唯一，完整词时、停顿、音频时长及相邻原cue已复核。中间正文不要求逐字相同。"
+        }
+      ]
     },
     {
-      "start": 50.43,
-      "end": 107.77,
+      "start": 53.07,
+      "end": 108.95,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "圣经为以上提到的四个人作见证说他们都是完全人或者说他们诚诚实实地顺服上帝圣经也为他们中间的每一个",
-      "confidence": 0.78
+      "confidence": 0.906,
+      "quality": {
+        "coverage": 0.906,
+        "coherentCoverage": 0.885,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 1.0,
+          "localSimilarity": 1.0,
+          "localText": "圣经为以上提到的4个人作见证说他们都是完全人或者",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 51.53,
+        "previousEnd": 108.95,
+        "previousConfidence": 0.89
+      }
     },
     {
-      "start": 107.77,
-      "end": 158.29,
+      "start": 110.57,
+      "end": 156.69,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "要想明白这一点我们只需要牢记一件事不管什么时候只要是上帝在栽培他的百姓我们就会判断出他所使用的完",
-      "confidence": 0.957
+      "confidence": 0.97,
+      "quality": {
+        "coverage": 0.97,
+        "coherentCoverage": 0.958,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 110.57,
+        "previousEnd": 156.69,
+        "previousConfidence": 0.97
+      }
     },
     {
       "start": 158.29,
-      "end": 237.47,
+      "end": 238.03,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "以后我们将在旧约圣经当中看出没有什么人曾经真正地得以完全了我们要看出基督是如何把真正的完全彰显出",
-      "confidence": 0.872
+      "confidence": 0.932,
+      "quality": {
+        "coverage": 0.926,
+        "coherentCoverage": 0.914,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 158.29,
+        "previousEnd": 238.03,
+        "previousConfidence": 0.928
+      }
     },
     {
-      "start": 237.47,
-      "end": 352.64,
+      "start": 239.58,
+      "end": 350.48,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "圣经所作的这些见证要教给我们的是一个十分简单但却是十分全面的功课在上帝记录他仆人的生命册中有许多",
-      "confidence": 0.947
+      "confidence": 0.95,
+      "quality": {
+        "coverage": 0.95,
+        "coherentCoverage": 0.926,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\transcript-first-repair-20261017\\verified-transcripts\\作完全人\\01-v2.mp3.json",
+          "transcriptSha256": "77de1e9f992f0cf265688b54b2eb01374ff01557e7f7a046e76e60f3263e3038",
+          "verified": true,
+          "time": 239.58,
+          "expectedPhrase": "圣经所作的这些见证要教给我们的，是一个十分简单，但却是十分全面的功课。在神记录他",
+          "actualPhrase": "圣经所做的这些见证要教给",
+          "edgeAnchor": "圣经所作的这些见证要教给",
+          "evidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": false,
+            "substitutionAnchor": true,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 0.958,
+            "localSimilarity": 0.958,
+            "localText": "圣经所作的这些见证要教给我们的是1个10分简单但",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false
+          },
+          "window": [
+            226.03,
+            250.03
+          ],
+          "segments": [
+            {
+              "start": 225.95,
+              "end": 227.07,
+              "text": "自己的作用命",
+              "words": [
+                {
+                  "start": 225.95,
+                  "end": 226.21,
+                  "text": "自己",
+                  "probability": 0.9951981902122498
+                },
+                {
+                  "start": 226.21,
+                  "end": 226.39,
+                  "text": "的",
+                  "probability": 0.9981051683425903
+                },
+                {
+                  "start": 226.39,
+                  "end": 226.57,
+                  "text": "作",
+                  "probability": 0.40774065256118774
+                },
+                {
+                  "start": 226.57,
+                  "end": 226.75,
+                  "text": "用",
+                  "probability": 0.4271402955055237
+                },
+                {
+                  "start": 226.75,
+                  "end": 227.07,
+                  "text": "命",
+                  "probability": 0.7025085091590881
+                }
+              ]
+            },
+            {
+              "start": 227.68,
+              "end": 232.12,
+              "text": "即便是在圣灵还没有得以进入人的内心的时候,",
+              "words": [
+                {
+                  "start": 227.68,
+                  "end": 228.26,
+                  "text": "即",
+                  "probability": 0.9554563760757446
+                },
+                {
+                  "start": 228.26,
+                  "end": 228.46,
+                  "text": "便",
+                  "probability": 0.9937610030174255
+                },
+                {
+                  "start": 228.46,
+                  "end": 228.7,
+                  "text": "是",
+                  "probability": 0.9859909415245056
+                },
+                {
+                  "start": 228.7,
+                  "end": 229.07999999999998,
+                  "text": "在",
+                  "probability": 0.9930522441864014
+                },
+                {
+                  "start": 229.07999999999998,
+                  "end": 229.29999999999998,
+                  "text": "圣",
+                  "probability": 0.7004498392343521
+                },
+                {
+                  "start": 229.29999999999998,
+                  "end": 229.42,
+                  "text": "灵",
+                  "probability": 0.9790436625480652
+                },
+                {
+                  "start": 229.42,
+                  "end": 229.64,
+                  "text": "还",
+                  "probability": 0.9734915494918823
+                },
+                {
+                  "start": 229.64,
+                  "end": 229.88,
+                  "text": "没有",
+                  "probability": 0.9880657196044922
+                },
+                {
+                  "start": 229.88,
+                  "end": 230.1,
+                  "text": "得",
+                  "probability": 0.9930639863014221
+                },
+                {
+                  "start": 230.1,
+                  "end": 230.26,
+                  "text": "以",
+                  "probability": 0.9762184619903564
+                },
+                {
+                  "start": 230.26,
+                  "end": 230.54,
+                  "text": "进",
+                  "probability": 0.9868339896202087
+                },
+                {
+                  "start": 230.54,
+                  "end": 230.72,
+                  "text": "入",
+                  "probability": 0.9990854263305664
+                },
+                {
+                  "start": 230.72,
+                  "end": 230.94,
+                  "text": "人",
+                  "probability": 0.9750416278839111
+                },
+                {
+                  "start": 230.94,
+                  "end": 231.14,
+                  "text": "的",
+                  "probability": 0.9860556125640869
+                },
+                {
+                  "start": 231.14,
+                  "end": 231.38,
+                  "text": "内",
+                  "probability": 0.9945922493934631
+                },
+                {
+                  "start": 231.38,
+                  "end": 231.5,
+                  "text": "心",
+                  "probability": 0.999129593372345
+                },
+                {
+                  "start": 231.5,
+                  "end": 232.12,
+                  "text": "的时候,",
+                  "probability": 0.9812732934951782
+                }
+              ]
+            },
+            {
+              "start": 232.78,
+              "end": 238.38,
+              "text": "从此,神就要把这一切当作是完全人的标志。",
+              "words": [
+                {
+                  "start": 232.78,
+                  "end": 233.04,
+                  "text": "从",
+                  "probability": 0.9054807424545288
+                },
+                {
+                  "start": 233.04,
+                  "end": 233.66,
+                  "text": "此,",
+                  "probability": 0.9995549321174622
+                },
+                {
+                  "start": 233.79999999999998,
+                  "end": 234.1,
+                  "text": "神",
+                  "probability": 0.9495753049850464
+                },
+                {
+                  "start": 234.1,
+                  "end": 234.35999999999999,
+                  "text": "就",
+                  "probability": 0.9952355027198792
+                },
+                {
+                  "start": 234.35999999999999,
+                  "end": 234.51999999999998,
+                  "text": "要",
+                  "probability": 0.9790468811988831
+                },
+                {
+                  "start": 234.51999999999998,
+                  "end": 234.78,
+                  "text": "把",
+                  "probability": 0.9951373934745789
+                },
+                {
+                  "start": 234.78,
+                  "end": 235.14,
+                  "text": "这",
+                  "probability": 0.9831642508506775
+                },
+                {
+                  "start": 235.14,
+                  "end": 235.22,
+                  "text": "一",
+                  "probability": 0.9830492734909058
+                },
+                {
+                  "start": 235.22,
+                  "end": 235.6,
+                  "text": "切",
+                  "probability": 0.9998499155044556
+                },
+                {
+                  "start": 235.6,
+                  "end": 235.92,
+                  "text": "当",
+                  "probability": 0.9198135733604431
+                },
+                {
+                  "start": 235.92,
+                  "end": 236.22,
+                  "text": "作",
+                  "probability": 0.7813210487365723
+                },
+                {
+                  "start": 236.22,
+                  "end": 236.66,
+                  "text": "是",
+                  "probability": 0.9924654960632324
+                },
+                {
+                  "start": 236.66,
+                  "end": 237.2,
+                  "text": "完全",
+                  "probability": 0.8596449494361877
+                },
+                {
+                  "start": 237.2,
+                  "end": 237.42,
+                  "text": "人",
+                  "probability": 0.9720874428749084
+                },
+                {
+                  "start": 237.42,
+                  "end": 237.57999999999998,
+                  "text": "的",
+                  "probability": 0.9983202815055847
+                },
+                {
+                  "start": 237.57999999999998,
+                  "end": 237.84,
+                  "text": "标",
+                  "probability": 0.998380720615387
+                },
+                {
+                  "start": 237.84,
+                  "end": 238.38,
+                  "text": "志。",
+                  "probability": 0.9855857491493225
+                }
+              ]
+            },
+            {
+              "start": 239.57999999999998,
+              "end": 247.72,
+              "text": "圣经所做的这些见证要教给我们的是一个十分简单,但却是十分全面的功课。",
+              "words": [
+                {
+                  "start": 239.57999999999998,
+                  "end": 239.79999999999998,
+                  "text": "圣",
+                  "probability": 0.9474421739578247
+                },
+                {
+                  "start": 239.79999999999998,
+                  "end": 239.98,
+                  "text": "经",
+                  "probability": 0.9964650869369507
+                },
+                {
+                  "start": 239.98,
+                  "end": 240.32,
+                  "text": "所",
+                  "probability": 0.9945766925811768
+                },
+                {
+                  "start": 240.32,
+                  "end": 240.42,
+                  "text": "做",
+                  "probability": 0.911526620388031
+                },
+                {
+                  "start": 240.42,
+                  "end": 240.62,
+                  "text": "的",
+                  "probability": 0.9921988844871521
+                },
+                {
+                  "start": 240.62,
+                  "end": 240.72,
+                  "text": "这",
+                  "probability": 0.990962564945221
+                },
+                {
+                  "start": 240.72,
+                  "end": 240.84,
+                  "text": "些",
+                  "probability": 0.9994860887527466
+                },
+                {
+                  "start": 240.84,
+                  "end": 241.16,
+                  "text": "见",
+                  "probability": 0.789770781993866
+                },
+                {
+                  "start": 241.16,
+                  "end": 241.42,
+                  "text": "证",
+                  "probability": 0.9993838667869568
+                },
+                {
+                  "start": 241.42,
+                  "end": 241.9,
+                  "text": "要",
+                  "probability": 0.561294436454773
+                },
+                {
+                  "start": 241.9,
+                  "end": 242.2,
+                  "text": "教",
+                  "probability": 0.7561712861061096
+                },
+                {
+                  "start": 242.2,
+                  "end": 242.42,
+                  "text": "给",
+                  "probability": 0.992716372013092
+                },
+                {
+                  "start": 242.42,
+                  "end": 242.68,
+                  "text": "我们",
+                  "probability": 0.9983968138694763
+                },
+                {
+                  "start": 242.68,
+                  "end": 243.22,
+                  "text": "的是",
+                  "probability": 0.5524086952209473
+                },
+                {
+                  "start": 243.22,
+                  "end": 243.62,
+                  "text": "一个",
+                  "probability": 0.9794955849647522
+                },
+                {
+                  "start": 243.62,
+                  "end": 243.88,
+                  "text": "十",
+                  "probability": 0.9707605838775635
+                },
+                {
+                  "start": 243.88,
+                  "end": 244.1,
+                  "text": "分",
+                  "probability": 0.9996058344841003
+                },
+                {
+                  "start": 244.1,
+                  "end": 244.57999999999998,
+                  "text": "简",
+                  "probability": 0.9961133897304535
+                },
+                {
+                  "start": 244.57999999999998,
+                  "end": 244.95999999999998,
+                  "text": "单,",
+                  "probability": 0.9995269775390625
+                },
+                {
+                  "start": 245.18,
+                  "end": 245.48,
+                  "text": "但",
+                  "probability": 0.9736624360084534
+                },
+                {
+                  "start": 245.48,
+                  "end": 245.82,
+                  "text": "却",
+                  "probability": 0.9497024714946747
+                },
+                {
+                  "start": 245.82,
+                  "end": 246.18,
+                  "text": "是",
+                  "probability": 0.9558870792388916
+                },
+                {
+                  "start": 246.18,
+                  "end": 246.4,
+                  "text": "十",
+                  "probability": 0.9989476799964905
+                },
+                {
+                  "start": 246.4,
+                  "end": 246.7,
+                  "text": "分",
+                  "probability": 0.9989917874336243
+                },
+                {
+                  "start": 246.7,
+                  "end": 247.04,
+                  "text": "全",
+                  "probability": 0.9900355935096741
+                },
+                {
+                  "start": 247.04,
+                  "end": 247.24,
+                  "text": "面",
+                  "probability": 0.9977210164070129
+                },
+                {
+                  "start": 247.24,
+                  "end": 247.45999999999998,
+                  "text": "的",
+                  "probability": 0.9942147135734558
+                },
+                {
+                  "start": 247.45999999999998,
+                  "end": 247.72,
+                  "text": "功",
+                  "probability": 0.995694637298584
+                },
+                {
+                  "start": 247.72,
+                  "end": 247.72,
+                  "text": "课。",
+                  "probability": 0.9975425899028778
+                }
+              ]
+            },
+            {
+              "start": 248.65,
+              "end": 250.13,
+              "text": "在《神记录他",
+              "words": [
+                {
+                  "start": 248.65,
+                  "end": 249.05,
+                  "text": "在",
+                  "probability": 0.9771857261657715
+                },
+                {
+                  "start": 249.05,
+                  "end": 249.19,
+                  "text": "《",
+                  "probability": 0.4042832553386688
+                },
+                {
+                  "start": 249.19,
+                  "end": 249.33,
+                  "text": "神",
+                  "probability": 0.9161365628242493
+                },
+                {
+                  "start": 249.33,
+                  "end": 249.81,
+                  "text": "记",
+                  "probability": 0.5178457498550415
+                },
+                {
+                  "start": 249.81,
+                  "end": 249.95,
+                  "text": "录",
+                  "probability": 0.9924572706222534
+                },
+                {
+                  "start": 249.95,
+                  "end": 250.13,
+                  "text": "他",
+                  "probability": 0.4763318598270416
+                }
+              ]
+            }
+          ],
+          "source": "true-edge-local-anchor-review",
+          "listenedByAgent": false,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "reason": "真正首尾文字锚点及词时间确认；局部单字识别差异不要求全文逐字相同。",
+          "audioSha256": "7efee7ed5848cd8721df32dc5b00267fcb43f28d9754870874f8a6106a2c0446"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 238.03,
+        "previousEnd": 350.48,
+        "previousConfidence": 0.95
+      },
+      "boundaryCorrections": [
+        {
+          "book": "作完全人",
+          "page": "01_第一章 诚实的心.md",
+          "audio": "01-v2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\作完全人\\01_第一章 诚实的心\\audio-01.json",
+          "targetIndex": 8,
+          "edge": "start",
+          "previousTime": 238.03,
+          "time": 239.58,
+          "kind": "local-edge-confirmation",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "真正首尾文字锚点及词时间确认；局部单字识别差异不要求全文逐字相同。"
+        }
+      ]
     },
     {
       "start": 352.64,
-      "end": 387.24,
+      "end": 385.94,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "但是我们多少能够明白它的意思我凭借诚实的心所作的事也要借着爱心和喜乐心甘情愿地用自己的全部力量来",
-      "confidence": 0.925
+      "confidence": 0.933,
+      "quality": {
+        "coverage": 0.933,
+        "coherentCoverage": 0.933,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 352.64,
+        "previousEnd": 385.94,
+        "previousConfidence": 0.933
+      }
     },
     {
       "start": 387.24,
-      "end": 476.3,
+      "end": 477.79,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "人要是愿意我们借着上帝的话来一同分享他为完全所显明的旨意我就要再一次对他们说你们要用心考查这个问",
-      "confidence": 0.858
+      "confidence": 0.896,
+      "quality": {
+        "coverage": 0.894,
+        "coherentCoverage": 0.852,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 1.0,
+          "localSimilarity": 1.0,
+          "localText": "命的光明前景从此人就要说他向主他的上帝存诚实的心",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 387.24,
+        "previousEnd": 476.3,
+        "previousConfidence": 0.881
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (7 trailing chars, coverage 0.467): target 1: 「挪亚是个义人，在当时的世代是个完全人。挪亚与神同行」(创六9)。",
+    "unverified start anchor: target 1: 「挪亚是个义人，在当时的世代是个完全人。挪亚与神同行」(创六9)。",
+    "unverified end anchor: target 1: 「挪亚是个义人，在当时的世代是个完全人。挪亚与神同行」(创六9)。",
+    "unverified start anchor: target 4: 「亚撒一生却向耶和华存诚实的心」(王上十五14)。",
+    "unverified start anchor: target 8: 圣经所作的这些见证要教给我们的，是一个十分简单，但却是十分全面的功课。在神记录他仆人的生命册中，",
+    "repair unverified start (previous-sync): target 4",
+    "repair unverified start (previous-sync): target 8",
+    "local context confirmed start: target 8; 真正首尾文字锚点及词时间确认；局部单字识别差异不要求全文逐字相同。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 3,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "2c97f6bfdb4393ce7708602a50ca6f824f2aaafcfb009f9ab01c3f0aed52ad02",
+  "repairCueDigest": "7d7d48f4c58b80f138a6d152cd0db2455d21aba5803e0b4c58e98e3680cd1204",
+  "previousAlignmentWarnings": [],
+  "currentSiteConfirmation": {
+    "model": "medium",
+    "audioSha256": "7efee7ed5848cd8721df32dc5b00267fcb43f28d9754870874f8a6106a2c0446",
+    "audioDuration": 479.93,
+    "windows": [
+      [
+        3.88,
+        23.05
+      ],
+      [
+        23.09,
+        62.89
+      ],
+      [
+        227.63,
+        247.75
+      ],
+      [
+        463.98,
+        479.93
+      ]
+    ]
+  }
 }

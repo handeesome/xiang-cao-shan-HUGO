@@ -8,124 +8,1115 @@
   "audioDuration": 824.56925,
   "cues": [
     {
-      "start": 1.42,
-      "end": 12.39,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第二章贫穷的福气",
-      "confidence": 0.533
-    },
-    {
-      "start": 12.39,
+      "start": 14.13,
       "end": 19.85,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "虚心的人有福了因为天国是他们的太53",
-      "confidence": 0.5
+      "confidence": 0.788,
+      "quality": {
+        "coverage": 0.722,
+        "coherentCoverage": 0.722,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.778,
+        "suffixCoverage": 0.667,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 12.39,
+        "previousEnd": 19.85,
+        "previousConfidence": 0.5
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 19.85,
+            "time": 19.85,
+            "reason": "正文末句已定位，保留原出处结束范围，避免因书名识别差异截掉已读出处",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\2-1.mp3.json",
+              "sha256": "416808e416b89959fac90a1795c1158050b05ca76030d5ec44d4b4dbeb179623",
+              "anchor": {
+                "time": 19.11,
+                "score": 0.9278,
+                "ratio": 0.9286,
+                "expected": "xinderenyoufuleyinweitianguoshitamende",
+                "actual": "心的人有浮浪因为天国是他们的",
+                "span": [
+                  14.73,
+                  19.11
+                ],
+                "tokens": [
+                  {
+                    "text": "心",
+                    "start": 14.73,
+                    "end": 14.95,
+                    "rawStart": 19,
+                    "rawEnd": 19,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 14.95,
+                    "end": 15.13,
+                    "rawStart": 20,
+                    "rawEnd": 20,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 14.95,
+                    "end": 15.13,
+                    "rawStart": 21,
+                    "rawEnd": 21,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "有",
+                    "start": 15.13,
+                    "end": 15.45,
+                    "rawStart": 22,
+                    "rawEnd": 22,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "浮",
+                    "start": 15.45,
+                    "end": 15.71,
+                    "rawStart": 23,
+                    "rawEnd": 23,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "浪",
+                    "start": 15.71,
+                    "end": 15.95,
+                    "rawStart": 24,
+                    "rawEnd": 24,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "因",
+                    "start": 16.35,
+                    "end": 16.97,
+                    "rawStart": 25,
+                    "rawEnd": 25,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "为",
+                    "start": 16.35,
+                    "end": 16.97,
+                    "rawStart": 26,
+                    "rawEnd": 26,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "天",
+                    "start": 16.97,
+                    "end": 17.47,
+                    "rawStart": 27,
+                    "rawEnd": 27,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "国",
+                    "start": 17.47,
+                    "end": 17.83,
+                    "rawStart": 28,
+                    "rawEnd": 28,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 17.83,
+                    "end": 18.27,
+                    "rawStart": 29,
+                    "rawEnd": 29,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "他",
+                    "start": 18.27,
+                    "end": 18.65,
+                    "rawStart": 30,
+                    "rawEnd": 30,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 18.27,
+                    "end": 18.65,
+                    "rawStart": 31,
+                    "rawEnd": 31,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 18.65,
+                    "end": 19.11,
+                    "rawStart": 32,
+                    "rawEnd": 32,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "“虚心的人有福了,因为天国是他们的。”",
+              "retainedCitationInterval": [
+                19.11,
+                19.85
+              ]
+            }
+          }
+        }
+      }
     },
     {
-      "start": 19.85,
-      "end": 69.99,
+      "start": 20.45,
+      "end": 68.69,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "耶和华上帝还未造人住在地上的时候先在这世界为人预备好许多有用而且悦人的东西为的是叫人类可以生存和",
-      "confidence": 0.842
+      "confidence": 0.906,
+      "quality": {
+        "coverage": 0.886,
+        "coherentCoverage": 0.829,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 19.85,
+        "previousEnd": 69.99,
+        "previousConfidence": 0.842
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 19.85,
+            "time": 20.45,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\2-1.mp3.json",
+              "sha256": "416808e416b89959fac90a1795c1158050b05ca76030d5ec44d4b4dbeb179623",
+              "anchor": {
+                "time": 20.45,
+                "score": 0.8823,
+                "ratio": 0.8889,
+                "expected": "yehehuashenhaiweizaorenzhuzaidishangdeshi",
+                "actual": "何华神含未造人住在地上的时",
+                "span": [
+                  20.45,
+                  23.37
+                ],
+                "tokens": [
+                  {
+                    "text": "何",
+                    "start": 20.45,
+                    "end": 20.59,
+                    "rawStart": 34,
+                    "rawEnd": 34,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "华",
+                    "start": 20.59,
+                    "end": 20.75,
+                    "rawStart": 35,
+                    "rawEnd": 35,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 20.75,
+                    "end": 21.07,
+                    "rawStart": 36,
+                    "rawEnd": 37,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "含",
+                    "start": 21.07,
+                    "end": 21.45,
+                    "rawStart": 38,
+                    "rawEnd": 38,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "未",
+                    "start": 21.45,
+                    "end": 21.71,
+                    "rawStart": 39,
+                    "rawEnd": 39,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "造",
+                    "start": 21.71,
+                    "end": 21.95,
+                    "rawStart": 40,
+                    "rawEnd": 40,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 21.95,
+                    "end": 22.19,
+                    "rawStart": 41,
+                    "rawEnd": 41,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "住",
+                    "start": 22.19,
+                    "end": 22.39,
+                    "rawStart": 42,
+                    "rawEnd": 42,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "在",
+                    "start": 22.39,
+                    "end": 22.57,
+                    "rawStart": 43,
+                    "rawEnd": 43,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "地",
+                    "start": 22.57,
+                    "end": 22.71,
+                    "rawStart": 44,
+                    "rawEnd": 44,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "上",
+                    "start": 22.71,
+                    "end": 22.95,
+                    "rawStart": 45,
+                    "rawEnd": 45,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 22.95,
+                    "end": 23.37,
+                    "rawStart": 46,
+                    "rawEnd": 46,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "时",
+                    "start": 22.95,
+                    "end": 23.37,
+                    "rawStart": 47,
+                    "rawEnd": 47,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "耶和华神还未造人住在地上的时候,先在这世界为人预备好许多有用而且悦人的东西,为的是叫人类可以生存和享受。据创世记记载,神创造这些东西的时候,只称这些东西为“物”(things)。这些“物”都是为人类的需要而被造的,一直被看为属于身外的,而且必须完全受人的支配。在人的内心深处有一个宝座,是除了神以外没有别的东西配得占据的。在人的里面是神自己,在人的外面是神所倾福赐下的无数美物。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.886,
+          "coherentCoverage": 0.829,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.85,
+          "suffixCoverage": 0.85,
+          "unmatchedLeadingChars": 2,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.75,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          }
+        }
+      }
     },
     {
       "start": 69.99,
-      "end": 84.31,
+      "end": 83.01,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "但是罪给这世界带来极大的混乱同时也是因为罪的缘故使上帝所赐的美物成了败坏人灵魂一种潜伏的根源",
-      "confidence": 0.652
+      "confidence": 0.957,
+      "quality": {
+        "coverage": 0.957,
+        "coherentCoverage": 0.891,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 69.99,
+        "previousEnd": 84.31,
+        "previousConfidence": 0.652
+      }
     },
     {
       "start": 84.31,
-      "end": 114.41,
+      "end": 114.83,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "人类允许外面的物进入内心而把上帝从内心的宝座上赶逐出去就在这时候我们的灾祸就开始了外面的物既然把",
-      "confidence": 0.805
+      "confidence": 0.834,
+      "quality": {
+        "coverage": 0.744,
+        "coherentCoverage": 0.728,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 84.31,
+        "previousEnd": 114.41,
+        "previousConfidence": 0.805
+      }
     },
     {
-      "start": 114.41,
-      "end": 196.23,
+      "start": 115.93,
+      "end": 195.25,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "上述所说的并非单单一种比喻的说法乃是我们灵性上真正毛病的正确分析在人类内心之中有一条强韧的根从堕",
-      "confidence": 0.926
+      "confidence": 0.93,
+      "quality": {
+        "coverage": 0.93,
+        "coherentCoverage": 0.911,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 114.41,
+        "previousEnd": 196.23,
+        "previousConfidence": 0.926
+      }
     },
     {
       "start": 196.23,
-      "end": 224.77,
+      "end": 224.61,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "我们的主耶稣曾经提到物对人的害处祂对门徒说了这样的话若有人要跟从我就当舍已背起他的十字架来跟从我",
-      "confidence": 0.899
+      "confidence": 0.911,
+      "quality": {
+        "coverage": 0.928,
+        "coherentCoverage": 0.855,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 196.23,
+        "previousEnd": 224.77,
+        "previousConfidence": 0.899
+      }
     },
     {
-      "start": 224.77,
-      "end": 295.0,
+      "start": 225.77,
+      "end": 294.16,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "讲得更清楚一点这真理似乎是说我们每个人里面有一个仇敌我们竟冒着很大的危险让它居住这个仇敌耶稣称为",
-      "confidence": 0.823
+      "confidence": 0.93,
+      "quality": {
+        "coverage": 0.925,
+        "coherentCoverage": 0.92,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 224.77,
+        "previousEnd": 295.0,
+        "previousConfidence": 0.823
+      }
     },
     {
       "start": 295.0,
-      "end": 372.82,
+      "end": 371.88,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "引我们达到认识上帝更深的路是要经过灵里贫穷孤寂的幽谷和弃绝一切外物这些拥有天国的有福之人因为天国",
-      "confidence": 0.754
+      "confidence": 0.843,
+      "quality": {
+        "coverage": 0.845,
+        "coherentCoverage": 0.788,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 295.0,
+        "previousEnd": 372.82,
+        "previousConfidence": 0.754
+      }
     },
     {
       "start": 372.82,
-      "end": 414.74,
+      "end": 413.58,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "请你郑重地实践这个教训因这教训并不像一般圣经教训一样只求其了解也不象其他呆板的教条一般堆积在头脑",
-      "confidence": 0.838
+      "confidence": 0.926,
+      "quality": {
+        "coverage": 0.926,
+        "coherentCoverage": 0.89,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 372.82,
+        "previousEnd": 414.74,
+        "previousConfidence": 0.838
+      }
     },
     {
       "start": 414.74,
-      "end": 437.28,
+      "end": 435.9,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "这个新约的属灵生活原则通常都可以在旧约里找到最好的说明从亚伯拉罕献以撒的故事中我们看到一幅描写舍",
-      "confidence": 0.808
+      "confidence": 0.927,
+      "quality": {
+        "coverage": 0.921,
+        "coherentCoverage": 0.921,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 414.74,
+        "previousEnd": 437.28,
+        "previousConfidence": 0.808
+      }
     },
     {
       "start": 437.28,
-      "end": 508.14,
+      "end": 506.4,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "以撒出生时亚伯拉罕年纪已经很老了照他的年纪该作以撒的祖父因此孩子一生下来就立刻成为他心中的喜乐和",
-      "confidence": 0.88
+      "confidence": 0.88,
+      "quality": {
+        "coverage": 0.88,
+        "coherentCoverage": 0.809,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 437.28,
+        "previousEnd": 508.14,
+        "previousConfidence": 0.88
+      }
     },
     {
       "start": 508.14,
-      "end": 588.82,
+      "end": 587.8,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "上帝对亚伯拉罕说你带着你的儿子就是你独生的儿子你所爱的以撒往摩利亚地去在我所要批示你的山上把他献",
-      "confidence": 0.861
+      "confidence": 0.861,
+      "quality": {
+        "coverage": 0.864,
+        "coherentCoverage": 0.825,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 508.14,
+        "previousEnd": 588.82,
+        "previousConfidence": 0.861
+      }
     },
     {
       "start": 588.82,
-      "end": 672.04,
+      "end": 675.2,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "然而现在竟要他把孩子杀掉这是多么不可思议的事即使他那颗受伤而不顺服的心可答应但这种行为和上帝所应",
-      "confidence": 0.904
+      "confidence": 0.904,
+      "quality": {
+        "coverage": 0.904,
+        "coherentCoverage": 0.886,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\渴慕神\\2-1.mp3.json",
+          "transcriptSha256": "4de8199d148c009b99185943093aef8a61fca43ad4363010fd363a82bd380d94",
+          "time": 675.2,
+          "candidateCue": {
+            "start": 588.82,
+            "end": 675.2,
+            "kind": "paragraph",
+            "targetIndex": 13,
+            "targetText": "然而现在竟要他把孩子杀掉这是多么不可思议的事即使他那颗受伤而不顺服的心可答应但这种行为和上帝所应",
+            "confidence": 0.927,
+            "quality": {
+              "coverage": 0.925,
+              "coherentCoverage": 0.9,
+              "extraSpeechContext": false,
+              "prefixCoverage": 0.95,
+              "suffixCoverage": 0.9,
+              "unmatchedLeadingChars": 0,
+              "unmatchedTrailingChars": 0,
+              "reviewRequired": false,
+              "verificationBasis": "local-boundaries",
+              "boundaryAdjusted": [],
+              "startVerified": true,
+              "endVerified": true,
+              "startEvidence": {
+                "verified": true,
+                "coverage": 0.917,
+                "continuousAnchor": true,
+                "substitutionAnchor": false,
+                "timingPrecision": "word",
+                "insideSegment": false,
+                "detachedContext": false,
+                "paragraphSupported": true,
+                "source": "previous-verified-sync",
+                "originalSource": "verified-transcript"
+              },
+              "endEvidence": {
+                "verified": true,
+                "coverage": 0.917,
+                "continuousAnchor": true,
+                "substitutionAnchor": false,
+                "timingPrecision": "word",
+                "insideSegment": false,
+                "detachedContext": false,
+                "detachedNumericLabel": false,
+                "localSupported": true,
+                "localCoverage": 0.917,
+                "localSimilarity": 0.917,
+                "localText": "话凡为我的缘故撇下的必要得着马太福音19章29节",
+                "anchorOccurrences": 1,
+                "paragraphSupported": true,
+                "contextUsed": false,
+                "identityAmbiguous": false,
+                "source": "verified-transcript"
+              }
+            },
+            "repair": {
+              "startSource": "previous-verified-sync",
+              "endSource": "verified-transcript",
+              "previousStart": 588.82,
+              "previousEnd": 672.04,
+              "previousConfidence": 0.904
+            }
+          },
+          "evidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 0.917,
+            "localSimilarity": 0.917,
+            "localText": "话凡为我的缘故撇下的必要得着马太福音19章29节",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false,
+            "source": "verified-transcript"
+          },
+          "source": "context-reviewed-standard-local-boundary",
+          "listenedByAgent": false,
+          "actualEndpointWords": [
+            {
+              "start": 674.98,
+              "end": 675.2,
+              "text": "节",
+              "probability": 0.8616122007369995
+            }
+          ],
+          "printedReference": "(太 19:29)",
+          "reason": "首尾局部证据及实际词时间确认；完整出处在本段朗读，取自身末词时间，书名或节字的识别差异保留，不要求正文中间逐字一致。",
+          "contextUsed": true,
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "audioSha256": "77d121a2aebd420f43f6cda3cc7c0aea69225cdd763d31eec25a0bb415d7083b"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 588.82,
+        "previousEnd": 672.04,
+        "previousConfidence": 0.904
+      },
+      "boundaryCorrections": [
+        {
+          "book": "渴慕神",
+          "page": "02_第二章 贫穷的福气.md",
+          "audio": "2-1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\渴慕神\\02_第二章 贫穷的福气\\audio-01.json",
+          "targetIndex": 13,
+          "edge": "end",
+          "previousTime": 672.04,
+          "time": 675.2,
+          "kind": "post-validation-local-context",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "首尾局部证据及实际词时间确认；完整出处在本段朗读，取自身末词时间，书名或节字的识别差异保留，不要求正文中间逐字一致。"
+        }
+      ]
     },
     {
-      "start": 672.04,
-      "end": 725.44,
+      "start": 676.98,
+      "end": 724.3,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "上帝叫这位老人经历痛苦到了无可后退的地步然后制止他在童子身上下手或许他此时会对这位怀着奇异心情的",
-      "confidence": 0.936
+      "confidence": 0.97,
+      "quality": {
+        "coverage": 0.964,
+        "coherentCoverage": 0.964,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 672.04,
+        "previousEnd": 725.44,
+        "previousConfidence": 0.936
+      }
     },
     {
       "start": 725.44,
@@ -133,7 +1124,75 @@
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "那时天开了有一个声音对他说你既行了这事不留下你的儿子就是你独生的儿子我便指着自己起誓说论福我必赐",
-      "confidence": 0.91
+      "confidence": 0.91,
+      "quality": {
+        "coverage": 0.906,
+        "coherentCoverage": 0.872,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 725.44,
+        "previousEnd": 761.1,
+        "previousConfidence": 0.91
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 2: 耶和华神还未造人住在地上的时候，先在这世界为人预备好许多有用而且悦人的东西，为的是叫人类可以生存",
+    "incomplete end (4 trailing chars, coverage 0.750): target 13: 然而，现在竟要他把孩子杀掉，这是多么不可思议的事！即使他那颗受伤而不顺服的心可答应，但这种行为和",
+    "unverified end anchor: target 13: 然而，现在竟要他把孩子杀掉，这是多么不可思议的事！即使他那颗受伤而不顺服的心可答应，但这种行为和",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified start (previous-sync): target 2",
+    "repair unverified end (previous-sync): target 13",
+    "local spoken context confirmed end: target 13; original evidence/warnings retained"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 4,
+    "updatedEnds": 12,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 2,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "1fd855a62d93d72c50942d901c658c1b98f787d0b2b4703fc11dca292213718d",
+  "repairCueDigest": "42a5f8a0929f91ab6ecc4bf66bd39710ce40905de671db4f357ea39ba09a05b6",
+  "previousAlignmentWarnings": []
 }

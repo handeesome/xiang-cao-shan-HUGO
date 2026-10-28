@@ -9,67 +9,1158 @@
   "cues": [
     {
       "start": 4.92,
-      "end": 12.96,
+      "end": 11.58,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "笔者深深感觉到我们的教会要付上更多更迫切的祷告",
-      "confidence": 0.711
+      "confidence": 0.889,
+      "quality": {
+        "coverage": 0.87,
+        "coherentCoverage": 0.826,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.818,
+        "suffixCoverage": 0.909,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 4.92,
+        "previousEnd": 11.58,
+        "previousConfidence": 0.889
+      }
     },
     {
       "start": 12.96,
-      "end": 48.28,
+      "end": 45.24,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "卫理公会的创始人卫斯理约翰说给我一百个除了罪恶别无所惧除了上帝别无所慕的讲道人不管他们是正式的传",
-      "confidence": 0.724
+      "confidence": 0.88,
+      "quality": {
+        "coverage": 0.854,
+        "coherentCoverage": 0.845,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 6,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 12.96,
+        "previousEnd": 48.28,
+        "previousConfidence": 0.874
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 48.28,
+            "time": 45.24,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\祈祷出来的能力\\0-2.mp3.json",
+              "sha256": "b7bbfd7d29bd4dc78c94ad9f9b53a0d131bd869c03709490103235d1fb212b22",
+              "anchor": {
+                "time": 45.24,
+                "score": 0.997,
+                "ratio": 1.0,
+                "expected": "chuciyiwaibiewutawei",
+                "actual": "除此以外别无他为",
+                "span": [
+                  42.76,
+                  45.24
+                ],
+                "tokens": [
+                  {
+                    "text": "除",
+                    "start": 42.76,
+                    "end": 43.14,
+                    "rawStart": 115,
+                    "rawEnd": 115,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "此",
+                    "start": 43.14,
+                    "end": 43.38,
+                    "rawStart": 116,
+                    "rawEnd": 116,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "以",
+                    "start": 43.38,
+                    "end": 43.56,
+                    "rawStart": 117,
+                    "rawEnd": 117,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "外",
+                    "start": 43.56,
+                    "end": 43.76,
+                    "rawStart": 118,
+                    "rawEnd": 118,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "别",
+                    "start": 43.76,
+                    "end": 44.28,
+                    "rawStart": 119,
+                    "rawEnd": 119,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "无",
+                    "start": 44.28,
+                    "end": 44.66,
+                    "rawStart": 120,
+                    "rawEnd": 120,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "他",
+                    "start": 44.66,
+                    "end": 44.98,
+                    "rawStart": 121,
+                    "rawEnd": 121,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "为",
+                    "start": 44.98,
+                    "end": 45.24,
+                    "rawStart": 122,
+                    "rawEnd": 122,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "phraseSize": 8,
+                "matchingText": "卫理公会的创始人卫斯理约翰说:「给我一百个除了罪恶别无所惧,除了神别无所慕的讲道人,不管他们是正式的传道人或是平信徒——他们将要震动地狱之门,在地上建立天国。神所作的一切,都是对于祈祷的应允,除此以外别无他为。」",
+                "normalization": "parenthetical-or-number-label-removed"
+              },
+              "body": "卫理公会的创始人卫斯理约翰说:「给我一百个除了罪恶别无所惧,除了神别无所慕的讲道人,不管他们是正式的传道人或是平信徒——他们将要震动地狱之门,在地上建立天国。神所作的一切,都是对于祈祷的应允,除此以外别无他为。」(见本书第十七章)"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.854,
+          "coherentCoverage": 0.845,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.8,
+          "suffixCoverage": 0.6,
+          "unmatchedLeadingChars": 1,
+          "unmatchedTrailingChars": 6,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [
+            "start substitution"
+          ],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 0.667,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
       "start": 48.28,
-      "end": 61.85,
+      "end": 59.78,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "卫斯理约翰每天用两个小时祷告从早上四时开始见本书第七章他的祷告生活使我们感到惭愧",
-      "confidence": 0.795
+      "confidence": 0.817,
+      "quality": {
+        "coverage": 0.744,
+        "coherentCoverage": 0.692,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.789,
+        "suffixCoverage": 0.684,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 0.75,
+          "localSimilarity": 0.837,
+          "localText": "早上4时开始见本书7章他的祷告生活使我们感到惭愧",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 48.28,
+        "previousEnd": 61.85,
+        "previousConfidence": 0.795
+      }
     },
     {
       "start": 61.85,
-      "end": 167.95,
+      "end": 166.1,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "祈祷出来的能力是一本充满属灵能力的书滕近辉牧师在翻译该书时深受感动并建立了更有力量的祷告生活他见",
-      "confidence": 0.683
+      "confidence": 0.887,
+      "quality": {
+        "coverage": 0.864,
+        "coherentCoverage": 0.837,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 61.85,
+        "previousEnd": 167.95,
+        "previousConfidence": 0.877
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 167.95,
+            "time": 166.1,
+            "reason": "保留实际读出的见滕近辉著路标来源说明，页码未读。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\祈祷出来的能力\\0-2.mp3.json",
+              "sha256": "7ce38e74482e713ca8d6111e3425fef02488db1cb144de09a854420d4e0bd062",
+              "segments": [
+                {
+                  "start": 154.26,
+                  "end": 156.32,
+                  "text": "我就在跪下岛告时",
+                  "words": [
+                    {
+                      "start": 154.26,
+                      "end": 154.82,
+                      "text": "我就",
+                      "probability": 0.6701111793518066
+                    },
+                    {
+                      "start": 154.82,
+                      "end": 155.1,
+                      "text": "在",
+                      "probability": 0.9826316833496094
+                    },
+                    {
+                      "start": 155.1,
+                      "end": 155.3,
+                      "text": "跪",
+                      "probability": 0.9260820150375366
+                    },
+                    {
+                      "start": 155.3,
+                      "end": 155.6,
+                      "text": "下",
+                      "probability": 0.9827378392219543
+                    },
+                    {
+                      "start": 155.6,
+                      "end": 155.76,
+                      "text": "岛",
+                      "probability": 0.8131363987922668
+                    },
+                    {
+                      "start": 155.76,
+                      "end": 156.04,
+                      "text": "告",
+                      "probability": 0.8716922402381897
+                    },
+                    {
+                      "start": 156.04,
+                      "end": 156.32,
+                      "text": "时",
+                      "probability": 0.9889814853668213
+                    }
+                  ]
+                },
+                {
+                  "start": 156.32,
+                  "end": 158.98,
+                  "text": "进入这种充满的状态",
+                  "words": [
+                    {
+                      "start": 156.32,
+                      "end": 156.8,
+                      "text": "进",
+                      "probability": 0.8669026494026184
+                    },
+                    {
+                      "start": 156.8,
+                      "end": 156.98,
+                      "text": "入",
+                      "probability": 0.9983665347099304
+                    },
+                    {
+                      "start": 156.98,
+                      "end": 157.2,
+                      "text": "这",
+                      "probability": 0.9167839288711548
+                    },
+                    {
+                      "start": 157.2,
+                      "end": 157.46,
+                      "text": "种",
+                      "probability": 0.9967646598815918
+                    },
+                    {
+                      "start": 157.46,
+                      "end": 158.02,
+                      "text": "充",
+                      "probability": 0.9974376559257507
+                    },
+                    {
+                      "start": 158.02,
+                      "end": 158.32,
+                      "text": "满",
+                      "probability": 0.9997432231903076
+                    },
+                    {
+                      "start": 158.32,
+                      "end": 158.44,
+                      "text": "的",
+                      "probability": 0.9567934274673462
+                    },
+                    {
+                      "start": 158.44,
+                      "end": 158.66,
+                      "text": "状",
+                      "probability": 0.9950667321681976
+                    },
+                    {
+                      "start": 158.66,
+                      "end": 158.98,
+                      "text": "态",
+                      "probability": 0.9998703300952911
+                    }
+                  ]
+                },
+                {
+                  "start": 158.98,
+                  "end": 161.72,
+                  "text": "一连一两个月的时间",
+                  "words": [
+                    {
+                      "start": 158.98,
+                      "end": 160.0,
+                      "text": "一",
+                      "probability": 0.8902783989906311
+                    },
+                    {
+                      "start": 160.0,
+                      "end": 160.24,
+                      "text": "连",
+                      "probability": 0.9547469317913055
+                    },
+                    {
+                      "start": 160.24,
+                      "end": 160.68,
+                      "text": "一",
+                      "probability": 0.8554193377494812
+                    },
+                    {
+                      "start": 160.68,
+                      "end": 160.86,
+                      "text": "两",
+                      "probability": 0.9906880855560303
+                    },
+                    {
+                      "start": 160.86,
+                      "end": 161.0,
+                      "text": "个",
+                      "probability": 0.9968145489692688
+                    },
+                    {
+                      "start": 161.0,
+                      "end": 161.14,
+                      "text": "月",
+                      "probability": 0.9958987832069397
+                    },
+                    {
+                      "start": 161.14,
+                      "end": 161.3,
+                      "text": "的",
+                      "probability": 0.9940508008003235
+                    },
+                    {
+                      "start": 161.3,
+                      "end": 161.72,
+                      "text": "时间",
+                      "probability": 0.994705855846405
+                    }
+                  ]
+                },
+                {
+                  "start": 163.3,
+                  "end": 166.1,
+                  "text": "见腾静挥助的路标",
+                  "words": [
+                    {
+                      "start": 163.3,
+                      "end": 163.86,
+                      "text": "见",
+                      "probability": 0.11964824050664902
+                    },
+                    {
+                      "start": 163.86,
+                      "end": 164.42,
+                      "text": "腾",
+                      "probability": 0.6802033931016922
+                    },
+                    {
+                      "start": 164.42,
+                      "end": 164.62,
+                      "text": "静",
+                      "probability": 0.628277137875557
+                    },
+                    {
+                      "start": 164.62,
+                      "end": 164.88,
+                      "text": "挥",
+                      "probability": 0.6772755980491638
+                    },
+                    {
+                      "start": 164.88,
+                      "end": 165.22,
+                      "text": "助",
+                      "probability": 0.65000319480896
+                    },
+                    {
+                      "start": 165.22,
+                      "end": 165.42,
+                      "text": "的",
+                      "probability": 0.9903178215026855
+                    },
+                    {
+                      "start": 165.42,
+                      "end": 165.76,
+                      "text": "路",
+                      "probability": 0.7731753587722778
+                    },
+                    {
+                      "start": 165.76,
+                      "end": 166.1,
+                      "text": "标",
+                      "probability": 0.9121876657009125
+                    }
+                  ]
+                },
+                {
+                  "start": 167.95,
+                  "end": 170.21,
+                  "text": "可能几年前发生过一次",
+                  "words": [
+                    {
+                      "start": 167.95,
+                      "end": 168.51,
+                      "text": "可能",
+                      "probability": 0.9950540065765381
+                    },
+                    {
+                      "start": 168.51,
+                      "end": 168.71,
+                      "text": "几",
+                      "probability": 0.9949852824211121
+                    },
+                    {
+                      "start": 168.71,
+                      "end": 168.97,
+                      "text": "年前",
+                      "probability": 0.9938276410102844
+                    },
+                    {
+                      "start": 168.97,
+                      "end": 169.53,
+                      "text": "发",
+                      "probability": 0.9965568780899048
+                    },
+                    {
+                      "start": 169.53,
+                      "end": 169.71,
+                      "text": "生",
+                      "probability": 0.9935685396194458
+                    },
+                    {
+                      "start": 169.71,
+                      "end": 169.87,
+                      "text": "过",
+                      "probability": 0.9971944093704224
+                    },
+                    {
+                      "start": 169.87,
+                      "end": 170.21,
+                      "text": "一次",
+                      "probability": 0.9940299987792969
+                    }
+                  ]
+                },
+                {
+                  "start": 170.21,
+                  "end": 173.49,
+                  "text": "圣灵充满语说方言的风波",
+                  "words": [
+                    {
+                      "start": 170.21,
+                      "end": 170.81,
+                      "text": "圣",
+                      "probability": 0.9537794291973114
+                    },
+                    {
+                      "start": 170.81,
+                      "end": 171.01,
+                      "text": "灵",
+                      "probability": 0.931249350309372
+                    },
+                    {
+                      "start": 171.01,
+                      "end": 171.25,
+                      "text": "充",
+                      "probability": 0.9976614713668823
+                    },
+                    {
+                      "start": 171.25,
+                      "end": 171.53,
+                      "text": "满",
+                      "probability": 0.9999066889286041
+                    },
+                    {
+                      "start": 171.53,
+                      "end": 171.95,
+                      "text": "语",
+                      "probability": 0.6808133721351624
+                    },
+                    {
+                      "start": 171.95,
+                      "end": 172.39,
+                      "text": "说",
+                      "probability": 0.4800300598144531
+                    },
+                    {
+                      "start": 172.39,
+                      "end": 172.67,
+                      "text": "方",
+                      "probability": 0.967833399772644
+                    },
+                    {
+                      "start": 172.67,
+                      "end": 172.85,
+                      "text": "言",
+                      "probability": 0.905490517616272
+                    },
+                    {
+                      "start": 172.85,
+                      "end": 172.95,
+                      "text": "的",
+                      "probability": 0.9894752502441406
+                    },
+                    {
+                      "start": 172.95,
+                      "end": 173.13,
+                      "text": "风",
+                      "probability": 0.9585863351821899
+                    },
+                    {
+                      "start": 173.13,
+                      "end": 173.49,
+                      "text": "波",
+                      "probability": 0.964593768119812
+                    }
+                  ]
+                },
+                {
+                  "start": 174.27,
+                  "end": 177.21,
+                  "text": "现在教会似乎不大提到",
+                  "words": [
+                    {
+                      "start": 174.27,
+                      "end": 174.83,
+                      "text": "现在",
+                      "probability": 0.9853172898292542
+                    },
+                    {
+                      "start": 174.83,
+                      "end": 175.13,
+                      "text": "教",
+                      "probability": 0.9898608922958374
+                    },
+                    {
+                      "start": 175.13,
+                      "end": 175.41,
+                      "text": "会",
+                      "probability": 0.9401637315750122
+                    },
+                    {
+                      "start": 175.41,
+                      "end": 176.03,
+                      "text": "似",
+                      "probability": 0.9932996332645416
+                    },
+                    {
+                      "start": 176.03,
+                      "end": 176.27,
+                      "text": "乎",
+                      "probability": 0.999867707490921
+                    },
+                    {
+                      "start": 176.27,
+                      "end": 176.59,
+                      "text": "不",
+                      "probability": 0.9928100109100342
+                    },
+                    {
+                      "start": 176.59,
+                      "end": 176.81,
+                      "text": "大",
+                      "probability": 0.9904950857162476
+                    },
+                    {
+                      "start": 176.81,
+                      "end": 177.01,
+                      "text": "提",
+                      "probability": 0.9970942735671997
+                    },
+                    {
+                      "start": 177.01,
+                      "end": 177.21,
+                      "text": "到",
+                      "probability": 0.9903708100318909
+                    }
+                  ]
+                }
+              ],
+              "source": "context-reviewed-paragraph-approximation"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.864,
+          "coherentCoverage": 0.837,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.9,
+          "suffixCoverage": 0.7,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 4,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
       "start": 167.95,
-      "end": 195.87,
+      "end": 193.73,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "可能几年前发生过一次圣灵充满与说方言的风波现在教会似乎不大提到圣灵充满的信息多谢主路标的出版给我",
-      "confidence": 0.952
+      "confidence": 0.952,
+      "quality": {
+        "coverage": 0.952,
+        "coherentCoverage": 0.928,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 167.95,
+        "previousEnd": 193.73,
+        "previousConfidence": 0.952
+      }
     },
     {
       "start": 195.87,
-      "end": 212.15,
+      "end": 212.51,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "你要心里充满了主的爱与得胜讲道有新的能力似乎心里充满了要传的信息涌流出来吗你要藉着长时间在密室内",
-      "confidence": 0.673
+      "confidence": 0.811,
+      "quality": {
+        "coverage": 0.804,
+        "coherentCoverage": 0.714,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\祈祷出来的能力\\0-2.mp3.json",
+          "transcriptSha256": "7ce38e74482e713ca8d6111e3425fef02488db1cb144de09a854420d4e0bd062",
+          "phraseChars": 12,
+          "candidate": 195.87,
+          "expectedPhrase": "你要心里充满了主的爱与得",
+          "actualPhrase": "你要信你充满了主的爱与得",
+          "phoneticPhrase": [
+            "ni",
+            "yao",
+            "xin",
+            "li",
+            "chong",
+            "man",
+            "le",
+            "zhu",
+            "de",
+            "ai",
+            "yu",
+            "de"
+          ],
+          "actualPhoneticPhrase": [
+            "ni",
+            "yao",
+            "xin",
+            "ni",
+            "chong",
+            "man",
+            "le",
+            "zhu",
+            "de",
+            "ai",
+            "yu",
+            "de"
+          ],
+          "verified": true,
+          "time": 195.87,
+          "boundedPhonetic": true,
+          "exactEndpointPhonemes": 2,
+          "maxInternalPhoneticDifferences": 2,
+          "phoneticDifferences": [
+            3
+          ],
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "你",
+              "start": 195.87,
+              "end": 196.35,
+              "rawStart": 519,
+              "rawEnd": 519,
+              "precision": "word"
+            },
+            {
+              "text": "要",
+              "start": 195.87,
+              "end": 196.35,
+              "rawStart": 520,
+              "rawEnd": 520,
+              "precision": "word"
+            },
+            {
+              "text": "信",
+              "start": 196.35,
+              "end": 196.55,
+              "rawStart": 521,
+              "rawEnd": 521,
+              "precision": "word"
+            },
+            {
+              "text": "你",
+              "start": 196.55,
+              "end": 196.83,
+              "rawStart": 522,
+              "rawEnd": 522,
+              "precision": "word"
+            },
+            {
+              "text": "充",
+              "start": 196.83,
+              "end": 197.23,
+              "rawStart": 523,
+              "rawEnd": 523,
+              "precision": "word"
+            },
+            {
+              "text": "满",
+              "start": 197.23,
+              "end": 197.43,
+              "rawStart": 524,
+              "rawEnd": 524,
+              "precision": "word"
+            },
+            {
+              "text": "了",
+              "start": 197.43,
+              "end": 197.55,
+              "rawStart": 525,
+              "rawEnd": 525,
+              "precision": "word"
+            },
+            {
+              "text": "主",
+              "start": 197.55,
+              "end": 197.71,
+              "rawStart": 526,
+              "rawEnd": 526,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 197.71,
+              "end": 197.85,
+              "rawStart": 527,
+              "rawEnd": 527,
+              "precision": "word"
+            },
+            {
+              "text": "爱",
+              "start": 197.85,
+              "end": 198.17,
+              "rawStart": 528,
+              "rawEnd": 528,
+              "precision": "word"
+            },
+            {
+              "text": "与",
+              "start": 198.17,
+              "end": 198.51,
+              "rawStart": 529,
+              "rawEnd": 529,
+              "precision": "word"
+            },
+            {
+              "text": "得",
+              "start": 198.51,
+              "end": 198.77,
+              "rawStart": 530,
+              "rawEnd": 530,
+              "precision": "word"
+            }
+          ],
+          "source": "bounded-local-phonetic-differences-original-word-times",
+          "listenedByAgent": false,
+          "audioSha256": "61febd1ac84aad0dc4d9a7e6dc16987ab1bdfcabb07b510c6bc944d702656e4c",
+          "reason": "实际首/尾2个音节贴边相同，12音节局部短句最多2处内部识别差异；完整词边界、源段及录音唯一性、数字一致、停顿与相邻时间均核验，不逐字检查正文中间。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 195.87,
+        "previousEnd": 212.51,
+        "previousConfidence": 0.811
+      },
+      "boundaryCorrections": [
+        {
+          "book": "祈祷出来的能力",
+          "page": "_index.md",
+          "audio": "0-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\祈祷出来的能力\\_index\\audio-03.json",
+          "targetIndex": 24,
+          "edge": "start",
+          "previousTime": 195.87,
+          "time": 195.87,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
-      "start": 212.15,
-      "end": 258.73,
+      "start": 213.67,
+      "end": 257.13,
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "本书指出如果二十世纪的传道人在内室内获得他们讲道时所用的经文思想字句讲章下一个世纪就会有新天新地",
-      "confidence": 0.708
+      "confidence": 0.857,
+      "quality": {
+        "coverage": 0.829,
+        "coherentCoverage": 0.764,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 213.67,
+        "previousEnd": 257.13,
+        "previousConfidence": 0.854
+      }
     },
     {
       "start": 258.73,
-      "end": 303.55,
+      "end": 302.11,
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "祈祷出来的能力一书必须成为我们常常交谈的密友它每次给我们的鼓励向上帝屈膝的鼓励是逼切火热的没有人",
-      "confidence": 0.698
+      "confidence": 0.86,
+      "quality": {
+        "coverage": 0.86,
+        "coherentCoverage": 0.798,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 258.73,
+        "previousEnd": 302.11,
+        "previousConfidence": 0.86
+      }
     },
     {
       "start": 303.55,
@@ -77,7 +1168,249 @@
       "kind": "paragraph",
       "targetIndex": 27,
       "targetText": "上帝所作的一切都是对于祈祷的应允除此以外别无他为卫斯理约翰的看重祷告使他的工作影响了整个国家整个",
-      "confidence": 0.489
+      "confidence": 0.705,
+      "quality": {
+        "coverage": 0.697,
+        "coherentCoverage": 0.461,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.667,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 303.55,
+        "previousEnd": 335.51,
+        "previousConfidence": 0.705
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 303.55,
+            "time": 303.55,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\祈祷出来的能力\\0-2.mp3.json",
+              "sha256": "b7bbfd7d29bd4dc78c94ad9f9b53a0d131bd869c03709490103235d1fb212b22",
+              "anchor": {
+                "time": 303.55,
+                "score": 0.8088,
+                "ratio": 0.8148,
+                "expected": "shensuozuodeyiqiedoushiduiyuqidaodeying",
+                "actual": "神所做的1切都是有关祈祷的",
+                "span": [
+                  303.55,
+                  307.91
+                ],
+                "tokens": [
+                  {
+                    "text": "神",
+                    "start": 303.55,
+                    "end": 303.93,
+                    "rawStart": 817,
+                    "rawEnd": 818,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "所",
+                    "start": 303.93,
+                    "end": 304.41,
+                    "rawStart": 819,
+                    "rawEnd": 819,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "做",
+                    "start": 304.41,
+                    "end": 304.65,
+                    "rawStart": 820,
+                    "rawEnd": 820,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 304.65,
+                    "end": 304.81,
+                    "rawStart": 821,
+                    "rawEnd": 821,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 304.81,
+                    "end": 305.03,
+                    "rawStart": 822,
+                    "rawEnd": 822,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "切",
+                    "start": 305.03,
+                    "end": 305.29,
+                    "rawStart": 823,
+                    "rawEnd": 823,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "都",
+                    "start": 305.29,
+                    "end": 306.31,
+                    "rawStart": 824,
+                    "rawEnd": 824,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 305.29,
+                    "end": 306.31,
+                    "rawStart": 825,
+                    "rawEnd": 825,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "有",
+                    "start": 306.31,
+                    "end": 306.75,
+                    "rawStart": 826,
+                    "rawEnd": 826,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "关",
+                    "start": 306.75,
+                    "end": 307.13,
+                    "rawStart": 827,
+                    "rawEnd": 827,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "祈",
+                    "start": 307.13,
+                    "end": 307.51,
+                    "rawStart": 828,
+                    "rawEnd": 828,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "祷",
+                    "start": 307.51,
+                    "end": 307.73,
+                    "rawStart": 829,
+                    "rawEnd": 829,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 307.73,
+                    "end": 307.91,
+                    "rawStart": 830,
+                    "rawEnd": 830,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "「神所作的一切,都是对于祈祷的应允,除此以外别无他为。」卫斯理约翰的看重祷告,使他的工作影响了整个国家,整个时代,笔者恳切地盼望星马每一间卫理公会的牧者都能步他的后尘,使星马教会来一次大复兴。阿们!"
+            }
+          }
+        }
+      }
+    },
+    {
+      "start": 337.75,
+      "end": 339.71,
+      "kind": "paragraph",
+      "targetIndex": 28,
+      "targetText": "杨百合识1971年11月下旬转载自马来西亚南钟报",
+      "confidence": 0.303,
+      "quality": {
+        "startVerified": false,
+        "endVerified": false,
+        "reviewRequired": true,
+        "verificationBasis": "paragraph-level-approximate"
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "reason": "杨百合谨识为实际署名，日期和转载来源未朗读，不延长到音频结束。",
+        "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\祈祷出来的能力\\0-2.mp3.json",
+        "transcriptSha256": "b7bbfd7d29bd4dc78c94ad9f9b53a0d131bd869c03709490103235d1fb212b22",
+        "actualText": " 扬百合谨识",
+        "interval": [
+          337.75,
+          339.71
+        ],
+        "listenedByAgent": false,
+        "authorization": "用户要求段落级首尾大致对应，允许识别差异与摘读，不要求逐字核验。"
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (6 trailing chars, coverage 0.600): target 20: 卫理公会的创始人卫斯理约翰说：「给我一百个除了罪恶别无所惧，除了神别无所慕的讲道人，不管他们是正",
+    "unverified end anchor: target 20: 卫理公会的创始人卫斯理约翰说：「给我一百个除了罪恶别无所惧，除了神别无所慕的讲道人，不管他们是正",
+    "unverified start anchor: target 21: 「卫斯理约翰每天用两个小时祷告，从早上四时开始。」（见本书第七章）他的祷告生活使我们感到惭愧。",
+    "incomplete end (4 trailing chars, coverage 0.700): target 22: 《祈祷出来的能力》是一本充满属灵「能力」的书，滕近辉牧师在翻译该书时，深受感动并建立了更有力量的",
+    "unverified end anchor: target 22: 《祈祷出来的能力》是一本充满属灵「能力」的书，滕近辉牧师在翻译该书时，深受感动并建立了更有力量的",
+    "unverified start anchor: target 24: 你要「心里充满了主的爱与得胜，讲道有新的能力，似乎心里充满了要传的信息，涌流出来吗？」你要藉着长",
+    "unverified start anchor: target 27: 「神所作的一切，都是对于祈祷的应允，除此以外别无他为。」卫斯理约翰的看重祷告，使他的工作影响了整",
+    "unverified end anchor: target 27: 「神所作的一切，都是对于祈祷的应允，除此以外别无他为。」卫斯理约翰的看重祷告，使他的工作影响了整",
+    "incomplete start (1 leading chars, coverage 0.385): target 28: 杨百合识 1971年11月下旬 （转载自马来西亚南钟报）",
+    "incomplete end (20 trailing chars, coverage 0.000): target 28: 杨百合识 1971年11月下旬 （转载自马来西亚南钟报）",
+    "low confidence (0.312, coverage 0.192): target 28: 杨百合识 1971年11月下旬 （转载自马来西亚南钟报）",
+    "unverified start anchor: target 28: 杨百合识 1971年11月下旬 （转载自马来西亚南钟报）",
+    "unverified end anchor: target 28: 杨百合识 1971年11月下旬 （转载自马来西亚南钟报）",
+    "unmatched (fragment only): target 28: 杨百合识 1971年11月下旬 （转载自马来西亚南钟报）",
+    "repair missing cue (unverified): target 28",
+    "repair unverified end (previous-sync): target 20",
+    "repair unverified end (previous-sync): target 22",
+    "repair unverified start (previous-sync): target 24",
+    "repair unverified start (previous-sync): target 27",
+    "paragraph-level cue recovered: target 28; 杨百合谨识为实际署名，日期和转载来源未朗读，不延长到音频结束。 原始严格核验提示保留。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 2,
+    "missingTargets": [
+      28
+    ]
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "4da7d51e364afa54a50e7bb26057ce40b8bfb8c4c6b7f9222bb39264658ed29d",
+  "repairCueDigest": "a582587207afb5747f3dac8bd4d4dca456431e56f73ca248acca8733de5a6485",
+  "previousAlignmentWarnings": []
 }

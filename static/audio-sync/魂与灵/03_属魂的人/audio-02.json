@@ -8,124 +8,2046 @@
   "audioDuration": 716.985,
   "cues": [
     {
-      "start": 24.02,
-      "end": 25.92,
-      "kind": "heading",
-      "targetIndex": 25,
-      "targetText": "魂及黑暗的权势",
-      "confidence": 0.667
-    },
-    {
-      "start": 25.92,
-      "end": 48.48,
+      "start": 27.08,
+      "end": 46.4,
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "你们心里若怀苦毒的嫉妒和纷争就不可自夸也不可说谎话抵挡真道这样的智慧不是从上头来的乃是属地的属于",
-      "confidence": 0.434
+      "confidence": 0.712,
+      "quality": {
+        "coverage": 0.61,
+        "coherentCoverage": 0.598,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 28,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "discarded detached end matches"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 0.875,
+          "localSimilarity": 0.875,
+          "localText": "你们心里若怀苦毒的嫉妒和纷争就不可自夸也不可说谎",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 25.92,
+        "previousEnd": 47.26,
+        "previousConfidence": 0.703
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 47.26,
+            "time": 46.4,
+            "reason": "本段实际末尾雅各3:14-15出处46.40结束，47.26开始下一译本。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\魂与灵\\3-2.mp3.json",
+              "sha256": "3fbf2f9d1f9480163183e0a382914580efc1e15399e037993d0f4b2379e902b4",
+              "source": "context-reviewed-paragraph-approximation",
+              "segments": [
+                {
+                  "start": 27.08,
+                  "end": 42.56,
+                  "text": "你們心裡若懷苦讀的極度和紛爭,就不可自誇,也不可說謊話,抵擋爭道,這樣的智慧不是從上頭來的,乃是屬地的,屬於不屬靈的天然。",
+                  "words": [
+                    {
+                      "start": 27.08,
+                      "end": 27.6,
+                      "text": "你們",
+                      "probability": 0.2978733777999878
+                    },
+                    {
+                      "start": 27.6,
+                      "end": 27.88,
+                      "text": "心",
+                      "probability": 0.9881401062011719
+                    },
+                    {
+                      "start": 27.88,
+                      "end": 28.12,
+                      "text": "裡",
+                      "probability": 0.8339475393295288
+                    },
+                    {
+                      "start": 28.12,
+                      "end": 28.48,
+                      "text": "若",
+                      "probability": 0.7787637114524841
+                    },
+                    {
+                      "start": 28.48,
+                      "end": 28.82,
+                      "text": "懷",
+                      "probability": 0.9978815913200378
+                    },
+                    {
+                      "start": 28.82,
+                      "end": 29.14,
+                      "text": "苦",
+                      "probability": 0.9949716329574585
+                    },
+                    {
+                      "start": 29.14,
+                      "end": 29.36,
+                      "text": "讀",
+                      "probability": 0.8302809298038483
+                    },
+                    {
+                      "start": 29.36,
+                      "end": 29.54,
+                      "text": "的",
+                      "probability": 0.8383302092552185
+                    },
+                    {
+                      "start": 29.54,
+                      "end": 29.98,
+                      "text": "極",
+                      "probability": 0.937313586473465
+                    },
+                    {
+                      "start": 29.98,
+                      "end": 30.22,
+                      "text": "度",
+                      "probability": 0.9996809959411621
+                    },
+                    {
+                      "start": 30.22,
+                      "end": 30.42,
+                      "text": "和",
+                      "probability": 0.9923231601715088
+                    },
+                    {
+                      "start": 30.42,
+                      "end": 30.64,
+                      "text": "紛",
+                      "probability": 0.9248098134994507
+                    },
+                    {
+                      "start": 30.64,
+                      "end": 30.92,
+                      "text": "爭,",
+                      "probability": 0.9718302190303802
+                    },
+                    {
+                      "start": 31.26,
+                      "end": 31.3,
+                      "text": "就",
+                      "probability": 0.9443721771240234
+                    },
+                    {
+                      "start": 31.3,
+                      "end": 31.48,
+                      "text": "不",
+                      "probability": 0.9942697286605835
+                    },
+                    {
+                      "start": 31.48,
+                      "end": 31.68,
+                      "text": "可",
+                      "probability": 0.9976174235343933
+                    },
+                    {
+                      "start": 31.68,
+                      "end": 31.9,
+                      "text": "自",
+                      "probability": 0.9661633372306824
+                    },
+                    {
+                      "start": 31.9,
+                      "end": 32.16,
+                      "text": "誇,",
+                      "probability": 0.8825623095035553
+                    },
+                    {
+                      "start": 32.76,
+                      "end": 32.96,
+                      "text": "也",
+                      "probability": 0.9847155809402466
+                    },
+                    {
+                      "start": 32.96,
+                      "end": 33.22,
+                      "text": "不",
+                      "probability": 0.9919689297676086
+                    },
+                    {
+                      "start": 33.22,
+                      "end": 33.42,
+                      "text": "可",
+                      "probability": 0.9925780892372131
+                    },
+                    {
+                      "start": 33.42,
+                      "end": 33.7,
+                      "text": "說",
+                      "probability": 0.9883634448051453
+                    },
+                    {
+                      "start": 33.7,
+                      "end": 33.94,
+                      "text": "謊",
+                      "probability": 0.9954916834831238
+                    },
+                    {
+                      "start": 33.94,
+                      "end": 34.28,
+                      "text": "話,",
+                      "probability": 0.9543591737747192
+                    },
+                    {
+                      "start": 34.62,
+                      "end": 34.72,
+                      "text": "抵",
+                      "probability": 0.7367428094148636
+                    },
+                    {
+                      "start": 34.72,
+                      "end": 34.98,
+                      "text": "擋",
+                      "probability": 0.8198261260986328
+                    },
+                    {
+                      "start": 34.98,
+                      "end": 35.22,
+                      "text": "爭",
+                      "probability": 0.8768370747566223
+                    },
+                    {
+                      "start": 35.22,
+                      "end": 35.48,
+                      "text": "道,",
+                      "probability": 0.9272143840789795
+                    },
+                    {
+                      "start": 36.28,
+                      "end": 36.58,
+                      "text": "這樣的",
+                      "probability": 0.937138020992279
+                    },
+                    {
+                      "start": 36.58,
+                      "end": 36.9,
+                      "text": "智",
+                      "probability": 0.9992525279521942
+                    },
+                    {
+                      "start": 36.9,
+                      "end": 37.12,
+                      "text": "慧",
+                      "probability": 0.9974905252456665
+                    },
+                    {
+                      "start": 37.12,
+                      "end": 37.46,
+                      "text": "不是",
+                      "probability": 0.9572057723999023
+                    },
+                    {
+                      "start": 37.46,
+                      "end": 37.78,
+                      "text": "從",
+                      "probability": 0.9952096343040466
+                    },
+                    {
+                      "start": 37.78,
+                      "end": 38.04,
+                      "text": "上",
+                      "probability": 0.9888203740119934
+                    },
+                    {
+                      "start": 38.04,
+                      "end": 38.26,
+                      "text": "頭",
+                      "probability": 0.816964864730835
+                    },
+                    {
+                      "start": 38.26,
+                      "end": 38.52,
+                      "text": "來",
+                      "probability": 0.9960026144981384
+                    },
+                    {
+                      "start": 38.52,
+                      "end": 38.76,
+                      "text": "的,",
+                      "probability": 0.9841115474700928
+                    },
+                    {
+                      "start": 39.18,
+                      "end": 39.36,
+                      "text": "乃",
+                      "probability": 0.9788310527801514
+                    },
+                    {
+                      "start": 39.36,
+                      "end": 39.68,
+                      "text": "是",
+                      "probability": 0.9963067770004272
+                    },
+                    {
+                      "start": 39.68,
+                      "end": 39.96,
+                      "text": "屬",
+                      "probability": 0.7417415976524353
+                    },
+                    {
+                      "start": 39.96,
+                      "end": 40.28,
+                      "text": "地",
+                      "probability": 0.9271287322044373
+                    },
+                    {
+                      "start": 40.28,
+                      "end": 40.52,
+                      "text": "的,",
+                      "probability": 0.968502402305603
+                    },
+                    {
+                      "start": 40.98,
+                      "end": 41.06,
+                      "text": "屬",
+                      "probability": 0.9997009336948395
+                    },
+                    {
+                      "start": 41.06,
+                      "end": 41.26,
+                      "text": "於",
+                      "probability": 0.9579675793647766
+                    },
+                    {
+                      "start": 41.26,
+                      "end": 41.42,
+                      "text": "不",
+                      "probability": 0.9649083018302917
+                    },
+                    {
+                      "start": 41.42,
+                      "end": 41.64,
+                      "text": "屬",
+                      "probability": 0.99809730052948
+                    },
+                    {
+                      "start": 41.64,
+                      "end": 41.84,
+                      "text": "靈",
+                      "probability": 0.7104309499263763
+                    },
+                    {
+                      "start": 41.84,
+                      "end": 42.04,
+                      "text": "的",
+                      "probability": 0.9932176470756531
+                    },
+                    {
+                      "start": 42.04,
+                      "end": 42.28,
+                      "text": "天",
+                      "probability": 0.9937066435813904
+                    },
+                    {
+                      "start": 42.28,
+                      "end": 42.56,
+                      "text": "然。",
+                      "probability": 0.9922139048576355
+                    }
+                  ]
+                },
+                {
+                  "start": 43.36,
+                  "end": 59.0,
+                  "text": "雅各書三章十四十五節,從修定本聖經中我們讀到這樣的智慧不是從上頭來的,那是屬地的,屬感覺,也就是屬情欲及肉體的。",
+                  "words": [
+                    {
+                      "start": 43.36,
+                      "end": 43.92,
+                      "text": "雅",
+                      "probability": 0.8104629218578339
+                    },
+                    {
+                      "start": 43.92,
+                      "end": 44.12,
+                      "text": "各",
+                      "probability": 0.8749502301216125
+                    },
+                    {
+                      "start": 44.12,
+                      "end": 44.44,
+                      "text": "書",
+                      "probability": 0.7829054594039917
+                    },
+                    {
+                      "start": 44.44,
+                      "end": 44.86,
+                      "text": "三",
+                      "probability": 0.8504537343978882
+                    },
+                    {
+                      "start": 44.86,
+                      "end": 45.1,
+                      "text": "章",
+                      "probability": 0.9977281391620636
+                    },
+                    {
+                      "start": 45.1,
+                      "end": 45.42,
+                      "text": "十",
+                      "probability": 0.8444297909736633
+                    },
+                    {
+                      "start": 45.42,
+                      "end": 45.74,
+                      "text": "四",
+                      "probability": 0.9802298545837402
+                    },
+                    {
+                      "start": 45.74,
+                      "end": 45.96,
+                      "text": "十",
+                      "probability": 0.8027120232582092
+                    },
+                    {
+                      "start": 45.96,
+                      "end": 46.2,
+                      "text": "五",
+                      "probability": 0.9951606392860413
+                    },
+                    {
+                      "start": 46.2,
+                      "end": 46.4,
+                      "text": "節,",
+                      "probability": 0.8665028214454651
+                    },
+                    {
+                      "start": 47.26,
+                      "end": 47.6,
+                      "text": "從",
+                      "probability": 0.8748887181282043
+                    },
+                    {
+                      "start": 47.6,
+                      "end": 47.96,
+                      "text": "修",
+                      "probability": 0.9761785268783569
+                    },
+                    {
+                      "start": 47.96,
+                      "end": 48.22,
+                      "text": "定",
+                      "probability": 0.5395575165748596
+                    },
+                    {
+                      "start": 48.22,
+                      "end": 48.48,
+                      "text": "本",
+                      "probability": 0.995759904384613
+                    },
+                    {
+                      "start": 48.48,
+                      "end": 48.82,
+                      "text": "聖",
+                      "probability": 0.8226531147956848
+                    },
+                    {
+                      "start": 48.82,
+                      "end": 49.0,
+                      "text": "經",
+                      "probability": 0.9776955246925354
+                    },
+                    {
+                      "start": 49.0,
+                      "end": 49.3,
+                      "text": "中",
+                      "probability": 0.9944843649864197
+                    },
+                    {
+                      "start": 49.3,
+                      "end": 49.62,
+                      "text": "我們",
+                      "probability": 0.796818196773529
+                    },
+                    {
+                      "start": 49.62,
+                      "end": 49.8,
+                      "text": "讀",
+                      "probability": 0.976407915353775
+                    },
+                    {
+                      "start": 49.8,
+                      "end": 50.08,
+                      "text": "到",
+                      "probability": 0.9419713616371155
+                    },
+                    {
+                      "start": 50.08,
+                      "end": 50.74,
+                      "text": "這樣的",
+                      "probability": 0.4169521629810333
+                    },
+                    {
+                      "start": 50.74,
+                      "end": 51.08,
+                      "text": "智",
+                      "probability": 0.9984404742717743
+                    },
+                    {
+                      "start": 51.08,
+                      "end": 51.3,
+                      "text": "慧",
+                      "probability": 0.9965928196907043
+                    },
+                    {
+                      "start": 51.3,
+                      "end": 51.64,
+                      "text": "不是",
+                      "probability": 0.9512478709220886
+                    },
+                    {
+                      "start": 51.64,
+                      "end": 51.94,
+                      "text": "從",
+                      "probability": 0.994879961013794
+                    },
+                    {
+                      "start": 51.94,
+                      "end": 52.22,
+                      "text": "上",
+                      "probability": 0.9799069166183472
+                    },
+                    {
+                      "start": 52.22,
+                      "end": 52.42,
+                      "text": "頭",
+                      "probability": 0.906204104423523
+                    },
+                    {
+                      "start": 52.42,
+                      "end": 52.68,
+                      "text": "來",
+                      "probability": 0.9962775111198425
+                    },
+                    {
+                      "start": 52.68,
+                      "end": 52.9,
+                      "text": "的,",
+                      "probability": 0.987928569316864
+                    },
+                    {
+                      "start": 53.34,
+                      "end": 53.54,
+                      "text": "那",
+                      "probability": 0.8971701264381409
+                    },
+                    {
+                      "start": 53.54,
+                      "end": 53.84,
+                      "text": "是",
+                      "probability": 0.9937168955802917
+                    },
+                    {
+                      "start": 53.84,
+                      "end": 54.12,
+                      "text": "屬",
+                      "probability": 0.7635826170444489
+                    },
+                    {
+                      "start": 54.12,
+                      "end": 54.46,
+                      "text": "地",
+                      "probability": 0.9393107891082764
+                    },
+                    {
+                      "start": 54.46,
+                      "end": 54.72,
+                      "text": "的,",
+                      "probability": 0.9681376814842224
+                    },
+                    {
+                      "start": 54.94,
+                      "end": 55.0,
+                      "text": "屬",
+                      "probability": 0.9195913076400757
+                    },
+                    {
+                      "start": 55.0,
+                      "end": 55.3,
+                      "text": "感覺,",
+                      "probability": 0.8489494323730469
+                    },
+                    {
+                      "start": 56.1,
+                      "end": 56.22,
+                      "text": "也",
+                      "probability": 0.9977260231971741
+                    },
+                    {
+                      "start": 56.22,
+                      "end": 56.46,
+                      "text": "就是",
+                      "probability": 0.9936040043830872
+                    },
+                    {
+                      "start": 56.46,
+                      "end": 56.98,
+                      "text": "屬",
+                      "probability": 0.9776611030101776
+                    },
+                    {
+                      "start": 56.98,
+                      "end": 57.34,
+                      "text": "情",
+                      "probability": 0.9277375936508179
+                    },
+                    {
+                      "start": 57.34,
+                      "end": 57.64,
+                      "text": "欲",
+                      "probability": 0.7209256738424301
+                    },
+                    {
+                      "start": 57.64,
+                      "end": 58.08,
+                      "text": "及",
+                      "probability": 0.8756964206695557
+                    },
+                    {
+                      "start": 58.08,
+                      "end": 58.4,
+                      "text": "肉",
+                      "probability": 0.9849047660827637
+                    },
+                    {
+                      "start": 58.4,
+                      "end": 58.74,
+                      "text": "體",
+                      "probability": 0.9984833598136902
+                    },
+                    {
+                      "start": 58.74,
+                      "end": 59.0,
+                      "text": "的。",
+                      "probability": 0.9803351163864136
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.61,
+          "coherentCoverage": 0.598,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.85,
+          "suffixCoverage": 0.0,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 28,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [
+            "discarded detached end matches"
+          ],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 0.75,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 0.875,
+            "localSimilarity": 0.875,
+            "localText": "你们心里若怀苦毒的嫉妒和纷争就不可自夸也不可说谎",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false,
+            "source": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 48.48,
-      "end": 88.86,
+      "start": 47.26,
+      "end": 87.68,
       "kind": "paragraph",
       "targetIndex": 27,
       "targetText": "从修订本圣经中我们读到这样的智慧不是从上头来的乃是属地的属感觉情欲即肉体的希腊文字义为属魂的属鬼",
-      "confidence": 0.645
+      "confidence": 0.826,
+      "quality": {
+        "coverage": 0.75,
+        "coherentCoverage": 0.708,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 47.26,
+        "previousEnd": 87.68,
+        "previousConfidence": 0.826
+      }
     },
     {
       "start": 88.86,
-      "end": 115.98,
+      "end": 114.54,
       "kind": "paragraph",
       "targetIndex": 28,
       "targetText": "看见真理如此率真地陈述着实令人惊讶这也使我们明了一切与知识的拥有或得着有关的嫉妒争竞等种种情绪都",
-      "confidence": 0.887
+      "confidence": 0.887,
+      "quality": {
+        "coverage": 0.887,
+        "coherentCoverage": 0.875,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 88.86,
+        "previousEnd": 114.54,
+        "previousConfidence": 0.887
+      }
     },
     {
       "start": 115.98,
-      "end": 166.88,
+      "end": 166.06,
       "kind": "paragraph",
       "targetIndex": 29,
       "targetText": "许多上帝的儿女对这一点的认识很有限他们可能认识撒但对显著之罪的运行及一些明显是属肉体的行为但对于",
-      "confidence": 0.864
+      "confidence": 0.87,
+      "quality": {
+        "coverage": 0.805,
+        "coherentCoverage": 0.785,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 115.98,
+        "previousEnd": 166.06,
+        "previousConfidence": 0.87
+      }
     },
     {
       "start": 166.88,
-      "end": 221.68,
+      "end": 222.66,
       "kind": "paragraph",
       "targetIndex": 30,
       "targetText": "在蒙救赎者更新的过程中邪恶势力为了自己的好处会不断掀起堕落生命中各成份无论是肉体或属魂的活动当圣",
-      "confidence": 0.797
+      "confidence": 0.933,
+      "quality": {
+        "coverage": 0.93,
+        "coherentCoverage": 0.904,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\魂与灵\\3-2.mp3.json",
+          "transcriptSha256": "3fbf2f9d1f9480163183e0a382914580efc1e15399e037993d0f4b2379e902b4",
+          "candidate": 166.88,
+          "expectedPhrase": "在蒙救赎者更新的过程中邪",
+          "actualPhrase": "在蒙旧属者更新的过程中邪",
+          "phoneticPhrase": [
+            "zai",
+            "meng",
+            "jiu",
+            "shu",
+            "zhe",
+            "geng",
+            "xin",
+            "de",
+            "guo",
+            "cheng",
+            "zhong",
+            "xie"
+          ],
+          "verified": true,
+          "time": 166.88,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "exact-local-syllables-original-word-times",
+          "phoneticExact": true,
+          "literalEqual": false,
+          "wordTokens": [
+            {
+              "text": "在",
+              "start": 166.88,
+              "end": 167.32,
+              "rawStart": 504,
+              "rawEnd": 504,
+              "precision": "word"
+            },
+            {
+              "text": "蒙",
+              "start": 167.32,
+              "end": 167.58,
+              "rawStart": 505,
+              "rawEnd": 505,
+              "precision": "word"
+            },
+            {
+              "text": "旧",
+              "start": 167.58,
+              "end": 167.82,
+              "rawStart": 506,
+              "rawEnd": 506,
+              "precision": "word"
+            },
+            {
+              "text": "属",
+              "start": 167.82,
+              "end": 168.02,
+              "rawStart": 507,
+              "rawEnd": 507,
+              "precision": "word"
+            },
+            {
+              "text": "者",
+              "start": 168.02,
+              "end": 168.3,
+              "rawStart": 508,
+              "rawEnd": 508,
+              "precision": "word"
+            },
+            {
+              "text": "更",
+              "start": 168.3,
+              "end": 168.58,
+              "rawStart": 509,
+              "rawEnd": 509,
+              "precision": "word"
+            },
+            {
+              "text": "新",
+              "start": 168.58,
+              "end": 168.8,
+              "rawStart": 510,
+              "rawEnd": 510,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 168.8,
+              "end": 168.94,
+              "rawStart": 511,
+              "rawEnd": 511,
+              "precision": "word"
+            },
+            {
+              "text": "过",
+              "start": 168.94,
+              "end": 169.1,
+              "rawStart": 512,
+              "rawEnd": 512,
+              "precision": "word"
+            },
+            {
+              "text": "程",
+              "start": 169.1,
+              "end": 169.34,
+              "rawStart": 513,
+              "rawEnd": 513,
+              "precision": "word"
+            },
+            {
+              "text": "中",
+              "start": 169.34,
+              "end": 169.62,
+              "rawStart": 514,
+              "rawEnd": 514,
+              "precision": "word"
+            },
+            {
+              "text": "邪",
+              "start": 170.18,
+              "end": 170.32,
+              "rawStart": 515,
+              "rawEnd": 515,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "audioSha256": "b49cda3c270ba09e6ca747ae26701d4178482e91ce6dc4ac492f08530032c896",
+          "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 166.88,
+        "previousEnd": 222.66,
+        "previousConfidence": 0.933
+      },
+      "boundaryCorrections": [
+        {
+          "book": "魂与灵",
+          "page": "03_属魂的人.md",
+          "audio": "3-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\魂与灵\\03_属魂的人\\audio-02.json",
+          "targetIndex": 30,
+          "edge": "start",
+          "previousTime": 166.88,
+          "time": 166.88,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
-      "start": 221.68,
-      "end": 234.06,
+      "start": 222.66,
+      "end": 232.4,
       "kind": "list-item",
       "targetIndex": 31,
       "targetText": "一堕落的灵向上帝是死的它是向黑暗君王所统辖的属地狱的灵界开放",
-      "confidence": 0.625
+      "confidence": 0.9,
+      "quality": {
+        "coverage": 0.9,
+        "coherentCoverage": 0.9,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.867,
+        "suffixCoverage": 0.933,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 222.66,
+        "previousEnd": 232.4,
+        "previousConfidence": 0.9
+      }
     },
     {
       "start": 234.06,
       "end": 246.08,
       "kind": "list-item",
-      "targetIndex": 32,
+      "targetIndex": 33,
       "targetText": "二魂包括心思思想意念及情感是被首先亚当的生命所辖制是堕落及败坏的",
-      "confidence": 0.75
+      "confidence": 0.906,
+      "quality": {
+        "coverage": 0.906,
+        "coherentCoverage": 0.812,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.812,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 234.06,
+        "previousEnd": 246.08,
+        "previousConfidence": 0.906
+      }
     },
     {
       "start": 246.08,
-      "end": 253.82,
+      "end": 252.78,
       "kind": "list-item",
-      "targetIndex": 33,
+      "targetIndex": 35,
       "targetText": "三身体及魂的每一部分也是向雅恶的权势开放",
-      "confidence": 0.7
+      "confidence": 0.85,
+      "quality": {
+        "coverage": 0.85,
+        "coherentCoverage": 0.65,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "source": "existing-small-transcript-local-phrase",
+          "model": ".audio-sync-cache\\models\\small",
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\魂与灵\\3-2.mp3.json",
+          "transcriptSha256": "18dcf1231260b98b1cfa5675c3ff7fccd8f20367e732f0fccd6ed28dfac515d1",
+          "audioSha256": null,
+          "audioDuration": 716.985,
+          "syncAudioDuration": 716.985,
+          "audioDurationMatch": true,
+          "fullFileTranscribed": false,
+          "newDownloads": 0,
+          "listenedByAgent": false,
+          "timingPrecision": "word",
+          "localSupported": true,
+          "contextUsed": true,
+          "verificationMethod": "bounded-local-12-syllable",
+          "verified": true,
+          "candidateTime": 252.78,
+          "expectedPhrase": "部分也是向雅恶的权势开放",
+          "actualPhrase": "部分也是向邪恶的诠释开放",
+          "wordTokens": [
+            {
+              "text": "部",
+              "start": 249.9,
+              "end": 250.26,
+              "rawStart": 760,
+              "rawEnd": 760,
+              "precision": "word"
+            },
+            {
+              "text": "分",
+              "start": 249.9,
+              "end": 250.26,
+              "rawStart": 761,
+              "rawEnd": 761,
+              "precision": "word"
+            },
+            {
+              "text": "也",
+              "start": 250.26,
+              "end": 250.78,
+              "rawStart": 762,
+              "rawEnd": 762,
+              "precision": "word"
+            },
+            {
+              "text": "是",
+              "start": 250.26,
+              "end": 250.78,
+              "rawStart": 763,
+              "rawEnd": 763,
+              "precision": "word"
+            },
+            {
+              "text": "向",
+              "start": 250.78,
+              "end": 251.12,
+              "rawStart": 764,
+              "rawEnd": 764,
+              "precision": "word"
+            },
+            {
+              "text": "邪",
+              "start": 251.12,
+              "end": 251.5,
+              "rawStart": 765,
+              "rawEnd": 765,
+              "precision": "word"
+            },
+            {
+              "text": "恶",
+              "start": 251.5,
+              "end": 251.7,
+              "rawStart": 766,
+              "rawEnd": 766,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 251.7,
+              "end": 251.84,
+              "rawStart": 767,
+              "rawEnd": 767,
+              "precision": "word"
+            },
+            {
+              "text": "诠",
+              "start": 251.84,
+              "end": 252.08,
+              "rawStart": 768,
+              "rawEnd": 768,
+              "precision": "word"
+            },
+            {
+              "text": "释",
+              "start": 252.08,
+              "end": 252.28,
+              "rawStart": 769,
+              "rawEnd": 769,
+              "precision": "word"
+            },
+            {
+              "text": "开",
+              "start": 252.28,
+              "end": 252.54,
+              "rawStart": 770,
+              "rawEnd": 770,
+              "precision": "word"
+            },
+            {
+              "text": "放",
+              "start": 252.54,
+              "end": 252.78,
+              "rawStart": 771,
+              "rawEnd": 771,
+              "precision": "word"
+            }
+          ],
+          "reason": "12音节局部短句的首尾音节与正文边界一致，内部识别差异不超过算法限值；短句在该段正文中唯一，未与其他段落混淆。录音与时间稿时长完全一致。 录音文件未在工作区，故无可核对的音频 SHA-256。"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 246.08,
+        "previousEnd": 253.82,
+        "previousConfidence": 0.85
+      },
+      "boundaryCorrections": [
+        {
+          "book": "魂与灵",
+          "page": "03_属魂的人.md",
+          "audio": "3-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\魂与灵\\03_属魂的人\\audio-02.json",
+          "targetIndex": 35,
+          "edge": "end",
+          "previousTime": 253.82,
+          "time": 252.78,
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "kind": "local-phrase-boundary-correction",
+          "proof": {
+            "source": "existing-small-transcript-local-phrase",
+            "model": ".audio-sync-cache\\models\\small",
+            "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\魂与灵\\3-2.mp3.json",
+            "transcriptSha256": "18dcf1231260b98b1cfa5675c3ff7fccd8f20367e732f0fccd6ed28dfac515d1",
+            "audioSha256": null,
+            "audioDuration": 716.985,
+            "syncAudioDuration": 716.985,
+            "audioDurationMatch": true,
+            "fullFileTranscribed": false,
+            "newDownloads": 0,
+            "listenedByAgent": false,
+            "timingPrecision": "word",
+            "localSupported": true,
+            "contextUsed": true,
+            "verificationMethod": "bounded-local-12-syllable",
+            "verified": true,
+            "candidateTime": 252.78,
+            "expectedPhrase": "部分也是向雅恶的权势开放",
+            "actualPhrase": "部分也是向邪恶的诠释开放",
+            "wordTokens": [
+              {
+                "text": "部",
+                "start": 249.9,
+                "end": 250.26,
+                "rawStart": 760,
+                "rawEnd": 760,
+                "precision": "word"
+              },
+              {
+                "text": "分",
+                "start": 249.9,
+                "end": 250.26,
+                "rawStart": 761,
+                "rawEnd": 761,
+                "precision": "word"
+              },
+              {
+                "text": "也",
+                "start": 250.26,
+                "end": 250.78,
+                "rawStart": 762,
+                "rawEnd": 762,
+                "precision": "word"
+              },
+              {
+                "text": "是",
+                "start": 250.26,
+                "end": 250.78,
+                "rawStart": 763,
+                "rawEnd": 763,
+                "precision": "word"
+              },
+              {
+                "text": "向",
+                "start": 250.78,
+                "end": 251.12,
+                "rawStart": 764,
+                "rawEnd": 764,
+                "precision": "word"
+              },
+              {
+                "text": "邪",
+                "start": 251.12,
+                "end": 251.5,
+                "rawStart": 765,
+                "rawEnd": 765,
+                "precision": "word"
+              },
+              {
+                "text": "恶",
+                "start": 251.5,
+                "end": 251.7,
+                "rawStart": 766,
+                "rawEnd": 766,
+                "precision": "word"
+              },
+              {
+                "text": "的",
+                "start": 251.7,
+                "end": 251.84,
+                "rawStart": 767,
+                "rawEnd": 767,
+                "precision": "word"
+              },
+              {
+                "text": "诠",
+                "start": 251.84,
+                "end": 252.08,
+                "rawStart": 768,
+                "rawEnd": 768,
+                "precision": "word"
+              },
+              {
+                "text": "释",
+                "start": 252.08,
+                "end": 252.28,
+                "rawStart": 769,
+                "rawEnd": 769,
+                "precision": "word"
+              },
+              {
+                "text": "开",
+                "start": 252.28,
+                "end": 252.54,
+                "rawStart": 770,
+                "rawEnd": 770,
+                "precision": "word"
+              },
+              {
+                "text": "放",
+                "start": 252.54,
+                "end": 252.78,
+                "rawStart": 771,
+                "rawEnd": 771,
+                "precision": "word"
+              }
+            ],
+            "reason": "12音节局部短句的首尾音节与正文边界一致，内部识别差异不超过算法限值；短句在该段正文中唯一，未与其他段落混淆。录音与时间稿时长完全一致。 录音文件未在工作区，故无可核对的音频 SHA-256。"
+          },
+          "reason": "12音节局部短句的首尾音节与正文边界一致，内部识别差异不超过算法限值；短句在该段正文中唯一，未与其他段落混淆。录音与时间稿时长完全一致。 录音文件未在工作区，故无可核对的音频 SHA-256。"
+        }
+      ]
     },
     {
       "start": 253.82,
-      "end": 262.14,
+      "end": 264.36,
       "kind": "paragraph",
-      "targetIndex": 34,
+      "targetIndex": 37,
       "targetText": "所以使徒约翰率直地说全世界都卧在那邪恶者手下约壹五19",
-      "confidence": 0.735
+      "confidence": 0.968,
+      "quality": {
+        "coverage": 0.968,
+        "coherentCoverage": 0.968,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.933,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 253.82,
+        "previousEnd": 264.36,
+        "previousConfidence": 0.968
+      }
     },
     {
-      "start": 262.14,
-      "end": 335.26,
+      "start": 265.66,
+      "end": 332.52,
       "kind": "paragraph",
-      "targetIndex": 35,
+      "targetIndex": 38,
       "targetText": "堕落的人不但需要被上帝儿子那赐人生命的血所救赎他同时也需要真正地从黑暗的权势被迁到上帝爱子的国度",
-      "confidence": 0.874
+      "confidence": 0.898,
+      "quality": {
+        "coverage": 0.893,
+        "coherentCoverage": 0.864,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 265.66,
+        "previousEnd": 332.52,
+        "previousConfidence": 0.898
+      }
     },
     {
       "start": 335.26,
-      "end": 387.48,
+      "end": 386.78,
       "kind": "paragraph",
-      "targetIndex": 36,
+      "targetIndex": 39,
       "targetText": "黑暗的君王对人们脱离被它奴役的每一个步骤都倍加抵挡这是显而易见的而我们必须清楚地知道堕落的受造向",
-      "confidence": 0.785
+      "confidence": 0.883,
+      "quality": {
+        "coverage": 0.883,
+        "coherentCoverage": 0.81,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "candidate": 386.78,
+          "expectedPhrase": "恶势力开放的部分举例来说",
+          "actualPhrase": "恶势里开放的部分据例来说",
+          "phoneticPhrase": [
+            "e",
+            "shi",
+            "li",
+            "kai",
+            "fang",
+            "de",
+            "bu",
+            "fen",
+            "ju",
+            "li",
+            "lai",
+            "shuo"
+          ],
+          "verified": true,
+          "time": 386.78,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "inline-notes-observed-context",
+          "phoneticExact": true,
+          "literalEqual": false,
+          "wordTokens": [
+            {
+              "text": "恶",
+              "start": 383.14,
+              "end": 383.38,
+              "rawStart": 1158,
+              "rawEnd": 1158,
+              "precision": "word"
+            },
+            {
+              "text": "势",
+              "start": 383.38,
+              "end": 383.52,
+              "rawStart": 1159,
+              "rawEnd": 1159,
+              "precision": "word"
+            },
+            {
+              "text": "里",
+              "start": 383.52,
+              "end": 383.68,
+              "rawStart": 1160,
+              "rawEnd": 1160,
+              "precision": "word"
+            },
+            {
+              "text": "开",
+              "start": 383.68,
+              "end": 383.96,
+              "rawStart": 1161,
+              "rawEnd": 1161,
+              "precision": "word"
+            },
+            {
+              "text": "放",
+              "start": 383.96,
+              "end": 384.22,
+              "rawStart": 1162,
+              "rawEnd": 1162,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 384.22,
+              "end": 384.34,
+              "rawStart": 1163,
+              "rawEnd": 1163,
+              "precision": "word"
+            },
+            {
+              "text": "部",
+              "start": 384.34,
+              "end": 384.72,
+              "rawStart": 1164,
+              "rawEnd": 1164,
+              "precision": "word"
+            },
+            {
+              "text": "分",
+              "start": 384.34,
+              "end": 384.72,
+              "rawStart": 1165,
+              "rawEnd": 1165,
+              "precision": "word"
+            },
+            {
+              "text": "据",
+              "start": 385.8,
+              "end": 386.1,
+              "rawStart": 1166,
+              "rawEnd": 1166,
+              "precision": "word"
+            },
+            {
+              "text": "例",
+              "start": 386.1,
+              "end": 386.26,
+              "rawStart": 1167,
+              "rawEnd": 1167,
+              "precision": "word"
+            },
+            {
+              "text": "来",
+              "start": 386.26,
+              "end": 386.44,
+              "rawStart": 1168,
+              "rawEnd": 1168,
+              "precision": "word"
+            },
+            {
+              "text": "说",
+              "start": 386.44,
+              "end": 386.78,
+              "rawStart": 1169,
+              "rawEnd": 1169,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "edge": "end",
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\魂与灵\\3-2.mp3.json",
+          "transcriptSha256": "3fbf2f9d1f9480163183e0a382914580efc1e15399e037993d0f4b2379e902b4",
+          "notes": [
+            {
+              "start": 367.28,
+              "end": 368.74,
+              "expected": "(即属魂的生命)",
+              "actual": "即属魂的生命",
+              "tokens": [
+                {
+                  "text": "即",
+                  "start": 367.28,
+                  "end": 367.5,
+                  "rawStart": 1107,
+                  "rawEnd": 1107,
+                  "precision": "word"
+                },
+                {
+                  "text": "属",
+                  "start": 367.5,
+                  "end": 367.82,
+                  "rawStart": 1108,
+                  "rawEnd": 1108,
+                  "precision": "word"
+                },
+                {
+                  "text": "魂",
+                  "start": 367.82,
+                  "end": 368.1,
+                  "rawStart": 1109,
+                  "rawEnd": 1109,
+                  "precision": "word"
+                },
+                {
+                  "text": "的",
+                  "start": 368.1,
+                  "end": 368.26,
+                  "rawStart": 1110,
+                  "rawEnd": 1110,
+                  "precision": "word"
+                },
+                {
+                  "text": "生",
+                  "start": 368.26,
+                  "end": 368.46,
+                  "rawStart": 1111,
+                  "rawEnd": 1111,
+                  "precision": "word"
+                },
+                {
+                  "text": "命",
+                  "start": 368.46,
+                  "end": 368.74,
+                  "rawStart": 1112,
+                  "rawEnd": 1112,
+                  "precision": "word"
+                }
+              ]
+            }
+          ],
+          "identityBasis": "true-local-edge-and-complete-inline-notes-observed-before-ending",
+          "audioSha256": "b49cda3c270ba09e6ca747ae26701d4178482e91ce6dc4ac492f08530032c896"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 335.26,
+        "previousEnd": 387.48,
+        "previousConfidence": 0.883
+      },
+      "boundaryCorrections": [
+        {
+          "book": "魂与灵",
+          "page": "03_属魂的人.md",
+          "audio": "3-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\魂与灵\\03_属魂的人\\audio-02.json",
+          "targetIndex": 39,
+          "edge": "end",
+          "previousTime": 387.48,
+          "time": 386.78,
+          "kind": "inline-notes-observed-context",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
       "start": 387.48,
-      "end": 453.2,
+      "end": 451.28,
       "kind": "list-item",
-      "targetIndex": 37,
+      "targetIndex": 40,
       "targetText": "一在属魂生命中当邪灵用以执行其计划时属魂的智慧就成了属鬼魔的比如仇敌可以兴起心里的偏见或事先蕴酿",
-      "confidence": 0.838
+      "confidence": 0.931,
+      "quality": {
+        "coverage": 0.927,
+        "coherentCoverage": 0.912,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 387.48,
+        "previousEnd": 451.28,
+        "previousConfidence": 0.931
+      }
     },
     {
       "start": 453.2,
-      "end": 520.52,
+      "end": 519.62,
       "kind": "list-item",
-      "targetIndex": 38,
+      "targetIndex": 42,
       "targetText": "二在肉身中仇敌除了肉体的工作和通常所称的罪之外还作工在上帝经系统上并且利用人体内与生俱来的动物磁",
-      "confidence": 0.904
+      "confidence": 0.909,
+      "quality": {
+        "coverage": 0.905,
+        "coherentCoverage": 0.895,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 453.2,
+        "previousEnd": 519.62,
+        "previousConfidence": 0.909
+      }
     },
     {
       "start": 520.52,
       "end": 552.08,
       "kind": "paragraph",
-      "targetIndex": 39,
+      "targetIndex": 44,
       "targetText": "因为黑暗的权势顺着或模仿肉体的情况作工无论是在人的性情上或扰乱身体的官能组织都做得极为巧妙亦即可",
-      "confidence": 0.881
+      "confidence": 0.881,
+      "quality": {
+        "coverage": 0.885,
+        "coherentCoverage": 0.885,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 520.52,
+        "previousEnd": 552.08,
+        "previousConfidence": 0.881
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (28 trailing chars, coverage 0.000): target 26: 「你们心里若怀苦毒的嫉妒和纷争，就不可自夸，也不可说谎话抵挡真道。这样的智慧，不是从上头来的，乃",
+    "unverified end anchor: target 26: 「你们心里若怀苦毒的嫉妒和纷争，就不可自夸，也不可说谎话抵挡真道。这样的智慧，不是从上头来的，乃",
+    "unverified start anchor: target 30: 在蒙救赎者更新的过程中，邪恶势力为了自己的好处会不断掀起堕落生命中各成份，无论是肉体或属魂的活动",
+    "unverified end anchor: target 35: （三）身体及魂的每一部分也是向雅恶的权势开放。",
+    "unverified end anchor: target 39: 黑暗的君王对人们脱离被它奴役的每一个步骤都倍加抵挡，这是显而易见的；而我们必须清楚地知道，堕落的",
+    "repair unverified end (previous-sync): target 26",
+    "repair unverified start (previous-sync): target 30",
+    "repair unverified end (previous-sync): target 35",
+    "repair unverified end (previous-sync): target 39"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 3,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 32,
+      "targetIndex": 33,
+      "targetText": "二魂包括心思思想意念及情感是被首先亚当的生命所辖制是堕落及败坏的",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 33,
+      "targetIndex": 35,
+      "targetText": "三身体及魂的每一部分也是向雅恶的权势开放",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 34,
+      "targetIndex": 37,
+      "targetText": "所以使徒约翰率直地说全世界都卧在那邪恶者手下约壹五19",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 35,
+      "targetIndex": 38,
+      "targetText": "堕落的人不但需要被上帝儿子那赐人生命的血所救赎他同时也需要真正地从黑暗的权势被迁到上帝爱子的国度",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 36,
+      "targetIndex": 39,
+      "targetText": "黑暗的君王对人们脱离被它奴役的每一个步骤都倍加抵挡这是显而易见的而我们必须清楚地知道堕落的受造向",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 37,
+      "targetIndex": 40,
+      "targetText": "一在属魂生命中当邪灵用以执行其计划时属魂的智慧就成了属鬼魔的比如仇敌可以兴起心里的偏见或事先蕴酿",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 38,
+      "targetIndex": 42,
+      "targetText": "二在肉身中仇敌除了肉体的工作和通常所称的罪之外还作工在上帝经系统上并且利用人体内与生俱来的动物磁",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 39,
+      "targetIndex": 44,
+      "targetText": "因为黑暗的权势顺着或模仿肉体的情况作工无论是在人的性情上或扰乱身体的官能组织都做得极为巧妙亦即可",
+      "method": "exact-text-and-reproduced-parser-index"
+    }
+  ],
+  "chronologyReordered": false,
+  "repairFingerprint": "e0fdce264453fe233f062fddca7186f2e5b9371c0979d4cc5e9348c8b0666165",
+  "repairCueDigest": "982a116742ce47eaf3174b7eb209457108976e3169afa220d9b5219ec0ffe97a",
+  "previousAlignmentWarnings": [],
+  "targetIndexMethod": "body-global-v8-rendered-list-and-empty-paragraph-indices"
 }

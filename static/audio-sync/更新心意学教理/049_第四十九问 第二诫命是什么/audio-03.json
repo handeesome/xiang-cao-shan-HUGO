@@ -8,36 +8,980 @@
   "audioDuration": 111.72,
   "cues": [
     {
-      "start": 2.09,
-      "end": 3.21,
-      "kind": "heading",
-      "targetIndex": 6,
-      "targetText": "礼拜二",
-      "confidence": 0.8
-    },
-    {
       "start": 3.21,
-      "end": 50.35,
+      "end": 51.53,
       "kind": "paragraph",
-      "targetIndex": 7,
+      "targetIndex": 9,
       "targetText": "我们作为上帝的百姓聚集的时候敬拜中最重要的部分就是读祂的话语聆听讲道与教导使徒保罗曾写信给年轻的",
-      "confidence": 0.799
+      "confidence": 0.921,
+      "quality": {
+        "coverage": 0.903,
+        "coherentCoverage": 0.89,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 8,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "source": "context-reviewed-read-prompt-ending",
+          "contextUsed": true,
+          "identityAmbiguous": false,
+          "continuousAnchor": false,
+          "timingPrecision": "word",
+          "time": 51.53,
+          "expectedPhrase": "事为念的意思就是把那件事放在第一位。如果你以某事为念，你就会在没时间做其它事的情况下，也确保做好这件事。请读提摩太前书4:13。",
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\49-2.mp3.json",
+          "transcriptSha256": "17e2fc90ab88c2333951e8dec48693be9d18b97a1b5bcf10c5a6d9fcbf10bc0e",
+          "audioSha256": "c17bbd5a82ad1795b90874cdba1c1a1d26be9d6e1891c8cf8304b40951ca8d17",
+          "rawSegments": [
+            {
+              "start": 48.69,
+              "end": 51.53,
+              "text": "请读提摩泰前书四章十三节。",
+              "words": [
+                {
+                  "start": 48.69,
+                  "end": 49.07,
+                  "text": "请",
+                  "probability": 0.8796661496162415
+                },
+                {
+                  "start": 49.07,
+                  "end": 49.31,
+                  "text": "读",
+                  "probability": 0.9219217300415039
+                },
+                {
+                  "start": 49.31,
+                  "end": 49.59,
+                  "text": "提",
+                  "probability": 0.9602211117744446
+                },
+                {
+                  "start": 49.59,
+                  "end": 49.69,
+                  "text": "摩",
+                  "probability": 0.9969576597213745
+                },
+                {
+                  "start": 49.69,
+                  "end": 49.85,
+                  "text": "泰",
+                  "probability": 0.986781895160675
+                },
+                {
+                  "start": 49.85,
+                  "end": 50.07,
+                  "text": "前",
+                  "probability": 0.7639806270599365
+                },
+                {
+                  "start": 50.07,
+                  "end": 50.35,
+                  "text": "书",
+                  "probability": 0.957895040512085
+                },
+                {
+                  "start": 50.35,
+                  "end": 50.69,
+                  "text": "四",
+                  "probability": 0.7515017986297607
+                },
+                {
+                  "start": 50.69,
+                  "end": 50.89,
+                  "text": "章",
+                  "probability": 0.9709049165248871
+                },
+                {
+                  "start": 50.89,
+                  "end": 51.09,
+                  "text": "十",
+                  "probability": 0.9646970629692078
+                },
+                {
+                  "start": 51.09,
+                  "end": 51.29,
+                  "text": "三",
+                  "probability": 0.9965643286705017
+                },
+                {
+                  "start": 51.29,
+                  "end": 51.53,
+                  "text": "节。",
+                  "probability": 0.9645334482192993
+                }
+              ]
+            }
+          ],
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+          "listenedByAgent": false
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "next-verified-start",
+        "previousStart": 3.21,
+        "previousEnd": 50.35,
+        "previousConfidence": 0.928
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "049_第四十九问 第二诫命是什么.md",
+          "audio": "49-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\049_第四十九问 第二诫命是什么\\audio-03.json",
+          "caseIndex": 690,
+          "targetIndex": 9,
+          "edge": "end",
+          "previousTime": 49.85,
+          "time": 51.53,
+          "kind": "verified-edge",
+          "previousEvidence": {
+            "verified": false,
+            "source": "next-verified-start"
+          },
+          "previousVerified": false,
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。"
+        }
+      ]
     },
     {
-      "start": 50.35,
-      "end": 59.69,
+      "start": 52.29,
+      "end": 58.55,
       "kind": "paragraph",
-      "targetIndex": 8,
+      "targetIndex": 10,
       "targetText": "提摩太前书413你要以宣读劝勉教导为念直等到我来",
-      "confidence": 0.578
+      "confidence": 0.816,
+      "quality": {
+        "coverage": 0.769,
+        "coherentCoverage": 0.769,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.769,
+        "suffixCoverage": 0.769,
+        "unmatchedLeadingChars": 3,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "localSupported": false,
+          "source": "previous-verified-end",
+          "time": 51.53,
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "referenceOwnershipConstraint": {
+          "ownerTargetIndex": 9,
+          "ownerTargetText": "我们作为上帝的百姓聚集的时候敬拜中最重要的部分就是读祂的话语聆听讲道与教导使徒保罗曾写信给年轻的",
+          "notBefore": 51.53,
+          "verifiedSpokenOnset": false
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 50.35,
+        "previousEnd": 58.55,
+        "previousConfidence": 0.766
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "049_第四十九问 第二诫命是什么.md",
+          "audio": "49-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\049_第四十九问 第二诫命是什么\\audio-03.json",
+          "caseIndex": 690,
+          "targetIndex": 10,
+          "edge": "start",
+          "previousTime": 49.85,
+          "time": 51.53,
+          "kind": "unverified-neighbor-constraint",
+          "previousVerified": true,
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 0.75,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 0.75,
+            "localSimilarity": 0.8,
+            "localText": "提摩太前书4章13节你要以宣读劝勉教导为念直等到",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false,
+            "source": "verified-transcript"
+          },
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 51.53,
+            "time": 52.29,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\49-2.mp3.json",
+              "sha256": "4f0e539f68af558ad3b12e0b22cc5544a8b42c13c4a29d24d07ca8a756e998ad",
+              "anchor": {
+                "time": 52.29,
+                "score": 0.9278,
+                "ratio": 0.9286,
+                "expected": "niyaoyixuanduquanmianjiaodaoweinianzhidengdao",
+                "actual": "你要以宣读眷眠教导为念只等到",
+                "span": [
+                  52.29,
+                  57.97
+                ],
+                "tokens": [
+                  {
+                    "text": "你",
+                    "start": 52.29,
+                    "end": 52.89,
+                    "rawStart": 158,
+                    "rawEnd": 158,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "要",
+                    "start": 52.29,
+                    "end": 52.89,
+                    "rawStart": 159,
+                    "rawEnd": 159,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "以",
+                    "start": 52.89,
+                    "end": 53.33,
+                    "rawStart": 160,
+                    "rawEnd": 160,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "宣",
+                    "start": 53.33,
+                    "end": 53.95,
+                    "rawStart": 161,
+                    "rawEnd": 161,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "读",
+                    "start": 53.95,
+                    "end": 54.35,
+                    "rawStart": 162,
+                    "rawEnd": 162,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "眷",
+                    "start": 54.97,
+                    "end": 55.09,
+                    "rawStart": 163,
+                    "rawEnd": 163,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "眠",
+                    "start": 55.09,
+                    "end": 55.43,
+                    "rawStart": 164,
+                    "rawEnd": 164,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "教",
+                    "start": 55.95,
+                    "end": 56.05,
+                    "rawStart": 165,
+                    "rawEnd": 165,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "导",
+                    "start": 56.05,
+                    "end": 56.31,
+                    "rawStart": 166,
+                    "rawEnd": 166,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "为",
+                    "start": 56.31,
+                    "end": 56.55,
+                    "rawStart": 167,
+                    "rawEnd": 167,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "念",
+                    "start": 56.55,
+                    "end": 56.83,
+                    "rawStart": 168,
+                    "rawEnd": 168,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "只",
+                    "start": 56.83,
+                    "end": 57.53,
+                    "rawStart": 169,
+                    "rawEnd": 169,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "等",
+                    "start": 57.53,
+                    "end": 57.75,
+                    "rawStart": 170,
+                    "rawEnd": 170,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "到",
+                    "start": 57.75,
+                    "end": 57.97,
+                    "rawStart": 171,
+                    "rawEnd": 171,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "你要以宣读、劝勉、教导为念,直等到我来。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.769,
+          "coherentCoverage": 0.769,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.769,
+          "suffixCoverage": 0.769,
+          "unmatchedLeadingChars": 3,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "localSupported": false,
+            "source": "previous-verified-end",
+            "time": 51.53,
+            "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.75,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "referenceOwnershipConstraint": {
+            "ownerTargetIndex": 9,
+            "ownerTargetText": "我们作为上帝的百姓聚集的时候敬拜中最重要的部分就是读祂的话语聆听讲道与教导使徒保罗曾写信给年轻的",
+            "notBefore": 51.53,
+            "verifiedSpokenOnset": false
+          }
+        }
+      }
     },
     {
       "start": 59.69,
       "end": 109.79,
       "kind": "paragraph",
-      "targetIndex": 9,
+      "targetIndex": 11,
       "targetText": "上帝的道为中心一同宣读并且本着圣经讲道教导这样就防止上帝的百姓敬拜自己头脑中想象出来的上帝他们一",
-      "confidence": 0.844
+      "confidence": 0.864,
+      "quality": {
+        "coverage": 0.966,
+        "coherentCoverage": 0.95,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 3,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "discarded detached start matches"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 59.69,
+        "previousEnd": 109.79,
+        "previousConfidence": 0.864
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 59.69,
+            "time": 59.69,
+            "reason": "同段开头采用解释性读法，不能跳到内部的道为中心。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\49-2.mp3.json",
+              "sha256": "17e2fc90ab88c2333951e8dec48693be9d18b97a1b5bcf10c5a6d9fcbf10bc0e",
+              "segments": [
+                {
+                  "start": 48.69,
+                  "end": 51.53,
+                  "text": "请读提摩泰前书四章十三节。",
+                  "words": [
+                    {
+                      "start": 48.69,
+                      "end": 49.07,
+                      "text": "请",
+                      "probability": 0.8796661496162415
+                    },
+                    {
+                      "start": 49.07,
+                      "end": 49.31,
+                      "text": "读",
+                      "probability": 0.9219217300415039
+                    },
+                    {
+                      "start": 49.31,
+                      "end": 49.59,
+                      "text": "提",
+                      "probability": 0.9602211117744446
+                    },
+                    {
+                      "start": 49.59,
+                      "end": 49.69,
+                      "text": "摩",
+                      "probability": 0.9969576597213745
+                    },
+                    {
+                      "start": 49.69,
+                      "end": 49.85,
+                      "text": "泰",
+                      "probability": 0.986781895160675
+                    },
+                    {
+                      "start": 49.85,
+                      "end": 50.07,
+                      "text": "前",
+                      "probability": 0.7639806270599365
+                    },
+                    {
+                      "start": 50.07,
+                      "end": 50.35,
+                      "text": "书",
+                      "probability": 0.957895040512085
+                    },
+                    {
+                      "start": 50.35,
+                      "end": 50.69,
+                      "text": "四",
+                      "probability": 0.7515017986297607
+                    },
+                    {
+                      "start": 50.69,
+                      "end": 50.89,
+                      "text": "章",
+                      "probability": 0.9709049165248871
+                    },
+                    {
+                      "start": 50.89,
+                      "end": 51.09,
+                      "text": "十",
+                      "probability": 0.9646970629692078
+                    },
+                    {
+                      "start": 51.09,
+                      "end": 51.29,
+                      "text": "三",
+                      "probability": 0.9965643286705017
+                    },
+                    {
+                      "start": 51.29,
+                      "end": 51.53,
+                      "text": "节。",
+                      "probability": 0.9645334482192993
+                    }
+                  ]
+                },
+                {
+                  "start": 52.29,
+                  "end": 56.83,
+                  "text": "你要以宣读、眷眠、教导为念",
+                  "words": [
+                    {
+                      "start": 52.29,
+                      "end": 52.89,
+                      "text": "你要",
+                      "probability": 0.14385400712490082
+                    },
+                    {
+                      "start": 52.89,
+                      "end": 53.33,
+                      "text": "以",
+                      "probability": 0.9557796120643616
+                    },
+                    {
+                      "start": 53.33,
+                      "end": 53.95,
+                      "text": "宣",
+                      "probability": 0.8428988754749298
+                    },
+                    {
+                      "start": 53.95,
+                      "end": 54.35,
+                      "text": "读、",
+                      "probability": 0.8234115540981293
+                    },
+                    {
+                      "start": 54.97,
+                      "end": 55.09,
+                      "text": "眷",
+                      "probability": 0.5626657754182816
+                    },
+                    {
+                      "start": 55.09,
+                      "end": 55.43,
+                      "text": "眠、",
+                      "probability": 0.8113288581371307
+                    },
+                    {
+                      "start": 55.95,
+                      "end": 56.05,
+                      "text": "教",
+                      "probability": 0.9894458651542664
+                    },
+                    {
+                      "start": 56.05,
+                      "end": 56.31,
+                      "text": "导",
+                      "probability": 0.9036436975002289
+                    },
+                    {
+                      "start": 56.31,
+                      "end": 56.55,
+                      "text": "为",
+                      "probability": 0.4500524699687958
+                    },
+                    {
+                      "start": 56.55,
+                      "end": 56.83,
+                      "text": "念",
+                      "probability": 0.9655764698982239
+                    }
+                  ]
+                },
+                {
+                  "start": 56.83,
+                  "end": 58.55,
+                  "text": "只等到我来",
+                  "words": [
+                    {
+                      "start": 56.83,
+                      "end": 57.53,
+                      "text": "只",
+                      "probability": 0.5354709625244141
+                    },
+                    {
+                      "start": 57.53,
+                      "end": 57.75,
+                      "text": "等",
+                      "probability": 0.9987857937812805
+                    },
+                    {
+                      "start": 57.75,
+                      "end": 57.97,
+                      "text": "到",
+                      "probability": 0.8926157355308533
+                    },
+                    {
+                      "start": 57.97,
+                      "end": 58.23,
+                      "text": "我",
+                      "probability": 0.9948410391807556
+                    },
+                    {
+                      "start": 58.23,
+                      "end": 58.55,
+                      "text": "来",
+                      "probability": 0.9969360828399658
+                    }
+                  ]
+                },
+                {
+                  "start": 59.69,
+                  "end": 62.69,
+                  "text": "上帝的百姓聚集敬拜的时候",
+                  "words": [
+                    {
+                      "start": 59.69,
+                      "end": 60.29,
+                      "text": "上",
+                      "probability": 0.2275708019733429
+                    },
+                    {
+                      "start": 60.29,
+                      "end": 60.43,
+                      "text": "帝",
+                      "probability": 0.9141233265399933
+                    },
+                    {
+                      "start": 60.43,
+                      "end": 60.53,
+                      "text": "的",
+                      "probability": 0.9301794767379761
+                    },
+                    {
+                      "start": 60.53,
+                      "end": 60.73,
+                      "text": "百",
+                      "probability": 0.9978923201560974
+                    },
+                    {
+                      "start": 60.73,
+                      "end": 60.97,
+                      "text": "姓",
+                      "probability": 0.9995080828666687
+                    },
+                    {
+                      "start": 60.97,
+                      "end": 61.53,
+                      "text": "聚",
+                      "probability": 0.986156165599823
+                    },
+                    {
+                      "start": 61.53,
+                      "end": 61.79,
+                      "text": "集",
+                      "probability": 0.9838008284568787
+                    },
+                    {
+                      "start": 61.79,
+                      "end": 62.03,
+                      "text": "敬",
+                      "probability": 0.8858310282230377
+                    },
+                    {
+                      "start": 62.03,
+                      "end": 62.25,
+                      "text": "拜",
+                      "probability": 0.9943583607673645
+                    },
+                    {
+                      "start": 62.25,
+                      "end": 62.69,
+                      "text": "的时候",
+                      "probability": 0.9663017988204956
+                    }
+                  ]
+                },
+                {
+                  "start": 62.69,
+                  "end": 66.59,
+                  "text": "宣读、传讲、教导圣经",
+                  "words": [
+                    {
+                      "start": 62.69,
+                      "end": 63.83,
+                      "text": "宣",
+                      "probability": 0.8863647282123566
+                    },
+                    {
+                      "start": 63.83,
+                      "end": 64.19,
+                      "text": "读、",
+                      "probability": 0.9981788396835327
+                    },
+                    {
+                      "start": 64.69,
+                      "end": 64.91,
+                      "text": "传",
+                      "probability": 0.9933747351169586
+                    },
+                    {
+                      "start": 64.91,
+                      "end": 65.27,
+                      "text": "讲、",
+                      "probability": 0.6854202151298523
+                    },
+                    {
+                      "start": 65.77,
+                      "end": 65.95,
+                      "text": "教",
+                      "probability": 0.995018482208252
+                    },
+                    {
+                      "start": 65.95,
+                      "end": 66.13,
+                      "text": "导",
+                      "probability": 0.9716984033584595
+                    },
+                    {
+                      "start": 66.13,
+                      "end": 66.35,
+                      "text": "圣",
+                      "probability": 0.9260618388652802
+                    },
+                    {
+                      "start": 66.35,
+                      "end": 66.59,
+                      "text": "经",
+                      "probability": 0.9932680726051331
+                    }
+                  ]
+                },
+                {
+                  "start": 66.59,
+                  "end": 68.91,
+                  "text": "是教会的第一要务",
+                  "words": [
+                    {
+                      "start": 66.59,
+                      "end": 67.17,
+                      "text": "是",
+                      "probability": 0.9447164535522461
+                    },
+                    {
+                      "start": 67.17,
+                      "end": 67.63,
+                      "text": "教",
+                      "probability": 0.9987336993217468
+                    },
+                    {
+                      "start": 67.63,
+                      "end": 67.91,
+                      "text": "会",
+                      "probability": 0.9768970608711243
+                    },
+                    {
+                      "start": 67.91,
+                      "end": 68.03,
+                      "text": "的",
+                      "probability": 0.9719464182853699
+                    },
+                    {
+                      "start": 68.03,
+                      "end": 68.33,
+                      "text": "第一",
+                      "probability": 0.9826177954673767
+                    },
+                    {
+                      "start": 68.33,
+                      "end": 68.63,
+                      "text": "要",
+                      "probability": 0.7405446767807007
+                    },
+                    {
+                      "start": 68.63,
+                      "end": 68.91,
+                      "text": "务",
+                      "probability": 0.8365684747695923
+                    }
+                  ]
+                },
+                {
+                  "start": 68.91,
+                  "end": 73.13,
+                  "text": "教会必须以上帝的道为重心",
+                  "words": [
+                    {
+                      "start": 68.91,
+                      "end": 70.03,
+                      "text": "教",
+                      "probability": 0.9929097294807434
+                    },
+                    {
+                      "start": 70.03,
+                      "end": 70.31,
+                      "text": "会",
+                      "probability": 0.9962565898895264
+                    },
+                    {
+                      "start": 70.31,
+                      "end": 70.83,
+                      "text": "必",
+                      "probability": 0.990392804145813
+                    },
+                    {
+                      "start": 70.83,
+                      "end": 71.25,
+                      "text": "须",
+                      "probability": 0.993969202041626
+                    },
+                    {
+                      "start": 71.25,
+                      "end": 71.63,
+                      "text": "以",
+                      "probability": 0.9793548583984375
+                    },
+                    {
+                      "start": 71.63,
+                      "end": 71.99,
+                      "text": "上",
+                      "probability": 0.985944390296936
+                    },
+                    {
+                      "start": 71.99,
+                      "end": 72.15,
+                      "text": "帝",
+                      "probability": 0.9996931850910187
+                    },
+                    {
+                      "start": 72.15,
+                      "end": 72.27,
+                      "text": "的",
+                      "probability": 0.9801602959632874
+                    },
+                    {
+                      "start": 72.27,
+                      "end": 72.43,
+                      "text": "道",
+                      "probability": 0.6398451328277588
+                    },
+                    {
+                      "start": 72.43,
+                      "end": 72.61,
+                      "text": "为",
+                      "probability": 0.4889344274997711
+                    },
+                    {
+                      "start": 72.61,
+                      "end": 72.83,
+                      "text": "重",
+                      "probability": 0.8477290868759155
+                    },
+                    {
+                      "start": 72.83,
+                      "end": 73.13,
+                      "text": "心",
+                      "probability": 0.9575859308242798
+                    }
+                  ]
+                }
+              ],
+              "source": "context-reviewed-paragraph-approximation"
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (8 trailing chars, coverage 0.600): target 9: 我们作为上帝的百姓聚集的时候，敬拜中最重要的部分就是读祂的话语，聆听讲道与教导。使徒保罗曾写信给",
+    "unverified end anchor: target 9: 我们作为上帝的百姓聚集的时候，敬拜中最重要的部分就是读祂的话语，聆听讲道与教导。使徒保罗曾写信给",
+    "unverified start anchor: target 11: 上帝的道为中心，一同宣读并且本着圣经讲道、教导。这样，就防止上帝的百姓敬拜自己头脑中想象出来的神",
+    "repair unverified end (next-verified-start): target 9",
+    "repair unverified start (previous-sync): target 11",
+    "context reviewed end: target 9; 前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+    "unverified constrained start: target 10; 旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 7,
+      "targetIndex": 9,
+      "targetText": "我们作为上帝的百姓聚集的时候敬拜中最重要的部分就是读祂的话语聆听讲道与教导使徒保罗曾写信给年轻的",
+      "method": "unchanged-source-span-after-insertion"
+    },
+    {
+      "previousTargetIndex": 8,
+      "targetIndex": 10,
+      "targetText": "提摩太前书413你要以宣读劝勉教导为念直等到我来",
+      "method": "unchanged-source-span-after-insertion"
+    },
+    {
+      "previousTargetIndex": 9,
+      "targetIndex": 11,
+      "targetText": "上帝的道为中心一同宣读并且本着圣经讲道教导这样就防止上帝的百姓敬拜自己头脑中想象出来的上帝他们一",
+      "method": "unchanged-source-span-after-insertion"
+    }
+  ],
+  "chronologyReordered": false,
+  "repairFingerprint": "44dae6e96ab00a49a3caf92d30932ab0985eb6dfb658b8be776228c29c31a730",
+  "repairCueDigest": "ab2a383d852066ad7509acd9f9b07a1e72597da9236c5cd49bf450972d3371b2",
+  "previousAlignmentWarnings": [],
+  "targetIndexMethod": "body-global-v8-rendered-list-and-empty-paragraph-indices"
 }

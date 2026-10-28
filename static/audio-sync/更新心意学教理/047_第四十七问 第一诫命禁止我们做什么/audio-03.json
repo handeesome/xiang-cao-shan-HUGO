@@ -8,20 +8,54 @@
   "audioDuration": 106.573,
   "cues": [
     {
-      "start": 0.4,
-      "end": 1.74,
-      "kind": "heading",
-      "targetIndex": 6,
-      "targetText": "礼拜二",
-      "confidence": 0.8
-    },
-    {
       "start": 1.74,
-      "end": 58.44,
+      "end": 56.2,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "跟无上帝论者一样有一些人根本不相信有上帝还有许多人嘴里说有上帝甚至自称是信耶稣呢可是他们的生活仿",
-      "confidence": 0.851
+      "confidence": 0.975,
+      "quality": {
+        "coverage": 0.975,
+        "coherentCoverage": 0.975,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 1.74,
+        "previousEnd": 58.44,
+        "previousConfidence": 0.851
+      }
     },
     {
       "start": 58.44,
@@ -29,15 +63,291 @@
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "当我们的生命与我们的邻舍没有分别当我们跟非基督徒一样不怎么祷告读经我们就是用我们的生活来否认上帝",
-      "confidence": 0.861
+      "confidence": 0.873,
+      "quality": {
+        "coverage": 0.878,
+        "coherentCoverage": 0.829,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 58.44,
+        "previousEnd": 89.34,
+        "previousConfidence": 0.861
+      }
     },
     {
-      "start": 89.34,
+      "start": 90.62,
       "end": 105.24,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "以赛亚书2913主说因为这百姓亲近我用嘴唇尊敬我心却远离我他们敬畏我不过是领受人的吩咐",
-      "confidence": 0.81
+      "confidence": 0.81,
+      "quality": {
+        "coverage": 0.744,
+        "coherentCoverage": 0.744,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.55,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 8,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 89.34,
+        "previousEnd": 105.24,
+        "previousConfidence": 0.81
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 89.34,
+            "time": 90.62,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\47-2.mp3.json",
+              "sha256": "a09387baa98576f777f1f9469f49dab1d0dc6d28e78b62049b6ad9484052e1f7",
+              "anchor": {
+                "time": 90.62,
+                "score": 0.9987,
+                "ratio": 1.0,
+                "expected": "zhushuoyinweizhe100xingqinjinwoyongzui",
+                "actual": "主说因为这100姓亲近我用罪",
+                "span": [
+                  90.62,
+                  95.86
+                ],
+                "tokens": [
+                  {
+                    "text": "主",
+                    "start": 90.62,
+                    "end": 90.82,
+                    "rawStart": 248,
+                    "rawEnd": 248,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "说",
+                    "start": 90.82,
+                    "end": 91.14,
+                    "rawStart": 249,
+                    "rawEnd": 249,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "因",
+                    "start": 91.9,
+                    "end": 92.12,
+                    "rawStart": 250,
+                    "rawEnd": 250,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "为",
+                    "start": 91.9,
+                    "end": 92.12,
+                    "rawStart": 251,
+                    "rawEnd": 251,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "这",
+                    "start": 92.12,
+                    "end": 92.42,
+                    "rawStart": 252,
+                    "rawEnd": 252,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 92.42,
+                    "end": 92.68,
+                    "rawStart": 253,
+                    "rawEnd": 253,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "0",
+                    "start": 92.42,
+                    "end": 92.68,
+                    "rawStart": 254,
+                    "rawEnd": 254,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "0",
+                    "start": 92.42,
+                    "end": 92.68,
+                    "rawStart": 255,
+                    "rawEnd": 255,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "姓",
+                    "start": 92.68,
+                    "end": 93.0,
+                    "rawStart": 256,
+                    "rawEnd": 256,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "亲",
+                    "start": 93.0,
+                    "end": 93.52,
+                    "rawStart": 257,
+                    "rawEnd": 257,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "近",
+                    "start": 93.52,
+                    "end": 93.82,
+                    "rawStart": 258,
+                    "rawEnd": 258,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 93.82,
+                    "end": 94.2,
+                    "rawStart": 259,
+                    "rawEnd": 259,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "用",
+                    "start": 95.0,
+                    "end": 95.26,
+                    "rawStart": 260,
+                    "rawEnd": 260,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "罪",
+                    "start": 95.26,
+                    "end": 95.86,
+                    "rawStart": 261,
+                    "rawEnd": 261,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 88.58,
+                  "score": 0.8199,
+                  "actual": "章13节主说因为这100姓亲近我用"
+                }
+              },
+              "body": "主说:“因为这百姓亲近我,用嘴唇尊敬我,心却远离我;他们敬畏我,不过是领受人的吩咐。”"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.744,
+          "coherentCoverage": 0.744,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.55,
+          "suffixCoverage": 0.95,
+          "unmatchedLeadingChars": 8,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (8 leading chars, coverage 0.550): target 9: 以赛亚书29:13 主说：“因为这百姓亲近我，用嘴唇尊敬我，心却远离我；他们敬畏我，不过是领受人",
+    "unverified start anchor: target 9: 以赛亚书29:13 主说：“因为这百姓亲近我，用嘴唇尊敬我，心却远离我；他们敬畏我，不过是领受人",
+    "repair unverified start (previous-sync): target 9"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "7e682c238506a390e95eb86e5494c14f503e4e169a3aee6cb3edf573261715f3",
+  "repairCueDigest": "04286a17515690784f01b55d366cfe3f0ca25bfbe3486be44b1127197163f256",
+  "previousAlignmentWarnings": []
 }

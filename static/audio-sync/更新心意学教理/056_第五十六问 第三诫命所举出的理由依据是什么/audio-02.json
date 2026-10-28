@@ -8,20 +8,54 @@
   "audioDuration": 63.869375,
   "cues": [
     {
-      "start": 1.42,
-      "end": 4.49,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "礼拜一",
-      "confidence": 0.8
-    },
-    {
       "start": 4.49,
       "end": 34.91,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "上帝一直善待我们祂的名对于祂来说非常重要祂总是要祂的名得到当得的尊重祂赐给我们祂的名让我们为得救",
-      "confidence": 0.806
+      "confidence": 0.938,
+      "quality": {
+        "coverage": 0.934,
+        "coherentCoverage": 0.934,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 4.49,
+        "previousEnd": 34.91,
+        "previousConfidence": 0.806
+      }
     },
     {
       "start": 34.91,
@@ -29,7 +63,190 @@
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "罗马书101213犹太人和希腊人并没有分别因为众人同有一位主祂也厚待一切求告祂的人因为凡求告主名",
-      "confidence": 0.612
+      "confidence": 0.816,
+      "quality": {
+        "coverage": 0.755,
+        "coherentCoverage": 0.698,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.55,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 9,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 34.91,
+        "previousEnd": 50.15,
+        "previousConfidence": 0.612
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 34.91,
+            "time": 34.91,
+            "reason": "正文起句已定位，保留原先读出处范围",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\56-1.mp3.json",
+              "sha256": "d563c521a030b4252d6ac9c70da09b279315787f0e212166c569fe3cd81843be",
+              "anchor": {
+                "time": 35.95,
+                "score": 0.999,
+                "ratio": 1.0,
+                "expected": "youtairenhexilarenbingmeiyoufenbieyinwei",
+                "actual": "犹太人和希腊人并没有分别因为",
+                "span": [
+                  35.95,
+                  39.95
+                ],
+                "tokens": [
+                  {
+                    "text": "犹",
+                    "start": 35.95,
+                    "end": 36.55,
+                    "rawStart": 110,
+                    "rawEnd": 110,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "太",
+                    "start": 36.55,
+                    "end": 36.85,
+                    "rawStart": 111,
+                    "rawEnd": 111,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 36.85,
+                    "end": 37.17,
+                    "rawStart": 112,
+                    "rawEnd": 112,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "和",
+                    "start": 37.17,
+                    "end": 37.43,
+                    "rawStart": 113,
+                    "rawEnd": 113,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "希",
+                    "start": 37.43,
+                    "end": 37.71,
+                    "rawStart": 114,
+                    "rawEnd": 114,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "腊",
+                    "start": 37.71,
+                    "end": 37.83,
+                    "rawStart": 115,
+                    "rawEnd": 115,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 37.83,
+                    "end": 38.11,
+                    "rawStart": 116,
+                    "rawEnd": 116,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "并",
+                    "start": 38.11,
+                    "end": 38.35,
+                    "rawStart": 117,
+                    "rawEnd": 117,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "没",
+                    "start": 38.35,
+                    "end": 38.61,
+                    "rawStart": 118,
+                    "rawEnd": 118,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "有",
+                    "start": 38.35,
+                    "end": 38.61,
+                    "rawStart": 119,
+                    "rawEnd": 119,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "分",
+                    "start": 38.61,
+                    "end": 38.83,
+                    "rawStart": 120,
+                    "rawEnd": 120,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "别",
+                    "start": 38.83,
+                    "end": 39.13,
+                    "rawStart": 121,
+                    "rawEnd": 121,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "因",
+                    "start": 39.13,
+                    "end": 39.95,
+                    "rawStart": 122,
+                    "rawEnd": 122,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "为",
+                    "start": 39.13,
+                    "end": 39.95,
+                    "rawStart": 123,
+                    "rawEnd": 123,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "犹太人和希腊人并没有分别;因为众人同有一位主,祂也厚待一切求告祂的人。因为“凡求告主名的,就必得救。”",
+              "retainedCitationInterval": [
+                34.91,
+                35.95
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "start": 50.15,
@@ -37,7 +254,71 @@
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "上帝不仅告诉我们祂的名字是什么而且祂有告诉我们祂的名字是为了叫我们可以呼求来得到我们所需的救恩",
-      "confidence": 0.71
+      "confidence": 0.989,
+      "quality": {
+        "coverage": 0.979,
+        "coherentCoverage": 0.979,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 50.15,
+        "previousEnd": 63.11,
+        "previousConfidence": 0.71
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (9 leading chars, coverage 0.550): target 4: 罗马书10:12-13 犹太人和希腊人并没有分别；因为众人同有一位主，祂也厚待一切求告祂的人。因",
+    "unverified start anchor: target 4: 罗马书10:12-13 犹太人和希腊人并没有分别；因为众人同有一位主，祂也厚待一切求告祂的人。因",
+    "repair unverified start (previous-sync): target 4"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "6fa22b40bc2fa5def199ef0ac19a8e153e2d7f00774017be850ccf444bee89a4",
+  "repairCueDigest": "961301fe16702a21c6b10dc55f46e07e407beff49ca38038c2b0c5003974e6df",
+  "previousAlignmentWarnings": []
 }

@@ -8,36 +8,174 @@
   "audioDuration": 371.8385625,
   "cues": [
     {
-      "start": 1.17,
-      "end": 5.53,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第六日背十字架",
-      "confidence": 0.857
-    },
-    {
       "start": 5.53,
-      "end": 14.93,
+      "end": 23.17,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "不背着他的十字架跟从我的不配做我的门徒为我失丧生命的将要得着生命太十3839",
-      "confidence": 0.609
+      "confidence": 0.761,
+      "quality": {
+        "coverage": 0.921,
+        "coherentCoverage": 0.789,
+        "extraSpeechContext": true,
+        "prefixCoverage": 0.895,
+        "suffixCoverage": 0.947,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 5.53,
+        "previousEnd": 14.93,
+        "previousConfidence": 0.609
+      }
     },
     {
-      "start": 14.93,
-      "end": 107.03,
+      "start": 23.55,
+      "end": 107.47,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "我们已经看过保罗有关与基督同钉十字架伟大真理现在就转过来看主耶稣自己在这方面的教训我们就会发现保",
-      "confidence": 0.758
+      "confidence": 0.901,
+      "quality": {
+        "coverage": 0.901,
+        "coherentCoverage": 0.859,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 14.93,
+        "previousEnd": 107.03,
+        "previousConfidence": 0.758
+      }
     },
     {
-      "start": 107.03,
+      "start": 108.45,
       "end": 151.01,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "门徒一开始无法了解到这层道理但这些话就如种子般落入他们心中使其渐渐得到完全意义的启示门徒不仅背负",
-      "confidence": 0.904
+      "confidence": 0.941,
+      "quality": {
+        "coverage": 0.941,
+        "coherentCoverage": 0.904,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 107.03,
+        "previousEnd": 151.01,
+        "previousConfidence": 0.904
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "555bda74f7780fc7b21212ddbbc6a556279a2369a3f504f0442a3db7d0f67cce",
+  "repairCueDigest": "0dc02a55c0c5972331f12fbf8dde8554040af24da663f01e23c6a1bfa89534c4",
+  "previousAlignmentWarnings": []
 }

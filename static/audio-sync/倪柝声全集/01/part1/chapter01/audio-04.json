@@ -8,20 +8,54 @@
   "audioDuration": 308.598625,
   "cues": [
     {
-      "start": 1.46,
-      "end": 3.18,
-      "kind": "heading",
-      "targetIndex": 24,
-      "targetText": "是碰巧的么",
-      "confidence": 0.889
-    },
-    {
-      "start": 3.18,
-      "end": 73.46,
+      "start": 4.46,
+      "end": 72.18,
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "我们知道碰巧是不一定的是忽然间不知道什么缘故而偶然成功的定规呢就必定要有一位来出主意来定规若是说",
-      "confidence": 0.974
+      "confidence": 0.977,
+      "quality": {
+        "coverage": 0.977,
+        "coherentCoverage": 0.977,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 3.18,
+        "previousEnd": 73.46,
+        "previousConfidence": 0.974
+      }
     },
     {
       "start": 73.46,
@@ -29,7 +63,67 @@
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "让我讲一个实在的故事给你们听你们就会知道到底东西可不可以碰巧碰成功的有一个人有一次走到美国制造轧",
-      "confidence": 0.961
+      "confidence": 0.961,
+      "quality": {
+        "coverage": 0.959,
+        "coherentCoverage": 0.953,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 73.46,
+        "previousEnd": 307.3,
+        "previousConfidence": 0.961
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "79b84ce03a86d3e0cf4a054b815f5679a0b93c1958178c0cece0c54c39ba5b2a",
+  "repairCueDigest": "5d4996a4e229c0dd2c58a68f0bd71b03d4ec5850081451d431360b2ec29e2fed",
+  "previousAlignmentWarnings": []
 }

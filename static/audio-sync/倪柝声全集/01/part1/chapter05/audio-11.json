@@ -8,28 +8,148 @@
   "audioDuration": 231.995625,
   "cues": [
     {
-      "start": 2.53,
-      "end": 5.19,
-      "kind": "heading",
-      "targetIndex": 45,
-      "targetText": "八永远的分别",
-      "confidence": 0.909
-    },
-    {
       "start": 5.19,
-      "end": 154.37,
+      "end": 152.65,
       "kind": "paragraph",
-      "targetIndex": 46,
+      "targetIndex": 44,
       "targetText": "那两个强盗虽然生前是极亲密的不能分开但是他们现在已经永远分开了你和你的妻子是很亲密的她已经信主了",
-      "confidence": 0.869
+      "confidence": 0.956,
+      "quality": {
+        "coverage": 0.955,
+        "coherentCoverage": 0.923,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 5.19,
+        "previousEnd": 154.37,
+        "previousConfidence": 0.869
+      }
     },
     {
       "start": 154.37,
       "end": 228.31,
       "kind": "paragraph",
-      "targetIndex": 47,
+      "targetIndex": 45,
       "targetText": "得救的问题是应当在我们气还没有断以先就应当解决了的强盗快死但是他还没有死所以他有机会得救死了就没",
-      "confidence": 0.87
+      "confidence": 0.953,
+      "quality": {
+        "coverage": 0.953,
+        "coherentCoverage": 0.943,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 154.37,
+        "previousEnd": 228.31,
+        "previousConfidence": 0.87
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 46,
+      "targetIndex": 47,
+      "targetText": "那两个强盗虽然生前是极亲密的不能分开但是他们现在已经永远分开了你和你的妻子是很亲密的她已经信主了",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 47,
+      "targetIndex": 48,
+      "targetText": "得救的问题是应当在我们气还没有断以先就应当解决了的强盗快死但是他还没有死所以他有机会得救死了就没",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 47,
+      "targetIndex": 44,
+      "targetText": "那两个强盗虽然生前是极亲密的不能分开但是他们现在已经永远分开了你和你的妻子是很亲密的她已经信主了",
+      "method": "unchanged-source-span-after-proven-duplicate-removal"
+    },
+    {
+      "previousTargetIndex": 48,
+      "targetIndex": 45,
+      "targetText": "得救的问题是应当在我们气还没有断以先就应当解决了的强盗快死但是他还没有死所以他有机会得救死了就没",
+      "method": "unchanged-source-span-after-proven-duplicate-removal"
+    }
+  ],
+  "chronologyReordered": false,
+  "repairFingerprint": "4d5471a2d3f5891f366fbf0ff2772ed91002f74c1e52e242731d526e75d85d5a",
+  "repairCueDigest": "e78b5b55a6066ff021a9397d56c274de1993576307b9a05ce99fce861b7fdd87",
+  "previousAlignmentWarnings": [],
+  "targetIndexMethod": "body-global-v8-rendered-list-and-empty-paragraph-indices"
 }

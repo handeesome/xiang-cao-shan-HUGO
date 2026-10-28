@@ -8,20 +8,72 @@
   "audioDuration": 115.8933125,
   "cues": [
     {
-      "start": 1.84,
-      "end": 6.5,
-      "kind": "heading",
-      "targetIndex": 22,
-      "targetText": "宇宙间是谁管理呢",
-      "confidence": 1.0
-    },
-    {
       "start": 6.5,
       "end": 114.74,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "我真不知道有人还会有这大胆来说到宇宙之间有没有上帝的问题我现在不说暂且把它放在一边让我们再看论到",
-      "confidence": 0.966
+      "confidence": 0.966,
+      "quality": {
+        "coverage": 0.966,
+        "coherentCoverage": 0.963,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 6.5,
+        "previousEnd": 114.74,
+        "previousConfidence": 0.966
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "8b86f5019d36490eba91f8fff3acd085e59c77befea50d48ed35cdefcc288260",
+  "repairCueDigest": "1ae2bfd7762011de4781064d25686f6f4cd692aa1e1504bf1288617be43ce9cf",
+  "previousAlignmentWarnings": []
 }

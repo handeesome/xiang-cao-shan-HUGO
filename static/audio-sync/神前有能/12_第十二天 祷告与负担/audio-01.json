@@ -8,68 +8,623 @@
   "audioDuration": 522.6840625,
   "cues": [
     {
-      "start": 8.4,
-      "end": 19.22,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第十二天祷告与负担",
-      "confidence": 1.0
-    },
-    {
       "start": 19.22,
-      "end": 27.66,
+      "end": 29.54,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "你要把你的重担卸给耶和华祂必抚养你诗五五22上",
-      "confidence": 0.844
+      "confidence": 0.844,
+      "quality": {
+        "coverage": 0.87,
+        "coherentCoverage": 0.609,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.727,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "source": "existing-small-transcript-local-phrase",
+          "model": ".audio-sync-cache\\models\\small",
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\神前有能\\12.mp3.json",
+          "transcriptSha256": "fb4453a2e122edd49e8d10289428d3891d2a22b39da7ab94a47a53bd09ba2981",
+          "audioSha256": "deb7edb8a1dc626467b736f2078933ffdd085ad1f81d6fec9637505bb46f859e",
+          "window": [
+            25.54,
+            33.54
+          ],
+          "fullFileTranscribed": false,
+          "newDownloads": 0,
+          "listenedByAgent": false,
+          "timingPrecision": "word",
+          "localSupported": true,
+          "contextUsed": true,
+          "rawSegments": [
+            {
+              "start": 22.92,
+              "end": 25.58,
+              "text": "祂必服养你",
+              "words": [
+                {
+                  "start": 22.92,
+                  "end": 23.9,
+                  "text": "祂",
+                  "probability": 0.3660491555929184
+                },
+                {
+                  "start": 23.9,
+                  "end": 24.34,
+                  "text": "必",
+                  "probability": 0.9102101922035217
+                },
+                {
+                  "start": 24.34,
+                  "end": 24.64,
+                  "text": "服",
+                  "probability": 0.7613210678100586
+                },
+                {
+                  "start": 24.64,
+                  "end": 24.92,
+                  "text": "养",
+                  "probability": 0.8195385038852692
+                },
+                {
+                  "start": 24.92,
+                  "end": 25.58,
+                  "text": "你",
+                  "probability": 0.9314519762992859
+                }
+              ]
+            },
+            {
+              "start": 25.58,
+              "end": 29.54,
+              "text": "诗篇五十五篇二十二节上",
+              "words": [
+                {
+                  "start": 25.58,
+                  "end": 26.44,
+                  "text": "诗",
+                  "probability": 0.7273519337177277
+                },
+                {
+                  "start": 26.44,
+                  "end": 26.76,
+                  "text": "篇",
+                  "probability": 0.9895499348640442
+                },
+                {
+                  "start": 26.76,
+                  "end": 27.26,
+                  "text": "五",
+                  "probability": 0.3047594130039215
+                },
+                {
+                  "start": 27.26,
+                  "end": 27.44,
+                  "text": "十",
+                  "probability": 0.9924396276473999
+                },
+                {
+                  "start": 27.44,
+                  "end": 27.66,
+                  "text": "五",
+                  "probability": 0.9947382807731628
+                },
+                {
+                  "start": 27.66,
+                  "end": 28.0,
+                  "text": "篇",
+                  "probability": 0.9943421483039856
+                },
+                {
+                  "start": 28.0,
+                  "end": 28.42,
+                  "text": "二",
+                  "probability": 0.9019423723220825
+                },
+                {
+                  "start": 28.42,
+                  "end": 28.56,
+                  "text": "十",
+                  "probability": 0.9988783001899719
+                },
+                {
+                  "start": 28.56,
+                  "end": 28.76,
+                  "text": "二",
+                  "probability": 0.9988921284675598
+                },
+                {
+                  "start": 28.76,
+                  "end": 29.04,
+                  "text": "节",
+                  "probability": 0.9882405996322632
+                },
+                {
+                  "start": 29.04,
+                  "end": 29.54,
+                  "text": "上",
+                  "probability": 0.8328655958175659
+                }
+              ]
+            }
+          ],
+          "reason": "目标末尾诗篇55:22上出处读至29.54秒。",
+          "verified": true
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 19.22,
+        "previousEnd": 27.66,
+        "previousConfidence": 0.844
+      },
+      "boundaryCorrections": [
+        {
+          "book": "神前有能",
+          "page": "12_第十二天 祷告与负担.md",
+          "audio": "12.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\神前有能\\12_第十二天 祷告与负担\\audio-01.json",
+          "targetIndex": 1,
+          "edge": "end",
+          "previousTime": 27.66,
+          "time": 29.54,
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "kind": "local-phrase-boundary-correction",
+          "proof": {
+            "source": "existing-small-transcript-local-phrase",
+            "model": ".audio-sync-cache\\models\\small",
+            "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\神前有能\\12.mp3.json",
+            "transcriptSha256": "fb4453a2e122edd49e8d10289428d3891d2a22b39da7ab94a47a53bd09ba2981",
+            "audioSha256": "deb7edb8a1dc626467b736f2078933ffdd085ad1f81d6fec9637505bb46f859e",
+            "window": [
+              25.54,
+              33.54
+            ],
+            "fullFileTranscribed": false,
+            "newDownloads": 0,
+            "listenedByAgent": false,
+            "timingPrecision": "word",
+            "localSupported": true,
+            "contextUsed": true,
+            "rawSegments": [
+              {
+                "start": 22.92,
+                "end": 25.58,
+                "text": "祂必服养你",
+                "words": [
+                  {
+                    "start": 22.92,
+                    "end": 23.9,
+                    "text": "祂",
+                    "probability": 0.3660491555929184
+                  },
+                  {
+                    "start": 23.9,
+                    "end": 24.34,
+                    "text": "必",
+                    "probability": 0.9102101922035217
+                  },
+                  {
+                    "start": 24.34,
+                    "end": 24.64,
+                    "text": "服",
+                    "probability": 0.7613210678100586
+                  },
+                  {
+                    "start": 24.64,
+                    "end": 24.92,
+                    "text": "养",
+                    "probability": 0.8195385038852692
+                  },
+                  {
+                    "start": 24.92,
+                    "end": 25.58,
+                    "text": "你",
+                    "probability": 0.9314519762992859
+                  }
+                ]
+              },
+              {
+                "start": 25.58,
+                "end": 29.54,
+                "text": "诗篇五十五篇二十二节上",
+                "words": [
+                  {
+                    "start": 25.58,
+                    "end": 26.44,
+                    "text": "诗",
+                    "probability": 0.7273519337177277
+                  },
+                  {
+                    "start": 26.44,
+                    "end": 26.76,
+                    "text": "篇",
+                    "probability": 0.9895499348640442
+                  },
+                  {
+                    "start": 26.76,
+                    "end": 27.26,
+                    "text": "五",
+                    "probability": 0.3047594130039215
+                  },
+                  {
+                    "start": 27.26,
+                    "end": 27.44,
+                    "text": "十",
+                    "probability": 0.9924396276473999
+                  },
+                  {
+                    "start": 27.44,
+                    "end": 27.66,
+                    "text": "五",
+                    "probability": 0.9947382807731628
+                  },
+                  {
+                    "start": 27.66,
+                    "end": 28.0,
+                    "text": "篇",
+                    "probability": 0.9943421483039856
+                  },
+                  {
+                    "start": 28.0,
+                    "end": 28.42,
+                    "text": "二",
+                    "probability": 0.9019423723220825
+                  },
+                  {
+                    "start": 28.42,
+                    "end": 28.56,
+                    "text": "十",
+                    "probability": 0.9988783001899719
+                  },
+                  {
+                    "start": 28.56,
+                    "end": 28.76,
+                    "text": "二",
+                    "probability": 0.9988921284675598
+                  },
+                  {
+                    "start": 28.76,
+                    "end": 29.04,
+                    "text": "节",
+                    "probability": 0.9882405996322632
+                  },
+                  {
+                    "start": 29.04,
+                    "end": 29.54,
+                    "text": "上",
+                    "probability": 0.8328655958175659
+                  }
+                ]
+              }
+            ],
+            "reason": "目标末尾诗篇55:22上出处读至29.54秒。"
+          },
+          "reason": "目标末尾诗篇55:22上出处读至29.54秒。"
+        }
+      ]
     },
     {
-      "start": 27.66,
-      "end": 115.48,
+      "start": 34.94,
+      "end": 113.36,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "上帝每一次把一个祷告的意思放在我们里面都是圣灵先感动我们叫我们有负担特别要为着某件事祷告当你一有",
-      "confidence": 0.889
+      "confidence": 0.936,
+      "quality": {
+        "coverage": 0.938,
+        "coherentCoverage": 0.938,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 27.66,
+        "previousEnd": 115.48,
+        "previousConfidence": 0.889
+      }
     },
     {
       "start": 115.48,
-      "end": 217.68,
+      "end": 215.82,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "可惜有许多人是在那里消灭圣灵的感动把圣灵催促他祷告的那个感觉消灭了此后也不大有这种感觉临到他了这",
-      "confidence": 0.859
+      "confidence": 0.97,
+      "quality": {
+        "coverage": 0.968,
+        "coherentCoverage": 0.957,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 115.48,
+        "previousEnd": 217.68,
+        "previousConfidence": 0.859
+      }
     },
     {
       "start": 217.68,
-      "end": 267.84,
+      "end": 258.12,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "我们真要求上帝叫我们作一个忠心祷告的人一有担子立刻就把它卸掉就是用祷告把它吐露出来如果那个担子太",
-      "confidence": 0.86
+      "confidence": 0.86,
+      "quality": {
+        "coverage": 0.86,
+        "coherentCoverage": 0.763,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 217.68,
+        "previousEnd": 267.84,
+        "previousConfidence": 0.86
+      }
     },
     {
       "start": 267.84,
-      "end": 305.68,
+      "end": 303.4,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "如果你一直这样作祷告的工作你就是一根流通上帝旨意的管子上帝有什么事就可以来找你祷告了哦弟兄姊妹上",
-      "confidence": 0.954
+      "confidence": 0.963,
+      "quality": {
+        "coverage": 0.963,
+        "coherentCoverage": 0.963,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 267.84,
+        "previousEnd": 305.68,
+        "previousConfidence": 0.954
+      }
     },
     {
       "start": 305.68,
-      "end": 364.75,
+      "end": 362.74,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "所以要尽祷告的职事我们就得在上帝面前有祷告的负担我们不是要在这里设立一个律法乃是要把这一个原则摆",
-      "confidence": 0.918
+      "confidence": 0.955,
+      "quality": {
+        "coverage": 0.952,
+        "coherentCoverage": 0.928,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 305.68,
+        "previousEnd": 364.75,
+        "previousConfidence": 0.918
+      }
     },
     {
       "start": 364.75,
-      "end": 458.38,
+      "end": 457.18,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "同时不只要注意你自己有没有负担你还得注意聚会中别的弟兄姊妹的负担比方有一位姊妹受她丈夫的难为另外",
-      "confidence": 0.917
+      "confidence": 0.938,
+      "quality": {
+        "coverage": 0.934,
+        "coherentCoverage": 0.92,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 364.75,
+        "previousEnd": 458.38,
+        "previousConfidence": 0.917
+      }
     },
     {
       "start": 458.38,
@@ -77,7 +632,70 @@
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "弟兄们总要摸着整个聚会中的灵总要进入整个聚会的感觉里去有的事也许一次祷告就成有的事也许两次祷告才",
-      "confidence": 0.782
+      "confidence": 0.927,
+      "quality": {
+        "coverage": 0.927,
+        "coherentCoverage": 0.927,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 458.38,
+        "previousEnd": 503.7,
+        "previousConfidence": 0.782
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 1: “你要把你的重担卸给耶和华，祂必抚养你。”（诗五五22上）",
+    "repair unverified end (previous-sync): target 1"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 6,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "0f4f90988c578f3bcd0a91464527f52b15f0ae5b87ed2b94ed7490df44594a32",
+  "repairCueDigest": "ec82aae06444b1888c3f615771df059860b93b2236fd22335fc5a1126c92496b",
+  "previousAlignmentWarnings": []
 }

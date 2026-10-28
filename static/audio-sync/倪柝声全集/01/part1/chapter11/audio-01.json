@@ -8,36 +8,337 @@
   "audioDuration": 245.2799375,
   "cues": [
     {
-      "start": 7.28,
-      "end": 12.1,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "十一善人下地狱恶人上天堂",
-      "confidence": 0.727
-    },
-    {
       "start": 12.1,
-      "end": 19.6,
+      "end": 19.92,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "我们现在读圣经请大家看路加福音十八章九到十四节",
-      "confidence": 0.667
+      "confidence": 0.957,
+      "quality": {
+        "coverage": 0.957,
+        "coherentCoverage": 0.826,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.909,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": false,
+          "substitutionAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 12.1,
+        "previousEnd": 19.6,
+        "previousConfidence": 0.667
+      }
     },
     {
-      "start": 19.6,
+      "start": 21.56,
       "end": 85.0,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "耶稣向那些仗着自己是义人藐视别人的设一个比喻说有两个人上殿里去祷告一个是法利赛人一个是税吏法利赛",
-      "confidence": 0.807
+      "confidence": 0.838,
+      "quality": {
+        "coverage": 0.838,
+        "coherentCoverage": 0.734,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "source": "context-reviewed-existing-word-time",
+          "expectedPhrase": "「耶稣向那些仗着自己是义人，藐视别人的，设一个比喻，说：有两个人上殿里去祷告，一个是法利赛人，一",
+          "rawSegment": {
+            "start": 21.56,
+            "end": 25.2,
+            "text": "耶穌想那些仗著自己是藝人"
+          },
+          "time": 21.56,
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\倪柝声全集\\01\\chapter11\\1.mp3.json",
+          "transcriptSha256": "96d0b92d9658d6d3464d8771d7fcac92d3373454163a8b6b74ddeac7254614ee",
+          "audioSha256": "b8e58edd3f20018eadf51bc4147a8021f858d1014f7f190f4dffbb24665c93d5",
+          "timingPrecision": "word",
+          "reason": "前面读经提示及出处读完后才开始“耶稣向那些”；两个已有稿的句首21.56/22.01相近，原19.92秒属于前段出处末尾。",
+          "listenedByAgent": false
+        },
+        "endEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "source": "context-reviewed-existing-raw-words",
+          "contextUsed": true,
+          "identityAmbiguous": false,
+          "continuousAnchor": false,
+          "timingPrecision": "word",
+          "time": 85.0,
+          "expectedPhrase": "也不敢，只捶着胸说：神阿，开恩可怜我这个罪人。我告诉你们，这人回家去，比那人倒算为义了。因为凡自高的必降为卑；自卑的必升为高。」",
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\倪柝声全集\\01\\chapter11\\1.mp3.json",
+          "transcriptSha256": "96d0b92d9658d6d3464d8771d7fcac92d3373454163a8b6b74ddeac7254614ee",
+          "audioSha256": "b8e58edd3f20018eadf51bc4147a8021f858d1014f7f190f4dffbb24665c93d5",
+          "rawSegments": [
+            {
+              "start": 82.0,
+              "end": 85.0,
+              "text": "自卑的比胜为高",
+              "words": [
+                {
+                  "start": 82.0,
+                  "end": 83.0,
+                  "text": "自",
+                  "probability": 0.1437637358903885
+                },
+                {
+                  "start": 83.0,
+                  "end": 83.34,
+                  "text": "卑",
+                  "probability": 0.9613472521305084
+                },
+                {
+                  "start": 83.34,
+                  "end": 83.58,
+                  "text": "的",
+                  "probability": 0.8833810091018677
+                },
+                {
+                  "start": 83.58,
+                  "end": 84.08,
+                  "text": "比",
+                  "probability": 0.7001166343688965
+                },
+                {
+                  "start": 84.08,
+                  "end": 84.54,
+                  "text": "胜",
+                  "probability": 0.7254326939582825
+                },
+                {
+                  "start": 84.54,
+                  "end": 84.74,
+                  "text": "为",
+                  "probability": 0.4316892921924591
+                },
+                {
+                  "start": 84.74,
+                  "end": 85.0,
+                  "text": "高",
+                  "probability": 0.999210000038147
+                }
+              ]
+            }
+          ],
+          "reason": "自卑的必升为高识别为自卑的比胜为高；高的实际词尾85.00明确。保留此终点，不以后一段首字这跨停顿的疑点否定本段尾字。",
+          "listenedByAgent": false
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "previous-sync",
+        "previousStart": 19.6,
+        "previousEnd": 85.0,
+        "previousConfidence": 0.807
+      },
+      "boundaryCorrections": [
+        {
+          "edge": "start",
+          "previous": 19.92,
+          "current": 21.56,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-verified-end"
+          },
+          "confirmation": {
+            "verified": true,
+            "source": "context-reviewed-existing-word-time",
+            "expectedPhrase": "「耶稣向那些仗着自己是义人，藐视别人的，设一个比喻，说：有两个人上殿里去祷告，一个是法利赛人，一",
+            "rawSegment": {
+              "start": 21.56,
+              "end": 25.2,
+              "text": "耶穌想那些仗著自己是藝人"
+            },
+            "time": 21.56,
+            "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\倪柝声全集\\01\\chapter11\\1.mp3.json",
+            "transcriptSha256": "96d0b92d9658d6d3464d8771d7fcac92d3373454163a8b6b74ddeac7254614ee",
+            "audioSha256": "b8e58edd3f20018eadf51bc4147a8021f858d1014f7f190f4dffbb24665c93d5",
+            "timingPrecision": "word",
+            "reason": "前面读经提示及出处读完后才开始“耶稣向那些”；两个已有稿的句首21.56/22.01相近，原19.92秒属于前段出处末尾。",
+            "listenedByAgent": false
+          }
+        },
+        {
+          "book": "倪柝声全集",
+          "page": "01/part1/chapter11.md",
+          "audio": "01/chapter11/1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\倪柝声全集\\01\\part1\\chapter11\\audio-01.json",
+          "caseIndex": 175,
+          "targetIndex": 2,
+          "edge": "end",
+          "previousTime": 85.0,
+          "time": 85.0,
+          "kind": "verified-edge",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false,
+          "reason": "自卑的必升为高识别为自卑的比胜为高；高的实际词尾85.00明确。保留此终点，不以后一段首字这跨停顿的疑点否定本段尾字。"
+        }
+      ]
     },
     {
-      "start": 85.0,
-      "end": 160.51,
+      "start": 87.89,
+      "end": 159.59,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "这一段的圣经是说一个比喻这个比喻是主耶稣基督自己说的祂说有两个人上殿去祈祷一个是法利赛人是一个最",
-      "confidence": 0.921
+      "confidence": 0.925,
+      "quality": {
+        "coverage": 0.925,
+        "coherentCoverage": 0.864,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "source": "local-speech-region-clock-review",
+          "timingPrecision": "word",
+          "contextUsed": true,
+          "time": 87.89,
+          "wordSource": {
+            "path": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-followup-20261016\\medium-windows\\倪柝声全集\\01\\chapter11\\1.mp3.50001.json",
+            "sha256": "0496785605102d517de0b2ea94a34420d3a497f7c36f5ae2bebfa94ca3313688",
+            "words": [
+              {
+                "start": 87.89,
+                "end": 88.11,
+                "text": "这",
+                "probability": 0.783786416053772
+              }
+            ]
+          },
+          "independentLocalChecks": [
+            {
+              "path": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\clock-checks\\03.json",
+              "sha256": "b05015441299290c2500745249ab858a981b67c01f3a2ac721cee1d2b22829da",
+              "model": "base",
+              "start": 78.3,
+              "end": 94.03
+            },
+            {
+              "path": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\clock-checks\\split\\03-01-base.json",
+              "sha256": "a318fa6c147eb8091b431cb4175a6a69b5c9c90ec5ee06f0632e882b9ce0312a",
+              "model": "base",
+              "start": 82.664,
+              "end": 85.392
+            },
+            {
+              "path": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\clock-checks\\split\\03-01-medium.json",
+              "sha256": "7159c4c687ab2c72eb4757fbbe8396780c1673cc95395d2c4b50ea771327c58e",
+              "model": "medium",
+              "start": 82.664,
+              "end": 85.392
+            },
+            {
+              "path": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\clock-checks\\split\\03-02-base.json",
+              "sha256": "aab9aa224601f8a716b6dd7d51543089efc36599d7859a9177cbd610ea1a21c2",
+              "model": "base",
+              "start": 87.816,
+              "end": 90.128
+            },
+            {
+              "path": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\clock-checks\\split\\03-02-medium.json",
+              "sha256": "cf0cf9632b8ce9ec3816cc7d615365a504208399aca01e493e85edd22e92895a",
+              "model": "medium",
+              "start": 87.816,
+              "end": 90.128
+            }
+          ],
+          "audioSha256": "b8e58edd3f20018eadf51bc4147a8021f858d1014f7f190f4dffbb24665c93d5",
+          "reason": "按停顿分开的前区间两个模型均只读到前段高，后区间均从这一段的圣经开始。旧85秒来自长窗口首字跨停顿误挂；已有medium87.89与局部区间一致。",
+          "listenedByAgent": false
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 85.0,
+        "previousEnd": 160.51,
+        "previousConfidence": 0.921
+      },
+      "boundaryCorrections": [
+        {
+          "book": "倪柝声全集",
+          "page": "01/part1/chapter11.md",
+          "audio": "01/chapter11/1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\倪柝声全集\\01\\part1\\chapter11\\audio-01.json",
+          "targetIndex": 3,
+          "edge": "start",
+          "previousTime": 85.0,
+          "time": 87.89,
+          "kind": "acoustic-region-clock-confirmation",
+          "previousVerified": true,
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "reason": "按停顿分开的前区间两个模型均只读到前段高，后区间均从这一段的圣经开始。旧85秒来自长窗口首字跨停顿误挂；已有medium87.89与局部区间一致。"
+        }
+      ]
     },
     {
       "start": 160.51,
@@ -45,7 +346,74 @@
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "我们都是想好人上天堂坏人下地狱但是主耶稣说善人下地狱恶人上天堂不要希奇不要以为这是一个创闻如果有",
-      "confidence": 0.908
+      "confidence": 0.969,
+      "quality": {
+        "coverage": 0.971,
+        "coherentCoverage": 0.957,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 160.51,
+        "previousEnd": 244.35,
+        "previousConfidence": 0.908
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 2: 「耶稣向那些仗着自己是义人，藐视别人的，设一个比喻，说：有两个人上殿里去祷告，一个是法利赛人，一",
+    "unverified end anchor: target 2: 「耶稣向那些仗着自己是义人，藐视别人的，设一个比喻，说：有两个人上殿里去祷告，一个是法利赛人，一",
+    "repair unverified start (previous-verified-end): target 2",
+    "repair unverified end (previous-sync): target 2",
+    "context reviewed end: target 2; 自卑的必升为高识别为自卑的比胜为高；高的实际词尾85.00明确。保留此终点，不以后一段首字这跨停顿的疑点否定本段尾字。",
+    "clock context confirmed start: target 3; historical disagreement retained"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "6d2e842c895fa75a3d1692b3fb63669307a627787bfa779ea2a4736ac75f4061",
+  "repairCueDigest": "0a5336366c0cc2fafed3a5a39c2fce0167afd103ee37aae39b57ef244a754bb5",
+  "previousAlignmentWarnings": []
 }

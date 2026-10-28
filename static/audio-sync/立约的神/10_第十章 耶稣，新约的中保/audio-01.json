@@ -8,148 +8,3145 @@
   "audioDuration": 763.107375,
   "cues": [
     {
-      "start": 0.0,
-      "end": 13.7,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第十章耶稣新约的中保",
-      "confidence": 0.889
-    },
-    {
       "start": 13.7,
       "end": 17.34,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "我使你作众民的约赛426498",
-      "confidence": 0.522
+      "confidence": 0.522,
+      "quality": {
+        "coverage": 0.4,
+        "coherentCoverage": 0.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.714,
+        "suffixCoverage": 0.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 7,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 13.7,
+        "previousEnd": 17.34,
+        "previousConfidence": 0.522
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 17.34,
+            "time": 17.34,
+            "reason": "正文末句已定位，保留原出处结束范围，避免因书名识别差异截掉已读出处",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\立约的神\\10.mp3.json",
+              "sha256": "ee457d95580ee6d41687cc61d14e0eb1ea229ee8f15005cf716e1feecc8adc7b",
+              "anchor": {
+                "time": 16.08,
+                "score": 0.8737,
+                "ratio": 0.875,
+                "expected": "woshinizuozhongmindeyue",
+                "actual": "我使你做众名的约",
+                "span": [
+                  13.7,
+                  16.08
+                ],
+                "tokens": [
+                  {
+                    "text": "我",
+                    "start": 13.7,
+                    "end": 13.88,
+                    "rawStart": 28,
+                    "rawEnd": 28,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "使",
+                    "start": 13.88,
+                    "end": 14.18,
+                    "rawStart": 29,
+                    "rawEnd": 29,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 14.18,
+                    "end": 14.46,
+                    "rawStart": 30,
+                    "rawEnd": 30,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "做",
+                    "start": 14.46,
+                    "end": 14.94,
+                    "rawStart": 31,
+                    "rawEnd": 31,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "众",
+                    "start": 14.94,
+                    "end": 15.4,
+                    "rawStart": 32,
+                    "rawEnd": 32,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "名",
+                    "start": 15.4,
+                    "end": 15.7,
+                    "rawStart": 33,
+                    "rawEnd": 33,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 15.7,
+                    "end": 15.84,
+                    "rawStart": 34,
+                    "rawEnd": 34,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "约",
+                    "start": 15.84,
+                    "end": 16.08,
+                    "rawStart": 35,
+                    "rawEnd": 35,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "「我使你作众民的约。」",
+              "retainedCitationInterval": [
+                16.08,
+                17.34
+              ]
+            }
+          },
+          "start": {
+            "old": 13.7,
+            "time": 13.7,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\立约的神\\10.mp3.json",
+              "sha256": "ee457d95580ee6d41687cc61d14e0eb1ea229ee8f15005cf716e1feecc8adc7b",
+              "anchor": {
+                "time": 13.7,
+                "score": 0.875,
+                "ratio": 0.875,
+                "expected": "woshinizuozhongmindeyue",
+                "actual": "我使你做众名的约",
+                "span": [
+                  13.7,
+                  16.08
+                ],
+                "tokens": [
+                  {
+                    "text": "我",
+                    "start": 13.7,
+                    "end": 13.88,
+                    "rawStart": 28,
+                    "rawEnd": 28,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "使",
+                    "start": 13.88,
+                    "end": 14.18,
+                    "rawStart": 29,
+                    "rawEnd": 29,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 14.18,
+                    "end": 14.46,
+                    "rawStart": 30,
+                    "rawEnd": 30,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "做",
+                    "start": 14.46,
+                    "end": 14.94,
+                    "rawStart": 31,
+                    "rawEnd": 31,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "众",
+                    "start": 14.94,
+                    "end": 15.4,
+                    "rawStart": 32,
+                    "rawEnd": 32,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "名",
+                    "start": 15.4,
+                    "end": 15.7,
+                    "rawStart": 33,
+                    "rawEnd": 33,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 15.7,
+                    "end": 15.84,
+                    "rawStart": 34,
+                    "rawEnd": 34,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "约",
+                    "start": 15.84,
+                    "end": 16.08,
+                    "rawStart": 35,
+                    "rawEnd": 35,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "「我使你作众民的约。」"
+            }
+          }
+        }
+      }
     },
     {
-      "start": 17.34,
-      "end": 41.34,
+      "start": 21.68,
+      "end": 30.56,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "你们所寻求的主必忽然进入祂的殿立约的使者就是你们所仰慕的快要来到玛31",
-      "confidence": 0.718
+      "confidence": 0.617,
+      "quality": {
+        "coverage": 0.829,
+        "coherentCoverage": 0.771,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.882,
+        "suffixCoverage": 0.765,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 3,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 17.34,
+        "previousEnd": 41.34,
+        "previousConfidence": 0.718
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 41.34,
+            "time": 30.56,
+            "reason": "玛拉基引文至快要来到结束，后面是下一引文提示。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\立约的神\\10.mp3.json",
+              "sha256": "ba9bf00a9f5ceab569de40f7e916706fb0ad3636e734a53171633143d699f12b",
+              "segments": [
+                {
+                  "start": 21.68,
+                  "end": 30.56,
+                  "text": "你们所寻求的主比忽然进入他的殿,例约的使者就是你们所仰慕的快乐来到。",
+                  "words": [
+                    {
+                      "start": 21.68,
+                      "end": 21.86,
+                      "text": "你们",
+                      "probability": 0.8329100012779236
+                    },
+                    {
+                      "start": 21.86,
+                      "end": 22.2,
+                      "text": "所",
+                      "probability": 0.9932110905647278
+                    },
+                    {
+                      "start": 22.2,
+                      "end": 22.44,
+                      "text": "寻",
+                      "probability": 0.989323228597641
+                    },
+                    {
+                      "start": 22.44,
+                      "end": 22.66,
+                      "text": "求",
+                      "probability": 0.9994093179702759
+                    },
+                    {
+                      "start": 22.66,
+                      "end": 22.78,
+                      "text": "的",
+                      "probability": 0.9989745616912842
+                    },
+                    {
+                      "start": 22.78,
+                      "end": 23.04,
+                      "text": "主",
+                      "probability": 0.9711804389953613
+                    },
+                    {
+                      "start": 23.04,
+                      "end": 23.68,
+                      "text": "比",
+                      "probability": 0.37045109272003174
+                    },
+                    {
+                      "start": 23.68,
+                      "end": 24.3,
+                      "text": "忽",
+                      "probability": 0.9892722070217133
+                    },
+                    {
+                      "start": 24.3,
+                      "end": 24.6,
+                      "text": "然",
+                      "probability": 0.997177243232727
+                    },
+                    {
+                      "start": 24.6,
+                      "end": 24.96,
+                      "text": "进",
+                      "probability": 0.9521381855010986
+                    },
+                    {
+                      "start": 24.96,
+                      "end": 25.14,
+                      "text": "入",
+                      "probability": 0.9843355417251587
+                    },
+                    {
+                      "start": 25.14,
+                      "end": 25.34,
+                      "text": "他的",
+                      "probability": 0.532966136932373
+                    },
+                    {
+                      "start": 25.34,
+                      "end": 25.66,
+                      "text": "殿,",
+                      "probability": 0.8751308619976044
+                    },
+                    {
+                      "start": 26.46,
+                      "end": 26.72,
+                      "text": "例",
+                      "probability": 0.25655397772789
+                    },
+                    {
+                      "start": 26.72,
+                      "end": 26.9,
+                      "text": "约",
+                      "probability": 0.7773679494857788
+                    },
+                    {
+                      "start": 26.9,
+                      "end": 27.04,
+                      "text": "的",
+                      "probability": 0.9863244891166687
+                    },
+                    {
+                      "start": 27.04,
+                      "end": 27.28,
+                      "text": "使",
+                      "probability": 0.8962525129318237
+                    },
+                    {
+                      "start": 27.28,
+                      "end": 27.56,
+                      "text": "者",
+                      "probability": 0.9998443126678467
+                    },
+                    {
+                      "start": 27.56,
+                      "end": 28.16,
+                      "text": "就是",
+                      "probability": 0.9129132032394409
+                    },
+                    {
+                      "start": 28.16,
+                      "end": 28.4,
+                      "text": "你们",
+                      "probability": 0.9955476522445679
+                    },
+                    {
+                      "start": 28.4,
+                      "end": 28.7,
+                      "text": "所",
+                      "probability": 0.9943015575408936
+                    },
+                    {
+                      "start": 28.7,
+                      "end": 28.96,
+                      "text": "仰",
+                      "probability": 0.8521065711975098
+                    },
+                    {
+                      "start": 28.96,
+                      "end": 29.18,
+                      "text": "慕",
+                      "probability": 0.9388286173343658
+                    },
+                    {
+                      "start": 29.18,
+                      "end": 29.48,
+                      "text": "的",
+                      "probability": 0.994229793548584
+                    },
+                    {
+                      "start": 29.48,
+                      "end": 29.88,
+                      "text": "快",
+                      "probability": 0.7186651229858398
+                    },
+                    {
+                      "start": 29.88,
+                      "end": 30.06,
+                      "text": "乐",
+                      "probability": 0.5368747711181641
+                    },
+                    {
+                      "start": 30.06,
+                      "end": 30.28,
+                      "text": "来",
+                      "probability": 0.9571981430053711
+                    },
+                    {
+                      "start": 30.28,
+                      "end": 30.56,
+                      "text": "到。",
+                      "probability": 0.8951557874679565
+                    }
+                  ]
+                },
+                {
+                  "start": 32.06,
+                  "end": 35.76,
+                  "text": "再请看西布莱书七章二十二节",
+                  "words": [
+                    {
+                      "start": 32.06,
+                      "end": 32.62,
+                      "text": "再",
+                      "probability": 0.1582154482603073
+                    },
+                    {
+                      "start": 32.62,
+                      "end": 32.9,
+                      "text": "请",
+                      "probability": 0.7532917261123657
+                    },
+                    {
+                      "start": 32.9,
+                      "end": 33.18,
+                      "text": "看",
+                      "probability": 0.9887032508850098
+                    },
+                    {
+                      "start": 33.18,
+                      "end": 33.72,
+                      "text": "西",
+                      "probability": 0.4100741147994995
+                    },
+                    {
+                      "start": 33.72,
+                      "end": 33.82,
+                      "text": "布",
+                      "probability": 0.23276011645793915
+                    },
+                    {
+                      "start": 33.82,
+                      "end": 33.94,
+                      "text": "莱",
+                      "probability": 0.9630176723003387
+                    },
+                    {
+                      "start": 33.94,
+                      "end": 34.28,
+                      "text": "书",
+                      "probability": 0.901608407497406
+                    },
+                    {
+                      "start": 34.28,
+                      "end": 34.68,
+                      "text": "七",
+                      "probability": 0.3843795955181122
+                    },
+                    {
+                      "start": 34.68,
+                      "end": 34.92,
+                      "text": "章",
+                      "probability": 0.9969600737094879
+                    },
+                    {
+                      "start": 34.92,
+                      "end": 35.18,
+                      "text": "二",
+                      "probability": 0.872715175151825
+                    },
+                    {
+                      "start": 35.18,
+                      "end": 35.3,
+                      "text": "十",
+                      "probability": 0.9924141764640808
+                    },
+                    {
+                      "start": 35.3,
+                      "end": 35.5,
+                      "text": "二",
+                      "probability": 0.9982947707176208
+                    },
+                    {
+                      "start": 35.5,
+                      "end": 35.76,
+                      "text": "节",
+                      "probability": 0.9619746804237366
+                    }
+                  ]
+                },
+                {
+                  "start": 36.72,
+                  "end": 39.96,
+                  "text": "耶稣做了更美之约的终宝",
+                  "words": [
+                    {
+                      "start": 36.72,
+                      "end": 37.28,
+                      "text": "耶",
+                      "probability": 0.8023731708526611
+                    },
+                    {
+                      "start": 37.28,
+                      "end": 37.54,
+                      "text": "稣",
+                      "probability": 0.9380094707012177
+                    },
+                    {
+                      "start": 37.54,
+                      "end": 37.78,
+                      "text": "做",
+                      "probability": 0.8252472877502441
+                    },
+                    {
+                      "start": 37.78,
+                      "end": 38.02,
+                      "text": "了",
+                      "probability": 0.9981622099876404
+                    },
+                    {
+                      "start": 38.02,
+                      "end": 38.4,
+                      "text": "更",
+                      "probability": 0.9290356040000916
+                    },
+                    {
+                      "start": 38.4,
+                      "end": 38.8,
+                      "text": "美",
+                      "probability": 0.9915885329246521
+                    },
+                    {
+                      "start": 38.8,
+                      "end": 39.12,
+                      "text": "之",
+                      "probability": 0.9301834106445312
+                    },
+                    {
+                      "start": 39.12,
+                      "end": 39.3,
+                      "text": "约",
+                      "probability": 0.9801595211029053
+                    },
+                    {
+                      "start": 39.3,
+                      "end": 39.46,
+                      "text": "的",
+                      "probability": 0.9811752438545227
+                    },
+                    {
+                      "start": 39.46,
+                      "end": 39.66,
+                      "text": "终",
+                      "probability": 0.6022871509194374
+                    },
+                    {
+                      "start": 39.66,
+                      "end": 39.96,
+                      "text": "宝",
+                      "probability": 0.7194959223270416
+                    }
+                  ]
+                },
+                {
+                  "start": 39.96,
+                  "end": 45.04,
+                  "text": "或者说耶稣做了更美之约的确计",
+                  "words": [
+                    {
+                      "start": 39.96,
+                      "end": 41.02,
+                      "text": "或者",
+                      "probability": 0.9184466004371643
+                    },
+                    {
+                      "start": 41.02,
+                      "end": 41.34,
+                      "text": "说",
+                      "probability": 0.9689174294471741
+                    },
+                    {
+                      "start": 41.34,
+                      "end": 42.1,
+                      "text": "耶",
+                      "probability": 0.9721314907073975
+                    },
+                    {
+                      "start": 42.1,
+                      "end": 42.4,
+                      "text": "稣",
+                      "probability": 0.9983589947223663
+                    },
+                    {
+                      "start": 42.4,
+                      "end": 42.68,
+                      "text": "做",
+                      "probability": 0.991612434387207
+                    },
+                    {
+                      "start": 42.68,
+                      "end": 42.84,
+                      "text": "了",
+                      "probability": 0.9949706196784973
+                    },
+                    {
+                      "start": 42.84,
+                      "end": 43.12,
+                      "text": "更",
+                      "probability": 0.9992897510528564
+                    },
+                    {
+                      "start": 43.12,
+                      "end": 43.5,
+                      "text": "美",
+                      "probability": 0.999473512172699
+                    },
+                    {
+                      "start": 43.5,
+                      "end": 43.82,
+                      "text": "之",
+                      "probability": 0.9784048199653625
+                    },
+                    {
+                      "start": 43.82,
+                      "end": 44.0,
+                      "text": "约",
+                      "probability": 0.9996808171272278
+                    },
+                    {
+                      "start": 44.0,
+                      "end": 44.14,
+                      "text": "的",
+                      "probability": 0.9980688691139221
+                    },
+                    {
+                      "start": 44.14,
+                      "end": 44.52,
+                      "text": "确",
+                      "probability": 0.9376560747623444
+                    },
+                    {
+                      "start": 44.52,
+                      "end": 45.04,
+                      "text": "计",
+                      "probability": 0.5222662687301636
+                    }
+                  ]
+                }
+              ],
+              "source": "context-reviewed-paragraph-approximation"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.829,
+          "coherentCoverage": 0.771,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.882,
+          "suffixCoverage": 0.765,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 3,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 41.34,
-      "end": 55.42,
+      "start": 36.72,
+      "end": 45.04,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "耶稣作了更美之约的中保确据来722",
-      "confidence": 0.667
+      "confidence": 0.377,
+      "quality": {
+        "coverage": 0.471,
+        "coherentCoverage": 0.353,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.875,
+        "suffixCoverage": 0.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 8,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 41.34,
+        "previousEnd": 55.42,
+        "previousConfidence": 0.667
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 55.42,
+            "time": 45.04,
+            "reason": "包括随后或者说耶稣作更美之约确据这一同段括注。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\立约的神\\10.mp3.json",
+              "sha256": "ba9bf00a9f5ceab569de40f7e916706fb0ad3636e734a53171633143d699f12b",
+              "segments": [
+                {
+                  "start": 32.06,
+                  "end": 35.76,
+                  "text": "再请看西布莱书七章二十二节",
+                  "words": [
+                    {
+                      "start": 32.06,
+                      "end": 32.62,
+                      "text": "再",
+                      "probability": 0.1582154482603073
+                    },
+                    {
+                      "start": 32.62,
+                      "end": 32.9,
+                      "text": "请",
+                      "probability": 0.7532917261123657
+                    },
+                    {
+                      "start": 32.9,
+                      "end": 33.18,
+                      "text": "看",
+                      "probability": 0.9887032508850098
+                    },
+                    {
+                      "start": 33.18,
+                      "end": 33.72,
+                      "text": "西",
+                      "probability": 0.4100741147994995
+                    },
+                    {
+                      "start": 33.72,
+                      "end": 33.82,
+                      "text": "布",
+                      "probability": 0.23276011645793915
+                    },
+                    {
+                      "start": 33.82,
+                      "end": 33.94,
+                      "text": "莱",
+                      "probability": 0.9630176723003387
+                    },
+                    {
+                      "start": 33.94,
+                      "end": 34.28,
+                      "text": "书",
+                      "probability": 0.901608407497406
+                    },
+                    {
+                      "start": 34.28,
+                      "end": 34.68,
+                      "text": "七",
+                      "probability": 0.3843795955181122
+                    },
+                    {
+                      "start": 34.68,
+                      "end": 34.92,
+                      "text": "章",
+                      "probability": 0.9969600737094879
+                    },
+                    {
+                      "start": 34.92,
+                      "end": 35.18,
+                      "text": "二",
+                      "probability": 0.872715175151825
+                    },
+                    {
+                      "start": 35.18,
+                      "end": 35.3,
+                      "text": "十",
+                      "probability": 0.9924141764640808
+                    },
+                    {
+                      "start": 35.3,
+                      "end": 35.5,
+                      "text": "二",
+                      "probability": 0.9982947707176208
+                    },
+                    {
+                      "start": 35.5,
+                      "end": 35.76,
+                      "text": "节",
+                      "probability": 0.9619746804237366
+                    }
+                  ]
+                },
+                {
+                  "start": 36.72,
+                  "end": 39.96,
+                  "text": "耶稣做了更美之约的终宝",
+                  "words": [
+                    {
+                      "start": 36.72,
+                      "end": 37.28,
+                      "text": "耶",
+                      "probability": 0.8023731708526611
+                    },
+                    {
+                      "start": 37.28,
+                      "end": 37.54,
+                      "text": "稣",
+                      "probability": 0.9380094707012177
+                    },
+                    {
+                      "start": 37.54,
+                      "end": 37.78,
+                      "text": "做",
+                      "probability": 0.8252472877502441
+                    },
+                    {
+                      "start": 37.78,
+                      "end": 38.02,
+                      "text": "了",
+                      "probability": 0.9981622099876404
+                    },
+                    {
+                      "start": 38.02,
+                      "end": 38.4,
+                      "text": "更",
+                      "probability": 0.9290356040000916
+                    },
+                    {
+                      "start": 38.4,
+                      "end": 38.8,
+                      "text": "美",
+                      "probability": 0.9915885329246521
+                    },
+                    {
+                      "start": 38.8,
+                      "end": 39.12,
+                      "text": "之",
+                      "probability": 0.9301834106445312
+                    },
+                    {
+                      "start": 39.12,
+                      "end": 39.3,
+                      "text": "约",
+                      "probability": 0.9801595211029053
+                    },
+                    {
+                      "start": 39.3,
+                      "end": 39.46,
+                      "text": "的",
+                      "probability": 0.9811752438545227
+                    },
+                    {
+                      "start": 39.46,
+                      "end": 39.66,
+                      "text": "终",
+                      "probability": 0.6022871509194374
+                    },
+                    {
+                      "start": 39.66,
+                      "end": 39.96,
+                      "text": "宝",
+                      "probability": 0.7194959223270416
+                    }
+                  ]
+                },
+                {
+                  "start": 39.96,
+                  "end": 45.04,
+                  "text": "或者说耶稣做了更美之约的确计",
+                  "words": [
+                    {
+                      "start": 39.96,
+                      "end": 41.02,
+                      "text": "或者",
+                      "probability": 0.9184466004371643
+                    },
+                    {
+                      "start": 41.02,
+                      "end": 41.34,
+                      "text": "说",
+                      "probability": 0.9689174294471741
+                    },
+                    {
+                      "start": 41.34,
+                      "end": 42.1,
+                      "text": "耶",
+                      "probability": 0.9721314907073975
+                    },
+                    {
+                      "start": 42.1,
+                      "end": 42.4,
+                      "text": "稣",
+                      "probability": 0.9983589947223663
+                    },
+                    {
+                      "start": 42.4,
+                      "end": 42.68,
+                      "text": "做",
+                      "probability": 0.991612434387207
+                    },
+                    {
+                      "start": 42.68,
+                      "end": 42.84,
+                      "text": "了",
+                      "probability": 0.9949706196784973
+                    },
+                    {
+                      "start": 42.84,
+                      "end": 43.12,
+                      "text": "更",
+                      "probability": 0.9992897510528564
+                    },
+                    {
+                      "start": 43.12,
+                      "end": 43.5,
+                      "text": "美",
+                      "probability": 0.999473512172699
+                    },
+                    {
+                      "start": 43.5,
+                      "end": 43.82,
+                      "text": "之",
+                      "probability": 0.9784048199653625
+                    },
+                    {
+                      "start": 43.82,
+                      "end": 44.0,
+                      "text": "约",
+                      "probability": 0.9996808171272278
+                    },
+                    {
+                      "start": 44.0,
+                      "end": 44.14,
+                      "text": "的",
+                      "probability": 0.9980688691139221
+                    },
+                    {
+                      "start": 44.14,
+                      "end": 44.52,
+                      "text": "确",
+                      "probability": 0.9376560747623444
+                    },
+                    {
+                      "start": 44.52,
+                      "end": 45.04,
+                      "text": "计",
+                      "probability": 0.5222662687301636
+                    }
+                  ]
+                },
+                {
+                  "start": 45.94,
+                  "end": 49.76,
+                  "text": "再来看西布莱书八章六节",
+                  "words": [
+                    {
+                      "start": 45.94,
+                      "end": 46.5,
+                      "text": "再",
+                      "probability": 0.930371880531311
+                    },
+                    {
+                      "start": 46.5,
+                      "end": 46.66,
+                      "text": "来",
+                      "probability": 0.9890947937965393
+                    },
+                    {
+                      "start": 46.66,
+                      "end": 46.94,
+                      "text": "看",
+                      "probability": 0.9962047934532166
+                    },
+                    {
+                      "start": 46.94,
+                      "end": 47.76,
+                      "text": "西",
+                      "probability": 0.9329836368560791
+                    },
+                    {
+                      "start": 47.76,
+                      "end": 47.9,
+                      "text": "布",
+                      "probability": 0.9916706085205078
+                    },
+                    {
+                      "start": 47.9,
+                      "end": 48.0,
+                      "text": "莱",
+                      "probability": 0.9995307326316833
+                    },
+                    {
+                      "start": 48.0,
+                      "end": 48.38,
+                      "text": "书",
+                      "probability": 0.9999092817306519
+                    },
+                    {
+                      "start": 48.38,
+                      "end": 48.94,
+                      "text": "八",
+                      "probability": 0.973533570766449
+                    },
+                    {
+                      "start": 48.94,
+                      "end": 49.18,
+                      "text": "章",
+                      "probability": 0.9993017613887787
+                    },
+                    {
+                      "start": 49.18,
+                      "end": 49.4,
+                      "text": "六",
+                      "probability": 0.99642413854599
+                    },
+                    {
+                      "start": 49.4,
+                      "end": 49.76,
+                      "text": "节",
+                      "probability": 0.9963862895965576
+                    }
+                  ]
+                },
+                {
+                  "start": 49.76,
+                  "end": 51.44,
+                  "text": "九章十五节",
+                  "words": [
+                    {
+                      "start": 49.76,
+                      "end": 50.34,
+                      "text": "九",
+                      "probability": 0.8035925626754761
+                    },
+                    {
+                      "start": 50.34,
+                      "end": 50.64,
+                      "text": "章",
+                      "probability": 0.9997652769088745
+                    },
+                    {
+                      "start": 50.64,
+                      "end": 50.9,
+                      "text": "十",
+                      "probability": 0.9845826625823975
+                    },
+                    {
+                      "start": 50.9,
+                      "end": 51.12,
+                      "text": "五",
+                      "probability": 0.9979223608970642
+                    },
+                    {
+                      "start": 51.12,
+                      "end": 51.44,
+                      "text": "节",
+                      "probability": 0.9987781643867493
+                    }
+                  ]
+                },
+                {
+                  "start": 51.44,
+                  "end": 53.7,
+                  "text": "十二章二十四节",
+                  "words": [
+                    {
+                      "start": 51.44,
+                      "end": 52.06,
+                      "text": "十",
+                      "probability": 0.9807462692260742
+                    },
+                    {
+                      "start": 52.06,
+                      "end": 52.26,
+                      "text": "二",
+                      "probability": 0.998526930809021
+                    },
+                    {
+                      "start": 52.26,
+                      "end": 52.54,
+                      "text": "章",
+                      "probability": 0.9997884035110474
+                    },
+                    {
+                      "start": 52.54,
+                      "end": 52.84,
+                      "text": "二",
+                      "probability": 0.9984799027442932
+                    },
+                    {
+                      "start": 52.84,
+                      "end": 52.96,
+                      "text": "十",
+                      "probability": 0.9987251162528992
+                    },
+                    {
+                      "start": 52.96,
+                      "end": 53.24,
+                      "text": "四",
+                      "probability": 0.9986948370933533
+                    },
+                    {
+                      "start": 53.24,
+                      "end": 53.7,
+                      "text": "节",
+                      "probability": 0.9989411234855652
+                    }
+                  ]
+                },
+                {
+                  "start": 54.64,
+                  "end": 57.18,
+                  "text": "他做了更美之约的终宝",
+                  "words": [
+                    {
+                      "start": 54.64,
+                      "end": 55.2,
+                      "text": "他",
+                      "probability": 0.3850158751010895
+                    },
+                    {
+                      "start": 55.2,
+                      "end": 55.42,
+                      "text": "做",
+                      "probability": 0.9933345317840576
+                    },
+                    {
+                      "start": 55.42,
+                      "end": 55.56,
+                      "text": "了",
+                      "probability": 0.9965484738349915
+                    },
+                    {
+                      "start": 55.56,
+                      "end": 55.82,
+                      "text": "更",
+                      "probability": 0.9995633959770203
+                    },
+                    {
+                      "start": 55.82,
+                      "end": 56.14,
+                      "text": "美",
+                      "probability": 0.999707043170929
+                    },
+                    {
+                      "start": 56.14,
+                      "end": 56.44,
+                      "text": "之",
+                      "probability": 0.9902309775352478
+                    },
+                    {
+                      "start": 56.44,
+                      "end": 56.54,
+                      "text": "约",
+                      "probability": 0.9990944862365723
+                    },
+                    {
+                      "start": 56.54,
+                      "end": 56.68,
+                      "text": "的",
+                      "probability": 0.9970346689224243
+                    },
+                    {
+                      "start": 56.68,
+                      "end": 56.86,
+                      "text": "终",
+                      "probability": 0.9985350370407104
+                    },
+                    {
+                      "start": 56.86,
+                      "end": 57.18,
+                      "text": "宝",
+                      "probability": 0.9995899498462677
+                    }
+                  ]
+                }
+              ],
+              "source": "context-reviewed-paragraph-approximation"
+            }
+          },
+          "start": {
+            "old": 41.34,
+            "time": 36.72,
+            "reason": "耶稣作了更美之约的中保实际起句。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\立约的神\\10.mp3.json",
+              "sha256": "ba9bf00a9f5ceab569de40f7e916706fb0ad3636e734a53171633143d699f12b",
+              "segments": [
+                {
+                  "start": 21.68,
+                  "end": 30.56,
+                  "text": "你们所寻求的主比忽然进入他的殿,例约的使者就是你们所仰慕的快乐来到。",
+                  "words": [
+                    {
+                      "start": 21.68,
+                      "end": 21.86,
+                      "text": "你们",
+                      "probability": 0.8329100012779236
+                    },
+                    {
+                      "start": 21.86,
+                      "end": 22.2,
+                      "text": "所",
+                      "probability": 0.9932110905647278
+                    },
+                    {
+                      "start": 22.2,
+                      "end": 22.44,
+                      "text": "寻",
+                      "probability": 0.989323228597641
+                    },
+                    {
+                      "start": 22.44,
+                      "end": 22.66,
+                      "text": "求",
+                      "probability": 0.9994093179702759
+                    },
+                    {
+                      "start": 22.66,
+                      "end": 22.78,
+                      "text": "的",
+                      "probability": 0.9989745616912842
+                    },
+                    {
+                      "start": 22.78,
+                      "end": 23.04,
+                      "text": "主",
+                      "probability": 0.9711804389953613
+                    },
+                    {
+                      "start": 23.04,
+                      "end": 23.68,
+                      "text": "比",
+                      "probability": 0.37045109272003174
+                    },
+                    {
+                      "start": 23.68,
+                      "end": 24.3,
+                      "text": "忽",
+                      "probability": 0.9892722070217133
+                    },
+                    {
+                      "start": 24.3,
+                      "end": 24.6,
+                      "text": "然",
+                      "probability": 0.997177243232727
+                    },
+                    {
+                      "start": 24.6,
+                      "end": 24.96,
+                      "text": "进",
+                      "probability": 0.9521381855010986
+                    },
+                    {
+                      "start": 24.96,
+                      "end": 25.14,
+                      "text": "入",
+                      "probability": 0.9843355417251587
+                    },
+                    {
+                      "start": 25.14,
+                      "end": 25.34,
+                      "text": "他的",
+                      "probability": 0.532966136932373
+                    },
+                    {
+                      "start": 25.34,
+                      "end": 25.66,
+                      "text": "殿,",
+                      "probability": 0.8751308619976044
+                    },
+                    {
+                      "start": 26.46,
+                      "end": 26.72,
+                      "text": "例",
+                      "probability": 0.25655397772789
+                    },
+                    {
+                      "start": 26.72,
+                      "end": 26.9,
+                      "text": "约",
+                      "probability": 0.7773679494857788
+                    },
+                    {
+                      "start": 26.9,
+                      "end": 27.04,
+                      "text": "的",
+                      "probability": 0.9863244891166687
+                    },
+                    {
+                      "start": 27.04,
+                      "end": 27.28,
+                      "text": "使",
+                      "probability": 0.8962525129318237
+                    },
+                    {
+                      "start": 27.28,
+                      "end": 27.56,
+                      "text": "者",
+                      "probability": 0.9998443126678467
+                    },
+                    {
+                      "start": 27.56,
+                      "end": 28.16,
+                      "text": "就是",
+                      "probability": 0.9129132032394409
+                    },
+                    {
+                      "start": 28.16,
+                      "end": 28.4,
+                      "text": "你们",
+                      "probability": 0.9955476522445679
+                    },
+                    {
+                      "start": 28.4,
+                      "end": 28.7,
+                      "text": "所",
+                      "probability": 0.9943015575408936
+                    },
+                    {
+                      "start": 28.7,
+                      "end": 28.96,
+                      "text": "仰",
+                      "probability": 0.8521065711975098
+                    },
+                    {
+                      "start": 28.96,
+                      "end": 29.18,
+                      "text": "慕",
+                      "probability": 0.9388286173343658
+                    },
+                    {
+                      "start": 29.18,
+                      "end": 29.48,
+                      "text": "的",
+                      "probability": 0.994229793548584
+                    },
+                    {
+                      "start": 29.48,
+                      "end": 29.88,
+                      "text": "快",
+                      "probability": 0.7186651229858398
+                    },
+                    {
+                      "start": 29.88,
+                      "end": 30.06,
+                      "text": "乐",
+                      "probability": 0.5368747711181641
+                    },
+                    {
+                      "start": 30.06,
+                      "end": 30.28,
+                      "text": "来",
+                      "probability": 0.9571981430053711
+                    },
+                    {
+                      "start": 30.28,
+                      "end": 30.56,
+                      "text": "到。",
+                      "probability": 0.8951557874679565
+                    }
+                  ]
+                },
+                {
+                  "start": 32.06,
+                  "end": 35.76,
+                  "text": "再请看西布莱书七章二十二节",
+                  "words": [
+                    {
+                      "start": 32.06,
+                      "end": 32.62,
+                      "text": "再",
+                      "probability": 0.1582154482603073
+                    },
+                    {
+                      "start": 32.62,
+                      "end": 32.9,
+                      "text": "请",
+                      "probability": 0.7532917261123657
+                    },
+                    {
+                      "start": 32.9,
+                      "end": 33.18,
+                      "text": "看",
+                      "probability": 0.9887032508850098
+                    },
+                    {
+                      "start": 33.18,
+                      "end": 33.72,
+                      "text": "西",
+                      "probability": 0.4100741147994995
+                    },
+                    {
+                      "start": 33.72,
+                      "end": 33.82,
+                      "text": "布",
+                      "probability": 0.23276011645793915
+                    },
+                    {
+                      "start": 33.82,
+                      "end": 33.94,
+                      "text": "莱",
+                      "probability": 0.9630176723003387
+                    },
+                    {
+                      "start": 33.94,
+                      "end": 34.28,
+                      "text": "书",
+                      "probability": 0.901608407497406
+                    },
+                    {
+                      "start": 34.28,
+                      "end": 34.68,
+                      "text": "七",
+                      "probability": 0.3843795955181122
+                    },
+                    {
+                      "start": 34.68,
+                      "end": 34.92,
+                      "text": "章",
+                      "probability": 0.9969600737094879
+                    },
+                    {
+                      "start": 34.92,
+                      "end": 35.18,
+                      "text": "二",
+                      "probability": 0.872715175151825
+                    },
+                    {
+                      "start": 35.18,
+                      "end": 35.3,
+                      "text": "十",
+                      "probability": 0.9924141764640808
+                    },
+                    {
+                      "start": 35.3,
+                      "end": 35.5,
+                      "text": "二",
+                      "probability": 0.9982947707176208
+                    },
+                    {
+                      "start": 35.5,
+                      "end": 35.76,
+                      "text": "节",
+                      "probability": 0.9619746804237366
+                    }
+                  ]
+                },
+                {
+                  "start": 36.72,
+                  "end": 39.96,
+                  "text": "耶稣做了更美之约的终宝",
+                  "words": [
+                    {
+                      "start": 36.72,
+                      "end": 37.28,
+                      "text": "耶",
+                      "probability": 0.8023731708526611
+                    },
+                    {
+                      "start": 37.28,
+                      "end": 37.54,
+                      "text": "稣",
+                      "probability": 0.9380094707012177
+                    },
+                    {
+                      "start": 37.54,
+                      "end": 37.78,
+                      "text": "做",
+                      "probability": 0.8252472877502441
+                    },
+                    {
+                      "start": 37.78,
+                      "end": 38.02,
+                      "text": "了",
+                      "probability": 0.9981622099876404
+                    },
+                    {
+                      "start": 38.02,
+                      "end": 38.4,
+                      "text": "更",
+                      "probability": 0.9290356040000916
+                    },
+                    {
+                      "start": 38.4,
+                      "end": 38.8,
+                      "text": "美",
+                      "probability": 0.9915885329246521
+                    },
+                    {
+                      "start": 38.8,
+                      "end": 39.12,
+                      "text": "之",
+                      "probability": 0.9301834106445312
+                    },
+                    {
+                      "start": 39.12,
+                      "end": 39.3,
+                      "text": "约",
+                      "probability": 0.9801595211029053
+                    },
+                    {
+                      "start": 39.3,
+                      "end": 39.46,
+                      "text": "的",
+                      "probability": 0.9811752438545227
+                    },
+                    {
+                      "start": 39.46,
+                      "end": 39.66,
+                      "text": "终",
+                      "probability": 0.6022871509194374
+                    },
+                    {
+                      "start": 39.66,
+                      "end": 39.96,
+                      "text": "宝",
+                      "probability": 0.7194959223270416
+                    }
+                  ]
+                },
+                {
+                  "start": 39.96,
+                  "end": 45.04,
+                  "text": "或者说耶稣做了更美之约的确计",
+                  "words": [
+                    {
+                      "start": 39.96,
+                      "end": 41.02,
+                      "text": "或者",
+                      "probability": 0.9184466004371643
+                    },
+                    {
+                      "start": 41.02,
+                      "end": 41.34,
+                      "text": "说",
+                      "probability": 0.9689174294471741
+                    },
+                    {
+                      "start": 41.34,
+                      "end": 42.1,
+                      "text": "耶",
+                      "probability": 0.9721314907073975
+                    },
+                    {
+                      "start": 42.1,
+                      "end": 42.4,
+                      "text": "稣",
+                      "probability": 0.9983589947223663
+                    },
+                    {
+                      "start": 42.4,
+                      "end": 42.68,
+                      "text": "做",
+                      "probability": 0.991612434387207
+                    },
+                    {
+                      "start": 42.68,
+                      "end": 42.84,
+                      "text": "了",
+                      "probability": 0.9949706196784973
+                    },
+                    {
+                      "start": 42.84,
+                      "end": 43.12,
+                      "text": "更",
+                      "probability": 0.9992897510528564
+                    },
+                    {
+                      "start": 43.12,
+                      "end": 43.5,
+                      "text": "美",
+                      "probability": 0.999473512172699
+                    },
+                    {
+                      "start": 43.5,
+                      "end": 43.82,
+                      "text": "之",
+                      "probability": 0.9784048199653625
+                    },
+                    {
+                      "start": 43.82,
+                      "end": 44.0,
+                      "text": "约",
+                      "probability": 0.9996808171272278
+                    },
+                    {
+                      "start": 44.0,
+                      "end": 44.14,
+                      "text": "的",
+                      "probability": 0.9980688691139221
+                    },
+                    {
+                      "start": 44.14,
+                      "end": 44.52,
+                      "text": "确",
+                      "probability": 0.9376560747623444
+                    },
+                    {
+                      "start": 44.52,
+                      "end": 45.04,
+                      "text": "计",
+                      "probability": 0.5222662687301636
+                    }
+                  ]
+                },
+                {
+                  "start": 45.94,
+                  "end": 49.76,
+                  "text": "再来看西布莱书八章六节",
+                  "words": [
+                    {
+                      "start": 45.94,
+                      "end": 46.5,
+                      "text": "再",
+                      "probability": 0.930371880531311
+                    },
+                    {
+                      "start": 46.5,
+                      "end": 46.66,
+                      "text": "来",
+                      "probability": 0.9890947937965393
+                    },
+                    {
+                      "start": 46.66,
+                      "end": 46.94,
+                      "text": "看",
+                      "probability": 0.9962047934532166
+                    },
+                    {
+                      "start": 46.94,
+                      "end": 47.76,
+                      "text": "西",
+                      "probability": 0.9329836368560791
+                    },
+                    {
+                      "start": 47.76,
+                      "end": 47.9,
+                      "text": "布",
+                      "probability": 0.9916706085205078
+                    },
+                    {
+                      "start": 47.9,
+                      "end": 48.0,
+                      "text": "莱",
+                      "probability": 0.9995307326316833
+                    },
+                    {
+                      "start": 48.0,
+                      "end": 48.38,
+                      "text": "书",
+                      "probability": 0.9999092817306519
+                    },
+                    {
+                      "start": 48.38,
+                      "end": 48.94,
+                      "text": "八",
+                      "probability": 0.973533570766449
+                    },
+                    {
+                      "start": 48.94,
+                      "end": 49.18,
+                      "text": "章",
+                      "probability": 0.9993017613887787
+                    },
+                    {
+                      "start": 49.18,
+                      "end": 49.4,
+                      "text": "六",
+                      "probability": 0.99642413854599
+                    },
+                    {
+                      "start": 49.4,
+                      "end": 49.76,
+                      "text": "节",
+                      "probability": 0.9963862895965576
+                    }
+                  ]
+                }
+              ],
+              "source": "context-reviewed-paragraph-approximation"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.471,
+          "coherentCoverage": 0.353,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.875,
+          "suffixCoverage": 0.0,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 8,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 55.42,
+      "start": 54.64,
       "end": 68.74,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "祂作了更美之约的中保这约原是凭更美之应许立的新约的中保并新约的中保耶稣来869151224",
-      "confidence": 0.641
+      "confidence": 0.641,
+      "quality": {
+        "coverage": 0.556,
+        "coherentCoverage": 0.489,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.3,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 10,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 55.42,
+        "previousEnd": 68.74,
+        "previousConfidence": 0.641
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 68.74,
+            "time": 68.74,
+            "reason": "正文末句已定位，保留原出处结束范围，避免因书名识别差异截掉已读出处",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\立约的神\\10.mp3.json",
+              "sha256": "ee457d95580ee6d41687cc61d14e0eb1ea229ee8f15005cf716e1feecc8adc7b",
+              "anchor": {
+                "time": 67.2,
+                "score": 0.9985,
+                "ratio": 1.0,
+                "expected": "dexinyuedezhongbaobingxinyuedezhongbaoyesu",
+                "actual": "的新约的终宝并新约的终宝耶稣",
+                "span": [
+                  61.14,
+                  67.2
+                ],
+                "tokens": [
+                  {
+                    "text": "的",
+                    "start": 61.14,
+                    "end": 61.42,
+                    "rawStart": 159,
+                    "rawEnd": 159,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "新",
+                    "start": 62.3,
+                    "end": 62.9,
+                    "rawStart": 160,
+                    "rawEnd": 160,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "约",
+                    "start": 62.9,
+                    "end": 63.16,
+                    "rawStart": 161,
+                    "rawEnd": 161,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 63.16,
+                    "end": 63.3,
+                    "rawStart": 162,
+                    "rawEnd": 162,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "终",
+                    "start": 63.3,
+                    "end": 63.5,
+                    "rawStart": 163,
+                    "rawEnd": 163,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "宝",
+                    "start": 63.5,
+                    "end": 63.8,
+                    "rawStart": 164,
+                    "rawEnd": 164,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "并",
+                    "start": 64.52,
+                    "end": 65.12,
+                    "rawStart": 165,
+                    "rawEnd": 165,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "新",
+                    "start": 65.12,
+                    "end": 65.72,
+                    "rawStart": 166,
+                    "rawEnd": 166,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "约",
+                    "start": 65.72,
+                    "end": 66.0,
+                    "rawStart": 167,
+                    "rawEnd": 167,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 66.0,
+                    "end": 66.12,
+                    "rawStart": 168,
+                    "rawEnd": 168,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "终",
+                    "start": 66.12,
+                    "end": 66.34,
+                    "rawStart": 169,
+                    "rawEnd": 169,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "宝",
+                    "start": 66.34,
+                    "end": 66.6,
+                    "rawStart": 170,
+                    "rawEnd": 170,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "耶",
+                    "start": 66.6,
+                    "end": 66.94,
+                    "rawStart": 171,
+                    "rawEnd": 171,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "稣",
+                    "start": 66.94,
+                    "end": 67.2,
+                    "rawStart": 172,
+                    "rawEnd": 172,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 69.82,
+                  "score": 0.9203,
+                  "actual": "的新约的终宝并新约的终宝耶稣我们"
+                }
+              },
+              "body": "「祂作了更美之约的中保,这约原是凭更美之应许立的......新约的中保......并新约的中保耶稣。」",
+              "retainedCitationInterval": [
+                67.2,
+                68.74
+              ]
+            }
+          },
+          "start": {
+            "old": 55.42,
+            "time": 54.64,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\立约的神\\10.mp3.json",
+              "sha256": "ee457d95580ee6d41687cc61d14e0eb1ea229ee8f15005cf716e1feecc8adc7b",
+              "anchor": {
+                "time": 54.64,
+                "score": 0.9992,
+                "ratio": 1.0,
+                "expected": "tazuolegengmeizhiyuedezhongbaozheyueyuanshi",
+                "actual": "他做了更美之约的终宝这约原是",
+                "span": [
+                  54.64,
+                  59.08
+                ],
+                "tokens": [
+                  {
+                    "text": "他",
+                    "start": 54.64,
+                    "end": 55.2,
+                    "rawStart": 138,
+                    "rawEnd": 138,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "做",
+                    "start": 55.2,
+                    "end": 55.42,
+                    "rawStart": 139,
+                    "rawEnd": 139,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "了",
+                    "start": 55.42,
+                    "end": 55.56,
+                    "rawStart": 140,
+                    "rawEnd": 140,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "更",
+                    "start": 55.56,
+                    "end": 55.82,
+                    "rawStart": 141,
+                    "rawEnd": 141,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "美",
+                    "start": 55.82,
+                    "end": 56.14,
+                    "rawStart": 142,
+                    "rawEnd": 142,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "之",
+                    "start": 56.14,
+                    "end": 56.44,
+                    "rawStart": 143,
+                    "rawEnd": 143,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "约",
+                    "start": 56.44,
+                    "end": 56.54,
+                    "rawStart": 144,
+                    "rawEnd": 144,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 56.54,
+                    "end": 56.68,
+                    "rawStart": 145,
+                    "rawEnd": 145,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "终",
+                    "start": 56.68,
+                    "end": 56.86,
+                    "rawStart": 146,
+                    "rawEnd": 146,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "宝",
+                    "start": 56.86,
+                    "end": 57.18,
+                    "rawStart": 147,
+                    "rawEnd": 147,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "这",
+                    "start": 57.18,
+                    "end": 57.94,
+                    "rawStart": 148,
+                    "rawEnd": 148,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "约",
+                    "start": 57.94,
+                    "end": 58.2,
+                    "rawStart": 149,
+                    "rawEnd": 149,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "原",
+                    "start": 58.2,
+                    "end": 58.7,
+                    "rawStart": 150,
+                    "rawEnd": 150,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 58.7,
+                    "end": 59.08,
+                    "rawStart": 151,
+                    "rawEnd": 151,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 52.54,
+                  "score": 0.8823,
+                  "actual": "24节他做了更美之约的终宝这约原是"
+                }
+              },
+              "body": "「祂作了更美之约的中保,这约原是凭更美之应许立的......新约的中保......并新约的中保耶稣。」"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.556,
+          "coherentCoverage": 0.489,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.75,
+          "suffixCoverage": 0.3,
+          "unmatchedLeadingChars": 2,
+          "unmatchedTrailingChars": 10,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
       "start": 68.74,
-      "end": 150.26,
+      "end": 149.04,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "我们主耶稣在关乎新约的事上有四个名称祂被称为约祂自己成了上帝与人之间的连接上帝和人的关系被调和了",
-      "confidence": 0.917
+      "confidence": 0.955,
+      "quality": {
+        "coverage": 0.947,
+        "coherentCoverage": 0.934,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 68.74,
+        "previousEnd": 150.26,
+        "previousConfidence": 0.917
+      }
     },
     {
       "start": 150.26,
-      "end": 189.38,
+      "end": 188.28,
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "这个题目太大无法层层深入面面俱到基督代赎和代求的事工祂所赐下的圣灵和赦罪之恩以及每天予以我们的恩",
-      "confidence": 0.9
+      "confidence": 0.918,
+      "quality": {
+        "coverage": 0.918,
+        "coherentCoverage": 0.891,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 150.26,
+        "previousEnd": 189.38,
+        "previousConfidence": 0.9
+      }
     },
     {
       "start": 189.38,
-      "end": 254.86,
+      "end": 253.46,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "在我们学习新约的那一章里我们已经看见所有祝福的最高峰在于一件事上更正人心使祂能活在上帝的喜悦之中",
-      "confidence": 0.824
+      "confidence": 0.927,
+      "quality": {
+        "coverage": 0.922,
+        "coherentCoverage": 0.913,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\立约的神\\10.mp3.json",
+          "transcriptSha256": "ba9bf00a9f5ceab569de40f7e916706fb0ad3636e734a53171633143d699f12b",
+          "phraseChars": 12,
+          "candidate": 253.46,
+          "expectedPhrase": "盈着罪恶如今却满溢着恩典",
+          "actualPhrase": "颖的罪恶如今却满意著恩典",
+          "phoneticPhrase": [
+            "ying",
+            "zhe",
+            "zui",
+            "e",
+            "ru",
+            "jin",
+            "que",
+            "man",
+            "yi",
+            "zhe",
+            "en",
+            "dian"
+          ],
+          "actualPhoneticPhrase": [
+            "ying",
+            "de",
+            "zui",
+            "e",
+            "ru",
+            "jin",
+            "que",
+            "man",
+            "yi",
+            "zhu",
+            "en",
+            "dian"
+          ],
+          "verified": true,
+          "time": 253.46,
+          "boundedPhonetic": true,
+          "exactEndpointPhonemes": 2,
+          "maxInternalPhoneticDifferences": 2,
+          "phoneticDifferences": [
+            1,
+            9
+          ],
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "颖",
+              "start": 249.6,
+              "end": 249.8,
+              "rawStart": 715,
+              "rawEnd": 715,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 249.8,
+              "end": 249.96,
+              "rawStart": 716,
+              "rawEnd": 716,
+              "precision": "word"
+            },
+            {
+              "text": "罪",
+              "start": 249.96,
+              "end": 250.18,
+              "rawStart": 717,
+              "rawEnd": 717,
+              "precision": "word"
+            },
+            {
+              "text": "恶",
+              "start": 250.18,
+              "end": 250.56,
+              "rawStart": 718,
+              "rawEnd": 718,
+              "precision": "word"
+            },
+            {
+              "text": "如",
+              "start": 250.56,
+              "end": 251.2,
+              "rawStart": 719,
+              "rawEnd": 719,
+              "precision": "word"
+            },
+            {
+              "text": "今",
+              "start": 251.2,
+              "end": 251.48,
+              "rawStart": 720,
+              "rawEnd": 720,
+              "precision": "word"
+            },
+            {
+              "text": "却",
+              "start": 251.48,
+              "end": 251.94,
+              "rawStart": 721,
+              "rawEnd": 721,
+              "precision": "word"
+            },
+            {
+              "text": "满",
+              "start": 251.94,
+              "end": 252.48,
+              "rawStart": 722,
+              "rawEnd": 722,
+              "precision": "word"
+            },
+            {
+              "text": "意",
+              "start": 252.48,
+              "end": 252.8,
+              "rawStart": 723,
+              "rawEnd": 723,
+              "precision": "word"
+            },
+            {
+              "text": "著",
+              "start": 252.8,
+              "end": 252.98,
+              "rawStart": 724,
+              "rawEnd": 724,
+              "precision": "word"
+            },
+            {
+              "text": "恩",
+              "start": 252.98,
+              "end": 253.24,
+              "rawStart": 725,
+              "rawEnd": 725,
+              "precision": "word"
+            },
+            {
+              "text": "典",
+              "start": 253.24,
+              "end": 253.46,
+              "rawStart": 726,
+              "rawEnd": 726,
+              "precision": "word"
+            }
+          ],
+          "source": "bounded-local-phonetic-differences-original-word-times",
+          "listenedByAgent": false,
+          "audioSha256": "b35121c318e68ebe8e90e0d18f541dd4dec24011e213a74fe9d561390f634f2c",
+          "reason": "实际首/尾2个音节贴边相同，12音节局部短句最多2处内部识别差异；完整词边界、源段及录音唯一性、数字一致、停顿与相邻时间均核验，不逐字检查正文中间。"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 189.38,
+        "previousEnd": 254.86,
+        "previousConfidence": 0.824
+      },
+      "boundaryCorrections": [
+        {
+          "book": "立约的神",
+          "page": "10_第十章 耶稣，新约的中保.md",
+          "audio": "10.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\立约的神\\10_第十章 耶稣，新约的中保\\audio-01.json",
+          "targetIndex": 7,
+          "edge": "end",
+          "previousTime": 254.86,
+          "time": 253.46,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
       "start": 254.86,
-      "end": 306.66,
+      "end": 305.82,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "我不知道有什么比基督在人灵魂之中所做的工作更能彰显祂救恩的荣耀了这些灵魂曾经在旧约的重轭之下现今",
-      "confidence": 0.914
+      "confidence": 0.926,
+      "quality": {
+        "coverage": 0.926,
+        "coherentCoverage": 0.92,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 254.86,
+        "previousEnd": 306.66,
+        "previousConfidence": 0.914
+      }
     },
     {
       "start": 306.66,
-      "end": 382.36,
+      "end": 381.54,
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "第一步是感觉到罪的存在他感到自己的生命中没有经历到新约的那些应许经历的只有内里罪的辖制自私属世悖",
-      "confidence": 0.854
+      "confidence": 0.918,
+      "quality": {
+        "coverage": 0.918,
+        "coherentCoverage": 0.888,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 306.66,
+        "previousEnd": 382.36,
+        "previousConfidence": 0.854
+      }
     },
     {
       "start": 382.36,
-      "end": 394.92,
+      "end": 393.8,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "新约就是为了解脱人脱离罪的对这种救赎的强烈渴望是进入新约必不可少的条件",
-      "confidence": 0.676
+      "confidence": 0.93,
+      "quality": {
+        "coverage": 0.943,
+        "coherentCoverage": 0.857,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.882,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 382.36,
+        "previousEnd": 394.92,
+        "previousConfidence": 0.676
+      }
     },
     {
       "start": 394.92,
-      "end": 441.32,
+      "end": 439.88,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "现在到了第二步当人心已开始想到新约的那些祝福诸如罪得洗净一颗充满敬畏和上帝律法的心遵行上帝诫命的",
-      "confidence": 0.884
+      "confidence": 0.891,
+      "quality": {
+        "coverage": 0.891,
+        "coherentCoverage": 0.862,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 394.92,
+        "previousEnd": 441.32,
+        "previousConfidence": 0.884
+      }
     },
     {
       "start": 441.32,
-      "end": 466.12,
+      "end": 466.6,
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "接下来就是第三步了我们是否情愿放弃所有罪恶的习惯自己的愿望所有属于世界之灵的东西并完全独一地降伏",
-      "confidence": 0.718
+      "confidence": 0.924,
+      "quality": {
+        "coverage": 0.924,
+        "coherentCoverage": 0.924,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 441.32,
+        "previousEnd": 466.12,
+        "previousConfidence": 0.718
+      }
     },
     {
-      "start": 466.12,
-      "end": 567.86,
+      "start": 467.7,
+      "end": 566.9,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "最后一步是最简单的一步也是最难的一步在这里我们需要知道耶稣是约的中保约的应许说照着我们的信我们就",
-      "confidence": 0.869
+      "confidence": 0.932,
+      "quality": {
+        "coverage": 0.934,
+        "coherentCoverage": 0.9,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 466.12,
+        "previousEnd": 567.86,
+        "previousConfidence": 0.869
+      }
     },
     {
       "start": 567.86,
-      "end": 636.02,
+      "end": 636.48,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "当理解了这一点后信徒就会明白正如我们归信之时是信在起作用现在我们惟一要做的事也是舍弃自我投向耶稣",
-      "confidence": 0.815
+      "confidence": 0.899,
+      "quality": {
+        "coverage": 0.899,
+        "coherentCoverage": 0.853,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 567.86,
+        "previousEnd": 636.02,
+        "previousConfidence": 0.815
+      }
     },
     {
-      "start": 636.02,
-      "end": 677.08,
+      "start": 637.9,
+      "end": 677.66,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "有人担心过分地强调圣灵在人心的工作我们可能会忽视基督曾经和正在做的事答案很简单只有人心能真正尊崇",
-      "confidence": 0.828
+      "confidence": 0.918,
+      "quality": {
+        "coverage": 0.918,
+        "coherentCoverage": 0.91,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 636.02,
+        "previousEnd": 677.08,
+        "previousConfidence": 0.828
+      }
     },
     {
-      "start": 677.08,
-      "end": 727.82,
+      "start": 679.06,
+      "end": 730.22,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "如果要让我们自己谈一谈对更新我们的心会有何作为时我们恐怕会十分畏惧但新约刚好相反不是我们能做什么",
-      "confidence": 0.748
+      "confidence": 0.852,
+      "quality": {
+        "coverage": 0.849,
+        "coherentCoverage": 0.711,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.6,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\立约的神\\10.mp3.json",
+          "transcriptSha256": "ba9bf00a9f5ceab569de40f7e916706fb0ad3636e734a53171633143d699f12b",
+          "phraseChars": 12,
+          "candidate": 730.22,
+          "expectedPhrase": "的中保越单单地归荣耀给他",
+          "actualPhrase": "的中宝越担担的归容要给他",
+          "phoneticPhrase": [
+            "de",
+            "zhong",
+            "bao",
+            "yue",
+            "dan",
+            "dan",
+            "di",
+            "gui",
+            "rong",
+            "yao",
+            "gei",
+            "ta"
+          ],
+          "actualPhoneticPhrase": [
+            "de",
+            "zhong",
+            "bao",
+            "yue",
+            "dan",
+            "dan",
+            "de",
+            "gui",
+            "rong",
+            "yao",
+            "gei",
+            "ta"
+          ],
+          "verified": true,
+          "time": 730.22,
+          "boundedPhonetic": true,
+          "exactEndpointPhonemes": 2,
+          "maxInternalPhoneticDifferences": 2,
+          "phoneticDifferences": [
+            6
+          ],
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "的",
+              "start": 726.32,
+              "end": 726.46,
+              "rawStart": 2173,
+              "rawEnd": 2173,
+              "precision": "word"
+            },
+            {
+              "text": "中",
+              "start": 726.46,
+              "end": 726.68,
+              "rawStart": 2174,
+              "rawEnd": 2174,
+              "precision": "word"
+            },
+            {
+              "text": "宝",
+              "start": 726.68,
+              "end": 727.0,
+              "rawStart": 2175,
+              "rawEnd": 2175,
+              "precision": "word"
+            },
+            {
+              "text": "越",
+              "start": 727.44,
+              "end": 727.82,
+              "rawStart": 2176,
+              "rawEnd": 2176,
+              "precision": "word"
+            },
+            {
+              "text": "担",
+              "start": 727.82,
+              "end": 728.22,
+              "rawStart": 2177,
+              "rawEnd": 2177,
+              "precision": "word"
+            },
+            {
+              "text": "担",
+              "start": 728.22,
+              "end": 728.52,
+              "rawStart": 2178,
+              "rawEnd": 2178,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 728.52,
+              "end": 728.72,
+              "rawStart": 2179,
+              "rawEnd": 2179,
+              "precision": "word"
+            },
+            {
+              "text": "归",
+              "start": 728.72,
+              "end": 728.9,
+              "rawStart": 2180,
+              "rawEnd": 2180,
+              "precision": "word"
+            },
+            {
+              "text": "容",
+              "start": 728.9,
+              "end": 729.34,
+              "rawStart": 2181,
+              "rawEnd": 2181,
+              "precision": "word"
+            },
+            {
+              "text": "要",
+              "start": 729.34,
+              "end": 729.6,
+              "rawStart": 2182,
+              "rawEnd": 2182,
+              "precision": "word"
+            },
+            {
+              "text": "给",
+              "start": 729.6,
+              "end": 729.86,
+              "rawStart": 2183,
+              "rawEnd": 2183,
+              "precision": "word"
+            },
+            {
+              "text": "他",
+              "start": 729.86,
+              "end": 730.22,
+              "rawStart": 2184,
+              "rawEnd": 2184,
+              "precision": "word"
+            }
+          ],
+          "source": "bounded-local-phonetic-differences-original-word-times",
+          "listenedByAgent": false,
+          "audioSha256": "b35121c318e68ebe8e90e0d18f541dd4dec24011e213a74fe9d561390f634f2c",
+          "reason": "实际首/尾2个音节贴边相同，12音节局部短句最多2处内部识别差异；完整词边界、源段及录音唯一性、数字一致、停顿与相邻时间均核验，不逐字检查正文中间。"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 677.08,
+        "previousEnd": 727.82,
+        "previousConfidence": 0.748
+      },
+      "boundaryCorrections": [
+        {
+          "book": "立约的神",
+          "page": "10_第十章 耶稣，新约的中保.md",
+          "audio": "10.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\立约的神\\10_第十章 耶稣，新约的中保\\audio-01.json",
+          "targetIndex": 16,
+          "edge": "end",
+          "previousTime": 727.82,
+          "time": 730.22,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
-      "start": 727.82,
+      "start": 731.94,
       "end": 762.08,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "约是针对着人心的基督藉着人的信居住在那里如果我们的心不是建立在情绪或经验之上而是在对上帝的约的信",
-      "confidence": 0.905
+      "confidence": 0.967,
+      "quality": {
+        "coverage": 0.967,
+        "coherentCoverage": 0.934,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 727.82,
+        "previousEnd": 762.08,
+        "previousConfidence": 0.905
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (7 trailing chars, coverage 0.000): target 1: 「我使你作众民的约。」（赛42:6；49:8）",
+    "low confidence (0.522, coverage 0.400): target 1: 「我使你作众民的约。」（赛42:6；49:8）",
+    "unverified start anchor: target 1: 「我使你作众民的约。」（赛42:6；49:8）",
+    "unverified end anchor: target 1: 「我使你作众民的约。」（赛42:6；49:8）",
+    "unverified end anchor: target 2: 「你们所寻求的主，必忽然进入祂的殿；立约的使者，就是你们所仰慕的，快要来到。」（玛3:1）",
+    "incomplete end (8 trailing chars, coverage 0.000): target 3: 「耶稣作了更美之约的中保（确据）。」（来7:22）",
+    "low confidence (0.615, coverage 0.471): target 3: 「耶稣作了更美之约的中保（确据）。」（来7:22）",
+    "unverified start anchor: target 3: 「耶稣作了更美之约的中保（确据）。」（来7:22）",
+    "unverified end anchor: target 3: 「耶稣作了更美之约的中保（确据）。」（来7:22）",
+    "incomplete end (10 trailing chars, coverage 0.300): target 4: 「祂作了更美之约的中保，这约原是凭更美之应许立的……新约的中保……并新约的中保耶稣。」（来8:6",
+    "low confidence (0.450, coverage 0.556): target 4: 「祂作了更美之约的中保，这约原是凭更美之应许立的……新约的中保……并新约的中保耶稣。」（来8:6",
+    "unverified start anchor (detached boundary context): target 4: 「祂作了更美之约的中保，这约原是凭更美之应许立的……新约的中保……并新约的中保耶稣。」（来8:6",
+    "unverified end anchor: target 4: 「祂作了更美之约的中保，这约原是凭更美之应许立的……新约的中保……并新约的中保耶稣。」（来8:6",
+    "unverified end anchor: target 7: 在我们学习新约的那一章里，我们已经看见，所有祝福的最高峰在于一件事上——更正人心使祂能活在神的喜",
+    "unverified end anchor: target 16: 如果要让我们自己谈一谈对更新我们的心会有何作为时，我们恐怕会十分畏惧。但新约刚好相反。不是我们能",
+    "repair unverified start (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified end (previous-sync): target 2",
+    "repair unverified start (previous-sync): target 3",
+    "repair unverified end (previous-sync): target 3",
+    "repair unverified start (previous-sync): target 4",
+    "repair unverified end (previous-sync): target 4",
+    "repair unverified end (previous-sync): target 7",
+    "repair unverified end (previous-sync): target 16"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 5,
+    "updatedEnds": 10,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 3,
+    "unverifiedEnds": 6,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "c8b98b107e311b84dd197184c0ca85dd21637f3062c2442fcd08017bdaa47718",
+  "repairCueDigest": "3059e3b657fdf17c63302aa798ca9b528fa91842992649d2646c8d3ed4f13554",
+  "previousAlignmentWarnings": []
 }

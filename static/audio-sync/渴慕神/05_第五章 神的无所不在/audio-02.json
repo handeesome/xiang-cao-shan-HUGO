@@ -9,11 +9,305 @@
   "cues": [
     {
       "start": 1.74,
-      "end": 26.86,
+      "end": 25.92,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "各人生命中一切的长处都是出于上帝属灵感受性的背后乃是上帝上帝的至高主权就在这里显明即使是那些对这",
-      "confidence": 0.843
+      "confidence": 0.843,
+      "quality": {
+        "coverage": 0.79,
+        "coherentCoverage": 0.733,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.55,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "source": "existing-small-transcript-local-phrase",
+          "model": ".audio-sync-cache\\models\\small",
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\5-2.mp3.json",
+          "transcriptSha256": "a2ab60f22743c3e9785ae140c73edb7bd41829e94ba577876c171cf24c4d796b",
+          "audioSha256": null,
+          "audioDuration": 634.6068125,
+          "syncAudioDuration": 634.6068125,
+          "audioDurationMatch": true,
+          "fullFileTranscribed": false,
+          "newDownloads": 0,
+          "listenedByAgent": false,
+          "timingPrecision": "word",
+          "localSupported": true,
+          "contextUsed": true,
+          "verificationMethod": "bounded-local-12-syllable",
+          "verified": true,
+          "candidateTime": 25.92,
+          "expectedPhrase": "他的短诗中也承认这个事实",
+          "actualPhrase": "她的短尸中也承认这个事实",
+          "wordTokens": [
+            {
+              "text": "她",
+              "start": 22.66,
+              "end": 22.82,
+              "rawStart": 80,
+              "rawEnd": 80,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 22.82,
+              "end": 22.92,
+              "rawStart": 81,
+              "rawEnd": 81,
+              "precision": "word"
+            },
+            {
+              "text": "短",
+              "start": 22.92,
+              "end": 23.14,
+              "rawStart": 82,
+              "rawEnd": 82,
+              "precision": "word"
+            },
+            {
+              "text": "尸",
+              "start": 23.14,
+              "end": 23.38,
+              "rawStart": 83,
+              "rawEnd": 83,
+              "precision": "word"
+            },
+            {
+              "text": "中",
+              "start": 23.38,
+              "end": 23.6,
+              "rawStart": 84,
+              "rawEnd": 84,
+              "precision": "word"
+            },
+            {
+              "text": "也",
+              "start": 23.6,
+              "end": 24.08,
+              "rawStart": 85,
+              "rawEnd": 85,
+              "precision": "word"
+            },
+            {
+              "text": "承",
+              "start": 24.08,
+              "end": 24.44,
+              "rawStart": 86,
+              "rawEnd": 86,
+              "precision": "word"
+            },
+            {
+              "text": "认",
+              "start": 24.44,
+              "end": 24.72,
+              "rawStart": 87,
+              "rawEnd": 87,
+              "precision": "word"
+            },
+            {
+              "text": "这",
+              "start": 24.72,
+              "end": 25.04,
+              "rawStart": 88,
+              "rawEnd": 88,
+              "precision": "word"
+            },
+            {
+              "text": "个",
+              "start": 24.72,
+              "end": 25.04,
+              "rawStart": 89,
+              "rawEnd": 89,
+              "precision": "word"
+            },
+            {
+              "text": "事",
+              "start": 25.04,
+              "end": 25.28,
+              "rawStart": 90,
+              "rawEnd": 90,
+              "precision": "word"
+            },
+            {
+              "text": "实",
+              "start": 25.28,
+              "end": 25.92,
+              "rawStart": 91,
+              "rawEnd": 91,
+              "precision": "word"
+            }
+          ],
+          "phoneticDifferences": [],
+          "reason": "本段首/尾12音节局部短句唯一对应正文边界，词级时间及段落身份通过核验；词稿与sync记录时长完全一致。 录音文件不在工作区，因此没有可核对的音频 SHA-256。"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 1.74,
+        "previousEnd": 26.86,
+        "previousConfidence": 0.843
+      },
+      "boundaryCorrections": [
+        {
+          "book": "渴慕神",
+          "page": "05_第五章 神的无所不在.md",
+          "audio": "5-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\渴慕神\\05_第五章 神的无所不在\\audio-02.json",
+          "targetIndex": 20,
+          "edge": "end",
+          "previousTime": 26.86,
+          "time": 25.92,
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "kind": "local-phrase-boundary-correction",
+          "proof": {
+            "source": "existing-small-transcript-local-phrase",
+            "model": ".audio-sync-cache\\models\\small",
+            "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\5-2.mp3.json",
+            "transcriptSha256": "a2ab60f22743c3e9785ae140c73edb7bd41829e94ba577876c171cf24c4d796b",
+            "audioSha256": null,
+            "audioDuration": 634.6068125,
+            "syncAudioDuration": 634.6068125,
+            "audioDurationMatch": true,
+            "fullFileTranscribed": false,
+            "newDownloads": 0,
+            "listenedByAgent": false,
+            "timingPrecision": "word",
+            "localSupported": true,
+            "contextUsed": true,
+            "verificationMethod": "bounded-local-12-syllable",
+            "verified": true,
+            "candidateTime": 25.92,
+            "expectedPhrase": "他的短诗中也承认这个事实",
+            "actualPhrase": "她的短尸中也承认这个事实",
+            "wordTokens": [
+              {
+                "text": "她",
+                "start": 22.66,
+                "end": 22.82,
+                "rawStart": 80,
+                "rawEnd": 80,
+                "precision": "word"
+              },
+              {
+                "text": "的",
+                "start": 22.82,
+                "end": 22.92,
+                "rawStart": 81,
+                "rawEnd": 81,
+                "precision": "word"
+              },
+              {
+                "text": "短",
+                "start": 22.92,
+                "end": 23.14,
+                "rawStart": 82,
+                "rawEnd": 82,
+                "precision": "word"
+              },
+              {
+                "text": "尸",
+                "start": 23.14,
+                "end": 23.38,
+                "rawStart": 83,
+                "rawEnd": 83,
+                "precision": "word"
+              },
+              {
+                "text": "中",
+                "start": 23.38,
+                "end": 23.6,
+                "rawStart": 84,
+                "rawEnd": 84,
+                "precision": "word"
+              },
+              {
+                "text": "也",
+                "start": 23.6,
+                "end": 24.08,
+                "rawStart": 85,
+                "rawEnd": 85,
+                "precision": "word"
+              },
+              {
+                "text": "承",
+                "start": 24.08,
+                "end": 24.44,
+                "rawStart": 86,
+                "rawEnd": 86,
+                "precision": "word"
+              },
+              {
+                "text": "认",
+                "start": 24.44,
+                "end": 24.72,
+                "rawStart": 87,
+                "rawEnd": 87,
+                "precision": "word"
+              },
+              {
+                "text": "这",
+                "start": 24.72,
+                "end": 25.04,
+                "rawStart": 88,
+                "rawEnd": 88,
+                "precision": "word"
+              },
+              {
+                "text": "个",
+                "start": 24.72,
+                "end": 25.04,
+                "rawStart": 89,
+                "rawEnd": 89,
+                "precision": "word"
+              },
+              {
+                "text": "事",
+                "start": 25.04,
+                "end": 25.28,
+                "rawStart": 90,
+                "rawEnd": 90,
+                "precision": "word"
+              },
+              {
+                "text": "实",
+                "start": 25.28,
+                "end": 25.92,
+                "rawStart": 91,
+                "rawEnd": 91,
+                "precision": "word"
+              }
+            ],
+            "phoneticDifferences": [],
+            "reason": "本段首/尾12音节局部短句唯一对应正文边界，词级时间及段落身份通过核验；词稿与sync记录时长完全一致。 录音文件不在工作区，因此没有可核对的音频 SHA-256。"
+          },
+          "reason": "本段首/尾12音节局部短句唯一对应正文边界，词级时间及段落身份通过核验；词稿与sync记录时长完全一致。 录音文件不在工作区，因此没有可核对的音频 SHA-256。"
+        }
+      ]
     },
     {
       "start": 26.86,
@@ -21,15 +315,416 @@
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "我的无援的心",
-      "confidence": 0.833
+      "confidence": 0.833,
+      "quality": {
+        "coverage": 0.833,
+        "coherentCoverage": 0.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.667,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 26.86,
+        "previousEnd": 28.8,
+        "previousConfidence": 0.833
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 28.8,
+            "time": 28.8,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\5-2.mp3.json",
+              "sha256": "a2ab60f22743c3e9785ae140c73edb7bd41829e94ba577876c171cf24c4d796b",
+              "anchor": {
+                "time": 28.8,
+                "score": 1.0,
+                "ratio": 1.0,
+                "expected": "wodewuyuandexin",
+                "actual": "我的无缘的心",
+                "span": [
+                  26.86,
+                  28.8
+                ],
+                "tokens": [
+                  {
+                    "text": "我",
+                    "start": 26.86,
+                    "end": 27.5,
+                    "rawStart": 92,
+                    "rawEnd": 92,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 26.86,
+                    "end": 27.5,
+                    "rawStart": 93,
+                    "rawEnd": 93,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "无",
+                    "start": 27.5,
+                    "end": 28.14,
+                    "rawStart": 94,
+                    "rawEnd": 94,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "缘",
+                    "start": 28.14,
+                    "end": 28.38,
+                    "rawStart": 95,
+                    "rawEnd": 95,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 28.38,
+                    "end": 28.52,
+                    "rawStart": 96,
+                    "rawEnd": 96,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "心",
+                    "start": 28.52,
+                    "end": 28.8,
+                    "rawStart": 97,
+                    "rawEnd": 97,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "我的无援的心"
+            }
+          },
+          "start": {
+            "old": 26.86,
+            "time": 26.86,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\5-2.mp3.json",
+              "sha256": "a2ab60f22743c3e9785ae140c73edb7bd41829e94ba577876c171cf24c4d796b",
+              "anchor": {
+                "time": 26.86,
+                "score": 1.0,
+                "ratio": 1.0,
+                "expected": "wodewuyuandexin",
+                "actual": "我的无缘的心",
+                "span": [
+                  26.86,
+                  28.8
+                ],
+                "tokens": [
+                  {
+                    "text": "我",
+                    "start": 26.86,
+                    "end": 27.5,
+                    "rawStart": 92,
+                    "rawEnd": 92,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 26.86,
+                    "end": 27.5,
+                    "rawStart": 93,
+                    "rawEnd": 93,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "无",
+                    "start": 27.5,
+                    "end": 28.14,
+                    "rawStart": 94,
+                    "rawEnd": 94,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "缘",
+                    "start": 28.14,
+                    "end": 28.38,
+                    "rawStart": 95,
+                    "rawEnd": 95,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 28.38,
+                    "end": 28.52,
+                    "rawStart": 96,
+                    "rawEnd": 96,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "心",
+                    "start": 28.52,
+                    "end": 28.8,
+                    "rawStart": 97,
+                    "rawEnd": 97,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "我的无援的心"
+            }
+          }
+        }
+      }
     },
     {
       "start": 28.8,
-      "end": 33.02,
+      "end": 31.6,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "是干涸贫瘠的土",
-      "confidence": 0.462
+      "confidence": 0.429,
+      "quality": {
+        "coverage": 0.429,
+        "coherentCoverage": 0.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.667,
+        "suffixCoverage": 0.333,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 28.8,
+        "previousEnd": 33.02,
+        "previousConfidence": 0.462
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 33.02,
+            "time": 31.6,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\5-2.mp3.json",
+              "sha256": "a2ab60f22743c3e9785ae140c73edb7bd41829e94ba577876c171cf24c4d796b",
+              "anchor": {
+                "time": 31.6,
+                "score": 0.8557,
+                "ratio": 0.8571,
+                "expected": "shiganhepinjidetu",
+                "actual": "是干和平际的图",
+                "span": [
+                  28.8,
+                  31.6
+                ],
+                "tokens": [
+                  {
+                    "text": "是",
+                    "start": 28.8,
+                    "end": 29.64,
+                    "rawStart": 98,
+                    "rawEnd": 98,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "干",
+                    "start": 29.64,
+                    "end": 30.04,
+                    "rawStart": 99,
+                    "rawEnd": 99,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "和",
+                    "start": 30.04,
+                    "end": 30.46,
+                    "rawStart": 100,
+                    "rawEnd": 100,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "平",
+                    "start": 30.46,
+                    "end": 30.88,
+                    "rawStart": 101,
+                    "rawEnd": 101,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "际",
+                    "start": 30.88,
+                    "end": 31.16,
+                    "rawStart": 102,
+                    "rawEnd": 102,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 31.16,
+                    "end": 31.32,
+                    "rawStart": 103,
+                    "rawEnd": 103,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "图",
+                    "start": 31.32,
+                    "end": 31.6,
+                    "rawStart": 104,
+                    "rawEnd": 104,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "是干涸贫瘠的土"
+            }
+          },
+          "start": {
+            "old": 28.8,
+            "time": 28.8,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\5-2.mp3.json",
+              "sha256": "a2ab60f22743c3e9785ae140c73edb7bd41829e94ba577876c171cf24c4d796b",
+              "anchor": {
+                "time": 28.8,
+                "score": 0.8571,
+                "ratio": 0.8571,
+                "expected": "shiganhepinjidetu",
+                "actual": "是干和平际的图",
+                "span": [
+                  28.8,
+                  31.6
+                ],
+                "tokens": [
+                  {
+                    "text": "是",
+                    "start": 28.8,
+                    "end": 29.64,
+                    "rawStart": 98,
+                    "rawEnd": 98,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "干",
+                    "start": 29.64,
+                    "end": 30.04,
+                    "rawStart": 99,
+                    "rawEnd": 99,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "和",
+                    "start": 30.04,
+                    "end": 30.46,
+                    "rawStart": 100,
+                    "rawEnd": 100,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "平",
+                    "start": 30.46,
+                    "end": 30.88,
+                    "rawStart": 101,
+                    "rawEnd": 101,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "际",
+                    "start": 30.88,
+                    "end": 31.16,
+                    "rawStart": 102,
+                    "rawEnd": 102,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 31.16,
+                    "end": 31.32,
+                    "rawStart": 103,
+                    "rawEnd": 103,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "图",
+                    "start": 31.32,
+                    "end": 31.6,
+                    "rawStart": 104,
+                    "rawEnd": 104,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "是干涸贫瘠的土"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.429,
+          "coherentCoverage": 0.0,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.667,
+          "suffixCoverage": 0.333,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 1,
+          "reviewRequired": true,
+          "boundaryAdjusted": [
+            "end substitution"
+          ],
+          "startVerified": false,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
       "start": 33.02,
@@ -37,95 +732,1513 @@
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "天然本质",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 33.02,
+        "previousEnd": 34.22,
+        "previousConfidence": 1.0
+      }
     },
     {
       "start": 34.22,
-      "end": 38.02,
+      "end": 36.76,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "不得种以饱人",
-      "confidence": 0.667
+      "confidence": 0.667,
+      "quality": {
+        "coverage": 0.667,
+        "coherentCoverage": 0.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.667,
+        "suffixCoverage": 0.667,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 34.22,
+        "previousEnd": 38.02,
+        "previousConfidence": 0.667
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 38.02,
+            "time": 36.76,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\5-2.mp3.json",
+              "sha256": "a2ab60f22743c3e9785ae140c73edb7bd41829e94ba577876c171cf24c4d796b",
+              "anchor": {
+                "time": 36.76,
+                "score": 0.9987,
+                "ratio": 1.0,
+                "expected": "budezhongyibaoren",
+                "actual": "不得众以保人",
+                "span": [
+                  34.22,
+                  36.76
+                ],
+                "tokens": [
+                  {
+                    "text": "不",
+                    "start": 34.22,
+                    "end": 34.84,
+                    "rawStart": 109,
+                    "rawEnd": 109,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "得",
+                    "start": 34.84,
+                    "end": 35.02,
+                    "rawStart": 110,
+                    "rawEnd": 110,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "众",
+                    "start": 35.02,
+                    "end": 35.4,
+                    "rawStart": 111,
+                    "rawEnd": 111,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "以",
+                    "start": 35.4,
+                    "end": 36.06,
+                    "rawStart": 112,
+                    "rawEnd": 112,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "保",
+                    "start": 36.06,
+                    "end": 36.4,
+                    "rawStart": 113,
+                    "rawEnd": 113,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 36.4,
+                    "end": 36.76,
+                    "rawStart": 114,
+                    "rawEnd": 114,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "不得种以饱人"
+            }
+          },
+          "start": {
+            "old": 34.22,
+            "time": 34.22,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\5-2.mp3.json",
+              "sha256": "a2ab60f22743c3e9785ae140c73edb7bd41829e94ba577876c171cf24c4d796b",
+              "anchor": {
+                "time": 34.22,
+                "score": 1.0,
+                "ratio": 1.0,
+                "expected": "budezhongyibaoren",
+                "actual": "不得众以保人",
+                "span": [
+                  34.22,
+                  36.76
+                ],
+                "tokens": [
+                  {
+                    "text": "不",
+                    "start": 34.22,
+                    "end": 34.84,
+                    "rawStart": 109,
+                    "rawEnd": 109,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "得",
+                    "start": 34.84,
+                    "end": 35.02,
+                    "rawStart": 110,
+                    "rawEnd": 110,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "众",
+                    "start": 35.02,
+                    "end": 35.4,
+                    "rawStart": 111,
+                    "rawEnd": 111,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "以",
+                    "start": 35.4,
+                    "end": 36.06,
+                    "rawStart": 112,
+                    "rawEnd": 112,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "保",
+                    "start": 36.06,
+                    "end": 36.4,
+                    "rawStart": 113,
+                    "rawEnd": 113,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 36.4,
+                    "end": 36.76,
+                    "rawStart": 114,
+                    "rawEnd": 114,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "不得种以饱人"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.667,
+          "coherentCoverage": 0.0,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.667,
+          "suffixCoverage": 0.667,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
       "start": 38.02,
-      "end": 40.84,
+      "end": 39.92,
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "一切美善敬虔之果",
-      "confidence": 0.667
+      "confidence": 0.588,
+      "quality": {
+        "coverage": 0.625,
+        "coherentCoverage": 0.5,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.25,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 38.02,
+        "previousEnd": 40.84,
+        "previousConfidence": 0.667
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 40.84,
+            "time": 39.92,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\5-2.mp3.json",
+              "sha256": "a2ab60f22743c3e9785ae140c73edb7bd41829e94ba577876c171cf24c4d796b",
+              "anchor": {
+                "time": 39.92,
+                "score": 0.7491,
+                "ratio": 0.75,
+                "expected": "yiqiemeishanjingqianzhiguo",
+                "actual": "1切美善尽强之国",
+                "span": [
+                  38.02,
+                  39.92
+                ],
+                "tokens": [
+                  {
+                    "text": "1",
+                    "start": 38.02,
+                    "end": 38.24,
+                    "rawStart": 115,
+                    "rawEnd": 115,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "切",
+                    "start": 38.24,
+                    "end": 38.4,
+                    "rawStart": 116,
+                    "rawEnd": 116,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "美",
+                    "start": 38.4,
+                    "end": 38.62,
+                    "rawStart": 117,
+                    "rawEnd": 117,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "善",
+                    "start": 38.62,
+                    "end": 38.88,
+                    "rawStart": 118,
+                    "rawEnd": 118,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "尽",
+                    "start": 38.88,
+                    "end": 39.12,
+                    "rawStart": 119,
+                    "rawEnd": 119,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "强",
+                    "start": 39.12,
+                    "end": 39.38,
+                    "rawStart": 120,
+                    "rawEnd": 120,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "之",
+                    "start": 39.38,
+                    "end": 39.62,
+                    "rawStart": 121,
+                    "rawEnd": 121,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "国",
+                    "start": 39.62,
+                    "end": 39.92,
+                    "rawStart": 122,
+                    "rawEnd": 122,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "一切美善敬虔之果"
+            }
+          },
+          "start": {
+            "old": 38.02,
+            "time": 38.02,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\5-2.mp3.json",
+              "sha256": "a2ab60f22743c3e9785ae140c73edb7bd41829e94ba577876c171cf24c4d796b",
+              "anchor": {
+                "time": 38.02,
+                "score": 0.75,
+                "ratio": 0.75,
+                "expected": "yiqiemeishanjingqianzhiguo",
+                "actual": "1切美善尽强之国",
+                "span": [
+                  38.02,
+                  39.92
+                ],
+                "tokens": [
+                  {
+                    "text": "1",
+                    "start": 38.02,
+                    "end": 38.24,
+                    "rawStart": 115,
+                    "rawEnd": 115,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "切",
+                    "start": 38.24,
+                    "end": 38.4,
+                    "rawStart": 116,
+                    "rawEnd": 116,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "美",
+                    "start": 38.4,
+                    "end": 38.62,
+                    "rawStart": 117,
+                    "rawEnd": 117,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "善",
+                    "start": 38.62,
+                    "end": 38.88,
+                    "rawStart": 118,
+                    "rawEnd": 118,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "尽",
+                    "start": 38.88,
+                    "end": 39.12,
+                    "rawStart": 119,
+                    "rawEnd": 119,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "强",
+                    "start": 39.12,
+                    "end": 39.38,
+                    "rawStart": 120,
+                    "rawEnd": 120,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "之",
+                    "start": 39.38,
+                    "end": 39.62,
+                    "rawStart": 121,
+                    "rawEnd": 121,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "国",
+                    "start": 39.62,
+                    "end": 39.92,
+                    "rawStart": 122,
+                    "rawEnd": 122,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "一切美善敬虔之果"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.625,
+          "coherentCoverage": 0.5,
+          "extraSpeechContext": false,
+          "prefixCoverage": 1.0,
+          "suffixCoverage": 0.25,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 1,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 40.84,
-      "end": 43.6,
+      "start": 40.68,
+      "end": 42.3,
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "惟靠你作子粒",
-      "confidence": 0.6
+      "confidence": 0.545,
+      "quality": {
+        "coverage": 0.5,
+        "coherentCoverage": 0.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.667,
+        "suffixCoverage": 0.333,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 40.84,
+        "previousEnd": 43.6,
+        "previousConfidence": 0.6
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 43.6,
+            "time": 42.3,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\5-2.mp3.json",
+              "sha256": "a2ab60f22743c3e9785ae140c73edb7bd41829e94ba577876c171cf24c4d796b",
+              "anchor": {
+                "time": 42.3,
+                "score": 0.9987,
+                "ratio": 1.0,
+                "expected": "weikaonizuozili",
+                "actual": "为靠你做子力",
+                "span": [
+                  40.68,
+                  42.3
+                ],
+                "tokens": [
+                  {
+                    "text": "为",
+                    "start": 40.68,
+                    "end": 40.84,
+                    "rawStart": 123,
+                    "rawEnd": 123,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "靠",
+                    "start": 40.84,
+                    "end": 41.3,
+                    "rawStart": 124,
+                    "rawEnd": 124,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 41.3,
+                    "end": 41.52,
+                    "rawStart": 125,
+                    "rawEnd": 125,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "做",
+                    "start": 41.52,
+                    "end": 41.8,
+                    "rawStart": 126,
+                    "rawEnd": 126,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "子",
+                    "start": 41.8,
+                    "end": 42.06,
+                    "rawStart": 127,
+                    "rawEnd": 127,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "力",
+                    "start": 42.06,
+                    "end": 42.3,
+                    "rawStart": 128,
+                    "rawEnd": 128,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "惟靠你作子粒"
+            }
+          },
+          "start": {
+            "old": 40.84,
+            "time": 40.68,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\5-2.mp3.json",
+              "sha256": "a2ab60f22743c3e9785ae140c73edb7bd41829e94ba577876c171cf24c4d796b",
+              "anchor": {
+                "time": 40.68,
+                "score": 0.9998,
+                "ratio": 1.0,
+                "expected": "weikaonizuozili",
+                "actual": "为靠你做子力",
+                "span": [
+                  40.68,
+                  42.3
+                ],
+                "tokens": [
+                  {
+                    "text": "为",
+                    "start": 40.68,
+                    "end": 40.84,
+                    "rawStart": 123,
+                    "rawEnd": 123,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "靠",
+                    "start": 40.84,
+                    "end": 41.3,
+                    "rawStart": 124,
+                    "rawEnd": 124,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 41.3,
+                    "end": 41.52,
+                    "rawStart": 125,
+                    "rawEnd": 125,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "做",
+                    "start": 41.52,
+                    "end": 41.8,
+                    "rawStart": 126,
+                    "rawEnd": 126,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "子",
+                    "start": 41.8,
+                    "end": 42.06,
+                    "rawStart": 127,
+                    "rawEnd": 127,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "力",
+                    "start": 42.06,
+                    "end": 42.3,
+                    "rawStart": 128,
+                    "rawEnd": 128,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "惟靠你作子粒"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.5,
+          "coherentCoverage": 0.0,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.667,
+          "suffixCoverage": 0.333,
+          "unmatchedLeadingChars": 1,
+          "unmatchedTrailingChars": 1,
+          "reviewRequired": true,
+          "boundaryAdjusted": [
+            "end substitution"
+          ],
+          "startVerified": false,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
       "start": 43.6,
-      "end": 45.82,
+      "end": 45.26,
       "kind": "paragraph",
       "targetIndex": 27,
       "targetText": "你话出之处",
-      "confidence": 0.8
+      "confidence": 0.8,
+      "quality": {
+        "coverage": 0.8,
+        "coherentCoverage": 0.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.5,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 43.6,
+        "previousEnd": 45.82,
+        "previousConfidence": 0.8
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 45.82,
+            "time": 45.26,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\5-2.mp3.json",
+              "sha256": "a2ab60f22743c3e9785ae140c73edb7bd41829e94ba577876c171cf24c4d796b",
+              "anchor": {
+                "time": 45.26,
+                "score": 0.9994,
+                "ratio": 1.0,
+                "expected": "nihuachuzhichu",
+                "actual": "你化出之处",
+                "span": [
+                  43.6,
+                  45.26
+                ],
+                "tokens": [
+                  {
+                    "text": "你",
+                    "start": 43.6,
+                    "end": 43.86,
+                    "rawStart": 129,
+                    "rawEnd": 129,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "化",
+                    "start": 43.86,
+                    "end": 44.3,
+                    "rawStart": 130,
+                    "rawEnd": 130,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "出",
+                    "start": 44.3,
+                    "end": 44.62,
+                    "rawStart": 131,
+                    "rawEnd": 131,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "之",
+                    "start": 44.62,
+                    "end": 44.86,
+                    "rawStart": 132,
+                    "rawEnd": 132,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "处",
+                    "start": 44.86,
+                    "end": 45.26,
+                    "rawStart": 133,
+                    "rawEnd": 133,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "你话出之处"
+            }
+          },
+          "start": {
+            "old": 43.6,
+            "time": 43.6,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\5-2.mp3.json",
+              "sha256": "a2ab60f22743c3e9785ae140c73edb7bd41829e94ba577876c171cf24c4d796b",
+              "anchor": {
+                "time": 43.6,
+                "score": 1.0,
+                "ratio": 1.0,
+                "expected": "nihuachuzhichu",
+                "actual": "你化出之处",
+                "span": [
+                  43.6,
+                  45.26
+                ],
+                "tokens": [
+                  {
+                    "text": "你",
+                    "start": 43.6,
+                    "end": 43.86,
+                    "rawStart": 129,
+                    "rawEnd": 129,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "化",
+                    "start": 43.86,
+                    "end": 44.3,
+                    "rawStart": 130,
+                    "rawEnd": 130,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "出",
+                    "start": 44.3,
+                    "end": 44.62,
+                    "rawStart": 131,
+                    "rawEnd": 131,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "之",
+                    "start": 44.62,
+                    "end": 44.86,
+                    "rawStart": 132,
+                    "rawEnd": 132,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "处",
+                    "start": 44.86,
+                    "end": 45.26,
+                    "rawStart": 133,
+                    "rawEnd": 133,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "你话出之处"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.8,
+          "coherentCoverage": 0.0,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.5,
+          "suffixCoverage": 1.0,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
       "start": 45.82,
-      "end": 48.38,
+      "end": 47.16,
       "kind": "paragraph",
       "targetIndex": 28,
       "targetText": "生机随现",
-      "confidence": 0.857
+      "confidence": 0.75,
+      "quality": {
+        "coverage": 0.75,
+        "coherentCoverage": 0.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.5,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 45.82,
+        "previousEnd": 48.38,
+        "previousConfidence": 0.857
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 48.38,
+            "time": 47.16,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\5-2.mp3.json",
+              "sha256": "a2ab60f22743c3e9785ae140c73edb7bd41829e94ba577876c171cf24c4d796b",
+              "anchor": {
+                "time": 47.16,
+                "score": 0.9988,
+                "ratio": 1.0,
+                "expected": "shengjisuixian",
+                "actual": "生机随线",
+                "span": [
+                  45.82,
+                  47.16
+                ],
+                "tokens": [
+                  {
+                    "text": "生",
+                    "start": 45.82,
+                    "end": 45.98,
+                    "rawStart": 134,
+                    "rawEnd": 134,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "机",
+                    "start": 45.98,
+                    "end": 46.42,
+                    "rawStart": 135,
+                    "rawEnd": 135,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "随",
+                    "start": 46.42,
+                    "end": 46.78,
+                    "rawStart": 136,
+                    "rawEnd": 136,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "线",
+                    "start": 46.78,
+                    "end": 47.16,
+                    "rawStart": 137,
+                    "rawEnd": 137,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "生机随现"
+            }
+          },
+          "start": {
+            "old": 45.82,
+            "time": 45.82,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\5-2.mp3.json",
+              "sha256": "a2ab60f22743c3e9785ae140c73edb7bd41829e94ba577876c171cf24c4d796b",
+              "anchor": {
+                "time": 45.82,
+                "score": 1.0,
+                "ratio": 1.0,
+                "expected": "shengjisuixian",
+                "actual": "生机随线",
+                "span": [
+                  45.82,
+                  47.16
+                ],
+                "tokens": [
+                  {
+                    "text": "生",
+                    "start": 45.82,
+                    "end": 45.98,
+                    "rawStart": 134,
+                    "rawEnd": 134,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "机",
+                    "start": 45.98,
+                    "end": 46.42,
+                    "rawStart": 135,
+                    "rawEnd": 135,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "随",
+                    "start": 46.42,
+                    "end": 46.78,
+                    "rawStart": 136,
+                    "rawEnd": 136,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "线",
+                    "start": 46.78,
+                    "end": 47.16,
+                    "rawStart": 137,
+                    "rawEnd": 137,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "生机随现"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.75,
+          "coherentCoverage": 0.0,
+          "extraSpeechContext": false,
+          "prefixCoverage": 1.0,
+          "suffixCoverage": 0.5,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 1,
+          "reviewRequired": true,
+          "boundaryAdjusted": [
+            "end substitution"
+          ],
+          "startVerified": false,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
       "start": 48.38,
-      "end": 52.26,
+      "end": 51.4,
       "kind": "paragraph",
       "targetIndex": 29,
       "targetText": "你若不指示你真实的道路",
-      "confidence": 0.818
+      "confidence": 0.818,
+      "quality": {
+        "coverage": 0.818,
+        "coherentCoverage": 0.545,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.6,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\渴慕神\\5-2.mp3.json",
+          "transcriptSha256": "6e863b6540714f941ea7fa09cf685158307815ba720e8d4699f0be6f5c1ab7c9",
+          "candidate": 48.38,
+          "expectedPhrase": "你若不指示你真实的道路",
+          "actualPhrase": "你若不只是你真实的道路",
+          "phoneticPhrase": [
+            "ni",
+            "ruo",
+            "bu",
+            "zhi",
+            "shi",
+            "ni",
+            "zhen",
+            "shi",
+            "de",
+            "dao",
+            "lu"
+          ],
+          "verified": true,
+          "time": 48.38,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "exact-local-syllables-original-word-times",
+          "phoneticExact": true,
+          "literalEqual": false,
+          "wordTokens": [
+            {
+              "text": "你",
+              "start": 48.38,
+              "end": 48.7,
+              "rawStart": 138,
+              "rawEnd": 138,
+              "precision": "word"
+            },
+            {
+              "text": "若",
+              "start": 48.7,
+              "end": 49.22,
+              "rawStart": 139,
+              "rawEnd": 139,
+              "precision": "word"
+            },
+            {
+              "text": "不",
+              "start": 49.22,
+              "end": 49.46,
+              "rawStart": 140,
+              "rawEnd": 140,
+              "precision": "word"
+            },
+            {
+              "text": "只",
+              "start": 49.46,
+              "end": 49.8,
+              "rawStart": 141,
+              "rawEnd": 141,
+              "precision": "word"
+            },
+            {
+              "text": "是",
+              "start": 49.46,
+              "end": 49.8,
+              "rawStart": 142,
+              "rawEnd": 142,
+              "precision": "word"
+            },
+            {
+              "text": "你",
+              "start": 49.8,
+              "end": 50.26,
+              "rawStart": 143,
+              "rawEnd": 143,
+              "precision": "word"
+            },
+            {
+              "text": "真",
+              "start": 50.26,
+              "end": 50.58,
+              "rawStart": 144,
+              "rawEnd": 144,
+              "precision": "word"
+            },
+            {
+              "text": "实",
+              "start": 50.58,
+              "end": 50.82,
+              "rawStart": 145,
+              "rawEnd": 145,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 50.82,
+              "end": 50.96,
+              "rawStart": 146,
+              "rawEnd": 146,
+              "precision": "word"
+            },
+            {
+              "text": "道",
+              "start": 50.96,
+              "end": 51.12,
+              "rawStart": 147,
+              "rawEnd": 147,
+              "precision": "word"
+            },
+            {
+              "text": "路",
+              "start": 51.12,
+              "end": 51.4,
+              "rawStart": 148,
+              "rawEnd": 148,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "audioSha256": "e730c4bd57f091edcb6ddad1e73fb34984120b5c01911a04ed20f2790bc3c7ac",
+          "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.818,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 48.38,
+        "previousEnd": 52.26,
+        "previousConfidence": 0.818
+      },
+      "boundaryCorrections": [
+        {
+          "book": "渴慕神",
+          "page": "05_第五章 神的无所不在.md",
+          "audio": "5-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\渴慕神\\05_第五章 神的无所不在\\audio-02.json",
+          "targetIndex": 29,
+          "edge": "start",
+          "previousTime": 48.38,
+          "time": 48.38,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
       "start": 52.26,
-      "end": 55.32,
+      "end": 53.9,
       "kind": "paragraph",
       "targetIndex": 30,
       "targetText": "无人寻得着",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 52.26,
+        "previousEnd": 55.32,
+        "previousConfidence": 1.0
+      }
     },
     {
       "start": 55.32,
-      "end": 57.2,
+      "end": 56.16,
       "kind": "paragraph",
       "targetIndex": 31,
       "targetText": "父啊",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 0.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 55.32,
+        "previousEnd": 57.2,
+        "previousConfidence": 1.0
+      }
     },
     {
       "start": 57.2,
-      "end": 59.92,
+      "end": 58.3,
       "kind": "paragraph",
       "targetIndex": 32,
       "targetText": "你定要指引",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 57.2,
+        "previousEnd": 59.92,
+        "previousConfidence": 1.0
+      }
     },
     {
       "start": 59.92,
-      "end": 67.3,
+      "end": 66.38,
       "kind": "paragraph",
       "targetIndex": 33,
       "targetText": "这些话可以见证一个伟大圣徒深刻和严肃的生命是怎样的",
-      "confidence": 0.92
+      "confidence": 0.92,
+      "quality": {
+        "coverage": 0.92,
+        "coherentCoverage": 0.92,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.833,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 59.92,
+        "previousEnd": 67.3,
+        "previousConfidence": 0.92
+      }
     },
     {
       "start": 67.3,
-      "end": 117.42,
+      "end": 116.2,
       "kind": "paragraph",
       "targetIndex": 34,
       "targetText": "承认上帝在我们里面作工固然重要但是我却要提醒大家对这个观念若先存太大的成见定会领人到毫无生气的死",
-      "confidence": 0.842
+      "confidence": 0.976,
+      "quality": {
+        "coverage": 0.976,
+        "coherentCoverage": 0.97,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 67.3,
+        "previousEnd": 117.42,
+        "previousConfidence": 0.842
+      }
     },
     {
       "start": 117.42,
@@ -133,7 +2246,51 @@
       "kind": "paragraph",
       "targetIndex": 35,
       "targetText": "属灵的感受并不是简单而是相当的复杂的是由于灵魂深处几种不同性质的东西结合而成的它有亲切的作用有倾",
-      "confidence": 0.776
+      "confidence": 0.921,
+      "quality": {
+        "coverage": 0.916,
+        "coherentCoverage": 0.904,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 117.42,
+        "previousEnd": 163.42,
+        "previousConfidence": 0.776
+      }
     },
     {
       "start": 163.42,
@@ -141,55 +2298,801 @@
       "kind": "paragraph",
       "targetIndex": 36,
       "targetText": "现代的福音派一种极可怕的堕落就是忽视这方面的工作古时圣徒珍视培养灵性和操练敬虔在今天整个基督教的",
-      "confidence": 0.838
+      "confidence": 0.917,
+      "quality": {
+        "coverage": 0.913,
+        "coherentCoverage": 0.865,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 163.42,
+        "previousEnd": 243.03,
+        "previousConfidence": 0.838
+      }
     },
     {
       "start": 243.03,
-      "end": 276.59,
+      "end": 277.39,
       "kind": "paragraph",
       "targetIndex": 37,
       "targetText": "这种属灵生活的悲惨结果到处可以看见肤浅的生活空洞的宗教哲学用娱乐大众的手法举办传福音聚会注重人的",
-      "confidence": 0.754
+      "confidence": 0.924,
+      "quality": {
+        "coverage": 0.924,
+        "coherentCoverage": 0.899,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 243.03,
+        "previousEnd": 276.59,
+        "previousConfidence": 0.754
+      }
     },
     {
-      "start": 276.59,
-      "end": 354.09,
+      "start": 278.81,
+      "end": 352.45,
       "kind": "paragraph",
       "targetIndex": 38,
       "targetText": "这一种严重的属灵病症形成的原因不能叫哪一个单独的个人负其责任的但是也没有哪一个人可以完全推卸责任",
-      "confidence": 0.933
+      "confidence": 0.936,
+      "quality": {
+        "coverage": 0.933,
+        "coherentCoverage": 0.91,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "source": "existing-small-transcript-local-phrase",
+          "model": ".audio-sync-cache\\models\\small",
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\5-2.mp3.json",
+          "transcriptSha256": "a2ab60f22743c3e9785ae140c73edb7bd41829e94ba577876c171cf24c4d796b",
+          "audioSha256": null,
+          "audioDuration": 634.6068125,
+          "syncAudioDuration": 634.6068125,
+          "audioDurationMatch": true,
+          "fullFileTranscribed": false,
+          "newDownloads": 0,
+          "listenedByAgent": false,
+          "timingPrecision": "word",
+          "localSupported": true,
+          "contextUsed": true,
+          "verificationMethod": "bounded-local-12-syllable",
+          "verified": true,
+          "candidateTime": 352.45,
+          "expectedPhrase": "景就当作神所赐福的青草地",
+          "actualPhrase": "景就当作神所伺服的清草地",
+          "wordTokens": [
+            {
+              "text": "景",
+              "start": 348.85,
+              "end": 349.13,
+              "rawStart": 1113,
+              "rawEnd": 1113,
+              "precision": "word"
+            },
+            {
+              "text": "就",
+              "start": 349.13,
+              "end": 349.71,
+              "rawStart": 1114,
+              "rawEnd": 1114,
+              "precision": "word"
+            },
+            {
+              "text": "当",
+              "start": 349.71,
+              "end": 350.07,
+              "rawStart": 1115,
+              "rawEnd": 1115,
+              "precision": "word"
+            },
+            {
+              "text": "作",
+              "start": 350.07,
+              "end": 350.39,
+              "rawStart": 1116,
+              "rawEnd": 1116,
+              "precision": "word"
+            },
+            {
+              "text": "神",
+              "start": 350.39,
+              "end": 350.79,
+              "rawStart": 1117,
+              "rawEnd": 1118,
+              "precision": "word"
+            },
+            {
+              "text": "所",
+              "start": 350.79,
+              "end": 351.15,
+              "rawStart": 1119,
+              "rawEnd": 1119,
+              "precision": "word"
+            },
+            {
+              "text": "伺",
+              "start": 351.15,
+              "end": 351.47,
+              "rawStart": 1120,
+              "rawEnd": 1120,
+              "precision": "word"
+            },
+            {
+              "text": "服",
+              "start": 351.47,
+              "end": 351.65,
+              "rawStart": 1121,
+              "rawEnd": 1121,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 351.65,
+              "end": 351.77,
+              "rawStart": 1122,
+              "rawEnd": 1122,
+              "precision": "word"
+            },
+            {
+              "text": "清",
+              "start": 351.77,
+              "end": 352.01,
+              "rawStart": 1123,
+              "rawEnd": 1123,
+              "precision": "word"
+            },
+            {
+              "text": "草",
+              "start": 352.01,
+              "end": 352.27,
+              "rawStart": 1124,
+              "rawEnd": 1124,
+              "precision": "word"
+            },
+            {
+              "text": "地",
+              "start": 352.27,
+              "end": 352.45,
+              "rawStart": 1125,
+              "rawEnd": 1125,
+              "precision": "word"
+            }
+          ],
+          "phoneticDifferences": [],
+          "reason": "本段首/尾12音节局部短句唯一对应正文边界，词级时间及段落身份通过核验；词稿与sync记录时长完全一致。 录音文件不在工作区，因此没有可核对的音频 SHA-256。"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 276.59,
+        "previousEnd": 354.09,
+        "previousConfidence": 0.933
+      },
+      "boundaryCorrections": [
+        {
+          "book": "渴慕神",
+          "page": "05_第五章 神的无所不在.md",
+          "audio": "5-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\渴慕神\\05_第五章 神的无所不在\\audio-02.json",
+          "targetIndex": 38,
+          "edge": "end",
+          "previousTime": 354.09,
+          "time": 352.45,
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "kind": "local-phrase-boundary-correction",
+          "proof": {
+            "source": "existing-small-transcript-local-phrase",
+            "model": ".audio-sync-cache\\models\\small",
+            "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\5-2.mp3.json",
+            "transcriptSha256": "a2ab60f22743c3e9785ae140c73edb7bd41829e94ba577876c171cf24c4d796b",
+            "audioSha256": null,
+            "audioDuration": 634.6068125,
+            "syncAudioDuration": 634.6068125,
+            "audioDurationMatch": true,
+            "fullFileTranscribed": false,
+            "newDownloads": 0,
+            "listenedByAgent": false,
+            "timingPrecision": "word",
+            "localSupported": true,
+            "contextUsed": true,
+            "verificationMethod": "bounded-local-12-syllable",
+            "verified": true,
+            "candidateTime": 352.45,
+            "expectedPhrase": "景就当作神所赐福的青草地",
+            "actualPhrase": "景就当作神所伺服的清草地",
+            "wordTokens": [
+              {
+                "text": "景",
+                "start": 348.85,
+                "end": 349.13,
+                "rawStart": 1113,
+                "rawEnd": 1113,
+                "precision": "word"
+              },
+              {
+                "text": "就",
+                "start": 349.13,
+                "end": 349.71,
+                "rawStart": 1114,
+                "rawEnd": 1114,
+                "precision": "word"
+              },
+              {
+                "text": "当",
+                "start": 349.71,
+                "end": 350.07,
+                "rawStart": 1115,
+                "rawEnd": 1115,
+                "precision": "word"
+              },
+              {
+                "text": "作",
+                "start": 350.07,
+                "end": 350.39,
+                "rawStart": 1116,
+                "rawEnd": 1116,
+                "precision": "word"
+              },
+              {
+                "text": "神",
+                "start": 350.39,
+                "end": 350.79,
+                "rawStart": 1117,
+                "rawEnd": 1118,
+                "precision": "word"
+              },
+              {
+                "text": "所",
+                "start": 350.79,
+                "end": 351.15,
+                "rawStart": 1119,
+                "rawEnd": 1119,
+                "precision": "word"
+              },
+              {
+                "text": "伺",
+                "start": 351.15,
+                "end": 351.47,
+                "rawStart": 1120,
+                "rawEnd": 1120,
+                "precision": "word"
+              },
+              {
+                "text": "服",
+                "start": 351.47,
+                "end": 351.65,
+                "rawStart": 1121,
+                "rawEnd": 1121,
+                "precision": "word"
+              },
+              {
+                "text": "的",
+                "start": 351.65,
+                "end": 351.77,
+                "rawStart": 1122,
+                "rawEnd": 1122,
+                "precision": "word"
+              },
+              {
+                "text": "清",
+                "start": 351.77,
+                "end": 352.01,
+                "rawStart": 1123,
+                "rawEnd": 1123,
+                "precision": "word"
+              },
+              {
+                "text": "草",
+                "start": 352.01,
+                "end": 352.27,
+                "rawStart": 1124,
+                "rawEnd": 1124,
+                "precision": "word"
+              },
+              {
+                "text": "地",
+                "start": 352.27,
+                "end": 352.45,
+                "rawStart": 1125,
+                "rawEnd": 1125,
+                "precision": "word"
+              }
+            ],
+            "phoneticDifferences": [],
+            "reason": "本段首/尾12音节局部短句唯一对应正文边界，词级时间及段落身份通过核验；词稿与sync记录时长完全一致。 录音文件不在工作区，因此没有可核对的音频 SHA-256。"
+          },
+          "reason": "本段首/尾12音节局部短句唯一对应正文边界，词级时间及段落身份通过核验；词稿与sync记录时长完全一致。 录音文件不在工作区，因此没有可核对的音频 SHA-256。"
+        }
+      ]
     },
     {
       "start": 354.09,
-      "end": 402.99,
+      "end": 401.57,
       "kind": "paragraph",
       "targetIndex": 39,
       "targetText": "我们要脱离这个时代的捆绑回到圣经的道路去如果有坚强的决心与够大的勇气这不是不可能的事以前的圣徒都",
-      "confidence": 0.897
+      "confidence": 0.897,
+      "quality": {
+        "coverage": 0.874,
+        "coherentCoverage": 0.833,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 354.09,
+        "previousEnd": 402.99,
+        "previousConfidence": 0.897
+      }
     },
     {
       "start": 402.99,
-      "end": 442.89,
+      "end": 441.33,
       "kind": "paragraph",
       "targetIndex": 40,
       "targetText": "我不想知道上帝凭着祂那统管万有的权柄要在这世界上兴起什么事但是上帝要怎样对待寻求祂面的儿女这是我",
-      "confidence": 0.781
+      "confidence": 0.937,
+      "quality": {
+        "coverage": 0.926,
+        "coherentCoverage": 0.919,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 402.99,
+        "previousEnd": 442.89,
+        "previousConfidence": 0.781
+      }
     },
     {
       "start": 442.89,
-      "end": 461.33,
+      "end": 460.11,
       "kind": "paragraph",
       "targetIndex": 41,
       "targetText": "任何人只要悔改诚实归向上帝就会冲破他被拘限于其中的模式进入圣经中找到他所需要的属灵真理他会因他所",
-      "confidence": 0.931
+      "confidence": 0.931,
+      "quality": {
+        "coverage": 0.931,
+        "coherentCoverage": 0.931,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 442.89,
+        "previousEnd": 461.33,
+        "previousConfidence": 0.931
+      }
     },
     {
       "start": 461.33,
-      "end": 525.79,
+      "end": 513.9,
       "kind": "paragraph",
       "targetIndex": 42,
       "targetText": "我们再说上帝的存在乃是一个事实整个宇宙因祂的生命而活着这一位上帝不是生疏的或外来的上帝乃是我们救",
-      "confidence": 0.942
+      "confidence": 0.947,
+      "quality": {
+        "coverage": 0.934,
+        "coherentCoverage": 0.907,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 4,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 461.33,
+        "previousEnd": 525.79,
+        "previousConfidence": 0.942
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 525.79,
+            "time": 513.9,
+            "reason": "局部识别确认实际末句或署名的结束；按段落范围定位，保留识别差异。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\edge-phrases-20261018\\paragraph-finish-20261021\\local-34.json",
+              "sha256": "fafd5adcdd7a77858a4ae99cc5819869369ac0b1baf0aeb9b87c9aa24d91d339",
+              "segments": [
+                {
+                  "start": 506.0,
+                  "end": 509.94,
+                  "text": "受信可以借著信心、愛心、可行到",
+                  "words": [
+                    {
+                      "start": 506.0,
+                      "end": 506.1,
+                      "text": "受",
+                      "probability": 0.422
+                    },
+                    {
+                      "start": 506.1,
+                      "end": 506.32,
+                      "text": "信",
+                      "probability": 0.772
+                    },
+                    {
+                      "start": 506.32,
+                      "end": 507.14,
+                      "text": "可以",
+                      "probability": 0.762
+                    },
+                    {
+                      "start": 507.14,
+                      "end": 507.42,
+                      "text": "借",
+                      "probability": 0.887
+                    },
+                    {
+                      "start": 507.42,
+                      "end": 507.6,
+                      "text": "著",
+                      "probability": 0.514
+                    },
+                    {
+                      "start": 507.6,
+                      "end": 507.84,
+                      "text": "信",
+                      "probability": 0.994
+                    },
+                    {
+                      "start": 507.84,
+                      "end": 508.2,
+                      "text": "心、",
+                      "probability": 0.997
+                    },
+                    {
+                      "start": 508.64,
+                      "end": 508.76,
+                      "text": "愛",
+                      "probability": 0.967
+                    },
+                    {
+                      "start": 508.76,
+                      "end": 509.16,
+                      "text": "心、",
+                      "probability": 0.976
+                    },
+                    {
+                      "start": 509.38,
+                      "end": 509.46,
+                      "text": "可",
+                      "probability": 0.808
+                    },
+                    {
+                      "start": 509.46,
+                      "end": 509.64,
+                      "text": "行",
+                      "probability": 0.672
+                    },
+                    {
+                      "start": 509.64,
+                      "end": 509.94,
+                      "text": "到",
+                      "probability": 0.567
+                    }
+                  ]
+                },
+                {
+                  "start": 509.94,
+                  "end": 512.12,
+                  "text": "使我們對她的認識",
+                  "words": [
+                    {
+                      "start": 509.94,
+                      "end": 510.7,
+                      "text": "使",
+                      "probability": 0.968
+                    },
+                    {
+                      "start": 510.7,
+                      "end": 510.96,
+                      "text": "我們",
+                      "probability": 0.986
+                    },
+                    {
+                      "start": 510.96,
+                      "end": 511.22,
+                      "text": "對",
+                      "probability": 0.994
+                    },
+                    {
+                      "start": 511.22,
+                      "end": 511.52,
+                      "text": "她",
+                      "probability": 0.283
+                    },
+                    {
+                      "start": 511.52,
+                      "end": 511.64,
+                      "text": "的",
+                      "probability": 0.966
+                    },
+                    {
+                      "start": 511.64,
+                      "end": 511.82,
+                      "text": "認",
+                      "probability": 0.986
+                    },
+                    {
+                      "start": 511.82,
+                      "end": 512.12,
+                      "text": "識",
+                      "probability": 0.997
+                    }
+                  ]
+                },
+                {
+                  "start": 512.12,
+                  "end": 513.9,
+                  "text": "竟竟真多",
+                  "words": [
+                    {
+                      "start": 512.12,
+                      "end": 512.72,
+                      "text": "竟",
+                      "probability": 0.26
+                    },
+                    {
+                      "start": 512.72,
+                      "end": 513.1,
+                      "text": "竟",
+                      "probability": 0.682
+                    },
+                    {
+                      "start": 513.1,
+                      "end": 513.5,
+                      "text": "真",
+                      "probability": 0.385
+                    },
+                    {
+                      "start": 513.5,
+                      "end": 513.9,
+                      "text": "多",
+                      "probability": 0.995
+                    }
+                  ]
+                }
+              ],
+              "source": "targeted-local-asr"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.934,
+          "coherentCoverage": 0.907,
+          "extraSpeechContext": false,
+          "prefixCoverage": 1.0,
+          "suffixCoverage": 0.75,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 4,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
       "start": 525.79,
@@ -197,7 +3100,196 @@
       "kind": "paragraph",
       "targetIndex": 43,
       "targetText": "祷告父上帝啊我的心被看得见的世界占据得太多了我要向你悔改这罪这世界与我的关系太深了使我竟不知道你",
-      "confidence": 0.88
+      "confidence": 0.88,
+      "quality": {
+        "coverage": 0.872,
+        "coherentCoverage": 0.872,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 5,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "discarded detached start matches"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 525.79,
+        "previousEnd": 566.6,
+        "previousConfidence": 0.88
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 525.79,
+            "time": 525.79,
+            "reason": "核对原识别稿的相邻句及同一段实际读法；按真实句首或句尾定位，识别错字、译法差异和短省略不作逐字否决。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\渴慕神\\5-2.mp3.json",
+              "sha256": "6e863b6540714f941ea7fa09cf685158307815ba720e8d4699f0be6f5c1ab7c9",
+              "source": "context-reviewed-paragraph-approximation",
+              "segments": [
+                {
+                  "start": 525.79,
+                  "end": 527.55,
+                  "text": "让我们一起来祷告",
+                  "words": [
+                    {
+                      "start": 525.79,
+                      "end": 526.35,
+                      "text": "让",
+                      "probability": 0.3784830868244171
+                    },
+                    {
+                      "start": 526.35,
+                      "end": 526.57,
+                      "text": "我们",
+                      "probability": 0.9708420038223267
+                    },
+                    {
+                      "start": 526.57,
+                      "end": 526.83,
+                      "text": "一起",
+                      "probability": 0.7017022371292114
+                    },
+                    {
+                      "start": 526.83,
+                      "end": 527.05,
+                      "text": "来",
+                      "probability": 0.9383774399757385
+                    },
+                    {
+                      "start": 527.05,
+                      "end": 527.25,
+                      "text": "祷",
+                      "probability": 0.9327583611011505
+                    },
+                    {
+                      "start": 527.25,
+                      "end": 527.55,
+                      "text": "告",
+                      "probability": 0.8918410539627075
+                    }
+                  ]
+                },
+                {
+                  "start": 527.55,
+                  "end": 533.11,
+                  "text": "复生啊",
+                  "words": [
+                    {
+                      "start": 527.55,
+                      "end": 528.55,
+                      "text": "复",
+                      "probability": 0.5331189595162868
+                    },
+                    {
+                      "start": 532.49,
+                      "end": 532.75,
+                      "text": "生",
+                      "probability": 0.4485672116279602
+                    },
+                    {
+                      "start": 532.75,
+                      "end": 533.11,
+                      "text": "啊",
+                      "probability": 0.5673046112060547
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 21: 我的无援的心",
+    "unverified end anchor: target 21: 我的无援的心",
+    "incomplete end (1 trailing chars, coverage 0.333): target 22: 是干涸贫瘠的土",
+    "low confidence (0.429, coverage 0.429): target 22: 是干涸贫瘠的土",
+    "unverified start anchor: target 22: 是干涸贫瘠的土",
+    "unverified end anchor: target 22: 是干涸贫瘠的土",
+    "unverified start anchor: target 24: 不得种以饱人",
+    "unverified end anchor: target 24: 不得种以饱人",
+    "incomplete end (1 trailing chars, coverage 0.250): target 25: 一切美善敬虔之果",
+    "unverified end anchor: target 25: 一切美善敬虔之果",
+    "incomplete end (1 trailing chars, coverage 0.333): target 26: 惟靠你作子粒",
+    "low confidence (0.545, coverage 0.500): target 26: 惟靠你作子粒",
+    "unverified start anchor: target 26: 惟靠你作子粒",
+    "unverified end anchor: target 26: 惟靠你作子粒",
+    "incomplete start (0 leading chars, coverage 0.500): target 27: 你话出之处",
+    "unverified start anchor: target 27: 你话出之处",
+    "unverified end anchor: target 27: 你话出之处",
+    "incomplete end (1 trailing chars, coverage 0.500): target 28: 生机随现",
+    "unverified start anchor: target 28: 生机随现",
+    "unverified end anchor: target 28: 生机随现",
+    "unverified start anchor: target 29: 你若不指示你真实的道路",
+    "unverified end anchor: target 38: 这一种严重的属灵病症形成的原因，不能叫哪一个单独的个人负其责任的，但是也没有哪一个人可以完全推卸",
+    "incomplete end (4 trailing chars, coverage 0.750): target 42: 我们再说：神的存在乃是一个事实，整个宇宙因祂的生命而活着。这一位神不是生疏的，或外来的神，乃是我",
+    "unverified end anchor: target 42: 我们再说：神的存在乃是一个事实，整个宇宙因祂的生命而活着。这一位神不是生疏的，或外来的神，乃是我",
+    "incomplete start (5 leading chars, coverage 0.750): target 43: 祷告：父神啊！我的心被看得见的世界占据得太多了，我要向你悔改这罪。这世界与我的关系太深了，使我竟",
+    "unverified start anchor: target 43: 祷告：父神啊！我的心被看得见的世界占据得太多了，我要向你悔改这罪。这世界与我的关系太深了，使我竟",
+    "repair unverified end (previous-sync): target 20",
+    "repair unverified start (previous-sync): target 21",
+    "repair unverified end (previous-sync): target 21",
+    "repair unverified start (previous-sync): target 22",
+    "repair unverified end (previous-sync): target 22",
+    "repair unverified start (previous-sync): target 24",
+    "repair unverified end (previous-sync): target 24",
+    "repair unverified start (previous-sync): target 25",
+    "repair unverified end (previous-sync): target 25",
+    "repair unverified start (previous-sync): target 26",
+    "repair unverified end (previous-sync): target 26",
+    "repair unverified start (previous-sync): target 27",
+    "repair unverified end (previous-sync): target 27",
+    "repair unverified start (previous-sync): target 28",
+    "repair unverified end (previous-sync): target 28",
+    "repair unverified start (previous-sync): target 29",
+    "repair unverified end (previous-sync): target 38",
+    "repair unverified end (previous-sync): target 42",
+    "repair unverified start (previous-sync): target 43"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 10,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 9,
+    "unverifiedEnds": 10,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "84ffd192f0ac0f1dd9a07d109ddb838579776356b4cd8aa6dac7b8c251c036ca",
+  "repairCueDigest": "82faa1ad49cfcdf4ee0c1a18b38d80a915d224be9752fa7065ba20b68b77f2e0",
+  "previousAlignmentWarnings": []
 }

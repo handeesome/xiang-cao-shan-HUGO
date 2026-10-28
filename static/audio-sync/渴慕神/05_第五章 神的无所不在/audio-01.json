@@ -8,52 +8,643 @@
   "audioDuration": 913.6990625,
   "cues": [
     {
-      "start": 1.65,
-      "end": 11.77,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第五章上帝的无所不在",
-      "confidence": 0.9
-    },
-    {
-      "start": 11.77,
+      "start": 14.75,
       "end": 20.99,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "我往哪里去躲避你的灵我往哪里逃躲避你的面诗1397",
-      "confidence": 0.75
+      "confidence": 0.837,
+      "quality": {
+        "coverage": 0.72,
+        "coherentCoverage": 0.6,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.417,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 6,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 11.77,
+        "previousEnd": 20.99,
+        "previousConfidence": 0.75
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 20.99,
+            "time": 20.99,
+            "reason": "正文末句已定位，保留原出处结束范围，避免因书名识别差异截掉已读出处",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\5-1.mp3.json",
+              "sha256": "1c2b178655f81dd20787ca0c876463203fb82bcb7508651fb16c2a8a31e9af59",
+              "anchor": {
+                "time": 20.99,
+                "score": 0.9111,
+                "ratio": 0.9231,
+                "expected": "binidelingwowangnalitaoduobinidemian",
+                "actual": "避你的灵我往哪里逃避你的",
+                "span": [
+                  16.99,
+                  20.99
+                ],
+                "tokens": [
+                  {
+                    "text": "避",
+                    "start": 16.99,
+                    "end": 17.23,
+                    "rawStart": 25,
+                    "rawEnd": 25,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 17.23,
+                    "end": 17.49,
+                    "rawStart": 26,
+                    "rawEnd": 26,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 17.23,
+                    "end": 17.49,
+                    "rawStart": 27,
+                    "rawEnd": 27,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "灵",
+                    "start": 17.49,
+                    "end": 17.71,
+                    "rawStart": 28,
+                    "rawEnd": 28,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 18.37,
+                    "end": 18.97,
+                    "rawStart": 29,
+                    "rawEnd": 29,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "往",
+                    "start": 18.97,
+                    "end": 19.31,
+                    "rawStart": 30,
+                    "rawEnd": 30,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "哪",
+                    "start": 19.31,
+                    "end": 19.79,
+                    "rawStart": 31,
+                    "rawEnd": 31,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "里",
+                    "start": 19.79,
+                    "end": 20.07,
+                    "rawStart": 32,
+                    "rawEnd": 32,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "逃",
+                    "start": 20.07,
+                    "end": 20.45,
+                    "rawStart": 33,
+                    "rawEnd": 33,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "避",
+                    "start": 20.45,
+                    "end": 20.71,
+                    "rawStart": 34,
+                    "rawEnd": 34,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 20.71,
+                    "end": 20.99,
+                    "rawStart": 35,
+                    "rawEnd": 35,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 20.71,
+                    "end": 20.99,
+                    "rawStart": 36,
+                    "rawEnd": 36,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": true,
+                "alternative": {
+                  "time": 23.33,
+                  "score": 0.8548,
+                  "actual": "避你的灵我往哪里逃避你的灵在"
+                }
+              },
+              "body": "“我往哪里去,躲避你的灵?我往哪里逃,躲避你的面?”",
+              "retainedCitationInterval": [
+                20.99,
+                20.99
+              ]
+            }
+          }
+        }
+      }
     },
     {
-      "start": 20.99,
-      "end": 49.77,
+      "start": 22.73,
+      "end": 48.83,
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "在基督教的教义中有某一些真理在某些时候是隐藏起来好象成为一种想象而不是确说但却与整个真理是不可分",
-      "confidence": 0.949
+      "confidence": 0.954,
+      "quality": {
+        "coverage": 0.943,
+        "coherentCoverage": 0.943,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 20.99,
+        "previousEnd": 49.77,
+        "previousConfidence": 0.949
+      }
     },
     {
       "start": 49.77,
-      "end": 111.25,
+      "end": 110.37,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "上帝住在祂所创造的宇宙中而且在祂所造之物中的任何地方古时先知和使徒都是大胆地如此教导人而一般的基",
-      "confidence": 0.926
+      "confidence": 0.936,
+      "quality": {
+        "coverage": 0.931,
+        "coherentCoverage": 0.922,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 49.77,
+        "previousEnd": 111.25,
+        "previousConfidence": 0.926
+      }
     },
     {
       "start": 111.25,
-      "end": 145.43,
+      "end": 144.43,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "泛上帝论的错误非常明显不足以欺骗人它把上帝看作一切受造之物的总和自然和上帝同为一体所以不论何人摸",
-      "confidence": 0.826
+      "confidence": 0.953,
+      "quality": {
+        "coverage": 0.949,
+        "coherentCoverage": 0.915,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 111.25,
+        "previousEnd": 145.43,
+        "previousConfidence": 0.826
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 111.25,
+            "time": 111.25,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\5-1.mp3.json",
+              "sha256": "1c2b178655f81dd20787ca0c876463203fb82bcb7508651fb16c2a8a31e9af59",
+              "anchor": {
+                "time": 111.25,
+                "score": 0.957,
+                "ratio": 0.963,
+                "expected": "fanshenlundecuowufeichangmingxianbuzuyiqi",
+                "actual": "泛神的错误非常明显不足以欺",
+                "span": [
+                  111.25,
+                  115.31
+                ],
+                "tokens": [
+                  {
+                    "text": "泛",
+                    "start": 111.25,
+                    "end": 111.73,
+                    "rawStart": 326,
+                    "rawEnd": 326,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 111.73,
+                    "end": 111.93,
+                    "rawStart": 327,
+                    "rawEnd": 328,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 111.93,
+                    "end": 112.05,
+                    "rawStart": 329,
+                    "rawEnd": 329,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "错",
+                    "start": 112.05,
+                    "end": 112.29,
+                    "rawStart": 330,
+                    "rawEnd": 330,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "误",
+                    "start": 112.29,
+                    "end": 112.49,
+                    "rawStart": 331,
+                    "rawEnd": 331,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "非",
+                    "start": 112.49,
+                    "end": 112.97,
+                    "rawStart": 332,
+                    "rawEnd": 332,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "常",
+                    "start": 112.49,
+                    "end": 112.97,
+                    "rawStart": 333,
+                    "rawEnd": 333,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "明",
+                    "start": 112.97,
+                    "end": 113.49,
+                    "rawStart": 334,
+                    "rawEnd": 334,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "显",
+                    "start": 113.49,
+                    "end": 113.81,
+                    "rawStart": 335,
+                    "rawEnd": 335,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "不",
+                    "start": 114.41,
+                    "end": 114.67,
+                    "rawStart": 336,
+                    "rawEnd": 336,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "足",
+                    "start": 114.67,
+                    "end": 114.87,
+                    "rawStart": 337,
+                    "rawEnd": 337,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "以",
+                    "start": 114.87,
+                    "end": 115.05,
+                    "rawStart": 338,
+                    "rawEnd": 338,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "欺",
+                    "start": 115.05,
+                    "end": 115.31,
+                    "rawStart": 339,
+                    "rawEnd": 339,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 109.23,
+                  "score": 0.8832,
+                  "actual": "种泛神论泛神的错误非常明显不足以欺"
+                }
+              },
+              "body": "泛神论的错误非常明显,不足以欺骗人,它把神看作一切受造之物的总和。“自然”和“神”同为一体,所以不论何人,摸到一片树叶或一块石头就是摸着了神,这就很自然地把那位永不朽坏的神的尊荣降低了,并且企图把一切东西都当作神,把真正神性从这个世界完全排斥出去。"
+            }
+          }
+        }
+      }
     },
     {
       "start": 145.43,
-      "end": 180.17,
+      "end": 179.25,
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "有上帝论是说上帝住在祂所创造的世界中祂和世界之间有一条永远无法通过的鸿沟祂和祂的手所造成的工程无",
-      "confidence": 0.813
+      "confidence": 0.85,
+      "quality": {
+        "coverage": 0.763,
+        "coherentCoverage": 0.704,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.45,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 145.43,
+        "previousEnd": 180.17,
+        "previousConfidence": 0.813
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 180.17,
+            "time": 179.25,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\5-1.mp3.json",
+              "sha256": "1c2b178655f81dd20787ca0c876463203fb82bcb7508651fb16c2a8a31e9af59",
+              "anchor": {
+                "time": 179.25,
+                "score": 0.9991,
+                "ratio": 1.0,
+                "expected": "zaizheyiqiezhishangdeshen",
+                "actual": "在这1切之上的神",
+                "span": [
+                  177.75,
+                  179.25
+                ],
+                "tokens": [
+                  {
+                    "text": "在",
+                    "start": 177.75,
+                    "end": 177.97,
+                    "rawStart": 555,
+                    "rawEnd": 555,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "这",
+                    "start": 177.97,
+                    "end": 178.19,
+                    "rawStart": 556,
+                    "rawEnd": 556,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 178.19,
+                    "end": 178.39,
+                    "rawStart": 557,
+                    "rawEnd": 557,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "切",
+                    "start": 178.39,
+                    "end": 178.53,
+                    "rawStart": 558,
+                    "rawEnd": 558,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "之",
+                    "start": 178.53,
+                    "end": 178.71,
+                    "rawStart": 559,
+                    "rawEnd": 559,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "上",
+                    "start": 178.71,
+                    "end": 178.95,
+                    "rawStart": 560,
+                    "rawEnd": 560,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 178.95,
+                    "end": 179.07,
+                    "rawStart": 561,
+                    "rawEnd": 561,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 179.07,
+                    "end": 179.25,
+                    "rawStart": 562,
+                    "rawEnd": 563,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 181.29,
+                  "score": 0.823,
+                  "actual": "在这1切之上的神那么在"
+                },
+                "phraseSize": 8,
+                "matchingText": "有神论是说神住在祂所创造的世界中,祂和世界之间,有一条永远无法通过的鸿沟,祂和祂的手所造成的工程无论多么一致,那些工程必须是在祂以外的东西,而神自己必须是在一切所造之物之先,并且不附属于所造之物。虽然祂内在于(immanent within)所造的万物中,然而祂是超越(transcendent above)在这一切之上的神。",
+                "normalization": "original-body"
+              },
+              "body": "有神论是说神住在祂所创造的世界中,祂和世界之间,有一条永远无法通过的鸿沟,祂和祂的手所造成的工程无论多么一致,那些工程必须是在祂以外的东西,而神自己必须是在一切所造之物之先,并且不附属于所造之物。虽然祂内在于(immanent within)所造的万物中,然而祂是超越(transcendent above)在这一切之上的神。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.763,
+          "coherentCoverage": 0.704,
+          "extraSpeechContext": false,
+          "prefixCoverage": 1.0,
+          "suffixCoverage": 0.45,
+          "unmatchedLeadingChars": 0,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "boundaryAdjusted": [],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
       "start": 180.17,
@@ -61,23 +652,405 @@
       "kind": "paragraph",
       "targetIndex": 6,
       "targetText": "那么在基督徒的经验中上帝的内在性是什么意思呢简单地说就是上帝在这里无论我们在哪里也可以说上帝在这",
-      "confidence": 0.985
+      "confidence": 0.985,
+      "quality": {
+        "coverage": 0.985,
+        "coherentCoverage": 0.985,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 180.17,
+        "previousEnd": 231.85,
+        "previousConfidence": 0.985
+      }
     },
     {
       "start": 231.85,
-      "end": 254.21,
+      "end": 244.67,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "这些都是基督徒所相信的真理只是这个真理还需要我们多加思想并且多多祷告使之能在我们里面发出亮光",
-      "confidence": 0.978
+      "confidence": 0.978,
+      "quality": {
+        "coverage": 0.978,
+        "coherentCoverage": 0.978,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 231.85,
+        "previousEnd": 254.21,
+        "previousConfidence": 0.978
+      }
     },
     {
       "start": 254.21,
-      "end": 298.95,
+      "end": 298.13,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "起初上帝这句话不是说到物质因为物质是不会自己发生的在物质以先必先有一个先存的因而上帝就是那个因这",
-      "confidence": 0.884
+      "confidence": 0.884,
+      "quality": {
+        "coverage": 0.851,
+        "coherentCoverage": 0.832,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.45,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "source": "existing-small-transcript-local-phrase",
+          "model": ".audio-sync-cache\\models\\small",
+          "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\5-1.mp3.json",
+          "transcriptSha256": "1c2b178655f81dd20787ca0c876463203fb82bcb7508651fb16c2a8a31e9af59",
+          "audioSha256": null,
+          "audioDuration": 913.6990625,
+          "syncAudioDuration": 913.6990625,
+          "audioDurationMatch": true,
+          "fullFileTranscribed": false,
+          "newDownloads": 0,
+          "listenedByAgent": false,
+          "timingPrecision": "word",
+          "localSupported": true,
+          "contextUsed": true,
+          "verificationMethod": "bounded-local-12-syllable",
+          "verified": true,
+          "candidateTime": 298.13,
+          "expectedPhrase": "e我们1切必须从他作开始",
+          "actualPhrase": "音我们1切必须从它做开始",
+          "wordTokens": [
+            {
+              "text": "音",
+              "start": 293.59,
+              "end": 293.87,
+              "rawStart": 949,
+              "rawEnd": 949,
+              "precision": "word"
+            },
+            {
+              "text": "我",
+              "start": 293.87,
+              "end": 294.91,
+              "rawStart": 950,
+              "rawEnd": 950,
+              "precision": "word"
+            },
+            {
+              "text": "们",
+              "start": 293.87,
+              "end": 294.91,
+              "rawStart": 951,
+              "rawEnd": 951,
+              "precision": "word"
+            },
+            {
+              "text": "1",
+              "start": 294.91,
+              "end": 295.23,
+              "rawStart": 952,
+              "rawEnd": 952,
+              "precision": "word"
+            },
+            {
+              "text": "切",
+              "start": 295.23,
+              "end": 295.57,
+              "rawStart": 953,
+              "rawEnd": 953,
+              "precision": "word"
+            },
+            {
+              "text": "必",
+              "start": 295.57,
+              "end": 296.01,
+              "rawStart": 954,
+              "rawEnd": 954,
+              "precision": "word"
+            },
+            {
+              "text": "须",
+              "start": 296.01,
+              "end": 296.43,
+              "rawStart": 955,
+              "rawEnd": 955,
+              "precision": "word"
+            },
+            {
+              "text": "从",
+              "start": 296.43,
+              "end": 296.81,
+              "rawStart": 956,
+              "rawEnd": 956,
+              "precision": "word"
+            },
+            {
+              "text": "它",
+              "start": 296.81,
+              "end": 297.05,
+              "rawStart": 957,
+              "rawEnd": 957,
+              "precision": "word"
+            },
+            {
+              "text": "做",
+              "start": 297.05,
+              "end": 297.39,
+              "rawStart": 958,
+              "rawEnd": 958,
+              "precision": "word"
+            },
+            {
+              "text": "开",
+              "start": 297.39,
+              "end": 298.13,
+              "rawStart": 959,
+              "rawEnd": 959,
+              "precision": "word"
+            },
+            {
+              "text": "始",
+              "start": 297.39,
+              "end": 298.13,
+              "rawStart": 960,
+              "rawEnd": 960,
+              "precision": "word"
+            }
+          ],
+          "phoneticDifferences": [
+            0
+          ],
+          "reason": "本段首/尾12音节局部短句唯一对应正文边界，词级时间及段落身份通过核验；词稿与sync记录时长完全一致。 录音文件不在工作区，因此没有可核对的音频 SHA-256。"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 254.21,
+        "previousEnd": 298.95,
+        "previousConfidence": 0.884
+      },
+      "boundaryCorrections": [
+        {
+          "book": "渴慕神",
+          "page": "05_第五章 神的无所不在.md",
+          "audio": "5-1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\渴慕神\\05_第五章 神的无所不在\\audio-01.json",
+          "targetIndex": 8,
+          "edge": "end",
+          "previousTime": 298.95,
+          "time": 298.13,
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "kind": "local-phrase-boundary-correction",
+          "proof": {
+            "source": "existing-small-transcript-local-phrase",
+            "model": ".audio-sync-cache\\models\\small",
+            "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\5-1.mp3.json",
+            "transcriptSha256": "1c2b178655f81dd20787ca0c876463203fb82bcb7508651fb16c2a8a31e9af59",
+            "audioSha256": null,
+            "audioDuration": 913.6990625,
+            "syncAudioDuration": 913.6990625,
+            "audioDurationMatch": true,
+            "fullFileTranscribed": false,
+            "newDownloads": 0,
+            "listenedByAgent": false,
+            "timingPrecision": "word",
+            "localSupported": true,
+            "contextUsed": true,
+            "verificationMethod": "bounded-local-12-syllable",
+            "verified": true,
+            "candidateTime": 298.13,
+            "expectedPhrase": "e我们1切必须从他作开始",
+            "actualPhrase": "音我们1切必须从它做开始",
+            "wordTokens": [
+              {
+                "text": "音",
+                "start": 293.59,
+                "end": 293.87,
+                "rawStart": 949,
+                "rawEnd": 949,
+                "precision": "word"
+              },
+              {
+                "text": "我",
+                "start": 293.87,
+                "end": 294.91,
+                "rawStart": 950,
+                "rawEnd": 950,
+                "precision": "word"
+              },
+              {
+                "text": "们",
+                "start": 293.87,
+                "end": 294.91,
+                "rawStart": 951,
+                "rawEnd": 951,
+                "precision": "word"
+              },
+              {
+                "text": "1",
+                "start": 294.91,
+                "end": 295.23,
+                "rawStart": 952,
+                "rawEnd": 952,
+                "precision": "word"
+              },
+              {
+                "text": "切",
+                "start": 295.23,
+                "end": 295.57,
+                "rawStart": 953,
+                "rawEnd": 953,
+                "precision": "word"
+              },
+              {
+                "text": "必",
+                "start": 295.57,
+                "end": 296.01,
+                "rawStart": 954,
+                "rawEnd": 954,
+                "precision": "word"
+              },
+              {
+                "text": "须",
+                "start": 296.01,
+                "end": 296.43,
+                "rawStart": 955,
+                "rawEnd": 955,
+                "precision": "word"
+              },
+              {
+                "text": "从",
+                "start": 296.43,
+                "end": 296.81,
+                "rawStart": 956,
+                "rawEnd": 956,
+                "precision": "word"
+              },
+              {
+                "text": "它",
+                "start": 296.81,
+                "end": 297.05,
+                "rawStart": 957,
+                "rawEnd": 957,
+                "precision": "word"
+              },
+              {
+                "text": "做",
+                "start": 297.05,
+                "end": 297.39,
+                "rawStart": 958,
+                "rawEnd": 958,
+                "precision": "word"
+              },
+              {
+                "text": "开",
+                "start": 297.39,
+                "end": 298.13,
+                "rawStart": 959,
+                "rawEnd": 959,
+                "precision": "word"
+              },
+              {
+                "text": "始",
+                "start": 297.39,
+                "end": 298.13,
+                "rawStart": 960,
+                "rawEnd": 960,
+                "precision": "word"
+              }
+            ],
+            "phoneticDifferences": [
+              0
+            ],
+            "reason": "本段首/尾12音节局部短句唯一对应正文边界，词级时间及段落身份通过核验；词稿与sync记录时长完全一致。 录音文件不在工作区，因此没有可核对的音频 SHA-256。"
+          },
+          "reason": "本段首/尾12音节局部短句唯一对应正文边界，词级时间及段落身份通过核验；词稿与sync记录时长完全一致。 录音文件不在工作区，因此没有可核对的音频 SHA-256。"
+        }
+      ]
     },
     {
       "start": 298.95,
@@ -85,23 +1058,149 @@
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "亚当在犯罪之后便在恐怕之中妄图做一件不可能事情就是躲避耶和华的面大卫也必定有此狂想要躲避上帝他在",
-      "confidence": 0.867
+      "confidence": 0.87,
+      "quality": {
+        "coverage": 0.873,
+        "coherentCoverage": 0.797,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 298.95,
+        "previousEnd": 399.15,
+        "previousConfidence": 0.867
+      }
     },
     {
-      "start": 399.15,
-      "end": 449.15,
+      "start": 400.77,
+      "end": 448.55,
       "kind": "paragraph",
       "targetIndex": 10,
       "targetText": "既然是每一处空间都有上帝存在我们就不能找到一个没有上帝的地方为什么上帝的存在不被普世称颂呢先祖雅",
-      "confidence": 0.897
+      "confidence": 0.905,
+      "quality": {
+        "coverage": 0.916,
+        "coherentCoverage": 0.856,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 399.15,
+        "previousEnd": 449.15,
+        "previousConfidence": 0.897
+      }
     },
     {
       "start": 449.15,
-      "end": 493.89,
+      "end": 492.43,
       "kind": "paragraph",
       "targetIndex": 11,
       "targetText": "上帝的存在和上帝的显现并不是一回事上帝的存在是在我们完全不注意的时候上帝的显现却必须待我们注意到",
-      "confidence": 0.958
+      "confidence": 0.978,
+      "quality": {
+        "coverage": 0.975,
+        "coherentCoverage": 0.968,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 449.15,
+        "previousEnd": 493.89,
+        "previousConfidence": 0.958
+      }
     },
     {
       "start": 493.89,
@@ -109,55 +1208,712 @@
       "kind": "paragraph",
       "targetIndex": 12,
       "targetText": "每一个地方每刻都有上帝的存在而且祂是不断地找机会向人显现对于每个人祂的显现不只叫人明白祂的自有也",
-      "confidence": 0.808
+      "confidence": 0.918,
+      "quality": {
+        "coverage": 0.928,
+        "coherentCoverage": 0.911,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 493.89,
+        "previousEnd": 546.99,
+        "previousConfidence": 0.808
+      }
     },
     {
       "start": 546.99,
-      "end": 599.48,
+      "end": 600.36,
       "kind": "paragraph",
       "targetIndex": 13,
       "targetText": "我们对于上帝的追求不会落空乃是因为祂永远在找寻机会向我们显示祂自己上帝向一个人显现并不是好象从很",
-      "confidence": 0.776
+      "confidence": 0.89,
+      "quality": {
+        "coverage": 0.894,
+        "coherentCoverage": 0.838,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\渴慕神\\5-1.mp3.json",
+          "transcriptSha256": "5a47ba86e23845b7245fc197bef3e2adb7efdd60058f065a3087e368fb4659ba",
+          "phraseChars": 12,
+          "candidate": 600.36,
+          "expectedPhrase": "距离的问题乃是经验的问题",
+          "actualPhrase": "距离的问题那是惊艳的问题",
+          "phoneticPhrase": [
+            "ju",
+            "li",
+            "de",
+            "wen",
+            "ti",
+            "nai",
+            "shi",
+            "jing",
+            "yan",
+            "de",
+            "wen",
+            "ti"
+          ],
+          "actualPhoneticPhrase": [
+            "ju",
+            "li",
+            "de",
+            "wen",
+            "ti",
+            "na",
+            "shi",
+            "jing",
+            "yan",
+            "de",
+            "wen",
+            "ti"
+          ],
+          "verified": true,
+          "time": 600.36,
+          "boundedPhonetic": true,
+          "exactEndpointPhonemes": 2,
+          "maxInternalPhoneticDifferences": 2,
+          "phoneticDifferences": [
+            5
+          ],
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "距",
+              "start": 597.06,
+              "end": 597.36,
+              "rawStart": 1903,
+              "rawEnd": 1903,
+              "precision": "word"
+            },
+            {
+              "text": "离",
+              "start": 597.36,
+              "end": 597.5,
+              "rawStart": 1904,
+              "rawEnd": 1904,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 597.5,
+              "end": 597.6,
+              "rawStart": 1905,
+              "rawEnd": 1905,
+              "precision": "word"
+            },
+            {
+              "text": "问",
+              "start": 597.6,
+              "end": 598.0,
+              "rawStart": 1906,
+              "rawEnd": 1906,
+              "precision": "word"
+            },
+            {
+              "text": "题",
+              "start": 597.6,
+              "end": 598.0,
+              "rawStart": 1907,
+              "rawEnd": 1907,
+              "precision": "word"
+            },
+            {
+              "text": "那",
+              "start": 598.0,
+              "end": 598.38,
+              "rawStart": 1908,
+              "rawEnd": 1908,
+              "precision": "word"
+            },
+            {
+              "text": "是",
+              "start": 598.38,
+              "end": 598.7,
+              "rawStart": 1909,
+              "rawEnd": 1909,
+              "precision": "word"
+            },
+            {
+              "text": "惊",
+              "start": 598.7,
+              "end": 599.08,
+              "rawStart": 1910,
+              "rawEnd": 1910,
+              "precision": "word"
+            },
+            {
+              "text": "艳",
+              "start": 599.08,
+              "end": 599.32,
+              "rawStart": 1911,
+              "rawEnd": 1911,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 599.32,
+              "end": 599.48,
+              "rawStart": 1912,
+              "rawEnd": 1912,
+              "precision": "word"
+            },
+            {
+              "text": "问",
+              "start": 599.48,
+              "end": 600.36,
+              "rawStart": 1913,
+              "rawEnd": 1913,
+              "precision": "word"
+            },
+            {
+              "text": "题",
+              "start": 599.48,
+              "end": 600.36,
+              "rawStart": 1914,
+              "rawEnd": 1914,
+              "precision": "word"
+            }
+          ],
+          "source": "bounded-local-phonetic-differences-original-word-times",
+          "listenedByAgent": false,
+          "audioSha256": "6e9ab209f8595bcbd0f621fac16cd0c08fb09a925776dcddc7c8f84b522112f8",
+          "reason": "实际首/尾2个音节贴边相同，12音节局部短句最多2处内部识别差异；完整词边界、源段及录音唯一性、数字一致、停顿与相邻时间均核验，不逐字检查正文中间。"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 546.99,
+        "previousEnd": 599.48,
+        "previousConfidence": 0.776
+      },
+      "boundaryCorrections": [
+        {
+          "book": "渴慕神",
+          "page": "05_第五章 神的无所不在.md",
+          "audio": "5-1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\渴慕神\\05_第五章 神的无所不在\\audio-01.json",
+          "targetIndex": 13,
+          "edge": "end",
+          "previousTime": 599.48,
+          "time": 600.36,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 546.99,
+            "time": 546.99,
+            "reason": "原词时间把短句拖了18秒；整句起音546.99明确，保留句首，不把同句内部词的漂移当作新起点。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\渴慕神\\5-1.mp3.json",
+              "sha256": "5a47ba86e23845b7245fc197bef3e2adb7efdd60058f065a3087e368fb4659ba",
+              "source": "context-reviewed-paragraph-approximation",
+              "segments": [
+                {
+                  "start": 540.41,
+                  "end": 543.57,
+                  "text": "因為神不但對人有許多因序",
+                  "words": [
+                    {
+                      "start": 540.41,
+                      "end": 540.89,
+                      "text": "因為",
+                      "probability": 0.9650366306304932
+                    },
+                    {
+                      "start": 540.89,
+                      "end": 541.37,
+                      "text": "神",
+                      "probability": 0.9883650541305542
+                    },
+                    {
+                      "start": 541.37,
+                      "end": 541.79,
+                      "text": "不",
+                      "probability": 0.9916933178901672
+                    },
+                    {
+                      "start": 541.79,
+                      "end": 542.01,
+                      "text": "但",
+                      "probability": 0.9878240823745728
+                    },
+                    {
+                      "start": 542.01,
+                      "end": 542.35,
+                      "text": "對",
+                      "probability": 0.9925249218940735
+                    },
+                    {
+                      "start": 542.35,
+                      "end": 542.55,
+                      "text": "人",
+                      "probability": 0.9962001442909241
+                    },
+                    {
+                      "start": 542.55,
+                      "end": 542.73,
+                      "text": "有",
+                      "probability": 0.994523286819458
+                    },
+                    {
+                      "start": 542.73,
+                      "end": 542.93,
+                      "text": "許",
+                      "probability": 0.9961031675338745
+                    },
+                    {
+                      "start": 542.93,
+                      "end": 543.09,
+                      "text": "多",
+                      "probability": 0.9996771812438965
+                    },
+                    {
+                      "start": 543.09,
+                      "end": 543.33,
+                      "text": "因",
+                      "probability": 0.29456982016563416
+                    },
+                    {
+                      "start": 543.33,
+                      "end": 543.57,
+                      "text": "序",
+                      "probability": 0.5643621310591698
+                    }
+                  ]
+                },
+                {
+                  "start": 543.57,
+                  "end": 546.99,
+                  "text": "而且所有的因序都要成就",
+                  "words": [
+                    {
+                      "start": 543.57,
+                      "end": 544.31,
+                      "text": "而且",
+                      "probability": 0.4871738851070404
+                    },
+                    {
+                      "start": 544.31,
+                      "end": 545.27,
+                      "text": "所有",
+                      "probability": 0.7004801034927368
+                    },
+                    {
+                      "start": 545.27,
+                      "end": 545.55,
+                      "text": "的",
+                      "probability": 0.9813080430030823
+                    },
+                    {
+                      "start": 545.55,
+                      "end": 545.73,
+                      "text": "因",
+                      "probability": 0.7026934623718262
+                    },
+                    {
+                      "start": 545.73,
+                      "end": 545.97,
+                      "text": "序",
+                      "probability": 0.7321586608886719
+                    },
+                    {
+                      "start": 545.97,
+                      "end": 546.29,
+                      "text": "都",
+                      "probability": 0.971172571182251
+                    },
+                    {
+                      "start": 546.29,
+                      "end": 546.45,
+                      "text": "要",
+                      "probability": 0.9948315024375916
+                    },
+                    {
+                      "start": 546.45,
+                      "end": 546.65,
+                      "text": "成",
+                      "probability": 0.7902938723564148
+                    },
+                    {
+                      "start": 546.65,
+                      "end": 546.99,
+                      "text": "就",
+                      "probability": 0.9900261163711548
+                    }
+                  ]
+                },
+                {
+                  "start": 546.99,
+                  "end": 565.38,
+                  "text": "我们对神的追求不会落空",
+                  "words": [
+                    {
+                      "start": 546.99,
+                      "end": 547.99,
+                      "text": "我们",
+                      "probability": 0.5298637747764587
+                    },
+                    {
+                      "start": 563.28,
+                      "end": 563.52,
+                      "text": "对",
+                      "probability": 0.9949193596839905
+                    },
+                    {
+                      "start": 563.52,
+                      "end": 563.78,
+                      "text": "神",
+                      "probability": 0.7742776870727539
+                    },
+                    {
+                      "start": 563.78,
+                      "end": 563.9,
+                      "text": "的",
+                      "probability": 0.9938085675239563
+                    },
+                    {
+                      "start": 563.9,
+                      "end": 564.06,
+                      "text": "追",
+                      "probability": 0.9947285056114197
+                    },
+                    {
+                      "start": 564.06,
+                      "end": 564.38,
+                      "text": "求",
+                      "probability": 0.9985042810440063
+                    },
+                    {
+                      "start": 564.38,
+                      "end": 564.8,
+                      "text": "不会",
+                      "probability": 0.9789023995399475
+                    },
+                    {
+                      "start": 564.8,
+                      "end": 565.04,
+                      "text": "落",
+                      "probability": 0.9818201065063477
+                    },
+                    {
+                      "start": 565.04,
+                      "end": 565.38,
+                      "text": "空",
+                      "probability": 0.9989998936653137
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
     },
     {
-      "start": 599.48,
-      "end": 649.5,
+      "start": 601.93,
+      "end": 647.25,
       "kind": "paragraph",
       "targetIndex": 14,
       "targetText": "我们和上帝距离的远近其实应该可以用人与人之间的关系来说明一个人会说我觉得我的儿子越长大就越和我接",
-      "confidence": 0.811
+      "confidence": 0.937,
+      "quality": {
+        "coverage": 0.934,
+        "coherentCoverage": 0.922,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 599.48,
+        "previousEnd": 649.5,
+        "previousConfidence": 0.811
+      }
     },
     {
       "start": 649.5,
-      "end": 683.58,
+      "end": 682.64,
       "kind": "paragraph",
       "targetIndex": 15,
       "targetText": "所以当我们歌唱说引我亲近亲近我的恩主我们所想的并不是地方上的接近乃是关系上的接近我们所祷告祈求的",
-      "confidence": 0.784
+      "confidence": 0.96,
+      "quality": {
+        "coverage": 0.956,
+        "coherentCoverage": 0.947,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 649.5,
+        "previousEnd": 683.58,
+        "previousConfidence": 0.784
+      }
     },
     {
       "start": 683.58,
-      "end": 722.62,
+      "end": 721.48,
       "kind": "paragraph",
       "targetIndex": 16,
       "targetText": "为什么有的人用一种方法寻找上帝而其他的人又不如此呢为什么上帝向有些人显现而让其他多数的人停留在不",
-      "confidence": 0.797
+      "confidence": 0.942,
+      "quality": {
+        "coverage": 0.942,
+        "coherentCoverage": 0.928,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 683.58,
+        "previousEnd": 722.62,
+        "previousConfidence": 0.797
+      }
     },
     {
       "start": 722.62,
-      "end": 783.16,
+      "end": 781.78,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "我们随便举出一些伟大圣人他们的生活和见证为众人所共知的我们随便提一提圣经中的人物或在圣经成典以后",
-      "confidence": 0.809
+      "confidence": 0.855,
+      "quality": {
+        "coverage": 0.783,
+        "coherentCoverage": 0.746,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 722.62,
+        "previousEnd": 783.16,
+        "previousConfidence": 0.809
+      }
     },
     {
       "start": 783.16,
-      "end": 797.88,
+      "end": 797.22,
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "他们之间的不同只是偶然的且在上帝的眼中看为是不关重要的他们必须在某种最重要的关系上彼此是相同的这",
-      "confidence": 1.0
+      "confidence": 1.0,
+      "quality": {
+        "coverage": 1.0,
+        "coherentCoverage": 1.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 783.16,
+        "previousEnd": 797.88,
+        "previousConfidence": 1.0
+      }
     },
     {
       "start": 797.88,
@@ -165,7 +1921,427 @@
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "我大胆地说他们所共有的一种特性就是属灵的感受性spiritualreceptivity在他们里面",
-      "confidence": 0.731
+      "confidence": 0.849,
+      "quality": {
+        "coverage": 0.815,
+        "coherentCoverage": 0.765,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "candidate": 797.88,
+          "expectedPhrase": "我大胆地说他们所共有的1种特性就",
+          "actualPhrase": "我大胆的说他们所共有的1种特性就",
+          "editDistance": 1,
+          "exactEndpointPhonemes": 3,
+          "expectedPhraseSize": 16,
+          "actualPhraseSize": 16,
+          "verified": true,
+          "time": 797.88,
+          "elasticLocal": true,
+          "source": "elastic-local-phrase-original-word-times",
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "我",
+              "start": 797.88,
+              "end": 798.2,
+              "rawStart": 2585,
+              "rawEnd": 2585,
+              "precision": "word"
+            },
+            {
+              "text": "大",
+              "start": 798.2,
+              "end": 798.48,
+              "rawStart": 2586,
+              "rawEnd": 2586,
+              "precision": "word"
+            },
+            {
+              "text": "胆",
+              "start": 798.48,
+              "end": 798.64,
+              "rawStart": 2587,
+              "rawEnd": 2587,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 798.64,
+              "end": 798.74,
+              "rawStart": 2588,
+              "rawEnd": 2588,
+              "precision": "word"
+            },
+            {
+              "text": "说",
+              "start": 798.74,
+              "end": 799.0,
+              "rawStart": 2589,
+              "rawEnd": 2589,
+              "precision": "word"
+            },
+            {
+              "text": "他",
+              "start": 799.0,
+              "end": 799.64,
+              "rawStart": 2590,
+              "rawEnd": 2590,
+              "precision": "word"
+            },
+            {
+              "text": "们",
+              "start": 799.0,
+              "end": 799.64,
+              "rawStart": 2591,
+              "rawEnd": 2591,
+              "precision": "word"
+            },
+            {
+              "text": "所",
+              "start": 799.64,
+              "end": 799.9,
+              "rawStart": 2592,
+              "rawEnd": 2592,
+              "precision": "word"
+            },
+            {
+              "text": "共",
+              "start": 799.9,
+              "end": 800.2,
+              "rawStart": 2593,
+              "rawEnd": 2593,
+              "precision": "word"
+            },
+            {
+              "text": "有",
+              "start": 800.2,
+              "end": 800.42,
+              "rawStart": 2594,
+              "rawEnd": 2594,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 800.42,
+              "end": 800.52,
+              "rawStart": 2595,
+              "rawEnd": 2595,
+              "precision": "word"
+            },
+            {
+              "text": "1",
+              "start": 800.52,
+              "end": 800.62,
+              "rawStart": 2596,
+              "rawEnd": 2596,
+              "precision": "word"
+            },
+            {
+              "text": "种",
+              "start": 800.62,
+              "end": 800.78,
+              "rawStart": 2597,
+              "rawEnd": 2597,
+              "precision": "word"
+            },
+            {
+              "text": "特",
+              "start": 800.78,
+              "end": 801.06,
+              "rawStart": 2598,
+              "rawEnd": 2598,
+              "precision": "word"
+            },
+            {
+              "text": "性",
+              "start": 801.06,
+              "end": 801.34,
+              "rawStart": 2599,
+              "rawEnd": 2599,
+              "precision": "word"
+            },
+            {
+              "text": "就",
+              "start": 801.34,
+              "end": 802.0,
+              "rawStart": 2600,
+              "rawEnd": 2600,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\渴慕神\\5-1.mp3.json",
+          "transcriptSha256": "5a47ba86e23845b7245fc197bef3e2adb7efdd60058f065a3087e368fb4659ba",
+          "audioSha256": "6e9ab209f8595bcbd0f621fac16cd0c08fb09a925776dcddc7c8f84b522112f8",
+          "reason": "实际首尾各3个连续音节精确相同；16音节局部句中最多2次识别增删；数字序列和短句身份唯一，完整词时、停顿、音频时长及相邻原cue已复核。中间正文不要求逐字相同。"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 797.88,
+        "previousEnd": 864.92,
+        "previousConfidence": 0.731
+      },
+      "boundaryCorrections": [
+        {
+          "book": "渴慕神",
+          "page": "05_第五章 神的无所不在.md",
+          "audio": "5-1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\渴慕神\\05_第五章 神的无所不在\\audio-01.json",
+          "targetIndex": 19,
+          "edge": "start",
+          "previousTime": 797.88,
+          "time": 797.88,
+          "kind": "elastic-local-phrase-existing-word-times",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "实际首尾各3个连续音节精确相同；16音节局部句中最多2次识别增删；数字序列和短句身份唯一，完整词时、停顿、音频时长及相邻原cue已复核。中间正文不要求逐字相同。"
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 864.92,
+            "time": 864.92,
+            "reason": "同段出处按实际读序计入",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\5-1.mp3.json",
+              "sha256": "1c2b178655f81dd20787ca0c876463203fb82bcb7508651fb16c2a8a31e9af59",
+              "anchor": {
+                "time": 862.66,
+                "score": 0.8066,
+                "ratio": 0.8148,
+                "expected": "nishuoyehehuaanidemianwozhengyaoxunqiu",
+                "actual": "你说以后话你的面我正要寻求",
+                "span": [
+                  858.08,
+                  862.66
+                ],
+                "tokens": [
+                  {
+                    "text": "你",
+                    "start": 858.08,
+                    "end": 858.4,
+                    "rawStart": 2784,
+                    "rawEnd": 2784,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "说",
+                    "start": 858.08,
+                    "end": 858.4,
+                    "rawStart": 2785,
+                    "rawEnd": 2785,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "以",
+                    "start": 859.0,
+                    "end": 859.3,
+                    "rawStart": 2786,
+                    "rawEnd": 2786,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "后",
+                    "start": 859.3,
+                    "end": 859.46,
+                    "rawStart": 2787,
+                    "rawEnd": 2787,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "话",
+                    "start": 859.46,
+                    "end": 859.78,
+                    "rawStart": 2788,
+                    "rawEnd": 2788,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 860.12,
+                    "end": 860.42,
+                    "rawStart": 2789,
+                    "rawEnd": 2789,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 860.12,
+                    "end": 860.42,
+                    "rawStart": 2790,
+                    "rawEnd": 2790,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "面",
+                    "start": 860.42,
+                    "end": 860.76,
+                    "rawStart": 2791,
+                    "rawEnd": 2791,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 860.76,
+                    "end": 861.3,
+                    "rawStart": 2792,
+                    "rawEnd": 2792,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "正",
+                    "start": 861.3,
+                    "end": 861.64,
+                    "rawStart": 2793,
+                    "rawEnd": 2793,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "要",
+                    "start": 861.64,
+                    "end": 861.94,
+                    "rawStart": 2794,
+                    "rawEnd": 2794,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "寻",
+                    "start": 861.94,
+                    "end": 862.2,
+                    "rawStart": 2795,
+                    "rawEnd": 2795,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "求",
+                    "start": 862.2,
+                    "end": 862.66,
+                    "rawStart": 2796,
+                    "rawEnd": 2796,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "我大胆地说,他们所共有的一种特性,就是“属灵的感受性”(spiritual receptivity)。在他们里面有个地方向着天是敞开的,有个东西催迫他们趋向神。不用作任何深奥的说明,我只要简单地说,他们是有着一种属灵的醒觉性,而且他们一直在培养这个东西,直到它在他们生活中成为最重要的东西。他们和普通人所不同的,就是当他觉得里面有渴慕的时候,他们就有所行动。他们养成毕生在心灵中对于神有反应的习惯,他们没有违背天上的异象,如同大卫很简捷地向神说:“你说:‘你们当寻求我的面。’那时我心向你说:‘耶和华啊,你的面我正要寻求。’”",
+              "reference": {
+                "time": 864.92,
+                "score": 0.8191,
+                "ratio": 0.8333,
+                "expected": "shipian27pianbajie",
+                "actual": "片27片8",
+                "span": [
+                  863.7,
+                  864.92
+                ],
+                "tokens": [
+                  {
+                    "text": "片",
+                    "start": 863.7,
+                    "end": 863.8,
+                    "rawStart": 2799,
+                    "rawEnd": 2799,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "2",
+                    "start": 863.8,
+                    "end": 864.14,
+                    "rawStart": 2800,
+                    "rawEnd": 2800,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "7",
+                    "start": 863.8,
+                    "end": 864.14,
+                    "rawStart": 2801,
+                    "rawEnd": 2801,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "片",
+                    "start": 864.44,
+                    "end": 864.68,
+                    "rawStart": 2802,
+                    "rawEnd": 2802,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "8",
+                    "start": 864.68,
+                    "end": 864.92,
+                    "rawStart": 2803,
+                    "rawEnd": 2803,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              }
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (6 trailing chars, coverage 0.417): target 1: “我往哪里去，躲避你的灵？我往哪里逃，躲避你的面？”（诗 139:7）",
+    "unverified end anchor: target 1: “我往哪里去，躲避你的灵？我往哪里逃，躲避你的面？”（诗 139:7）",
+    "unverified start anchor: target 4: 泛神论的错误非常明显，不足以欺骗人，它把神看作一切受造之物的总和。“自然”和“神”同为一体，所以",
+    "incomplete end (0 trailing chars, coverage 0.450): target 5: 有神论是说神住在祂所创造的世界中，祂和世界之间，有一条永远无法通过的鸿沟，祂和祂的手所造成的工程",
+    "incomplete end (0 trailing chars, coverage 0.450): target 8: “起初神……”这句话，不是说到物质，因为物质是不会自己发生的。在物质以先必先有一个先存的因，而神",
+    "unverified end anchor: target 8: “起初神……”这句话，不是说到物质，因为物质是不会自己发生的。在物质以先必先有一个先存的因，而神",
+    "unverified start anchor: target 13: 我们对于神的追求不会落空，乃是因为祂永远在找寻机会向我们显示祂自己。神向一个人显现，并不是好象从",
+    "unverified end anchor: target 13: 我们对于神的追求不会落空，乃是因为祂永远在找寻机会向我们显示祂自己。神向一个人显现，并不是好象从",
+    "unverified start anchor: target 19: 我大胆地说，他们所共有的一种特性，就是“属灵的感受性”（spiritual receptivit",
+    "unverified end anchor: target 19: 我大胆地说，他们所共有的一种特性，就是“属灵的感受性”（spiritual receptivit",
+    "repair unverified end (previous-sync): target 1",
+    "repair unverified start (previous-sync): target 4",
+    "repair unverified end (previous-sync): target 5",
+    "repair unverified end (previous-sync): target 8",
+    "repair unverified start (previous-sync): target 13",
+    "repair unverified end (previous-sync): target 13",
+    "repair unverified start (previous-sync): target 19",
+    "repair unverified end (previous-sync): target 19"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 4,
+    "updatedEnds": 11,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 3,
+    "unverifiedEnds": 5,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "11546a740f1101ba195797335f9e3aa432d4c450a583bc150055d9d0ead6f98f",
+  "repairCueDigest": "4809fdf951efb1ef1e63aac1ae906402b9c187ed318011295c3dfd400ea12b93",
+  "previousAlignmentWarnings": []
 }

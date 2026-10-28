@@ -8,60 +8,1725 @@
   "audioDuration": 149.256,
   "cues": [
     {
-      "start": 10.79,
-      "end": 11.05,
-      "kind": "heading",
-      "targetIndex": 10,
-      "targetText": "礼拜三",
-      "confidence": 0.5
-    },
-    {
-      "start": 11.05,
-      "end": 20.87,
-      "kind": "paragraph",
-      "targetIndex": 11,
-      "targetText": "在写给年轻的牧师提摩太的同一封信中使徒保罗提到了我们敬拜中应该做的另一件重要的事请读提摩太前书2",
-      "confidence": 0.571
-    },
-    {
-      "start": 20.87,
-      "end": 29.89,
-      "kind": "paragraph",
-      "targetIndex": 12,
-      "targetText": "提摩太前书21我劝你第一要为万人恳求祷告代求祝谢",
-      "confidence": 0.542
-    },
-    {
-      "start": 29.89,
-      "end": 57.45,
+      "start": 2.95,
+      "end": 19.23,
       "kind": "paragraph",
       "targetIndex": 13,
+      "targetText": "在写给年轻的牧师提摩太的同一封信中使徒保罗提到了我们敬拜中应该做的另一件重要的事请读提摩太前书2",
+      "confidence": 0.912,
+      "quality": {
+        "coverage": 0.912,
+        "coherentCoverage": 0.895,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 2.95,
+        "previousEnd": 19.23,
+        "previousConfidence": 0.912
+      }
+    },
+    {
+      "start": 22.55,
+      "end": 30.23,
+      "kind": "paragraph",
+      "targetIndex": 14,
+      "targetText": "提摩太前书21我劝你第一要为万人恳求祷告代求祝谢",
+      "confidence": 0.8,
+      "quality": {
+        "coverage": 0.808,
+        "coherentCoverage": 0.5,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.769,
+        "suffixCoverage": 0.846,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\49-3.mp3.json",
+          "transcriptSha256": "bac50db6396e5522c4a8f76632e4f612debcc7f08078e8790cc908a148bb6608",
+          "verified": true,
+          "time": 30.23,
+          "expectedPhrase": "提摩太前书2:1 我劝你第一要为万人恳求、祷告、代求、祝谢。",
+          "actualPhrase": "要为万人肯求祷告带求祝谢",
+          "edgeAnchor": "要为万人恳求祷告代求祝谢",
+          "evidence": {
+            "verified": false,
+            "coverage": 0.833,
+            "continuousAnchor": false,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 0.875,
+            "localSimilarity": 0.875,
+            "localText": "太前书2章1节我劝你第1要为万人恳求祷告代求祝谢",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false
+          },
+          "window": [
+            17.89,
+            41.89
+          ],
+          "segments": [
+            {
+              "start": 18.01,
+              "end": 19.23,
+              "text": "看看那是什么。",
+              "words": [
+                {
+                  "start": 18.01,
+                  "end": 18.27,
+                  "text": "看看",
+                  "probability": 0.9637967944145203
+                },
+                {
+                  "start": 18.27,
+                  "end": 18.77,
+                  "text": "那",
+                  "probability": 0.880402147769928
+                },
+                {
+                  "start": 18.77,
+                  "end": 18.95,
+                  "text": "是",
+                  "probability": 0.9758433699607849
+                },
+                {
+                  "start": 18.95,
+                  "end": 19.23,
+                  "text": "什么。",
+                  "probability": 0.9857119917869568
+                }
+              ]
+            },
+            {
+              "start": 20.27,
+              "end": 22.55,
+              "text": "聽不太前述二章一節",
+              "words": [
+                {
+                  "start": 20.27,
+                  "end": 20.87,
+                  "text": "聽",
+                  "probability": 0.1800471991300583
+                },
+                {
+                  "start": 20.87,
+                  "end": 20.95,
+                  "text": "不",
+                  "probability": 0.40786224603652954
+                },
+                {
+                  "start": 20.95,
+                  "end": 21.09,
+                  "text": "太",
+                  "probability": 0.9780293107032776
+                },
+                {
+                  "start": 21.09,
+                  "end": 21.33,
+                  "text": "前",
+                  "probability": 0.772331178188324
+                },
+                {
+                  "start": 21.33,
+                  "end": 21.57,
+                  "text": "述",
+                  "probability": 0.7364228069782257
+                },
+                {
+                  "start": 21.57,
+                  "end": 21.83,
+                  "text": "二",
+                  "probability": 0.8921082615852356
+                },
+                {
+                  "start": 21.83,
+                  "end": 22.01,
+                  "text": "章",
+                  "probability": 0.8890709578990936
+                },
+                {
+                  "start": 22.01,
+                  "end": 22.23,
+                  "text": "一",
+                  "probability": 0.935751736164093
+                },
+                {
+                  "start": 22.23,
+                  "end": 22.55,
+                  "text": "節",
+                  "probability": 0.5578257441520691
+                }
+              ]
+            },
+            {
+              "start": 22.55,
+              "end": 30.23,
+              "text": "我勸你第一要為萬人肯求祷告帶求祝謝",
+              "words": [
+                {
+                  "start": 22.55,
+                  "end": 23.71,
+                  "text": "我",
+                  "probability": 0.27947109937667847
+                },
+                {
+                  "start": 23.71,
+                  "end": 23.97,
+                  "text": "勸",
+                  "probability": 0.9918324053287506
+                },
+                {
+                  "start": 23.97,
+                  "end": 24.23,
+                  "text": "你",
+                  "probability": 0.9086402058601379
+                },
+                {
+                  "start": 24.23,
+                  "end": 25.07,
+                  "text": "第一",
+                  "probability": 0.7363832592964172
+                },
+                {
+                  "start": 25.07,
+                  "end": 25.65,
+                  "text": "要",
+                  "probability": 0.6689550876617432
+                },
+                {
+                  "start": 25.65,
+                  "end": 25.81,
+                  "text": "為",
+                  "probability": 0.9941384792327881
+                },
+                {
+                  "start": 25.81,
+                  "end": 26.19,
+                  "text": "萬",
+                  "probability": 0.9817652702331543
+                },
+                {
+                  "start": 26.19,
+                  "end": 26.59,
+                  "text": "人",
+                  "probability": 0.9836525917053223
+                },
+                {
+                  "start": 26.59,
+                  "end": 27.09,
+                  "text": "肯",
+                  "probability": 0.5983496382832527
+                },
+                {
+                  "start": 27.09,
+                  "end": 27.63,
+                  "text": "求",
+                  "probability": 0.979339063167572
+                },
+                {
+                  "start": 27.63,
+                  "end": 28.15,
+                  "text": "祷",
+                  "probability": 0.5410835891962051
+                },
+                {
+                  "start": 28.15,
+                  "end": 28.67,
+                  "text": "告",
+                  "probability": 0.9113204479217529
+                },
+                {
+                  "start": 28.67,
+                  "end": 29.11,
+                  "text": "帶",
+                  "probability": 0.30462780594825745
+                },
+                {
+                  "start": 29.11,
+                  "end": 29.59,
+                  "text": "求",
+                  "probability": 0.9725790619850159
+                },
+                {
+                  "start": 29.59,
+                  "end": 29.89,
+                  "text": "祝",
+                  "probability": 0.6863794326782227
+                },
+                {
+                  "start": 29.89,
+                  "end": 30.23,
+                  "text": "謝",
+                  "probability": 0.9499148726463318
+                }
+              ]
+            },
+            {
+              "start": 31.45,
+              "end": 32.89,
+              "text": "聖經告訴我們",
+              "words": [
+                {
+                  "start": 31.45,
+                  "end": 32.05,
+                  "text": "聖",
+                  "probability": 0.9595769345760345
+                },
+                {
+                  "start": 32.05,
+                  "end": 32.19,
+                  "text": "經",
+                  "probability": 0.9851745963096619
+                },
+                {
+                  "start": 32.19,
+                  "end": 32.47,
+                  "text": "告訴",
+                  "probability": 0.9910383224487305
+                },
+                {
+                  "start": 32.47,
+                  "end": 32.89,
+                  "text": "我們",
+                  "probability": 0.9914134740829468
+                }
+              ]
+            },
+            {
+              "start": 32.89,
+              "end": 35.91,
+              "text": "當我們按著祂的旨意祈求",
+              "words": [
+                {
+                  "start": 32.89,
+                  "end": 33.47,
+                  "text": "當",
+                  "probability": 0.8612458109855652
+                },
+                {
+                  "start": 33.47,
+                  "end": 33.79,
+                  "text": "我們",
+                  "probability": 0.9967579245567322
+                },
+                {
+                  "start": 33.79,
+                  "end": 34.31,
+                  "text": "按",
+                  "probability": 0.9885053038597107
+                },
+                {
+                  "start": 34.31,
+                  "end": 34.47,
+                  "text": "著",
+                  "probability": 0.9017616510391235
+                },
+                {
+                  "start": 34.47,
+                  "end": 34.65,
+                  "text": "祂",
+                  "probability": 0.6867832541465759
+                },
+                {
+                  "start": 34.65,
+                  "end": 34.77,
+                  "text": "的",
+                  "probability": 0.9819174408912659
+                },
+                {
+                  "start": 34.77,
+                  "end": 34.95,
+                  "text": "旨",
+                  "probability": 0.8550314903259277
+                },
+                {
+                  "start": 34.95,
+                  "end": 35.21,
+                  "text": "意",
+                  "probability": 0.9966365098953247
+                },
+                {
+                  "start": 35.21,
+                  "end": 35.51,
+                  "text": "祈",
+                  "probability": 0.6021891832351685
+                },
+                {
+                  "start": 35.51,
+                  "end": 35.91,
+                  "text": "求",
+                  "probability": 0.9970368146896362
+                }
+              ]
+            },
+            {
+              "start": 35.91,
+              "end": 39.89,
+              "text": "祂吹聽並且回應我們的祷告",
+              "words": [
+                {
+                  "start": 35.91,
+                  "end": 36.37,
+                  "text": "祂",
+                  "probability": 0.8308618366718292
+                },
+                {
+                  "start": 36.37,
+                  "end": 36.63,
+                  "text": "吹",
+                  "probability": 0.5663600787520409
+                },
+                {
+                  "start": 36.63,
+                  "end": 37.11,
+                  "text": "聽",
+                  "probability": 0.9678281545639038
+                },
+                {
+                  "start": 37.11,
+                  "end": 37.53,
+                  "text": "並",
+                  "probability": 0.9609148502349854
+                },
+                {
+                  "start": 37.53,
+                  "end": 37.91,
+                  "text": "且",
+                  "probability": 0.9947209358215332
+                },
+                {
+                  "start": 37.91,
+                  "end": 38.35,
+                  "text": "回",
+                  "probability": 0.9372023940086365
+                },
+                {
+                  "start": 38.35,
+                  "end": 38.75,
+                  "text": "應",
+                  "probability": 0.9961873888969421
+                },
+                {
+                  "start": 38.75,
+                  "end": 39.23,
+                  "text": "我們的",
+                  "probability": 0.86867755651474
+                },
+                {
+                  "start": 39.23,
+                  "end": 39.51,
+                  "text": "祷",
+                  "probability": 0.9639618992805481
+                },
+                {
+                  "start": 39.51,
+                  "end": 39.89,
+                  "text": "告",
+                  "probability": 0.9970069527626038
+                }
+              ]
+            },
+            {
+              "start": 39.89,
+              "end": 42.19,
+              "text": "這就是為什麼教",
+              "words": [
+                {
+                  "start": 39.89,
+                  "end": 40.87,
+                  "text": "這",
+                  "probability": 0.9852910041809082
+                },
+                {
+                  "start": 40.87,
+                  "end": 41.21,
+                  "text": "就是",
+                  "probability": 0.9978943467140198
+                },
+                {
+                  "start": 41.21,
+                  "end": 41.77,
+                  "text": "為什麼",
+                  "probability": 0.9238085746765137
+                },
+                {
+                  "start": 41.77,
+                  "end": 42.19,
+                  "text": "教",
+                  "probability": 0.9984466433525085
+                }
+              ]
+            }
+          ],
+          "source": "bounded-internal-differences-true-edge-words",
+          "listenedByAgent": false,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "actualEndpointLiteralChars": 3,
+          "maxInternalDifferences": 2,
+          "reason": "实际首/尾至少3字贴边相同，12字局部短句最多2处内部识别差异；其余局部覆盖、唯一性、完整词边界及相邻时间均核验，中间正文不逐字检查。",
+          "audioSha256": "fa56b6e90d085066c42599eb60cff1479744c1b5c8590b7fc24d5530109418af"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 20.87,
+        "previousEnd": 29.89,
+        "previousConfidence": 0.8
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "049_第四十九问 第二诫命是什么.md",
+          "audio": "49-3.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\049_第四十九问 第二诫命是什么\\audio-04.json",
+          "targetIndex": 14,
+          "edge": "end",
+          "previousTime": 29.89,
+          "time": 30.23,
+          "kind": "bounded-internal-differences-local-edge",
+          "previousVerified": false,
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "reason": "实际首/尾至少3字贴边相同，12字局部短句最多2处内部识别差异；其余局部覆盖、唯一性、完整词边界及相邻时间均核验，中间正文不逐字检查。"
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 20.87,
+            "time": 22.55,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\49-3.mp3.json",
+              "sha256": "849a5d6ea2eccc3a97637a17d2d1d70bce7daf9af1962753151fb1b208409102",
+              "anchor": {
+                "time": 22.55,
+                "score": 0.9983,
+                "ratio": 1.0,
+                "expected": "woquannidiyiyaoweiwanrenkenqiudaogaodai",
+                "actual": "我劝你第1要为万人肯求祷告带",
+                "span": [
+                  22.55,
+                  29.11
+                ],
+                "tokens": [
+                  {
+                    "text": "我",
+                    "start": 22.55,
+                    "end": 23.71,
+                    "rawStart": 66,
+                    "rawEnd": 66,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "劝",
+                    "start": 23.71,
+                    "end": 23.97,
+                    "rawStart": 67,
+                    "rawEnd": 67,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 23.97,
+                    "end": 24.23,
+                    "rawStart": 68,
+                    "rawEnd": 68,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "第",
+                    "start": 24.23,
+                    "end": 25.07,
+                    "rawStart": 69,
+                    "rawEnd": 69,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 24.23,
+                    "end": 25.07,
+                    "rawStart": 70,
+                    "rawEnd": 70,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "要",
+                    "start": 25.07,
+                    "end": 25.65,
+                    "rawStart": 71,
+                    "rawEnd": 71,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "为",
+                    "start": 25.65,
+                    "end": 25.81,
+                    "rawStart": 72,
+                    "rawEnd": 72,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "万",
+                    "start": 25.81,
+                    "end": 26.19,
+                    "rawStart": 73,
+                    "rawEnd": 73,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 26.19,
+                    "end": 26.59,
+                    "rawStart": 74,
+                    "rawEnd": 74,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "肯",
+                    "start": 26.59,
+                    "end": 27.09,
+                    "rawStart": 75,
+                    "rawEnd": 75,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "求",
+                    "start": 27.09,
+                    "end": 27.63,
+                    "rawStart": 76,
+                    "rawEnd": 76,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "祷",
+                    "start": 27.63,
+                    "end": 28.15,
+                    "rawStart": 77,
+                    "rawEnd": 77,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "告",
+                    "start": 28.15,
+                    "end": 28.67,
+                    "rawStart": 78,
+                    "rawEnd": 78,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "带",
+                    "start": 28.67,
+                    "end": 29.11,
+                    "rawStart": 79,
+                    "rawEnd": 79,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "我劝你第一要为万人恳求、祷告、代求、祝谢。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.808,
+          "coherentCoverage": 0.5,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.769,
+          "suffixCoverage": 0.846,
+          "unmatchedLeadingChars": 2,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [
+            "start substitution"
+          ],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\49-3.mp3.json",
+            "transcriptSha256": "bac50db6396e5522c4a8f76632e4f612debcc7f08078e8790cc908a148bb6608",
+            "verified": true,
+            "time": 30.23,
+            "expectedPhrase": "提摩太前书2:1 我劝你第一要为万人恳求、祷告、代求、祝谢。",
+            "actualPhrase": "要为万人肯求祷告带求祝谢",
+            "edgeAnchor": "要为万人恳求祷告代求祝谢",
+            "evidence": {
+              "verified": false,
+              "coverage": 0.833,
+              "continuousAnchor": false,
+              "substitutionAnchor": false,
+              "timingPrecision": "word",
+              "insideSegment": false,
+              "detachedContext": false,
+              "detachedNumericLabel": false,
+              "localSupported": true,
+              "localCoverage": 0.875,
+              "localSimilarity": 0.875,
+              "localText": "太前书2章1节我劝你第1要为万人恳求祷告代求祝谢",
+              "anchorOccurrences": 1,
+              "paragraphSupported": true,
+              "contextUsed": false,
+              "identityAmbiguous": false
+            },
+            "window": [
+              17.89,
+              41.89
+            ],
+            "segments": [
+              {
+                "start": 18.01,
+                "end": 19.23,
+                "text": "看看那是什么。",
+                "words": [
+                  {
+                    "start": 18.01,
+                    "end": 18.27,
+                    "text": "看看",
+                    "probability": 0.9637967944145203
+                  },
+                  {
+                    "start": 18.27,
+                    "end": 18.77,
+                    "text": "那",
+                    "probability": 0.880402147769928
+                  },
+                  {
+                    "start": 18.77,
+                    "end": 18.95,
+                    "text": "是",
+                    "probability": 0.9758433699607849
+                  },
+                  {
+                    "start": 18.95,
+                    "end": 19.23,
+                    "text": "什么。",
+                    "probability": 0.9857119917869568
+                  }
+                ]
+              },
+              {
+                "start": 20.27,
+                "end": 22.55,
+                "text": "聽不太前述二章一節",
+                "words": [
+                  {
+                    "start": 20.27,
+                    "end": 20.87,
+                    "text": "聽",
+                    "probability": 0.1800471991300583
+                  },
+                  {
+                    "start": 20.87,
+                    "end": 20.95,
+                    "text": "不",
+                    "probability": 0.40786224603652954
+                  },
+                  {
+                    "start": 20.95,
+                    "end": 21.09,
+                    "text": "太",
+                    "probability": 0.9780293107032776
+                  },
+                  {
+                    "start": 21.09,
+                    "end": 21.33,
+                    "text": "前",
+                    "probability": 0.772331178188324
+                  },
+                  {
+                    "start": 21.33,
+                    "end": 21.57,
+                    "text": "述",
+                    "probability": 0.7364228069782257
+                  },
+                  {
+                    "start": 21.57,
+                    "end": 21.83,
+                    "text": "二",
+                    "probability": 0.8921082615852356
+                  },
+                  {
+                    "start": 21.83,
+                    "end": 22.01,
+                    "text": "章",
+                    "probability": 0.8890709578990936
+                  },
+                  {
+                    "start": 22.01,
+                    "end": 22.23,
+                    "text": "一",
+                    "probability": 0.935751736164093
+                  },
+                  {
+                    "start": 22.23,
+                    "end": 22.55,
+                    "text": "節",
+                    "probability": 0.5578257441520691
+                  }
+                ]
+              },
+              {
+                "start": 22.55,
+                "end": 30.23,
+                "text": "我勸你第一要為萬人肯求祷告帶求祝謝",
+                "words": [
+                  {
+                    "start": 22.55,
+                    "end": 23.71,
+                    "text": "我",
+                    "probability": 0.27947109937667847
+                  },
+                  {
+                    "start": 23.71,
+                    "end": 23.97,
+                    "text": "勸",
+                    "probability": 0.9918324053287506
+                  },
+                  {
+                    "start": 23.97,
+                    "end": 24.23,
+                    "text": "你",
+                    "probability": 0.9086402058601379
+                  },
+                  {
+                    "start": 24.23,
+                    "end": 25.07,
+                    "text": "第一",
+                    "probability": 0.7363832592964172
+                  },
+                  {
+                    "start": 25.07,
+                    "end": 25.65,
+                    "text": "要",
+                    "probability": 0.6689550876617432
+                  },
+                  {
+                    "start": 25.65,
+                    "end": 25.81,
+                    "text": "為",
+                    "probability": 0.9941384792327881
+                  },
+                  {
+                    "start": 25.81,
+                    "end": 26.19,
+                    "text": "萬",
+                    "probability": 0.9817652702331543
+                  },
+                  {
+                    "start": 26.19,
+                    "end": 26.59,
+                    "text": "人",
+                    "probability": 0.9836525917053223
+                  },
+                  {
+                    "start": 26.59,
+                    "end": 27.09,
+                    "text": "肯",
+                    "probability": 0.5983496382832527
+                  },
+                  {
+                    "start": 27.09,
+                    "end": 27.63,
+                    "text": "求",
+                    "probability": 0.979339063167572
+                  },
+                  {
+                    "start": 27.63,
+                    "end": 28.15,
+                    "text": "祷",
+                    "probability": 0.5410835891962051
+                  },
+                  {
+                    "start": 28.15,
+                    "end": 28.67,
+                    "text": "告",
+                    "probability": 0.9113204479217529
+                  },
+                  {
+                    "start": 28.67,
+                    "end": 29.11,
+                    "text": "帶",
+                    "probability": 0.30462780594825745
+                  },
+                  {
+                    "start": 29.11,
+                    "end": 29.59,
+                    "text": "求",
+                    "probability": 0.9725790619850159
+                  },
+                  {
+                    "start": 29.59,
+                    "end": 29.89,
+                    "text": "祝",
+                    "probability": 0.6863794326782227
+                  },
+                  {
+                    "start": 29.89,
+                    "end": 30.23,
+                    "text": "謝",
+                    "probability": 0.9499148726463318
+                  }
+                ]
+              },
+              {
+                "start": 31.45,
+                "end": 32.89,
+                "text": "聖經告訴我們",
+                "words": [
+                  {
+                    "start": 31.45,
+                    "end": 32.05,
+                    "text": "聖",
+                    "probability": 0.9595769345760345
+                  },
+                  {
+                    "start": 32.05,
+                    "end": 32.19,
+                    "text": "經",
+                    "probability": 0.9851745963096619
+                  },
+                  {
+                    "start": 32.19,
+                    "end": 32.47,
+                    "text": "告訴",
+                    "probability": 0.9910383224487305
+                  },
+                  {
+                    "start": 32.47,
+                    "end": 32.89,
+                    "text": "我們",
+                    "probability": 0.9914134740829468
+                  }
+                ]
+              },
+              {
+                "start": 32.89,
+                "end": 35.91,
+                "text": "當我們按著祂的旨意祈求",
+                "words": [
+                  {
+                    "start": 32.89,
+                    "end": 33.47,
+                    "text": "當",
+                    "probability": 0.8612458109855652
+                  },
+                  {
+                    "start": 33.47,
+                    "end": 33.79,
+                    "text": "我們",
+                    "probability": 0.9967579245567322
+                  },
+                  {
+                    "start": 33.79,
+                    "end": 34.31,
+                    "text": "按",
+                    "probability": 0.9885053038597107
+                  },
+                  {
+                    "start": 34.31,
+                    "end": 34.47,
+                    "text": "著",
+                    "probability": 0.9017616510391235
+                  },
+                  {
+                    "start": 34.47,
+                    "end": 34.65,
+                    "text": "祂",
+                    "probability": 0.6867832541465759
+                  },
+                  {
+                    "start": 34.65,
+                    "end": 34.77,
+                    "text": "的",
+                    "probability": 0.9819174408912659
+                  },
+                  {
+                    "start": 34.77,
+                    "end": 34.95,
+                    "text": "旨",
+                    "probability": 0.8550314903259277
+                  },
+                  {
+                    "start": 34.95,
+                    "end": 35.21,
+                    "text": "意",
+                    "probability": 0.9966365098953247
+                  },
+                  {
+                    "start": 35.21,
+                    "end": 35.51,
+                    "text": "祈",
+                    "probability": 0.6021891832351685
+                  },
+                  {
+                    "start": 35.51,
+                    "end": 35.91,
+                    "text": "求",
+                    "probability": 0.9970368146896362
+                  }
+                ]
+              },
+              {
+                "start": 35.91,
+                "end": 39.89,
+                "text": "祂吹聽並且回應我們的祷告",
+                "words": [
+                  {
+                    "start": 35.91,
+                    "end": 36.37,
+                    "text": "祂",
+                    "probability": 0.8308618366718292
+                  },
+                  {
+                    "start": 36.37,
+                    "end": 36.63,
+                    "text": "吹",
+                    "probability": 0.5663600787520409
+                  },
+                  {
+                    "start": 36.63,
+                    "end": 37.11,
+                    "text": "聽",
+                    "probability": 0.9678281545639038
+                  },
+                  {
+                    "start": 37.11,
+                    "end": 37.53,
+                    "text": "並",
+                    "probability": 0.9609148502349854
+                  },
+                  {
+                    "start": 37.53,
+                    "end": 37.91,
+                    "text": "且",
+                    "probability": 0.9947209358215332
+                  },
+                  {
+                    "start": 37.91,
+                    "end": 38.35,
+                    "text": "回",
+                    "probability": 0.9372023940086365
+                  },
+                  {
+                    "start": 38.35,
+                    "end": 38.75,
+                    "text": "應",
+                    "probability": 0.9961873888969421
+                  },
+                  {
+                    "start": 38.75,
+                    "end": 39.23,
+                    "text": "我們的",
+                    "probability": 0.86867755651474
+                  },
+                  {
+                    "start": 39.23,
+                    "end": 39.51,
+                    "text": "祷",
+                    "probability": 0.9639618992805481
+                  },
+                  {
+                    "start": 39.51,
+                    "end": 39.89,
+                    "text": "告",
+                    "probability": 0.9970069527626038
+                  }
+                ]
+              },
+              {
+                "start": 39.89,
+                "end": 42.19,
+                "text": "這就是為什麼教",
+                "words": [
+                  {
+                    "start": 39.89,
+                    "end": 40.87,
+                    "text": "這",
+                    "probability": 0.9852910041809082
+                  },
+                  {
+                    "start": 40.87,
+                    "end": 41.21,
+                    "text": "就是",
+                    "probability": 0.9978943467140198
+                  },
+                  {
+                    "start": 41.21,
+                    "end": 41.77,
+                    "text": "為什麼",
+                    "probability": 0.9238085746765137
+                  },
+                  {
+                    "start": 41.77,
+                    "end": 42.19,
+                    "text": "教",
+                    "probability": 0.9984466433525085
+                  }
+                ]
+              }
+            ],
+            "source": "bounded-internal-differences-true-edge-words",
+            "listenedByAgent": false,
+            "localSupported": true,
+            "timingPrecision": "word",
+            "actualEndpointLiteralChars": 3,
+            "maxInternalDifferences": 2,
+            "reason": "实际首/尾至少3字贴边相同，12字局部短句最多2处内部识别差异；其余局部覆盖、唯一性、完整词边界及相邻时间均核验，中间正文不逐字检查。",
+            "audioSha256": "fa56b6e90d085066c42599eb60cff1479744c1b5c8590b7fc24d5530109418af"
+          }
+        }
+      }
+    },
+    {
+      "start": 31.45,
+      "end": 56.59,
+      "kind": "paragraph",
+      "targetIndex": 15,
       "targetText": "圣经告诉我们当我们按着祂的旨意祈求祂垂听并且回应我们的祷告这就是为什么教会要在敬拜中以上帝的道为",
-      "confidence": 0.775
+      "confidence": 0.965,
+      "quality": {
+        "coverage": 0.965,
+        "coherentCoverage": 0.953,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 31.45,
+        "previousEnd": 56.59,
+        "previousConfidence": 0.965
+      }
     },
     {
       "start": 57.45,
       "end": 76.65,
       "kind": "paragraph",
-      "targetIndex": 14,
+      "targetIndex": 16,
       "targetText": "在保罗写给歌罗西教会的信中保罗说到我们在敬拜中上帝让我们做的另一件事他说我们要向上帝唱诗章颂词灵",
-      "confidence": 0.872
+      "confidence": 0.874,
+      "quality": {
+        "coverage": 0.75,
+        "coherentCoverage": 0.583,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.8,
+        "suffixCoverage": 0.45,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 9,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\49-3.mp3.json",
+          "transcriptSha256": "bac50db6396e5522c4a8f76632e4f612debcc7f08078e8790cc908a148bb6608",
+          "candidate": 57.45,
+          "expectedPhrase": "在保罗写给歌罗西教会的信",
+          "actualPhrase": "在宝罗写给格罗西教会的信",
+          "phoneticPhrase": [
+            "zai",
+            "bao",
+            "luo",
+            "xie",
+            "gei",
+            "ge",
+            "luo",
+            "xi",
+            "jiao",
+            "hui",
+            "de",
+            "xin"
+          ],
+          "verified": true,
+          "time": 57.45,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "exact-local-syllables-original-word-times",
+          "phoneticExact": true,
+          "literalEqual": false,
+          "wordTokens": [
+            {
+              "text": "在",
+              "start": 57.45,
+              "end": 57.93,
+              "rawStart": 169,
+              "rawEnd": 169,
+              "precision": "word"
+            },
+            {
+              "text": "宝",
+              "start": 57.93,
+              "end": 58.15,
+              "rawStart": 170,
+              "rawEnd": 170,
+              "precision": "word"
+            },
+            {
+              "text": "罗",
+              "start": 58.15,
+              "end": 58.35,
+              "rawStart": 171,
+              "rawEnd": 171,
+              "precision": "word"
+            },
+            {
+              "text": "写",
+              "start": 58.35,
+              "end": 58.89,
+              "rawStart": 172,
+              "rawEnd": 172,
+              "precision": "word"
+            },
+            {
+              "text": "给",
+              "start": 58.89,
+              "end": 59.23,
+              "rawStart": 173,
+              "rawEnd": 173,
+              "precision": "word"
+            },
+            {
+              "text": "格",
+              "start": 59.23,
+              "end": 59.57,
+              "rawStart": 174,
+              "rawEnd": 174,
+              "precision": "word"
+            },
+            {
+              "text": "罗",
+              "start": 59.57,
+              "end": 59.71,
+              "rawStart": 175,
+              "rawEnd": 175,
+              "precision": "word"
+            },
+            {
+              "text": "西",
+              "start": 59.71,
+              "end": 59.87,
+              "rawStart": 176,
+              "rawEnd": 176,
+              "precision": "word"
+            },
+            {
+              "text": "教",
+              "start": 59.87,
+              "end": 60.07,
+              "rawStart": 177,
+              "rawEnd": 177,
+              "precision": "word"
+            },
+            {
+              "text": "会",
+              "start": 60.07,
+              "end": 60.29,
+              "rawStart": 178,
+              "rawEnd": 178,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 60.29,
+              "end": 60.41,
+              "rawStart": 179,
+              "rawEnd": 179,
+              "precision": "word"
+            },
+            {
+              "text": "信",
+              "start": 60.41,
+              "end": 60.59,
+              "rawStart": 180,
+              "rawEnd": 180,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "audioSha256": "fa56b6e90d085066c42599eb60cff1479744c1b5c8590b7fc24d5530109418af",
+          "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 57.45,
+        "previousEnd": 76.65,
+        "previousConfidence": 0.874
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "049_第四十九问 第二诫命是什么.md",
+          "audio": "49-3.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\049_第四十九问 第二诫命是什么\\audio-04.json",
+          "targetIndex": 16,
+          "edge": "start",
+          "previousTime": 57.45,
+          "time": 57.45,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ]
     },
     {
-      "start": 76.65,
-      "end": 93.71,
+      "start": 76.95,
+      "end": 92.89,
       "kind": "paragraph",
-      "targetIndex": 15,
+      "targetIndex": 17,
       "targetText": "歌罗西书316当用各样的智慧把基督的道理丰丰富富地存在心里用诗章颂词灵歌彼此教导互相劝戒心被恩感",
-      "confidence": 0.816
+      "confidence": 0.82,
+      "quality": {
+        "coverage": 0.889,
+        "coherentCoverage": 0.889,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 76.65,
+        "previousEnd": 92.89,
+        "previousConfidence": 0.82
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 76.65,
+            "time": 76.95,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\49-3.mp3.json",
+              "sha256": "849a5d6ea2eccc3a97637a17d2d1d70bce7daf9af1962753151fb1b208409102",
+              "anchor": {
+                "time": 76.95,
+                "score": 0.9997,
+                "ratio": 1.0,
+                "expected": "dangyonggeyangdezhihuibajidudedaolifeng",
+                "actual": "当用各样的智慧把基督的道理丰",
+                "span": [
+                  76.95,
+                  81.91
+                ],
+                "tokens": [
+                  {
+                    "text": "当",
+                    "start": 76.95,
+                    "end": 77.95,
+                    "rawStart": 229,
+                    "rawEnd": 229,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "用",
+                    "start": 77.95,
+                    "end": 78.55,
+                    "rawStart": 230,
+                    "rawEnd": 230,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "各",
+                    "start": 78.55,
+                    "end": 79.03,
+                    "rawStart": 231,
+                    "rawEnd": 231,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "样",
+                    "start": 79.03,
+                    "end": 79.25,
+                    "rawStart": 232,
+                    "rawEnd": 232,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 79.25,
+                    "end": 79.35,
+                    "rawStart": 233,
+                    "rawEnd": 233,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "智",
+                    "start": 79.35,
+                    "end": 79.55,
+                    "rawStart": 234,
+                    "rawEnd": 234,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "慧",
+                    "start": 79.55,
+                    "end": 79.81,
+                    "rawStart": 235,
+                    "rawEnd": 235,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "把",
+                    "start": 80.19,
+                    "end": 80.39,
+                    "rawStart": 236,
+                    "rawEnd": 236,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "基",
+                    "start": 80.39,
+                    "end": 80.69,
+                    "rawStart": 237,
+                    "rawEnd": 237,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "督",
+                    "start": 80.69,
+                    "end": 80.83,
+                    "rawStart": 238,
+                    "rawEnd": 238,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 80.83,
+                    "end": 80.95,
+                    "rawStart": 239,
+                    "rawEnd": 239,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "道",
+                    "start": 80.95,
+                    "end": 81.17,
+                    "rawStart": 240,
+                    "rawEnd": 240,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "理",
+                    "start": 81.17,
+                    "end": 81.39,
+                    "rawStart": 241,
+                    "rawEnd": 241,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "丰",
+                    "start": 81.85,
+                    "end": 81.91,
+                    "rawStart": 242,
+                    "rawEnd": 242,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 79.03,
+                  "score": 0.8596,
+                  "actual": "样的智慧把基督的道理丰"
+                }
+              },
+              "body": "当用各样的智慧,把基督的道理丰丰富富地存在心里,用诗章、颂词、灵歌,彼此教导,互相劝戒,心被恩感,歌颂神。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.889,
+          "coherentCoverage": 0.889,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.95,
+          "suffixCoverage": 0.9,
+          "unmatchedLeadingChars": 1,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          }
+        }
+      }
     },
     {
       "start": 93.71,
       "end": 147.99,
       "kind": "paragraph",
-      "targetIndex": 16,
+      "targetIndex": 18,
       "targetText": "我们想通过唱诗的方式把上帝的道丰丰富富地存在心里许多人喜欢音乐有时候我们过于欣赏一首歌的音乐以至",
-      "confidence": 0.897
+      "confidence": 0.977,
+      "quality": {
+        "coverage": 0.977,
+        "coherentCoverage": 0.977,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 93.71,
+        "previousEnd": 147.99,
+        "previousConfidence": 0.977
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 14: 提摩太前书2:1 我劝你第一要为万人恳求、祷告、代求、祝谢。",
+    "unverified end anchor: target 14: 提摩太前书2:1 我劝你第一要为万人恳求、祷告、代求、祝谢。",
+    "incomplete end (9 trailing chars, coverage 0.450): target 16: 在保罗写给歌罗西教会的信中，保罗说到我们在敬拜中，上帝让我们做的另一件事。他说我们要向上帝唱诗章",
+    "unverified start anchor: target 16: 在保罗写给歌罗西教会的信中，保罗说到我们在敬拜中，上帝让我们做的另一件事。他说我们要向上帝唱诗章",
+    "unverified end anchor: target 16: 在保罗写给歌罗西教会的信中，保罗说到我们在敬拜中，上帝让我们做的另一件事。他说我们要向上帝唱诗章",
+    "repair conflict (replacement withheld): targets 16, 17",
+    "repair unverified start (previous-sync): target 14",
+    "repair unverified end (previous-sync): target 14",
+    "repair unverified start (previous-sync): target 16",
+    "repair unverified start (previous-sync): target 17",
+    "local phrase context confirmed end: target 14; original ASR differences and warnings retained"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 3,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 11,
+      "targetIndex": 13,
+      "targetText": "在写给年轻的牧师提摩太的同一封信中使徒保罗提到了我们敬拜中应该做的另一件重要的事请读提摩太前书2",
+      "method": "unchanged-source-span-after-insertion"
+    },
+    {
+      "previousTargetIndex": 12,
+      "targetIndex": 14,
+      "targetText": "提摩太前书21我劝你第一要为万人恳求祷告代求祝谢",
+      "method": "unchanged-source-span-after-insertion"
+    },
+    {
+      "previousTargetIndex": 13,
+      "targetIndex": 15,
+      "targetText": "圣经告诉我们当我们按着祂的旨意祈求祂垂听并且回应我们的祷告这就是为什么教会要在敬拜中以上帝的道为",
+      "method": "unchanged-source-span-after-insertion"
+    },
+    {
+      "previousTargetIndex": 14,
+      "targetIndex": 16,
+      "targetText": "在保罗写给歌罗西教会的信中保罗说到我们在敬拜中上帝让我们做的另一件事他说我们要向上帝唱诗章颂词灵",
+      "method": "unchanged-source-span-after-insertion"
+    },
+    {
+      "previousTargetIndex": 15,
+      "targetIndex": 17,
+      "targetText": "歌罗西书316当用各样的智慧把基督的道理丰丰富富地存在心里用诗章颂词灵歌彼此教导互相劝戒心被恩感",
+      "method": "unchanged-source-span-after-insertion"
+    },
+    {
+      "previousTargetIndex": 16,
+      "targetIndex": 18,
+      "targetText": "我们想通过唱诗的方式把上帝的道丰丰富富地存在心里许多人喜欢音乐有时候我们过于欣赏一首歌的音乐以至",
+      "method": "unchanged-source-span-after-insertion"
+    }
+  ],
+  "chronologyReordered": false,
+  "repairFingerprint": "b4c1e96ec8d3d04eee4af545aa57ce4679ade57c1a3e09759789522de74da0ba",
+  "repairCueDigest": "6a855db1a7388e6b226ce653cbadcce206b6851fcef9f78a856165eb297cc150",
+  "previousAlignmentWarnings": [],
+  "targetIndexMethod": "body-global-v8-rendered-list-and-empty-paragraph-indices"
 }

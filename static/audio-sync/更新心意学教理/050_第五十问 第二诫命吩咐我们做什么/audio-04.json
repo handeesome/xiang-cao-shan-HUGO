@@ -8,28 +8,466 @@
   "audioDuration": 102.768,
   "cues": [
     {
-      "start": 7.9,
-      "end": 8.18,
-      "kind": "heading",
-      "targetIndex": 10,
-      "targetText": "礼拜三",
-      "confidence": 0.5
-    },
-    {
-      "start": 8.18,
-      "end": 83.18,
+      "start": 3.56,
+      "end": 84.54,
       "kind": "paragraph",
-      "targetIndex": 11,
+      "targetIndex": 13,
       "targetText": "上帝已经在圣经中设立了信仰与敬拜的条规或法则祂要求我们在敬拜的时候做几件事上帝要求祂的百姓常常聚",
-      "confidence": 0.858
+      "confidence": 0.931,
+      "quality": {
+        "coverage": 0.933,
+        "coherentCoverage": 0.917,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 5,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "source": "context-reviewed-read-prompt-ending",
+          "contextUsed": true,
+          "identityAmbiguous": false,
+          "continuousAnchor": false,
+          "timingPrecision": "word",
+          "time": 84.54,
+          "expectedPhrase": "真理的教导，尽管不一定能明白所教导的全部。如果你总是厌烦主日去教会，你要问问自己，是不是真的属于上帝的百姓。请读诗篇122:1。",
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\50-3.mp3.json",
+          "transcriptSha256": "331fd932993059ed53c4feeb1e87d80e261becc36035c570905e291e5fc581ab",
+          "audioSha256": "6137c996fcbda77be5cfffb1d23b4f65a6460ffc2bd1b11477c98d2f781be7c6",
+          "rawSegments": [
+            {
+              "start": 81.52,
+              "end": 84.54,
+              "text": "请读十篇一百二十二篇一节",
+              "words": [
+                {
+                  "start": 81.52,
+                  "end": 82.04,
+                  "text": "请",
+                  "probability": 0.5936736464500427
+                },
+                {
+                  "start": 82.04,
+                  "end": 82.28,
+                  "text": "读",
+                  "probability": 0.9696879982948303
+                },
+                {
+                  "start": 82.28,
+                  "end": 82.56,
+                  "text": "十",
+                  "probability": 0.1271660476922989
+                },
+                {
+                  "start": 82.56,
+                  "end": 82.82,
+                  "text": "篇",
+                  "probability": 0.9950229525566101
+                },
+                {
+                  "start": 82.82,
+                  "end": 83.06,
+                  "text": "一",
+                  "probability": 0.7089282870292664
+                },
+                {
+                  "start": 83.06,
+                  "end": 83.18,
+                  "text": "百",
+                  "probability": 0.9559773802757263
+                },
+                {
+                  "start": 83.18,
+                  "end": 83.38,
+                  "text": "二",
+                  "probability": 0.9843752980232239
+                },
+                {
+                  "start": 83.38,
+                  "end": 83.48,
+                  "text": "十",
+                  "probability": 0.9255765080451965
+                },
+                {
+                  "start": 83.48,
+                  "end": 83.66,
+                  "text": "二",
+                  "probability": 0.9626465439796448
+                },
+                {
+                  "start": 83.66,
+                  "end": 84.02,
+                  "text": "篇",
+                  "probability": 0.9947314262390137
+                },
+                {
+                  "start": 84.02,
+                  "end": 84.28,
+                  "text": "一",
+                  "probability": 0.8195781111717224
+                },
+                {
+                  "start": 84.28,
+                  "end": 84.54,
+                  "text": "节",
+                  "probability": 0.9364866018295288
+                }
+              ]
+            }
+          ],
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+          "listenedByAgent": false
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 3.56,
+        "previousEnd": 82.56,
+        "previousConfidence": 0.931
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "050_第五十问 第二诫命吩咐我们做什么.md",
+          "audio": "50-3.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\050_第五十问 第二诫命吩咐我们做什么\\audio-04.json",
+          "caseIndex": 703,
+          "targetIndex": 13,
+          "edge": "end",
+          "previousTime": 82.56,
+          "time": 84.54,
+          "kind": "verified-edge",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false,
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。"
+        }
+      ]
     },
     {
-      "start": 83.18,
+      "start": 85.24,
       "end": 91.84,
       "kind": "paragraph",
-      "targetIndex": 12,
+      "targetIndex": 14,
       "targetText": "诗篇1221人对我说我们往耶和华的殿去我就欢喜",
-      "confidence": 0.652
+      "confidence": 0.857,
+      "quality": {
+        "coverage": 0.84,
+        "coherentCoverage": 0.76,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.917,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "localSupported": false,
+          "source": "previous-verified-end",
+          "time": 84.54,
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "referenceOwnershipConstraint": {
+          "ownerTargetIndex": 13,
+          "ownerTargetText": "上帝已经在圣经中设立了信仰与敬拜的条规或法则祂要求我们在敬拜的时候做几件事上帝要求祂的百姓常常聚",
+          "notBefore": 84.54,
+          "verifiedSpokenOnset": false
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 82.56,
+        "previousEnd": 91.84,
+        "previousConfidence": 0.857
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "050_第五十问 第二诫命吩咐我们做什么.md",
+          "audio": "50-3.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\050_第五十问 第二诫命吩咐我们做什么\\audio-04.json",
+          "caseIndex": 703,
+          "targetIndex": 14,
+          "edge": "start",
+          "previousTime": 82.56,
+          "time": 84.54,
+          "kind": "unverified-neighbor-constraint",
+          "previousVerified": true,
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 84.54,
+            "time": 85.24,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\50-3.mp3.json",
+              "sha256": "adc0175b53b1bd02e0c852a3690c9574cec952c3cc939b8f6bf8fdb2aa5526d2",
+              "anchor": {
+                "time": 85.24,
+                "score": 0.9279,
+                "ratio": 0.9286,
+                "expected": "renduiwoshuowomenwangyehehuadedianquwo",
+                "actual": "人对我说我们往1鹤华的店去我",
+                "span": [
+                  85.24,
+                  91.02
+                ],
+                "tokens": [
+                  {
+                    "text": "人",
+                    "start": 85.24,
+                    "end": 85.76,
+                    "rawStart": 265,
+                    "rawEnd": 265,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "对",
+                    "start": 85.76,
+                    "end": 86.22,
+                    "rawStart": 266,
+                    "rawEnd": 266,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 86.22,
+                    "end": 86.4,
+                    "rawStart": 267,
+                    "rawEnd": 267,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "说",
+                    "start": 86.4,
+                    "end": 86.7,
+                    "rawStart": 268,
+                    "rawEnd": 268,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 86.7,
+                    "end": 87.64,
+                    "rawStart": 269,
+                    "rawEnd": 269,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 86.7,
+                    "end": 87.64,
+                    "rawStart": 270,
+                    "rawEnd": 270,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "往",
+                    "start": 87.64,
+                    "end": 87.98,
+                    "rawStart": 271,
+                    "rawEnd": 271,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 87.98,
+                    "end": 88.44,
+                    "rawStart": 272,
+                    "rawEnd": 272,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "鹤",
+                    "start": 88.44,
+                    "end": 88.64,
+                    "rawStart": 273,
+                    "rawEnd": 273,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "华",
+                    "start": 88.64,
+                    "end": 88.8,
+                    "rawStart": 274,
+                    "rawEnd": 274,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 88.8,
+                    "end": 88.96,
+                    "rawStart": 275,
+                    "rawEnd": 275,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "店",
+                    "start": 88.96,
+                    "end": 89.16,
+                    "rawStart": 276,
+                    "rawEnd": 276,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "去",
+                    "start": 89.16,
+                    "end": 89.6,
+                    "rawStart": 277,
+                    "rawEnd": 277,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 90.5,
+                    "end": 91.02,
+                    "rawStart": 278,
+                    "rawEnd": 278,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "人对我说:“我们往耶和华的殿去”,我就欢喜。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.84,
+          "coherentCoverage": 0.76,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.917,
+          "suffixCoverage": 0.75,
+          "unmatchedLeadingChars": 1,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "localSupported": false,
+            "source": "previous-verified-end",
+            "time": 84.54,
+            "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.75,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "referenceOwnershipConstraint": {
+            "ownerTargetIndex": 13,
+            "ownerTargetText": "上帝已经在圣经中设立了信仰与敬拜的条规或法则祂要求我们在敬拜的时候做几件事上帝要求祂的百姓常常聚",
+            "notBefore": 84.54,
+            "verifiedSpokenOnset": false
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (5 trailing chars, coverage 0.650): target 13: 上帝已经在圣经中设立了信仰与敬拜的条规（或法则）。祂要求我们在敬拜的时候做几件事。上帝要求祂的百",
+    "unverified end anchor: target 13: 上帝已经在圣经中设立了信仰与敬拜的条规（或法则）。祂要求我们在敬拜的时候做几件事。上帝要求祂的百",
+    "repair unverified end (previous-sync): target 13",
+    "context reviewed end: target 13; 前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+    "unverified constrained start: target 14; 旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 11,
+      "targetIndex": 13,
+      "targetText": "上帝已经在圣经中设立了信仰与敬拜的条规或法则祂要求我们在敬拜的时候做几件事上帝要求祂的百姓常常聚",
+      "method": "unchanged-source-span-after-insertion"
+    },
+    {
+      "previousTargetIndex": 12,
+      "targetIndex": 14,
+      "targetText": "诗篇1221人对我说我们往耶和华的殿去我就欢喜",
+      "method": "unchanged-source-span-after-insertion"
+    }
+  ],
+  "chronologyReordered": false,
+  "repairFingerprint": "32ca82b059a163f072cc6125aea700fc7eb3cde88d1aa08cb4b6ae8732998b65",
+  "repairCueDigest": "02419f6570d48e86e15e5fad988de9f10515e9e31e69a33b1cbdb26cdeff9b57",
+  "previousAlignmentWarnings": [],
+  "targetIndexMethod": "body-global-v8-rendered-list-and-empty-paragraph-indices"
 }

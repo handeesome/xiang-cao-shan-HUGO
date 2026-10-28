@@ -8,28 +8,295 @@
   "audioDuration": 88.056,
   "cues": [
     {
-      "start": 2.31,
-      "end": 3.63,
-      "kind": "heading",
-      "targetIndex": 18,
-      "targetText": "礼拜五",
-      "confidence": 0.8
-    },
-    {
       "start": 3.63,
-      "end": 39.63,
+      "end": 41.69,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "如果我们承认上帝是独一真上帝我们就明白上帝创造万物是为祂的荣光万物也包括我们如果我们以上帝为我们",
-      "confidence": 0.732
+      "confidence": 0.967,
+      "quality": {
+        "coverage": 0.963,
+        "coherentCoverage": 0.963,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 3.63,
+        "previousEnd": 41.69,
+        "previousConfidence": 0.967
+      }
     },
     {
-      "start": 39.63,
-      "end": 50.91,
+      "start": 42.49,
+      "end": 50.05,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "哥林多前书1031所以你们或吃或喝无论做什么都要为荣耀上帝而行",
-      "confidence": 0.678
+      "confidence": 0.727,
+      "quality": {
+        "coverage": 0.606,
+        "coherentCoverage": 0.576,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.25,
+        "suffixCoverage": 0.938,
+        "unmatchedLeadingChars": 11,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 0.917,
+          "localSimilarity": 0.917,
+          "localText": "1节所以你们或吃或喝无论做什么都要为荣耀上帝而行",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 41.69,
+        "previousEnd": 50.91,
+        "previousConfidence": 0.727
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 41.69,
+            "time": 42.49,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\46-5.mp3.json",
+              "sha256": "7bd62fd4fcf2e8c798f78f79564d34c0664778db39e426eeeae0dd527fdf47c1",
+              "anchor": {
+                "time": 42.49,
+                "score": 0.9992,
+                "ratio": 1.0,
+                "expected": "suoyinimenhuochihuohewulunzuoshenmedou",
+                "actual": "所以你们祸吃祸喝无论做什么都",
+                "span": [
+                  42.49,
+                  47.59
+                ],
+                "tokens": [
+                  {
+                    "text": "所",
+                    "start": 42.49,
+                    "end": 43.09,
+                    "rawStart": 109,
+                    "rawEnd": 109,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "以",
+                    "start": 42.49,
+                    "end": 43.09,
+                    "rawStart": 110,
+                    "rawEnd": 110,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 43.09,
+                    "end": 43.65,
+                    "rawStart": 111,
+                    "rawEnd": 111,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 43.09,
+                    "end": 43.65,
+                    "rawStart": 112,
+                    "rawEnd": 112,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "祸",
+                    "start": 43.65,
+                    "end": 44.11,
+                    "rawStart": 113,
+                    "rawEnd": 113,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "吃",
+                    "start": 44.11,
+                    "end": 44.57,
+                    "rawStart": 114,
+                    "rawEnd": 114,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "祸",
+                    "start": 44.57,
+                    "end": 45.01,
+                    "rawStart": 115,
+                    "rawEnd": 115,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "喝",
+                    "start": 45.01,
+                    "end": 45.47,
+                    "rawStart": 116,
+                    "rawEnd": 116,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "无",
+                    "start": 45.47,
+                    "end": 46.35,
+                    "rawStart": 117,
+                    "rawEnd": 117,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "论",
+                    "start": 46.35,
+                    "end": 46.49,
+                    "rawStart": 118,
+                    "rawEnd": 118,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "做",
+                    "start": 46.49,
+                    "end": 46.71,
+                    "rawStart": 119,
+                    "rawEnd": 119,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "什",
+                    "start": 46.71,
+                    "end": 47.03,
+                    "rawStart": 120,
+                    "rawEnd": 120,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "么",
+                    "start": 46.71,
+                    "end": 47.03,
+                    "rawStart": 121,
+                    "rawEnd": 121,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "都",
+                    "start": 47.03,
+                    "end": 47.59,
+                    "rawStart": 122,
+                    "rawEnd": 122,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false,
+                "alternative": {
+                  "time": 40.37,
+                  "score": 0.8194,
+                  "actual": "章31节所以你们祸吃祸喝无论做什么"
+                }
+              },
+              "body": "所以,你们或吃或喝,无论做什么,都要为荣耀神而行。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.606,
+          "coherentCoverage": 0.576,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.25,
+          "suffixCoverage": 0.938,
+          "unmatchedLeadingChars": 11,
+          "unmatchedTrailingChars": 0,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 0.917,
+            "localSimilarity": 0.917,
+            "localText": "1节所以你们或吃或喝无论做什么都要为荣耀上帝而行",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false,
+            "source": "verified-transcript"
+          }
+        }
+      }
     },
     {
       "start": 50.91,
@@ -37,7 +304,74 @@
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "就连吃喝这样必需的平常的事都要为着上帝的荣耀而做我们凡事为着上帝的荣耀而行是什么意思当我们尽我们",
-      "confidence": 0.914
+      "confidence": 0.914,
+      "quality": {
+        "coverage": 0.897,
+        "coherentCoverage": 0.897,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 50.91,
+        "previousEnd": 87.23,
+        "previousConfidence": 0.914
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (11 leading chars, coverage 0.250): target 20: 哥林多前书10:31 所以，你们或吃或喝，无论做什么，都要为荣耀神而行。",
+    "unverified start anchor: target 20: 哥林多前书10:31 所以，你们或吃或喝，无论做什么，都要为荣耀神而行。",
+    "repair unverified start (previous-sync): target 20"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "7f8046f8ee640cd6e1f10924b0c0b6ba166b0bbd136d8b12d9156cce0ed1df0d",
+  "repairCueDigest": "7417f175a54276304675cf51d19d15fe0917830730c4cc58df77088134b432e0",
+  "previousAlignmentWarnings": []
 }

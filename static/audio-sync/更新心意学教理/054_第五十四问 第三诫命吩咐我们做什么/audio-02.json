@@ -8,28 +8,584 @@
   "audioDuration": 124.2380625,
   "cues": [
     {
-      "start": 1.46,
-      "end": 2.86,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "礼拜一",
-      "confidence": 0.8
-    },
-    {
-      "start": 2.86,
-      "end": 79.14,
+      "start": 0.9,
+      "end": 81.54,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "十诫中的第一诫命告诉我们敬拜的对象应该是上帝而且只能是上帝第二诫命告诉我们敬拜的时候怎么做用什么",
-      "confidence": 0.863
+      "confidence": 0.925,
+      "quality": {
+        "coverage": 0.927,
+        "coherentCoverage": 0.902,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 0.9,
+        "previousEnd": 79.14,
+        "previousConfidence": 0.916
+      }
     },
     {
-      "start": 79.14,
-      "end": 121.36,
+      "start": 82.96,
+      "end": 121.82,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "诗篇9915耶和华作王万民当战抖祂坐在二基路伯上地当动摇耶和华在锡安为大祂超乎万民之上他们当称赞",
-      "confidence": 0.714
+      "confidence": 0.788,
+      "quality": {
+        "coverage": 0.752,
+        "coherentCoverage": 0.606,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.4,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 5,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-verified-end"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\54-1.mp3.json",
+          "transcriptSha256": "41258963d9e27bd4d526dc014064709923b0d3d6785c936b1d15799cfa0b117a",
+          "phraseChars": 12,
+          "candidate": 121.82,
+          "expectedPhrase": "神在他脚凳前下拜他本为圣",
+          "actualPhrase": "神在他脚奔前下败他本为胜",
+          "phoneticPhrase": [
+            "shen",
+            "zai",
+            "ta",
+            "jiao",
+            "deng",
+            "qian",
+            "xia",
+            "bai",
+            "ta",
+            "ben",
+            "wei",
+            "sheng"
+          ],
+          "actualPhoneticPhrase": [
+            "shen",
+            "zai",
+            "ta",
+            "jiao",
+            "ben",
+            "qian",
+            "xia",
+            "bai",
+            "ta",
+            "ben",
+            "wei",
+            "sheng"
+          ],
+          "verified": true,
+          "time": 121.82,
+          "boundedPhonetic": true,
+          "exactEndpointPhonemes": 2,
+          "maxInternalPhoneticDifferences": 2,
+          "phoneticDifferences": [
+            4
+          ],
+          "localSupported": true,
+          "timingPrecision": "word",
+          "wordTokens": [
+            {
+              "text": "神",
+              "start": 115.46,
+              "end": 115.74,
+              "rawStart": 333,
+              "rawEnd": 334,
+              "precision": "word"
+            },
+            {
+              "text": "在",
+              "start": 115.74,
+              "end": 116.64,
+              "rawStart": 335,
+              "rawEnd": 335,
+              "precision": "word"
+            },
+            {
+              "text": "他",
+              "start": 116.64,
+              "end": 116.88,
+              "rawStart": 336,
+              "rawEnd": 336,
+              "precision": "word"
+            },
+            {
+              "text": "脚",
+              "start": 116.88,
+              "end": 117.16,
+              "rawStart": 337,
+              "rawEnd": 337,
+              "precision": "word"
+            },
+            {
+              "text": "奔",
+              "start": 117.16,
+              "end": 117.44,
+              "rawStart": 338,
+              "rawEnd": 338,
+              "precision": "word"
+            },
+            {
+              "text": "前",
+              "start": 117.44,
+              "end": 117.86,
+              "rawStart": 339,
+              "rawEnd": 339,
+              "precision": "word"
+            },
+            {
+              "text": "下",
+              "start": 117.86,
+              "end": 118.32,
+              "rawStart": 340,
+              "rawEnd": 340,
+              "precision": "word"
+            },
+            {
+              "text": "败",
+              "start": 118.32,
+              "end": 118.74,
+              "rawStart": 341,
+              "rawEnd": 341,
+              "precision": "word"
+            },
+            {
+              "text": "他",
+              "start": 119.06,
+              "end": 119.92,
+              "rawStart": 342,
+              "rawEnd": 342,
+              "precision": "word"
+            },
+            {
+              "text": "本",
+              "start": 119.92,
+              "end": 120.92,
+              "rawStart": 343,
+              "rawEnd": 343,
+              "precision": "word"
+            },
+            {
+              "text": "为",
+              "start": 120.92,
+              "end": 121.36,
+              "rawStart": 344,
+              "rawEnd": 344,
+              "precision": "word"
+            },
+            {
+              "text": "胜",
+              "start": 121.36,
+              "end": 121.82,
+              "rawStart": 345,
+              "rawEnd": 345,
+              "precision": "word"
+            }
+          ],
+          "source": "bounded-local-phonetic-differences-original-word-times",
+          "listenedByAgent": false,
+          "audioSha256": "ab153fbddbca4c186595fadaa895cfe7fd6746384cb3737704a24026e278af59",
+          "reason": "实际首/尾2个音节贴边相同，12音节局部短句最多2处内部识别差异；完整词边界、源段及录音唯一性、数字一致、停顿与相邻时间均核验，不逐字检查正文中间。"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-end",
+        "endSource": "previous-sync",
+        "previousStart": 79.14,
+        "previousEnd": 121.36,
+        "previousConfidence": 0.77
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "054_第五十四问 第三诫命吩咐我们做什么.md",
+          "audio": "54-1.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\054_第五十四问 第三诫命吩咐我们做什么\\audio-02.json",
+          "targetIndex": 4,
+          "edge": "end",
+          "previousTime": 121.36,
+          "time": 121.82,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 81.54,
+            "time": 82.96,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\54-1.mp3.json",
+              "sha256": "06b53365d30f126922f69c219583d4f32782ef27c5baee0d038600c4435dda7a",
+              "anchor": {
+                "time": 82.96,
+                "score": 0.8815,
+                "ratio": 0.8889,
+                "expected": "yehehuazuowangwanmindangzhandoutazuozaier",
+                "actual": "合华作王万名当战斗他坐在2",
+                "span": [
+                  82.96,
+                  87.78
+                ],
+                "tokens": [
+                  {
+                    "text": "合",
+                    "start": 82.96,
+                    "end": 83.1,
+                    "rawStart": 247,
+                    "rawEnd": 247,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "华",
+                    "start": 83.1,
+                    "end": 83.28,
+                    "rawStart": 248,
+                    "rawEnd": 248,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "作",
+                    "start": 83.28,
+                    "end": 83.54,
+                    "rawStart": 249,
+                    "rawEnd": 249,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "王",
+                    "start": 83.54,
+                    "end": 83.86,
+                    "rawStart": 250,
+                    "rawEnd": 250,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "万",
+                    "start": 83.86,
+                    "end": 84.44,
+                    "rawStart": 251,
+                    "rawEnd": 251,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "名",
+                    "start": 84.44,
+                    "end": 84.86,
+                    "rawStart": 252,
+                    "rawEnd": 252,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "当",
+                    "start": 84.86,
+                    "end": 85.26,
+                    "rawStart": 253,
+                    "rawEnd": 253,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "战",
+                    "start": 85.26,
+                    "end": 85.66,
+                    "rawStart": 254,
+                    "rawEnd": 254,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "斗",
+                    "start": 85.66,
+                    "end": 85.96,
+                    "rawStart": 255,
+                    "rawEnd": 255,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "他",
+                    "start": 85.96,
+                    "end": 86.9,
+                    "rawStart": 256,
+                    "rawEnd": 256,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "坐",
+                    "start": 86.9,
+                    "end": 87.1,
+                    "rawStart": 257,
+                    "rawEnd": 257,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "在",
+                    "start": 87.1,
+                    "end": 87.38,
+                    "rawStart": 258,
+                    "rawEnd": 258,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "2",
+                    "start": 87.38,
+                    "end": 87.78,
+                    "rawStart": 259,
+                    "rawEnd": 259,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "耶和华作王,万民当战抖!祂坐在二基路伯上,地当动摇!耶和华在锡安为大,祂超乎万民之上。他们当称赞祂大而可畏的名,祂本为圣!王有能力,喜爱公平,坚立公正,在雅各中施行公平和公义。你们当尊崇耶和华我们的神,在祂脚凳前下拜。祂本为圣!"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.752,
+          "coherentCoverage": 0.606,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.4,
+          "suffixCoverage": 0.75,
+          "unmatchedLeadingChars": 5,
+          "unmatchedTrailingChars": 1,
+          "reviewRequired": true,
+          "boundaryAdjusted": [
+            "end substitution"
+          ],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "source": "previous-verified-end"
+          },
+          "endEvidence": {
+            "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\54-1.mp3.json",
+            "transcriptSha256": "41258963d9e27bd4d526dc014064709923b0d3d6785c936b1d15799cfa0b117a",
+            "phraseChars": 12,
+            "candidate": 121.82,
+            "expectedPhrase": "神在他脚凳前下拜他本为圣",
+            "actualPhrase": "神在他脚奔前下败他本为胜",
+            "phoneticPhrase": [
+              "shen",
+              "zai",
+              "ta",
+              "jiao",
+              "deng",
+              "qian",
+              "xia",
+              "bai",
+              "ta",
+              "ben",
+              "wei",
+              "sheng"
+            ],
+            "actualPhoneticPhrase": [
+              "shen",
+              "zai",
+              "ta",
+              "jiao",
+              "ben",
+              "qian",
+              "xia",
+              "bai",
+              "ta",
+              "ben",
+              "wei",
+              "sheng"
+            ],
+            "verified": true,
+            "time": 121.82,
+            "boundedPhonetic": true,
+            "exactEndpointPhonemes": 2,
+            "maxInternalPhoneticDifferences": 2,
+            "phoneticDifferences": [
+              4
+            ],
+            "localSupported": true,
+            "timingPrecision": "word",
+            "wordTokens": [
+              {
+                "text": "神",
+                "start": 115.46,
+                "end": 115.74,
+                "rawStart": 333,
+                "rawEnd": 334,
+                "precision": "word"
+              },
+              {
+                "text": "在",
+                "start": 115.74,
+                "end": 116.64,
+                "rawStart": 335,
+                "rawEnd": 335,
+                "precision": "word"
+              },
+              {
+                "text": "他",
+                "start": 116.64,
+                "end": 116.88,
+                "rawStart": 336,
+                "rawEnd": 336,
+                "precision": "word"
+              },
+              {
+                "text": "脚",
+                "start": 116.88,
+                "end": 117.16,
+                "rawStart": 337,
+                "rawEnd": 337,
+                "precision": "word"
+              },
+              {
+                "text": "奔",
+                "start": 117.16,
+                "end": 117.44,
+                "rawStart": 338,
+                "rawEnd": 338,
+                "precision": "word"
+              },
+              {
+                "text": "前",
+                "start": 117.44,
+                "end": 117.86,
+                "rawStart": 339,
+                "rawEnd": 339,
+                "precision": "word"
+              },
+              {
+                "text": "下",
+                "start": 117.86,
+                "end": 118.32,
+                "rawStart": 340,
+                "rawEnd": 340,
+                "precision": "word"
+              },
+              {
+                "text": "败",
+                "start": 118.32,
+                "end": 118.74,
+                "rawStart": 341,
+                "rawEnd": 341,
+                "precision": "word"
+              },
+              {
+                "text": "他",
+                "start": 119.06,
+                "end": 119.92,
+                "rawStart": 342,
+                "rawEnd": 342,
+                "precision": "word"
+              },
+              {
+                "text": "本",
+                "start": 119.92,
+                "end": 120.92,
+                "rawStart": 343,
+                "rawEnd": 343,
+                "precision": "word"
+              },
+              {
+                "text": "为",
+                "start": 120.92,
+                "end": 121.36,
+                "rawStart": 344,
+                "rawEnd": 344,
+                "precision": "word"
+              },
+              {
+                "text": "胜",
+                "start": 121.36,
+                "end": 121.82,
+                "rawStart": 345,
+                "rawEnd": 345,
+                "precision": "word"
+              }
+            ],
+            "source": "bounded-local-phonetic-differences-original-word-times",
+            "listenedByAgent": false,
+            "audioSha256": "ab153fbddbca4c186595fadaa895cfe7fd6746384cb3737704a24026e278af59",
+            "reason": "实际首/尾2个音节贴边相同，12音节局部短句最多2处内部识别差异；完整词边界、源段及录音唯一性、数字一致、停顿与相邻时间均核验，不逐字检查正文中间。"
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v9-explicit-reference-owner-and-numeric-edges",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor (detached numeric label): target 3: 十诫中的第一诫命告诉我们，敬拜的对象应该是上帝，而且只能是上帝。第二诫命告诉我们，敬拜的时候怎么",
+    "incomplete start (5 leading chars, coverage 0.400): target 4: 诗篇99:1-5 耶和华作王，万民当战抖！祂坐在二基路伯上，地当动摇！耶和华在锡安为大，祂超乎万",
+    "unverified start anchor: target 4: 诗篇99:1-5 耶和华作王，万民当战抖！祂坐在二基路伯上，地当动摇！耶和华在锡安为大，祂超乎万",
+    "unverified end anchor: target 4: 诗篇99:1-5 耶和华作王，万民当战抖！祂坐在二基路伯上，地当动摇！耶和华在锡安为大，祂超乎万",
+    "repair unverified start (previous-verified-end): target 4",
+    "repair unverified end (previous-sync): target 4"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "bebbe8a6437c3427e28a3941f47fc37df3bcd4c0798f3b5a5f6a4fc5d0006709",
+  "repairCueDigest": "57123acc299e321e05d91e6c41dc4d2493c75eb9006cc992fd44f8ef5ce1d8de",
+  "previousAlignmentWarnings": []
 }

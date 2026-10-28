@@ -8,20 +8,54 @@
   "audioDuration": 95.973875,
   "cues": [
     {
-      "start": 14.25,
-      "end": 14.57,
-      "kind": "heading",
-      "targetIndex": 7,
-      "targetText": "礼拜二",
-      "confidence": 0.5
-    },
-    {
-      "start": 14.57,
+      "start": 3.67,
       "end": 59.07,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "上帝赐给摩西许多律法叫他传给百姓以色列人其中有一些就属于道德律另外的属于礼仪律礼仪律包括献祭的规",
-      "confidence": 0.793
+      "confidence": 0.916,
+      "quality": {
+        "coverage": 0.918,
+        "coherentCoverage": 0.902,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 14.57,
+        "previousEnd": 59.07,
+        "previousConfidence": 0.793
+      }
     },
     {
       "start": 59.07,
@@ -29,7 +63,314 @@
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "马太福音51719莫想我来要废掉律法和先知我来不是要废掉乃是要成全我实在告诉你们就是到天地都废去",
-      "confidence": 0.769
+      "confidence": 0.835,
+      "quality": {
+        "coverage": 0.815,
+        "coherentCoverage": 0.734,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.55,
+        "suffixCoverage": 0.75,
+        "unmatchedLeadingChars": 9,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\40-2.mp3.json",
+          "transcriptSha256": "98f0eefda17f4b1bf4e6e736008897cf540f01ad4ad39bf45b5dc9f0628765b3",
+          "candidate": 94.79,
+          "expectedPhrase": "在天国要称为大的",
+          "actualPhrase": "在天国要成为大的",
+          "phoneticPhrase": [
+            "zai",
+            "tian",
+            "guo",
+            "yao",
+            "cheng",
+            "wei",
+            "da",
+            "de"
+          ],
+          "verified": true,
+          "time": 94.79,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "source": "exact-local-syllables-original-word-times",
+          "phoneticExact": true,
+          "literalEqual": false,
+          "wordTokens": [
+            {
+              "text": "在",
+              "start": 92.23,
+              "end": 92.37,
+              "rawStart": 303,
+              "rawEnd": 303,
+              "precision": "word"
+            },
+            {
+              "text": "天",
+              "start": 92.37,
+              "end": 92.63,
+              "rawStart": 304,
+              "rawEnd": 304,
+              "precision": "word"
+            },
+            {
+              "text": "国",
+              "start": 92.63,
+              "end": 92.97,
+              "rawStart": 305,
+              "rawEnd": 305,
+              "precision": "word"
+            },
+            {
+              "text": "要",
+              "start": 92.97,
+              "end": 93.49,
+              "rawStart": 306,
+              "rawEnd": 306,
+              "precision": "word"
+            },
+            {
+              "text": "成",
+              "start": 93.49,
+              "end": 93.99,
+              "rawStart": 307,
+              "rawEnd": 307,
+              "precision": "word"
+            },
+            {
+              "text": "为",
+              "start": 93.99,
+              "end": 94.31,
+              "rawStart": 308,
+              "rawEnd": 308,
+              "precision": "word"
+            },
+            {
+              "text": "大",
+              "start": 94.31,
+              "end": 94.79,
+              "rawStart": 309,
+              "rawEnd": 309,
+              "precision": "word"
+            },
+            {
+              "text": "的",
+              "start": 94.31,
+              "end": 94.79,
+              "rawStart": 310,
+              "rawEnd": 310,
+              "precision": "word"
+            }
+          ],
+          "listenedByAgent": false,
+          "audioSha256": "1c5f3efe6ba70e6346ddab111a6bcbec6a93482f0e3d4bb14820623ff59ade87",
+          "reason": "真正首尾整条短句音节顺序及数量完全相同、唯一且接完整词时间；仅同音识别字不同，中间正文不逐字检查。"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-sync",
+        "previousStart": 59.07,
+        "previousEnd": 94.79,
+        "previousConfidence": 0.769
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "040_第四十问 神起初启示给人要人顺从的法则是什么.md",
+          "audio": "40-2.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\040_第四十问 神起初启示给人要人顺从的法则是什么\\audio-03.json",
+          "targetIndex": 9,
+          "edge": "end",
+          "previousTime": 94.79,
+          "time": 94.79,
+          "kind": "exact-local-syllables-existing-word-times",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 59.07,
+            "time": 59.07,
+            "reason": "正文起句已定位，保留原先读出处范围",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\40-2.mp3.json",
+              "sha256": "3362a95263d628d280e39571442677317b38d34119bf33bcbdac00e6b31b4c2d",
+              "anchor": {
+                "time": 60.13,
+                "score": 0.9989,
+                "ratio": 1.0,
+                "expected": "moxiangwolaiyaofeidiaolvfahexianzhiwolai",
+                "actual": "莫想我来要废掉律法和先知我来",
+                "span": [
+                  60.13,
+                  64.53
+                ],
+                "tokens": [
+                  {
+                    "text": "莫",
+                    "start": 60.13,
+                    "end": 60.61,
+                    "rawStart": 191,
+                    "rawEnd": 191,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "想",
+                    "start": 60.61,
+                    "end": 60.95,
+                    "rawStart": 192,
+                    "rawEnd": 192,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 60.95,
+                    "end": 61.35,
+                    "rawStart": 193,
+                    "rawEnd": 193,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "来",
+                    "start": 61.35,
+                    "end": 61.49,
+                    "rawStart": 194,
+                    "rawEnd": 194,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "要",
+                    "start": 61.49,
+                    "end": 61.67,
+                    "rawStart": 195,
+                    "rawEnd": 195,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "废",
+                    "start": 61.67,
+                    "end": 62.01,
+                    "rawStart": 196,
+                    "rawEnd": 196,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "掉",
+                    "start": 62.01,
+                    "end": 62.25,
+                    "rawStart": 197,
+                    "rawEnd": 197,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "律",
+                    "start": 62.25,
+                    "end": 62.43,
+                    "rawStart": 198,
+                    "rawEnd": 198,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "法",
+                    "start": 62.43,
+                    "end": 62.63,
+                    "rawStart": 199,
+                    "rawEnd": 199,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "和",
+                    "start": 62.63,
+                    "end": 62.81,
+                    "rawStart": 200,
+                    "rawEnd": 200,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "先",
+                    "start": 62.81,
+                    "end": 63.07,
+                    "rawStart": 201,
+                    "rawEnd": 201,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "知",
+                    "start": 63.07,
+                    "end": 63.33,
+                    "rawStart": 202,
+                    "rawEnd": 202,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 63.83,
+                    "end": 64.31,
+                    "rawStart": 203,
+                    "rawEnd": 203,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "来",
+                    "start": 64.31,
+                    "end": 64.53,
+                    "rawStart": 204,
+                    "rawEnd": 204,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "莫想我来要废掉律法和先知;我来不是要废掉,乃是要成全。我实在告诉你们:就是到天地都废去了,律法的一点一画也不能废去,都要成全。所以,无论何人废掉这诫命中最小的一条,又教训人这样做,他在天国要称为最小的;但无论何人遵行这诫命,又教训人遵行,他在天国要称为大的。",
+              "retainedCitationInterval": [
+                59.07,
+                60.13
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (9 leading chars, coverage 0.550): target 9: 马太福音5:17-19 莫想我来要废掉律法和先知；我来不是要废掉，乃是要成全。我实在告诉你们：就",
+    "unverified start anchor: target 9: 马太福音5:17-19 莫想我来要废掉律法和先知；我来不是要废掉，乃是要成全。我实在告诉你们：就",
+    "unverified end anchor: target 9: 马太福音5:17-19 莫想我来要废掉律法和先知；我来不是要废掉，乃是要成全。我实在告诉你们：就",
+    "repair unverified start (previous-sync): target 9",
+    "repair unverified end (previous-sync): target 9"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "acbbb6c7b724994225dd2e1e899e26eab55f68e8a9ae96e5cd217053d3b23129",
+  "repairCueDigest": "b2f16ac498de74e5e4e9e0f15d709a37b69136c93e5c0d3713e575b4ded3b29a",
+  "previousAlignmentWarnings": []
 }

@@ -8,28 +8,400 @@
   "audioDuration": 108.069625,
   "cues": [
     {
-      "start": 3.01,
-      "end": 5.01,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "礼拜一",
-      "confidence": 0.8
-    },
-    {
       "start": 5.01,
-      "end": 69.91,
+      "end": 44.27,
       "kind": "paragraph",
       "targetIndex": 3,
       "targetText": "上帝是宇宙的君王祂的命令一发出祂就要求我们顺服上帝是所有存在的创造者当祂让祂的受造物做什么他们必",
-      "confidence": 0.931
+      "confidence": 0.988,
+      "quality": {
+        "coverage": 0.984,
+        "coherentCoverage": 0.984,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 5.01,
+        "previousEnd": 44.27,
+        "previousConfidence": 0.988
+      }
     },
     {
       "start": 69.91,
-      "end": 94.45,
+      "end": 93.59,
       "kind": "paragraph",
       "targetIndex": 4,
       "targetText": "不过在赐下十诫之前上帝解释了百姓要顺服这些诫命的原因请翻到出埃及记20章是上帝起初赐下十诫的记载",
-      "confidence": 0.68
+      "confidence": 0.787,
+      "quality": {
+        "coverage": 0.772,
+        "coherentCoverage": 0.734,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 2,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 69.91,
+        "previousEnd": 93.59,
+        "previousConfidence": 0.762
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 69.91,
+            "time": 69.91,
+            "reason": "核对原识别稿的相邻句及同一段实际读法；按真实句首或句尾定位，识别错字、译法差异和短省略不作逐字否决。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\43-1.mp3.json",
+              "sha256": "639447ae49ff02bc463132b0764331cb640ed5200f8ea10b5b9d6054988827a3",
+              "source": "context-reviewed-paragraph-approximation",
+              "segments": [
+                {
+                  "start": 60.75,
+                  "end": 63.17,
+                  "text": "我們為什麼應該順服",
+                  "words": [
+                    {
+                      "start": 60.75,
+                      "end": 61.63,
+                      "text": "我們",
+                      "probability": 0.5614235401153564
+                    },
+                    {
+                      "start": 61.63,
+                      "end": 62.19,
+                      "text": "為什麼",
+                      "probability": 0.885663628578186
+                    },
+                    {
+                      "start": 62.19,
+                      "end": 62.57,
+                      "text": "應該",
+                      "probability": 0.8784453272819519
+                    },
+                    {
+                      "start": 62.57,
+                      "end": 62.85,
+                      "text": "順",
+                      "probability": 0.983903169631958
+                    },
+                    {
+                      "start": 62.85,
+                      "end": 63.17,
+                      "text": "服",
+                      "probability": 0.776462972164154
+                    }
+                  ]
+                },
+                {
+                  "start": 64.39,
+                  "end": 69.91,
+                  "text": "實界總結了上帝要求我們順服的道德律",
+                  "words": [
+                    {
+                      "start": 64.39,
+                      "end": 64.99,
+                      "text": "實",
+                      "probability": 0.03379333019256592
+                    },
+                    {
+                      "start": 64.99,
+                      "end": 65.39,
+                      "text": "界",
+                      "probability": 0.8542079925537109
+                    },
+                    {
+                      "start": 65.39,
+                      "end": 65.81,
+                      "text": "總",
+                      "probability": 0.9713492393493652
+                    },
+                    {
+                      "start": 65.81,
+                      "end": 66.07,
+                      "text": "結",
+                      "probability": 0.9970579147338867
+                    },
+                    {
+                      "start": 66.07,
+                      "end": 66.21,
+                      "text": "了",
+                      "probability": 0.9894233345985413
+                    },
+                    {
+                      "start": 66.21,
+                      "end": 66.39,
+                      "text": "上",
+                      "probability": 0.894037663936615
+                    },
+                    {
+                      "start": 66.39,
+                      "end": 66.63,
+                      "text": "帝",
+                      "probability": 0.9990914463996887
+                    },
+                    {
+                      "start": 66.63,
+                      "end": 66.99,
+                      "text": "要",
+                      "probability": 0.984401285648346
+                    },
+                    {
+                      "start": 66.99,
+                      "end": 67.17,
+                      "text": "求",
+                      "probability": 0.9996932744979858
+                    },
+                    {
+                      "start": 67.17,
+                      "end": 67.43,
+                      "text": "我們",
+                      "probability": 0.9910871386528015
+                    },
+                    {
+                      "start": 67.43,
+                      "end": 67.71,
+                      "text": "順",
+                      "probability": 0.9896678924560547
+                    },
+                    {
+                      "start": 67.71,
+                      "end": 67.93,
+                      "text": "服",
+                      "probability": 0.9347626566886902
+                    },
+                    {
+                      "start": 67.93,
+                      "end": 68.13,
+                      "text": "的",
+                      "probability": 0.9001961946487427
+                    },
+                    {
+                      "start": 68.13,
+                      "end": 68.53,
+                      "text": "道",
+                      "probability": 0.9840009212493896
+                    },
+                    {
+                      "start": 68.53,
+                      "end": 68.83,
+                      "text": "德",
+                      "probability": 0.9981865286827087
+                    },
+                    {
+                      "start": 68.83,
+                      "end": 69.91,
+                      "text": "律",
+                      "probability": 0.8249914050102234
+                    }
+                  ]
+                },
+                {
+                  "start": 69.91,
+                  "end": 72.63,
+                  "text": "在刺下實界之前",
+                  "words": [
+                    {
+                      "start": 69.91,
+                      "end": 70.53,
+                      "text": "在",
+                      "probability": 0.9771843552589417
+                    },
+                    {
+                      "start": 70.53,
+                      "end": 71.17,
+                      "text": "刺",
+                      "probability": 0.6722491532564163
+                    },
+                    {
+                      "start": 71.17,
+                      "end": 71.51,
+                      "text": "下",
+                      "probability": 0.7360529899597168
+                    },
+                    {
+                      "start": 71.51,
+                      "end": 71.85,
+                      "text": "實",
+                      "probability": 0.7483966946601868
+                    },
+                    {
+                      "start": 71.85,
+                      "end": 72.09,
+                      "text": "界",
+                      "probability": 0.9992995262145996
+                    },
+                    {
+                      "start": 72.09,
+                      "end": 72.63,
+                      "text": "之前",
+                      "probability": 0.9718020558357239
+                    }
+                  ]
+                },
+                {
+                  "start": 72.63,
+                  "end": 77.15,
+                  "text": "上帝解釋了百姓要順服這些界面的原因",
+                  "words": [
+                    {
+                      "start": 72.63,
+                      "end": 73.41,
+                      "text": "上",
+                      "probability": 0.9294847249984741
+                    },
+                    {
+                      "start": 73.41,
+                      "end": 73.59,
+                      "text": "帝",
+                      "probability": 0.9998941123485565
+                    },
+                    {
+                      "start": 73.59,
+                      "end": 73.83,
+                      "text": "解",
+                      "probability": 0.998736560344696
+                    },
+                    {
+                      "start": 73.83,
+                      "end": 74.03,
+                      "text": "釋",
+                      "probability": 0.9997459948062897
+                    },
+                    {
+                      "start": 74.03,
+                      "end": 74.19,
+                      "text": "了",
+                      "probability": 0.9892287254333496
+                    },
+                    {
+                      "start": 74.19,
+                      "end": 74.37,
+                      "text": "百",
+                      "probability": 0.9804926514625549
+                    },
+                    {
+                      "start": 74.37,
+                      "end": 74.65,
+                      "text": "姓",
+                      "probability": 0.9985464215278625
+                    },
+                    {
+                      "start": 74.65,
+                      "end": 75.27,
+                      "text": "要",
+                      "probability": 0.9934108853340149
+                    },
+                    {
+                      "start": 75.27,
+                      "end": 75.67,
+                      "text": "順",
+                      "probability": 0.9967459738254547
+                    },
+                    {
+                      "start": 75.67,
+                      "end": 75.91,
+                      "text": "服",
+                      "probability": 0.9809167981147766
+                    },
+                    {
+                      "start": 75.91,
+                      "end": 76.17,
+                      "text": "這些",
+                      "probability": 0.966669499874115
+                    },
+                    {
+                      "start": 76.17,
+                      "end": 76.49,
+                      "text": "界",
+                      "probability": 0.3260895609855652
+                    },
+                    {
+                      "start": 76.49,
+                      "end": 76.65,
+                      "text": "面",
+                      "probability": 0.8838992714881897
+                    },
+                    {
+                      "start": 76.65,
+                      "end": 76.79,
+                      "text": "的",
+                      "probability": 0.9825746417045593
+                    },
+                    {
+                      "start": 76.79,
+                      "end": 77.15,
+                      "text": "原因",
+                      "probability": 0.999025821685791
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
     },
     {
       "start": 94.45,
@@ -37,7 +409,71 @@
       "kind": "paragraph",
       "targetIndex": 5,
       "targetText": "出埃及记202我是耶和华你的上帝曾将你从埃及地为奴之家领出来",
-      "confidence": 0.754
+      "confidence": 0.833,
+      "quality": {
+        "coverage": 0.833,
+        "coherentCoverage": 0.7,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.733,
+        "suffixCoverage": 0.933,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 94.45,
+        "previousEnd": 105.63,
+        "previousConfidence": 0.754
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v7-explicit-audio-targets-and-footnotes",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 4: 不过，在赐下十诫之前，上帝解释了百姓要顺服这些诫命的原因。请翻到出埃及记20章，是上帝起初赐下十",
+    "repair unverified start (previous-sync): target 4"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "56bda8f773fcaaa2f8db7599b6bddad653f0e3ef87b73ef2c8ef14ce77b8d09e",
+  "repairCueDigest": "38558126fc801c17d767e3717733df479ed8a399984a0effc56c4b02f1b8d355",
+  "previousAlignmentWarnings": []
 }

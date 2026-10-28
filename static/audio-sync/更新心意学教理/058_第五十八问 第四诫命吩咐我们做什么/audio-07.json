@@ -8,28 +8,456 @@
   "audioDuration": 123.7943125,
   "cues": [
     {
-      "start": 1.91,
-      "end": 3.01,
-      "kind": "heading",
-      "targetIndex": 20,
-      "targetText": "礼拜六",
-      "confidence": 0.8
-    },
-    {
       "start": 3.01,
-      "end": 70.21,
+      "end": 72.37,
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "如果安息日预表着我们在耶稣里的安息那么既然耶稣已经来了我们就可以在主日的时候为所欲为吗基督徒在主",
-      "confidence": 0.876
+      "confidence": 0.975,
+      "quality": {
+        "coverage": 0.959,
+        "coherentCoverage": 0.959,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.65,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 7,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "source": "context-reviewed-read-prompt-ending",
+          "contextUsed": true,
+          "identityAmbiguous": false,
+          "continuousAnchor": false,
+          "timingPrecision": "word",
+          "time": 72.37,
+          "expectedPhrase": "赐给我们的一切来感恩。当我们真正理解上帝为我们所成就的，我们就会渴慕每个星期花一天时间来认识祂，来赞美祂。请读提多书3:4-8。",
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\58-6.mp3.json",
+          "transcriptSha256": "db45cd1ff236f644a95c7d8f87a5cee039a42cd7b23d8d375a6aea43553cebeb",
+          "audioSha256": "41fe3e88ab6e5d13328076773b1275c35638765342b36ecb8831a58973a8082a",
+          "rawSegments": [
+            {
+              "start": 68.09,
+              "end": 72.37,
+              "text": "请读提多说三章四到八节",
+              "words": [
+                {
+                  "start": 68.09,
+                  "end": 69.23,
+                  "text": "请",
+                  "probability": 0.03968068212270737
+                },
+                {
+                  "start": 69.23,
+                  "end": 69.49,
+                  "text": "读",
+                  "probability": 0.8819263279438019
+                },
+                {
+                  "start": 69.49,
+                  "end": 69.99,
+                  "text": "提",
+                  "probability": 0.6371458172798157
+                },
+                {
+                  "start": 69.99,
+                  "end": 70.21,
+                  "text": "多",
+                  "probability": 0.9606905579566956
+                },
+                {
+                  "start": 70.21,
+                  "end": 70.47,
+                  "text": "说",
+                  "probability": 0.8562451601028442
+                },
+                {
+                  "start": 70.47,
+                  "end": 71.09,
+                  "text": "三",
+                  "probability": 0.7030636072158813
+                },
+                {
+                  "start": 71.09,
+                  "end": 71.39,
+                  "text": "章",
+                  "probability": 0.9632059335708618
+                },
+                {
+                  "start": 71.39,
+                  "end": 71.75,
+                  "text": "四",
+                  "probability": 0.8526917099952698
+                },
+                {
+                  "start": 71.75,
+                  "end": 71.91,
+                  "text": "到",
+                  "probability": 0.3843125104904175
+                },
+                {
+                  "start": 71.91,
+                  "end": 72.17,
+                  "text": "八",
+                  "probability": 0.9969460368156433
+                },
+                {
+                  "start": 72.17,
+                  "end": 72.37,
+                  "text": "节",
+                  "probability": 0.7910041809082031
+                }
+              ]
+            }
+          ],
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+          "listenedByAgent": false
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 3.01,
+        "previousEnd": 70.21,
+        "previousConfidence": 0.982
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "058_第五十八问 第四诫命吩咐我们做什么.md",
+          "audio": "58-6.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\058_第五十八问 第四诫命吩咐我们做什么\\audio-07.json",
+          "caseIndex": 776,
+          "targetIndex": 21,
+          "edge": "end",
+          "previousTime": 70.21,
+          "time": 72.37,
+          "kind": "verified-edge",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false,
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。"
+        }
+      ]
     },
     {
-      "start": 70.21,
-      "end": 122.67,
+      "start": 73.05,
+      "end": 122.93,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "提多书348但到了上帝我们救主的恩慈和祂向人所施的慈爱显明的时候祂便救了我们并不是因我们自己所行",
-      "confidence": 0.839
+      "confidence": 0.891,
+      "quality": {
+        "coverage": 0.883,
+        "coherentCoverage": 0.813,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.75,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 3,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "localSupported": false,
+          "source": "previous-verified-end",
+          "time": 72.37,
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "referenceOwnershipConstraint": {
+          "ownerTargetIndex": 21,
+          "ownerTargetText": "如果安息日预表着我们在耶稣里的安息那么既然耶稣已经来了我们就可以在主日的时候为所欲为吗基督徒在主",
+          "notBefore": 72.37,
+          "verifiedSpokenOnset": false
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 70.21,
+        "previousEnd": 122.93,
+        "previousConfidence": 0.861
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "058_第五十八问 第四诫命吩咐我们做什么.md",
+          "audio": "58-6.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\058_第五十八问 第四诫命吩咐我们做什么\\audio-07.json",
+          "caseIndex": 776,
+          "targetIndex": 22,
+          "edge": "start",
+          "previousTime": 70.47,
+          "time": 72.37,
+          "kind": "unverified-neighbor-constraint",
+          "previousVerified": true,
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 0.75,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "detachedNumericLabel": false,
+            "localSupported": true,
+            "localCoverage": 0.792,
+            "localSimilarity": 0.844,
+            "localText": "提多书3章4到8节但到了上帝我们救主的恩慈和他向",
+            "anchorOccurrences": 1,
+            "paragraphSupported": true,
+            "contextUsed": false,
+            "identityAmbiguous": false,
+            "source": "verified-transcript"
+          },
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 72.37,
+            "time": 73.05,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\58-6.mp3.json",
+              "sha256": "fad770b22ba2aae078fbd1d498e3625ff548a1bf43407aaa4f2dba9abf151e8f",
+              "anchor": {
+                "time": 73.05,
+                "score": 0.9279,
+                "ratio": 0.9286,
+                "expected": "dandaoleshenwomenjiuzhudeencihetaxiang",
+                "actual": "但到了神我们就主了恩慈和他向",
+                "span": [
+                  73.05,
+                  77.59
+                ],
+                "tokens": [
+                  {
+                    "text": "但",
+                    "start": 73.05,
+                    "end": 73.65,
+                    "rawStart": 225,
+                    "rawEnd": 225,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "到",
+                    "start": 73.65,
+                    "end": 74.25,
+                    "rawStart": 226,
+                    "rawEnd": 226,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "了",
+                    "start": 73.65,
+                    "end": 74.25,
+                    "rawStart": 227,
+                    "rawEnd": 227,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "神",
+                    "start": 74.25,
+                    "end": 74.63,
+                    "rawStart": 228,
+                    "rawEnd": 229,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "我",
+                    "start": 74.63,
+                    "end": 75.05,
+                    "rawStart": 230,
+                    "rawEnd": 230,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "们",
+                    "start": 74.63,
+                    "end": 75.05,
+                    "rawStart": 231,
+                    "rawEnd": 231,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "就",
+                    "start": 75.05,
+                    "end": 75.37,
+                    "rawStart": 232,
+                    "rawEnd": 232,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "主",
+                    "start": 75.37,
+                    "end": 75.63,
+                    "rawStart": 233,
+                    "rawEnd": 233,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "了",
+                    "start": 75.63,
+                    "end": 75.75,
+                    "rawStart": 234,
+                    "rawEnd": 234,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "恩",
+                    "start": 75.75,
+                    "end": 76.01,
+                    "rawStart": 235,
+                    "rawEnd": 235,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "慈",
+                    "start": 76.01,
+                    "end": 76.37,
+                    "rawStart": 236,
+                    "rawEnd": 236,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "和",
+                    "start": 76.37,
+                    "end": 76.85,
+                    "rawStart": 237,
+                    "rawEnd": 237,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "他",
+                    "start": 76.85,
+                    "end": 77.11,
+                    "rawStart": 238,
+                    "rawEnd": 238,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "向",
+                    "start": 77.11,
+                    "end": 77.59,
+                    "rawStart": 239,
+                    "rawEnd": 239,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "但到了神我们救主的恩慈和祂向人所施的慈爱显明的时候,祂便救了我们,并不是因我们自己所行的义,乃是照祂的怜悯,借着重生的洗和圣灵的更新。圣灵就是神借着耶稣基督我们救主厚厚浇灌在我们身上的,好叫我们因祂的恩得称为义,可以凭着永生的盼望成为后嗣。这话是可信的。我也愿你把这些事切切实实地讲明,使那些已信神的人留心做正经事业。这都是美事,并且与人有益。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.883,
+          "coherentCoverage": 0.813,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.75,
+          "suffixCoverage": 0.9,
+          "unmatchedLeadingChars": 3,
+          "unmatchedTrailingChars": 1,
+          "reviewRequired": true,
+          "verificationBasis": "local-boundaries",
+          "boundaryAdjusted": [
+            "end substitution"
+          ],
+          "startVerified": false,
+          "endVerified": true,
+          "startEvidence": {
+            "verified": false,
+            "localSupported": false,
+            "source": "previous-verified-end",
+            "time": 72.37,
+            "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+          },
+          "endEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "referenceOwnershipConstraint": {
+            "ownerTargetIndex": 21,
+            "ownerTargetText": "如果安息日预表着我们在耶稣里的安息那么既然耶稣已经来了我们就可以在主日的时候为所欲为吗基督徒在主",
+            "notBefore": 72.37,
+            "verifiedSpokenOnset": false
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete end (7 trailing chars, coverage 0.650): target 21: 如果安息日预表着我们在耶稣里的安息，那么既然耶稣已经来了，我们就可以在主日的时候为所欲为吗？基督",
+    "unverified end anchor: target 21: 如果安息日预表着我们在耶稣里的安息，那么既然耶稣已经来了，我们就可以在主日的时候为所欲为吗？基督",
+    "repair unverified end (previous-sync): target 21",
+    "context reviewed end: target 21; 前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+    "unverified constrained start: target 22; 旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "ca795060e533db8da2e05675c8d5bde08d7fd18a1dbf611b883c05b094f9755e",
+  "repairCueDigest": "9e5f1cb376a9d7960b5933f4c72523ff12bde1a0782818702da7f7b917982fd5",
+  "previousAlignmentWarnings": []
 }

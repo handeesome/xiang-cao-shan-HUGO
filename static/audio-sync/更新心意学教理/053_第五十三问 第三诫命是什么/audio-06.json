@@ -8,28 +8,413 @@
   "audioDuration": 121.056,
   "cues": [
     {
-      "start": 2.14,
-      "end": 3.48,
-      "kind": "heading",
-      "targetIndex": 18,
-      "targetText": "礼拜五",
-      "confidence": 0.8
-    },
-    {
       "start": 3.48,
-      "end": 5.38,
+      "end": 7.16,
       "kind": "paragraph",
       "targetIndex": 19,
       "targetText": "请读路加福音1114",
-      "confidence": 0.5
+      "confidence": 0.267,
+      "quality": {
+        "coverage": 0.154,
+        "coherentCoverage": 0.0,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.333,
+        "suffixCoverage": 0.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 11,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 1.0,
+          "localSimilarity": 1.0,
+          "localText": "请读路加福音11章1到4节",
+          "anchorOccurrences": 1,
+          "paragraphSupported": false,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "localSupported": true,
+          "source": "context-reviewed-read-prompt-ending",
+          "contextUsed": true,
+          "identityAmbiguous": false,
+          "continuousAnchor": false,
+          "timingPrecision": "word",
+          "time": 7.16,
+          "expectedPhrase": "请读路加福音11:1-4。",
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\53-5.mp3.json",
+          "transcriptSha256": "d8bca2e645e46862f0887f58c8d1ed96ef08c0fa74d4b46fb79157bcb359255b",
+          "audioSha256": "f8e90016c6c680f4c38578395928aa7059912b6baaaac9016ba875b10e0030a6",
+          "rawSegments": [
+            {
+              "start": 3.48,
+              "end": 7.16,
+              "text": "請讀《路加福音》十一章一到四節",
+              "words": [
+                {
+                  "start": 3.48,
+                  "end": 3.78,
+                  "text": "請",
+                  "probability": 0.4046403169631958
+                },
+                {
+                  "start": 3.78,
+                  "end": 4.06,
+                  "text": "讀",
+                  "probability": 0.8432395756244659
+                },
+                {
+                  "start": 4.06,
+                  "end": 4.18,
+                  "text": "《",
+                  "probability": 0.145777627825737
+                },
+                {
+                  "start": 4.18,
+                  "end": 4.32,
+                  "text": "路",
+                  "probability": 0.6537469029426575
+                },
+                {
+                  "start": 4.32,
+                  "end": 4.5,
+                  "text": "加",
+                  "probability": 0.7876139879226685
+                },
+                {
+                  "start": 4.5,
+                  "end": 4.66,
+                  "text": "福",
+                  "probability": 0.8682087659835815
+                },
+                {
+                  "start": 4.66,
+                  "end": 4.84,
+                  "text": "音",
+                  "probability": 0.8333818912506104
+                },
+                {
+                  "start": 4.84,
+                  "end": 5.38,
+                  "text": "》",
+                  "probability": 0.9466414451599121
+                },
+                {
+                  "start": 5.38,
+                  "end": 5.64,
+                  "text": "十",
+                  "probability": 0.6944511532783508
+                },
+                {
+                  "start": 5.64,
+                  "end": 5.82,
+                  "text": "一",
+                  "probability": 0.9774752855300903
+                },
+                {
+                  "start": 5.82,
+                  "end": 6.0,
+                  "text": "章",
+                  "probability": 0.9865215420722961
+                },
+                {
+                  "start": 6.0,
+                  "end": 6.38,
+                  "text": "一",
+                  "probability": 0.8760467171669006
+                },
+                {
+                  "start": 6.38,
+                  "end": 6.58,
+                  "text": "到",
+                  "probability": 0.8374155759811401
+                },
+                {
+                  "start": 6.58,
+                  "end": 6.88,
+                  "text": "四",
+                  "probability": 0.9857316613197327
+                },
+                {
+                  "start": 6.88,
+                  "end": 7.16,
+                  "text": "節",
+                  "probability": 0.8734101057052612
+                }
+              ]
+            }
+          ],
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+          "listenedByAgent": false
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 3.48,
+        "previousEnd": 4.18,
+        "previousConfidence": 0.267
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "053_第五十三问 第三诫命是什么.md",
+          "audio": "53-5.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\053_第五十三问 第三诫命是什么\\audio-06.json",
+          "caseIndex": 730,
+          "targetIndex": 19,
+          "edge": "end",
+          "previousTime": 4.18,
+          "time": 7.16,
+          "kind": "verified-edge",
+          "previousEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          },
+          "previousVerified": false,
+          "reason": "前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。"
+        }
+      ]
     },
     {
-      "start": 5.38,
-      "end": 54.41,
+      "start": 7.16,
+      "end": 52.38,
       "kind": "paragraph",
       "targetIndex": 20,
       "targetText": "路加福音1114耶稣在一个地方祷告祷告完了有个门徒对祂说求主教导我们祷告像约翰教导他的门徒耶稣说",
-      "confidence": 0.7
+      "confidence": 0.952,
+      "quality": {
+        "coverage": 0.952,
+        "coherentCoverage": 0.945,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "localSupported": false,
+          "source": "previous-verified-end",
+          "time": 7.16,
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "referenceOwnershipConstraint": {
+          "ownerTargetIndex": 19,
+          "ownerTargetText": "请读路加福音1114",
+          "notBefore": 7.16,
+          "verifiedSpokenOnset": false
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 4.18,
+        "previousEnd": 52.38,
+        "previousConfidence": 0.952
+      },
+      "boundaryCorrections": [
+        {
+          "book": "更新心意学教理",
+          "page": "053_第五十三问 第三诫命是什么.md",
+          "audio": "53-5.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\更新心意学教理\\053_第五十三问 第三诫命是什么\\audio-06.json",
+          "caseIndex": 730,
+          "targetIndex": 20,
+          "edge": "start",
+          "previousTime": 4.18,
+          "time": 7.16,
+          "kind": "unverified-neighbor-constraint",
+          "previousVerified": true,
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 1.0,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "reason": "旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+        }
+      ],
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 7.16,
+            "time": 7.16,
+            "reason": "出处属于前段请读提示，本段从经文正文起",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\53-5.mp3.json",
+              "sha256": "64df1a1dfd360d813269ffc1f5b4d9c04cdbbcb0dae6d5d497930bfc41518d0a",
+              "anchor": {
+                "time": 7.16,
+                "score": 1.0,
+                "ratio": 1.0,
+                "expected": "yesuzaiyigedifangdaogaodaogaowanleyou",
+                "actual": "耶稣在1个地方祷告祷告完了有",
+                "span": [
+                  7.16,
+                  12.06
+                ],
+                "tokens": [
+                  {
+                    "text": "耶",
+                    "start": 7.16,
+                    "end": 8.24,
+                    "rawStart": 16,
+                    "rawEnd": 16,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "稣",
+                    "start": 8.24,
+                    "end": 8.58,
+                    "rawStart": 17,
+                    "rawEnd": 17,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "在",
+                    "start": 8.58,
+                    "end": 8.84,
+                    "rawStart": 18,
+                    "rawEnd": 18,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 8.84,
+                    "end": 9.02,
+                    "rawStart": 19,
+                    "rawEnd": 19,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "个",
+                    "start": 8.84,
+                    "end": 9.02,
+                    "rawStart": 20,
+                    "rawEnd": 20,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "地",
+                    "start": 9.02,
+                    "end": 9.36,
+                    "rawStart": 21,
+                    "rawEnd": 21,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "方",
+                    "start": 9.02,
+                    "end": 9.36,
+                    "rawStart": 22,
+                    "rawEnd": 22,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "祷",
+                    "start": 9.36,
+                    "end": 9.62,
+                    "rawStart": 23,
+                    "rawEnd": 23,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "告",
+                    "start": 9.62,
+                    "end": 9.92,
+                    "rawStart": 24,
+                    "rawEnd": 24,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "祷",
+                    "start": 10.42,
+                    "end": 10.72,
+                    "rawStart": 25,
+                    "rawEnd": 25,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "告",
+                    "start": 10.72,
+                    "end": 11.0,
+                    "rawStart": 26,
+                    "rawEnd": 26,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "完",
+                    "start": 11.0,
+                    "end": 11.42,
+                    "rawStart": 27,
+                    "rawEnd": 27,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "了",
+                    "start": 11.0,
+                    "end": 11.42,
+                    "rawStart": 28,
+                    "rawEnd": 28,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "有",
+                    "start": 11.42,
+                    "end": 12.06,
+                    "rawStart": 29,
+                    "rawEnd": 29,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "耶稣在一个地方祷告。祷告完了,有个门徒对祂说:“求主教导我们祷告,像约翰教导他的门徒。”耶稣说:“你们祷告的时候,要说:我们在天上的父,愿人都尊祢的名为圣。愿祢的国降临,愿祢的旨意行在地上,如同行在天上。我们日用的饮食,天天赐给我们。赦免我们的罪,因为我们也赦免凡亏欠我们的人。不叫我们遇见试探;救我们脱离凶恶。”"
+            }
+          }
+        }
+      }
     },
     {
       "start": 54.41,
@@ -37,7 +422,79 @@
       "kind": "paragraph",
       "targetIndex": 21,
       "targetText": "耶稣的门徒请求耶稣教导他们如何祷告如果祷告是与上帝说话耶稣知道关于祷告所有应该知道的耶稣圣子上帝",
-      "confidence": 0.849
+      "confidence": 0.953,
+      "quality": {
+        "coverage": 0.953,
+        "coherentCoverage": 0.953,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 54.41,
+        "previousEnd": 119.47,
+        "previousConfidence": 0.953
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (0 leading chars, coverage 0.333): target 19: 请读路加福音11:1-4。",
+    "incomplete end (11 trailing chars, coverage 0.000): target 19: 请读路加福音11:1-4。",
+    "low confidence (0.267, coverage 0.154): target 19: 请读路加福音11:1-4。",
+    "unverified end anchor: target 19: 请读路加福音11:1-4。",
+    "unverified end anchor: target 20: 路加福音11:1-4 耶稣在一个地方祷告。祷告完了，有个门徒对祂说：“求主教导我们祷告，像约翰教",
+    "repair unverified end (previous-sync): target 19",
+    "context reviewed end: target 19; 前段自身末尾的请读提示及章、节在现有原始词稿中完整出现；原终点截在提示中。确认的是该段实际词尾；后段印刷同一出处的真实起音仍不作省略标签通过。",
+    "unverified constrained start: target 20; 旧起点仍处在已确认的前段请读提示内；旧字面匹配不足以证明后段归属。仅由前段实际终点限制旧范围，不表示后段真实起音已确认。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "c17144d3adaf11ea8a9dac18774c995385b0b430f4af5643cf494c0fcd640a70",
+  "repairCueDigest": "37b27784d397ed0ee8f1a173d84cc2c173bc2339a7ec10c7717a4dfea2ffa251",
+  "previousAlignmentWarnings": []
 }

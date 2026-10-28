@@ -8,28 +8,129 @@
   "audioDuration": 23.856,
   "cues": [
     {
-      "start": 1.52,
-      "end": 13.76,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "礼拜一",
-      "confidence": 0.4
-    },
-    {
-      "start": 13.76,
-      "end": 14.1,
-      "kind": "heading",
-      "targetIndex": 13,
-      "targetText": "礼拜三",
-      "confidence": 0.5
-    },
-    {
-      "start": 14.1,
-      "end": 23.04,
+      "start": 7.02,
+      "end": 11.92,
       "kind": "paragraph",
-      "targetIndex": 31,
-      "targetText": "圣经告诉我们我们无论做什么事情就算是最简单最普通的事情也要以荣耀上帝的方式来做读哥林多前书103",
-      "confidence": 0.297
+      "targetIndex": 1,
+      "targetText": "答人的主要目的是荣耀上帝以祂为乐直到永远",
+      "confidence": 0.788,
+      "quality": {
+        "startVerified": false,
+        "endVerified": false,
+        "reviewRequired": true,
+        "verificationBasis": "paragraph-level-approximate"
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "reason": "答、荣耀上帝至直到永远；录音略去重复问题，按实际简答对应完整答案段。",
+        "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\1-0.mp3.json",
+        "transcriptSha256": "a35921cedc664a5f7e6a8a8676f09c3a6591da5e7875590a734d692c29a25342",
+        "actualText": "答,荣耀上帝,以他为乐,直到永远。",
+        "interval": [
+          7.02,
+          11.92
+        ],
+        "listenedByAgent": false,
+        "authorization": "用户要求段落级首尾大致对应，允许识别差异与摘读，不要求逐字核验。"
+      }
+    },
+    {
+      "start": 12.4,
+      "end": 23.02,
+      "kind": "paragraph",
+      "targetIndex": 32,
+      "targetText": "哥林多前书1031所以你们或吃或喝无论做什么都要为荣耀上帝而行",
+      "confidence": 0.97,
+      "quality": {
+        "coverage": 0.97,
+        "coherentCoverage": 0.97,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.938,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 14.1,
+        "previousEnd": 23.04,
+        "previousConfidence": 0.297
+      }
+    }
+  ],
+  "alignmentMethod": "body-global-v8-rendered-list-and-empty-paragraph-indices",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified start anchor: target 1: 答：人的主要目的是荣耀上帝，以祂为乐，直到永远。",
+    "repair missing cue (unverified): target 1",
+    "paragraph-level cue recovered: target 1; 答、荣耀上帝至直到永远；录音略去重复问题，按实际简答对应完整答案段。 原始严格核验提示保留。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 1,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": [
+      1
+    ]
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "edceab291c55d5c263d56cdb6a660e1c1d330b7235a58c8342eba1d2f89a96f7",
+  "repairCueDigest": "06cecbe9665b310f9e30df49d02f804bc2820cd781f025cd229b811bc1b97022",
+  "previousAlignmentWarnings": [],
+  "targetIdentityCorrections": [
+    {
+      "previousTargetIndex": 31,
+      "targetIndex": 32,
+      "previousTargetText": "圣经告诉我们我们无论做什么事情就算是最简单最普通的事情也要以荣耀上帝的方式来做读哥林多前书103",
+      "targetText": "哥林多前书1031所以你们或吃或喝无论做什么都要为荣耀上帝而行",
+      "proofs": [
+        {
+          "model": "small",
+          "coverage": 0.909,
+          "start": 12.28,
+          "end": 23.04
+        },
+        {
+          "model": "medium",
+          "coverage": 0.97,
+          "start": 12.4,
+          "end": 23.02
+        }
+      ],
+      "audioSha256": "67a6580ee7638b2e1fa5de83d2af57b9cc60a918fed3f88f7ff1dec59d63c115"
     }
   ]
 }

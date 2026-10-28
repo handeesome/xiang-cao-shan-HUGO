@@ -8,20 +8,200 @@
   "audioDuration": 40.656,
   "cues": [
     {
-      "start": 22.23,
-      "end": 22.49,
-      "kind": "heading",
-      "targetIndex": 2,
-      "targetText": "礼拜一",
-      "confidence": 0.5
+      "start": 9.93,
+      "end": 23.49,
+      "kind": "paragraph",
+      "targetIndex": 1,
+      "targetText": "答上帝和亚当所立的圣约不单是为他自己也是为了他的后裔全人类都是按常例传宗接代由亚当而来在亚当里犯",
+      "confidence": 0.653,
+      "quality": {
+        "startVerified": false,
+        "endVerified": false,
+        "reviewRequired": true,
+        "verificationBasis": "paragraph-level-approximate"
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "reason": "答、全人类按常例传宗接代至与亚当一同堕落；略去答案开头部分解释。",
+        "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\transcript-first-repair-20261017\\verified-transcripts\\更新心意学教理\\16-0.mp3.json",
+        "transcriptSha256": "d478519631cfa6b979ce232203accc33660996bdf5939f5cb3a22fe05686cfd5",
+        "actualText": "答,全人类都是按常例,传宗接代,由亚当而来。全人类都在亚当初次犯罪中与他一同堕落了。",
+        "interval": [
+          9.93,
+          23.49
+        ],
+        "listenedByAgent": false,
+        "authorization": "用户要求段落级首尾大致对应，允许识别差异与摘读，不要求逐字核验。"
+      }
     },
     {
-      "start": 22.49,
+      "start": 24.06,
       "end": 39.39,
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "罗马书518如此说来因一次的过犯众人都被定罪照样因一次的义行众人也就被称义得生命了",
-      "confidence": 0.591
+      "confidence": 0.884,
+      "quality": {
+        "coverage": 0.884,
+        "coherentCoverage": 0.837,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "source": "two-model-current-audio",
+          "confirmation": {
+            "edge": "start",
+            "excerpt": "罗马书5:18 如此说来，因一次的过犯，众人都被定罪；照样，因一次的义行，众人也就被称义得生命了。",
+            "proofs": [
+              {
+                "model": "small",
+                "time": 24.53,
+                "coverage": 0.884,
+                "confidence": 0.884,
+                "evidence": {
+                  "verified": true,
+                  "coverage": 0.917,
+                  "continuousAnchor": true,
+                  "substitutionAnchor": false,
+                  "timingPrecision": "word",
+                  "insideSegment": false,
+                  "detachedContext": false,
+                  "paragraphSupported": true
+                }
+              },
+              {
+                "model": "medium",
+                "time": 24.06,
+                "coverage": 0.953,
+                "confidence": 0.953,
+                "evidence": {
+                  "verified": true,
+                  "coverage": 1.0,
+                  "continuousAnchor": true,
+                  "substitutionAnchor": false,
+                  "timingPrecision": "word",
+                  "insideSegment": false,
+                  "detachedContext": false,
+                  "paragraphSupported": true
+                }
+              }
+            ],
+            "verified": true
+          }
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 22.49,
+        "previousEnd": 39.39,
+        "previousConfidence": 0.75
+      },
+      "boundaryCorrections": [
+        {
+          "edge": "start",
+          "previous": 24.53,
+          "current": 24.06,
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 0.917,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "confirmation": {
+            "edge": "start",
+            "excerpt": "罗马书5:18 如此说来，因一次的过犯，众人都被定罪；照样，因一次的义行，众人也就被称义得生命了。",
+            "proofs": [
+              {
+                "model": "small",
+                "time": 24.53,
+                "coverage": 0.884,
+                "confidence": 0.884,
+                "evidence": {
+                  "verified": true,
+                  "coverage": 0.917,
+                  "continuousAnchor": true,
+                  "substitutionAnchor": false,
+                  "timingPrecision": "word",
+                  "insideSegment": false,
+                  "detachedContext": false,
+                  "paragraphSupported": true
+                }
+              },
+              {
+                "model": "medium",
+                "time": 24.06,
+                "coverage": 0.953,
+                "confidence": 0.953,
+                "evidence": {
+                  "verified": true,
+                  "coverage": 1.0,
+                  "continuousAnchor": true,
+                  "substitutionAnchor": false,
+                  "timingPrecision": "word",
+                  "insideSegment": false,
+                  "detachedContext": false,
+                  "paragraphSupported": true
+                }
+              }
+            ],
+            "verified": true
+          },
+          "audioSha256": "1384ecbb383c7325f8f1e25bba92948b0c5a88321609d57179383eafe8aca518"
+        }
+      ]
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v8-rendered-list-and-empty-paragraph-indices",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (21 leading chars, coverage 0.000): target 1: 答：上帝和亚当所立的圣约，不单是为他自己，也是为了他的后裔；全人类都是按常例传宗接代，由亚当而来",
+    "low confidence (0.641, coverage 0.516): target 1: 答：上帝和亚当所立的圣约，不单是为他自己，也是为了他的后裔；全人类都是按常例传宗接代，由亚当而来",
+    "unverified start anchor: target 1: 答：上帝和亚当所立的圣约，不单是为他自己，也是为了他的后裔；全人类都是按常例传宗接代，由亚当而来",
+    "unverified end anchor: target 1: 答：上帝和亚当所立的圣约，不单是为他自己，也是为了他的后裔；全人类都是按常例传宗接代，由亚当而来",
+    "repair missing cue (unverified): target 1",
+    "paragraph-level cue recovered: target 1; 答、全人类按常例传宗接代至与亚当一同堕落；略去答案开头部分解释。 原始严格核验提示保留。"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": [
+      1
+    ]
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "9be6caf20c714a3f3e7bd27958ad82a932089dded2640230cc67f77a25c6d33c",
+  "repairCueDigest": "3345b9b762024cf62501ab6d4451c7738cef2e1f9dbda7a9f2df4617e726b7bc",
+  "previousAlignmentWarnings": []
 }

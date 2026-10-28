@@ -8,20 +8,66 @@
   "audioDuration": 105.4301875,
   "cues": [
     {
-      "start": 5.95,
-      "end": 11.85,
-      "kind": "heading",
-      "targetIndex": 0,
-      "targetText": "第三章上帝成为人上",
-      "confidence": 1.0
-    },
-    {
-      "start": 11.85,
-      "end": 40.1,
+      "start": 13.09,
+      "end": 38.63,
       "kind": "paragraph",
       "targetIndex": 1,
       "targetText": "上帝极愿意将自己启示给我们的而且启示的方法又是藉着我们人所能领会的方式就是以文字和语言我们已经看",
-      "confidence": 0.8
+      "confidence": 0.981,
+      "quality": {
+        "coverage": 0.963,
+        "coherentCoverage": 0.963,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 3,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "discarded detached start matches"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 0.875,
+          "localSimilarity": 0.933,
+          "localText": "上帝极愿意将自己启示给我们的而且启示的方法又是借",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 11.85,
+        "previousEnd": 38.63,
+        "previousConfidence": 0.988
+      }
     },
     {
       "start": 40.1,
@@ -29,7 +75,70 @@
       "kind": "paragraph",
       "targetIndex": 2,
       "targetText": "也许你与某人通信多年了可是你从来没有见过他你巴不得能见他一次或者你读过某人所写的书可是你没有见过",
-      "confidence": 0.772
+      "confidence": 0.956,
+      "quality": {
+        "coverage": 0.956,
+        "coherentCoverage": 0.939,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 40.1,
+        "previousEnd": 103.72,
+        "previousConfidence": 0.956
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 1,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "1a7ea61be34c13ec040e1970ab8502241b9d27d20bd769cb967221e5dc68feee",
+  "repairCueDigest": "ddb7891b46359f9b7d39c93394fdb31be62cede918e9f97fd992013a9286ad46",
+  "previousAlignmentWarnings": []
 }

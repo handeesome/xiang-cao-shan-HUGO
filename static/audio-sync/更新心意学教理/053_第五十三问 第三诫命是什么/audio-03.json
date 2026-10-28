@@ -8,28 +8,340 @@
   "audioDuration": 162.648,
   "cues": [
     {
-      "start": 2.35,
-      "end": 4.17,
-      "kind": "heading",
-      "targetIndex": 6,
-      "targetText": "礼拜二",
-      "confidence": 0.5
-    },
-    {
       "start": 4.17,
-      "end": 70.37,
+      "end": 68.29,
       "kind": "paragraph",
       "targetIndex": 7,
       "targetText": "摩西带领百姓一边顺服主服侍主一边更加认识上帝摩西越认识上帝就越想更加认识上帝一天摩西恳求上帝显明",
-      "confidence": 0.883
+      "confidence": 0.927,
+      "quality": {
+        "coverage": 0.938,
+        "coherentCoverage": 0.938,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.7,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 4.17,
+        "previousEnd": 70.37,
+        "previousConfidence": 0.883
+      }
     },
     {
       "start": 70.37,
-      "end": 113.39,
+      "end": 112.47,
       "kind": "paragraph",
       "targetIndex": 8,
       "targetText": "出埃及记3457耶和华在云中降临和摩西一同站在那里宣告耶和华的名耶和华在他面前宣告说耶和华耶和华",
-      "confidence": 0.819
+      "confidence": 0.819,
+      "quality": {
+        "coverage": 0.833,
+        "coherentCoverage": 0.816,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.55,
+        "suffixCoverage": 0.8,
+        "unmatchedLeadingChars": 9,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 70.37,
+        "previousEnd": 113.39,
+        "previousConfidence": 0.819
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 70.37,
+            "time": 70.37,
+            "reason": "同段出处按实际读序计入",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\53-2.mp3.json",
+              "sha256": "942df8289a13fe51942962ceda09663af130f2340e65e6c32cb68f9b03a3b01e",
+              "anchor": {
+                "time": 74.65,
+                "score": 0.9527,
+                "ratio": 0.963,
+                "expected": "yehehuazaiyunzhongjianglinhemoxiyitongzhan",
+                "actual": "和华在云中降临和摩西1同站",
+                "span": [
+                  74.65,
+                  79.09
+                ],
+                "tokens": [
+                  {
+                    "text": "和",
+                    "start": 74.65,
+                    "end": 74.81,
+                    "rawStart": 197,
+                    "rawEnd": 197,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "华",
+                    "start": 74.81,
+                    "end": 75.03,
+                    "rawStart": 198,
+                    "rawEnd": 198,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "在",
+                    "start": 75.03,
+                    "end": 75.47,
+                    "rawStart": 199,
+                    "rawEnd": 199,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "云",
+                    "start": 75.47,
+                    "end": 75.85,
+                    "rawStart": 200,
+                    "rawEnd": 200,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "中",
+                    "start": 75.85,
+                    "end": 76.21,
+                    "rawStart": 201,
+                    "rawEnd": 201,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "降",
+                    "start": 76.21,
+                    "end": 76.55,
+                    "rawStart": 202,
+                    "rawEnd": 202,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "临",
+                    "start": 76.55,
+                    "end": 76.81,
+                    "rawStart": 203,
+                    "rawEnd": 203,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "和",
+                    "start": 77.23,
+                    "end": 77.53,
+                    "rawStart": 204,
+                    "rawEnd": 204,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "摩",
+                    "start": 77.53,
+                    "end": 77.91,
+                    "rawStart": 205,
+                    "rawEnd": 205,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "西",
+                    "start": 77.91,
+                    "end": 78.17,
+                    "rawStart": 206,
+                    "rawEnd": 206,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 78.17,
+                    "end": 78.39,
+                    "rawStart": 207,
+                    "rawEnd": 207,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "同",
+                    "start": 78.39,
+                    "end": 78.75,
+                    "rawStart": 208,
+                    "rawEnd": 208,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "站",
+                    "start": 78.75,
+                    "end": 79.09,
+                    "rawStart": 209,
+                    "rawEnd": 209,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "耶和华在云中降临,和摩西一同站在那里,宣告耶和华的名。耶和华在他面前宣告说:“耶和华,耶和华,是有怜悯、有恩典的神,不轻易发怒,并有丰盛的慈爱和诚实。为千万人存留慈爱,赦免罪孽、过犯和罪恶;万不以有罪的为无罪,必追讨他的罪,自父及子,直到三四代。”",
+              "reference": {
+                "time": 70.37,
+                "score": 0.9957,
+                "ratio": 1.0,
+                "expected": "chuaijiji34zhangwudaoqijie",
+                "actual": "初哀祭祭34章5到7节",
+                "span": [
+                  70.37,
+                  73.49
+                ],
+                "tokens": [
+                  {
+                    "text": "初",
+                    "start": 70.37,
+                    "end": 70.61,
+                    "rawStart": 185,
+                    "rawEnd": 185,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "哀",
+                    "start": 70.61,
+                    "end": 70.75,
+                    "rawStart": 186,
+                    "rawEnd": 186,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "祭",
+                    "start": 70.75,
+                    "end": 70.87,
+                    "rawStart": 187,
+                    "rawEnd": 187,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "祭",
+                    "start": 70.87,
+                    "end": 71.13,
+                    "rawStart": 188,
+                    "rawEnd": 188,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "3",
+                    "start": 71.13,
+                    "end": 72.05,
+                    "rawStart": 189,
+                    "rawEnd": 189,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "4",
+                    "start": 71.13,
+                    "end": 72.05,
+                    "rawStart": 190,
+                    "rawEnd": 190,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "章",
+                    "start": 72.05,
+                    "end": 72.29,
+                    "rawStart": 191,
+                    "rawEnd": 191,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "5",
+                    "start": 72.29,
+                    "end": 72.73,
+                    "rawStart": 192,
+                    "rawEnd": 192,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "到",
+                    "start": 72.73,
+                    "end": 72.93,
+                    "rawStart": 193,
+                    "rawEnd": 193,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "7",
+                    "start": 72.93,
+                    "end": 73.21,
+                    "rawStart": 194,
+                    "rawEnd": 194,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "节",
+                    "start": 73.21,
+                    "end": 73.49,
+                    "rawStart": 195,
+                    "rawEnd": 195,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": true,
+                "alternative": {
+                  "time": 67.93,
+                  "score": 0.9438,
+                  "actual": "字初哀祭祭34章5到7节"
+                }
+              }
+            }
+          }
+        }
+      }
     },
     {
       "start": 113.39,
@@ -37,7 +349,429 @@
       "kind": "paragraph",
       "targetIndex": 9,
       "targetText": "不过祂不仅仅说出一个名字祂告诉了摩西所有这些关于自己的属性上帝的名字代表着上帝的属性因此我们必须",
-      "confidence": 0.703
+      "confidence": 0.711,
+      "quality": {
+        "coverage": 0.865,
+        "coherentCoverage": 0.865,
+        "extraSpeechContext": true,
+        "prefixCoverage": 0.4,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 12,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "discarded detached start matches"
+        ],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 113.39,
+        "previousEnd": 161.55,
+        "previousConfidence": 0.703
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 113.39,
+            "time": 113.39,
+            "reason": "录音略去不仅仅说出一个名字，保留实际不过祂告诉摩西的起点。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\更新心意学教理\\53-2.mp3.json",
+              "sha256": "8ce4c0529a1dae43f323fa8ad4f93978e8c5f5047a232074bfe9df4d40ec0cd9",
+              "source": "context-reviewed-paragraph-approximation",
+              "segments": [
+                {
+                  "start": 104.15,
+                  "end": 106.87,
+                  "text": "万不以有罪的为无罪",
+                  "words": [
+                    {
+                      "start": 104.15,
+                      "end": 104.75,
+                      "text": "万",
+                      "probability": 0.9527217149734497
+                    },
+                    {
+                      "start": 104.75,
+                      "end": 105.07,
+                      "text": "不",
+                      "probability": 0.9425866007804871
+                    },
+                    {
+                      "start": 105.07,
+                      "end": 105.29,
+                      "text": "以",
+                      "probability": 0.5244587063789368
+                    },
+                    {
+                      "start": 105.29,
+                      "end": 105.67,
+                      "text": "有",
+                      "probability": 0.970523476600647
+                    },
+                    {
+                      "start": 105.67,
+                      "end": 105.97,
+                      "text": "罪",
+                      "probability": 0.9998293220996857
+                    },
+                    {
+                      "start": 105.97,
+                      "end": 106.11,
+                      "text": "的",
+                      "probability": 0.964708685874939
+                    },
+                    {
+                      "start": 106.11,
+                      "end": 106.27,
+                      "text": "为",
+                      "probability": 0.917611300945282
+                    },
+                    {
+                      "start": 106.27,
+                      "end": 106.57,
+                      "text": "无",
+                      "probability": 0.8769292831420898
+                    },
+                    {
+                      "start": 106.57,
+                      "end": 106.87,
+                      "text": "罪",
+                      "probability": 0.9998999834060669
+                    }
+                  ]
+                },
+                {
+                  "start": 106.87,
+                  "end": 112.47,
+                  "text": "比追讨他的罪自负极值直到三四代",
+                  "words": [
+                    {
+                      "start": 106.87,
+                      "end": 107.57,
+                      "text": "比",
+                      "probability": 0.07296153157949448
+                    },
+                    {
+                      "start": 107.57,
+                      "end": 108.19,
+                      "text": "追",
+                      "probability": 0.7260918617248535
+                    },
+                    {
+                      "start": 108.19,
+                      "end": 108.55,
+                      "text": "讨",
+                      "probability": 0.73347607254982
+                    },
+                    {
+                      "start": 108.55,
+                      "end": 108.87,
+                      "text": "他的",
+                      "probability": 0.6266050338745117
+                    },
+                    {
+                      "start": 108.87,
+                      "end": 109.19,
+                      "text": "罪",
+                      "probability": 0.9919671714305878
+                    },
+                    {
+                      "start": 109.19,
+                      "end": 109.81,
+                      "text": "自",
+                      "probability": 0.6402568221092224
+                    },
+                    {
+                      "start": 109.81,
+                      "end": 110.15,
+                      "text": "负",
+                      "probability": 0.8428263068199158
+                    },
+                    {
+                      "start": 110.15,
+                      "end": 110.41,
+                      "text": "极",
+                      "probability": 0.6910514384508133
+                    },
+                    {
+                      "start": 110.41,
+                      "end": 110.75,
+                      "text": "值",
+                      "probability": 0.22046296298503876
+                    },
+                    {
+                      "start": 110.75,
+                      "end": 111.21,
+                      "text": "直",
+                      "probability": 0.5482945442199707
+                    },
+                    {
+                      "start": 111.21,
+                      "end": 111.49,
+                      "text": "到",
+                      "probability": 0.9794796109199524
+                    },
+                    {
+                      "start": 111.49,
+                      "end": 111.89,
+                      "text": "三",
+                      "probability": 0.9653942584991455
+                    },
+                    {
+                      "start": 111.89,
+                      "end": 112.19,
+                      "text": "四",
+                      "probability": 0.5228573083877563
+                    },
+                    {
+                      "start": 112.19,
+                      "end": 112.47,
+                      "text": "代",
+                      "probability": 0.9924429059028625
+                    }
+                  ]
+                },
+                {
+                  "start": 113.39,
+                  "end": 118.31,
+                  "text": "不过,他告诉了摩西所有这些关于自己的属性",
+                  "words": [
+                    {
+                      "start": 113.39,
+                      "end": 113.95,
+                      "text": "不",
+                      "probability": 0.5518478155136108
+                    },
+                    {
+                      "start": 113.95,
+                      "end": 114.21,
+                      "text": "过,",
+                      "probability": 0.9971644282341003
+                    },
+                    {
+                      "start": 114.43,
+                      "end": 114.61,
+                      "text": "他",
+                      "probability": 0.8429149389266968
+                    },
+                    {
+                      "start": 114.61,
+                      "end": 114.93,
+                      "text": "告诉",
+                      "probability": 0.991448163986206
+                    },
+                    {
+                      "start": 114.93,
+                      "end": 115.13,
+                      "text": "了",
+                      "probability": 0.9813976287841797
+                    },
+                    {
+                      "start": 115.13,
+                      "end": 115.27,
+                      "text": "摩",
+                      "probability": 0.9205813705921173
+                    },
+                    {
+                      "start": 115.27,
+                      "end": 115.53,
+                      "text": "西",
+                      "probability": 0.9117181897163391
+                    },
+                    {
+                      "start": 115.53,
+                      "end": 116.27,
+                      "text": "所有",
+                      "probability": 0.872371256351471
+                    },
+                    {
+                      "start": 116.27,
+                      "end": 116.67,
+                      "text": "这",
+                      "probability": 0.9485761523246765
+                    },
+                    {
+                      "start": 116.67,
+                      "end": 116.87,
+                      "text": "些",
+                      "probability": 0.9967290163040161
+                    },
+                    {
+                      "start": 116.87,
+                      "end": 117.09,
+                      "text": "关",
+                      "probability": 0.9872716069221497
+                    },
+                    {
+                      "start": 117.09,
+                      "end": 117.29,
+                      "text": "于",
+                      "probability": 0.9886487126350403
+                    },
+                    {
+                      "start": 117.29,
+                      "end": 117.53,
+                      "text": "自己",
+                      "probability": 0.9964131712913513
+                    },
+                    {
+                      "start": 117.53,
+                      "end": 117.77,
+                      "text": "的",
+                      "probability": 0.9964225888252258
+                    },
+                    {
+                      "start": 117.77,
+                      "end": 117.95,
+                      "text": "属",
+                      "probability": 0.9793651103973389
+                    },
+                    {
+                      "start": 117.95,
+                      "end": 118.31,
+                      "text": "性",
+                      "probability": 0.9997624754905701
+                    }
+                  ]
+                },
+                {
+                  "start": 119.29,
+                  "end": 122.45,
+                  "text": "上帝的名字,代表着上帝的属性",
+                  "words": [
+                    {
+                      "start": 119.29,
+                      "end": 119.85,
+                      "text": "上",
+                      "probability": 0.7923762798309326
+                    },
+                    {
+                      "start": 119.85,
+                      "end": 120.05,
+                      "text": "帝",
+                      "probability": 0.9980975985527039
+                    },
+                    {
+                      "start": 120.05,
+                      "end": 120.15,
+                      "text": "的",
+                      "probability": 0.9534925222396851
+                    },
+                    {
+                      "start": 120.15,
+                      "end": 120.37,
+                      "text": "名",
+                      "probability": 0.9907487034797668
+                    },
+                    {
+                      "start": 120.37,
+                      "end": 120.67,
+                      "text": "字,",
+                      "probability": 0.9978087544441223
+                    },
+                    {
+                      "start": 120.91,
+                      "end": 121.13,
+                      "text": "代",
+                      "probability": 0.7596898674964905
+                    },
+                    {
+                      "start": 121.13,
+                      "end": 121.31,
+                      "text": "表",
+                      "probability": 0.9994656443595886
+                    },
+                    {
+                      "start": 121.31,
+                      "end": 121.43,
+                      "text": "着",
+                      "probability": 0.925191342830658
+                    },
+                    {
+                      "start": 121.43,
+                      "end": 121.67,
+                      "text": "上",
+                      "probability": 0.8593666553497314
+                    },
+                    {
+                      "start": 121.67,
+                      "end": 121.85,
+                      "text": "帝",
+                      "probability": 0.9998625814914703
+                    },
+                    {
+                      "start": 121.85,
+                      "end": 121.95,
+                      "text": "的",
+                      "probability": 0.9883883595466614
+                    },
+                    {
+                      "start": 121.95,
+                      "end": 122.15,
+                      "text": "属",
+                      "probability": 0.9995253682136536
+                    },
+                    {
+                      "start": 122.15,
+                      "end": 122.45,
+                      "text": "性",
+                      "probability": 0.9997820258140564
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (9 leading chars, coverage 0.550): target 8: 出埃及记34:5-7 耶和华在云中降临，和摩西一同站在那里，宣告耶和华的名。耶和华在他面前宣告说",
+    "unverified start anchor: target 8: 出埃及记34:5-7 耶和华在云中降临，和摩西一同站在那里，宣告耶和华的名。耶和华在他面前宣告说",
+    "incomplete start (12 leading chars, coverage 0.400): target 9: 不过，祂不仅仅说出一个名字。祂告诉了摩西所有这些关于自己的属性。上帝的名字代表着上帝的属性。因此",
+    "unverified start anchor: target 9: 不过，祂不仅仅说出一个名字。祂告诉了摩西所有这些关于自己的属性。上帝的名字代表着上帝的属性。因此",
+    "repair unverified start (previous-sync): target 8",
+    "repair unverified start (previous-sync): target 9"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 2,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "fa28de1fd78a74f70366f6057cb0f3b126e5714fcfdd15424d578c870b13aaae",
+  "repairCueDigest": "cc10ab62b41745aa11a0fd01a8824110f465d46c6fac8fc563bdcc8483d71b41",
+  "previousAlignmentWarnings": []
 }

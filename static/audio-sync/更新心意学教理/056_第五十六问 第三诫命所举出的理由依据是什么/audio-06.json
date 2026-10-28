@@ -8,20 +8,54 @@
   "audioDuration": 90.749375,
   "cues": [
     {
-      "start": 1.59,
-      "end": 3.41,
-      "kind": "heading",
-      "targetIndex": 16,
-      "targetText": "礼拜五",
-      "confidence": 0.8
-    },
-    {
       "start": 3.41,
       "end": 56.27,
       "kind": "paragraph",
       "targetIndex": 17,
       "targetText": "我们应该以感恩的心来尊敬上帝的名为着祂将祂的名告诉我们而感恩上帝的百姓应该尊敬上帝的名因为祂将自",
-      "confidence": 0.796
+      "confidence": 0.973,
+      "quality": {
+        "coverage": 0.976,
+        "coherentCoverage": 0.976,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 3.41,
+        "previousEnd": 56.27,
+        "previousConfidence": 0.796
+      }
     },
     {
       "start": 56.27,
@@ -29,7 +63,204 @@
       "kind": "paragraph",
       "targetIndex": 18,
       "targetText": "申命记285859这书上所写律法的一切话是叫你敬畏耶和华你上帝可荣可畏的名你若不谨守遵行耶和华就",
-      "confidence": 0.809
+      "confidence": 0.809,
+      "quality": {
+        "coverage": 0.75,
+        "coherentCoverage": 0.645,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.5,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 10,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": false,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-sync",
+        "endSource": "verified-transcript",
+        "previousStart": 56.27,
+        "previousEnd": 81.61,
+        "previousConfidence": 0.809
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "start": {
+            "old": 56.27,
+            "time": 56.27,
+            "reason": "正文起句已定位，保留原先读出处范围",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\更新心意学教理\\56-5.mp3.json",
+              "sha256": "5346d5c5a8b091f601ae4fc38e6fa3cb8b68f5dde6a3e98dd36a30febc21a27f",
+              "anchor": {
+                "time": 57.71,
+                "score": 0.9555,
+                "ratio": 0.963,
+                "expected": "zheshushangsuoxielvfadeyiqiehuashijiaoni",
+                "actual": "书上所写律法的1切话是叫你",
+                "span": [
+                  57.71,
+                  61.95
+                ],
+                "tokens": [
+                  {
+                    "text": "书",
+                    "start": 57.71,
+                    "end": 57.91,
+                    "rawStart": 177,
+                    "rawEnd": 177,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "上",
+                    "start": 57.91,
+                    "end": 58.25,
+                    "rawStart": 178,
+                    "rawEnd": 178,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "所",
+                    "start": 58.25,
+                    "end": 58.73,
+                    "rawStart": 179,
+                    "rawEnd": 179,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "写",
+                    "start": 58.73,
+                    "end": 59.27,
+                    "rawStart": 180,
+                    "rawEnd": 180,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "律",
+                    "start": 59.27,
+                    "end": 59.77,
+                    "rawStart": 181,
+                    "rawEnd": 181,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "法",
+                    "start": 59.77,
+                    "end": 60.03,
+                    "rawStart": 182,
+                    "rawEnd": 182,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 60.03,
+                    "end": 60.17,
+                    "rawStart": 183,
+                    "rawEnd": 183,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 60.17,
+                    "end": 60.45,
+                    "rawStart": 184,
+                    "rawEnd": 184,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "切",
+                    "start": 60.45,
+                    "end": 60.61,
+                    "rawStart": 185,
+                    "rawEnd": 185,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "话",
+                    "start": 60.61,
+                    "end": 60.87,
+                    "rawStart": 186,
+                    "rawEnd": 186,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 61.35,
+                    "end": 61.43,
+                    "rawStart": 187,
+                    "rawEnd": 187,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "叫",
+                    "start": 61.43,
+                    "end": 61.71,
+                    "rawStart": 188,
+                    "rawEnd": 188,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "你",
+                    "start": 61.71,
+                    "end": 61.95,
+                    "rawStart": 189,
+                    "rawEnd": 189,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "这书上所写律法的一切话,是叫你敬畏耶和华你神可荣可畏的名。你若不谨守遵行,耶和华就必将奇灾,就是至大至长的灾,至重至久的病,加在你和你后裔的身上。",
+              "retainedCitationInterval": [
+                56.27,
+                57.71
+              ]
+            }
+          }
+        }
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "incomplete start (10 leading chars, coverage 0.500): target 18: 申命记28:58-59 这书上所写律法的一切话，是叫你敬畏耶和华你神可荣可畏的名。你若不谨守遵行",
+    "unverified start anchor: target 18: 申命记28:58-59 这书上所写律法的一切话，是叫你敬畏耶和华你神可荣可畏的名。你若不谨守遵行",
+    "repair unverified start (previous-sync): target 18"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 1,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "eb9af8ef5ab2084b87bc057ef7604ad7b2b8c5e8e85a315cfaa40279749e651d",
+  "repairCueDigest": "35a05a012dcea2a76f65f395bb383bab229d23f902779f6ef55dc79ee97f5553",
+  "previousAlignmentWarnings": []
 }

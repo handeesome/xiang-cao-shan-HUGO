@@ -9,35 +9,331 @@
   "cues": [
     {
       "start": 1.71,
-      "end": 3.97,
-      "kind": "heading",
-      "targetIndex": 41,
-      "targetText": "四",
-      "confidence": 1.0
-    },
-    {
-      "start": 3.97,
-      "end": 80.57,
+      "end": 79.81,
       "kind": "paragraph",
       "targetIndex": 42,
       "targetText": "已信的人不肯说自己是得救是因为他不明白得救的根据是什么谁都以为我以前的不好归到耶稣身上信以后再不",
-      "confidence": 0.849
+      "confidence": 0.911,
+      "quality": {
+        "coverage": 0.909,
+        "coherentCoverage": 0.865,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "start substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 3.97,
+        "previousEnd": 80.57,
+        "previousConfidence": 0.849
+      }
     },
     {
       "start": 80.57,
-      "end": 150.09,
+      "end": 150.73,
       "kind": "paragraph",
       "targetIndex": 43,
       "targetText": "假使那与主同钉的强盗得救后不立时死了假使他能再活五十年能作顶好的工夫如保罗一般能站立稳固如彼得一",
-      "confidence": 0.702
+      "confidence": 0.884,
+      "quality": {
+        "coverage": 0.878,
+        "coherentCoverage": 0.837,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.7,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 1,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": true,
+        "boundaryAdjusted": [
+          "start substitution",
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-sync",
+        "previousStart": 80.57,
+        "previousEnd": 150.09,
+        "previousConfidence": 0.702
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 150.09,
+            "time": 150.73,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\倪柝声全集\\01\\chapter15\\4.mp3.json",
+              "sha256": "e0bc2123a1fbf565a95985c2d3df02455de76606f793deaa2c7b0ae4785ccba1",
+              "anchor": {
+                "time": 150.73,
+                "score": 0.8565,
+                "ratio": 0.8571,
+                "expected": "xingshiweirenyingdangxiangzhuyiyangliangshanshengjie",
+                "actual": "行事为人应当像主1样2善甚结",
+                "span": [
+                  146.23,
+                  150.73
+                ],
+                "tokens": [
+                  {
+                    "text": "行",
+                    "start": 146.23,
+                    "end": 146.87,
+                    "rawStart": 457,
+                    "rawEnd": 457,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "事",
+                    "start": 146.87,
+                    "end": 147.23,
+                    "rawStart": 458,
+                    "rawEnd": 458,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "为",
+                    "start": 147.23,
+                    "end": 147.55,
+                    "rawStart": 459,
+                    "rawEnd": 459,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "人",
+                    "start": 147.55,
+                    "end": 147.91,
+                    "rawStart": 460,
+                    "rawEnd": 460,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "应",
+                    "start": 147.91,
+                    "end": 148.25,
+                    "rawStart": 461,
+                    "rawEnd": 461,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "当",
+                    "start": 148.25,
+                    "end": 148.47,
+                    "rawStart": 462,
+                    "rawEnd": 462,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "像",
+                    "start": 148.47,
+                    "end": 148.75,
+                    "rawStart": 463,
+                    "rawEnd": 463,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "主",
+                    "start": 148.75,
+                    "end": 149.03,
+                    "rawStart": 464,
+                    "rawEnd": 464,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "1",
+                    "start": 149.03,
+                    "end": 149.37,
+                    "rawStart": 465,
+                    "rawEnd": 465,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "样",
+                    "start": 149.03,
+                    "end": 149.37,
+                    "rawStart": 466,
+                    "rawEnd": 466,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "2",
+                    "start": 149.37,
+                    "end": 149.73,
+                    "rawStart": 467,
+                    "rawEnd": 467,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "善",
+                    "start": 149.73,
+                    "end": 150.09,
+                    "rawStart": 468,
+                    "rawEnd": 468,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "甚",
+                    "start": 150.09,
+                    "end": 150.39,
+                    "rawStart": 469,
+                    "rawEnd": 469,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "结",
+                    "start": 150.39,
+                    "end": 150.73,
+                    "rawStart": 470,
+                    "rawEnd": 470,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": true,
+                "alternative": {
+                  "time": 152.95,
+                  "score": 0.8187,
+                  "actual": "行事为人应当像主1样2善甚结比"
+                }
+              },
+              "body": "假使那与主同钉的强盗得救后,不立时死了,假使他能再活五十年,能作顶好的工夫如保罗一般,能站立稳固,如彼得一般,且有极大的爱心像约翰一般;设使保罗彼得约翰三人的好处都合在他身上,这个对于他得救到乐园去都没有半点的补助。 那个强盗固然是当时就得救;比如他再作五十年的好,也不能使他更配得救。 他纵使能活着不做强盗,会变作使徒那般好,行善救人,这不能算是他得救的根据。 唯一的根据是在乎主耶稣,不在乎自己的行为。 所以信的人敢说自己是得救的。 人就是因为已经得救了,故此行事为人应当像主一样良善、圣洁。"
+            }
+          }
+        },
+        "previousQuality": {
+          "coverage": 0.878,
+          "coherentCoverage": 0.837,
+          "extraSpeechContext": false,
+          "prefixCoverage": 0.7,
+          "suffixCoverage": 0.85,
+          "unmatchedLeadingChars": 1,
+          "unmatchedTrailingChars": 2,
+          "reviewRequired": true,
+          "boundaryAdjusted": [
+            "start substitution",
+            "end substitution"
+          ],
+          "startVerified": true,
+          "endVerified": false,
+          "startEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "verified-transcript"
+          },
+          "endEvidence": {
+            "verified": false,
+            "source": "previous-sync"
+          }
+        }
+      }
     },
     {
-      "start": 150.09,
-      "end": 208.15,
+      "start": 152.01,
+      "end": 206.53,
       "kind": "paragraph",
       "targetIndex": 44,
       "targetText": "比方现在一个人落到水里去岸上的人花了九牛二虎之力把他救上来行人工呼吸法将衣服给他换使他烤火取暖又",
-      "confidence": 0.865
+      "confidence": 0.888,
+      "quality": {
+        "coverage": 0.891,
+        "coherentCoverage": 0.83,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": false,
+          "substitutionAnchor": true,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 150.09,
+        "previousEnd": 208.15,
+        "previousConfidence": 0.865
+      }
     },
     {
       "start": 208.15,
@@ -45,7 +341,70 @@
       "kind": "paragraph",
       "targetIndex": 45,
       "targetText": "每一个人真信耶稣为救主真信上帝将一切罪归祂担当他还说不是得救的这人并不是谦卑乃是不感激主的大恩不",
-      "confidence": 0.841
+      "confidence": 0.931,
+      "quality": {
+        "coverage": 0.927,
+        "coherentCoverage": 0.915,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.9,
+        "suffixCoverage": 1.0,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "verified-transcript",
+        "previousStart": 208.15,
+        "previousEnd": 279.43,
+        "previousConfidence": 0.841
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v5-rendered-targets-and-partial-repair",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 43: 假使那与主同钉的强盗得救后，不立时死了，假使他能再活五十年，能作顶好的工夫如保罗一般，能站立稳固",
+    "repair unverified end (previous-sync): target 43"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 2,
+    "addedCues": 0,
+    "headingsRemoved": 1,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "bbf88d287f815ba54b81ce6089e7d11aaa77f97d0571984d4b172be375d4f20a",
+  "repairCueDigest": "9eebf1088fb13cec445765ddabda4ed7ca703748b6648eaadb6eb9024fe463c9",
+  "previousAlignmentWarnings": []
 }

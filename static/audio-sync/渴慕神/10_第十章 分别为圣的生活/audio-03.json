@@ -9,67 +9,656 @@
   "cues": [
     {
       "start": 0.46,
-      "end": 33.9,
+      "end": 34.16,
       "kind": "paragraph",
       "targetIndex": 22,
       "targetText": "今日信徒按着人类堕落之后的自然律法的观念又把旧时的区分带进教会来教会开始遵守各种特别的日子节期有",
-      "confidence": 0.887
+      "confidence": 0.946,
+      "quality": {
+        "coverage": 0.946,
+        "coherentCoverage": 0.946,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 0.46,
+        "previousEnd": 34.16,
+        "previousConfidence": 0.946
+      }
     },
     {
-      "start": 33.9,
+      "start": 35.8,
       "end": 72.96,
       "kind": "paragraph",
       "targetIndex": 23,
       "targetText": "请宽恕我如此说我并没有对任何一个基督徒怀有恶感不论这道理怎样被人误解我还要指出罗马天主教就是这种",
-      "confidence": 0.619
+      "confidence": 0.939,
+      "quality": {
+        "coverage": 0.936,
+        "coherentCoverage": 0.921,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": false,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": false,
+          "source": "previous-sync"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-sync",
+        "previousStart": 35.8,
+        "previousEnd": 72.96,
+        "previousConfidence": 0.939
+      },
+      "paragraphTimingReview": {
+        "status": "aligned-at-paragraph-level",
+        "precision": "approximate-word-boundaries",
+        "listenedByAgent": false,
+        "authorization": "用户要求每段首尾大致对应，允许识别差异与摘读。",
+        "edges": {
+          "end": {
+            "old": 72.96,
+            "time": 72.96,
+            "reason": "首尾短句局部对应，允许识别差异；不要求中间逐字相同。",
+            "proof": {
+              "transcript": "D:\\my-projects\\香草山\\xiangcaoshan\\.audio-sync-cache\\boundary-first-20261015\\boundary-pass\\verified-transcripts\\渴慕神\\10-3.mp3.json",
+              "sha256": "7cac50e0013b98dd65000a3b5db9f6ca52ba212411e588cdc3a0b5a6999aad48",
+              "anchor": {
+                "time": 72.96,
+                "score": 0.8342,
+                "ratio": 0.8462,
+                "expected": "shishenghuolizhezhongfengeshizhangzhangmingshende",
+                "actual": "实生活里这种分割是彰显的",
+                "span": [
+                  69.88,
+                  72.96
+                ],
+                "tokens": [
+                  {
+                    "text": "实",
+                    "start": 69.88,
+                    "end": 70.06,
+                    "rawStart": 236,
+                    "rawEnd": 236,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "生",
+                    "start": 70.06,
+                    "end": 70.42,
+                    "rawStart": 237,
+                    "rawEnd": 237,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "活",
+                    "start": 70.06,
+                    "end": 70.42,
+                    "rawStart": 238,
+                    "rawEnd": 238,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "里",
+                    "start": 70.42,
+                    "end": 70.66,
+                    "rawStart": 239,
+                    "rawEnd": 239,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "这",
+                    "start": 70.66,
+                    "end": 71.2,
+                    "rawStart": 240,
+                    "rawEnd": 240,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "种",
+                    "start": 70.66,
+                    "end": 71.2,
+                    "rawStart": 241,
+                    "rawEnd": 241,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "分",
+                    "start": 71.2,
+                    "end": 71.58,
+                    "rawStart": 242,
+                    "rawEnd": 242,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "割",
+                    "start": 71.58,
+                    "end": 71.82,
+                    "rawStart": 243,
+                    "rawEnd": 243,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "是",
+                    "start": 71.82,
+                    "end": 72.28,
+                    "rawStart": 244,
+                    "rawEnd": 244,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "彰",
+                    "start": 72.28,
+                    "end": 72.6,
+                    "rawStart": 245,
+                    "rawEnd": 245,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "显",
+                    "start": 72.6,
+                    "end": 72.82,
+                    "rawStart": 246,
+                    "rawEnd": 246,
+                    "precision": "word"
+                  },
+                  {
+                    "text": "的",
+                    "start": 72.82,
+                    "end": 72.96,
+                    "rawStart": 247,
+                    "rawEnd": 247,
+                    "precision": "word"
+                  }
+                ],
+                "ambiguous": false
+              },
+              "body": "请宽恕我如此说,我并没有对任何一个基督徒怀有恶感。不论这道理怎样被人误解,我还要指出,罗马天主教就是这种分别神圣与世俗错误理论的自然结果。它最大的危险,就是把宗教与生活完全分割。他们的教师企图用许多注解与繁琐的释义,要叫人看不出这种弊病。但人的脑子对问题是有反应的,在现实生活里,这种分割是彰彰明甚的。"
+            }
+          }
+        }
+      }
     },
     {
-      "start": 72.96,
-      "end": 128.44,
+      "start": 75.02,
+      "end": 127.58,
       "kind": "paragraph",
       "targetIndex": 24,
       "targetText": "改教派清教徒和上帝秘派的人士想尽力把我们从这种捆绑中解救出来但今天在保守派当中又有回到这种捆绑的",
-      "confidence": 0.932
+      "confidence": 0.942,
+      "quality": {
+        "coverage": 0.94,
+        "coherentCoverage": 0.934,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 75.02,
+        "previousEnd": 127.58,
+        "previousConfidence": 0.942
+      }
     },
     {
       "start": 128.44,
-      "end": 152.64,
+      "end": 151.48,
       "kind": "paragraph",
       "targetIndex": 25,
       "targetText": "为了使我的话说得更加清楚而不被误会我愿意把我所讨论的就实际的含义作直接的介绍以上我们强调每日生活",
-      "confidence": 0.96
+      "confidence": 0.96,
+      "quality": {
+        "coverage": 0.965,
+        "coherentCoverage": 0.965,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 128.44,
+        "previousEnd": 151.48,
+        "previousConfidence": 0.96
+      }
     },
     {
       "start": 152.64,
-      "end": 201.78,
+      "end": 189.3,
       "kind": "paragraph",
       "targetIndex": 26,
       "targetText": "这不是说我们所作的每一件事都同样重要一个爱上帝的人一生中会有某些事作得比其他事更为重要的保罗的织",
-      "confidence": 0.921
+      "confidence": 0.921,
+      "quality": {
+        "coverage": 0.921,
+        "coherentCoverage": 0.893,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.95,
+        "suffixCoverage": 0.95,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 152.64,
+        "previousEnd": 189.3,
+        "previousConfidence": 0.921
+      }
     },
     {
       "start": 201.78,
-      "end": 226.34,
+      "end": 226.82,
       "kind": "paragraph",
       "targetIndex": 27,
       "targetText": "人的功用不是个个一样的在基督的身体中恩赐是有不同的贝莱比利billybray就他对于教会以及世界",
-      "confidence": 0.827
+      "confidence": 0.819,
+      "quality": {
+        "coverage": 0.782,
+        "coherentCoverage": 0.752,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 201.78,
+        "previousEnd": 226.82,
+        "previousConfidence": 0.819
+      }
     },
     {
-      "start": 226.34,
-      "end": 307.38,
+      "start": 227.92,
+      "end": 308.88,
       "kind": "paragraph",
       "targetIndex": 28,
       "targetText": "我们不必以为所谓平信徒者所做的平常的工作不及牧师所作的有价值每一个照他蒙召时的工作安心守着本位的",
-      "confidence": 0.888
+      "confidence": 0.907,
+      "quality": {
+        "coverage": 0.907,
+        "coherentCoverage": 0.861,
+        "extraSpeechContext": false,
+        "prefixCoverage": 0.85,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 0.75,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "source": "explicit-local-spoken-order-context",
+          "contextCase": 33,
+          "rawContext": [
+            {
+              "start": 305.42,
+              "end": 306.0,
+              "text": "地",
+              "probability": 0.9875582456588745
+            },
+            {
+              "start": 306.66,
+              "end": 307.2,
+              "text": "以",
+              "probability": 0.19054155051708221
+            },
+            {
+              "start": 307.2,
+              "end": 307.38,
+              "text": "赛",
+              "probability": 0.6871348917484283
+            },
+            {
+              "start": 307.38,
+              "end": 307.56,
+              "text": "雅",
+              "probability": 0.7691109478473663
+            },
+            {
+              "start": 307.56,
+              "end": 307.82,
+              "text": "书",
+              "probability": 0.9642046988010406
+            },
+            {
+              "start": 307.82,
+              "end": 308.1,
+              "text": "六",
+              "probability": 0.7140324711799622
+            },
+            {
+              "start": 308.1,
+              "end": 308.32,
+              "text": "章",
+              "probability": 0.9767847061157227
+            },
+            {
+              "start": 308.32,
+              "end": 308.58,
+              "text": "三",
+              "probability": 0.9959145188331604
+            },
+            {
+              "start": 308.58,
+              "end": 308.88,
+              "text": "节,",
+              "probability": 0.8043779134750366
+            }
+          ],
+          "independentLocalChecks": [],
+          "listenedByAgent": false,
+          "transcript": "C:\\Users\\ducenhan\\Desktop\\transcript\\transcripts\\渴慕神\\10-3.mp3.json",
+          "transcriptSha256": "4ebd84587bb41ded27e8b39be88585fb5d3b696804780e08666e0dc131a45e7f",
+          "actualEndpointWords": [
+            {
+              "start": 308.58,
+              "end": 308.88,
+              "text": "节,",
+              "probability": 0.8043779134750366
+            }
+          ],
+          "audioSha256": "7ca98f0b2440e1feee324af7c24bcb38fc99e8575a1e4206476f8c6bee335e76",
+          "verified": true,
+          "localSupported": true,
+          "timingPrecision": "word",
+          "reason": "本段末赛6:3已实际读出，取三节的节308.88结束，旧307.38停在书名赛字。",
+          "contextUsed": true
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 227.92,
+        "previousEnd": 307.38,
+        "previousConfidence": 0.907
+      },
+      "boundaryCorrections": [
+        {
+          "book": "渴慕神",
+          "page": "10_第十章 分别为圣的生活.md",
+          "audio": "10-3.mp3",
+          "path": "D:\\my-projects\\香草山\\xiangcaoshan\\static\\audio-sync\\渴慕神\\10_第十章 分别为圣的生活\\audio-03.json",
+          "targetIndex": 28,
+          "edge": "end",
+          "previousTime": 307.38,
+          "time": 308.88,
+          "kind": "post-validation-local-context",
+          "previousVerified": true,
+          "previousEvidence": {
+            "verified": true,
+            "coverage": 0.833,
+            "continuousAnchor": true,
+            "substitutionAnchor": false,
+            "timingPrecision": "word",
+            "insideSegment": false,
+            "detachedContext": false,
+            "paragraphSupported": true,
+            "source": "previous-verified-sync",
+            "originalSource": "verified-transcript"
+          },
+          "reason": "本段末赛6:3已实际读出，取三节的节308.88结束，旧307.38停在书名赛字。"
+        }
+      ]
     },
     {
-      "start": 307.38,
+      "start": 312.26,
       "end": 391.61,
       "kind": "paragraph",
       "targetIndex": 29,
       "targetText": "祷告主啊我愿完全信靠你我愿完全属于你我愿高举你在一切之上我希望能体验到除你以外没有别的是属于我的",
-      "confidence": 0.885
+      "confidence": 0.928,
+      "quality": {
+        "coverage": 0.926,
+        "coherentCoverage": 0.903,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 2,
+        "reviewRequired": false,
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "previous-verified-sync",
+        "endSource": "previous-verified-sync",
+        "previousStart": 312.26,
+        "previousEnd": 391.61,
+        "previousConfidence": 0.928
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "body-global-v8-rendered-list-and-empty-paragraph-indices",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 23: 请宽恕我如此说，我并没有对任何一个基督徒怀有恶感。不论这道理怎样被人误解，我还要指出，罗马天主教",
+    "repair unverified end (previous-sync): target 23",
+    "local spoken context confirmed end: target 28; original evidence/warnings retained"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 0,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 1,
+    "missingTargets": []
+  },
+  "targetMigrations": [],
+  "chronologyReordered": false,
+  "repairFingerprint": "9a1030b6a287c10874e89f2bad8a4f0cd6a426fb4ee5dc3d64e7bf3b771bd8ce",
+  "repairCueDigest": "299a68ab7188878385ffed7f642c6a6a8f2d3d0a36063131c27eaea5af755fcc",
+  "previousAlignmentWarnings": []
 }

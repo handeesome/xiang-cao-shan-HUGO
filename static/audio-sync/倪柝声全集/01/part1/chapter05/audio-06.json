@@ -8,28 +8,187 @@
   "audioDuration": 344.1273125,
   "cues": [
     {
-      "start": 2.48,
-      "end": 3.96,
-      "kind": "heading",
-      "targetIndex": 30,
-      "targetText": "4祷告",
-      "confidence": 0.8
-    },
-    {
-      "start": 3.96,
-      "end": 187.99,
+      "start": 4.12,
+      "end": 188.51,
       "kind": "paragraph",
-      "targetIndex": 31,
+      "targetIndex": 29,
       "targetText": "这个强盗不只相信主耶稣的替死他并且从他信心里发出最诚实的祷告他祷告说耶稣阿你得国降临的时候求你记",
-      "confidence": 0.824
+      "confidence": 0.939,
+      "quality": {
+        "coverage": 0.937,
+        "coherentCoverage": 0.92,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.9,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 1,
+        "reviewRequired": false,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [
+          "end substitution"
+        ],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 1.0,
+          "localSimilarity": 1.0,
+          "localText": "这个强盗不只相信主耶稣的替死他并且从他信心里发出",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.917,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 3.96,
+        "previousEnd": 188.51,
+        "previousConfidence": 0.932
+      }
     },
     {
-      "start": 187.99,
-      "end": 339.44,
+      "start": 191.07,
+      "end": 340.72,
       "kind": "paragraph",
-      "targetIndex": 32,
+      "targetIndex": 30,
       "targetText": "这个强盗他以为得救是一件将来的事所以他求耶稣在祂降临的时候记念他43节这是旧约的救恩他以为他自己",
-      "confidence": 0.865
+      "confidence": 0.942,
+      "quality": {
+        "coverage": 0.941,
+        "coherentCoverage": 0.939,
+        "extraSpeechContext": false,
+        "prefixCoverage": 1.0,
+        "suffixCoverage": 0.85,
+        "unmatchedLeadingChars": 0,
+        "unmatchedTrailingChars": 0,
+        "reviewRequired": true,
+        "verificationBasis": "local-boundaries",
+        "boundaryAdjusted": [],
+        "startVerified": true,
+        "endVerified": true,
+        "startEvidence": {
+          "verified": true,
+          "coverage": 1.0,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "detachedNumericLabel": false,
+          "localSupported": true,
+          "localCoverage": 1.0,
+          "localSimilarity": 1.0,
+          "localText": "这个强盗他以为得救是1件将来的事所以他求耶稣在他",
+          "anchorOccurrences": 1,
+          "paragraphSupported": true,
+          "contextUsed": false,
+          "identityAmbiguous": false,
+          "source": "verified-transcript"
+        },
+        "endEvidence": {
+          "verified": true,
+          "coverage": 0.833,
+          "continuousAnchor": true,
+          "substitutionAnchor": false,
+          "timingPrecision": "word",
+          "insideSegment": false,
+          "detachedContext": false,
+          "paragraphSupported": true,
+          "source": "previous-verified-sync",
+          "originalSource": "verified-transcript"
+        }
+      },
+      "repair": {
+        "startSource": "verified-transcript",
+        "endSource": "previous-verified-sync",
+        "previousStart": 188.51,
+        "previousEnd": 340.72,
+        "previousConfidence": 0.938
+      }
     }
-  ]
+  ],
+  "alignmentMethod": "boundary-first-v10-local-edges-context-on-ambiguity",
+  "highlightHeadings": false,
+  "alignmentWarnings": [
+    "unverified end anchor: target 30: 这个强盗，他以为得救是一件将来的事，所以他求耶稣在祂降临的时候记念他(43 节)。 这是旧约的救"
+  ],
+  "repairMode": "verified-boundaries-with-previous-fallback",
+  "repairSummary": {
+    "updatedStarts": 2,
+    "updatedEnds": 0,
+    "addedCues": 0,
+    "headingsRemoved": 0,
+    "unverifiedStarts": 0,
+    "unverifiedEnds": 0,
+    "missingTargets": []
+  },
+  "targetMigrations": [
+    {
+      "previousTargetIndex": 31,
+      "targetIndex": 32,
+      "targetText": "这个强盗不只相信主耶稣的替死他并且从他信心里发出最诚实的祷告他祷告说耶稣阿你得国降临的时候求你记",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 32,
+      "targetIndex": 33,
+      "targetText": "这个强盗他以为得救是一件将来的事所以他求耶稣在祂降临的时候记念他43节这是旧约的救恩他以为他自己",
+      "method": "exact-text-and-reproduced-parser-index"
+    },
+    {
+      "previousTargetIndex": 32,
+      "targetIndex": 29,
+      "targetText": "这个强盗不只相信主耶稣的替死他并且从他信心里发出最诚实的祷告他祷告说耶稣阿你得国降临的时候求你记",
+      "method": "unchanged-source-span-after-proven-duplicate-removal"
+    },
+    {
+      "previousTargetIndex": 33,
+      "targetIndex": 30,
+      "targetText": "这个强盗他以为得救是一件将来的事所以他求耶稣在祂降临的时候记念他43节这是旧约的救恩他以为他自己",
+      "method": "unchanged-source-span-after-proven-duplicate-removal"
+    }
+  ],
+  "chronologyReordered": false,
+  "repairFingerprint": "b6ff1b72f43a202b3ab1b244e454c1a377dbdbcea3e57be64cecfec9a747b95d",
+  "repairCueDigest": "43039de09b865fc6d97604ab50da20d5123f92e09a601e6e22b924a50dc22b4e",
+  "previousAlignmentWarnings": [],
+  "targetIndexMethod": "body-global-v8-rendered-list-and-empty-paragraph-indices",
+  "currentSiteConfirmation": {
+    "model": "medium",
+    "audioSha256": "7ad65451c64c7096ef610212a5c8fb9b5c800d458f6fb54d24c336e60c571b1d",
+    "audioDuration": 344.1273125,
+    "windows": [
+      [
+        0.0,
+        12.64
+      ],
+      [
+        176.21,
+        198.88
+      ]
+    ]
+  }
 }
