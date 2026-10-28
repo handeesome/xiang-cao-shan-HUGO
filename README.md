@@ -78,7 +78,7 @@ Create a production build with:
 hugo --minify
 ```
 
-Reading progress is saved in the current browser for the 30 most recently visited reading pages. Opening the homepage returns to the latest chapter; following a homepage link explicitly stays home (`?home=1`). Chapter fragment links and browser back navigation keep their normal destinations. Audio resumes at the saved time only after the reader presses play. No reading history is sent to a server.
+Reading progress is saved in the current browser for the 30 most recently visited reading pages. Directly opening the homepage returns to the latest chapter; internal homepage links (`?home=1`), reloads, and browser back navigation stay at their chosen destinations. Opening another book only restores progress saved for that page. Uncached pages show an offline message when loading fails instead of falling back to the homepage. Chapter fragment links keep their normal destinations. Audio resumes at the saved time only after the reader presses play. No reading history is sent to a server.
 
 Run the reading-progress checks with `node --test scripts/reading-progress.test.cjs`.
 
@@ -124,7 +124,7 @@ An audio shortcode can reference generated synchronization data:
 
 While the recording plays, the matching body paragraph receives a visual highlight. Headings are excluded from alignment and highlighting. The timing is intentionally paragraph-level: it is easier to review and maintain than word-perfect subtitles.
 
-The included Python tool uses local `faster-whisper` transcription, global body-text alignment, and separate checks for each paragraph's start and end. It handles single-audio chapters and pages containing many recordings, while guarding against scattered matches in spoken introductions or endings.
+Review reuses transcripts for the current recording to locate each paragraph's opening and closing phrases. Full-text alignment provides rough positions and helps resolve ambiguous repeated phrases; full-paragraph similarity is not a pass requirement. Check paragraph identity and neighboring cues before applying a timing change. The workflow covers both single-audio chapters and pages containing many recordings.
 
 Generated synchronization data is treated as reviewable content rather than a finished subtitle track. A low-confidence warning can be caused by a proper name or recognition error even when its timing is correct, while an unmatched Markdown unit may be a real alignment problem or text that the recording never reads, such as a translator’s note or back-cover copy. Review warnings, chapter openings, section transitions, and endings before committing a book.
 
