@@ -11,10 +11,13 @@ The project emphasizes long-form reading: books are organized by author and titl
 - Responsive layouts tested at narrow mobile, tablet, and desktop widths
 - Mobile navigation and table of contents that preserve the reader’s scroll position
 - Local reading history that restores the last chapter, paragraph position, and paused audio progress
+- Persistent reading preferences with sans-serif (黑体) and serif (宋体) previews and 14–26 px body text sizing
 - Accessible navigation dialogs, focus handling, keyboard controls, and larger touch targets
-- Mobile reading controls that hide while scrolling and return after a tap or keyboard action
+- Mobile reading controls that progressively return on upward scroll and hide on downward scroll, with keyboard support
+- Book/chapter context and a mobile table of contents that reveals the current section
 - Chapter audio with lazy metadata loading and sequential playback on multi-audio pages
-- Optional paragraph-level highlighting synchronized to an audio recording
+- Labeled audio segments on multi-part chapters and optional paragraph-level highlighting, loaded on demand
+- Responsive WebP book covers and local reading illustrations
 - Music folders, numeric/title sorting, pagination, cached API responses, and lazy thumbnails
 - Children’s section for family-friendly Christian learning material
 - Installable PWA metadata and a runtime-cache service worker
@@ -36,11 +39,12 @@ content/books/               Book directories, indexes, and chapters
 content/music/               Music section entry page
 content/children/            Children’s section
 layouts/                     Hugo overrides and shortcodes
+assets/                      Reading progress/preferences scripts and source images
 themes/my-book/              Local Hugo theme, SCSS, PWA manifest, and service worker
 static/js/                   Browser-side reading, audio, bookshelf, and music code
 static/audio-sync/           Published paragraph-level audio timing JSON
 netlify/functions/           Audio redirect and music-library functions
-scripts/                     Local content-preparation tools
+scripts/                     Audio-sync tooling and Python/Node regression tests
 ├─ generate_audio_sync.py    Local Whisper alignment tool
 ├─ requirements-audio-sync.txt
 └─ README-audio-sync.md      Detailed audio-sync and review workflow
@@ -53,7 +57,7 @@ package.json                 Node dependencies used by the deployment tooling
 ### Prerequisites
 
 - A recent **Hugo Extended** release
-- **Node.js/npm** when working on Netlify functions or deployment dependencies
+- **Node.js** with built-in `node:test` and `fetch` support for regression tests and Netlify functions; **npm** for deployment dependencies
 - **Python 3.11** only when generating audio synchronization data
 
 Install the Node dependencies when needed:
@@ -80,7 +84,24 @@ hugo --minify
 
 Reading progress is saved in the current browser for the 30 most recently visited reading pages. Directly opening the homepage returns to the latest chapter; internal homepage links (`?home=1`), reloads, and browser back navigation stay at their chosen destinations. Opening another book only restores progress saved for that page. Uncached pages show an offline message when loading fails instead of falling back to the homepage. Chapter fragment links keep their normal destinations. Audio resumes at the saved time only after the reader presses play. No reading history is sent to a server.
 
-Run the reading-progress checks with `node --test scripts/reading-progress.test.cjs`.
+Font and size preferences are also stored in the current browser. Changing typography keeps the current paragraph in view. Desktop reading settings appear above the article; mobile settings use the “字” control.
+
+See [Validation Before Committing](#validation-before-committing) for the regression-test commands.
+
+## Site Configuration
+
+The main settings live in [hugo.toml](hugo.toml):
+
+| Setting | Purpose |
+| --- | --- |
+| `params.BookMaintenanceDate` | Explicit maintenance date displayed in the footer; update after actual site maintenance rather than on every build. |
+| `params.BookServiceWorker` | Offline caching mode; currently `runtime`. |
+| `params.features.autoRedirectSections` | Automatically redirect empty section entry pages to their first content page, unless `showChildrenList` is set. |
+| `params.features.audioPlayAll` | Enable sequential playback controls on pages with multiple recordings. |
+| `params.features.strictShortcodes` | Treat missing book-cover images as build errors rather than warnings. |
+| `params.integration.audio.functionBase` | Production audio endpoint. |
+| `params.integration.audio.previewFunctionBase` | Audio endpoint used by `hugo server`. |
+| `params.integration.audio.cacheVersion` | Cache version forwarded to the audio storage URL. |
 
 ## Books and Chapter Audio
 
@@ -124,44 +145,11 @@ An audio shortcode can reference generated synchronization data:
 
 While the recording plays, the matching body paragraph receives a visual highlight. Headings are excluded from alignment and highlighting. The timing is intentionally paragraph-level: it is easier to review and maintain than word-perfect subtitles.
 
-Review reuses transcripts for the current recording to locate each paragraph's opening and closing phrases. Full-text alignment provides rough positions and helps resolve ambiguous repeated phrases; full-paragraph similarity is not a pass requirement. Check paragraph identity and neighboring cues before applying a timing change. The workflow covers both single-audio chapters and pages containing many recordings.
+Before generating, reviewing, or repairing sync data, read the complete [audio-sync guide](scripts/README-audio-sync.md), starting with the [new-book workflow](scripts/README-audio-sync.md#新书与新增音频的固定工作流). It covers setup, transcript reuse, generation, audit, partial repair, recording-version checks, and acceptance against the rendered HTML and audio.
 
-Generated synchronization data is treated as reviewable content rather than a finished subtitle track. A low-confidence warning can be caused by a proper name or recognition error even when its timing is correct, while an unmatched Markdown unit may be a real alignment problem or text that the recording never reads, such as a translator’s note or back-cover copy. Review warnings, chapter openings, section transitions, and endings before committing a book.
+Work one book at a time: **generate → review → repair only when needed → validate locally → confirm → commit**. Locate each paragraph by its opening and closing phrases. Unverified candidates stay local by default; `--repair` is only for existing sync files. A successful command or build does not establish that audio boundaries are correct.
 
-The standard workflow is **generate → review → repair only when needed → validate locally → confirm → commit**, one book at a time. Every new batch needs review; clean files do not need an obligatory second repair pass. By default, unverified candidates remain in the local cache rather than replacing published sync or updating Markdown. `--audit` checks existing JSON without changing it; `--repair` updates supported boundaries in existing JSON and retains uncertain old boundaries with warnings. It is not a way to approve a new candidate that has no previous JSON.
-
-The persistent project instructions in [AGENTS.md](AGENTS.md) point future tasks to the [new-book workflow](scripts/README-audio-sync.md#新书与新增音频的固定工作流). Reports and transcripts under `.audio-sync-cache/` are local-only and must be supplied separately when handing work to another machine. Do not automatically commit, push, or deploy generated results.
-
-Create an isolated environment and install the dependency:
-
-```powershell
-py -3.11 -m venv .venv-audio-sync
-.\.venv-audio-sync\Scripts\python.exe -m pip install `
-  -r scripts\requirements-audio-sync.txt
-```
-
-Check one book’s file mapping without transcribing:
-
-```powershell
-.\.venv-audio-sync\Scripts\python.exe scripts\generate_audio_sync.py `
-  --audio-root "D:\audio" `
-  --book "效法基督" `
-  --scan
-```
-
-Generate one page without changing its Markdown:
-
-```powershell
-.\.venv-audio-sync\Scripts\python.exe scripts\generate_audio_sync.py `
-  --audio-root "D:\audio" `
-  --book "效法基督" `
-  --page "scroll1/01_02" `
-  --model base
-```
-
-After reviewing `.audio-sync-cache/last-report.json` and sampling the generated cue boundaries, add `--write` to update the audio shortcode. Generated JSON under `static/audio-sync/` belongs in Git; MP3 files, Whisper models, transcripts, `.audio-sync-cache/`, virtual environments, and `.tmp/` files do not.
-
-See [scripts/README-audio-sync.md](scripts/README-audio-sync.md) for complete setup, model selection, batch-processing, cache, and offline-machine instructions.
+Generated JSON under `static/audio-sync/` belongs in Git. MP3 files, models, transcripts, `.audio-sync-cache/`, virtual environments, and temporary reports stay local; reusable transcripts must be handed over separately when moving to another machine. [AGENTS.md](AGENTS.md) contains the project working agreements. Commit requires explicit user confirmation; push and deployment require their own authorization.
 
 ## Music Library
 
@@ -199,10 +187,23 @@ For audio, verify the final filename, duration, chapter boundary, playback, and 
 
 ## Validation Before Committing
 
-At minimum, run:
+Run commands from the repository root. Build the site with:
 
 ```bash
 hugo --minify
+```
+
+Run the browser-behavior regression tests in PowerShell (no browser, audio files, or Whisper model required):
+
+```powershell
+$tests = Get-ChildItem scripts -Filter '*.test.cjs'
+node --test $tests.FullName
+```
+
+These cover reading progress, font/size preferences, mobile reading controls, audio-sync playback and lazy loading, and service-worker navigation. For changes to audio alignment, also run the Python regressions and follow the acceptance steps in the [audio-sync guide](scripts/README-audio-sync.md):
+
+```powershell
+.\.venv-audio-sync\Scripts\python.exe scripts\test_generate_audio_sync.py
 ```
 
 For interface changes, also check representative pages at approximately 320 px, 390 px, 768 px, and desktop widths. Confirm that there is no horizontal scrolling, navigation controls remain visible, chapter pagination is correct, and audio behavior works on both single- and multi-audio pages.
